@@ -1,0 +1,59 @@
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "*/15 * * * *" # every 15 mins
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write # for GitHub pages
+
+    steps:
+      - name: Checkout check program
+        uses: actions/checkout@v4
+
+      - name: Checkout feed state
+        uses: actions/checkout@v4
+        with:
+          ref: state
+          path: data
+
+      - name: Cache Build Outputs
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Run LWN check script
+        run: cargo run
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: data
+          file_pattern: tracked.json feed.xml
+          commit_message: "Update feed"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: data
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
