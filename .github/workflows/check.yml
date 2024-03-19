@@ -1,3 +1,5 @@
+name: Update feed
+
 on:
   push:
     branches: [main]
@@ -14,13 +16,13 @@ jobs:
       id-token: write # for GitHub pages
 
     steps:
-      - name: Checkout check program
+      - name: Checkout feed updater program
         uses: actions/checkout@v4
 
-      - name: Checkout feed state
+      - name: Checkout feed data
         uses: actions/checkout@v4
         with:
-          ref: state
+          ref: data
           path: data
 
       - name: Cache Build Outputs

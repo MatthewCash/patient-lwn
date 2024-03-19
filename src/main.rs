@@ -1,10 +1,76 @@
-use chrono::{DateTime, Duration, Utc};
-use rss::{Channel, Item};
+use chrono::{DateTime, NaiveDate, TimeZone, Utc};
+use regex::Regex;
+use rss::{Channel, Guid, Item};
+use serde::{Deserialize, Serialize};
 use serde_json::json;
 use std::error::Error;
 use std::process::exit;
 use std::{env, io::BufReader};
 use tokio::fs::{self, File, OpenOptions};
+
+#[derive(Serialize, Deserialize, Debug)]
+enum ArticleType {
+    Free,
+    Paid(DateTime<Utc>),
+}
+
+#[derive(Serialize, Deserialize, Debug)]
+struct TrackedArticle {
+    pub guid: Guid,
+    pub published: bool,
+    pub article_type: ArticleType,
+
+    pub item: Item,
+}
+
+async fn get_item_text(url: &str) -> Result<String, reqwest::Error> {
+    reqwest::get(url).await?.text().await
+}
+
+fn get_date_from_text(text: &str) -> Option<DateTime<Utc>> {
+    let regexp = Regex::new(r"freely\s*available\s*on\s*(\w+)\s*(\d{1,2}),\s*(\d{4})").ok()?;
+    let (_, [month, day, year]) = regexp.captures(text)?.extract();
+
+    Some(
+        Utc.from_utc_datetime(
+            &NaiveDate::parse_from_str(&format!("{} {}, {}", month, day, year), "%B %d, %Y")
+                .ok()?
+                .and_hms_opt(0, 0, 0)?,
+        ),
+    )
+}
+
+impl TrackedArticle {
+    pub async fn new(item: Item) -> Self {
+        let article_type = if item
+            .title
+            .as_ref()
+            .is_some_and(|title| title.starts_with("[$]"))
+        {
+            let text = get_item_text(item.link.as_ref().expect("Article missing link!"))
+                .await
+                .unwrap();
+            let date = get_date_from_text(&text).expect("Failed to get date from article text!");
+            ArticleType::Paid(date)
+        } else {
+            ArticleType::Free
+        };
+
+        TrackedArticle {
+            guid: item.guid.as_ref().expect("Article missing GUID!").clone(),
+            published: false,
+            item,
+            article_type,
+        }
+    }
+
+    fn should_publish(&self) -> bool {
+        match self.article_type {
+            ArticleType::Free => true,
+            ArticleType::Paid(date) => date < Utc::now(),
+        }
+    }
+}
 
 async fn get_input_feed() -> Result<Channel, Box<dyn Error>> {
     let feed_url = env::var("INPUT_FEED_URL")
@@ -43,31 +109,14 @@ fn get_tracked_items_path() -> String {
         .unwrap_or_else(|| "./data/tracked.json".into())
 }
 
-async fn get_tracked_items() -> Result<Vec<Item>, Box<dyn Error>> {
+async fn get_tracked_items() -> Result<Vec<TrackedArticle>, Box<dyn Error>> {
     Ok(serde_json::from_str(
         &fs::read_to_string(get_tracked_items_path()).await?,
     )?)
 }
 
-async fn save_tracked_items(tracked_items: &Vec<Item>) -> Result<(), std::io::Error> {
+async fn save_tracked_items(tracked_items: &Vec<TrackedArticle>) -> Result<(), std::io::Error> {
     fs::write(get_tracked_items_path(), json!(tracked_items).to_string()).await
-}
-
-fn is_paid(article: &Item) -> bool {
-    article
-        .title
-        .as_ref()
-        .is_some_and(|title| title.starts_with("[$]"))
-}
-
-fn is_old(article: &Item) -> bool {
-    let one_week_ago = Utc::now() - Duration::try_weeks(1).unwrap();
-
-    article
-        .pub_date
-        .as_ref()
-        .and_then(|date| DateTime::parse_from_rfc2822(date).ok())
-        .is_some_and(|date| date < one_week_ago)
 }
 
 #[tokio::main]
@@ -82,7 +131,7 @@ async fn main() {
         exit(1);
     });
 
-    let mut tracked_items = get_tracked_items().await.unwrap_or_else(|why| {
+    let mut tracked_articles = get_tracked_items().await.unwrap_or_else(|why| {
         eprintln!("Failed to get tracked articles: {:?}", why);
         exit(1);
     });
@@ -90,37 +139,40 @@ async fn main() {
     output_feed.set_pub_date(input_feed.pub_date.clone());
     output_feed.set_last_build_date(DateTime::to_rfc2822(&Utc::now()));
 
-    tracked_items.retain_mut(|article| {
+    tracked_articles.retain_mut(|article| {
         // If the article is old enough, publish it
-        if is_old(article) {
-            output_feed.items.insert(0, article.clone());
-            // Set the date far in the future so that it will never be published twice
-            article.set_pub_date("Sat, 31 Dec 9999 23:59:59 +1400".to_string())
+        if article.should_publish() {
+            output_feed.items.push(article.item.clone());
+            article.published = true;
         }
 
         // Stop tracking articles that are not in the feed and are free or new
-        (is_paid(article) && !is_old(article))
-            || input_feed
+        article.published
+            && !input_feed
                 .items()
                 .iter()
-                .any(|item| item.guid == article.guid)
+                .any(|item| *item.guid.as_ref().unwrap() == article.guid)
     });
 
-    input_feed.items.iter().for_each(|article| {
+    for item in &input_feed.items {
         // Only consider articles that we are not already tracking
-        if !tracked_items.iter().any(|item| item.guid == article.guid) {
-            tracked_items.push(article.clone());
+        if !tracked_articles
+            .iter()
+            .any(|article| *item.guid.as_ref().unwrap() == article.guid)
+        {
+            let article = TrackedArticle::new(item.clone()).await;
 
-            // If it is free, immediately publish it
-            if !is_paid(article) {
-                output_feed.items.push(article.clone());
+            if article.should_publish() {
+                output_feed.items.push(item.clone());
             }
+
+            tracked_articles.push(article);
         }
-    });
+    }
 
     output_feed.items.truncate(input_feed.items.len());
 
-    if let Err(why) = save_tracked_items(&tracked_items).await {
+    if let Err(why) = save_tracked_items(&tracked_articles).await {
         eprintln!("Failed to save tracked articles: {:?}", why);
     }
 
