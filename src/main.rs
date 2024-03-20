@@ -70,6 +70,17 @@ impl TrackedArticle {
             ArticleType::Paid(date) => date < Utc::now(),
         }
     }
+
+    fn publish_to(&mut self, to: &mut Vec<Item>) {
+        to.insert(0, self.item.clone());
+        self.published = true;
+    }
+
+    fn try_publish_to(&mut self, to: &mut Vec<Item>) {
+        if self.should_publish() {
+            self.publish_to(to)
+        }
+    }
 }
 
 async fn get_input_feed() -> Result<Channel, Box<dyn Error>> {
@@ -140,11 +151,7 @@ async fn main() {
     output_feed.set_last_build_date(DateTime::to_rfc2822(&Utc::now()));
 
     tracked_articles.retain_mut(|article| {
-        // If the article is old enough, publish it
-        if article.should_publish() {
-            output_feed.items.push(article.item.clone());
-            article.published = true;
-        }
+        article.try_publish_to(&mut output_feed.items);
 
         // Stop tracking articles that are not in the feed and are free or new
         article.published
@@ -160,11 +167,9 @@ async fn main() {
             .iter()
             .any(|article| *item.guid.as_ref().unwrap() == article.guid)
         {
-            let article = TrackedArticle::new(item.clone()).await;
+            let mut article = TrackedArticle::new(item.clone()).await;
 
-            if article.should_publish() {
-                output_feed.items.push(item.clone());
-            }
+            article.try_publish_to(&mut output_feed.items);
 
             tracked_articles.push(article);
         }
