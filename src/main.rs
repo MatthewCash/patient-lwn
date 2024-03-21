@@ -109,7 +109,7 @@ async fn save_output_feed(output_feed: &Channel) -> Result<(), Box<dyn Error>> {
         .open(get_output_feed_path())
         .await?;
 
-    output_feed.write_to(feed_file.into_std().await)?;
+    output_feed.pretty_write_to(feed_file.into_std().await, b' ', 4)?;
 
     Ok(())
 }
