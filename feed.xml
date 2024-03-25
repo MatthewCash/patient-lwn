@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 25 Mar 2024 17:43:26 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Mar 2024 17:46:43 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 Mar 2024 18:09:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -181,38 +181,6 @@ NEWS file</a> for a bit more information.]]></description>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Python announces first security releases since becoming a CNA</title>
-            <link>https://lwn.net/Articles/966056/</link>
-            <description><![CDATA[<p>The Python project has <a
-href="https://lwn.net/Articles/966069/">announced</a> three security releases, <a
-href="https://www.python.org/downloads/release/python-31014/">3.10.14</a>,
-<a href="https://www.python.org/downloads/release/python-3919/">3.9.19</a>,
-and <a href="https://www.python.org/downloads/release/python-3819/">3.8.19</a>.
-In addition to the security fixes, these releases are notable for two reasons;
-they are the first to make use of GitHub Actions to <a
-href="https://github.com/python/release-tools/actions/runs/8350750234">perform
-public builds</a> instead of building artifacts "<q>on a local computer of one
-of the release managers</q>", and the first since Python <a
-href="https://pyfound.blogspot.com/2023/08/psf-authorized-as-cna.html">became a
-CVE Numbering Authority</a> (CNA).</p>
-
-<p>Python release team member Łukasz Langa said
-that being a CNA means Python is able to "<q>ensure the quality of the vulnerability
-reports is high, and that the severity estimates are accurate.</q>" It also
-allows Python to coordinate CVE announcements with the patched versions of
-Python, as it has with two CVEs addressed in these releases. <s>CVE-2023-6597</s> <a
-href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a>
-describes a flaw in CPython's <tt>zipfile</tt> module that made it vulnerable to a <a
-href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <s>CVE-2024-0450</s> <a
-href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> is an
-issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
-exploited to modify permissions of files referenced by symbolic links. 
-Users of affected versions should upgrade soon.</p>]]></description>
-            <guid>https://lwn.net/Articles/966056/</guid>
-            <pubDate>Wed, 20 Mar 2024 16:42:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>GNOME 46 released</title>
             <link>https://lwn.net/Articles/966096/</link>
             <description><![CDATA[<a href="https://release.gnome.org/46/">Version 46</a> of the GNOME desktop
@@ -293,6 +261,18 @@ href="https://metacpan.org/release/PEVANS/perl-5.39.9/view/pod/perldelta.pod">th
 page</a> for details.]]></description>
             <guid>https://lwn.net/Articles/966181/</guid>
             <pubDate>Thu, 21 Mar 2024 11:16:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Rust 1.77.0 released</title>
+            <link>https://lwn.net/Articles/966205/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html">Version
+1.77.0</a> of the Rust language has been released.  Changes include support
+for NUL-terminated C-string literals, the ability for <tt>async</tt>
+functions to call themselves recursively, the stabilization of the
+<tt>offset_of!()</tt> macro, and more.]]></description>
+            <guid>https://lwn.net/Articles/966205/</guid>
+            <pubDate>Thu, 21 Mar 2024 13:48:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
