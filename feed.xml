@@ -8,22 +8,11 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 Mar 2024 11:01:59 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Mar 2024 11:06:36 +0000</lastBuildDate>
+        <pubDate>Mon, 25 Mar 2024 11:11:13 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Mar 2024 11:19:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
-        <item>
-            <title>Firefox 124.0 released</title>
-            <link>https://lwn.net/Articles/965959/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/124.0/releasenotes/">Version
-124.0</a> of the Firefox browser is out.  Changes include support for
-"caret browsing mode" in the PDF viewer and the ability to control the
-sorting of tabs in the Firefox View screen.]]></description>
-            <guid>https://lwn.net/Articles/965959/</guid>
-            <pubDate>Tue, 19 Mar 2024 16:57:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/966053/</link>
@@ -203,6 +192,26 @@ use-case, but not realistic in many cases).
             <guid>https://lwn.net/Articles/966525/</guid>
             <pubDate>Sun, 24 Mar 2024 23:10:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Emacs 29.3 released</title>
+            <link>https://lwn.net/Articles/966547/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/emacs-devel/86edbzyavw.fsf@gnu.org/">Version 29.3</a> of the
+Emacs editor has been released:
+<p>
+<blockquote class="bq">
+	Emacs 29.3 is an emergency bugfix release; it includes no new
+	features except a small number of changes intended to resolve
+	security vulnerabilities uncovered in Emacs 29.2.
+</blockquote>
+<p>
+Those vulnerabilities mostly have to do with executing untrusted Lisp code;
+see <a
+href="https://git.savannah.gnu.org/cgit/emacs.git/tree/etc/NEWS?h=emacs-29#n46">the
+NEWS file</a> for a bit more information.]]></description>
+            <guid>https://lwn.net/Articles/966547/</guid>
+            <pubDate>Mon, 25 Mar 2024 11:11:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
         </item>
         <item>
             <title>Firefox 124.0 released</title>
