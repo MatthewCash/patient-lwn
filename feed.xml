@@ -1,3 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>LWN.net</title><link>https://lwn.net</link><description>LWN.net is a comprehensive source of news and opinions from
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>LWN.net</title>
+        <link>https://lwn.net</link>
+        <description>LWN.net is a comprehensive source of news and opinions from
         and about the Linux community.  This is the main LWN.net feed,
-        listing all articles which are posted to the site front page.</description><language>en-us</language><webMaster>lwn@lwn.net</webMaster><pubDate></pubDate><lastBuildDate></lastBuildDate><docs>https://www.rssboard.org/rss-specification</docs><atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml"></atom:link></channel></rss>
+        listing all articles which are posted to the site front page.</description>
+        <language>en-us</language>
+        <webMaster>lwn@lwn.net</webMaster>
+        <pubDate>Mon, 25 Mar 2024 00:24:23 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Mar 2024 00:41:21 +0000</lastBuildDate>
+        <docs>https://www.rssboard.org/rss-specification</docs>
+        <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
+        </atom:link>
+        <item>
+            <title>Firefox 124.0 released</title>
+            <link>https://lwn.net/Articles/965959/</link>
+            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/124.0/releasenotes/">Version
+124.0</a> of the Firefox browser is out.  Changes include support for
+"caret browsing mode" in the PDF viewer and the ability to control the
+sorting of tabs in the Firefox View screen.]]></description>
+            <guid>https://lwn.net/Articles/965959/</guid>
+            <pubDate>Tue, 19 Mar 2024 16:57:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/966053/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (fontforge and imagemagick), <b>Fedora</b> (firefox), <b>Mageia</b> (cherrytree, python-django, qpdf, and sqlite3), <b>Red Hat</b> (bind, cups, emacs, fwupd, gmp, kernel, libreoffice, libX11, nodejs, opencryptoki, postgresql-jdbc, postgresql:10, postgresql:13, and ruby:3.1), <b>Slackware</b> (gnutls and mozilla), and <b>Ubuntu</b> (firefox, linux, linux-bluefield, linux-gcp, linux-gkeop, linux-hwe-5.4, linux-ibm,
+ linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-aws, linux-aws-5.4, linux-aws, linux-aws-6.5, and linux-oracle, linux-oracle-5.15).]]></description>
+            <guid>https://lwn.net/Articles/966053/</guid>
+            <pubDate>Wed, 20 Mar 2024 12:51:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Python announces first security releases since becoming a CNA</title>
+            <link>https://lwn.net/Articles/966056/</link>
+            <description><![CDATA[<p>The Python project has <a
+href="https://lwn.net/Articles/966069/">announced</a> three security releases, <a
+href="https://www.python.org/downloads/release/python-31014/">3.10.14</a>,
+<a href="https://www.python.org/downloads/release/python-3919/">3.9.19</a>,
+and <a href="https://www.python.org/downloads/release/python-3819/">3.8.19</a>.
+In addition to the security fixes, these releases are notable for two reasons;
+they are the first to make use of GitHub Actions to <a
+href="https://github.com/python/release-tools/actions/runs/8350750234">perform
+public builds</a> instead of building artifacts "<q>on a local computer of one
+of the release managers</q>", and the first since Python <a
+href="https://pyfound.blogspot.com/2023/08/psf-authorized-as-cna.html">became a
+CVE Numbering Authority</a> (CNA).</p>
+
+<p>Python release team member Łukasz Langa said
+that being a CNA means Python is able to "<q>ensure the quality of the vulnerability
+reports is high, and that the severity estimates are accurate.</q>" It also
+allows Python to coordinate CVE announcements with the patched versions of
+Python, as it has with two CVEs addressed in these releases. <s>CVE-2023-6597</s> <a
+href="https://www.cve.org/CVERecord?id=CVE-2024-0450">CVE-2024-0450</a>
+describes a flaw in CPython's <tt>zipfile</tt> module that made it vulnerable to a <a
+href="https://en.wikipedia.org/wiki/Zip_bomb">zip-bomb</a> exploit. <s>CVE-2024-0450</s> <a
+href="https://www.cve.org/CVERecord?id=CVE-2023-6597">CVE-2023-6597</a> is an
+issue with Python's <tt>tempfile.TemporaryDirectory</tt> class which could be
+exploited to modify permissions of files referenced by symbolic links. 
+Users of affected versions should upgrade soon.</p>]]></description>
+            <guid>https://lwn.net/Articles/966056/</guid>
+            <pubDate>Wed, 20 Mar 2024 16:42:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GNOME 46 released</title>
+            <link>https://lwn.net/Articles/966096/</link>
+            <description><![CDATA[<a href="https://release.gnome.org/46/">Version 46</a> of the GNOME desktop
+has been released.  "<q>GNOME 46 is code-named 'Kathmandu', in recognition
+of the amazing work done by the organizers of GNOME.Asia 2023.</q>"
+Significant changes include a new global search feature, enhancements to
+the Files app, improved remote login support, and more.]]></description>
+            <guid>https://lwn.net/Articles/966096/</guid>
+            <pubDate>Wed, 20 Mar 2024 21:07:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>The &quot;Nova&quot; driver for NVIDIA chipsets</title>
+            <link>https://lwn.net/Articles/966129/</link>
+            <description><![CDATA[Danilo Krummrich has <a
+href="https://lwn.net/ml/nouveau/Zfsj0_tb-0-tNrJy@cassiopeiae/">announced</a> the
+existence of the "Nova" project within Red Hat.
+<p>
+<blockquote class="bq">
+	We just started to work on Nova, a Rust-based GSP-only driver for
+	Nvidia GPUs. Nova, in the long term, is intended to serve as the
+	successor of Nouveau for GSP-firmware-based GPUs.
+<p>
+	With Nova we see the chance to significantly decrease the
+	complexity of the driver compared to Nouveau for mainly two
+	reasons. First, Nouveau's historic architecture, especially around
+	nvif/nvkm, is rather complicated and inflexible and requires major
+	rework to solve certain problems (such as locking hierarchy in VMM
+	/ MMU code for VM_BIND currently being solved with a workaround)
+	and second, with a GSP-only driver there is no need to maintain
+	compatibility with pre-GSP code.
+<p>
+	Besides that, we also want to take the chance to contribute to the
+	Rust efforts in the kernel and benefit from from more memory safety
+	offered by the Rust programming language.
+</blockquote>
+<p>
+Given that the effort has just begun, it will be a while before this driver
+shows up in a distribution release.]]></description>
+            <guid>https://lwn.net/Articles/966129/</guid>
+            <pubDate>Thu, 21 Mar 2024 07:10:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Redis is no longer free software</title>
+            <link>https://lwn.net/Articles/966133/</link>
+            <description><![CDATA[The Redis in-memory database system has <a
+href="https://redis.com/blog/redis-adopts-dual-source-available-licensing/">had
+its license changed</a> to either the <a
+href="https://redis.com/legal/rsalv2-agreement/">Redis Source Available
+License</a> or the <a
+href="https://redis.com/legal/server-side-public-license-sspl/">Server Side
+Public License</a> (<a href="https://lwn.net/Articles/768670/">covered here</a> in 2018);
+neither license qualifies as free software.
+<p>
+<blockquote class="bq">
+	Under the new license, cloud service providers hosting Redis
+	offerings will no longer be permitted to use the source code of
+	Redis free of charge. For example, cloud service providers will be
+	able to deliver Redis 7.4 only after agreeing to licensing terms
+	with Redis, the maintainers of the Redis code.
+</blockquote>
+<p>
+Distributors like Fedora are already <a
+href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
+at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).]]></description>
+            <guid>https://lwn.net/Articles/966133/</guid>
+            <pubDate>Thu, 21 Mar 2024 07:33:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Perl 5.39.9 released</title>
+            <link>https://lwn.net/Articles/966181/</link>
+            <description><![CDATA[Verson 5.39.9 of the Perl language has been released.  Changes this time
+include a new "medium-precedence" logical exclusive-or operator, a number
+of updated modules, and more; see <a
+href="https://metacpan.org/release/PEVANS/perl-5.39.9/view/pod/perldelta.pod">this
+page</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/966181/</guid>
+            <pubDate>Thu, 21 Mar 2024 11:16:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Rust 1.77.0 released</title>
+            <link>https://lwn.net/Articles/966205/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html">Version
+1.77.0</a> of the Rust language has been released.  Changes include support
+for NUL-terminated C-string literals, the ability for <tt>async</tt>
+functions to call themselves recursively, the stabilization of the
+<tt>offset_of!()</tt> macro, and more.]]></description>
+            <guid>https://lwn.net/Articles/966205/</guid>
+            <pubDate>Thu, 21 Mar 2024 13:48:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/966246/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (pdns-recursor and php-dompdf-svg-lib), <b>Fedora</b> (grub2, libreswan, rubygem-yard, and thunderbird), <b>Mageia</b> (libtiff and python-scipy), <b>Red Hat</b> (golang, nodejs, and nodejs:16), <b>Slackware</b> (python3), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-5.15, linux-azure-fde,
+ linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
+ linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm,
+ linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux, linux-azure, linux-gcp, linux-gcp-6.5, linux-hwe-6.5,
+ linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oem-6.5, linux-oracle,
+ linux-oracle-6.5, linux-raspi, linux-starfive, linux-starfive-6.5, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-raspi, linux-raspi-5.4,
+ linux-xilinx-zynqmp, linux-gcp, linux-gcp-4.15, linux-kvm, linux-laptop, linux-oem-6.1, and linux-raspi).]]></description>
+            <guid>https://lwn.net/Articles/966246/</guid>
+            <pubDate>Thu, 21 Mar 2024 14:57:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/966415/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, pillow, and thunderbird), <b>Fedora</b> (apptainer, chromium, ovn, and webkitgtk), <b>Mageia</b> (apache-mod_auth_openidc, ffmpeg, fontforge, libuv, and nodejs-tough-cookie), <b>Oracle</b> (kernel, libreoffice, postgresql-jdbc, ruby:3.1, squid, and squid:4), <b>Red Hat</b> (go-toolset:rhel8 and libreoffice), <b>SUSE</b> (firefox, jbcrypt, trilead-ssh2, jsch-agent-proxy, kernel, tiff, and zziplib), and <b>Ubuntu</b> (linux-aws and openssl1.0).]]></description>
+            <guid>https://lwn.net/Articles/966415/</guid>
+            <pubDate>Fri, 22 Mar 2024 12:50:22 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Kernel prepatch 6.9-rc1</title>
+            <link>https://lwn.net/Articles/966525/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/966524/">6.9-rc1</a> kernel prepatch is out for
+testing.  Linus Torvalds described some rather large updates to the core
+kernel code that are coming for 6.9:
+
+<blockquote class="bq">
+The timer subsystem had a fairly big rewrite, to have per-cpu timer
+wheels to improve performance of timers, which can be a big deal
+particularly for networking. The other fairly notable core update is
+to the workqueue subsystem, where one notable addition is for BH
+workqueue support. That's notable mainly because it means we finally
+have a way away from tasklets. The tasklet interface has basically
+been deprecated for a long while, but we've never really had any good
+alternatives (with threaded interrupt handlers being one suggested
+use-case, but not realistic in many cases).
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/966525/</guid>
+            <pubDate>Sun, 24 Mar 2024 23:10:05 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+    </channel>
+</rss>
