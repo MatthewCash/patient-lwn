@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 25 Mar 2024 16:08:22 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Mar 2024 16:09:08 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 25 Mar 2024 16:27:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -213,15 +213,6 @@ NEWS file</a> for a bit more information.]]></description>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/966053/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (fontforge and imagemagick), <b>Fedora</b> (firefox), <b>Mageia</b> (cherrytree, python-django, qpdf, and sqlite3), <b>Red Hat</b> (bind, cups, emacs, fwupd, gmp, kernel, libreoffice, libX11, nodejs, opencryptoki, postgresql-jdbc, postgresql:10, postgresql:13, and ruby:3.1), <b>Slackware</b> (gnutls and mozilla), and <b>Ubuntu</b> (firefox, linux, linux-bluefield, linux-gcp, linux-gkeop, linux-hwe-5.4, linux-ibm,
- linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-aws, linux-aws-5.4, linux-aws, linux-aws-6.5, and linux-oracle, linux-oracle-5.15).]]></description>
-            <guid>https://lwn.net/Articles/966053/</guid>
-            <pubDate>Wed, 20 Mar 2024 12:51:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Python announces first security releases since becoming a CNA</title>
             <link>https://lwn.net/Articles/966056/</link>
             <description><![CDATA[<p>The Python project has <a
@@ -295,6 +286,33 @@ Given that the effort has just begun, it will be a while before this driver
 shows up in a distribution release.]]></description>
             <guid>https://lwn.net/Articles/966129/</guid>
             <pubDate>Thu, 21 Mar 2024 07:10:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Redis is no longer free software</title>
+            <link>https://lwn.net/Articles/966133/</link>
+            <description><![CDATA[The Redis in-memory database system has <a
+href="https://redis.com/blog/redis-adopts-dual-source-available-licensing/">had
+its license changed</a> to either the <a
+href="https://redis.com/legal/rsalv2-agreement/">Redis Source Available
+License</a> or the <a
+href="https://redis.com/legal/server-side-public-license-sspl/">Server Side
+Public License</a> (<a href="https://lwn.net/Articles/768670/">covered here</a> in 2018);
+neither license qualifies as free software.
+<p>
+<blockquote class="bq">
+	Under the new license, cloud service providers hosting Redis
+	offerings will no longer be permitted to use the source code of
+	Redis free of charge. For example, cloud service providers will be
+	able to deliver Redis 7.4 only after agreeing to licensing terms
+	with Redis, the maintainers of the Redis code.
+</blockquote>
+<p>
+Distributors like Fedora are already <a
+href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
+at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).]]></description>
+            <guid>https://lwn.net/Articles/966133/</guid>
+            <pubDate>Thu, 21 Mar 2024 07:33:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
