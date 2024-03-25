@@ -30,6 +30,7 @@ pub async fn get_output_feed() -> Result<Channel, Box<dyn Error>> {
 pub async fn save_output_feed(output_feed: &Channel) -> Result<(), Box<dyn Error>> {
     let feed_file = OpenOptions::new()
         .write(true)
+        .truncate(true)
         .open(get_output_feed_path())
         .await?;
 
