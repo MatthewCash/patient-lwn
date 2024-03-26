@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 26 Mar 2024 22:12:59 +0000</pubDate>
-        <lastBuildDate>Tue, 26 Mar 2024 22:46:59 +0000</lastBuildDate>
+        <pubDate>Tue, 26 Mar 2024 22:59:30 +0000</pubDate>
+        <lastBuildDate>Tue, 26 Mar 2024 23:07:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -177,6 +177,22 @@ NEWS file</a> for a bit more information.]]></description>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
+            <title>Eight new stable kernels</title>
+            <link>https://lwn.net/Articles/966755/</link>
+            <description><![CDATA[Sasha Levin has announced the release of the <a
+href="https://lwn.net/Articles/966756/">6.8.2</a>, <a href="https://lwn.net/Articles/966757/">6.7.11</a>,
+<a href="https://lwn.net/Articles/966758/">6.6.23</a>, <a
+href="https://lwn.net/Articles/966759/">6.1.83</a>, <a
+href="https://lwn.net/Articles/966760/">5.15.153</a>, <a
+href="https://lwn.net/Articles/966761/">5.10.214</a>, <a
+href="https://lwn.net/Articles/966762/">5.4.273</a>, and <a
+href="https://lwn.net/Articles/966763/">4.19.311</a> stable kernels.  Each contains a long
+list of important fixes throughout the kernel tree.]]></description>
+            <guid>https://lwn.net/Articles/966755/</guid>
+            <pubDate>Tue, 26 Mar 2024 22:59:30 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
             <title>The &quot;Nova&quot; driver for NVIDIA chipsets</title>
             <link>https://lwn.net/Articles/966129/</link>
             <description><![CDATA[Danilo Krummrich has <a
@@ -258,20 +274,6 @@ functions to call themselves recursively, the stabilization of the
             <guid>https://lwn.net/Articles/966205/</guid>
             <pubDate>Thu, 21 Mar 2024 13:48:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/966246/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (pdns-recursor and php-dompdf-svg-lib), <b>Fedora</b> (grub2, libreswan, rubygem-yard, and thunderbird), <b>Mageia</b> (libtiff and python-scipy), <b>Red Hat</b> (golang, nodejs, and nodejs:16), <b>Slackware</b> (python3), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-5.15, linux-azure-fde,
- linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
- linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm,
- linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux, linux-azure, linux-gcp, linux-gcp-6.5, linux-hwe-6.5,
- linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oem-6.5, linux-oracle,
- linux-oracle-6.5, linux-raspi, linux-starfive, linux-starfive-6.5, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-raspi, linux-raspi-5.4,
- linux-xilinx-zynqmp, linux-gcp, linux-gcp-4.15, linux-kvm, linux-laptop, linux-oem-6.1, and linux-raspi).]]></description>
-            <guid>https://lwn.net/Articles/966246/</guid>
-            <pubDate>Thu, 21 Mar 2024 14:57:19 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
