@@ -8,43 +8,11 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Mar 2024 11:15:48 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Mar 2024 13:07:00 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2024 13:18:26 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 13:22:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
-        <item>
-            <title>The &quot;Nova&quot; driver for NVIDIA chipsets</title>
-            <link>https://lwn.net/Articles/966129/</link>
-            <description><![CDATA[Danilo Krummrich has <a
-href="https://lwn.net/ml/nouveau/Zfsj0_tb-0-tNrJy@cassiopeiae/">announced</a> the
-existence of the "Nova" project within Red Hat.
-<p>
-<blockquote class="bq">
-	We just started to work on Nova, a Rust-based GSP-only driver for
-	Nvidia GPUs. Nova, in the long term, is intended to serve as the
-	successor of Nouveau for GSP-firmware-based GPUs.
-<p>
-	With Nova we see the chance to significantly decrease the
-	complexity of the driver compared to Nouveau for mainly two
-	reasons. First, Nouveau's historic architecture, especially around
-	nvif/nvkm, is rather complicated and inflexible and requires major
-	rework to solve certain problems (such as locking hierarchy in VMM
-	/ MMU code for VM_BIND currently being solved with a workaround)
-	and second, with a GSP-only driver there is no need to maintain
-	compatibility with pre-GSP code.
-<p>
-	Besides that, we also want to take the chance to contribute to the
-	Rust efforts in the kernel and benefit from from more memory safety
-	offered by the Rust programming language.
-</blockquote>
-<p>
-Given that the effort has just begun, it will be a while before this driver
-shows up in a distribution release.]]></description>
-            <guid>https://lwn.net/Articles/966129/</guid>
-            <pubDate>Thu, 21 Mar 2024 07:10:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
         <item>
             <title>Redis is no longer free software</title>
             <link>https://lwn.net/Articles/966133/</link>
@@ -191,6 +159,14 @@ list of important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/966755/</guid>
             <pubDate>Tue, 26 Mar 2024 22:59:30 +0000</pubDate>
             <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/966835/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (composer and nodejs), <b>Fedora</b> (w3m), <b>Mageia</b> (tomcat), <b>Oracle</b> (expat, firefox, go-toolset:ol8, grafana, grafana-pcp, nodejs:18, and thunderbird), <b>Red Hat</b> (dnsmasq, expat, kernel, kernel-rt, libreoffice, and squid), and <b>SUSE</b> (firefox, krb5, libvirt, and shadow).]]></description>
+            <guid>https://lwn.net/Articles/966835/</guid>
+            <pubDate>Wed, 27 Mar 2024 13:18:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
         </item>
         <item>
             <title>The &quot;Nova&quot; driver for NVIDIA chipsets</title>
