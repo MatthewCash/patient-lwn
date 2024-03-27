@@ -8,23 +8,11 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Mar 2024 15:42:43 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Mar 2024 15:46:40 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2024 15:51:25 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 16:10:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
-        <item>
-            <title>Perl 5.39.9 released</title>
-            <link>https://lwn.net/Articles/966181/</link>
-            <description><![CDATA[Verson 5.39.9 of the Perl language has been released.  Changes this time
-include a new "medium-precedence" logical exclusive-or operator, a number
-of updated modules, and more; see <a
-href="https://metacpan.org/release/PEVANS/perl-5.39.9/view/pod/perldelta.pod">this
-page</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/966181/</guid>
-            <pubDate>Thu, 21 Mar 2024 11:16:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
         <item>
             <title>Rust 1.77.0 released</title>
             <link>https://lwn.net/Articles/966205/</link>
@@ -142,30 +130,23 @@ list of important fixes throughout the kernel tree.]]></description>
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
-            <title>Redis is no longer free software</title>
-            <link>https://lwn.net/Articles/966133/</link>
-            <description><![CDATA[The Redis in-memory database system has <a
-href="https://redis.com/blog/redis-adopts-dual-source-available-licensing/">had
-its license changed</a> to either the <a
-href="https://redis.com/legal/rsalv2-agreement/">Redis Source Available
-License</a> or the <a
-href="https://redis.com/legal/server-side-public-license-sspl/">Server Side
-Public License</a> (<a href="https://lwn.net/Articles/768670/">covered here</a> in 2018);
-neither license qualifies as free software.
+            <title>The PostgreSQL community mourns Simon Riggs</title>
+            <link>https://lwn.net/Articles/966868/</link>
+            <description><![CDATA[The PostgreSQL community is dealing with the loss of Simon Riggs, who
+passed away on March&nbsp;26:
 <p>
 <blockquote class="bq">
-	Under the new license, cloud service providers hosting Redis
-	offerings will no longer be permitted to use the source code of
-	Redis free of charge. For example, cloud service providers will be
-	able to deliver Redis 7.4 only after agreeing to licensing terms
-	with Redis, the maintainers of the Redis code.
-</blockquote>
-<p>
-Distributors like Fedora are already <a
-href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
-at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).]]></description>
-            <guid>https://lwn.net/Articles/966133/</guid>
-            <pubDate>Thu, 21 Mar 2024 07:33:03 +0000</pubDate>
+	Simon was responsible for many of the enterprise features we find
+	in PostgreSQL today, including point in time recovery, hot standby,
+	and synchronous replication. He was the founder of 2ndQuadrant
+	which employed many of the PostgreSQL developers, later becoming
+	part of EDB where he worked as a Postgres Fellow until his
+	retirement. He was responsible for the UK PostgreSQL conferences
+	for many years until he passed that responsibility to PostgreSQL
+	Europe last year.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/966868/</guid>
+            <pubDate>Wed, 27 Mar 2024 15:51:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
@@ -213,6 +194,28 @@ functions to call themselves recursively, the stabilization of the
             <guid>https://lwn.net/Articles/966415/</guid>
             <pubDate>Fri, 22 Mar 2024 12:50:22 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Kernel prepatch 6.9-rc1</title>
+            <link>https://lwn.net/Articles/966525/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/966524/">6.9-rc1</a> kernel prepatch is out for
+testing.  Linus Torvalds described some rather large updates to the core
+kernel code that are coming for 6.9:
+
+<blockquote class="bq">
+The timer subsystem had a fairly big rewrite, to have per-cpu timer
+wheels to improve performance of timers, which can be a big deal
+particularly for networking. The other fairly notable core update is
+to the workqueue subsystem, where one notable addition is for BH
+workqueue support. That's notable mainly because it means we finally
+have a way away from tasklets. The tasklet interface has basically
+been deprecated for a long while, but we've never really had any good
+alternatives (with threaded interrupt handlers being one suggested
+use-case, but not realistic in many cases).
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/966525/</guid>
+            <pubDate>Sun, 24 Mar 2024 23:10:05 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
