@@ -8,38 +8,11 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Mar 2024 15:13:20 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Mar 2024 15:32:10 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Mar 2024 15:42:43 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Mar 2024 15:46:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
-        <item>
-            <title>Redis is no longer free software</title>
-            <link>https://lwn.net/Articles/966133/</link>
-            <description><![CDATA[The Redis in-memory database system has <a
-href="https://redis.com/blog/redis-adopts-dual-source-available-licensing/">had
-its license changed</a> to either the <a
-href="https://redis.com/legal/rsalv2-agreement/">Redis Source Available
-License</a> or the <a
-href="https://redis.com/legal/server-side-public-license-sspl/">Server Side
-Public License</a> (<a href="https://lwn.net/Articles/768670/">covered here</a> in 2018);
-neither license qualifies as free software.
-<p>
-<blockquote class="bq">
-	Under the new license, cloud service providers hosting Redis
-	offerings will no longer be permitted to use the source code of
-	Redis free of charge. For example, cloud service providers will be
-	able to deliver Redis 7.4 only after agreeing to licensing terms
-	with Redis, the maintainers of the Redis code.
-</blockquote>
-<p>
-Distributors like Fedora are already <a
-href="https://lwn.net/ml/fedora-devel/CAEg-Je_GoiJN6kOj1_K5WqTvA6n0j8r4fi9=C7-WbXLHovM3ow@mail.gmail.com/">looking
-at</a> removing Redis as a consequence.  (Thanks to  Emmanuel Seyman).]]></description>
-            <guid>https://lwn.net/Articles/966133/</guid>
-            <pubDate>Thu, 21 Mar 2024 07:33:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
         <item>
             <title>Perl 5.39.9 released</title>
             <link>https://lwn.net/Articles/966181/</link>
@@ -232,6 +205,14 @@ functions to call themselves recursively, the stabilization of the
             <guid>https://lwn.net/Articles/966246/</guid>
             <pubDate>Thu, 21 Mar 2024 14:57:19 +0000</pubDate>
             <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/966415/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, pillow, and thunderbird), <b>Fedora</b> (apptainer, chromium, ovn, and webkitgtk), <b>Mageia</b> (apache-mod_auth_openidc, ffmpeg, fontforge, libuv, and nodejs-tough-cookie), <b>Oracle</b> (kernel, libreoffice, postgresql-jdbc, ruby:3.1, squid, and squid:4), <b>Red Hat</b> (go-toolset:rhel8 and libreoffice), <b>SUSE</b> (firefox, jbcrypt, trilead-ssh2, jsch-agent-proxy, kernel, tiff, and zziplib), and <b>Ubuntu</b> (linux-aws and openssl1.0).]]></description>
+            <guid>https://lwn.net/Articles/966415/</guid>
+            <pubDate>Fri, 22 Mar 2024 12:50:22 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
