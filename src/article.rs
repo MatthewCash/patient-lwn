@@ -12,7 +12,7 @@ pub enum ArticleType {
 #[derive(Serialize, Deserialize, Debug)]
 pub struct TrackedArticle {
     pub guid: Guid,
-    pub published: bool,
+    pub published: Option<DateTime<Utc>>,
     pub article_type: ArticleType,
 
     pub item: Item,
@@ -53,7 +53,7 @@ impl TrackedArticle {
 
         TrackedArticle {
             guid: item.guid.as_ref().expect("Article missing GUID!").clone(),
-            published: false,
+            published: None,
             item,
             article_type,
         }
@@ -68,7 +68,7 @@ impl TrackedArticle {
 
     pub fn publish_to(&mut self, to: &mut Vec<Item>) {
         to.insert(0, self.item.clone());
-        self.published = true;
+        self.published = Some(Utc::now());
     }
 
     pub fn try_publish_to(&mut self, to: &mut Vec<Item>) {
