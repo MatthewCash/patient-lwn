@@ -49,8 +49,6 @@ async fn main() {
         }
     }
 
-    output_feed.items.truncate(input_feed.items.len());
-
     if let Err(why) = data::save_tracked_items(&tracked_articles).await {
         eprintln!("Failed to save tracked articles: {:?}", why);
     }
