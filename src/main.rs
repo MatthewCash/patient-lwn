@@ -1,5 +1,5 @@
 use article::TrackedArticle;
-use chrono::{DateTime, Duration, Utc};
+use chrono::{DateTime, Utc};
 use std::process::exit;
 
 mod article;
@@ -29,10 +29,7 @@ async fn main() {
         article.try_publish_to(&mut output_feed.items);
 
         // Stop tracking articles that have been published over 1 week ago
-        article
-            .published
-            .map(|date| Utc::now() - date > Duration::try_weeks(1).unwrap())
-            .is_some()
+        !article.should_still_track()
     });
 
     for item in &input_feed.items {
@@ -48,6 +45,13 @@ async fn main() {
             tracked_articles.push(article);
         }
     }
+
+    // Remove articles from output feed if they are not tracked
+    output_feed.items.retain_mut(|item| {
+        tracked_articles
+            .iter()
+            .any(|article| *item.guid.as_ref().unwrap() == article.guid)
+    });
 
     if let Err(why) = data::save_tracked_items(&tracked_articles).await {
         eprintln!("Failed to save tracked articles: {:?}", why);

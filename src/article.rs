@@ -1,4 +1,4 @@
-use chrono::{DateTime, NaiveDate, TimeZone, Utc};
+use chrono::{DateTime, Duration, NaiveDate, TimeZone, Utc};
 use regex::Regex;
 use rss::{Guid, Item};
 use serde::{Deserialize, Serialize};
@@ -75,5 +75,11 @@ impl TrackedArticle {
         if self.should_publish() {
             self.publish_to(to)
         }
+    }
+
+    pub fn should_still_track(&self) -> bool {
+        !self
+            .published
+            .is_some_and(|date| Utc::now() - date > Duration::try_weeks(1).unwrap())
     }
 }
