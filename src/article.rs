@@ -60,10 +60,11 @@ impl TrackedArticle {
     }
 
     pub fn should_publish(&self) -> bool {
-        match self.article_type {
-            ArticleType::Free => true,
-            ArticleType::Paid(date) => date < Utc::now(),
-        }
+        self.published.is_none()
+            && match self.article_type {
+                ArticleType::Free => true,
+                ArticleType::Paid(date) => date < Utc::now(),
+            }
     }
 
     pub fn publish_to(&mut self, to: &mut Vec<Item>) {
