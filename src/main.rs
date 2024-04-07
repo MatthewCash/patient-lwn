@@ -47,7 +47,7 @@ async fn main() {
     }
 
     // Remove articles from output feed if they are not tracked
-    output_feed.items.retain_mut(|item| {
+    output_feed.items.retain(|item| {
         tracked_articles
             .iter()
             .any(|article| *item.guid.as_ref().unwrap() == article.guid)
