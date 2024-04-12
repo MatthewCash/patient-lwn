@@ -6,6 +6,9 @@ on:
   schedule:
     - cron: "*/15 * * * *" # every 15 mins
 
+concurrency:
+  group: ${{ github.workflow }}
+
 jobs:
   check:
     runs-on: ubuntu-latest
