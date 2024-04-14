@@ -29,7 +29,7 @@ async fn main() {
         article.try_publish_to(&mut output_feed.items);
 
         // Stop tracking articles that have been published over 1 week ago
-        !article.should_still_track()
+        article.should_still_track()
     });
 
     for item in &input_feed.items {
