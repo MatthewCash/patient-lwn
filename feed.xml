@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 14 Apr 2024 18:43:16 +0000</pubDate>
-        <lastBuildDate>Sun, 14 Apr 2024 19:11:48 +0000</lastBuildDate>
+        <pubDate>Sun, 14 Apr 2024 21:18:44 +0000</pubDate>
+        <lastBuildDate>Sun, 14 Apr 2024 22:02:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.9-rc4</title>
+            <link>https://lwn.net/Articles/969791/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/969790/">6.9-rc4</a> kernel prepatch is out for
+testing.  "<q>Nothing particularly unusual going on this week - some new hw
+mitigations may stand out, but after a decade of this I can't really call
+it 'unusual' any more, can I?</q>"]]></description>
+            <guid>https://lwn.net/Articles/969791/</guid>
+            <pubDate>Sun, 14 Apr 2024 21:18:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OpenSSL 3.3.0 released</title>
             <link>https://lwn.net/Articles/969172/</link>
