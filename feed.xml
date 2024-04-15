@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Apr 2024 16:31:53 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Apr 2024 16:46:52 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Apr 2024 17:03:58 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Apr 2024 17:06:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSSF and OpenJS warn about social-engineering attacks</title>
+            <link>https://lwn.net/Articles/969919/</link>
+            <description><![CDATA[The Open Source Security Foundation and the OpenJS Foundation have jointly
+posted <a
+href="https://openssf.org/blog/2024/04/15/open-source-security-openssf-and-openjs-foundations-issue-alert-for-social-engineering-takeovers-of-open-source-projects/">a
+warning about XZ-like social-engineering attacks</a> after OpenJS was
+seemingly targeted.
+<p>
+<blockquote class="bq">
+	The OpenJS Foundation Cross Project Council received a suspicious
+	series of emails with similar messages, bearing different names and
+	overlapping GitHub-associated emails. These emails implored OpenJS
+	to take action to update one of its popular JavaScript projects to
+	"address any critical vulnerabilities," yet cited no specifics. The
+	email author(s) wanted OpenJS to designate them as a new maintainer
+	of the project despite having little prior involvement.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/969919/</guid>
+            <pubDate>Mon, 15 Apr 2024 16:48:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/969873/</link>
