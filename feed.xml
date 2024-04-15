@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Apr 2024 13:30:22 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Apr 2024 13:32:21 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Apr 2024 13:44:06 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Apr 2024 13:47:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/969873/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind and dhcp, bind9.16, gnutls, httpd:2.4/mod_http2, squid:4, and unbound), <b>Debian</b> (kernel, trafficserver, and xorg-server), <b>Fedora</b> (chromium, kernel, libopenmpt, and rust-h2), <b>Mageia</b> (apache-mod_jk, golang, indent, openssl, perl-HTTP-Body, php, rear, ruby-rack, squid, varnish, and xfig), <b>Oracle</b> (bind, squid, unbound, and X.Org server), <b>Red Hat</b> (bind and dhcp and unbound), <b>Slackware</b> (less and php), <b>SUSE</b> (gnutls, python-Pillow, webkit2gtk3, xen, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (yard).]]></description>
+            <guid>https://lwn.net/Articles/969873/</guid>
+            <pubDate>Mon, 15 Apr 2024 13:42:42 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.9-rc4</title>
             <link>https://lwn.net/Articles/969791/</link>
