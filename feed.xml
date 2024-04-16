@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 16 Apr 2024 13:36:21 +0000</pubDate>
-        <lastBuildDate>Tue, 16 Apr 2024 13:46:59 +0000</lastBuildDate>
+        <pubDate>Tue, 16 Apr 2024 14:00:20 +0000</pubDate>
+        <lastBuildDate>Tue, 16 Apr 2024 14:07:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/970036/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (php7.4 and php8.2), <b>Fedora</b> (c-ares), <b>Mageia</b> (python-pillow and upx), <b>Oracle</b> (bind and dhcp, bind9.16, httpd:2.4/mod_http2, kernel, rear, and unbound), <b>SUSE</b> (eclipse, maven-surefire, tycho, emacs, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, nodejs16, nodejs18, nodejs20, texlive, vim, webkit2gtk3, and xen), and <b>Ubuntu</b> (gnutls28, klibc, libvirt, nodejs, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/970036/</guid>
+            <pubDate>Tue, 16 Apr 2024 14:00:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OpenSSF and OpenJS warn about social-engineering attacks</title>
             <link>https://lwn.net/Articles/969919/</link>
