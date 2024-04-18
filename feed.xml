@@ -8,11 +8,68 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Apr 2024 22:44:36 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Apr 2024 23:46:41 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Apr 2024 00:29:21 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Apr 2024 00:32:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] The first Linaro Forum for Arm Linux kernel topics</title>
+            <link>https://lwn.net/Articles/969031/</link>
+            <description><![CDATA[On February 20, <a href="https://linaro.org/">Linaro</a> held the initial
+get-together for what is intended to be a regular Linux Kernel Forum for
+the Arm-focused kernel community. This gathering aims to convene
+approximately a few weeks prior to the merge window opening and prior to
+the release of the current kernel version under development.  Topics
+covered in the first gathering include preparing 64-bit Arm kernels for
+low-end embedded systems, memory errors and <a
+href="https://en.wikipedia.org/wiki/Compute_Express_Link">Compute Express
+Link (CXL)</a>, devlink objectives, and scheduler integration.]]></description>
+            <guid>https://lwn.net/Articles/969031/</guid>
+            <pubDate>Tue, 09 Apr 2024 14:50:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Continued attacks on HTTP/2</title>
+            <link>https://lwn.net/Articles/968600/</link>
+            <description><![CDATA[<p>
+On April 3 security researcher Bartek Nowotarski
+<a href="https://nowotarski.info/http2-continuation-flood-technical-details/">
+published</a> the details of a new denial-of-service (DoS)
+attack, called a "continuation flood", against many
+<a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2</a>-capable web
+servers. While the attack is not terribly complex, it affects many independent
+implementations of the HTTP/2 protocol, even though multiple
+similar vulnerabilities over the years have given implementers plenty of warning.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/968600/</guid>
+            <pubDate>Wed, 10 Apr 2024 13:52:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Book review: Practical Julia</title>
+            <link>https://lwn.net/Articles/966684/</link>
+            <description><![CDATA[A recent book by <a
+href="https://lwn.net/Archives/GuestIndex/#Phillips_Lee">LWN guest 
+author Lee Phillips</a> provides a nice introduction to the <a
+href="https://julialang.org/">Julia</a> programming language.
+<a href="https://nostarch.com/practical-julia"><i>Practical Julia</i></a>
+does more than that, however.  As its subtitle ("A Hands-On Introduction
+for Scientific Minds") implies, the book focuses on bringing Julia to
+scientists, rather than programmers, which gives it something of a
+different feel from most other books of this sort.]]></description>
+            <guid>https://lwn.net/Articles/966684/</guid>
+            <pubDate>Wed, 10 Apr 2024 14:31:33 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] LWN.net Weekly Edition for April 11, 2024</title>
+            <link>https://lwn.net/Articles/968375/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for April 11, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/968375/</guid>
+            <pubDate>Thu, 11 Apr 2024 00:47:49 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Four more stable kernels</title>
             <link>https://lwn.net/Articles/970086/</link>
