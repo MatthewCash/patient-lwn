@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 21 Apr 2024 21:14:05 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Apr 2024 21:47:01 +0000</lastBuildDate>
+        <pubDate>Sun, 21 Apr 2024 21:56:38 +0000</pubDate>
+        <lastBuildDate>Sun, 21 Apr 2024 22:07:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.9-rc5</title>
+            <link>https://lwn.net/Articles/970667/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/970666/">released 6.9-rc5</a> for testing.
+<p>
+<blockquote class="bq">
+	But if you ignore those oddities, it all looks pretty normal and
+	things appear fairly calm. Which is just as well, since the first
+	part of the week I was on a quick trip to Seattle, and the second
+	part of the week I've been doing a passable imitation of the
+	Fontana di Trevi, except my medium is mucus.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/970667/</guid>
+            <pubDate>Sun, 21 Apr 2024 21:55:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/970508/</link>
@@ -170,17 +186,6 @@ seemingly targeted.
             <guid>https://lwn.net/Articles/969873/</guid>
             <pubDate>Mon, 15 Apr 2024 13:42:42 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.9-rc4</title>
-            <link>https://lwn.net/Articles/969791/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/969790/">6.9-rc4</a> kernel prepatch is out for
-testing.  "<q>Nothing particularly unusual going on this week - some new hw
-mitigations may stand out, but after a decade of this I can't really call
-it 'unusual' any more, can I?</q>"]]></description>
-            <guid>https://lwn.net/Articles/969791/</guid>
-            <pubDate>Sun, 14 Apr 2024 21:18:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
