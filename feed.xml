@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Apr 2024 22:19:51 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Apr 2024 22:34:03 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Apr 2024 22:34:20 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Apr 2024 22:46:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The Open Home Foundation launches</title>
+            <link>https://lwn.net/Articles/970835/</link>
+            <description><![CDATA[The Open Home Foundation has <a
+href="https://www.openhomefoundation.org/blog/announcing-the-open-home-foundation/">announced
+its existence</a> as a home and support resource for free home-automation
+projects.
+<p>
+<blockquote class="bq">
+	 We created the Open Home Foundation to fight for the fundamental
+	 principles of privacy, choice, and sustainability for smart
+	 homes. And every person who lives in one.
+<p>
+	 Ahead of today, we've transferred over 240 projects, standards,
+	 drivers, and libraries—Home Assistant, ESPHome, Zigpy, Piper,
+	 Improv Wi-Fi, Wyoming, and so many more—to the Open Home
+	 Foundation. This is all about looking into the future. We've done
+	 this to create a bulwark against surveillance capitalism, the risk
+	 of buyout, and open-source projects becoming abandonware. To an
+	 extent, this protection extends even against our future selves—so
+	 that smart home users can continue to benefit for years, if not
+	 decades. No matter what comes.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/970835/</guid>
+            <pubDate>Mon, 22 Apr 2024 22:34:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Andreas Tille elected as Debian project leader</title>
             <link>https://lwn.net/Articles/970814/</link>
