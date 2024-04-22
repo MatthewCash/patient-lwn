@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Apr 2024 18:44:12 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Apr 2024 19:31:57 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Apr 2024 19:37:35 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Apr 2024 19:46:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Andreas Tille elected as Debian project leader</title>
+            <link>https://lwn.net/Articles/970814/</link>
+            <description><![CDATA[The Debian project leader
+
+<a href="https://lwn.net/Articles/970815/">election results are in</a> and Andreas Tille
+<a href="https://www.debian.org/vote/2024/vote_001">has been elected</a>.
+In a fairly competitive vote, Tille beat Sruthi Chandran to fill the
+position for 
+the coming year. We <a href="https://lwn.net/Articles/967981/">looked at the election and the
+candidates</a> a few weeks back.]]></description>
+            <guid>https://lwn.net/Articles/970814/</guid>
+            <pubDate>Mon, 22 Apr 2024 19:37:35 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/970793/</link>
