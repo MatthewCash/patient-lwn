@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Apr 2024 12:26:02 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Apr 2024 12:48:02 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Apr 2024 13:10:49 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Apr 2024 13:14:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>QEMU 9.0 released</title>
+            <link>https://lwn.net/Articles/971007/</link>
+            <description><![CDATA[<a href="https://www.qemu.org/2024/04/23/qemu-9-0-0/">Version 9.0</a> of
+the QEMU emulator has been released.  "<q>This release contains 2700+
+commits from 220 authors.</q>"  The list of improvements is long; see the
+announcement and <a href="https://wiki.qemu.org/ChangeLog/9.0">the
+changelog</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/971007/</guid>
+            <pubDate>Wed, 24 Apr 2024 13:10:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/971004/</link>
@@ -215,21 +227,6 @@ different feel from most other books of this sort.]]></description>
             <description><![CDATA[The LWN.net Weekly Edition for April 11, 2024 is available.]]></description>
             <guid>https://lwn.net/Articles/968375/</guid>
             <pubDate>Thu, 11 Apr 2024 00:47:49 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Four more stable kernels</title>
-            <link>https://lwn.net/Articles/970086/</link>
-            <description><![CDATA[<p>
-The 
-<a href="https://lwn.net/Articles/970171/">6.8.7</a>,
-<a href="https://lwn.net/Articles/970172/">6.6.28</a>,
-<a href="https://lwn.net/Articles/970173/">6.1.87</a>, and
-<a href="https://lwn.net/Articles/970174/">5.15.156</a> stable kernel updates have all been
-released.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/970086/</guid>
-            <pubDate>Wed, 17 Apr 2024 12:47:09 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
