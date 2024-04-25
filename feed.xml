@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Apr 2024 14:02:22 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Apr 2024 14:05:09 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Apr 2024 14:16:10 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Apr 2024 14:20:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/971140/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (curl, filezilla, flatpak, kubernetes, libfilezilla, thunderbird, and xen), <b>Oracle</b> (go-toolset:ol8, kernel, libreswan, shim, and tigervnc), <b>Red Hat</b> (buildah, gnutls, libreswan, tigervnc, and unbound), <b>SUSE</b> (cockpit-wicked, nrpe, and python-idna), and <b>Ubuntu</b> (dnsmasq, freerdp2, linux-azure-6.5, and thunderbird).]]></description>
+            <guid>https://lwn.net/Articles/971140/</guid>
+            <pubDate>Thu, 25 Apr 2024 14:14:13 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for April 18, 2024</title>
             <link>https://lwn.net/Articles/969442/</link>
@@ -326,14 +334,6 @@ the BPF-HID mechanism.]]></description>
             <guid>https://lwn.net/Articles/970508/</guid>
             <pubDate>Fri, 19 Apr 2024 13:08:42 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/970324/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, jetty9, libdatetime-timezone-perl, tomcat10, and tzdata), <b>Fedora</b> (cockpit, filezilla, and libfilezilla), <b>Red Hat</b> (firefox, gnutls, java-1.8.0-openjdk, java-17-openjdk, kernel, kernel-rt, less, mod_http2, nodejs:18, rhc-worker-script, and shim), <b>Slackware</b> (mozilla), <b>SUSE</b> (kernel), and <b>Ubuntu</b> (apache2, glibc, and linux-xilinx-zynqmp).]]></description>
-            <guid>https://lwn.net/Articles/970324/</guid>
-            <pubDate>Thu, 18 Apr 2024 14:03:30 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
