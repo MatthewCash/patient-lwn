@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 26 Apr 2024 13:11:40 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Apr 2024 13:22:15 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 26 Apr 2024 13:32:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,14 +349,6 @@ the BPF-HID mechanism.]]></description>
             <guid>https://lwn.net/Articles/970667/</guid>
             <pubDate>Sun, 21 Apr 2024 21:55:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/970508/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnutls, java-17-openjdk, mod_http2, and squid), <b>Debian</b> (firefox-esr), <b>Fedora</b> (editorconfig, perl-Clipboard, php, rust, and wordpress), <b>Mageia</b> (less, libreswan, puppet, and x11-server, x11-server-xwayland, and tigervnc), <b>Slackware</b> (aaa_glibc), and <b>SUSE</b> (firefox, graphviz, kernel, nodejs12, pgadmin4, tomcat, and wireshark).]]></description>
-            <guid>https://lwn.net/Articles/970508/</guid>
-            <pubDate>Fri, 19 Apr 2024 13:08:42 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
