@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 28 Apr 2024 21:57:24 +0000</pubDate>
-        <lastBuildDate>Sun, 28 Apr 2024 22:06:24 +0000</lastBuildDate>
+        <pubDate>Sun, 28 Apr 2024 22:17:54 +0000</pubDate>
+        <lastBuildDate>Sun, 28 Apr 2024 22:24:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.9-rc6</title>
+            <link>https://lwn.net/Articles/971414/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/971413/">6.9-rc6</a> kernel prepatch is out for
+testing.
+<p>
+<blockquote class="bq">
+	Things continue to look pretty normal, and nothing here really
+	stands out. The biggest single change that stands out in the
+	diffstat is literally a documentation update, everything else looks
+	pretty small and spread out.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/971414/</guid>
+            <pubDate>Sun, 28 Apr 2024 22:17:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Four weekend stable kernel releases</title>
             <link>https://lwn.net/Articles/971361/</link>
@@ -354,22 +370,6 @@ See <a href="https://lwn.net/Articles/909109/">this article</a> for more informa
 the BPF-HID mechanism.]]></description>
             <guid>https://lwn.net/Articles/970702/</guid>
             <pubDate>Mon, 22 Apr 2024 14:44:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.9-rc5</title>
-            <link>https://lwn.net/Articles/970667/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/970666/">released 6.9-rc5</a> for testing.
-<p>
-<blockquote class="bq">
-	But if you ignore those oddities, it all looks pretty normal and
-	things appear fairly calm. Which is just as well, since the first
-	part of the week I was on a quick trip to Seattle, and the second
-	part of the week I've been doing a passable imitation of the
-	Fontana di Trevi, except my medium is mucus.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/970667/</guid>
-            <pubDate>Sun, 21 Apr 2024 21:55:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
