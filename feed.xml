@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Apr 2024 14:44:36 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Apr 2024 14:46:39 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Apr 2024 15:03:25 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Apr 2024 15:07:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -358,48 +358,6 @@ candidates</a> a few weeks back.]]></description>
             <guid>https://lwn.net/Articles/970814/</guid>
             <pubDate>Mon, 22 Apr 2024 19:37:35 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/970793/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox and java-1.8.0-openjdk), <b>Debian</b> (chromium, flatpak, guix, openjdk-11, openjdk-17, thunderbird, and tomcat9), <b>Fedora</b> (chromium, firefox, glibc, nghttp2, nodejs18, python-aiohttp, python-django3, python-pip, and uxplay), <b>Mageia</b> (putty &amp; filezilla), <b>Red Hat</b> (Firefox, firefox, java-1.8.0-openjdk, java-21-openjdk, nodejs:18, shim, and thunderbird), <b>Slackware</b> (freerdp), <b>SUSE</b> (apache-commons-configuration2, nodejs14, perl-CryptX, putty, shim, and wireshark), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-azure-5.15, linux-azure-fde,
- linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
- linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
- linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
- linux-lowlatency-hwe-5.15, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4,
- linux-bluefield, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4,
- linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle,
- linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.5, linux-azure, linux-gcp, linux-gcp-6.5,
- linux-hwe-6.5, linux-laptop, linux-lowlatency, linux-nvidia-6.5,
- linux-oem-6.5, linux-oracle, linux-oracle-6.5, linux-raspi,
- linux-starfive, linux-starfive-6.5, linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-kvm, linux-lts-xenial, lxd, percona-xtrabackup, and pillow).]]></description>
-            <guid>https://lwn.net/Articles/970793/</guid>
-            <pubDate>Mon, 22 Apr 2024 14:38:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Hutterer: udev-hid-bpf: quickstart tooling to fix your HID devices with eBPF</title>
-            <link>https://lwn.net/Articles/970702/</link>
-            <description><![CDATA[Peter Hutterer <a
-href="http://who-t.blogspot.com/2024/04/udev-hid-bpf-quickstart-tooling-to-fix.html">announces
-udev-hid-bpf</a>, a tool to facilitate the loading of BPF programs that
-make human-input devices work correctly.
-<p>
-<blockquote class="bq">
-	eBPF was originally written for network packet filters but as of
-	kernel v6.3 and thanks to Benjamin, we have BPF in the HID
-	subsystem. HID actually lends itself really well to BPF because,
-	well, we have a byte array and to fix our devices we need to do
-	complicated things like "toggle that bit to zero" or "swap those
-	two values".
-</blockquote>
-<p>
-See <a href="https://lwn.net/Articles/909109/">this article</a> for more information on
-the BPF-HID mechanism.]]></description>
-            <guid>https://lwn.net/Articles/970702/</guid>
-            <pubDate>Mon, 22 Apr 2024 14:44:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
