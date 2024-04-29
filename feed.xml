@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 29 Apr 2024 22:28:11 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Apr 2024 22:31:44 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 29 Apr 2024 22:46:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -343,33 +343,6 @@ href="https://lwn.net/Articles/969145/">this LWN article</a>, for more informati
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (glibc and samba), <b>Fedora</b> (chromium, cjson, mingw-python-idna, and pgadmin4), <b>Mageia</b> (kernel, kmod-xtables-addons, kmod-virtualbox, kernel-linus, and perl-Clipboard), <b>Red Hat</b> (go-toolset:rhel8, golang, java-11-openjdk, kpatch-patch, and shim), <b>Slackware</b> (freerdp), <b>SUSE</b> (apache-commons-configuration, glibc, jasper, polkit, and qemu), and <b>Ubuntu</b> (google-guest-agent, google-osconfig-agent, linux-lowlatency-hwe-6.5, pillow, and squid).]]></description>
             <guid>https://lwn.net/Articles/970889/</guid>
             <pubDate>Tue, 23 Apr 2024 13:30:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The Open Home Foundation launches</title>
-            <link>https://lwn.net/Articles/970835/</link>
-            <description><![CDATA[The Open Home Foundation has <a
-href="https://www.openhomefoundation.org/blog/announcing-the-open-home-foundation/">announced
-its existence</a> as a home and support resource for free home-automation
-projects.
-<p>
-<blockquote class="bq">
-	 We created the Open Home Foundation to fight for the fundamental
-	 principles of privacy, choice, and sustainability for smart
-	 homes. And every person who lives in one.
-<p>
-	 Ahead of today, we've transferred over 240 projects, standards,
-	 drivers, and libraries—Home Assistant, ESPHome, Zigpy, Piper,
-	 Improv Wi-Fi, Wyoming, and so many more—to the Open Home
-	 Foundation. This is all about looking into the future. We've done
-	 this to create a bulwark against surveillance capitalism, the risk
-	 of buyout, and open-source projects becoming abandonware. To an
-	 extent, this protection extends even against our future selves—so
-	 that smart home users can continue to benefit for years, if not
-	 decades. No matter what comes.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/970835/</guid>
-            <pubDate>Mon, 22 Apr 2024 22:34:19 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
