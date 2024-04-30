@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 30 Apr 2024 14:21:46 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Apr 2024 14:24:00 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 30 Apr 2024 14:32:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -364,21 +364,6 @@ changelog</a> for details.]]></description>
             <guid>https://lwn.net/Articles/971004/</guid>
             <pubDate>Wed, 24 Apr 2024 12:26:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora 40 released</title>
-            <link>https://lwn.net/Articles/970893/</link>
-            <description><![CDATA[The Fedora 40 distribution <a
-href="https://fedoramagazine.org/announcing-fedora-linux-40/">has been
-released</a>.  See the "what's new" pages for <a
-href="https://fedoramagazine.org/whats-new-fedora-workstation-40/">Fedora
-Workstation</a> and <a
-href="https://fedoramagazine.org/whats-new-in-fedora-kde-40/">Fedora
-KDE</a> to learn more about the desktop spins, along with <a
-href="https://lwn.net/Articles/969145/">this LWN article</a>, for more information.]]></description>
-            <guid>https://lwn.net/Articles/970893/</guid>
-            <pubDate>Tue, 23 Apr 2024 14:12:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
