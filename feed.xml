@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 30 Apr 2024 14:44:06 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Apr 2024 14:46:54 +0000</lastBuildDate>
+        <pubDate>Tue, 30 Apr 2024 15:04:50 +0000</pubDate>
+        <lastBuildDate>Tue, 30 Apr 2024 15:06:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Yocto Project 5.0 released</title>
+            <link>https://lwn.net/Articles/971785/</link>
+            <description><![CDATA[Version
+5.0 of the <a href="https://www.yoctoproject.org/">Yocto Project</a>
+distribution builder has been released.  The list of new features is long;
+see <a
+href="http://downloads.yoctoproject.org/releases/yocto/yocto-5.0/RELEASENOTES">the
+release notes</a> for the details.]]></description>
+            <guid>https://lwn.net/Articles/971785/</guid>
+            <pubDate>Tue, 30 Apr 2024 14:53:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>&quot;run0&quot; as a sudo replacement</title>
             <link>https://lwn.net/Articles/971745/</link>
