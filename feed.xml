@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 May 2024 14:19:37 +0000</pubDate>
-        <lastBuildDate>Wed, 1 May 2024 14:26:29 +0000</lastBuildDate>
+        <pubDate>Wed, 01 May 2024 14:31:29 +0000</pubDate>
+        <lastBuildDate>Wed, 1 May 2024 14:33:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -350,59 +350,6 @@ of a single company.]]></description>
             <guid>https://lwn.net/Articles/969383/</guid>
             <pubDate>Fri, 12 Apr 2024 14:29:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A new crash reporter for Firefox</title>
-            <link>https://lwn.net/Articles/971006/</link>
-            <description><![CDATA[<p>
-On April 23, Mozilla
-<a href="https://hacks.mozilla.org/2024/04/porting-a-cross-platform-gui-application-to-rust/">
-announced</a> that Firefox's crash reporter has been rewritten in Rust, allowing the
-project to address a backlog of issues.
-</p>
-
-<blockquote class="bq">
-Even though it is important to properly handle main process crashes, the crash
-reporter hasn't received significant development in a while (aside from
-development to ensure that crash reports and telemetry continue to reliably be
-delivered)! It has long been stuck in a local maximum of "good enough" and
-"scary to maintain": it features 3 individual GUI implementations (for Windows,
-GTK+ for Linux, and macOS), glue code abstracting a few things (mostly in C++,
-and Objective-C for macOS), a binary blob produced by obsoleted Apple
-development tools, and no test suite. Because of this, there is a backlog of
-features and improvements which haven't been acted on.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/971006/</guid>
-            <pubDate>Wed, 24 Apr 2024 14:10:53 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>GitHub comments used to distribute malware (BleepingComputer)</title>
-            <link>https://lwn.net/Articles/971008/</link>
-            <description><![CDATA[<p>
-BleepingComputer
-<a href="https://www.bleepingcomputer.com/news/security/github-comments-abused-to-push-malware-via-microsoft-repo-urls/">
-reported</a> on April 20 that some malware was being distributed via GitHub.
-Uploading files as part of a comment gives them a URL that appears to be
-associated with a repository, even if the comment is never posted.
-</p>
-
-<blockquote class="bq">
-<p>
-A GitHub flaw, or possibly a design decision, is being abused by threat actors
-to distribute malware using URLs associated with Microsoft repositories, making
-the files appear trustworthy.
-</p>
-
-<p>
-While most of the malware activity has been based around the Microsoft GitHub
-URLs, this "flaw" could be abused with any public repository on GitHub, allowing
-threat actors to create very convincing lures.
-</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/971008/</guid>
-            <pubDate>Wed, 24 Apr 2024 14:25:25 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
