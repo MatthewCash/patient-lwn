@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 May 2024 12:15:31 +0000</pubDate>
-        <lastBuildDate>Wed, 1 May 2024 12:41:33 +0000</lastBuildDate>
+        <pubDate>Wed, 01 May 2024 12:42:13 +0000</pubDate>
+        <lastBuildDate>Wed, 1 May 2024 12:55:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,14 +369,6 @@ changelog</a> for details.]]></description>
             <guid>https://lwn.net/Articles/971007/</guid>
             <pubDate>Wed, 24 Apr 2024 13:10:49 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/971004/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (abseil-cpp, chromium, filezilla, libfilezilla, and xorg-x11-server-Xwayland), <b>Oracle</b> (firefox, gnutls, golang, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel, libreswan, mod_http2, owO: thunderbird, and thunderbird), <b>Red Hat</b> (container-tools:rhel8, gnutls, grub2, kernel, kernel-rt, less, linux-firmware, opencryptoki, pcs, postgresql-jdbc, and thunderbird), <b>Slackware</b> (ruby), <b>SUSE</b> (kubernetes1.23, kubernetes1.24, and opensc), and <b>Ubuntu</b> (firefox, linux-azure, linux-lowlatency, linux-nvidia, and ruby-sanitize).]]></description>
-            <guid>https://lwn.net/Articles/971004/</guid>
-            <pubDate>Wed, 24 Apr 2024 12:26:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
