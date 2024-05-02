@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 May 2024 15:32:54 +0000</pubDate>
-        <lastBuildDate>Thu, 2 May 2024 15:33:37 +0000</lastBuildDate>
+        <pubDate>Thu, 02 May 2024 15:33:56 +0000</pubDate>
+        <lastBuildDate>Thu, 2 May 2024 15:48:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -397,29 +397,6 @@ fixes.]]></description>
             <guid>https://lwn.net/Articles/971289/</guid>
             <pubDate>Fri, 26 Apr 2024 13:52:54 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Ubuntu 24.04 LTS (Noble Numbat) released</title>
-            <link>https://lwn.net/Articles/971175/</link>
-            <description><![CDATA[Version 24.04 LTS of the Ubuntu distribution is out.
-<p>
-<blockquote class="bq">
-	This release continues Ubuntu's proud tradition of integrating the
-	latest and greatest open source technologies into a high-quality,
-	easy-to-use Linux distribution. The team has been hard at work
-	through this cycle, together with the community and our partners,
-	to introduce new features and fix bugs.
-</blockquote>
-<p>
-The list of changes and enhancements is long; click below for some details.
-More information can be found in <a
-href="https://discourse.ubuntu.com/t/noble-numbat-release-notes/">the
-release notes</a>;  see also <a
-href="https://ubuntu.com/blog/whats-new-in-security-for-ubuntu-24-04-lts">this
-page</a> for a summary of security-related changes.]]></description>
-            <guid>https://lwn.net/Articles/971175/</guid>
-            <pubDate>Thu, 25 Apr 2024 15:42:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
