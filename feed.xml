@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 May 2024 15:09:27 +0000</pubDate>
-        <lastBuildDate>Thu, 2 May 2024 15:09:37 +0000</lastBuildDate>
+        <pubDate>Thu, 02 May 2024 15:20:45 +0000</pubDate>
+        <lastBuildDate>Thu, 2 May 2024 15:25:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A new set of stable kernels</title>
+            <link>https://lwn.net/Articles/972209/</link>
+            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/972210/">6.8.9</a>, <a href="https://lwn.net/Articles/972211/">6.6.30</a>,
+<a href="https://lwn.net/Articles/972212/">6.1.90</a>, <a
+href="https://lwn.net/Articles/972213/">5.15.158</a>, <a
+href="https://lwn.net/Articles/972214/">5.10.216</a>, <a
+href="https://lwn.net/Articles/972215/">5.4.275</a>, and <a
+href="https://lwn.net/Articles/972216/">4.19.313</a> stable kernels.  As is the norm, they
+contain lots of important fixes throughout the kernel tree.]]></description>
+            <guid>https://lwn.net/Articles/972209/</guid>
+            <pubDate>Thu, 02 May 2024 15:16:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Rust 1.78.0 released</title>
             <link>https://lwn.net/Articles/972191/</link>
