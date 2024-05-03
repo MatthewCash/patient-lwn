@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 May 2024 15:14:49 +0000</pubDate>
-        <lastBuildDate>Fri, 3 May 2024 15:25:29 +0000</lastBuildDate>
+        <pubDate>Fri, 03 May 2024 15:32:15 +0000</pubDate>
+        <lastBuildDate>Fri, 3 May 2024 15:33:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/972351/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium, grub2, httpd, kernel, libcoap, matrix-synapse, python-pip, and rust-pythonize), <b>Red Hat</b> (kernel and libxml2), <b>SUSE</b> (kernel), and <b>Ubuntu</b> (eglibc, glibc and php7.4, php8.1, php8.2).]]></description>
+            <guid>https://lwn.net/Articles/972351/</guid>
+            <pubDate>Fri, 03 May 2024 15:29:05 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>A new set of stable kernels</title>
             <link>https://lwn.net/Articles/972209/</link>
