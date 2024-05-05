@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 May 2024 19:28:57 +0000</pubDate>
-        <lastBuildDate>Sun, 5 May 2024 22:48:27 +0000</lastBuildDate>
+        <pubDate>Sun, 05 May 2024 23:07:55 +0000</pubDate>
+        <lastBuildDate>Sun, 5 May 2024 23:08:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.9-rc7</title>
+            <link>https://lwn.net/Articles/972473/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/972472/">6.9-rc7</a> kernel prepatch is out for
+testing.  "<q>The stats for 6.9 continue to look very normal, and nothing
+looks particularly alarming.</q>"]]></description>
+            <guid>https://lwn.net/Articles/972473/</guid>
+            <pubDate>Sun, 05 May 2024 23:07:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/972351/</link>
