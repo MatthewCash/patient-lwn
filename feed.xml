@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 May 2024 20:16:24 +0000</pubDate>
-        <lastBuildDate>Mon, 6 May 2024 20:24:36 +0000</lastBuildDate>
+        <pubDate>Mon, 06 May 2024 20:31:56 +0000</pubDate>
+        <lastBuildDate>Mon, 6 May 2024 20:33:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -373,34 +373,6 @@ improvements, and more.]]></description>
             <guid>https://lwn.net/Articles/971742/</guid>
             <pubDate>Tue, 30 Apr 2024 13:41:28 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Amarok 3.0 &quot;Castaway&quot; released</title>
-            <link>https://lwn.net/Articles/971568/</link>
-            <description><![CDATA[The <a href="https://apps.kde.org/amarok/">Amarok</a> music player project
-has <a
-href="https://blogs.kde.org/2024/04/29/amarok-3.0-castaway-released/">announced</a>
-the release of version&nbsp;3.0, which is codenamed "Castaway".  It is the first
-stable version using Qt&nbsp;5 and KDE Frameworks&nbsp;5, and the first stable
-release since the final Qt-4-based&nbsp;2.9.0 in 2018.
-<blockquote class="bq">
-The road to 3.0 has not been a short one. Much of the Qt5/KF5 porting was done in 2015 already, but finishing and polishing everything up has been a slow, sometimes ongoing and sometimes stalled process ever since. 3.0 Alpha was released in February 2021 and has been since used by many people, as have been nightly builds of git master available for various distributions. Now in the past few months, an effort was made to get everything ready for a proper 3.0 release.
-<p>
-Common usecases should work quite well, and in addition to fixing KF5 port
-related regressions reported in pre-releases, 3.0 features many bugfixes
-and implemented features for longstanding issues, the oldest such
-documented being from 2009. However, with more than 20 years of development
-history, it is likely that not every feature Amarok has been tested
-thoroughly in the new release, and specifically some Internet services that
-have changed their API in recent years are not available, at least for
-now. It might well be that getting them in better state wouldn't require
-huge effort, however, so if you know your way with Qt and KDE Frameworks
-and your favourite Internet music service does not work with Amarok 3.0,
-you are extremely welcome to join in and help!
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/971568/</guid>
-            <pubDate>Mon, 29 Apr 2024 20:30:03 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
