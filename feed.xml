@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 06 May 2024 11:24:11 +0000</pubDate>
-        <lastBuildDate>Mon, 6 May 2024 13:12:18 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 6 May 2024 13:26:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,27 +356,6 @@ you are extremely welcome to join in and help!
             <guid>https://lwn.net/Articles/971487/</guid>
             <pubDate>Mon, 29 Apr 2024 13:44:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>McQueen: Update from the GNOME board</title>
-            <link>https://lwn.net/Articles/971436/</link>
-            <description><![CDATA[Robert McQueen has posted <a
-href="https://ramcq.net/2024/04/26/update-from-the-gnome-board/">a message
-from the GNOME Foundation board</a> describing the current financial
-situation, plans to improve it, and an increase in the size of the board.
-<p>
-<blockquote class="bq">
-	The Foundation has a reserves policy which specifies a minimum
-	amount of money we have to keep in our accounts. This is so that if
-	there is a significant interruption to our usual income, we can
-	preserve our core operations while we work on new funding
-	sources. We've now "hit the buffers" of this reserves policy,
-	meaning the Board can't approve any more deficit budgets – to keep
-	spending at the same level we must increase our income.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/971436/</guid>
-            <pubDate>Mon, 29 Apr 2024 13:17:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
