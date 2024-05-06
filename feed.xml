@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 06 May 2024 11:24:11 +0000</pubDate>
-        <lastBuildDate>Mon, 6 May 2024 13:33:22 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 6 May 2024 13:48:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -347,14 +347,6 @@ you are extremely welcome to join in and help!
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/971568/</guid>
             <pubDate>Mon, 29 Apr 2024 20:30:03 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/971487/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, go-toolset:rhel8, golang, java-11-openjdk, java-21-openjdk, libreswan, thunderbird, and tigervnc), <b>Debian</b> (chromium, emacs, frr, mediawiki, ruby-rack, trafficserver, and zabbix), <b>Fedora</b> (chromium, grub2, python-idna, and python-reportlab), <b>Mageia</b> (chromium-browser-stable, firefox, opencryptoki, and thunderbird), <b>Red Hat</b> (container-tools:4.0, container-tools:rhel8, git-lfs, and shim), <b>SUSE</b> (frr, java-11-openjdk, java-1_8_0-openjdk, kernel, pdns-recursor, and shim), and <b>Ubuntu</b> (apache2, cpio, curl, glibc, gnutls28, less, libvirt, and pillow).]]></description>
-            <guid>https://lwn.net/Articles/971487/</guid>
-            <pubDate>Mon, 29 Apr 2024 13:44:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
