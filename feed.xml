@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 May 2024 12:05:46 +0000</pubDate>
-        <lastBuildDate>Tue, 7 May 2024 12:14:12 +0000</lastBuildDate>
+        <pubDate>Tue, 07 May 2024 12:41:35 +0000</pubDate>
+        <lastBuildDate>Tue, 7 May 2024 12:42:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/972679/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel), <b>Gentoo</b> (libjpeg-turbo, xar, and Xpdf), <b>Red Hat</b> (bind, dhcp and glibc), and <b>SUSE</b> (bouncycastle, curl, flatpak, less, and xen).]]></description>
+            <guid>https://lwn.net/Articles/972679/</guid>
+            <pubDate>Tue, 07 May 2024 12:29:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>2023 PSF annual impact report</title>
             <link>https://lwn.net/Articles/972596/</link>
