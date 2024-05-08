@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 May 2024 14:11:36 +0000</pubDate>
-        <lastBuildDate>Wed, 8 May 2024 14:26:05 +0000</lastBuildDate>
+        <pubDate>Wed, 08 May 2024 14:28:10 +0000</pubDate>
+        <lastBuildDate>Wed, 8 May 2024 14:33:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,44 +356,6 @@ from four), as well as many bug fixes.</p>]]></description>
             <guid>https://lwn.net/Articles/971980/</guid>
             <pubDate>Wed, 01 May 2024 17:54:21 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Dolstra steps down from NixOS Foundation board</title>
-            <link>https://lwn.net/Articles/971973/</link>
-            <description><![CDATA[<p>
-The NixOS Foundation board
-<a href="https://discourse.nixos.org/t/nixos-foundation-board-giving-power-to-the-community/44552">
-announced</a> on April 30 that Eelco Dolstra is stepping down from the board
-following the <a href="https://lwn.net/Articles/970824/">recent calls for his resignation</a>.
-</p>
-
-<blockquote class="bq">
-Eelco is the principal author of Nix and undoubtedly a central figure in the
-ecosystem that grew around it. We confirm that Eelco showed no intention to be
-perceived as or act like the BDFL [Benevolent Dictator for Life]
-of the Nix ecosystem, or the Nix code base. To
-commit to that in a timely manner, he has decided to formally step down from the
-board.
-</blockquote>
-
-<p>
-The board also announced their intent to set up new, explicit governance for the
-project, answerable to the community:
-</p>
-
-<blockquote class="bq">
-We will appoint a constitutional assembly within the next 14 days.
-Its task will be to set up a new governance structure, run by the
-community, that is capable of serving the community's needs. Once
-established, we will delegate our power to institutions within that
-new structure. This entire process will take place in a public space,
-such that it's traceable for anyone concerned. We are committed to
-listening to everyone who may help with solving the problems the
-community is facing.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/971973/</guid>
-            <pubDate>Wed, 01 May 2024 14:19:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
