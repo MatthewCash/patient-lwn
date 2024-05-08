@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 08 May 2024 16:30:10 +0000</pubDate>
-        <lastBuildDate>Wed, 8 May 2024 17:48:36 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 8 May 2024 18:11:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -362,27 +362,6 @@ told to use instead, is also being discouraged.]]></description>
             <guid>https://lwn.net/Articles/969923/</guid>
             <pubDate>Thu, 18 Apr 2024 14:24:50 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNU nano 8.0 released</title>
-            <link>https://lwn.net/Articles/971980/</link>
-            <description><![CDATA[<p>Version 8.0 of the terminal text editor <a href="https://www.nano-editor.org/">GNU nano</a> has been
-released. This update includes several changes to keybindings to be
-more newcomer-friendly, such as remapping Ctrl-F to forward-search and
-adding an option for modern bindings:</p>
-
-<blockquote class="bq">
-Command-line option --modernbindings (-/) makes ^Q quit, ^X cut,
-   ^C copy, ^V paste, ^Z undo, ^Y redo, ^O open a file, ^W write a
-   file, ^R replace, ^G find again, ^D find again backwards, ^A set
-   the mark, ^T jump to a line, ^P show the position, and ^E execute.
-</blockquote>
-
-<p>The release also provides access to 14 levels of gray scale in xterm (up
-from four), as well as many bug fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/971980/</guid>
-            <pubDate>Wed, 01 May 2024 17:54:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
