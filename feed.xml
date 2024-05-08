@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 May 2024 15:41:19 +0000</pubDate>
-        <lastBuildDate>Wed, 8 May 2024 15:48:31 +0000</lastBuildDate>
+        <pubDate>Wed, 08 May 2024 16:08:35 +0000</pubDate>
+        <lastBuildDate>Wed, 8 May 2024 16:11:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora Asahi Remix 40 is now available</title>
+            <link>https://lwn.net/Articles/972874/</link>
+            <description><![CDATA[<p>Fedora Magazine <a
+href="https://fedoramagazine.org/fedora-asahi-remix-40-is-now-available/">reports</a>
+that the <a href="https://fedora-asahi-remix.org/">Fedora Asahi
+Remix</a> for Apple Arm hardware, based on <a
+href="https://fedoramagazine.org/whats-new-fedora-workstation-40/">Fedora
+40</a>, is now available:</p>
+
+<blockquote class="bq">
+Fedora Asahi Remix offers <a href="https://kde.org/announcements/megarelease/6/">KDE Plasma 6</a> as our flagship desktop
+experience. It also features a custom Calamares-based initial setup
+wizard. A GNOME variant is also available, featuring GNOME 46, with
+both desktop variants matching what Fedora Linux offers. Fedora Asahi
+Remix also provides a Fedora Server variant for server workloads and
+other types of headless deployments. Finally, we offer a Minimal image
+for users that wish to build their own experience from the ground up.
+</blockquote>
+
+<p>See the <a
+href="https://docs.fedoraproject.org/en-US/fedora-asahi-remix/installation/">installation
+guide</a> to get started with the Asahi Remix.</p>]]></description>
+            <guid>https://lwn.net/Articles/972874/</guid>
+            <pubDate>Wed, 08 May 2024 15:53:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/972861/</link>
