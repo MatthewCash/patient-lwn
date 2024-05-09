@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 May 2024 14:41:46 +0000</pubDate>
-        <lastBuildDate>Thu, 9 May 2024 14:48:16 +0000</lastBuildDate>
+        <pubDate>Thu, 09 May 2024 14:59:38 +0000</pubDate>
+        <lastBuildDate>Thu, 9 May 2024 15:09:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -344,27 +344,6 @@ contain lots of important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/972209/</guid>
             <pubDate>Thu, 02 May 2024 15:16:16 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.78.0 released</title>
-            <link>https://lwn.net/Articles/972191/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2024/05/02/Rust-1.78.0.html">Version
-1.78.0</a> of the Rust language has been released.  Changes include a new
-mechanism for diagnostic attributes, changes to how assertions around
-<tt>unsafe</tt> blocks are handled, and more.
-<p>
-<blockquote class="bq">
-	Rust now supports a <tt>#[diagnostic]</tt> attribute namespace to
-	influence compiler error messages. These are treated as hints which
-	the compiler is not required to use, and it is also not an error to
-	provide a diagnostic that the compiler doesn't recognize. This
-	flexibility allows source code to provide diagnostics even when
-	they're not supported by all compilers, whether those are different
-	versions or entirely different implementations.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/972191/</guid>
-            <pubDate>Thu, 02 May 2024 14:43:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
