@@ -8,11 +8,137 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 May 2024 23:46:51 +0000</pubDate>
-        <lastBuildDate>Wed, 8 May 2024 23:48:37 +0000</lastBuildDate>
+        <pubDate>Thu, 09 May 2024 00:30:33 +0000</pubDate>
+        <lastBuildDate>Thu, 9 May 2024 00:35:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 2, 2024</title>
+            <link>https://lwn.net/Articles/971093/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for May 2, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/971093/</guid>
+            <pubDate>Thu, 02 May 2024 01:11:26 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at Ubuntu Desktop LTS 24.04</title>
+            <link>https://lwn.net/Articles/971143/</link>
+            <description><![CDATA[<p>Ubuntu&nbsp;24.04&nbsp;LTS, code-named "Noble&nbsp;Numbat", was <a
+href="https://lwn.net/Articles/971175/">released</a> on April&nbsp;25. This release includes <a
+href="https://release.gnome.org/46/">GNOME&nbsp;46</a>, installer updates,
+security enhancements, a lot of updated packages, and a new App Center
+that puts a heavy emphasis on using Snaps to install software. It is not an ambitious release, but it brings enough to the table that it's a worthwhile update.</p>]]></description>
+            <guid>https://lwn.net/Articles/971143/</guid>
+            <pubDate>Wed, 01 May 2024 17:00:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Security patterns and anti-patterns in embedded development</title>
+            <link>https://lwn.net/Articles/970818/</link>
+            <description><![CDATA[<p>When it comes to security, telling developers to do (or not do)
+something can be ineffective. Helping them understand the why behind
+instructions, by illustrating good and bad practices using stories, can be
+much more effective. With several such stories Marta
+Rybczyńska fashioned an interesting <a
+href="https://eoss24.sched.com/event/1aBEg/patterns-and-anti-patterns-in-embedded-development-what-security-incidents-of-2023-teach-us-marta-rybczynska-syslinbit">talk</a>
+about patterns and anti-patterns in embedded Linux security at the
+<a
+href="https://events.linuxfoundation.org/embedded-open-source-summit/">Embedded
+Open Source Summit</a> (EOSS), co-located with <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a> (OSSNA), on April 16 in Seattle, Washington.</p>]]></description>
+            <guid>https://lwn.net/Articles/970818/</guid>
+            <pubDate>Tue, 30 Apr 2024 15:11:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A leadership crisis in the Nix community</title>
+            <link>https://lwn.net/Articles/970824/</link>
+            <description><![CDATA[<p>
+On April 21, a group of anonymous authors and non-anonymous signatories published
+<a href="https://save-nix-together.org/">a lengthy open letter</a> to the
+<a href="https://nixos.org/">
+Nix</a> community
+and Nix founder Eelco Dolstra calling for his resignation from the project. They
+claimed ongoing problems with the project's leadership, primarily focusing on the
+way his actions have allegedly
+undermined people nominally empowered to perform various
+moderation and governance tasks. Since its release, the letter has gained
+more than 100 signatures.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/970824/</guid>
+            <pubDate>Mon, 29 Apr 2024 14:04:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Giving Rust a chance for in-kernel codecs</title>
+            <link>https://lwn.net/Articles/970565/</link>
+            <description><![CDATA[Video playback is undeniably one of the most important features in modern
+consumer devices. Yet, surprisingly, users are by and large unaware of the
+intricate engineering involved in the compression and decompression of
+video data, with codecs being left to find a delicate balance between image
+quality, bandwidth, and power consumption. In response to constant
+performance pressure, video codecs have become complex and hardware
+implementations are now common, but programming these devices is becoming
+increasingly difficult and fraught with opportunities for exploitation. I
+hope to convey how Rust can help fix this problem.]]></description>
+            <guid>https://lwn.net/Articles/970565/</guid>
+            <pubDate>Fri, 26 Apr 2024 15:34:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Support for the TSO memory model on Arm CPUs</title>
+            <link>https://lwn.net/Articles/970907/</link>
+            <description><![CDATA[At the CPU level, a memory model describes, among other things, the amount
+of freedom the processor has to reorder memory operations.  If low-level
+code does not take the memory model into account, unpleasant surprises are
+likely to follow.  Naturally, different CPUs offer different memory models,
+complicating the portability of certain types of concurrent software.  To
+make life easier, some Arm CPUs offer the ability to emulate the x86 memory
+model, but efforts to make that feature available in the kernel are running
+into opposition.]]></description>
+            <guid>https://lwn.net/Articles/970907/</guid>
+            <pubDate>Fri, 26 Apr 2024 13:59:48 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Python JIT stabilization</title>
+            <link>https://lwn.net/Articles/970397/</link>
+            <description><![CDATA[<p>
+On April 11, Brandt Bucher posted
+<a href="https://peps.python.org/pep-0744">PEP 744</a> ("JIT Compilation"),
+which summarizes the current state of Python's new <a href="https://lwn.net/Articles/958350/">
+copy-and-patch just-in-time (JIT) compiler</a>. The JIT is currently
+experimental, but the PEP proposes some criteria for the circumstances under which it
+should become a non-experimental part of Python.
+<a href="https://discuss.python.org/t/pep-744-jit-compilation/50756">
+The discussion</a> of the PEP hasn't
+reached a conclusion, but
+several members of the community have already raised questions
+about how the JIT would fit into future iterations of the Python language.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/970397/</guid>
+            <pubDate>Thu, 25 Apr 2024 17:57:46 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The state of realtime and embedded Linux at OSSNA</title>
+            <link>https://lwn.net/Articles/970555/</link>
+            <description><![CDATA[Linux, famously, appears in a wide range of systems.  While servers and
+large data centers get a lot of the attention, and this year will always be
+the year of the Linux desktop, there is also a great deal of Linux to be
+found in realtime and embedded applications.  Two talks held in the
+realtime and embedded tracks of the 2024 <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a> provided listeners with an update on how
+Linux is doing in those areas.  Work on realtime Linux appears to be nearing
+completion, while the embedded community is still pushing forward at full
+speed.]]></description>
+            <guid>https://lwn.net/Articles/970555/</guid>
+            <pubDate>Thu, 25 Apr 2024 14:25:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora Asahi Remix 40 is now available</title>
             <link>https://lwn.net/Articles/972874/</link>
@@ -239,129 +365,6 @@ mechanism for diagnostic attributes, changes to how assertions around
             <guid>https://lwn.net/Articles/972186/</guid>
             <pubDate>Thu, 02 May 2024 14:22:14 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 25, 2024</title>
-            <link>https://lwn.net/Articles/970328/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for April 25, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/970328/</guid>
-            <pubDate>Thu, 25 Apr 2024 01:21:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Existential types in Rust</title>
-            <link>https://lwn.net/Articles/970186/</link>
-            <description><![CDATA[<p>
-For several years, contributors to the Rust project have
-been working to improve support for asynchronous
-code. The benefits of these efforts are not confined to asynchronous code,
-however. Members of the Rust community have been working toward adding explicit
-<a href="https://en.wikipedia.org/wiki/Type_system#Existential_types">
-existential types</a> to Rust since 2017. Existential types are not a common feature
-of programming languages (something
-<a href="https://rust-lang.github.io/rfcs/2515-type_alias_impl_trait.html">
-the RFC</a> acknowledges), so the motivation for their inclusion might be somewhat
-obscure.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/970186/</guid>
-            <pubDate>Wed, 24 Apr 2024 12:49:16 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A change in direction for security-module stacking?</title>
-            <link>https://lwn.net/Articles/970070/</link>
-            <description><![CDATA[The long-running effort to complete the work on stacking (or composing) the
-Linux security modules (LSMs) recently encountered a barrier—in the form of
-a "suggestion" to discontinue it from Linus Torvalds.  His complaint
-revolved around the indirect function calls that are used to implement
-LSMs, but he also did not think much of the effort to switch away from
-those calls.  While it does not appear that a major course-change is in store
-for LSMs, it is clear that Torvalds is not happy with the direction of that
-subsystem.]]></description>
-            <guid>https://lwn.net/Articles/970070/</guid>
-            <pubDate>Tue, 23 Apr 2024 17:50:27 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rust for embedded Linux kernels</title>
-            <link>https://lwn.net/Articles/970216/</link>
-            <description><![CDATA[The Rust programming language, it is hoped, will bring a new level of
-safety to the Linux kernel.  At the moment, though, there are still a
-number of impediments to getting useful Rust code into the kernel.  In the
-Embedded Open Source Summit track of the <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
-Source Summit North America</a>, Fabien Parent provided an overview of his
-work aimed at improving the infrastructure needed to write the device
-drivers needed by embedded systems in Rust; there is still some work to be
-done.]]></description>
-            <guid>https://lwn.net/Articles/970216/</guid>
-            <pubDate>Tue, 23 Apr 2024 13:31:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Linus and Dirk chat about AI, XZ, hardware, and more</title>
-            <link>https://lwn.net/Articles/970293/</link>
-            <description><![CDATA[<p>One of the mainstays of the the Linux Foundation's Open Source Summit is the "fireside chat"
-(sans fire) between Linus Torvalds and Dirk Hohndel to discuss open source and
-Linux kernel topics of the day. On April 17, at <a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open Source Summit
-North America</a> (OSSNA) in Seattle, Washington, they held with tradition
-and discussed a range of topics including proper whitespace parsing,
-security, and the current AI craze.</p>]]></description>
-            <guid>https://lwn.net/Articles/970293/</guid>
-            <pubDate>Mon, 22 Apr 2024 17:39:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Weighted memory interleaving and new system calls</title>
-            <link>https://lwn.net/Articles/969379/</link>
-            <description><![CDATA[<p>
-Gregory Price recently posted
-<a href="https://lwn.net/ml/linux-kernel/20231223181101.1954-1-gregory.price@memverge.com/">
-a patch set</a> that adds support for weighted memory interleaving — allowing a
-process's memory to be distributed between
-<a href="https://en.wikipedia.org/wiki/Non-uniform_memory_access">
-non-uniform memory access</a> (NUMA)
-nodes in a more controlled way.
-According to his performance measurements, the patch set could provide a
-significant improvement for computers with network-attached memory.
-The patch set also
-introduces new system calls and paves the way for future extensions
-intended to give processes more control over their own memory.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/969379/</guid>
-            <pubDate>Fri, 19 Apr 2024 14:12:55 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Gentoo bans AI-created contributions</title>
-            <link>https://lwn.net/Articles/970072/</link>
-            <description><![CDATA[<p><a href="https://wiki.gentoo.org/wiki/Project:Council">Gentoo Council</a> member Michał Górny <a
-href="https://lwn.net/ml/gentoo-dev/a2b8c68b1649213cf237f40e41f9a460a5667c34.camel@gentoo.org/">posted</a>
-an RFC to the gentoo-dev mailing
-list in late February about banning "<q>'AI'-backed (LLM/GPT/whatever)
-contributions</q>" to the Gentoo Linux project. Górny wrote that the spread of the
-"<q>AI&nbsp;bubble</q>" indicated a need for Gentoo to formally take a stand on AI
-tools. After a lengthy discussion, the Gentoo Council <a
-href="https://lwn.net/ml/gentoo-dev/f56698adfcd7eae64a82d1b367e8af71a1261819.camel%40gentoo.org/">voted</a>
-unanimously this week to adopt his proposal and ban contributions generated with AI/ML tools.</p>]]></description>
-            <guid>https://lwn.net/Articles/970072/</guid>
-            <pubDate>Thu, 18 Apr 2024 15:11:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Warning about WARN_ON()</title>
-            <link>https://lwn.net/Articles/969923/</link>
-            <description><![CDATA[Kernel developers, like conscientious developers for many projects, will
-often include checks in the code for conditions that are never expected to
-occur, but which would indicate a serious problem should that expectation
-turn out to be incorrect.  For years, developers have been encouraged (to
-put it politely) to avoid using assertions that crash the machine for such
-conditions unless there is truly no alternative.  Increasingly, though, use
-of the kernel's <tt>WARN_ON()</tt> family of macros, which developers were
-told to use instead, is also being discouraged.]]></description>
-            <guid>https://lwn.net/Articles/969923/</guid>
-            <pubDate>Thu, 18 Apr 2024 14:24:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
