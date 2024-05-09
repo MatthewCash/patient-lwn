@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 May 2024 14:02:11 +0000</pubDate>
-        <lastBuildDate>Thu, 9 May 2024 14:09:44 +0000</lastBuildDate>
+        <pubDate>Thu, 09 May 2024 14:17:41 +0000</pubDate>
+        <lastBuildDate>Thu, 9 May 2024 14:26:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -365,14 +365,6 @@ mechanism for diagnostic attributes, changes to how assertions around
             <guid>https://lwn.net/Articles/972191/</guid>
             <pubDate>Thu, 02 May 2024 14:43:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/972186/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and distro-info-data), <b>Fedora</b> (et, php-tcpdf, python-aiohttp, python-openapi-core, thunderbird, tpm2-tools, and tpm2-tss), <b>Red Hat</b> (nodejs:16 and podman), and <b>Ubuntu</b> (firefox).]]></description>
-            <guid>https://lwn.net/Articles/972186/</guid>
-            <pubDate>Thu, 02 May 2024 14:22:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
