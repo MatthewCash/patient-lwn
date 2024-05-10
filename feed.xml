@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 May 2024 11:31:44 +0000</pubDate>
-        <lastBuildDate>Fri, 10 May 2024 12:57:32 +0000</lastBuildDate>
+        <pubDate>Fri, 10 May 2024 13:02:01 +0000</pubDate>
+        <lastBuildDate>Fri, 10 May 2024 13:11:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/973206/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:4.0, container-tools:rhel8, git-lfs, glibc, libxml2, nodejs:18, and nodejs:20), <b>Debian</b> (dav1d and libpgjava), <b>Fedora</b> (kernel and pypy), <b>Red Hat</b> (glibc and nodejs:16), <b>SUSE</b> (ffmpeg, ffmpeg-4, ghostscript, go1.21, go1.22, less, python-python-jose, python-Werkzeug, and sssd), and <b>Ubuntu</b> (fossil, glib2.0, and libspreadsheet-parsexlsx-perl).]]></description>
+            <guid>https://lwn.net/Articles/973206/</guid>
+            <pubDate>Fri, 10 May 2024 13:02:00 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/973071/</link>
