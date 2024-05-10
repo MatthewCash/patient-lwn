@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 10 May 2024 14:42:22 +0000</pubDate>
-        <lastBuildDate>Fri, 10 May 2024 15:24:34 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 10 May 2024 15:33:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -329,14 +329,6 @@ looks particularly alarming.</q>"]]></description>
             <guid>https://lwn.net/Articles/972473/</guid>
             <pubDate>Sun, 05 May 2024 23:07:55 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/972351/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium, grub2, httpd, kernel, libcoap, matrix-synapse, python-pip, and rust-pythonize), <b>Red Hat</b> (kernel and libxml2), <b>SUSE</b> (kernel), and <b>Ubuntu</b> (eglibc, glibc and php7.4, php8.1, php8.2).]]></description>
-            <guid>https://lwn.net/Articles/972351/</guid>
-            <pubDate>Fri, 03 May 2024 15:29:05 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
