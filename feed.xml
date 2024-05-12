@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 12 May 2024 21:39:38 +0000</pubDate>
-        <lastBuildDate>Sun, 12 May 2024 22:08:01 +0000</lastBuildDate>
+        <pubDate>Sun, 12 May 2024 22:20:01 +0000</pubDate>
+        <lastBuildDate>Sun, 12 May 2024 22:25:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 6.9 kernel is out</title>
+            <link>https://lwn.net/Articles/972886/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/973397/">released</a> the 6.9 kernel. 
+"<q>So 6.9 is now out, and last week has looked quite stable (and the
+whole release has felt pretty normal).</q>"
+Significant changes in this release include
+the ability to create <a href="https://lwn.net/Articles/794707/">pidfds</a> for individual
+threads,
+the <a href="https://lwn.net/Articles/961941/">BPF arena</a> subsystem,
+the <a href="https://lwn.net/Articles/947173/">BPF token</a> security mechanism,
+<tt>truncate()</tt> support in <a href="https://lwn.net/Articles/776703/">io_uring</a>,
+support for the Rust language on 64-bit Arm systems,
+<a href="https://lwn.net/Articles/948037/">weighted interleaving</a> in the
+memory-management subsystem,
+the <a
+href="https://docs.kernel.org/admin-guide/device-mapper/vdo.html">device-mapper
+virtual data optimizer</a> target,
+initial <a href="https://lwn.net/Articles/932060/">FUSE passthrough</a> support,
+and more.
+
+See the LWN merge-window summaries
+(<a href="https://lwn.net/Articles/965141/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/965541/">part&nbsp;2</a>) for more information.]]></description>
+            <guid>https://lwn.net/Articles/972886/</guid>
+            <pubDate>Sun, 12 May 2024 22:20:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/973206/</link>
