@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 May 2024 14:46:26 +0000</pubDate>
-        <lastBuildDate>Mon, 13 May 2024 14:48:19 +0000</lastBuildDate>
+        <pubDate>Mon, 13 May 2024 15:09:38 +0000</pubDate>
+        <lastBuildDate>Mon, 13 May 2024 15:09:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -325,36 +325,6 @@ big list of attendees that creates a good curl up.
             <guid>https://lwn.net/Articles/972603/</guid>
             <pubDate>Mon, 06 May 2024 20:14:11 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>The 2023 FSF Free Software Awards</title>
-            <link>https://lwn.net/Articles/972572/</link>
-            <description><![CDATA[The Free Software Foundation has <a
-href="https://www.fsf.org/news/free-software-awards-winners-announced-bruno-haible-french-free-software-unit-nick-logozzo">announced</a>
-the recipients of its 2023 Free Software Awards: Bruno Haible for work on
-<a href="https://www.gnu.org/software/gnulib/">gnulib</a>, Nick Logozzo as
-the "outstanding new free software contributior", and <a
-href="https://code.gouv.fr/fr/">code.gouv.fr</a> for projects of social
-benefit.
-<p>
-<blockquote class="bq">
-	When presenting the award to Haible, FSF executive director Zoë
-	Kooyman commented on the significance of Haible's work, saying that
-	Haible's work enabled free software programmers around the world to
-	focus on the main, innovative portions of their program, thus
-	facilitating the development of more and more free software.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/972572/</guid>
-            <pubDate>Mon, 06 May 2024 14:55:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/972571/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (glibc, intel-microcode, less, libkf5ksieve, and ruby3.1), <b>Fedora</b> (chromium, gdcm, httpd, and stalld), <b>Gentoo</b> (Apache Commons BCEL, borgmatic, Dalli, firefox, HTMLDOC, ImageMagick, MediaInfo, MediaInfoLib, MIT krb5, MPlayer, mujs, Pillow, Python, PyPy3, QtWebEngine, Setuptools, strongSwan, and systemd), <b>Oracle</b> (grub2 and shim), <b>Red Hat</b> (git-lfs, kpatch-patch, unbound, and varnish), and <b>SUSE</b> (avahi, grafana and mybatis, java-11-openjdk, java-17-openjdk, skopeo, SUSE Manager Client Tools, SUSE Manager Salt Bundle, and SUSE Manager Server 4.3).]]></description>
-            <guid>https://lwn.net/Articles/972571/</guid>
-            <pubDate>Mon, 06 May 2024 14:37:51 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
