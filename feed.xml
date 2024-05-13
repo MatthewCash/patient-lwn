@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 13 May 2024 20:39:19 +0000</pubDate>
-        <lastBuildDate>Mon, 13 May 2024 21:09:23 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 13 May 2024 21:24:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -276,32 +276,6 @@ the 1.22 release.
             <guid>https://lwn.net/Articles/972679/</guid>
             <pubDate>Tue, 07 May 2024 12:29:11 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>2023 PSF annual impact report</title>
-            <link>https://lwn.net/Articles/972596/</link>
-            <description><![CDATA[<p>The <a href="https://www.python.org/psf-landing/">Python Software
-Foundation</a> (PSF) has <a
-href="https://pyfound.blogspot.com/2024/05/the-psfs-2023-annual-impact-report-is.html">announced</a>
-its <a href="https://www.python.org/psf/annual-report/2023/">annual
-impact report</a> for 2023. The report includes updates from PSF staff
-as well as summaries of the foundation's activities, financials, and
-infrastructure. The PSF celebrated the
-20th anniversary of PyCon US, distributed more than $370,000 in grants, and
-enjoyed impressive traffic on <a href="https://pypi.org/">PyPI</a>:</p>
-
-<blockquote class="bq">
-In 2023 PyPI saw a 45% growth in download counts and bandwidth alike,
-serving 603,378,275 downloads for the 516,402 projects hosted there
-requiring 747.4 Petabytes of data transfer, or 189.6 Gbps of bandwidth
-24x7x365.
-</blockquote>
-
-<p>See the full report for a breakdown of grant disbursements and
-trends, PSF expenses, and high-level plans for the rest of 2024.</p>]]></description>
-            <guid>https://lwn.net/Articles/972596/</guid>
-            <pubDate>Mon, 06 May 2024 21:21:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
