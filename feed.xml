@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 May 2024 20:00:05 +0000</pubDate>
-        <lastBuildDate>Mon, 13 May 2024 20:09:15 +0000</lastBuildDate>
+        <pubDate>Mon, 13 May 2024 20:22:29 +0000</pubDate>
+        <lastBuildDate>Mon, 13 May 2024 20:25:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -302,29 +302,6 @@ trends, PSF expenses, and high-level plans for the rest of 2024.</p>]]></descrip
             <guid>https://lwn.net/Articles/972596/</guid>
             <pubDate>Mon, 06 May 2024 21:21:51 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stenberg: I survived curl up 2024</title>
-            <link>https://lwn.net/Articles/972603/</link>
-            <description><![CDATA[<p>
-Daniel Stenberg has
-<a href="https://daniel.haxx.se/blog/2024/05/06/i-survived-curl-up-2024/">
-posted a report</a> about the recent curl up conference about 
-<a href="https://curl.se/">curl</a> development. It was held over two days in
-Stockholm. The report has short summaries of the talks with links to the
-recordings.
-</p>
-
-<blockquote class="bq">
-curl up is never a big meeting/conference but we have in the past
-sometimes been around twenty-five attendees. This year's amount of
-fifteen was the smallest so far, but in this small set of people we
-have a set of long-term well-known curl contributors. It is not a
-big list of attendees that creates a good curl up.   
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/972603/</guid>
-            <pubDate>Mon, 06 May 2024 20:14:11 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
