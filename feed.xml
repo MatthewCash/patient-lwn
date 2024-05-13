@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 May 2024 12:26:30 +0000</pubDate>
-        <lastBuildDate>Mon, 13 May 2024 12:58:49 +0000</lastBuildDate>
+        <pubDate>Mon, 13 May 2024 13:07:36 +0000</pubDate>
+        <lastBuildDate>Mon, 13 May 2024 13:13:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/973496/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (nodejs:18 and shim), <b>Debian</b> (atril and chromium), <b>Fedora</b> (chromium, glib2, gnome-shell, mediawiki, php-wikimedia-cdb, php-wikimedia-utfnormal, stb, and tcpdump), <b>Gentoo</b> (Kubelet, PoDoFo, Rebar3, and thunderbird), <b>Mageia</b> (glibc and libnbd), <b>Oracle</b> (kernel), <b>Red Hat</b> (bind and dhcp and varnish), and <b>SUSE</b> (chromium, cpio, freerdp, giflib, gnutls, opera, python-Pillow, python-Werkzeug, tinyproxy, and tpm2-0-tss).]]></description>
+            <guid>https://lwn.net/Articles/973496/</guid>
+            <pubDate>Mon, 13 May 2024 13:07:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The 6.9 kernel is out</title>
             <link>https://lwn.net/Articles/972886/</link>
