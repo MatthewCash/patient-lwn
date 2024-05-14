@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 14 May 2024 17:00:22 +0000</pubDate>
-        <lastBuildDate>Tue, 14 May 2024 17:08:15 +0000</lastBuildDate>
+        <pubDate>Tue, 14 May 2024 17:17:39 +0000</pubDate>
+        <lastBuildDate>Tue, 14 May 2024 17:25:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Manjaro 24.0 released</title>
+            <link>https://lwn.net/Articles/973686/</link>
+            <description><![CDATA[<p><a
+href="https://forum.manjaro.org/t/manjaro-24-0-wynsdey-released/161527">Version&nbsp;24.0</a>
+of the Arch-based <a href="https://manjaro.org/">Manjaro</a> distribution is now available with
+the 6.9&nbsp;kernel, GNOME&nbsp;46, Xfce&nbsp;4.18, and an update to the
+<a href="https://wiki.manjaro.org/index.php/Pamac">Pamac</a> package
+installer. This is also the project's first release with KDE&nbsp;Plasma&nbsp;6:</p>
+
+<blockquote class="bq">
+<p>The Plasma edition comes with the latest Plasma 6.0 series and KDE
+Gear 24.02. It brings exciting new improvements to your desktop.</p>
+
+<p>With Plasma 6, KDE's technology stack has undergone major upgrades:
+a transition to the latest version of application framework, Qt, and
+an improved graphics platform when Wayland is used. These changes are
+as smooth and unnoticeable to the users as possible. You will see the
+same familiar desktop environment that you know and love. But these
+under-the-hood upgrades benefit Plasma's security, efficiency, and
+performance, and improve support for modern hardware. Thus Plasma
+delivers an overall more reliable user experience, while paving the
+way for many more improvements in the future.</p>
+</blockquote>
+
+<p>The project also offers minimal install images with the 6.6&nbsp;LTS
+and 6.1&nbsp;LTS kernels to support older hardware.</p>]]></description>
+            <guid>https://lwn.net/Articles/973686/</guid>
+            <pubDate>Tue, 14 May 2024 17:17:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/973667/</link>
