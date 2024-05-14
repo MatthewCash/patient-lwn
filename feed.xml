@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 14 May 2024 12:07:30 +0000</pubDate>
-        <lastBuildDate>Tue, 14 May 2024 12:44:49 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 14 May 2024 12:59:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -245,28 +245,6 @@ href="https://gcc.gnu.org/gcc-14/changes.html">the release notes</a> for
 details.]]></description>
             <guid>https://lwn.net/Articles/972683/</guid>
             <pubDate>Tue, 07 May 2024 12:57:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Secure Randomness in Go 1.22 (Go Blog)</title>
-            <link>https://lwn.net/Articles/972680/</link>
-            <description><![CDATA[The Go Blog has <a href="https://go.dev/blog/chacha8rand">a detailed
-article</a> on the new, more secure random-number generator implemented for
-the 1.22 release.
-<p>
-<blockquote class="bq">
-	For example, when Go 1.20 deprecated math/rand's Read, we heard
-	from developers who discovered (thanks to tooling pointing out use
-	of deprecated functionality) they had been using it in places where
-	crypto/rand's Read was definitely needed, like generating key
-	material. Using Go 1.20, that mistake is a serious security problem
-	that merits a detailed investigation to understand the
-	damage. Where were the keys used? How were the keys exposed? Were
-	other random outputs exposed that might allow an attacker to derive
-	the keys? And so on. Using Go 1.22, that mistake is just a mistake.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/972680/</guid>
-            <pubDate>Tue, 07 May 2024 12:46:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
