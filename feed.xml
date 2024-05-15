@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 May 2024 17:42:47 +0000</pubDate>
-        <lastBuildDate>Wed, 15 May 2024 18:10:52 +0000</lastBuildDate>
+        <pubDate>Wed, 15 May 2024 18:18:09 +0000</pubDate>
+        <lastBuildDate>Wed, 15 May 2024 18:30:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux maintainers were infected for 2 years by SSH-dwelling backdoor
+(ars technica)</title>
+            <link>https://lwn.net/Articles/973783/</link>
+            <description><![CDATA[Ars technica <a
+href="https://arstechnica.com/security/2024/05/ssh-backdoor-has-infected-400000-linux-servers-over-15-years-and-keeps-on-spreading/">looks
+at</a> a <a
+href="https://web-assets.esetstatic.com/wls/en/papers/white-papers/ebury-is-alive-but-unseen.pdf">a
+recent report</a> on the Ebury root kit, with a focus on the <a
+href="https://lwn.net/Articles/464233/">2011 compromise of kernel.org</a>, which may have
+been more extensive than believed at the time.
+<p>
+<blockquote class="bq">
+	In 2014, ESET researchers said the 2011 attack likely infected
+	kernel.org servers with a second piece of malware they called
+	Ebury. The malware, the firm said, came in the form of a malicious
+	code library that, when installed, created a backdoor in OpenSSH
+	that provided the attackers with a remote root shell on infected
+	hosts with no valid password required. In a little less than 22
+	months, starting in August 2011, Ebury spread to 25,000
+	servers. Besides the four belonging to the Linux Kernel
+	Organization, the infection also touched one or more servers inside
+	hosting facilities and an unnamed domain registrar and web hosting
+	provider. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/973783/</guid>
+            <pubDate>Wed, 15 May 2024 18:15:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 126.0 released</title>
             <link>https://lwn.net/Articles/973763/</link>
