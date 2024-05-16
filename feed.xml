@@ -8,11 +8,119 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 May 2024 23:47:05 +0000</pubDate>
-        <lastBuildDate>Wed, 15 May 2024 23:48:12 +0000</lastBuildDate>
+        <pubDate>Thu, 16 May 2024 00:23:10 +0000</pubDate>
+        <lastBuildDate>Thu, 16 May 2024 00:35:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 9, 2024</title>
+            <link>https://lwn.net/Articles/972160/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for May 9, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/972160/</guid>
+            <pubDate>Thu, 09 May 2024 00:03:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Securing Git repositories with gittuf</title>
+            <link>https://lwn.net/Articles/972467/</link>
+            <description><![CDATA[<p>The so-called software supply chain starts with source code. But most security measures and tooling
+don't kick in until source is turned into an artifact&mdash;a source
+tarball, binary build, container image, or other method of delivering a
+release to users. The <a href="https://gittuf.dev/">gittuf</a> project
+is an attempt to provide a security layer for <a
+href="https://git-scm.com/">Git</a> that can handle key management,
+enforce security policies for repositories, and guard against attacks
+at the version-control layer. At Open Source Summit North America (OSSNA), Aditya Sirish A
+Yelgundhalli and Billy Lynch <a
+href="https://ossna2024.sched.com/event/1aBPF/securing-git-repositories-with-gittuf-aditya-sirish-a-yelgundhalli-new-york-university-billy-lynch-chainguard">presented</a>
+an introduction to gittuf with an overview of its goals and
+status.</p>]]></description>
+            <guid>https://lwn.net/Articles/972467/</guid>
+            <pubDate>Wed, 08 May 2024 16:11:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A proposal to switch Fedora Workstation&apos;s desktop</title>
+            <link>https://lwn.net/Articles/970929/</link>
+            <description><![CDATA[A proposal to switch the default desktop for Fedora Workstation from GNOME
+to KDE Plasma largely went over like the proverbial lead balloon—unsurprisingly.
+But the 
+conversation about the proposal did surface some areas where the
+distribution could 
+perhaps be more inclusive with regard to the other desktop choices
+available.  The project believes that it
+benefits from being opinionated and not requiring users to make
+multiple decisions before they can even install the distribution, but there
+is a balance 
+to be found.]]></description>
+            <guid>https://lwn.net/Articles/970929/</guid>
+            <pubDate>Tue, 07 May 2024 21:46:35 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Systemd heads for a big round-number release</title>
+            <link>https://lwn.net/Articles/971866/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://systemd.io/">
+systemd project</a> is preparing for a new release.
+<a href="https://github.com/systemd/systemd/releases/tag/v256-rc1">
+Version&nbsp;256-rc1</a> was released
+on April&nbsp;25 with a large number of changes and new features. Most of the
+changes relate to security, easier configuration, unprivileged access to system
+resources, or all three of these. Users of systemd will find setting up
+containers — even without root access — much simpler and more secure.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/971866/</guid>
+            <pubDate>Tue, 07 May 2024 15:50:48 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Modernizing accessibility for desktop Linux</title>
+            <link>https://lwn.net/Articles/971541/</link>
+            <description><![CDATA[<p>In some aspects, such as in gaming, the Linux desktop has made
+enormous strides in the past few years. In others, such as
+accessibility, things have stagnated. At <a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open Source Summit North America</a> (OSSNA), Matt Campbell <a
+href="https://ossna2024.sched.com/event/1aBO1/modernizing-accessibility-for-desktop-linux-matt-campbell-gnome-foundation">spoke</a>
+about the need for, and an approach to, modernizing accessibility for
+desktop Linux. This included a discussion of Newton, a fledgling
+project that may greatly improve accessibility on the Linux desktop.</p>]]></description>
+            <guid>https://lwn.net/Articles/971541/</guid>
+            <pubDate>Mon, 06 May 2024 17:08:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The file_operations structure gets smaller</title>
+            <link>https://lwn.net/Articles/972081/</link>
+            <description><![CDATA[Kernel developers are encouraged to send their changes in small batches as
+a way of making life easier for reviewers.  So when a longtime developer
+and maintainer hits the list with a 437-patch series touching 859 files,
+eyebrows are certain to head skyward.  Specifically, <a
+href="https://lwn.net/ml/linux-kernel/20240411153126.16201-1-axboe@kernel.dk/">this series
+from Jens Axboe</a> is cleaning up one of the core abstractions that has
+been part of the Linux kernel almost since the beginning; authors of device
+drivers (among others) will have to take note.]]></description>
+            <guid>https://lwn.net/Articles/972081/</guid>
+            <pubDate>Fri, 03 May 2024 15:56:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Inheritable credentials for directory file descriptors</title>
+            <link>https://lwn.net/Articles/971825/</link>
+            <description><![CDATA[In Unix-like systems, an open file descriptor carries the right to access
+the opened object in specific ways.  As a general rule, that file
+descriptor does <i>not</i> enable access to any other objects.  The
+recently merged <a href="https://lwn.net/Articles/947173/">BPF token feature</a> runs
+counter to this practice by creating file descriptors that carry specific
+BPF-related access rights.  A similar but different approach to
+capability-carrying file descriptors, in the form of directory file
+descriptors that include their own credentials, is currently under
+consideration in the kernel community.]]></description>
+            <guid>https://lwn.net/Articles/971825/</guid>
+            <pubDate>Thu, 02 May 2024 15:10:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Linux maintainers were infected for 2 years by SSH-dwelling backdoor
 (ars technica)</title>
