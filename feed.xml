@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 May 2024 13:38:00 +0000</pubDate>
-        <lastBuildDate>Fri, 17 May 2024 13:48:14 +0000</lastBuildDate>
+        <pubDate>Fri, 17 May 2024 14:05:48 +0000</pubDate>
+        <lastBuildDate>Fri, 17 May 2024 14:09:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/974055/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium, firefox, and podman), <b>Mageia</b> (chromium-browser-stable, ghostscript, and java-1.8.0, java-11, java-17, java-latest), <b>Red Hat</b> (bind, Firefox, firefox, gnutls, httpd:2.4, and thunderbird), <b>SUSE</b> (glibc, opera, and python-Pillow), and <b>Ubuntu</b> (dotnet7, dotnet8, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4,
+ linux-bluefield, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4,
+ linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle,
+ linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.5, linux-azure, linux-azure-6.5, linux-gcp,
+ linux-gcp-6.5, linux-hwe-6.5, linux-laptop, linux-lowlatency,
+ linux-lowlatency-hwe-6.5, linux-nvidia-6.5, linux-oem-6.5, linux-oracle,
+ linux-oracle-6.5, linux-raspi, linux-signed, linux-signed-aws,
+ linux-signed-aws-6.5, linux-starfive, linux-starfive-6.5, linux, linux-aws, linux-azure-4.15, linux-gcp-4.15, linux-hwe, linux-kvm,
+ linux-oracle, linux, linux-aws, linux-kvm, linux-lts-xenial, and linux, linux-azure, linux-azure-5.15, linux-azure-fde,
+ linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15, linux-gkeop,
+ linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
+ linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15,
+ linux-nvidia, linux-oracle, linux-raspi).]]></description>
+            <guid>https://lwn.net/Articles/974055/</guid>
+            <pubDate>Fri, 17 May 2024 13:59:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>White paper: Vendor Kernels, Bugs and Stability</title>
             <link>https://lwn.net/Articles/973996/</link>
