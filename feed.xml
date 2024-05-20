@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 May 2024 12:57:36 +0000</pubDate>
-        <lastBuildDate>Mon, 20 May 2024 13:00:11 +0000</lastBuildDate>
+        <pubDate>Mon, 20 May 2024 13:09:47 +0000</pubDate>
+        <lastBuildDate>Mon, 20 May 2024 13:17:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Axboe: What&apos;s new with io_uring in 6.10</title>
+            <link>https://lwn.net/Articles/974341/</link>
+            <description><![CDATA[Jens Axboe <a
+href="https://github.com/axboe/liburing/wiki/What's-new-with-io_uring-in-6.10">describes
+the new io_uring features</a> that will be a part of the 6.10 kernel
+release.
+<p>
+<blockquote class="bq">
+	Bundles are multiple buffers used in a single operation. On the
+	receive side, this means a single receive may utilize multiple
+	buffers, reducing the roundtrip through the networking stack from N
+	per N buffers to just a single one. On the send side, this also
+	enables better handling of how an application deals with sends from
+	a socket, eliminating the need to serialize sends on a single
+	socket. Bundles work with provided buffers, hence this feature also
+	adds support for provided buffers for send operations.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/974341/</guid>
+            <pubDate>Mon, 20 May 2024 13:09:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/974339/</link>
@@ -342,14 +364,6 @@ and 6.1&nbsp;LTS kernels to support older hardware.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (glib2.0 and shim), <b>Fedora</b> (glib2, gnome-shell, tcpdump, tpm2-tools, tpm2-tss, and uriparser), <b>Mageia</b> (mutt), <b>Oracle</b> (git-lfs, glibc, kernel, kernel-container, nodejs:18, nodejs:20, and pcp), <b>SUSE</b> (apache2, opensc, openssl-1_1, openssl-3, perl, python-Pillow, python-pyOpenSSL, python-Werkzeug, SUSE Manager Client Tools Beta, tpm2-0-tss, and tpm2.0-tools), and <b>Ubuntu</b> (sqlparse and strongswan).]]></description>
             <guid>https://lwn.net/Articles/973667/</guid>
             <pubDate>Tue, 14 May 2024 13:06:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/973496/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (nodejs:18 and shim), <b>Debian</b> (atril and chromium), <b>Fedora</b> (chromium, glib2, gnome-shell, mediawiki, php-wikimedia-cdb, php-wikimedia-utfnormal, stb, and tcpdump), <b>Gentoo</b> (Kubelet, PoDoFo, Rebar3, and thunderbird), <b>Mageia</b> (glibc and libnbd), <b>Oracle</b> (kernel), <b>Red Hat</b> (bind and dhcp and varnish), and <b>SUSE</b> (chromium, cpio, freerdp, giflib, gnutls, opera, python-Pillow, python-Werkzeug, tinyproxy, and tpm2-0-tss).]]></description>
-            <guid>https://lwn.net/Articles/973496/</guid>
-            <pubDate>Mon, 13 May 2024 13:07:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
