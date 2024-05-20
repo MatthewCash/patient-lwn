@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 May 2024 12:38:25 +0000</pubDate>
-        <lastBuildDate>Mon, 20 May 2024 12:46:11 +0000</lastBuildDate>
+        <pubDate>Mon, 20 May 2024 12:57:36 +0000</pubDate>
+        <lastBuildDate>Mon, 20 May 2024 13:00:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/974339/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (bind9, chromium, and thunderbird), <b>Fedora</b> (buildah, chromium, firefox, mingw-python-werkzeug, and suricata), <b>Mageia</b> (golang), <b>Oracle</b> (firefox and nodejs:20), <b>Red Hat</b> (firefox, httpd:2.4, nodejs, and thunderbird), and <b>SUSE</b> (firefox, git-cliff, and ucode-intel).]]></description>
+            <guid>https://lwn.net/Articles/974339/</guid>
+            <pubDate>Mon, 20 May 2024 12:54:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Eight new kernel updates</title>
             <link>https://lwn.net/Articles/974064/</link>
