@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 May 2024 12:13:18 +0000</pubDate>
-        <lastBuildDate>Wed, 22 May 2024 12:59:52 +0000</lastBuildDate>
+        <pubDate>Wed, 22 May 2024 13:10:58 +0000</pubDate>
+        <lastBuildDate>Wed, 22 May 2024 13:16:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -355,14 +355,6 @@ development.</q>"]]></description>
             <guid>https://lwn.net/Articles/973763/</guid>
             <pubDate>Wed, 15 May 2024 14:03:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/973746/</link>
-            <description><![CDATA[Security updates have been issued by <b>Mageia</b> (sssd and tcpdump), <b>Red Hat</b> (.NET 7.0, .NET 8.0, expat, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (kernel, postgresql15, postgresql16, python-arcomplete, python-Fabric, python-PyGithub, python- antlr4-python3-runtime, python-avro, python-chardet, python-distro, python- docker, python-fakeredis, python-fixedint, pyth, and python3), and <b>Ubuntu</b> (linux-bluefield).]]></description>
-            <guid>https://lwn.net/Articles/973746/</guid>
-            <pubDate>Wed, 15 May 2024 13:13:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
