@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 23 May 2024 02:23:59 +0000</pubDate>
-        <lastBuildDate>Thu, 23 May 2024 03:10:03 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 May 2024 03:26:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -319,25 +319,6 @@ of some of the highlights and thoughts on upcoming releases:</p>
             <guid>https://lwn.net/Articles/973908/</guid>
             <pubDate>Thu, 16 May 2024 13:17:45 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Mozilla Foundation Welcomes Nabiha Syed as Executive Director</title>
-            <link>https://lwn.net/Articles/973820/</link>
-            <description><![CDATA[The Mozilla Foundation has <a
-href="https://blog.mozilla.org/en/mozilla/mozilla-foundation-welcomes-nabiha-syed-as-executive-director/">announced</a>
-that its new executive director will be Nabiha Syed.
-<p>
-<blockquote class="bq">
-	Syed is known for her mission-driven leadership, focused on
-	increasing transparency into the most powerful institutions in
-	society. She comes to Mozilla after leading The Markup, an
-	award-winning publication that challenges technology to serve the
-	public good, from its launch through its successful acquisition in
-	2024. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/973820/</guid>
-            <pubDate>Thu, 16 May 2024 02:56:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
