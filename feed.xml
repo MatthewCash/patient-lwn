@@ -9,10 +9,118 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 22 May 2024 22:52:19 +0000</pubDate>
-        <lastBuildDate>Wed, 22 May 2024 23:48:11 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 May 2024 00:35:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 16, 2024</title>
+            <link>https://lwn.net/Articles/973073/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for May 16, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/973073/</guid>
+            <pubDate>Thu, 16 May 2024 03:01:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The state of the page in 2024</title>
+            <link>https://lwn.net/Articles/973565/</link>
+            <description><![CDATA[The advent of the <a href="https://lwn.net/Articles/849538/">folio</a> structure to
+describe groups of pages has been one of the most fundamental
+transformations within the kernel in recent years.  Since the folio
+transition affects many subsystems, it is fitting that the subject was
+covered at the beginning of the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> in a joint session of the
+storage, filesystem, and memory-management tracks.  Matthew Wilcox used the
+session to review the work that has been done in this area and to discuss
+what comes next.]]></description>
+            <guid>https://lwn.net/Articles/973565/</guid>
+            <pubDate>Wed, 15 May 2024 13:34:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Portable LLMs with llamafile</title>
+            <link>https://lwn.net/Articles/971195/</link>
+            <description><![CDATA[<p>
+Large language models (LLMs) have been the subject of much discussion and
+scrutiny recently. Of particular interest to open-source enthusiasts are the
+problems with running LLMs on one's own hardware — especially when doing so
+requires NVIDIA's proprietary CUDA toolkit, which remains unavailable in many
+environments.
+Mozilla has developed
+<a href="https://github.com/Mozilla-Ocho/llamafile">llamafile</a> as a
+potential solution to these problems. Llamafile can compile LLM weights
+into portable, native executables for easy integration, archival, or
+distribution. These executables can take advantage of supported GPUs when
+present, but do not require them.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/971195/</guid>
+            <pubDate>Tue, 14 May 2024 15:00:02 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some 6.9 development statistics</title>
+            <link>https://lwn.net/Articles/972605/</link>
+            <description><![CDATA[The 6.9 kernel was <a
+href="https://lwn.net/ml/linux-kernel/CAHk-=whnKYL-WARzrZhVTZ8RP3WZc24C9_DT7JMJooONNT2udQ@mail.gmail.com/">released</a>
+on May&nbsp;12 after a typical nine-week development cycle.  Once again,
+this is a major release containing a lot of changes and new features.  Our
+merge-window summaries (<a href="https://lwn.net/Articles/965141/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/965541/">part&nbsp;2</a>) covered those changes; now that
+the development cycle is complete, the time has come to look at where all
+that work came from — and to introduce a new and experimental LWN feature
+for readers interested in this kind of information.]]></description>
+            <guid>https://lwn.net/Articles/972605/</guid>
+            <pubDate>Mon, 13 May 2024 17:28:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Managing expectations with a contributions and credit policy</title>
+            <link>https://lwn.net/Articles/971817/</link>
+            <description><![CDATA[Maintainers of open-source projects sometimes have disagreements with
+contributors over how contributions are reviewed, modified, merged, and
+credited. A written policy describing how contributions are handled can
+help maintainers set reasonable expectations for potential contributors.
+In turn, that can make the maintainer's job easier because it can help
+reduce a source of friction in the project.  A guide to help create this
+kind of policy for a project has recently been developed.]]></description>
+            <guid>https://lwn.net/Articles/971817/</guid>
+            <pubDate>Mon, 13 May 2024 15:35:03 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian dismisses AI-contributions policy</title>
+            <link>https://lwn.net/Articles/972331/</link>
+            <description><![CDATA[<p>In April, the Gentoo Linux project <a
+href="https://lwn.net/Articles/970072/">banned</a> the use of
+generative AI/ML tools due to copyright, ethical, and quality
+concerns. This means contributors cannot use tools like ChatGPT or GitHub Copilot to
+creating content for the distribution such as code, documentation,
+bug reports, forum posts. A proposal for Debian to adopt a similar
+policy revealed a distinct lack of love for those kinds of tools,
+though it would also seem few contributors support
+banning them outright. </p>]]></description>
+            <guid>https://lwn.net/Articles/972331/</guid>
+            <pubDate>Fri, 10 May 2024 16:08:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Another push for sched_ext</title>
+            <link>https://lwn.net/Articles/972710/</link>
+            <description><![CDATA[The extensible scheduler class (or "sched_ext") is a comprehensive
+framework that enables the implementation of CPU schedulers as a set of BPF
+programs that can be loaded at run time.  Despite having attracted a fair
+amount of interest from the development community, sched_ext has run into
+considerable opposition and seems far from acceptance into the mainline.
+The posting by Tejun Heo of <a
+href="https://lwn.net/ml/linux-kernel/20240501151312.635565-1-tj@kernel.org/">a new
+version of the sched_ext series</a> at the beginning of May has restarted
+this long-running discussion, but it is not clear what the end result will
+be.]]></description>
+            <guid>https://lwn.net/Articles/972710/</guid>
+            <pubDate>Thu, 09 May 2024 14:17:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Alpine Linux 3.20.0 released</title>
             <link>https://lwn.net/Articles/974576/</link>
@@ -229,114 +337,6 @@ that its new executive director will be Nabiha Syed.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/973820/</guid>
             <pubDate>Thu, 16 May 2024 02:56:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for May 9, 2024</title>
-            <link>https://lwn.net/Articles/972160/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for May 9, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/972160/</guid>
-            <pubDate>Thu, 09 May 2024 00:03:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Securing Git repositories with gittuf</title>
-            <link>https://lwn.net/Articles/972467/</link>
-            <description><![CDATA[<p>The so-called software supply chain starts with source code. But most security measures and tooling
-don't kick in until source is turned into an artifact&mdash;a source
-tarball, binary build, container image, or other method of delivering a
-release to users. The <a href="https://gittuf.dev/">gittuf</a> project
-is an attempt to provide a security layer for <a
-href="https://git-scm.com/">Git</a> that can handle key management,
-enforce security policies for repositories, and guard against attacks
-at the version-control layer. At Open Source Summit North America (OSSNA), Aditya Sirish A
-Yelgundhalli and Billy Lynch <a
-href="https://ossna2024.sched.com/event/1aBPF/securing-git-repositories-with-gittuf-aditya-sirish-a-yelgundhalli-new-york-university-billy-lynch-chainguard">presented</a>
-an introduction to gittuf with an overview of its goals and
-status.</p>]]></description>
-            <guid>https://lwn.net/Articles/972467/</guid>
-            <pubDate>Wed, 08 May 2024 16:11:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A proposal to switch Fedora Workstation&apos;s desktop</title>
-            <link>https://lwn.net/Articles/970929/</link>
-            <description><![CDATA[A proposal to switch the default desktop for Fedora Workstation from GNOME
-to KDE Plasma largely went over like the proverbial lead balloon—unsurprisingly.
-But the 
-conversation about the proposal did surface some areas where the
-distribution could 
-perhaps be more inclusive with regard to the other desktop choices
-available.  The project believes that it
-benefits from being opinionated and not requiring users to make
-multiple decisions before they can even install the distribution, but there
-is a balance 
-to be found.]]></description>
-            <guid>https://lwn.net/Articles/970929/</guid>
-            <pubDate>Tue, 07 May 2024 21:46:35 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Systemd heads for a big round-number release</title>
-            <link>https://lwn.net/Articles/971866/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://systemd.io/">
-systemd project</a> is preparing for a new release.
-<a href="https://github.com/systemd/systemd/releases/tag/v256-rc1">
-Version&nbsp;256-rc1</a> was released
-on April&nbsp;25 with a large number of changes and new features. Most of the
-changes relate to security, easier configuration, unprivileged access to system
-resources, or all three of these. Users of systemd will find setting up
-containers — even without root access — much simpler and more secure.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/971866/</guid>
-            <pubDate>Tue, 07 May 2024 15:50:48 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Modernizing accessibility for desktop Linux</title>
-            <link>https://lwn.net/Articles/971541/</link>
-            <description><![CDATA[<p>In some aspects, such as in gaming, the Linux desktop has made
-enormous strides in the past few years. In others, such as
-accessibility, things have stagnated. At <a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open Source Summit North America</a> (OSSNA), Matt Campbell <a
-href="https://ossna2024.sched.com/event/1aBO1/modernizing-accessibility-for-desktop-linux-matt-campbell-gnome-foundation">spoke</a>
-about the need for, and an approach to, modernizing accessibility for
-desktop Linux. This included a discussion of Newton, a fledgling
-project that may greatly improve accessibility on the Linux desktop.</p>]]></description>
-            <guid>https://lwn.net/Articles/971541/</guid>
-            <pubDate>Mon, 06 May 2024 17:08:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The file_operations structure gets smaller</title>
-            <link>https://lwn.net/Articles/972081/</link>
-            <description><![CDATA[Kernel developers are encouraged to send their changes in small batches as
-a way of making life easier for reviewers.  So when a longtime developer
-and maintainer hits the list with a 437-patch series touching 859 files,
-eyebrows are certain to head skyward.  Specifically, <a
-href="https://lwn.net/ml/linux-kernel/20240411153126.16201-1-axboe@kernel.dk/">this series
-from Jens Axboe</a> is cleaning up one of the core abstractions that has
-been part of the Linux kernel almost since the beginning; authors of device
-drivers (among others) will have to take note.]]></description>
-            <guid>https://lwn.net/Articles/972081/</guid>
-            <pubDate>Fri, 03 May 2024 15:56:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Inheritable credentials for directory file descriptors</title>
-            <link>https://lwn.net/Articles/971825/</link>
-            <description><![CDATA[In Unix-like systems, an open file descriptor carries the right to access
-the opened object in specific ways.  As a general rule, that file
-descriptor does <i>not</i> enable access to any other objects.  The
-recently merged <a href="https://lwn.net/Articles/947173/">BPF token feature</a> runs
-counter to this practice by creating file descriptors that carry specific
-BPF-related access rights.  A similar but different approach to
-capability-carrying file descriptors, in the form of directory file
-descriptors that include their own credentials, is currently under
-consideration in the kernel community.]]></description>
-            <guid>https://lwn.net/Articles/971825/</guid>
-            <pubDate>Thu, 02 May 2024 15:10:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
