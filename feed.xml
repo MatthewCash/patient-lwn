@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 May 2024 15:40:08 +0000</pubDate>
-        <lastBuildDate>Thu, 23 May 2024 15:48:07 +0000</lastBuildDate>
+        <pubDate>Thu, 23 May 2024 15:50:49 +0000</pubDate>
+        <lastBuildDate>Thu, 23 May 2024 16:11:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -313,38 +313,6 @@ applied) to the RHEL&nbsp;8.x kernel over time.
             <guid>https://lwn.net/Articles/973996/</guid>
             <pubDate>Fri, 17 May 2024 13:24:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Neovim 0.10 released</title>
-            <link>https://lwn.net/Articles/973917/</link>
-            <description><![CDATA[<p><a href="https://neovim.io/doc/user/news-0.10.html">Version
-0.10</a> of the Vim-based text editor <a
-href="https://neovim.io/">Neovim</a> is <a
-href="https://neovim.io/news/2024/05">now available</a>. This release
-includes a new default color scheme, enhanced support for rendering
-multibyte characters, support for hyperlinks, system clipboard
-synchronization, and more. Many features have been <a
-href="https://neovim.io/doc/user/deprecated.html#deprecated-0.10">deprecated</a>
-in 0.10 and will be removed in future release. Neovim core contributor
-Gregory Anders has written a <a
-href="https://gpanders.com/blog/whats-new-in-neovim-0.10/">summary</a>
-of some of the highlights and thoughts on upcoming releases:</p>
-
-<blockquote class="bq">
- We follow a "fun driven development" paradigm: for the most part,
- contributors and maintainers work on things that are personally
- interesting to them. Because of this, it can be difficult to predict
- what will happen in future releases. If there is a feature you want
- to see implemented, the best way to do it is to take a crack at it
- yourself: many of the features mentioned in this very blog post were
- contributed by users that are not part of the "core" maintenance
- team!
- </blockquote>
-
-<p> </p>]]></description>
-            <guid>https://lwn.net/Articles/973917/</guid>
-            <pubDate>Thu, 16 May 2024 16:03:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
