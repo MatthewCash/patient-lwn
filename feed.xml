@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 May 2024 14:02:20 +0000</pubDate>
-        <lastBuildDate>Fri, 24 May 2024 14:34:04 +0000</lastBuildDate>
+        <pubDate>Fri, 24 May 2024 14:45:23 +0000</pubDate>
+        <lastBuildDate>Fri, 24 May 2024 14:48:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -295,26 +295,6 @@ release.
             <guid>https://lwn.net/Articles/974339/</guid>
             <pubDate>Mon, 20 May 2024 12:54:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Eight new kernel updates</title>
-            <link>https://lwn.net/Articles/974064/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/974068/">6.9.1</a>,
-<a href="https://lwn.net/Articles/974070/">6.8.10</a>,
-<a href="https://lwn.net/Articles/974072/">6.6.31</a>,
-<a href="https://lwn.net/Articles/974074/">6.1.91</a>,
-<a href="https://lwn.net/Articles/974075/">5.15.159</a>,
-<a href="https://lwn.net/Articles/974076/">5.10.217</a>,
-<a href="https://lwn.net/Articles/974078/">5.4.276</a>, and
-<a href="https://lwn.net/Articles/974079/">4.19.314</a> stable kernels have been released.
-These versions include several important fixes; as usual, Greg Kroah-Hartman advises
-users to update right away.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/974064/</guid>
-            <pubDate>Fri, 17 May 2024 14:36:11 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
