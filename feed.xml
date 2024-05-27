@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 May 2024 21:38:27 +0000</pubDate>
-        <lastBuildDate>Mon, 27 May 2024 21:48:21 +0000</lastBuildDate>
+        <pubDate>Mon, 27 May 2024 21:56:11 +0000</pubDate>
+        <lastBuildDate>Mon, 27 May 2024 22:08:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Huston: Calling Time on DNSSEC?</title>
+            <link>https://lwn.net/Articles/975454/</link>
+            <description><![CDATA[Geoff Huston <a
+href="https://www.potaroo.net/ispcol/2024-05/dnssec-fin.html">suggests</a>
+that it is time to give up on DNSSEC and look for a better way to secure
+the Internet namespace.
+<p>
+<blockquote class="bq">
+	What appears to be very clear (to me at any rate!) is that DNSSEC
+	as we know it today is just not going anywhere. It's too complex,
+	too fragile and just too slow to use for the majority of services
+	and their users. Some value its benefits highly enough that they
+	are prepared to live with its shortcomings, but that's not the case
+	for the overall majority of name holders and for the majority of
+	users, and no amount of passionate exhortations about DNSSEC will
+	change this.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/975454/</guid>
+            <pubDate>Mon, 27 May 2024 21:56:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/975399/</link>
