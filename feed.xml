@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 May 2024 12:58:40 +0000</pubDate>
-        <lastBuildDate>Mon, 27 May 2024 12:59:27 +0000</lastBuildDate>
+        <pubDate>Mon, 27 May 2024 13:04:18 +0000</pubDate>
+        <lastBuildDate>Mon, 27 May 2024 13:15:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -314,14 +314,6 @@ release.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/974341/</guid>
             <pubDate>Mon, 20 May 2024 13:09:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/974339/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (bind9, chromium, and thunderbird), <b>Fedora</b> (buildah, chromium, firefox, mingw-python-werkzeug, and suricata), <b>Mageia</b> (golang), <b>Oracle</b> (firefox and nodejs:20), <b>Red Hat</b> (firefox, httpd:2.4, nodejs, and thunderbird), and <b>SUSE</b> (firefox, git-cliff, and ucode-intel).]]></description>
-            <guid>https://lwn.net/Articles/974339/</guid>
-            <pubDate>Mon, 20 May 2024 12:54:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
