@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 27 May 2024 13:04:18 +0000</pubDate>
-        <lastBuildDate>Mon, 27 May 2024 13:15:35 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 27 May 2024 13:27:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -292,28 +292,6 @@ more information on the committee's activities and how to get involved.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, nodejs, and thunderbird), <b>Fedora</b> (uriparser), <b>Oracle</b> (firefox and thunderbird), <b>Slackware</b> (mariadb), <b>SUSE</b> (cairo, gdk-pixbuf, krb5, libosinfo, postgresql14, and python310), and <b>Ubuntu</b> (firefox, linux-aws, linux-aws-5.15, and linux-azure).]]></description>
             <guid>https://lwn.net/Articles/974450/</guid>
             <pubDate>Tue, 21 May 2024 12:52:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Axboe: What&apos;s new with io_uring in 6.10</title>
-            <link>https://lwn.net/Articles/974341/</link>
-            <description><![CDATA[Jens Axboe <a
-href="https://github.com/axboe/liburing/wiki/What's-new-with-io_uring-in-6.10">describes
-the new io_uring features</a> that will be a part of the 6.10 kernel
-release.
-<p>
-<blockquote class="bq">
-	Bundles are multiple buffers used in a single operation. On the
-	receive side, this means a single receive may utilize multiple
-	buffers, reducing the roundtrip through the networking stack from N
-	per N buffers to just a single one. On the send side, this also
-	enables better handling of how an application deals with sends from
-	a socket, eliminating the need to serialize sends on a single
-	socket. Bundles work with provided buffers, hence this feature also
-	adds support for provided buffers for send operations.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/974341/</guid>
-            <pubDate>Mon, 20 May 2024 13:09:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
