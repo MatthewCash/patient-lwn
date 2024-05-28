@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 28 May 2024 15:37:49 +0000</pubDate>
-        <lastBuildDate>Tue, 28 May 2024 16:11:08 +0000</lastBuildDate>
+        <pubDate>Tue, 28 May 2024 16:13:14 +0000</pubDate>
+        <lastBuildDate>Tue, 28 May 2024 16:29:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -293,35 +293,6 @@ notes</a> for more on this release.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (webkit2gtk), <b>Fedora</b> (kernel), <b>Mageia</b> (chromium-browser-stable, djvulibre, gdk-pixbuf2.0, nss &amp; firefox, postgresql15 &amp; postgresql13, python-pymongo, python-sqlparse, stb, thunderbird, and vim), <b>Red Hat</b> (go-toolset:rhel8, nodejs, and varnish:6), <b>SUSE</b> (gitui, glibc, and kernel), and <b>Ubuntu</b> (libspreadsheet-parseexcel-perl, linux-aws, linux-aws-5.15, linux-gke, linux-gcp, python-idna, and thunderbird).]]></description>
             <guid>https://lwn.net/Articles/974572/</guid>
             <pubDate>Wed, 22 May 2024 13:28:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>AlmaLinux forms engineering steering committee</title>
-            <link>https://lwn.net/Articles/974488/</link>
-            <description><![CDATA[<p>The <a href="https://almalinux.org/">AlmaLinux</a> project has <a
-href="https://almalinux.org/blog/2024-05-21-introducing-alesco/">announced</a>
-the formation of the AlmaLinux Engineering
-Steering Committee (ALESCo):</p>
-
-<blockquote class="bq">
-[It] is dedicated to guiding the technical direction of the
-AlmaLinux distribution on a day-to-day basis within the guidelines set
-forth by the board, ensuring its robustness, reliability,
-sustainability, and relevance in the open-source ecosystem. ALESCo
-will work collaboratively with, and oversee relevant technical-focused
-Special Interest Groups (SIGs) to achieve these goals. It is "air
-traffic control" for engineering matters.
-</blockquote>
-
-<p>The initial members of ALESCo appointed by the AlmaLinux OS
-Foundation board are Andrew Lukoshko, Ben Thomas, Cody Robertson,
-Elkhan Mammadli, Jonathan Wright, and Neal Gompa. The <a
-href="https://wiki.almalinux.org/alesco.html">AlmaLinux Wiki</a> has
-more information on the committee's activities and how to get involved.</p>
-
-<p> </p>]]></description>
-            <guid>https://lwn.net/Articles/974488/</guid>
-            <pubDate>Tue, 21 May 2024 16:11:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
