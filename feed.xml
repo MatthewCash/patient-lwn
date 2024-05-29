@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 May 2024 15:01:17 +0000</pubDate>
-        <lastBuildDate>Wed, 29 May 2024 15:10:03 +0000</lastBuildDate>
+        <pubDate>Wed, 29 May 2024 15:24:53 +0000</pubDate>
+        <lastBuildDate>Wed, 29 May 2024 15:26:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -277,23 +277,6 @@ be.]]></description>
             <guid>https://lwn.net/Articles/972710/</guid>
             <pubDate>Thu, 09 May 2024 14:17:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Alpine Linux 3.20.0 released</title>
-            <link>https://lwn.net/Articles/974576/</link>
-            <description><![CDATA[<p><a
-href="https://alpinelinux.org/posts/Alpine-3.20.0-released.html">Version
-3.20.0</a> of the <a href="https://alpinelinux.org/">Alpine Linux</a>
-distribution has been released with initial support for 64-bit
-RISC-V. Other important changes include updates to <a href="https://lwn.net/Articles/966187/">GNOME&nbsp;46</a>, 
-<a href="https://lwn.net/Articles/963851/">KDE&nbsp;Plasma&nbsp;6</a>, and replacing Redis with Valkey due to Redis's
-<a href="https://lwn.net/Articles/966631/">adoption</a> of a non-free
-license model. See the <a
-href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.20.0">release
-notes</a> for more on this release.</p>]]></description>
-            <guid>https://lwn.net/Articles/974576/</guid>
-            <pubDate>Wed, 22 May 2024 15:09:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
