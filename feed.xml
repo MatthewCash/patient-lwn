@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 29 May 2024 13:23:44 +0000</pubDate>
-        <lastBuildDate>Wed, 29 May 2024 13:28:15 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 29 May 2024 13:35:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -293,14 +293,6 @@ href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.20.0">release
 notes</a> for more on this release.</p>]]></description>
             <guid>https://lwn.net/Articles/974576/</guid>
             <pubDate>Wed, 22 May 2024 15:09:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/974572/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (webkit2gtk), <b>Fedora</b> (kernel), <b>Mageia</b> (chromium-browser-stable, djvulibre, gdk-pixbuf2.0, nss &amp; firefox, postgresql15 &amp; postgresql13, python-pymongo, python-sqlparse, stb, thunderbird, and vim), <b>Red Hat</b> (go-toolset:rhel8, nodejs, and varnish:6), <b>SUSE</b> (gitui, glibc, and kernel), and <b>Ubuntu</b> (libspreadsheet-parseexcel-perl, linux-aws, linux-aws-5.15, linux-gke, linux-gcp, python-idna, and thunderbird).]]></description>
-            <guid>https://lwn.net/Articles/974572/</guid>
-            <pubDate>Wed, 22 May 2024 13:28:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
