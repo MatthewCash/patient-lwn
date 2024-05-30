@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 May 2024 12:40:49 +0000</pubDate>
-        <lastBuildDate>Thu, 30 May 2024 12:45:29 +0000</lastBuildDate>
+        <pubDate>Thu, 30 May 2024 12:50:45 +0000</pubDate>
+        <lastBuildDate>Thu, 30 May 2024 12:59:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/976006/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (python-pymysql), <b>Fedora</b> (chromium, mingw-python-requests, and thunderbird), <b>Mageia</b> (perl-Email-MIME and qtnetworkauth5 &amp; qtnetworkauth6), <b>Red Hat</b> (gdisk and python39:3.9 and python39-devel:3.9 modules), <b>SUSE</b> (freerdp, gdk-pixbuf, gifsicle, glib2, java-1_8_0-ibm, kernel, libfastjson, libredwg, nodejs16, python, python3, python36, rpm, warewulf4, and xdg-desktop-portal), and <b>Ubuntu</b> (gst-plugins-base1.0, python-werkzeug, and tpm2-tss).]]></description>
+            <guid>https://lwn.net/Articles/976006/</guid>
+            <pubDate>Thu, 30 May 2024 12:47:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Stable kernels 6.9.3 and 6.8.12</title>
+            <link>https://lwn.net/Articles/976007/</link>
+            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/976008/">6.9.3</a> and <a
+href="https://lwn.net/Articles/976009/">6.8.12</a> stable kernels.  As usual, they contain
+lots of important fixes throughout the tree.  Note that 6.8.12 is the end
+of the line for the 6.8.x stable kernel series.]]></description>
+            <guid>https://lwn.net/Articles/976007/</guid>
+            <pubDate>Thu, 30 May 2024 12:50:45 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 23, 2024</title>
             <link>https://lwn.net/Articles/973888/</link>
