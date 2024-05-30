@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 May 2024 13:47:02 +0000</pubDate>
-        <lastBuildDate>Thu, 30 May 2024 13:48:35 +0000</lastBuildDate>
+        <pubDate>Thu, 30 May 2024 14:02:58 +0000</pubDate>
+        <lastBuildDate>Thu, 30 May 2024 14:09:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -626,14 +626,6 @@ changelog</a> for a complete list of changes.</p>
             <guid>https://lwn.net/Articles/974708/</guid>
             <pubDate>Thu, 23 May 2024 14:16:47 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/974824/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (chromium, libxml2, pgadmin4, and python-libgravatar), <b>Mageia</b> (ghostscript), <b>Red Hat</b> (389-ds:1.4, ansible-core, bind and dhcp, container-tools:rhel8, edk2, exempi, fence-agents, freeglut, frr, ghostscript, glibc, gmp, go-toolset:rhel8, grafana, grub2, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, harfbuzz, httpd:2.4, idm:DL1, idm:DL1 and idm:client modules, kernel, kernel-rt, krb5, LibRaw, libreoffice, libsndfile, libssh, libtiff, libX11, libxml2, libXpm, linux-firmware, motif, mutt, openssh, osbuild and osbuild-composer, pam, pcp, pcs, perl-Convert-ASN1, perl-CPAN, perl:5.32, pki-core:10.6 and pki-deps:10.6 modules, pmix, poppler, postgresql-jdbc, python-dns, python-jinja2, python-pillow, python27:2.7, python3.11, python3.11-cryptography, python3.11-urllib3, python39:3.9 and python39-devel:3.9 modules, qt5-qtbase, resource-agents, squashfs-tools, sssd, systemd, tigervnc, tomcat, traceroute, varnish:6, virt:rhel and virt-devel:rhel modules, vorbis-tools, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>SUSE</b> (chromium, perl, postgresql14, and python-sqlparse), and <b>Ubuntu</b> (klibc, linux-aws-hwe, openssl, and vlc).]]></description>
-            <guid>https://lwn.net/Articles/974824/</guid>
-            <pubDate>Thu, 23 May 2024 13:58:59 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
