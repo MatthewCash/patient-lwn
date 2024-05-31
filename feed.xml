@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 May 2024 13:09:38 +0000</pubDate>
-        <lastBuildDate>Fri, 31 May 2024 13:26:33 +0000</lastBuildDate>
+        <pubDate>Fri, 31 May 2024 13:31:37 +0000</pubDate>
+        <lastBuildDate>Fri, 31 May 2024 13:33:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>25 Years of Krita</title>
+            <link>https://lwn.net/Articles/976211/</link>
+            <description><![CDATA[The developers of the <a href="https://krita.org/en/">Krita</a> painting
+application are <a
+href="https://krita.org/en/posts/2024/krita-25-years/">celebrating
+25&nbsp;years of development</a> with a detailed history of the project.
+<p>
+<blockquote class="bq">
+	A quarter century. That's how long we've been working on
+	Krita. Well, what would become Krita. It started out as KImageShop,
+	but that name was nuked by a now long-dead German lawyer. Then it
+	was renamed to Krayon, and that name was also nuked. Then it was
+	renamed to Krita, and that name stuck.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/976211/</guid>
+            <pubDate>Fri, 31 May 2024 13:31:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/976209/</link>
@@ -600,14 +619,6 @@ from the time might be of interest too, including:
             <guid>https://lwn.net/Articles/974914/</guid>
             <pubDate>Fri, 24 May 2024 13:34:17 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/974913/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium, libreoffice, and thunderbird), <b>Red Hat</b> (.NET 7.0, .NET 8.0, gdk-pixbuf2, git-lfs, glibc, python3, and xorg-x11-server-Xwayland), <b>SUSE</b> (firefox, opensc, and ucode-intel), and <b>Ubuntu</b> (cjson and gnome-remote-desktop).]]></description>
-            <guid>https://lwn.net/Articles/974913/</guid>
-            <pubDate>Fri, 24 May 2024 13:16:45 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
