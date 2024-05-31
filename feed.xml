@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 May 2024 12:46:58 +0000</pubDate>
-        <lastBuildDate>Fri, 31 May 2024 12:59:01 +0000</lastBuildDate>
+        <pubDate>Fri, 31 May 2024 13:09:38 +0000</pubDate>
+        <lastBuildDate>Fri, 31 May 2024 13:14:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/976209/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0), <b>Fedora</b> (cacti, cacti-spine, roundcubemail, and wireshark), <b>Oracle</b> (.NET 7.0, .NET 8.0, bind and dhcp, gdk-pixbuf2, git-lfs, glibc, grafana, krb5, pcp, python-dns, python3, sssd, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (edk2, less, nghttp2, and ruby:3.0), <b>SUSE</b> (gstreamer-plugins-base, Java, kernel, and python-requests), and <b>Ubuntu</b> (ffmpeg, node-browserify-sign, postgresql-14, postgresql-15, postgresql-16, and python-pymysql).]]></description>
+            <guid>https://lwn.net/Articles/976209/</guid>
+            <pubDate>Fri, 31 May 2024 13:05:45 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/976006/</link>
