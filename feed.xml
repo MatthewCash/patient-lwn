@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 May 2024 15:13:31 +0000</pubDate>
-        <lastBuildDate>Fri, 31 May 2024 15:33:42 +0000</lastBuildDate>
+        <pubDate>Fri, 31 May 2024 15:37:04 +0000</pubDate>
+        <lastBuildDate>Fri, 31 May 2024 15:48:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>CFP: the 2024 Kernel Maintainers Summit</title>
+            <link>https://lwn.net/Articles/976319/</link>
+            <description><![CDATA[The 2024 Kernel Maintainers Summit will happen on September&nbsp;17 in
+Vienna, Austria; it is an invitation-only event for a small group to
+discuss important kernel-development problems.  The <a
+href="https://lwn.net/ml/linux-kernel/20240531144957.GA301668@mit.edu/">call for
+proposals</a> for this gathering has now been posted.  One of the best ways
+to be invited to the event is to propose a topic that needs discussion in
+that forum.  The deadline for proposals is June&nbsp;18.]]></description>
+            <guid>https://lwn.net/Articles/976319/</guid>
+            <pubDate>Fri, 31 May 2024 15:37:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>25 Years of Krita</title>
             <link>https://lwn.net/Articles/976211/</link>
