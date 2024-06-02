@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 01 Jun 2024 23:41:00 +0000</pubDate>
-        <lastBuildDate>Sat, 1 Jun 2024 23:48:10 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 2 Jun 2024 00:41:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -607,23 +607,6 @@ changed to "Baby Opossum Posse".]]></description>
             <guid>https://lwn.net/Articles/975145/</guid>
             <pubDate>Sun, 26 May 2024 22:55:37 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Eight weekend stable kernel updates</title>
-            <link>https://lwn.net/Articles/975072/</link>
-            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/975073/">6.9.2</a>, <a
-href="https://lwn.net/Articles/975074/">6.8.11</a>, <a
-href="https://lwn.net/Articles/975075/">6.6.32</a>, <a
-href="https://lwn.net/Articles/975076/">6.1.92</a>, <a
-href="https://lwn.net/Articles/975078/">5.15.160</a>, <a
-href="https://lwn.net/Articles/975079/">5.10.218</a>, <a
-href="https://lwn.net/Articles/975077/">5.4.277</a>, and <a href="https://lwn.net/Articles/975080/">4.19.315</a>
-stable kernel updates have all been released. Each contains an
-important set of fixes. Users of those kernels should upgrade.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/975072/</guid>
-            <pubDate>Sun, 26 May 2024 00:07:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
