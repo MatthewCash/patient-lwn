@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Jun 2024 14:46:45 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Jun 2024 14:48:39 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Jun 2024 14:49:04 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Jun 2024 15:09:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/976782/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (python39:3.9 and python39-devel:3.9 and ruby:3.0), <b>Debian</b> (chromium, gst-plugins-base1.0, and kernel), <b>Fedora</b> (chromium, glances, glycin-loaders, gnome-tour, helix, helvum, kitty, libarchive, libipuz, librsvg2, loupe, maturin, ntpd-rs, plasma-workspace, and a huge list of Rust-based packages due to a "<q>mini-mass-rebuild</q>" that updated the toolchain to Rust 1.78 and picked up fixes for various pieces), <b>Mageia</b> (gifsicle, netatalk, openssl, python-jinja2, and unbound), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (bind, glibc, gstreamer-plugins-base, squid, and tiff), and <b>Ubuntu</b> (glibc).]]></description>
+            <guid>https://lwn.net/Articles/976782/</guid>
+            <pubDate>Mon, 03 Jun 2024 14:49:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.10-rc2</title>
             <link>https://lwn.net/Articles/976498/</link>
