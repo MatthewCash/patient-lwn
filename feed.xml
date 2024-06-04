@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Jun 2024 19:42:42 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Jun 2024 19:48:06 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Jun 2024 20:00:10 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Jun 2024 20:09:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mike Karels has passed away</title>
+            <link>https://lwn.net/Articles/977070/</link>
+            <description><![CDATA[We have just received <a
+href="https://www.facebook.com/groups/BSDCan/permalink/10159552565206372/">the
+sad news</a> that longtime core BSD developer Mike Karels has died; he will
+certainly be missed.]]></description>
+            <guid>https://lwn.net/Articles/977070/</guid>
+            <pubDate>Tue, 04 Jun 2024 20:00:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Incus 6.2 released</title>
             <link>https://lwn.net/Articles/977059/</link>
