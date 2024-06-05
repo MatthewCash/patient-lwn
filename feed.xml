@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Jun 2024 15:55:11 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Jun 2024 16:10:33 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Jun 2024 16:24:06 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Jun 2024 16:31:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -689,21 +689,6 @@ data</a> for the survey is available as well.</p>
             <guid>https://lwn.net/Articles/975807/</guid>
             <pubDate>Wed, 29 May 2024 17:41:25 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A plea for more thoughtful comments</title>
-            <link>https://lwn.net/Articles/975597/</link>
-            <description><![CDATA[When redesigning the LWN site in 2002, we thought long and hard about
-whether the ability to post comments should be part of it; LWN had not
-offered that feature for the first four years of its existence.  There were
-already plenty of examples of how comments can go bad by then, but we
-decided to trust our readers to keep things under control.  Much of the
-time, that trust has proved justified, but there have been times where
-things have not gone so well.  This time is quickly becoming one of those
-others.]]></description>
-            <guid>https://lwn.net/Articles/975597/</guid>
-            <pubDate>Wed, 29 May 2024 16:28:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
