@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Jun 2024 17:41:28 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Jun 2024 17:48:12 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Jun 2024 18:09:19 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Jun 2024 18:11:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -679,39 +679,6 @@ changes that were pulled in the early part of the 6.10 merge window.]]></descrip
             <guid>https://lwn.net/Articles/973687/</guid>
             <pubDate>Thu, 16 May 2024 17:00:01 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Results from the 2024 FreeBSD Community Survey Report</title>
-            <link>https://lwn.net/Articles/975807/</link>
-            <description><![CDATA[<p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a> has <a
-href="https://freebsdfoundation.org/blog/results-from-the-2024-freebsd-community-survey-report/">announced</a>
-the <a
-href="https://freebsdfoundation.org/wp-content/uploads/2024/05/FreeBSD-2024_surv_web-_Final.pdf">2024
-FreeBSD Community Survey Report</a>. The report provides a summary of
-1,446 responses to an anonymous online survey of FreeBSD users. It
-provides insights into user profiles, typical usage, how the FreeBSD
-project is viewed, as well as recommendations for expanding the
-FreeBSD community and contributor base:</p>
-
-<blockquote class="bq">
-Currently fewer than half of users consider FreeBSD their daily
-driver; Individuals are less likely than Corporate Users to consider
-FreeBSD primary. The barrier seems to be less about software and more
-about hardware support, particularly around Wi-Fi drivers (which are
-at the top of the wish list for the Foundation to focus on in the
-coming year). A relatively high number of those who don't consider
-FreeBSD their main OS say they would consider doing so with hardware
-support for desktops and laptops that was equivalent to Linux.
-</blockquote>
-
-<p>The <a
-href="https://freebsdfoundation.org/wp-content/uploads/2024/05/2024_comsurv_rawdata.pdf">raw
-data</a> for the survey is available as well.</p>
-
-<p> </p>]]></description>
-            <guid>https://lwn.net/Articles/975807/</guid>
-            <pubDate>Wed, 29 May 2024 17:41:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
