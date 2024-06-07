@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Jun 2024 15:42:37 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Jun 2024 15:48:23 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Jun 2024 16:00:25 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Jun 2024 16:10:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -569,20 +569,6 @@ Involved</a> page for more information on how to participate.</p>
             <guid>https://lwn.net/Articles/976176/</guid>
             <pubDate>Fri, 31 May 2024 19:24:05 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>CFP: the 2024 Kernel Maintainers Summit</title>
-            <link>https://lwn.net/Articles/976319/</link>
-            <description><![CDATA[The 2024 Kernel Maintainers Summit will happen on September&nbsp;17 in
-Vienna, Austria; it is an invitation-only event for a small group to
-discuss important kernel-development problems.  The <a
-href="https://lwn.net/ml/linux-kernel/20240531144957.GA301668@mit.edu/">call for
-proposals</a> for this gathering has now been posted.  One of the best ways
-to be invited to the event is to propose a topic that needs discussion in
-that forum.  The deadline for proposals is June&nbsp;18.]]></description>
-            <guid>https://lwn.net/Articles/976319/</guid>
-            <pubDate>Fri, 31 May 2024 15:37:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
