@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 09 Jun 2024 16:25:12 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Jun 2024 18:37:12 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 9 Jun 2024 18:48:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -538,33 +538,6 @@ So please go test some more.</q>"]]></description>
             <guid>https://lwn.net/Articles/976498/</guid>
             <pubDate>Sun, 02 Jun 2024 23:24:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 40 election results</title>
-            <link>https://lwn.net/Articles/976447/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/fedora-linux-40-election-results/">announced</a>
-the results of the Fedora Linux 40 election cycle. Four seats were
-open on the <a href="https://docs.fedoraproject.org/en-US/fesco/">Fedora
-Engineering Steering Committee</a> (FESCo), and the <a href="https://elections.fedoraproject.org/about/fesco_f40">winners are</a> Stephen
-Gallagher, Neal Gompa, Michel Lind, and Fabio Valentini. The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora
-Council</a> had two seats open, and the <a
-href="https://elections.fedoraproject.org/about/council_f40">winners
-are</a> Aleksandra Fedorova and Adam Samalik. One seat was open on the
-Fedora <a
-href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Mindshare
-Committee</a>, and the <a
-href="https://elections.fedoraproject.org/about/mindshare_f40">winner
-is</a> Sumantro Mukherjee. Four seats were open for the <a href="https://communityblog.fedoraproject.org/f40-elections-nominations-open/">first election</a> to select
-members of the <a
-href="https://docs.fedoraproject.org/en-US/epel/epel-policy-steering-committee/">EPEL
-Steering Committee</a>, which <a href="https://elections.fedoraproject.org/about/epel_f40">went to</a> Troy
-Dawson, Kevin Fenzi, Carl George, and Jonathan Wright.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/976447/</guid>
-            <pubDate>Sun, 02 Jun 2024 18:44:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
