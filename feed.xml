@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Jun 2024 14:15:48 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Jun 2024 14:38:11 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Jun 2024 14:45:24 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Jun 2024 14:48:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/977789/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (galera and mariadb10.11), <b>Mageia</b> (0-plugins-base and plasma-workspace), <b>Oracle</b> (ruby:3.1 and ruby:3.3), <b>Red Hat</b> (bind, bind-dyndb-ldap, and dhcp), <b>SUSE</b> (apache2, glib2, libvirt, openssl-1_1, openssl-3, opera, python-Jinja2, python-requests, and squid), and <b>Ubuntu</b> (linux, linux-gcp, linux-gcp-5.15, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-xilinx-zynqmp, linux, linux-gcp, linux-gcp-6.5, linux-lowlatency,
+ linux-lowlatency-hwe-6.5, linux-raspi, linux, linux-ibm, linux-lowlatency, linux-raspi, linux-aws, linux-gcp, linux-azure, linux-azure-6.5, linux-starfive, linux-starfive-6.5, and linux-gke, linux-ibm, linux-intel-iotg, linux-oracle).]]></description>
+            <guid>https://lwn.net/Articles/977789/</guid>
+            <pubDate>Mon, 10 Jun 2024 14:45:23 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.10-rc3</title>
             <link>https://lwn.net/Articles/977725/</link>
