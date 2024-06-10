@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Jun 2024 14:45:24 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Jun 2024 14:48:30 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Jun 2024 15:08:28 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Jun 2024 15:10:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>perl v5.40.0 released</title>
+            <link>https://lwn.net/Articles/977765/</link>
+            <description><![CDATA[Version 5.40.0 of the Perl language has been released.  "<q>Perl 5.40.0
+represents approximately 11 months of development since Perl 5.38.0 and
+contains approximately 160,000 lines of changes across 1,500 files from 75
+authors</q>".  Significant changes include a new <tt>__CLASS__</tt>
+keyword, a <tt>:reader:</tt> attribute for field variables, a new
+"<tt>^^</tt>" logical-OR operator (because two of those were not enough),
+moving "<tt>try/catch</tt>" out of the experimental category, and more; see
+<a
+href="https://metacpan.org/release/HAARG/perl-5.40.0/view/pod/perldelta.pod">this
+page</a> for lots of details.]]></description>
+            <guid>https://lwn.net/Articles/977765/</guid>
+            <pubDate>Mon, 10 Jun 2024 15:08:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/977789/</link>
@@ -538,14 +555,6 @@ upgrading from earlier versions of LyX.</p>]]></description>
             <guid>https://lwn.net/Articles/976826/</guid>
             <pubDate>Mon, 03 Jun 2024 20:51:21 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/976782/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (python39:3.9 and python39-devel:3.9 and ruby:3.0), <b>Debian</b> (chromium, gst-plugins-base1.0, and kernel), <b>Fedora</b> (chromium, glances, glycin-loaders, gnome-tour, helix, helvum, kitty, libarchive, libipuz, librsvg2, loupe, maturin, ntpd-rs, plasma-workspace, and a huge list of Rust-based packages due to a "<q>mini-mass-rebuild</q>" that updated the toolchain to Rust 1.78 and picked up fixes for various pieces), <b>Mageia</b> (gifsicle, netatalk, openssl, python-jinja2, and unbound), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (bind, glibc, gstreamer-plugins-base, squid, and tiff), and <b>Ubuntu</b> (glibc).]]></description>
-            <guid>https://lwn.net/Articles/976782/</guid>
-            <pubDate>Mon, 03 Jun 2024 14:49:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
