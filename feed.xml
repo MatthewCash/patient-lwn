@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Jun 2024 20:21:23 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Jun 2024 20:48:09 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Jun 2024 21:01:33 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Jun 2024 21:09:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -535,26 +535,6 @@ to put them.]]></description>
             <guid>https://lwn.net/Articles/976977/</guid>
             <pubDate>Tue, 04 Jun 2024 13:35:01 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>LyX 2.4.0 Released</title>
-            <link>https://lwn.net/Articles/976826/</link>
-            <description><![CDATA[<p>Version 2.4.0 of the <a href="https://www.lyx.org/">LyX</a>
-document processor has been released. LyX is a "<a
-href="https://en.wikipedia.org/wiki/WYSIWYM">What You See Is What You
-Mean</a>" (WYSIWYM) application that offers GUI editing of LaTeX
-documents with import and export to PDF, HTML, OpenDocument, Word, and
-other formats. LyX 2.4.0 is the first major release in six years, and
-brings support for EPUB, DocBook 5, improved
-table styles, and now uses Unicode (utf8) as its default encoding. See
-the <a href="https://wiki.lyx.org/LyX/NewInLyX24">full list</a> of new
-features on the LyX wiki, and <a
-href="https://www.lyx.org/trac/browser/lyxgit/lib/RELEASE-NOTES">release
-notes</a> for information on known issues and caveats for those
-upgrading from earlier versions of LyX.</p>]]></description>
-            <guid>https://lwn.net/Articles/976826/</guid>
-            <pubDate>Mon, 03 Jun 2024 20:51:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
