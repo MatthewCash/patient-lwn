@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Jun 2024 21:46:16 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Jun 2024 21:48:22 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Jun 2024 21:49:49 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Jun 2024 22:08:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Extensible scheduler class to be merged for 6.11</title>
+            <link>https://lwn.net/Articles/978007/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a>
+("sched_ext") framework allows the writing of CPU schedulers as a set of
+BPF programs.  It has been <a href="https://lwn.net/Articles/972710/">somewhat
+controversial</a>, and its merging into the kernel has been blocked despite
+a clear level of interest from users.
+
+Linus Torvalds has now <a
+href="https://lwn.net/ml/all/CAHk-=wg8APE61e5Ddq5mwH55Eh0ZLDV4Tr+c6_gFS7g2AxnuHQ@mail.gmail.com">let
+it be known</a> that he has made a decision and, overriding the scheduler
+maintainer, will merge sched_ext for the 6.11 release.
+<p>
+<blockquote class="bq">
+	I honestly see no reason to delay this any more. This whole
+	patchset was the major (private) discussion at last year's kernel
+	maintainer summit, and I don't find any value in having the same
+	discussion (whether off-list or as an actual event) at the upcoming
+	maintainer summit one year later, so to make any kind of sane
+	progress, my current plan is to merge this for 6.11.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/978007/</guid>
+            <pubDate>Tue, 11 Jun 2024 21:49:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 127.0 released</title>
             <link>https://lwn.net/Articles/977973/</link>
