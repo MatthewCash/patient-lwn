@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 11 Jun 2024 19:22:44 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Jun 2024 19:33:28 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jun 2024 19:48:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -519,18 +519,6 @@ sad news</a> that longtime core BSD developer Mike Karels has died; he will
 certainly be missed.]]></description>
             <guid>https://lwn.net/Articles/977070/</guid>
             <pubDate>Tue, 04 Jun 2024 20:00:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Incus 6.2 released</title>
-            <link>https://lwn.net/Articles/977059/</link>
-            <description><![CDATA[Version 6.2 of the Incus container-management system is out.  "<q>This
-release contains the second wave of changes contributed by students of the
-University of Texas at Austin and a few other features and
-improvements.</q>"  The features include a new <tt>incus&nbsp;top</tt>
-command, a new API for system load information, and more.]]></description>
-            <guid>https://lwn.net/Articles/977059/</guid>
-            <pubDate>Tue, 04 Jun 2024 19:31:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
