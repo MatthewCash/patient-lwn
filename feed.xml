@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Jun 2024 18:05:37 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Jun 2024 18:12:45 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Jun 2024 18:13:43 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Jun 2024 18:32:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -531,22 +531,6 @@ improvements.</q>"  The features include a new <tt>incus&nbsp;top</tt>
 command, a new API for system load information, and more.]]></description>
             <guid>https://lwn.net/Articles/977059/</guid>
             <pubDate>Tue, 04 Jun 2024 19:31:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>New site feature: comment subthread hiding</title>
-            <link>https://lwn.net/Articles/977033/</link>
-            <description><![CDATA[In the <a href="https://lwn.net/Articles/975597/">recent discussion</a> on commenting at
-LWN, several readers asked for the ability to hide subthreads of a long
-comment stream.  That feature has just been added; it is also integrated
-with the three comment-display modes and with comment filtering, removing
-the need for JavaScript for filtering.  Hiding is not persistent; no extra
-data is stored at either end.
-<p>
-Give it a try; if you have comments on the new mechanism, this is the place
-to put them.]]></description>
-            <guid>https://lwn.net/Articles/977033/</guid>
-            <pubDate>Tue, 04 Jun 2024 18:14:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
