@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Jun 2024 12:40:03 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Jun 2024 13:01:33 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Jun 2024 13:14:49 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Jun 2024 13:20:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/977939/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ruby:3.3), <b>Fedora</b> (efifs, libvirt, podman-tui, prometheus-podman-exporter, and strongswan), <b>Red Hat</b> (firefox, idm:DL1, ipa, nghttp2, and thunderbird), <b>SUSE</b> (aws-nitro-enclaves-cli, cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, containerized-data-importer, frr, glibc, go1.21, go1.22, gstreamer-plugins-base, kernel, kernel-firmware-nvidia-gspx-G06, nvidia-open- driver-G06-signed, libxml2, mariadb, poppler, python-Brotli, python-docker, python-idna, rmt-server, skopeo, sssd, unbound, unrar, util-linux, and webkit2gtk3), and <b>Ubuntu</b> (giflib, libphp-adodb, linux-gkeop, linux-gkeop-5.15, linux-kvm, linux-laptop, linux-oem-6.8, nodejs, and tiff).]]></description>
+            <guid>https://lwn.net/Articles/977939/</guid>
+            <pubDate>Tue, 11 Jun 2024 13:11:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>perl v5.40.0 released</title>
             <link>https://lwn.net/Articles/977765/</link>
