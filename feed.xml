@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Jun 2024 17:17:03 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Jun 2024 17:33:29 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Jun 2024 17:38:44 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Jun 2024 17:48:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -577,29 +577,6 @@ href="https://www.kali.org/docs/general-use/updating-kali/">documentation</a>
 when upgrading.</p>]]></description>
             <guid>https://lwn.net/Articles/977303/</guid>
             <pubDate>Wed, 05 Jun 2024 19:14:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>FreeBSD 14.1 released</title>
-            <link>https://lwn.net/Articles/977285/</link>
-            <description><![CDATA[<p>Version 14.1 of <a href="https://www.freebsd.org/">FreeBSD</a> has
-been <a
-href="https://www.freebsd.org/releases/14.1R/announce/">released</a>. This
-is the second release of the 14.x stable branch. Highlights of this
-release include upgrades to OpenZFS 2.2.4, Clang/LLVM 18.1.5, and
-OpenSSH 9.7p1. FreeBSD 14.1 also features <a href="https://cloud-init.io/">cloud-init</a> support,
-sound subsystem improvements, and more. See the
-<a
-href="https://freebsdfoundation.org/blog/freebsd-14-1-whats-new-and-how-did-we-get-here/">what's
-new blog post</a> from the <a
-href="https://freebsdfoundation.org/">FreeBSD Foundation</a>, 
-<a
-href="https://www.freebsd.org/releases/14.1R/relnotes/">release
-notes</a>, and <a
-href="https://www.freebsd.org/releases/14.1R/errata/">errata</a> for
-more information.</p>]]></description>
-            <guid>https://lwn.net/Articles/977285/</guid>
-            <pubDate>Wed, 05 Jun 2024 17:39:05 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
