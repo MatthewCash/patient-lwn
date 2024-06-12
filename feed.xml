@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 12 Jun 2024 19:06:00 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Jun 2024 19:08:33 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 12 Jun 2024 19:21:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -554,30 +554,6 @@ Shakeel Butt and (participating remotely) Roman Gushchin.]]></description>
             <guid>https://lwn.net/Articles/974575/</guid>
             <pubDate>Thu, 23 May 2024 14:03:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kali Linux 2024.2 released</title>
-            <link>https://lwn.net/Articles/977303/</link>
-            <description><![CDATA[<p>Version 2024.2 of the <a href="https://www.kali.org/">Kali Linux</a> penetration testing distribution
-has been <a
-href="https://www.kali.org/blog/kali-linux-2024-2-release/">released</a>. This
-release includes an update to <a href="https://lwn.net/Articles/966187/">GNOME
-46</a>, a high-resolution (HiDPI) mode for Xfce, as well as a number
-of new packages such as the <a
-href="https://www.kali.org/tools/autorecon/">AutoRecon</a> network
-reconnaissance tool, <a
-href="https://www.kali.org/tools/pspy/">pspy</a> command-line utility for
-snooping on Linux processes, and <a
-href="https://www.kali.org/tools/sploitscan/">SploitScan</a> tool for
-fetching and displaying CVE information. Kali Linux is based on Debian
-testing, and 2024.2 incorporates Debian's work to <a href="https://lwn.net/Articles/938149/">transition to 64-bit
-time_t</a> to avoid year 2038 problems. Users with existing Kali
-systems should be sure to follow the <a
-href="https://www.kali.org/docs/general-use/updating-kali/">documentation</a>
-when upgrading.</p>]]></description>
-            <guid>https://lwn.net/Articles/977303/</guid>
-            <pubDate>Wed, 05 Jun 2024 19:14:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
