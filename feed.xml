@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Jun 2024 13:42:28 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Jun 2024 14:09:09 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Jun 2024 14:27:25 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Jun 2024 14:28:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/978291/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (nginx-mod-modsecurity, php, and tomcat), <b>Mageia</b> (strongswan), <b>Oracle</b> (389-ds-base, buildah, c-ares, cockpit, containernetworking-plugins, fence-agents, firefox, gdk-pixbuf2, idm:DL1, ipa, kernel, libreoffice, podman, rpm-ostree, and thunderbird), <b>Red Hat</b> (dnsmasq and nghttp2), <b>Slackware</b> (mozilla), <b>SUSE</b> (curl, firefox, kernel, kernel-firmware-nvidia-gspx-G06, nvidia-open- driver-G06-signed, openssl-3, and python-Pillow), and <b>Ubuntu</b> (libmatio, libndp, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-gcp,
+ linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
+ linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4,
+ linux-xilinx-zynqmp, linux-oem-6.5, and virtuoso-opensource).]]></description>
+            <guid>https://lwn.net/Articles/978291/</guid>
+            <pubDate>Thu, 13 Jun 2024 14:11:15 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 6, 2024</title>
             <link>https://lwn.net/Articles/975974/</link>
