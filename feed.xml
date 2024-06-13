@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Jun 2024 14:48:30 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Jun 2024 15:48:29 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Jun 2024 16:10:39 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Jun 2024 16:11:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -461,14 +461,6 @@ root shell.
             <guid>https://lwn.net/Articles/977555/</guid>
             <pubDate>Fri, 07 Jun 2024 13:11:29 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/977442/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit, kernel, kernel-rt, libxml2, ruby:3.1, and tomcat), <b>Debian</b> (libarchive, pillow, and tinyproxy), <b>Fedora</b> (apptainer), <b>Mageia</b> (amavisd-new and libxml2), <b>Oracle</b> (edk2), <b>Red Hat</b> (booth, cockpit, kernel-rt, less, libxml2, nghttp2, ruby:3.1, ruby:3.3, and tomcat), <b>Slackware</b> (kernel), and <b>Ubuntu</b> (atril, bluez, frr, gdk-pixbuf, openjdk-17, openjdk-21, openjdk-8, openjdk-lts, qemu, and unixodbc).]]></description>
-            <guid>https://lwn.net/Articles/977442/</guid>
-            <pubDate>Thu, 06 Jun 2024 16:03:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
