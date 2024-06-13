@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Jun 2024 14:29:22 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Jun 2024 14:48:19 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Jun 2024 14:48:30 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Jun 2024 15:09:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.79.0 released</title>
+            <link>https://lwn.net/Articles/978323/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2024/06/13/Rust-1.79.0.html">Version
+1.79.0</a> of the Rust language has been released.  Changes this time
+include inline <tt>const</tt> expressions, the "associated item bounds
+syntax", and more.]]></description>
+            <guid>https://lwn.net/Articles/978323/</guid>
+            <pubDate>Thu, 13 Jun 2024 14:48:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/978291/</link>
