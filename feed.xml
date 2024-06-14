@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Jun 2024 18:59:46 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Jun 2024 19:08:10 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Jun 2024 19:12:33 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Jun 2024 19:20:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Schaller: Fedora Workstation development update – AI edition</title>
+            <link>https://lwn.net/Articles/978470/</link>
+            <description><![CDATA[<p>Christian Schaller <a href="https://blogs.gnome.org/uraeus/2024/06/14/fedora-workstation-development-update-artificial-intelligence-edition/">writes about</a> AI and GPU-related features that are in flight and planned for Fedora 41.</p>
+
+<blockquote class="bq">
+Milan Crha has been working together with Alan Day and Jakub Steiner to come up with a <a href="https://gitlab.gnome.org/GNOME/gnome-software/-/merge_requests/2034">streamlined user experience in GNOME Software to let you install the binary NVIDIA driver and provide you with an integrated graphical user interface help to sign the kernel module</a> for use with secure boot. This is a bit different than what we for instance are doing in RHEL, where we are working with NVIDIA to provide pre-signed kernel modules, but that is a lot harder to do in Fedora due to the rapidly updating kernel versions and which most Fedora users appreciate as a big plus. So instead what we are for opting in Fedora is as I said to make it simple for you to self-sign the kernel module for use with secure boot. We are currently looking at when we can make this feature available, but no later than Fedora Workstation 41 for sure.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/978470/</guid>
+            <pubDate>Fri, 14 Jun 2024 19:09:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>New Human Interface Guidelines for KDE</title>
             <link>https://lwn.net/Articles/978465/</link>
