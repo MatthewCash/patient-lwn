@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Jun 2024 16:55:42 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Jun 2024 17:09:37 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Jun 2024 17:18:19 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Jun 2024 17:29:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>New Human Interface Guidelines for KDE</title>
+            <link>https://lwn.net/Articles/978465/</link>
+            <description><![CDATA[<p>KDE developer Nate Graham has <a
+href="https://pointieststick.com/2024/06/09/new-human-interface-guidelines/">announced</a>
+a new set of <a href="https://develop.kde.org/hig/">KDE Human
+Interface Guidelines</a> (HIG) for the <a
+href="https://kde.org/">KDE</a> project. Graham says that the goals
+for the new HIGs were to reflect how KDE designs software today, make
+the content 100% actionable, improve navigation, and to improve the
+guidelines so people feel comfortable contributing:</p>
+
+<blockquote class="bq">
+Like any rewrite, there are bound to be rough edges and omissions
+compared to the old version. Maybe I missed a piece of useful
+information in the old HIG that had been buried somewhere but retained
+some value. Maybe there's low-hanging fruit for improvement. Help out
+by <a href="https://develop.kde.org/hig/#contributing">contributing</a>!
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/978465/</guid>
+            <pubDate>Fri, 14 Jun 2024 17:18:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Driving forward in Android drivers (Project Zero)</title>
             <link>https://lwn.net/Articles/978441/</link>
