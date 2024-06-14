@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Jun 2024 17:18:19 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Jun 2024 17:29:31 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Jun 2024 17:29:35 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Jun 2024 17:37:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -476,34 +476,6 @@ testing,</q>"]]></description>
             <guid>https://lwn.net/Articles/977725/</guid>
             <pubDate>Mon, 10 Jun 2024 03:04:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Linux nftables vulnerability exploited in the wild (CrowdStrike)</title>
-            <link>https://lwn.net/Articles/977583/</link>
-            <description><![CDATA[<p>
-<a
-href="https://www.crowdstrike.com/blog/active-exploitation-linux-kernel-privilege-escalation-vulnerability/">
-According to CrowdStrike</a>, a
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2024-1086">
-vulnerability</a> in the Linux kernel's nftables code
-that was <a href="https://pwning.tech/nftables/"> discovered earlier this
-year</a> is being actively exploited in the wild. The vulnerability allows for
-local privilege escalation. Most distributions have already released a fix.
-</p>
-
-<blockquote class="bq">
-As noted by the exploit developer, leveraging this POC is dependent on the
-kernel's unprivileged user namespaces feature accessing nf_tables. This access
-is enabled by default on Debian, Ubuntu and kernel capture-the-flag (CTF)
-distributions. An attacker can then trigger the double-free vulnerability, scan
-the physical memory for the kernel base address, bypass kernel address-space
-layout randomization (KASLR) and access the modprobe_path kernel variable with
-read/write privileges. After overwriting the modprobe_path, the exploit drops a
-root shell.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/977583/</guid>
-            <pubDate>Fri, 07 Jun 2024 17:27:03 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
