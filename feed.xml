@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 16 Jun 2024 19:09:30 +0000</pubDate>
-        <lastBuildDate>Sun, 16 Jun 2024 19:09:35 +0000</lastBuildDate>
+        <pubDate>Sun, 16 Jun 2024 19:21:02 +0000</pubDate>
+        <lastBuildDate>Sun, 16 Jun 2024 19:21:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Some weekend stable kernel updates</title>
+            <link>https://lwn.net/Articles/978591/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/978592/">6.9.5</a>,
+<a href="https://lwn.net/Articles/978593/">6.6.34</a>,
+<a href="https://lwn.net/Articles/978594/">6.1.94</a>,
+<a href="https://lwn.net/Articles/978595/">5.15.161</a>,
+<a href="https://lwn.net/Articles/978596/">5.10.219</a>,
+<a href="https://lwn.net/Articles/978597/">5.4.278</a>, and
+<a href="https://lwn.net/Articles/978598/">4.19.316</a>
+stable kernels have all been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/978591/</guid>
+            <pubDate>Sun, 16 Jun 2024 19:10:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Reports from the Python Language Summit</title>
             <link>https://lwn.net/Articles/978541/</link>
