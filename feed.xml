@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 16 Jun 2024 21:48:08 +0000</pubDate>
-        <lastBuildDate>Sun, 16 Jun 2024 22:10:25 +0000</lastBuildDate>
+        <pubDate>Sun, 16 Jun 2024 22:28:18 +0000</pubDate>
+        <lastBuildDate>Sun, 16 Jun 2024 22:29:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.10-rc4</title>
+            <link>https://lwn.net/Articles/978629/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/978628/">6.10-rc4</a> for testing.
+"<q>Apart from a rather unusual spike in the diffstat due to a parisc fix,
+things look normal and pretty small.</q>"]]></description>
+            <guid>https://lwn.net/Articles/978629/</guid>
+            <pubDate>Sun, 16 Jun 2024 22:28:16 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Some weekend stable kernel updates</title>
             <link>https://lwn.net/Articles/978591/</link>
