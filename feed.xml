@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 17 Jun 2024 01:54:25 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Jun 2024 02:50:19 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jun 2024 03:11:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -527,16 +527,6 @@ page</a> for lots of details.]]></description>
             <guid>https://lwn.net/Articles/977789/</guid>
             <pubDate>Mon, 10 Jun 2024 14:45:23 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.10-rc3</title>
-            <link>https://lwn.net/Articles/977725/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/977724/">6.10-rc3</a> kernel prepatch is out.
-"<q>So things look good, the water is warm, please jump right in and keep
-testing,</q>"]]></description>
-            <guid>https://lwn.net/Articles/977725/</guid>
-            <pubDate>Mon, 10 Jun 2024 03:04:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
