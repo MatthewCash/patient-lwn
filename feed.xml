@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Jun 2024 18:36:43 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Jun 2024 18:40:04 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Jun 2024 18:45:21 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Jun 2024 18:48:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PostmarketOS v24.06 released</title>
+            <link>https://lwn.net/Articles/978733/</link>
+            <description><![CDATA[<a href="https://postmarketos.org/">PostmarketOS</a> is an Alpine Linux
+derivative distribution aimed at mobile devices; the <a
+href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06
+release</a> claims support for over 250 devices, though the level of that
+support varies widely.  "<q>This release is geared mainly towards Linux
+enthusiasts. We are working hard on stability improvements and automated
+testing, but if you expect Android or iOS levels of polish, then this is
+not for you yet.</q>"  Changes include an upgrade to Alpine Linux 3.20,
+newer GNOME and KDE versions, and more.]]></description>
+            <guid>https://lwn.net/Articles/978733/</guid>
+            <pubDate>Mon, 17 Jun 2024 18:45:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/978709/</link>
