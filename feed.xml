@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 17 Jun 2024 14:45:19 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Jun 2024 14:48:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 17 Jun 2024 15:11:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -508,33 +508,6 @@ resources will simply fail to load.]]></description>
             <guid>https://lwn.net/Articles/977939/</guid>
             <pubDate>Tue, 11 Jun 2024 13:11:13 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>perl v5.40.0 released</title>
-            <link>https://lwn.net/Articles/977765/</link>
-            <description><![CDATA[Version 5.40.0 of the Perl language has been released.  "<q>Perl 5.40.0
-represents approximately 11 months of development since Perl 5.38.0 and
-contains approximately 160,000 lines of changes across 1,500 files from 75
-authors</q>".  Significant changes include a new <tt>__CLASS__</tt>
-keyword, a <tt>:reader:</tt> attribute for field variables, a new
-"<tt>^^</tt>" logical-OR operator (because two of those were not enough),
-moving "<tt>try/catch</tt>" out of the experimental category, and more; see
-<a
-href="https://metacpan.org/release/HAARG/perl-5.40.0/view/pod/perldelta.pod">this
-page</a> for lots of details.]]></description>
-            <guid>https://lwn.net/Articles/977765/</guid>
-            <pubDate>Mon, 10 Jun 2024 15:08:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/977789/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (galera and mariadb10.11), <b>Mageia</b> (0-plugins-base and plasma-workspace), <b>Oracle</b> (ruby:3.1 and ruby:3.3), <b>Red Hat</b> (bind, bind-dyndb-ldap, and dhcp), <b>SUSE</b> (apache2, glib2, libvirt, openssl-1_1, openssl-3, opera, python-Jinja2, python-requests, and squid), and <b>Ubuntu</b> (linux, linux-gcp, linux-gcp-5.15, linux-lowlatency,
- linux-lowlatency-hwe-5.15, linux-xilinx-zynqmp, linux, linux-gcp, linux-gcp-6.5, linux-lowlatency,
- linux-lowlatency-hwe-6.5, linux-raspi, linux, linux-ibm, linux-lowlatency, linux-raspi, linux-aws, linux-gcp, linux-azure, linux-azure-6.5, linux-starfive, linux-starfive-6.5, and linux-gke, linux-ibm, linux-intel-iotg, linux-oracle).]]></description>
-            <guid>https://lwn.net/Articles/977789/</guid>
-            <pubDate>Mon, 10 Jun 2024 14:45:23 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
