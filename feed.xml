@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 18 Jun 2024 14:27:56 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Jun 2024 15:48:11 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 18 Jun 2024 16:11:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -532,19 +532,6 @@ maintainer, will merge sched_ext for the 6.11 release.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/978007/</guid>
             <pubDate>Tue, 11 Jun 2024 21:49:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 127.0 released</title>
-            <link>https://lwn.net/Articles/977973/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/127.0/releasenotes/">Version
-127.0</a> of the Firefox browser is out.  Changes include support for DNS
-prefetching and the ability to close duplicate tabs in a window.  The
-browser will now try to upgrade images and videos with HTTP URLs that are
-found in an HTTPS page to HTTPS as well; if that fails, the non-HTTPS
-resources will simply fail to load.]]></description>
-            <guid>https://lwn.net/Articles/977973/</guid>
-            <pubDate>Tue, 11 Jun 2024 16:07:22 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
