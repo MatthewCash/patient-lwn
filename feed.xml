@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Jun 2024 11:29:38 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Jun 2024 13:01:25 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Jun 2024 13:16:41 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Jun 2024 13:20:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/978804/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (php7.3), <b>Fedora</b> (galera, ghostscript, and mariadb), <b>Mageia</b> (cups, iperf, and libndp), <b>Oracle</b> (firefox and flatpak), <b>Red Hat</b> (container-tools:rhel8, Firefox, firefox, and flatpak), <b>SUSE</b> (booth, bouncycastle, firefox, ghostscript, less, libaom, openssl-1_1, openssl-3, podman, python-Authlib, python-requests, python-Werkzeug, webkit2gtk3, and xdg-desktop-portal), and <b>Ubuntu</b> (ghostscript, ruby-rack, ruby2.7, ruby3.0, ruby3.1, ruby3.2, and sssd).]]></description>
+            <guid>https://lwn.net/Articles/978804/</guid>
+            <pubDate>Tue, 18 Jun 2024 13:03:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>PostmarketOS v24.06 released</title>
             <link>https://lwn.net/Articles/978733/</link>
