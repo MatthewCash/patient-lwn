@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Jun 2024 16:28:59 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Jun 2024 16:41:46 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Jun 2024 16:45:31 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Jun 2024 16:48:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mate 1.28 released</title>
+            <link>https://lwn.net/Articles/978946/</link>
+            <description><![CDATA[<p><a
+href="https://mate-desktop.org/blog/2024-02-27-mate-1-28-released/">Version
+1.28</a> of the <a href="https://mate-desktop.org/">MATE Desktop</a>
+has been released.</p>
+
+<blockquote class="bq">
+MATE 1.28 has made significant strides in updating the codebase,
+including the removal of deprecated libraries and ensuring
+compatibility with the latest GTK versions. One of the most notable
+improvements is the enhanced support for Wayland, bringing us closer
+to a fully native MATE-Wayland experience. Several components have
+been updated to work seamlessly with Wayland, ensuring a more
+integrated and responsive desktop environment.
+</blockquote>
+
+<p>See <a
+href="https://github.com/mate-desktop/python-caja/commits/master/">the changelog</a>
+for a full list of improvements and bug fixes.</p>
+
+<p> </p>]]></description>
+            <guid>https://lwn.net/Articles/978946/</guid>
+            <pubDate>Wed, 19 Jun 2024 16:45:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Libgcrypt 1.11.0 released</title>
             <link>https://lwn.net/Articles/978939/</link>
