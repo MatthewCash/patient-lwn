@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Jun 2024 13:02:17 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Jun 2024 13:02:35 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Jun 2024 13:13:56 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Jun 2024 13:20:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/978907/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools, firefox, and flatpak), <b>Debian</b> (composer, roundcube, and thunderbird), <b>Fedora</b> (kitty and webkitgtk), <b>Oracle</b> (container-tools and flatpak), <b>Red Hat</b> (flatpak and java-1.8.0-ibm), <b>SUSE</b> (gdcm, gdk-pixbuf, libarchive, libzypp, zypper, ntfs-3g_ntfsprogs, openssl-1_1, openssl-3, podman, python-Werkzeug, and thunderbird), and <b>Ubuntu</b> (git, linux-hwe-6.5, mariadb, mariadb-10.6, and thunderbird).]]></description>
+            <guid>https://lwn.net/Articles/978907/</guid>
+            <pubDate>Wed, 19 Jun 2024 13:13:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Plasma 6.1 released</title>
             <link>https://lwn.net/Articles/978806/</link>
@@ -467,19 +475,6 @@ announcement for all the details.]]></description>
             <guid>https://lwn.net/Articles/978151/</guid>
             <pubDate>Wed, 12 Jun 2024 13:35:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three mid-week stable kernel updates</title>
-            <link>https://lwn.net/Articles/978139/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced another round of stable kernel
-updates: <a href="https://lwn.net/Articles/978140/">6.9.4</a>, <a
-href="https://lwn.net/Articles/978141/">6.6.33</a>, and <a
-href="https://lwn.net/Articles/978142/">6.1.93</a> have been released. Each contains
-another set of important fixes, users of these kernels are advised to
-upgrade right away.</p>]]></description>
-            <guid>https://lwn.net/Articles/978139/</guid>
-            <pubDate>Wed, 12 Jun 2024 13:04:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
