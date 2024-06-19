@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Jun 2024 14:59:53 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Jun 2024 15:09:15 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Jun 2024 15:26:47 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Jun 2024 15:27:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Libgcrypt 1.11.0 released</title>
+            <link>https://lwn.net/Articles/978939/</link>
+            <description><![CDATA[<p>Version 1.11.0 of Libgcrypt, a general-purpose library of
+cryptographic building blocks, has been released by the <a
+href="https://gnupg.org/">GnuPG</a> project:</p>
+
+<blockquote class="bq">
+This release starts a new stable branch of Libgcrypt with full API and
+ABI compatibility to the 1.10 series.  Over the last years Jussi
+Kivilinna put again a lot of work into speeding up the algorithms for
+many commonly used CPUs.  Niibe-san implemented new APIs and algorithms
+and also integrated quantum-resistant encryption algorithms.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/978939/</guid>
+            <pubDate>Wed, 19 Jun 2024 15:26:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/978907/</link>
