@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Jun 2024 14:15:06 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Jun 2024 14:48:11 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Jun 2024 14:59:53 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Jun 2024 15:09:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -438,32 +438,6 @@ Fedora. LWN <a href="https://lwn.net/Articles/965434/">covered</a> the
 Cockpit project in March.</p>]]></description>
             <guid>https://lwn.net/Articles/978156/</guid>
             <pubDate>Wed, 12 Jun 2024 17:17:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Nominations are open for the PSF Board election</title>
-            <link>https://lwn.net/Articles/978149/</link>
-            <description><![CDATA[<p>The <a href="https://www.python.org/psf-landing/">Python Software
-Foundation</a> (PSF) has <a
-href="https://pyfound.blogspot.com/2024/06/its-time-to-make-nominations-for-psf.html">announced</a>
-that nominations are open for the PSF Board election through June
-25:</p>
-
-<blockquote class="bq">
-Who runs for the board? People who care about the Python community,
-who want to see it flourish and grow, and also have a few hours a
-month to attend regular meetings, serve on committees, participate in
-conversations, and promote the Python community.
-</blockquote>
-
-<p>The PSF has a <a
-href="https://www.youtube.com/watch?v=ZLKj6FaQA4M">video</a> about
-serving on the board for those who might be interested. PSF members
-can nominate themselves or another member. Candidates
-will be announced on June 27. Voting begins on July 2 and will end on
-July 16.</p>]]></description>
-            <guid>https://lwn.net/Articles/978149/</guid>
-            <pubDate>Wed, 12 Jun 2024 14:48:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
