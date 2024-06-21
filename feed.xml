@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 21 Jun 2024 14:14:51 +0000</pubDate>
-        <lastBuildDate>Fri, 21 Jun 2024 14:27:47 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 21 Jun 2024 14:34:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -424,26 +424,6 @@ by <a href="https://develop.kde.org/hig/#contributing">contributing</a>!
             <guid>https://lwn.net/Articles/978465/</guid>
             <pubDate>Fri, 14 Jun 2024 17:18:17 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Driving forward in Android drivers (Project Zero)</title>
-            <link>https://lwn.net/Articles/978441/</link>
-            <description><![CDATA[<a
-href="https://googleprojectzero.blogspot.com/2024/06/driving-forward-in-android-drivers.html">This
-Project Zero article</a> looks at the exploitation of a few Android driver
-bugs in great detail.
-<p>
-<blockquote class="bq">
-	As it becomes more difficult to find 0-days in core Android,
-	third-party Linux kernel drivers continue to become a more and more
-	attractive target for attackers. While the bulk of present-day
-	detected ITW [in-the-wild] Android exploitation targets GPU
-	drivers, it's equally important that other third-party drivers are
-	encouraged towards the same security standards.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/978441/</guid>
-            <pubDate>Fri, 14 Jun 2024 14:24:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
