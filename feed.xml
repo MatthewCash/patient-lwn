@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 22 Jun 2024 18:41:28 +0000</pubDate>
-        <lastBuildDate>Sat, 22 Jun 2024 19:33:32 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 22 Jun 2024 19:48:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -366,28 +366,6 @@ stable kernels have all been released; each contains another set of
 important fixes.]]></description>
             <guid>https://lwn.net/Articles/978591/</guid>
             <pubDate>Sun, 16 Jun 2024 19:10:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Reports from the Python Language Summit</title>
-            <link>https://lwn.net/Articles/978541/</link>
-            <description><![CDATA[The Python Software Foundation has published <a
-href="https://pyfound.blogspot.com/2024/06/python-language-summit-2024.html">a
-set of reports</a> from the 2024 Python Language summit.  Topics covered
-include version numbering, the limited C API, a new default read-eval-print
-loop, and Python's security model in light of the XZ backdoor:
-<p>
-<blockquote class="bq">
-	For multiple reasons like being able to fix bugs and
-	single-maintainer modules, CPython doesn't require reviewers on the
-	pull requests of core developers. This can lead to "unilateral
-	action", meaning that a change is introduced into CPython without
-	the review of someone besides the author. Other situations like
-	release managers backporting fixes to other branches without review
-	are common.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/978541/</guid>
-            <pubDate>Sat, 15 Jun 2024 19:38:51 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
