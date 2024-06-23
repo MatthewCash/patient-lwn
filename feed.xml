@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Jun 2024 20:47:13 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Jun 2024 22:08:22 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Jun 2024 22:23:27 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Jun 2024 22:26:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.10-rc5</title>
+            <link>https://lwn.net/Articles/979442/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/979441/">6.10-rc5</a> kernel prepatch is out for
+testing.  "<q>So far, the 6.10 release cycle has been fairly calm, and rc5
+continues that trend. Let's hope things stay that way.</q>"]]></description>
+            <guid>https://lwn.net/Articles/979442/</guid>
+            <pubDate>Sun, 23 Jun 2024 22:23:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Larry Finger RIP</title>
             <link>https://lwn.net/Articles/979419/</link>
