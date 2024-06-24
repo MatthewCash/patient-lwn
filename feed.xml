@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 24 Jun 2024 17:28:40 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Jun 2024 18:40:30 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jun 2024 18:48:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -390,22 +390,6 @@ changelog</a> for the full list.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (php7.3), <b>Fedora</b> (galera, ghostscript, and mariadb), <b>Mageia</b> (cups, iperf, and libndp), <b>Oracle</b> (firefox and flatpak), <b>Red Hat</b> (container-tools:rhel8, Firefox, firefox, and flatpak), <b>SUSE</b> (booth, bouncycastle, firefox, ghostscript, less, libaom, openssl-1_1, openssl-3, podman, python-Authlib, python-requests, python-Werkzeug, webkit2gtk3, and xdg-desktop-portal), and <b>Ubuntu</b> (ghostscript, ruby-rack, ruby2.7, ruby3.0, ruby3.1, ruby3.2, and sssd).]]></description>
             <guid>https://lwn.net/Articles/978804/</guid>
             <pubDate>Tue, 18 Jun 2024 13:03:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>PostmarketOS v24.06 released</title>
-            <link>https://lwn.net/Articles/978733/</link>
-            <description><![CDATA[<a href="https://postmarketos.org/">PostmarketOS</a> is an Alpine Linux
-derivative distribution aimed at mobile devices; the <a
-href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06
-release</a> claims support for over 250 devices, though the level of that
-support varies widely.  "<q>This release is geared mainly towards Linux
-enthusiasts. We are working hard on stability improvements and automated
-testing, but if you expect Android or iOS levels of polish, then this is
-not for you yet.</q>"  Changes include an upgrade to Alpine Linux 3.20,
-newer GNOME and KDE versions, and more.]]></description>
-            <guid>https://lwn.net/Articles/978733/</guid>
-            <pubDate>Mon, 17 Jun 2024 18:45:21 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
