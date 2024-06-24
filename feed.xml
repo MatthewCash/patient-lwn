@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Jun 2024 16:15:19 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Jun 2024 16:30:36 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Jun 2024 16:33:04 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Jun 2024 16:40:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Min: sched_ext: scheduler architecture and interfaces</title>
+            <link>https://lwn.net/Articles/979532/</link>
+            <description><![CDATA[Changwoo Min has posted <a
+href="https://blogs.igalia.com/changwoo/sched-ext-scheduler-architecture-and-interfaces-part-2/">an
+introduction to writing custom schedulers</a> with sched_ext.
+<p>
+<blockquote class="bq">
+	In a particular situation, when each scheduling policy needs its
+	specific action, the core kernel scheduler calls an operation
+	defined in <tt>struct sched_class</tt>. For example, when the core
+	kernel scheduler needs to select a task to be scheduled, it calls
+	the <tt>sched_class.pick_next_task(rq)</tt> callback of a concrete
+	scheduling policy. When a task becomes runnable, the core kernel
+	scheduler calls <tt>sched_class.enqueue(rq, p, flags)</tt> so the
+	concrete scheduling policy enqueues task <tt>p</tt> to run queue
+	<tt>rq</tt>. When a task's runtime state needs to be updated, the
+	core kernel scheduler calls <tt>sched_class.update_curr(rq)</tt>.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/979532/</guid>
+            <pubDate>Mon, 24 Jun 2024 16:33:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/979520/</link>
