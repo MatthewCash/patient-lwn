@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Jun 2024 17:34:21 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Jun 2024 17:48:44 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Jun 2024 17:58:44 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Jun 2024 18:12:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Darktable 4.8.0 released</title>
+            <link>https://lwn.net/Articles/979666/</link>
+            <description><![CDATA[<p><a
+href="https://www.darktable.org/2024/06/darktable-4.8.0-released/">Version
+4.8.0</a> of the <a href="https://www.darktable.org/">darktable</a>
+photo editor has been released.  Changes include performance
+improvements for large collections, addition of more EXIF fields in
+the image information module, and two new modules for image
+composition: Enlarge Canvas and Overlay. Enlarge Canvas allows adding
+areas to an image, while Overlay allows adding new content by
+overlaying pixels from the current image or another image. LWN last
+<a href="https://lwn.net/Articles/881853/">looked at darktable</a> in
+2022. Users are "<q>strongly advised</q>" to make a backup of their
+configuration and library before upgrading, as they will not be
+compatible with darktable 4.6.</p>]]></description>
+            <guid>https://lwn.net/Articles/979666/</guid>
+            <pubDate>Tue, 25 Jun 2024 17:58:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>RIP Daniel Bristot de Oliveira</title>
             <link>https://lwn.net/Articles/979617/</link>
