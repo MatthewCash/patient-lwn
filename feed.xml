@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Jun 2024 14:36:53 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Jun 2024 14:38:28 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Jun 2024 14:39:40 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Jun 2024 14:48:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RIP Daniel Bristot de Oliveira</title>
+            <link>https://lwn.net/Articles/979617/</link>
+            <description><![CDATA[We have just received <a
+href="https://www.linkedin.com/feed/update/urn:li:activity:7211345863858655233/">the
+sad news</a> of the passing of Daniel Bristot de Oliveira at far too young
+an age.  He was a strong contributor to the core kernel and associated
+realtime infrastructure, and always a joyful presence in person; he will be
+deeply missed.]]></description>
+            <guid>https://lwn.net/Articles/979617/</guid>
+            <pubDate>Tue, 25 Jun 2024 14:39:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Not all &quot;open source&quot; AI models are actually open (Nature)</title>
             <link>https://lwn.net/Articles/979609/</link>
