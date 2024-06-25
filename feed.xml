@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Jun 2024 12:55:05 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Jun 2024 13:00:46 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Jun 2024 13:18:40 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Jun 2024 13:18:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/979606/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (python3.11), <b>Debian</b> (composer), <b>Fedora</b> (thunderbird), <b>Mageia</b> (chromium-browser-stable, python-aiohttp, python-gunicorn, python-werkzeug, and virtualbox), <b>Oracle</b> (libreswan and python3.11), <b>Red Hat</b> (git, kpatch-patch, python3.11, python3.9, and thunderbird), and <b>SUSE</b> (avahi, ghostscript, grafana and mybatis, hdf5, kernel, openssl-1_1-livepatches, python-docker, and wget).]]></description>
+            <guid>https://lwn.net/Articles/979606/</guid>
+            <pubDate>Tue, 25 Jun 2024 13:18:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Min: sched_ext: scheduler architecture and interfaces</title>
             <link>https://lwn.net/Articles/979532/</link>
