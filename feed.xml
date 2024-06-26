@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Jun 2024 12:23:37 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Jun 2024 12:48:02 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Jun 2024 13:10:55 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Jun 2024 13:12:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/979740/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git, python3.11, and python3.9), <b>Debian</b> (chromium, emacs, git, linux-5.10, and org-mode), <b>Fedora</b> (libopenmpt, nginx-mod-modsecurity, and thunderbird), <b>Mageia</b> (emacs, python-ansible-core, and python-authlib), <b>Oracle</b> (git, python3.11, and python3.9), <b>Red Hat</b> (kernel, kernel-rt, and samba), and <b>Ubuntu</b> (ansible, cups, google-guest-agent, google-osconfig-agent, libheif, openvpn, roundcube, and salt).]]></description>
+            <guid>https://lwn.net/Articles/979740/</guid>
+            <pubDate>Wed, 26 Jun 2024 13:10:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Darktable 4.8.0 released</title>
             <link>https://lwn.net/Articles/979666/</link>
