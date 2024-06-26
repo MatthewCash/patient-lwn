@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Jun 2024 14:09:02 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Jun 2024 14:09:15 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Jun 2024 14:17:13 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Jun 2024 14:27:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Hutterer: GNOME tablet support papercut fixes</title>
+            <link>https://lwn.net/Articles/979745/</link>
+            <description><![CDATA[<p>Peter Hutterer has <a
+href="http://who-t.blogspot.com/2024/06/gnome-tablet-support-papercut-fixes.html">written</a>
+a summary of "papercut fixes" for GNOME tablet support that are
+planned to ship with GNOME 47.</p>
+
+
+<blockquote class="bq">
+<p>If you're an avid tablet user, you may have multiple stylus tools -
+but it's also likely that you have multiple tools of the same type
+which makes differentiating them in the GUI hard. Which is why they're
+highlighted now - if you bring the tool into proximity, the matching
+image is highlighted to make it easier to know which stylus you're
+about to configure. Oh, and in the process we added a new SVG for AES
+styli too to make the picture look more like the actual physical
+tool. The &lt;blink&gt; tag may no longer be cool but at least we can disco
+our way through the stylus configuration now. </p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/979745/</guid>
+            <pubDate>Wed, 26 Jun 2024 14:17:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Types Team Update and Roadmap (Rust Blog)</title>
             <link>https://lwn.net/Articles/979741/</link>
