@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Jun 2024 20:08:37 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Jun 2024 20:09:51 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Jun 2024 20:15:31 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Jun 2024 20:25:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -536,30 +536,6 @@ immediately.
             <guid>https://lwn.net/Articles/979257/</guid>
             <pubDate>Fri, 21 Jun 2024 13:11:44 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Tor Browser 13.5 released</title>
-            <link>https://lwn.net/Articles/979177/</link>
-            <description><![CDATA[<a href="https://blog.torproject.org/new-release-tor-browser-135/">Version
-13.5</a> of the privacy-focused Tor browser has been released.
-<p>
-<blockquote class="bq">
-	Regular readers of our release posts will know that for the past
-	two years we've been gradually increasing our capacity to not only
-	maintain, but bring tangible improvements to Tor Browser for
-	Android. In that respect, Tor Browser 13.5 feels like a milestone:
-	in addition to the dozens of bug fixes and minor improvements noted
-	in the changelog below, this release features major changes to
-	Android's connection experience in preparation for the future
-	addition of Connection Assist, including full access to Settings
-	before connecting and a new, permanent home for Tor logs.
-</blockquote>
-<p>
-The release also features desktop user-interface improvements and enhanced
-fingerprinting protection.]]></description>
-            <guid>https://lwn.net/Articles/979177/</guid>
-            <pubDate>Thu, 20 Jun 2024 20:10:56 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
