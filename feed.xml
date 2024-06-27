@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Jun 2024 16:28:26 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Jun 2024 16:31:25 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Jun 2024 16:40:47 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Jun 2024 16:42:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -489,14 +489,6 @@ fingerprinting protection.]]></description>
             <guid>https://lwn.net/Articles/979177/</guid>
             <pubDate>Thu, 20 Jun 2024 20:10:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/979153/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ghostscript and thunderbird), <b>Debian</b> (chromium, composer, libndp, and sendmail), <b>Fedora</b> (composer), <b>Mageia</b> (flatpak and python-scikit-learn), <b>Red Hat</b> (curl, ghostscript, and thunderbird), <b>SUSE</b> (hdf5 and opencc), and <b>Ubuntu</b> (gdb and php7.4, php8.1, php8.2, php8.3).]]></description>
-            <guid>https://lwn.net/Articles/979153/</guid>
-            <pubDate>Thu, 20 Jun 2024 16:15:41 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
