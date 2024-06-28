@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Jun 2024 14:23:17 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Jun 2024 14:34:46 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Jun 2024 14:41:34 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Jun 2024 14:48:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FSF Europe condemns Apple&apos;s DMA noncompliance</title>
+            <link>https://lwn.net/Articles/980003/</link>
+            <description><![CDATA[<p>
+The Free Software Foundation Europe has
+<a href="https://fsfe.org/news/2024/news-20240627-01.en.html">
+submitted</a> a joint position to the European Commission (EC), claiming that Apple
+has failed to comply with the EU's Digital Markets Act (DMA). This is the law
+that requires Apple to support alternative application stores on the devices it
+makes.
+</p>
+
+<blockquote class="bq">
+Apple's unfair behaviour against Free Software highlights the critical need to
+monitor the implementation of the DMA. The FSFE collaborated with F-Droid, the
+AppFair project, and other interoperability experts to scrutinize Apple's DMA
+compliance, and it's impact on Free Software. Since then, we coordinated several
+expert workshops with stakeholders,
+<a href="https://fsfe.org/news/2024/news-20240318-02.en.html">
+discussed with regulators in FOSDEM</a>, had
+<a href="https://fsfe.org/news/nl/nl-202406.en.html#interoperability-apple">
+official meetings with the EC's DMA team</a>, and submitted a
+<a href="https://download.fsfe.org/device-neutrality/202404-FSFE-apple-report-EC.pdf">
+comprehensive position</a>
+to the EC detailing several problematic elements in the Apple compliance that
+will harm the Free Software.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/980003/</guid>
+            <pubDate>Fri, 28 Jun 2024 14:37:05 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/979999/</link>
