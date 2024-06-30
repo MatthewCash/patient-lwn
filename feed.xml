@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 30 Jun 2024 14:02:28 +0000</pubDate>
-        <lastBuildDate>Sun, 30 Jun 2024 14:25:58 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 30 Jun 2024 14:33:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -536,20 +536,6 @@ testing.  "<q>So far, the 6.10 release cycle has been fairly calm, and rc5
 continues that trend. Let's hope things stay that way.</q>"]]></description>
             <guid>https://lwn.net/Articles/979442/</guid>
             <pubDate>Sun, 23 Jun 2024 22:23:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Larry Finger RIP</title>
-            <link>https://lwn.net/Articles/979419/</link>
-            <description><![CDATA[The linux-wireless mailing list carries the <a
-href="https://lwn.net/ml/all/77997185-86a6-41c5-af7a-74e4e9064437@lwfinger.net">terse
-notice</a> that longtime networking developer Larry Finger passed away on
-June&nbsp;21.  The <a href="https://lwn.net/ksdb/developers/show?dev=3787">LWN Kernel
-Source Database</a> shows that Finger contributed to 94&nbsp;releases in
-the (Git era) kernel history, starting with 2.6.16 — 1,464 commits in
-total.  He will be missed.]]></description>
-            <guid>https://lwn.net/Articles/979419/</guid>
-            <pubDate>Sun, 23 Jun 2024 14:28:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
