@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 30 Jun 2024 22:06:57 +0000</pubDate>
-        <lastBuildDate>Sun, 30 Jun 2024 22:33:31 +0000</lastBuildDate>
+        <pubDate>Sun, 30 Jun 2024 22:45:48 +0000</pubDate>
+        <lastBuildDate>Sun, 30 Jun 2024 22:48:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.10-rc6</title>
+            <link>https://lwn.net/Articles/980175/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/980174/">6.10-rc6</a> for testing.
+"<q>This release continues to be fairly calm, and rc6 looks pretty small.
+It's also entirely just random small fixes spread all over, with no bigger
+pattern.</q>"]]></description>
+            <guid>https://lwn.net/Articles/980175/</guid>
+            <pubDate>Sun, 30 Jun 2024 22:38:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>FSF Europe condemns Apple&apos;s DMA noncompliance</title>
             <link>https://lwn.net/Articles/980003/</link>
