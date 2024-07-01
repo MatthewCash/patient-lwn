@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Jul 2024 20:42:21 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Jul 2024 20:48:12 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Jul 2024 21:02:47 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Jul 2024 21:09:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Scientific Linux 7 reaches end of life</title>
+            <link>https://lwn.net/Articles/980312/</link>
+            <description><![CDATA[While the end of support for CentOS 7, which happened on June&nbsp;30, is
+significant, it is also worth taking a moment to reflect on the end of
+Scientific Linux&nbsp;7, which has also just occurred.  Scientific Linux
+was once a popular RHEL rebuild supported by Fermilab, CERN, DESY, and ETH
+Zurich.  Development of Scientific Linux stopped with SL7, with the labs
+switching to CentOS thereafter, but the SL7 release was supported through
+to the bitter end.  Thanks are due to all who built and supported
+Scientific Linux; you provided a useful and stable platform for many years.]]></description>
+            <guid>https://lwn.net/Articles/980312/</guid>
+            <pubDate>Mon, 01 Jul 2024 21:02:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Serious vulnerability fixed with OpenSSH 9.8</title>
             <link>https://lwn.net/Articles/980211/</link>
