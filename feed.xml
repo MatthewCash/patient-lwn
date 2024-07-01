@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 01 Jul 2024 16:26:46 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Jul 2024 16:30:42 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 1 Jul 2024 16:42:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -522,29 +522,6 @@ models.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (python3.11), <b>Debian</b> (composer), <b>Fedora</b> (thunderbird), <b>Mageia</b> (chromium-browser-stable, python-aiohttp, python-gunicorn, python-werkzeug, and virtualbox), <b>Oracle</b> (libreswan and python3.11), <b>Red Hat</b> (git, kpatch-patch, python3.11, python3.9, and thunderbird), and <b>SUSE</b> (avahi, ghostscript, grafana and mybatis, hdf5, kernel, openssl-1_1-livepatches, python-docker, and wget).]]></description>
             <guid>https://lwn.net/Articles/979606/</guid>
             <pubDate>Tue, 25 Jun 2024 13:18:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Min: sched_ext: scheduler architecture and interfaces</title>
-            <link>https://lwn.net/Articles/979532/</link>
-            <description><![CDATA[Changwoo Min has posted <a
-href="https://blogs.igalia.com/changwoo/sched-ext-scheduler-architecture-and-interfaces-part-2/">an
-introduction to writing custom schedulers</a> with sched_ext.
-<p>
-<blockquote class="bq">
-	In a particular situation, when each scheduling policy needs its
-	specific action, the core kernel scheduler calls an operation
-	defined in <tt>struct sched_class</tt>. For example, when the core
-	kernel scheduler needs to select a task to be scheduled, it calls
-	the <tt>sched_class.pick_next_task(rq)</tt> callback of a concrete
-	scheduling policy. When a task becomes runnable, the core kernel
-	scheduler calls <tt>sched_class.enqueue(rq, p, flags)</tt> so the
-	concrete scheduling policy enqueues task <tt>p</tt> to run queue
-	<tt>rq</tt>. When a task's runtime state needs to be updated, the
-	core kernel scheduler calls <tt>sched_class.update_curr(rq)</tt>.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/979532/</guid>
-            <pubDate>Mon, 24 Jun 2024 16:33:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
