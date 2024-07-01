@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Jul 2024 12:08:39 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Jul 2024 12:48:38 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Jul 2024 12:57:33 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Jul 2024 13:14:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Serious vulnerability fixed with OpenSSH 9.8</title>
+            <link>https://lwn.net/Articles/980211/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/d2ed9e542682bf82@cvs.openbsd.org">OpenSSH 9.8</a> has been
+released, fixing an ugly vulnerability:
+<p>
+<blockquote class="bq">
+	Successful exploitation has been demonstrated on 32-bit Linux/glibc
+	systems with ASLR. Under lab conditions, the attack requires on
+	average 6-8 hours of continuous connections up to the maximum the
+	server will accept. Exploitation on 64-bit systems is believed to
+	be possible but has not been demonstrated at this time. It's likely
+	that these attacks will be improved upon.
+<p>
+	Exploitation on non-glibc systems is conceivable but has not been
+	examined.
+</blockquote>
+<p>
+There is <a
+href="https://lwn.net/ml/all/4f270df5-2b24-979d-c03f-6d8f3b9d007d@mindrot.org">a
+configuration workaround</a> for systems that cannot be updated, though it
+has its own problems.  See <a
+href="https://lwn.net/ml/all/20240701083838.GA12787@localhost.localdomain">this Qualys
+advisory</a> for more details.]]></description>
+            <guid>https://lwn.net/Articles/980211/</guid>
+            <pubDate>Mon, 01 Jul 2024 12:53:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/980252/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dcmtk, edk2, emacs, glibc, gunicorn, libmojolicious-perl, openssh, org-mode, pdns-recursor, tryton-client, and tryton-server), <b>Fedora</b> (freeipa, kitty, libreswan, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-poppler, and mingw-python-urllib3), <b>Gentoo</b> (cpio, cryptography, GNU Emacs, Org Mode, GStreamer, GStreamer Plugins, Liferea, Pixman, SDL_ttf, SSSD, and Zsh), <b>Oracle</b> (pki-core), <b>Red Hat</b> (httpd:2.4, libreswan, and pki-core), <b>SUSE</b> (glib2 and kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t), and <b>Ubuntu</b> (espeak-ng, libcdio, and openssh).]]></description>
+            <guid>https://lwn.net/Articles/980252/</guid>
+            <pubDate>Mon, 01 Jul 2024 12:56:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.10-rc6</title>
             <link>https://lwn.net/Articles/980175/</link>
