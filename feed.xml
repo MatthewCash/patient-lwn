@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 02 Jul 2024 14:38:37 +0000</pubDate>
-        <lastBuildDate>Tue, 2 Jul 2024 14:48:07 +0000</lastBuildDate>
+        <pubDate>Tue, 02 Jul 2024 15:02:24 +0000</pubDate>
+        <lastBuildDate>Tue, 2 Jul 2024 15:09:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -505,19 +505,6 @@ compatible with darktable 4.6.</p>]]></description>
             <guid>https://lwn.net/Articles/979666/</guid>
             <pubDate>Tue, 25 Jun 2024 17:58:44 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>RIP Daniel Bristot de Oliveira</title>
-            <link>https://lwn.net/Articles/979617/</link>
-            <description><![CDATA[We have just received <a
-href="https://www.linkedin.com/feed/update/urn:li:activity:7211345863858655233/">the
-sad news</a> of the passing of Daniel Bristot de Oliveira at far too young
-an age.  He was a strong contributor to the core kernel and associated
-realtime infrastructure, and always a joyful presence in person; he will be
-deeply missed.]]></description>
-            <guid>https://lwn.net/Articles/979617/</guid>
-            <pubDate>Tue, 25 Jun 2024 14:39:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
