@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Jul 2024 12:19:01 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Jul 2024 13:12:13 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jul 2024 13:25:49 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Jul 2024 13:27:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/980554/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (golang and kernel), <b>Fedora</b> (ghostscript and openssh), <b>Mageia</b> (espeak-ng), <b>Red Hat</b> (389-ds, c-ares, container-tools, cups, fontforge, go-toolset, iperf3, less, libreoffice, libuv, linux-firmware, nghttp2, openldap, pki-core, python-idna, python-jinja2, python-pillow, python3, python3.11-PyMySQL, qemu-kvm, and xmlrpc-c), <b>SUSE</b> (ghostscript, git, libndp, libxml2, openssh, pgadmin4, podman, podofo, postgresql14, postgresql15, postgresql16, python39, squid, and wireshark), and <b>Ubuntu</b> (firefox and openvpn).]]></description>
+            <guid>https://lwn.net/Articles/980554/</guid>
+            <pubDate>Wed, 03 Jul 2024 13:15:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Rosenthal: X Window System At 40</title>
+            <link>https://lwn.net/Articles/980556/</link>
+            <description><![CDATA[David Rosenthal <a
+href="https://blog.dshr.org/2024/07/x-window-system-at-40.html">looks
+back</a> at 40 years of the X Window System:
+<p>
+<blockquote class="bq">
+	A major reason for Sun's early success was that they in effect
+	open-sourced the Network File System. X11 was open source under the
+	MIT license. I, and some of the other Sun engineers, understood
+	that NeWS could not displace X11 as the Unix standard window system
+	without being equally open source. But Sun's management looked at
+	NeWS and saw superior technology, an extension of the PostScript
+	that Adobe was selling, and couldn't bring themselves to give it
+	away.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/980556/</guid>
+            <pubDate>Wed, 03 Jul 2024 13:25:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/980393/</link>
@@ -477,14 +506,6 @@ plans.
             <guid>https://lwn.net/Articles/979741/</guid>
             <pubDate>Wed, 26 Jun 2024 13:16:16 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/979740/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git, python3.11, and python3.9), <b>Debian</b> (chromium, emacs, git, linux-5.10, and org-mode), <b>Fedora</b> (libopenmpt, nginx-mod-modsecurity, and thunderbird), <b>Mageia</b> (emacs, python-ansible-core, and python-authlib), <b>Oracle</b> (git, python3.11, and python3.9), <b>Red Hat</b> (kernel, kernel-rt, and samba), and <b>Ubuntu</b> (ansible, cups, google-guest-agent, google-osconfig-agent, libheif, openvpn, roundcube, and salt).]]></description>
-            <guid>https://lwn.net/Articles/979740/</guid>
-            <pubDate>Wed, 26 Jun 2024 13:10:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
