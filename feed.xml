@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jul 2024 12:32:57 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jul 2024 13:00:18 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jul 2024 13:07:48 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jul 2024 13:18:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -419,14 +419,6 @@ href="https://lwn.net/Articles/979851/">6.1.96</a> stable kernel updates have be
 released; each contains an important set of fixes.</p>]]></description>
             <guid>https://lwn.net/Articles/979849/</guid>
             <pubDate>Thu, 27 Jun 2024 13:12:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/979847/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, kernel, libvpx, and linux-5.10), <b>Fedora</b> (chromium, firefox, freeipa, moodle, and openvpn), <b>Oracle</b> (git), <b>Red Hat</b> (golang and java-1.8.0-ibm), and <b>Ubuntu</b> (linux-oracle-6.5, netplan.io, openssl, plasma-workspace, ruby2.7, ruby3.0, ruby3.1, sqlite3, and wget).]]></description>
-            <guid>https://lwn.net/Articles/979847/</guid>
-            <pubDate>Thu, 27 Jun 2024 13:00:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
