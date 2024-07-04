@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jul 2024 16:32:39 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jul 2024 17:48:02 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jul 2024 17:59:13 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jul 2024 18:11:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -396,37 +396,6 @@ has left behind]]></description>
             <guid>https://lwn.net/Articles/979912/</guid>
             <pubDate>Thu, 27 Jun 2024 18:14:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Free Software Foundation adds three board members</title>
-            <link>https://lwn.net/Articles/979918/</link>
-            <description><![CDATA[<p>The Free Software Foundation (FSF) has <a
-href="https://www.fsf.org/news/fsf-adds-3-highly-qualified-board-members">announced</a>
-the addition of three new members to its board: John Gilmore,
-Christina Haralanova, and Maria Chiara Pievatolo. This is part of FSF
-governance changes <a
-href="https://www.fsf.org/about/staff-and-board/board/board-process-graph">announced</a>
-in January 2023. The next step is a review of current board
-members:</p>
-
-<blockquote class="bq">
-These three new members of the FSF's board of directors are the first
-to be appointed since 2020, when Odile Bénassy joined. Given the
-importance of the FSF to the free software movement, and the
-importance of its board to ensure preservation of the software freedom
-definition, the board has not taken its task lightly. Next, the FSF
-will evaluate current board members with the FSF's associate members
-in August, after which the <a
-href="https://www.fsf.org/news/fsf-board-frequently-asked-questions-faq#BoardvsVoting">voting
-members</a> will review the feedback
-received and decide if each current board member should remain.
-</blockquote>
-
-<p>More information on the process, and a short biography of each new
-board member, is available in the full announcement.</p>]]></description>
-            <guid>https://lwn.net/Articles/979918/</guid>
-            <pubDate>Thu, 27 Jun 2024 18:04:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
