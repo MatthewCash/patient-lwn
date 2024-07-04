@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 04 Jul 2024 19:18:52 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jul 2024 19:21:24 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 4 Jul 2024 19:33:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -383,19 +383,6 @@ to use," Rabson remarked​​.
             <guid>https://lwn.net/Articles/979935/</guid>
             <pubDate>Thu, 27 Jun 2024 20:08:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Mourning Daniel Bristot de Oliveira</title>
-            <link>https://lwn.net/Articles/979912/</link>
-            <description><![CDATA[The academic and the Linux real-time and scheduling community mourns the
-premature death of <a href="https://bristot.me/about/">Daniel Bristot de
-Oliveira</a>. Daniel died at the age of 37 on Monday, June 24, 2024.
-Juri Lelli, Tommaso Cucinotta, Steve Rostedt, Kate Stewart, and Thomas
-Gleixner have come together to share their thoughts on his life and what he
-has left behind]]></description>
-            <guid>https://lwn.net/Articles/979912/</guid>
-            <pubDate>Thu, 27 Jun 2024 18:14:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
