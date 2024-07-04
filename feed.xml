@@ -8,11 +8,154 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Jul 2024 22:48:42 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Jul 2024 23:48:16 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jul 2024 23:52:55 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jul 2024 00:38:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 27, 2024</title>
+            <link>https://lwn.net/Articles/979084/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for June 27, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/979084/</guid>
+            <pubDate>Wed, 26 Jun 2024 23:55:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Finishing the conversion to the &quot;new&quot; mount API</title>
+            <link>https://lwn.net/Articles/979166/</link>
+            <description><![CDATA[Eric Sandeen led a filesystem-track session at 
+the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> on completing the
+conversion of the existing kernel filesystems to use the <a
+href="https://lwn.net/Articles/759499/">mount API</a> that was <a
+href="https://lwn.net/Articles/787963/">added for the 5.2 kernel</a> in 2019.  That API is
+invariably called the "new" API, which it <i>is</i> when compared to the
+venerable <a 
+href="https://man7.org/linux/man-pages/man2/mount.2.html"><tt>mount()</tt></a>
+system call, but it has been available for five years or so at this point
+without really pushing its predecessor aside.  Sandeen wanted to discuss
+the status of the conversion process and some other questions surrounding
+the new API.]]></description>
+            <guid>https://lwn.net/Articles/979166/</guid>
+            <pubDate>Wed, 26 Jun 2024 13:19:30 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Programming in Unison</title>
+            <link>https://lwn.net/Articles/978955/</link>
+            <description><![CDATA[<p>
+<a href="https://www.unison-lang.org/">
+Unison</a> is a
+MIT-licensed programming language, in development since 2013, that
+explores the ramifications of making code immutable and stored in a database,
+instead of a set of text files.
+Unison supports a greatly simplified model for distributed
+programming — one that describes the configuration of and communication between
+programs in the same language as the programs themselves. Along the way, it
+introduces a new approach to interfacing with programming languages, which is tailored to
+its design.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/978955/</guid>
+            <pubDate>Tue, 25 Jun 2024 18:18:54 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Making containers bootable for fun and profit</title>
+            <link>https://lwn.net/Articles/979182/</link>
+            <description><![CDATA[<p>Dan Walsh, Stef Walter, and Colin Walters all walk into a
+presentation and Walter asks, "why would
+you want to boot your containers?" This isn't the setup for some technology joke, this is part of the trio's
+<a href="https://pretalx.com/devconf-cz-2024/talk/AVSUU3/">keynote at
+DevConf.cz</a> in Brno, Czech Republic on June&nbsp;14 about <a
+href="https://containers.github.io/bootc/">bootable containers</a>
+(bootc). The talk, which was streamed to YouTube for those of us who
+didn't attend DevConf.cz in person, provided a solid overview of bootc
+and the problems it is intended to solve. The idea behind bootc is to
+make creating operating-system images just as easy as creating
+application-container images while using the same tools.</p>]]></description>
+            <guid>https://lwn.net/Articles/979182/</guid>
+            <pubDate>Tue, 25 Jun 2024 17:10:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The GhostBSD in the machine</title>
+            <link>https://lwn.net/Articles/978837/</link>
+            <description><![CDATA[<p><a href="https://www.ghostbsd.org/">GhostBSD</a> is a
+desktop-oriented operating system based on <a
+href="https://www.freebsd.org/">FreeBSD</a> and the <a
+href="https://mate-desktop.org/">MATE Desktop Environment</a>. The
+goal of the project is to lower the barrier to entry of using FreeBSD
+on a desktop or laptop system, and it largely succeeds at this. While it has a few rough edges
+that make it hard to recommend for the average desktop user, it is
+a fine choice for users who want a desktop with FreeBSD underpinnings
+such as the Z File System (ZFS), and the <a
+href="https://wiki.ghostbsd.org/index.php/Ports">Ports</a> (source) and <a
+href="https://wiki.ghostbsd.org/index.php/Pkg">Packages</a> (binary) software collections.</p>]]></description>
+            <guid>https://lwn.net/Articles/978837/</guid>
+            <pubDate>Mon, 24 Jun 2024 14:35:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Rust for filesystems</title>
+            <link>https://lwn.net/Articles/978738/</link>
+            <description><![CDATA[At the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Wedson Almeida Filho and
+Kent Overstreet led a combined storage and filesystem session on using Rust
+for Linux filesystems. Back in December 2023, Almeida had <a
+href="https://lwn.net/ml/linux-fsdevel/20231018122518.128049-1-wedsonaf@gmail.com/">posted
+an RFC patch set</a> with
+some Rust abstractions for filesystems, which resulted in <a
+href="https://lwn.net/Articles/958072/">some disagreement over the approach</a>.  On the
+same mid-May day as the session, he <a
+href="https://lwn.net/ml/all/20240514131711.379322-1-wedsonaf@gmail.com/">posted</a>
+a second version of the RFC patches, which he wanted to discuss along with
+other Rust-related topics.]]></description>
+            <guid>https://lwn.net/Articles/978738/</guid>
+            <pubDate>Fri, 21 Jun 2024 14:45:52 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A capability set for user namespaces</title>
+            <link>https://lwn.net/Articles/978846/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/532593/">User namespaces</a> in Linux create an
+environment in which all privileges are granted, but their effect is
+contained within the namespace; they have become an important tool for the
+implementation of containers.  They have also become a significant source
+of worries for people who do not like the increased attack surface they
+create for the kernel.  Various attempts have been made to restrict that
+attack surface over the years; the latest is <a
+href="https://lwn.net/ml/all/20240609104355.442002-1-jcalmels@3xx0.net">user namespace
+capabilities</a>, posted by Jonathan Calmels.]]></description>
+            <guid>https://lwn.net/Articles/978846/</guid>
+            <pubDate>Thu, 20 Jun 2024 18:37:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Updates to pahole</title>
+            <link>https://lwn.net/Articles/978727/</link>
+            <description><![CDATA[<p>
+Arnaldo Carvalho de Melo spoke at the 2024
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>
+about his work on
+<a href="https://lwn.net/Articles/335942/">
+Poke-a-hole</a> (pahole),
+a program that has expanded greatly over the years, but which was relevant to the
+BPF track because it produces BPF Type Format (BTF) information from DWARF
+debugging information. He covered some small changes to the program, and then
+went into detail about the new support for data-type profiling. His
+<a href="http://vger.kernel.org/~acme/prez/lsfmm-bpf-2024/">slides</a> include
+several examples.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/978727/</guid>
+            <pubDate>Thu, 20 Jun 2024 17:58:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Universal Blue images need manual intervention for updates</title>
             <link>https://lwn.net/Articles/980575/</link>
@@ -285,199 +428,6 @@ released; each contains an important set of fixes.</p>]]></description>
             <guid>https://lwn.net/Articles/979847/</guid>
             <pubDate>Thu, 27 Jun 2024 13:00:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 20, 2024</title>
-            <link>https://lwn.net/Articles/978238/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for June 20, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/978238/</guid>
-            <pubDate>Thu, 20 Jun 2024 03:42:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] How free software hijacked Philip Hazel&apos;s life</title>
-            <link>https://lwn.net/Articles/978463/</link>
-            <description><![CDATA[<p>Philip Hazel was 51 when he began the <a
-href="https://www.exim.org/">Exim</a> message transfer agent (MTA)
-project in 1995, which
-led to the <a
-href="https://github.com/PCRE2Project/pcre2">Perl-Compatible Regular
-Expressions</a> (PRCE) project in 1998. At 80,
-he's maintained PCRE, and its successor PCRE2, for more than 27
-years. For those doing the math, that's a year longer than LWN has
-been in publication. Exim maintenance was handed off around the time
-of his retirement in 2007. Now, he is ready to hand off PCRE2 as well,
-if a successor can be found.</p>]]></description>
-            <guid>https://lwn.net/Articles/978463/</guid>
-            <pubDate>Wed, 19 Jun 2024 18:17:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Capturing stack traces asynchronously with BPF</title>
-            <link>https://lwn.net/Articles/978736/</link>
-            <description><![CDATA[<p>
-Andrii Nakryiko led a session at
-the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> giving
-a look into the APIs for capturing stack traces
-using BPF, and how the APIs could be made more useful. BPF programs can capture the
-current stack trace of a running process, including the portion in the kernel
-during execution of a system call, which can be useful for diagnosing
-performance problems, among other things. But there are substantial problems with
-the existing API.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/978736/</guid>
-            <pubDate>Wed, 19 Jun 2024 14:15:03 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] How kernel CVE numbers are assigned</title>
-            <link>https://lwn.net/Articles/978711/</link>
-            <description><![CDATA[It has been four months since <a
-href="http://www.kroah.com/log/blog/2024/02/13/linux-is-a-cna/">Greg
-Kroah-Hartman</a> and <a
-href="https://www.cve.org/Media/News/item/news/2024/02/13/kernel-org-Added-as-CNA">MITRE</a>
-announced that the Linux kernel project had become its own CVE Numbering
-Authority (CNA).  Since then, the Linux CNA Team has developed workflows
-and mechanisms to help manage the various tasks associated with this
-challenge.  There does however, appear to be a lack of understanding among
-community members of the processes and rules the team have been working
-within.  The principal aim of this article, written by a member of the
-Linux kernel CNA team, is to clarify how the team works and how kernel CVE
-numbers are assigned.]]></description>
-            <guid>https://lwn.net/Articles/978711/</guid>
-            <pubDate>Wed, 19 Jun 2024 13:48:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Adding a JIT compiler to CPython</title>
-            <link>https://lwn.net/Articles/977855/</link>
-            <description><![CDATA[One of the big-ticket items for the upcoming Python&nbsp;3.13 release is an experimental <a
-href="https://lwn.net/Articles/970397/">just-in-time (JIT) compiler</a> for the language;
-the other is, of course, the <a
-href="https://lwn.net/Articles/947138/">removal of the 
-global interpreter lock (GIL)</a>, which is also an experiment.  Brandt
-Bucher is a member of the <a 
-href="https://github.com/faster-cpython">Faster CPython project</a>, which is
-working on making the reference implementation of the language faster via a
-variety of techniques.  Last year at PyCon, he gave a <a
-href="https://lwn.net/Articles/930705/">talk about the specializing adaptive
-interpreter</a>; at <a href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a> in Pittsburgh, he described the work he and others have been doing
-to <a href="https://lwn.net/Articles/957239/">add a copy-and-patch JIT compiler</a> to CPython.]]></description>
-            <guid>https://lwn.net/Articles/977855/</guid>
-            <pubDate>Tue, 18 Jun 2024 17:14:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] BPF tracing performance</title>
-            <link>https://lwn.net/Articles/978335/</link>
-            <description><![CDATA[<p>
-On the final day of the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, the BPF track
-opened with a series of sessions on improving the performance and
-flexibility of probes and other performance-monitoring tools, in the kernel and in
-user space. Jiri Olsa led two sessions about different aspects of probes:
-making the API for BPF programs attached to a probe more flexible, and making
-user-space probes more efficient.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/978335/</guid>
-            <pubDate>Tue, 18 Jun 2024 13:55:03 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Static keys for BPF</title>
-            <link>https://lwn.net/Articles/977993/</link>
-            <description><![CDATA[<p>
-The kernel has a lot of code paths that are normally disabled: debugging print
-statements, tracepoints, etc. To support these efficiently, there
-is a common mechanism called
-<a href="https://docs.kernel.org/staging/static-keys.html">
-static keys</a> that provides a way to enable or disable a
-code path at run time, with effectively no overhead for disabled
-branches. BPF programs have not been able to take advantage of static keys so far,
-because they aren't compiled into the kernel.
-Now, it looks like BPF may be getting support for a similar mechanism —
-and the design could also provide one of the components needed to support
-<a href="https://en.wikipedia.org/wiki/Branch_table">
-jump tables</a>, another missing feature.
-Anton Protopovov presented his plans to add static keys to BPF at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/977993/</guid>
-            <pubDate>Mon, 17 Jun 2024 19:58:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Nested bottom-half locking for realtime kernels</title>
-            <link>https://lwn.net/Articles/978189/</link>
-            <description><![CDATA[Software-interrupt handlers (also called "bottom halves") have a long
-history in the Linux kernel; for much of that history, developers have
-wished that they could go away.  One of their unfortunate characteristics
-is that they can add unexpected latency to the execution of unrelated
-processes; this problem is felt especially acutely in the
-realtime-preemption community.  The solution adopted there has created
-problems of its own, though; in response Sebastian Andrzej Siewior is <a
-href="https://lwn.net/ml/all/20240607070427.1379327-1-bigeasy@linutronix.de">proposing</a>
-a new locking mechanism for realtime builds of the kernel that may have
-benefits for non-realtime users as well.]]></description>
-            <guid>https://lwn.net/Articles/978189/</guid>
-            <pubDate>Mon, 17 Jun 2024 14:27:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Aeon: openSUSE for lazy developers</title>
-            <link>https://lwn.net/Articles/977987/</link>
-            <description><![CDATA[<p>The openSUSE project recently <a
-href="https://news.opensuse.org/2024/05/28/aeon-desktop-brings-new-features-in-rctwo-release/">announced</a>
-the second release candidate (RC2) of its <a
-href="https://aeondesktop.github.io/">Aeon Desktop</a>, formerly known
-as MicroOS Desktop GNOME. Aside from the new coat of naming paint,
-Aeon breaks ground in a few other ways by dabbling with technologies not found in other openSUSE releases. The goal for Aeon is to provide
-automated system updates using snapshots that can be applied
-atomically, removing the burden of system maintenance for
-"<q>lazy developers</q>" who want to focus on their work rather than desktop
-administration. System-tinkerers need not apply.</p>]]></description>
-            <guid>https://lwn.net/Articles/977987/</guid>
-            <pubDate>Fri, 14 Jun 2024 14:29:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Simplifying the BPF verifier</title>
-            <link>https://lwn.net/Articles/977815/</link>
-            <description><![CDATA[<p>
-The BPF verifier is a complex program. This has the unfortunate effect of making
-it simultaneously more difficult for contributors to work on, and more likely
-to harbor unknown bugs. Shung-Hsi Yu had two concrete proposals for how to
-simplify the verifier to make it easier to maintain that he presented at the 2024
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>. Yu proposed changing how the
-verifier tracks partially known values and cleaning up the interface to
-hide the details of the value-tracker's internal representation.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/977815/</guid>
-            <pubDate>Thu, 13 Jun 2024 17:01:13 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improving control-flow integrity for Linux on RISC-V</title>
-            <link>https://lwn.net/Articles/977720/</link>
-            <description><![CDATA[Redirecting execution flow is a common malware
-technique that can be used to compromise operating systems. To protect from such attacks,
-the chip makers of leading architectures like x86 and arm64 have implemented
-<a
-href="https://lwn.net/Articles/900099/">control-flow-integrity (CFI) extensions</a>, though they need system
-software support to function. At the <a
-href="https://events.linuxfoundation.org/linux-security-summit-north-america/">Linux
-Security Summit North America</a>,  <a
-href="https://riscv.org/">RISC-V</a> kernel developer Deepak Gupta described the CFI
-protections for that architecture and  invited community input on the
-kernel support for them.]]></description>
-            <guid>https://lwn.net/Articles/977720/</guid>
-            <pubDate>Thu, 13 Jun 2024 16:25:50 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
