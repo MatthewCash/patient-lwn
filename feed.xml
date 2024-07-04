@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jul 2024 19:38:45 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jul 2024 19:48:00 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jul 2024 19:59:36 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jul 2024 20:10:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,33 +356,6 @@ will harm the Free Software.
             <guid>https://lwn.net/Articles/979999/</guid>
             <pubDate>Fri, 28 Jun 2024 12:53:04 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Highlights from the FreeBSD Developer Summit</title>
-            <link>https://lwn.net/Articles/979935/</link>
-            <description><![CDATA[<p>The FreeBSD Foundation has published
-<a
-href="https://freebsdfoundation.org/blog/highlights-from-the-freebsd-developer-summit-2024-innovations-and-future-directions/">a
-set of reports</a> from the <a
-href="https://freebsdfoundation.org/news-and-events/event-calendar/may-2024-freebsd-developer-summit/">May
-2024 FreeBSD Developer Summit</a> held in Ottawa, Canada. The topics
-include FreeBSD Core Team updates, FreeBSD 15 release planning,
-Integration with Rust, and <a
-href="https://freebsdfoundation.org/blog/2024-freebsd-developer-summit-oci-containers-on-freebsd/">OCI
-containers on FreeBSD</a>:</p>
-
-<blockquote class="bq">
-Doug Rabson began by providing an overview of the current state of
-FreeBSD support for OCI containers, noting that while FreeBSD has long
-supported containers through its jail and vnet features, the ecosystem
-around OCI containers requires further development. "FreeBSD has been
-able to do containers for a long time, but we need to align better
-with OCI standards to make our containers more compatible and easier
-to use," Rabson remarked​​.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/979935/</guid>
-            <pubDate>Thu, 27 Jun 2024 20:08:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
