@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jul 2024 13:07:48 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jul 2024 13:18:47 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jul 2024 13:20:59 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jul 2024 13:33:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -408,17 +408,6 @@ received and decide if each current board member should remain.
 board member, is available in the full announcement.</p>]]></description>
             <guid>https://lwn.net/Articles/979918/</guid>
             <pubDate>Thu, 27 Jun 2024 18:04:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three Thursday stable kernel updates</title>
-            <link>https://lwn.net/Articles/979849/</link>
-            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/979848/">6.9.7</a>, <a
-href="https://lwn.net/Articles/979850/">6.6.36</a>, and <a
-href="https://lwn.net/Articles/979851/">6.1.96</a> stable kernel updates have been
-released; each contains an important set of fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/979849/</guid>
-            <pubDate>Thu, 27 Jun 2024 13:12:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
