@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 05 Jul 2024 11:58:53 +0000</pubDate>
-        <lastBuildDate>Fri, 5 Jul 2024 12:15:07 +0000</lastBuildDate>
+        <pubDate>Fri, 05 Jul 2024 12:34:47 +0000</pubDate>
+        <lastBuildDate>Fri, 5 Jul 2024 12:45:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/980855/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (cockpit, python-astropy, python3-docs, and python3.12), <b>Gentoo</b> (BusyBox, GNU Coreutils, GraphicsMagick, podman, PuTTY, Sofia-SIP, TigerVNC, and WebKitGTK+), <b>Mageia</b> (chromium-browser-stable and openvpn), <b>SUSE</b> (cockpit, krb5, and netatalk), and <b>Ubuntu</b> (kopanocore, libreoffice, linux-aws, linux-oem-6.8, linux-aws-5.15, linux-azure, linux-azure-4.15, linux-lowlatency, linux-lowlatency-hwe-6.5, linux-oracle, linux-starfive-6.5, and virtuoso-opensource).]]></description>
+            <guid>https://lwn.net/Articles/980855/</guid>
+            <pubDate>Fri, 05 Jul 2024 12:17:25 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Seven new stable kernels</title>
+            <link>https://lwn.net/Articles/980856/</link>
+            <description><![CDATA[<p>
+Greg Kroah-Hartman has announced the release of seven more stable kernels.
+Versions <a href="https://lwn.net/Articles/980859/">6.9.8</a>,
+<a href="https://lwn.net/Articles/980860/">6.9.37</a>,
+<a href="https://lwn.net/Articles/980861/">6.1.97</a>,
+<a href="https://lwn.net/Articles/980862/">5.15.162</a>,
+<a href="https://lwn.net/Articles/980863/">5.10.221</a>,
+<a href="https://lwn.net/Articles/980864/">5.4.279</a>,
+and <a href="https://lwn.net/Articles/980865/">4.19.317</a> are now available.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/980856/</guid>
+            <pubDate>Fri, 05 Jul 2024 12:34:46 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/980755/</link>
