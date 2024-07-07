@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 07 Jul 2024 22:23:33 +0000</pubDate>
-        <lastBuildDate>Sun, 7 Jul 2024 22:34:59 +0000</lastBuildDate>
+        <pubDate>Sun, 07 Jul 2024 22:44:03 +0000</pubDate>
+        <lastBuildDate>Sun, 7 Jul 2024 22:48:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -330,17 +330,6 @@ advisory</a> for more details.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (dcmtk, edk2, emacs, glibc, gunicorn, libmojolicious-perl, openssh, org-mode, pdns-recursor, tryton-client, and tryton-server), <b>Fedora</b> (freeipa, kitty, libreswan, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-poppler, and mingw-python-urllib3), <b>Gentoo</b> (cpio, cryptography, GNU Emacs, Org Mode, GStreamer, GStreamer Plugins, Liferea, Pixman, SDL_ttf, SSSD, and Zsh), <b>Oracle</b> (pki-core), <b>Red Hat</b> (httpd:2.4, libreswan, and pki-core), <b>SUSE</b> (glib2 and kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t), and <b>Ubuntu</b> (espeak-ng, libcdio, and openssh).]]></description>
             <guid>https://lwn.net/Articles/980252/</guid>
             <pubDate>Mon, 01 Jul 2024 12:56:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.10-rc6</title>
-            <link>https://lwn.net/Articles/980175/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/980174/">6.10-rc6</a> for testing.
-"<q>This release continues to be fairly calm, and rc6 looks pretty small.
-It's also entirely just random small fixes spread all over, with no bigger
-pattern.</q>"]]></description>
-            <guid>https://lwn.net/Articles/980175/</guid>
-            <pubDate>Sun, 30 Jun 2024 22:38:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
