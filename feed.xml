@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jul 2024 20:43:48 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jul 2024 20:48:09 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jul 2024 20:57:49 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jul 2024 21:09:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -316,21 +316,6 @@ back</a> at 40 years of the X Window System:
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (httpd:2.4/httpd), <b>Arch Linux</b> (openssh), <b>Fedora</b> (cups, emacs, and python-urllib3), <b>Gentoo</b> (OpenSSH), <b>Mageia</b> (ffmpeg, gdb, openssl, python-idna, and python-imageio), <b>Red Hat</b> (golang and kernel), <b>SUSE</b> (booth, libreoffice, openssl-1_1-livepatches, podman, python-arcomplete, python-Fabric, python-PyGithub, python- antlr4-python3-runtime, python-avro, python-chardet, python-distro, python- docker, python-fakeredis, python-fixedint, pyth, python-Js2Py, python310, python39, and squid), and <b>Ubuntu</b> (cups and netplan.io).]]></description>
             <guid>https://lwn.net/Articles/980393/</guid>
             <pubDate>Tue, 02 Jul 2024 12:41:51 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Scientific Linux 7 reaches end of life</title>
-            <link>https://lwn.net/Articles/980312/</link>
-            <description><![CDATA[While the end of support for CentOS 7, which happened on June&nbsp;30, is
-significant, it is also worth taking a moment to reflect on the end of
-Scientific Linux&nbsp;7, which has also just occurred.  Scientific Linux
-was once a popular RHEL rebuild supported by Fermilab, CERN, DESY, and ETH
-Zurich.  Development of Scientific Linux stopped with SL7, with the labs
-switching to CentOS thereafter, but the SL7 release was supported through
-to the bitter end.  Thanks are due to all who built and supported
-Scientific Linux; you provided a useful and stable platform for many years.]]></description>
-            <guid>https://lwn.net/Articles/980312/</guid>
-            <pubDate>Mon, 01 Jul 2024 21:02:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
