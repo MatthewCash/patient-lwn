@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jul 2024 13:49:52 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jul 2024 14:09:51 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jul 2024 14:18:17 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jul 2024 14:29:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/981119/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (openssh), <b>Debian</b> (krb5), <b>Fedora</b> (yt-dlp), <b>Gentoo</b> (firefox, KDE Plasma Workspaces, Stellarium, thunderbird, and X.Org X11 library), <b>Mageia</b> (python-js2py and znc), <b>Oracle</b> (389-ds, c-ares, container-tools, cups, go-toolset, httpd:2.4/httpd, iperf3, kernel, less, libreoffice, libuv, nghttp2, openldap, openssh, python-idna, python-jinja2, python-pillow, python3, python3.11-PyMySQL, and xmlrpc-c), <b>Red Hat</b> (kernel, kernel-rt, openssh, and virt:rhel and virt-devel:rhel modules), and <b>SUSE</b> (go1.21, go1.22, krb5, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, netty3, opera, and python-urllib3).]]></description>
+            <guid>https://lwn.net/Articles/981119/</guid>
+            <pubDate>Mon, 08 Jul 2024 14:09:40 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.10-rc7</title>
             <link>https://lwn.net/Articles/981020/</link>
