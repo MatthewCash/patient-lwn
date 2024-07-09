@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Jul 2024 03:18:46 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Jul 2024 03:48:19 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Jul 2024 03:48:57 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Jul 2024 04:11:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Esfahbod: State of Text Rendering 2024</title>
+            <link>https://lwn.net/Articles/981178/</link>
+            <description><![CDATA[On his blog, Behdad Esfahbod has <a href="https://behdad.org/text2024/">published</a> a lengthy and detailed look at the state of open-source text rendering.  It looks at the libraries available, application support, future directions, and gives a summary analysis of the ecosystem. 
+
+<blockquote class="bq">
+In broad strokes, OpenType added support for <i>color fonts</i>, <i>variable fonts</i>, and the <i>Universal Shaping Engine</i>. The Free &amp; Open Source stack supports all of these advances at the lower level, but application UI support has been slower to arrive. The Open Source text stack also gained enormous market-share when Android and Google Chrome fully embraced it.
+<p>
+Looking forward, there is a <i>Rust</i> migration of the text stack underway, which will unify font compilation and consumption under a safe programming language. <i>Incremental Font Transfer</i> will enable streaming fonts to web browsers. And my proposed <i>Wasm-fonts</i> will enable more expressive fonts.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/981178/</guid>
+            <pubDate>Tue, 09 Jul 2024 03:48:57 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>GDB 15.1 released</title>
             <link>https://lwn.net/Articles/981080/</link>
