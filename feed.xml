@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Jul 2024 15:43:28 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Jul 2024 15:48:13 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Jul 2024 16:05:51 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Jul 2024 16:12:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 128.0 released</title>
+            <link>https://lwn.net/Articles/981334/</link>
+            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/128.0/releasenotes/">Version
+128.0</a> of the Firefox browser has been released.  Changes this time
+include the ability to translate highlighted phrases from the context menu,
+display of recent searches on opening the address bar (US/Canada only), a
+streamlined dialog for clearing user data, and more.]]></description>
+            <guid>https://lwn.net/Articles/981334/</guid>
+            <pubDate>Tue, 09 Jul 2024 15:54:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Another OpenSSH remote code execution vulnerability</title>
             <link>https://lwn.net/Articles/981287/</link>
