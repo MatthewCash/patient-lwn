@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 10 Jul 2024 13:20:55 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jul 2024 13:29:04 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jul 2024 13:35:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -345,18 +345,6 @@ href="https://lwn.net/Articles/954059/">covered Bluefin</a> in
 December, 2023.</p>]]></description>
             <guid>https://lwn.net/Articles/980575/</guid>
             <pubDate>Wed, 03 Jul 2024 15:12:31 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GNU findutils 4.10.0 released</title>
-            <link>https://lwn.net/Articles/980555/</link>
-            <description><![CDATA[<p>Version 4.10.0 of GNU findutils has been released. Notable changes
-include allowing <tt>find -name /</tt> as a valid
-pattern, and accepting larger UIDs/GIDs for <tt>find -user</tt> and
-<tt>find -group</tt>. It is also once again possible to build
-findutils on systems with <a href="https://www.musl-libc.org/">musl-libc</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/980555/</guid>
-            <pubDate>Wed, 03 Jul 2024 13:29:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
