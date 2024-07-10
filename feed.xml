@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Jul 2024 14:54:46 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jul 2024 15:11:14 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Jul 2024 15:23:39 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Jul 2024 15:27:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -313,39 +313,6 @@ several examples.
             <guid>https://lwn.net/Articles/978727/</guid>
             <pubDate>Thu, 20 Jun 2024 17:58:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Universal Blue images need manual intervention for updates</title>
-            <link>https://lwn.net/Articles/980575/</link>
-            <description><![CDATA[<p>The <a href="https://universal-blue.org/">Universal Blue</a>
-project, which produces operating system images based on Fedora's <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>,
-has issued an <a
-href="https://universal-blue.discourse.group/t/important-announcement-regarding-system-updates-action-needed/2689/1">announcement</a>
-that manual steps are required to continue receiving updates. Jorge
-Castro wrote:</p>
-
-
-<blockquote class="bq">
-<p>If you use Bazzite, Bluefin, Aurora, or any other Universal Blue
-image (including our toolboxes) then you need to follow the
-instructions in this announcement in order to ensure that your device
-is getting updates. We were rotating our cosign keypairs this morning,
-which is the method that we use to sign our images.</p>
-
-
-<p>During this process I made a critical error which has resulted in
-forcing you to take manual steps to migrate to our newly signed
-images.</p>
-</blockquote>
-
-<p>This applies to all Universal Blue images released before July 2,
-2024. See the full announcement for instructions. LWN <a
-href="https://lwn.net/Articles/954059/">covered Bluefin</a> in
-December, 2023.</p>]]></description>
-            <guid>https://lwn.net/Articles/980575/</guid>
-            <pubDate>Wed, 03 Jul 2024 15:12:31 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
