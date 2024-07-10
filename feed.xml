@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Jul 2024 17:27:01 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jul 2024 17:48:07 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Jul 2024 18:08:21 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Jul 2024 18:12:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Brown: Fixing a 6-year-old bug in Ubuntu MATE and Xubuntu</title>
+            <link>https://lwn.net/Articles/981565/</link>
+            <description><![CDATA[<p>Doug Brown <a
+href="https://www.downtowndougbrown.com/2024/07/i-fixed-a-6-year-old-deb-installation-bug-in-ubuntu-mate-and-xubuntu/">documents
+the long journey</a> to fixing a bug in the <a
+href="https://simple.wikipedia.org/wiki/GDebi">GDebi</a> utility for
+installing Debian packages. He first encountered the bug in
+Ubuntu&nbsp;MATE&nbsp;18.04: "<q>at the time I just ignored this
+issue. I didn't want to deal with it. I went off to the trusty Linux
+terminal and installed Chrome that way instead</q>".</p>
+
+<blockquote class="bq">
+<p>Two and a half years ago, I committed to doing more open-source
+contributions in my free time and was finally irritated enough about
+this problem to look into it. I searched around for more info. Lo and
+behold, <a
+href="https://askubuntu.com/questions/985009/gdebi-installer-exits-without-installing-the-deb-file-in-17-10">lots
+of</a> <a href="https://dev1galaxy.org/viewtopic.php?id=4900">people
+were</a> <a
+href="https://forums.debian.net/viewtopic.php?t=142601">also
+affected</a> and <a href="https://bugs.launchpad.net/ubuntu/+source/gdebi/+bug/1854588">there was already an
+issue from 2019 on Ubuntu's bug tracker</a> about it.</p>
+
+<p>[...] As is commonly the case in software development, the difficult part of
+this fix had nothing to do with the code itself. All of my effort was
+spent figuring out Ubuntu's patch submission processes and advocating
+for my merge request. Nobody else seemed to be interested in doing the
+work to actually fix this bug that has been plaguing Ubuntu MATE and
+Xubuntu, not to mention some Debian users, for over 6 years. After
+dealing with the long process of getting my merge request approved, I
+think I'm starting to understand why!
+</blockquote>
+
+<p>Brown notes that the fix <a
+href="https://changelogs.ubuntu.com/changelogs/pool/universe/g/gdebi/gdebi_0.9.5.7+nmu7ubuntu0.24.10.1/changelog">is
+now packaged</a> for the upcoming Ubuntu 24.10 release, and should be
+backported to 22.04 and 24.04 eventually.</p>]]></description>
+            <guid>https://lwn.net/Articles/981565/</guid>
+            <pubDate>Wed, 10 Jul 2024 18:04:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Fix for Fedora Atomic Desktop and Fedora IoT boot failure</title>
             <link>https://lwn.net/Articles/981561/</link>
