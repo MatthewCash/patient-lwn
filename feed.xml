@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Jul 2024 13:13:29 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jul 2024 13:13:46 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Jul 2024 13:20:55 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Jul 2024 13:29:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/981508/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, kernel-rt, libreswan, linux-firmware, pki-core, and podman), <b>Fedora</b> (firefox and jpegxl), <b>Gentoo</b> (Buildah, HarfBuzz, and LIVE555 Media Server), <b>Oracle</b> (buildah, gvisor-tap-vsock, kernel, libreswan, and podman), <b>Red Hat</b> (containernetworking-plugins, dotnet6.0, dotnet8.0, fence-agents, kernel, libreswan, libvirt, perl-HTTP-Tiny, python39:3.9, toolbox, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (firefox, freeradius-server, haproxy, jbigkit, kernel, kernel-firmware, pam, ppp, python3-cryptography, skopeo, and tar), and <b>Ubuntu</b> (dotnet6, dotnet8, exim4, firefox, golang-1.21, golang-1.22, openssh, and python-django).]]></description>
+            <guid>https://lwn.net/Articles/981508/</guid>
+            <pubDate>Wed, 10 Jul 2024 13:15:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 128.0 released</title>
             <link>https://lwn.net/Articles/981334/</link>
@@ -350,35 +358,6 @@ findutils on systems with <a href="https://www.musl-libc.org/">musl-libc</a>.</p
             <guid>https://lwn.net/Articles/980555/</guid>
             <pubDate>Wed, 03 Jul 2024 13:29:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/980554/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (golang and kernel), <b>Fedora</b> (ghostscript and openssh), <b>Mageia</b> (espeak-ng), <b>Red Hat</b> (389-ds, c-ares, container-tools, cups, fontforge, go-toolset, iperf3, less, libreoffice, libuv, linux-firmware, nghttp2, openldap, pki-core, python-idna, python-jinja2, python-pillow, python3, python3.11-PyMySQL, qemu-kvm, and xmlrpc-c), <b>SUSE</b> (ghostscript, git, libndp, libxml2, openssh, pgadmin4, podman, podofo, postgresql14, postgresql15, postgresql16, python39, squid, and wireshark), and <b>Ubuntu</b> (firefox and openvpn).]]></description>
-            <guid>https://lwn.net/Articles/980554/</guid>
-            <pubDate>Wed, 03 Jul 2024 13:15:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rosenthal: X Window System At 40</title>
-            <link>https://lwn.net/Articles/980556/</link>
-            <description><![CDATA[David Rosenthal <a
-href="https://blog.dshr.org/2024/07/x-window-system-at-40.html">looks
-back</a> at 40 years of the X Window System:
-<p>
-<blockquote class="bq">
-	A major reason for Sun's early success was that they in effect
-	open-sourced the Network File System. X11 was open source under the
-	MIT license. I, and some of the other Sun engineers, understood
-	that NeWS could not displace X11 as the Unix standard window system
-	without being equally open source. But Sun's management looked at
-	NeWS and saw superior technology, an extension of the PostScript
-	that Adobe was selling, and couldn't bring themselves to give it
-	away.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/980556/</guid>
-            <pubDate>Wed, 03 Jul 2024 13:25:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
