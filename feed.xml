@@ -8,11 +8,50 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Jul 2024 17:01:26 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jul 2024 17:08:34 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Jul 2024 17:23:04 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Jul 2024 17:26:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fix for Fedora Atomic Desktop and Fedora IoT boot failure</title>
+            <link>https://lwn.net/Articles/981561/</link>
+            <description><![CDATA[<p>Fedora <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktop</a>
+and <a href="https://fedoraproject.org/iot/">Fedora IoT</a> systems installed
+before Fedora&nbsp;40 may fail to boot after an update if secure boot
+is enabled. Fedora Magazine has <a
+href="https://fedoramagazine.org/manual-action-needed-to-resolve-boot-failure-for-fedora-atomic-desktops-and-fedora-iot/">a
+post</a> by Timothée Ravier about the problem, how users can work
+around it, and what the project is doing to avoid the similar problems
+in the future:</p>
+
+<blockquote class="bq">
+<p>On Fedora Atomic Desktops and Fedora IoT systems, the components
+that are part of the boot chain (Shim, GRUB) are not (yet)
+automatically updated alongside the rest of the system. Thus, if you
+have installed a Fedora Atomic Desktop or a Fedora IoT system before
+Fedora 40, it uses an old versions of the Shim and bootloader binaries
+to boot your system.</p>
+
+<p>When Secure Boot is enabled, the EFI firmware loads Shim
+first. Shim is signed by the Microsoft Third Party Certificate
+Authority so that it can be verified on most hardware out of the
+box. The Shim binary includes the Fedora certificates used to verify
+binaries signed by Fedora. Then Shim loads GRUB, which in turn loads
+the Linux kernel. Both are signed by Fedora.</p>
+
+<p>Until recently, the kernel binaries where signed two times, with an
+older key and a newer one. With the 6.9 kernel update, the kernel is
+no longer signed with the old key. If GRUB or Shim is old enough and
+does not know about the new key, the signature verification fails.</p>
+</blockquote>
+
+<p> </p>]]></description>
+            <guid>https://lwn.net/Articles/981561/</guid>
+            <pubDate>Wed, 10 Jul 2024 17:20:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/981508/</link>
