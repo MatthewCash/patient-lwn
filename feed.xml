@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 11 Jul 2024 14:36:31 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Jul 2024 14:48:28 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Jul 2024 15:03:58 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Jul 2024 15:09:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -453,24 +453,6 @@ and <a href="https://lwn.net/Articles/980865/">4.19.317</a> are now available.
             <guid>https://lwn.net/Articles/980856/</guid>
             <pubDate>Fri, 05 Jul 2024 12:34:46 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/980755/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds, c-ares, container-tools, cups, fontforge, go-toolset, iperf3, less, libreoffice, libuv, nghttp2, openldap, python-idna, python-jinja2, python-pillow, python3, python3.11-PyMySQL, qemu-kvm, and xmlrpc-c), <b>Debian</b> (znc), <b>Fedora</b> (firmitas and libnbd), <b>Mageia</b> (dcmtk, krb5, libcdio, and openssh), <b>Oracle</b> (golang, openssh, pki-core, and qemu-kvm), <b>Red Hat</b> (openssh), <b>SUSE</b> (apache2-mod_auth_openidc, emacs, go1.21, go1.22, krb5, openCryptoki, and openssh), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe,
- linux-kvm, linux-oracle, linux, linux-aws, linux-azure, linux-azure-5.4, linux-bluefield,
- linux-gcp, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi,
- linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux, linux-gcp, linux-gcp-6.5, linux-laptop, linux-nvidia-6.5,
- linux-raspi, linux, linux-gcp, linux-lowlatency, linux-lowlatency-hwe-5.15,
- linux-nvidia, linux-xilinx-zynqmp, linux, linux-ibm, linux-lowlatency, linux-nvidia, linux-raspi, linux-aws, linux-aws-6.5, linux-oem-6.5, linux-oracle, linux-oracle-6.5,
- linux-starfive, linux-aws, linux-azure, linux-azure-5.15, linux-azure-fde,
- linux-azure-fde-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-ibm,
- linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle,
- linux-oracle-5.15, linux-azure, linux-azure, linux-azure-6.5, linux-bluefield, linux-iot, linux-gcp, linux-intel, linux-hwe-5.15, and php7.0 and php7.2).]]></description>
-            <guid>https://lwn.net/Articles/980755/</guid>
-            <pubDate>Thu, 04 Jul 2024 15:03:17 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
