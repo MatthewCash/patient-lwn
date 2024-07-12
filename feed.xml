@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 12 Jul 2024 17:44:35 +0000</pubDate>
-        <lastBuildDate>Fri, 12 Jul 2024 17:48:22 +0000</lastBuildDate>
+        <pubDate>Fri, 12 Jul 2024 18:04:06 +0000</pubDate>
+        <lastBuildDate>Fri, 12 Jul 2024 18:11:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME Foundation Announces Transition of Executive Director</title>
+            <link>https://lwn.net/Articles/981850/</link>
+            <description><![CDATA[<p>The <a href="https://foundation.gnome.org/">GNOME Foundation</a> has <a
+href="https://foundation.gnome.org/2024/07/12/gnome-foundation-announces-transition-of-executive-director/">announced</a>
+that executive director Holly Million is stepping down at the end of
+July, and will be replaced by Richard Littauer as interim executive
+director:</p>
+
+<blockquote class="bq">
+<p>On behalf of the whole GNOME community, the Board of Directors
+would like to give our utmost thanks to Holly for her achievements
+during the past 10 months, including drafting a bold five-year
+strategic plan for the Foundation, securing two important fiscal
+sponsorship agreements with GIMP and Black Python Devs, writing our
+first funding proposal that will now enable the Foundation to apply
+for more grants, vastly improving our financial operations, and
+implementing a break-even budget to preserve our financial
+reserves.</p>
+
+<p>The Foundation's Interim Executive Director, Richard Littauer,
+brings years of open source leadership as part of his work as an
+organizer of SustainOSS and CURIOSS, as a sustainability coordinator
+at the Open Source Initiative, and as a community development manager
+at Open Source Collective, and through open source contributions to
+many projects, such as Node.js and IPFS. The Board appointed Richard
+in June and is confident in his ability to guide the Foundation during
+this transitional period.
+</blockquote>
+
+<p>Million says she is leaving to pursue a PhD in psychology. The
+board plans to announce its search plan for a permanent executive
+directory after <a
+href="https://events.gnome.org/event/209/">GUADEC</a>, which takes
+place July 19 through 24.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/981850/</guid>
+            <pubDate>Fri, 12 Jul 2024 17:51:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/981813/</link>
