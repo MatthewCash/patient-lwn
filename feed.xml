@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 15 Jul 2024 14:33:57 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Jul 2024 14:34:48 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 15 Jul 2024 14:48:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -488,16 +488,6 @@ Looking forward, there is a <i>Rust</i> migration of the text stack underway, wh
             <guid>https://lwn.net/Articles/981178/</guid>
             <pubDate>Tue, 09 Jul 2024 03:48:57 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>GDB 15.1 released</title>
-            <link>https://lwn.net/Articles/981080/</link>
-            <description><![CDATA[Version 15.1 of the GNU debugger has been released.  Changes include a
-number of enhancements to GDB's Python support, some Debugger Adapter
-Protocol additions, some new GDBserver options, and more.]]></description>
-            <guid>https://lwn.net/Articles/981080/</guid>
-            <pubDate>Mon, 08 Jul 2024 14:35:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
