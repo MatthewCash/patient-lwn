@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 16 Jul 2024 11:56:48 +0000</pubDate>
-        <lastBuildDate>Tue, 16 Jul 2024 12:44:52 +0000</lastBuildDate>
+        <pubDate>Tue, 16 Jul 2024 12:50:59 +0000</pubDate>
+        <lastBuildDate>Tue, 16 Jul 2024 12:57:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/982169/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel), <b>Fedora</b> (erlang-jose, mingw-python-certifi, and yt-dlp), <b>Mageia</b> (firefox, nss, libreoffice, sendmail, and tomcat), <b>Red Hat</b> (firefox, ghostscript, git-lfs, kernel, kernel-rt, ruby, and skopeo), <b>SUSE</b> (Botan, cockpit, kernel, nodejs18, p7zip, python3, and tomcat), and <b>Ubuntu</b> (ghostscript, linux, linux-azure, linux-azure-5.15, linux-gcp, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-nvidia, linux-oracle, linux-azure-6.5, linux-gcp-6.5, and linux-gke, linux-nvidia).]]></description>
+            <guid>https://lwn.net/Articles/982169/</guid>
+            <pubDate>Tue, 16 Jul 2024 12:50:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernels 6.6.40 and 6.1.99</title>
             <link>https://lwn.net/Articles/982049/</link>
