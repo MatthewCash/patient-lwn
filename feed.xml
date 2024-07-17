@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 17 Jul 2024 13:14:11 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jul 2024 13:28:11 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 17 Jul 2024 13:34:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -459,14 +459,6 @@ does not know about the new key, the signature verification fails.</p>
 <p> </p>]]></description>
             <guid>https://lwn.net/Articles/981561/</guid>
             <pubDate>Wed, 10 Jul 2024 17:20:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/981508/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, kernel-rt, libreswan, linux-firmware, pki-core, and podman), <b>Fedora</b> (firefox and jpegxl), <b>Gentoo</b> (Buildah, HarfBuzz, and LIVE555 Media Server), <b>Oracle</b> (buildah, gvisor-tap-vsock, kernel, libreswan, and podman), <b>Red Hat</b> (containernetworking-plugins, dotnet6.0, dotnet8.0, fence-agents, kernel, libreswan, libvirt, perl-HTTP-Tiny, python39:3.9, toolbox, and virt:rhel and virt-devel:rhel modules), <b>SUSE</b> (firefox, freeradius-server, haproxy, jbigkit, kernel, kernel-firmware, pam, ppp, python3-cryptography, skopeo, and tar), and <b>Ubuntu</b> (dotnet6, dotnet8, exim4, firefox, golang-1.21, golang-1.22, openssh, and python-django).]]></description>
-            <guid>https://lwn.net/Articles/981508/</guid>
-            <pubDate>Wed, 10 Jul 2024 13:15:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
