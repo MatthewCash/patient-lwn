@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Jul 2024 14:09:11 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jul 2024 14:38:16 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Jul 2024 14:42:43 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Jul 2024 14:48:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>digiKam 8.4.0 released</title>
+            <link>https://lwn.net/Articles/982276/</link>
+            <description><![CDATA[<p>Version 8.4.0 of the digiKam photo editing and management
+application has been <a
+href="https://www.digikam.org/news/2024-07-14-8.4.0_release_announcement/">released</a>. This
+release includes an update of the <a
+href="https://github.com/LibRaw/LibRaw">LibRaw</a> RAW decoder which
+brings support for many new cameras, a new version of the LensFun
+toolkit, a feature for automatic translation of image tags, <a href="https://gmic.eu/gmic340/">GMIC-Qt 3.4.0</a>, and <a
+href="https://bugs.kde.org/buglist.cgi?f1=cf_versionfixedin&limit=0&list_id=2536450&o1=equals&order=bug_id&product=digikam&v1=8.4.0">many
+bug fixes</a>. See the announcement for full details.</p>]]></description>
+            <guid>https://lwn.net/Articles/982276/</guid>
+            <pubDate>Wed, 17 Jul 2024 14:42:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Silva:  How to use the new counted_by attribute in C (and Linux)</title>
             <link>https://lwn.net/Articles/982275/</link>
