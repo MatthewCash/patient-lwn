@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Jul 2024 12:56:47 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jul 2024 13:12:56 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Jul 2024 13:14:11 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Jul 2024 13:28:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/982270/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel), <b>Fedora</b> (golang and krb5), <b>Red Hat</b> (cups, firefox, git, java-21-openjdk, kernel, linux-firmware, nghttp2, nodejs, and podman), <b>SUSE</b> (libndp, nodejs18, nodejs20, tomcat, and xen), and <b>Ubuntu</b> (gtk+2.0, gtk+3.0 and linux-hwe-5.4, linux-oracle-5.4).]]></description>
+            <guid>https://lwn.net/Articles/982270/</guid>
+            <pubDate>Wed, 17 Jul 2024 13:14:08 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Redox to implement POSIX signals in user space</title>
             <link>https://lwn.net/Articles/982186/</link>
