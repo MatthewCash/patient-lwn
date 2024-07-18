@@ -8,11 +8,160 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Jul 2024 21:08:19 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jul 2024 23:48:20 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Jul 2024 00:02:37 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Jul 2024 00:38:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 11, 2024</title>
+            <link>https://lwn.net/Articles/980654/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for July 11, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/980654/</guid>
+            <pubDate>Thu, 11 Jul 2024 00:49:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improving pseudo filesystems</title>
+            <link>https://lwn.net/Articles/981155/</link>
+            <description><![CDATA[The eventfs filesystem provides an interface to the tracepoints that are available
+to be used by various Linux tracing tools (e.g. ftrace, perf, uprobes,
+etc.); it is meant to be a version of the tracefs filesystem that
+dynamically allocates its entries as needed.  The goal is to reduce the memory
+required for multiple instances of tracefs, as Steven Rostedt described in
+a <a href="https://lwn.net/Articles/895111/">session</a> at the 2022
+<a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  He returned to the 2024
+edition of the summit to talk further about how to make pseudo (or virtual)
+filesystems, such as tracefs/eventfs, more like regular Linux filesystems,
+where the directory entries (dentries) and inodes are only created (and
+cached) as needed.]]></description>
+            <guid>https://lwn.net/Articles/981155/</guid>
+            <pubDate>Wed, 10 Jul 2024 15:33:35 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Sxmo: a text-centric mobile user interface</title>
+            <link>https://lwn.net/Articles/981320/</link>
+            <description><![CDATA[<a href="https://sxmo.org">Sxmo</a>, short for "Simple X Mobile", is described on its web site as "<q>a
+minimalist environment for Linux mobile devices</q>"; it offers a menu-driven
+interface that is controlled with the phone's hardware buttons. Sxmo enables the user
+to send SMS messages from a text editor and is entirely customizable with
+shell scripts. This peculiar mobile user interface significantly differs
+from the prevailing approach—but it works.]]></description>
+            <guid>https://lwn.net/Articles/981320/</guid>
+            <pubDate>Wed, 10 Jul 2024 14:54:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new API for tree-in-dcache filesystems</title>
+            <link>https://lwn.net/Articles/980558/</link>
+            <description><![CDATA[There are a number of kernel filesystems that store their directory entries
+directly in the directory-entry cache (dcache) without having any permanent
+storage for those objects. It started out as a "neat hack" for <a
+href="https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html">ramfs</a>,
+Al Viro said, at the start of his filesystem-track session at
+the
+2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Unfortunately, as the use
+of this technique has grown into other filesystems, there has been a lot of
+scope creep that has gotten out of control.  He wanted to discuss some new
+infrastructure that he is working on to try to clean some of that up.]]></description>
+            <guid>https://lwn.net/Articles/980558/</guid>
+            <pubDate>Tue, 09 Jul 2024 21:17:35 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Offload-friendly network encryption in the kernel</title>
+            <link>https://lwn.net/Articles/980430/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://github.com/google/psp">
+PSP security protocol</a> (PSP) is a way to transparently encrypt packets by
+efficiently offloading encryption and decryption to the network
+interface cards (NICs) that Google uses for connections inside its data centers. The
+protocol is similar to
+<a href="https://en.wikipedia.org/wiki/IPsec">
+IPsec</a>, in that it allows for wrapping arbitrary traffic
+in a layer of encryption. The difference is that PSP is encapsulated in UDP, and
+designed from the beginning to reduce the amount of state that NICs
+have to track in order to send and receive encrypted traffic, allowing for more
+simultaneous connections. Jakub Kicinski
+<a href="https://lwn.net/ml/netdev/20240510030435.120935-1-kuba@kernel.org/">
+wants to add support</a> for the protocol to the Linux kernel.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/980430/</guid>
+            <pubDate>Tue, 09 Jul 2024 14:18:50 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Giving bootloaders the boot with nmbl</title>
+            <link>https://lwn.net/Articles/979789/</link>
+            <description><![CDATA[<p>At <a href="https://www.devconf.info/cz/">DevConf.cz 2024</a>,
+Marta Lewandowska gave a talk to discuss a
+new approach for booting Linux systems, "<a
+href="https://pretalx.com/devconf-cz-2024/talk/W3AVCT/">No more boot
+loader: Please use the kernel instead</a>". The talk, <a
+href="https://www.youtube.com/watch?v=ywrSDLp926M">available on
+YouTube</a>, introduced a new project called nmbl (for "no more bootloader",
+pronounced "nimble"). The idea is to get rid of bootloaders (e.g., 
+<a href="https://www.gnu.org/software/grub/">GNU GRUB</a>) with a
+<a
+href="https://uapi-group.org/specifications/specs/unified_kernel_image/">Unified
+Kernel Image</a> (UKI) that removes the need for a separate bootloader
+altogether. It is early days for nmbl, currently the project is only
+being tested for use with virtual machines, but the idea is
+compelling. If successful, nmbl could offer security, performance, and
+maintenance benefits compared to GRUB and other separate bootloaders.</p>]]></description>
+            <guid>https://lwn.net/Articles/979789/</guid>
+            <pubDate>Mon, 08 Jul 2024 18:10:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] New features in C++26</title>
+            <link>https://lwn.net/Articles/979870/</link>
+            <description><![CDATA[<p>
+ISO releases new <span style="white-space:nowrap;">C++</span>
+language standards on a three-year cadence; now that it's been
+more than a year since the finalization of
+<span style="white-space:nowrap;">C++23</span>, we have a good idea of what
+<a href="https://en.cppreference.com/w/cpp/26">
+features could be adopted for
+<span style="white-space:nowrap;">C++26</span></a> — although proposals can
+still be submitted until January 2025. Of particular interest is the addition of
+support for
+<a href="https://en.wikipedia.org/wiki/Hazard_pointer">
+hazard pointers</a> and
+<a href="https://lwn.net/Articles/573424/">
+user-space read-copy-update</a> (RCU).
+Even though <span style="white-space:nowrap;">C++26</span> is not yet a standard, many of the proposed features are already
+available to experiment with in GCC or Clang.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/979870/</guid>
+            <pubDate>Fri, 05 Jul 2024 13:06:35 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Another try for getrandom() in the vDSO</title>
+            <link>https://lwn.net/Articles/980447/</link>
+            <description><![CDATA[Random numbers, it seems, can never be random enough, and they cannot be
+generated quickly enough.  The kernel's <a
+href="https://man7.org/linux/man-pages/man2/getrandom.2.html"><tt>getrandom()</tt></a>
+system call might, after years of discussion, be seen as sufficiently
+secure by most users, but it is still a system call.  Linux system calls
+are relatively fast, but they are necessarily slower than calling a
+function directly.  In an attempt to speed the provision of secure random
+data to user space, Jason Donenfeld has put together <a
+href="https://lwn.net/ml/all/20240703183115.1075219-1-Jason@zx2c4.com">an
+implementation of <tt>getrandom()</tt></a> that lives in the <a
+href="https://man7.org/linux/man-pages/man7/vdso.7.html">virtual dynamic
+shared object (vDSO) area</a>.]]></description>
+            <guid>https://lwn.net/Articles/980447/</guid>
+            <pubDate>Thu, 04 Jul 2024 16:30:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Blender 4.2 LTS released</title>
             <link>https://lwn.net/Articles/982286/</link>
@@ -261,181 +410,6 @@ As a bonus, it includes a ChatGPT analysis of LWN and Hacker News comments.]]></
             <guid>https://lwn.net/Articles/981635/</guid>
             <pubDate>Thu, 11 Jul 2024 13:33:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 4, 2024</title>
-            <link>https://lwn.net/Articles/979852/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for July 4, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/979852/</guid>
-            <pubDate>Thu, 04 Jul 2024 02:32:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Mount notifications</title>
-            <link>https://lwn.net/Articles/980330/</link>
-            <description><![CDATA[There are a handful of extensions to the "new" mount API that Christian
-Brauner wanted to discuss as part of a filesystem session at 
-the
-2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  In the session, though,
-the only one that he got to was a followup to last year's <a
-href="https://lwn.net/Articles/932648/">discussion on mount-operation monitoring</a>.
-There is a need for user-space programs to be able to follow mount
-operations (e.g. mount and unmount) that happen in the system, especially
-for tools like container
-managers or systemd.]]></description>
-            <guid>https://lwn.net/Articles/980330/</guid>
-            <pubDate>Wed, 03 Jul 2024 19:32:55 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian debate over tag2upload reaches compromise</title>
-            <link>https://lwn.net/Articles/978324/</link>
-            <description><![CDATA[<p>Debian's proposed <a
-href="https://salsa.debian.org/dgit-team/dgit/-/blob/master/TAG2UPLOAD-DESIGN.txt">tag2upload
-service</a> would be worthy of an article
-even if it wasn't so contentious; tag2upload promises a
-streamlined way for Debian developers using Git to upload packages to
-the <a href="https://wiki.debian.org/Services/Debian%20Archive">Debian
-Archive</a>. But tag2upload has been in limbo for
-years due to disagreement and a communication breakdown between the team
-behind tag2upload and the <a
-href="https://ftp-master.debian.org/">ftpmasters</a> team. It took the
-threat of a <a
-href="https://www.debian.org/devel/constitution#item-4">General
-Resolution</a> (GR), weeks of discussion, and more than
-1,000 emails to finally move forward.</p>]]></description>
-            <guid>https://lwn.net/Articles/978324/</guid>
-            <pubDate>Wed, 03 Jul 2024 17:01:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] PostmarketOS: Linux for phones and more</title>
-            <link>https://lwn.net/Articles/979522/</link>
-            <description><![CDATA[In 2016, Oliver Smith reached a point of frustration with the short
-lifespan of updates for his Android phone. Taking matters into his own
-hands, he began developing <a
-href="https://postmarketos.org">postmarketOS</a>, a Linux distribution for
-mobile phones. Eight years later, the <a
-href="https://wiki.postmarketos.org/wiki/Team_members">core team and
-trusted contributors</a> have grown to twenty individuals, while the latest
-release, <a
-href="https://postmarketos.org/blog/2024/06/16/v24.06-release/">v24.06</a>,
-now shows support for over 250&nbsp;devices. Although postmarketOS isn't
-usable as a day-to-day phone operating system on all of them, it can also enable repurposing devices into compact servers or kiosk machines.]]></description>
-            <guid>https://lwn.net/Articles/979522/</guid>
-            <pubDate>Wed, 03 Jul 2024 13:42:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Eliminating indirect calls for security modules</title>
-            <link>https://lwn.net/Articles/979683/</link>
-            <description><![CDATA[Like many kernel subsystems, the Linux security module (LSM) subsystem
-makes extensive use of indirect function calls.  Those calls, however, are
-increasingly problematic, and the pressure to remove them has been growing. 
-The good news is that there is <a
-href="https://lwn.net/ml/all/20240629084331.3807368-1-kpsingh@kernel.org">a patch
-series</a> from KP Singh that accomplishes that goal.  Its progress into
-the mainline has been slow — this change was first <a
-href="https://lwn.net/ml/linux-security-module/20200820164753.3256899-1-jackmanb@chromium.org/">proposed</a>
-by Brendan Jackman and Paul Renauld in 2020 — and this work has been caught
-up in some wider controversies along the way, but it should be close to
-being ready.]]></description>
-            <guid>https://lwn.net/Articles/979683/</guid>
-            <pubDate>Tue, 02 Jul 2024 13:43:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Arithmetic overflow mitigation in the kernel</title>
-            <link>https://lwn.net/Articles/979747/</link>
-            <description><![CDATA[<p>
-On May 7, Kees Cook sent
-<a href="https://lwn.net/ml/linux-kernel/202404291502.612E0A10@keescook/">
-a proposal</a> to the linux-kernel mailing list, asking for the kernel
-developers to start
-working on a way to mitigate unintentional arithmetic overflow, which has been a
-source of many bugs. This is not the first time Cook has made a request along
-these lines; he <a href="https://lwn.net/Articles/959189/">sent a related patch set</a> in
-January 2024.
-Several core developers objected to the plan for different
-reasons. After receiving their feedback,
-Cook modified his approach to tackle the problem
-in a series of smaller steps.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/979747/</guid>
-            <pubDate>Mon, 01 Jul 2024 13:27:04 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] FreeDOS turns 30</title>
-            <link>https://lwn.net/Articles/979780/</link>
-            <description><![CDATA[<p><a href="https://www.freedos.org/">FreeDOS</a> is an open-source
-operating system designed to be compatible with the now-defunct <a
-href="https://en.wikipedia.org/wiki/MS-DOS">MS-DOS</a>. Three decades
-have now passed since the FreeDOS project was first announced, and it
-is still alive and well with a small community of developers and
-users committed to running legacy DOS software, classic DOS games, and
-developing modern applications that extend its functionality well beyond the
-original MS-DOS. It may well be around in another&nbsp;30 years.</p>]]></description>
-            <guid>https://lwn.net/Articles/979780/</guid>
-            <pubDate>Fri, 28 Jun 2024 19:45:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Redox: An operating system in Rust</title>
-            <link>https://lwn.net/Articles/979524/</link>
-            <description><![CDATA[<p>
-With the
-<a href="https://rust-for-linux.com/">
-Rust-for-Linux</a> project starting to gain some ground, it is worth
-looking at other operating systems that use Rust in their kernels. There
-are <a href="https://github.com/flosse/rust-os-comparison">
-many</a> attempts to use
-Rust for operating system development, but <a href="https://redox-os.org/">Redox</a>
-may be the most complete.
-Redox is an MIT-licensed microkernel and corresponding user space, designed
-around concepts taken from
-<a href="https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs">
-Plan 9</a>. While nowhere near being usable as a
-replacement for Linux, it already provides a graphical user interface and
-<a href="https://www.redox-os.org/faq/#what-programs-can-redox-run">
-the ability to run many POSIX programs</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/979524/</guid>
-            <pubDate>Fri, 28 Jun 2024 13:36:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Direct-to-device networking</title>
-            <link>https://lwn.net/Articles/979549/</link>
-            <description><![CDATA[It has been nearly one year since <a
-href="https://lwn.net/ml/netdev/20230710223304.1174642-1-almasrymina@google.com/">the
-first version</a> of the device memory TCP patches was posted by Mina
-Almasry.  Now on <a
-href="https://lwn.net/ml/all/20240625195407.1922912-1-almasrymina@google.com">the 14th
-revision</a>, this series appears to be stabilizing.  Device memory TCP is
-a specialized networking feature requiring a certain amount of setup, but
-it could provide a significant performance improvement for some
-data-intensive applications.]]></description>
-            <guid>https://lwn.net/Articles/979549/</guid>
-            <pubDate>Thu, 27 Jun 2024 15:27:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python grapples with Apple App Store rejections</title>
-            <link>https://lwn.net/Articles/979671/</link>
-            <description><![CDATA[<p>An upgrade from Python 3.11 to 3.12 has led to the rejection of
-some Python apps by Apple's app stores. That led to Eric Froemling submitting a <a
-href="https://github.com/python/cpython/issues/120522">bug report</a>
-against CPython. That, in turn, led to an interesting
-discussion among Python developers about how far the project was
-willing to go to accommodate app store review processes. Developers
-reached a quick consensus, and a solution that may arrive as soon as
-Python&nbsp;3.13.</p>]]></description>
-            <guid>https://lwn.net/Articles/979671/</guid>
-            <pubDate>Thu, 27 Jun 2024 14:00:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
