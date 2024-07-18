@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Jul 2024 15:38:15 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Jul 2024 15:48:18 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Jul 2024 16:10:10 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Jul 2024 16:10:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Evolving the ASF Brand (Apache Software Foundation blog)</title>
+            <link>https://lwn.net/Articles/982392/</link>
+            <description><![CDATA[The <a href="https://www.apache.org/">Apache Software Foundation</a> (ASF)
+has <a
+href="https://news.apache.org/foundation/entry/evolving-the-asf-brand">announced</a>
+that it will be changing its logo to remove the feather that has been part
+of its brand since 1997.  ASF members will have input on the rebranding process and be
+able to vote on the new logo, which will be unveiled at the <a href="https://communityovercode.org/">Community Over Code</a> conference in October.
+
+<blockquote class="bq">
+The feather is a well-loved and iconic part of the ASF brand. We know of community members who have ASF feather tattoos. People love taking photos with the feather at our flagship event each year. 
+<p>
+So why would we change it? As a non-Indigenous entity, we acknowledge that it is inappropriate for the Foundation to use Indigenous themes or language. We thank <a href="https://blog.nativesintech.org/apache-appropriation/">Natives in Tech</a> and other members of the broader open source community for bringing this issue to the forefront. Today we are announcing we will be retiring the feather icon and logo and replacing it with a new logo that embodies the Foundation's rich history of providing software for the public good. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/982392/</guid>
+            <pubDate>Thu, 18 Jul 2024 16:10:09 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>A bunch of new stable kernels</title>
             <link>https://lwn.net/Articles/982379/</link>
