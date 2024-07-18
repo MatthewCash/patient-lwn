@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 18 Jul 2024 13:12:23 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Jul 2024 13:48:19 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jul 2024 14:09:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,15 +375,6 @@ href="https://lwn.net/Articles/981720/">6.1.98</a> stable kernels have been rele
 usual, they contain lots of important fixes throughout the tree.]]></description>
             <guid>https://lwn.net/Articles/981717/</guid>
             <pubDate>Thu, 11 Jul 2024 14:11:15 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/981716/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dotnet6.0, dotnet8.0, fence-agents, and virt:rhel and virt-devel:rhel), <b>Debian</b> (exim4 and firefox-esr), <b>Fedora</b> (dotnet8.0, firefox, onnx, qt6-qtbase, squid, and wordpress), <b>Mageia</b> (golang, netatalk, php, and poppler), <b>Red Hat</b> (ghostscript, httpd, openssh, python3, and ruby), <b>Slackware</b> (mozilla), <b>SUSE</b> (kernel and openssh), and <b>Ubuntu</b> (linux-aws-5.4, linux-azure, linux-ibm-5.15, and python3.5, python3.6, python3.7, python3.8, python3.9, python3.10,
- python3.11, python3.12).]]></description>
-            <guid>https://lwn.net/Articles/981716/</guid>
-            <pubDate>Thu, 11 Jul 2024 14:05:08 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
