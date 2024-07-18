@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Jul 2024 14:19:16 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Jul 2024 14:28:23 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Jul 2024 14:31:47 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Jul 2024 14:37:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/982378/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (freeradius), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, and java-17-openjdk), <b>Slackware</b> (openssl), <b>SUSE</b> (ghostscript, gnutls, podman, and python-Django), and <b>Ubuntu</b> (linux-hwe-6.5, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15, linux-oracle, linux-xilinx-zynqmp, and stunnel).]]></description>
+            <guid>https://lwn.net/Articles/982378/</guid>
+            <pubDate>Thu, 18 Jul 2024 14:28:26 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 11, 2024</title>
             <link>https://lwn.net/Articles/980654/</link>
