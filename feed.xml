@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 22 Jul 2024 15:44:00 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Jul 2024 15:48:18 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 22 Jul 2024 16:11:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,17 +352,6 @@ improvements to facilitate this.
             <guid>https://lwn.net/Articles/982169/</guid>
             <pubDate>Tue, 16 Jul 2024 12:50:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernels 6.6.40 and 6.1.99</title>
-            <link>https://lwn.net/Articles/982049/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/982050/">6.6.40</a>
-and <a href="https://lwn.net/Articles/982051/">6.1.99</a> stable kernels.  Both contain a
-fix for the USB subsystem; anyone who uses those kernel series and "<q>the XHCI
-USB host controller driver (i.e. USB 3) must upgrade</q>".]]></description>
-            <guid>https://lwn.net/Articles/982049/</guid>
-            <pubDate>Mon, 15 Jul 2024 15:41:30 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
