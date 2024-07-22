@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 21 Jul 2024 22:21:54 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Jul 2024 23:48:04 +0000</lastBuildDate>
+        <pubDate>Sun, 21 Jul 2024 23:57:17 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Jul 2024 00:40:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -363,46 +363,6 @@ USB host controller driver (i.e. USB 3) must upgrade</q>".]]></description>
             <guid>https://lwn.net/Articles/982029/</guid>
             <pubDate>Mon, 15 Jul 2024 14:10:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>The 6.10 kernel has been released</title>
-            <link>https://lwn.net/Articles/981961/</link>
-            <description><![CDATA[Linus has
-<a href="https://lwn.net/Articles/981966/">released
-the 6.10 kernel</a>.
-<P>
-<blockquote class="bq">
-	So the final week was perhaps not quote as quiet as the preceding
-	ones, which I don't love - but it also wasn't noisy enough to
-	warrant an extra rc.
-</blockquote>
-<p>
-
-Changes in 6.10 include
-the removal of support for some ancient Alpha CPUs,
-shadow-stack support for the <a
-href="https://en.wikipedia.org/wiki/X32_ABI">x32</a> sub-architecture,
-Rust-language support on RISC-V systems,
-<a href="https://lwn.net/Articles/961884/">support</a> for some Windows NT synchronization
-primitives (though it is marked "broken" in 6.10),
-the <a href="https://lwn.net/Articles/958438/"><tt>mseal()</tt> system call</a>,
-<a href="https://docs.kernel.org/filesystems/fsverity.html">fsverity</a>
-support in the FUSE filesystem subsystem,
-<tt>ioctl()</tt> support in the <a
-href="https://docs.kernel.org/security/landlock.html">Landlock</a> security
-module,
-the <a href="https://lwn.net/Articles/974380/">memory-allocation profiling</a> subsystem,
-and more.
-<p>
-
-See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/973687/">part&nbsp;1</a>, <a
-href="https://lwn.net/Articles/974869/">part&nbsp;2</a>) and <a
-href="https://kernelnewbies.org/Linux_6.10">the KernelNewbies 6.10 page</a>
-for more details.]]></description>
-            <guid>https://lwn.net/Articles/981961/</guid>
-            <pubDate>Sun, 14 Jul 2024 23:38:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
