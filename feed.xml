@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Jul 2024 15:30:06 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Jul 2024 16:11:31 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Jul 2024 16:18:27 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Jul 2024 16:34:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Zuckerberg: Open Source AI Is the Path Forward</title>
+            <link>https://lwn.net/Articles/982954/</link>
+            <description><![CDATA[Mark Zuckerberg has <a
+href="https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/">posted
+an article</a> announcing some new releases of the Llama large language
+model and going on at length about why open-source models are important:
+<p>
+<blockquote class="bq">
+	AI has more potential than any other modern technology to increase
+	human productivity, creativity, and quality of life – and to
+	accelerate economic growth while unlocking progress in medical and
+	scientific research. Open source will ensure that more people
+	around the world have access to the benefits and opportunities of
+	AI, that power isn't concentrated in the hands of a small number of
+	companies, and that the technology can be deployed more evenly and
+	safely across society.
+<p>
+	There is an ongoing debate about the safety of open source AI
+	models, and my view is that open source AI will be safer than the
+	alternatives. I think governments will conclude it's in their
+	interest to support open source because it will make the world more
+	prosperous and safer.
+</blockquote>
+<p>
+Of course, whether Llama is truly open source is debatable at best, but it
+is more open than many of the alternatives.]]></description>
+            <guid>https://lwn.net/Articles/982954/</guid>
+            <pubDate>Tue, 23 Jul 2024 16:18:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>GNU C Library 2.40 released</title>
             <link>https://lwn.net/Articles/982940/</link>
