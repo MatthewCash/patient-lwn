@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Jul 2024 19:11:37 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Jul 2024 19:33:43 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Jul 2024 19:44:36 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Jul 2024 19:48:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Improvements to the PSF Grants program</title>
+            <link>https://lwn.net/Articles/982967/</link>
+            <description><![CDATA[<p>The Python Software Foundation (PSF) board has <a
+href="https://pyfound.blogspot.com/2024/07/psf-board-update-on-improvements-to-psf.html">announced</a>
+improvements to its grants program that have been enacted as a
+response to "<q>concerns and frustrations</q>" with the program:</p>
+
+<blockquote class="bq">
+The PSF Board takes the <a href="https://pythonafrica.blogspot.com/2023/12/an-open-letter-to-python-software_5.html">open letter</a> from the pan-African delegation
+seriously, and we began to draft a plan to address everything in the
+letter. We also set up improved two-way communications so that we can
+continue the conversation with the community. The writers of the open
+letter have now met several times with members of the PSF board. We
+are thankful for their insight and guidance on how we can work
+together and be thoroughly and consistently supportive of the
+pan-African Python community.
+</blockquote>
+
+<p>So far the PSF has set up <a
+href="https://pyfound.blogspot.com/2024/03/djangocon-africa-grant-process.html">office
+hours</a> to improve communications, <a
+href="https://pyfound.blogspot.com/2024/03/djangocon-africa-grant-process.html">published
+a retrospective</a> on the DjangoCon Africa review, and put out a <a
+href="https://pyfound.blogspot.com/2024/05/psf-grants-program-2022-2023.html">transparency
+report</a> on grants from the past two years. The PSF board has also
+voted to "<q>use the same criteria for all grant requests, no matter
+their country of origin</q>".</p>]]></description>
+            <guid>https://lwn.net/Articles/982967/</guid>
+            <pubDate>Tue, 23 Jul 2024 19:40:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Zuckerberg: Open Source AI Is the Path Forward</title>
             <link>https://lwn.net/Articles/982954/</link>
