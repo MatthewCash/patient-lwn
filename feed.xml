@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 14:02:44 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 14:28:34 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 14:38:20 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 14:38:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -413,28 +413,6 @@ bug fixes</a>. See the announcement for full details.</p>]]></description>
             <guid>https://lwn.net/Articles/982276/</guid>
             <pubDate>Wed, 17 Jul 2024 14:42:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Silva:  How to use the new counted_by attribute in C (and Linux)</title>
-            <link>https://lwn.net/Articles/982275/</link>
-            <description><![CDATA[Gustavo A. R. Silva <a
-href="https://people.kernel.org/gustavoars/how-to-use-the-new-counted_by-attribute-in-c-and-linux">describes
-the path to safer flexible arrays in the kernel</a>, thanks to the
-<tt>counted_by</tt> attribute supported by Clang&nbsp;18 and GCC&nbsp;15.
-<p>
-<blockquote class="bq">
-	There are a number of requirements to properly use the
-	<tt>counted_by</tt> attribute. One crucial requirement is that the
-	counter must be initialized before the first reference to the
-	flexible-array member. Another requirement is that the array must
-	always contain at least as many elements as indicated by the
-	counter.
-</blockquote>
-<p>
-See also: <a href="https://lwn.net/Articles/936728/">this article</a> from 2023.]]></description>
-            <guid>https://lwn.net/Articles/982275/</guid>
-            <pubDate>Wed, 17 Jul 2024 14:09:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
