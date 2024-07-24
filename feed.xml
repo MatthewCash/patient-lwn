@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 12:59:20 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 13:02:30 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 13:20:19 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 13:29:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Let&apos;s Encrypt plans to drop support for OCSP.</title>
+            <link>https://lwn.net/Articles/982965/</link>
+            <description><![CDATA[<p>
+Let's Encrypt has
+<a href="https://letsencrypt.org/2024/07/23/replacing-ocsp-with-crls.html">announced</a>
+that it intends to end support "<q>as soon as possible</q>" for the 
+<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">
+Online Certificate Status Protocol</a> (OCSP) over privacy concerns. OCSP was developed as a
+lighter-weight alternative to
+<a href="https://en.wikipedia.org/wiki/Certificate_revocation_list">
+Certificate Revocation Lists</a> (CRLs) that did not involve downloading
+the entire CRL in order to check whether a certificate was valid. Let's Encrypt will continue
+supporting OCSP as long as it is a requirement for Microsoft's
+<a href="https://learn.microsoft.com/en-us/security/trusted-root/program-requirements">
+Trusted Root Program</a>, but hopes to discontinue it soon:
+</p>
+
+<blockquote class="bq">
+We plan to end support for OCSP primarily because it represents a considerable risk to privacy on the Internet. When someone visits a website using a browser or other software that checks for certificate revocation via OCSP, the Certificate Authority (CA) operating the OCSP responder immediately becomes aware of which website is being visited from that visitor's particular IP address. Even when a CA intentionally does not retain this information, as is the case with Let's Encrypt, CAs could be legally compelled to collect it. CRLs do not have this issue.
+</blockquote>
+
+<p>
+People using Let's Encrypt as their CA should, for the most part, not need to change their setups.
+All modern browsers support CRLs, so end-users shouldn't notice an impact either.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/982965/</guid>
+            <pubDate>Wed, 24 Jul 2024 13:19:41 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/983083/</link>
@@ -405,14 +435,6 @@ See also: <a href="https://lwn.net/Articles/936728/">this article</a> from 2023.
             <guid>https://lwn.net/Articles/982275/</guid>
             <pubDate>Wed, 17 Jul 2024 14:09:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/982270/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel), <b>Fedora</b> (golang and krb5), <b>Red Hat</b> (cups, firefox, git, java-21-openjdk, kernel, linux-firmware, nghttp2, nodejs, and podman), <b>SUSE</b> (libndp, nodejs18, nodejs20, tomcat, and xen), and <b>Ubuntu</b> (gtk+2.0, gtk+3.0 and linux-hwe-5.4, linux-oracle-5.4).]]></description>
-            <guid>https://lwn.net/Articles/982270/</guid>
-            <pubDate>Wed, 17 Jul 2024 13:14:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
