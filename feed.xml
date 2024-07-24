@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 15:29:48 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 15:34:48 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 15:40:53 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 15:48:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -378,25 +378,6 @@ shared object (vDSO) area</a>.]]></description>
             <guid>https://lwn.net/Articles/980447/</guid>
             <pubDate>Thu, 04 Jul 2024 16:30:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Blender 4.2 LTS released</title>
-            <link>https://lwn.net/Articles/982286/</link>
-            <description><![CDATA[<p><a href="https://www.blender.org/download/releases/4-2/">Version
-4.2 LTS</a> of the <a href="https://www.blender.org/">Blender</a>
-open-source 3D creation suite has been released. Major improvements
-include a rewrite of the <a
-href="https://docs.blender.org/manual/en/latest/render/eevee/index.html">EEVEE
-render engine</a>, faster rendering, and much more. See the <a
-href="https://www.youtube.com/watch?v=jTVG5kdHRQQ">showcase
-reel</a> for examples of work created by the Blender community with
-this release.
-See the text <a href="https://developer.blender.org/docs/release_notes/4.2/">release
-notes</a> for even more about 4.2 LTS, which will be maintained until
-July 2026.</p>]]></description>
-            <guid>https://lwn.net/Articles/982286/</guid>
-            <pubDate>Wed, 17 Jul 2024 15:38:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
