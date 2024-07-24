@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 16:04:34 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 16:11:35 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 16:27:37 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 16:31:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenMandriva ROME 24.07 released</title>
+            <link>https://lwn.net/Articles/983133/</link>
+            <description><![CDATA[<p>Updated installation images for the <a
+href="https://www.openmandriva.org/">OpenMandriva</a> ROME rolling release Linux distribution are <a
+href="https://www.openmandriva.org/en/news/article/openmandriva-rome-24-07-released">now available</a>. Notable features in the
+24.07 snapshot include KDE&nbsp;Plasma&nbsp;6 as the default desktop, the addition of <a
+href="https://github.com/ValveSoftware/Proton">Proton</a> and Proton
+experimental packages for playing Windows games on Linux, as well as 
+GNOME&nbsp;46.3 and LXQt&nbsp;2.0.0 spins.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/983133/</guid>
+            <pubDate>Wed, 24 Jul 2024 16:25:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSSL announces new governance structure</title>
             <link>https://lwn.net/Articles/983120/</link>
