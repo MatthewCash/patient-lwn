@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 15:40:53 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 15:48:18 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 16:04:34 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 16:11:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSSL announces new governance structure</title>
+            <link>https://lwn.net/Articles/983120/</link>
+            <description><![CDATA[<p>OpenSSL has <a
+href="https://openssl-library.org/post/2024-07-24-openssl-new-governance-structure/">announced</a>
+that it has adopted a new governance framework:</p>
+
+<blockquote class="bq">
+<p>The OpenSSL Management Committee (OMC) has been dissolved, and two
+boards of directors have been elected for the <a
+href="https://openssl-foundation.org/">Foundation</a> and the <a
+href="https://openssl-corporation.org/">Corporation</a>. Each
+organization has ten voting members. These boards share all the
+responsibilities and authorities of the former OMC co-equally.</p>
+
+<p>To further engage our communities, we are establishing two advisory
+committees for each entity: a Business Advisory Committee (BAC) and a
+Technical Advisory Committee (TAC). The communities will elect the
+members of the BACs and TACs, creating a direct channel for community
+input in roadmap development and reflecting the diverse perspectives
+of OpenSSL's communities.</p>
+</blockquote>
+
+<p>OpenSSL has also announced that two projects have adopted the <a
+href="https://openssl-mission.org/faq/index.html">OpenSSL Mission</a>
+and become <a href="https://openssl-projects.org/">OpenSSL
+projects</a>: <a
+href="https://www.bouncycastle.org/">Bouncy Castle</a>, which provides
+cryptographic APIs for Java and C#, and the <a
+href="https://cryptlib.com/">cryptlib</a> security
+software development toolkit. See the announcement for full details.</p>]]></description>
+            <guid>https://lwn.net/Articles/983120/</guid>
+            <pubDate>Wed, 24 Jul 2024 15:58:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Let&apos;s Encrypt plans to drop support for OCSP.</title>
             <link>https://lwn.net/Articles/982965/</link>
