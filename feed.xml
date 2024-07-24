@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 16:45:43 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 16:49:04 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jul 2024 17:06:58 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jul 2024 17:08:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel update 6.10.1</title>
+            <link>https://lwn.net/Articles/983153/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/983154/">6.10.1</a> stable kernel update. This release
+contains a small number of seemingly urgent regression fixes. Users of
+this kernel series are advised to upgrade.</p>]]></description>
+            <guid>https://lwn.net/Articles/983153/</guid>
+            <pubDate>Wed, 24 Jul 2024 17:02:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenMandriva ROME 24.07 released</title>
             <link>https://lwn.net/Articles/983133/</link>
