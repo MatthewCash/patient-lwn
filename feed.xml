@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jul 2024 14:40:57 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 14:48:41 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 15:05:06 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 15:09:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.80.0 released</title>
+            <link>https://lwn.net/Articles/983265/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2024/07/25/Rust-1.80.0.html">Version
+1.80.0</a> of the Rust language has been released.  Changes include the new
+<tt>LazyCell</tt> and <tt>LazyLock</tt> types (which delay data
+initialization until the first access), the stabilization of the
+exclusive-range syntax for <tt>match</tt> patterns, and more.]]></description>
+            <guid>https://lwn.net/Articles/983265/</guid>
+            <pubDate>Thu, 25 Jul 2024 14:59:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Three new stable kernels</title>
             <link>https://lwn.net/Articles/983331/</link>
