@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jul 2024 15:05:06 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 15:09:34 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 15:14:26 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 15:26:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -470,22 +470,6 @@ So why would we change it? As a non-Indigenous entity, we acknowledge that it is
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/982392/</guid>
             <pubDate>Thu, 18 Jul 2024 16:10:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>A bunch of new stable kernels</title>
-            <link>https://lwn.net/Articles/982379/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released seven new stable kernels: <a
-href="https://lwn.net/Articles/982380/">6.9.10</a>, <a
-href="https://lwn.net/Articles/982381/">6.6.41</a>, <a
-href="https://lwn.net/Articles/982383/">6.1.100</a>, <a
-href="https://lwn.net/Articles/982384/">5.15.163</a>, <a
-href="https://lwn.net/Articles/982385/">5.10.222</a>, <a
-href="https://lwn.net/Articles/982386/">5.4.280</a>, and <a
-href="https://lwn.net/Articles/982387/">4.19.318</a>.  As usual, each contains important
-fixes throughout the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/982379/</guid>
-            <pubDate>Thu, 18 Jul 2024 15:07:48 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
