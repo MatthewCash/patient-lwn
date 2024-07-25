@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 25 Jul 2024 21:33:30 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 21:33:45 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2024 21:48:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -443,15 +443,6 @@ Contrary to common perception, technical innovations often originate from Europe
             <guid>https://lwn.net/Articles/982559/</guid>
             <pubDate>Fri, 19 Jul 2024 13:19:22 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Peter de Schrijver RIP</title>
-            <link>https://lwn.net/Articles/982470/</link>
-            <description><![CDATA[The sad news that Peter de Schrijver has passed away has just reached us.  An <a href="https://www.ingedachten.be/overlijdensberichten/overlijden-detail/12-07-2024/peter-de-schrijver">obituary</a> in Dutch relates that he passed in a Helsinki hospital on July 12.  Mind Software Consulting, which he founded, has a <a href="https://www.linkedin.com/posts/mind-software-consultancy_linuxcommunity-inmemory-activity-7219341475854127104-WSTI">message of condolences</a> as well.
-De Schrijver was a Debian Developer and a Linux kernel contributor; he will be missed.]]></description>
-            <guid>https://lwn.net/Articles/982470/</guid>
-            <pubDate>Thu, 18 Jul 2024 21:39:00 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
