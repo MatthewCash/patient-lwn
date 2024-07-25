@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jul 2024 13:30:20 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 13:48:29 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 14:03:18 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 14:09:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Mint 22 &quot;Wilma&quot; released</title>
+            <link>https://lwn.net/Articles/983301/</link>
+            <description><![CDATA[<p>Linux Mint has <a
+href="https://blog.linuxmint.com/?p=4731">announced</a> version 22 of
+the distribution in three editions: Cinnamon, MATE, and Xfce. Mint 22
+is based on Ubuntu 24.04 and uses kernel version 6.8.0:</p>
+
+<blockquote class="bq">
+Linux Mint 22 is a long term support release which will be supported
+until 2029. It comes with updated software and brings refinements and
+many new features to make your desktop even more comfortable to use.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/981130/">covered</a> the
+Linux Mint 22 beta in early July. See the <a
+href="https://www.linuxmint.com/rel_wilma_whatsnew.php">new
+features</a> page and <a
+href="https://www.linuxmint.com/rel_wilma.php">release notes</a> for
+more information on this release.</p>]]></description>
+            <guid>https://lwn.net/Articles/983301/</guid>
+            <pubDate>Thu, 25 Jul 2024 13:53:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/983328/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, cups, edk2, httpd, httpd:2.4, libreoffice, libuv, libvirt, python3, and runc), <b>Fedora</b> (exim, python-zipp, xdg-desktop-portal-hyprland, and xmedcon), <b>Red Hat</b> (cups, fence-agents, freeradius, freeradius:3.0, httpd:2.4, kernel, kernel-rt, nodejs:18, podman, and resource-agents), <b>Slackware</b> (htdig and libxml2), <b>SUSE</b> (exim), and <b>Ubuntu</b> (ocsinventory-server, php-cas, and poppler).]]></description>
+            <guid>https://lwn.net/Articles/983328/</guid>
+            <pubDate>Thu, 25 Jul 2024 14:03:18 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 18, 2024</title>
             <link>https://lwn.net/Articles/981628/</link>
