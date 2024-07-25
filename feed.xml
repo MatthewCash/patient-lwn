@@ -8,11 +8,161 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jul 2024 22:56:31 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jul 2024 23:48:13 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 00:31:10 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 00:39:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 18, 2024</title>
+            <link>https://lwn.net/Articles/981628/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for July 18, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/981628/</guid>
+            <pubDate>Thu, 18 Jul 2024 00:01:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Changing the filesystem-maintenance model</title>
+            <link>https://lwn.net/Articles/981854/</link>
+            <description><![CDATA[Maintenance of the kernel is a difficult, often thankless, task; how it is
+being handled, the role of maintainers, burnout, and so on are recurring
+topics at kernel-related conferences.  At
+the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Josef Bacik and
+Christian Brauner led a session to discuss possible changes to the way
+filesystems are maintained, though Bacik took the lead role (and the podium).  There are a number of interrelated topics,
+including merging new filesystems, removing old ones, making and testing changes
+throughout the filesystem tree, and more.]]></description>
+            <guid>https://lwn.net/Articles/981854/</guid>
+            <pubDate>Wed, 17 Jul 2024 14:52:41 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] SUSE asks openSUSE to consider name change</title>
+            <link>https://lwn.net/Articles/981018/</link>
+            <description><![CDATA[<p><a href="https://www.suse.com/">SUSE</a> has, in a somewhat clumsy
+fashion, asked <a href="https://www.opensuse.org/">openSUSE</a>
+to consider rebranding to clear up confusion over the
+relationship between SUSE the company and openSUSE as a community
+project. That, in turn, has opened conversations about revising
+openSUSE governance and more. So far, there is no concrete proposal to
+consider, no timeline, or even a process for the community and company
+to follow to make any decisions.</p>]]></description>
+            <guid>https://lwn.net/Articles/981018/</guid>
+            <pubDate>Tue, 16 Jul 2024 16:30:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Hierarchical storage management, fanotify, FUSE, and more</title>
+            <link>https://lwn.net/Articles/981392/</link>
+            <description><![CDATA[Amir Goldstein led a filesystem-track session at the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> on his project to build a
+<a
+href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
+storage management</a> (HSM) system using <a
+href="https://www.kernel.org/doc/html/latest/admin-guide/filesystem-monitoring.html">fanotify</a>.
+The idea is to monitor file access in order to determine when to retrieve
+content from non-local storage (e.g. the cloud).  The session was a
+follow-up to last year's <a href="https://lwn.net/Articles/932415/">introduction to the
+project</a>, which covered some of the problems he had encountered; this
+year, he
+was updating attendees on its status and progress, along with some other
+problem areas that he wanted to discuss.]]></description>
+            <guid>https://lwn.net/Articles/981392/</guid>
+            <pubDate>Tue, 16 Jul 2024 14:26:57 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A hash table by any other name</title>
+            <link>https://lwn.net/Articles/972580/</link>
+            <description><![CDATA[<p>
+On June 25, Matthew Wilcox posted
+<a href="https://lwn.net/ml/all/20240625211803.2750563-1-willy@infradead.org/">
+a second version of a patch set</a>
+introducing a new
+data structure called rosebush, which
+"<q>is a resizing, scalable, cache-aware, RCU optimised hash
+table.</q>" The kernel already has generic hash tables, though, including
+<a href="https://lwn.net/Articles/751374/">rhashtable</a>. Wilcox believes that the design of
+rhashtable is not the best choice for performance, and has written rosebush as
+an alternative for use in the
+<a href="https://www.kernel.org/doc/html/latest/filesystems/vfs.html#directory-entry-cache-dcache">
+directory-entry cache</a> (dcache) — the filesystem cache used to speed up
+file-name lookup.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/972580/</guid>
+            <pubDate>Mon, 15 Jul 2024 17:27:08 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for the 6.10 kernel</title>
+            <link>https://lwn.net/Articles/981559/</link>
+            <description><![CDATA[The 6.10 kernel was <a
+href="https://lwn.net/ml/all/CAHk-=wjV_O2g_K19McjGKrxFxMFDqex+fyGcKc3uac1ft_O2gg@mail.gmail.com/">released</a>
+on July&nbsp;14 after a nine-week development cycle.  This time around,
+13,312 non-merge changesets were pulled into the mainline repository — the
+lowest changeset count since 5.17 in early 2022.  Longstanding tradition
+says that it is time for LWN to gather some statistics on where the new
+code for 6.10 came from and how it got to the mainline; read on for the
+details.]]></description>
+            <guid>https://lwn.net/Articles/981559/</guid>
+            <pubDate>Mon, 15 Jul 2024 15:52:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at Linux Mint 22</title>
+            <link>https://lwn.net/Articles/981130/</link>
+            <description><![CDATA[<p>Linux Mint has <a
+href="https://blog.linuxmint.com/?p=4725">released</a> a beta of its
+next long-term-support (LTS) release, Linux&nbsp;Mint&nbsp;22 (code-named "Wilma"), based on <a href="https://lwn.net/Articles/971143/">Ubuntu&nbsp;24.04</a>. Aside from the standard
+software updates that come with any major upgrade, some of Wilma's
+largest selling points are what it <em>doesn't</em> have; namely snap
+packages or GNOME applications that have broken theming on non-GNOME
+desktops like Mint's Cinnamon desktop.</p>]]></description>
+            <guid>https://lwn.net/Articles/981130/</guid>
+            <pubDate>Fri, 12 Jul 2024 14:32:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Nix alternatives and spinoffs</title>
+            <link>https://lwn.net/Articles/981124/</link>
+            <description><![CDATA[<p>
+Since the
+<a href="https://lwn.net/Articles/970824/">
+disagreements</a> that led to Eelco Dolstra
+<a href="https://lwn.net/Articles/971973/">
+stepping down from the NixOS
+Foundation board</a>, there have been a number of projects forked from or inspired
+by
+<a href="https://nixos.org/">
+Nix</a> that have stepped up to compete with it. Two months on, some of these
+projects are now well-established enough to look at what they have to offer and
+how they compare to each other. Overall, users have a number of good options to
+choose from, whether they're seeking a compatible replacement for Nix (the
+configuration language and package manager) or NixOS (the Linux distribution),
+or something that takes the same ideas in a different direction.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/981124/</guid>
+            <pubDate>Thu, 11 Jul 2024 16:21:12 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reports from OSPM 2024, part 1</title>
+            <link>https://lwn.net/Articles/981371/</link>
+            <description><![CDATA[The sixth edition of the <a
+href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
+in the Linux Kernel (OSPM) Summit</a> took place on May 30-31 2024, and was
+graciously hosted by the <a href="https://www.irit.fr/en/home">Institut de
+Recherche en Informatique de Toulouse (IRIT)</a> in Toulouse, France.  This
+is the first of a series of articles describing the discussions held at
+OSPM 2024; topics covered include latency hints, energy-aware scheduling,
+ChromeOS, and user-space schedulers.]]></description>
+            <guid>https://lwn.net/Articles/981371/</guid>
+            <pubDate>Thu, 11 Jul 2024 14:53:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernel update 6.10.1</title>
             <link>https://lwn.net/Articles/983153/</link>
@@ -290,155 +440,6 @@ fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/982378/</guid>
             <pubDate>Thu, 18 Jul 2024 14:28:26 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 11, 2024</title>
-            <link>https://lwn.net/Articles/980654/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for July 11, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/980654/</guid>
-            <pubDate>Thu, 11 Jul 2024 00:49:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improving pseudo filesystems</title>
-            <link>https://lwn.net/Articles/981155/</link>
-            <description><![CDATA[The eventfs filesystem provides an interface to the tracepoints that are available
-to be used by various Linux tracing tools (e.g. ftrace, perf, uprobes,
-etc.); it is meant to be a version of the tracefs filesystem that
-dynamically allocates its entries as needed.  The goal is to reduce the memory
-required for multiple instances of tracefs, as Steven Rostedt described in
-a <a href="https://lwn.net/Articles/895111/">session</a> at the 2022
-<a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  He returned to the 2024
-edition of the summit to talk further about how to make pseudo (or virtual)
-filesystems, such as tracefs/eventfs, more like regular Linux filesystems,
-where the directory entries (dentries) and inodes are only created (and
-cached) as needed.]]></description>
-            <guid>https://lwn.net/Articles/981155/</guid>
-            <pubDate>Wed, 10 Jul 2024 15:33:35 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Sxmo: a text-centric mobile user interface</title>
-            <link>https://lwn.net/Articles/981320/</link>
-            <description><![CDATA[<a href="https://sxmo.org">Sxmo</a>, short for "Simple X Mobile", is described on its web site as "<q>a
-minimalist environment for Linux mobile devices</q>"; it offers a menu-driven
-interface that is controlled with the phone's hardware buttons. Sxmo enables the user
-to send SMS messages from a text editor and is entirely customizable with
-shell scripts. This peculiar mobile user interface significantly differs
-from the prevailing approach—but it works.]]></description>
-            <guid>https://lwn.net/Articles/981320/</guid>
-            <pubDate>Wed, 10 Jul 2024 14:54:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] A new API for tree-in-dcache filesystems</title>
-            <link>https://lwn.net/Articles/980558/</link>
-            <description><![CDATA[There are a number of kernel filesystems that store their directory entries
-directly in the directory-entry cache (dcache) without having any permanent
-storage for those objects. It started out as a "neat hack" for <a
-href="https://docs.kernel.org/filesystems/ramfs-rootfs-initramfs.html">ramfs</a>,
-Al Viro said, at the start of his filesystem-track session at
-the
-2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  Unfortunately, as the use
-of this technique has grown into other filesystems, there has been a lot of
-scope creep that has gotten out of control.  He wanted to discuss some new
-infrastructure that he is working on to try to clean some of that up.]]></description>
-            <guid>https://lwn.net/Articles/980558/</guid>
-            <pubDate>Tue, 09 Jul 2024 21:17:35 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Offload-friendly network encryption in the kernel</title>
-            <link>https://lwn.net/Articles/980430/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://github.com/google/psp">
-PSP security protocol</a> (PSP) is a way to transparently encrypt packets by
-efficiently offloading encryption and decryption to the network
-interface cards (NICs) that Google uses for connections inside its data centers. The
-protocol is similar to
-<a href="https://en.wikipedia.org/wiki/IPsec">
-IPsec</a>, in that it allows for wrapping arbitrary traffic
-in a layer of encryption. The difference is that PSP is encapsulated in UDP, and
-designed from the beginning to reduce the amount of state that NICs
-have to track in order to send and receive encrypted traffic, allowing for more
-simultaneous connections. Jakub Kicinski
-<a href="https://lwn.net/ml/netdev/20240510030435.120935-1-kuba@kernel.org/">
-wants to add support</a> for the protocol to the Linux kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/980430/</guid>
-            <pubDate>Tue, 09 Jul 2024 14:18:50 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Giving bootloaders the boot with nmbl</title>
-            <link>https://lwn.net/Articles/979789/</link>
-            <description><![CDATA[<p>At <a href="https://www.devconf.info/cz/">DevConf.cz 2024</a>,
-Marta Lewandowska gave a talk to discuss a
-new approach for booting Linux systems, "<a
-href="https://pretalx.com/devconf-cz-2024/talk/W3AVCT/">No more boot
-loader: Please use the kernel instead</a>". The talk, <a
-href="https://www.youtube.com/watch?v=ywrSDLp926M">available on
-YouTube</a>, introduced a new project called nmbl (for "no more bootloader",
-pronounced "nimble"). The idea is to get rid of bootloaders (e.g., 
-<a href="https://www.gnu.org/software/grub/">GNU GRUB</a>) with a
-<a
-href="https://uapi-group.org/specifications/specs/unified_kernel_image/">Unified
-Kernel Image</a> (UKI) that removes the need for a separate bootloader
-altogether. It is early days for nmbl, currently the project is only
-being tested for use with virtual machines, but the idea is
-compelling. If successful, nmbl could offer security, performance, and
-maintenance benefits compared to GRUB and other separate bootloaders.</p>]]></description>
-            <guid>https://lwn.net/Articles/979789/</guid>
-            <pubDate>Mon, 08 Jul 2024 18:10:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] New features in C++26</title>
-            <link>https://lwn.net/Articles/979870/</link>
-            <description><![CDATA[<p>
-ISO releases new <span style="white-space:nowrap;">C++</span>
-language standards on a three-year cadence; now that it's been
-more than a year since the finalization of
-<span style="white-space:nowrap;">C++23</span>, we have a good idea of what
-<a href="https://en.cppreference.com/w/cpp/26">
-features could be adopted for
-<span style="white-space:nowrap;">C++26</span></a> — although proposals can
-still be submitted until January 2025. Of particular interest is the addition of
-support for
-<a href="https://en.wikipedia.org/wiki/Hazard_pointer">
-hazard pointers</a> and
-<a href="https://lwn.net/Articles/573424/">
-user-space read-copy-update</a> (RCU).
-Even though <span style="white-space:nowrap;">C++26</span> is not yet a standard, many of the proposed features are already
-available to experiment with in GCC or Clang.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/979870/</guid>
-            <pubDate>Fri, 05 Jul 2024 13:06:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Another try for getrandom() in the vDSO</title>
-            <link>https://lwn.net/Articles/980447/</link>
-            <description><![CDATA[Random numbers, it seems, can never be random enough, and they cannot be
-generated quickly enough.  The kernel's <a
-href="https://man7.org/linux/man-pages/man2/getrandom.2.html"><tt>getrandom()</tt></a>
-system call might, after years of discussion, be seen as sufficiently
-secure by most users, but it is still a system call.  Linux system calls
-are relatively fast, but they are necessarily slower than calling a
-function directly.  In an attempt to speed the provision of secure random
-data to user space, Jason Donenfeld has put together <a
-href="https://lwn.net/ml/all/20240703183115.1075219-1-Jason@zx2c4.com">an
-implementation of <tt>getrandom()</tt></a> that lives in the <a
-href="https://man7.org/linux/man-pages/man7/vdso.7.html">virtual dynamic
-shared object (vDSO) area</a>.]]></description>
-            <guid>https://lwn.net/Articles/980447/</guid>
-            <pubDate>Thu, 04 Jul 2024 16:30:56 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
