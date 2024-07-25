@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jul 2024 14:03:18 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 14:09:16 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 14:24:35 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 14:27:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three new stable kernels</title>
+            <link>https://lwn.net/Articles/983331/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/983332/">6.9.11</a>, <a
+href="https://lwn.net/Articles/983333/">6.6.42</a>, and <a
+href="https://lwn.net/Articles/983335/">6.1.101</a> stable kernels have been released.  As
+usual, they contain important fixes throughout the tree.]]></description>
+            <guid>https://lwn.net/Articles/983331/</guid>
+            <pubDate>Thu, 25 Jul 2024 14:19:34 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Linux Mint 22 &quot;Wilma&quot; released</title>
             <link>https://lwn.net/Articles/983301/</link>
