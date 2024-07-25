@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jul 2024 14:24:35 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jul 2024 14:35:55 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jul 2024 14:40:57 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jul 2024 14:48:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -474,14 +474,6 @@ href="https://lwn.net/Articles/982387/">4.19.318</a>.  As usual, each contains i
 fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/982379/</guid>
             <pubDate>Thu, 18 Jul 2024 15:07:48 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/982378/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (freeradius), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, and java-17-openjdk), <b>Slackware</b> (openssl), <b>SUSE</b> (ghostscript, gnutls, podman, and python-Django), and <b>Ubuntu</b> (linux-hwe-6.5, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15, linux-oracle, linux-xilinx-zynqmp, and stunnel).]]></description>
-            <guid>https://lwn.net/Articles/982378/</guid>
-            <pubDate>Thu, 18 Jul 2024 14:28:26 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
