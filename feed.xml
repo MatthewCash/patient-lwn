@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 26 Jul 2024 17:41:16 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Jul 2024 17:48:43 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 26 Jul 2024 18:12:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,33 +416,6 @@ for details.]]></description>
             <guid>https://lwn.net/Articles/982845/</guid>
             <pubDate>Mon, 22 Jul 2024 13:43:11 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>NGI project may lose funding</title>
-            <link>https://lwn.net/Articles/982585/</link>
-            <description><![CDATA[<p>
-The <a href="https://www.ngi.eu/">Next Generation Internet</a>
-(NGI) project, an initiative of the EU's European Commission (EC),
-provides funding in the form of grants for a wide variety of
-open-source software,
-including
-<a href="https://lwn.net/Articles/982186/">Redox</a>,
-<a href="https://briarproject.org/">Briar</a>,
-<a href="https://sourcehut.org/blog/2024-07-18-ngi-must-be-renewed/">SourceHut</a>, and many more.
-But the NGI project is not among those that would be funded under the current draft budget for 2025,
-<a href="https://www.theregister.com/2024/07/17/foss_funding_vanishes_from_eus/">
-as The Register reports</a>. More than 60 organizations have signed on to <a
-href="https://pad.public.cat/lettre-NCP-NGI#">an open letter</a> asking the
-EC to reconsider:
-</p>
-
-<blockquote class="bq">
-We find this transformation incomprehensible, moreover when NGI has proven efficient and economical to support free software as a whole, from the smallest to the most established initiatives. This ecosystem diversity backs the strength of European technological innovation, and maintaining the NGI initiative to provide structural support to software projects at the heart of worldwide innovation is key to enforce the sovereignty of a European infrastructure.
-Contrary to common perception, technical innovations often originate from European rather than North American programming communities, and are mostly initiated by small-scaled organizations.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/982585/</guid>
-            <pubDate>Fri, 19 Jul 2024 17:48:29 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
