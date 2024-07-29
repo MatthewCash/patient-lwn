@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Jul 2024 13:25:44 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Jul 2024 13:48:20 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Jul 2024 13:54:16 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Jul 2024 14:09:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -448,14 +448,6 @@ for details.]]></description>
             <guid>https://lwn.net/Articles/982939/</guid>
             <pubDate>Tue, 23 Jul 2024 13:32:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/982845/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (botan2, chromium, ffmpeg, fluent-bit, gtk3, httpd, suricata, tcpreplay, and thunderbird), <b>Mageia</b> (apache, chromium-browser-stable, libfm &amp; libfm-qt, and thunderbird), <b>Oracle</b> (firefox, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel, libndp, qt5-qtbase, ruby, skopeo, thunderbird, and virt:ol and virt-devel:rhel), <b>Red Hat</b> (containernetworking-plugins, firefox, libndp, qt5-qtbase, and thunderbird), <b>SUSE</b> (caddy, chromium, emacs, global, mockito, snakeyaml, testng, and opera), and <b>Ubuntu</b> (thunderbird).]]></description>
-            <guid>https://lwn.net/Articles/982845/</guid>
-            <pubDate>Mon, 22 Jul 2024 13:43:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
