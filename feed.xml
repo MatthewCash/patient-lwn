@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Jul 2024 16:55:44 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Jul 2024 17:09:07 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Jul 2024 17:20:39 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Jul 2024 17:26:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Git 2.46.0 released</title>
+            <link>https://lwn.net/Articles/983850/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/xmqqzfq0i0qa.fsf@gitster.g">Version 2.46.0</a> of the Git
+source-code management system has been released.  This release seems to
+consist of a long list of interface and performance improvements rather
+than big new features; see the announcement for the details.]]></description>
+            <guid>https://lwn.net/Articles/983850/</guid>
+            <pubDate>Mon, 29 Jul 2024 17:20:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/983816/</link>
