@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 31 Jul 2024 17:02:00 +0000</pubDate>
-        <lastBuildDate>Wed, 31 Jul 2024 17:08:47 +0000</lastBuildDate>
+        <pubDate>Wed, 31 Jul 2024 17:12:44 +0000</pubDate>
+        <lastBuildDate>Wed, 31 Jul 2024 17:29:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -351,17 +351,6 @@ ChromeOS, and user-space schedulers.]]></description>
             <guid>https://lwn.net/Articles/981371/</guid>
             <pubDate>Thu, 11 Jul 2024 14:53:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel update 6.10.1</title>
-            <link>https://lwn.net/Articles/983153/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/983154/">6.10.1</a> stable kernel update. This release
-contains a small number of seemingly urgent regression fixes. Users of
-this kernel series are advised to upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/983153/</guid>
-            <pubDate>Wed, 24 Jul 2024 17:02:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
