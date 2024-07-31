@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 31 Jul 2024 20:01:37 +0000</pubDate>
-        <lastBuildDate>Wed, 31 Jul 2024 20:10:08 +0000</lastBuildDate>
+        <pubDate>Wed, 31 Jul 2024 20:15:57 +0000</pubDate>
+        <lastBuildDate>Wed, 31 Jul 2024 20:25:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A deprecation timeline for older Arm CPUs</title>
+            <link>https://lwn.net/Articles/984143/</link>
+            <description><![CDATA[Arnd Bergmann has posted <a
+href="https://lwn.net/ml/all/2831c5a6-cfbf-4fe0-b51c-0396e5b0aeb7@app.fastmail.com">a
+detailed timeline</a> for the deprecation of support for old Arm CPUs in
+both the kernel and the compiler toolchain.  Anybody who is working with
+that hardware will likely want to review this list and let the relevant
+developers know if any of that support is still needed.]]></description>
+            <guid>https://lwn.net/Articles/984143/</guid>
+            <pubDate>Wed, 31 Jul 2024 20:15:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Vanilla OS 2 &quot;Orchid&quot; released</title>
             <link>https://lwn.net/Articles/984117/</link>
