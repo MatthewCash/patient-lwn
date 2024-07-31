@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 31 Jul 2024 15:58:09 +0000</pubDate>
-        <lastBuildDate>Wed, 31 Jul 2024 16:11:16 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jul 2024 16:31:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -361,56 +361,6 @@ contains a small number of seemingly urgent regression fixes. Users of
 this kernel series are advised to upgrade.</p>]]></description>
             <guid>https://lwn.net/Articles/983153/</guid>
             <pubDate>Wed, 24 Jul 2024 17:02:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenMandriva ROME 24.07 released</title>
-            <link>https://lwn.net/Articles/983133/</link>
-            <description><![CDATA[<p>Updated installation images for the <a
-href="https://www.openmandriva.org/">OpenMandriva</a> ROME rolling release Linux distribution are <a
-href="https://www.openmandriva.org/en/news/article/openmandriva-rome-24-07-released">now available</a>. Notable features in the
-24.07 snapshot include KDE&nbsp;Plasma&nbsp;6 as the default desktop, the addition of <a
-href="https://github.com/ValveSoftware/Proton">Proton</a> and Proton
-experimental packages for playing Windows games on Linux, as well as 
-GNOME&nbsp;46.3 and LXQt&nbsp;2.0.0 spins.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/983133/</guid>
-            <pubDate>Wed, 24 Jul 2024 16:25:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenSSL announces new governance structure</title>
-            <link>https://lwn.net/Articles/983120/</link>
-            <description><![CDATA[<p>OpenSSL has <a
-href="https://openssl-library.org/post/2024-07-24-openssl-new-governance-structure/">announced</a>
-that it has adopted a new governance framework:</p>
-
-<blockquote class="bq">
-<p>The OpenSSL Management Committee (OMC) has been dissolved, and two
-boards of directors have been elected for the <a
-href="https://openssl-foundation.org/">Foundation</a> and the <a
-href="https://openssl-corporation.org/">Corporation</a>. Each
-organization has ten voting members. These boards share all the
-responsibilities and authorities of the former OMC co-equally.</p>
-
-<p>To further engage our communities, we are establishing two advisory
-committees for each entity: a Business Advisory Committee (BAC) and a
-Technical Advisory Committee (TAC). The communities will elect the
-members of the BACs and TACs, creating a direct channel for community
-input in roadmap development and reflecting the diverse perspectives
-of OpenSSL's communities.</p>
-</blockquote>
-
-<p>OpenSSL has also announced that two projects have adopted the <a
-href="https://openssl-mission.org/faq/index.html">OpenSSL Mission</a>
-and become <a href="https://openssl-projects.org/">OpenSSL
-projects</a>: <a
-href="https://www.bouncycastle.org/">Bouncy Castle</a>, which provides
-cryptographic APIs for Java and C#, and the <a
-href="https://cryptlib.com/">cryptlib</a> security
-software development toolkit. See the announcement for full details.</p>]]></description>
-            <guid>https://lwn.net/Articles/983120/</guid>
-            <pubDate>Wed, 24 Jul 2024 15:58:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
