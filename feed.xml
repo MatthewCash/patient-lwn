@@ -8,11 +8,187 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 31 Jul 2024 23:16:04 +0000</pubDate>
-        <lastBuildDate>Wed, 31 Jul 2024 23:48:08 +0000</lastBuildDate>
+        <pubDate>Wed, 31 Jul 2024 23:49:22 +0000</pubDate>
+        <lastBuildDate>Thu, 1 Aug 2024 00:43:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 25, 2024</title>
+            <link>https://lwn.net/Articles/982336/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for July 25, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/982336/</guid>
+            <pubDate>Thu, 25 Jul 2024 02:01:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Large folios, swap, and FS-Cache</title>
+            <link>https://lwn.net/Articles/982887/</link>
+            <description><![CDATA[David Howells wanted to discuss swap handling in light of multi-page folios
+in a combined storage, filesystem, and memory-management session at
+the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Swapping has always been
+done with a one-to-one mapping of memory pages to swap slots, he said, but
+swapping multi-page folios breaks that assumption.  He wondered if it would
+make sense to use filesystem techniques to track swapped-out folios.]]></description>
+            <guid>https://lwn.net/Articles/982887/</guid>
+            <pubDate>Wed, 24 Jul 2024 15:28:03 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Lessons from the death and rebirth of Thunderbird</title>
+            <link>https://lwn.net/Articles/982610/</link>
+            <description><![CDATA[<p>Ryan Sipes told the audience during his keynote at
+<a href="https://events.gnome.org/event/209/">GUADEC&nbsp;2024</a> in Denver, Colorado that the <a
+href="https://thunderbird.net/">Thunderbird</a> mail client 
+"probably shouldn't still be alive". Thunderbird, however, is not only
+<em>alive</em>&mdash;it is arguably in better shape than ever
+before. According to Sipes, the project's turnaround is a result of
+governance, storytelling, and learning to be comfortable asking users
+for money. He would also like it quite a bit if Linux distributions stopped
+turning off telemetry.</p>]]></description>
+            <guid>https://lwn.net/Articles/982610/</guid>
+            <pubDate>Wed, 24 Jul 2024 14:38:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Imitation, not artificial, intelligence</title>
+            <link>https://lwn.net/Articles/982289/</link>
+            <description><![CDATA[Simon Willison, co-creator of the popular <a
+href="https://www.djangoproject.com/">Django web framework</a> for Python,
+gave a keynote presentation at <a
+href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a> on topic that is
+unrelated to that work: large language models (LLMs).
+The topic grew out of some other work that he is doing on <a
+href="https://datasette.io/">Datasette</a>, which is a Python-based
+"<q>tool for exploring and publishing data</q>".  The talk was a look
+beyond the hype to try to discover what useful things you can actually do
+today using these models.  Unsurprisingly, there were some
+cautionary notes from Willison, as well.]]></description>
+            <guid>https://lwn.net/Articles/982289/</guid>
+            <pubDate>Tue, 23 Jul 2024 20:58:58 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look inside the BPF verifier</title>
+            <link>https://lwn.net/Articles/982077/</link>
+            <description><![CDATA[<p>
+LWN has covered BPF
+<a href="https://lwn.net/1998/0212/#kernel">
+since its initial introduction to Linux</a>, usually through the lens of the newest
+developments; this can make it hard to view the whole picture. BPF provides
+a way to extend a running kernel, without having to recompile and reboot.
+It does this in a safe way, so that malicious BPF
+programs cannot crash a running kernel, thanks to the BPF verifier. So how does
+the verifier actually work, what are its limits, and how has it changed since
+the early days of BPF?
+</p>]]></description>
+            <guid>https://lwn.net/Articles/982077/</guid>
+            <pubDate>Tue, 23 Jul 2024 14:57:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] &quot;Opt-in&quot; metrics planned for Fedora Workstation 42</title>
+            <link>https://lwn.net/Articles/980598/</link>
+            <description><![CDATA[<p>Red Hat, through members of the <a
+href="https://docs.fedoraproject.org/en-US/workstation-working-group/">Fedora
+Workstation Working Group</a>, has taken another
+swing at persuading the Fedora Project to allow metrics related to
+the real-world use of the Workstation edition to be collected. The <a
+href="https://discussion.fedoraproject.org/t/f40-change-request-privacy-preserving-telemetry-for-fedora-workstation-system-wide/">first
+proposal</a>, aimed for Fedora&nbsp;40, was withdrawn to be reworked
+based on <a href="https://lwn.net/Articles/937528/">feedback</a>. This time around, the proponents have shifted from
+asking for opt-out telemetry to opt-in metrics, with more detail about
+what would be collected and the policies that would govern data collection. The
+change seems to be on its way to approval by the <a
+href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
+Steering Council</a> (FESCo) and is set to take effect for
+Fedora&nbsp;42.</p>]]></description>
+            <guid>https://lwn.net/Articles/980598/</guid>
+            <pubDate>Mon, 22 Jul 2024 13:54:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new major version of NumPy</title>
+            <link>https://lwn.net/Articles/981663/</link>
+            <description><![CDATA[<p>
+The <a href="https://numpy.org/">
+NumPy</a> project <a href="https://numpy.org/doc/stable/release/2.0.0-notes.html">
+released</a> version 2.0.0 on
+June 16, the first major release of the widely
+used Python-based numeric-computing library since 2006. The release has been planned for some
+time, as an opportunity to clean up NumPy's API. As with most NumPy updates,
+there are performance improvements to several individual functions. There are only a few new
+features, but several backward-incompatible changes, including a change to
+NumPy's numeric-promotion rules. Changes to the Python API require relatively minor changes to
+Python code using the library, but the changes to the C API may be more
+difficult to adapt to. In
+both cases, the official
+<a href="https://numpy.org/doc/stable/numpy_2_0_migration_guide.html">
+migration guide</a> describes what needs to be adapted to the new version.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/981663/</guid>
+            <pubDate>Fri, 19 Jul 2024 16:41:11 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Restricting execution of scripts — the third approach</title>
+            <link>https://lwn.net/Articles/982085/</link>
+            <description><![CDATA[The kernel will not consent to execute just any file that happens to be
+sitting in a filesystem; there are formalities, such as the checking of
+execute permission and consulting security policies, to get through first.
+On some systems, security policies have been established to limit execution
+to specifically approved programs.  But there are files that are not
+executed directly by the kernel; these include scripts fed to language
+interpreters like Python, Perl, or a shell.  An attacker who is able to get
+an interpreter to execute a file may be able to bypass a system's security
+policies.  Mickaël Salaün has been working on closing this hole for years;
+the <a href="https://lwn.net/ml/all/20240704190137.696169-1-mic@digikod.net">latest
+attempt</a> takes the form of a new flag to the <a
+href="https://man7.org/linux/man-pages/man2/execveat.2.html"><tt>execveat()</tt></a>
+system call.]]></description>
+            <guid>https://lwn.net/Articles/982085/</guid>
+            <pubDate>Fri, 19 Jul 2024 14:05:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Filesystem testing for stable kernels</title>
+            <link>https://lwn.net/Articles/982099/</link>
+            <description><![CDATA[Leah Rumancik led a filesystem-track session at
+the 2024 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> on the testing needed to
+qualify 
+XFS patches for the stable kernels.  At last year's summit,
+Rumancik, Amir Goldstein, and Chandan Babu Rajendra <a
+href="https://lwn.net/Articles/934941/">presented</a> on their efforts to test and
+backport fixes for the XFS filesystem to three separate stable kernels.
+There has been some longstanding <a href="https://lwn.net/Articles/838819/">unhappiness in
+the XFS-development community
+with the stable-kernel process</a>, which led to
+backports ceasing for that filesystem until Goldstein <a
+href="https://lwn.net/Articles/896523/">started working on XFS testing</a> for the stable
+trees a few years ago.  In this year's session, Rumancik updated
+attendees on how things had gone over the last year and wanted to discuss some
+remaining pain points for the process.]]></description>
+            <guid>https://lwn.net/Articles/982099/</guid>
+            <pubDate>Thu, 18 Jul 2024 14:39:32 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The first half of the 6.11 merge window</title>
+            <link>https://lwn.net/Articles/982034/</link>
+            <description><![CDATA[The merge window for the 6.11 kernel release opened on July&nbsp;14; as of
+this writing, 4,072 non-merge changesets have been pulled into the mainline
+repository since then.  This merge window, in other words, is just now
+beginning.  Still, there has been enough time for a number of interesting
+changes to land for the next kernel release; read on for a summary of what
+has been merged so far.]]></description>
+            <guid>https://lwn.net/Articles/982034/</guid>
+            <pubDate>Thu, 18 Jul 2024 14:31:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A deprecation timeline for older Arm CPUs</title>
             <link>https://lwn.net/Articles/984143/</link>
@@ -231,156 +407,6 @@ more information on this release.</p>]]></description>
             <guid>https://lwn.net/Articles/983328/</guid>
             <pubDate>Thu, 25 Jul 2024 14:03:18 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 18, 2024</title>
-            <link>https://lwn.net/Articles/981628/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for July 18, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/981628/</guid>
-            <pubDate>Thu, 18 Jul 2024 00:01:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Changing the filesystem-maintenance model</title>
-            <link>https://lwn.net/Articles/981854/</link>
-            <description><![CDATA[Maintenance of the kernel is a difficult, often thankless, task; how it is
-being handled, the role of maintainers, burnout, and so on are recurring
-topics at kernel-related conferences.  At
-the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Josef Bacik and
-Christian Brauner led a session to discuss possible changes to the way
-filesystems are maintained, though Bacik took the lead role (and the podium).  There are a number of interrelated topics,
-including merging new filesystems, removing old ones, making and testing changes
-throughout the filesystem tree, and more.]]></description>
-            <guid>https://lwn.net/Articles/981854/</guid>
-            <pubDate>Wed, 17 Jul 2024 14:52:41 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] SUSE asks openSUSE to consider name change</title>
-            <link>https://lwn.net/Articles/981018/</link>
-            <description><![CDATA[<p><a href="https://www.suse.com/">SUSE</a> has, in a somewhat clumsy
-fashion, asked <a href="https://www.opensuse.org/">openSUSE</a>
-to consider rebranding to clear up confusion over the
-relationship between SUSE the company and openSUSE as a community
-project. That, in turn, has opened conversations about revising
-openSUSE governance and more. So far, there is no concrete proposal to
-consider, no timeline, or even a process for the community and company
-to follow to make any decisions.</p>]]></description>
-            <guid>https://lwn.net/Articles/981018/</guid>
-            <pubDate>Tue, 16 Jul 2024 16:30:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Hierarchical storage management, fanotify, FUSE, and more</title>
-            <link>https://lwn.net/Articles/981392/</link>
-            <description><![CDATA[Amir Goldstein led a filesystem-track session at the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a> on his project to build a
-<a
-href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
-storage management</a> (HSM) system using <a
-href="https://www.kernel.org/doc/html/latest/admin-guide/filesystem-monitoring.html">fanotify</a>.
-The idea is to monitor file access in order to determine when to retrieve
-content from non-local storage (e.g. the cloud).  The session was a
-follow-up to last year's <a href="https://lwn.net/Articles/932415/">introduction to the
-project</a>, which covered some of the problems he had encountered; this
-year, he
-was updating attendees on its status and progress, along with some other
-problem areas that he wanted to discuss.]]></description>
-            <guid>https://lwn.net/Articles/981392/</guid>
-            <pubDate>Tue, 16 Jul 2024 14:26:57 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] A hash table by any other name</title>
-            <link>https://lwn.net/Articles/972580/</link>
-            <description><![CDATA[<p>
-On June 25, Matthew Wilcox posted
-<a href="https://lwn.net/ml/all/20240625211803.2750563-1-willy@infradead.org/">
-a second version of a patch set</a>
-introducing a new
-data structure called rosebush, which
-"<q>is a resizing, scalable, cache-aware, RCU optimised hash
-table.</q>" The kernel already has generic hash tables, though, including
-<a href="https://lwn.net/Articles/751374/">rhashtable</a>. Wilcox believes that the design of
-rhashtable is not the best choice for performance, and has written rosebush as
-an alternative for use in the
-<a href="https://www.kernel.org/doc/html/latest/filesystems/vfs.html#directory-entry-cache-dcache">
-directory-entry cache</a> (dcache) — the filesystem cache used to speed up
-file-name lookup.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/972580/</guid>
-            <pubDate>Mon, 15 Jul 2024 17:27:08 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development statistics for the 6.10 kernel</title>
-            <link>https://lwn.net/Articles/981559/</link>
-            <description><![CDATA[The 6.10 kernel was <a
-href="https://lwn.net/ml/all/CAHk-=wjV_O2g_K19McjGKrxFxMFDqex+fyGcKc3uac1ft_O2gg@mail.gmail.com/">released</a>
-on July&nbsp;14 after a nine-week development cycle.  This time around,
-13,312 non-merge changesets were pulled into the mainline repository — the
-lowest changeset count since 5.17 in early 2022.  Longstanding tradition
-says that it is time for LWN to gather some statistics on where the new
-code for 6.10 came from and how it got to the mainline; read on for the
-details.]]></description>
-            <guid>https://lwn.net/Articles/981559/</guid>
-            <pubDate>Mon, 15 Jul 2024 15:52:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at Linux Mint 22</title>
-            <link>https://lwn.net/Articles/981130/</link>
-            <description><![CDATA[<p>Linux Mint has <a
-href="https://blog.linuxmint.com/?p=4725">released</a> a beta of its
-next long-term-support (LTS) release, Linux&nbsp;Mint&nbsp;22 (code-named "Wilma"), based on <a href="https://lwn.net/Articles/971143/">Ubuntu&nbsp;24.04</a>. Aside from the standard
-software updates that come with any major upgrade, some of Wilma's
-largest selling points are what it <em>doesn't</em> have; namely snap
-packages or GNOME applications that have broken theming on non-GNOME
-desktops like Mint's Cinnamon desktop.</p>]]></description>
-            <guid>https://lwn.net/Articles/981130/</guid>
-            <pubDate>Fri, 12 Jul 2024 14:32:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Nix alternatives and spinoffs</title>
-            <link>https://lwn.net/Articles/981124/</link>
-            <description><![CDATA[<p>
-Since the
-<a href="https://lwn.net/Articles/970824/">
-disagreements</a> that led to Eelco Dolstra
-<a href="https://lwn.net/Articles/971973/">
-stepping down from the NixOS
-Foundation board</a>, there have been a number of projects forked from or inspired
-by
-<a href="https://nixos.org/">
-Nix</a> that have stepped up to compete with it. Two months on, some of these
-projects are now well-established enough to look at what they have to offer and
-how they compare to each other. Overall, users have a number of good options to
-choose from, whether they're seeking a compatible replacement for Nix (the
-configuration language and package manager) or NixOS (the Linux distribution),
-or something that takes the same ideas in a different direction.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/981124/</guid>
-            <pubDate>Thu, 11 Jul 2024 16:21:12 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reports from OSPM 2024, part 1</title>
-            <link>https://lwn.net/Articles/981371/</link>
-            <description><![CDATA[The sixth edition of the <a
-href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
-in the Linux Kernel (OSPM) Summit</a> took place on May 30-31 2024, and was
-graciously hosted by the <a href="https://www.irit.fr/en/home">Institut de
-Recherche en Informatique de Toulouse (IRIT)</a> in Toulouse, France.  This
-is the first of a series of articles describing the discussions held at
-OSPM 2024; topics covered include latency hints, energy-aware scheduling,
-ChromeOS, and user-space schedulers.]]></description>
-            <guid>https://lwn.net/Articles/981371/</guid>
-            <pubDate>Thu, 11 Jul 2024 14:53:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
