@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 01 Aug 2024 13:54:21 +0000</pubDate>
-        <lastBuildDate>Thu, 1 Aug 2024 14:09:29 +0000</lastBuildDate>
+        <pubDate>Thu, 01 Aug 2024 14:28:31 +0000</pubDate>
+        <lastBuildDate>Thu, 1 Aug 2024 14:28:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,17 +398,6 @@ exclusive-range syntax for <tt>match</tt> patterns, and more.]]></description>
             <guid>https://lwn.net/Articles/983265/</guid>
             <pubDate>Thu, 25 Jul 2024 14:59:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three new stable kernels</title>
-            <link>https://lwn.net/Articles/983331/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/983332/">6.9.11</a>, <a
-href="https://lwn.net/Articles/983333/">6.6.42</a>, and <a
-href="https://lwn.net/Articles/983335/">6.1.101</a> stable kernels have been released.  As
-usual, they contain important fixes throughout the tree.]]></description>
-            <guid>https://lwn.net/Articles/983331/</guid>
-            <pubDate>Thu, 25 Jul 2024 14:19:34 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
