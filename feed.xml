@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 01 Aug 2024 12:25:02 +0000</pubDate>
-        <lastBuildDate>Thu, 1 Aug 2024 12:48:28 +0000</lastBuildDate>
+        <pubDate>Thu, 01 Aug 2024 13:06:30 +0000</pubDate>
+        <lastBuildDate>Thu, 1 Aug 2024 13:14:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/984212/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (kernel, obs-cef, and xen), <b>Mageia</b> (emacs), <b>Oracle</b> (freeradius, freeradius:3.0, and kernel), <b>Red Hat</b> (emacs, httpd, and kpatch-patch-4_18_0-305_120_1), <b>Slackware</b> (curl), <b>SUSE</b> (apache2, cockpit-wicked, glibc, gnutls, gvfs, less, nghttp2, opensc, python-idna, python-requests, qemu, rpm, tpm2-0-tss, tpm2.0-tools, and unbound), and <b>Ubuntu</b> (clickhouse, exim4, libcommons-collections3-java, linux, linux-aws, linux-kvm, linux-lts-xenial, mysql-8.0, openssl, php-cas, prometheus-alertmanager, and snapd).]]></description>
+            <guid>https://lwn.net/Articles/984212/</guid>
+            <pubDate>Thu, 01 Aug 2024 13:01:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 25, 2024</title>
             <link>https://lwn.net/Articles/982336/</link>
