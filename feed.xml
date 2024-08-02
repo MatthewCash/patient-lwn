@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 02 Aug 2024 13:20:12 +0000</pubDate>
-        <lastBuildDate>Fri, 2 Aug 2024 13:34:26 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 2 Aug 2024 13:48:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -413,14 +413,6 @@ least one of which</a> appears to close a security hole.]]></description>
             <guid>https://lwn.net/Articles/983652/</guid>
             <pubDate>Sat, 27 Jul 2024 14:35:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/983523/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (linux-firmware and squid), <b>Debian</b> (bind9), <b>Fedora</b> (kubernetes, thunderbird, and tinyproxy), <b>Oracle</b> (containernetworking-plugins, cups, edk2, httpd, httpd:2.4, kernel, kernel-container, libreoffice, libuv, libvirt, python3, and runc), <b>Red Hat</b> (freeradius:3.0, httpd, and squid), and <b>SUSE</b> (giflib and python-dnspython).]]></description>
-            <guid>https://lwn.net/Articles/983523/</guid>
-            <pubDate>Fri, 26 Jul 2024 13:47:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
