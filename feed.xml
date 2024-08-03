@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 03 Aug 2024 14:26:15 +0000</pubDate>
-        <lastBuildDate>Sat, 3 Aug 2024 14:47:56 +0000</lastBuildDate>
+        <pubDate>Sat, 03 Aug 2024 14:52:51 +0000</pubDate>
+        <lastBuildDate>Sat, 3 Aug 2024 15:08:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -404,26 +404,6 @@ be quieter because of summer vacations, but that (still) doesn't actually
 seem to have been the case.</q>"]]></description>
             <guid>https://lwn.net/Articles/983760/</guid>
             <pubDate>Sun, 28 Jul 2024 22:36:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel updates for Saturday</title>
-            <link>https://lwn.net/Articles/983652/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/983653/">6.10.2</a>,
-<a href="https://lwn.net/Articles/983654/">6.9.12</a>,
-<a href="https://lwn.net/Articles/983655/">6.6.43</a>,
-<a href="https://lwn.net/Articles/983656/">6.1.102</a>,
-<a href="https://lwn.net/Articles/983657/">5.15.164</a>,
-<a href="https://lwn.net/Articles/983658/">5.10.223</a>,
-<a href="https://lwn.net/Articles/983659/">5.4.281</a>, and
-<a href="https://lwn.net/Articles/983660/">4.19.319</a>
-stable kernel updates have all been released; each contains a relatively
-small set of important fixes, <a
-href="https://lwn.net/ml/linux-kernel/20240723-fs-lock-recover-compatfix-v1-1-148096719529@google.com/">at
-least one of which</a> appears to close a security hole.]]></description>
-            <guid>https://lwn.net/Articles/983652/</guid>
-            <pubDate>Sat, 27 Jul 2024 14:35:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
