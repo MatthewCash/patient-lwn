@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 04 Aug 2024 20:57:13 +0000</pubDate>
-        <lastBuildDate>Sun, 4 Aug 2024 22:36:25 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 4 Aug 2024 22:48:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -393,18 +393,6 @@ than big new features; see the announcement for the details.]]></description>
             <guid>https://lwn.net/Articles/983816/</guid>
             <pubDate>Mon, 29 Jul 2024 13:14:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.11-rc1</title>
-            <link>https://lwn.net/Articles/983760/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/983759/">released 6.11-rc1</a> and closed the
-merge window for this development cycle.  "<q>The merge window felt pretty
-normal, and the stats all look pretty normal too. I was expecting things to
-be quieter because of summer vacations, but that (still) doesn't actually
-seem to have been the case.</q>"]]></description>
-            <guid>https://lwn.net/Articles/983760/</guid>
-            <pubDate>Sun, 28 Jul 2024 22:36:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
