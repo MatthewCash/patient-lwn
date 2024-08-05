@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Aug 2024 14:02:26 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Aug 2024 14:09:36 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Aug 2024 14:26:34 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Aug 2024 14:28:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/984552/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openjdk-11), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ffmpeg, hostapd, trafficserver, and wpa_supplicant), and <b>Ubuntu</b> (curl and linux-oem-6.5).]]></description>
+            <guid>https://lwn.net/Articles/984552/</guid>
+            <pubDate>Mon, 05 Aug 2024 14:26:33 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.11-rc2</title>
             <link>https://lwn.net/Articles/984501/</link>
