@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 04 Aug 2024 20:57:13 +0000</pubDate>
-        <lastBuildDate>Sun, 4 Aug 2024 23:48:02 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Aug 2024 00:25:16 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Aug 2024 00:40:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.11-rc2</title>
+            <link>https://lwn.net/Articles/984501/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/984500/">6.11-rc2</a> for testing.
+"<q>Hopefully we've gotten rid of the bulk of the silly noise here in rc2,
+and not added too much new noise, so that we can get on with the process of
+finding more meaningful issues.</q>"]]></description>
+            <guid>https://lwn.net/Articles/984501/</guid>
+            <pubDate>Mon, 05 Aug 2024 00:25:15 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Three stable kernel updates for Saturday</title>
             <link>https://lwn.net/Articles/984448/</link>
