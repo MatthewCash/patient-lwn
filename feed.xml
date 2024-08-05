@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Aug 2024 14:26:34 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Aug 2024 14:28:16 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Aug 2024 14:29:09 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Aug 2024 14:37:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU Binutils 2.43 released</title>
+            <link>https://lwn.net/Articles/984539/</link>
+            <description><![CDATA[Version 2.43 of the GNU Binutils package is out.  Changes include some
+improvements to the assembler and the linker, better support for hardware
+event counters in the Gprofng profiler, and more.]]></description>
+            <guid>https://lwn.net/Articles/984539/</guid>
+            <pubDate>Mon, 05 Aug 2024 14:29:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/984552/</link>
