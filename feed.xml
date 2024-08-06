@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 06 Aug 2024 16:48:17 +0000</pubDate>
-        <lastBuildDate>Tue, 6 Aug 2024 17:10:07 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 6 Aug 2024 17:29:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -386,32 +386,6 @@ notes</a> for a full list of changes.</p>
             <description><![CDATA[Security updates have been issued by <b>Fedora</b> (xdg-desktop-portal-hyprland), <b>Red Hat</b> (freeradius, freeradius:3.0, git-lfs, httpd, kernel, openssh, and varnish:6), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, git, gtk2, gtk3, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, orc, postgresql14, python-dnspython, python-urllib3, shadow, and xen), and <b>Ubuntu</b> (openjdk-17, openjdk-21, openjdk-8, openjdk-lts, and python3.10, python3.8).]]></description>
             <guid>https://lwn.net/Articles/984080/</guid>
             <pubDate>Wed, 31 Jul 2024 13:09:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Funtoo Linux is being discontinued</title>
-            <link>https://lwn.net/Articles/983977/</link>
-            <description><![CDATA[<p>Daniel Robbins, founder of the <a href="https://www.gentoo.org/">Gentoo Linux</a> distribution and its
-spinoff <a href="https://www.funtoo.org/Welcome">Funtoo Linux</a>, has
-<a
-href="https://forums.funtoo.org/topic/5182-all-good-things-must-come-to-an-end/">announced</a>
-that he has decided to end the Funtoo project:</p>
-
-<blockquote class="bq">
-Funtoo started as a philosophy to create a fun
-community of contributors building something great together. For me,
-it's no longer that so I need to move on to other things. There is not
-a successor BDFL for Funtoo nor am I interested in trying to find one,
-or hand the project off to someone else. You can expect the project to
-wind down through August. If you have a <a
-href="https://www.funtoo.org/Funtoo:User_Services/Containers">Funtoo
-container</a>, it will continue to be online through the end of August
-so you have time to find another hosting solution if you need one.
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/983977/</guid>
-            <pubDate>Tue, 30 Jul 2024 17:10:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
