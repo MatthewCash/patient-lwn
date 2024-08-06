@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 06 Aug 2024 13:30:16 +0000</pubDate>
-        <lastBuildDate>Tue, 6 Aug 2024 13:48:54 +0000</lastBuildDate>
+        <pubDate>Tue, 06 Aug 2024 13:58:01 +0000</pubDate>
+        <lastBuildDate>Tue, 6 Aug 2024 14:09:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,14 +403,6 @@ so you have time to find another hosting solution if you need one.
             <guid>https://lwn.net/Articles/983977/</guid>
             <pubDate>Tue, 30 Jul 2024 17:10:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/983935/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (curl), <b>Mageia</b> (virtualbox), <b>Oracle</b> (squid), <b>Red Hat</b> (kernel), <b>SUSE</b> (apache2, bind, cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, devscripts, espeak-ng, freerdp, ghostscript, gnome-shell, gtk2, gtk3, java-11-openjdk, java-17-openjdk, kubevirt, libgit2, openssl-3, orc, p7zip, python-dnspython, and shadow), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-nvidia, linux-oem-6.8, linux-raspi, linux, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-raspi, linux-xilinx-zynqmp, linux-aws, linux-aws-5.4, linux-aws-5.15, linux-ibm, linux-ibm-5.15, linux-raspi, linux-gcp-5.15, and linux-lowlatency).]]></description>
-            <guid>https://lwn.net/Articles/983935/</guid>
-            <pubDate>Tue, 30 Jul 2024 13:49:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
