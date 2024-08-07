@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Aug 2024 15:35:19 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Aug 2024 15:48:10 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Aug 2024 16:03:38 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Aug 2024 16:11:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,39 +353,6 @@ applications using Waydroid, and many other improvements.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/984117/</guid>
             <pubDate>Wed, 31 Jul 2024 18:13:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Forgejo v8.0 released</title>
-            <link>https://lwn.net/Articles/984116/</link>
-            <description><![CDATA[<p>Version 8.0 of the <a href="https://forgejo.org/">Forgejo</a>
-software-development platform has been <a
-href="https://forgejo.org/2024-07-release-v8-0/">released</a>. Notable
-changes include the <a
-href="https://forgejo.org/2024-07-non-free-dependency-found/">removal</a>
-of non-free software found in the codebase, improved stability, and a
-<a
-href="https://forgejo.org/2024-07-release-v8-0/#a-new-approach-to-ui-and-ux">reduction</a>
-in "<q>seemingly random User Interface changes</q>":</p>
-
-<blockquote class="bq">
-A gentle way of describing Forgejo User eXperience is that it is an
-acquired taste: it grew over the years, driven by the inspiration of
-the person with the keyboard in their hand. Once implemented it almost
-never changed. A user who started with Forgejo in 2022 can only see
-minor changes in 2024 and not all of them make intuitive sense. The
-solution to this problem is simple and was identified early on: User
-Research. But only in the making of Forgejo v8.0 did it get some
-momentum.
-</blockquote>
-
-<p>See the <a
-href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/RELEASE-NOTES.md#8-0-0">release
-notes</a> for a full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/984116/</guid>
-            <pubDate>Wed, 31 Jul 2024 15:58:08 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
