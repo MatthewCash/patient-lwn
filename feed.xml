@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 07 Aug 2024 16:25:07 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Aug 2024 18:12:10 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 7 Aug 2024 18:33:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -337,23 +337,6 @@ developers know if any of that support is still needed.]]></description>
             <guid>https://lwn.net/Articles/984143/</guid>
             <pubDate>Wed, 31 Jul 2024 20:15:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Vanilla OS 2 &quot;Orchid&quot; released</title>
-            <link>https://lwn.net/Articles/984117/</link>
-            <description><![CDATA[<p>Version 2.0 of the <a href="https://vanillaos.org/">Vanilla OS</a> image-based Linux distribution has
-been <a
-href="https://vanillaos.org/blog/article/2024-07-28/vanilla-os-2-orchid---stable-release">released</a>. Dubbed
-"Orchid", Vanilla OS is now based on Debian Sid (prior versions were Ubuntu-based),
-allows <a
-href="https://vanillaos.org/blog/article/2024-07-11/discover-apx-v2-the-new-essential-tool-for-developers-and-creators-on-vanilla-os-orchid">creation
-of customized Linux environments</a>, support for running Android
-applications using Waydroid, and many other improvements.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/984117/</guid>
-            <pubDate>Wed, 31 Jul 2024 18:13:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
