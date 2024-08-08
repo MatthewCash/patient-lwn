@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 08 Aug 2024 15:05:02 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Aug 2024 15:27:47 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 8 Aug 2024 15:35:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -269,33 +269,6 @@ should upgrade.</p>]]></description>
             <guid>https://lwn.net/Articles/984370/</guid>
             <pubDate>Fri, 02 Aug 2024 13:13:12 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Sovereign Tech Fund introduces fellowship pilot program</title>
-            <link>https://lwn.net/Articles/984266/</link>
-            <description><![CDATA[<p>The Sovereign Tech Fund (STF) has <a
-href="https://www.sovereigntechfund.de/news/introducing-the-fellowship-for-maintainers">announced</a>
-a fellowship program to support "<q>the dedicated individuals who keep
-our digital infrastructure running</q>":</p>
-
-<blockquote class="bq">
-Over the past two years, STF has successfully contracted over 40 FOSS
-projects, enhancing their technical sustainability through targeted
-milestones. However, the activities of maintainers, who often work on
-multiple FOSS projects, are hard to quantify for funding applications,
-as the demands and challenges vary and can change quickly. This is
-where the fellowship for maintainers comes into play.
-</blockquote>
-
-<p>According to the <a
-href="https://www.sovereigntechfund.de/programs/fellowship">fellowship
-page</a> the STF plans to fund five fellowships, beginning in the
-fourth quarter of this year, for a period of 12 months.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/984266/</guid>
-            <pubDate>Thu, 01 Aug 2024 15:31:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
