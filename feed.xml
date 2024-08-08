@@ -8,11 +8,163 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Aug 2024 21:22:34 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Aug 2024 23:48:05 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Aug 2024 00:03:20 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Aug 2024 00:39:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 1, 2024</title>
+            <link>https://lwn.net/Articles/983267/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for August 1, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/983267/</guid>
+            <pubDate>Thu, 01 Aug 2024 04:57:32 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Showing up for Python in GNOME</title>
+            <link>https://lwn.net/Articles/983897/</link>
+            <description><![CDATA[<p>A few years ago, <a
+href="https://pygobject.gnome.org/">PyGObject</a>&mdash;the Python
+package that provides bindings for <a
+href="https://www.gtk.org/">GTK</a> and <a
+href="https://www.gnome.org/">GNOME</a> applications&mdash;was not
+faring particularly well. Several maintainers had left the project and its
+development was not keeping pace with changes in GTK. At this year's
+GUADEC, Dan Yeaw presented a <a
+href="https://events.gnome.org/event/209/contributions/757/">talk</a>
+about the project's decline, improvements in the last year, and his
+experience getting involved in an undermaintained project.</p>]]></description>
+            <guid>https://lwn.net/Articles/983897/</guid>
+            <pubDate>Wed, 31 Jul 2024 17:39:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Pulling Linux up by its bootstraps</title>
+            <link>https://lwn.net/Articles/983340/</link>
+            <description><![CDATA[<p>
+A <a href="https://lwn.net/Articles/841797/">
+bootstrappable build</a> is one that builds existing
+software from scratch — for example, building GCC without relying on an existing
+copy of GCC. In 2023, the Guix project
+<a href="https://lwn.net/Articles/930650/">announced</a> that the project had reduced the size
+of the binary bootstrap seed needed to build its operating system to just 357-bytes —
+not counting the Linux kernel required to run the build process. Now, the
+<a href="https://github.com/fosslinux/live-bootstrap">live-bootstrap</a> project
+has gone a step further and removed the need for an existing kernel at all.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/983340/</guid>
+            <pubDate>Wed, 31 Jul 2024 13:18:13 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Famfs: a filesystem interface to shareable memory</title>
+            <link>https://lwn.net/Articles/983105/</link>
+            <description><![CDATA[At the 2024 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>, John Groves led
+a session on famfs, which is a filesystem he has developed that uses the
+kernel's <a
+href="https://docs.kernel.org/filesystems/dax.html">direct-access (DAX)</a>
+mechanism to access memory that is shareable between hosts.  The discussion
+was aimed at whether a different approach should be taken and, in
+particular, whether FUSE should be used instead of implementing as an
+in-kernel filesystem.  As noted in the <a
+href="https://lwn.net/ml/all/20240229002020.85535-1-john@groves.net/">thread</a> about his
+proposal for an LSFMM+BPF session, and the mailing-list discussions on <a
+href="https://lwn.net/ml/all/cover.1708709155.git.john%40groves.net/">the first</a> and <a
+href="https://lwn.net/ml/linux-fsdevel/cover.1714409084.git.john@groves.net/">second
+version</a> of his patch set, there is some skepticism that a new in-kernel
+filesystem is warranted for the use case.]]></description>
+            <guid>https://lwn.net/Articles/983105/</guid>
+            <pubDate>Tue, 30 Jul 2024 21:28:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Report from the annual general meeting at GUADEC</title>
+            <link>https://lwn.net/Articles/983203/</link>
+            <description><![CDATA[<p>At <a
+href="https://foundation.gnome.org/2023/12/20/guadec-2024-in-denver-colorado/">GUADEC</a>
+in Denver, Colorado on July&nbsp;21, the GNOME Foundation held its <a
+href="https://events.gnome.org/event/209/contributions/778/">annual
+general meeting</a> (AGM) to provide updates from the <a
+href="https://wiki.gnome.org/FoundationBoard">foundation's board</a> and committees.
+Topics included work accomplished in the past year, challenges
+facing the GNOME Foundation–including fundraising and finding a new
+executive director–and some insight into plans for the next year. And
+last, but not least, the awarding of the <a
+href="https://wiki.gnome.org/Pants">Pants of Thanks</a>.</p>]]></description>
+            <guid>https://lwn.net/Articles/983203/</guid>
+            <pubDate>Tue, 30 Jul 2024 13:51:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The rest of the 6.11 merge window</title>
+            <link>https://lwn.net/Articles/982605/</link>
+            <description><![CDATA[The release of <a
+href="https://lwn.net/ml/all/CAHk-=wiyNokz0d3b=GRORij=mGvwoYHy=+bv6m2Hu_VqNdg66g@mail.gmail.com/">6.11-rc1</a>
+marked the end of the 6.11 merge window on July&nbsp;28.  By that time,
+12,102 non-merge changesets had been pulled into the mainline repository;
+about 8,000 of those came in after <a href="https://lwn.net/Articles/982034/">the
+first-half summary</a> was written.  Quite a few significant changes were
+to be found in those changesets; there is also one big change that did not
+make it.]]></description>
+            <guid>https://lwn.net/Articles/982605/</guid>
+            <pubDate>Mon, 29 Jul 2024 13:54:16 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] May the FOLL_FORCE not be with you</title>
+            <link>https://lwn.net/Articles/983169/</link>
+            <description><![CDATA[One of the simplest hardening concepts to understand is that memory should
+never be both writable and executable, otherwise an attacker can use it to
+load and run arbitrary code.  That rule is generally followed in Linux
+systems, but there is a glaring loophole that is exploitable from user
+space to inject code into a running process.  Attackers have duly exploited
+it.  A new effort to close the hole ran into trouble early in the merge
+window, but a solution may yet be found in time for the 6.11 kernel
+release.]]></description>
+            <guid>https://lwn.net/Articles/983169/</guid>
+            <pubDate>Fri, 26 Jul 2024 14:19:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] What became of getrandom() in the vDSO</title>
+            <link>https://lwn.net/Articles/983186/</link>
+            <description><![CDATA[In <a href="https://lwn.net/Articles/980447/">the previous episode</a> of the
+<tt>vgetrandom()</tt> story, Jason Donenfeld had put together a version of
+the <a
+href="https://man7.org/linux/man-pages/man2/getrandom.2.html"><tt>getrandom()</tt></a>
+system call that ran in user space, significantly improving performance for
+applications that need a lot of random data while retaining all of the
+guarantees provided by the system call.  At that time, it seemed that a
+consensus had built around the implementation and that it was headed toward
+the mainline in that form.  A few milliseconds after that article was
+posted, though, a Linus-Torvalds-shaped obstacle appeared in its path.
+That obstacle has been overcome and this work has now been merged for the
+6.11 kernel, but its form has changed somewhat.]]></description>
+            <guid>https://lwn.net/Articles/983186/</guid>
+            <pubDate>Thu, 25 Jul 2024 16:19:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] More informative kernel panics for Fedora</title>
+            <link>https://lwn.net/Articles/982398/</link>
+            <description><![CDATA[<p>
+On July 12, Jocelyn Falempe
+<a href="https://discussion.fedoraproject.org/t/f42-change-proposal-enable-drm-panic-system-wide/125542">
+proposed</a> a change to the configuration options that Fedora sets for its
+kernels, in order to make kernel panics easier to report.
+Falempe would like to enable the kernel's recently added
+DRM-panic feature, which adds
+a graphical crash screen that is reminiscent of the infamous
+Windows "blue screen of death" for kernel panics. The feature introduces a few
+tradeoffs, including currently limited driver support, so the proposal spawned a
+good deal of discussion.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/982398/</guid>
+            <pubDate>Thu, 25 Jul 2024 15:34:31 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Firefox support added to Puppeteer</title>
             <link>https://lwn.net/Articles/984733/</link>
