@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 Aug 2024 16:55:06 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Aug 2024 17:08:45 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Aug 2024 17:15:21 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Aug 2024 17:27:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>0.0.0.0 Day: Exploiting Localhost APIs From the Browser (Oligo Security)</title>
+            <link>https://lwn.net/Articles/984838/</link>
+            <description><![CDATA[The Oligo Security blog <a
+href="https://www.oligo.security/blog/0-0-0-0-day-exploiting-localhost-apis-from-the-browser">discloses</a>
+a web-browser vulnerability that has been named "0.0.0.0 day".  In short,
+browsers will allow JavaScript code to open connections to the all-zeroes
+IPv4 address; the result is that any port that is open on the local host
+can be accessed by a remote site.  "<q>When services use localhost, they
+assume a constrained environment. This assumption, which can (as in the
+case of this vulnerability) be faulty, results in insecure server
+implementations.</q>"]]></description>
+            <guid>https://lwn.net/Articles/984838/</guid>
+            <pubDate>Thu, 08 Aug 2024 17:15:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/984807/</link>
