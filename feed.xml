@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 11 Aug 2024 14:06:39 +0000</pubDate>
-        <lastBuildDate>Sun, 11 Aug 2024 14:08:51 +0000</lastBuildDate>
+        <pubDate>Sun, 11 Aug 2024 14:19:27 +0000</pubDate>
+        <lastBuildDate>Sun, 11 Aug 2024 14:29:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three weekend stable kernels</title>
+            <link>https://lwn.net/Articles/985198/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/985199/">6.10.4</a>,
+<a href="https://lwn.net/Articles/985200/">6.6.45</a>, and
+<a href="https://lwn.net/Articles/985201/">6.1.104</a>
+stable kernel updates have been released; each contains another set of
+important updates as usual.]]></description>
+            <guid>https://lwn.net/Articles/985198/</guid>
+            <pubDate>Sun, 11 Aug 2024 14:19:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A new kernel-version policy for Ubuntu</title>
             <link>https://lwn.net/Articles/985043/</link>
