@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 Aug 2024 14:44:31 +0000</pubDate>
-        <lastBuildDate>Mon, 12 Aug 2024 14:48:14 +0000</lastBuildDate>
+        <pubDate>Mon, 12 Aug 2024 15:08:45 +0000</pubDate>
+        <lastBuildDate>Mon, 12 Aug 2024 15:10:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/985336/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (httpd:2.4), <b>Fedora</b> (chromium, firefox, frr, neatvnc, nss, python-setuptools, and python3.13), <b>Gentoo</b> (AFLplusplus, Bundler, dpkg, GnuPG, GPAC, libde265, matio, MuPDF, PHP, protobuf, protobuf-python, protobuf-c, rsyslog, Ruby on Rails, and runc), <b>Red Hat</b> (389-ds-base, container-tools:rhel8, and httpd:2.4), <b>SUSE</b> (bind and ca-certificates-mozilla), and <b>Ubuntu</b> (linux-azure).]]></description>
+            <guid>https://lwn.net/Articles/985336/</guid>
+            <pubDate>Mon, 12 Aug 2024 15:08:45 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.11-rc3</title>
             <link>https://lwn.net/Articles/985233/</link>
