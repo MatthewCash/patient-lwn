@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 15 Aug 2024 16:52:04 +0000</pubDate>
-        <lastBuildDate>Thu, 15 Aug 2024 17:25:45 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 15 Aug 2024 17:32:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,22 +356,6 @@ injection, or hardware side channels.
             <guid>https://lwn.net/Articles/984966/</guid>
             <pubDate>Fri, 09 Aug 2024 13:23:06 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>0.0.0.0 Day: Exploiting Localhost APIs From the Browser (Oligo Security)</title>
-            <link>https://lwn.net/Articles/984838/</link>
-            <description><![CDATA[The Oligo Security blog <a
-href="https://www.oligo.security/blog/0-0-0-0-day-exploiting-localhost-apis-from-the-browser">discloses</a>
-a web-browser vulnerability that has been named "0.0.0.0 day".  In short,
-browsers will allow JavaScript code to open connections to the all-zeroes
-IPv4 address; the result is that any port that is open on the local host
-can be accessed by a remote site.  "<q>When services use localhost, they
-assume a constrained environment. This assumption, which can (as in the
-case of this vulnerability) be faulty, results in insecure server
-implementations.</q>"]]></description>
-            <guid>https://lwn.net/Articles/984838/</guid>
-            <pubDate>Thu, 08 Aug 2024 17:15:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
