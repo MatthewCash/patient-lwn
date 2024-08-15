@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 Aug 2024 14:03:29 +0000</pubDate>
-        <lastBuildDate>Thu, 15 Aug 2024 14:07:57 +0000</lastBuildDate>
+        <pubDate>Thu, 15 Aug 2024 14:14:02 +0000</pubDate>
+        <lastBuildDate>Thu, 15 Aug 2024 14:26:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/985845/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8), <b>Debian</b> (flatpak), <b>Fedora</b> (389-ds-base, dotnet8.0, and roundcubemail), <b>Red Hat</b> (bind9.16, firefox, python-setuptools, and thunderbird), <b>Slackware</b> (dovecot), <b>SUSE</b> (389-ds, curl, kernel, kernel-firmware, kubernetes1.25, openssl-1_1, openssl-3, python-Pillow, and zziplib), and <b>Ubuntu</b> (busybox, linux-azure, and ruby-rmagick).]]></description>
+            <guid>https://lwn.net/Articles/985845/</guid>
+            <pubDate>Thu, 15 Aug 2024 14:07:24 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 8, 2024</title>
             <link>https://lwn.net/Articles/984216/</link>
@@ -364,14 +372,6 @@ implementations.</q>"]]></description>
             <guid>https://lwn.net/Articles/984838/</guid>
             <pubDate>Thu, 08 Aug 2024 17:15:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/984807/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freeradius and freeradius:3.0), <b>Debian</b> (chromium, odoo, and roundcube), <b>Fedora</b> (microcode_ctl, mingw-qt5-qtbase, mingw-qt6-qtbase, opentofu, orc, python-setuptools, and vim), <b>Gentoo</b> (Nokogiri), <b>Oracle</b> (kernel), <b>Red Hat</b> (go-toolset:rhel8, golang, kernel, krb5, libtiff, python-setuptools, and python39:3.9 and python39-devel:3.9), <b>SUSE</b> (python-Django), and <b>Ubuntu</b> (krb5).]]></description>
-            <guid>https://lwn.net/Articles/984807/</guid>
-            <pubDate>Thu, 08 Aug 2024 13:51:35 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
