@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 16 Aug 2024 15:06:36 +0000</pubDate>
-        <lastBuildDate>Fri, 16 Aug 2024 15:08:00 +0000</lastBuildDate>
+        <pubDate>Fri, 16 Aug 2024 15:14:59 +0000</pubDate>
+        <lastBuildDate>Fri, 16 Aug 2024 15:24:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -332,30 +332,6 @@ on just how raw the shipped kernel is.]]></description>
             <guid>https://lwn.net/Articles/985043/</guid>
             <pubDate>Fri, 09 Aug 2024 19:47:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>New attack against the SLUB allocator</title>
-            <link>https://lwn.net/Articles/984984/</link>
-            <description><![CDATA[<p>
-Researchers from Graz University of Technology have
-<a href="https://www.stefangast.eu/papers/slubstick.pdf">published</a> details of a new attack
-on the Linux kernel called SLUBstack. The attack uses timing information to turn an ability to trigger use-after-free or double-free bugs into the ability to overwrite page tables, and thence into the ability to read and write arbitrary areas of memory. The good news is that this attack does require an existing bug to be usable; the bad news is that the kernel regularly sees bugs of this kind.
-</p>
-
-<blockquote class="bq">
-We assume that an unprivileged user has code execution. 
-Additionally, we consider the presence of a heap vulnerability
-in the Linux kernel. We assume that the Linux kernel 
-incorporates all defense mechanisms available in version 6.4, the
-most recent Linux kernel version when we started our work.
-These mechanisms include features such as WˆX, KASLR,
-SMAP, and kCFI. We do not assume any microarchitectural 
-vulnerabilities, e.g., transient execution, fault
-injection, or hardware side channels.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/984984/</guid>
-            <pubDate>Fri, 09 Aug 2024 15:08:27 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
