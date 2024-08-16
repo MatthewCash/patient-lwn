@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 16 Aug 2024 19:14:41 +0000</pubDate>
-        <lastBuildDate>Fri, 16 Aug 2024 20:08:46 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 16 Aug 2024 20:25:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -334,29 +334,6 @@ stable kernel updates have been released; each contains another set of
 important updates as usual.]]></description>
             <guid>https://lwn.net/Articles/985198/</guid>
             <pubDate>Sun, 11 Aug 2024 14:19:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A new kernel-version policy for Ubuntu</title>
-            <link>https://lwn.net/Articles/985043/</link>
-            <description><![CDATA[The Canonical Kernel Team has <a
-href="https://discourse.ubuntu.com/t/kernel-version-selection-for-ubuntu-releases/47007">announced</a>
-a new policy regarding the version of the kernel that will ship with each
-Ubuntu release; the result will generally be the shipping of newer
-releases.
-<p>
-<blockquote class="bq">
-	To provide users with the absolute latest in features and hardware
-	support, Ubuntu will now ship the absolute latest available version
-	of the upstream Linux kernel at the specified Ubuntu release freeze
-	date, even if upstream is still in Release Candidate (RC) status.
-</blockquote>
-<p>
-The post goes on to acknowledge that "<q>there are issues with this
-approach</q>"; there are a lot of policy details that will apply depending
-on just how raw the shipped kernel is.]]></description>
-            <guid>https://lwn.net/Articles/985043/</guid>
-            <pubDate>Fri, 09 Aug 2024 19:47:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
