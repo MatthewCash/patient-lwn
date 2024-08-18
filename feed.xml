@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 18 Aug 2024 20:31:20 +0000</pubDate>
-        <lastBuildDate>Sun, 18 Aug 2024 22:08:08 +0000</lastBuildDate>
+        <pubDate>Sun, 18 Aug 2024 22:23:07 +0000</pubDate>
+        <lastBuildDate>Sun, 18 Aug 2024 22:26:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.11-rc4</title>
+            <link>https://lwn.net/Articles/986163/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/986162/">fourth 6.11 kernel prepatch</a> is out for
+testing.  According to Linus:
+<p>
+<blockquote class="bq">
+	But it all looks fairly normal. rc4 is bigger than either rc2 or
+	rc3 were, but not hugely so, and it's actually a normal pattern,
+	where it takes a while before people find some issues. So nothing
+	feels all that odd.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/986163/</guid>
+            <pubDate>Sun, 18 Aug 2024 22:23:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Gentoo Linux drops IA-64 (Itanium) support</title>
             <link>https://lwn.net/Articles/986030/</link>
