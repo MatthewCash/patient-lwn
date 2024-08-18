@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 18 Aug 2024 22:23:07 +0000</pubDate>
-        <lastBuildDate>Sun, 18 Aug 2024 22:26:34 +0000</lastBuildDate>
+        <pubDate>Sun, 18 Aug 2024 22:31:16 +0000</pubDate>
+        <lastBuildDate>Sun, 18 Aug 2024 22:34:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Formatted Rust kernel documentation available</title>
+            <link>https://lwn.net/Articles/986167/</link>
+            <description><![CDATA[The Rust code being added to the kernel is documented using the usual <a
+href="https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html">rustdoc</a>
+conventions; that documentation is now <a
+href="https://rust.docs.kernel.org/kernel/">available on kernel.org</a> in
+formatted form.  There is also <a
+href="https://rust.docs.kernel.org/next/kernel/">the linux-next version of
+the documentation</a> for Rust code that will land in the kernel soon.]]></description>
+            <guid>https://lwn.net/Articles/986167/</guid>
+            <pubDate>Sun, 18 Aug 2024 22:28:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.11-rc4</title>
             <link>https://lwn.net/Articles/986163/</link>
