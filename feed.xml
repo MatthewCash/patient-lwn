@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 18 Aug 2024 22:31:16 +0000</pubDate>
-        <lastBuildDate>Sun, 18 Aug 2024 22:34:36 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 18 Aug 2024 22:47:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -342,16 +342,6 @@ Edition</a> and improving the language's async support.]]></description>
             <guid>https://lwn.net/Articles/985336/</guid>
             <pubDate>Mon, 12 Aug 2024 15:08:45 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.11-rc3</title>
-            <link>https://lwn.net/Articles/985233/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/985232/">6.11-rc3</a> right on
-schedule.  "<q>Nothing particularly strange or interesting going on, things
-look normal</q>".]]></description>
-            <guid>https://lwn.net/Articles/985233/</guid>
-            <pubDate>Sun, 11 Aug 2024 22:33:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
