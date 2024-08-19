@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 Aug 2024 13:39:19 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Aug 2024 14:09:26 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Aug 2024 14:17:54 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Aug 2024 14:29:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/986225/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (python-asyncssh), <b>Fedora</b> (bind, bind-dyndb-ldap, httpd, and tor), <b>SUSE</b> (cosign, cpio, curl, expat, java-11-openjdk, ncurses, netty, netty-tcnative, opera, python-Django, python-Pillow, shadow, sudo, and wpa_supplicant), and <b>Ubuntu</b> (firefox).]]></description>
+            <guid>https://lwn.net/Articles/986225/</guid>
+            <pubDate>Mon, 19 Aug 2024 14:14:39 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Formatted Rust kernel documentation available</title>
             <link>https://lwn.net/Articles/986167/</link>
