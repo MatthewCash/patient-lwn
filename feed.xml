@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 19 Aug 2024 15:12:03 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Aug 2024 15:47:05 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 19 Aug 2024 16:09:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -329,35 +329,6 @@ notes</a> for full details.</p>
             <guid>https://lwn.net/Articles/985350/</guid>
             <pubDate>Mon, 12 Aug 2024 16:57:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust Project goals for 2024</title>
-            <link>https://lwn.net/Articles/985296/</link>
-            <description><![CDATA[The Rust project has <a
-href="https://blog.rust-lang.org/2024/08/12/Project-goals.html">developed a
-set of goals</a> for the latter half of 2024.
-<p>
-<blockquote class="bq">
-	<a
-	href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html"><strong>Rust
-	for Linux.</strong></a> The <a
-	href="https://rust-for-linux.com/">experimental support for Rust
-	development in the Linux kernel</a> is a watershed moment for Rust,
-	demonstrating to the world that Rust is indeed capable of targeting
-	all manner of low-level systems applications. And yet today that
-	support rests on a <a
-	href="https://github.com/Rust-for-Linux/linux/issues/2">number of
-	unstable features</a>, blocking the effort from ever going beyond
-	experimental status. For 2024H2 we will work to close the <a
-	href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html#the-next-six-months">largest
-	gaps that block support</a>.
-</blockquote>
-<p>
-Other goals include completing the <a href="https://lwn.net/Articles/958792/">2024 Rust
-Edition</a> and improving the language's async support.]]></description>
-            <guid>https://lwn.net/Articles/985296/</guid>
-            <pubDate>Mon, 12 Aug 2024 15:47:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
