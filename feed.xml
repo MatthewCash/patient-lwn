@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 21 Aug 2024 14:10:24 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Aug 2024 14:28:24 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Aug 2024 14:37:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -274,18 +274,6 @@ pathological, but hidden, behavior where those macros were used.]]></description
             <guid>https://lwn.net/Articles/983965/</guid>
             <pubDate>Thu, 01 Aug 2024 14:28:31 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernels 6.10.5, 6.6.46, and 6.1.105</title>
-            <link>https://lwn.net/Articles/985669/</link>
-            <description><![CDATA[Three new stable kernels have been released: <a
-href="https://lwn.net/Articles/985670/">6.10.5</a>, <a
-href="https://lwn.net/Articles/985672/">6.6.46</a>, and <a
-href="https://lwn.net/Articles/985673/">6.1.105</a>. As usual, they contain important
-fixes all over the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/985669/</guid>
-            <pubDate>Wed, 14 Aug 2024 14:24:50 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
