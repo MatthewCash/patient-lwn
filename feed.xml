@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Aug 2024 17:38:52 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Aug 2024 17:46:44 +0000</lastBuildDate>
+        <pubDate>Wed, 21 Aug 2024 18:05:04 +0000</pubDate>
+        <lastBuildDate>Wed, 21 Aug 2024 18:10:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>“Something has gone seriously wrong,” dual-boot systems warn after Microsoft update (ars technica)</title>
+            <link>https://lwn.net/Articles/986659/</link>
+            <description><![CDATA[<p>Ars technica <a
+href="https://arstechnica.com/security/2024/08/a-patch-microsoft-spent-2-years-preparing-is-making-a-mess-for-some-linux-users/">covers</a>
+a recent <a
+href="https://msrc.microsoft.com/update-guide/en-US/advisory/CVE-2022-2601">update</a>
+that is causing problems for users with systems that dual-boot Windows
+and Linux.</p>
+
+<blockquote class="bq">
+<p>"Note that Windows says this update won't apply to systems that
+dual-boot Windows and Linux," one frustrated person wrote. "This
+obviously isn't true, and likely depends on your system configuration
+and the distribution being run. It appears to have made some linux efi
+shim bootloaders incompatible with microcrap efi bootloaders (that's
+why shifting from MS efi to 'other OS' in efi setup works). It appears
+that Mint has a shim version that MS SBAT doesn't recognize."</p>
+
+<p>The reports indicate that multiple distributions, including Debian,
+Ubuntu, Linux Mint, Zorin OS, and Puppy Linux, are all
+affected. Microsoft has yet to acknowledge the error publicly, explain
+how it wasn't detected during testing, or provide technical guidance
+to those affected. Company representatives didn't respond to an email
+seeking answers.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/986659/</guid>
+            <pubDate>Wed, 21 Aug 2024 18:03:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Górny: Gentoo: profiles and keywords rather than releases</title>
             <link>https://lwn.net/Articles/986655/</link>
