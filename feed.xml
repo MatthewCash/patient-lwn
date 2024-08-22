@@ -9,10 +9,151 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 21 Aug 2024 23:40:08 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Aug 2024 23:47:03 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Aug 2024 00:39:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 15, 2024</title>
+            <link>https://lwn.net/Articles/984770/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for August 15, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/984770/</guid>
+            <pubDate>Thu, 15 Aug 2024 01:05:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Standards for use of unsafe Rust in the kernel</title>
+            <link>https://lwn.net/Articles/982868/</link>
+            <description><![CDATA[<p>
+Rust is intended to let programmers write safer code.
+But compilers are
+not omniscient, and writing Rust code that interfaces with hardware (or that
+works with memory outside of Rust's lifetime paradigm) requires, at
+some point, the programmer's assurance that some operations are permissible. Benno Lossin
+<a href="https://lwn.net/ml/all/20240717221133.459589-1-benno.lossin@proton.me/">
+suggested adding
+some more documentation</a> to
+<a href="https://rust-for-linux.com/">
+the Rust-for-Linux project</a> clarifying the
+standards for commenting uses of <tt>unsafe</tt> in kernel code. There's general
+agreement that such standards are necessary, but less agreement on exactly when
+it is appropriate to use <tt>unsafe</tt>.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/982868/</guid>
+            <pubDate>Wed, 14 Aug 2024 14:17:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Zettlr: note-taking and publishing with Markdown</title>
+            <link>https://lwn.net/Articles/984502/</link>
+            <description><![CDATA[<p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> editors are a dime a dozen. Cheaper than that, actually,
+since many of them are open&#8209;source software. Despite the sheer number of
+options, finding an editor that has all of the features that one might want can
+be tricky. For some users, <a href="https://www.zettlr.com/">Zettlr</a>
+might the right tool. It is a <a
+href="https://en.wikipedia.org/wiki/WYSIWYM">What You See is What You
+Mean</a> (WYSIWYM) editor that stores its work locally as plain Markdown
+files. The project is billed as a "<q>one-stop publication
+workbench</q>", and is suitable for writing anything from blog posts to
+academic papers, maintaining a personal journal, or keeping notes in a <a
+href="https://en.wikipedia.org/wiki/Zettelkasten">Zettlekasten</a>. It
+is simple to get started with, but rewards deeper exploration and
+customization.</p>]]></description>
+            <guid>https://lwn.net/Articles/984502/</guid>
+            <pubDate>Tue, 13 Aug 2024 17:22:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Changes coming in PostgreSQL 17</title>
+            <link>https://lwn.net/Articles/984599/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://www.postgresql.org/">
+PostgreSQL</a> project has
+<a href="https://www.postgresql.org/about/news/postgresql-164-158-1413-1316-1220-and-17-beta-3-released-2910/">
+released</a> beta
+versions of PostgreSQL 17 containing several interesting security and usability
+improvements, alongside the usual performance improvements and bug fixes. If the
+release proceeds according to the usual timeline, the full release of version 17
+is expected in September or October.
+The most important changes are in what PostgreSQL does when a database
+supervisor has their credentials revoked, and added
+support for incremental database backups.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/984599/</guid>
+            <pubDate>Tue, 13 Aug 2024 14:10:23 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] COSMIC desktop makes its debut</title>
+            <link>https://lwn.net/Articles/984638/</link>
+            <description><![CDATA[<p>Linux hardware vendor <a
+href="https://system76.com/about">System76</a> started <a
+href="https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de">promoting</a>
+its work on a <a
+href="https://github.com/pop-os/cosmic-epoch">Rust-based, Wayland
+desktop environment</a> for its <a
+href="https://pop.system76.com/"><nobr>Pop!_OS</nobr></a>
+Ubuntu-derivative distribution almost two years
+ago. On August 8, the company released an alpha version of the <a
+href="https://system76.com/cosmic">COSMIC desktop environment</a> for
+users to test out. While it has rough edges and missing features, it
+is stable enough to get a good feel for what the finished product has
+in store&mdash;and the initial results are promising.</p>]]></description>
+            <guid>https://lwn.net/Articles/984638/</guid>
+            <pubDate>Mon, 12 Aug 2024 17:26:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Meeting the Debian Technical Committee</title>
+            <link>https://lwn.net/Articles/984720/</link>
+            <description><![CDATA[It is something of a DebConf tradition that members of the <a
+href="https://www.debian.org/devel/tech-ctte">Debian Technical
+Committee</a> (TC) take the stage to talk about the work that the committee
+does—and more.  <a href="https://debconf24.debconf.org/">DebConf24</a> in
+Busan, South Korea was no exception, as TC chair Sean Whitton, who
+will complete his term at the end of the year, and one
+of its newest members, Stefano Rivera, described the constitutional
+underpinnings of the TC, how it tries to make decisions when it needs to,
+and the constant process of recruiting new members.  After that, they took
+a few questions from the audience.  The session provided a nice overview of
+the TC and its role in Debian, but it may well be of interest further afield.]]></description>
+            <guid>https://lwn.net/Articles/984720/</guid>
+            <pubDate>Sat, 10 Aug 2024 01:51:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Distinguishing Debian testing from unstable</title>
+            <link>https://lwn.net/Articles/984635/</link>
+            <description><![CDATA[Sometimes, the smallest changes create the longest discussions.  As a case
+in point, a proposal to make a one-line change in an informational text
+file on systems running the Debian unstable distribution has blown up into
+an interminable and sometimes unfriendly debate.  At its core, though, this
+discussion comes down to a seemingly simple question: should a program be
+able to determine whether it is running on a Debian testing or unstable
+system?]]></description>
+            <guid>https://lwn.net/Articles/984635/</guid>
+            <pubDate>Fri, 09 Aug 2024 15:12:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Endless OS aimed at educational and offline environments</title>
+            <link>https://lwn.net/Articles/984086/</link>
+            <description><![CDATA[<p>
+<a href="https://www.endlessos.org/os">
+Endless OS</a> is a Linux distribution with a focus on improving access to
+educational tools by providing a simple-to-manage, full-featured desktop for
+educators and students — one that works offline, with minimal maintenance. The
+distribution also aims to be suitable for older devices, in order to promote access to
+computers by ensuring those systems remain usable.
+In pursuit of those goals, it makes some unusual technical
+choices. But what makes the distribution really shine is its curated collection
+of software and educational resources.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/984086/</guid>
+            <pubDate>Thu, 08 Aug 2024 13:56:26 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>“Something has gone seriously wrong,” dual-boot systems warn after Microsoft update (ars technica)</title>
             <link>https://lwn.net/Articles/986659/</link>
@@ -191,139 +332,6 @@ been only very few users interested in this type of hardware.
             <guid>https://lwn.net/Articles/985845/</guid>
             <pubDate>Thu, 15 Aug 2024 14:07:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for August 8, 2024</title>
-            <link>https://lwn.net/Articles/984216/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for August 8, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/984216/</guid>
-            <pubDate>Thu, 08 Aug 2024 01:37:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] CRIB: checkpoint/restore in BPF</title>
-            <link>https://lwn.net/Articles/984313/</link>
-            <description><![CDATA[The desire for the ability to checkpoint a process — to record its state in
-a form that can be restarted at a future time — on Linux is almost as old as
-Linux itself.  See, for example, <a
-href="https://lwn.net/1998/0528/a/checkpoint.html">this announcement</a> of a checkpoint
-project that appeared in LWN in 1998.  While working solutions exist, they
-can be somewhat fragile and difficult to use; it is not surprising that
-some people are interested in finding a better alternative.  A current
-effort goes by the name CRIB,
-for Checkpoint/Restore in (naturally) BPF.  It is far from clear that CRIB
-will replace the existing solutions, but it is an interesting look at a
-different way of solving the problem.]]></description>
-            <guid>https://lwn.net/Articles/984313/</guid>
-            <pubDate>Wed, 07 Aug 2024 15:35:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Tracing the source of filesystem errors</title>
-            <link>https://lwn.net/Articles/984556/</link>
-            <description><![CDATA[There are lots of places in the kernel where an <tt>EINVAL</tt> can be
-returned to user space, but it is often unclear what the actual underlying
-problem is because the <a
-href="https://man7.org/linux/man-pages/man3/errno.3.html"><tt>errno</tt></a>
-error codes are too generic.  That is the problem that Miklos Szeredi
-wanted to discuss in a filesystem session that he led remotely at the 2024 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>.  He would like to help
-those who are trying to debug problems trace where in the kernel a
-particular error code is being generated.]]></description>
-            <guid>https://lwn.net/Articles/984556/</guid>
-            <pubDate>Wed, 07 Aug 2024 14:18:21 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] CircuitPython: Python for microcontrollers, simplified</title>
-            <link>https://lwn.net/Articles/983870/</link>
-            <description><![CDATA[<a href="https://circuitpython.org/">CircuitPython</a> is an open-source
-implementation of the Python programming language for microcontroller
-boards.  The project, which is sponsored by <a
-href="https://www.adafruit.com/">Adafruit Industries</a>, is designed with
-new programmers in mind, but it also has many features that may be of
-interest to more-experienced developers. The recent <a
-href="https://blog.adafruit.com/2024/07/10/circuitpython-9-1-0-released/">9.1.0&nbsp;release</a>
-adds a few minor features, but it follows just a few months after <a
-href="https://blog.adafruit.com/2024/03/18/circuitpython-9-0-0-released/">CircuitPython&nbsp;9.0.0</a>,
-which brings some more significant changes, including improved graphics and
-USB support.]]></description>
-            <guid>https://lwn.net/Articles/983870/</guid>
-            <pubDate>Tue, 06 Aug 2024 14:35:25 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Handling filesystem interruptibility</title>
-            <link>https://lwn.net/Articles/983714/</link>
-            <description><![CDATA[David Howells wanted to discuss changing the way filesystem code handles
-the ability to interrupt or kill operations, in order to fix some
-longstanding problems with network 
-(and other) filesystems, in a session at
-the 2024 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a>.   As noted in
-his <a href="https://lwn.net/ml/all/2701318.1706863882%40warthog.procyon.org.uk/">session
-proposal</a>, some filesystems may be expecting to not be interruptible,
-but are calling code can take locks and mutexes that are interruptible (or
-killable), which are effectively
-changing the state of the task incorrectly.
-He would like to find a solution for that problem.]]></description>
-            <guid>https://lwn.net/Articles/983714/</guid>
-            <pubDate>Mon, 05 Aug 2024 19:15:53 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The complexity of BUSL transformation</title>
-            <link>https://lwn.net/Articles/984249/</link>
-            <description><![CDATA[<p>The <a href="https://spdx.org/licenses/BUSL-1.1.html">Business
-Source License</a> (BUSL) is a source-available license that "converts"
-to an open-source license after a period of time. In theory, this
-means that a few years after a version of a product is released under
-the BUSL, it becomes open source and is fair game for Linux
-distributions to package along with regular open-source projects. In
-practice, the license throws a few curveballs that require special
-consideration and caution, as the Fedora Project recently discussed.</p>]]></description>
-            <guid>https://lwn.net/Articles/984249/</guid>
-            <pubDate>Mon, 05 Aug 2024 14:55:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Divvi Up: privacy-respecting telemetry aggregation</title>
-            <link>https://lwn.net/Articles/983843/</link>
-            <description><![CDATA[<p>
-There is ongoing discussion about the ethics and effectiveness of
-telemetry following some recent LWN articles that touched on
-<a href="https://lwn.net/Articles/982610/">
-Thunderbird's use of opt-out
-telemetry</a> and <a href="https://lwn.net/Articles/980598/">planned metrics in Fedora</a>. The
-<a href="https://www.abetterinternet.org/">
-Internet Security Research Group</a> (ISRG), the nonprofit behind
-<a href="https://letsencrypt.org/">
-Let's Encrypt</a>, has a potential solution to the problem of how to collect and
-aggregate telemetry without violating users' privacy. The scheme is based on a
-<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/">draft
-protocol</a> being standardized with the Internet Engineering Task Force (IETF),
-and has an
-<a href="https://github.com/divviup/libprio-rs">open-source implementation</a>
-available.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/983843/</guid>
-            <pubDate>Fri, 02 Aug 2024 13:13:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Maximal min() and max()</title>
-            <link>https://lwn.net/Articles/983965/</link>
-            <description><![CDATA[Like many projects written in C, the kernel makes extensive use of the C
-preprocessor; indeed, the kernel's use is rather more extensive than most.
-The preprocessor famously has a number of sharp edges associated with it.
-One might not normally think of increased compilation time as one of them,
-though.  It turns out that some changes to a couple of conceptually simple
-preprocessor macros — <tt>min()</tt> and <tt>max()</tt> — led to some truly
-pathological, but hidden, behavior where those macros were used.]]></description>
-            <guid>https://lwn.net/Articles/983965/</guid>
-            <pubDate>Thu, 01 Aug 2024 14:28:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
