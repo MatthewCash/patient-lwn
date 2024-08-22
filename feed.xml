@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 22 Aug 2024 14:02:42 +0000</pubDate>
-        <lastBuildDate>Thu, 22 Aug 2024 14:07:46 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Aug 2024 14:25:01 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Aug 2024 14:28:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/986841/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, bind, bind9.16, curl, edk2, firefox, gnome-shell, grafana, jose, krb5, libreoffice, mod_auth_openidc:2.3, orc, pcs, poppler, python-setuptools, python-urllib3, python3.11-setuptools, python3.12-setuptools, thunderbird, tomcat, and wget), <b>Fedora</b> (webkitgtk), <b>SUSE</b> (apache2, glib2, and roundcubemail), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-azure, linux-azure-5.15,
+ linux-azure-fde, linux-azure-fde-5.15, linux-gcp, linux-gcp-5.15,
+ linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm,
+ linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
+ linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle,
+ linux-raspi, linux, linux-aws, linux-azure, linux-bluefield, linux-gcp, linux-gcp-5.4,
+ linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-ibm,
+ linux-lowlatency, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency,
+ linux-oem-6.8, linux-oracle, linux-raspi, linux, linux-aws, linux-kvm, linux-lts-xenial, linux, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-aws, linux-aws-hwe, linux-bluefield, linux-hwe-5.15, linux-raspi-5.4, and qemu).]]></description>
+            <guid>https://lwn.net/Articles/986841/</guid>
+            <pubDate>Thu, 22 Aug 2024 14:07:33 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Garrett: What is an SBAT and why does everyone suddenly care</title>
+            <link>https://lwn.net/Articles/986844/</link>
+            <description><![CDATA[Matthew Garrett <a href="https://mjg59.dreamwidth.org/70348.html">describes
+the role of the Secure Boot Advanced Targeting mechanism</a> and how it
+played into the recent Windows upgrade problems.
+<p>
+<blockquote class="bq">
+	So why is this suddenly relevant? SBAT was developed
+	collaboratively between the Linux community and Microsoft, and
+	Microsoft chose to push a Windows update that told systems not to
+	trust versions of grub with a security generation below a certain
+	level. This was because those versions of grub had genuine security
+	vulnerabilities that would allow an attacker to compromise the
+	Windows secure boot chain, and we've seen real world examples of
+	malware wanting to do that.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/986844/</guid>
+            <pubDate>Thu, 22 Aug 2024 14:25:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 15, 2024</title>
             <link>https://lwn.net/Articles/984770/</link>
@@ -324,14 +362,6 @@ been only very few users interested in this type of hardware.
             <guid>https://lwn.net/Articles/985980/</guid>
             <pubDate>Fri, 16 Aug 2024 13:07:41 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/985845/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8), <b>Debian</b> (flatpak), <b>Fedora</b> (389-ds-base, dotnet8.0, and roundcubemail), <b>Red Hat</b> (bind9.16, firefox, python-setuptools, and thunderbird), <b>Slackware</b> (dovecot), <b>SUSE</b> (389-ds, curl, kernel, kernel-firmware, kubernetes1.25, openssl-1_1, openssl-3, python-Pillow, and zziplib), and <b>Ubuntu</b> (busybox, linux-azure, and ruby-rmagick).]]></description>
-            <guid>https://lwn.net/Articles/985845/</guid>
-            <pubDate>Thu, 15 Aug 2024 14:07:24 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
