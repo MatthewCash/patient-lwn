@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 22 Aug 2024 18:45:10 +0000</pubDate>
-        <lastBuildDate>Thu, 22 Aug 2024 18:46:49 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Aug 2024 18:51:49 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Aug 2024 19:07:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LibreOffice 24.8 released</title>
+            <link>https://lwn.net/Articles/986906/</link>
+            <description><![CDATA[<a
+href="https://blog.documentfoundation.org/blog/2024/08/22/libreoffice-248/">Version
+24.8</a> of the LibreOffice office suite has been released.  Changes
+include the ability to filter identifying information from exported files,
+easier creation of cross reference, better control over hyphenation, a
+number of new spreadsheet functions, accessibility improvements, and more.]]></description>
+            <guid>https://lwn.net/Articles/986906/</guid>
+            <pubDate>Thu, 22 Aug 2024 18:51:48 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/986841/</link>
