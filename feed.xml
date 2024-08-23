@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 23 Aug 2024 14:50:12 +0000</pubDate>
-        <lastBuildDate>Fri, 23 Aug 2024 16:46:41 +0000</lastBuildDate>
+        <pubDate>Fri, 23 Aug 2024 16:58:44 +0000</pubDate>
+        <lastBuildDate>Fri, 23 Aug 2024 17:07:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,32 +367,6 @@ testing.  According to Linus:
             <guid>https://lwn.net/Articles/986163/</guid>
             <pubDate>Sun, 18 Aug 2024 22:23:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Gentoo Linux drops IA-64 (Itanium) support</title>
-            <link>https://lwn.net/Articles/986030/</link>
-            <description><![CDATA[<p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
-<a
-href="https://www.gentoo.org/news/2024/08/14/Gentoo-drops-IA-64-support.html">announced</a>
-that it is dropping support for Itanium:</p>
-
-<blockquote class="bq">
-Following the removal of <a
-href="https://en.wikipedia.org/wiki/Itanium">IA-64 (Itanium)</a>
-support in the <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=cf8e8658100d4eae80ce9b21f7a81cb024dd5057">Linux kernel</a>
-and <a
-href="https://sourceware.org/git/?p=glibc.git;a=commit;h=460860f457e2a889785c506e8c77d4a7dff24d3e">glibc</a>,
-and <a href="https://public-inbox.gentoo.org/gentoo-dev/75654daa-c5fc-45c8-a104-fae43b9ca490@gentoo.org/T/">subsequent discussions on our mailing list</a>, as well as
-a <a href="https://projects.gentoo.org/council/meeting-logs/20240721-summary.txt">vote by the Gentoo Council</a>, Gentoo will discontinue all ia64
-profiles and keywords. The primary reason for this decision is the
-inability of the Gentoo IA-64 team to support this architecture
-without kernel support, glibc support, and a functional development
-box (or even a well-established emulator). In addition, there have
-been only very few users interested in this type of hardware.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/986030/</guid>
-            <pubDate>Fri, 16 Aug 2024 16:46:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
