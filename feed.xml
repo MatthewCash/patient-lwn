@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 25 Aug 2024 21:46:13 +0000</pubDate>
-        <lastBuildDate>Sun, 25 Aug 2024 22:07:23 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 25 Aug 2024 22:27:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -364,22 +364,6 @@ href="https://rust.docs.kernel.org/next/kernel/">the linux-next version of
 the documentation</a> for Rust code that will land in the kernel soon.]]></description>
             <guid>https://lwn.net/Articles/986167/</guid>
             <pubDate>Sun, 18 Aug 2024 22:28:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.11-rc4</title>
-            <link>https://lwn.net/Articles/986163/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/986162/">fourth 6.11 kernel prepatch</a> is out for
-testing.  According to Linus:
-<p>
-<blockquote class="bq">
-	But it all looks fairly normal. rc4 is bigger than either rc2 or
-	rc3 were, but not hugely so, and it's actually a normal pattern,
-	where it takes a while before people find some issues. So nothing
-	feels all that odd.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/986163/</guid>
-            <pubDate>Sun, 18 Aug 2024 22:23:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
