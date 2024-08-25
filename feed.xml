@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 25 Aug 2024 21:46:13 +0000</pubDate>
-        <lastBuildDate>Sun, 25 Aug 2024 22:27:41 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 25 Aug 2024 22:36:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -351,20 +351,6 @@ fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/986225/</guid>
             <pubDate>Mon, 19 Aug 2024 14:14:39 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Formatted Rust kernel documentation available</title>
-            <link>https://lwn.net/Articles/986167/</link>
-            <description><![CDATA[The Rust code being added to the kernel is documented using the usual <a
-href="https://doc.rust-lang.org/rustdoc/what-is-rustdoc.html">rustdoc</a>
-conventions; that documentation is now <a
-href="https://rust.docs.kernel.org/kernel/">available on kernel.org</a> in
-formatted form.  There is also <a
-href="https://rust.docs.kernel.org/next/kernel/">the linux-next version of
-the documentation</a> for Rust code that will land in the kernel soon.]]></description>
-            <guid>https://lwn.net/Articles/986167/</guid>
-            <pubDate>Sun, 18 Aug 2024 22:28:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
