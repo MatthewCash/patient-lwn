@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 26 Aug 2024 17:19:46 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Aug 2024 17:34:48 +0000</lastBuildDate>
+        <pubDate>Mon, 26 Aug 2024 17:45:31 +0000</pubDate>
+        <lastBuildDate>Mon, 26 Aug 2024 17:47:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Sovereign Tech Fund (STF) to invest in FreeBSD infrastructure modernization</title>
+            <link>https://lwn.net/Articles/987311/</link>
+            <description><![CDATA[<p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a> has announced that Germany's <a href="https://www.sovereigntechfund.de/">Sovereign Tech
+Fund</a> (STF) has agreed to invest €686,400 toward improvements in the
+<a href="https://www.freebsd.org/">FreeBSD</a> project's infrastructure, security, regulatory compliance, and
+developer experience:</p>
+
+<blockquote class="bq">
+The work commissioned by STF also aligns closely with the recent
+<a
+href="https://www.whitehouse.gov/oncd/briefing-room/2024/08/09/fact-sheet-biden-harris-administration-releases-end-of-year-report-on-open-source-software-security-initiative-2/">August
+9, 2024 summary report</a> released by the <a href="https://www.whitehouse.gov/oncd/">U.S. Office of the
+National Cyber Director</a> (ONCD), consolidating feedback from the 2023
+request for information on key priorities for securing the open source
+software ecosystem. By enhancing security controls and SBOM tooling,
+the FreeBSD Foundation is helping to keep FreeBSD at the forefront of
+improved vulnerability disclosure mechanisms and secure software
+foundations.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/987311/</guid>
+            <pubDate>Mon, 26 Aug 2024 17:36:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/987309/</link>
