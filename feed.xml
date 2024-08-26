@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 26 Aug 2024 18:58:45 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Aug 2024 20:34:17 +0000</lastBuildDate>
+        <pubDate>Mon, 26 Aug 2024 20:45:05 +0000</pubDate>
+        <lastBuildDate>Mon, 26 Aug 2024 20:46:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A malicious Pidgin plugin</title>
+            <link>https://lwn.net/Articles/987320/</link>
+            <description><![CDATA[The developers of the <a href="https://pidgin.im/">Pidgin</a> chat program
+have <a
+href="https://pidgin.im/posts/2024-08-malicious-plugin/">announced</a> that
+a malicious plugin had been listed on its third-party plugins list for over
+one month.  This plugin included a key logger and could capture
+screenshots.
+<p>
+<blockquote class="bq">
+	It went unnoticed at the time that the plugin was not providing any
+	source code and was only providing binaries for download. Going
+	forward, we will be requiring that all plugins that we link to have
+	an OSI Approved Open Source License and that some level of due
+	diligence has been done to verify that the plugin is safe for
+	users.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/987320/</guid>
+            <pubDate>Mon, 26 Aug 2024 20:45:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Sovereign Tech Fund (STF) to invest in FreeBSD infrastructure modernization</title>
             <link>https://lwn.net/Articles/987311/</link>
