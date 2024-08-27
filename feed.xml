@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 27 Aug 2024 19:44:25 +0000</pubDate>
-        <lastBuildDate>Tue, 27 Aug 2024 21:46:48 +0000</lastBuildDate>
+        <pubDate>Tue, 27 Aug 2024 21:46:15 +0000</pubDate>
+        <lastBuildDate>Tue, 27 Aug 2024 22:07:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>WineHQ to take over Mono</title>
+            <link>https://lwn.net/Articles/987465/</link>
+            <description><![CDATA[The Mono project was started in 2001 to develop a .NET environment for
+Linux systems.  Microsoft has owned that project since 2016, but has not
+made a major release since 2019.  The company has now <a
+href="https://www.mono-project.com/">announced</a> that Mono is being
+handed over to the WineHQ organization, which will maintain <a
+href="https://gitlab.winehq.org/wine-mono/mono">the repository</a> going
+forward.  Microsoft, meanwhile, is steering users toward its "<q>modern
+fork</q>" that it continues to maintain.]]></description>
+            <guid>https://lwn.net/Articles/987465/</guid>
+            <pubDate>Tue, 27 Aug 2024 21:46:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Calligra Office 4.0 released</title>
             <link>https://lwn.net/Articles/987414/</link>
