@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Aug 2024 12:46:01 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Aug 2024 13:46:45 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Aug 2024 14:07:26 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Aug 2024 14:09:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust-for-Linux Wedson Almeida Filho drops out</title>
+            <link>https://lwn.net/Articles/987635/</link>
+            <description><![CDATA[Wedson Almeida Filho, one of the key developers driving the <a
+href="https://rust-for-linux.com/">Rust for Linux project</a>, has <a
+href="https://lwn.net/ml/all/20240828211117.9422-1-wedsonaf@gmail.com">retired from the
+project</a>.
+<p>
+<blockquote class="bq">
+	 After almost 4 years, I find myself lacking the energy and
+	 enthusiasm I once had to respond to some of the nontechnical
+	 nonsense, so it's best to leave it up to those who still have it
+	 in them.
+</blockquote>
+<p>
+As an example of the sort of "nonsense" he referred to, he provided <a
+href="https://youtu.be/WiPp9YEBV0Q?t=1529">a link to the video</a> from the
+<a href="https://lwn.net/Articles/978738/">Rust for filesystems discussion</a> at the 2024
+Linux Storage, Filesystem, Memory-Management, and BPF Summit.  His work was
+fundamental to getting the project as far as it has come; he will be missed.]]></description>
+            <guid>https://lwn.net/Articles/987635/</guid>
+            <pubDate>Thu, 29 Aug 2024 14:07:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] A review of file descriptor memory safety in the kernel</title>
             <link>https://lwn.net/Articles/985853/</link>
