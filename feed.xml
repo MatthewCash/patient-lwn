@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Aug 2024 14:08:39 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Aug 2024 14:29:13 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Aug 2024 14:34:48 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Aug 2024 14:39:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/987664/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind and bind-dyndb-ldap and postgresql:16), <b>Fedora</b> (less and python3.6), <b>Mageia</b> (nodejs &amp; yarnpkg), <b>Oracle</b> (libvpx and postgresql:16), <b>Red Hat</b> (edk2, git, kernel, openldap, postgresql:15, postgresql:16, python3, and python39:3.9 and python39-devel:3.9), <b>SUSE</b> (apache2, python-setuptools, and python3-setuptools), and <b>Ubuntu</b> (linux-oracle).]]></description>
+            <guid>https://lwn.net/Articles/987664/</guid>
+            <pubDate>Thu, 29 Aug 2024 14:33:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Rust-for-Linux Wedson Almeida Filho drops out</title>
             <link>https://lwn.net/Articles/987635/</link>
