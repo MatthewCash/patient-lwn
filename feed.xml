@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Aug 2024 19:01:03 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Aug 2024 19:07:49 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Aug 2024 19:19:17 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Aug 2024 19:21:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Graham: Asking for donations in Plasma</title>
+            <link>https://lwn.net/Articles/987715/</link>
+            <description><![CDATA[<p>The <a href="https://kde.org/">KDE project</a> plans to directly
+ask for donations in the Plasma desktop starting with version
+6.2. According to <a
+href="https://pointieststick.com/2024/08/28/asking-for-donations-in-plasma/">this
+blog post</a> by Nate Graham, users will see <a
+href="https://invent.kde.org/plasma/plasma-workspace/-/merge_requests/4490">a
+system notification</a> once per year (in December) asking for a
+donation to the non-profit <a href="https://ev.kde.org/">KDE&nbsp;e.V.</a>:</p>
+
+<blockquote class="bq">
+Now, I know that messages like this can be controversial! The
+change was carefully considered, and we tried our best to minimize
+the annoying-ness factor: It's small and unobtrusive, and no matter
+what you do with it (click any button, close it, etc) it'll go away
+until next year. It's implemented as a KDE Daemon (KDED) module,
+which allows users and distributors to permanently disable it if they
+like.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/987715/</guid>
+            <pubDate>Thu, 29 Aug 2024 19:09:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GNU Screen v.5.0.0 is released</title>
             <link>https://lwn.net/Articles/987700/</link>
