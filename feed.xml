@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Aug 2024 12:47:13 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Aug 2024 12:48:49 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Aug 2024 13:12:39 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Aug 2024 13:15:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -408,14 +408,6 @@ some of the dependencies we used were incompatible with the license Forgejo was 
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/986998/</guid>
             <pubDate>Fri, 23 Aug 2024 13:39:33 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/986997/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (community-mysql, iaito, and radare2), <b>Oracle</b> (python3.12-setuptools and tomcat), <b>Red Hat</b> (krb5 and podman), <b>Slackware</b> (ffmpeg), <b>SUSE</b> (apache2, expat, firefox, webkit2gtk3, and xen), and <b>Ubuntu</b> (imagemagick and libxstream-java).]]></description>
-            <guid>https://lwn.net/Articles/986997/</guid>
-            <pubDate>Fri, 23 Aug 2024 13:03:10 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
