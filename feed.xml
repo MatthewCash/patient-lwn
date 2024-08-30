@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Aug 2024 13:55:30 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Aug 2024 14:07:57 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Aug 2024 14:07:56 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Aug 2024 14:28:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>ElasticSearch and Kibana become free software (again)</title>
+            <link>https://lwn.net/Articles/987850/</link>
+            <description><![CDATA[Back in 2021, the ElasticSearch search engine and Kibana visualization
+platform <a href="https://lwn.net/Articles/843274/">were relicensed</a> under the non-free
+Server Side Public License (SSPL).  Now, Elastic (the company owning those
+projects) has <a
+href="https://www.elastic.co/blog/elasticsearch-is-open-source-again">announced</a>
+that those projects will also be distributable under the Affero GPL license.
+<p>
+<blockquote class="bq">
+	We never stopped believing and behaving like an open source
+	community after we changed the license. But being able to use the
+	term Open Source, by using AGPL, an OSI approved license, removes
+	any questions, or fud, people might have.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/987850/</guid>
+            <pubDate>Fri, 30 Aug 2024 14:07:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>AnandTech shuts down</title>
             <link>https://lwn.net/Articles/987847/</link>
