@@ -8,11 +8,56 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Aug 2024 13:37:55 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Aug 2024 13:46:43 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Aug 2024 13:55:30 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Aug 2024 14:07:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>AnandTech shuts down</title>
+            <link>https://lwn.net/Articles/987847/</link>
+            <description><![CDATA[The venerable AnandTech site has <a
+href="https://www.anandtech.com/show/21542/end-of-the-road-an-anandtech-farewell">announced
+its closing</a> after 27&nbsp;years of technology-industry coverage.
+<p>
+<blockquote class="bq">
+	Still, few things last forever, and the market for written tech
+	journalism is not what it once was – nor will it ever be again. So,
+	the time has come for AnandTech to wrap up its work, and let the
+	next generation of tech journalists take their place within the
+	zeitgeist.
+</blockquote>
+<p>
+The site will surely be missed.]]></description>
+            <guid>https://lwn.net/Articles/987847/</guid>
+            <pubDate>Fri, 30 Aug 2024 13:50:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Airlie: On Rust, Linux, developers, maintainers</title>
+            <link>https://lwn.net/Articles/987849/</link>
+            <description><![CDATA[Dave Airlie <a
+href="https://airlied.blogspot.com/2024/08/on-rust-linux-developers-maintainers.html">makes
+an analogy</a> between the stages of road building and those of adding Rust
+to the Linux kernel.
+<p>
+<blockquote class="bq">
+	For the wayfinders the process of interacting with maintainers is
+	frustrating and slow, and they don't enjoy it as much as
+	wayfinding, and because they still only care about the hotel at the
+	end, when a maintainer gets into the details of their particular
+	intersection they don't want to do anything but go stay in their
+	hotel. 
+<p>
+	The road will get built, it will get traffic on it. There will be
+	tunnels where we should have intersections, there will be bridges
+	that need to be built from both sides, but I do think it will get
+	built.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/987849/</guid>
+            <pubDate>Fri, 30 Aug 2024 13:55:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/987836/</link>
