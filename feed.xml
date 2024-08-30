@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Aug 2024 13:29:50 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Aug 2024 13:38:32 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Aug 2024 13:37:55 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Aug 2024 13:46:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -391,24 +391,6 @@ announcement; "<q>A third of a century. And it *still* isn't ready</q>".]]></des
             <guid>https://lwn.net/Articles/987164/</guid>
             <pubDate>Sun, 25 Aug 2024 15:35:29 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Forgejo changes license to GPLv3+</title>
-            <link>https://lwn.net/Articles/986998/</link>
-            <description><![CDATA[<p>
-The 
-<a href="https://forgejo.org/">
-Forgejo</a> project has <a href="https://forgejo.org/2024-08-gpl/">announced</a> that, starting from version 9.0, Forgejo will be released under the GPLv3 license (or a later version). Older versions of the software forge remain MIT-licensed.
-</p>
-
-<blockquote class="bq">
-A copyleft license makes reusing other copyleft software easier. Recently, we discovered that 
-<a href="https://forgejo.org/2024-07-non-free-dependency-found/">
-some of the dependencies we used were incompatible with the license Forgejo was distributed with</a>, and they had to be removed for now. Choosing copyleft licenses enables us to reuse more work, and saves us precious time to focus on improving Forgejo itself.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/986998/</guid>
-            <pubDate>Fri, 23 Aug 2024 13:39:33 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
