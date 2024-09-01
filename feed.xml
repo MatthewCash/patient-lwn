@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 01 Sep 2024 15:24:21 +0000</pubDate>
-        <lastBuildDate>Sun, 1 Sep 2024 15:32:11 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 1 Sep 2024 15:46:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -479,20 +479,6 @@ foundations.
             <guid>https://lwn.net/Articles/987309/</guid>
             <pubDate>Mon, 26 Aug 2024 17:12:19 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.11-rc5</title>
-            <link>https://lwn.net/Articles/987164/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/987163/">6.11-rc5</a> kernel prepatch is out for
-testing.  "<q>Other than the timing, there's not a whole lot unusual
-here. The diffstat looks fairly flat, which means 'mostly pretty small
-changes'.</q>" Linus Torvalds added <a
-href="https://lwn.net/ml/all/CAHk-=whsqTTsiZ=XmecYwQqqya2C4ufysiDj2bOPhvke4mR2mg@mail.gmail.com">a
-note</a> that today marks the 33rd anniversary of the first Linux
-announcement; "<q>A third of a century. And it *still* isn't ready</q>".]]></description>
-            <guid>https://lwn.net/Articles/987164/</guid>
-            <pubDate>Sun, 25 Aug 2024 15:35:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
