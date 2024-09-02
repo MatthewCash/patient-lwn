@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Sep 2024 13:59:57 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Sep 2024 14:08:02 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Sep 2024 14:23:23 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Sep 2024 14:27:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/988364/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (postgresql:16), <b>Debian</b> (dovecot, pymatgen, ruby2.7, systemd, and webkit2gtk), <b>Fedora</b> (microcode_ctl, python3.11, vim, and xen), <b>Oracle</b> (kernel, postgresql:12, postgresql:13, postgresql:15, and python39:3.9 and python39-devel:3.9), <b>Slackware</b> (libpcap), <b>SUSE</b> (cacti, cacti-spine, python-Django, and trivy), and <b>Ubuntu</b> (dovecot).]]></description>
+            <guid>https://lwn.net/Articles/988364/</guid>
+            <pubDate>Mon, 02 Sep 2024 14:23:22 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.11-rc6</title>
             <link>https://lwn.net/Articles/988184/</link>
