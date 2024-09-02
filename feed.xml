@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 02 Sep 2024 17:23:48 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Sep 2024 17:25:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 2 Sep 2024 17:32:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -479,14 +479,6 @@ foundations.
             <guid>https://lwn.net/Articles/987311/</guid>
             <pubDate>Mon, 26 Aug 2024 17:36:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/987309/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, python-html-sanitizer, and trafficserver), <b>Fedora</b> (nginx, nginx-mod-fancyindex, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, python-webob, python3-docs, python3.11, python3.12, python3.9, and zabbix), <b>Red Hat</b> (bind, bind and bind-dyndb-ldap, bind9.16, httpd, kernel, kernel-rt, and nodejs:20), <b>SUSE</b> (caddy, chromium, chromium, gn, rust-bindgen, cockpit, fetchmail, gdcm, gh, keybase-client, libhtp, libofx, nano, plasma5-workspace, python-nltk, python-notebook, xen, and znc), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-azure-5.4, and linux-oracle-5.15).]]></description>
-            <guid>https://lwn.net/Articles/987309/</guid>
-            <pubDate>Mon, 26 Aug 2024 17:12:19 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
