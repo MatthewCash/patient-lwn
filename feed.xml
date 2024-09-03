@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Sep 2024 16:03:59 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Sep 2024 16:11:04 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Sep 2024 16:26:14 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Sep 2024 16:33:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,35 +403,6 @@ overhaul</q>" of the office suite's user interface, and a transition to <a
 href="https://en.wikipedia.org/wiki/Qt_(software)">Qt&nbsp;6</a> and <a href="https://develop.kde.org/products/frameworks/">KDE&nbsp;Frameworks&nbsp;6</a>.</p>]]></description>
             <guid>https://lwn.net/Articles/987414/</guid>
             <pubDate>Tue, 27 Aug 2024 17:16:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Call for nominations: Ubuntu Community Council</title>
-            <link>https://lwn.net/Articles/987406/</link>
-            <description><![CDATA[<p>Nominations are <a
-href="https://fridge.ubuntu.com/2024/08/26/call-for-nominations-ubuntu-community-council/">now
-open</a> for people interested in joining the <a
-href="https://ubuntu.com/community/governance/community-council">Ubuntu
-Community Council</a>, "<q>the highest governance body of the Ubuntu
-project</q>". Any <a
-href="https://ubuntu.com/community/membership">Ubuntu Member</a> can
-apply from now until Sunday, September 22 at 23:59 UTC.</p>
-
-<blockquote class="bq">
-The Ubuntu project turned 20 this year, but is still in constant
-flux. The advent of new communication platforms, new projects under
-our umbrella, and the ever-growing popularity of the project requires
-our community to evolve. We need to make sure Ubuntu is set to tackle
-the challenges of the next 20 years. It needs a strong and active
-community council to guide the project forwards.
-</blockquote>
-
-<p>See Merlijn Sebrechts's <a
-href="https://merlijn.sebrechts.be/blog/2024-02-17-ubuntu-community-council-year/">blog
-post</a>, "A year in the Ubuntu community council", for an overview of
-what it's like to serve on the council.</p>]]></description>
-            <guid>https://lwn.net/Articles/987406/</guid>
-            <pubDate>Tue, 27 Aug 2024 16:15:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
