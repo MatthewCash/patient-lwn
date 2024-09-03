@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Sep 2024 16:44:15 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Sep 2024 16:48:55 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Sep 2024 16:49:50 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Sep 2024 17:08:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 130.0 released</title>
+            <link>https://lwn.net/Articles/988607/</link>
+            <description><![CDATA[<p><a
+href="https://www.mozilla.org/en-US/firefox/130.0/releasenotes/">Version
+130.0</a> of the Firefox browser has been released. Notable in this
+release is the addition of a Firefox Labs tab in Firefox
+Settings. This allows users to easily enable experimental features,
+such as the ability to translate selected text portions to different
+languages after a full-page translation, and <a
+href="https://blog.mozilla.org/products/firefox/firefox-news/ai-services-on-firefox/">add
+an AI chatbot to the sidebar</a>. Firefox 130 also addresses <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/">several
+security issues</a>, adds 11 new languages to its translation support,
+and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/988607/</guid>
+            <pubDate>Tue, 03 Sep 2024 16:49:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/988570/</link>
