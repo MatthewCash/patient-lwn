@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Sep 2024 11:20:30 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Sep 2024 12:16:24 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Sep 2024 12:52:43 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Sep 2024 12:54:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/988746/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, nodejs:18, python-urllib3, and skopeo), <b>Debian</b> (firefox-esr and openssl), <b>Fedora</b> (apr and seamonkey), <b>Red Hat</b> (podman), <b>Slackware</b> (mozilla and seamonkey), <b>SUSE</b> (bubblewrap and flatpak, buildah, docker, dovecot23, ffmpeg, frr, go1.21-openssl, graphviz, java-1_8_0-openj9, kubernetes1.26, kubernetes1.27, kubernetes1.28, openssl-1_0_0, openssl-3, perl-DBI, python-aiohttp, python-Django, python-WebOb, thunderbird, tiff, ucode-intel, unbound, webkit2gtk3, and xen), and <b>Ubuntu</b> (drupal7 and twisted).]]></description>
+            <guid>https://lwn.net/Articles/988746/</guid>
+            <pubDate>Wed, 04 Sep 2024 12:51:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 130.0 released</title>
             <link>https://lwn.net/Articles/988607/</link>
