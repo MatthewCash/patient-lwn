@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Sep 2024 18:25:50 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Sep 2024 18:30:45 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Sep 2024 18:45:58 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Sep 2024 18:46:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Call for candidates for the 2024 Linux Foundation TAB election</title>
+            <link>https://lwn.net/Articles/988862/</link>
+            <description><![CDATA[The <a href="https://lwn.net/ml/all/87zforv3zc.fsf@trenco.lwn.net">call for candidates</a>
+has gone out for the 2024 election of members of the Linux Foundation
+Technical Advisory Board:
+<p>
+<blockquote class="bq">
+	The TAB exists to provide advice from the kernel community to the
+	Linux Foundation and holds a seat on the LF's board of directors;
+	it also serves to facilitate interactions both within the community
+	and with outside entities.  Over the last year, the TAB has
+	overseen the organization of the Linux Plumbers Conference, advised
+	on the setup of the kernel CVE numbering authority, worked behind
+	the scenes to help resolve a number of contentious community
+	discussions, worked with the Linux Foundation on community
+	conference planning, and more.
+</blockquote>
+<p>
+Nominations are due by September 20.]]></description>
+            <guid>https://lwn.net/Articles/988862/</guid>
+            <pubDate>Wed, 04 Sep 2024 18:43:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Tellico 4.0 released</title>
             <link>https://lwn.net/Articles/988837/</link>
