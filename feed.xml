@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Sep 2024 14:04:40 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Sep 2024 14:08:16 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Sep 2024 14:19:35 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Sep 2024 14:28:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/989046/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bubblewrap and flatpak, containernetworking-plugins, fence-agents, ghostscript, krb5, orc, podman, python3.11, python3.9, resource-agents, runc, and wget), <b>Debian</b> (chromium, cinder, glance, gnutls28, nova, nsis, python-oslo.utils, ruby-sinatra, and setuptools), <b>Fedora</b> (kernel), <b>Oracle</b> (bubblewrap and flatpak, buildah, containernetworking-plugins, fence-agents, ghostscript, gvisor-tap-vsock, kernel, krb5, libndp, nodejs:18, orc, podman, postgresql, python-urllib3, python3.11, python3.12, python3.9, runc, skopeo, and wget), <b>SUSE</b> (hdf5, netcdf, trilinos), and <b>Ubuntu</b> (firefox, imagemagick, ironic, openssl, python-django, vim, and znc).]]></description>
+            <guid>https://lwn.net/Articles/989046/</guid>
+            <pubDate>Thu, 05 Sep 2024 14:11:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Samba 4.21.0 released</title>
+            <link>https://lwn.net/Articles/989047/</link>
+            <description><![CDATA[Version 4.21.0 of the Samba Windows interoperability suite has been
+released.  Changes include some authentication hardening, a number of LDAP
+improvements, per-user and per-group veto and hide files, group-managed
+service accounts, and quite a bit more.]]></description>
+            <guid>https://lwn.net/Articles/989047/</guid>
+            <pubDate>Thu, 05 Sep 2024 14:19:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 29, 2024</title>
             <link>https://lwn.net/Articles/986853/</link>
@@ -372,30 +391,6 @@ important fixes throughout the kernel tree, as is the norm.]]></description>
             <guid>https://lwn.net/Articles/987664/</guid>
             <pubDate>Thu, 29 Aug 2024 14:33:29 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Rust-for-Linux Wedson Almeida Filho drops out</title>
-            <link>https://lwn.net/Articles/987635/</link>
-            <description><![CDATA[Wedson Almeida Filho, one of the key developers driving the <a
-href="https://rust-for-linux.com/">Rust for Linux project</a>, has <a
-href="https://lwn.net/ml/all/20240828211117.9422-1-wedsonaf@gmail.com">retired from the
-project</a>.
-<p>
-<blockquote class="bq">
-	 After almost 4 years, I find myself lacking the energy and
-	 enthusiasm I once had to respond to some of the nontechnical
-	 nonsense, so it's best to leave it up to those who still have it
-	 in them.
-</blockquote>
-<p>
-As an example of the sort of "nonsense" he referred to, he provided <a
-href="https://youtu.be/WiPp9YEBV0Q?t=1529">a link to the video</a> from the
-<a href="https://lwn.net/Articles/978738/">Rust for filesystems discussion</a> at the 2024
-Linux Storage, Filesystem, Memory-Management, and BPF Summit.  His work was
-fundamental to getting the project as far as it has come; he will be missed.]]></description>
-            <guid>https://lwn.net/Articles/987635/</guid>
-            <pubDate>Thu, 29 Aug 2024 14:07:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
