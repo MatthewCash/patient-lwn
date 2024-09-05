@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Sep 2024 14:31:01 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Sep 2024 14:38:12 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Sep 2024 14:43:59 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Sep 2024 14:46:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -382,14 +382,6 @@ href="https://lwn.net/Articles/987680/">6.1.107</a> stable kernels.  They all co
 important fixes throughout the kernel tree, as is the norm.]]></description>
             <guid>https://lwn.net/Articles/987677/</guid>
             <pubDate>Thu, 29 Aug 2024 16:18:31 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/987664/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind and bind-dyndb-ldap and postgresql:16), <b>Fedora</b> (less and python3.6), <b>Mageia</b> (nodejs &amp; yarnpkg), <b>Oracle</b> (libvpx and postgresql:16), <b>Red Hat</b> (edk2, git, kernel, openldap, postgresql:15, postgresql:16, python3, and python39:3.9 and python39-devel:3.9), <b>SUSE</b> (apache2, python-setuptools, and python3-setuptools), and <b>Ubuntu</b> (linux-oracle).]]></description>
-            <guid>https://lwn.net/Articles/987664/</guid>
-            <pubDate>Thu, 29 Aug 2024 14:33:29 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
