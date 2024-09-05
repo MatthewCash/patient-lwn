@@ -8,11 +8,103 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Sep 2024 22:26:29 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Sep 2024 23:46:40 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Sep 2024 00:22:49 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Sep 2024 00:40:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 29, 2024</title>
+            <link>https://lwn.net/Articles/986853/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for August 29, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/986853/</guid>
+            <pubDate>Thu, 29 Aug 2024 01:41:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] MemHive: sharing immutable data between Python subinterpreters</title>
+            <link>https://lwn.net/Articles/987238/</link>
+            <description><![CDATA[Immutable data makes concurrent access easier, since it
+eliminates the data-race conditions that can plague multithreaded programs. At
+<a
+href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a>, Yury Selivanov
+introduced an early-stage project called <a
+href="https://github.com/edgedb/memhive">MemHive</a>, which uses Python
+<a href="https://lwn.net/Articles/820424/">subinterpreters</a> and immutable data to
+overcome the problems of thread serialization that are caused by the
+language's Global Interpreter Lock (GIL).  Recent <a
+href="https://lwn.net/Articles/985041/">developments in the Python world</a> have opened
+up different strategies for avoiding the longstanding problems with the
+GIL.]]></description>
+            <guid>https://lwn.net/Articles/987238/</guid>
+            <pubDate>Wed, 28 Aug 2024 19:45:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian discusses principles for package maintenance</title>
+            <link>https://lwn.net/Articles/986480/</link>
+            <description><![CDATA[<p>Achieving consensus among Debian Developers on technical topics and
+procedures can be, to put it mildly, challenging. Nevertheless, that
+is exactly what Otto Kekäläinen has tried to do with a <a
+href="https://salsa.debian.org/dep-team/deps/-/raw/798bfa5a1e1609afd4e48ee20aff80a82bcd4a2f/web/deps/dep18.mdwn">proposal</a> that
+would set up "<q>principles all Debian packages should follow to be
+open for collaboration in package maintenance</q>". In the near term,
+it seems unlikely that the proposal will be accepted, but the
+discussion may be effective at improving collaboration nonetheless.</p>]]></description>
+            <guid>https://lwn.net/Articles/986480/</guid>
+            <pubDate>Wed, 28 Aug 2024 14:20:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] NIST finalizes post-quantum encryption standards</title>
+            <link>https://lwn.net/Articles/973231/</link>
+            <description><![CDATA[<p>
+On August 13, the US National Institute of Standards and Technology (NIST)
+<a href="https://csrc.nist.gov/news/2024/postquantum-cryptography-fips-approved">
+published</a> the final form of its new post-quantum cryptographic standards. One
+key-exchange mechanism and two digital-signature schemes are now officially
+sanctioned by the institute. Adopting the new standards should be fairly
+painless for most developers, but the overhead added by the schemes could pose
+challenges for some applications.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/973231/</guid>
+            <pubDate>Tue, 27 Aug 2024 13:56:44 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new version of modversions</title>
+            <link>https://lwn.net/Articles/986892/</link>
+            <description><![CDATA[The <tt>genksyms</tt> tool has long been buried deeply within the kernel's
+build system; it is one of the two C-code parsers shipped with the kernel
+(the other being <a
+href="https://elixir.bootlin.com/linux/v6.11-rc4/source/scripts/kernel-doc">the
+horrifying <tt>kernel-doc</tt> script</a>).  It is a key part of how the
+kernel's module-loading infrastructure works.  While <tt>genksyms</tt> has
+quietly done its job for decades, that period may soon be coming to an end.
+It would seem that <tt>genksyms</tt> is not up to the task of handling Rust
+code, so Sami Tolvanen is <a
+href="https://lwn.net/ml/all/20240815173903.4172139-21-samitolvanen@google.com/">proposing
+a new tool</a> to handle this task going forward.]]></description>
+            <guid>https://lwn.net/Articles/986892/</guid>
+            <pubDate>Mon, 26 Aug 2024 17:19:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The history, status, and plans for reproducible builds</title>
+            <link>https://lwn.net/Articles/985739/</link>
+            <description><![CDATA[On the second day of <a href="https://debconf24.debconf.org/">DebConf24</a>
+in Busan, South Korea, Holger Levsen provided a history lesson on the
+"first 11 years" of the <a
+href="https://reproducible-builds.org/">Reproducible Builds project</a>.
+He has been involved in the project for most of that time and has been a
+Debian user since the mid-1990s, contributor since 2001, and a Debian
+member since 2007; "I love Debian".  Meanwhile, his aim is to make all free
+software be reproducible, so that anyone can check that a binary program
+comes from the source code it purports to.]]></description>
+            <guid>https://lwn.net/Articles/985739/</guid>
+            <pubDate>Fri, 23 Aug 2024 13:47:20 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Call for candidates for the 2024 Linux Foundation TAB election</title>
             <link>https://lwn.net/Articles/988862/</link>
@@ -303,135 +395,6 @@ Linux Storage, Filesystem, Memory-Management, and BPF Summit.  His work was
 fundamental to getting the project as far as it has come; he will be missed.]]></description>
             <guid>https://lwn.net/Articles/987635/</guid>
             <pubDate>Thu, 29 Aug 2024 14:07:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A review of file descriptor memory safety in the kernel</title>
-            <link>https://lwn.net/Articles/985853/</link>
-            <description><![CDATA[<p>
-On July 30, Al Viro sent
-<a href="https://lwn.net/ml/all/20240730050927.GC5334@ZenIV/">
-a patch set</a> to the linux-fsdevel mailing list with a
-comprehensive cover letter explaining his
-recent work on ensuring that the kernel's internal representation of
-file descriptors are used correctly in the kernel.
-File descriptors are ubiquitous; many system calls
-need to handle them. Viro's review
-identified a few existing bugs, and may prevent more in the future. He also had
-suggestions for ways to keep uses consistent throughout the kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/985853/</guid>
-            <pubDate>Thu, 22 Aug 2024 15:19:56 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for August 22, 2024</title>
-            <link>https://lwn.net/Articles/985783/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for August 22, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/985783/</guid>
-            <pubDate>Thu, 22 Aug 2024 01:51:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Modernizing openSUSE installation with Agama</title>
-            <link>https://lwn.net/Articles/974969/</link>
-            <description><![CDATA[<p>Linux installers receive a disproportionate amount of attention
-compared to the amount of time that most users spend with them. Ideally,
-a user spends only a few minutes using the installer, versus years using
-the distribution after it is installed. Yet, the installer sets the
-first impression, and if it fails to do its job, little else matters.
-Installers also have to continually evolve to keep pace with new
-hardware, changes in distribution packaging (such as image-based Linux
-distributions), and so forth. Along those lines, the SUSE team that maintains the
-venerable <a href="https://yast.opensuse.org/">YaST</a> installer has
-decided it's time to start (almost) fresh with a new Linux installer
-project, called <a href="https://github.com/openSUSE/agama">Agama</a>,
-for new projects. YaST is not going away as an administration tool,
-but it is likely to be relieved of installer duties at some point.</p>]]></description>
-            <guid>https://lwn.net/Articles/974969/</guid>
-            <pubDate>Wed, 21 Aug 2024 15:37:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python subinterpreters and free-threading</title>
-            <link>https://lwn.net/Articles/985041/</link>
-            <description><![CDATA[At
-<a
-href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a> in Pittsburgh,
-Pennsylvania, Anthony Shaw looked at the various kinds of parallelism
-available to Python programs.  There have been two major developments on
-the parallel-execution front over the last few years, with the effort to
-provide <a href="https://lwn.net/Articles/820424/">subinterpreters</a>, each with its own
-global interpreter lock (GIL), along with the work to <a
-href="https://lwn.net/Articles/940780/">remove the GIL entirely</a>.  In the talk, he
-explored the two approaches to try to give attendees a sense of how to make
-the right choice for their applications.]]></description>
-            <guid>https://lwn.net/Articles/985041/</guid>
-            <pubDate>Tue, 20 Aug 2024 22:24:01 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Per-call-site slab caches for heap-spraying protection</title>
-            <link>https://lwn.net/Articles/986174/</link>
-            <description><![CDATA[One tactic often used by attackers set on compromising a system is <a
-href="https://en.wikipedia.org/wiki/Heap_spraying">heap spraying</a>; in
-short, the attacker fills as much of the heap as possible with crafted data
-in the hope of getting the target system to use that data in a bad way.  If
-heap spraying can be blocked, attackers will lose an important tool.  The
-kernel has some heap-spraying defenses now, including the <a
-href="https://lwn.net/Articles/965837/">dedicated bucket allocator</a> merged for the
-upcoming 6.11 release, but its author, Kees Cook, thinks that more can be
-done.]]></description>
-            <guid>https://lwn.net/Articles/986174/</guid>
-            <pubDate>Tue, 20 Aug 2024 13:29:07 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] FreeBSD considers Rust in the base system</title>
-            <link>https://lwn.net/Articles/985210/</link>
-            <description><![CDATA[<p>The <a href="https://www.freebsd.org/">FreeBSD Project</a> is, for the second
-time this year, engaging in a long-running discussion about the
-possibility of including Rust in its <a
-href="https://www.over-yonder.net/~fullermd/rants/bsd4linux/03">base
-system</a>. The sequel to the first discussion included some work by
-Alan Somers to show what it might look like to use Rust code in the
-base tree. Support for Rust code does not appear much closer to being
-included in FreeBSD's base system, but the conversation has been
-enlightening.</p>]]></description>
-            <guid>https://lwn.net/Articles/985210/</guid>
-            <pubDate>Mon, 19 Aug 2024 15:12:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Custom string formatters in Python</title>
-            <link>https://lwn.net/Articles/985346/</link>
-            <description><![CDATA[<p>
-Python has had
-<a href="https://lwn.net/Articles/656898/">formatted string literals</a>
-(<span style="white-space:nowrap">f-strings</span>), a syntactic shorthand for building
-strings, since 2015. Recently, Jim Baker, Guido van Rossum, and Paul Everitt have
-proposed
-<a href="https://peps.python.org/pep-0750/">
-PEP 750</a> ("Tag Strings For Writing Domain-Specific Languages") which would
-generalize and expand that mechanism to provide Python library writers with additional
-flexibility. Reactions to the proposed change were somewhat positive, although
-there was a good deal of discussion of (and opposition to)
-the PEP's inclusion of lazy evaluation of template parameters.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/985346/</guid>
-            <pubDate>Fri, 16 Aug 2024 15:52:18 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Memory-management: tiered memory, huge pages, and EROFS</title>
-            <link>https://lwn.net/Articles/984839/</link>
-            <description><![CDATA[The kernel's memory-management developers have been busy in recent times;
-it can be hard to keep up with all that has been happening in this core
-area.  In an attempt to catch up, here is a look at recent work
-affecting tiered-memory systems, underutilized huge pages, and duplicated
-file data in the Enhanced Read-Only Filesystem (EROFS).]]></description>
-            <guid>https://lwn.net/Articles/984839/</guid>
-            <pubDate>Thu, 15 Aug 2024 14:14:01 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
