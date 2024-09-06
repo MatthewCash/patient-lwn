@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Sep 2024 14:28:14 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Sep 2024 14:29:59 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Sep 2024 14:34:47 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Sep 2024 14:39:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Man pages maintenance suspended</title>
+            <link>https://lwn.net/Articles/989215/</link>
+            <description><![CDATA[Alejandro Colomar, who has been maintaining the Linux man pages for the
+last four years, has <a
+href="https://lwn.net/ml/all/4d7tq6a7febsoru3wjium4ekttuw2ouocv6jstdkthnacmzr6x@f2zfbe5hs7h5">announced</a>
+that he will have to stop that work.
+<p>
+<blockquote class="bq">
+	 I've been doing it in my free time, and no company has sponsored
+	 that work at all.  At the moment, I cannot sustain this work
+	 economically any more, and will temporarily and indefinitely stop
+	 working on this project.  If any company has interests in the
+	 future of the project, I'd welcome an offer to sponsor my work
+	 here; if so, please let me know.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/989215/</guid>
+            <pubDate>Fri, 06 Sep 2024 14:34:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The realtime preemption end game — for real this time</title>
             <link>https://lwn.net/Articles/989212/</link>
