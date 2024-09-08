@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 08 Sep 2024 15:27:42 +0000</pubDate>
-        <lastBuildDate>Sun, 8 Sep 2024 15:48:14 +0000</lastBuildDate>
+        <pubDate>Sun, 08 Sep 2024 16:08:57 +0000</pubDate>
+        <lastBuildDate>Sun, 8 Sep 2024 16:11:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three weekend stable kernels</title>
+            <link>https://lwn.net/Articles/989409/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/989410/">6.10.9</a>,
+<a href="https://lwn.net/Articles/989411/">6.6.50</a>, and
+<a href="https://lwn.net/Articles/989412/">6.1.109</a>
+stable kernel updates have been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/989409/</guid>
+            <pubDate>Sun, 08 Sep 2024 16:08:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>NGINX has moved to Github</title>
             <link>https://lwn.net/Articles/989229/</link>
