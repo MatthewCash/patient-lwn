@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Sep 2024 13:40:39 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Sep 2024 14:11:57 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Sep 2024 14:20:52 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Sep 2024 14:32:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/989488/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (amanda, aom, bluez, python-jwcrypto, and thunderbird), <b>Fedora</b> (chromium, firefox, and thunderbird), <b>Red Hat</b> (bubblewrap and flatpak, containernetworking-plugins, flatpak, and runc), <b>Slackware</b> (python3), <b>SUSE</b> (apache2, bubblewrap and flatpak, postgresql16, and wireshark), and <b>Ubuntu</b> (thunderbird).]]></description>
+            <guid>https://lwn.net/Articles/989488/</guid>
+            <pubDate>Mon, 09 Sep 2024 14:17:33 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Adams: Linux&apos;s bedtime routine</title>
+            <link>https://lwn.net/Articles/989489/</link>
+            <description><![CDATA[Jacob Adams <a
+href="https://tookmund.com/2024/09/hibernation-preparation">wanders into
+the kernel's hibernation code</a>:
+<p>
+<blockquote class="bq">
+	How does Linux move from an awake machine to a hibernating one? How
+	does it then manage to restore all state? These questions led me to
+	read way too much C in trying to figure out how this particular
+	hardware/software boundary is navigated.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/989489/</guid>
+            <pubDate>Mon, 09 Sep 2024 14:20:52 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.11-rc7</title>
             <link>https://lwn.net/Articles/989426/</link>
@@ -340,14 +365,6 @@ and more.</p>]]></description>
             <guid>https://lwn.net/Articles/988570/</guid>
             <pubDate>Tue, 03 Sep 2024 13:44:23 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/988364/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (postgresql:16), <b>Debian</b> (dovecot, pymatgen, ruby2.7, systemd, and webkit2gtk), <b>Fedora</b> (microcode_ctl, python3.11, vim, and xen), <b>Oracle</b> (kernel, postgresql:12, postgresql:13, postgresql:15, and python39:3.9 and python39-devel:3.9), <b>Slackware</b> (libpcap), <b>SUSE</b> (cacti, cacti-spine, python-Django, and trivy), and <b>Ubuntu</b> (dovecot).]]></description>
-            <guid>https://lwn.net/Articles/988364/</guid>
-            <pubDate>Mon, 02 Sep 2024 14:23:22 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
