@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Sep 2024 17:44:08 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Sep 2024 19:08:25 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Sep 2024 19:09:35 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Sep 2024 19:21:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Redox OS 0.9.0</title>
+            <link>https://lwn.net/Articles/989517/</link>
+            <description><![CDATA[<p><a href="https://www.redox-os.org/news/release-0.9.0/">Version
+0.9.0</a> of <a href="https://lwn.net/Articles/979524/">Redox OS</a>,
+an open-source, Unix-like operating system written in
+Rust, has been released. Notable changes in this release include
+performance and stability improvements, better management of physical
+and virtual memory, bootloader improvements, and more. It also brings
+support for RustPython, Perl 5, Simple HTTP Server, the addition of
+several applications including GNU Nano, Helix, and the <a href="https://lwn.net/Articles/984638/">COSMIC</a>
+Files, Editor, and Terminal applications. See the <a
+href="https://www.redox-os.org/news/release-0.9.0/#changelog">changelog
+section of the announcement</a> for a full list of changes in the release.</p>]]></description>
+            <guid>https://lwn.net/Articles/989517/</guid>
+            <pubDate>Mon, 09 Sep 2024 19:09:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/989488/</link>
