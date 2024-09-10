@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Sep 2024 18:28:58 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Sep 2024 18:35:13 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Sep 2024 18:43:32 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Sep 2024 18:48:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Pandoc 3.4 released</title>
+            <link>https://lwn.net/Articles/989660/</link>
+            <description><![CDATA[<p><a
+href="https://pandoc.org/releases.html#pandoc-3.4-2024-09-09">Version
+3.4</a> of the <a href="https://pandoc.org/">Pandoc</a>
+document-conversion tool has been released. Notable changes in this
+release include a new ANSI output format (for console output), a <a
+href="https://github.com/jgm/pandoc/issues/10142">switch</a> to  <a
+href="https://weasyprint.org/">WeasyPrint</a> as the PDF engine for
+HTML to PDF conversion, the ability to position captions
+above or below tables and figures, and much more.</p>]]></description>
+            <guid>https://lwn.net/Articles/989660/</guid>
+            <pubDate>Tue, 10 Sep 2024 18:43:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Radicle 1.0 released</title>
             <link>https://lwn.net/Articles/989605/</link>
