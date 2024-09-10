@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Sep 2024 16:36:49 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Sep 2024 16:49:09 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Sep 2024 16:49:29 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Sep 2024 17:09:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -384,25 +384,6 @@ tree. Users of those kernels should upgrade.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, gvisor-tap-vsock, nodejs:18, python-urllib3, and skopeo), <b>Debian</b> (firefox-esr and openssl), <b>Fedora</b> (apr and seamonkey), <b>Red Hat</b> (podman), <b>Slackware</b> (mozilla and seamonkey), <b>SUSE</b> (bubblewrap and flatpak, buildah, docker, dovecot23, ffmpeg, frr, go1.21-openssl, graphviz, java-1_8_0-openj9, kubernetes1.26, kubernetes1.27, kubernetes1.28, openssl-1_0_0, openssl-3, perl-DBI, python-aiohttp, python-Django, python-WebOb, thunderbird, tiff, ucode-intel, unbound, webkit2gtk3, and xen), and <b>Ubuntu</b> (drupal7 and twisted).]]></description>
             <guid>https://lwn.net/Articles/988746/</guid>
             <pubDate>Wed, 04 Sep 2024 12:51:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 130.0 released</title>
-            <link>https://lwn.net/Articles/988607/</link>
-            <description><![CDATA[<p><a
-href="https://www.mozilla.org/en-US/firefox/130.0/releasenotes/">Version
-130.0</a> of the Firefox browser has been released. Notable in this
-release is the addition of a Firefox Labs tab in Firefox
-Settings. This allows users to easily enable experimental features,
-such as the ability to translate selected text portions to different
-languages after a full-page translation, and <a
-href="https://blog.mozilla.org/products/firefox/firefox-news/ai-services-on-firefox/">add
-an AI chatbot to the sidebar</a>. Firefox 130 also addresses <a
-href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-39/">several
-security issues</a>, adds 11 new languages to its translation support,
-and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/988607/</guid>
-            <pubDate>Tue, 03 Sep 2024 16:49:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
