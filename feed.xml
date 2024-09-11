@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 11 Sep 2024 12:39:13 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Sep 2024 12:56:07 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 11 Sep 2024 13:17:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -376,22 +376,6 @@ href="https://developer.apple.com/library/archive/documentation/AudioVideo/Conce
 of prior versions are advised to make a backup of their data before upgrading.</p>]]></description>
             <guid>https://lwn.net/Articles/988837/</guid>
             <pubDate>Wed, 04 Sep 2024 17:34:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernel updates for Wednesday</title>
-            <link>https://lwn.net/Articles/988747/</link>
-            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/988748/">6.10.8</a>, <a
-href="https://lwn.net/Articles/988749/">6.6.49</a>, <a
-href="https://lwn.net/Articles/988750/">6.1.108</a>, <a
-href="https://lwn.net/Articles/988751/">5.15.166</a>, <a
-href="https://lwn.net/Articles/988752/">5.10.225</a>, <a
-href="https://lwn.net/Articles/988753/">5.5.283</a>, and <a
-href="https://lwn.net/Articles/988754/">4.19.321</a> stable kernel updates have all
-been released. As usual, they contain important fixes throughout the
-tree. Users of those kernels should upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/988747/</guid>
-            <pubDate>Wed, 04 Sep 2024 13:00:24 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
