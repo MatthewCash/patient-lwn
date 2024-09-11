@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Sep 2024 17:33:25 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Sep 2024 17:37:16 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Sep 2024 17:46:02 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Sep 2024 17:48:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,24 +367,6 @@ Nominations are due by September 20.]]></description>
             <guid>https://lwn.net/Articles/988862/</guid>
             <pubDate>Wed, 04 Sep 2024 18:43:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Tellico 4.0 released</title>
-            <link>https://lwn.net/Articles/988837/</link>
-            <description><![CDATA[<p><a href="https://tellico-project.org/tellico-4-0-released/">Version 4.0</a> of the <a
-href="https://tellico-project.org/">Tellico</a> collection management
-software has been released. This is the first release to use the
-KDE&nbsp;Frameworks&nbsp;6 and Qt6 libraries, with a fallback
-available for Frameworks&nbsp;5 and Qt5. Other notable changes in 4.0
-include importing video collections from file metadata and correctly
-importing multi-disc album data from <a
-href="https://www.discogs.com/">Discogs</a>, <a
-href="https://musicbrainz.org/">MusicBrainz</a>, and <a
-href="https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html">iTunes</a>. Users
-of prior versions are advised to make a backup of their data before upgrading.</p>]]></description>
-            <guid>https://lwn.net/Articles/988837/</guid>
-            <pubDate>Wed, 04 Sep 2024 17:34:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
