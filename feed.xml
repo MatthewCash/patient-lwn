@@ -8,11 +8,99 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Sep 2024 23:40:32 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Sep 2024 23:48:29 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Sep 2024 00:36:10 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Sep 2024 00:42:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 5, 2024</title>
+            <link>https://lwn.net/Articles/987605/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for September 5, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/987605/</guid>
+            <pubDate>Thu, 05 Sep 2024 00:48:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Whither the Apple AGX graphics driver?</title>
+            <link>https://lwn.net/Articles/988438/</link>
+            <description><![CDATA[Much of the early Rust code for the kernel has taken the form of
+reimplementations of existing drivers as a proof of concept.  One project,
+though, is entirely new: the driver for Apple GPUs written by Asahi Lina.
+This driver has shipped with <a href="https://asahilinux.org/">Asahi
+Linux</a> for some time and, by many accounts, is stable, usable, and a
+shining example of how Rust can be used in a complex kernel subsystem.
+That driver remains outside of the mainline kernel, though, and merging
+currently looks like a distant prospect.  The reasons for that state of
+affairs highlight some of the difficulties inherent in integrating a new
+language (and its associated development style) into the Linux kernel.]]></description>
+            <guid>https://lwn.net/Articles/988438/</guid>
+            <pubDate>Wed, 04 Sep 2024 13:56:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Transcribing audio with AI using Speech Note</title>
+            <link>https://lwn.net/Articles/987315/</link>
+            <description><![CDATA[<p>One of the joys of writing about technology is the opportunity to
+cover interesting talks on open&#8209;source and free&#8209;software topics. One
+of the pains is creating transcriptions of said talks, or continually
+referring back to a recording, to be able to write about
+them. <a href="https://github.com/mkiol/dsnote">Speech Note</a> is an
+open-source application that uses machine-learning models, running locally, to
+translate speech to text and take the pain out of transcription. It
+also handles text to speech, and language translations. While not
+perfect, its transcriptions are better than one might expect, even when
+handling jargon, accents, and less-than-perfect audio.</p>]]></description>
+            <guid>https://lwn.net/Articles/987315/</guid>
+            <pubDate>Tue, 03 Sep 2024 15:11:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Advances in font technology and GTK text rendering</title>
+            <link>https://lwn.net/Articles/987176/</link>
+            <description><![CDATA[<p>At this year's <a href="https://events.gnome.org/event/209/">GUADEC</a> in Denver, Colorado, Behdad Esfahbod and Matthias Clasen
+presented a <a href="https://events.gnome.org/event/209/contributions/749/">two-part talk</a> on a topic that's deeply important to desktop
+environments: fonts. Esfahbod covered advances in font
+technology that are making their way to becoming standards, and Clasen briefly
+discussed improvements in GTK text rendering. The talk presented some
+fascinating insights into the problems around accurately rendering
+writing systems on the desktop, and where font technologies may be
+going in the near future.</p>]]></description>
+            <guid>https://lwn.net/Articles/987176/</guid>
+            <pubDate>Mon, 02 Sep 2024 15:34:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A SpamAssassin surprise</title>
+            <link>https://lwn.net/Articles/987566/</link>
+            <description><![CDATA[Here is a piece of advice for anybody wanting an easy and frustration-free
+life: do not run your own email system.  While there numerous advantages to
+keeping some control over your communications, there is also a long list of
+things that can go wrong.  A recent failure of spam filtering on the LWN
+email system illustrated one of those ways, as well as shining a light on
+how even a seemingly independent email system is tied to other services
+across the net.]]></description>
+            <guid>https://lwn.net/Articles/987566/</guid>
+            <pubDate>Fri, 30 Aug 2024 14:48:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Plasma Mobile for highly configurable Linux phones</title>
+            <link>https://lwn.net/Articles/986899/</link>
+            <description><![CDATA[<a href="https://plasma-mobile.org">Plasma Mobile</a> is an open-source
+user interface for mobile devices, developed by the KDE community. It's
+built on the same foundations as <a
+href="https://kde.org/plasma-desktop/">Plasma Desktop</a>, including <a
+href="https://develop.kde.org/products/frameworks/">KDE Frameworks</a> and the <a
+href="https://invent.kde.org/plasma/kwin#kwin">KWin</a> window
+manager. Much like its desktop counterpart, Plasma Mobile caters to
+advanced users by offering extensive customizability. It is offered as an
+option on phones with <a href="https://plasma-mobile.org/get/">various mobile Linux
+distributions</a>.]]></description>
+            <guid>https://lwn.net/Articles/986899/</guid>
+            <pubDate>Thu, 29 Aug 2024 15:11:39 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/989772/</link>
@@ -251,98 +339,6 @@ service accounts, and quite a bit more.]]></description>
             <guid>https://lwn.net/Articles/989047/</guid>
             <pubDate>Thu, 05 Sep 2024 14:19:35 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for August 29, 2024</title>
-            <link>https://lwn.net/Articles/986853/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for August 29, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/986853/</guid>
-            <pubDate>Thu, 29 Aug 2024 01:41:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] MemHive: sharing immutable data between Python subinterpreters</title>
-            <link>https://lwn.net/Articles/987238/</link>
-            <description><![CDATA[Immutable data makes concurrent access easier, since it
-eliminates the data-race conditions that can plague multithreaded programs. At
-<a
-href="https://us.pycon.org/2024/">PyCon&nbsp;2024</a>, Yury Selivanov
-introduced an early-stage project called <a
-href="https://github.com/edgedb/memhive">MemHive</a>, which uses Python
-<a href="https://lwn.net/Articles/820424/">subinterpreters</a> and immutable data to
-overcome the problems of thread serialization that are caused by the
-language's Global Interpreter Lock (GIL).  Recent <a
-href="https://lwn.net/Articles/985041/">developments in the Python world</a> have opened
-up different strategies for avoiding the longstanding problems with the
-GIL.]]></description>
-            <guid>https://lwn.net/Articles/987238/</guid>
-            <pubDate>Wed, 28 Aug 2024 19:45:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian discusses principles for package maintenance</title>
-            <link>https://lwn.net/Articles/986480/</link>
-            <description><![CDATA[<p>Achieving consensus among Debian Developers on technical topics and
-procedures can be, to put it mildly, challenging. Nevertheless, that
-is exactly what Otto Kekäläinen has tried to do with a <a
-href="https://salsa.debian.org/dep-team/deps/-/raw/798bfa5a1e1609afd4e48ee20aff80a82bcd4a2f/web/deps/dep18.mdwn">proposal</a> that
-would set up "<q>principles all Debian packages should follow to be
-open for collaboration in package maintenance</q>". In the near term,
-it seems unlikely that the proposal will be accepted, but the
-discussion may be effective at improving collaboration nonetheless.</p>]]></description>
-            <guid>https://lwn.net/Articles/986480/</guid>
-            <pubDate>Wed, 28 Aug 2024 14:20:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] NIST finalizes post-quantum encryption standards</title>
-            <link>https://lwn.net/Articles/973231/</link>
-            <description><![CDATA[<p>
-On August 13, the US National Institute of Standards and Technology (NIST)
-<a href="https://csrc.nist.gov/news/2024/postquantum-cryptography-fips-approved">
-published</a> the final form of its new post-quantum cryptographic standards. One
-key-exchange mechanism and two digital-signature schemes are now officially
-sanctioned by the institute. Adopting the new standards should be fairly
-painless for most developers, but the overhead added by the schemes could pose
-challenges for some applications.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/973231/</guid>
-            <pubDate>Tue, 27 Aug 2024 13:56:44 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A new version of modversions</title>
-            <link>https://lwn.net/Articles/986892/</link>
-            <description><![CDATA[The <tt>genksyms</tt> tool has long been buried deeply within the kernel's
-build system; it is one of the two C-code parsers shipped with the kernel
-(the other being <a
-href="https://elixir.bootlin.com/linux/v6.11-rc4/source/scripts/kernel-doc">the
-horrifying <tt>kernel-doc</tt> script</a>).  It is a key part of how the
-kernel's module-loading infrastructure works.  While <tt>genksyms</tt> has
-quietly done its job for decades, that period may soon be coming to an end.
-It would seem that <tt>genksyms</tt> is not up to the task of handling Rust
-code, so Sami Tolvanen is <a
-href="https://lwn.net/ml/all/20240815173903.4172139-21-samitolvanen@google.com/">proposing
-a new tool</a> to handle this task going forward.]]></description>
-            <guid>https://lwn.net/Articles/986892/</guid>
-            <pubDate>Mon, 26 Aug 2024 17:19:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The history, status, and plans for reproducible builds</title>
-            <link>https://lwn.net/Articles/985739/</link>
-            <description><![CDATA[On the second day of <a href="https://debconf24.debconf.org/">DebConf24</a>
-in Busan, South Korea, Holger Levsen provided a history lesson on the
-"first 11 years" of the <a
-href="https://reproducible-builds.org/">Reproducible Builds project</a>.
-He has been involved in the project for most of that time and has been a
-Debian user since the mid-1990s, contributor since 2001, and a Debian
-member since 2007; "I love Debian".  Meanwhile, his aim is to make all free
-software be reproducible, so that anyone can check that a binary program
-comes from the source code it purports to.]]></description>
-            <guid>https://lwn.net/Articles/985739/</guid>
-            <pubDate>Fri, 23 Aug 2024 13:47:20 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
