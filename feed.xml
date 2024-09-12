@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Sep 2024 21:13:15 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Sep 2024 21:33:33 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Sep 2024 21:42:32 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Sep 2024 21:49:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>VirtualBox 7.1.0 released</title>
+            <link>https://lwn.net/Articles/990125/</link>
+            <description><![CDATA[<p><a href="https://www.virtualbox.org/wiki/Changelog-7.1#v00">Version
+7.1.0</a> of the <a href="https://www.virtualbox.org/">VirtualBox</a> virtualization system has been
+released. Changes include a major GUI update, a new Network Address
+Translation (NAT) engine with IPv6 support, shared clipboard support on Wayland, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/990125/</guid>
+            <pubDate>Thu, 12 Sep 2024 21:42:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>New stable kernels released</title>
             <link>https://lwn.net/Articles/990043/</link>
