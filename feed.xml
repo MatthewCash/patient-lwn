@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Sep 2024 13:49:17 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Sep 2024 14:29:41 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Sep 2024 14:32:41 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Sep 2024 14:39:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -299,51 +299,6 @@ provide community support via mailing lists until December 31st, 2024.</p>
             <guid>https://lwn.net/Articles/989229/</guid>
             <pubDate>Fri, 06 Sep 2024 17:00:40 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Man pages maintenance suspended</title>
-            <link>https://lwn.net/Articles/989215/</link>
-            <description><![CDATA[Alejandro Colomar, who has been maintaining the Linux man pages for the
-last four years, has <a
-href="https://lwn.net/ml/all/4d7tq6a7febsoru3wjium4ekttuw2ouocv6jstdkthnacmzr6x@f2zfbe5hs7h5">announced</a>
-that he will have to stop that work.
-<p>
-<blockquote class="bq">
-	 I've been doing it in my free time, and no company has sponsored
-	 that work at all.  At the moment, I cannot sustain this work
-	 economically any more, and will temporarily and indefinitely stop
-	 working on this project.  If any company has interests in the
-	 future of the project, I'd welcome an offer to sponsor my work
-	 here; if so, please let me know.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/989215/</guid>
-            <pubDate>Fri, 06 Sep 2024 14:34:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The realtime preemption end game — for real this time</title>
-            <link>https://lwn.net/Articles/989212/</link>
-            <description><![CDATA[Work on realtime preemption for the Linux kernel <a
-href="https://lwn.net/Articles/106010/">got its start</a> almost exactly 20&nbsp;years ago
-(though it had its roots in earlier work, of course).  It is fair to say
-that finishing that job has taken a bit longer than anybody involved would
-have expected.  Now, though, Sebastian Andrzej Siewior has <a
-href="https://lwn.net/ml/all/20240906111841.562402-1-bigeasy@linutronix.de">posted a brief
-patch series</a> making it possible to enable realtime preemption in the
-mainline kernel on three architectures.
-<p>
-<blockquote class="bq">
-	With the printk bits merged, PREEMPT_RT could be enabled on X86,
-	ARM64 and Risc-V. These three architectures merged required changes
-	over the years leaving me in a position where I have no essential
-	changes in the queue that would affect them.
-</blockquote>
-<p>
-Congratulations are due to the many developers who have worked on this
-project for the last two decades.]]></description>
-            <guid>https://lwn.net/Articles/989212/</guid>
-            <pubDate>Fri, 06 Sep 2024 14:28:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
