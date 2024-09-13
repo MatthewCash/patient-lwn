@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Sep 2024 19:06:39 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Sep 2024 19:08:28 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Sep 2024 19:15:54 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Sep 2024 19:23:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME Foundation opens search for new Executive Director</title>
+            <link>https://lwn.net/Articles/990270/</link>
+            <description><![CDATA[<p>The <a href="https://foundation.gnome.org">GNOME Foundation</a> has <a
+href="https://foundation.gnome.org/2024/09/13/search-for-new-executive-director/">announced</a>
+that it is looking for a new Executive Director following the <a
+href="https://lwn.net/Articles/981850/">departure</a> of Holly Million
+in July:</p>
+
+<blockquote class="bq">
+As the cornerstone of our leadership team, the Executive Director will
+play a critical role in shaping the strategic direction of the
+Foundation, working closely with staff, community members, and
+partners to expand our reach and impact. The ideal candidate will have
+professional experience working with nonprofits, a strong passion for
+open-source software, a deep commitment to our community values, and
+the vision to drive the next phase of GNOME's growth and development.
+</blockquote>
+
+<p>The window of opportunity for the job is closing quickly,
+applications are due by September 20.</p>]]></description>
+            <guid>https://lwn.net/Articles/990270/</guid>
+            <pubDate>Fri, 13 Sep 2024 19:08:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Sovereign Tech Fund (STF) to invest in Samba improvements</title>
             <link>https://lwn.net/Articles/990264/</link>
