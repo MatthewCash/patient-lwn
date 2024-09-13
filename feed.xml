@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Sep 2024 16:47:23 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Sep 2024 16:48:37 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Sep 2024 17:07:52 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Sep 2024 17:09:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -273,32 +273,6 @@ important fixes.]]></description>
             <guid>https://lwn.net/Articles/989409/</guid>
             <pubDate>Sun, 08 Sep 2024 16:08:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>NGINX has moved to Github</title>
-            <link>https://lwn.net/Articles/989229/</link>
-            <description><![CDATA[<p>The <a href="https://nginx.org/">NGINX</a> team has <a
-href="https://mailman.nginx.org/pipermail/nginx-announce/2024/ITL3AOQSAJANFJXMM3VOVOIGOUADWFFK.html">announced</a>
-that official NGINX open-source development has moved away from
-<a href="http://hg.nginx.org/nginx.org">Mercurial</a> to <a href="https://github.com/nginx/nginx">GitHub</a>, and
-the project will now be taking <a
-href="https://github.com/nginx/nginx/blob/master/CONTRIBUTING.md">contributions</a>
-in the form of pull requests:</p>
-
-<blockquote class="bq">
-<p>Additionally, starting today, we will begin accepting bugs reports,
-feature requests and enhancements directly through GitHub, under the
-"Issues" tab. Moreover, we've moved our community forums to the GitHub
-"Discussions" area, where you will now be able
-to engage in conversation, ask, and answer questions.</p>
-
-<p>[...] We understand that changes like these may require adjustment,
-so to give you more time, we will continue accepting patches and
-provide community support via mailing lists until December 31st, 2024.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/989229/</guid>
-            <pubDate>Fri, 06 Sep 2024 17:00:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
