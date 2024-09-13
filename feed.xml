@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Sep 2024 17:22:05 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Sep 2024 17:36:47 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Sep 2024 17:47:27 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Sep 2024 17:47:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Sovereign Tech Fund (STF) to invest in Samba improvements</title>
+            <link>https://lwn.net/Articles/990264/</link>
+            <description><![CDATA[<p>Germany's <a href="https://www.sovereigntechfund.de/">Sovereign
+Tech Fund</a> (STF) has agreed to <a
+href="https://www.sovereigntechfund.de/tech/samba">invest €688,800</a>
+to improve the security, stability, and functionality of <a
+href="https://www.samba.org/">Samba</a>. The investment will take
+place over three years and will be managed by <a href="https://samba.plus/about-sernet">SerNet</a>, a company that
+employs several Samba core developers and offers support for
+Samba. According to its <a
+href="https://samba.plus/blog/detail/sernet-secures-funding-for-samba-project-from-sovereign-tech-fund">announcement</a>,
+work has already begun and is expected to complete in 2026:</p>
+
+<blockquote class="bq">
+The project's focus is on areas like transparent failover, SMB3 UNIX
+extensions, and modern security protocols such as SMB over QUIC. These
+improvements are designed to ensure that Samba remains a robust and
+secure solution for organizations that rely on a sovereign IT
+infrastructure that is as independent as possible of proprietary
+software regimes, but including optimal interoperability.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/990264/</guid>
+            <pubDate>Fri, 13 Sep 2024 17:47:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/990202/</link>
