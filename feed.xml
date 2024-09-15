@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 15 Sep 2024 15:00:56 +0000</pubDate>
-        <lastBuildDate>Sun, 15 Sep 2024 15:26:43 +0000</lastBuildDate>
+        <pubDate>Sun, 15 Sep 2024 15:32:09 +0000</pubDate>
+        <lastBuildDate>Sun, 15 Sep 2024 15:33:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 6.11 kernel has been released</title>
+            <link>https://lwn.net/Articles/990307/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/990403/">released the 6.11 kernel</a>.
+"<q>I'm once again on the road and not in my normal timezone, but it's
+Sunday afternoon here in Vienna, and 6.11 is out.</q>"
+Significant changes in this release include
+new io_uring operations for <tt>bind()</tt> and <tt>listen()</tt>,
+the <a href="https://lwn.net/Articles/978189/">nested bottom-half locking</a> patches,
+the <a href="https://lwn.net/Articles/866493/">ability</a> to write to busy executable
+files,
+support for writing block drivers in Rust,
+support for <a href="https://lwn.net/Articles/974578/">atomic write operations</a> in the
+block layer,
+the <a href="https://lwn.net/Articles/965837/">dedicated bucket slab allocator</a>,
+the <a href="https://lwn.net/Articles/980447/">vDSO implementation of <tt>getrandom()</tt></a>,
+and more.  See the LWN merge-window summaries
+(<a href="https://lwn.net/Articles/982034/">part&nbsp;1</a>,
+<a href="https://lwn.net/Articles/982605/">part&nbsp;2</a>) for more information.]]></description>
+            <guid>https://lwn.net/Articles/990307/</guid>
+            <pubDate>Sun, 15 Sep 2024 15:32:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>GNOME Foundation opens search for new Executive Director</title>
             <link>https://lwn.net/Articles/990270/</link>
