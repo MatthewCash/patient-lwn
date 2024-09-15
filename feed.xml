@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 15 Sep 2024 15:57:47 +0000</pubDate>
-        <lastBuildDate>Sun, 15 Sep 2024 16:10:37 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 15 Sep 2024 16:33:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -333,19 +333,6 @@ weekend, which would cause the 6.12 merge window to land on top of the
 Maintainers Summit, Linux Plumbers Conference, and Open Source Summit.]]></description>
             <guid>https://lwn.net/Articles/989426/</guid>
             <pubDate>Sun, 08 Sep 2024 22:33:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three weekend stable kernels</title>
-            <link>https://lwn.net/Articles/989409/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/989410/">6.10.9</a>,
-<a href="https://lwn.net/Articles/989411/">6.6.50</a>, and
-<a href="https://lwn.net/Articles/989412/">6.1.109</a>
-stable kernel updates have been released; each contains another set of
-important fixes.]]></description>
-            <guid>https://lwn.net/Articles/989409/</guid>
-            <pubDate>Sun, 08 Sep 2024 16:08:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
