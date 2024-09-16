@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 16 Sep 2024 14:24:12 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Sep 2024 14:31:40 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Sep 2024 14:42:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -296,31 +296,6 @@ section of the announcement</a> for a full list of changes in the release.</p>]]
             <guid>https://lwn.net/Articles/989517/</guid>
             <pubDate>Mon, 09 Sep 2024 19:09:33 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/989488/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (amanda, aom, bluez, python-jwcrypto, and thunderbird), <b>Fedora</b> (chromium, firefox, and thunderbird), <b>Red Hat</b> (bubblewrap and flatpak, containernetworking-plugins, flatpak, and runc), <b>Slackware</b> (python3), <b>SUSE</b> (apache2, bubblewrap and flatpak, postgresql16, and wireshark), and <b>Ubuntu</b> (thunderbird).]]></description>
-            <guid>https://lwn.net/Articles/989488/</guid>
-            <pubDate>Mon, 09 Sep 2024 14:17:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Adams: Linux&apos;s bedtime routine</title>
-            <link>https://lwn.net/Articles/989489/</link>
-            <description><![CDATA[Jacob Adams <a
-href="https://tookmund.com/2024/09/hibernation-preparation">wanders into
-the kernel's hibernation code</a>:
-<p>
-<blockquote class="bq">
-	How does Linux move from an awake machine to a hibernating one? How
-	does it then manage to restore all state? These questions led me to
-	read way too much C in trying to figure out how this particular
-	hardware/software boundary is navigated.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/989489/</guid>
-            <pubDate>Mon, 09 Sep 2024 14:20:52 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
