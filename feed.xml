@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Sep 2024 20:39:23 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Sep 2024 21:09:09 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Sep 2024 21:34:12 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Sep 2024 22:05:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Foundation announces OpenSearch Software Foundation</title>
+            <link>https://lwn.net/Articles/990517/</link>
+            <description><![CDATA[<p>The Linux Foundation has <a
+href="https://www.linuxfoundation.org/press/linux-foundation-announces-opensearch-software-foundation-to-foster-open-collaboration-in-search-and-analytics">announced</a>
+the creation of the <a
+href="https://foundation.opensearch.org/">OpenSearch Software
+Foundation</a> as a vendor&#8209;neutral home for the <a
+href="https://opensearch.org">OpenSearch</a> search and observability
+software:</p>
+
+<blockquote class="bq">
+Established in 2021 and previously hosted by Amazon Web Services
+(AWS), OpenSearch has recorded more than 700 million software
+downloads and participation from thousands of contributors and more
+than 200 project maintainers.
+</blockquote>
+
+<p>AWS <a
+href="https://aws.amazon.com/blogs/opensource/introducing-opensearch/">created</a>
+the OpenSearch project as an open-source fork of ElasticSearch and
+Kibana in 2021 after Elastic <a
+href="https://lwn.net/Articles/843274/">moved those projects to
+non-free licenses</a>. Elastic <a
+href="https://lwn.net/Articles/987850/">announced</a> in August that it would
+relicense the projects under the Affero GPL (AGPL).</p>]]></description>
+            <guid>https://lwn.net/Articles/990517/</guid>
+            <pubDate>Mon, 16 Sep 2024 21:33:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Valkey 8.0.0 released</title>
             <link>https://lwn.net/Articles/990490/</link>
