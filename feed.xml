@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Sep 2024 11:20:51 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Sep 2024 11:48:13 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Sep 2024 12:08:19 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Sep 2024 12:17:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/990588/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (php-twig and pymongo), <b>Fedora</b> (linux-firmware, microcode_ctl, and python3.13), <b>Mageia</b> (clamav, microcode, postgresql13 and postgresql15, python3-webob, suricata, tcpreplay, tgt, and wireshark), <b>Oracle</b> (httpd, kernel, and linux-kernel), <b>Red Hat</b> (firefox, kernel, kernel-rt, pcs, and thunderbird), <b>SUSE</b> (389-ds, chromium, golang-github-prometheus-prometheus, htmldoc, kernel, SUSE Manager Client Tools, and wireshark), and <b>Ubuntu</b> (clamav, curl, dcmtk, dovecot, nginx, openssh, and python3.10, python3.12, python3.8).]]></description>
+            <guid>https://lwn.net/Articles/990588/</guid>
+            <pubDate>Tue, 17 Sep 2024 11:52:43 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Linux Foundation announces OpenSearch Software Foundation</title>
             <link>https://lwn.net/Articles/990517/</link>
