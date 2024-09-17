@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Sep 2024 12:08:19 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Sep 2024 12:17:21 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Sep 2024 12:47:27 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Sep 2024 12:56:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security proof for Linux&apos;s random number generator</title>
+            <link>https://lwn.net/Articles/990596/</link>
+            <description><![CDATA[<p>
+Four researchers have <a href="https://eprint.iacr.org/2024/1421.pdf">published</a> a formal proof that Linux's new deterministic random bit generator (DRBG) is secure in a particular sense — specifically, that the number of queries that would need to be made to it to uncover its internal state depends on the quality of the entropy it can collect from different sources. As long as it can gather enough entropy, it produces secure random numbers.
+</p>
+
+<blockquote class="bq">
+Since the significant structural changes in Linux 4 and Linux 5.17, there has
+been no research on the provable security of Linux-DRBG. For the first time (to
+the best of our knowledge), we formally model the Linux-DRBG in Linux 6.4.8
+and prove its security in the seedless robustness model
+</blockquote>
+
+<p>
+Thanks to Jason Donenfeld for bringing the paper to our attention.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/990596/</guid>
+            <pubDate>Tue, 17 Sep 2024 12:35:51 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/990588/</link>
@@ -335,14 +356,6 @@ of the Radicle development platform has been released.
 LWN <a href="https://lwn.net/Articles/966869/">looked at Radicle</a> in March.]]></description>
             <guid>https://lwn.net/Articles/989605/</guid>
             <pubDate>Tue, 10 Sep 2024 13:33:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/989602/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (cacti), <b>Fedora</b> (aardvark-dns, expat, and firefox), <b>Mageia</b> (ffmpeg, ntfs-3g, and vim), <b>Oracle</b> (emacs, glib2, java-11-openjdk, and qt5-qtbase), <b>Red Hat</b> (emacs, python-setuptools, python3.11, python3.11-setuptools, python3.12-setuptools, python3.9, and python39:3.9), <b>Slackware</b> (netatalk), <b>SUSE</b> (buildah, expat, java-1_8_0-ibm, kanidm, kernel, and postgresql16), and <b>Ubuntu</b> (netty, php7.0, php7.2, tiff, and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/989602/</guid>
-            <pubDate>Tue, 10 Sep 2024 12:55:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
