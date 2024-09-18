@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Sep 2024 17:17:13 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Sep 2024 17:37:30 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Sep 2024 17:42:12 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Sep 2024 17:48:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernel updates for Wednesday</title>
+            <link>https://lwn.net/Articles/990766/</link>
+            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/990768/">6.10.11</a>, <a
+href="https://lwn.net/Articles/990767/">6.6.52</a>, and <a
+href="https://lwn.net/Articles/990765/">6.1.111</a> stable kernel updates have all
+been released. As usual, they contain important fixes throughout the
+tree. Users of those kernels should upgrade.</p>]]></description>
+            <guid>https://lwn.net/Articles/990766/</guid>
+            <pubDate>Wed, 18 Sep 2024 17:39:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Swift 6 released</title>
             <link>https://lwn.net/Articles/990753/</link>
