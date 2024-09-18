@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Sep 2024 14:40:07 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Sep 2024 14:48:07 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Sep 2024 15:00:41 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Sep 2024 15:11:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Haiku R1/beta5 has been released</title>
+            <link>https://lwn.net/Articles/990735/</link>
+            <description><![CDATA[<p><a
+href="https://www.haiku-os.org/get-haiku/r1beta5/release-notes/">Version
+R1/beta5</a> for the <a href="https://www.haiku-os.org/about/">Haiku</a>
+project, an open-source "<q>spiritual successor to <a
+href="https://en.wikipedia.org/wiki/BeOS">BeOS</a></q>", has been <a
+href="https://www.haiku-os.org/news/2024-09-13_haiku_r1_beta5/">released</a>. Notable
+changes in this release include a TUN/TAP network driver, basic
+support for USB audio devices, TCP throughput improvements, a
+rewritten driver for the FAT filesystem, read-only support for
+Unix File System 2 (UFS2), as well as hundreds of bug fixes and
+performance improvements since the <a
+href="https://www.haiku-os.org/get-haiku/r1beta4/">last release</a> in
+December 2022. Thanks to Paul Wise for the tip.</p>]]></description>
+            <guid>https://lwn.net/Articles/990735/</guid>
+            <pubDate>Wed, 18 Sep 2024 14:54:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/990731/</link>
