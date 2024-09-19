@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Sep 2024 12:12:54 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 12:17:23 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 12:55:36 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 12:56:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/990877/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (expat and tinyproxy), <b>Fedora</b> (frr, microcode_ctl, python3.10, python3.12, python3.6, and ruby), <b>Oracle</b> (expat, fence-agents, firefox, ghostscript, java-1.8.0-openjdk, kernel, and thunderbird), <b>Red Hat</b> (firefox, openssl, ruby:3.3, and thunderbird), <b>SUSE</b> (clamav, ffmpeg-4, kernel, libmfx, python3, python312, runc, ucode-intel, and wireshark), and <b>Ubuntu</b> (apache2, git, linux, linux-aws, linux-aws-5.15, linux-azure, linux-azure-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-nvidia, linux-oracle, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, and linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle).]]></description>
+            <guid>https://lwn.net/Articles/990877/</guid>
+            <pubDate>Thu, 19 Sep 2024 12:36:47 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>GNOME 47 released</title>
             <link>https://lwn.net/Articles/990788/</link>
