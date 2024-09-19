@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Sep 2024 05:19:56 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 05:48:09 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 05:48:55 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 06:14:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME 47 released</title>
+            <link>https://lwn.net/Articles/990788/</link>
+            <description><![CDATA[<a href="https://release.gnome.org/47/">Version 47</a> of the GNOME desktop
+has been released.  Changes include configurable accent colors, better
+small-screen support, some performance improvements, new file open and save
+dialogs, and more.]]></description>
+            <guid>https://lwn.net/Articles/990788/</guid>
+            <pubDate>Thu, 19 Sep 2024 05:48:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for September 12, 2024</title>
             <link>https://lwn.net/Articles/988984/</link>
