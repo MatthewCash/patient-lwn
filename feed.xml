@@ -8,11 +8,110 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Sep 2024 23:26:09 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Sep 2024 23:48:04 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 00:03:43 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 00:42:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 12, 2024</title>
+            <link>https://lwn.net/Articles/988984/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for September 12, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/988984/</guid>
+            <pubDate>Thu, 12 Sep 2024 01:16:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A mess in the Python community</title>
+            <link>https://lwn.net/Articles/988894/</link>
+            <description><![CDATA[The Python community has been roiled, to a certain extent, by an <a
+href="https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250">action
+taken by
+the steering council</a> (SC): the three-month suspension
+of a unnamed—weirdly—Python core developer.  Tim Peters is the developer
+in question, as he has <a
+href="https://www.theregister.com/2024/08/09/core_python_developer_suspended_coc/">acknowledged</a>,
+though it could easily be deduced from the SC message. Peters has been
+involved in the
+project from its early days and, among many other things, is the author of
+<a href="https://peps.python.org/pep-0020/">PEP&nbsp;20</a> ("The Zen of
+Python").  The suspension was due to violations of the project's <a
+href="https://policies.python.org/python.org/code-of-conduct/">code of
+conduct</a> that stem from the discussion around a somewhat controversial <a
+href="https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696">set
+of proposed changes to the bylaws</a> for the <a
+href="https://www.python.org/psf-landing/">Python Software Foundation</a>
+(PSF) back in mid-June.]]></description>
+            <guid>https://lwn.net/Articles/988894/</guid>
+            <pubDate>Wed, 11 Sep 2024 16:09:54 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The trouble with iowait</title>
+            <link>https://lwn.net/Articles/989272/</link>
+            <description><![CDATA[CPU scheduling is a challenging job; since it inherently requires making
+guesses about what the demands on the system will be in the future, it
+remains reliant on heuristics, despite ongoing efforts to remove them.
+Some of those heuristics take special note of tasks that are (or appear to
+be) waiting for fast I/O operations.  There is some unhappiness, though,
+with how this factor is used, leading to a couple of patches taking rather
+different approaches to improve the situation.]]></description>
+            <guid>https://lwn.net/Articles/989272/</guid>
+            <pubDate>Tue, 10 Sep 2024 13:48:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Attracting and retaining Debian contributors</title>
+            <link>https://lwn.net/Articles/987548/</link>
+            <description><![CDATA[Many projects struggle with attracting and retaining contributors; Debian
+is no different in that regard.  At <a
+href="https://debconf24.debconf.org/">DebConf24</a>, Carlos Henrique Lima
+Melara and Lucas Kanashiro gave a presentation about efforts that the
+Brazilian Debian community has made to increase participation.  Their ideas
+and the lessons
+learned can be applied more widely, both for other Debian communities and
+for other projects.]]></description>
+            <guid>https://lwn.net/Articles/987548/</guid>
+            <pubDate>Mon, 09 Sep 2024 16:31:25 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Testing AI-enhanced reviews for Linux patches</title>
+            <link>https://lwn.net/Articles/987319/</link>
+            <description><![CDATA[<p>Code review is in high demand, and short supply, for most open-source projects.
+Reviewer time is precious, so any tool that can lighten the load is worth exploring.
+That is why Jesse Brandeburg and Kamel Ayari decided to test whether
+tools like ChatGPT could review patches to provide quick feedback to
+contributors about common problems. In <a
+href="https://netdevconf.info/0x18/sessions/talk/ai-enhanced-reviews-for-linux-networking.html">a
+talk</a> at the <a href="https://netdevconf.info/0x18/">Netdev
+0x18</a> conference this July, Brandeburg provided an overview of an
+experiment using machine learning to review emails containing patches
+sent to the <a href="https://www.kernel.org/doc/html/v5.6/networking/netdev-FAQ.html">netdev</a>
+mailing list. Large-language models (LLMs) will not be replacing human reviewers anytime
+soon, but they may be a useful addition to help humans focus on deeper
+reviews instead of simple rule violations.</p>]]></description>
+            <guid>https://lwn.net/Articles/987319/</guid>
+            <pubDate>Fri, 06 Sep 2024 19:16:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Application monitoring with OpenSnitch</title>
+            <link>https://lwn.net/Articles/988401/</link>
+            <description><![CDATA[<p>
+<a href="https://github.com/evilsocket/opensnitch">OpenSnitch</a> is an
+"<q>interactive application firewall</q>". Like other firewalls, it uses a
+series of rules to decide what network traffic should be permitted. Unlike
+many other firewalls, though, OpenSnitch does not ask the user to create a list of rules
+ahead of time. Instead, the list of rules can be built up
+incrementally as applications make connections — and the user can peruse both
+the rules that have built up over time, and statistics on the connections that
+have been attempted.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/988401/</guid>
+            <pubDate>Thu, 05 Sep 2024 15:23:02 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Three stable kernel updates for Wednesday</title>
             <link>https://lwn.net/Articles/990766/</link>
@@ -308,94 +407,6 @@ important fixes throughout the kernel tree.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and redis), <b>Fedora</b> (nextcloud, python3.10, python3.13, python3.6, vim, and wolfssl), <b>Mageia</b> (expat, libpcap, and microcode), <b>Oracle</b> (dovecot, kernel, and kernel-container), <b>Red Hat</b> (kernel and krb5), <b>SUSE</b> (389-ds, colord, containerd, curl, expat, glib2, go1.22, go1.23, kernel, libpcap, postgresql16, and runc), and <b>Ubuntu</b> (expat, libxmltok, linux, linux-aws, linux-azure, linux-bluefield, linux-gcp, linux-gkeop, linux-ibm, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-lowlatency, linux-oem-6.8, linux-oracle, linux-aws-5.4, linux-azure-5.4, linux-gcp-5.4, linux-hwe-5.4, linux-ibm-5.4, linux-oracle-5.4, linux-raspi-5.4, linux-azure, linux-iot, linux-nvidia, linux-nvidia-lowlatency, python-setuptools, setuptools, tiff, and unbound).]]></description>
             <guid>https://lwn.net/Articles/990040/</guid>
             <pubDate>Thu, 12 Sep 2024 15:08:38 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 5, 2024</title>
-            <link>https://lwn.net/Articles/987605/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for September 5, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/987605/</guid>
-            <pubDate>Thu, 05 Sep 2024 00:48:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Whither the Apple AGX graphics driver?</title>
-            <link>https://lwn.net/Articles/988438/</link>
-            <description><![CDATA[Much of the early Rust code for the kernel has taken the form of
-reimplementations of existing drivers as a proof of concept.  One project,
-though, is entirely new: the driver for Apple GPUs written by Asahi Lina.
-This driver has shipped with <a href="https://asahilinux.org/">Asahi
-Linux</a> for some time and, by many accounts, is stable, usable, and a
-shining example of how Rust can be used in a complex kernel subsystem.
-That driver remains outside of the mainline kernel, though, and merging
-currently looks like a distant prospect.  The reasons for that state of
-affairs highlight some of the difficulties inherent in integrating a new
-language (and its associated development style) into the Linux kernel.]]></description>
-            <guid>https://lwn.net/Articles/988438/</guid>
-            <pubDate>Wed, 04 Sep 2024 13:56:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Transcribing audio with AI using Speech Note</title>
-            <link>https://lwn.net/Articles/987315/</link>
-            <description><![CDATA[<p>One of the joys of writing about technology is the opportunity to
-cover interesting talks on open&#8209;source and free&#8209;software topics. One
-of the pains is creating transcriptions of said talks, or continually
-referring back to a recording, to be able to write about
-them. <a href="https://github.com/mkiol/dsnote">Speech Note</a> is an
-open-source application that uses machine-learning models, running locally, to
-translate speech to text and take the pain out of transcription. It
-also handles text to speech, and language translations. While not
-perfect, its transcriptions are better than one might expect, even when
-handling jargon, accents, and less-than-perfect audio.</p>]]></description>
-            <guid>https://lwn.net/Articles/987315/</guid>
-            <pubDate>Tue, 03 Sep 2024 15:11:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Advances in font technology and GTK text rendering</title>
-            <link>https://lwn.net/Articles/987176/</link>
-            <description><![CDATA[<p>At this year's <a href="https://events.gnome.org/event/209/">GUADEC</a> in Denver, Colorado, Behdad Esfahbod and Matthias Clasen
-presented a <a href="https://events.gnome.org/event/209/contributions/749/">two-part talk</a> on a topic that's deeply important to desktop
-environments: fonts. Esfahbod covered advances in font
-technology that are making their way to becoming standards, and Clasen briefly
-discussed improvements in GTK text rendering. The talk presented some
-fascinating insights into the problems around accurately rendering
-writing systems on the desktop, and where font technologies may be
-going in the near future.</p>]]></description>
-            <guid>https://lwn.net/Articles/987176/</guid>
-            <pubDate>Mon, 02 Sep 2024 15:34:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A SpamAssassin surprise</title>
-            <link>https://lwn.net/Articles/987566/</link>
-            <description><![CDATA[Here is a piece of advice for anybody wanting an easy and frustration-free
-life: do not run your own email system.  While there numerous advantages to
-keeping some control over your communications, there is also a long list of
-things that can go wrong.  A recent failure of spam filtering on the LWN
-email system illustrated one of those ways, as well as shining a light on
-how even a seemingly independent email system is tied to other services
-across the net.]]></description>
-            <guid>https://lwn.net/Articles/987566/</guid>
-            <pubDate>Fri, 30 Aug 2024 14:48:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Plasma Mobile for highly configurable Linux phones</title>
-            <link>https://lwn.net/Articles/986899/</link>
-            <description><![CDATA[<a href="https://plasma-mobile.org">Plasma Mobile</a> is an open-source
-user interface for mobile devices, developed by the KDE community. It's
-built on the same foundations as <a
-href="https://kde.org/plasma-desktop/">Plasma Desktop</a>, including <a
-href="https://develop.kde.org/products/frameworks/">KDE Frameworks</a> and the <a
-href="https://invent.kde.org/plasma/kwin#kwin">KWin</a> window
-manager. Much like its desktop counterpart, Plasma Mobile caters to
-advanced users by offering extensive customizability. It is offered as an
-option on phones with <a href="https://plasma-mobile.org/get/">various mobile Linux
-distributions</a>.]]></description>
-            <guid>https://lwn.net/Articles/986899/</guid>
-            <pubDate>Thu, 29 Aug 2024 15:11:39 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
