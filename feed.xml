@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Sep 2024 21:29:42 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 21:48:04 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 22:00:50 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 22:09:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -391,17 +391,6 @@ software regimes, but including optimal interoperability.
             <description><![CDATA[Security updates have been issued by <b>Fedora</b> (haproxy, osc, and python3.11), <b>Oracle</b> (389-ds:1.4), <b>Red Hat</b> (kernel), <b>SUSE</b> (clamav, colord, kernel, postgresql16, and qemu), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-nvidia, linux-oracle, linux-raspi, linux-azure, linux-azure-5.15, linux-azure-fde, linux-lowlatency-hwe-6.8, linux-nvidia-6.8, and linux-xilinx-zynqmp).]]></description>
             <guid>https://lwn.net/Articles/990202/</guid>
             <pubDate>Fri, 13 Sep 2024 13:45:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>VirtualBox 7.1.0 released</title>
-            <link>https://lwn.net/Articles/990125/</link>
-            <description><![CDATA[<p><a href="https://www.virtualbox.org/wiki/Changelog-7.1#v00">Version
-7.1.0</a> of the <a href="https://www.virtualbox.org/">VirtualBox</a> virtualization system has been
-released. Changes include a major GUI update, a new Network Address
-Translation (NAT) engine with IPv6 support, shared clipboard support on Wayland, and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/990125/</guid>
-            <pubDate>Thu, 12 Sep 2024 21:42:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
