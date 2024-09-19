@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Sep 2024 14:42:05 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 14:48:13 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Sep 2024 15:05:51 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Sep 2024 15:11:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -418,14 +418,6 @@ href="https://lwn.net/Articles/990050/">4.19.322</a>.  As usual, they all contai
 important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/990043/</guid>
             <pubDate>Thu, 12 Sep 2024 15:25:44 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/990040/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and redis), <b>Fedora</b> (nextcloud, python3.10, python3.13, python3.6, vim, and wolfssl), <b>Mageia</b> (expat, libpcap, and microcode), <b>Oracle</b> (dovecot, kernel, and kernel-container), <b>Red Hat</b> (kernel and krb5), <b>SUSE</b> (389-ds, colord, containerd, curl, expat, glib2, go1.22, go1.23, kernel, libpcap, postgresql16, and runc), and <b>Ubuntu</b> (expat, libxmltok, linux, linux-aws, linux-azure, linux-bluefield, linux-gcp, linux-gkeop, linux-ibm, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-lowlatency, linux-oem-6.8, linux-oracle, linux-aws-5.4, linux-azure-5.4, linux-gcp-5.4, linux-hwe-5.4, linux-ibm-5.4, linux-oracle-5.4, linux-raspi-5.4, linux-azure, linux-iot, linux-nvidia, linux-nvidia-lowlatency, python-setuptools, setuptools, tiff, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/990040/</guid>
-            <pubDate>Thu, 12 Sep 2024 15:08:38 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
