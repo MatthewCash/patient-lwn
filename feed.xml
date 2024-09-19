@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 19 Sep 2024 15:05:51 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Sep 2024 15:11:03 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 19 Sep 2024 15:29:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,22 +403,6 @@ Translation (NAT) engine with IPv6 support, shared clipboard support on Wayland,
             <guid>https://lwn.net/Articles/990125/</guid>
             <pubDate>Thu, 12 Sep 2024 21:42:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>New stable kernels released</title>
-            <link>https://lwn.net/Articles/990043/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of seven new stable kernels:
-<a href="https://lwn.net/Articles/990044/">6.10.10</a>, <a
-href="https://lwn.net/Articles/990045/">6.6.51</a>, <a
-href="https://lwn.net/Articles/990046/">6.1.110</a>, <a
-href="https://lwn.net/Articles/990047/">5.15.167</a>, <a
-href="https://lwn.net/Articles/990048/">5.10.226</a> <a
-href="https://lwn.net/Articles/990049/">5.4.284</a>, and <a
-href="https://lwn.net/Articles/990050/">4.19.322</a>.  As usual, they all contain lots of
-important fixes throughout the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/990043/</guid>
-            <pubDate>Thu, 12 Sep 2024 15:25:44 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
