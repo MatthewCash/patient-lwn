@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Sep 2024 09:50:23 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Sep 2024 10:47:53 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Sep 2024 10:58:08 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Sep 2024 11:09:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The realtime preemption pull request</title>
+            <link>https://lwn.net/Articles/990985/</link>
+            <description><![CDATA[<img src="https://lwn.net/images/conf/2024/ms/rt-pull-sm.png" alt="[pull request]"
+hspace=3 border=0 align="right">
+
+On September 19, Thomas Gleixner delivered the pull request for the
+realtime preemption enablement patches to Linus Torvalds — in printed form,
+wrapped in gold, with a ribbon, as Torvalds had requested.  It was a
+significant milestone, marking the completion of a project that required
+20&nbsp;years of effort.  Congratulations are due to everybody involved.
+<p>
+Torvalds <a href="https://git.kernel.org/linus/baeb9a7d8b60">acted on</a>
+the pull request the following morning.
+<br clear="all">]]></description>
+            <guid>https://lwn.net/Articles/990985/</guid>
+            <pubDate>Fri, 20 Sep 2024 10:58:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/990877/</link>
