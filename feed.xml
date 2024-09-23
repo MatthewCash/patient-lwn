@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Sep 2024 19:07:36 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Sep 2024 19:08:36 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Sep 2024 19:22:39 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Sep 2024 19:23:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Hy 1.0.0 released</title>
+            <link>https://lwn.net/Articles/991401/</link>
+            <description><![CDATA[<p>Version 1.0.0 of <a
+href="http://hylang.org/">Hy</a>, a Lisp dialect that is embedded in Python, has been <a
+href="https://github.com/hylang/hy/discussions/2608">released</a>
+after nearly 12 years in development. This is the first stable release of the project:</p>
+
+<blockquote class="bq">
+Henceforth, breaking changes to documented parts of the language
+(other than dropping support for versions of Python that are
+themselves no longer supported by the CPython developers) will
+increase the major version number, and my intention is for that not to
+happen often, if at all.
+</blockquote>
+
+<p>The 1.0.0 release supports Python 3.8 through 3.13. See the <a
+href="http://hylang.org/hy/doc/v1.0.0">documentation</a> and the "<a
+href="http://hylang.org/hy/doc/v1.0.0/whyhy">Why Hy?</a>" page for why
+one might want to use it.</p>]]></description>
+            <guid>https://lwn.net/Articles/991401/</guid>
+            <pubDate>Mon, 23 Sep 2024 19:22:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/991377/</link>
