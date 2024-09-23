@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Sep 2024 14:09:38 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Sep 2024 14:10:23 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Sep 2024 14:25:40 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Sep 2024 14:31:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/991377/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat, fence-agents, firefox, libnbd, openssl, pcp, ruby:3.3, and thunderbird), <b>Debian</b> (ruby-saml), <b>Fedora</b> (aardvark-dns, chromium, expat, jupyterlab, less, openssl, python-jupyterlab-server, python-notebook, python3-docs, and python3.12), <b>Gentoo</b> (calibre, curl, Emacs, org-mode, Exo, file, GPL Ghostscript, gst-plugins-good, liblouis, Mbed TLS, OpenVPN, Oracle VirtualBox, PJSIP, Portage, PostgreSQL, pypy, pypy3, Rust, Slurm, stb, VLC, and Xen), <b>SUSE</b> (container-suseconnect, ffmpeg-4, kernel, libpcap, python3, python310, python36, and wpa_supplicant), and <b>Ubuntu</b> (firefox, linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-azure, and linux-ibm-5.15, linux-oracle-5.15).]]></description>
+            <guid>https://lwn.net/Articles/991377/</guid>
+            <pubDate>Mon, 23 Sep 2024 14:25:40 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>pcp: pmcd network daemon review (SUSE Security Team Blog)</title>
             <link>https://lwn.net/Articles/991091/</link>
