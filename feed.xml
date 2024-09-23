@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 23 Sep 2024 14:40:52 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Sep 2024 15:29:22 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Sep 2024 15:37:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,34 +349,6 @@ href="https://lwn.net/Articles/987850/">announced</a> in August that it would
 relicense the projects under the Affero GPL (AGPL).</p>]]></description>
             <guid>https://lwn.net/Articles/990517/</guid>
             <pubDate>Mon, 16 Sep 2024 21:33:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Valkey 8.0.0 released</title>
-            <link>https://lwn.net/Articles/990490/</link>
-            <description><![CDATA[<p><a href="https://valkey.io/blog/valkey-8-ga/">Version 8.0.0</a> of
-the <a href="https://valkey.io">Valkey</a> open-source in-memory data
-store is now available. This is the first major release of Valkey
-since the project <a
-href="https://lwn.net/Articles/966631/">forked</a> from <a
-href="https://redis.io">Redis</a> in March of this year:</p>
-
-<blockquote class="bq">
-While this is a major version, Valkey takes command set compatibility
-seriously: Valkey 8.0.0 makes no backwards incompatible changes to the
-existing command syntax or their responses. Your existing tools and
-custom software will be able to immediately take advantage of Valkey
-8.0.0. Since Valkey 8.0.0 does make some small changes to previously
-undefined behaviors, it's wise to <a
-href="https://github.com/valkey-io/valkey/blob/8.0.0/00-RELEASENOTES">read
-the release notes</a>. Additionally, because this version makes changes in how the
-software uses threading, you may want to re-evaluate your cluster's
-infrastructure to achieve the highest performance.
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/990490/</guid>
-            <pubDate>Mon, 16 Sep 2024 15:19:21 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
