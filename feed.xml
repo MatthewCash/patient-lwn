@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Sep 2024 10:46:08 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Sep 2024 11:33:39 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Sep 2024 11:46:55 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Sep 2024 11:47:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/991492/</link>
+            <description><![CDATA[Security updates have been issued by <b>Gentoo</b> (GCC, Hunspell, Tor, and ZNC), <b>SUSE</b> (apr-devel, cargo-c, chromedriver, firefox, kernel, libecpg6, libmfx, onefetch, postgresql12, postgresql13, postgresql14, postgresql15, postgresql16, python310-azure-identity, python39, qemu, rage-encryption, stgit, and system-user-zabbix), and <b>Ubuntu</b> (kernel, linux-ibm-5.15, linux-oracle-5.15, linux-xilinx-zynqmp, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, and py7zr).]]></description>
+            <guid>https://lwn.net/Articles/991492/</guid>
+            <pubDate>Tue, 24 Sep 2024 11:46:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Hy 1.0.0 released</title>
             <link>https://lwn.net/Articles/991401/</link>
