@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Sep 2024 14:20:42 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Sep 2024 14:41:50 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Sep 2024 14:46:03 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Sep 2024 14:48:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>HarfBuzz 10.0.0 released</title>
+            <link>https://lwn.net/Articles/991529/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/harfbuzz/harfbuzz/releases/tag/10.0.0">Version
+10.0.0</a> of the <a href="https://harfbuzz.github.io/">HarfBuzz</a>
+text-shaping engine has been released. Notable changes in this release
+include <a
+href="https://www.unicode.org/versions/Unicode16.0.0/">Unicode
+16.0.0</a> support, adding Cairo script as an output format for
+<tt>hb-view</tt>, and a number of bug fixes.</p>]]></description>
+            <guid>https://lwn.net/Articles/991529/</guid>
+            <pubDate>Tue, 24 Sep 2024 14:46:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/991492/</link>
