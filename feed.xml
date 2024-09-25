@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 25 Sep 2024 14:53:50 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Sep 2024 15:10:40 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 25 Sep 2024 15:30:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -288,26 +288,6 @@ href="https://github.com/swiftlang/swift/blob/main/CHANGELOG.md#swift-60">CHANGE
 for full details of changes in 6.0.</p>]]></description>
             <guid>https://lwn.net/Articles/990753/</guid>
             <pubDate>Wed, 18 Sep 2024 15:36:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Haiku R1/beta5 has been released</title>
-            <link>https://lwn.net/Articles/990735/</link>
-            <description><![CDATA[<p><a
-href="https://www.haiku-os.org/get-haiku/r1beta5/release-notes/">Version
-R1/beta5</a> for the <a href="https://www.haiku-os.org/about/">Haiku</a>
-project, an open-source "<q>spiritual successor to <a
-href="https://en.wikipedia.org/wiki/BeOS">BeOS</a></q>", has been <a
-href="https://www.haiku-os.org/news/2024-09-13_haiku_r1_beta5/">released</a>. Notable
-changes in this release include a TUN/TAP network driver, basic
-support for USB audio devices, TCP throughput improvements, a
-rewritten driver for the FAT filesystem, read-only support for
-Unix File System 2 (UFS2), as well as hundreds of bug fixes and
-performance improvements since the <a
-href="https://www.haiku-os.org/get-haiku/r1beta4/">last release</a> in
-December 2022. Thanks to Paul Wise for the tip.</p>]]></description>
-            <guid>https://lwn.net/Articles/990735/</guid>
-            <pubDate>Wed, 18 Sep 2024 14:54:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
