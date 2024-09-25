@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Sep 2024 17:07:44 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Sep 2024 17:09:41 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Sep 2024 17:13:55 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Sep 2024 17:29:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Vanilla OS 2 - future plans, updates, and next release</title>
+            <link>https://lwn.net/Articles/991722/</link>
+            <description><![CDATA[<p>The <a href="https://vanillaos.org/">Vanilla OS</a> project has
+published <a
+href="https://vanillaos.org/blog/article/2024-09-25/vanilla-os-2---future-plans-updates-and-next-release">a
+blog post</a> to answer questions that users have raised since the release of <a
+href="https://lwn.net/Articles/989629/">Vanilla OS 2</a>. The post has information about the update strategy for the distribution,
+an <a href="https://vanillaos.org/enterprise-support">enterprise
+version with support</a>, and plans for an experimental version called
+Vanilla OS Vision.</p>
+
+<blockquote class="bq">
+<p>We are not planning for a potential Vanilla OS 3 because it is not
+yet necessary. As previously explained, our focus right now is on bug
+fixing and making the system as solid as possible, especially in light
+of collaborations with OEMs. We're all excited about laying the
+foundation for a third version of Vanilla OS, but we have
+responsibilities to attend to first.</p>
+
+<p>This does not mean that there will never be one, nor does it mean
+that Orchid will become stagnant. On the contrary, as previously
+mentioned, our updates not only bring fixes but also updates to system
+components, improvements to existing features, and updates to
+components like GNOME (we are planning the release of GNOME 47 soon,
+for example).</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/991722/</guid>
+            <pubDate>Wed, 25 Sep 2024 17:13:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/991701/</link>
