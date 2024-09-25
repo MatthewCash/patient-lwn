@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Sep 2024 12:47:55 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Sep 2024 12:58:37 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Sep 2024 13:15:50 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Sep 2024 13:23:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/991701/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (booth), <b>Gentoo</b> (Xpdf), <b>Oracle</b> (go-toolset:ol8, golang, grafana, grafana-pcp, kernel, libnbd, openssl, pcp, and ruby:3.3), <b>Red Hat</b> (container-tools:rhel8, go-toolset:rhel8, golang, kernel, and kernel-rt), <b>SUSE</b> (apr, cargo-audit, chromium, obs-service-cargo, python311, python36, quagga, traefik, and xen), and <b>Ubuntu</b> (intel-microcode, linux-azure-fde-5.15, and puma).]]></description>
+            <guid>https://lwn.net/Articles/991701/</guid>
+            <pubDate>Wed, 25 Sep 2024 13:15:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>HarfBuzz 10.0.0 released</title>
             <link>https://lwn.net/Articles/991529/</link>
@@ -300,43 +308,6 @@ href="https://www.haiku-os.org/get-haiku/r1beta4/">last release</a> in
 December 2022. Thanks to Paul Wise for the tip.</p>]]></description>
             <guid>https://lwn.net/Articles/990735/</guid>
             <pubDate>Wed, 18 Sep 2024 14:54:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/990731/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (pcs), <b>Debian</b> (expat, galera-4, libreoffice, mariadb-10.5, and php-twig), <b>Fedora</b> (chromium), <b>Red Hat</b> (ghostscript and git), <b>SUSE</b> (gstreamer-plugins-bad, gstreamer-plugins-bad, libvpl, python-dnspython, python3, and python36), and <b>Ubuntu</b> (expat, frr, libxmltok, linux-xilinx-zynqmp, openssl, and quagga).]]></description>
-            <guid>https://lwn.net/Articles/990731/</guid>
-            <pubDate>Wed, 18 Sep 2024 13:08:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LLVM 16.1.0 released</title>
-            <link>https://lwn.net/Articles/990706/</link>
-            <description><![CDATA[<p><a
-href="https://discourse.llvm.org/t/llvm-19-1-0-released/81285">Version
-16.1.0</a> of the LLVM compiler suite has been released:</p>
-
-<blockquote class="bq">
-This is the first release in the LLVM 19.x series and represents 6
-months of work the LLVM community. During this period 1502 unique
-authors contributed 18925 commits (3605729 lines added and 1665792
-lines removed) to LLVM.
-</blockquote>
-
-<p>As usual, there is a long list of changes; see the release notes
-for <a
-href="https://releases.llvm.org/19.1.0/docs/ReleaseNotes.html">LLVM</a>,
-<a href="https://releases.llvm.org/19.1.0/projects/libcxx/docs/ReleaseNotes.html">Libc++</a>,
-<a
-href="https://releases.llvm.org/19.1.0/tools/lld/docs/ReleaseNotes.html">lld</a>,
-<a
-href="https://releases.llvm.org/19.1.0/tools/clang/docs/ReleaseNotes.html">Clang</a>,
-and <a
-href="https://releases.llvm.org/19.1.0/tools/clang/tools/extra/docs/ReleaseNotes.html">Extra
-Clang Tools</a> for changes to each.]]></description>
-            <guid>https://lwn.net/Articles/990706/</guid>
-            <pubDate>Wed, 18 Sep 2024 13:15:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
