@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Sep 2024 14:18:42 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Sep 2024 14:48:33 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Sep 2024 15:04:05 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Sep 2024 15:10:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Uniting for Internet Freedom: Tor Project &amp; Tails Join Forces (Tor blog)</title>
+            <link>https://lwn.net/Articles/991899/</link>
+            <description><![CDATA[The online-privacy-focused <a href="https://www.torproject.org/">Tor
+project</a> has <a
+href="https://blog.torproject.org/tor-tails-join-forces/">announced</a>
+that it has "<q>joined forces and merged operations</q>" with the <a
+href="https://tails.net/">Tails OS</a> Linux distribution.
+
+<blockquote class="bq">
+Countering the threat of global mass surveillance and censorship to a free Internet, Tor and Tails provide essential tools to help people around the world stay safe online. By joining forces, these two privacy advocates will pool their resources to focus on what matters most: ensuring that activists, journalists, other at-risk and everyday users will have access to improved digital security tools.
+<p>
+In late 2023, Tails approached the Tor Project with the idea of merging operations. Tails had outgrown its existing structure. Rather than expanding Tails's operational capacity on their own and putting more stress on Tails workers, merging with the Tor Project, with its larger and established operational framework, offered a solution. By joining forces, the Tails team can now focus on their core mission of maintaining and improving Tails OS, exploring more and complementary use cases while benefiting from the larger organizational structure of The Tor Project.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/991899/</guid>
+            <pubDate>Thu, 26 Sep 2024 15:04:05 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/991897/</link>
