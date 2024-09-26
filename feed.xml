@@ -8,11 +8,147 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Sep 2024 23:38:53 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Sep 2024 23:48:20 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Sep 2024 23:55:06 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Sep 2024 00:43:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 19, 2024</title>
+            <link>https://lwn.net/Articles/989982/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for September 19, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/989982/</guid>
+            <pubDate>Thu, 19 Sep 2024 05:04:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Kernel developers at Cauldron</title>
+            <link>https://lwn.net/Articles/990379/</link>
+            <description><![CDATA[A Linux system is made up of a large number of interdependent components,
+all of which must support each other well.  It can thus be surprising that,
+it seems, the developers working on those components do not often speak
+with each other.  In the hope of improving that situation, efforts have
+been made in recent years to attract toolchain developers to the
+kernel-heavy Linux Plumbers Conference.  This year, though, the opposite
+happened as well: the <a href="https://gcc.gnu.org/wiki/cauldron2024">2024
+GNU Tools Cauldron</a> hosted a discussion where kernel developers were
+invited to discuss their needs.]]></description>
+            <guid>https://lwn.net/Articles/990379/</guid>
+            <pubDate>Wed, 18 Sep 2024 14:00:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A discussion of Rust safety documentation</title>
+            <link>https://lwn.net/Articles/990273/</link>
+            <description><![CDATA[<p>
+<a href="https://kangrejos.com/">
+Kangrejos 2024</a> started off with a talk from Benno Lossin about his
+<a href="https://lwn.net/Articles/982868/">recent work</a>
+to establish a standard for safety documentation in Rust kernel code. Lossin
+began his talk by giving a brief review of what safety documentation is, and
+why it's needed, before moving on to the current status of his work. Safety
+documentation is easier to read and write when there's a shared vocabulary for
+discussing common requirements; Lossin wants to establish that shared vocabulary
+for Rust code in the Linux kernel.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/990273/</guid>
+            <pubDate>Tue, 17 Sep 2024 18:34:33 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Vanilla OS 2: an immutable distribution to run all software</title>
+            <link>https://lwn.net/Articles/989629/</link>
+            <description><![CDATA[<p><a href="https://vanillaos.org">Vanilla OS</a>, an immutable desktop
+Linux distribution designed for developers and advanced users, has
+recently published its <a
+href="https://vanillaos.org/blog/article/2024-07-28/vanilla-os-2-orchid---stable-release">2.0
+"Orchid" release</a>. Previously based on Ubuntu, Vanilla OS has now
+shifted to Debian unstable ("sid"). The release has made it easier to
+install software from other distributions' package repositories, and it
+is now theoretically possible to install and run Android applications as well.</p>]]></description>
+            <guid>https://lwn.net/Articles/989629/</guid>
+            <pubDate>Tue, 17 Sep 2024 17:12:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] An update on BPF generation from GCC</title>
+            <link>https://lwn.net/Articles/990343/</link>
+            <description><![CDATA[The generation of binary code for the kernel's BPF virtual machine has been
+limited to the Clang compiler since the beginning; even developers who
+use GCC to build kernels must use Clang to compile to BPF.  Work has
+been underway for some years on adding a BPF backend to GCC as well; the
+developers involved ran a session at the <a
+href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools Cauldron</a> to
+provide an update on that project.  It would seem that the BPF backend is
+close to being ready for production use.]]></description>
+            <guid>https://lwn.net/Articles/990343/</guid>
+            <pubDate>Tue, 17 Sep 2024 12:23:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora evicts WolfSSL</title>
+            <link>https://lwn.net/Articles/989687/</link>
+            <description><![CDATA[<p>The <a href="https://docs.fedoraproject.org/en-US/fesco/">Fedora
+Engineering Steering Committee</a> (FESCo) has voted to
+immediately remove the <a href="https://www.wolfssl.com">WolfSSL</a> package from all of Fedora's
+repositories due to its maintainer failing to gain approval to package
+a new cryptography library for Fedora. Its brief travels through
+Fedora's package system highlights gaps in documentation, as well as
+in the package&#8209;review process. The good news is that this may stir
+Fedora to improve its documentation and revive a formal security
+team.</p>]]></description>
+            <guid>https://lwn.net/Articles/989687/</guid>
+            <pubDate>Mon, 16 Sep 2024 16:40:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some 6.11 development statistics</title>
+            <link>https://lwn.net/Articles/989528/</link>
+            <description><![CDATA[The 6.11 kernel was <a
+href="https://lwn.net/ml/all/CAHk-=whVpSHw9+4ov=oLevfv8sPYbh59T_9VKif-6Vqkr41jQA@mail.gmail.com/">released</a>
+on September&nbsp;15 after a typical nine-week development cycle.  This
+release integrates 13,890 non-merge changesets, so it was a moderately busy
+cycle, slightly more so that 6.10 was.  With a new release comes a new round
+of development statistics; read on for the details.]]></description>
+            <guid>https://lwn.net/Articles/989528/</guid>
+            <pubDate>Mon, 16 Sep 2024 14:24:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The RCU API, 2024 edition</title>
+            <link>https://lwn.net/Articles/988638/</link>
+            <description><![CDATA[Read-copy-update (RCU) is a synchronization mechanism that was added to the
+Linux kernel in October 2002.  RCU is most frequently used as a <a
+href="https://linuxfoundation.org/webinars/unraveling-rcu-usage-mysteries/">replacement
+for reader-writer locking</a>, but is also used in <a
+href="https://linuxfoundation.org/webinars/unraveling-rcu-usage-mysteries-additional-use-cases/">a
+number of other ways</a>.  This article covers recent changes to the RCU
+API; it was contributed by Paul McKenney, Boqun Feng, Frederic Weisbecker,
+Joel Fernandes, Neeraj Upadhyay, and Uladzislau Rezki.]]></description>
+            <guid>https://lwn.net/Articles/988638/</guid>
+            <pubDate>Fri, 13 Sep 2024 15:50:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debating ifupdown replacements for Debian trixie</title>
+            <link>https://lwn.net/Articles/989055/</link>
+            <description><![CDATA[<p>Debian does not have an official way to configure
+networking. Instead, it has <a
+href="https://wiki.debian.org/NetworkConfiguration">four</a>
+recommended ways to configure networking, one of which is the
+venerable <a
+href="https://salsa.debian.org/debian/ifupdown">ifupdown</a>, which
+has part of Debian since the turn of the century and is showing its
+age. A conversation about its maintainability and possible replacement with <a
+href="https://github.com/ifupdown-ng/ifupdown-ng">ifupdown&#8209;ng</a> has
+led to discussions about the default network-management tools for
+Debian "<a href="https://www.debian.org/releases/trixie/">trixie</a>"
+(Debian 13, which expected in 2025) and beyond. No route to consensus
+has been found, yet.</p>]]></description>
+            <guid>https://lwn.net/Articles/989055/</guid>
+            <pubDate>Thu, 12 Sep 2024 15:55:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Vanilla OS 2 - future plans, updates, and next release</title>
             <link>https://lwn.net/Articles/991722/</link>
@@ -195,105 +331,6 @@ dialogs, and more.]]></description>
             <guid>https://lwn.net/Articles/990788/</guid>
             <pubDate>Thu, 19 Sep 2024 05:48:54 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 12, 2024</title>
-            <link>https://lwn.net/Articles/988984/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for September 12, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/988984/</guid>
-            <pubDate>Thu, 12 Sep 2024 01:16:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A mess in the Python community</title>
-            <link>https://lwn.net/Articles/988894/</link>
-            <description><![CDATA[The Python community has been roiled, to a certain extent, by an <a
-href="https://discuss.python.org/t/three-month-suspension-for-a-core-developer/60250">action
-taken by
-the steering council</a> (SC): the three-month suspension
-of a unnamed—weirdly—Python core developer.  Tim Peters is the developer
-in question, as he has <a
-href="https://www.theregister.com/2024/08/09/core_python_developer_suspended_coc/">acknowledged</a>,
-though it could easily be deduced from the SC message. Peters has been
-involved in the
-project from its early days and, among many other things, is the author of
-<a href="https://peps.python.org/pep-0020/">PEP&nbsp;20</a> ("The Zen of
-Python").  The suspension was due to violations of the project's <a
-href="https://policies.python.org/python.org/code-of-conduct/">code of
-conduct</a> that stem from the discussion around a somewhat controversial <a
-href="https://discuss.python.org/t/for-your-consideration-proposed-bylaws-changes-to-improve-our-membership-experience/55696">set
-of proposed changes to the bylaws</a> for the <a
-href="https://www.python.org/psf-landing/">Python Software Foundation</a>
-(PSF) back in mid-June.]]></description>
-            <guid>https://lwn.net/Articles/988894/</guid>
-            <pubDate>Wed, 11 Sep 2024 16:09:54 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The trouble with iowait</title>
-            <link>https://lwn.net/Articles/989272/</link>
-            <description><![CDATA[CPU scheduling is a challenging job; since it inherently requires making
-guesses about what the demands on the system will be in the future, it
-remains reliant on heuristics, despite ongoing efforts to remove them.
-Some of those heuristics take special note of tasks that are (or appear to
-be) waiting for fast I/O operations.  There is some unhappiness, though,
-with how this factor is used, leading to a couple of patches taking rather
-different approaches to improve the situation.]]></description>
-            <guid>https://lwn.net/Articles/989272/</guid>
-            <pubDate>Tue, 10 Sep 2024 13:48:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Attracting and retaining Debian contributors</title>
-            <link>https://lwn.net/Articles/987548/</link>
-            <description><![CDATA[Many projects struggle with attracting and retaining contributors; Debian
-is no different in that regard.  At <a
-href="https://debconf24.debconf.org/">DebConf24</a>, Carlos Henrique Lima
-Melara and Lucas Kanashiro gave a presentation about efforts that the
-Brazilian Debian community has made to increase participation.  Their ideas
-and the lessons
-learned can be applied more widely, both for other Debian communities and
-for other projects.]]></description>
-            <guid>https://lwn.net/Articles/987548/</guid>
-            <pubDate>Mon, 09 Sep 2024 16:31:25 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Testing AI-enhanced reviews for Linux patches</title>
-            <link>https://lwn.net/Articles/987319/</link>
-            <description><![CDATA[<p>Code review is in high demand, and short supply, for most open-source projects.
-Reviewer time is precious, so any tool that can lighten the load is worth exploring.
-That is why Jesse Brandeburg and Kamel Ayari decided to test whether
-tools like ChatGPT could review patches to provide quick feedback to
-contributors about common problems. In <a
-href="https://netdevconf.info/0x18/sessions/talk/ai-enhanced-reviews-for-linux-networking.html">a
-talk</a> at the <a href="https://netdevconf.info/0x18/">Netdev
-0x18</a> conference this July, Brandeburg provided an overview of an
-experiment using machine learning to review emails containing patches
-sent to the <a href="https://www.kernel.org/doc/html/v5.6/networking/netdev-FAQ.html">netdev</a>
-mailing list. Large-language models (LLMs) will not be replacing human reviewers anytime
-soon, but they may be a useful addition to help humans focus on deeper
-reviews instead of simple rule violations.</p>]]></description>
-            <guid>https://lwn.net/Articles/987319/</guid>
-            <pubDate>Fri, 06 Sep 2024 19:16:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Application monitoring with OpenSnitch</title>
-            <link>https://lwn.net/Articles/988401/</link>
-            <description><![CDATA[<p>
-<a href="https://github.com/evilsocket/opensnitch">OpenSnitch</a> is an
-"<q>interactive application firewall</q>". Like other firewalls, it uses a
-series of rules to decide what network traffic should be permitted. Unlike
-many other firewalls, though, OpenSnitch does not ask the user to create a list of rules
-ahead of time. Instead, the list of rules can be built up
-incrementally as applications make connections — and the user can peruse both
-the rules that have built up over time, and statistics on the connections that
-have been attempted.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/988401/</guid>
-            <pubDate>Thu, 05 Sep 2024 15:23:02 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
