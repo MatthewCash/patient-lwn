@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Sep 2024 20:38:48 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Sep 2024 21:08:44 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Sep 2024 21:22:57 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Sep 2024 21:25:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Remote exploit of CUPS</title>
+            <link>https://lwn.net/Articles/991929/</link>
+            <description><![CDATA[<p>
+Security researcher Simone Margaritelli 
+<a href="https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/">
+has reported</a> a new vulnerability in 
+<a href="https://openprinting.github.io/cups/">
+CUPS</a>, the software that many Linux systems use to manage printers and print jobs. Margaritelli describes the impact of the attack by saying:
+</p>
+
+<blockquote class="bq">
+A remote unauthenticated attacker can silently replace existing printers' (or install new ones) IPP urls with a malicious one, resulting in arbitrary command execution (on the computer) when a print job is started (from that computer).
+</blockquote>
+
+<p>
+The vulnerability relies on a few related problems in CUPS libraries and utilities; versions before 2.0.1 or 2.1b1 (depending on the component) may be affected.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/991929/</guid>
+            <pubDate>Thu, 26 Sep 2024 21:22:55 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>PostgreSQL 17 released</title>
             <link>https://lwn.net/Articles/991904/</link>
