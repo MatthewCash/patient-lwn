@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Sep 2024 12:06:13 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Sep 2024 12:17:38 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Sep 2024 12:26:15 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Sep 2024 12:57:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,14 +388,6 @@ and are expected to be removed entirely in early 2025. The release also contains
 </p>]]></description>
             <guid>https://lwn.net/Articles/991028/</guid>
             <pubDate>Fri, 20 Sep 2024 13:01:54 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/991027/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (bluez, chromium, frr, iwd, libell, python3.11, python3.8, python3.9, and ruby), <b>Mageia</b> (kernel, kmod-xtables-addons, and kmod-virtualbox and kernel-linus), <b>Red Hat</b> (kernel), <b>SUSE</b> (kernel, kubernetes1.23, kubernetes1.24, kubernetes1.25, libmfx, and python-azure-identity), and <b>Ubuntu</b> (emacs, emacs24, emacs25, libreoffice, postgresql-9.5, python2.7, python3.5, and tgt).]]></description>
-            <guid>https://lwn.net/Articles/991027/</guid>
-            <pubDate>Fri, 20 Sep 2024 12:01:22 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
