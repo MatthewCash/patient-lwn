@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Sep 2024 16:01:51 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Sep 2024 16:12:43 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Sep 2024 16:29:23 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Sep 2024 16:35:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four new stable kernels</title>
+            <link>https://lwn.net/Articles/992292/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/992294/">6.11.1</a>, <a
+href="https://lwn.net/Articles/992295/">6.10.12</a>, <a
+href="https://lwn.net/Articles/992296/">6.6.53</a>, and <a
+href="https://lwn.net/Articles/992297/">6.1.112</a> stable kernels have been released.
+Each contains important fixes and users of those series should upgrade.]]></description>
+            <guid>https://lwn.net/Articles/992292/</guid>
+            <pubDate>Mon, 30 Sep 2024 16:23:17 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Tcl/Tk 9.0 released</title>
             <link>https://lwn.net/Articles/992284/</link>
