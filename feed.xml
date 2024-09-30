@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Sep 2024 06:27:47 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Sep 2024 06:52:11 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Sep 2024 07:03:43 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Sep 2024 07:12:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Arch Linux getting support from Valve</title>
+            <link>https://lwn.net/Articles/992194/</link>
+            <description><![CDATA[The Arch Linux project has announced that Valve will be helping the
+distribution with a couple of important initiatives:
+<p>
+<blockquote class="bq">
+Valve is generously providing backing for two 
+critical projects that will have a huge impact on our distribution: a 
+build service infrastructure and a secure signing enclave. By supporting 
+work on a freelance basis for these topics, Valve enables us to work on 
+them without being limited solely by the free time of our volunteers.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/992194/</guid>
+            <pubDate>Mon, 30 Sep 2024 07:03:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.12-rc1</title>
             <link>https://lwn.net/Articles/992185/</link>
