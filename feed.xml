@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Oct 2024 13:44:31 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Oct 2024 13:48:18 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Oct 2024 14:02:17 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Oct 2024 14:10:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Manjaro 24.1 released</title>
+            <link>https://lwn.net/Articles/992660/</link>
+            <description><![CDATA[<p><a
+href="https://forum.manjaro.org/t/manjaro-24-1-xahea-released/168699/1">Version
+24.1</a> of the Arch-based <a href="https://manjaro.org/">Manjaro</a>
+distribution is now available with the 6.10 Linux kernel,
+GNOME&nbsp;46.5, KDE&nbsp;Plasma&nbsp;6.1 and KDE&nbsp;Gear&nbsp;24.08:</p>
+
+<blockquote class="bq">
+Plasma 6.1 on Wayland now has a feature that "remembers" what you were
+doing in your last session like it did under X11. Although this is
+still work in progress, If you log off and shut down your computer
+with a dozen open windows, Plasma will now open them for you the next
+time you power up your desktop, making it faster and easier to get
+back to what you were doing. At Manjaro we are still defaulting to
+X11, however switching to Wayland can be done easily by selecting the
+wanted session in your display manager.
+</blockquote>
+
+<p>The project also offers minimal install images with the 6.6 LTS and
+6.1 LTS kernels to support older hardware as needed.</p>]]></description>
+            <guid>https://lwn.net/Articles/992660/</guid>
+            <pubDate>Wed, 02 Oct 2024 14:01:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/992650/</link>
