@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Oct 2024 12:40:29 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Oct 2024 12:57:36 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Oct 2024 13:17:28 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Oct 2024 13:20:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/992650/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana), <b>Fedora</b> (cjson and php), <b>Oracle</b> (389-ds-base, freeradius, grafana, kernel, and krb5), <b>Slackware</b> (cryfs, cups, and mozilla), <b>SUSE</b> (OpenIPMI, openssl-3, openvpn, thunderbird, and tomcat), and <b>Ubuntu</b> (cups, cups-filters, knot-resolver, linux-raspi, linux-raspi-5.4, orc, php7.4, php8.1, php8.3, python-asyncssh, ruby-devise-two-factor, and vim).]]></description>
+            <guid>https://lwn.net/Articles/992650/</guid>
+            <pubDate>Wed, 02 Oct 2024 13:10:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>FFmpeg 7.1 released</title>
             <link>https://lwn.net/Articles/992496/</link>
