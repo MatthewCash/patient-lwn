@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 03 Oct 2024 14:16:04 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Oct 2024 14:31:38 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 3 Oct 2024 14:42:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -428,14 +428,6 @@ In late 2023, Tails approached the Tor Project with the idea of merging operatio
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/991899/</guid>
             <pubDate>Thu, 26 Sep 2024 15:04:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/991897/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, dovecot, emacs, expat, git-lfs, go-toolset:rhel8, golang, grafana, grafana-pcp, gtk3, kernel, kernel-rt, nano, python3, python3.11, python3.12, and virt:rhel and virt-devel:rhel), <b>Debian</b> (mediawiki and puredata), <b>Fedora</b> (chisel), <b>Mageia</b> (glib2.0, gtk+2.0 and gtk+3.0, and python-astropy), <b>Red Hat</b> (git-lfs, grafana, grafana-pcp, kernel, and kernel-rt), <b>SUSE</b> (kubernetes1.24, kubernetes1.25, kubernetes1.26, kubernetes1.27, kubernetes1.28, opensc, and python36), and <b>Ubuntu</b> (apparmor, apr, ca-certificates, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-raspi, openjpeg2, ruby-rack, and tomcat8, tomcat9).]]></description>
-            <guid>https://lwn.net/Articles/991897/</guid>
-            <pubDate>Thu, 26 Sep 2024 14:18:42 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
