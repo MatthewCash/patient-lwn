@@ -8,11 +8,191 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Oct 2024 22:58:47 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Oct 2024 23:48:12 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Oct 2024 23:57:16 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Oct 2024 00:44:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 26, 2024</title>
+            <link>https://lwn.net/Articles/990791/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for September 26, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/990791/</guid>
+            <pubDate>Thu, 26 Sep 2024 01:36:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] What the Nova GPU driver needs</title>
+            <link>https://lwn.net/Articles/990736/</link>
+            <description><![CDATA[<p>
+In March, Danilo Krummrich <a href="https://lwn.net/Articles/966129">announced</a> the new
+Nova GPU driver — a successor to Noveau for controlling NVIDIA GPUs.
+At Kangrejos 2024, Krummrich gave a
+presentation about what it is, why it's needed, and where it's
+going next. Hearing about the needs of the driver provoked extended discussion
+on related topics, including what level of safety is reasonable to expect from
+drivers, given that they must interact with the hardware.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/990736/</guid>
+            <pubDate>Wed, 25 Sep 2024 15:51:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Linus and Dirk on succession, Rust, and more</title>
+            <link>https://lwn.net/Articles/990534/</link>
+            <description><![CDATA[The "Linus and Dirk show" has been a fixture at Open Source Summit for as
+long as the conference has existed; it started back when the conference was
+called LinuxCon.  Since Linus Torvalds famously does not like to give
+talks, as he said during this year's edition at <a href="https://events.linuxfoundation.org/open-source-summit-europe/">Open Source Summit Europe</a>
+(OSSEU) in Vienna, Austria, he and Dirk Hohndel have been sitting down for an
+informal chat on a wide range of topics as a keynote session.  That way,
+Torvalds does not need to prepare, but also does not know what topics
+will be brought up, which makes it "so much more fun for one of us", Hohndel
+said with a grin.   The topics this time ranged from the just-released&nbsp;6.11
+kernel and the upcoming Linux&nbsp;6.12, through Rust for the kernel, to the recurring topic of succession and
+the graying of Linux maintainers.]]></description>
+            <guid>https://lwn.net/Articles/990534/</guid>
+            <pubDate>Wed, 25 Sep 2024 13:38:25 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] KDE sets its goals through 2026</title>
+            <link>https://lwn.net/Articles/990604/</link>
+            <description><![CDATA[<p>Almost a decade ago <a href="https://ev.kde.org/">KDE&nbsp;e.V.</a>,
+the non-profit organization that supports <a
+href="http://kde.org/">KDE</a>, started a <a href="https://community.kde.org/Goals/Goals_Process">process</a> for
+selecting <a href="https://kde.org/goals/">goals</a> to help the community unite behind a common vision for where the
+project should go in the near future. KDE
+recently wrapped up its 2022-2024 <a
+href="https://community.kde.org/Goals">cycle</a> and announced the goals for 2024-2026 at <a
+href="https://akademy.kde.org/2024/">Akademy</a> on September&nbsp;7, in Würzburg,
+Germany. This time around, KDE will be looking to streamline its
+application-development experience, improve support for input devices,
+and bring in new contributors.</p>]]></description>
+            <guid>https://lwn.net/Articles/990604/</guid>
+            <pubDate>Tue, 24 Sep 2024 15:00:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Committing to Rust in the kernel</title>
+            <link>https://lwn.net/Articles/991062/</link>
+            <description><![CDATA[The project to enable the writing of kernel code in Rust has been underway
+for several years, and each kernel release includes more Rust code.  Even
+so, some developers have expressed frustration at the time it takes to get
+new functionality merged, and an air of uncertainty still hangs over
+the project.  At the 2024 Maintainers Summit, Miguel Ojeda led a discussion
+on the status of Rust in the kernel and whether the time had come to stop
+considering it an experimental project.  There were not answers to all of the
+questions, but it seems clear that Rust in the kernel will continue
+steaming ahead.]]></description>
+            <guid>https://lwn.net/Articles/991062/</guid>
+            <pubDate>Tue, 24 Sep 2024 11:49:24 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Resources for learning Rust for kernel development</title>
+            <link>https://lwn.net/Articles/990619/</link>
+            <description><![CDATA[<p>
+Dirk Behme led a second session, back-to-back with
+<a href="https://lwn.net/Articles/990489/">his session on error handling</a> at
+Kangrejos 2024, discussing providing better guidance for users of the kernel's
+Rust abstractions. Just after that,
+Carlos Bilbao and Miguel Ojeda had their own time slot dedicated to collecting
+resources that could be of use to someone trying to come up to speed
+on kernel development in
+Rust. The attendees provided a lot of guidance in both sessions, and
+discussed what they could do to make things easier for people coming
+from non-Rust backgrounds.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/990619/</guid>
+            <pubDate>Mon, 23 Sep 2024 15:48:14 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Tools for kernel developers</title>
+            <link>https://lwn.net/Articles/991033/</link>
+            <description><![CDATA[Konstantin Ryabitsev started a session on development tooling at the 2024
+Maintainers Summit by saying that he does not want to be a "wrecking ball".
+If a given workflow is working for people, he does not want to try to force
+any sort of change.  That said, he has ideas for how he can continue his
+work on providing better tooling for the development community.]]></description>
+            <guid>https://lwn.net/Articles/991033/</guid>
+            <pubDate>Mon, 23 Sep 2024 11:03:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The 6.12 merge window begins</title>
+            <link>https://lwn.net/Articles/990750/</link>
+            <description><![CDATA[As of this writing, 6,778 non-merge changesets have been pulled into the
+mainline kernel for the 6.12 release — over half of the work that had been
+staged in linux-next prior to the opening of the merge window.  There has
+been a lot of refactoring and cleanup work this time around, but also some
+significant changes.  Read on for a summary of the first half of the 6.12
+merge window.]]></description>
+            <guid>https://lwn.net/Articles/990750/</guid>
+            <pubDate>Fri, 20 Sep 2024 14:07:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Considering kernel pass-through interfaces</title>
+            <link>https://lwn.net/Articles/990802/</link>
+            <description><![CDATA[The kernel normally sits firmly between user space and the system's
+peripheral devices, and provides a standard interface to those devices.  At
+times, though, a more direct interface to a device is desired — but such
+interfaces can be controversial.  At the 2024 Maintainers Summit, the
+assembled developers considered a specific case — the proposed <a
+href="https://lwn.net/Articles/969383/">fwctl subsystem</a> — as well as the role of such
+drivers in general.]]></description>
+            <guid>https://lwn.net/Articles/990802/</guid>
+            <pubDate>Fri, 20 Sep 2024 12:21:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Best practices for error handling in kernel Rust</title>
+            <link>https://lwn.net/Articles/990489/</link>
+            <description><![CDATA[<p>
+Dirk Behme led a session discussing the use of Rust's question-mark operator in
+the kernel at Kangrejos 2024. He was particularly concerned with the concept of
+"silent" errors that don't print any messages to the console.
+Other attendees were less convinced that this was a problem, but his presentation
+sparked a lot of discussion about whether the Rust-for-Linux project could
+improve error handling in kernel Rust code.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/990489/</guid>
+            <pubDate>Thu, 19 Sep 2024 15:54:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] RPM 4.20 is coming</title>
+            <link>https://lwn.net/Articles/988927/</link>
+            <description><![CDATA[<p>The <a href="https://rpm.org/">RPM Package Manager</a> (RPM) project is
+nearing the release of RPM&nbsp;4.20, the last major planned update for the RPM 4.x
+series. It has few user-facing changes, but
+several additions and enhancements for developers&mdash;as well as
+some small incompatibilities that will likely require RPM packagers to
+revise their <a
+href="https://rpm-packaging-guide.github.io/#what-is-a-spec-file">spec
+files</a>. 4.20 will be rolling out to many users soon, in
+Fedora&nbsp;41, which is scheduled for October. RPM&nbsp;6.0 is
+already in the works, with a new package format and opening the door
+to enabling C++ use in the RPM codebase.</p>]]></description>
+            <guid>https://lwn.net/Articles/988927/</guid>
+            <pubDate>Thu, 19 Sep 2024 13:31:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The uncertain future of kernel regression tracking</title>
+            <link>https://lwn.net/Articles/990599/</link>
+            <description><![CDATA[Tracking of regressions seems like an important task for any project; there
+is no other way to ensure that known problems are fixed.  At the 2024
+Maintainers Summit, though, Thorsten Leemhuis, who has been doing that work
+for the kernel, expressed some doubts about whether it is worth continuing.
+The result was an energetic session on how regression tracking should be
+done better, and how this work should be supported.]]></description>
+            <guid>https://lwn.net/Articles/990599/</guid>
+            <pubDate>Thu, 19 Sep 2024 06:23:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Manjaro 24.1 released</title>
             <link>https://lwn.net/Articles/992660/</link>
@@ -279,142 +459,6 @@ code.
             <guid>https://lwn.net/Articles/991775/</guid>
             <pubDate>Thu, 26 Sep 2024 06:58:06 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 19, 2024</title>
-            <link>https://lwn.net/Articles/989982/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for September 19, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/989982/</guid>
-            <pubDate>Thu, 19 Sep 2024 05:04:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Kernel developers at Cauldron</title>
-            <link>https://lwn.net/Articles/990379/</link>
-            <description><![CDATA[A Linux system is made up of a large number of interdependent components,
-all of which must support each other well.  It can thus be surprising that,
-it seems, the developers working on those components do not often speak
-with each other.  In the hope of improving that situation, efforts have
-been made in recent years to attract toolchain developers to the
-kernel-heavy Linux Plumbers Conference.  This year, though, the opposite
-happened as well: the <a href="https://gcc.gnu.org/wiki/cauldron2024">2024
-GNU Tools Cauldron</a> hosted a discussion where kernel developers were
-invited to discuss their needs.]]></description>
-            <guid>https://lwn.net/Articles/990379/</guid>
-            <pubDate>Wed, 18 Sep 2024 14:00:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A discussion of Rust safety documentation</title>
-            <link>https://lwn.net/Articles/990273/</link>
-            <description><![CDATA[<p>
-<a href="https://kangrejos.com/">
-Kangrejos 2024</a> started off with a talk from Benno Lossin about his
-<a href="https://lwn.net/Articles/982868/">recent work</a>
-to establish a standard for safety documentation in Rust kernel code. Lossin
-began his talk by giving a brief review of what safety documentation is, and
-why it's needed, before moving on to the current status of his work. Safety
-documentation is easier to read and write when there's a shared vocabulary for
-discussing common requirements; Lossin wants to establish that shared vocabulary
-for Rust code in the Linux kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/990273/</guid>
-            <pubDate>Tue, 17 Sep 2024 18:34:33 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Vanilla OS 2: an immutable distribution to run all software</title>
-            <link>https://lwn.net/Articles/989629/</link>
-            <description><![CDATA[<p><a href="https://vanillaos.org">Vanilla OS</a>, an immutable desktop
-Linux distribution designed for developers and advanced users, has
-recently published its <a
-href="https://vanillaos.org/blog/article/2024-07-28/vanilla-os-2-orchid---stable-release">2.0
-"Orchid" release</a>. Previously based on Ubuntu, Vanilla OS has now
-shifted to Debian unstable ("sid"). The release has made it easier to
-install software from other distributions' package repositories, and it
-is now theoretically possible to install and run Android applications as well.</p>]]></description>
-            <guid>https://lwn.net/Articles/989629/</guid>
-            <pubDate>Tue, 17 Sep 2024 17:12:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] An update on BPF generation from GCC</title>
-            <link>https://lwn.net/Articles/990343/</link>
-            <description><![CDATA[The generation of binary code for the kernel's BPF virtual machine has been
-limited to the Clang compiler since the beginning; even developers who
-use GCC to build kernels must use Clang to compile to BPF.  Work has
-been underway for some years on adding a BPF backend to GCC as well; the
-developers involved ran a session at the <a
-href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools Cauldron</a> to
-provide an update on that project.  It would seem that the BPF backend is
-close to being ready for production use.]]></description>
-            <guid>https://lwn.net/Articles/990343/</guid>
-            <pubDate>Tue, 17 Sep 2024 12:23:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora evicts WolfSSL</title>
-            <link>https://lwn.net/Articles/989687/</link>
-            <description><![CDATA[<p>The <a href="https://docs.fedoraproject.org/en-US/fesco/">Fedora
-Engineering Steering Committee</a> (FESCo) has voted to
-immediately remove the <a href="https://www.wolfssl.com">WolfSSL</a> package from all of Fedora's
-repositories due to its maintainer failing to gain approval to package
-a new cryptography library for Fedora. Its brief travels through
-Fedora's package system highlights gaps in documentation, as well as
-in the package&#8209;review process. The good news is that this may stir
-Fedora to improve its documentation and revive a formal security
-team.</p>]]></description>
-            <guid>https://lwn.net/Articles/989687/</guid>
-            <pubDate>Mon, 16 Sep 2024 16:40:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Some 6.11 development statistics</title>
-            <link>https://lwn.net/Articles/989528/</link>
-            <description><![CDATA[The 6.11 kernel was <a
-href="https://lwn.net/ml/all/CAHk-=whVpSHw9+4ov=oLevfv8sPYbh59T_9VKif-6Vqkr41jQA@mail.gmail.com/">released</a>
-on September&nbsp;15 after a typical nine-week development cycle.  This
-release integrates 13,890 non-merge changesets, so it was a moderately busy
-cycle, slightly more so that 6.10 was.  With a new release comes a new round
-of development statistics; read on for the details.]]></description>
-            <guid>https://lwn.net/Articles/989528/</guid>
-            <pubDate>Mon, 16 Sep 2024 14:24:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The RCU API, 2024 edition</title>
-            <link>https://lwn.net/Articles/988638/</link>
-            <description><![CDATA[Read-copy-update (RCU) is a synchronization mechanism that was added to the
-Linux kernel in October 2002.  RCU is most frequently used as a <a
-href="https://linuxfoundation.org/webinars/unraveling-rcu-usage-mysteries/">replacement
-for reader-writer locking</a>, but is also used in <a
-href="https://linuxfoundation.org/webinars/unraveling-rcu-usage-mysteries-additional-use-cases/">a
-number of other ways</a>.  This article covers recent changes to the RCU
-API; it was contributed by Paul McKenney, Boqun Feng, Frederic Weisbecker,
-Joel Fernandes, Neeraj Upadhyay, and Uladzislau Rezki.]]></description>
-            <guid>https://lwn.net/Articles/988638/</guid>
-            <pubDate>Fri, 13 Sep 2024 15:50:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debating ifupdown replacements for Debian trixie</title>
-            <link>https://lwn.net/Articles/989055/</link>
-            <description><![CDATA[<p>Debian does not have an official way to configure
-networking. Instead, it has <a
-href="https://wiki.debian.org/NetworkConfiguration">four</a>
-recommended ways to configure networking, one of which is the
-venerable <a
-href="https://salsa.debian.org/debian/ifupdown">ifupdown</a>, which
-has part of Debian since the turn of the century and is showing its
-age. A conversation about its maintainability and possible replacement with <a
-href="https://github.com/ifupdown-ng/ifupdown-ng">ifupdown&#8209;ng</a> has
-led to discussions about the default network-management tools for
-Debian "<a href="https://www.debian.org/releases/trixie/">trixie</a>"
-(Debian 13, which expected in 2025) and beyond. No route to consensus
-has been found, yet.</p>]]></description>
-            <guid>https://lwn.net/Articles/989055/</guid>
-            <pubDate>Thu, 12 Sep 2024 15:55:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
