@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 03 Oct 2024 06:53:28 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Oct 2024 07:10:23 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 3 Oct 2024 07:27:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -429,36 +429,6 @@ In late 2023, Tails approached the Tor Project with the idea of merging operatio
             <guid>https://lwn.net/Articles/991897/</guid>
             <pubDate>Thu, 26 Sep 2024 14:18:42 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Eliminating Memory Safety Vulnerabilities at the Source
-(Google Security Blog)</title>
-            <link>https://lwn.net/Articles/991775/</link>
-            <description><![CDATA[Here's <a
-href="https://security.googleblog.com/2024/09/eliminating-memory-safety-vulnerabilities-Android.html">a
-post on the Google Security Blog</a> on how switching to a memory-safe
-language can quickly reduce vulnerabilities in a project, even if a large
-body of older code persists.
-<p>
-<blockquote class="bq">
-	 This leads to two important takeaways:
-<p>
-<ul class="spacylist">
-    <li> The problem is overwhelmingly with new code, necessitating a
-    fundamental change in how we develop code. 
-    <li> Code matures and gets safer with time, exponentially, making the
-    returns on investments like rewrites diminish over time as code gets
-    older.
-</ul>
-<p>
-For example, based on the average vulnerability lifetimes, 5-year-old code
-has a 3.4x (using lifetimes from the study) to 7.4x (using lifetimes
-observed in Android and Chromium) lower vulnerability density than new
-code.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/991775/</guid>
-            <pubDate>Thu, 26 Sep 2024 06:58:06 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
