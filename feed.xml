@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Oct 2024 16:11:12 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Oct 2024 16:12:15 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Oct 2024 16:34:23 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Oct 2024 16:35:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -385,32 +385,6 @@ The vulnerability relies on a few related problems in CUPS libraries and utiliti
             <guid>https://lwn.net/Articles/991929/</guid>
             <pubDate>Thu, 26 Sep 2024 21:22:55 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>PostgreSQL 17 released</title>
-            <link>https://lwn.net/Articles/991904/</link>
-            <description><![CDATA[<p><a
-href="https://www.postgresql.org/about/news/postgresql-17-released-2936/">Version
-17</a> of the <a href="https://www.postgresql.org/">PostgreSQL</a> database has been released.</p>
-
-<blockquote class="bq">
-This release of PostgreSQL adds significant overall performance gains,
-including an overhauled memory management implementation for vacuum,
-optimizations to storage access and improvements for high concurrency
-workloads, speedups in bulk loading and exports, and query execution
-improvements for indexes. PostgreSQL 17 has features that benefit
-brand new workloads and critical systems alike, such as additions to
-the developer experience with the SQL/JSON JSON_TABLE command, and
-enhancements to logical replication that simplify management of high
-availability workloads and major version upgrades.
-</blockquote>
-
-<p>LWN recently <a href="https://lwn.net/Articles/984599/">covered</a>
-some of the interesting new features and security enhancements in
-PostgreSQL 17.</p>]]></description>
-            <guid>https://lwn.net/Articles/991904/</guid>
-            <pubDate>Thu, 26 Sep 2024 15:56:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
