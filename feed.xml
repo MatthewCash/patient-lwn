@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 04 Oct 2024 15:31:43 +0000</pubDate>
-        <lastBuildDate>Fri, 4 Oct 2024 15:39:15 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Oct 2024 15:39:09 +0000</pubDate>
+        <lastBuildDate>Fri, 4 Oct 2024 15:48:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three Friday kernel updates</title>
+            <link>https://lwn.net/Articles/992977/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://lwn.net/Articles/992978/">6.11.2</a>,
+<a href="https://lwn.net/Articles/992979/">6.10.13</a>,
+and
+<a href="https://lwn.net/Articles/992980/">6.6.54</a> stable kernels have been released.
+They contain important fixes, and upgrading is, as always, recommended.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/992977/</guid>
+            <pubDate>Fri, 04 Oct 2024 15:39:09 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>oath-toolkit: privilege escalation in pam_oath.so (SUSE Security Team Blog)</title>
             <link>https://lwn.net/Articles/992948/</link>
