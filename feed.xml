@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 06 Oct 2024 03:25:05 +0000</pubDate>
-        <lastBuildDate>Sun, 6 Oct 2024 07:33:31 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 6 Oct 2024 07:48:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,30 +398,6 @@ merge window for this release.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/992185/</guid>
             <pubDate>Mon, 30 Sep 2024 06:07:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Górny: The perils of transition to 64-bit time_t</title>
-            <link>https://lwn.net/Articles/992120/</link>
-            <description><![CDATA[Michał Górny <a
-href="https://blogs.gentoo.org/mgorny/2024/09/28/the-perils-of-transition-to-64-bit-time_t/">describes
-the challenges</a> involved in transitioning Gentoo to year-2038-safe time
-representations:
-<p>
-<blockquote class="bq">
-	There is a general agreement that the way forward is to change
-	time_t to a 64-bit type. Musl has already switched to that, glibc
-	supports it as an option. A number of other distributions such as
-	Debian have taken the leap and switched. Unfortunately,
-	source-based distributions such as Gentoo don't have it that
-	easy. So we are still debating the issue and experimenting, trying
-	to figure out a maximally safe upgrade path for our users.
-<p>
-	Unfortunately, that's nowhere near trivial. Above all, we are
-	talking about a breaking ABI change.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/992120/</guid>
-            <pubDate>Sun, 29 Sep 2024 07:23:16 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
