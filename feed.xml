@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 07 Oct 2024 05:34:59 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Oct 2024 06:15:06 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 7 Oct 2024 06:39:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,24 +380,6 @@ them without being limited solely by the free time of our volunteers.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/992194/</guid>
             <pubDate>Mon, 30 Sep 2024 07:03:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc1</title>
-            <link>https://lwn.net/Articles/992185/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/992184/">released 6.12-rc1</a> and closed the
-merge window for this release.
-<p>
-<blockquote class="bq">
-	Despite conference travel (both for me and several maintainers),
-	things seemed to go mostly fairly normally. There's a couple of
-	notable new features in here: For one thing, PREEMPT_RT is now
-	mainlined and enabled as a config option (you do need to enable
-	"EXPERT" to get the question). For another, sched_ext also got
-	merged.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/992185/</guid>
-            <pubDate>Mon, 30 Sep 2024 06:07:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
