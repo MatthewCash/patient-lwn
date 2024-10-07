@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Oct 2024 14:22:39 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Oct 2024 14:31:40 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Oct 2024 14:37:43 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Oct 2024 14:42:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RPM 4.20 released</title>
+            <link>https://lwn.net/Articles/993161/</link>
+            <description><![CDATA[<p><a href="https://rpm.org/wiki/Releases/4.20.0">Version 4.20</a> of
+the RPM Package Manager (RPM) has been released. Major changes in this
+release include a new plugin to prevent filesystem and network access
+by scriptlets, the <tt>BuildSystem</tt> directive for declaring the
+build system to be used by packaged software, and more. LWN <a
+href="https://lwn.net/Articles/988927/">covered</a> the development of
+RPM 4.20 in September.</p>]]></description>
+            <guid>https://lwn.net/Articles/993161/</guid>
+            <pubDate>Mon, 07 Oct 2024 14:37:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/993160/</link>
@@ -381,14 +395,6 @@ Each contains important fixes and users of those series should upgrade.]]></desc
             <description><![CDATA[The most recent major release of the <a href="https://www.tcl.tk/">Tcl/Tk</a> language and graphical-user-interface toolkit, <a href="https://www.tcl-lang.org/software/tcltk/9.0.html">Tcl/Tk 9.0</a>, has been released, a mere 27 years after the <a href="http://www.tcl.tk/software/tcltk/8.0.html">8,0 major release</a> in 1997.  There have been plenty of releases in the interim, though, as can be seen in the <a href="https://wiki.tcl-lang.org/page/Tcl+chronology">Tcl chronology</a>.  The 9.0 release brings 64-bit data values, better Unicode support, the ability to use zip files as filesystems, a switch to use <tt>epoll()</tt> or <tt>kqueue()</tt> where they are available, SVG support in Tk, access to notifications and other desktop-platform services in Tk, and lots more.  For more information, see the release notes for Tcl and Tk that can be downloaded as Markdown files from the announcement page. (Thanks to Matt Bradley.)]]></description>
             <guid>https://lwn.net/Articles/992284/</guid>
             <pubDate>Mon, 30 Sep 2024 14:56:44 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/992281/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups-filters, net-snmp, and osbuild-composer), <b>Debian</b> (booth, cups, cups-filters, python-asyncssh, ruby-httparty, ruby-loofah, ruby-rails-html-sanitizer, tryton-server, unbound, and wireshark), <b>Fedora</b> (chromium, cjson, cups, cups-browsed, libcupsfilters, and libppd), <b>Gentoo</b> (Apache HTTPD, Docker, HashiCorp Consul, IcedTea, nginx, tmux, and yt-dlp), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, &amp; java-latest-openjdk and libreoffice), <b>Red Hat</b> (git-lfs, grafana, and osbuild-composer), and <b>SUSE</b> (chromedriver, chromium, coredns, json-java-20240303, kernel, libmozjs-128-0, maven-archetype, python3, python312, and quagga).]]></description>
-            <guid>https://lwn.net/Articles/992281/</guid>
-            <pubDate>Mon, 30 Sep 2024 14:22:45 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
