@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 07 Oct 2024 15:06:58 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Oct 2024 15:11:01 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 7 Oct 2024 15:29:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -387,14 +387,6 @@ href="https://lwn.net/Articles/992297/">6.1.112</a> stable kernels have been rel
 Each contains important fixes and users of those series should upgrade.]]></description>
             <guid>https://lwn.net/Articles/992292/</guid>
             <pubDate>Mon, 30 Sep 2024 16:23:17 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Tcl/Tk 9.0 released</title>
-            <link>https://lwn.net/Articles/992284/</link>
-            <description><![CDATA[The most recent major release of the <a href="https://www.tcl.tk/">Tcl/Tk</a> language and graphical-user-interface toolkit, <a href="https://www.tcl-lang.org/software/tcltk/9.0.html">Tcl/Tk 9.0</a>, has been released, a mere 27 years after the <a href="http://www.tcl.tk/software/tcltk/8.0.html">8,0 major release</a> in 1997.  There have been plenty of releases in the interim, though, as can be seen in the <a href="https://wiki.tcl-lang.org/page/Tcl+chronology">Tcl chronology</a>.  The 9.0 release brings 64-bit data values, better Unicode support, the ability to use zip files as filesystems, a switch to use <tt>epoll()</tt> or <tt>kqueue()</tt> where they are available, SVG support in Tk, access to notifications and other desktop-platform services in Tk, and lots more.  For more information, see the release notes for Tcl and Tk that can be downloaded as Markdown files from the announcement page. (Thanks to Matt Bradley.)]]></description>
-            <guid>https://lwn.net/Articles/992284/</guid>
-            <pubDate>Mon, 30 Sep 2024 14:56:44 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
