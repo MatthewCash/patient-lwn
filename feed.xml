@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Oct 2024 16:18:29 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Oct 2024 16:35:14 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Oct 2024 16:42:26 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Oct 2024 16:52:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,18 +388,6 @@ up when hovering over tabs.]]></description>
             <guid>https://lwn.net/Articles/992444/</guid>
             <pubDate>Tue, 01 Oct 2024 12:52:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Four new stable kernels</title>
-            <link>https://lwn.net/Articles/992292/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/992294/">6.11.1</a>, <a
-href="https://lwn.net/Articles/992295/">6.10.12</a>, <a
-href="https://lwn.net/Articles/992296/">6.6.53</a>, and <a
-href="https://lwn.net/Articles/992297/">6.1.112</a> stable kernels have been released.
-Each contains important fixes and users of those series should upgrade.]]></description>
-            <guid>https://lwn.net/Articles/992292/</guid>
-            <pubDate>Mon, 30 Sep 2024 16:23:17 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
