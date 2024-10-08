@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Oct 2024 16:31:16 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Oct 2024 16:36:11 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Oct 2024 16:46:43 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Oct 2024 16:52:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,17 +416,6 @@ for full details.</p>]]></description>
             <guid>https://lwn.net/Articles/992496/</guid>
             <pubDate>Tue, 01 Oct 2024 17:31:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 131.0 released</title>
-            <link>https://lwn.net/Articles/992489/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/131.0/releasenotes/">Version
-131.0</a> of the Firefox browser has been released.  Changes include the
-ability to temporarily grant permissions to sites and a preview that pops
-up when hovering over tabs.]]></description>
-            <guid>https://lwn.net/Articles/992489/</guid>
-            <pubDate>Tue, 01 Oct 2024 16:43:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
