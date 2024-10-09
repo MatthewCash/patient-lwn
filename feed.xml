@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Oct 2024 14:08:27 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Oct 2024 14:10:19 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Oct 2024 14:28:38 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Oct 2024 14:31:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Julia v1.11.0 has been released</title>
+            <link>https://lwn.net/Articles/993436/</link>
+            <description><![CDATA[<p>
+The Julia project has
+<a href="https://discourse.julialang.org/t/julia-v1-11-0-has-been-released-and-v1-10-is-now-lts/121064">
+released</a> version 1.11.0. A separate
+<a href="https://julialang.org/blog/2024/10/julia-1.11-highlights/">
+blog post</a> covers some of the highlights. The release includes a number of helpful features.
+</p>
+
+<blockquote class="bq">
+In previous Julia versions, there was no "programmatic way" of knowing if an unexported name was considered part of the public API or not. Instead, the guideline was basically that if it was not in the manual then it was not public which was a bit underwhelming. To remedy that, there is now a <tt>public</tt> keyword in Julia that can be used to indicate that an unexported name is part of the public API.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/993436/</guid>
+            <pubDate>Wed, 09 Oct 2024 14:13:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/993433/</link>
