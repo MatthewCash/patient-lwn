@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 10 Oct 2024 12:54:10 +0000</pubDate>
-        <lastBuildDate>Thu, 10 Oct 2024 12:57:31 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Oct 2024 13:16:14 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Oct 2024 13:20:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -401,14 +401,6 @@ cause security issues.
             <guid>https://lwn.net/Articles/992936/</guid>
             <pubDate>Fri, 04 Oct 2024 13:53:09 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/992798/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups-filters), <b>Debian</b> (chromium and php8.2), <b>Fedora</b> (firefox), <b>Oracle</b> (cups-filters, flatpak, kernel, krb5, oVirt 4.5 ovirt-engine, and python-urllib3), <b>Red Hat</b> (cups-filters, firefox, go-toolset:rhel8, golang, and thunderbird), <b>SUSE</b> (postgresql16), and <b>Ubuntu</b> (gnome-shell and linux-azure-fde-5.15).]]></description>
-            <guid>https://lwn.net/Articles/992798/</guid>
-            <pubDate>Thu, 03 Oct 2024 12:19:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
