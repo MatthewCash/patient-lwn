@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 10 Oct 2024 10:45:52 +0000</pubDate>
-        <lastBuildDate>Thu, 10 Oct 2024 11:33:57 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Oct 2024 11:37:32 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Oct 2024 11:48:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/993595/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (firefox, koji, unbound, webkit2gtk4.0, and xen), <b>Red Hat</b> (glibc, net-snmp, and tomcat), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache-commons-io, buildah, cups-filters, liboath-devel, libreoffice, libunbound8, podman, and redis), and <b>Ubuntu</b> (cups-browsed, cups-filters, edk2, linux-raspi-5.4, and oath-toolkit).]]></description>
+            <guid>https://lwn.net/Articles/993595/</guid>
+            <pubDate>Thu, 10 Oct 2024 11:37:32 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 3, 2024</title>
             <link>https://lwn.net/Articles/991771/</link>
