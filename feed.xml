@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 11 Oct 2024 15:26:31 +0000</pubDate>
-        <lastBuildDate>Fri, 11 Oct 2024 15:38:13 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 11 Oct 2024 15:48:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -372,21 +372,6 @@ The Akamai Security Intelligence and Response Team (SIRT) found that more than 1
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/993044/</guid>
             <pubDate>Sat, 05 Oct 2024 21:41:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Three Friday kernel updates</title>
-            <link>https://lwn.net/Articles/992977/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/992978/">6.11.2</a>,
-<a href="https://lwn.net/Articles/992979/">6.10.13</a>,
-and
-<a href="https://lwn.net/Articles/992980/">6.6.54</a> stable kernels have been released.
-They contain important fixes, and upgrading is, as always, recommended.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/992977/</guid>
-            <pubDate>Fri, 04 Oct 2024 15:39:09 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
