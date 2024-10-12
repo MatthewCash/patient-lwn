@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 12 Oct 2024 20:55:01 +0000</pubDate>
-        <lastBuildDate>Sat, 12 Oct 2024 21:34:42 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 12 Oct 2024 21:48:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,26 +353,6 @@ RPM 4.20 in September.</p>]]></description>
             <guid>https://lwn.net/Articles/993107/</guid>
             <pubDate>Mon, 07 Oct 2024 12:07:50 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Akamai finds many systems with exposed CUPS vulnerability</title>
-            <link>https://lwn.net/Articles/993044/</link>
-            <description><![CDATA[<p>
-Akamai
-<a href="https://www.akamai.com/blog/security-research/october-cups-ddos-threat">
-released a report</a> pointing out that the
-<a href="https://lwn.net/Articles/991929/">
-recently-reported CUPS vulnerability</a>
-(<a href="https://www.evilsocket.net/2024/09/26/Attacking-UNIX-systems-via-CUPS-Part-I/">original disclosure</a>)
-could be used to drive distributed denial-of-service (DDoS) attacks as well. Even if an attacker cannot gain remote control over a computer, they can still cause it to fetch a URL of their choice — potentially getting free DDoS amplification.
-</p>
-
-<blockquote class="bq">
-The Akamai Security Intelligence and Response Team (SIRT) found that more than 198,000 devices are vulnerable to this attack vector and are accessible on the public internet; roughly 34% of those could be used for DDoS abuse (58,000+).
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/993044/</guid>
-            <pubDate>Sat, 05 Oct 2024 21:41:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
