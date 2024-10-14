@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Oct 2024 16:45:56 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 17:09:32 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 17:28:54 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 17:30:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -307,24 +307,6 @@ modified or replaced at some point in time, reaching OpenBSD of Theseus.
 for all changes between OpenBSD&nbsp;7.5 and 7.6.</p>]]></description>
             <guid>https://lwn.net/Articles/993203/</guid>
             <pubDate>Mon, 07 Oct 2024 21:14:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Python 3.13 released</title>
-            <link>https://lwn.net/Articles/993191/</link>
-            <description><![CDATA[<p>Version 3.13 of the <a href="https://www.python.org/">Python</a> programming language has been <a
-href="https://www.python.org/downloads/release/python-3130/">released</a>. The
-"<a href="https://docs.python.org/3.13/whatsnew/3.13.html">What's New
-In Python 3.13</a>" page has a summary of all the new features and
-changes. Highlights of the release include <a
-href="https://lwn.net/Articles/977855/">a basic JIT compiler</a>,
-experimental support for <a
-href="https://lwn.net/Articles/985041/">free-threading</a>, and much
-more. See the <a
-href="https://docs.python.org/3.13/whatsnew/changelog.html">changelog</a>
-for even more details.</p>]]></description>
-            <guid>https://lwn.net/Articles/993191/</guid>
-            <pubDate>Mon, 07 Oct 2024 17:19:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
