@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Oct 2024 14:09:21 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 14:10:48 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 14:30:41 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 14:31:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,14 +352,6 @@ RPM 4.20 in September.</p>]]></description>
             <guid>https://lwn.net/Articles/993161/</guid>
             <pubDate>Mon, 07 Oct 2024 14:37:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/993160/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8 and linux-firmware), <b>Arch Linux</b> (oath-toolkit), <b>Debian</b> (e2fsprogs, firefox-esr, libgsf, mediawiki, and oath-toolkit), <b>Fedora</b> (aws, chromium, firefox, p7zip, pgadmin4, python-gcsfs, unbound, webkitgtk, znc, znc-clientbuffer, and znc-push), <b>Mageia</b> (ghostscript and rootcerts nss firefox firefox-l10n), <b>Oracle</b> (kernel, oVirt 4.4 ovirt-engine, and thunderbird), <b>SUSE</b> (chromedriver, chromium, cups-filters, ffmpeg-7, frr, Mesa, openssl-3, openvpn, pcp, and redis), and <b>Ubuntu</b> (firefox and ruby-webrick).]]></description>
-            <guid>https://lwn.net/Articles/993160/</guid>
-            <pubDate>Mon, 07 Oct 2024 14:22:38 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
