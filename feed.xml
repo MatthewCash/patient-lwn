@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Oct 2024 13:24:33 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 13:48:15 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 14:09:21 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 14:10:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/994080/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (docker.io, libreoffice, node-dompurify, python-reportlab, and thunderbird), <b>Fedora</b> (buildah, chromium, kernel, kernel-headers, libgsf, mosquitto, p7zip, podman, python-cramjam, python-virtualenv, redis, rust-async-compression, rust-brotli, rust-brotli-decompressor, rust-libcramjam, rust-libcramjam0.2, rust-nu-command, rust-nu-protocol, rust-redlib, rust-tower-http, thunderbird, and webkit2gtk4.0), <b>Oracle</b> (.NET 6.0, .NET 8.0, e2fsprogs, firefox, golang, openssl, python3-setuptools, systemd, and thunderbird), <b>SUSE</b> (chromium, firefox, java-jwt, libmozjs-128-0, libwireshark18, ntpd-rs, OpenIPMI, thunderbird, and wireshark), and <b>Ubuntu</b> (firefox, python2.7, python3.5, thunderbird, and ubuntu-advantage-desktop-daemon).]]></description>
+            <guid>https://lwn.net/Articles/994080/</guid>
+            <pubDate>Mon, 14 Oct 2024 14:09:21 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.12-rc3</title>
             <link>https://lwn.net/Articles/993956/</link>
