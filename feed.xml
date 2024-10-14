@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Oct 2024 14:30:41 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 14:31:57 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Oct 2024 14:48:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -338,20 +338,6 @@ GitHub blog post</a> for details.]]></description>
             <guid>https://lwn.net/Articles/993180/</guid>
             <pubDate>Mon, 07 Oct 2024 16:11:19 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>RPM 4.20 released</title>
-            <link>https://lwn.net/Articles/993161/</link>
-            <description><![CDATA[<p><a href="https://rpm.org/wiki/Releases/4.20.0">Version 4.20</a> of
-the RPM Package Manager (RPM) has been released. Major changes in this
-release include a new plugin to prevent filesystem and network access
-by scriptlets, the <tt>BuildSystem</tt> directive for declaring the
-build system to be used by packaged software, and more. LWN <a
-href="https://lwn.net/Articles/988927/">covered</a> the development of
-RPM 4.20 in September.</p>]]></description>
-            <guid>https://lwn.net/Articles/993161/</guid>
-            <pubDate>Mon, 07 Oct 2024 14:37:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
