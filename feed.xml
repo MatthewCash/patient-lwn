@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Oct 2024 16:12:42 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 16:34:56 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 16:45:56 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 16:51:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -326,18 +326,6 @@ for even more details.</p>]]></description>
             <guid>https://lwn.net/Articles/993191/</guid>
             <pubDate>Mon, 07 Oct 2024 17:19:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Git 2.47.0 released</title>
-            <link>https://lwn.net/Articles/993180/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/xmqqa5fg9bsz.fsf@gitster.g">Version 2.47.0</a> of the Git
-source-code management system has been released.  The changes include a
-long list of incremental improvements; see the announcement and <a
-href="https://github.blog/open-source/git/highlights-from-git-2-47/">this
-GitHub blog post</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/993180/</guid>
-            <pubDate>Mon, 07 Oct 2024 16:11:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
