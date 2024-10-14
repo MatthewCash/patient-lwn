@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Oct 2024 18:07:21 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 18:13:30 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Oct 2024 18:32:59 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Oct 2024 18:36:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Inkscape 1.4 released</title>
+            <link>https://lwn.net/Articles/994098/</link>
+            <description><![CDATA[<p><a
+href="https://inkscape.org/news/2024/10/13/inkscape-launches-version-14-powerful-new-accessib/">Version
+1.4</a> of the <a href="https://inkscape.org/">Inkscape</a>
+open-source vector-graphics editor has been released. Highlights of
+this release include a filter gallery, import for <a href="https://en.wikipedia.org/wiki/Affinity_Designer">Affinity Designer</a>
+files, internal links in exported PDFs, and more. See the <a
+href="https://inkscape.org/doc/release_notes/1.4/Inkscape_1.4.html">release
+notes</a> for all of the new features. LWN <a
+href="https://lwn.net/Articles/991732/">previewed</a> the 1.4 release
+in early October.</p>]]></description>
+            <guid>https://lwn.net/Articles/994098/</guid>
+            <pubDate>Mon, 14 Oct 2024 18:19:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/994080/</link>
