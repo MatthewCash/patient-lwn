@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Oct 2024 11:28:03 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 11:48:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Oct 2024 12:18:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,24 +352,6 @@ RPM 4.20 in September.</p>]]></description>
             <guid>https://lwn.net/Articles/993160/</guid>
             <pubDate>Mon, 07 Oct 2024 14:22:38 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc2</title>
-            <link>https://lwn.net/Articles/993107/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/993106/">6.12-rc2</a> for testing.
-<p>
-<blockquote class="bq">
-	Anyway, this isn't one of the small rc2's. But looking at
-	historical trends, being a bigger rc2 isn't _that_ unusual, and
-	nothing in here looks all that odd. Yes, the diffstat may look a
-	bit unusual, in that we had a global header renaming
-	(asm/unaligned.h -&gt; linux/unaligned.h) and we had a couple of
-	reverts that stand out as spikes in the stats, but everything else
-	looks nice and small.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/993107/</guid>
-            <pubDate>Mon, 07 Oct 2024 12:07:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
