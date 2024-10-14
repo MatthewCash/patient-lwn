@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Oct 2024 21:10:57 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Oct 2024 21:26:07 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Oct 2024 21:33:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -304,27 +304,6 @@ In previous Julia versions, there was no "programmatic way" of knowing if an une
             <guid>https://lwn.net/Articles/993276/</guid>
             <pubDate>Tue, 08 Oct 2024 13:14:18 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>OpenBSD 7.6 released</title>
-            <link>https://lwn.net/Articles/993203/</link>
-            <description><![CDATA[<p>OpenBSD&nbsp;7.6 has been <a
-href="https://www.openbsd.org/76.html">released</a>. Notable new
-features include work to improve suspend/resume on modern hardware,
-support for the arm64 Qualcomm Snapdragon X Elite laptops, as well as many
-improvements in hardware support and driver bug fixes.</p>
-
-<blockquote class="bq">
-With this release all files that existed in the first commit
-in the OpenBSD source repository have been updated,
-modified or replaced at some point in time, reaching OpenBSD of Theseus.
-</blockquote>
-
-<p>See the <a href="https://www.openbsd.org/plus76.html">changelog</a>
-for all changes between OpenBSD&nbsp;7.5 and 7.6.</p>]]></description>
-            <guid>https://lwn.net/Articles/993203/</guid>
-            <pubDate>Mon, 07 Oct 2024 21:14:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
