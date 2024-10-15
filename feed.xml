@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 15 Oct 2024 16:25:46 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Oct 2024 16:35:31 +0000</lastBuildDate>
+        <pubDate>Tue, 15 Oct 2024 16:49:34 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Oct 2024 16:51:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LibreSSL 4.0.0 released</title>
+            <link>https://lwn.net/Articles/994320/</link>
+            <description><![CDATA[<p><a href="https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-4.0.0-relnotes.txt">Version 4.0.0</a> of the <a
+href="https://www.libressl.org/">LibreSSL</a> TLS/cryptography stack
+has been released. Changes include a cleanup of the MD4 and MD5
+implementations, removal of unused DSA methods, changes in libtls
+protocol parsing to ignore unsupported TLSv1.1 and TLSv1.0 protocols,
+and many more internal changes and bug fixes.</p>]]></description>
+            <guid>https://lwn.net/Articles/994320/</guid>
+            <pubDate>Tue, 15 Oct 2024 16:47:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/994268/</link>
