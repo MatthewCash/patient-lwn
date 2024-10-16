@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Oct 2024 12:37:32 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Oct 2024 12:57:55 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Oct 2024 13:18:56 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Oct 2024 13:21:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -309,14 +309,6 @@ In previous Julia versions, there was no "programmatic way" of knowing if an une
             <guid>https://lwn.net/Articles/993436/</guid>
             <pubDate>Wed, 09 Oct 2024 14:13:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/993433/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, mod_jk, and thunderbird), <b>Debian</b> (apache2 and firefox-esr), <b>Fedora</b> (crosswords, logiops, p7zip, and perl-App-cpanminus), <b>Red Hat</b> (.NET 6.0, firefox, git, kernel, kernel-rt, openssl, and thunderbird), <b>SUSE</b> (buildah, json-lib, kernel, Mesa, mozjs78, pgadmin4, podman, podofo, qatlib, redis7, roundcubemail, rusty_v8, and seamonkey), and <b>Ubuntu</b> (dotnet6, dotnet8, nginx, and ruby-webrick).]]></description>
-            <guid>https://lwn.net/Articles/993433/</guid>
-            <pubDate>Wed, 09 Oct 2024 13:08:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
