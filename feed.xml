@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Oct 2024 11:45:45 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Oct 2024 11:48:09 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Oct 2024 11:48:51 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Oct 2024 12:18:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -262,31 +262,6 @@ a wise thing to do.]]></description>
             <guid>https://lwn.net/Articles/993608/</guid>
             <pubDate>Thu, 10 Oct 2024 12:54:09 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>New stable kernels released</title>
-            <link>https://lwn.net/Articles/993596/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/993597/">6.11.3</a>, <a
-href="https://lwn.net/Articles/993598/">6.10.14</a>, <a
-href="https://lwn.net/Articles/993599/">6.6.55</a>, and <a
-href="https://lwn.net/Articles/993600/">6.6.56</a> stable kernels.  The 6.6.56 release
-fixes a problem with building perf in 6.6.55; "<q>If you do not use the
-perf tool in the 6.6.y tree, there is no need to upgrade.</q>".  Meanwhile,
-6.10.14 is the last of the 6.10.y series, so users should now be moving to
-6.11.y. Other than 6.6.56, they contain the usual long list of important
-fixes throughout the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/993596/</guid>
-            <pubDate>Thu, 10 Oct 2024 11:51:22 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/993595/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (firefox, koji, unbound, webkit2gtk4.0, and xen), <b>Red Hat</b> (glibc, net-snmp, and tomcat), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache-commons-io, buildah, cups-filters, liboath-devel, libreoffice, libunbound8, podman, and redis), and <b>Ubuntu</b> (cups-browsed, cups-filters, edk2, linux-raspi-5.4, and oath-toolkit).]]></description>
-            <guid>https://lwn.net/Articles/993595/</guid>
-            <pubDate>Thu, 10 Oct 2024 11:37:32 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
