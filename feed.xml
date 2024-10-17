@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Oct 2024 11:48:51 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Oct 2024 12:18:13 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Oct 2024 12:56:40 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Oct 2024 12:58:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -249,19 +249,6 @@ experimental security controls for Snap packages, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/993660/</guid>
             <pubDate>Thu, 10 Oct 2024 16:46:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Updating Firefox is highly recommended</title>
-            <link>https://lwn.net/Articles/993608/</link>
-            <description><![CDATA[Mozilla has released Firefox versions 131.0.2, ESR 128.3.1, and ESR
-115.16.1.  These updates address <a
-href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-51/">a
-severe, remotely exploitable code-execution vulnerability</a> that is
-evidently already being exploited.  Updating to a fixed release seems like
-a wise thing to do.]]></description>
-            <guid>https://lwn.net/Articles/993608/</guid>
-            <pubDate>Thu, 10 Oct 2024 12:54:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
