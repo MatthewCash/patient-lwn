@@ -8,11 +8,144 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Oct 2024 23:28:13 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Oct 2024 23:48:24 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Oct 2024 00:34:45 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Oct 2024 00:44:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 10, 2024</title>
+            <link>https://lwn.net/Articles/992718/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for October 10, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/992718/</guid>
+            <pubDate>Thu, 10 Oct 2024 01:07:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improving bindgen for the kernel</title>
+            <link>https://lwn.net/Articles/992693/</link>
+            <description><![CDATA[<p>
+<a href="https://rust-lang.github.io/rust-bindgen/">
+Bindgen</a> is a widely used tool that automatically generates Rust bindings from C
+headers. The
+<a href="https://rust-for-linux.com/">
+Rust-for-Linux</a> project uses it to create some of
+the bindings between Rust code and the rest of the kernel. John Baublitz
+presented at Kangrejos about the improvements that he has made to the tool in
+order to make the generated bindings easier to use, including improved support
+for macros, bitfields, and enums.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/992693/</guid>
+            <pubDate>Wed, 09 Oct 2024 17:20:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The Open Source Pledge: peer pressure to pay maintainers</title>
+            <link>https://lwn.net/Articles/993073/</link>
+            <description><![CDATA[<p>In the early days of open source, it was a struggle to get companies
+to accept the concept and trust its development model.
+Now, companies have few qualms about using it, but do tend to <a
+href="https://www.goodtechthings.com/oss-sos/">take open source and
+those who maintain it for granted</a>. The struggle now is to find ways
+to compensate producers of the software, sustain the open&#8209;source
+commons, and avoid burning out maintainers. The <a
+href="https://opensourcepledge.com/">Open Source Pledge</a> project is
+an effort to persuade companies to pay maintainers by making it a social
+norm. On October&nbsp;8, the project is launching a marketing campaign to raise
+awareness and try to get a larger conversation started around paying
+maintainers.</p>]]></description>
+            <guid>https://lwn.net/Articles/993073/</guid>
+            <pubDate>Tue, 08 Oct 2024 20:47:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Efficient Rust tracepoints</title>
+            <link>https://lwn.net/Articles/992455/</link>
+            <description><![CDATA[<p>
+Alice Ryhl has been working to enable
+<a href="https://www.kernel.org/doc/html/latest/trace/tracepoints.html">
+tracepoints</a> — which are widely used
+throughout the kernel — to be seamlessly placed in Rust code as well. She spoke
+about her approach at Kangrejos. Her
+<a href="https://lwn.net/ml/all/20241001-tracepoint-v9-0-1ad3b7d78acb@google.com/">
+patch set</a>
+enables efficient use of static
+tracepoints, but supporting dynamic tracepoints will take some additional effort.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/992455/</guid>
+            <pubDate>Tue, 08 Oct 2024 13:26:56 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] ClassicPress: WordPress without the block editor</title>
+            <link>https://lwn.net/Articles/992219/</link>
+            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/991906/">recent WordPress
+controversy</a> is not the first time there's been tension between the
+<a
+href="https://wordpress.org/">WordPress</a> community, the interests of <a
+href="https://automattic.com/">Automattic</a> as a business, and Matt
+Mullenweg's leadership as WordPress's benevolent dictator for
+life (BDFL). In particular, Mullenweg's focus on pushing WordPress to use a new
+"editing experience" called <a
+href="https://wordpress.org/gutenberg/">Gutenberg</a> caused significant
+friction&mdash;and led to the <a
+href="https://www.classicpress.net/">ClassicPress</a> fork. Users who
+want to preserve the "classic" WordPress experience without straying
+too far from the WordPress fold may want to look into ClassicPress.</p>]]></description>
+            <guid>https://lwn.net/Articles/992219/</guid>
+            <pubDate>Mon, 07 Oct 2024 17:40:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] In search of the AOSP community</title>
+            <link>https://lwn.net/Articles/992992/</link>
+            <description><![CDATA[The core of the Android operating system, as represented by the <a
+href="https://source.android.com/">Android Open Source Project</a> (AOSP),
+can only be considered one of the most successful open-source initiatives
+ever created; its user count is measured in the billions.  But few would
+consider it to be a truly community-oriented project.  At the 2024 <a
+href="https://lpc.events/">Linux Plumbers Conference</a>, Chris Simmonds
+asked why the AOSP community is so hard to find, and what might be done
+about the situation.]]></description>
+            <guid>https://lwn.net/Articles/992992/</guid>
+            <pubDate>Mon, 07 Oct 2024 16:18:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Smart pointers for the kernel</title>
+            <link>https://lwn.net/Articles/992055/</link>
+            <description><![CDATA[<p>
+Rust has a plethora of smart-pointer types, including reference-counted
+pointers, which have special support in the compiler to make them
+easier to use. The Rust-for-Linux project would like to reap those same benefits
+for its smart pointers, which need to be written by hand to conform to
+the
+<a href="https://lwn.net/Articles/718628/">
+Linux kernel
+memory model</a>. Xiangfei Ding
+presented at Kangrejos about the work to enable custom
+smart pointers to function the same as built-in smart pointers.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/992055/</guid>
+            <pubDate>Fri, 04 Oct 2024 16:38:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Coping with complex cameras</title>
+            <link>https://lwn.net/Articles/992411/</link>
+            <description><![CDATA[Cameras were never the simplest of devices for Linux to support; they have
+a wide range of operating parameters and can generate high rates of data.
+In recent years, though, they have become increasingly complex, stressing
+the ability of the kernel's <a
+href="https://docs.kernel.org/userspace-api/media/index.html">media
+subsystem</a> to manage them.  At the 2024 <a
+href="https://lpc.events/">Linux Plumbers Conference</a>, developers from
+that subsystem and beyond gathered to discuss the state of affairs and how
+complex camera devices should be supported in the future.]]></description>
+            <guid>https://lwn.net/Articles/992411/</guid>
+            <pubDate>Thu, 03 Oct 2024 12:50:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Forgejo 9.0 released</title>
             <link>https://lwn.net/Articles/994515/</link>
@@ -154,164 +287,6 @@ fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/993595/</guid>
             <pubDate>Thu, 10 Oct 2024 11:37:32 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 3, 2024</title>
-            <link>https://lwn.net/Articles/991771/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for October 3, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/991771/</guid>
-            <pubDate>Thu, 03 Oct 2024 01:24:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Inkscape 1.4 coming soon</title>
-            <link>https://lwn.net/Articles/991732/</link>
-            <description><![CDATA[The open-source vector-graphics editor, <a
-href="https://inkscape.org/">Inkscape</a>, is expected to release <a
-href="https://wiki.inkscape.org/wiki/Release_notes/1.4">version&nbsp;1.4</a>
-in October. The release represents an evolutionary step for the program, which
-brings new features, user-interface improvements, new and improved
-file-format support, and important changes to the code base. The changes in
-this release should improve the user experience for both casual and
-professional designers, and make Inkscape more compatible with proprietary
-vector-graphics software, including Adobe Illustrator and Affinity
-Designer.]]></description>
-            <guid>https://lwn.net/Articles/991732/</guid>
-            <pubDate>Wed, 02 Oct 2024 17:04:26 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] BTF, Rust, and the kernel toolchain</title>
-            <link>https://lwn.net/Articles/991719/</link>
-            <description><![CDATA[<p>
-<a href="https://www.kernel.org/doc/html/latest/bpf/btf.html">
-BPF Type Format</a> (BTF),
-BPF's debugging information format, has undergone rapid evolution to match
-the evolving needs of BPF programs. José Marchesi spoke at Kangrejos about some
-of that work — and how it could impact Rust, specifically. He discussed debug
-information, kernel-specific relocations, and the planned changes to kernel
-stack unwinding. Each of these will require some amount of work to fully
-support in Rust, but preliminary signs look promising.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/991719/</guid>
-            <pubDate>Wed, 02 Oct 2024 14:15:41 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] An update on gccrs development</title>
-            <link>https://lwn.net/Articles/991199/</link>
-            <description><![CDATA[One concern that has often been expressed about the Rust language is that
-there is only one compiler for it.  That makes it hard to say what the
-standard version of the language is and restricts the architectures that
-can be targeted by Rust code to those that the available compiler supports.
-Adding a Rust frontend to GCC would do much to address those concerns; at
-the <a href="https://gcc.gnu.org/wiki/cauldron2024">2024 GNU Tools
-Cauldron</a>, Pierre-Emmanuel Patry gave an update on the state of that
-work and what its objectives are.]]></description>
-            <guid>https://lwn.net/Articles/991199/</guid>
-            <pubDate>Tue, 01 Oct 2024 12:53:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Coccinelle for Rust</title>
-            <link>https://lwn.net/Articles/991399/</link>
-            <description><![CDATA[<p>
-Tathagata Roy has been working to make the
-<a href="https://coccinelle.gitlabpages.inria.fr/website/">
-Coccinelle</a> tool that is used (among other things)
-to automate the refactoring of C code work on Rust
-code as well. Roy gave a
-presentation at <a href="https://kangrejos.com/">Kangrejos</a> about that work,
-including the creative approaches necessary to work with Rust's more complicated
-control flow and syntax.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/991399/</guid>
-            <pubDate>Mon, 30 Sep 2024 19:01:44 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The rest of the 6.12 merge window</title>
-            <link>https://lwn.net/Articles/991301/</link>
-            <description><![CDATA[Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wiwVOCZsC6a4dLdb1UjL2fS_CnLNjrPL0XGFbDd9C26Cg@mail.gmail.com/">released
-6.12-rc1</a> and closed the 6.12 merge window on September&nbsp;29; at that
-point, 11,260 non-merge change sets had been pulled into the mainline for
-the 6.12 release.  That is the lowest number of merge-window changes since
-5.17-rc1 in January 2022, which brought in 11,068 changesets.  Nonetheless,
-6.12 brings a number of interesting changes, many of which were included in
-the roughly 4,500 changes merged since <a href="https://lwn.net/Articles/990750/">the
-summary of the first half of the 6.12 merge window</a> was written.]]></description>
-            <guid>https://lwn.net/Articles/991301/</guid>
-            <pubDate>Mon, 30 Sep 2024 17:47:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The WordPress mess</title>
-            <link>https://lwn.net/Articles/991906/</link>
-            <description><![CDATA[<p><a href="https://wordpress.org/">WordPress</a> is the <a href="https://w3techs.com/technologies/history_overview/content_management">world's most
-popular</a> open&#8209;source blogging and content&#8209;management platform. In its
-20&#8209;plus years of existence, WordPress has been something of a poster
-child for open source, similar to Linux and Firefox. It introduced the
-concept of open source to millions of bloggers, small&#8209;business owners,
-and others who have deployed WordPress to support their web&#8209;publishing
-needs. Unfortunately, it is now in the spotlight due to an increasingly
-ugly dispute between two companies, <a
-href="https://automattic.com/">Automattic</a> and <a
-href="https://wpengine.com/">WP&nbsp;Engine</a>, that has spilled over into
-the WordPress community.</p>]]></description>
-            <guid>https://lwn.net/Articles/991906/</guid>
-            <pubDate>Mon, 30 Sep 2024 17:01:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian changes OpenSSH packaging</title>
-            <link>https://lwn.net/Articles/991088/</link>
-            <description><![CDATA[<p>In the wake of the <a href="https://lwn.net/Articles/967866/">XZ
-backdoor</a>, the Debian project has revisited some of the
-patches included in its <a href="https://www.openssh.com/">OpenSSH</a>
-packages to improve security. The outcome of this is that the project
-will be splitting out support for <a href="https://en.wikipedia.org/wiki/Kerberos_(protocol)">Kerberos</a> key exchange into a
-separate set of packages, though not until after the Debian&nbsp;13
-("trixie") release expected next year. The impact on Debian users
-should be minimal, but it is an interesting look into the changes
-Linux distributions make to upstream software as well as some of the
-long-term consequences of those choices.</p>]]></description>
-            <guid>https://lwn.net/Articles/991088/</guid>
-            <pubDate>Fri, 27 Sep 2024 14:01:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Getting PCI driver abstractions upstream</title>
-            <link>https://lwn.net/Articles/990918/</link>
-            <description><![CDATA[<p>
-Danilo Krummrich gave a talk at Kangrejos 2024 focusing on the question of how
-the Rust-for-Linux project could improve at getting device and driver
-abstractions upstream. As a case study, he used some of his recent work that
-attempts to make it possible to write a PCI driver entirely in Rust. There
-wasn't time to go into as much detail as he would have liked, but he did
-demonstrate that it is possible to interface with the kernel's module loader in
-a way that is much harder to
-screw up than the current standard approach in C.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/990918/</guid>
-            <pubDate>Thu, 26 Sep 2024 17:28:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Sched_ext at LPC 2024</title>
-            <link>https://lwn.net/Articles/991205/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class (sched_ext)</a>
-enables the implementation of CPU schedulers as a set of BPF programs
-loaded from user space; it first hit the mailing lists in late 2022.
-Sched_ext has engendered its share of controversy since, but is currently
-slated to be part of the 6.12 kernel release.  At the 2024 <a
-href="https://lpc.events/">Linux Plumbers Conference</a>, the growing
-sched_ext community held one of its first public gatherings; sched_ext
-would appear to have launched a new burst of creativity in scheduler
-design.]]></description>
-            <guid>https://lwn.net/Articles/991205/</guid>
-            <pubDate>Thu, 26 Sep 2024 14:51:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
