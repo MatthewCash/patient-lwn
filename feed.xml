@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Oct 2024 12:54:39 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Oct 2024 12:57:35 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Oct 2024 13:11:32 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Oct 2024 13:20:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -276,14 +276,6 @@ testing.
             <guid>https://lwn.net/Articles/993956/</guid>
             <pubDate>Sun, 13 Oct 2024 22:45:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/993778/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 6.0, .NET 8.0, and openssl), <b>Debian</b> (firefox-esr), <b>Fedora</b> (firefox), <b>Mageia</b> (php, quictls, and vim), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, firefox, podman, skopeo, and tomcat), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache-commons-io, kernel, and xen), and <b>Ubuntu</b> (golang-1.17, libgsf, and linux-aws-6.8, linux-oracle-6.8).]]></description>
-            <guid>https://lwn.net/Articles/993778/</guid>
-            <pubDate>Fri, 11 Oct 2024 13:07:20 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
