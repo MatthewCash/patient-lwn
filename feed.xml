@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Oct 2024 13:11:32 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Oct 2024 13:20:29 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Oct 2024 13:25:32 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Oct 2024 13:41:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/994703/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, and webkit2gtk3), <b>Debian</b> (apache2), <b>Red Hat</b> (expat), <b>SUSE</b> (cups-filters, jetty-minimal, OpenIPMI, and python-starlette), and <b>Ubuntu</b> (linux-azure, linux-azure, linux-azure-5.15, linux-azure, linux-azure-5.4, and oath-toolkit).]]></description>
+            <guid>https://lwn.net/Articles/994703/</guid>
+            <pubDate>Fri, 18 Oct 2024 13:25:32 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Rust 1.82.0 released</title>
             <link>https://lwn.net/Articles/994654/</link>
