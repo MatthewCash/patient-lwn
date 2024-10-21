@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Oct 2024 14:03:40 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Oct 2024 14:10:30 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Oct 2024 14:16:44 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Oct 2024 14:32:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/994941/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (asterisk, chromium, php-horde-mime-viewer, and php-horde-turba), <b>Fedora</b> (apache-commons-io, buildah, chromium, containers-common, libarchive, libdigidocpp, oath-toolkit, podman, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, rust-tower0.4, thunderbird, and unbound), <b>SUSE</b> (buildah, chromedriver, chromium, element-desktop, element-web, jetty-annotations, nodejs-electron, php7, php74, php8, podman, python3-virtualbox, qemu, thunderbird, and valkey), and <b>Ubuntu</b> (amd64-microcode).]]></description>
+            <guid>https://lwn.net/Articles/994941/</guid>
+            <pubDate>Mon, 21 Oct 2024 14:16:43 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>A vulnerability in the Guix build system</title>
             <link>https://lwn.net/Articles/994865/</link>
@@ -296,14 +304,6 @@ in early October.</p>]]></description>
             <guid>https://lwn.net/Articles/994098/</guid>
             <pubDate>Mon, 14 Oct 2024 18:19:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/994080/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (docker.io, libreoffice, node-dompurify, python-reportlab, and thunderbird), <b>Fedora</b> (buildah, chromium, kernel, kernel-headers, libgsf, mosquitto, p7zip, podman, python-cramjam, python-virtualenv, redis, rust-async-compression, rust-brotli, rust-brotli-decompressor, rust-libcramjam, rust-libcramjam0.2, rust-nu-command, rust-nu-protocol, rust-redlib, rust-tower-http, thunderbird, and webkit2gtk4.0), <b>Oracle</b> (.NET 6.0, .NET 8.0, e2fsprogs, firefox, golang, openssl, python3-setuptools, systemd, and thunderbird), <b>SUSE</b> (chromium, firefox, java-jwt, libmozjs-128-0, libwireshark18, ntpd-rs, OpenIPMI, thunderbird, and wireshark), and <b>Ubuntu</b> (firefox, python2.7, python3.5, thunderbird, and ubuntu-advantage-desktop-daemon).]]></description>
-            <guid>https://lwn.net/Articles/994080/</guid>
-            <pubDate>Mon, 14 Oct 2024 14:09:21 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
