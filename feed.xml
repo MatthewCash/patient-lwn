@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Oct 2024 22:00:40 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Oct 2024 22:10:32 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Oct 2024 22:12:59 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Oct 2024 22:31:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Several Russian developers lose kernel maintainership status</title>
+            <link>https://lwn.net/Articles/995186/</link>
+            <description><![CDATA[Perhaps one of the more surprising changes in the 6.12-rc4 development
+kernel was <a href="https://git.kernel.org/linus/6e90b675cf94">the removal
+of several entries</a> from the kernel's <tt>MAINTAINERS</tt> file.  The <a
+href="https://lore.kernel.org/all/2024101835-tiptop-blip-09ed@gregkh/">patch</a>
+performing the removal was sent (by Greg Kroah-Hartman) only to the
+patches@lists.linux.dev mailing list; the change was included in <a
+href="https://lwn.net/ml/linux-kernel/ZxUH2J0BL3FCV6Hr@kroah.com/">a char-misc drivers
+pull request</a> with no particular mention.
+<p>
+The explanation for the removal is simply "<q>various compliance
+requirements</q>".  Given that the developers involved all appear to be of
+Russian origin, it is not too hard to imagine what sort of compliance is
+involved here.  There has, however, been no public posting of the policy
+that required the removal of these entries.]]></description>
+            <guid>https://lwn.net/Articles/995186/</guid>
+            <pubDate>Tue, 22 Oct 2024 22:12:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</title>
             <link>https://lwn.net/Articles/995140/</link>
