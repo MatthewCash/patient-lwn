@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Oct 2024 15:11:28 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Oct 2024 15:48:02 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Oct 2024 16:11:30 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Oct 2024 16:12:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Introducing AlmaLinux OS Kitten (AlmaLinux Blog)</title>
+            <link>https://lwn.net/Articles/995140/</link>
+            <description><![CDATA[<p>The <a href="https://almalinux.org/">AlmaLinux project</a> has <a href="https://almalinux.org/blog/2024-10-22-introducing-almalinux-os-kitten/">introduced</a> a new edition called "Kitten",
+which will serve as "<q>the direct upstream for AlmaLinux OS and is
+the primary point for the AlmaLinux community to engage and influence
+the future of AlmaLinux OS</q>". Not intended for production use, the
+first release is based on CentOS&nbsp;Stream&nbsp;10 source, which
+will eventually be the basis for Red Hat Enterprise Linux (RHEL)
+10:</p>
+
+<blockquote class="bq">
+Because we anticipated many changes in 10, we wanted to get a head
+start on building AlmaLinux OS 10. Earlier this year we started
+setting up infrastructure and the build pipeline for AlmaLinux OS 10,
+and started testing using CentOS Stream 10's code. Based on this
+preparation work, we are excited to share that we have successfully
+built a preview of AlmaLinux OS 10 that we are calling AlmaLinux OS
+Kitten 10.
+</blockquote>
+
+<p>The first Kitten release previews a number of ways that AlmaLinux will
+diverge from RHEL 10, including re-enabling frame pointers,
+including Simple Protocol for Independent Computing Environments
+(SPICE), and adding packages for Firefox and Thunderbird, which have
+been dropped from CentOS&nbsp;Stream&nbsp;10 in favor of Flatpak versions. New
+installation images for Kitten will be built quarterly. See the <a
+href="https://wiki.almalinux.org/release-notes/kitten-10.html">release
+notes</a> for download links, installation instructions, and more
+information.</p>]]></description>
+            <guid>https://lwn.net/Articles/995140/</guid>
+            <pubDate>Tue, 22 Oct 2024 15:56:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Another five stable kernels</title>
             <link>https://lwn.net/Articles/995130/</link>
