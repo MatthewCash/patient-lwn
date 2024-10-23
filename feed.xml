@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Oct 2024 13:36:02 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Oct 2024 13:40:04 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Oct 2024 13:44:20 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Oct 2024 13:48:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -390,15 +390,6 @@ go-git support, and a lot of fixes.
             <guid>https://lwn.net/Articles/994515/</guid>
             <pubDate>Wed, 16 Oct 2024 18:24:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/994436/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, containernetworking-plugins, and skopeo), <b>Fedora</b> (pdns-recursor and valkey), <b>Mageia</b> (unbound), <b>Red Hat</b> (fence-agents, firefox, java-11-openjdk, python-setuptools, python3-setuptools, resource-agents, and thunderbird), <b>SUSE</b> (etcd-for-k8s, libsonivox3, rubygem-puma, and unbound), and <b>Ubuntu</b> (apr, libarchive, linux, linux-aws, linux-aws-hwe, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, nano, and vim).]]></description>
-            <guid>https://lwn.net/Articles/994436/</guid>
-            <pubDate>Wed, 16 Oct 2024 13:24:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
