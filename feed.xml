@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Oct 2024 18:34:50 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Oct 2024 18:36:17 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Oct 2024 18:39:31 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Oct 2024 18:50:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -431,18 +431,6 @@ that subsystem and beyond gathered to discuss the state of affairs and how
 complex camera devices should be supported in the future.]]></description>
             <guid>https://lwn.net/Articles/992411/</guid>
             <pubDate>Thu, 03 Oct 2024 12:50:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Forgejo 9.0 released</title>
-            <link>https://lwn.net/Articles/994515/</link>
-            <description><![CDATA[<a href="https://forgejo.org/2024-10-release-v9-0/">Version 9.0</a> of the
-Forgejo software forge system has been released.  Changes include a switch
-to the GPLv3 license, the beginning of a quota system, the removal of
-go-git support, and a lot of fixes.
-(LWN <a href="https://lwn.net/Articles/963095/">looked at Forgejo</a> in February).]]></description>
-            <guid>https://lwn.net/Articles/994515/</guid>
-            <pubDate>Wed, 16 Oct 2024 18:24:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
