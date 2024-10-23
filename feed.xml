@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Oct 2024 15:47:28 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Oct 2024 15:48:18 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Oct 2024 16:11:10 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Oct 2024 16:12:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kadlčík: Copr Modularity, the End of an Era</title>
+            <link>https://lwn.net/Articles/995337/</link>
+            <description><![CDATA[<p>Jakub Kadlčík <a
+href="https://frostyx.cz/posts/copr-modularity-the-end-of-an-era">announced
+on his blog</a> that Fedora's <a
+href="https://copr.fedorainfracloud.org/">Copr</a> build system will
+be dropping support for building <a
+href="https://docs.fedoraproject.org/en-US/modularity/core-concepts/module-stream/">modules</a>
+(groups of RPM packages that are built, installed, and shipped
+together) soon:</p>
+
+<blockquote class="bq">
+The Fedora Modularity project never really took off, and building
+modules in Copr even less so. We've had only 14 builds in the last two
+years. It's not feasible to maintain the code for so few
+users. Modularity has also been <a
+href="https://fedoraproject.org/wiki/Changes/RetireModularity">retired
+since Fedora 39</a> and will die with RHEL 9.
+</blockquote>
+
+<p>Modularity features in Copr are now deprecated, and it will not be
+possible to submit new module builds after April&nbsp;2025. LWN <a
+href="https://lwn.net/Articles/805180/">covered</a> some of the
+problems with Fedora's <a href="https://docs.pagure.org/modularity/">modularity initiative</a> in 2019.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/995337/</guid>
+            <pubDate>Wed, 23 Oct 2024 15:56:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/995293/</link>
