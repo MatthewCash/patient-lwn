@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Oct 2024 12:54:24 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Oct 2024 12:58:03 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Oct 2024 13:19:22 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Oct 2024 13:21:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/995293/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dmitry, libheif, and python-sql), <b>Fedora</b> (suricata and wireshark), <b>SUSE</b> (cargo-c, libeverest, protobuf, and qemu), and <b>Ubuntu</b> (golang-1.22, libheif, unbound, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/995293/</guid>
+            <pubDate>Wed, 23 Oct 2024 13:19:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Several Russian developers lose kernel maintainership status</title>
             <link>https://lwn.net/Articles/995186/</link>
