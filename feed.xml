@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Oct 2024 13:43:07 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Oct 2024 14:10:45 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Oct 2024 14:14:33 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Oct 2024 14:32:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/995550/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana, NetworkManager-libreswan, python3.11, and python39:3.9 and python39-devel:3.9), <b>Fedora</b> (dotnet6.0, koji, python-fastapi, python-openapi-core, python-platformio, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, and yarnpkg), <b>Oracle</b> (grafana, kernel, linux-firmware, NetworkManager-libreswan, and python3.11), <b>Slackware</b> (php81), and <b>SUSE</b> (apache2, buildah, cups-filters, go1.21-openssl, podman, postgresql16, python-pyOpenSSL, and webkit2gtk3).]]></description>
+            <guid>https://lwn.net/Articles/995550/</guid>
+            <pubDate>Thu, 24 Oct 2024 14:13:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 17, 2024</title>
             <link>https://lwn.net/Articles/993610/</link>
