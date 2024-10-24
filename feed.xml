@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Oct 2024 14:14:33 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Oct 2024 14:48:17 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Oct 2024 15:00:57 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Oct 2024 15:11:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -417,24 +417,6 @@ of updates contains a long list of important fixes throughout the kernel
 tree.]]></description>
             <guid>https://lwn.net/Articles/994632/</guid>
             <pubDate>Thu, 17 Oct 2024 15:11:27 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/994630/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (python-cryptography), <b>Fedora</b> (dnsdist and python-virtualenv), <b>Red Hat</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, and java-21-openjdk), <b>Slackware</b> (libssh2 and mozilla), <b>SUSE</b> (haproxy, keepalived, libarchive, libnss_slurm2, php8, and python310-pytest-html), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gkeop,
- linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
- linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency,
- linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15,
- linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-5.4, linux-bluefield, linux-gcp,
- linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4,
- linux-xilinx-zynqmp, and linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-hwe-6.8,
- linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle,
- linux-oracle-6.8, linux-raspi).]]></description>
-            <guid>https://lwn.net/Articles/994630/</guid>
-            <pubDate>Thu, 17 Oct 2024 15:01:22 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
