@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Oct 2024 15:00:57 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Oct 2024 15:28:50 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Oct 2024 15:37:04 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Oct 2024 15:39:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,21 +403,6 @@ values, and more.]]></description>
             <guid>https://lwn.net/Articles/994654/</guid>
             <pubDate>Thu, 17 Oct 2024 18:42:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Five new stable kernels</title>
-            <link>https://lwn.net/Articles/994632/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/994633/">6.11.4</a>, <a
-href="https://lwn.net/Articles/994634/">6.6.57</a>, <a
-href="https://lwn.net/Articles/994635/">6.1.113</a>, <a
-href="https://lwn.net/Articles/994636/">5.15.168</a>, and <a
-href="https://lwn.net/Articles/994637/">5.10.227</a> stable kernels.  As usual, this set
-of updates contains a long list of important fixes throughout the kernel
-tree.]]></description>
-            <guid>https://lwn.net/Articles/994632/</guid>
-            <pubDate>Thu, 17 Oct 2024 15:11:27 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
