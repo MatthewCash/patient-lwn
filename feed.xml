@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 27 Oct 2024 22:05:12 +0000</pubDate>
-        <lastBuildDate>Sun, 27 Oct 2024 22:48:18 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 27 Oct 2024 23:11:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -378,17 +378,6 @@ of this vulnerability.
             <guid>https://lwn.net/Articles/994865/</guid>
             <pubDate>Mon, 21 Oct 2024 13:40:34 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc4</title>
-            <link>https://lwn.net/Articles/994843/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/994842/">6.12-rc4</a> for testing.
-"<q>I'm not happy with how big this is - it's probably far from the biggest
-rc4 ever, but it _is_ the biggest rc4 we've had in the 6.x series at least
-in number of commits.</q>"]]></description>
-            <guid>https://lwn.net/Articles/994843/</guid>
-            <pubDate>Sun, 20 Oct 2024 22:48:07 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
