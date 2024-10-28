@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 28 Oct 2024 16:30:38 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 18:14:18 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 28 Oct 2024 18:37:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -332,25 +332,6 @@ release notes</a> for details.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, ghostscript, libsepol, openjdk-11, openjdk-17, perl, and python-sql), <b>Oracle</b> (389-ds-base, buildah, containernetworking-plugins, edk2, httpd, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel, python-setuptools, skopeo, and webkit2gtk3), <b>Red Hat</b> (buildah), <b>Slackware</b> (openssl), <b>SUSE</b> (apache2, firefox, libopenssl-3-devel, podman, and python310-starlette), and <b>Ubuntu</b> (cups-browsed, firefox, libgsf, and linux-gke).]]></description>
             <guid>https://lwn.net/Articles/995095/</guid>
             <pubDate>Tue, 22 Oct 2024 13:36:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A new kernel testing tree</title>
-            <link>https://lwn.net/Articles/994983/</link>
-            <description><![CDATA[Sasha Levin has <a href="https://lwn.net/ml/all/ZxZ8MStt4e8JXeJb@sashalap">announced</a> a
-new tree that is intended to perform continuous-integration tests of pull
-requests aimed at the mainline.  The plan is for this tree to hold more
-finished work than sometimes ends up in linux-next; in a name that seems
-destined to create typographical confusion, it is called "linus-next".
-<p>
-<blockquote class="bq">
-	The linus-next tree aims to provide a more stable and testable
-	integration point compared to linux-next, addressing the runtime
-	issues that make testing linux-next challenging and focusing on
-	code that's about to be pulled by Linus.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/994983/</guid>
-            <pubDate>Mon, 21 Oct 2024 18:20:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
