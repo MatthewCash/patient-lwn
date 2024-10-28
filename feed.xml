@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Oct 2024 13:10:03 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 13:41:45 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Oct 2024 13:45:36 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Oct 2024 13:48:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -368,32 +368,6 @@ href="https://lwn.net/Articles/979182/">covered bootc</a> in June.</p>
             <guid>https://lwn.net/Articles/994941/</guid>
             <pubDate>Mon, 21 Oct 2024 14:16:43 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>A vulnerability in the Guix build system</title>
-            <link>https://lwn.net/Articles/994865/</link>
-            <description><![CDATA[<p>
-The 
-<a href="https://guix.gnu.org/">
-Guix</a> project has
-<a href="https://guix.gnu.org/blog/2024/build-user-takeover-vulnerability/">
-disclosed</a> a security vulnerability in the build daemon that the distribution uses to build and install software locally. The vulnerability allows an existing unprivileged user to get access to a 
-<a href="https://en.wikipedia.org/wiki/Setuid">
-setuid</a> binary, and from there potentially interfere with any other software built or installed on the computer. The project recommends upgrading the guix daemon now, to avoid the issue.
-</p>
-
-<blockquote class="bq">
-This exploit requires the ability to start a derivation build and the
-ability to run arbitrary code with access to the store in the root PID
-namespace on the machine the build occurs on. As such, this represents
-an increased risk primarily to multi-user systems and systems using
-dedicated privilege-separation users for various daemons: without
-special sandboxing measures, any process of theirs can take advantage
-of this vulnerability.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/994865/</guid>
-            <pubDate>Mon, 21 Oct 2024 13:40:34 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
