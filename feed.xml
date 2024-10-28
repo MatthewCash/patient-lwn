@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Oct 2024 20:00:24 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 20:48:41 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Oct 2024 21:03:30 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Oct 2024 21:10:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Open Source Initiative announces Open Source AI Definition 1.0</title>
+            <link>https://lwn.net/Articles/996104/</link>
+            <description><![CDATA[<p>The <a href="https://opensource.org/">Open Source Initiative</a>
+(OSI) has <a
+href="https://opensource.org/blog/the-open-source-initiative-announces-the-release-of-the-industrys-first-open-source-ai-definition">announced</a>
+the release of <a
+href="https://opensource.org/ai/open-source-ai-definition">version
+1.0</a> of the Open Source AI Definition:</p>
+
+<blockquote class="bq">
+The OSAID offers a standard by which community-led, open and public
+evaluations will be conducted to validate whether or not an AI system
+can be deemed Open Source AI. This first stable version of the OSAID
+is the result of multiple years of research and collaboration, an
+international roadshow of workshops, and a year-long co-design process
+led by the Open Source Initiative (OSI).
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/995159/">covered</a> the
+OSAID process, and final release candidate, on October 25.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/996104/</guid>
+            <pubDate>Mon, 28 Oct 2024 21:03:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/996085/</link>
