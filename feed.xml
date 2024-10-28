@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Oct 2024 21:03:30 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 21:27:03 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Oct 2024 21:28:38 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Oct 2024 21:34:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Coker: The CUPS vulnerability</title>
+            <link>https://lwn.net/Articles/996108/</link>
+            <description><![CDATA[<p>Debian Developer Russell Coker has <a
+href="https://etbe.coker.com.au/2024/10/26/cups-vulnerability/">written
+up</a> an analysis of the <a
+href="https://lwn.net/Articles/991929/">remote exploit of CUPS</a>
+announced in September:</p>
+
+<blockquote class="bq">
+<p>He seems to have a different experience to me of reporting bugs, I
+have had plenty of success getting bugs fixed without hyping them. I
+just report the bug, wait a while, and it gets fixed. [...] I
+was quite confident that my systems wouldn't be at any risk.</p>
+
+<p>When it was published my opinion was proven to be correct, <a
+href="https://www.securityweek.com/highly-anticipated-linux-flaw-allows-remote-code-execution-but-less-serious-than-expected/">it
+turned out to be a series of CUPS bugs</a>.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/996108/</guid>
+            <pubDate>Mon, 28 Oct 2024 21:28:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Open Source Initiative announces Open Source AI Definition 1.0</title>
             <link>https://lwn.net/Articles/996104/</link>
