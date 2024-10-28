@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Oct 2024 14:00:10 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 14:10:43 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Oct 2024 14:13:45 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Oct 2024 14:32:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/996085/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.12, and python3.9), <b>Debian</b> (activemq, chromium, libheif, nss, and twisted), <b>Fedora</b> (chromium, dnsdist, dotnet8.0, edk2, glibc, libdigidocpp, mbedtls3.6, NetworkManager-libreswan, oath-toolkit, podman-tui, prometheus-podman-exporter, python-fastapi, python-openapi-core, python-platformio, python-rpyc, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, suricata, thunderbird, and yarnpkg), <b>Mageia</b> (cpanminus, libgsf, mozjs78, redis, and thunderbird), <b>Oracle</b> (firefox, python3.12, python3.9, and python39:3.9 and python39-devel:3.9), <b>Red Hat</b> (edk2, grafana, httpd, httpd:2.4, and mod_jk), and <b>SUSE</b> (nodejs-electron, python3, python310, and python39).]]></description>
+            <guid>https://lwn.net/Articles/996085/</guid>
+            <pubDate>Mon, 28 Oct 2024 14:13:45 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.12-rc5</title>
             <link>https://lwn.net/Articles/995981/</link>
@@ -360,14 +368,6 @@ href="https://lwn.net/Articles/979182/">covered bootc</a> in June.</p>
             <guid>https://lwn.net/Articles/994962/</guid>
             <pubDate>Mon, 21 Oct 2024 16:47:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/994941/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (asterisk, chromium, php-horde-mime-viewer, and php-horde-turba), <b>Fedora</b> (apache-commons-io, buildah, chromium, containers-common, libarchive, libdigidocpp, oath-toolkit, podman, rust-hyper-rustls, rust-reqwest, rust-rustls-native-certs, rust-rustls-native-certs0.7, rust-tonic, rust-tonic-build, rust-tonic-types, rust-tower, rust-tower-http, rust-tower-http0.5, rust-tower0.4, thunderbird, and unbound), <b>SUSE</b> (buildah, chromedriver, chromium, element-desktop, element-web, jetty-annotations, nodejs-electron, php7, php74, php8, podman, python3-virtualbox, qemu, thunderbird, and valkey), and <b>Ubuntu</b> (amd64-microcode).]]></description>
-            <guid>https://lwn.net/Articles/994941/</guid>
-            <pubDate>Mon, 21 Oct 2024 14:16:43 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
