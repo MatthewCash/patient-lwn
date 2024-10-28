@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 28 Oct 2024 16:30:38 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Oct 2024 16:37:46 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 28 Oct 2024 16:55:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,22 +352,6 @@ destined to create typographical confusion, it is called "linus-next".
             <guid>https://lwn.net/Articles/994983/</guid>
             <pubDate>Mon, 21 Oct 2024 18:20:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Bootc 1.1.0 released</title>
-            <link>https://lwn.net/Articles/994962/</link>
-            <description><![CDATA[<p><a href="https://github.com/containers/bootc/releases/tag/v1.1.0">Version 1.1.0</a> of the <a
-href="https://containers.github.io/bootc/">bootc</a> utility for
-performing transactional, in-place operating system updates using <a
-href="https://opencontainers.org/">Open Container Initative</a> (OCI)
-images, has been released. This release "<q>officially stabilizes all
-APIs</q>" for bootc and includes a number of bug fixes. LWN <a
-href="https://lwn.net/Articles/979182/">covered bootc</a> in June.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/994962/</guid>
-            <pubDate>Mon, 21 Oct 2024 16:47:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
