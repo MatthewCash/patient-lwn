@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Oct 2024 17:02:39 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Oct 2024 17:10:05 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Oct 2024 17:27:00 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Oct 2024 17:30:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox version 132.0 is now available</title>
+            <link>https://lwn.net/Articles/996216/</link>
+            <description><![CDATA[<p>
+Mozilla has
+<a href="https://www.mozilla.org/en-US/firefox/132.0/releasenotes/">announced</a> the release of a new version of Firefox. This version has the usual mix of 
+<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-55/">
+security fixes</a> and new features, as well as a handful of deprecations. The release removes support for HTTP/2 Push, but adds hardware acceleration for SVGs, support for wide color gamuts on more platforms, and restores support for remote debugging via USB.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/996216/</guid>
+            <pubDate>Tue, 29 Oct 2024 17:27:00 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Fedora 41 released</title>
             <link>https://lwn.net/Articles/996214/</link>
