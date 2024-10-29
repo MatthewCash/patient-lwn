@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Oct 2024 15:34:30 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Oct 2024 16:52:53 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Oct 2024 17:02:39 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Oct 2024 17:10:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora 41 released</title>
+            <link>https://lwn.net/Articles/996214/</link>
+            <description><![CDATA[<p>Fedora Linux 41 <a
+href="https://fedoramagazine.org/announcing-fedora-linux-41/">has been
+released</a>. See the "what's new" pages for <a
+href="https://fedoramagazine.org/whats-new-fedora-workstation-41/">Fedora
+Workstation</a> and <a
+href="https://fedoramagazine.org/whats-new-in-fedora-kde-41/">Fedora
+KDE</a>, to learn more about the latest in those editions. There is
+also a new <a href="https://fedoraproject.org/spins/miraclewm">Fedora
+Miracle Window Manager Spin</a> that offers the <a
+href="https://miracle-wm.org/">Miracle</a> tiling window manager for
+Wayland.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/996214/</guid>
+            <pubDate>Tue, 29 Oct 2024 17:02:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/996196/</link>
