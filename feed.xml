@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Oct 2024 17:09:35 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Oct 2024 17:09:56 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Oct 2024 17:21:13 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Oct 2024 17:29:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -362,30 +362,6 @@ toward the mainline.]]></description>
             <guid>https://lwn.net/Articles/993337/</guid>
             <pubDate>Thu, 10 Oct 2024 13:11:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Tor Browser 14.0 released</title>
-            <link>https://lwn.net/Articles/995353/</link>
-            <description><![CDATA[<p><a
-href="https://blog.torproject.org/new-release-tor-browser-140/">Version
-14.0</a> of the privacy-focused <a
-href="https://www.torproject.org/">Tor browser</a> has been released. 
-
-<blockquote class="bq">
-<p>This is our first stable release based on <a
-href="https://www.mozilla.org/en-US/firefox/128.0esr/releasenotes/">Firefox
-ESR 128</a>, incorporating a year's worth of changes shipped upstream
-in Firefox. As part of this process we've also completed our annual
-ESR transition audit, where we <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues/?sort=updated_desc&state=all&search=Review%20Mozilla&label_name%5B%5D=14.0%20stable&first_page_size=20">reviewed and addressed over 200 Bugzilla issues</a> for changes in Firefox that
-may negatively affect the privacy and security of Tor Browser
-users. Our final reports from this audit are now available in the <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser-spec/-/tree/main/audits">tor-browser-spec
-repository</a> on our Gitlab instance.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/995353/</guid>
-            <pubDate>Wed, 23 Oct 2024 17:19:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
