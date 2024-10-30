@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Oct 2024 15:16:20 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Oct 2024 15:40:38 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Oct 2024 15:41:37 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Oct 2024 15:48:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Thunderbird for Android now available</title>
+            <link>https://lwn.net/Articles/996326/</link>
+            <description><![CDATA[<p>The <a href="https://blog.thunderbird.net/2024/10/thunderbird-for-android-8-0-takes-flight/">first stable release</a> of the Thunderbird mail client for Android is now available:</p>
+
+<blockquote class="bq">
+Just over two years ago, we <a
+href="https://blog.thunderbird.net/2022/06/revealed-thunderbird-on-android-plans-k9/">announced
+our plans</a> to bring Thunderbird to Android by taking K-9 Mail under
+our wing. The journey took a <a
+href="https://blog.thunderbird.net/2023/12/when-will-thunderbird-for-android-be-released/">little
+longer than we had originally anticipated</a> and there was a lot to
+learn along the way, but the wait is finally over! For all of you who
+have ever asked "when is Thunderbird for Android coming out?", the
+answer is – today!
+</blockquote>
+
+<p>It is immediately available on the <a
+href="https://play.google.com/store/apps/details?id=net.thunderbird.android">Google
+Play Store</a>, via <a
+href="https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_8_0">GitHub
+Releases</a>, or from the <a
+href="https://thunderbird.net/mobile/">Thunderbird web site</a>, and
+it will be "<q>coming soon</q>" to the <a
+href="https://f-droid.org/en/">F-Droid</a> repository for FOSS Android
+applications. See the <a
+href="https://github.com/thunderbird/thunderbird-android/releases/tag/THUNDERBIRD_8_0">release
+notes</a> for detailed information about Thunderbird&nbsp;8.0 for
+Android.</p>]]></description>
+            <guid>https://lwn.net/Articles/996326/</guid>
+            <pubDate>Wed, 30 Oct 2024 15:41:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/996310/</link>
