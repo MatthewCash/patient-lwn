@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 31 Oct 2024 14:26:14 +0000</pubDate>
-        <lastBuildDate>Thu, 31 Oct 2024 14:42:26 +0000</lastBuildDate>
+        <pubDate>Thu, 31 Oct 2024 14:43:11 +0000</pubDate>
+        <lastBuildDate>Thu, 31 Oct 2024 14:49:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/996526/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr and openssl), <b>Fedora</b> (firefox, libarchive, micropython, NetworkManager-libreswan, and xorg-x11-server-Xwayland), <b>Red Hat</b> (nano), <b>Slackware</b> (mozilla-firefox, mozilla-thunderbird, tigervnc, and xorg), <b>SUSE</b> (389-ds, Botan, go1.21-openssl, govulncheck-vulndb, java-11-openjdk, lxc, python-Werkzeug, and uwsgi), and <b>Ubuntu</b> (firefox, libarchive, linux-azure-fde, linux-azure-fde-5.15, python-pip, and xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).]]></description>
+            <guid>https://lwn.net/Articles/996526/</guid>
+            <pubDate>Thu, 31 Oct 2024 14:43:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 24, 2024</title>
             <link>https://lwn.net/Articles/994575/</link>
