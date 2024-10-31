@@ -8,11 +8,137 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Oct 2024 22:49:03 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Oct 2024 23:48:18 +0000</lastBuildDate>
+        <pubDate>Thu, 31 Oct 2024 00:42:29 +0000</pubDate>
+        <lastBuildDate>Thu, 31 Oct 2024 00:45:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 24, 2024</title>
+            <link>https://lwn.net/Articles/994575/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for October 24, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/994575/</guid>
+            <pubDate>Thu, 24 Oct 2024 00:42:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Toward safe transmutation in Rust</title>
+            <link>https://lwn.net/Articles/994334/</link>
+            <description><![CDATA[<p>
+Currently in Rust, there is no efficient and safe way to turn an array of bytes
+into a structure that corresponds to the array. Changing that was the topic of
+Jack Wrenn's talk this year at
+<a href="https://rustconf.com">
+RustConf</a>:
+<a href="https://jack.wrenn.fyi/blog/safety-goggles-for-alchemists/">
+"Safety Goggles for Alchemists"</a>. The goal is to be able to "transmute" —
+Rust's name for this kind of conversion — values into arbitrary user-defined
+types in a safer way. Wrenn justified the approach that the project has taken to
+accomplish this, and spoke about the future work required to stabilize it.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/994334/</guid>
+            <pubDate>Wed, 23 Oct 2024 17:40:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Free-software foundations face fundraising problems</title>
+            <link>https://lwn.net/Articles/993665/</link>
+            <description><![CDATA[<p>In July, at the GNOME <a
+href="https://lwn.net/Articles/983203/">annual general meeting</a> (AGM),
+held at <a
+href="https://foundation.gnome.org/2023/12/20/guadec-2024-in-denver-colorado/">GUADEC
+2024</a>,
+the message from the GNOME Foundation board was that all was well,
+financially speaking. Not <em>great</em>, but the foundation was on a
+break-even budget and expected to go into its next fiscal year with a
+similar budget and headcount. On October&nbsp;7, however, the board <a
+href="https://foundation.gnome.org/2024/10/07/update-from-the-board-2024-10/">announced</a>
+that it had had to make some cuts, including reducing its staff by
+two people. This is not, however, strictly a GNOME problem: similar
+organizations, such as the Python Software Foundation (PSF), KDE&nbsp;e.V., 
+and the Free Software Foundation Europe (FSFE) are seeing declines in
+fundraising while also being affected by inflation.</p>]]></description>
+            <guid>https://lwn.net/Articles/993665/</guid>
+            <pubDate>Wed, 23 Oct 2024 14:52:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A report from the 2024 Image-Based Linux Summit</title>
+            <link>https://lwn.net/Articles/994704/</link>
+            <description><![CDATA[<p>
+The Image-Based Linux Summit has by now established itself as a yearly event.
+Following on from <a href="https://lwn.net/Articles/946526/">last year's edition</a>,
+the third edition was held in Berlin on September&nbsp;24, the
+day before
+<a href="https://all-systems-go.io">
+All Systems Go!&nbsp;2024</a> (ASG). The purpose of this event is to gather
+stakeholders from various engineering groups and hold friendly but lively
+discussions around the topic of image-based Linux — that is, Linux distributions
+based around immutable images, instead of mutable root filesystems.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/994704/</guid>
+            <pubDate>Tue, 22 Oct 2024 19:20:45 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Python PGP proposal poses packaging puzzles</title>
+            <link>https://lwn.net/Articles/993787/</link>
+            <description><![CDATA[<p><a href="https://docs.sigstore.dev/">Sigstore</a> is a 
+project that is meant to simplify and improve the process of signing,
+verifying, and protecting software. It is a relatively new project, <a
+href="https://www.prnewswire.com/news-releases/sigstore-announces-general-availability-at-sigstorecon-301657741.html">declared</a>
+"generally available" in 2022. Python is an early adopter of sigstore; it started <a
+href="https://www.python.org/downloads/metadata/sigstore/">providing
+signatures for CPython artifacts</a> with <a
+href="https://www.python.org/downloads/release/python-3110/">Python&nbsp;3.11</a>
+in&nbsp;2022. This is in addition to the <a
+href="https://www.openpgp.org/">OpenPGP</a> signatures it has been
+providing <a href="https://peps.python.org/pep-0101/">since at
+least&nbsp;2001</a>. Now, Seth&nbsp;Michael&nbsp;Larson&mdash;the <a
+href="https://www.python.org/psf-landing/">Python Software
+Foundation</a> (PSF) <a
+href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
+developer-in-residence</a>&mdash;would like to deprecate the PGP
+signature and move to sigstore exclusively by next year. If that
+happens, it will involve some changes in the way that Linux
+distributions verify Python releases, since none of the major
+distributions have processes for working with sigstore.</p>]]></description>
+            <guid>https://lwn.net/Articles/993787/</guid>
+            <pubDate>Mon, 21 Oct 2024 15:08:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The long road to lazy preemption</title>
+            <link>https://lwn.net/Articles/994322/</link>
+            <description><![CDATA[The kernel's CPU scheduler currently offers several preemption modes that
+implement a range of tradeoffs between system throughput and response time.
+Back in September 2023, a <a href="https://lwn.net/Articles/944686/">discussion
+on scheduling</a> led to the concept of "lazy preemption", which could
+simplify scheduling in the kernel while providing better results.  Things
+went quiet for a while, but lazy preemption has returned in the form of <a
+href="https://lwn.net/ml/all/20241007074609.447006177@infradead.org">this patch series</a>
+from Peter Zijlstra.  While the concept appears to work well, there is
+still a fair amount of work to be done.]]></description>
+            <guid>https://lwn.net/Articles/994322/</guid>
+            <pubDate>Fri, 18 Oct 2024 14:25:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at the aerc mail client</title>
+            <link>https://lwn.net/Articles/993498/</link>
+            <description><![CDATA[<p>Email has become somewhat unfashionable as a collaboration tool for
+open-source projects, but there are still a number of projects—such as
+PostgreSQL and the Linux kernel—that expect contributors to send and
+review patches via email. The <a href="https://aerc-mail.org/">aerc</a>
+mail client is aimed at developers looking for a text-based, efficient, and
+extensible client that is meant to be used for working with Git and
+email. It uses Vim-style keybindings by default, and has an interface
+inspired by <a href="https://github.com/tmux/tmux/wiki">tmux</a> that
+lets users manage multiple accounts, mails, and embedded terminals at once.</p>]]></description>
+            <guid>https://lwn.net/Articles/993498/</guid>
+            <pubDate>Thu, 17 Oct 2024 15:34:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Ravier: What&apos;s new for Fedora Atomic Desktops in Fedora 41</title>
             <link>https://lwn.net/Articles/996337/</link>
@@ -250,135 +376,6 @@ OSAID process, and final release candidate, on October 25.</p>
             <guid>https://lwn.net/Articles/995550/</guid>
             <pubDate>Thu, 24 Oct 2024 14:13:16 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 17, 2024</title>
-            <link>https://lwn.net/Articles/993610/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for October 17, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/993610/</guid>
-            <pubDate>Thu, 17 Oct 2024 01:22:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Using LKMM atomics in Rust</title>
-            <link>https://lwn.net/Articles/993785/</link>
-            <description><![CDATA[<p>
-Rust, like C, has its own memory model describing how concurrent access to the
-same data by multiple threads can behave.
-The Linux kernel, however, has its own
-ideas. The
-<a href="https://lwn.net/Articles/718628/">
-Linux kernel memory model</a> (LKMM) is subtly different from both the
-standard C memory model and Rust's model.
-At Kangrejos, Boqun Feng gave a presentation about the
-need to reconcile the memory models used by Rust and the kernel,
-including a few potential avenues for doing so. While
-no consensus was reached, it is an area of active discussion.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/993785/</guid>
-            <pubDate>Wed, 16 Oct 2024 15:05:13 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Two pidfd tweaks: PIDFD_GET_INFO and PIDFD_SELF</title>
-            <link>https://lwn.net/Articles/992991/</link>
-            <description><![CDATA[The pidfd mechanism, which uses file descriptors to refer to processes in
-an unambiguous and race-free way, <a href="https://lwn.net/Articles/773459/">was first
-introduced</a> in 2018.  Since then, the interface has <a
-href="https://lwn.net/Articles/794707/">gained a number of new features</a>, but 
-development has slowed over time as the interface has matured.  There are,
-however, a couple of patches in circulation that are meant to make working
-with pidfds simpler in some situations.]]></description>
-            <guid>https://lwn.net/Articles/992991/</guid>
-            <pubDate>Wed, 16 Oct 2024 13:52:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Zapping pointers out of thin air</title>
-            <link>https://lwn.net/Articles/993484/</link>
-            <description><![CDATA[<p>
-Paul McKenney gave a presentation at Kangrejos this year that wasn't (directly)
-related to Rust. Instead, he spoke about the work he has been doing in concert
-with many other contributors on improving the handling of subtle concurrency
-problems in C++.
-Although he cautioned that his talk was only an overview, and not a
-substitute for reading the relevant papers, he hoped that the things the C++
-community is working on would be of interest to the Rust developers present as
-well, and potentially inform future work on the language. McKenney's talk was,
-as is his style, full of subtle examples of weird multithreaded behavior.
-Interested readers may wish to refer to
-<a href="https://kangrejos.com/2024/Lifetime-End%20Pointer%20Zap%20&amp;%20How%20to%20Avoid%20OOTA%20Without%20Really%20Trying.pdf">
-his slides</a> in an attempt to follow along.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/993484/</guid>
-            <pubDate>Tue, 15 Oct 2024 13:35:14 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] WordPress retaliation impacts community</title>
-            <link>https://lwn.net/Articles/993895/</link>
-            <description><![CDATA[<p>It is too early to say what the outcome will be in the <a
-href="https://lwn.net/Articles/991906/">ongoing fight</a> between <a
-href="https://automattic.com/">Automattic</a> and <a
-href="https://wpengine.com/">WP&nbsp;Engine</a>, but the <a
-href="https://wordpress.org">WordPress</a> community at large is already the
-loser. Automattic founder and CEO Matt Mullenweg has been using
-his control of the project, and the WordPress.org infrastructure, to
-punish WP&nbsp;Engine and remove some dissenting contributors from discussion
-channels. Most recently, Mullenweg has instituted a hostile fork of a
-WP&nbsp;Engine plugin and the forked plugin is replacing the original
-via WordPress updates.</p>]]></description>
-            <guid>https://lwn.net/Articles/993895/</guid>
-            <pubDate>Mon, 14 Oct 2024 18:07:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian&apos;s &quot;secret&quot; sauce</title>
-            <link>https://lwn.net/Articles/990177/</link>
-            <description><![CDATA[While Debian's "sauce" is not actually all that secret, it is not particularly
-well-known either, Samuel Henrique said at the start of his <a
-href="https://debconf24.debconf.org/">DebConf24</a> talk.  There is a lot
-of software-engineering effort that has been put in place by the
-distribution in order to create and maintain its releases, but "<q>loads of
-people are not aware</q>" of it.  That may be due to the fact that all of
-that is
-not really documented anywhere in a central location that he can just point
-someone to.  Recognizing that is what led him to give the talk;
-hopefully it will be a "<q>first step toward</q>" helping solve the problem.]]></description>
-            <guid>https://lwn.net/Articles/990177/</guid>
-            <pubDate>Mon, 14 Oct 2024 16:12:42 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] FFI type mismatches in Rust for Linux</title>
-            <link>https://lwn.net/Articles/993163/</link>
-            <description><![CDATA[<p>
-At Kangrejos, Gary Guo wanted to discuss three problems with the way
-Rust and C code in the kernel interact: mismatched types, too many type casts,
-and the overhead of helper functions. To fix the first two problems, Guo proposed
-changing the way the kernel maps C types into Rust types. The last problem was a
-bit trickier, but he has a clever workaround for that, based on tricking
-the compiler into inlining the helper functions across language boundaries.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/993163/</guid>
-            <pubDate>Fri, 11 Oct 2024 13:56:48 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] On Rust in enterprise kernels</title>
-            <link>https://lwn.net/Articles/993337/</link>
-            <description><![CDATA[At the recently concluded Maintainers Summit, it was <a
-href="https://lwn.net/Articles/991062/">generally agreed that the Rust experiment would
-continue</a>, and that the path was clear for more Rust code to enter the
-kernel.  But the high-level view taken at such gatherings cannot always
-account for the difficult details that will inevitably arise as the Rust
-work proceeds.  A recent discussion on the nouveau mailing list may have
-escaped the notice of many, but it highlights some of the problems that
-will have to be worked out as important functionality written in Rust heads
-toward the mainline.]]></description>
-            <guid>https://lwn.net/Articles/993337/</guid>
-            <pubDate>Thu, 10 Oct 2024 13:11:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
