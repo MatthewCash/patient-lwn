@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 31 Oct 2024 14:26:14 +0000</pubDate>
-        <lastBuildDate>Thu, 31 Oct 2024 14:31:29 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 31 Oct 2024 14:42:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -368,14 +368,6 @@ OSAID process, and final release candidate, on October 25.</p>
             <guid>https://lwn.net/Articles/995768/</guid>
             <pubDate>Fri, 25 Oct 2024 13:48:18 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/995550/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana, NetworkManager-libreswan, python3.11, and python39:3.9 and python39-devel:3.9), <b>Fedora</b> (dotnet6.0, koji, python-fastapi, python-openapi-core, python-platformio, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, and yarnpkg), <b>Oracle</b> (grafana, kernel, linux-firmware, NetworkManager-libreswan, and python3.11), <b>Slackware</b> (php81), and <b>SUSE</b> (apache2, buildah, cups-filters, go1.21-openssl, podman, postgresql16, python-pyOpenSSL, and webkit2gtk3).]]></description>
-            <guid>https://lwn.net/Articles/995550/</guid>
-            <pubDate>Thu, 24 Oct 2024 14:13:16 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
