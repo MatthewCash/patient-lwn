@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 01 Nov 2024 14:29:43 +0000</pubDate>
-        <lastBuildDate>Fri, 1 Nov 2024 14:41:04 +0000</lastBuildDate>
+        <pubDate>Fri, 01 Nov 2024 14:43:50 +0000</pubDate>
+        <lastBuildDate>Fri, 1 Nov 2024 14:48:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four Friday stable kernel updates</title>
+            <link>https://lwn.net/Articles/996687/</link>
+            <description><![CDATA[<p>
+Greg Kroah-Hartman has released another four stable Linux kernel updates:
+<a href="https://lwn.net/Articles/996688/">6.11.6</a>,
+<a href="https://lwn.net/Articles/996689/">6.6.59</a>,
+<a href="https://lwn.net/Articles/996690/">6.1.115</a>, and
+<a href="https://lwn.net/Articles/996691/">5.15.170</a>.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/996687/</guid>
+            <pubDate>Fri, 01 Nov 2024 14:43:50 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/996679/</link>
