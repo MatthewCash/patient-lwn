@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 01 Nov 2024 12:04:43 +0000</pubDate>
-        <lastBuildDate>Fri, 1 Nov 2024 12:18:09 +0000</lastBuildDate>
+        <pubDate>Fri, 01 Nov 2024 12:44:22 +0000</pubDate>
+        <lastBuildDate>Fri, 1 Nov 2024 12:56:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/996679/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (xorg-x11-server-Xwayland), <b>Oracle</b> (buildah, e2fsprogs, grafana, kernel, and mod_http2), <b>Red Hat</b> (buildah, container-tools:rhel8, firefox, grafana, grafana:7.3.6, podman, and thunderbird), <b>SUSE</b> (alloy, cargo-audit-advisory-db-20241030, chromedriver, corepack22, netty, openvpn, python310-Werkzeug, thunderbird, uwsgi, and xsd), and <b>Ubuntu</b> (linux, linux-azure-6.8, linux-gcp-6.8, linux-hwe-6.8 and linux, linux-gcp, linux-gcp-5.4, linux-gkeop, linux-hwe-5.4, linux-ibm, linux-ibm-5.4).]]></description>
+            <guid>https://lwn.net/Articles/996679/</guid>
+            <pubDate>Fri, 01 Nov 2024 12:44:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>October project goals update (Rust Blog)</title>
             <link>https://lwn.net/Articles/996585/</link>
