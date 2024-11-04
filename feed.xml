@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 04 Nov 2024 00:42:33 +0000</pubDate>
-        <lastBuildDate>Mon, 4 Nov 2024 00:46:40 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 4 Nov 2024 02:11:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,22 +416,6 @@ OSAID process, and final release candidate, on October 25.</p>
             <guid>https://lwn.net/Articles/996085/</guid>
             <pubDate>Mon, 28 Oct 2024 14:13:45 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc5</title>
-            <link>https://lwn.net/Articles/995981/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/995980/">6.12-rc5</a> for testing.
-<p>
-<blockquote class="bq">
-	rc5 looks perfectly normal, and maybe even on the small side of
-	normal. The diffstat looks nice and flat too, with the exception of
-	the removal of the da8xx fbdev driver due to it having been
-	replaced by the tilcdc driver. And I'm sure we're all thinking the
-	same thing: "What lovely descriptive driver names we have".
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/995981/</guid>
-            <pubDate>Mon, 28 Oct 2024 00:01:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
