@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 04 Nov 2024 14:29:01 +0000</pubDate>
-        <lastBuildDate>Mon, 4 Nov 2024 14:32:10 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 4 Nov 2024 14:48:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,14 +416,6 @@ OSAID process, and final release candidate, on October 25.</p>
             <guid>https://lwn.net/Articles/996104/</guid>
             <pubDate>Mon, 28 Oct 2024 21:03:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/996085/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.12, and python3.9), <b>Debian</b> (activemq, chromium, libheif, nss, and twisted), <b>Fedora</b> (chromium, dnsdist, dotnet8.0, edk2, glibc, libdigidocpp, mbedtls3.6, NetworkManager-libreswan, oath-toolkit, podman-tui, prometheus-podman-exporter, python-fastapi, python-openapi-core, python-platformio, python-rpyc, python-starlette, rust-pyo3, rust-pyo3-build-config, rust-pyo3-ffi, rust-pyo3-macros, rust-pyo3-macros-backend, suricata, thunderbird, and yarnpkg), <b>Mageia</b> (cpanminus, libgsf, mozjs78, redis, and thunderbird), <b>Oracle</b> (firefox, python3.12, python3.9, and python39:3.9 and python39-devel:3.9), <b>Red Hat</b> (edk2, grafana, httpd, httpd:2.4, and mod_jk), and <b>SUSE</b> (nodejs-electron, python3, python310, and python39).]]></description>
-            <guid>https://lwn.net/Articles/996085/</guid>
-            <pubDate>Mon, 28 Oct 2024 14:13:45 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
