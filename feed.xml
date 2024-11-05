@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 05 Nov 2024 14:48:44 +0000</pubDate>
-        <lastBuildDate>Tue, 5 Nov 2024 15:11:06 +0000</lastBuildDate>
+        <pubDate>Tue, 05 Nov 2024 15:17:49 +0000</pubDate>
+        <lastBuildDate>Tue, 5 Nov 2024 15:29:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LXQt 2.1.0 released</title>
+            <link>https://lwn.net/Articles/997034/</link>
+            <description><![CDATA[<p><a
+href="https://lxqt-project.org/release/2024/11/05/release-lxqt-2-1-0/">Version
+2.1.0</a> of the <a href="https://lxqt-project.org/">LXQt</a>
+lightweight Qt desktop environment has been released. The highlight of
+this release is support for multiple Wayland compositors:</p>
+
+<blockquote class="bq">
+<p>Through its new component <tt>lxqt-wayland-session</tt>, LXQt 2.1.0
+supports 7 Wayland sessions (with Labwc, KWin, Wayfire, Hyprland,
+Sway, River and Niri), has two Wayland back-ends in
+<tt>lxqt-panel</tt> (one for <tt>kwin_wayland</tt> and the other
+general), and will add more later. All LXQt components that are not
+limited to X11 — i.e., most components — work fine on Wayland. [...]</p>
+
+<p><em><strong>Of course, the X11 session will be supported
+indefinitely</strong></em>. Wayland is optional and rather experimental.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/997034/</guid>
+            <pubDate>Tue, 05 Nov 2024 15:17:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/997030/</link>
