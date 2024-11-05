@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 05 Nov 2024 03:58:26 +0000</pubDate>
-        <lastBuildDate>Tue, 5 Nov 2024 04:13:15 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 5 Nov 2024 04:32:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -344,28 +344,6 @@ Wayland.</p>
             <guid>https://lwn.net/Articles/996196/</guid>
             <pubDate>Tue, 29 Oct 2024 13:27:23 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Flock: a Flutter fork</title>
-            <link>https://lwn.net/Articles/996147/</link>
-            <description><![CDATA[A project called Flock has <a
-href="https://flutterfoundation.dev/blog/posts/we-are-forking-flutter-this-is-why/">announced
-its existence</a>.  Flock is a fork of the Flutter user-interface toolkit
-project, motivated by frustration with the resources that Google is putting
-into Flutter.
-<p>
-<blockquote class="bq">
-	We describe Flock as "Flutter+". In other words, we do not want, or
-	intend, to fork the Flutter community. Flock will remain constantly
-	up to date with Flutter. Flock will add important bug fixes, and
-	popular community features, which the Flutter team either can't, or
-	won't implement.
-</blockquote>
-<p>
-(LWN <a href="https://lwn.net/Articles/828475/">looked at flutter</a> in 2020).]]></description>
-            <guid>https://lwn.net/Articles/996147/</guid>
-            <pubDate>Tue, 29 Oct 2024 03:52:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
