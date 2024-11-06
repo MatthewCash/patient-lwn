@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 06 Nov 2024 16:44:29 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Nov 2024 16:52:04 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 6 Nov 2024 17:09:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -321,33 +321,6 @@ and more.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/996337/</guid>
             <pubDate>Wed, 30 Oct 2024 17:52:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A new release of Raspberry Pi OS</title>
-            <link>https://lwn.net/Articles/996332/</link>
-            <description><![CDATA[<p>The Raspberry Pi project has <a
-href="https://www.raspberrypi.com/news/a-new-release-of-raspberry-pi-os/">announced</a>
-a new version of Raspberry Pi OS. It includes a number of
-significant changes, the most notable of which is that the Raspberry
-Pi Desktop now uses Wayland by default for all Pi models using the
-<a href="https://labwc.github.io/">labwc</a> compositor:</p>
-
-<blockquote class="bq">
-For most of this year, we have been working on porting labwc to the
-Raspberry Pi Desktop. This has very much been a collaborative process
-with the developers of both labwc and wlroots: both have helped us
-immensely with their support as we contribute features and
-optimisations needed for our desktop.
-</blockquote>
-
-<p>This release also features Linux 6.6.51, improved touchscreen support, a new
-screen configuration tool called <tt>raindrop</tt>, and more. See the
-<a
-href="https://downloads.raspberrypi.com/raspios_armhf/release_notes.txt">release
-notes</a> for a full list of changes.</p>]]></description>
-            <guid>https://lwn.net/Articles/996332/</guid>
-            <pubDate>Wed, 30 Oct 2024 16:41:09 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
