@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 Nov 2024 18:12:44 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Nov 2024 18:13:28 +0000</lastBuildDate>
+        <pubDate>Wed, 06 Nov 2024 18:34:59 +0000</pubDate>
+        <lastBuildDate>Wed, 6 Nov 2024 18:35:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -304,23 +304,6 @@ inspired by <a href="https://github.com/tmux/tmux/wiki">tmux</a> that
 lets users manage multiple accounts, mails, and embedded terminals at once.</p>]]></description>
             <guid>https://lwn.net/Articles/993498/</guid>
             <pubDate>Thu, 17 Oct 2024 15:34:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ravier: What&apos;s new for Fedora Atomic Desktops in Fedora 41</title>
-            <link>https://lwn.net/Articles/996337/</link>
-            <description><![CDATA[<p>Timothée Ravier has written <a
-href="https://tim.siosm.fr/blog/2024/10/30/fedora-atomic-desktops-41/">a
-blog post</a> about changes in the <a
-href="https://fedoraproject.org/atomic-desktops/">Fedora Atomic
-Desktops</a> for Fedora&nbsp;Linux&nbsp;41. Some of the notable new
-features for Atomic Desktops include bootloader updates enabled by
-default for UEFI systems, first steps towards using <a
-href="https://containers.github.io/bootable/">bootable containers</a>,
-and more.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/996337/</guid>
-            <pubDate>Wed, 30 Oct 2024 17:52:53 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
