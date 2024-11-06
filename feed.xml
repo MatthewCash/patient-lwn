@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 Nov 2024 13:14:07 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Nov 2024 13:19:17 +0000</lastBuildDate>
+        <pubDate>Wed, 06 Nov 2024 13:36:07 +0000</pubDate>
+        <lastBuildDate>Wed, 6 Nov 2024 13:38:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -351,14 +351,6 @@ notes</a> for detailed information about Thunderbird&nbsp;8.0 for
 Android.</p>]]></description>
             <guid>https://lwn.net/Articles/996326/</guid>
             <pubDate>Wed, 30 Oct 2024 15:41:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/996310/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah), <b>Debian</b> (python-git, texlive-bin, and xorg-server), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (kernel), <b>SUSE</b> (Botan, go1.22-openssl, go1.23-openssl, grafana, libgsf, pcp, pgadmin4, python310-pytest-html, python313, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (nano, python-urllib3, and xorg-server, xwayland).]]></description>
-            <guid>https://lwn.net/Articles/996310/</guid>
-            <pubDate>Wed, 30 Oct 2024 13:19:23 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
