@@ -9,10 +9,152 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 06 Nov 2024 23:47:13 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Nov 2024 23:48:25 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 7 Nov 2024 00:43:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 31, 2024</title>
+            <link>https://lwn.net/Articles/995490/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for October 31, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/995490/</guid>
+            <pubDate>Thu, 31 Oct 2024 00:42:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] An update on Apple M1/M2 GPU drivers</title>
+            <link>https://lwn.net/Articles/995383/</link>
+            <description><![CDATA[The kernel graphics driver for the Apple M1 and M2 GPUs is, rather
+famously, written in Rust, but it has achieved conformance with
+various graphics standards, which is also noteworthy.  At the <a
+href="https://indico.freedesktop.org/event/6/">X.Org Developers Conference
+(XDC)&nbsp;2024</a>, Alyssa Rosenzweig gave an update on the status of the
+driver, along with some news about the kinds of games it can support (<a
+href="https://www.youtube.com/watch?v=TtLP5sAXYKo">YouTube video</a>, <a href="https://indico.freedesktop.org/event/6/contributions/284/attachments/230/310/slides.pdf ">slides</a>).
+There has been lots of progress since her talk at XDC last year (<a
+href="https://www.youtube.com/watch?v=O36VFNdQHsE">YouTube video</a>),
+with, of course, still more to come.]]></description>
+            <guid>https://lwn.net/Articles/995383/</guid>
+            <pubDate>Wed, 30 Oct 2024 16:23:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new approach to validating test suites</title>
+            <link>https://lwn.net/Articles/995276/</link>
+            <description><![CDATA[<p>
+The first program that Martin Pool ever wrote, he said, had bugs; the ones he's writing
+now most likely have bugs too. The talk Pool gave at
+<a href="https://rustconf.com/">RustConf</a> this year was about a way to try
+to write programs with fewer bugs. He has developed a tool called
+<a href="https://mutants.rs/">
+cargo-mutants</a> that highlights gaps in test coverage by identifying
+functions that can be broken without causing any tests to fail.
+This can be a valuable complement to other testing techniques,
+he explained.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/995276/</guid>
+            <pubDate>Tue, 29 Oct 2024 17:01:12 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The performance of the Rust compiler</title>
+            <link>https://lwn.net/Articles/995125/</link>
+            <description><![CDATA[<p>
+Sparrow Li presented virtually at
+<a href="https://rustconf.com">
+RustConf</a>&nbsp;2024 about the current state of and
+future plans for the Rust compiler's performance. The compiler is relatively slow to compile
+large programs, although it has been getting better over time. The next big
+performance improvement to come will be parallelizing the compiler's parsing,
+type-checking, and related operations, but even after that, the project has
+several avenues left to explore.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/995125/</guid>
+            <pubDate>Mon, 28 Oct 2024 16:10:27 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] AutoFDO and Propeller</title>
+            <link>https://lwn.net/Articles/995397/</link>
+            <description><![CDATA[Rong Xu and
+Han Shen described the kernel-optimization techniques that Google uses in the <a
+href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
+track</a> at the <a
+href="https://lpc.events/event/18/page/224-lpc-2024-overview">2024 Linux
+Plumbers Conference</a>.
+They talked about <a
+href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf">automatic
+feedback-directed optimization</a> (AutoFDO), which can be used with the <a
+href="https://research.google/pubs/propeller-a-profile-guided-relinking-optimizer-for-warehouse-scale-applications/">Propeller</a>
+optimizer to produce kernels with better performance using profile
+information gathered from real workloads.  There is a fair amount of
+overlap between these tools and the <a
+href="https://github.com/llvm/llvm-project/tree/main/bolt#bolt">BOLT</a>
+post-link optimizer, which was the subject of a <a
+href="https://lwn.net/Articles/993828/">talk</a> that directly preceded this session.]]></description>
+            <guid>https://lwn.net/Articles/995397/</guid>
+            <pubDate>Mon, 28 Oct 2024 15:15:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] OSI readies controversial Open AI definition</title>
+            <link>https://lwn.net/Articles/995159/</link>
+            <description><![CDATA[<p>The <a href="https://opensource.org/">Open Source Initiative</a>
+(OSI) has been working on defining <a
+href="https://opensource.org/ai">Open Source AI</a>&mdash;that is what
+constitutes an AI system that can be used, studied, modified, and
+shared for any purpose&mdash;for almost two
+years. Its <a
+href="https://opensource.org/about/board-of-directors">board</a> will
+be voting on the <a href="https://opensource.org/ai/drafts/the-open-source-ai-definition-1-0-rc2">Open Source AI Definition</a> (OSAID) on Sunday,
+October&nbsp;27, with the 1.0 version slated to be published on
+October&nbsp;28. It is never possible to please <em>everyone</em> in
+such an endeavor, and it would be folly to make that a goal. However,
+a number of prominent figures in the open-source community have voiced
+concerns that OSI is setting the bar too low with the OSAID&mdash;which
+will undo decades of community work to cajole vendors into adhering to
+or respecting the original <a href="https://opensource.org/osd">Open Source
+Definition</a> (OSD).</p>]]></description>
+            <guid>https://lwn.net/Articles/995159/</guid>
+            <pubDate>Fri, 25 Oct 2024 21:02:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Kernel optimization with BOLT</title>
+            <link>https://lwn.net/Articles/993828/</link>
+            <description><![CDATA[A pair of talks in the <a
+href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
+track</a> at the <a
+href="https://lpc.events/event/18/page/224-lpc-2024-overview">2024 Linux
+Plumbers Conference</a> covered different tools that can be used to
+optimize the kernel.  First up was Maksim Panchenko to describe the <a
+href="https://github.com/llvm/llvm-project/tree/main/bolt#bolt">binary
+optimization and layout tool</a> (BOLT) that Meta uses on its production
+kernels.  It optimizes the kernel binary by rearranging it to improve its
+code locality for
+better performance.  A subsequent article will cover the second talk, which
+looked at  <a
+href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45290.pdf">automatic
+feedback-directed optimization</a> (AutoFDO) and other related techniques
+that are used to optimize Google's kernels.]]></description>
+            <guid>https://lwn.net/Articles/993828/</guid>
+            <pubDate>Fri, 25 Oct 2024 19:39:48 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] realloc() and the oversize importance of zero-size objects</title>
+            <link>https://lwn.net/Articles/995196/</link>
+            <description><![CDATA[Small objects can lead to large email threads.  In this
+case, the GNU C Library (glibc) community has been having an extensive
+debate over the handling of zero-byte allocations.  Specifically, what
+should happen when a program calls <a
+href="https://man7.org/linux/man-pages/man3/malloc.3.html"><tt>realloc()</tt></a>
+specifying a size of zero?  This is, it seems, a topic about which some
+people, at least, have strong feelings.]]></description>
+            <guid>https://lwn.net/Articles/995196/</guid>
+            <pubDate>Thu, 24 Oct 2024 15:36:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Funding restored for man-page maintenance</title>
             <link>https://lwn.net/Articles/997193/</link>
