@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 07 Nov 2024 21:18:50 +0000</pubDate>
-        <lastBuildDate>Thu, 7 Nov 2024 21:25:53 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 7 Nov 2024 21:33:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -290,37 +290,6 @@ Greg Kroah-Hartman has released another four stable Linux kernel updates:
             <guid>https://lwn.net/Articles/996679/</guid>
             <pubDate>Fri, 01 Nov 2024 12:44:21 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>October project goals update (Rust Blog)</title>
-            <link>https://lwn.net/Articles/996585/</link>
-            <description><![CDATA[<p>The Rust blog has an <a
-href="https://blog.rust-lang.org/2024/10/31/project-goals-oct-update.html">update</a>
-on its progress on some of its <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html">project
-goals</a>. One of the project's <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/goals.html#flagship-goals">flagship
-goals</a> is to <a
-href="https://rust-lang.github.io/rust-project-goals/2024h2/rfl_stable.html">resolve
-the biggest blockers to Linux building on stable Rust</a>:</p>
-
-<blockquote class="bq">
-Finally, we have been finding an increasing number of stabilization
-requests at the compiler level, and so @wesleywiser and @davidtwco
-from the compiler team have started attending meetings to create a
-faster response. One of the results of that collaboration is <a
-href="https://github.com/rust-lang/rfcs/pull/3716">RFC #3716</a>,
-authored by Alice Ryhl, which proposes a method to manage compiler
-flags that modify the target ABI. Our previous approach has been to
-create distinct targets for each combination of flags, but the number
-of flags needed by the kernel make that impractical. Authoring the RFC
-revealed more such flags than previously recognized, including those
-that modify LLVM behavior.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/996585/</guid>
-            <pubDate>Thu, 31 Oct 2024 21:26:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
