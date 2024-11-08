@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 08 Nov 2024 13:19:40 +0000</pubDate>
-        <lastBuildDate>Fri, 8 Nov 2024 14:09:51 +0000</lastBuildDate>
+        <pubDate>Fri, 08 Nov 2024 14:17:02 +0000</pubDate>
+        <lastBuildDate>Fri, 8 Nov 2024 14:30:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/997480/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (edk2), <b>Debian</b> (webkit2gtk), <b>Fedora</b> (thunderbird), <b>Oracle</b> (bzip2, container-tools:ol8, edk2, go-toolset:ol8, libtiff, python-idna, python3.11, and python3.12), <b>Slackware</b> (expat), and <b>SUSE</b> (apache2, govulncheck-vulndb, grub2, java-1_8_0-openjdk, python3, python39, qemu, xorg-x11-server, and xwayland).]]></description>
+            <guid>https://lwn.net/Articles/997480/</guid>
+            <pubDate>Fri, 08 Nov 2024 14:17:02 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/997378/</link>
