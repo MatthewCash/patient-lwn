@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 08 Nov 2024 14:42:49 +0000</pubDate>
-        <lastBuildDate>Fri, 8 Nov 2024 14:48:12 +0000</lastBuildDate>
+        <pubDate>Fri, 08 Nov 2024 15:04:37 +0000</pubDate>
+        <lastBuildDate>Fri, 8 Nov 2024 15:10:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Cohen: gccrs: An alternative compiler for Rust</title>
+            <link>https://lwn.net/Articles/997483/</link>
+            <description><![CDATA[Arthur Cohen has posted <a
+href="https://blog.rust-lang.org/2024/11/07/gccrs-an-alternative-compiler-for-rust.html">a
+detailed introduction to the gccrs project</a> on the Rust Blog, seemingly
+with the goal of convincing the Rust community about the value of the
+project.
+<p>
+<blockquote class="bq">
+	Likewise, many GCC plugins are used for increasing the safety of
+	critical projects such as the Linux kernel, which has recently
+	gained support for the Rust programming language. This makes
+	<tt>gccrs</tt> a useful tool for analyzing unsafe Rust code, and
+	more generally Rust code which has to interact with existing C
+	code. We also want <tt>gccrs</tt> to be a useful tool for
+	<tt>rustc</tt> itself by helping pan out the Rust specification
+	effort with a unique viewpoint - that of a tool trying to replicate
+	another's functionality, oftentimes through careful experimentation
+	and source reading where the existing documentation did not go into
+	enough detail.
+</blockquote>
+<p>
+(LWN last <a href="https://lwn.net/Articles/991199/">looked at gccrs</a> in October).]]></description>
+            <guid>https://lwn.net/Articles/997483/</guid>
+            <pubDate>Fri, 08 Nov 2024 15:04:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/997480/</link>
