@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 11 Nov 2024 14:20:05 +0000</pubDate>
-        <lastBuildDate>Mon, 11 Nov 2024 14:30:57 +0000</lastBuildDate>
+        <pubDate>Mon, 11 Nov 2024 14:38:13 +0000</pubDate>
+        <lastBuildDate>Mon, 11 Nov 2024 14:41:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -320,14 +320,6 @@ is important:
             <guid>https://lwn.net/Articles/997002/</guid>
             <pubDate>Tue, 05 Nov 2024 14:43:37 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/996908/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, grafana, kernel, and mod_http2), <b>Debian</b> (chromium, openssl, and thunderbird), <b>Fedora</b> (chromium, krb5, mysql8.0, polkit, python-single-version, and webkitgtk), <b>Mageia</b> (bind, buildah, podman, skopeo, kernel, kmod-xtables-addons. kmod-virtualbox, kernel-firmware &amp; kernel-firmware-nonfree radeon-firmware, and kernel-linus), <b>SUSE</b> (apache2, chromedriver, cups-filters, docker-stable, firefox, gama, govulncheck-vulndb, java-11-openjdk, java-17-openjdk, java-23-openjdk, libnss_slurm2, openssl-1_1, openssl-3, python-waitress, python3, python310-waitress, ruby2.5, rubygem-actionmailer-5_1, rubygem-actionpack-5_1, rubygem-bundler, webkit2gtk3, and xorg-x11-server), and <b>Ubuntu</b> (linux-azure-6.8).]]></description>
-            <guid>https://lwn.net/Articles/996908/</guid>
-            <pubDate>Mon, 04 Nov 2024 14:29:01 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
