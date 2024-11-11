@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 10 Nov 2024 22:01:28 +0000</pubDate>
-        <lastBuildDate>Mon, 11 Nov 2024 00:45:38 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 02:08:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -310,17 +310,6 @@ is important:
             <guid>https://lwn.net/Articles/996908/</guid>
             <pubDate>Mon, 04 Nov 2024 14:29:01 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc6</title>
-            <link>https://lwn.net/Articles/996828/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/996829/">6.12-rc6</a> kernel prepatch is out for
-testing.  Linus says: "<q>Another week, another rc. Nothing odd or special
-seems to be going on - this may be a bit on the bigger side for an rc6, but
-not hugely so, and nothing stands out.</q>"]]></description>
-            <guid>https://lwn.net/Articles/996828/</guid>
-            <pubDate>Mon, 04 Nov 2024 00:41:43 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
