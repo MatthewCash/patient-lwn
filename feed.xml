@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 11 Nov 2024 14:38:13 +0000</pubDate>
-        <lastBuildDate>Mon, 11 Nov 2024 14:41:05 +0000</lastBuildDate>
+        <pubDate>Mon, 11 Nov 2024 14:44:15 +0000</pubDate>
+        <lastBuildDate>Mon, 11 Nov 2024 14:48:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RIP Jérémy Bobbio (Lunar)</title>
+            <link>https://lwn.net/Articles/997775/</link>
+            <description><![CDATA[Longtime Debian and Tor developer, Jérémy Bobbio—perhaps better known as
+"Lunar"—<a
+href="https://nos-oignons.net/Actualit%C3%A9s/20241110_lunar_est_parti/index.en.html">died
+on November 8</a>. Lunar was one of the founders of the <a href="https://lwn.net/Articles/985739/">reproducible
+builds movement</a> and recently had been working with <a
+href="https://www.softwareheritage.org/">Software Heritage</a>.  More
+information and tributes in French can be found at <a
+href="https://lunar.anargeek.net/">this site</a>.  They will be missed.]]></description>
+            <guid>https://lwn.net/Articles/997775/</guid>
+            <pubDate>Mon, 11 Nov 2024 14:44:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/997774/</link>
