@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 12 Nov 2024 15:05:21 +0000</pubDate>
-        <lastBuildDate>Tue, 12 Nov 2024 15:38:29 +0000</lastBuildDate>
+        <pubDate>Tue, 12 Nov 2024 15:39:38 +0000</pubDate>
+        <lastBuildDate>Tue, 12 Nov 2024 15:48:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Anaconda’s new &quot;Web UI&quot; (Fedora Magazine)</title>
+            <link>https://lwn.net/Articles/997927/</link>
+            <description><![CDATA[<p>Garrett LeSage has written an in-depth <a
+href="https://fedoramagazine.org/anaconda-installer-redesign/">article</a>
+for Fedora Magazine about a new web-based user interface (UI) for Fedora's 
+<a href=https://fedoraproject.org/wiki/Anaconda">Anaconda</a>
+installer, planned to ship with Fedora&nbsp;42. The article looks at
+the rationale for moving from GTK3 to a web-based UI, provides a
+number of screenshots and demo screencasts, as well as instructions on
+trying out the new installer with Fedora Rawhide.</p>]]></description>
+            <guid>https://lwn.net/Articles/997927/</guid>
+            <pubDate>Tue, 12 Nov 2024 15:39:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/997903/</link>
