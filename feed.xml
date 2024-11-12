@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 12 Nov 2024 14:19:21 +0000</pubDate>
-        <lastBuildDate>Tue, 12 Nov 2024 14:41:46 +0000</lastBuildDate>
+        <pubDate>Tue, 12 Nov 2024 14:47:20 +0000</pubDate>
+        <lastBuildDate>Tue, 12 Nov 2024 14:48:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/997903/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-base), <b>Debian</b> (chromium, ghostscript, libarchive, mpg123, ruby-saml, and symfony), <b>Fedora</b> (buildah and podman), <b>Red Hat</b> (buildah, containernetworking-plugins, podman, skopeo, and xorg-x11-server-Xwayland), <b>Slackware</b> (wget), <b>SUSE</b> (pcp), and <b>Ubuntu</b> (linux, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-gkeop-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux-xilinx-zynqmp and mysql-8.0).]]></description>
+            <guid>https://lwn.net/Articles/997903/</guid>
+            <pubDate>Tue, 12 Nov 2024 14:47:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>RIP Jérémy Bobbio (Lunar)</title>
             <link>https://lwn.net/Articles/997775/</link>
@@ -302,39 +310,6 @@ indefinitely</strong></em>. Wayland is optional and rather experimental.</p>
             <guid>https://lwn.net/Articles/997034/</guid>
             <pubDate>Tue, 05 Nov 2024 15:17:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/997030/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, openexr, and thunderbird), <b>Fedora</b> (llama-cpp and python-quart), <b>Oracle</b> (firefox, openexr, thunderbird, and xorg-x11-server and xorg-x11-server-Xwayland), <b>SUSE</b> (chromium, govulncheck-vulndb, openssl-1_1, python311, and python312), and <b>Ubuntu</b> (linux-azure, linux-bluefield, linux-azure, linux-gcp, linux-ibm, openjpeg2, and ruby3.0, ruby3.2, ruby3.3).]]></description>
-            <guid>https://lwn.net/Articles/997030/</guid>
-            <pubDate>Tue, 05 Nov 2024 14:42:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The BPF instruction set architecture is now RFC 9669</title>
-            <link>https://lwn.net/Articles/997002/</link>
-            <description><![CDATA[After a couple of years of effort, the BPF instruction set architecture has
-been accepted as <a href="https://www.rfc-editor.org/rfc/rfc9669.html">RFC
-9669</a>, giving it a standard outside of the in-kernel implementation.  <a
-href="https://lwn.net/ml/all/20241105035101.GD41004@maniforge">This message from David
-Vernet</a> (who also contributed <a href="https://lwn.net/Articles/926882/">an article on
-the standardization process</a> last year) describes the process and why it
-is important:
-<p>
-<blockquote class="bq">
-	Though some vendors have already implemented BPF offloading
-	capabilities without having a standardized ISA, others are not
-	quite as risk tolerant. As Christoph [Hellwig] discussed at LSFMM
-	2022, certain NVMe vendors have expressed an interest in building
-	BPF offloading capabilities for various use cases such as eXpress
-	Resubmission Path (XRP), but they simply can't fund such a project
-	without certain components of BPF being standardized. Hence, the
-	effort to standardize BPF was born.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/997002/</guid>
-            <pubDate>Tue, 05 Nov 2024 14:43:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
