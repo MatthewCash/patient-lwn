@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Nov 2024 13:41:29 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Nov 2024 14:10:10 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Nov 2024 14:29:39 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Nov 2024 14:30:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/998044/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat), <b>Fedora</b> (chromium and golang-github-nvidia-container-toolkit), <b>Mageia</b> (curl, expat, mpg123, networkmanager-libreswan, openssl, php-tcpdf, qbittorrent, and x11-server, x11-server-xwayland, and tigervnc), <b>Red Hat</b> (kernel and libsoup), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, kernel, python-PyPDF2, and xen), and <b>Ubuntu</b> (dotnet9, ghostscript, linux-aws, linux-oem-6.8, and pydantic).]]></description>
+            <guid>https://lwn.net/Articles/998044/</guid>
+            <pubDate>Wed, 13 Nov 2024 14:21:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Anaconda’s new &quot;Web UI&quot; (Fedora Magazine)</title>
             <link>https://lwn.net/Articles/997927/</link>
