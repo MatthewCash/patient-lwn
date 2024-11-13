@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Nov 2024 10:32:42 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Nov 2024 10:33:44 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Nov 2024 10:40:43 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Nov 2024 10:48:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
