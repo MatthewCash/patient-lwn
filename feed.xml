@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Nov 2024 12:04:10 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Nov 2024 14:10:20 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Nov 2024 14:10:24 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Nov 2024 14:31:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/998143/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (llama-cpp, mingw-expat, python3.6, webkit2gtk4.0, and xorg-x11-server-Xwayland), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk &amp; java-latest-openjdk and libarchive), <b>Oracle</b> (expat, gstreamer1-plugins-base, kernel, libsoup, podman, and tigervnc), <b>SUSE</b> (buildah, java-1_8_0-openjdk, and switchboard-plug-bluetooth), and <b>Ubuntu</b> (zlib).]]></description>
+            <guid>https://lwn.net/Articles/998143/</guid>
+            <pubDate>Thu, 14 Nov 2024 14:10:24 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for November 7, 2024</title>
             <link>https://lwn.net/Articles/996377/</link>
