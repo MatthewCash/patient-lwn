@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Nov 2024 14:10:24 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Nov 2024 14:49:30 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Nov 2024 15:00:13 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Nov 2024 15:11:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernels 6.11.8, 6.6.61, 6.1.117, and 5.15.172</title>
+            <link>https://lwn.net/Articles/998148/</link>
+            <description><![CDATA[A new batch of stable kernels has just been released: <a
+href="https://lwn.net/Articles/998149/">6.11.8</a>, <a
+href="https://lwn.net/Articles/998150/">6.6.61</a>, <a
+href="https://lwn.net/Articles/998151/">6.1.117</a>, and <a
+href="https://lwn.net/Articles/998152/">5.15.172</a>.  As usual, they contain important
+fixes throughout the kernel tree.]]></description>
+            <guid>https://lwn.net/Articles/998148/</guid>
+            <pubDate>Thu, 14 Nov 2024 15:00:13 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/998143/</link>
