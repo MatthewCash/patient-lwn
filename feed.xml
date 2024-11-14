@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Nov 2024 16:01:50 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Nov 2024 16:13:16 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Nov 2024 16:35:05 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Nov 2024 16:36:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -262,14 +262,6 @@ project.
             <guid>https://lwn.net/Articles/997480/</guid>
             <pubDate>Fri, 08 Nov 2024 14:17:02 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/997378/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bcc, bpftrace, bzip2, container-tools:rhel8, grafana-pcp, haproxy, kernel, kernel-rt, krb5, libtiff, python-gevent, python3.11, python3.11-urllib3, python3.12, python3.12-urllib3, xmlrpc-c, and xorg-x11-server and xorg-x11-server-Xwayland), <b>Debian</b> (puma and pypy3), <b>Fedora</b> (firefox), <b>Gentoo</b> (libgit2), <b>Mageia</b> (libarchive), <b>SUSE</b> (ghostscript, go1.22-openssl, go1.23-openssl, htmldoc, kmail-account-wizard, libarchive, libgsf, libmozjs-128-0, openssl-3, python-jupyterlab, python-mysql-connector-python, python36, and ruby2.1), and <b>Ubuntu</b> (cinder, linux-aws, linux-aws-6.8, linux-oracle, linux-oracle-6.8, linux-aws, linux-azure-5.4, linux-kvm, linux-oracle, linux-xilinx-zynqmp, and linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency).]]></description>
-            <guid>https://lwn.net/Articles/997378/</guid>
-            <pubDate>Thu, 07 Nov 2024 16:14:36 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
