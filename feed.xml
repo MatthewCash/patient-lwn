@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 15 Nov 2024 16:23:55 +0000</pubDate>
-        <lastBuildDate>Fri, 15 Nov 2024 16:52:44 +0000</lastBuildDate>
+        <pubDate>Fri, 15 Nov 2024 17:02:39 +0000</pubDate>
+        <lastBuildDate>Fri, 15 Nov 2024 17:09:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -252,23 +252,6 @@ release next weekend.</q>"]]></description>
             <guid>https://lwn.net/Articles/997678/</guid>
             <pubDate>Mon, 11 Nov 2024 03:00:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Seven more stable kernel updates</title>
-            <link>https://lwn.net/Articles/997525/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has shared another seven stable kernel updates:
-<a href="https://lwn.net/Articles/997527/">6.6.60</a>,
-<a href="https://lwn.net/Articles/997528/">6.11.7</a>,
-<a href="https://lwn.net/Articles/997529/">6.1.116</a>,
-<a href="https://lwn.net/Articles/997530/">5.15.171</a>,
-<a href="https://lwn.net/Articles/997533/">5.10.229</a>,
-<a href="https://lwn.net/Articles/997535/">5.4.285</a>, and
-<a href="https://lwn.net/Articles/997536/">4.19.323</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/997525/</guid>
-            <pubDate>Fri, 08 Nov 2024 16:53:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
