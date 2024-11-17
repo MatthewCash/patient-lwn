@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 17 Nov 2024 22:18:41 +0000</pubDate>
-        <lastBuildDate>Sun, 17 Nov 2024 22:31:01 +0000</lastBuildDate>
+        <pubDate>Sun, 17 Nov 2024 22:33:02 +0000</pubDate>
+        <lastBuildDate>Sun, 17 Nov 2024 22:41:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 6.12 kernel has been released</title>
+            <link>https://lwn.net/Articles/997958/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/998490/">released the 6.12 kernel</a>.
+"<q>No strange surprises this last week, so we're sticking to the regular
+release schedule, and that obviously means that the merge window opens
+tomorrow.</q>".
+<p>
+
+Headline features in this release include:
+
+support for the <a
+href="https://developer.arm.com/documentation/102376/0200/Permission-indirection-and-permission-overlay-extensions">Arm
+permission overlay</a> extension,
+better compile-time control over which Spectre mitigations to employ,
+the <a href="https://lwn.net/Articles/990985/">last pieces of realtime preemption support</a>,
+the realtime <a href="https://lwn.net/Articles/934415/">deadline server</a> mechanism,
+more <a href="https://lwn.net/Articles/969062/">EEVDF scheduler</a> development,
+the <a href="https://lwn.net/Articles/974387/">extensible scheduler class</a>,
+the <a href="https://lwn.net/Articles/979549/">device memory TCP</a> work,
+<a href="https://lwn.net/Articles/979683/">use of static calls</a> in the security-module
+subsystem,
+the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a430d95c5efa">integrity
+policy enforcement</a> security module,
+the ability to handle devices with a block size larger than the system page
+size in the XFS filesystem,
+and more.
+See the LWN merge-window summaries 
+(<a href="https://lwn.net/Articles/990750/">part&nbsp;1</a>, <a
+href="https://lwn.net/Articles/991301/">part&nbsp;2</a>) and the <a
+href="https://kernelnewbies.org/Linux_6.12">KernelNewbies 6.12 page</a> for
+more details.]]></description>
+            <guid>https://lwn.net/Articles/997958/</guid>
+            <pubDate>Sun, 17 Nov 2024 22:33:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernel updates</title>
             <link>https://lwn.net/Articles/998448/</link>
