@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 18 Nov 2024 19:57:25 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Nov 2024 20:12:28 +0000</lastBuildDate>
+        <pubDate>Mon, 18 Nov 2024 20:21:15 +0000</pubDate>
+        <lastBuildDate>Mon, 18 Nov 2024 20:29:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FreeBSD Foundation releases Bhyve and Capsicum security audit</title>
+            <link>https://lwn.net/Articles/998615/</link>
+            <description><![CDATA[<p>The FreeBSD Foundation has <a
+href="https://freebsdfoundation.org/blog/strengthening-freebsd-addressing-vulnerabilities-through-synacktivs-code-audit/">announced</a>
+the release of a <a
+href="https://freebsdfoundation.org/wp-content/uploads/2024/11/2024_Code_Audit_Capsicum_Bhyve_FreeBSD_Foundation.pdf">security
+audit report</a> conducted by security firm <a
+href="https://www.synacktiv.com/en">Synacktiv</a>. The audit uncovered
+a number of vulnerabilities:</p>
+
+<blockquote class="bq">
+<p>Most of these vulnerabilities have been addressed through <a
+href="https://www.freebsd.org/security/advisories/">official FreeBSD
+Project security advisories</a>, which offer detailed information
+about each vulnerability, its impact, and the measures implemented to
+improve the security of FreeBSD systems. [...]</p>
+
+<p>The audit uncovered 27 vulnerabilities and issues within various
+FreeBSD subsystems. 7 issues were not exploitable and were robustness
+or code quality improvements rather than immediate security concerns.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/998615/</guid>
+            <pubDate>Mon, 18 Nov 2024 20:21:15 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/998570/</link>
