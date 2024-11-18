@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 18 Nov 2024 02:41:53 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Nov 2024 03:12:11 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 18 Nov 2024 03:42:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -315,16 +315,6 @@ href="https://lunar.anargeek.net/">this site</a>.  They will be missed.]]></desc
             <guid>https://lwn.net/Articles/997774/</guid>
             <pubDate>Mon, 11 Nov 2024 14:20:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.12-rc7</title>
-            <link>https://lwn.net/Articles/997678/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/997677/">6.12-rc7</a> for testing.
-"<q>No big surprises, and I think everything is on track for a final 6.12
-release next weekend.</q>"]]></description>
-            <guid>https://lwn.net/Articles/997678/</guid>
-            <pubDate>Mon, 11 Nov 2024 03:00:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
