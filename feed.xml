@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 19 Nov 2024 13:15:55 +0000</pubDate>
-        <lastBuildDate>Tue, 19 Nov 2024 14:49:35 +0000</lastBuildDate>
+        <pubDate>Tue, 19 Nov 2024 14:58:57 +0000</pubDate>
+        <lastBuildDate>Tue, 19 Nov 2024 15:11:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/998755/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0, bcc, bluez, bpftrace, bubblewrap, flatpak, buildah, cockpit, containernetworking-plugins, cups, cyrus-imapd, edk2, expat, firefox, fontforge, gnome-shell, gnome-shell-extensions, grafana, grafana-pcp, gtk3, httpd, iperf3, jose, krb5, libgcrypt, libsoup, libvirt, libvpx, lldpd, microcode_ctl, mingw-glib2, mod_auth_openidc, nano, NetworkManager, oci-seccomp-bpf-hook, openexr, osbuild-composer, pcp, podman, poppler, postfix, python-dns, python-jinja2, python-jwcrypto, python3.11, python3.11-PyMySQL, python3.11-urllib3, python3.12, python3.12-PyMySQL, python3.12-urllib3, python3.9, qemu-kvm, runc, skopeo, squid, thunderbird, toolbox, tpm2-tools, vim, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Fedora</b> (lemonldap-ng and mingw-expat), <b>SUSE</b> (bea-stax, xstream, expat, httpcomponents-client, httpcomponents-core, kernel, SUSE Manager Client Tools, SUSE Manager Proxy, Retail Branch Server 4.3, SUSE Manager Salt Bundle, SUSE Manager Server 4.3, and SUSE Manager Server 5.0), and <b>Ubuntu</b> (curl, glib2.0, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/998755/</guid>
+            <pubDate>Tue, 19 Nov 2024 14:55:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Incus 6.7 released</title>
+            <link>https://lwn.net/Articles/998756/</link>
+            <description><![CDATA[Version 6.7 of the Incus container-management system (forked from LXD) has
+been released.  "<q>This is another one of those pretty well rounded
+releases with new features and improvements for everyone</q>".  New
+features include automatic cluster rebalancing, DHCP improvements, and more.]]></description>
+            <guid>https://lwn.net/Articles/998756/</guid>
+            <pubDate>Tue, 19 Nov 2024 14:58:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>AlmaLinux 9.5 released</title>
             <link>https://lwn.net/Articles/998637/</link>
