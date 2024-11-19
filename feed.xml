@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 19 Nov 2024 14:58:57 +0000</pubDate>
-        <lastBuildDate>Tue, 19 Nov 2024 15:42:41 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 19 Nov 2024 15:49:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -340,21 +340,6 @@ intended uses are significantly different.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat), <b>Fedora</b> (chromium and golang-github-nvidia-container-toolkit), <b>Mageia</b> (curl, expat, mpg123, networkmanager-libreswan, openssl, php-tcpdf, qbittorrent, and x11-server, x11-server-xwayland, and tigervnc), <b>Red Hat</b> (kernel and libsoup), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, kernel, python-PyPDF2, and xen), and <b>Ubuntu</b> (dotnet9, ghostscript, linux-aws, linux-oem-6.8, and pydantic).]]></description>
             <guid>https://lwn.net/Articles/998044/</guid>
             <pubDate>Wed, 13 Nov 2024 14:21:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Anaconda’s new &quot;Web UI&quot; (Fedora Magazine)</title>
-            <link>https://lwn.net/Articles/997927/</link>
-            <description><![CDATA[<p>Garrett LeSage has written an in-depth <a
-href="https://fedoramagazine.org/anaconda-installer-redesign/">article</a>
-for Fedora Magazine about a new web-based user interface (UI) for Fedora's 
-<a href=https://fedoraproject.org/wiki/Anaconda">Anaconda</a>
-installer, planned to ship with Fedora&nbsp;42. The article looks at
-the rationale for moving from GTK3 to a web-based UI, provides a
-number of screenshots and demo screencasts, as well as instructions on
-trying out the new installer with Fedora Rawhide.</p>]]></description>
-            <guid>https://lwn.net/Articles/997927/</guid>
-            <pubDate>Tue, 12 Nov 2024 15:39:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
