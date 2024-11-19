@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 18 Nov 2024 23:23:39 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Nov 2024 23:48:06 +0000</lastBuildDate>
+        <pubDate>Tue, 19 Nov 2024 00:43:11 +0000</pubDate>
+        <lastBuildDate>Tue, 19 Nov 2024 00:47:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>AlmaLinux 9.5 released</title>
+            <link>https://lwn.net/Articles/998637/</link>
+            <description><![CDATA[Version 9.5 of the AlmaLinux enterprise-oriented distribution has been
+released.
+<p>
+<blockquote class="bq">
+	AlmaLinux 9.5 aims to improve performance, development tooling, and
+	security. Updated module streams offer better support for web
+	applications.  New versions of compilers provide access to the
+	latest features and optimizations that improve performance and
+	enable better code generation.  The release also introduces
+	improvements to system performance monitoring, visualization, and
+	system performance data collecting.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/998637/</guid>
+            <pubDate>Tue, 19 Nov 2024 00:36:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>FreeBSD Foundation releases Bhyve and Capsicum security audit</title>
             <link>https://lwn.net/Articles/998615/</link>
