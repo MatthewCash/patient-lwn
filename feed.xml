@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 21 Nov 2024 22:58:02 +0000</pubDate>
-        <lastBuildDate>Thu, 21 Nov 2024 23:10:49 +0000</lastBuildDate>
+        <pubDate>Thu, 21 Nov 2024 23:12:41 +0000</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 23:27:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PHP 8.4.1 released</title>
+            <link>https://lwn.net/Articles/999004/</link>
+            <description><![CDATA[<a href="https://www.php.net/archive/2024.php#2024-11-21-4">Version
+8.4.1</a> of the PHP language has been released.  See <a
+href="https://www.php.net/releases/8.4/en.php">this page</a> for details on
+the new features in this release.  "<q>PHP 8.4 is a major update of the PHP
+language.  It contains many new features, such as property hooks,
+asymmetric visibility, an updated DOM API, performance improvements, bug
+fixes, and general cleanup.</q>"]]></description>
+            <guid>https://lwn.net/Articles/999004/</guid>
+            <pubDate>Thu, 21 Nov 2024 23:12:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/998949/</link>
