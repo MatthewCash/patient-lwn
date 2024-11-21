@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 21 Nov 2024 14:07:26 +0000</pubDate>
-        <lastBuildDate>Thu, 21 Nov 2024 14:10:52 +0000</lastBuildDate>
+        <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 14:32:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/998949/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager-libreswan, and openssl), <b>Fedora</b> (chromium and llvm-test-suite), <b>Mageia</b> (thunderbird), and <b>Ubuntu</b> (linux-aws-6.8, linux-azure, linux-azure-6.8, linux-oracle-6.8,, linux-azure, and ruby2.7).]]></description>
+            <guid>https://lwn.net/Articles/998949/</guid>
+            <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for November 14, 2024</title>
             <link>https://lwn.net/Articles/997293/</link>
@@ -402,14 +410,6 @@ href="https://lwn.net/Articles/998152/">5.15.172</a>.  As usual, they contain im
 fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/998148/</guid>
             <pubDate>Thu, 14 Nov 2024 15:00:13 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/998143/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (llama-cpp, mingw-expat, python3.6, webkit2gtk4.0, and xorg-x11-server-Xwayland), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-21-openjdk &amp; java-latest-openjdk and libarchive), <b>Oracle</b> (expat, gstreamer1-plugins-base, kernel, libsoup, podman, and tigervnc), <b>SUSE</b> (buildah, java-1_8_0-openjdk, and switchboard-plug-bluetooth), and <b>Ubuntu</b> (zlib).]]></description>
-            <guid>https://lwn.net/Articles/998143/</guid>
-            <pubDate>Thu, 14 Nov 2024 14:10:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
