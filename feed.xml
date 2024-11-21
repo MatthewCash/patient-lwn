@@ -8,11 +8,126 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 Nov 2024 21:48:25 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Nov 2024 23:48:26 +0000</lastBuildDate>
+        <pubDate>Thu, 21 Nov 2024 00:09:52 +0000</pubDate>
+        <lastBuildDate>Thu, 21 Nov 2024 00:46:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for November 14, 2024</title>
+            <link>https://lwn.net/Articles/997293/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for November 14, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/997293/</guid>
+            <pubDate>Thu, 14 Nov 2024 00:46:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Truly portable C applications</title>
+            <link>https://lwn.net/Articles/997238/</link>
+            <description><![CDATA[<p>
+Programming language polyglots are files that are valid
+programs in multiple languages, and do different things in each. While polyglots are normally
+nothing more than a curiosity, the
+<a href="https://justine.lol/cosmopolitan/index.html">
+Cosmopolitan Libc</a> project has been trying
+to put them to a novel use: producing native, multi-platform binaries that
+run directly on several operating systems and architectures. There are still
+some rough edges with the project's approach, but it is generally possible to
+build C programs into a polyglot format with with minimal
+tweaking.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/997238/</guid>
+            <pubDate>Wed, 13 Nov 2024 14:51:33 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Progress on toolchain security features</title>
+            <link>https://lwn.net/Articles/996344/</link>
+            <description><![CDATA[Over the years, there has been steady progress in adding security features to
+compilers and other tools to assist with hardening the Linux kernel (and, of course, other
+programs).  In something of a tradition in the <a
+href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
+track</a> at the <a
+href="https://linuxplumbersconf.org">Linux
+Plumbers Conference</a>, Kees Cook and Qing Zhao have led a session on that progress and
+further plans; this year, they were joined by Justin Stitt  (<a
+href="https://www.youtube.com/watch?v=68PZz_9cPms">YouTube video</a>).]]></description>
+            <guid>https://lwn.net/Articles/996344/</guid>
+            <pubDate>Tue, 12 Nov 2024 20:21:09 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The top open-source security events in 2024</title>
+            <link>https://lwn.net/Articles/996955/</link>
+            <description><![CDATA[What have been the most significant security-related incidents for the
+open-source community in 2024 (so far)?  Marta Rybczyńska recently ran a
+poll and got some interesting results.  At the 2024 <a
+href="https://events.linuxfoundation.org/open-source-summit-japan/">Open
+Source Summit Japan</a>, she presented those results along with some
+commentary of her own.  The events in question are unlikely to be a
+surprise to LWN readers, but the overall picture that was presented was
+worth a look.]]></description>
+            <guid>https://lwn.net/Articles/996955/</guid>
+            <pubDate>Mon, 11 Nov 2024 15:24:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Back In Time back from the dead</title>
+            <link>https://lwn.net/Articles/996720/</link>
+            <description><![CDATA[<p>
+<a href="https://github.com/bit-team/backintime?tab=readme-ov-file#back-in-time">
+Back In Time</a> is a GPL-2.0-licensed backup tool based on
+<a href="https://rsync.samba.org/">
+rsync</a> and written in Python. It has both graphical and command-line interfaces, and
+supports backups to local disks or over SSH.
+Back In Time was originally written by
+Oprea Dan and released in 2009. The tool has been
+through some rough patches over the years, and is currently on its third set of
+maintainers. Christian Buhtz, one of the current maintainers, explained to me
+how he and his co-maintainers had revived the project, as well as why he thought
+Back In Time stood out from all of the existing backup solutions.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/996720/</guid>
+            <pubDate>Fri, 08 Nov 2024 18:49:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Pondering systemd-homed for Fedora</title>
+            <link>https://lwn.net/Articles/995915/</link>
+            <description><![CDATA[<p>Fedora Linux, as a rule, handles version upgrades reasonably
+well. However, there are times when users may want to do a fresh
+installation rather than an upgrade <em>but</em> preserve existing
+users and data under <tt>/home</tt>. This is a scenario that the
+Fedora installer, currently, does not address. Users can maintain a
+separate <tt>/home</tt> partition, of course, but the installer does
+not incorporate existing users into the new install&mdash;that is an
+exercise left to the user to handle. One solution might be to use <a
+href="https://systemd.io/HOME_DIRECTORY/">systemd-homed</a>, a systemd
+service for managing users and home directories. However, a discussion
+proposing the use systemd-homed as part of Fedora installation
+uncovered some hurdles, such as trying to blend its approach to
+managing users with tools that centralize user management.</p>]]></description>
+            <guid>https://lwn.net/Articles/995915/</guid>
+            <pubDate>Fri, 08 Nov 2024 16:05:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The trouble with struct sockaddr&apos;s fake flexible array</title>
+            <link>https://lwn.net/Articles/997094/</link>
+            <description><![CDATA[Flexible arrays — arrays that are declared as the final member of a
+structure and which have a size determined at run time — have long drawn
+the attention of developers seeking to harden the kernel against
+buffer-overflow vulnerabilities.  These arrays have reliably been a source
+of bugs, so anything that can be done to ensure that operations on them
+stay within bounds is a welcome improvement.  While many improvements,
+including the recent <a href="https://lwn.net/Articles/936728/">counted-by work</a>, have
+been made, one of the most difficult cases remains.  Now, however,
+developers who are interested in using recent compiler bounds-checking
+features are trying to get a handle on <tt>struct sockaddr</tt>.]]></description>
+            <guid>https://lwn.net/Articles/997094/</guid>
+            <pubDate>Thu, 07 Nov 2024 16:34:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Blender 4.3 released</title>
             <link>https://lwn.net/Articles/998863/</link>
@@ -296,118 +411,6 @@ fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/998143/</guid>
             <pubDate>Thu, 14 Nov 2024 14:10:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 7, 2024</title>
-            <link>https://lwn.net/Articles/996377/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for November 7, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/996377/</guid>
-            <pubDate>Thu, 07 Nov 2024 02:57:15 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Building secure images with NixOS</title>
-            <link>https://lwn.net/Articles/996329/</link>
-            <description><![CDATA[<p>
-Image-based Linux distributions have seen increasing popularity, recently. They
-promise reliability and security, but pose packaging problems for
-existing distributions. Ryan Lahfa and Niklas Sturm spoke about the work that
-NixOS has done to enable an image-based workflow at this year's
-<a href="https://all-systems-go.io/">
-All Systems Go!</a>
-conference in Berlin.
-Unfortunately, LWN was not able to cover the conference for scheduling reasons,
-but the
-<a href="https://www.youtube.com/watch?v=YAl27ciB6c8&list=PLWYdJViL9EipIImmvuoGFAeS-lKeHH2DD">
-videos of the event</a> are available for anyone interested in watching the
-talks.
-Lahfa and Sturm explained that it is currently possible to create a
-<a href="https://nixos.org/">
-NixOS</a> system that
-cryptographically verifies the kernel, initrd, and Nix store on boot — although
-doing so still has some rough edges. Making an image-based NixOS installation is
-similarly possible.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/996329/</guid>
-            <pubDate>Wed, 06 Nov 2024 16:35:20 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Safety in an unsafe world</title>
-            <link>https://lwn.net/Articles/995814/</link>
-            <description><![CDATA[<p>
-Joshua Liebow-Feeser took to the stage at
-<a href="https://rustconf.com">RustConf</a> to describe the methodology
-that his team uses to encode
-arbitrary constraints in the Rust type system when working on the
-<a href="https://en.wikipedia.org/wiki/Fuchsia_(operating_system)">
-Fuchsia operating system</a>
-(<a href="https://joshlf.com/files/talks/Safety%20in%20an%20Unsafe%20World.pdf">slides</a>).
-The technique is not unknown to
-the Rust community, but Liebow-Feeser did a good job of both explaining the
-method and making a case for why it should be used more widely. 
-</p>]]></description>
-            <guid>https://lwn.net/Articles/995814/</guid>
-            <pubDate>Tue, 05 Nov 2024 15:16:46 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The OpenWrt One system</title>
-            <link>https://lwn.net/Articles/994961/</link>
-            <description><![CDATA[<a href="https://openwrt.org/">OpenWrt</a> is, despite its relatively low
-profile, one of our community's most important distributions; it runs
-untold numbers of network routers and has served as the base on which a lot
-of network-oriented development (including the <a
-href="https://www.bufferbloat.net/projects/">bufferbloat-reduction
-work</a>) has been done.  At the beginning of 2024, a few members of the
-project <a
-href="https://lwn.net/ml/all/a8aaa495-da0b-4ddc-8c4f-3e1192d8b012@phrozen.org">announced</a>
-a plan to design and produce a router device specifically designed to run
-OpenWrt.  This device, dubbed the "OpenWrt One", is now becoming available;
-the kind folks at the <a href="https://sfconservancy.org/">Software Freedom
-Conservancy</a> were kind enough to ship one to LWN, where the desire to
-play with a new toy is never lacking.]]></description>
-            <guid>https://lwn.net/Articles/994961/</guid>
-            <pubDate>Mon, 04 Nov 2024 16:04:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] OSI board AMA at All Things Open</title>
-            <link>https://lwn.net/Articles/996356/</link>
-            <description><![CDATA[<p>Members of the <a href="https://opensource.org/">Open Source
-Initiative</a> (OSI) board sat down for a 45-minute "Ask Me Anything"
-(AMA) session at <a href="https://2024.allthingsopen.org/">All Things
-Open</a> in Raleigh, NC on October 29. Though the floor was open to
-any topic the audience might want to ask of the <a
-href="https://opensource.org/board">OSI board</a>. Many of the
-questions were focused on the <a
-href="https://opensource.org/ai/open-source-ai-definition">Open Source
-AI Definition</a> (OSAID), which was <a
-href="https://lwn.net/Articles/996104/">announced</a> the day
-before. The new definition has been <a
-href="https://lwn.net/Articles/995159/">somewhat controversial</a>,
-and the board spent a lot of time addressing concerns about it during
-the session, as well as questions on open washing, and a need for more
-education about open source in general.</p>]]></description>
-            <guid>https://lwn.net/Articles/996356/</guid>
-            <pubDate>Fri, 01 Nov 2024 17:14:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The Overture open-mapping project</title>
-            <link>https://lwn.net/Articles/995992/</link>
-            <description><![CDATA[<a href="https://openstreetmap.org/">OpenStreetMap</a> tends to dominate
-the space for open mapping data, but it is not the only project working in
-this area.  At the 2024 <a
-href="https://events.linuxfoundation.org/open-source-summit-japan/">Open
-Source Summit Japan</a>, Marc Prioleau presented the <a
-href="https://overturemaps.org/">Overture Maps Foundation</a>, which is
-building and distributing a set of worldwide maps under open licenses.
-Overture may have a similar goal to OpenStreetMap, but its approach and
-intended uses are significantly different.]]></description>
-            <guid>https://lwn.net/Articles/995992/</guid>
-            <pubDate>Thu, 31 Oct 2024 16:48:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
