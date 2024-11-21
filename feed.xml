@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 21 Nov 2024 18:42:44 +0000</pubDate>
-        <lastBuildDate>Thu, 21 Nov 2024 21:10:16 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 Nov 2024 21:27:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -363,41 +363,6 @@ page</a>.]]></description>
             <guid>https://lwn.net/Articles/998291/</guid>
             <pubDate>Fri, 15 Nov 2024 14:02:04 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>PyPI now supports digital attestations</title>
-            <link>https://lwn.net/Articles/998215/</link>
-            <description><![CDATA[<p>The Python Package Index (PyPI) has <a
-href="https://blog.pypi.org/posts/2024-11-14-pypi-now-supports-digital-attestations/">announced</a>
-that it has finalized support for <a
-href="https://peps.python.org/pep-0740/">PEP 740</a> ("Index support
-for digital attestations"). <a
-href="https://www.trailofbits.com/">Trail of Bits</a>, which performed
-much of the development work for the implementation, has an <a
-href="https://blog.trailofbits.com/2024/11/14/attestations-a-new-generation-of-signatures-on-pypi/">in-depth
-blog post</a> about the work and its adoption, as well as what is left
-undone:</p>
-
-<blockquote class="bq">
-<p>One thing is notably missing from all of this work:
-<strong>downstream verification</strong>. [...]</p>
-
-<p>This isn't an acceptable end state (cryptographic attestations have
-defensive properties only insofar as they're <strong><em>actually
-verified</em></strong>), so we're looking into ways to bring
-verification to individual installing clients. In particular, we're
-currently working on a <a
-href="https://github.com/pypa/pip/issues/12766">plugin architecture
-for <tt>pip</tt></a> that will enable users to <a
-href="https://github.com/trailofbits/pip-plugin-pep740">load
-verification logic</a> directly into their <tt>pip install</tt>
-flows.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/998215/</guid>
-            <pubDate>Thu, 14 Nov 2024 21:22:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
