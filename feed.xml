@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 22 Nov 2024 14:00:38 +0000</pubDate>
-        <lastBuildDate>Fri, 22 Nov 2024 14:10:20 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 Nov 2024 14:32:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -377,14 +377,6 @@ page</a>.]]></description>
             <guid>https://lwn.net/Articles/998446/</guid>
             <pubDate>Sun, 17 Nov 2024 14:30:55 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/998291/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (curl and unbound), <b>Fedora</b> (krb5 and microcode_ctl), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (glib2, python3-wxPython, and ucode-intel), and <b>Ubuntu</b> (golang-1.17, golang-1.18, libgd2, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-gke, linux-raspi, linux-raspi, linux-raspi-5.4, and php7.0, php7.2).]]></description>
-            <guid>https://lwn.net/Articles/998291/</guid>
-            <pubDate>Fri, 15 Nov 2024 14:02:04 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
