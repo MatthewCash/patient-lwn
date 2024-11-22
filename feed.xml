@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 22 Nov 2024 14:00:38 +0000</pubDate>
-        <lastBuildDate>Fri, 22 Nov 2024 14:48:50 +0000</lastBuildDate>
+        <pubDate>Fri, 22 Nov 2024 15:08:13 +0000</pubDate>
+        <lastBuildDate>Fri, 22 Nov 2024 15:10:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four Friday stable kernel updates</title>
+            <link>https://lwn.net/Articles/999107/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://lwn.net/Articles/999108/">6.12.1</a>,
+<a href="https://lwn.net/Articles/999109/">6.11.10</a>,
+<a href="https://lwn.net/Articles/999110/">6.6.63</a>, and
+<a href="https://lwn.net/Articles/999111/">6.1.119</a> stable kernel updates have been released.
+As always, they contain important fixes.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/999107/</guid>
+            <pubDate>Fri, 22 Nov 2024 15:01:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/999102/</link>
