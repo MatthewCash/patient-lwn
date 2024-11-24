@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 24 Nov 2024 14:13:42 +0000</pubDate>
-        <lastBuildDate>Sun, 24 Nov 2024 14:30:04 +0000</lastBuildDate>
+        <pubDate>Sun, 24 Nov 2024 14:36:12 +0000</pubDate>
+        <lastBuildDate>Sun, 24 Nov 2024 14:39:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -400,25 +400,6 @@ stable kernels have all been released; each contains another set of
 important fixes.]]></description>
             <guid>https://lwn.net/Articles/998448/</guid>
             <pubDate>Sun, 17 Nov 2024 14:38:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A new package manager for OpenWrt</title>
-            <link>https://lwn.net/Articles/998446/</link>
-            <description><![CDATA[The OpenWrt router-oriented distribution has long used its own <tt>opk</tt>
-package manager.  The project has just <a
-href="https://forum.openwrt.org/t/major-change-notice-new-package-manager/215682">announced</a>,
-though, that future releases will use the <a
-href="https://docs.alpinelinux.org/user-handbook/0.1a/Working/apk.html"><tt>apk</tt>
-package manager from Alpine Linux</a> instead.  "<q>This new package
-manager offers a number of advantages over the older opkg system and is a
-significant milestone in the development of the OpenWrt platform. The older
-opkg package manager has been deprecated and is no longer part of
-OpenWrt.</q>" There is some more information on <a
-href="https://forum.openwrt.org/t/the-future-is-now-opkg-vs-apk/201164">this
-page</a>.]]></description>
-            <guid>https://lwn.net/Articles/998446/</guid>
-            <pubDate>Sun, 17 Nov 2024 14:30:55 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
