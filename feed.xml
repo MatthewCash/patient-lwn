@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 Nov 2024 13:48:44 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Nov 2024 13:50:31 +0000</lastBuildDate>
+        <pubDate>Mon, 25 Nov 2024 13:57:19 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Nov 2024 14:11:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -339,14 +339,6 @@ or code quality improvements rather than immediate security concerns.</p>
             <guid>https://lwn.net/Articles/998615/</guid>
             <pubDate>Mon, 18 Nov 2024 20:21:15 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/998570/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (binutils, libsoup, squid:4, tigervnc, and webkit2gtk3), <b>Debian</b> (icinga2, postgresql-13, postgresql-15, smarty3, symfony, thunderbird, and waitress), <b>Fedora</b> (dotnet9.0, ghostscript, microcode_ctl, php-bartlett-PHP-CompatInfo, python-waitress, and webkitgtk), <b>Gentoo</b> (Perl, Pillow, and X.Org X server, XWayland), <b>Oracle</b> (binutils, cups-filters, giflib, squid, and webkit2gtk3), <b>Red Hat</b> (webkit2gtk3), <b>SUSE</b> (ansible-core, apache2, gio-branding-upstream, icinga2, kernel-devel, libnghttp2-14, libsoup-2_4-1, libsoup-3_0-0, libvirt, nodejs-electron, postgresql13, postgresql16, python39, rclone, thunderbird, ucode-intel-20241112, and wget), and <b>Ubuntu</b> (python-asyncssh and tomcat9).]]></description>
-            <guid>https://lwn.net/Articles/998570/</guid>
-            <pubDate>Mon, 18 Nov 2024 13:59:57 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
