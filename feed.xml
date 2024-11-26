@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 26 Nov 2024 15:14:10 +0000</pubDate>
-        <lastBuildDate>Tue, 26 Nov 2024 15:32:03 +0000</lastBuildDate>
+        <pubDate>Tue, 26 Nov 2024 15:48:01 +0000</pubDate>
+        <lastBuildDate>Tue, 26 Nov 2024 15:49:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox version 133.0 is now available</title>
+            <link>https://lwn.net/Articles/999767/</link>
+            <description><![CDATA[<p>Mozilla has <a
+href="https://www.mozilla.org/en-US/firefox/133.0/releasenotes/">announced</a>
+the release of Firefox&nbsp;133.0. Notable in this release is the addition
+of a new anti-tracking feature, Bounce Tracking Protection, which
+detects trackers based on <a
+href="https://blog.mozilla.org/security/2020/08/04/firefox-79-includes-protections-against-redirect-tracking/">redirect
+behavior</a> and automatically purges their cookies and site data to
+thwart tracking. The release also includes <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2024-63/">various
+security fixes</a> and more.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/999767/</guid>
+            <pubDate>Tue, 26 Nov 2024 15:44:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Firefox 133.0 released</title>
+            <link>https://lwn.net/Articles/999768/</link>
+            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/133.0/releasenotes/">Version
+133.0</a> of the Firefox browser has been released.  The most significant
+new feature would appear to be optional "bounce tracking protection", which
+seeks to block tracking by way of links that redirect through a tracking
+system.]]></description>
+            <guid>https://lwn.net/Articles/999768/</guid>
+            <pubDate>Tue, 26 Nov 2024 15:48:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/999744/</link>
