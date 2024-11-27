@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Nov 2024 12:52:26 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Nov 2024 13:01:22 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Nov 2024 13:27:12 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Nov 2024 13:30:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -276,17 +276,6 @@ Every major release is a chance of fixing long-standing problems with the codeba
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/998856/</guid>
             <pubDate>Wed, 20 Nov 2024 14:57:22 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/998854/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (guix, libmodule-scandeps-perl, needrestart, and thunderbird), <b>SUSE</b> (gh), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-hwe-6.8,
- linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency,
- linux-oem-6.8, linux-oracle, linux-raspi, linux-iot, linux-lowlatency, linux-lowlatency-hwe-6.8, needrestart, python2.7, python3.10, python3.12, python3.8, and Waitress).]]></description>
-            <guid>https://lwn.net/Articles/998854/</guid>
-            <pubDate>Wed, 20 Nov 2024 13:13:11 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
