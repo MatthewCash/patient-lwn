@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Nov 2024 15:33:39 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Nov 2024 15:49:53 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Nov 2024 16:10:57 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Nov 2024 16:13:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Elementary OS 8 released</title>
+            <link>https://lwn.net/Articles/999910/</link>
+            <description><![CDATA[<p><a href="https://blog.elementary.io/os-8-available-now/">Version
+8</a> of the Ubuntu-based <a href="https://elementary.io/">elementary OS</a> has been released. This
+release includes a rewritten Dock, new window-management features,
+improvements in the installation and initial setup procedures for
+visually impaired users, as well as a new Secure Session mode:</p>
+
+<blockquote class="bq">
+In the Secure Session, apps will be more restricted and will require
+your consent for access to system features. When an app wants to
+listen in the background for your keystrokes, take a screenshot,
+record the screen, or even pick up the color from a single pixel, you
+will be asked first to make sure that it's okay. The Secure Session
+also comes with other modern features like support for Mixed DPI
+modes—A hotly requested feature for folks using a HiDPI notebook or
+tablet with a LoDPI external display—and improved support for
+multi-touch gestures on touch screens and tablets.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/999910/</guid>
+            <pubDate>Wed, 27 Nov 2024 16:10:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/999897/</link>
