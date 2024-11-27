@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Nov 2024 15:25:04 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Nov 2024 15:31:17 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Nov 2024 15:33:39 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Nov 2024 15:42:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -253,17 +253,6 @@ developers who are interested in using recent compiler bounds-checking
 features are trying to get a handle on <tt>struct sockaddr</tt>.]]></description>
             <guid>https://lwn.net/Articles/997094/</guid>
             <pubDate>Thu, 07 Nov 2024 16:34:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Blender 4.3 released</title>
-            <link>https://lwn.net/Articles/998863/</link>
-            <description><![CDATA[<a href="https://www.blender.org/download/releases/4-3/">Version 4.3</a> of
-the Blender animation system has been released.  "<q>Brush assets, faster
-sculpting, a revolutionized Grease Pencil, and more. Blender 4.3 got you
-covered.</q>"]]></description>
-            <guid>https://lwn.net/Articles/998863/</guid>
-            <pubDate>Wed, 20 Nov 2024 15:33:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
