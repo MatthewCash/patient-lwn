@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 26 Nov 2024 23:11:35 +0000</pubDate>
-        <lastBuildDate>Tue, 26 Nov 2024 23:48:27 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Nov 2024 00:44:24 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Nov 2024 00:47:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -288,39 +288,6 @@ Every major release is a chance of fixing long-standing problems with the codeba
             <guid>https://lwn.net/Articles/998854/</guid>
             <pubDate>Wed, 20 Nov 2024 13:13:11 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>FreeCAD 1.0 released</title>
-            <link>https://lwn.net/Articles/998807/</link>
-            <description><![CDATA[It took more than 20 years, but the FreeCAD computer-aided design project
-has just <a
-href="https://blog.freecad.org/2024/11/19/freecad-version-1-0-released/">made
-its 1.0 release</a>.
-<p>
-<blockquote class="bq">
-	Since the very beginnings, the FreeCAD community had a clear view
-	of what 1.0 represented for us. What we wanted in it. FreeCAD
-	matured over the years, and that list narrowed down to just two
-	major remaining pieces: fixing the toponaming problem, and having a
-	built-in assembly module.
-<p>
-	Well, I'm very proud to say those two issues are now solved.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/998807/</guid>
-            <pubDate>Tue, 19 Nov 2024 23:59:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Rocky Linux 9.5 released</title>
-            <link>https://lwn.net/Articles/998809/</link>
-            <description><![CDATA[<a href="https://rockylinux.org/news/rocky-linux-9-5-ga-release">Version
-9.5</a> of the Rocky Linux distribution is out.  As with the AlmaLinux 9.5
-release, Rocky Linux 9.5 tracks the changes in upstream RHEL 9.5. See <a
-href="https://docs.rockylinux.org/release_notes/9_5/">the release notes</a>
-for details.]]></description>
-            <guid>https://lwn.net/Articles/998809/</guid>
-            <pubDate>Wed, 20 Nov 2024 00:06:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
