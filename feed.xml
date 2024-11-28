@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Nov 2024 23:20:32 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Nov 2024 23:48:21 +0000</lastBuildDate>
+        <pubDate>Thu, 28 Nov 2024 00:40:48 +0000</pubDate>
+        <lastBuildDate>Thu, 28 Nov 2024 00:48:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -164,121 +164,6 @@ fixes, and general cleanup.</q>"]]></description>
             <guid>https://lwn.net/Articles/998949/</guid>
             <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 14, 2024</title>
-            <link>https://lwn.net/Articles/997293/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for November 14, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/997293/</guid>
-            <pubDate>Thu, 14 Nov 2024 00:46:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Truly portable C applications</title>
-            <link>https://lwn.net/Articles/997238/</link>
-            <description><![CDATA[<p>
-Programming language polyglots are files that are valid
-programs in multiple languages, and do different things in each. While polyglots are normally
-nothing more than a curiosity, the
-<a href="https://justine.lol/cosmopolitan/index.html">
-Cosmopolitan Libc</a> project has been trying
-to put them to a novel use: producing native, multi-platform binaries that
-run directly on several operating systems and architectures. There are still
-some rough edges with the project's approach, but it is generally possible to
-build C programs into a polyglot format with with minimal
-tweaking.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/997238/</guid>
-            <pubDate>Wed, 13 Nov 2024 14:51:33 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Progress on toolchain security features</title>
-            <link>https://lwn.net/Articles/996344/</link>
-            <description><![CDATA[Over the years, there has been steady progress in adding security features to
-compilers and other tools to assist with hardening the Linux kernel (and, of course, other
-programs).  In something of a tradition in the <a
-href="https://lpc.events/event/18/sessions/180/#20240918">toolchains
-track</a> at the <a
-href="https://linuxplumbersconf.org">Linux
-Plumbers Conference</a>, Kees Cook and Qing Zhao have led a session on that progress and
-further plans; this year, they were joined by Justin Stitt  (<a
-href="https://www.youtube.com/watch?v=68PZz_9cPms">YouTube video</a>).]]></description>
-            <guid>https://lwn.net/Articles/996344/</guid>
-            <pubDate>Tue, 12 Nov 2024 20:21:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The top open-source security events in 2024</title>
-            <link>https://lwn.net/Articles/996955/</link>
-            <description><![CDATA[What have been the most significant security-related incidents for the
-open-source community in 2024 (so far)?  Marta Rybczyńska recently ran a
-poll and got some interesting results.  At the 2024 <a
-href="https://events.linuxfoundation.org/open-source-summit-japan/">Open
-Source Summit Japan</a>, she presented those results along with some
-commentary of her own.  The events in question are unlikely to be a
-surprise to LWN readers, but the overall picture that was presented was
-worth a look.]]></description>
-            <guid>https://lwn.net/Articles/996955/</guid>
-            <pubDate>Mon, 11 Nov 2024 15:24:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Back In Time back from the dead</title>
-            <link>https://lwn.net/Articles/996720/</link>
-            <description><![CDATA[<p>
-<a href="https://github.com/bit-team/backintime?tab=readme-ov-file#back-in-time">
-Back In Time</a> is a GPL-2.0-licensed backup tool based on
-<a href="https://rsync.samba.org/">
-rsync</a> and written in Python. It has both graphical and command-line interfaces, and
-supports backups to local disks or over SSH.
-Back In Time was originally written by
-Oprea Dan and released in 2009. The tool has been
-through some rough patches over the years, and is currently on its third set of
-maintainers. Christian Buhtz, one of the current maintainers, explained to me
-how he and his co-maintainers had revived the project, as well as why he thought
-Back In Time stood out from all of the existing backup solutions.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/996720/</guid>
-            <pubDate>Fri, 08 Nov 2024 18:49:47 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Pondering systemd-homed for Fedora</title>
-            <link>https://lwn.net/Articles/995915/</link>
-            <description><![CDATA[<p>Fedora Linux, as a rule, handles version upgrades reasonably
-well. However, there are times when users may want to do a fresh
-installation rather than an upgrade <em>but</em> preserve existing
-users and data under <tt>/home</tt>. This is a scenario that the
-Fedora installer, currently, does not address. Users can maintain a
-separate <tt>/home</tt> partition, of course, but the installer does
-not incorporate existing users into the new install&mdash;that is an
-exercise left to the user to handle. One solution might be to use <a
-href="https://systemd.io/HOME_DIRECTORY/">systemd-homed</a>, a systemd
-service for managing users and home directories. However, a discussion
-proposing the use systemd-homed as part of Fedora installation
-uncovered some hurdles, such as trying to blend its approach to
-managing users with tools that centralize user management.</p>]]></description>
-            <guid>https://lwn.net/Articles/995915/</guid>
-            <pubDate>Fri, 08 Nov 2024 16:05:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The trouble with struct sockaddr&apos;s fake flexible array</title>
-            <link>https://lwn.net/Articles/997094/</link>
-            <description><![CDATA[Flexible arrays — arrays that are declared as the final member of a
-structure and which have a size determined at run time — have long drawn
-the attention of developers seeking to harden the kernel against
-buffer-overflow vulnerabilities.  These arrays have reliably been a source
-of bugs, so anything that can be done to ensure that operations on them
-stay within bounds is a welcome improvement.  While many improvements,
-including the recent <a href="https://lwn.net/Articles/936728/">counted-by work</a>, have
-been made, one of the most difficult cases remains.  Now, however,
-developers who are interested in using recent compiler bounds-checking
-features are trying to get a handle on <tt>struct sockaddr</tt>.]]></description>
-            <guid>https://lwn.net/Articles/997094/</guid>
-            <pubDate>Thu, 07 Nov 2024 16:34:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
