@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 28 Nov 2024 13:41:51 +0000</pubDate>
-        <lastBuildDate>Thu, 28 Nov 2024 14:10:43 +0000</lastBuildDate>
+        <pubDate>Thu, 28 Nov 2024 14:29:23 +0000</pubDate>
+        <lastBuildDate>Thu, 28 Nov 2024 14:32:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/998949/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager-libreswan, and openssl), <b>Fedora</b> (chromium and llvm-test-suite), <b>Mageia</b> (thunderbird), and <b>Ubuntu</b> (linux-aws-6.8, linux-azure, linux-azure-6.8, linux-oracle-6.8,, linux-azure, and ruby2.7).]]></description>
+            <guid>https://lwn.net/Articles/998949/</guid>
+            <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Elementary OS 8 released</title>
             <link>https://lwn.net/Articles/999910/</link>
