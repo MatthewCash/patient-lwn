@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 29 Nov 2024 13:40:34 +0000</pubDate>
-        <lastBuildDate>Fri, 29 Nov 2024 13:50:01 +0000</lastBuildDate>
+        <pubDate>Fri, 29 Nov 2024 14:09:03 +0000</pubDate>
+        <lastBuildDate>Fri, 29 Nov 2024 14:10:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/999102/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (postgresql-13, postgresql-15, and webkit2gtk), <b>Fedora</b> (libsndfile, microcode_ctl, and trafficserver), <b>Mageia</b> (kanboard, kernel, kmod-xtables-addons, kmod-virtualbox, and bluez, kernel-linus, opendmarc, and radare2), <b>Oracle</b> (.NET 9.0, bubblewrap and flatpak, buildah, expat, firefox, grafana, grafana-pcp, kernel, krb5, libsoup, libvpx, NetworkManager-libreswan, openexr, pcp, python3.11, python3.11-urllib3, python3.12, python3.9, squid, thunderbird, tigervnc, and webkit2gtk3), <b>Red Hat</b> (.NET 9.0, binutils, expat, grafana-pcp, kernel, libsoup, NetworkManager-libreswan, openexr, python3.11, python3.12, python39:3.9, squid, tigervnc, and webkit2gtk3), <b>SUSE</b> (chromedriver, cobbler, govulncheck-vulndb, and icinga2), and <b>Ubuntu</b> (linux-lowlatency, linux-lowlatency-hwe-6.8, python2.7, and zbar).]]></description>
+            <guid>https://lwn.net/Articles/999102/</guid>
+            <pubDate>Fri, 22 Nov 2024 14:00:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1000185/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, redis, twisted, and tzdata), <b>Fedora</b> (firefox, nss, pam, rust-rustls, rust-zlib-rs, thunderbird, tuned, and xen), and <b>SUSE</b> (cobbler, kernel, libjxl-devel, libuv, postgresql12, postgresql14, postgresql15, python-waitress, seamonkey, tomcat, and tomcat10).]]></description>
+            <guid>https://lwn.net/Articles/1000185/</guid>
+            <pubDate>Fri, 29 Nov 2024 14:09:02 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>PHP 8.4.1 released</title>
             <link>https://lwn.net/Articles/999004/</link>
