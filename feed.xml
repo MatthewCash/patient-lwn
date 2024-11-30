@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 30 Nov 2024 14:35:34 +0000</pubDate>
-        <lastBuildDate>Sat, 30 Nov 2024 15:28:17 +0000</lastBuildDate>
+        <pubDate>Sat, 30 Nov 2024 15:32:15 +0000</pubDate>
+        <lastBuildDate>Sat, 30 Nov 2024 15:37:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The OpenWrt One router is now shipping</title>
+            <link>https://lwn.net/Articles/1000272/</link>
+            <description><![CDATA[The OpenWrt One router, which <a href="https://lwn.net/Articles/994961/">was reviewed
+here</a> recently, <a
+href="https://sfconservancy.org/news/2024/nov/29/openwrt-one-wireless-router-now-ships-black-friday/">is
+now generally available</a>.
+<p>
+<blockquote class="bq">
+	 This is the first wireless Internet router designed and built with
+	 your software freedom and right to repair in mind. The OpenWrt One
+	 will never be locked down and is forever unbrickable. This device
+	 services your needs as its owner and user. Everyone deserves
+	 control of their computing. The OpenWrt One takes a great first
+	 step toward bringing software rights to your home: you can control
+	 your own network with the software of your choice, and ensure your
+	 right to change, modify, and repair it as you like.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1000272/</guid>
+            <pubDate>Sat, 30 Nov 2024 15:30:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A kernel code of conduct enforcement action</title>
             <link>https://lwn.net/Articles/999197/</link>
