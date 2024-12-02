@@ -9,10 +9,18 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 02 Dec 2024 14:06:56 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Dec 2024 14:11:19 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 2 Dec 2024 14:33:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/999597/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
+            <guid>https://lwn.net/Articles/999597/</guid>
+            <pubDate>Mon, 25 Nov 2024 14:21:11 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.13-rc1</title>
             <link>https://lwn.net/Articles/1000379/</link>
