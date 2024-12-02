@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Dec 2024 16:40:08 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Dec 2024 17:10:28 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Dec 2024 17:26:08 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Dec 2024 17:30:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>NixOS 24.11 released</title>
+            <link>https://lwn.net/Articles/1000469/</link>
+            <description><![CDATA[The most recent version of <a href="https://nixos.org/">NixOS</a>,&nbsp;24.11,
+was <a
+href="https://nixos.org/blog/announcements/2024/nixos-2411/">released</a>
+on November&nbsp;30.  It contains GNOME&nbsp;47, Plasma&nbsp;6.2, LLVM&nbsp;19, and lots more:
+<blockquote class="bq">
+The 24.11 release was made possible due to the efforts of <b>2669</b>&nbsp;contributors, who authored <b>49079</b>&nbsp;commits since the previous release. Our thanks go the contributors who also take care of the continued stability and security of our stable release.
+<p>
+NixOS is already known as <a href="https://repology.org/repositories/statistics/newest">the most up to date distribution</a> while also being <a href="https://repology.org/repositories/statistics/total">the distribution with the most packages</a>. This release saw <b>8141&nbsp;new</b> packages and <b>20975&nbsp;updated</b> packages in Nixpkgs. We also <b>removed&nbsp;3970</b> packages in an effort to keep the package set maintainable and secure. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1000469/</guid>
+            <pubDate>Mon, 02 Dec 2024 17:26:07 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1000465/</link>
