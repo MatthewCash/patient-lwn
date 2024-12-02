@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Dec 2024 14:51:14 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Dec 2024 15:32:05 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Dec 2024 15:37:25 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Dec 2024 15:49:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1000465/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dnsmasq, editorconfig-core, lemonldap-ng, proftpd-dfsg, python3.9, simplesamlphp, tgt, and xfpt), <b>Fedora</b> (qbittorrent, webkitgtk, and wireshark), <b>Mageia</b> (libsoup3 &amp; libsoup), <b>Red Hat</b> (buildah, grafana, grafana-pcp, and podman), <b>SUSE</b> (gimp, kernel, postgresql14, python, webkit2gtk3, xen, and zabbix), and <b>Ubuntu</b> (ansible and postgresql-12, postgresql-14, postgresql-16).]]></description>
+            <guid>https://lwn.net/Articles/1000465/</guid>
+            <pubDate>Mon, 02 Dec 2024 15:37:25 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/999597/</link>
