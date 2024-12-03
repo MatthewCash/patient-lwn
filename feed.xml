@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Dec 2024 14:42:12 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Dec 2024 14:49:23 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Dec 2024 14:51:27 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Dec 2024 15:11:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -267,14 +267,6 @@ seeks to block tracking by way of links that redirect through a tracking
 system.]]></description>
             <guid>https://lwn.net/Articles/999768/</guid>
             <pubDate>Tue, 26 Nov 2024 15:48:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/999744/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (pypy3), <b>Fedora</b> (chromium, cobbler, and libsoup3), <b>Oracle</b> (kernel), <b>SUSE</b> (glib2, govulncheck-vulndb, javapackages-tools, xmlgraphics-batik, xmlgraphics- commons, xmlgraphics-fop, libblkid-devel, opentofu, php8, postgresql, postgresql16, postgresql17, thunderbird, traefik, and ucode-intel), and <b>Ubuntu</b> (needrestart and rapidjson).]]></description>
-            <guid>https://lwn.net/Articles/999744/</guid>
-            <pubDate>Tue, 26 Nov 2024 14:58:52 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
