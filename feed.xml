@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 04 Dec 2024 14:29:55 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Dec 2024 14:34:39 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 4 Dec 2024 14:50:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -237,14 +237,6 @@ multi-touch gestures on touch screens and tablets.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/999910/</guid>
             <pubDate>Wed, 27 Nov 2024 16:10:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/999897/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (mpg123 and php8.2), <b>Fedora</b> (libsndfile, mingw-glib2, mingw-libsoup, mingw-python3, and qbittorrent), <b>Oracle</b> (pam:1.5.1 and perl-App-cpanminus), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, rclone, tomcat, tomcat10, and xen), and <b>Ubuntu</b> (gh, libsoup2.4, libsoup3, pygments, TinyGLTF, and twisted).]]></description>
-            <guid>https://lwn.net/Articles/999897/</guid>
-            <pubDate>Wed, 27 Nov 2024 14:34:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
