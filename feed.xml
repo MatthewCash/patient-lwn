@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Dec 2024 13:07:13 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Dec 2024 14:11:23 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Dec 2024 14:29:55 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Dec 2024 14:34:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1000721/</link>
+            <description><![CDATA[Security updates have been issued by <b>Red Hat</b> (go-toolset:rhel8, grafana, kernel, kernel-rt, kernel:4.18.0, pam, pam:1.5.1, pcs, postgresql:12, postgresql:15, postgresql:16, python3:3.6.8, qemu-kvm, rhc, rhc-worker-playbook, and virt:rhel and virt-devel:rhel) and <b>SUSE</b> (ansible-10, ansible-core, avahi, bpftool, python, python3, python36, webkit2gtk3, and xen).]]></description>
+            <guid>https://lwn.net/Articles/1000721/</guid>
+            <pubDate>Wed, 04 Dec 2024 14:23:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1000591/</link>
