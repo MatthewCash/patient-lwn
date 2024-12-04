@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Dec 2024 17:10:06 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Dec 2024 17:31:44 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Dec 2024 17:31:56 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Dec 2024 17:42:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora moves towards Forgejo (Fedora Magazine)</title>
+            <link>https://lwn.net/Articles/1000751/</link>
+            <description><![CDATA[<p>Fedora Project Leader Matthew Miller <a
+href="https://fedoramagazine.org/fedora-moves-towards-forgejo-a-unified-decision/">reports</a>
+that the project's search to replace <a
+href="https://pagure.io/">Pagure</a> as its <a
+href="https://en.wikipedia.org/wiki/Forge_(software)">git forge</a> is
+almost complete, with the Fedora Council strongly in favor of <a
+href="https://forgejo.org/">Forgejo</a>:</p>
+
+<blockquote class="bq">
+The Council, currently, has a clear preference for Forgejo. This is a
+big decision and we don't want it to feel rushed. Therefore, we're
+opening this up one last time to everyone's comments. After two weeks,
+we'll take our formal vote — and then get on with the work!
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/963095/">looked at
+Forgejo</a> in February.</p>]]></description>
+            <guid>https://lwn.net/Articles/1000751/</guid>
+            <pubDate>Wed, 04 Dec 2024 17:31:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Walleij: New ARM32 Security Features in v6.10</title>
             <link>https://lwn.net/Articles/1000727/</link>
