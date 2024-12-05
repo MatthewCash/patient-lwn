@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Dec 2024 14:08:03 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Dec 2024 14:11:01 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 14:20:59 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 14:33:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernels 6.12.2, 6.11.11, and 4.19.325</title>
+            <link>https://lwn.net/Articles/1000871/</link>
+            <description><![CDATA[Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1000872/">6.12.2</a>, <a
+href="https://lwn.net/Articles/1000873/">6.11.11</a>, and <a
+href="https://lwn.net/Articles/1000874/">4.19.325</a> stable kernels.  Note that both
+6.11.11 and 4.19.325 are the last kernels in those series, "<q>please move
+off to a newer kernel version</q>".  In the 4.19.325 release notice, he has
+a rather longer-than-usual message, including:
+
+<blockquote class="bq">
+As a "fun" proof that this one is finished (and that any company saying
+they care about it really should have their statements validated with
+facts), I looked at the "unfixed" CVEs from this kernel release.
+Currently it is a list 983 CVEs long, too long to list here.
+<p>
+You can verify it yourself by cloning the vulns.git repo at
+git.kernel.org and running:
+<pre>
+	./scripts/strak v4.19.325
+</pre>
+Note, this does NOT count the hardware CVEs which kernel.org does not
+track, and many are sill unfixed in this kernel branch.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1000871/</guid>
+            <pubDate>Thu, 05 Dec 2024 14:20:58 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1000870/</link>
@@ -395,14 +424,6 @@ Earlier today, one of our subscribers, anselm, posted the <a href="https://lwn.n
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/998949/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager-libreswan, and openssl), <b>Fedora</b> (chromium and llvm-test-suite), <b>Mageia</b> (thunderbird), and <b>Ubuntu</b> (linux-aws-6.8, linux-azure, linux-azure-6.8, linux-oracle-6.8,, linux-azure, and ruby2.7).]]></description>
-            <guid>https://lwn.net/Articles/998949/</guid>
-            <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/999597/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
@@ -474,14 +495,6 @@ fixes, and general cleanup.</q>"]]></description>
             <guid>https://lwn.net/Articles/999004/</guid>
             <pubDate>Thu, 21 Nov 2024 23:12:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/998949/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager-libreswan, and openssl), <b>Fedora</b> (chromium and llvm-test-suite), <b>Mageia</b> (thunderbird), and <b>Ubuntu</b> (linux-aws-6.8, linux-azure, linux-azure-6.8, linux-oracle-6.8,, linux-azure, and ruby2.7).]]></description>
-            <guid>https://lwn.net/Articles/998949/</guid>
-            <pubDate>Thu, 21 Nov 2024 14:11:43 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
