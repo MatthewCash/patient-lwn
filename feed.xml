@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Dec 2024 22:38:30 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Dec 2024 23:11:27 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 23:26:37 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 23:28:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -465,20 +465,6 @@ As always, they contain important fixes.
             <dc:creator>daroc</dc:creator>
         </item>
         <item>
-            <title>PHP 8.4.1 released</title>
-            <link>https://lwn.net/Articles/999004/</link>
-            <description><![CDATA[<a href="https://www.php.net/archive/2024.php#2024-11-21-4">Version
-8.4.1</a> of the PHP language has been released.  See <a
-href="https://www.php.net/releases/8.4/en.php">this page</a> for details on
-the new features in this release.  "<q>PHP 8.4 is a major update of the PHP
-language.  It contains many new features, such as property hooks,
-asymmetric visibility, an updated DOM API, performance improvements, bug
-fixes, and general cleanup.</q>"]]></description>
-            <guid>https://lwn.net/Articles/999004/</guid>
-            <pubDate>Thu, 21 Nov 2024 23:12:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/999597/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
@@ -536,20 +522,6 @@ As always, they contain important fixes.
             <guid>https://lwn.net/Articles/999102/</guid>
             <pubDate>Fri, 22 Nov 2024 14:00:38 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>PHP 8.4.1 released</title>
-            <link>https://lwn.net/Articles/999004/</link>
-            <description><![CDATA[<a href="https://www.php.net/archive/2024.php#2024-11-21-4">Version
-8.4.1</a> of the PHP language has been released.  See <a
-href="https://www.php.net/releases/8.4/en.php">this page</a> for details on
-the new features in this release.  "<q>PHP 8.4 is a major update of the PHP
-language.  It contains many new features, such as property hooks,
-asymmetric visibility, an updated DOM API, performance improvements, bug
-fixes, and general cleanup.</q>"]]></description>
-            <guid>https://lwn.net/Articles/999004/</guid>
-            <pubDate>Thu, 21 Nov 2024 23:12:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
