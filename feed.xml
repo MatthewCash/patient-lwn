@@ -8,11 +8,123 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Dec 2024 22:24:05 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Dec 2024 23:48:19 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 00:34:50 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 00:49:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for November 21, 2024</title>
+            <link>https://lwn.net/Articles/998144/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for November 21, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/998144/</guid>
+            <pubDate>Thu, 21 Nov 2024 00:09:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] RVKMS and Rust KMS bindings</title>
+            <link>https://lwn.net/Articles/997850/</link>
+            <description><![CDATA[At the <a
+href="https://indico.freedesktop.org/event/6/">2024 X.Org Developers
+Conference</a> (XDC), Lyude Paul gave a talk on the work she has been doing
+as part of the <a href="https://gitlab.freedesktop.org/drm/nova">Nova
+project</a>, which is an <a href="https://lwn.net/Articles/990736/">effort build an NVIDIA
+GPU driver in Rust</a>.  She wanted to provide an introduction to <a
+href="https://lwn.net/ml/all/20240930233257.1189730-36-lyude@redhat.com/">RVKMS</a>, which
+is being used to develop Rust kernel mode setting (KMS)
+bindings; RVKMS is a port of the <a href="https://docs.kernel.org/gpu/vkms.html">virtual KMS</a> (VKMS)
+driver to Rust.  In addition, she wanted to give her opinion on Rust, and why she
+thinks it is
+a "<q>game-changer for the kernel</q>", noting that the reasons are not
+related to the oft-mentioned, "headline" feature of the language: memory
+safety.]]></description>
+            <guid>https://lwn.net/Articles/997850/</guid>
+            <pubDate>Wed, 20 Nov 2024 15:39:22 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Book review: Run Your Own Mail Server</title>
+            <link>https://lwn.net/Articles/998153/</link>
+            <description><![CDATA[<p>The most common piece of advice given to users who ask about
+running their own mail server is <em><a
+href="https://lwn.net/Articles/987566/">don't</a></em>. Setting up
+and securing a mail server in&nbsp;2024 is not for the faint of heart, nor
+for anyone without copious spare time. Spammers want to flood inboxes
+with ads for questionable supplements, attackers want to abuse servers
+to send spam (or worse), and getting the big providers to accept mail
+from small servers is a constant uphill battle. Michael W. Lucas,
+however, encourages users to thumb their nose at the "<q>Email
+Empire</q>", and declare email independence. His self-published book,
+<em><a href="https://mwl.io/nonfiction/tools#ryoms">Run Your Own Mail
+Server</a></em>, provides a manual (and manifesto) for users who are
+interested in the challenge.</p>]]></description>
+            <guid>https://lwn.net/Articles/998153/</guid>
+            <pubDate>Tue, 19 Nov 2024 19:19:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for 6.12</title>
+            <link>https://lwn.net/Articles/997959/</link>
+            <description><![CDATA[Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wgtGkHshfvaAe_O2ntnFBH3EprNk1juieLmjcF2HBwBgQ@mail.gmail.com/">released
+the 6.12 kernel</a> on November&nbsp;17, as expected.  This development
+cycle, the last for 2024, brought 13,344 non-merge changesets into the
+mainline kernel; that made it a relatively slow cycle from this
+perspective, but 6.12 includes a long list of significant new features.
+The time has come to look at where those changes came from, and to look at
+the year-long LTS cycle as well.]]></description>
+            <guid>https://lwn.net/Articles/997959/</guid>
+            <pubDate>Mon, 18 Nov 2024 16:31:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Two approaches to tightening restrictions on loadable modules</title>
+            <link>https://lwn.net/Articles/998221/</link>
+            <description><![CDATA[The kernel's loadable-module facility allows code to be loaded into (and
+sometimes removed from) a running kernel.  Among other things, loadable
+modules make it possible to run a kernel with only the subsystems needed
+for the system's hardware and workload.  Loadable modules can also make it
+easy for out-of-tree code to access parts of the kernel that developers
+would prefer to keep private; this has led to <a
+href="https://lwn.net/Kernel/Index/#Modules-Exported_symbols">many discussions</a> in the
+past.  The topic has returned to the kernel's mailing lists with two
+different patch sets aimed at further tightening the restrictions applied
+to loadable modules.]]></description>
+            <guid>https://lwn.net/Articles/998221/</guid>
+            <pubDate>Fri, 15 Nov 2024 18:37:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora KDE gets a promotion</title>
+            <link>https://lwn.net/Articles/997559/</link>
+            <description><![CDATA[<p>The Fedora Project is set to welcome a second desktop edition to its
+lineup after months (or years, depending when one starts the clock)
+of discussions. The project recently decided to allow a new working group to
+move forward with a KDE&nbsp;Plasma&nbsp;Desktop edition that will sit
+alongside the existing GNOME-based Fedora&nbsp;Workstation
+edition. This puts KDE on a more equal footing within the project,
+which, it is hoped, will bring more contributors and users interested
+in KDE to adopt Fedora as their Linux distribution of choice.</p>]]></description>
+            <guid>https://lwn.net/Articles/997559/</guid>
+            <pubDate>Fri, 15 Nov 2024 14:42:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Dancing the DMA two-step</title>
+            <link>https://lwn.net/Articles/997563/</link>
+            <description><![CDATA[Direct memory access (DMA) I/O is simple in concept: a peripheral device
+moves data directly to or from memory while the CPU is busy doing other
+things.  As is so often the case, DMA is rather more complicated in
+practice, and the kernel has developed a complicated internal API to
+support it.  It turns out that the DMA API, as it exists now, can affect
+the performance of some high-bandwidth devices.  In an effort to address
+that problem, Leon Romanovsky is making the API even more complex with <a
+href="https://lwn.net/ml/all/cover.1731244445.git.leon@kernel.org">this patch series</a>
+adding a new two-step mapping API.]]></description>
+            <guid>https://lwn.net/Articles/997563/</guid>
+            <pubDate>Thu, 14 Nov 2024 15:35:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora moves towards Forgejo (Fedora Magazine)</title>
             <link>https://lwn.net/Articles/1000751/</link>
