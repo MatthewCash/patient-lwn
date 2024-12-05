@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Dec 2024 14:20:59 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Dec 2024 14:49:32 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 15:10:07 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 15:11:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -414,14 +414,6 @@ Earlier today, one of our subscribers, anselm, posted the <a href="https://lwn.n
             <guid>https://lwn.net/Articles/1000097/</guid>
             <pubDate>Thu, 28 Nov 2024 21:56:36 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for US Thanksgiving (Thursday)</title>
-            <link>https://lwn.net/Articles/1000084/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, netatalk, and thunderbird), <b>Fedora</b> (firefox, libsoup3, mingw-glib2, mingw-libsoup, mingw-python-waitress, mingw-python3, nss, perl-Module-ScanDeps, php, and python-aiohttp), <b>Mageia</b> (dcmtk, golang, iptraf-ng, libsndfile, microcode, php, postgresql15 &amp; postgresql13, rapidjson, tomcat, wget, and zbar), <b>Red Hat</b> (openssl and openssl-fips-provider, toolbox, and webkit2gtk3), <b>SUSE</b> (firefox, frr, glib2, hplip, kernel, neomutt-20241114, ovmf, python-aiohttp, python-virtualenv, python310-tornado6, qemu, webkit2gtk3, and xen), and <b>Ubuntu</b> (mpg123 and vim).]]></description>
-            <guid>https://lwn.net/Articles/1000084/</guid>
-            <pubDate>Thu, 28 Nov 2024 14:51:49 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
         <item>
             <title>Security updates for Monday</title>
