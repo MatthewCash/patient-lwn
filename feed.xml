@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Dec 2024 16:22:59 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Dec 2024 16:54:53 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 17:03:47 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 17:10:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>‘Tis the Season for COSMIC Alpha 4! (System76 Blog)</title>
+            <link>https://lwn.net/Articles/1000927/</link>
+            <description><![CDATA[<p>System76 has <a
+href="https://blog.system76.com/post/cosmic-alpha-4">announced</a> the
+fourth alpha release of its Rust-based <a
+href="https://system76.com/cosmic/">COSMIC desktop</a>. New features
+in this version include the ability to set default applications,
+region and language settings, a new Accessibility applet, as well as
+<a href="https://github.com/pop-os/cosmic-comp/issues/510">support for
+variable refresh rate</a> (VRR) in the cosmic-comp compositor and the
+display settings tool. See the blog post for a full list of fixes and
+performance improvements. LWN <a
+href="https://lwn.net/Articles/984638/">covered</a> the first alpha
+release in August.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1000927/</guid>
+            <pubDate>Thu, 05 Dec 2024 16:59:21 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Mozilla&apos;s new branding strategy</title>
             <link>https://lwn.net/Articles/1000880/</link>
