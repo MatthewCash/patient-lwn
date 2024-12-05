@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Dec 2024 15:10:07 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Dec 2024 15:11:36 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Dec 2024 15:25:05 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Dec 2024 15:32:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mozilla&apos;s new branding strategy</title>
+            <link>https://lwn.net/Articles/1000880/</link>
+            <description><![CDATA[Mozilla <a
+href="https://blog.mozilla.org/en/mozilla/mozilla-brand-next-era-of-tech/">would
+appear to have concluded</a> that the solution to its problems is an
+extensive rebranding effort:
+<p>
+<blockquote class="bq">
+	We teamed up with global branding powerhouse Jones Knowles Ritchie
+	(JKR) to revamp our brand and revitalize our intentions across our
+	entire ecosystem. At the heart of this transformation is making
+	sure people know Mozilla for its broader impact, as well as
+	Firefox. Our new brand strategy and expression embody our role as a
+	leader in digital rights and innovation, putting people over
+	profits through privacy-preserving products, open-source developer
+	tools, and community-building efforts.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1000880/</guid>
+            <pubDate>Thu, 05 Dec 2024 15:15:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernels 6.12.2, 6.11.11, and 4.19.325</title>
             <link>https://lwn.net/Articles/1000871/</link>
