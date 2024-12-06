@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Dec 2024 14:58:40 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Dec 2024 15:11:21 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Dec 2024 15:12:42 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Dec 2024 15:31:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -476,21 +476,6 @@ describing his side of the story.]]></description>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Four Friday stable kernel updates</title>
-            <link>https://lwn.net/Articles/999107/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/999108/">6.12.1</a>,
-<a href="https://lwn.net/Articles/999109/">6.11.10</a>,
-<a href="https://lwn.net/Articles/999110/">6.6.63</a>, and
-<a href="https://lwn.net/Articles/999111/">6.1.119</a> stable kernel updates have been released.
-As always, they contain important fixes.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/999107/</guid>
-            <pubDate>Fri, 22 Nov 2024 15:01:47 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/999597/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
@@ -525,21 +510,6 @@ describing his side of the story.]]></description>
             <guid>https://lwn.net/Articles/999197/</guid>
             <pubDate>Sat, 23 Nov 2024 01:26:18 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Four Friday stable kernel updates</title>
-            <link>https://lwn.net/Articles/999107/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/999108/">6.12.1</a>,
-<a href="https://lwn.net/Articles/999109/">6.11.10</a>,
-<a href="https://lwn.net/Articles/999110/">6.6.63</a>, and
-<a href="https://lwn.net/Articles/999111/">6.1.119</a> stable kernel updates have been released.
-As always, they contain important fixes.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/999107/</guid>
-            <pubDate>Fri, 22 Nov 2024 15:01:47 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
