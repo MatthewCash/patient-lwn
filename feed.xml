@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 07 Dec 2024 00:04:11 +0000</pubDate>
-        <lastBuildDate>Sat, 7 Dec 2024 00:48:22 +0000</lastBuildDate>
+        <pubDate>Sat, 07 Dec 2024 01:52:20 +0000</pubDate>
+        <lastBuildDate>Sat, 7 Dec 2024 02:21:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -499,67 +499,11 @@ now generally available</a>.
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>A kernel code of conduct enforcement action</title>
-            <link>https://lwn.net/Articles/999197/</link>
-            <description><![CDATA[<p>
-The <a href="https://wiki.linuxfoundation.org/tab/start">Linux Foundation Technical
-Advisory Board</a> (TAB) has <a href="https://lwn.net/ml/linux-kernel/6740fc3aabec0_5eb129497@dwillia2-xfh.jf.intel.com.notmuch/">decided</a> to "<q>restrict Kent Overstreet's
-participation in the kernel development process during the Linux 6.13
-kernel development cycle</q>" based on a recommendation from the <a
-href="https://kernel.org/code-of-conduct.html">Code of Conduct
-committee</a>.  In particular, the scope of the restriction will be to "<q>decline all pull
-requests from Kent Overstreet</q>" during the development cycle.
-Overstreet is the creator and maintainer of the <a
-href="https://bcachefs.org/">bcachefs</a> filesystem.
-
-<p>
-This
-action stems from a <a 
-href="https://lwn.net/ml/linux-kernel/citv2v6f33hoidq75xd2spaqxf7nl5wbmmzma4wgmrwpoqidhj@k453tmq7vdrk/">message</a>
-Overstreet posted back in early September that was abusive toward another
-kernel developer; there is a fair amount of back-and-forth about the
-incident and the committee's attempts to extract a public apology from
-Overstreet in that thread.  Overstreet has published a <a
-href="https://www.patreon.com/posts/116412665">lengthy blog post</a>
-describing his side of the story.]]></description>
-            <guid>https://lwn.net/Articles/999197/</guid>
-            <pubDate>Sat, 23 Nov 2024 01:26:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/999597/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
             <guid>https://lwn.net/Articles/999597/</guid>
             <pubDate>Mon, 25 Nov 2024 14:21:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>A kernel code of conduct enforcement action</title>
-            <link>https://lwn.net/Articles/999197/</link>
-            <description><![CDATA[<p>
-The <a href="https://wiki.linuxfoundation.org/tab/start">Linux Foundation Technical
-Advisory Board</a> (TAB) has <a href="https://lwn.net/ml/linux-kernel/6740fc3aabec0_5eb129497@dwillia2-xfh.jf.intel.com.notmuch/">decided</a> to "<q>restrict Kent Overstreet's
-participation in the kernel development process during the Linux 6.13
-kernel development cycle</q>" based on a recommendation from the <a
-href="https://kernel.org/code-of-conduct.html">Code of Conduct
-committee</a>.  In particular, the scope of the restriction will be to "<q>decline all pull
-requests from Kent Overstreet</q>" during the development cycle.
-Overstreet is the creator and maintainer of the <a
-href="https://bcachefs.org/">bcachefs</a> filesystem.
-
-<p>
-This
-action stems from a <a 
-href="https://lwn.net/ml/linux-kernel/citv2v6f33hoidq75xd2spaqxf7nl5wbmmzma4wgmrwpoqidhj@k453tmq7vdrk/">message</a>
-Overstreet posted back in early September that was abusive toward another
-kernel developer; there is a fair amount of back-and-forth about the
-incident and the committee's attempts to extract a public apology from
-Overstreet in that thread.  Overstreet has published a <a
-href="https://www.patreon.com/posts/116412665">lengthy blog post</a>
-describing his side of the story.]]></description>
-            <guid>https://lwn.net/Articles/999197/</guid>
-            <pubDate>Sat, 23 Nov 2024 01:26:18 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
