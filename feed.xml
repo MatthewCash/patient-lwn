@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 08 Dec 2024 22:51:38 +0000</pubDate>
-        <lastBuildDate>Sun, 8 Dec 2024 23:27:05 +0000</lastBuildDate>
+        <pubDate>Sun, 08 Dec 2024 23:31:31 +0000</pubDate>
+        <lastBuildDate>Sun, 8 Dec 2024 23:34:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -443,18 +443,6 @@ NixOS is already known as <a href="https://repology.org/repositories/statistics/
             <guid>https://lwn.net/Articles/999597/</guid>
             <pubDate>Mon, 25 Nov 2024 14:21:11 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc1</title>
-            <link>https://lwn.net/Articles/1000379/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1000378/">6.13-rc1</a> and closed the
-merge window for this release.  "<q>And for once - possibly the first time
-ever - it looks like the release cycle doesn't clash horribly up with
-the holiday season, and we'll have time both to stabilize this release,
-_and_ the work for 6.14 won't be starting until well into January.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1000379/</guid>
-            <pubDate>Sun, 01 Dec 2024 23:24:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
         <item>
             <title>Security updates for Monday</title>
