@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Dec 2024 21:27:58 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Dec 2024 21:38:09 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Dec 2024 21:41:31 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Dec 2024 21:48:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora Steering Council election interviews</title>
+            <link>https://lwn.net/Articles/1001522/</link>
+            <description><![CDATA[<p>
+When the Fedora Engineering Steering Council (FESCo) is up for election, the project posts
+interviews of the candidates in order to help Fedora contributors make an informed choice. This
+year, the candidates are
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-zbigniew-jedrzejewski-szmek-3/">
+Zbigniew Jędrzejewski-Szmek</a>,
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-tomas-hckra-2/">
+Tomáš Hrčka</a>,
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-josh-stone-2/">
+Josh Stone</a>,
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-david-cantrell-3/">
+David Cantrell</a>,
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-fabio-alessandro-locati-fale/">
+Fabio Alessandro Locati</a>, and
+<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-kevin-fenzi-3/">
+Kevin Fenzi</a>.
+All of them except for Locati are current members of the steering council.
+Voting is open until December 20.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1001522/</guid>
+            <pubDate>Mon, 09 Dec 2024 21:41:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>A vulnerability in the OpenWrt attended sysupgrade server</title>
             <link>https://lwn.net/Articles/1001441/</link>
