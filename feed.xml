@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Dec 2024 13:24:34 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Dec 2024 14:11:20 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Dec 2024 14:31:26 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Dec 2024 14:34:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1001433/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (redis:7, ruby, ruby:2.5, and ruby:3.1), <b>Debian</b> (avahi, ceph, chromium, gsl, jinja2, php7.4, renderdoc, ruby-doorkeeper, and zabbix), <b>Fedora</b> (chromium, python3.11, and uv), <b>Gentoo</b> (Asterisk, Cacti, Chromium, Google Chrome, Microsoft Edge. Opera, Dnsmasq, firefox, HashiCorp Consul, icinga2, OATH Toolkit, OpenJDK, PostgreSQL, R, Salt, Spidermonkey, and thunderbird), <b>Mageia</b> (kubernetes), <b>Red Hat</b> (grafana, grafana-pcp, osbuild-composer, and postgresql), <b>SUSE</b> (ansible-core, firefox, glib2, java-1_8_0-ibm, kernel-firmware, nanopb, netty, python310-django-ckeditor, python310-jupyter-ydoc, radare2, skopeo, and webkit2gtk3), and <b>Ubuntu</b> (tinyproxy).]]></description>
+            <guid>https://lwn.net/Articles/1001433/</guid>
+            <pubDate>Mon, 09 Dec 2024 14:19:15 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Kernel prepatch 6.13-rc2</title>
+            <link>https://lwn.net/Articles/1001435/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1001434/">6.13-rc2</a> kernel prepatch is out for
+testing.  "<q>The diffstat looks a bit unusual with 80%+ drivers, and a lot of it
+one-liners, but that's actually just because of a couple of automated
+scripts that got run after -rc1 for some cleanups. Nothing
+particularly interesting, but it makes for a lot of noise in the diff.</q>"
+One of those scripts was the <tt>EXPORT_SYMBOL_NS()</tt> change (to make it
+use a quoted string for the namespace name) described in <a
+href="https://lwn.net/Articles/998221/">this article</a>.]]></description>
+            <guid>https://lwn.net/Articles/1001435/</guid>
+            <pubDate>Mon, 09 Dec 2024 14:31:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Abusing Git branch names to compromise a PyPI package</title>
             <link>https://lwn.net/Articles/1001215/</link>
@@ -434,22 +457,6 @@ NixOS is already known as <a href="https://repology.org/repositories/statistics/
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (dnsmasq, editorconfig-core, lemonldap-ng, proftpd-dfsg, python3.9, simplesamlphp, tgt, and xfpt), <b>Fedora</b> (qbittorrent, webkitgtk, and wireshark), <b>Mageia</b> (libsoup3 &amp; libsoup), <b>Red Hat</b> (buildah, grafana, grafana-pcp, and podman), <b>SUSE</b> (gimp, kernel, postgresql14, python, webkit2gtk3, xen, and zabbix), and <b>Ubuntu</b> (ansible and postgresql-12, postgresql-14, postgresql-16).]]></description>
             <guid>https://lwn.net/Articles/1000465/</guid>
             <pubDate>Mon, 02 Dec 2024 15:37:25 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/999597/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
-            <guid>https://lwn.net/Articles/999597/</guid>
-            <pubDate>Mon, 25 Nov 2024 14:21:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/999597/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, chromium, ghostscript, glib2.0, intel-microcode, and kernel), <b>Fedora</b> (dotnet9.0, needrestart, php, and python3.6), <b>Oracle</b> (cups, kernel, osbuild-composer, podman, python3.12-urllib3, squid, and xerces-c), <b>Red Hat</b> (buildah, edk2, gnome-shell, haproxy, kernel, kernel-rt, libvpx, pam, python3.11-urllib3, python3.12-urllib3, qemu-kvm, rhc-worker-script, squid:4, and tigervnc), <b>Slackware</b> (php), <b>SUSE</b> (chromedriver, chromium, dcmtk, govulncheck-vulndb, iptraf-ng, and traefik2), and <b>Ubuntu</b> (linux-oracle and openjdk-23).]]></description>
-            <guid>https://lwn.net/Articles/999597/</guid>
-            <pubDate>Mon, 25 Nov 2024 14:21:11 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
