@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Dec 2024 14:48:14 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Dec 2024 14:50:01 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Dec 2024 14:51:25 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Dec 2024 15:11:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A vulnerability in the OpenWrt attended sysupgrade server</title>
+            <link>https://lwn.net/Articles/1001441/</link>
+            <description><![CDATA[The OpenWrt project has issued <a
+href="https://lwn.net/ml/all/593EA688-7658-4AEB-959D-0AED959442E2@aparcar.org">an
+advisory</a> regarding a vulnerability found in its Attended Sysupgrade
+Server that could allow compromised packages to be installed on a router by
+an attacker.  No official OpenWrt images were affected, and the
+vulnerability is not known to be exploited, but users who have installed
+images created with an instance of this server are recommended to
+reinstall.
+<p>
+For a detailed description of how the exploit works, see <a
+href="https://flatt.tech/research/posts/compromising-openwrt-supply-chain-sha256-collision/">this
+blog post</a>.
+<p>
+<blockquote class="bq">
+	Then, as the hash collision occurred, the server returns the
+	overwritten build artifact to the legitimate request that requests
+	the following packages. [...]
+	<p>
+	By abusing this, an attacker could force the user to upgrade to the
+	malicious firmware, which could lead to the compromise of the
+	device.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1001441/</guid>
+            <pubDate>Mon, 09 Dec 2024 14:48:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Two new stable kernels</title>
             <link>https://lwn.net/Articles/1001436/</link>
