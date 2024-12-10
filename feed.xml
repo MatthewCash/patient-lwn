@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Dec 2024 16:38:47 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Dec 2024 17:10:16 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Dec 2024 17:27:07 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Dec 2024 17:31:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A change of hats! (Fedora Magazine)</title>
+            <link>https://lwn.net/Articles/1001634/</link>
+            <description><![CDATA[<p>Fedora Project Leader (FPL) Matthew Miller <a href="https://fedoramagazine.org/fedora-project-leader-matthew-miller-a-change-of-hats/">writes</a> that he will soon be hanging up the FPL hat:</p>
+
+<blockquote class="bq">
+<p>Stay tuned for a job posting from Red Hat, and details about all
+that. I'm hoping we can hire someone awesome early in 2025, and make
+the official handover on the release of auspiciously-numbered Fedora
+Linux 42.</p>
+
+<p>I'm not going to leave Fedora, though. As I said above, although it
+might not always feel like it from the outside, Red Hat support for
+Fedora is stronger than ever, and I plan on helping that grow even
+more. I'm stepping into a full-time management role in the Community
+Linux Engineering organization, so Fedora will still be part of my day
+job, just in a different way.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1001634/</guid>
+            <pubDate>Tue, 10 Dec 2024 17:11:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GNU Shepherd 1.0.0 released</title>
             <link>https://lwn.net/Articles/1001599/</link>
