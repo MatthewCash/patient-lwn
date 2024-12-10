@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Dec 2024 13:24:42 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Dec 2024 14:11:15 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Dec 2024 14:30:06 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Dec 2024 14:34:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1001597/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (postgresql:15, postgresql:16, and ruby:3.1), <b>Debian</b> (jinja2), <b>Fedora</b> (python-multipart, python-python-multipart, python3.12, retsnoop, rust-rbspy, rust-rustls, and zabbix), <b>Oracle</b> (kernel, libsoup, postgresql:12, postgresql:13, postgresql:15, postgresql:16, redis:7, and ruby:3.1), <b>SUSE</b> (nodejs18, pam, qt6-webengine, and radare2), and <b>Ubuntu</b> (dogtag-pki, linux-intel-iotg, linux-intel-iotg-5.15, ofono, rabbitmq-server, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1001597/</guid>
+            <pubDate>Tue, 10 Dec 2024 14:30:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora Steering Council election interviews</title>
             <link>https://lwn.net/Articles/1001522/</link>
