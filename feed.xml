@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Dec 2024 22:05:59 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Dec 2024 22:10:41 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Dec 2024 22:20:11 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Dec 2024 22:32:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Systemd 257 released</title>
+            <link>https://lwn.net/Articles/1001657/</link>
+            <description><![CDATA[Systemd 257 has been released.  As usual, the list of changes is long; it
+includes support for multipath TCP in socket units, the ability to run
+processes as init in their own PID namespace, a new tool for signing EFI
+binaries for secure boot,
+and a superhero emoji in the run0 shell prompt, among many other things. 
+Also, support for version-1 control groups has been disabled and requires
+an elaborate dance to re-enable; it will be removed entirely in the next
+release, along with support for System&nbsp;V service scripts.]]></description>
+            <guid>https://lwn.net/Articles/1001657/</guid>
+            <pubDate>Tue, 10 Dec 2024 22:20:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A change of hats! (Fedora Magazine)</title>
             <link>https://lwn.net/Articles/1001634/</link>
