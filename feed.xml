@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Dec 2024 14:30:06 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Dec 2024 14:34:26 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Dec 2024 14:34:02 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Dec 2024 14:50:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU Shepherd 1.0.0 released</title>
+            <link>https://lwn.net/Articles/1001599/</link>
+            <description><![CDATA[<a
+href="https://www.gnu.org/software/shepherd/news/2024/12/the-shepherd-1.0.0-released/">Version
+1.0.0</a> of the GNU Shepherd service manager has been released after a
+mere 21&nbsp;years of development.
+<p>
+<blockquote class="bq">
+	This 1.0.0 release is published today because we think Shepherd has
+	become a solid tool, meeting user experience standards one has come
+	to expect since systemd changed the game of free init systems and
+	service managers alike. It's also a major milestone for Guix, which
+	has been relying on the Shepherd from a time when doing so counted
+	as dogfooding.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1001599/</guid>
+            <pubDate>Tue, 10 Dec 2024 14:34:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1001597/</link>
@@ -499,14 +519,6 @@ notes</a> for a full list of changes and downloads.</p>
             <guid>https://lwn.net/Articles/1000721/</guid>
             <pubDate>Wed, 04 Dec 2024 14:23:04 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1000591/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel, kernel-rt:4.18.0, kernel:4.18.0, pam, pam:1.5.1, perl-App-cpanminus, perl-App-cpanminus:1.7044, python-tornado, tigervnc, tuned, and webkit2gtk3), <b>Debian</b> (needrestart and webkit2gtk), <b>Mageia</b> (firefox, glib2.0, krb5, and thunderbird), <b>Red Hat</b> (firefox, postgresql, postgresql:12, postgresql:13, postgresql:15, postgresql:16, and thunderbird), <b>SUSE</b> (editorconfig-core-c, kernel, php7, php8, python, python-tornado6, python3-virtualenv, python310, python39, thunderbird, wget, and wireshark), and <b>Ubuntu</b> (firefox and haproxy).]]></description>
-            <guid>https://lwn.net/Articles/1000591/</guid>
-            <pubDate>Tue, 03 Dec 2024 14:42:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
