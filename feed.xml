@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 11 Dec 2024 14:19:46 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Dec 2024 15:12:00 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 11 Dec 2024 15:32:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -538,24 +538,6 @@ may want to enable them.
             <guid>https://lwn.net/Articles/1000727/</guid>
             <pubDate>Wed, 04 Dec 2024 16:02:09 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Hurl 6.0.0 released</title>
-            <link>https://lwn.net/Articles/1000726/</link>
-            <description><![CDATA[<p><a
-href="https://hurl.dev/blog/2024/12/04/announcing-hurl-6.0.0.html">Version
-6.0.0</a> of the <a href="https://hurl.dev/">Hurl</a> command-line tool has been released. Hurl is
-curl-powered utility that runs HTTP requests and tests defined in a
-plain-text <a href="https://hurl.dev/docs/hurl-file.html">Hurl
-file</a>. Notable features in this release include the ability to
-generate dynamic values with functions, shorter syntax, and an option
-to export Hurl files to a list of curl commands. See the <a
-href="https://github.com/Orange-OpenSource/hurl/releases/tag/6.0.0">release
-notes</a> for a full list of changes and downloads.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1000726/</guid>
-            <pubDate>Wed, 04 Dec 2024 15:25:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
