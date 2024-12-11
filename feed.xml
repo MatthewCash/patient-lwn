@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 11 Dec 2024 14:19:46 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Dec 2024 14:33:53 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 11 Dec 2024 14:49:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -555,14 +555,6 @@ notes</a> for a full list of changes and downloads.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1000726/</guid>
             <pubDate>Wed, 04 Dec 2024 15:25:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1000721/</link>
-            <description><![CDATA[Security updates have been issued by <b>Red Hat</b> (go-toolset:rhel8, grafana, kernel, kernel-rt, kernel:4.18.0, pam, pam:1.5.1, pcs, postgresql:12, postgresql:15, postgresql:16, python3:3.6.8, qemu-kvm, rhc, rhc-worker-playbook, and virt:rhel and virt-devel:rhel) and <b>SUSE</b> (ansible-10, ansible-core, avahi, bpftool, python, python3, python36, webkit2gtk3, and xen).]]></description>
-            <guid>https://lwn.net/Articles/1000721/</guid>
-            <pubDate>Wed, 04 Dec 2024 14:23:04 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
