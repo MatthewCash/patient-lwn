@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Dec 2024 15:56:53 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Dec 2024 16:13:37 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Dec 2024 16:22:14 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Dec 2024 16:39:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -512,32 +512,6 @@ Forgejo</a> in February.</p>]]></description>
             <guid>https://lwn.net/Articles/1000751/</guid>
             <pubDate>Wed, 04 Dec 2024 17:31:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Walleij: New ARM32 Security Features in v6.10</title>
-            <link>https://lwn.net/Articles/1000727/</link>
-            <description><![CDATA[Linus Walleij <a
-href="https://people.kernel.org/linusw/new-arm32-security-features-in-v6-10">writes
-about a pair of security features for 32-bit Arm systems</a>; these landed
-in 6.10, but, he says, have now stabilized to the point that distributors
-may want to enable them.
-<p>
-<blockquote class="bq">
-	PAN is an abbreviation for the somewhat grammatically incorrect
-	Privileged Access Never. [...]
-<p>
-	For modern ARM32 systems with large memories configured to use LPAE
-	nothing like PAN was available: this version of the MMU simply did
-	not implement a PAN option.
-<p>
-	As of the patch originally developed by Catalin Marinas, we deploy
-	a scheme that will use the fact that LPAE has two separate
-	translation table base registers (TTBR:s): one for userspace
-	(TTBR0) and one for kernelspace (TTBR1).
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1000727/</guid>
-            <pubDate>Wed, 04 Dec 2024 16:02:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
