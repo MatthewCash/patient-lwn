@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Dec 2024 15:45:08 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Dec 2024 16:13:38 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Dec 2024 16:36:45 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Dec 2024 16:39:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Supply-chain attack analysis: Ultralytics (PyPI Blog)</title>
+            <link>https://lwn.net/Articles/1001909/</link>
+            <description><![CDATA[<p>The Python Package Index (PyPI) Blog has an <a
+href="https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/">analysis</a>
+of the <a href="https://lwn.net/Articles/1001215/">compromise</a> of
+the <a href="https://pypi.org/project/ultralytics/">ultralytics</a>
+project, and what PyPI has learned from this event:</p>
+
+<blockquote class="bq">
+<p>PyPI staff and volunteers do their best to remove malware, but
+because the service is open to anyone looking to publish software
+there is an unfortunately high amount of abuse. Thankfully most of
+this abuse does not have the same widespread impact as a targeted
+attack on an already widely-used project.</p>
+
+<p>Mike Fiedler, the PyPI Safety and Security Engineer is working on
+new systems for reducing the time that malware is available to be
+installed on PyPI, through <a
+href="https://blog.pypi.org/posts/2023-09-18-inbound-malware-reporting/">APIs
+that security researchers can automatically send reports</a> to and
+new <a
+href="https://blog.pypi.org/posts/2024-08-16-safety-and-security-engineer-year-in-review/#project-lifecycle-status-quarantine">"quarantine"
+release status</a> to prevent harm while a human investigates the
+situation. Expect more in this space in 2025!</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1001909/</guid>
+            <pubDate>Thu, 12 Dec 2024 16:26:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1001863/</link>
