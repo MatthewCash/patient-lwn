@@ -8,11 +8,161 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Dec 2024 23:10:44 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Dec 2024 23:48:11 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Dec 2024 00:41:28 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Dec 2024 00:49:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for December 5, 2024</title>
+            <link>https://lwn.net/Articles/998950/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for December 5, 2024 is available.]]></description>
+            <guid>https://lwn.net/Articles/998950/</guid>
+            <pubDate>Thu, 05 Dec 2024 00:34:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The return of RWF_UNCACHED</title>
+            <link>https://lwn.net/Articles/998783/</link>
+            <description><![CDATA[Linux offers two broad ways of performing I/O to files.  Buffered I/O,
+which is the usual way of accessing a file, stores a copy of the
+transferred data in the kernel's page cache to speed future accesses.
+Direct I/O, instead, moves data directly between the storage device and a
+user-space buffer, avoiding the page cache.  Both modes have their
+advantages and disadvantages.  In 2019, Jens Axboe <a
+href="https://lwn.net/Articles/806980/">proposed an uncached buffered mode</a> to get some
+of the advantages of both, but that effort stalled at the time.  Now, <a
+href="https://lwn.net/ml/all/20241203153232.92224-2-axboe@kernel.dk">uncached buffered
+I/O is back</a> with some impressive performance results behind it.]]></description>
+            <guid>https://lwn.net/Articles/998783/</guid>
+            <pubDate>Wed, 04 Dec 2024 15:48:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Rust&apos;s incremental compiler architecture</title>
+            <link>https://lwn.net/Articles/997784/</link>
+            <description><![CDATA[<p>
+The traditional structure of a compiler forms a pipeline — parsing,
+type-checking, optimization, and code-generation, usually in that order. But
+modern programming languages have requirements that are ill-suited to such a
+design. Increasingly, compilers are moving toward other designs in
+order to support incremental compilation and low-latency responses for uses
+like integration into IDEs. Rust has, for the last eight years, been pursuing a
+particularly unusual design; in that time
+compile times have
+<a href="https://perf.rust-lang.org/dashboard.html">
+substantially improved</a>, but there's still more work to be done.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/997784/</guid>
+            <pubDate>Tue, 03 Dec 2024 19:29:28 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The rest of the 6.13 merge window</title>
+            <link>https://lwn.net/Articles/998990/</link>
+            <description><![CDATA[The 6.13 merge window closed with the release of <a
+href="https://lwn.net/Articles/1000378/">6.13-rc1</a> on December&nbsp;1.  By that time,
+11,307 non-merge commits had been pulled into the mainline
+repository; about 9,500 of those landed after <a
+href="https://lwn.net/Articles/998623/">our first-half merge-window summary</a> was
+written.  There was a lot of new material in these patches, including
+architecture-support improvements, new BPF features, an efficient way to
+add guard pages to an address space, more Rust support, a vast number of
+new device drivers, and more.]]></description>
+            <guid>https://lwn.net/Articles/998990/</guid>
+            <pubDate>Mon, 02 Dec 2024 14:51:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] GIMP 3.0 — a milestone for open-source image editing</title>
+            <link>https://lwn.net/Articles/998793/</link>
+            <description><![CDATA[The long-awaited release of the <a href="https://gimp.org">GNU Image
+Manipulation Program</a> (GIMP)&nbsp;3.0 is on the way, marking the first
+major update since version&nbsp;2.10 <a
+href="https://www.gimp.org/news/2018/04/27/gimp-2-10-0-released/">was
+released</a> in April&nbsp;2018. It now features a <a
+href="https://docs.gtk.org/gtk3/">GTK&nbsp;3</a> user interface and GIMP&nbsp;3.0
+introduces significant changes to the core platform and plugins. This
+release also brings performance and usability improvements, as well as more
+compatibility with Wayland and complex input sources.]]></description>
+            <guid>https://lwn.net/Articles/998793/</guid>
+            <pubDate>Thu, 28 Nov 2024 14:52:42 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The kernel&apos;s command-line commotion</title>
+            <link>https://lwn.net/Articles/999770/</link>
+            <description><![CDATA[For the most part, the 6.13 merge window has gone smoothly, with relatively
+few problems or disagreements — other than <a href="https://lwn.net/Articles/999197/">this
+one</a>, of course.  There is one other exception, though, relating to the
+kernel's presentation of a process's command line to interested user-space
+observers when a relatively new system call is used.  A pull request with a
+simple change to make that information more user-friendly ran afoul of
+Linus Torvalds, who has his own view of how it should be managed.]]></description>
+            <guid>https://lwn.net/Articles/999770/</guid>
+            <pubDate>Wed, 27 Nov 2024 14:43:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Arch Linux finally starts licensing PKGBUILDs</title>
+            <link>https://lwn.net/Articles/998778/</link>
+            <description><![CDATA[<p><a href="https://archlinux.org/">Arch Linux</a> is popular as a <a
+href="https://wiki.archlinux.org/title/Arch-based_distributions">base
+for other Linux distributions</a>; examples of Arch-derivatives include <a
+href="https://endeavouros.com/">EndeavourOS</a>, <a
+href="https://manjaro.org/">Manjaro</a>, <a
+href="https://www.parabola.nu/">Parabola</a>, and <a
+href="https://store.steampowered.com/steamos">SteamOS</a>.
+There's one small problem: the control files used to describe how to build
+packages for Arch Linux have no stated license. That creates a bit of
+uncertainty about the rights and responsibilities for the downstream
+derivatives. So far, that doesn't seem to have been a problem, nor has
+it stopped other projects from assuming that reuse is
+allowed. However, the Arch project is looking to add some clarity by
+explicitly assigning a liberal license to its package
+sources. Currently the project is in the process of reaching out to
+contributors to see if they have any objections.</p>]]></description>
+            <guid>https://lwn.net/Articles/998778/</guid>
+            <pubDate>Tue, 26 Nov 2024 16:40:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] NonStop discussion around adding Rust to Git</title>
+            <link>https://lwn.net/Articles/998115/</link>
+            <description><![CDATA[<p>
+The Linux kernel community's discussions about including Rust have
+<a href="https://lwn.net/Kernel/Index/#Development_tools-Rust">
+gotten a lot of attention</a>, but the kernel is not the only project wrestling
+with the question of whether to allow Rust. The Git project
+<a href="https://lwn.net/ml/git/ZZ77NQkSuiRxRDwt@nand.local/">
+discussed</a> the prospect in January, and then
+<a href="https://lwn.net/ml/all/Zu2DmS30E0kKug2a@nand.local/">
+again</a> at the Git Contributor's Summit in September. Complicating the
+discussion is the Git project's lack of a policy on platform
+support, and the fact that it does already have tools written in other
+languages.
+While the project has not committed to using
+or avoiding Rust, it seems like only a matter of time until maintainers will
+have to make a decision.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/998115/</guid>
+            <pubDate>Fri, 22 Nov 2024 15:13:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The beginning of the 6.13 merge window</title>
+            <link>https://lwn.net/Articles/998623/</link>
+            <description><![CDATA[As of this writing, just over 1,800 non-merge changesets have been pulled
+into the mainline kernel for the 6.13 release.  That number may seem small,
+given that a typical merge window brings in at least 12,000 commits, but
+the early pulls this time around have focused on significant core changes,
+and there are quite a few of them.  The time has come to summarize the
+changes pulled so far, including lazy preemption, multi-grained timestamps,
+new extended-attribute system calls, and more.]]></description>
+            <guid>https://lwn.net/Articles/998623/</guid>
+            <pubDate>Thu, 21 Nov 2024 15:39:31 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernel 6.6.65 fixes two regressions</title>
             <link>https://lwn.net/Articles/1001732/</link>
