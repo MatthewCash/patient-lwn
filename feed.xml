@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Dec 2024 13:43:38 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Dec 2024 14:11:13 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Dec 2024 14:28:41 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Dec 2024 14:33:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -512,35 +512,6 @@ extensive rebranding effort:
             <guid>https://lwn.net/Articles/1000880/</guid>
             <pubDate>Thu, 05 Dec 2024 15:15:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernels 6.12.2, 6.11.11, and 4.19.325</title>
-            <link>https://lwn.net/Articles/1000871/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1000872/">6.12.2</a>, <a
-href="https://lwn.net/Articles/1000873/">6.11.11</a>, and <a
-href="https://lwn.net/Articles/1000874/">4.19.325</a> stable kernels.  Note that both
-6.11.11 and 4.19.325 are the last kernels in those series, "<q>please move
-off to a newer kernel version</q>".  In the 4.19.325 release notice, he has
-a rather longer-than-usual message, including:
-
-<blockquote class="bq">
-As a "fun" proof that this one is finished (and that any company saying
-they care about it really should have their statements validated with
-facts), I looked at the "unfixed" CVEs from this kernel release.
-Currently it is a list 983 CVEs long, too long to list here.
-<p>
-You can verify it yourself by cloning the vulns.git repo at
-git.kernel.org and running:
-<pre>
-	./scripts/strak v4.19.325
-</pre>
-Note, this does NOT count the hardware CVEs which kernel.org does not
-track, and many are sill unfixed in this kernel branch.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1000871/</guid>
-            <pubDate>Thu, 05 Dec 2024 14:20:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
