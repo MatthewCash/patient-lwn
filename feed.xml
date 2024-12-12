@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 12 Dec 2024 18:57:50 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Dec 2024 19:09:19 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Dec 2024 19:24:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -470,37 +470,6 @@ Runtime</a>, OP-TEE, and more.
             <guid>https://lwn.net/Articles/1001013/</guid>
             <pubDate>Thu, 05 Dec 2024 23:38:50 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Let&apos;s Encrypt sets date for ending OSCP support</title>
-            <link>https://lwn.net/Articles/1000941/</link>
-            <description><![CDATA[<p>In July, Let's Encrypt <a
-href="https://lwn.net/Articles/982965/">announced</a> it was ending
-support "<q>as soon as possible</q>" for the <a
-href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">Online
-Certificate Status Protocol</a> (OCSP) in favor of <a
-href="https://en.wikipedia.org/wiki/Certificate_revocation_list">Certificate
-Revocation Lists</a> (CRLs) due to privacy concerns. The organization
-has now <a
-href="https://letsencrypt.org/2024/12/05/ending-ocsp/">announced</a>
-that it has set a timeline, and will be turning off its OCSP
-responders on August&nbsp;6, 2025. There is additional action required
-for Let's Encrypt users who use the OSCP Must Staple Extension:</p>
-
-<blockquote class="bq">
-<p>As of January 30, 2025, issuance requests that include the OCSP
-Must Staple extension will fail, unless the requesting account has
-previously issued a certificate containing the OCSP Must Staple
-extension.</p>
-
-<p>As of May 7, all issuance requests that include the OCSP Must
-Staple extension will fail, including renewals. Please change your
-ACME client configuration to not request the extension.</p>
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1000941/</guid>
-            <pubDate>Thu, 05 Dec 2024 19:22:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
