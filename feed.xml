@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 12 Dec 2024 13:43:38 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Dec 2024 13:49:44 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Dec 2024 14:11:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -540,14 +540,6 @@ track, and many are sill unfixed in this kernel branch.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1000871/</guid>
             <pubDate>Thu, 05 Dec 2024 14:20:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1000870/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (thunderbird, tuned, and webkitgtk), <b>Mageia</b> (python-aiohttp and qemu), <b>Oracle</b> (container-tools:ol8, firefox, java-1.8.0-openjdk, java-11-openjdk, kernel, kernel:4.18.0, krb5, pam, postgresql:16, python-tornado, python3:3.6.8, thunderbird, tigervnc, tuned, and webkit2gtk3), <b>Red Hat</b> (bzip2, postgresql, postgresql:13, postgresql:15, postgresql:16, python-tornado, and ruby:3.1), <b>Slackware</b> (python3), <b>SUSE</b> (postgresql, postgresql16, postgresql17, postgresql13, postgresql14, postgresql15, python-python-multipart, and python3), and <b>Ubuntu</b> (python-django and recutils).]]></description>
-            <guid>https://lwn.net/Articles/1000870/</guid>
-            <pubDate>Thu, 05 Dec 2024 14:08:03 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
