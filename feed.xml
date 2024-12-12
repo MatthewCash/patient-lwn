@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 12 Dec 2024 23:09:59 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Dec 2024 23:38:35 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Dec 2024 23:48:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -459,40 +459,6 @@ The other stable branches are continuing on their normal cadence, with
             <guid>https://lwn.net/Articles/1001164/</guid>
             <pubDate>Fri, 06 Dec 2024 14:26:41 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Apertis v2024 released</title>
-            <link>https://lwn.net/Articles/1001013/</link>
-            <description><![CDATA[<a href="https://www.apertis.org/">Apertis</a> is a Collabora-developed
-Debian derivative distribution designed to be incorporated into electronic
-devices; the <a
-href="https://www.collabora.com/news-and-blog/news-and-events/apertis-v2024-the-new-bookworm-based-release-for-industrial-embedded-devices.html">v2024
-release</a> is now available.  It is now based on the Bookworm release, and
-includes support for Podman, <a href="https://onnxruntime.ai/">ONNX
-Runtime</a>, OP-TEE, and more.
-<p>
-<blockquote class="bq">
-	Apertis relies on the Debian Free Software Guidelines to ensure all
-	software shipped is open source or, in limited cases, at least
-	freely distributable. However, for some customers this is not
-	enough to be able to adopt OSS solutions as in their evaluations
-	some provisions in common licenses like the GPL-3 are at odds with
-	regulatory constraints they are subject to. Apertis does not set to
-	solve this decades-long debate, and instead its goal is to increase
-	the adoption of modern, maintained OSS solutions in markets where
-	this has historically been a challenge. To enable this, Apertis
-	supports avoiding the use of any software under some licenses (like
-	the [GPL v3.0 license family) on target images, while still making
-	them fully available for development and for customers that do not
-	share those licensing concerns. To avoid these licenses, Apertis
-	uses more modern alternatives instead of relying on outdated and
-	unmaintained pre-GPL-3 versions. For instance, coreutils and
-	findutils (GPL-3+) are replaced in Apertis by rust-coreutils and
-	rust-findutils.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1001013/</guid>
-            <pubDate>Thu, 05 Dec 2024 23:38:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
