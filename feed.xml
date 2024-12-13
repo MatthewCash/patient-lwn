@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Dec 2024 14:30:54 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Dec 2024 14:33:17 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Dec 2024 14:35:33 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Dec 2024 14:48:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>CentOS Stream 10 and EPEL 10 released</title>
+            <link>https://lwn.net/Articles/1002044/</link>
+            <description><![CDATA[<p>The <a href="https://centos.org/">CentOS Project</a> has <a
+href="https://blog.centos.org/2024/12/introducing-centos-stream-10/">announced</a>
+the general availability of CentOS&nbsp;Stream&nbsp;10. See the <a
+href="https://centos.org/centos10/">release notes</a> for information
+on new features, changes, and removed software. The Extra Packages for
+Enterprise Linux (EPEL) 10 repository is also <a
+href="https://communityblog.fedoraproject.org/epel-10-is-now-available/">available</a>,
+and will be adding minor version repositories:</p>
+
+<blockquote class="bq">
+For the EPEL 9 release, we started building packages about six months
+before the RHEL 9 release by using CentOS Stream 9 as the initial
+build environment. For EPEL 10, we're expanding on that approach and
+doing the same thing for each minor version of RHEL 10. We will have
+separate DNF repositories for each minor version of RHEL 10, including
+CentOS Stream 10 as the leading minor version. Packages built for one
+minor version will carry forward to the next minor version. You can
+find more details about this structure in our <a href="https://docs.fedoraproject.org/en-US/epel/branches/">branching documentation</a>.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/986792/">covered</a>
+Stream&nbsp;10 and EPEL&nbsp;10 on December&nbsp;11.</p>
+<p></P>]]></description>
+            <guid>https://lwn.net/Articles/1002044/</guid>
+            <pubDate>Fri, 13 Dec 2024 14:35:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1002036/</link>
