@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Dec 2024 14:08:27 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Dec 2024 14:10:59 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Dec 2024 14:30:54 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Dec 2024 14:33:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -461,14 +461,6 @@ The other stable branches are continuing on their normal cadence, with
 </p>]]></description>
             <guid>https://lwn.net/Articles/1001202/</guid>
             <pubDate>Fri, 06 Dec 2024 15:58:41 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1001164/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, postgresql, postgresql:12, postgresql:13, postgresql:15, postgresql:16, python3:3.6.8, and thunderbird), <b>Debian</b> (clamav), <b>Fedora</b> (pam), <b>Red Hat</b> (firefox, postgresql:13, postgresql:15, python-tornado, redis:7, ruby, ruby:2.5, and ruby:3.1), <b>SUSE</b> (avahi, docker-stable, java-1_8_0-openjdk, libmozjs-128-0, obs-scm-bridge, php8, and teleport), and <b>Ubuntu</b> (ghostscript, needrestart, and shiro).]]></description>
-            <guid>https://lwn.net/Articles/1001164/</guid>
-            <pubDate>Fri, 06 Dec 2024 14:26:41 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
