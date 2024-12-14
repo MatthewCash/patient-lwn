@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 14 Dec 2024 23:24:24 +0000</pubDate>
-        <lastBuildDate>Sat, 14 Dec 2024 23:34:43 +0000</lastBuildDate>
+        <pubDate>Sat, 14 Dec 2024 23:41:34 +0000</pubDate>
+        <lastBuildDate>Sat, 14 Dec 2024 23:48:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A pile of stable kernel updates</title>
+            <link>https://lwn.net/Articles/1002175/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1002176/">6.12.5</a>,
+<a href="https://lwn.net/Articles/1002177/">6.6.66</a>,
+<a href="https://lwn.net/Articles/1002178/">6.1.120</a>,
+<a href="https://lwn.net/Articles/1002179/">5.15.174</a>,
+<a href="https://lwn.net/Articles/1002180/">5.10.231</a>, and
+<a href="https://lwn.net/Articles/1002181/">5.4.287</a>
+stable kernels have all been released; each contains a relatively large set
+of important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1002175/</guid>
+            <pubDate>Sat, 14 Dec 2024 23:35:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>CentOS Stream 10 and EPEL 10 released</title>
             <link>https://lwn.net/Articles/1002044/</link>
