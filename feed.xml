@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 16 Dec 2024 14:22:15 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Dec 2024 14:33:34 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Dec 2024 14:49:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -467,29 +467,6 @@ each with a set of important fixes throughout the kernel tree, as usual.]]></des
             <guid>https://lwn.net/Articles/1001436/</guid>
             <pubDate>Mon, 09 Dec 2024 14:33:23 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1001433/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (redis:7, ruby, ruby:2.5, and ruby:3.1), <b>Debian</b> (avahi, ceph, chromium, gsl, jinja2, php7.4, renderdoc, ruby-doorkeeper, and zabbix), <b>Fedora</b> (chromium, python3.11, and uv), <b>Gentoo</b> (Asterisk, Cacti, Chromium, Google Chrome, Microsoft Edge. Opera, Dnsmasq, firefox, HashiCorp Consul, icinga2, OATH Toolkit, OpenJDK, PostgreSQL, R, Salt, Spidermonkey, and thunderbird), <b>Mageia</b> (kubernetes), <b>Red Hat</b> (grafana, grafana-pcp, osbuild-composer, and postgresql), <b>SUSE</b> (ansible-core, firefox, glib2, java-1_8_0-ibm, kernel-firmware, nanopb, netty, python310-django-ckeditor, python310-jupyter-ydoc, radare2, skopeo, and webkit2gtk3), and <b>Ubuntu</b> (tinyproxy).]]></description>
-            <guid>https://lwn.net/Articles/1001433/</guid>
-            <pubDate>Mon, 09 Dec 2024 14:19:15 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc2</title>
-            <link>https://lwn.net/Articles/1001435/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1001434/">6.13-rc2</a> kernel prepatch is out for
-testing.  "<q>The diffstat looks a bit unusual with 80%+ drivers, and a lot of it
-one-liners, but that's actually just because of a couple of automated
-scripts that got run after -rc1 for some cleanups. Nothing
-particularly interesting, but it makes for a lot of noise in the diff.</q>"
-One of those scripts was the <tt>EXPORT_SYMBOL_NS()</tt> change (to make it
-use a quoted string for the namespace name) described in <a
-href="https://lwn.net/Articles/998221/">this article</a>.]]></description>
-            <guid>https://lwn.net/Articles/1001435/</guid>
-            <pubDate>Mon, 09 Dec 2024 14:31:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
