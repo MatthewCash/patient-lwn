@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 16 Dec 2024 14:22:15 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Dec 2024 14:49:39 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Dec 2024 15:11:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -457,16 +457,6 @@ blog post</a>.
             <guid>https://lwn.net/Articles/1001441/</guid>
             <pubDate>Mon, 09 Dec 2024 14:48:54 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Two new stable kernels</title>
-            <link>https://lwn.net/Articles/1001436/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1001437/">6.12.4</a> and <a
-href="https://lwn.net/Articles/1001438/">6.6.64</a> stable kernels have been released,
-each with a set of important fixes throughout the kernel tree, as usual.]]></description>
-            <guid>https://lwn.net/Articles/1001436/</guid>
-            <pubDate>Mon, 09 Dec 2024 14:33:23 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
