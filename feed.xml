@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Dec 2024 21:08:06 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Dec 2024 21:48:01 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Dec 2024 21:58:55 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Dec 2024 22:09:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A sapling matures: meet sq 1.0</title>
+            <link>https://lwn.net/Articles/1002411/</link>
+            <description><![CDATA[<p>The <a href="https://sequoia-pgp.org/">Sequoia PGP</a> project has <a
+href="https://sequoia-pgp.org/blog/2024/12/16/202412-sq-1.0/">announced</a>
+version 1.0 of the <tt>sq</tt> command-line tool for managing OpenPGP
+encryption and signatures. It also provides a decentralized <a
+href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public
+key infrastructure</a> (PKI), and key management facilities. This is
+the first stable release since development began on the project in
+2017.</p>
+
+<blockquote class="bq">
+<tt>sq</tt>'s PKI is probably its most notable feature, and the one we invested
+the most time in. The PKI is used to authenticate certificates, and
+messages. Authentication is necessary to ensure that you are
+encrypting to the person you think you are, and to identify who really
+authored a message; without authentication, encryption and
+verification are much weaker.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1002411/</guid>
+            <pubDate>Mon, 16 Dec 2024 21:58:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1002338/</link>
@@ -402,32 +427,6 @@ mere 21&nbsp;years of development.
             <guid>https://lwn.net/Articles/1001597/</guid>
             <pubDate>Tue, 10 Dec 2024 14:30:05 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Steering Council election interviews</title>
-            <link>https://lwn.net/Articles/1001522/</link>
-            <description><![CDATA[<p>
-When the Fedora Engineering Steering Council (FESCo) is up for election, the project posts
-interviews of the candidates in order to help Fedora contributors make an informed choice. This
-year, the candidates are
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-zbigniew-jedrzejewski-szmek-3/">
-Zbigniew Jędrzejewski-Szmek</a>,
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-tomas-hckra-2/">
-Tomáš Hrčka</a>,
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-josh-stone-2/">
-Josh Stone</a>,
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-david-cantrell-3/">
-David Cantrell</a>,
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-fabio-alessandro-locati-fale/">
-Fabio Alessandro Locati</a>, and
-<a href="https://communityblog.fedoraproject.org/fesco-election-interview-with-kevin-fenzi-3/">
-Kevin Fenzi</a>.
-All of them except for Locati are current members of the steering council.
-Voting is open until December 20.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1001522/</guid>
-            <pubDate>Mon, 09 Dec 2024 21:41:30 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
