@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Dec 2024 14:10:20 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Dec 2024 14:11:14 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Dec 2024 14:31:21 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Dec 2024 14:32:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1002703/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libsndfile, php:7.4, python3.11, python3.12, and python36:3.6), <b>Debian</b> (dpdk), <b>Mageia</b> (curl and socat), <b>Oracle</b> (firefox and tuned), <b>Red Hat</b> (bluez, containernetworking-plugins, edk2, edk2:20220126gitbb1bba3d77, edk2:20240524, expat, gstreamer1-plugins-base, gstreamer1-plugins-base and gstreamer1-plugins-good, gstreamer1-plugins-good, kernel, libsndfile, libsndfile:1.0.31, mpg123, mpg123:1.32.9, pam, python3.11-urllib3, skopeo, tuned, unbound, and unbound:1.16.2), <b>SUSE</b> (cloudflared, curl, docker, firefox, gstreamer-plugins-good, kernel, libmozjs-115-0, libmozjs-128-0, libmozjs-78-0, libsoup, ovmf, python-urllib3_1, subversion, thunderbird, and traefik), and <b>Ubuntu</b> (editorconfig-core, libspring-java, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
+ linux-gkeop, linux-ibm, linux-nvidia, linux-nvidia-6.8,
+ linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8,
+ linux-raspi, linux, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-ibm,
+ linux-ibm-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15,
+ linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-kvm, linux-raspi, linux, linux-lowlatency, linux-oracle, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-bluefield, linux-oracle, linux-oracle-5.4, and linux-oem-6.11).]]></description>
+            <guid>https://lwn.net/Articles/1002703/</guid>
+            <pubDate>Wed, 18 Dec 2024 14:12:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Fedora Asahi Remix 41 is now available</title>
             <link>https://lwn.net/Articles/1002546/</link>
