@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Dec 2024 17:31:26 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Dec 2024 17:48:11 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Dec 2024 18:04:23 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Dec 2024 18:15:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,21 +398,6 @@ new extended-attribute system calls, and more.]]></description>
             <guid>https://lwn.net/Articles/998623/</guid>
             <pubDate>Thu, 21 Nov 2024 15:39:31 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel 6.6.65 fixes two regressions</title>
-            <link>https://lwn.net/Articles/1001732/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released version <a href="https://lwn.net/Articles/1001739/">6.6.65</a> of the kernel:</p>
-
-<blockquote class="bq">
-This release only fixes a build regression for openrisc, and a runtime
-regression for domU guests.  If you don't have problems with them, no
-need to upgrade.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1001732/</guid>
-            <pubDate>Wed, 11 Dec 2024 17:43:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
