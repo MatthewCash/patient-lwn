@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Dec 2024 14:31:21 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Dec 2024 14:32:32 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Dec 2024 14:40:03 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Dec 2024 14:48:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -412,14 +412,6 @@ need to upgrade.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1001732/</guid>
             <pubDate>Wed, 11 Dec 2024 17:43:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1001728/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (proftpd-dfsg and smarty3), <b>Fedora</b> (python3.14), <b>Gentoo</b> (Distrobox, eza, idna, libvirt, and OpenSC), <b>Red Hat</b> (container-tools:rhel8 and edk2), <b>SUSE</b> (avahi, curl, libsoup2, lxd, nodejs20, python-Django, python310-Django4, python312, squid, and webkit2gtk3), and <b>Ubuntu</b> (expat, intel-microcode, linux, linux-aws, linux-kvm, linux-lts-xenial, and shiro).]]></description>
-            <guid>https://lwn.net/Articles/1001728/</guid>
-            <pubDate>Wed, 11 Dec 2024 14:18:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
