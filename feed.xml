@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Dec 2024 15:21:32 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Dec 2024 15:37:29 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Dec 2024 15:38:19 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Dec 2024 15:48:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Grml 2024.12 released</title>
+            <link>https://lwn.net/Articles/1003048/</link>
+            <description><![CDATA[<p><a href="https://blog.grml.org/archives/418-Grml-new-stable-release-2024.12-available.html">Version 2024.12</a> of the Debian-based <a href="https://grml.org/">Grml</a> live Linux system for system administrators has been released. Grml 2024.12 uses packages from the upcoming Debian 13 ("trixie") release. It drops support for 32-bit x86 PCs and gains support for 64-bit ARM CPUs. See the <a href="https://grml.org/changelogs/README-grml-2024.12/">release notes</a> for a full list of changes and new features.</p>]]></description>
+            <guid>https://lwn.net/Articles/1003048/</guid>
+            <pubDate>Fri, 20 Dec 2024 15:38:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1003019/</link>
