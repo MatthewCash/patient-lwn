@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 21 Dec 2024 16:10:34 +0000</pubDate>
-        <lastBuildDate>Sat, 21 Dec 2024 16:31:23 +0000</lastBuildDate>
+        <pubDate>Sat, 21 Dec 2024 16:39:33 +0000</pubDate>
+        <lastBuildDate>Sat, 21 Dec 2024 16:42:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stenberg: Dropping hyper</title>
+            <link>https://lwn.net/Articles/1003161/</link>
+            <description><![CDATA[Curl maintainer Daniel Stenberg <a
+href="https://daniel.haxx.se/blog/2024/12/21/dropping-hyper/">announces</a>
+that the curl project will be dropping hyper, its experimental HTTP backend
+written in Rust, due to lack of developer interest.
+<p>
+<blockquote class="bq">
+	While the experiment itself is deemed a failure, I think we learned
+	from it and improved curl in the process. We had to rethink and
+	reassess several implementation details when we aligned HTTP
+	behavior with hyper. libcurl parses and handles HTTP stricter
+	now. Better.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1003161/</guid>
+            <pubDate>Sat, 21 Dec 2024 16:39:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Grml 2024.12 released</title>
             <link>https://lwn.net/Articles/1003048/</link>
