@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 22 Dec 2024 20:49:53 +0000</pubDate>
-        <lastBuildDate>Sun, 22 Dec 2024 21:47:59 +0000</lastBuildDate>
+        <pubDate>Sun, 22 Dec 2024 22:04:56 +0000</pubDate>
+        <lastBuildDate>Sun, 22 Dec 2024 22:09:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.13-rc4</title>
+            <link>https://lwn.net/Articles/1003223/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1003222/">6.13-rc4</a> for testing.
+"<q>So this definitely is looking a bit smaller than most rc4s, and I
+expect (and hope) that rc5 will be absolutely tiny because you should
+all already be relaxing over the xmas holidays.
+
+But hey, if somebody is out there keeping the lights on, please do
+keep testing.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1003223/</guid>
+            <pubDate>Sun, 22 Dec 2024 22:02:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Darktable 5.0.0 released</title>
             <link>https://lwn.net/Articles/1003200/</link>
