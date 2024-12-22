@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 21 Dec 2024 21:18:12 +0000</pubDate>
-        <lastBuildDate>Sat, 21 Dec 2024 23:48:05 +0000</lastBuildDate>
+        <pubDate>Sat, 21 Dec 2024 23:55:09 +0000</pubDate>
+        <lastBuildDate>Sun, 22 Dec 2024 00:49:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -334,22 +334,6 @@ href="https://www.xfce.org/about/tour420">the Xfce 4.20 tour</a> for an
 overview of the changes in this release.]]></description>
             <guid>https://lwn.net/Articles/1002245/</guid>
             <pubDate>Sun, 15 Dec 2024 22:23:22 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A pile of stable kernel updates</title>
-            <link>https://lwn.net/Articles/1002175/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1002176/">6.12.5</a>,
-<a href="https://lwn.net/Articles/1002177/">6.6.66</a>,
-<a href="https://lwn.net/Articles/1002178/">6.1.120</a>,
-<a href="https://lwn.net/Articles/1002179/">5.15.174</a>,
-<a href="https://lwn.net/Articles/1002180/">5.10.231</a>, and
-<a href="https://lwn.net/Articles/1002181/">5.4.287</a>
-stable kernels have all been released; each contains a relatively large set
-of important fixes.]]></description>
-            <guid>https://lwn.net/Articles/1002175/</guid>
-            <pubDate>Sat, 14 Dec 2024 23:35:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
