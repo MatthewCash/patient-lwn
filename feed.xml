@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 22 Dec 2024 13:55:40 +0000</pubDate>
-        <lastBuildDate>Sun, 22 Dec 2024 14:48:06 +0000</lastBuildDate>
+        <pubDate>Sun, 22 Dec 2024 15:07:03 +0000</pubDate>
+        <lastBuildDate>Sun, 22 Dec 2024 15:08:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Darktable 5.0.0 released</title>
+            <link>https://lwn.net/Articles/1003200/</link>
+            <description><![CDATA[<p><a
+href="https://www.darktable.org/2024/12/darktable-5.0.0-released/">Version
+5.0.0</a> of the <a href="https://www.darktable.org/">darktable</a>
+photography workflow application has been released. Major changes in
+this release include user-interface/user-experience (UI/UX)
+improvements, speed improvements for bulk operations, and the addition
+of a <tt>inter-script-communication</tt> event to allow a running
+script to send messages to another running script. LWN last <a
+href="https://lwn.net/Articles/881853/">looked at darktable</a> in
+2022.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1003200/</guid>
+            <pubDate>Sun, 22 Dec 2024 15:07:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Stenberg: Dropping hyper</title>
             <link>https://lwn.net/Articles/1003161/</link>
