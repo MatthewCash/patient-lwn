@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 22 Dec 2024 22:04:56 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Dec 2024 00:47:14 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Dec 2024 02:10:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -343,18 +343,6 @@ verification are much weaker.
             <guid>https://lwn.net/Articles/1002338/</guid>
             <pubDate>Mon, 16 Dec 2024 14:04:49 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc3</title>
-            <link>https://lwn.net/Articles/1002251/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1002250/">6.13-rc3</a> for testing.
-"<q>Earlier this week it felt to me like things might have already started
-to quiet down in prep for the holidays, but doing the statistics on rc3
-that doesn't actually seem to be the case - this looks very regular both in
-number of commits and in diff size</q>".]]></description>
-            <guid>https://lwn.net/Articles/1002251/</guid>
-            <pubDate>Mon, 16 Dec 2024 00:40:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
