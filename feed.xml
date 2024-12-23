@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 23 Dec 2024 20:24:40 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Dec 2024 21:47:59 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Dec 2024 22:09:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -341,31 +341,6 @@ kernel support, GNOME&nbsp;47, and more.]]></description>
             <guid>https://lwn.net/Articles/1002498/</guid>
             <pubDate>Tue, 17 Dec 2024 15:04:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A sapling matures: meet sq 1.0</title>
-            <link>https://lwn.net/Articles/1002411/</link>
-            <description><![CDATA[<p>The <a href="https://sequoia-pgp.org/">Sequoia PGP</a> project has <a
-href="https://sequoia-pgp.org/blog/2024/12/16/202412-sq-1.0/">announced</a>
-version 1.0 of the <tt>sq</tt> command-line tool for managing OpenPGP
-encryption and signatures. It also provides a decentralized <a
-href="https://en.wikipedia.org/wiki/Public_key_infrastructure">public
-key infrastructure</a> (PKI), and key management facilities. This is
-the first stable release since development began on the project in
-2017.</p>
-
-<blockquote class="bq">
-<tt>sq</tt>'s PKI is probably its most notable feature, and the one we invested
-the most time in. The PKI is used to authenticate certificates, and
-messages. Authentication is necessary to ensure that you are
-encrypting to the person you think you are, and to identify who really
-authored a message; without authentication, encryption and
-verification are much weaker.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1002411/</guid>
-            <pubDate>Mon, 16 Dec 2024 21:58:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
