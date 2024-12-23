@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Dec 2024 14:00:19 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Dec 2024 14:10:05 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Dec 2024 14:27:52 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Dec 2024 14:30:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -335,14 +335,6 @@ verification are much weaker.
             <guid>https://lwn.net/Articles/1002411/</guid>
             <pubDate>Mon, 16 Dec 2024 21:58:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1002338/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0, gstreamer1.0, and libpgjava), <b>Fedora</b> (bpftool, chromium, golang-x-crypto, kernel, kernel-headers, linux-firmware, pytest, python3.10, subversion, and thunderbird), <b>Gentoo</b> (NVIDIA Drivers), <b>Oracle</b> (kernel, perl-App-cpanminus:1.7044, php:7.4, php:8.1, php:8.2, postgresql, python3.11, python3.12, python3.9:3.9.21, python36:3.6, ruby, and ruby:2.5), <b>SUSE</b> (docker-stable, firefox-esr, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, kernel, python-Django, python312, and socat), and <b>Ubuntu</b> (mpmath).]]></description>
-            <guid>https://lwn.net/Articles/1002338/</guid>
-            <pubDate>Mon, 16 Dec 2024 14:04:49 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
