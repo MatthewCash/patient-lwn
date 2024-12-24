@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Dec 2024 15:09:13 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Dec 2024 15:09:57 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Dec 2024 15:23:04 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Dec 2024 15:27:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -330,25 +330,6 @@ status of Asahi's GPU drivers in October.</p>]]></description>
             <guid>https://lwn.net/Articles/1002546/</guid>
             <pubDate>Tue, 17 Dec 2024 18:46:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1002496/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gstreamer1.0), <b>Fedora</b> (jupyterlab and python-notebook), <b>Oracle</b> (gimp:2.8.22, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, php:8.2, postgresql, and python3.11), <b>SUSE</b> (aws-iam-authenticator, firefox, installation-images, kernel, libaom, libyuv, libsoup, libsoup2, python-aiohttp, socat, thunderbird, and vim), and <b>Ubuntu</b> (curl, Docker, imagemagick, and kernel).]]></description>
-            <guid>https://lwn.net/Articles/1002496/</guid>
-            <pubDate>Tue, 17 Dec 2024 14:58:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kali Linux 2024.4 released</title>
-            <link>https://lwn.net/Articles/1002498/</link>
-            <description><![CDATA[<a href="https://www.kali.org/blog/kali-linux-2024-4-release/">Version
-2024.4</a> of the Kali Linux penetration-testing distribution has been
-released.  Changes include a switch to Python&nbsp;3.12, the removal of i386
-kernel support, GNOME&nbsp;47, and more.]]></description>
-            <guid>https://lwn.net/Articles/1002498/</guid>
-            <pubDate>Tue, 17 Dec 2024 15:04:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
