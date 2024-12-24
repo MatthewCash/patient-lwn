@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Dec 2024 18:43:53 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Dec 2024 18:49:14 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Dec 2024 18:57:42 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Dec 2024 19:08:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -302,33 +302,6 @@ before the release of Debian&nbsp;13 ("trixie") sometime next year.</p>]]></desc
  linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-kvm, linux-raspi, linux, linux-lowlatency, linux-oracle, linux-aws, linux-aws-5.15, linux-aws, linux-aws-5.4, linux-bluefield, linux-oracle, linux-oracle-5.4, and linux-oem-6.11).]]></description>
             <guid>https://lwn.net/Articles/1002703/</guid>
             <pubDate>Wed, 18 Dec 2024 14:12:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Asahi Remix 41 is now available</title>
-            <link>https://lwn.net/Articles/1002546/</link>
-            <description><![CDATA[<p>Fedora Magazine <a
-href="https://fedoramagazine.org/fedora-asahi-remix-41-is-now-available/">reports</a>
-that the <a href="https://fedora-asahi-remix.org/">Fedora Asahi Remix</a> 41 for Apple Silicon is now available:</p>
-
-<blockquote class="bq">
-In addition to all the exciting improvements brought by Fedora Linux
-41, Fedora Asahi Remix 41 provides <a
-href="https://asahilinux.org/2024/12/muvm-x11-bridging/">x86/x86-64
-emulation</a> integration including support for <a
-href="https://asahilinux.org/2024/10/aaa-gaming-on-asahi-linux/">AAA
-games</a> to Apple Silicon. The game support is based on the new
-conformant <a
-href="https://rosenzweig.io/blog/vulkan-14-sur-asahi-linux.html">Vulkan
-1.4</a> driver. It also continues to provide extensive device support,
-including high quality audio out of the box.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/995383/">covered</a> a talk
-from the X.org Developers Conference (XDC) by Alyssa Rosenzweig on the
-status of Asahi's GPU drivers in October.</p>]]></description>
-            <guid>https://lwn.net/Articles/1002546/</guid>
-            <pubDate>Tue, 17 Dec 2024 18:46:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
