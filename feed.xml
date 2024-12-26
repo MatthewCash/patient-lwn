@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Dec 2024 15:04:52 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Dec 2024 15:48:11 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Dec 2024 15:51:46 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Dec 2024 16:12:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1003542/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (fastnetmon, webkit2gtk, and xen), <b>Fedora</b> (sympa), <b>Oracle</b> (postgresql), and <b>Red Hat</b> (pcp, tigervnc, and xorg-x11-server and xorg-x11-server-Xwayland).]]></description>
+            <guid>https://lwn.net/Articles/1003542/</guid>
+            <pubDate>Thu, 26 Dec 2024 15:51:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for December 19, 2024</title>
             <link>https://lwn.net/Articles/1001869/</link>
@@ -268,14 +276,6 @@ As usual, they contain important fixes throughout the kernel tree.]]></descripti
             <guid>https://lwn.net/Articles/1002917/</guid>
             <pubDate>Thu, 19 Dec 2024 18:00:23 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1002903/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bluez, edk2:20220126gitbb1bba3d77, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, kernel-rt, mpg123, php:8.2, python3.11-urllib3, and tuned), <b>Fedora</b> (ColPack, glibc, golang-github-chainguard-dev-git-urls, golang-github-task, icecat, python-nbdime, python3.13, and python3.14), <b>Mageia</b> (kernel, kmod-xtables-addons, kmod-virtualbox, dwarves and kernel-linus), <b>Red Hat</b> (gstreamer1-plugins-base and gstreamer1-plugins-good), <b>SUSE</b> (curl, emacs, git-bug, glib2, helm, kernel, and traefik2), and <b>Ubuntu</b> (gst-plugins-base1.0, gst-plugins-good1.0, gstreamer1.0, libvpx, linux-gcp, phpunit, and yara).]]></description>
-            <guid>https://lwn.net/Articles/1002903/</guid>
-            <pubDate>Thu, 19 Dec 2024 16:00:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
