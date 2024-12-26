@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Dec 2024 21:22:02 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Dec 2024 00:44:25 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Dec 2024 01:40:27 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Dec 2024 02:07:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -301,130 +301,6 @@ fish 4.0 is a big upgrade. It's got lots of new features to make using the comma
             <guid>https://lwn.net/Articles/1002820/</guid>
             <pubDate>Thu, 19 Dec 2024 14:24:40 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for December 12, 2024</title>
-            <link>https://lwn.net/Articles/1000812/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for December 12, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/1000812/</guid>
-            <pubDate>Thu, 12 Dec 2024 00:38:57 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at CentOS Stream 10</title>
-            <link>https://lwn.net/Articles/986792/</link>
-            <description><![CDATA[<p>The <a
-href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10-beta/html/10.0_beta_release_notes/index">Red
-Hat Enterprise Linux (RHEL) 10 beta</a> was released in mid-November
-and, if all goes according to plan, <a
-href="https://www.centos.org/centos-stream/">CentOS&nbsp;Stream</a>&nbsp;10
-should be released before the end of the year. While nothing is etched
-in stone just yet, it is a good time for anyone using or targeting
-RHEL (and its clones) to start taking a look at how Stream&nbsp;10,
-and the corresponding <a
-href="https://docs.fedoraproject.org/en-US/epel/epel-about/">EPEL</a>
-repository, is shaping up. This is not only important to RHEL and
-Stream users, but anyone deploying and supporting software on
-enterprise Linux (EL) derivatives like AlmaLinux, Oracle&nbsp;Linux,
-and Rocky&nbsp;Linux as well.</p>]]></description>
-            <guid>https://lwn.net/Articles/986792/</guid>
-            <pubDate>Wed, 11 Dec 2024 19:10:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Auto-tuning the kernel</title>
-            <link>https://lwn.net/Articles/998576/</link>
-            <description><![CDATA[<p>
-The Linux kernel has many tunable parameters. While there is much advice
-available on the internet about how to set them, few people have the time to
-weed through the (often contradictory) explanations and choose appropriate
-values. One possible way to address this is
-<a href="https://blogs.oracle.com/linux/post/introducing-bpftune">
-a project called bpftune</a>, a
-program that uses BPF to track various metrics about a running system and
-adjust the sysctl knobs appropriately. The program is developed by Oracle, and
-is available under a GPLv2 license. Bpftune is currently mostly
-focused on optimizing network settings, but the authors hope that the system is
-flexible enough to be extended to cover other settings.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/998576/</guid>
-            <pubDate>Wed, 11 Dec 2024 14:19:45 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A Zephyr-based camera trap for seagrass monitoring</title>
-            <link>https://lwn.net/Articles/998893/</link>
-            <description><![CDATA[In a session at
-<a href="https://events.linuxfoundation.org/open-source-summit-europe/">Open Source Summit Europe</a>
-(OSSEU) back in September, Alex Bucknall gave an overview of a camera "trap"—a
-device to capture images in a non-intrusive way—that he helped develop 
-which is being used to monitor <a
-href="https://en.wikipedia.org/wiki/Seagrass">seagrass</a>.  He works for
-the <a href="https://arribada.org/">Arribada Initiative</a>, which is a
-non-profit organization
-focused on creating open-source technology for studying wildlife and ecosystems.
-The camera system uses the <a href="https://zephyrproject.org/">Zephyr</a>
-realtime operating system (RTOS) on an open platform that is designed to be
-inexpensive and usable for multiple applications.]]></description>
-            <guid>https://lwn.net/Articles/998893/</guid>
-            <pubDate>Tue, 10 Dec 2024 16:38:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Finally continuing the discussion over continue in finally</title>
-            <link>https://lwn.net/Articles/1000635/</link>
-            <description><![CDATA[<p>
-In 2019, the Python community had a
-<a href="https://discuss.python.org/t/pep-601-forbid-return-break-continue-breaking-out-of-finally/2239">
-lengthy discussion</a> about changing the rules (that some find counterintuitive) on
-using <tt>break</tt>, <tt>continue</tt>, or <tt>return</tt> statements in
-<tt>finally</tt> blocks. These are all ways of jumping out of a <tt>finally</tt>
-block, which can interrupt the handling of a raised exception.
-At the time, the Python developers chose not to change
-things, because the consensus was that the existing behavior was not a problem. Now, after
-<a href="https://github.com/iritkatriel/finally/blob/main/README.md">a
-report</a> put together by Irit Katriel, the project is once again considering
-changing the language.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1000635/</guid>
-            <pubDate>Mon, 09 Dec 2024 15:33:31 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Freezing out the page reference count</title>
-            <link>https://lwn.net/Articles/1000654/</link>
-            <description><![CDATA[The <a
-href="https://elixir.bootlin.com/linux/v6.12.1/source/include/linux/mm_types.h#L35"><tt>page</tt>
-structure</a> sits at the core of the kernel's memory-management subsystem
-(for now), and a key part of that structure is its reference count, stored
-in <tt>refcount</tt>.  The page reference count tells the kernel how many
-users a given page has and when it can be freed.  That count is not needed
-for every page in the system, though.  Matthew Wilcox has recently <a
-href="https://lwn.net/ml/all/20241125210149.2976098-1-willy@infradead.org">resurrected</a>
-an <a href="https://lwn.net/ml/linux-mm/20220809171854.3725722-1-willy@infradead.org/">old
-patch set</a> that expands the concept of a "frozen" page — one that lacks a
-meaningful reference count — to the immediate benefit of the slab allocator
-but in the service of a longer-term goal as well.]]></description>
-            <guid>https://lwn.net/Articles/1000654/</guid>
-            <pubDate>Fri, 06 Dec 2024 15:55:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian opens a can of username worms</title>
-            <link>https://lwn.net/Articles/1000485/</link>
-            <description><![CDATA[<p>It has long been said that <a
-href="https://martinfowler.com/bliki/TwoHardThings.html">naming things
-is one of the hard things to do in computer science</a>. That may be
-so, but it pales in comparison to the challenge of handling
-usernames properly in applications. This is especially true when multiple
-applications are involved, and they are all supposed to agree on what
-characters are, and are not, allowed. The Debian project is facing
-that problem right now, as two user-creation utilities disagreed about
-which names are allowable. A plan is in place to sort this out
-before the release of Debian&nbsp;13 ("trixie") sometime next year.</p>]]></description>
-            <guid>https://lwn.net/Articles/1000485/</guid>
-            <pubDate>Thu, 05 Dec 2024 16:00:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
