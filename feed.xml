@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Dec 2024 14:16:20 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Dec 2024 14:29:38 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Dec 2024 14:34:14 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Dec 2024 14:39:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -299,14 +299,6 @@ written in Rust, due to lack of developer interest.
             <description><![CDATA[<p><a href="https://blog.grml.org/archives/418-Grml-new-stable-release-2024.12-available.html">Version 2024.12</a> of the Debian-based <a href="https://grml.org/">Grml</a> live Linux system for system administrators has been released. Grml 2024.12 uses packages from the upcoming Debian 13 ("trixie") release. It drops support for 32-bit x86 PCs and gains support for 64-bit ARM CPUs. See the <a href="https://grml.org/changelogs/README-grml-2024.12/">release notes</a> for a full list of changes and new features.</p>]]></description>
             <guid>https://lwn.net/Articles/1003048/</guid>
             <pubDate>Fri, 20 Dec 2024 15:38:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1003019/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and gunicorn), <b>Fedora</b> (jupyterlab), <b>Oracle</b> (bluez, containernetworking-plugins, edk2:20220126gitbb1bba3d77, edk2:20240524, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, libsndfile, libsndfile:1.0.31, mpg123, mpg123:1.32.9, pam, python3.11-urllib3, skopeo, tuned, and unbound:1.16.2), <b>SUSE</b> (avahi, docker, emacs, govulncheck-vulndb, haproxy, kernel, libmozjs-128-0, python-grpcio, python310-xhtml2pdf, sudo, and tailscale), and <b>Ubuntu</b> (dpdk, linux-hwe-5.15, and linux-iot).]]></description>
-            <guid>https://lwn.net/Articles/1003019/</guid>
-            <pubDate>Fri, 20 Dec 2024 14:24:44 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
