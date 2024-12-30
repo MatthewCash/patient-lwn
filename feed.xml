@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Dec 2024 19:16:16 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Dec 2024 20:11:19 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Dec 2024 20:23:48 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Dec 2024 20:28:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Cook: Colliding with the SHA prefix of Linux&apos;s initial Git commit</title>
+            <link>https://lwn.net/Articles/1003797/</link>
+            <description><![CDATA[Kees Cook <a
+href="https://people.kernel.org/kees/colliding-with-the-sha-prefix-of-linuxs-initial-git-commit">describes
+his work</a> resulting in a kernel documentation commit whose ID shares the
+same first 12 characters as the initial commit in the kernel's repository.
+<p>
+<blockquote class="bq">
+	This is not yet in the upstream Linux tree, for fear of breaking
+	countless other tools out in the wild. But it can serve as a test
+	commit for those that want to get this fixed ahead of any future
+	collisions (or this commit actually landing).
+</blockquote>
+<p>
+LWN <a href="https://lwn.net/Articles/1001526/">looked at commit-ID collisions</a> a few
+weeks back.]]></description>
+            <guid>https://lwn.net/Articles/1003797/</guid>
+            <pubDate>Mon, 30 Dec 2024 20:23:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora Linux 41 election results</title>
             <link>https://lwn.net/Articles/1003303/</link>
