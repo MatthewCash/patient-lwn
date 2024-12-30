@@ -9,10 +9,20 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 30 Dec 2024 14:11:38 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Dec 2024 14:39:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 30 Dec 2024 14:48:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1003287/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0, libxstream-java, php-laravel-framework, python-urllib3, and sqlparse), <b>Fedora</b> (chromium, libcomps, libdnf, mingw-directxmath, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-orc, ofono, prometheus-podman-exporter, python3-docs, python3.13, and webkitgtk), <b>Mageia</b> (mozjs78, thunderbird, and tomcat, tomcat packages), <b>SUSE</b> (aalto-xml, flatten-maven-plugin, jctools, moditect, netty, netty-tcnative, chromedriver, govulncheck-vulndb, grpc, kernel, python-aiohttp, python-python-sql, and vim), and <b>Ubuntu</b> (linux, linux-gkeop, linux-ibm, linux-ibm-5.15, linux-kvm,
+ linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15 and linux-aws, linux-aws-5.4, linux-bluefield, linux-ibm, linux-ibm-5.4,
+ linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp).]]></description>
+            <guid>https://lwn.net/Articles/1003287/</guid>
+            <pubDate>Mon, 23 Dec 2024 14:37:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.13-rc4</title>
             <link>https://lwn.net/Articles/1003223/</link>
