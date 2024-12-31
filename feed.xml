@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 31 Dec 2024 15:26:28 +0000</pubDate>
-        <lastBuildDate>Tue, 31 Dec 2024 15:27:22 +0000</lastBuildDate>
+        <pubDate>Tue, 31 Dec 2024 15:33:18 +0000</pubDate>
+        <lastBuildDate>Tue, 31 Dec 2024 15:35:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LineageOS 22.1 released</title>
+            <link>https://lwn.net/Articles/1003862/</link>
+            <description><![CDATA[<a href="https://lineageos.org/Changelog-29/">Version 22.1</a> of the
+Android-based LineageOS distribution is out.
+<p>
+<blockquote class="bq">
+	We've been hard at work since Android 15's release in September,
+	adapting our unique features to this new version of
+	Android. Android 15 introduced several complex changes under the
+	hood, but due to our previous efforts adapting to Google's
+	UI-centric adjustments in Android 12 through 14, we were able to
+	rebase onto Android 15's code-base faster than anticipated.
+<p>
+	Additionally, this is far-and-away the easiest bringup cycle from a
+	device perspective we have seen in years. This means that many more
+	devices are ready on day one that we'd typically expect to have up
+	this early in the cycle!
+<p>
+	Last, but not least, we even had enough time and resources to
+	introduce not one, but two new exciting apps! The first one,
+	Twelve, will replace our aging music app, while the other one,
+	Camelot, will let you view PDF files.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1003862/</guid>
+            <pubDate>Tue, 31 Dec 2024 15:33:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1003381/</link>
