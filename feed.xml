@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 31 Dec 2024 14:46:22 +0000</pubDate>
-        <lastBuildDate>Tue, 31 Dec 2024 14:48:20 +0000</lastBuildDate>
+        <pubDate>Tue, 31 Dec 2024 15:07:56 +0000</pubDate>
+        <lastBuildDate>Tue, 31 Dec 2024 15:09:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1003381/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, edk2:20240524, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, libsndfile:1.0.31, mpg123:1.32.9, pam, php:8.1, php:8.2, python3.11, python3.11-urllib3, python3.12, python3.9:3.9.21, skopeo, and unbound:1.16.2), <b>Debian</b> (intel-microcode), <b>Fedora</b> (python3-docs and python3.12), <b>Mageia</b> (emacs), <b>Red Hat</b> (podman), and <b>SUSE</b> (gdb, govulncheck-vulndb, libparaview5_12, mozjs115, mozjs78, and vhostmd).]]></description>
+            <guid>https://lwn.net/Articles/1003381/</guid>
+            <pubDate>Tue, 24 Dec 2024 15:08:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1003856/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (debootstrap) and <b>SUSE</b> (assimp-devel, grpc, libQt6Pdf6, and poppler).]]></description>
+            <guid>https://lwn.net/Articles/1003856/</guid>
+            <pubDate>Tue, 31 Dec 2024 15:02:48 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Cook: Colliding with the SHA prefix of Linux&apos;s initial Git commit</title>
             <link>https://lwn.net/Articles/1003797/</link>
