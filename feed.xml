@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Jan 2025 15:19:28 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Jan 2025 16:33:11 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Jan 2025 16:36:56 +0000</pubDate>
+        <lastBuildDate>Wed, 1 Jan 2025 16:49:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>An Algol 68 front end for GCC</title>
+            <link>https://lwn.net/Articles/1003916/</link>
+            <description><![CDATA[While some people are focused on new and trendy languages, José Marchesi
+has, instead, gifted the world with <a
+href="https://lwn.net/ml/all/20250101020952.18404-1-jose.marchesi@oracle.com">a GCC front
+end for the Algol 68 language</a>.
+<p>
+<blockquote class="bq">
+	This WIP is a GCC front-end for Algol 68, the fascinating,
+	generally poorly understood and often vilified programming
+	language.  It is common knowledge that Algol 68 was well ahead of
+	its time back when it was introduced, and anyone who knows the
+	language well will suspect this probably still holds true today,
+	but more than fifty years after the publication of the Revised
+	Report the world may finally be ready for it, or perhaps not, we
+	shall see.
+</blockquote>
+<p>
+For those who see Algol 68 as too new, there was also <a
+href="https://lwn.net/ml/all/20241212125636.77ae7917eeb8dacf76197d1c@schemamania.org">a
+COBOL front end</a> posted in December.]]></description>
+            <guid>https://lwn.net/Articles/1003916/</guid>
+            <pubDate>Wed, 01 Jan 2025 16:36:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1003913/</link>
