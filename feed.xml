@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Jan 2025 22:50:06 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Jan 2025 00:44:20 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Jan 2025 01:50:47 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Jan 2025 02:06:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -256,133 +256,6 @@ modularization, and more.]]></description>
             <guid>https://lwn.net/Articles/1003542/</guid>
             <pubDate>Thu, 26 Dec 2024 15:51:46 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for December 19, 2024</title>
-            <link>https://lwn.net/Articles/1001869/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for December 19, 2024 is available.]]></description>
-            <guid>https://lwn.net/Articles/1001869/</guid>
-            <pubDate>Thu, 19 Dec 2024 01:58:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Emacs code completion can cause compromise</title>
-            <link>https://lwn.net/Articles/1002046/</link>
-            <description><![CDATA[<p>
-Emacs has had a
-<a href="https://lwn.net/Articles/966547/">few bugs</a> related to accidentally
-permitting the execution of untrusted code. Unfortunately, it seems as though
-another bug of that sort has appeared — and may be harder to patch,
-because the problem comes from the way Emacs handles expansion of Lisp macros in
-code being analyzed. The
-vulnerability is only practically exploitable in a non-default configuration, so
-not every Emacs user has something to worry about. The Emacs
-developers are reportedly working on a fix, but have not yet shared details
-about it. In the meantime, every Emacs version since at least
-26.1 (released in May&nbsp;2018) through the current development version is vulnerable.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1002046/</guid>
-            <pubDate>Wed, 18 Dec 2024 14:55:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] WP Engine granted preliminary injunction in WordPress case</title>
-            <link>https://lwn.net/Articles/1001783/</link>
-            <description><![CDATA[<p>Since we <a href="https://lwn.net/Articles/993895/">last looked</a>
-at the <a href="https://lwn.net/Articles/991906/">WordPress
-dispute</a>, <a href="https://wpengine.com/">WP Engine</a> has sought
-a preliminary injunction against <a
-href="https://automattic.com/">Automattic</a> and its founder Matt Mullenweg to
-restore its access to <a
-href="https://wordpress.org/">WordPress.org</a>, and more. The judge
-in the case granted a preliminary injunction on December 10. The case
-is, of course, of interest to users and developers working with
-WordPress&mdash;but it may also have implications for other
-open-source projects well beyond the WordPress community.</p>]]></description>
-            <guid>https://lwn.net/Articles/1001783/</guid>
-            <pubDate>Tue, 17 Dec 2024 15:57:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Using Guile for Emacs</title>
-            <link>https://lwn.net/Articles/1001645/</link>
-            <description><![CDATA[<a href="https://www.gnu.org/software/emacs/">Emacs</a> is, famously, an
-editor—perhaps far more—that is extensible using its own
-variant of the Lisp programming language, <a
-href="https://www.gnu.org/software/emacs/manual/html_node/eintr/">Emacs
-Lisp</a> (or Elisp).  <a href="https://emacsconf.org/2024/">This year's
-edition of EmacsConf</a>, which is an annual "gathering" that has been held
-online for the past five years, had two separate talks on using a different
-variant of Lisp, <a href="https://www.gnu.org/software/guile/">Guile</a>,
-for Emacs.  Both projects would preserve Elisp compatibility, which is a
-must, but they would use Guile differently.  The first talk we will cover
-was given by Robin Templeton, who described the relaunch of the <a
-href="https://guile-emacs.org/">Guile-Emacs project</a>, which would replace
-the Elisp in Emacs with a compiler using Guile.  A subsequent article will look
-at the other talk, which is about <a
-href="https://emacsconf.org/2024/talks/gypsum/">an Emacs clone</a> written
-using Guile.]]></description>
-            <guid>https://lwn.net/Articles/1001645/</guid>
-            <pubDate>Mon, 16 Dec 2024 14:12:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Facing the Git commit-ID collision catastrophe</title>
-            <link>https://lwn.net/Articles/1001526/</link>
-            <description><![CDATA[Commits in the Git source-code management system are identified by the
-SHA-1 hash of their contents — though the specific hash <a
-href="https://lwn.net/Articles/898522/">may change someday</a>.  The full hash is a
-160-bit quantity, normally written as a 40-character hexadecimal string.
-While those strings are convenient for computers to work with, humans find
-them to be a bit unwieldy, so it is common to abbreviate the hash values to
-shorter strings.  Geert Uytterhoeven recently <a
-href="https://lwn.net/ml/all/cover.1733421037.git.geert+renesas@glider.be">proposed</a>
-increasing the length of those abbreviated hashes as used in the kernel
-community, but the problem he was working to solve may not be as urgent as
-it seems.]]></description>
-            <guid>https://lwn.net/Articles/1001526/</guid>
-            <pubDate>Fri, 13 Dec 2024 18:22:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Providing precise time over the network</title>
-            <link>https://lwn.net/Articles/1000434/</link>
-            <description><![CDATA[<p>
-Handling time in a networked environment is never easy. The
-<a href="https://en.wikipedia.org/wiki/Network_Time_Protocol">
-Network Time Protocol</a> (NTP) has been used to synchronize clocks across the
-internet for almost 40 years — but, as computers and networks get faster, the
-degree of synchronization it offers is not sufficient for some use cases. The
-<a href="https://en.wikipedia.org/wiki/Precision_Time_Protocol">
-Precision Time Protocol</a> (PTP) attempts to provide more precise
-time synchronization, at the
-expense of requiring dedicated kernel and hardware
-support. The Linux kernel has
-<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=d94ba80ebbea17f036cecb104398fbcd788aa742">
-supported PTP</a> since 2011, but the protocol has recently seen
-<a href="https://www.broadcom.com/blog/time-synchronization-in-data-center-networks">
-increasing use in data centers</a>. As PTP becomes more widespread, it may be
-useful to have an idea how it compares to NTP.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1000434/</guid>
-            <pubDate>Fri, 13 Dec 2024 16:51:12 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A last look at the 4.19 stable series</title>
-            <link>https://lwn.net/Articles/1000933/</link>
-            <description><![CDATA[The release of the <a
-href="https://lwn.net/ml/all/2024120520-mashing-facing-6776@gregkh/">4.19.325 stable
-kernel update</a> on December&nbsp;5 marked the end of an era of sorts.
-This kernel had been supported for just over six years since <a
-href="https://lwn.net/ml/linux-kernel/20181022073224.GA5658@kroah.com/">its initial
-release</a> in October 2018; over that time, 325 updates were released,
-adding 30,109 fixes.  Few Linux kernels receive public support for so long;
-it is worth taking a look at this kernel's history to see how it played
-out.]]></description>
-            <guid>https://lwn.net/Articles/1000933/</guid>
-            <pubDate>Thu, 12 Dec 2024 14:28:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
         <item>
             <title>Security updates for Wednesday</title>
