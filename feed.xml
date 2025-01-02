@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Jan 2025 13:14:57 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Jan 2025 14:29:28 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Jan 2025 14:37:45 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Jan 2025 14:38:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1003983/</link>
+            <description><![CDATA[Security updates have been issued by <b>Red Hat</b> (container-tools:rhel8) and <b>SUSE</b> (liboqs, oqs-provider and python-Jinja2).]]></description>
+            <guid>https://lwn.net/Articles/1003983/</guid>
+            <pubDate>Thu, 02 Jan 2025 14:37:44 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1003462/</link>
