@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Jan 2025 17:34:39 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Jan 2025 18:14:02 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Jan 2025 18:35:25 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Jan 2025 18:36:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Ruby 3.4 released</title>
+            <link>https://lwn.net/Articles/1003547/</link>
+            <description><![CDATA[Continuing its tradition of yearly major releases on December 25, the <a
+href="https://www.ruby-lang.org/en/">Ruby</a> programming-language project
+has <a
+href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/">released
+Ruby 3.4.0</a> (followed quickly by <a
+href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/">3.4.1</a>,
+which simply updates the version number).  Ruby 3.4 includes lots of
+changes, including the addition of <a
+href="https://bugs.ruby-lang.org/issues/18980"><tt>it</tt></a> as a
+less-confusing shorthand for <tt>_1</tt> as a block parameter, switching to
+<a href="https://bugs.ruby-lang.org/issues/20564">Prism as the default
+parser</a>, adding the <a
+href="https://datatracker.ietf.org/doc/html/rfc8305">Happy Eyeballs
+version&nbsp;2</a> algorithm to the socket library,
+just-in-time (JIT) compiler (YJIT) improvements, garbage-collection
+modularization, and more.]]></description>
+            <guid>https://lwn.net/Articles/1003547/</guid>
+            <pubDate>Thu, 26 Dec 2024 18:16:18 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1003542/</link>
