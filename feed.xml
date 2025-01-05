@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 Jan 2025 21:46:41 +0000</pubDate>
-        <lastBuildDate>Sun, 5 Jan 2025 22:09:16 +0000</lastBuildDate>
+        <pubDate>Sun, 05 Jan 2025 22:09:30 +0000</pubDate>
+        <lastBuildDate>Sun, 5 Jan 2025 22:29:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -253,20 +253,6 @@ candidate nominated in this period.</p>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Kernel prepatch 6.13-rc4</title>
-            <link>https://lwn.net/Articles/1003223/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1003222/">6.13-rc4</a> for testing.
-"<q>So this definitely is looking a bit smaller than most rc4s, and I
-expect (and hope) that rc5 will be absolutely tiny because you should
-all already be relaxing over the xmas holidays.
-
-But hey, if somebody is out there keeping the lights on, please do
-keep testing.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1003223/</guid>
-            <pubDate>Sun, 22 Dec 2024 22:02:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>Kernel prepatch 6.13-rc5</title>
             <link>https://lwn.net/Articles/1003730/</link>
             <description><![CDATA[The <a href="https://lwn.net/Articles/1003729/">6.13-rc5</a> kernel prepatch is out for
@@ -377,20 +363,6 @@ candidate nominated in this period.</p>
             <guid>https://lwn.net/Articles/1003287/</guid>
             <pubDate>Mon, 23 Dec 2024 14:37:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc4</title>
-            <link>https://lwn.net/Articles/1003223/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1003222/">6.13-rc4</a> for testing.
-"<q>So this definitely is looking a bit smaller than most rc4s, and I
-expect (and hope) that rc5 will be absolutely tiny because you should
-all already be relaxing over the xmas holidays.
-
-But hey, if somebody is out there keeping the lights on, please do
-keep testing.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1003223/</guid>
-            <pubDate>Sun, 22 Dec 2024 22:02:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
