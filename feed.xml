@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 05 Jan 2025 14:55:39 +0000</pubDate>
-        <lastBuildDate>Sun, 5 Jan 2025 15:09:08 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 5 Jan 2025 15:26:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -267,25 +267,6 @@ because rc5 is tiny</q>"]]></description>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>Darktable 5.0.0 released</title>
-            <link>https://lwn.net/Articles/1003200/</link>
-            <description><![CDATA[<p><a
-href="https://www.darktable.org/2024/12/darktable-5.0.0-released/">Version
-5.0.0</a> of the <a href="https://www.darktable.org/">darktable</a>
-photography workflow application has been released. Major changes in
-this release include user-interface/user-experience (UI/UX)
-improvements, speed improvements for bulk operations, and the addition
-of a <tt>inter-script-communication</tt> event to allow a running
-script to send messages to another running script. LWN last <a
-href="https://lwn.net/Articles/881853/">looked at darktable</a> in
-2022.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1003200/</guid>
-            <pubDate>Sun, 22 Dec 2024 15:07:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1003601/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (node-postcss), <b>Fedora</b> (age, dr_libs, incus, libxml2, moodle, and python-sql), and <b>SUSE</b> (poppler and python-grpcio).]]></description>
@@ -399,25 +380,6 @@ keep testing.</q>"]]></description>
             <guid>https://lwn.net/Articles/1003223/</guid>
             <pubDate>Sun, 22 Dec 2024 22:02:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Darktable 5.0.0 released</title>
-            <link>https://lwn.net/Articles/1003200/</link>
-            <description><![CDATA[<p><a
-href="https://www.darktable.org/2024/12/darktable-5.0.0-released/">Version
-5.0.0</a> of the <a href="https://www.darktable.org/">darktable</a>
-photography workflow application has been released. Major changes in
-this release include user-interface/user-experience (UI/UX)
-improvements, speed improvements for bulk operations, and the addition
-of a <tt>inter-script-communication</tt> event to allow a running
-script to send messages to another running script. LWN last <a
-href="https://lwn.net/Articles/881853/">looked at darktable</a> in
-2022.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1003200/</guid>
-            <pubDate>Sun, 22 Dec 2024 15:07:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
