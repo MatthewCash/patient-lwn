@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Jan 2025 12:58:18 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jan 2025 14:10:21 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Jan 2025 14:21:10 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Jan 2025 14:31:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1004262/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (ofono and webkitgtk), <b>Mageia</b> (ruby and virtualbox &amp; kmod-virtualbox), <b>Red Hat</b> (oci-seccomp-bpf-hook and runc), <b>SUSE</b> (corepack22, dpdk, libpoppler-cpp1, pcp, python-Jinja2, and sysstat), and <b>Ubuntu</b> (tinyproxy).]]></description>
+            <guid>https://lwn.net/Articles/1004262/</guid>
+            <pubDate>Mon, 06 Jan 2025 14:21:09 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.13-rc6</title>
             <link>https://lwn.net/Articles/1004230/</link>
