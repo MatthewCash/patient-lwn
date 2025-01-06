@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Jan 2025 19:05:08 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jan 2025 19:33:49 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Jan 2025 19:47:01 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Jan 2025 19:48:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mourning Steve Langasek</title>
+            <link>https://lwn.net/Articles/1004297/</link>
+            <description><![CDATA[From the Ubuntu Discourse instance comes <a
+href="https://discourse.ubuntu.com/t/remembering-and-thanking-steve-langasek/52665">the
+sad news</a> that longtime Debian and Ubuntu contributor Steve Langasek has
+passed away.
+<p>
+<blockquote class="bq">
+	Steve passed away at the dawn of 2025. His time was short but
+	remarkable. He will forever remain an inspiration. Judging by the
+	outpouring of feelings this week, he is equally missed and mourned
+	by colleagues and friends across the open source landscape, in
+	particular in Ubuntu and Debian where he was a great mind, mentor
+	and conscience.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004297/</guid>
+            <pubDate>Mon, 06 Jan 2025 19:37:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1003768/</link>
