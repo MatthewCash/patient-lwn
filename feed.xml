@@ -9,10 +9,18 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 06 Jan 2025 14:45:52 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jan 2025 14:48:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 6 Jan 2025 15:10:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1003768/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-good1.0 and opensc), <b>Fedora</b> (iwd and libell), and <b>SUSE</b> (chromium, govulncheck-vulndb, and poppler).]]></description>
+            <guid>https://lwn.net/Articles/1003768/</guid>
+            <pubDate>Mon, 30 Dec 2024 14:55:47 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1004262/</link>
