@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Jan 2025 17:39:17 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jan 2025 17:48:08 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Jan 2025 18:04:54 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Jan 2025 18:13:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -249,27 +249,6 @@ weeks back.]]></description>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>Fedora Linux 41 election results</title>
-            <link>https://lwn.net/Articles/1003303/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/f41-election-results/">announced</a>
-the results of the Fedora Linux 41 election cycle. Five seats were
-open on the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a> (FESCo), and the <a
-href="https://elections.fedoraproject.org/about/f41%20fesco%20election">winners</a>
-are Kevin Fenzi, Zbigniew Jędrzejewski-Szmek, David Cantrell, Tomáš
-Hrčka, and Fabio Alessandro Locati. One seat was open on the <a
-href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Mindshare
-Committee</a> and that went to Luis Bazan as the only eligible
-candidate nominated in this period.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1003303/</guid>
-            <pubDate>Mon, 23 Dec 2024 17:56:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1003768/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-good1.0 and opensc), <b>Fedora</b> (iwd and libell), and <b>SUSE</b> (chromium, govulncheck-vulndb, and poppler).]]></description>
@@ -357,27 +336,6 @@ modularization, and more.]]></description>
             <guid>https://lwn.net/Articles/1003381/</guid>
             <pubDate>Tue, 24 Dec 2024 15:08:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 41 election results</title>
-            <link>https://lwn.net/Articles/1003303/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/f41-election-results/">announced</a>
-the results of the Fedora Linux 41 election cycle. Five seats were
-open on the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a> (FESCo), and the <a
-href="https://elections.fedoraproject.org/about/f41%20fesco%20election">winners</a>
-are Kevin Fenzi, Zbigniew Jędrzejewski-Szmek, David Cantrell, Tomáš
-Hrčka, and Fabio Alessandro Locati. One seat was open on the <a
-href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Mindshare
-Committee</a> and that went to Luis Bazan as the only eligible
-candidate nominated in this period.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1003303/</guid>
-            <pubDate>Mon, 23 Dec 2024 17:56:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
