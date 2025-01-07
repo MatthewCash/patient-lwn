@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Jan 2025 19:48:43 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Jan 2025 20:48:19 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Jan 2025 21:08:44 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Jan 2025 21:09:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kicinski: netdev in 2024</title>
+            <link>https://lwn.net/Articles/1004376/</link>
+            <description><![CDATA[Kernel networking maintainer Jakub Kicinski <a
+href="https://people.kernel.org/kuba/netdev-in-2024">reviews progress in
+the networking subsystem</a> in 2024.
+<p>
+<blockquote class="bq">
+	Work on relieving the rtnl_lock pressure has continued throughout
+	the year. The rtnl_lock is often mentioned as one of the biggest
+	global locks in the kernel, as it protects all of the network
+	configuration and state. The efforts can be divided into two broad
+	categories – converting read operations to rely on RCU protection
+	or other fine grained locking (v6.9, v6.10), and splitting the lock
+	into per-network namespace locks (preparations for which started in
+	v6.13).
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004376/</guid>
+            <pubDate>Tue, 07 Jan 2025 21:08:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>2024 in retrospect (Gentoo News)</title>
             <link>https://lwn.net/Articles/1004373/</link>
