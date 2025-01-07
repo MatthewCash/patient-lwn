@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Jan 2025 18:34:29 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Jan 2025 19:48:20 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Jan 2025 19:48:43 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Jan 2025 20:11:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>2024 in retrospect (Gentoo News)</title>
+            <link>https://lwn.net/Articles/1004373/</link>
+            <description><![CDATA[<p>Gentoo Linux has published a <a
+href="https://www.gentoo.org/news/2025/01/05/new-year.html">project
+retrospective</a> that looks at the major improvements and news from
+2024, the Gentoo Foundation's finances, and contributions to Gentoo by
+the numbers.</p>
+
+<blockquote class="bq">
+<p>The number of commits to the <a
+href="https://gitweb.gentoo.org/repo/gentoo.git/">main ::gentoo
+repository</a> has remained at an overall high level in 2024, with a
+2.4% increase from 121000 to 123942. The number of commits by external
+contributors has grown strongly from 10708 to 12812, now across 421
+unique external authors.</p>
+
+<p>The importance of <a
+href="https://wiki.gentoo.org/wiki/Project:GURU">GURU, our
+user-curated repository with a trusted user model</a>, as entry point
+for potential developers, is clearly increasing as well. We have had
+7517 commits in 2024, a strong growth from 5045 in 2023. The number of
+contributors to GURU has increased a lot as well, from 158 in 2023 to
+241 in 2024. Please join us there and help packaging the latest and
+greatest software.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004373/</guid>
+            <pubDate>Tue, 07 Jan 2025 19:48:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 134.0 released</title>
             <link>https://lwn.net/Articles/1004368/</link>
