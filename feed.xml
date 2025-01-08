@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jan 2025 14:21:36 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jan 2025 14:40:28 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Jan 2025 14:43:01 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Jan 2025 14:48:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Announcing the pkgsrc-2024Q4 branch</title>
+            <link>https://lwn.net/Articles/1004429/</link>
+            <description><![CDATA[<p>The <a href="https://pkgsrc.org/">pkgsrc</a> developers have
+announced the 2024Q4 branch of the pkgsrc cross-platform
+packaging system. It is the default package manager for <a
+href="https://www.netbsd.org/">NetBSD</a>, <a
+href="https://wiki.smartos.org/">SmartOS</a>, and is <a
+href="https://pkgsrc.smartos.org/install-on-linux/">available for
+Linux</a> as well. This marks the 85th quarterly release of pkgsrc:</p>
+
+<blockquote class="bq">
+Since the pkgsrc-2024Q3 release, 110 packages were added, 1580 packages
+were updated (with 2399 updates, including language-specific updates:
+24 Go, 3 OCaml, 66 Perl, 5 PHP, 626 Python, 282 Ruby, 44 TeX).  33
+packages were removed.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004429/</guid>
+            <pubDate>Wed, 08 Jan 2025 14:43:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1004428/</link>
