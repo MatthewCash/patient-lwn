@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jan 2025 15:51:03 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jan 2025 17:48:15 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Jan 2025 18:13:02 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Jan 2025 18:13:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>2024: Year in Review (Tor Blog)</title>
+            <link>https://lwn.net/Articles/1004460/</link>
+            <description><![CDATA[<p>The <a href="https://www.torproject.org/">Tor Project</a> has <a
+href="https://blog.torproject.org/2024-year-in-review/">published a
+review</a> of major milestones from 2024, including <a
+href="https://blog.torproject.org/tor-tails-join-forces/">merging with
+the Tails project</a>, work to enable human-friendly <tt>.onion</tt>
+addresses, and the launch of <a
+href="https://blog.torproject.org/introducing-webtunnel-evading-censorship-by-hiding-in-plain-sight/">WebTunnel</a>:</p>
+
+<blockquote class="bq">
+By mimicking common internet protocols, WebTunnel improves the
+resilience of the Tor network in regions with heavy censorship. And
+since its launch earlier this year, we've made sure to prioritize
+small download sizes for more convenient distribution and simplified
+the support of uTLS integration further mimicking the characteristics
+of more widespread browsers. This makes Webtunnel safe for general
+users because it helps conceal the fact that a tool like Tor is being
+used.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1004460/</guid>
+            <pubDate>Wed, 08 Jan 2025 18:11:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Announcing the pkgsrc-2024Q4 branch</title>
             <link>https://lwn.net/Articles/1004429/</link>
