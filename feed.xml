@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 09 Jan 2025 14:39:46 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jan 2025 14:40:44 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 9 Jan 2025 14:48:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -442,18 +442,6 @@ modularization, and more.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (fastnetmon, webkit2gtk, and xen), <b>Fedora</b> (sympa), <b>Oracle</b> (postgresql), and <b>Red Hat</b> (pcp, tigervnc, and xorg-x11-server and xorg-x11-server-Xwayland).]]></description>
             <guid>https://lwn.net/Articles/1003542/</guid>
             <pubDate>Thu, 26 Dec 2024 15:51:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Three new stable kernels</title>
-            <link>https://lwn.net/Articles/1003984/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1003985/">6.12.8</a>, <a
-href="https://lwn.net/Articles/1003986/">6.6.69</a>, and <a
-href="https://lwn.net/Articles/1003987/">6.1.123</a> stable kernels.  They contain
-important fixes throughout the kernel tree, as usual.]]></description>
-            <guid>https://lwn.net/Articles/1003984/</guid>
-            <pubDate>Thu, 02 Jan 2025 14:41:21 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
