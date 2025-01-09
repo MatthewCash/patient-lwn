@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Jan 2025 18:07:51 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jan 2025 18:14:24 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jan 2025 18:31:24 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jan 2025 18:37:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.84.0 released</title>
+            <link>https://lwn.net/Articles/1004614/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/01/09/Rust-1.84.0.html">Version
+1.84.0</a> of the Rust language has been released.  Changes include
+improved version selection for dependencies in Cargo, the beginning of the
+migration to a new trait solver, and some updated pointer-provenance APIs.
+<p>
+<blockquote class="bq">
+	Most of the time, programmers do not need to worry much about
+	provenance, and it is very clear how a pointer got
+	derived. However, when casting pointers to integers and back, the
+	provenance of the resulting pointer is underspecified. With this
+	release, Rust is adding a set of APIs that can in many cases
+	replace the use of integer-pointer-casts, and therefore avoid the
+	ambiguities inherent to such casts. In particular, the pattern of
+	using the lowest bits of an aligned pointer to store extra
+	information can now be implemented without ever casting a pointer
+	to an integer or back. This makes the code easier to reason about,
+	easier to analyze for the compiler, and also benefits tools like
+	Miri and architectures like CHERI that aim to detect and diagnose
+	pointer misuse.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004614/</guid>
+            <pubDate>Thu, 09 Jan 2025 18:29:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>SFC reports a successful (L)GPL suit in Germany</title>
             <link>https://lwn.net/Articles/1004595/</link>
@@ -452,29 +479,6 @@ happen until January.
             <dc:creator>daroc</dc:creator>
         </item>
         <item>
-            <title>Ruby 3.4 released</title>
-            <link>https://lwn.net/Articles/1003547/</link>
-            <description><![CDATA[Continuing its tradition of yearly major releases on December 25, the <a
-href="https://www.ruby-lang.org/en/">Ruby</a> programming-language project
-has <a
-href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/">released
-Ruby 3.4.0</a> (followed quickly by <a
-href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/">3.4.1</a>,
-which simply updates the version number).  Ruby 3.4 includes lots of
-changes, including the addition of <a
-href="https://bugs.ruby-lang.org/issues/18980"><tt>it</tt></a> as a
-less-confusing shorthand for <tt>_1</tt> as a block parameter, switching to
-<a href="https://bugs.ruby-lang.org/issues/20564">Prism as the default
-parser</a>, adding the <a
-href="https://datatracker.ietf.org/doc/html/rfc8305">Happy Eyeballs
-version&nbsp;2</a> algorithm to the socket library,
-just-in-time (JIT) compiler (YJIT) improvements, garbage-collection
-modularization, and more.]]></description>
-            <guid>https://lwn.net/Articles/1003547/</guid>
-            <pubDate>Thu, 26 Dec 2024 18:16:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
             <title>LineageOS 22.1 released</title>
             <link>https://lwn.net/Articles/1003862/</link>
             <description><![CDATA[<a href="https://lineageos.org/Changelog-29/">Version 22.1</a> of the
@@ -572,29 +576,6 @@ happen until January.
             <guid>https://lwn.net/Articles/1003607/</guid>
             <pubDate>Fri, 27 Dec 2024 14:05:50 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Ruby 3.4 released</title>
-            <link>https://lwn.net/Articles/1003547/</link>
-            <description><![CDATA[Continuing its tradition of yearly major releases on December 25, the <a
-href="https://www.ruby-lang.org/en/">Ruby</a> programming-language project
-has <a
-href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-0-released/">released
-Ruby 3.4.0</a> (followed quickly by <a
-href="https://www.ruby-lang.org/en/news/2024/12/25/ruby-3-4-1-released/">3.4.1</a>,
-which simply updates the version number).  Ruby 3.4 includes lots of
-changes, including the addition of <a
-href="https://bugs.ruby-lang.org/issues/18980"><tt>it</tt></a> as a
-less-confusing shorthand for <tt>_1</tt> as a block parameter, switching to
-<a href="https://bugs.ruby-lang.org/issues/20564">Prism as the default
-parser</a>, adding the <a
-href="https://datatracker.ietf.org/doc/html/rfc8305">Happy Eyeballs
-version&nbsp;2</a> algorithm to the socket library,
-just-in-time (JIT) compiler (YJIT) improvements, garbage-collection
-modularization, and more.]]></description>
-            <guid>https://lwn.net/Articles/1003547/</guid>
-            <pubDate>Thu, 26 Dec 2024 18:16:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
