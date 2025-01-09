@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Jan 2025 15:16:31 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jan 2025 15:29:20 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jan 2025 15:31:03 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jan 2025 15:39:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>SFC reports a successful (L)GPL suit in Germany</title>
+            <link>https://lwn.net/Articles/1004595/</link>
+            <description><![CDATA[The Software Freedom Conservancy is <a
+href="https://sfconservancy.org/news/2025/jan/09/avm-copyleft-lawsuit-resolved-with-install/">reporting</a>
+that AVM has released the full source and installation scripts for its
+routers in response to a lawsuit, filed by Sebastian Steck, based on Lesser
+GNU Public License rights.
+<p>
+<blockquote class="bq">
+	Historically, lawsuits have focused on the copyrights licensed
+	under GPL (or the GPL and LGPL together). Steck's lawsuit uniquely
+	focused exclusively on users' rights under the LGPL. Steck's work
+	showed that despite being a "Lesser" license than GPL, LGPLv2.1
+	still guarantees users the right to repair, modify and reinstall
+	modified versions of the software on their device. There is now no
+	doubt that both GPL and LGPL mandate the device owner's ability to
+	make changes to the software in the flash memory so those changes
+	persist across reboots.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1004595/</guid>
+            <pubDate>Thu, 09 Jan 2025 15:31:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Six new stable kernels</title>
             <link>https://lwn.net/Articles/1004548/</link>
