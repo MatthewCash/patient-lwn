@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Jan 2025 14:34:26 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Jan 2025 14:41:06 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jan 2025 14:44:44 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jan 2025 14:48:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A straggling kernel update</title>
+            <link>https://lwn.net/Articles/1004704/</link>
+            <description><![CDATA[<p>
+After <a href="https://lwn.net/Articles/1004548/">yesterday's stable kernel releases</a>, Chris
+Clayton reported a build problem with 6.6.70, which prompted Greg Kroah-Hartman
+to <a href="https://lwn.net/Articles/1004703/">release 6.6.71</a> to fix it.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1004704/</guid>
+            <pubDate>Fri, 10 Jan 2025 14:44:44 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1004701/</link>
