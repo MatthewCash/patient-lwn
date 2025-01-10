@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Jan 2025 14:00:27 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Jan 2025 14:10:49 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jan 2025 14:25:32 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jan 2025 14:30:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1004701/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium and mingw-poppler), <b>Red Hat</b> (dpdk, thunderbird, and webkit2gtk3), <b>SUSE</b> (firefox, govulncheck-vulndb, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, libmfx, openjpeg2, python310, python312, python39, tomcat, and webkit2gtk3), and <b>Ubuntu</b> (golang-golang-x-net).]]></description>
+            <guid>https://lwn.net/Articles/1004701/</guid>
+            <pubDate>Fri, 10 Jan 2025 14:25:31 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Rust 1.84.0 released</title>
             <link>https://lwn.net/Articles/1004614/</link>
