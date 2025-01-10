@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Jan 2025 20:23:33 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Jan 2025 20:38:47 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jan 2025 20:38:56 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jan 2025 20:48:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Paolo Mantegazza RIP</title>
+            <link>https://lwn.net/Articles/1004774/</link>
+            <description><![CDATA[We have just now received word of <a
+href="https://lore.kernel.org/xenomai/87ikqnuiqb.fsf@xenomai.org/">the
+passing of Paolo Mantegazza</a>, the driving force behind the <a
+href="https://www.rtai.org/">Real Time Application Interface</a> project
+and a key figure in the development of realtime Linux.
+<p>
+<blockquote class="bq">
+	Paolo used to describe himself as a simple practitioner of software
+	development, one of whose missions was to contribute a free
+	real-time system his students could use, study and improve for
+	their research work at the university, welcoming others to
+	join. Many Linux users and businesses owe him a lot, because under
+	his leadership, the RTAI project has always defended the freedom of
+	developers to implement real-time systems, particularly at times
+	when it was threatened. His fierce will for RTAI served the Xenomai
+	project, as well as others.
+</blockquote>
+<p>
+He will be missed.
+(LWN <a href="https://lwn.net/2001/0215/">interviewed Mantegazza</a> in
+2001).]]></description>
+            <guid>https://lwn.net/Articles/1004774/</guid>
+            <pubDate>Fri, 10 Jan 2025 20:38:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Automattic reduces WordPress contributions</title>
             <link>https://lwn.net/Articles/1004705/</link>
