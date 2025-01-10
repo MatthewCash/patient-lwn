@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Jan 2025 14:44:44 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Jan 2025 14:48:18 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jan 2025 15:05:34 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jan 2025 15:10:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Automattic reduces WordPress contributions</title>
+            <link>https://lwn.net/Articles/1004705/</link>
+            <description><![CDATA[<p>Automattic has <a
+href="https://automattic.com/2025/01/09/aligning-automattics-sponsored-contributions-to-wordpress/">announced</a>
+that it is reallocating its resources away from contributing to the
+WordPress project as a response to the WP&nbsp;Engine lawsuit:</p>
+
+<blockquote class="bq">
+As part of this reset, Automattic will match its volunteering pledge
+with those made by WP Engine and other players in the ecosystem, or
+about 45 hours a week that qualify under the Five For the Future
+program as benefitting the entire community and not just a single
+company. These hours will likely go towards security and critical
+updates.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1001783/">last covered</a>
+the ongoing WordPress saga in December. [Thanks to Paul Wise for the
+heads-up on this latest development.]</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1004705/</guid>
+            <pubDate>Fri, 10 Jan 2025 15:05:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A straggling kernel update</title>
             <link>https://lwn.net/Articles/1004704/</link>
