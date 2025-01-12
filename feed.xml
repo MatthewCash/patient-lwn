@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 12 Jan 2025 19:58:00 +0000</pubDate>
-        <lastBuildDate>Sun, 12 Jan 2025 22:09:14 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 12 Jan 2025 22:29:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -525,17 +525,6 @@ passed away.
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>Kernel prepatch 6.13-rc5</title>
-            <link>https://lwn.net/Articles/1003730/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1003729/">6.13-rc5</a> kernel prepatch is out for
-testing.  Linus says: "<q>It's been another week, but I'm happy to report
-that clearly most people actually seem to have been enjoying the holidays,
-because rc5 is tiny</q>"]]></description>
-            <guid>https://lwn.net/Articles/1003730/</guid>
-            <pubDate>Sun, 29 Dec 2024 21:35:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>LineageOS 22.1 released</title>
             <link>https://lwn.net/Articles/1003862/</link>
             <description><![CDATA[<a href="https://lineageos.org/Changelog-29/">Version 22.1</a> of the
@@ -599,17 +588,6 @@ weeks back.]]></description>
             <guid>https://lwn.net/Articles/1003768/</guid>
             <pubDate>Mon, 30 Dec 2024 14:55:47 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc5</title>
-            <link>https://lwn.net/Articles/1003730/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1003729/">6.13-rc5</a> kernel prepatch is out for
-testing.  Linus says: "<q>It's been another week, but I'm happy to report
-that clearly most people actually seem to have been enjoying the holidays,
-because rc5 is tiny</q>"]]></description>
-            <guid>https://lwn.net/Articles/1003730/</guid>
-            <pubDate>Sun, 29 Dec 2024 21:35:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
