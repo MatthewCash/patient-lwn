@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 13 Jan 2025 19:41:27 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Jan 2025 20:28:39 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jan 2025 20:37:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -484,27 +484,6 @@ Android-based LineageOS distribution is out.
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>Cook: Colliding with the SHA prefix of Linux&apos;s initial Git commit</title>
-            <link>https://lwn.net/Articles/1003797/</link>
-            <description><![CDATA[Kees Cook <a
-href="https://people.kernel.org/kees/colliding-with-the-sha-prefix-of-linuxs-initial-git-commit">describes
-his work</a> resulting in a kernel documentation commit whose ID shares the
-same first 12 characters as the initial commit in the kernel's repository.
-<p>
-<blockquote class="bq">
-	This is not yet in the upstream Linux tree, for fear of breaking
-	countless other tools out in the wild. But it can serve as a test
-	commit for those that want to get this fixed ahead of any future
-	collisions (or this commit actually landing).
-</blockquote>
-<p>
-LWN <a href="https://lwn.net/Articles/1001526/">looked at commit-ID collisions</a> a few
-weeks back.]]></description>
-            <guid>https://lwn.net/Articles/1003797/</guid>
-            <pubDate>Mon, 30 Dec 2024 20:23:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>LineageOS 22.1 released</title>
             <link>https://lwn.net/Articles/1003862/</link>
             <description><![CDATA[<a href="https://lineageos.org/Changelog-29/">Version 22.1</a> of the
@@ -538,27 +517,6 @@ Android-based LineageOS distribution is out.
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (debootstrap) and <b>SUSE</b> (assimp-devel, grpc, libQt6Pdf6, and poppler).]]></description>
             <guid>https://lwn.net/Articles/1003856/</guid>
             <pubDate>Tue, 31 Dec 2024 15:02:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Cook: Colliding with the SHA prefix of Linux&apos;s initial Git commit</title>
-            <link>https://lwn.net/Articles/1003797/</link>
-            <description><![CDATA[Kees Cook <a
-href="https://people.kernel.org/kees/colliding-with-the-sha-prefix-of-linuxs-initial-git-commit">describes
-his work</a> resulting in a kernel documentation commit whose ID shares the
-same first 12 characters as the initial commit in the kernel's repository.
-<p>
-<blockquote class="bq">
-	This is not yet in the upstream Linux tree, for fear of breaking
-	countless other tools out in the wild. But it can serve as a test
-	commit for those that want to get this fixed ahead of any future
-	collisions (or this commit actually landing).
-</blockquote>
-<p>
-LWN <a href="https://lwn.net/Articles/1001526/">looked at commit-ID collisions</a> a few
-weeks back.]]></description>
-            <guid>https://lwn.net/Articles/1003797/</guid>
-            <pubDate>Mon, 30 Dec 2024 20:23:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
