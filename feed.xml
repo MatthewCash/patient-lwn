@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 12 Jan 2025 19:58:00 +0000</pubDate>
-        <lastBuildDate>Sun, 12 Jan 2025 23:48:36 +0000</lastBuildDate>
+        <pubDate>Sun, 12 Jan 2025 23:53:55 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Jan 2025 00:48:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.13-rc7</title>
+            <link>https://lwn.net/Articles/1004878/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1004877/">6.13-rc7</a> for testing.
+"<q>So unless something odd happens the upcoming week, I expect to release
+a final 6.13 next week as per the normal schedule</q>".  Read the full
+announcement for your details on how to get a free guitar pedal assembled
+by Linus himself.]]></description>
+            <guid>https://lwn.net/Articles/1004878/</guid>
+            <pubDate>Sun, 12 Jan 2025 23:53:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Git v2.48.0 released</title>
             <link>https://lwn.net/Articles/1004776/</link>
@@ -504,25 +516,6 @@ passed away.
             <guid>https://lwn.net/Articles/1004262/</guid>
             <pubDate>Mon, 06 Jan 2025 14:21:09 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.13-rc6</title>
-            <link>https://lwn.net/Articles/1004230/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1004229/">6.13-rc6</a> for testing.
-<p>
-<blockquote class="bq">
-	So we had a slight pickup in commits this last week, but as
-	expected and hoped for, things were still pretty quiet. About twice
-	as many commits as the holiday week, but that's still not all that
-	many.
-<p>
-	I expect things will start becoming more normal now that people are
-	back from the holidays and are starting to recover and wake up from
-	their food comas.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1004230/</guid>
-            <pubDate>Sun, 05 Jan 2025 23:51:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
         <item>
             <title>LineageOS 22.1 released</title>
