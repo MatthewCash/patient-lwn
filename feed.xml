@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 13 Jan 2025 12:59:55 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Jan 2025 14:11:08 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 13 Jan 2025 14:31:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -507,14 +507,6 @@ passed away.
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-good1.0 and opensc), <b>Fedora</b> (iwd and libell), and <b>SUSE</b> (chromium, govulncheck-vulndb, and poppler).]]></description>
             <guid>https://lwn.net/Articles/1003768/</guid>
             <pubDate>Mon, 30 Dec 2024 14:55:47 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1004262/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (ofono and webkitgtk), <b>Mageia</b> (ruby and virtualbox &amp; kmod-virtualbox), <b>Red Hat</b> (oci-seccomp-bpf-hook and runc), <b>SUSE</b> (corepack22, dpdk, libpoppler-cpp1, pcp, python-Jinja2, and sysstat), and <b>Ubuntu</b> (tinyproxy).]]></description>
-            <guid>https://lwn.net/Articles/1004262/</guid>
-            <pubDate>Mon, 06 Jan 2025 14:21:09 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
