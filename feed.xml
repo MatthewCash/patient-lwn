@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Jan 2025 17:17:11 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Jan 2025 17:48:25 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Jan 2025 17:59:43 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Jan 2025 18:14:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RIP Bill Gianopoulos</title>
+            <link>https://lwn.net/Articles/1004996/</link>
+            <description><![CDATA[The blog of the <a href="https://www.seamonkey-project.org/">SeaMonkey
+project</a>, which develops an all-in-one internet application suite based
+on Mozilla code, has <a href="https://blog.seamonkey-project.org/2025/01/11/january-6th-is-a-sad-day-to-remember/">reported</a> the sad news of the <a
+href="https://blog.seamonkey-project.org/2025/01/11/january-6th-is-a-sad-day-to-remember/">sudden
+passing of Bill Gianopoulos</a> ("WG9s")
+on January 6 (<a
+href="https://www.chesmorefuneralhome.com/obituaries/william-andrew-gianopoulos/20284/">obituary</a>).  He was a core developer and
+release engineer for the project.]]></description>
+            <guid>https://lwn.net/Articles/1004996/</guid>
+            <pubDate>Mon, 13 Jan 2025 17:59:43 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1004962/</link>
