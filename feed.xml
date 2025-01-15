@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Jan 2025 14:37:08 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jan 2025 14:39:58 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Jan 2025 14:46:49 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Jan 2025 14:48:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Mint 22.1 released</title>
+            <link>https://lwn.net/Articles/1005165/</link>
+            <description><![CDATA[<p>Linux Mint <a
+href="https://www.linuxmint.com/rel_xia_whatsnew.php">version
+22.1</a>, a long-term-support (LTS) release with support until 2029, is now
+available. Notable changes in this release include a transition to <a
+href="https://github.com/linuxmint/aptkit">Aptkit</a> for background
+package management tasks, <a
+href="https://github.com/linuxmint/captain">Captain</a> to install
+Debian packages, and a new default theme with improved Wayland
+compatibility. See the <a
+href="https://www.linuxmint.com/rel_xia.php">release notes</a> for
+known issues.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1005165/</guid>
+            <pubDate>Wed, 15 Jan 2025 14:46:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1005163/</link>
