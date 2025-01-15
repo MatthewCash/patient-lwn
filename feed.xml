@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Jan 2025 16:46:01 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jan 2025 16:48:38 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Jan 2025 17:03:20 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Jan 2025 17:09:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Libvirt v11.0.0 released</title>
+            <link>https://lwn.net/Articles/1005203/</link>
+            <description><![CDATA[<p><a href="https://libvirt.org/news.html#v11-0-0-2025-01-15">Version
+11.0.0</a> of the <a href="https://libvirt.org">libvirt virtualization
+API</a> has been released.  Notable changes in this release include
+the ability to export <a
+href="https://virtio-fs.gitlab.io/">virtiofs</a> filesystems in
+read-only mode, the addition of support for vlan tagging and trunking
+of network interfaces with the network, qemu, and lxc drivers, as well
+as a number of bug fixes.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1005203/</guid>
+            <pubDate>Wed, 15 Jan 2025 17:00:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>RIP Helen Borrie</title>
             <link>https://lwn.net/Articles/1005199/</link>
