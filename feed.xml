@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Jan 2025 14:19:13 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jan 2025 14:29:43 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Jan 2025 14:37:08 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Jan 2025 14:39:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -472,14 +472,6 @@ packages were removed.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1004429/</guid>
             <pubDate>Wed, 08 Jan 2025 14:43:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1004428/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (firefox, mupdf, and php-tcpdf), <b>SUSE</b> (etcd, file-roller, gtk3, kernel, python-django-ckeditor, rubygem-json-jwt, and tomcat10), and <b>Ubuntu</b> (ffmpeg, HTMLDOC, linux-aws, linux-raspi, linux-gke, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, and tinyproxy).]]></description>
-            <guid>https://lwn.net/Articles/1004428/</guid>
-            <pubDate>Wed, 08 Jan 2025 14:21:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
