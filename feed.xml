@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 16 Jan 2025 14:34:08 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Jan 2025 14:48:33 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 15:10:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -485,20 +485,6 @@ GNU Public License rights.
             <guid>https://lwn.net/Articles/1004595/</guid>
             <pubDate>Thu, 09 Jan 2025 15:31:02 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Six new stable kernels</title>
-            <link>https://lwn.net/Articles/1004548/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1004549/">6.12.9</a>, <a
-href="https://lwn.net/Articles/1004551/">6.6.70</a>, <a
-href="https://lwn.net/Articles/1004552/">6.1.124</a>, <a
-href="https://lwn.net/Articles/1004553/">5.15.176</a>, <a
-href="https://lwn.net/Articles/1004555/">5.10.233</a>, and <a
-href="https://lwn.net/Articles/1004557/">5.4.289</a> stable kernels have been released.
-As usual, they contain important fixes all over the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/1004548/</guid>
-            <pubDate>Thu, 09 Jan 2025 15:00:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
