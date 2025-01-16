@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Jan 2025 19:06:42 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Jan 2025 19:08:29 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Jan 2025 19:14:55 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Jan 2025 19:21:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The many names of commit 55039832f98c</title>
+            <link>https://lwn.net/Articles/1005222/</link>
+            <description><![CDATA[The kernel is, on its face, a single large development project, but
+internally it is better viewed as 100 or so semi-independent projects all
+crammed into one big tent.  Within those projects, there is a fair amount
+of latitude about how changes are managed, and some subsystems are using
+that freedom in the search for more efficient ways of working.  In the end,
+though, all of these sub-projects have to work together and interface with
+kernel-wide efforts, including the stable-release and CVE-assignment
+processes.  For some time, there has been friction between the direct
+rendering (DRM, or graphics) subsystem and the stable maintainers; that
+friction recently burst into view in a way that shows some of the
+limitations of how the kernel community manages patches.]]></description>
+            <guid>https://lwn.net/Articles/1005222/</guid>
+            <pubDate>Thu, 16 Jan 2025 19:14:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1005292/</link>
