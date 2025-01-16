@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 16 Jan 2025 18:15:31 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Jan 2025 18:35:09 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 18:48:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -434,33 +434,6 @@ to <a href="https://lwn.net/Articles/1004703/">release 6.6.71</a> to fix it.
             <guid>https://lwn.net/Articles/1004701/</guid>
             <pubDate>Fri, 10 Jan 2025 14:25:31 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.84.0 released</title>
-            <link>https://lwn.net/Articles/1004614/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/01/09/Rust-1.84.0.html">Version
-1.84.0</a> of the Rust language has been released.  Changes include
-improved version selection for dependencies in Cargo, the beginning of the
-migration to a new trait solver, and some updated pointer-provenance APIs.
-<p>
-<blockquote class="bq">
-	Most of the time, programmers do not need to worry much about
-	provenance, and it is very clear how a pointer got
-	derived. However, when casting pointers to integers and back, the
-	provenance of the resulting pointer is underspecified. With this
-	release, Rust is adding a set of APIs that can in many cases
-	replace the use of integer-pointer-casts, and therefore avoid the
-	ambiguities inherent to such casts. In particular, the pattern of
-	using the lowest bits of an aligned pointer to store extra
-	information can now be implemented without ever casting a pointer
-	to an integer or back. This makes the code easier to reason about,
-	easier to analyze for the compiler, and also benefits tools like
-	Miri and architectures like CHERI that aim to detect and diagnose
-	pointer misuse.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1004614/</guid>
-            <pubDate>Thu, 09 Jan 2025 18:29:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
