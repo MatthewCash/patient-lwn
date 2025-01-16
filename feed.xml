@@ -8,11 +8,127 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Jan 2025 23:42:55 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jan 2025 23:48:29 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Jan 2025 00:05:02 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Jan 2025 00:43:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for January 9, 2025</title>
+            <link>https://lwn.net/Articles/1003479/</link>
+            <description><![CDATA[The LWN.net Weekly Edition for January 9, 2025 is available.]]></description>
+            <guid>https://lwn.net/Articles/1003479/</guid>
+            <pubDate>Thu, 09 Jan 2025 00:12:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at the Sequoia command-line interface</title>
+            <link>https://lwn.net/Articles/1003243/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://sequoia-pgp.org/">
+Sequoia</a> OpenPGP library has been in development for some time. LWN
+<a href="https://lwn.net/Articles/830902/">covered</a> the library in 2020. Now the project's
+command-line interface has
+<a href="https://lwn.net/Articles/1002411/">been released</a>. The <tt>sq</tt> tool offers a
+promising alternative to the venerable
+<a href="https://gnupg.org/">
+GNU Privacy Guard</a> (GPG) tool — albeit one with a
+different interface, set of terminology, and approach to the web of
+trust. Several distributions are making increasing use of the tool
+behind the scenes.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1003243/</guid>
+            <pubDate>Wed, 08 Jan 2025 19:06:35 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] 2024 Linux and free software timeline</title>
+            <link>https://lwn.net/Articles/1004204/</link>
+            <description><![CDATA[<p>In the past, LWN had a tradition of <a
+href="https://lwn.net/op/TimelineIdx.lwn">publishing a timeline</a> of
+notable events from the previous year in early January. We thought we
+might try reviving that tradition in 2025 to see if our readers find
+it useful. While we have covered these events as they
+happened, it's interesting to see how much has taken place in just
+12 months.</p>]]></description>
+            <guid>https://lwn.net/Articles/1004204/</guid>
+            <pubDate>Tue, 07 Jan 2025 18:17:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Emacs in Scheme</title>
+            <link>https://lwn.net/Articles/1001929/</link>
+            <description><![CDATA[During <a href="https://emacsconf.org/2024/">EmacsConf&nbsp;2024</a>, which
+was held online in early December&nbsp;2024, Ramin Honary gave a <a
+href="https://emacsconf.org/2024/talks/gypsum/">talk</a> about <a
+href="https://codeberg.org/ramin_hal9001/gypsum#project-gypsum">Project
+Gypsum</a>, which is his effort to rewrite Emacs in <a
+href="https://www.scheme.org/">Scheme</a>.  Unlike most other Emacs clones,
+which simply replicate the key bindings, Gypsum is also implementing <a
+href="https://www.gnu.org/software/emacs/manual/html_node/eintr/">Emacs
+Lisp</a> (or Elisp).  Honary is initially targeting <a
+href="https://www.gnu.org/software/guile/">Guile</a>, which is an
+implementation of Scheme, but wants to make the code <a
+href="https://codeberg.org/ramin_hal9001/gypsum/wiki/Portability.md">portable</a>
+to any implementation of <a href="https://r7rs.org/">R7RS</a> Scheme.]]></description>
+            <guid>https://lwn.net/Articles/1001929/</guid>
+            <pubDate>Mon, 06 Jan 2025 21:10:48 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Preventing data races with Pony</title>
+            <link>https://lwn.net/Articles/1001224/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://www.ponylang.io/">Pony</a> programming language is dedicated to
+exploring how to make high-performance
+<a href="https://en.wikipedia.org/wiki/Actor_model">
+actor-based</a> systems. Started in 2014,
+the language's most notable feature is probably
+<a href="https://tutorial.ponylang.io/reference-capabilities/">
+reference capabilities</a>, a system of pointer annotations that gives the developer
+fine manual control over how data is shared between actors, while simultaneously
+ensuring that Pony programs don't have data races. The language is not likely to
+overtake other more popular programming languages, but its ideas could be useful for
+other languages or frameworks struggling with concurrent data access.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1001224/</guid>
+            <pubDate>Fri, 03 Jan 2025 15:35:19 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some things to expect in 2025</title>
+            <link>https://lwn.net/Articles/1003780/</link>
+            <description><![CDATA[We are reliably informed by the calendar that yet another year has begun.
+That can only mean one thing: the time has come to go out on a limb with a
+series of ill-advised predictions that are almost certainly <i>not</i> how
+the year will actually go.  We have to try; it's traditional, after all.
+Read on for our view of what's coming and how it may play out.]]></description>
+            <guid>https://lwn.net/Articles/1003780/</guid>
+            <pubDate>Thu, 02 Jan 2025 15:25:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The Homa network protocol</title>
+            <link>https://lwn.net/Articles/1003059/</link>
+            <description><![CDATA[The origins of the TCP and UDP network protocols can be traced back a full
+50&nbsp;years.  Even though networks and their use have changed radically
+since those protocols were designed, they can still be found behind most
+networking applications.  Unsurprisingly, these protocols are not optimal
+for all situations, so there is ongoing interest in the development of
+alternatives.  One such is the <a
+href="https://homa-transport.atlassian.net/wiki/spaces/HOMA/overview">Homa
+transport protocol</a>, developed by John Ousterhout (of <a
+href="https://www.tcl.tk/">Tcl/Tk</a> and <a
+href="https://raft.github.io/">Raft</a> fame, among other accomplishments),
+which is aimed at data-center applications.  Ousterhout is currently trying
+to get <a href="https://lwn.net/ml/all/20241217000626.2958-1-ouster@cs.stanford.edu">a
+minimal Homa implementation</a> into the kernel.]]></description>
+            <guid>https://lwn.net/Articles/1003059/</guid>
+            <pubDate>Mon, 30 Dec 2024 15:34:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Libvirt v11.0.0 released</title>
             <link>https://lwn.net/Articles/1005203/</link>
