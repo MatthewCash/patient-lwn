@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 17 Jan 2025 14:02:03 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jan 2025 14:29:08 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jan 2025 14:38:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -465,14 +465,6 @@ to <a href="https://lwn.net/Articles/1004703/">release 6.6.71</a> to fix it.
 </p>]]></description>
             <guid>https://lwn.net/Articles/1004704/</guid>
             <pubDate>Fri, 10 Jan 2025 14:44:44 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1004701/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium and mingw-poppler), <b>Red Hat</b> (dpdk, thunderbird, and webkit2gtk3), <b>SUSE</b> (firefox, govulncheck-vulndb, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, libmfx, openjpeg2, python310, python312, python39, tomcat, and webkit2gtk3), and <b>Ubuntu</b> (golang-golang-x-net).]]></description>
-            <guid>https://lwn.net/Articles/1004701/</guid>
-            <pubDate>Fri, 10 Jan 2025 14:25:31 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
