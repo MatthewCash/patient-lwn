@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Jan 2025 14:02:03 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jan 2025 14:48:16 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Jan 2025 14:53:39 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Jan 2025 15:10:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Reviving None-aware operators for Python</title>
+            <link>https://lwn.net/Articles/1004893/</link>
+            <description><![CDATA[<p>
+The idea of adding <tt>None</tt>-aware operators to Python has sprung up once
+again. These would make traversing structures with <tt>None</tt> values in them
+easier, by short-circuiting lookups when a <tt>None</tt> is encountered. Almost
+exactly a year ago, LWN covered <a href="https://lwn.net/Articles/956862/">the previous attempt</a> to bring
+the operators to Python, but there have been periodic discussions stretching back to
+2015 and possibly before. This time Noah Kim has taken up the cause. After some debate, he
+eventually settled on redrafting the existing PEP to have a more limited scope,
+which might finally see it move past the cycle of debate, resurrection, and abandonment that
+it has been stuck in for most of the last decade.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1004893/</guid>
+            <pubDate>Fri, 17 Jan 2025 14:53:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1005433/</link>
@@ -454,18 +472,6 @@ heads-up on this latest development.]</p>
             <guid>https://lwn.net/Articles/1004705/</guid>
             <pubDate>Fri, 10 Jan 2025 15:05:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A straggling kernel update</title>
-            <link>https://lwn.net/Articles/1004704/</link>
-            <description><![CDATA[<p>
-After <a href="https://lwn.net/Articles/1004548/">yesterday's stable kernel releases</a>, Chris
-Clayton reported a build problem with 6.6.70, which prompted Greg Kroah-Hartman
-to <a href="https://lwn.net/Articles/1004703/">release 6.6.71</a> to fix it.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1004704/</guid>
-            <pubDate>Fri, 10 Jan 2025 14:44:44 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
