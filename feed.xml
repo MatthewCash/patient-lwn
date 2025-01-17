@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Jan 2025 14:53:39 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jan 2025 15:10:12 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Jan 2025 15:20:47 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Jan 2025 15:27:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LSFMM+BPF 2025 proposal deadline approaching</title>
+            <link>https://lwn.net/Articles/1005445/</link>
+            <description><![CDATA[A reminder has gone out that the deadline for proposals for the 2025 Linux
+Storage, Filesystem, Memory Management and BPF Summit is February&nbsp;1;
+anybody wanting to attend will need to make themselves known before then.
+The reminder also says that there will be no remote participation option
+(or live streams) this year.]]></description>
+            <guid>https://lwn.net/Articles/1005445/</guid>
+            <pubDate>Fri, 17 Jan 2025 15:19:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Reviving None-aware operators for Python</title>
             <link>https://lwn.net/Articles/1004893/</link>
@@ -446,32 +458,6 @@ He will be missed.
             <guid>https://lwn.net/Articles/1004774/</guid>
             <pubDate>Fri, 10 Jan 2025 20:38:55 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Automattic reduces WordPress contributions</title>
-            <link>https://lwn.net/Articles/1004705/</link>
-            <description><![CDATA[<p>Automattic has <a
-href="https://automattic.com/2025/01/09/aligning-automattics-sponsored-contributions-to-wordpress/">announced</a>
-that it is reallocating its resources away from contributing to the
-WordPress project as a response to the WP&nbsp;Engine lawsuit:</p>
-
-<blockquote class="bq">
-As part of this reset, Automattic will match its volunteering pledge
-with those made by WP Engine and other players in the ecosystem, or
-about 45 hours a week that qualify under the Five For the Future
-program as benefitting the entire community and not just a single
-company. These hours will likely go towards security and critical
-updates.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1001783/">last covered</a>
-the ongoing WordPress saga in December. [Thanks to Paul Wise for the
-heads-up on this latest development.]</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1004705/</guid>
-            <pubDate>Fri, 10 Jan 2025 15:05:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
