@@ -22,6 +22,10 @@ async fn get_item_text(url: &str) -> Result<String, reqwest::Error> {
     reqwest::get(url).await?.text().await
 }
 
+fn is_paid(text: &str) -> bool {
+    text.contains("Subscription required")
+}
+
 fn get_date_from_text(text: &str) -> Option<DateTime<Utc>> {
     let regexp = Regex::new(r"freely\s*available\s*on\s*(\w+)\s*(\d{1,2}),\s*(\d{4})").ok()?;
     let (_, [month, day, year]) = regexp.captures(text)?.extract();
@@ -37,14 +41,11 @@ fn get_date_from_text(text: &str) -> Option<DateTime<Utc>> {
 
 impl TrackedArticle {
     pub async fn new(item: Item) -> Self {
-        let article_type = if item
-            .title
-            .as_ref()
-            .is_some_and(|title| title.starts_with("[$]"))
-        {
-            let text = get_item_text(item.link.as_ref().expect("Article missing link!"))
-                .await
-                .unwrap();
+        let text = get_item_text(item.link.as_ref().expect("Article missing link!"))
+            .await
+            .unwrap();
+
+        let article_type = if is_paid(&text) {
             let date = get_date_from_text(&text).expect("Failed to get date from article text!");
             ArticleType::Paid(date)
         } else {
@@ -79,8 +80,7 @@ impl TrackedArticle {
     }
 
     pub fn should_still_track(&self) -> bool {
-        !self
-            .published
-            .is_some_and(|date| Utc::now() - date > Duration::try_weeks(1).unwrap())
+        self.published
+            .is_none_or(|date| Utc::now() - date <= Duration::try_weeks(1).unwrap())
     }
 }
