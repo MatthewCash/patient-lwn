@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 17 Jan 2025 22:21:10 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jan 2025 22:29:07 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jan 2025 22:37:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,20 +416,6 @@ by Linus himself.]]></description>
             <guid>https://lwn.net/Articles/1004878/</guid>
             <pubDate>Sun, 12 Jan 2025 23:53:55 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Git v2.48.0 released</title>
-            <link>https://lwn.net/Articles/1004776/</link>
-            <description><![CDATA[<p><a
-href="https://lwn.net/ml/git/xmqqplku7cvm.fsf%40gitster.g/">Version
-2.48.0</a> of the Git source-code management system has been
-released. There is a long list of incremental improvements and bug
-fixes; see the announcement and the <a
-href="https://github.blog/open-source/git/highlights-from-git-2-48/">highlights
-blog</a> from GitHub for details.</p>]]></description>
-            <guid>https://lwn.net/Articles/1004776/</guid>
-            <pubDate>Fri, 10 Jan 2025 22:10:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
