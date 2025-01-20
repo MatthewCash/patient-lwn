@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Jan 2025 14:07:33 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Jan 2025 16:12:12 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Jan 2025 16:30:10 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Jan 2025 16:33:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Dillo 3.2.0 released</title>
+            <link>https://lwn.net/Articles/1005640/</link>
+            <description><![CDATA[<p><a href="https://dillo-browser.github.io/release/3.2.0/">Version
+3.2.0</a> of the <a href="https://dillo-browser.github.io/">Dillo</a>
+web browser has been released about a month after its <a
+href="https://dillo-browser.github.io/25-years/index.html">25th
+anniversary</a>. Notable new features in 3.2.0 include SVG support for
+math formulas, optional support for WebP images, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1005640/</guid>
+            <pubDate>Mon, 20 Jan 2025 16:21:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1005638/</link>
