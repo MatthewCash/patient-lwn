@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Jan 2025 13:35:01 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Jan 2025 13:48:10 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Jan 2025 14:07:33 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Jan 2025 14:10:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1005638/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, ipa, and NetworkManager), <b>Debian</b> (389-ds-base, busybox, libreoffice, rsync, ruby2.7, tomcat10, and tryton-server), <b>Fedora</b> (chromium and stb), <b>Mageia</b> (openafs and vim), <b>Oracle</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (amazon-ssm-agent, chromedriver, git, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, hplip, pam_u2f, perl-Compress-Raw-Zlib, perl-IO-Compress, redis, redis7, rsync, and velociraptor), and <b>Ubuntu</b> (libpodofo and linux-xilinx-zynqmp).]]></description>
+            <guid>https://lwn.net/Articles/1005638/</guid>
+            <pubDate>Mon, 20 Jan 2025 14:04:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>GDB 16.1 released</title>
             <link>https://lwn.net/Articles/1005562/</link>
