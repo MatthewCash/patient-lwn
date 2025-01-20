@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 20 Jan 2025 14:07:33 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Jan 2025 14:48:19 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 20 Jan 2025 15:11:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,14 +473,6 @@ href="https://www.chesmorefuneralhome.com/obituaries/william-andrew-gianopoulos/
 release engineer for the project.]]></description>
             <guid>https://lwn.net/Articles/1004996/</guid>
             <pubDate>Mon, 13 Jan 2025 17:59:43 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1004962/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dpdk, firefox, iperf3, thunderbird, and webkit2gtk3), <b>Debian</b> (firefox-esr, gnuchess, node-mocha, openafs, python-django, and thunderbird), <b>Fedora</b> (libxmp, python-jinja2, suricata, thunderbird, and xen), <b>Mageia</b> (avahi, libjxl, opencontainers-runc, radare2, rizin, and tinyproxy), <b>Oracle</b> (cups, dpdk, firefox, iperf3, kernel, thunderbird, and webkit2gtk3), <b>SUSE</b> (apptainer, chromedriver, dnsmasq, govulncheck-vulndb, gstreamer, gstreamer-plugins-base, gstreamer-plugins-good, logback, and python311-slixmpp), and <b>Ubuntu</b> (libxmltok, linux-realtime, roundcube, and snapd).]]></description>
-            <guid>https://lwn.net/Articles/1004962/</guid>
-            <pubDate>Mon, 13 Jan 2025 14:48:25 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
