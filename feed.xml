@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 21 Jan 2025 19:41:48 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Jan 2025 19:48:25 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 21 Jan 2025 20:11:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -420,42 +420,6 @@ execute arbitrary code on the machine the server is running on.
             <guid>https://lwn.net/Articles/1005129/</guid>
             <pubDate>Wed, 15 Jan 2025 14:19:13 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>The people should own the town square (Mastodon Blog)</title>
-            <link>https://lwn.net/Articles/1005007/</link>
-            <description><![CDATA[<p>The <a href="https://joinmastodon.org/">Mastodon</a> project has <a
-href="https://blog.joinmastodon.org/2025/01/the-people-should-own-the-town-square/">announced</a>
-that founder Eugen Rochko will be transferring "<q>key Mastodon
-ecosystem and platform components (including name and copyrights,
-among other assets)</q>" to a new non-profit organization:</p>
-
-<blockquote class="bq">
-<p>Practically Mastodon will remain headquartered in and operate from
-Europe primarily. We will continue day-to-day operations through the
-Mastodon GmbH for-profit entity, which will become wholly owned by the
-new European not-for-profit entity. The Mastodon GmbH entity
-automatically became a for-profit as a result of its charitable status
-being <a
-href="https://blog.joinmastodon.org/2024/04/mastodon-forms-new-u.s.-non-profit/#mastodons-non-profit-status-in-germany">stripped
-away in Germany</a>. The existing US-based non-profit entity, the
-501(c)(3), will continue to function as a fundraising hub.</p>
-
-<p>[...] We are in the process of a phased transition. First we are
-establishing a new legal home for Mastodon and transferring ownership
-and stewardship. We are taking the time to select the appropriate
-jurisdiction and structure in Europe. Then we will determine which
-other (subsidiary) legal structures are needed to support operations
-and sustainability.</p>
-</blockquote>
-
-<p>Rochko has, naturally, also <a
-href="https://mastodon.social/@Gargron/113823024820125756">posted
-about the transition</a> on Mastodon.social.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1005007/</guid>
-            <pubDate>Tue, 14 Jan 2025 19:48:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
