@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Jan 2025 16:07:29 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Jan 2025 16:12:30 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Jan 2025 16:30:32 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Jan 2025 16:35:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -456,42 +456,6 @@ about the transition</a> on Mastodon.social.</p>
             <guid>https://lwn.net/Articles/1005007/</guid>
             <pubDate>Tue, 14 Jan 2025 19:48:09 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>IPU6 camera support status update</title>
-            <link>https://lwn.net/Articles/1005031/</link>
-            <description><![CDATA[<p>Hans de Goede has <a
-href="https://hansdegoede.dreamwidth.org/29233.html">posted an
-update</a> about his work to support IPU6 cameras on Fedora and
-submitting fixes upstream.</p>
-
-<blockquote class="bq">
-<p>The initial IPU6 camera support landed in Fedora 41 only works on a
-limited set of laptops. The reason for this is that with MIPI cameras
-every different sensor and glue-chip like IO-expanders needs to be
-supported separately.</p>
-
-<p>I have been working on making the camera work on more laptop
-models. After receiving and sending many emails and blog post comments
-about this I have started filing Fedora bugzilla issues on a per
-sensor and/or laptop-model basis to be able to properly keep track of
-all the work.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/904776/">covered</a> the lack
-of IPU6 drivers in 2022.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1005031/</guid>
-            <pubDate>Tue, 14 Jan 2025 16:13:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1005076/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, NetworkManager, and thunderbird), <b>Fedora</b> (golang-github-aws-sdk-2, golang-github-aws-smithy, golang-github-ncw-swift-2, rclone, and thunderbird), <b>Mageia</b> (ceph, firefox, and thunderbird), <b>Oracle</b> (kernel, NetworkManager, and thunderbird), <b>Red Hat</b> (fence-agents and raptor2), <b>SUSE</b> (dpdk, firefox, frr, grafana, operator-sdk, perl-Module-ScanDeps, proftpd, python311-mistune, redis, thunderbird, valkey, and yq), and <b>Ubuntu</b> (hplip and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/1005076/</guid>
-            <pubDate>Tue, 14 Jan 2025 16:31:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
