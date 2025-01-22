@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jan 2025 14:08:13 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jan 2025 14:10:42 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Jan 2025 14:28:22 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Jan 2025 14:30:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1005798/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (snapcast), <b>Fedora</b> (python-jinja2), <b>Mageia</b> (rsync), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, gh, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, nvidia-open-driver-G06-signed, and pam_u2f), and <b>Ubuntu</b> (linux-oem-6.11 and vim).]]></description>
+            <guid>https://lwn.net/Articles/1005798/</guid>
+            <pubDate>Wed, 22 Jan 2025 14:15:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1005708/</link>
@@ -387,39 +395,6 @@ known issues.</p>
             <guid>https://lwn.net/Articles/1005165/</guid>
             <pubDate>Wed, 15 Jan 2025 14:46:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1005163/</link>
-            <description><![CDATA[Security updates have been issued by <b>Arch Linux</b> (rsync), <b>Debian</b> (rsync), <b>Fedora</b> (perl-Net-OAuth and redis), <b>Red Hat</b> (ipa, raptor2, rsync, and tuned), <b>Slackware</b> (rsync), <b>SUSE</b> (apache2-mod_jk, git, kernel, rclone, rsync, and webkit2gtk3), and <b>Ubuntu</b> (git, linux-azure-5.4, pdns, pdns-recursor, python-django, rlottie, and rsync).]]></description>
-            <guid>https://lwn.net/Articles/1005163/</guid>
-            <pubDate>Wed, 15 Jan 2025 14:18:39 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Six vulnerabilities discovered in rsync</title>
-            <link>https://lwn.net/Articles/1005129/</link>
-            <description><![CDATA[<p>
-Nick Tait
-<a href="https://www.openwall.com/lists/oss-security/2025/01/14/3">announced</a> on the
-oss-security mailing list that
-<a href="https://rsync.samba.org/">
-rsync</a>, the widely used file transfer program, had a number of serious vulnerabilities.
-Users can mitigate all six vulnerabilities by upgrading to
-version 3.4.0, which was 
-<a href="https://lists.samba.org/archive/rsync-announce/2025/000120.html">
-released</a> on January 14. While all users should upgrade, servers that use rsyncd are
-especially impacted:
-</p>
-
-<blockquote class="bq">
-In the most severe CVE, an attacker only requires
-anonymous read access to a rsync server, such as a public mirror, to
-execute arbitrary code on the machine the server is running on.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1005129/</guid>
-            <pubDate>Wed, 15 Jan 2025 14:19:13 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
