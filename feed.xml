@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jan 2025 18:58:38 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jan 2025 19:09:06 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Jan 2025 19:21:15 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Jan 2025 19:22:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Zero-trust builds for FreeBSD</title>
+            <link>https://lwn.net/Articles/1005838/</link>
+            <description><![CDATA[<p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a>
+has <a href="https://freebsdfoundation.org/blog/zero-trust-builds-for-freebsd/">announced</a> that it has undertaken a project to deliver zero-trust
+builds commissioned by the <a
+href="https://www.sovereign.tech/">Sovereign Tech Agency</a> (STA).</p>
+
+<blockquote class="bq">
+<p>The Zero-Trust Build project is scheduled from Jan-Aug 2025 and
+centers on the FreeBSD build process, and in particular, release
+building. The primary goal of this work is to enable the entire
+release process to run without requiring root access, and that build
+artifacts build reproducibly – that is, that a third party can build
+bit-for-bit identical artifacts.</p>
+
+<p>Additionally, the project aims to enhance build process
+documentation, ensuring that release building is straightforward and
+does not require specialized knowledge. The work is targeted for
+completion prior to the release of FreeBSD 15.0.</p>
+</blockquote>
+
+<p>The Foundation says that updates should not impact users of FreeBSD
+release images, but it may have an impact on developers basing
+projects or products on FreeBSD that make modifications to its release
+process.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1005838/</guid>
+            <pubDate>Wed, 22 Jan 2025 19:12:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Puppet fork OpenVox makes first release</title>
             <link>https://lwn.net/Articles/1005781/</link>
