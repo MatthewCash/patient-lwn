@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jan 2025 15:06:16 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jan 2025 15:10:44 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Jan 2025 15:24:35 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Jan 2025 15:29:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Puppet fork OpenVox makes first release</title>
+            <link>https://lwn.net/Articles/1005781/</link>
+            <description><![CDATA[<p>The <a href="https://voxpupuli.org/">Vox Pupuli</a> project has
+announced the first release of <a
+href="https://voxpupuli.org/openvox/">OpenVox</a>, a
+"<q>soft-fork</q>" of the <a href="https://www.puppet.com/">Puppet</a>
+automation framework. The intention to fork was <a
+href="https://github.com/OpenVoxProject/planning/discussions/11">announced</a>
+in December&nbsp;2024.</p>
+
+<blockquote class="bq">
+<p>OpenVox 8.11 is functionally equivalent to Puppet and should be a
+drop-in replacement. Be aware, of course, that even though you can
+type the same commands, use all the same modules and extensions, and
+configure the same settings, OpenVox is not yet tested to the same
+standard that Puppet is. [...]</p>
+
+<p>Please don't use these packages on critical production
+infrastructures yet, unless you're comfortable with troubleshooting
+and reporting back on the silly errors we've made while rebranding and
+rebuilding.</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1005781/</guid>
+            <pubDate>Wed, 22 Jan 2025 15:24:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Wine 10.0 released</title>
             <link>https://lwn.net/Articles/1005801/</link>
