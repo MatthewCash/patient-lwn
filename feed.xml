@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 23 Jan 2025 14:00:54 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Jan 2025 14:30:28 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jan 2025 14:40:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,14 +375,6 @@ limitations of how the kernel community manages patches.]]></description>
             <guid>https://lwn.net/Articles/1005222/</guid>
             <pubDate>Thu, 16 Jan 2025 19:14:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1005292/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, raptor2, and rsync), <b>Debian</b> (chromium), <b>Fedora</b> (rsync and seamonkey), <b>Mageia</b> (openjpeg2), <b>Red Hat</b> (tuned), <b>Slackware</b> (git), <b>SUSE</b> (dcmtk, dnsmasq, govulncheck-vulndb, libQtWebKit4, libraptor-devel, opera, python311-Pillow, python311-translate-toolkit, rsync, and SDL2_sound-devel), and <b>Ubuntu</b> (linux-raspi-5.4, neomutt, and python2.7).]]></description>
-            <guid>https://lwn.net/Articles/1005292/</guid>
-            <pubDate>Thu, 16 Jan 2025 14:34:08 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
