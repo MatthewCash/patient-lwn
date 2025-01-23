@@ -8,11 +8,113 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jan 2025 22:43:57 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jan 2025 23:48:17 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jan 2025 00:41:52 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jan 2025 00:44:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] Ghostty 1.0 has been summoned</title>
+            <link>https://lwn.net/Articles/1004377/</link>
+            <description><![CDATA[<p>The <a href="https://ghostty.org/">Ghostty</a> terminal emulator
+project has generated a surprising amount of interest, even before
+code was released to the public. This is in part due to the high
+profile of its creator, <a
+href="https://en.wikipedia.org/wiki/HashiCorp">HashiCorp</a> founder
+Mitchell Hashimoto. Its development was conducted behind closed doors
+for beta testing, until version&nbsp;1.0 was <a
+href="https://github.com/ghostty-org/ghostty/releases/tag/v1.0.0">released</a>
+on December 26 under the <a
+href="https://github.com/ghostty-org/ghostty?tab=MIT-1-ov-file#readme">MIT
+license</a>. While far from finished, Ghostty is ready for day-to-day
+use and might be of interest to those who spend significant amounts of
+time at the command line.</p>]]></description>
+            <guid>https://lwn.net/Articles/1004377/</guid>
+            <pubDate>Wed, 15 Jan 2025 17:40:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The slow death of TuxFamily</title>
+            <link>https://lwn.net/Articles/1004988/</link>
+            <description><![CDATA[<p><a href="https://www.tuxfamily.org/">TuxFamily</a> is a
+French free-software-hosting service that has been in operation since
+1999. It is a non-profit that <a
+href="https://www.tuxfamily.org/en/about">accepts</a> "<q>any project
+released under a free license</q>", whether that is a software license
+or a free-content license, such as CC-BY-SA. It is also,
+unfortunately, slowly dying due to hardware failures and lack of
+interest. For example, the site's download servers are currently
+offline with no plan to restore them.</p>]]></description>
+            <guid>https://lwn.net/Articles/1004988/</guid>
+            <pubDate>Tue, 14 Jan 2025 19:14:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Modifying another process&apos;s system calls</title>
+            <link>https://lwn.net/Articles/1004455/</link>
+            <description><![CDATA[The <a
+href="https://man7.org/linux/man-pages/man2/ptrace.2.html"><tt>ptrace()</tt></a>
+system call allows a suitably privileged process to modify another in a
+large number of ways.  Among other things, <tt>ptrace()</tt> can intercept
+system calls and make changes to them, but such operations can be fiddly
+and architecture-dependent.  <a
+href="https://lwn.net/ml/all/20250107230153.GA30560@strace.io">This patch series from
+Dmitry Levin</a> seeks to improve that situation by adding a new
+<tt>ptrace()</tt> operation to make changes to another process's system
+calls in an architecture-independent manner.]]></description>
+            <guid>https://lwn.net/Articles/1004455/</guid>
+            <pubDate>Tue, 14 Jan 2025 17:47:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Chimera Linux works toward a simplified desktop</title>
+            <link>https://lwn.net/Articles/1004324/</link>
+            <description><![CDATA[<p>
+<a href="https://chimera-linux.org/">Chimera Linux</a> is a new distribution
+designed to be "<q>simple, transparent, and easy to pick up</q>". The
+distribution is built from scratch, and
+<a href="https://chimera-linux.org/news/2024/12/entering-beta.html">
+recently announced</a> its first beta release. While the documentation and
+installation process are both a bit rough, the project already provides a
+usable desktop with plenty of useful software — one built primarily on
+tools adopted from BSD.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1004324/</guid>
+            <pubDate>Mon, 13 Jan 2025 19:41:27 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The state of Vim</title>
+            <link>https://lwn.net/Articles/1002342/</link>
+            <description><![CDATA[<p>The death of Bram Moolenaar, <a href="https://www.vim.org/">Vim</a>
+founder and benevolent dictator for life (BDFL), in 2023 sent a shock
+through the community, and raised concern about the future of the
+project. At <a href="https://vimconf.org/">VimConf</a> 2024 in
+November, current Vim maintainer Christian Brabandt delivered a
+keynote on "<q>the new Vim project</q>" that detailed how the
+community has reorganized itself to continue maintaining Vim and what
+the future looks like.</p>]]></description>
+            <guid>https://lwn.net/Articles/1002342/</guid>
+            <pubDate>Fri, 10 Jan 2025 19:00:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Page-table hardening with memory protection keys</title>
+            <link>https://lwn.net/Articles/1004029/</link>
+            <description><![CDATA[Attacks on the kernel can take many forms; one popular exploitation path is
+to find a way to overwrite some memory with attacker-supplied data.  If the
+right memory can be targeted, one well-targeted stray write is all that is
+needed to take control of the system.  Since the system's page tables
+regulate access to memory, they are an attractive target for this type of
+attack.  <a
+href="https://lwn.net/ml/all/20250108103250.3188419-1-kevin.brodsky@arm.com">This patch 
+set</a> from Kevin Brodsky is an attempt to protect page tables (and,
+eventually, other data structures) using the "memory protection keys"
+feature provided by a number of CPU architectures.]]></description>
+            <guid>https://lwn.net/Articles/1004029/</guid>
+            <pubDate>Thu, 09 Jan 2025 15:16:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Zero-trust builds for FreeBSD</title>
             <link>https://lwn.net/Articles/1005838/</link>
@@ -294,122 +396,6 @@ limitations of how the kernel community manages patches.]]></description>
             </ul>]]></description>
             <guid>https://lwn.net/Articles/1004544/</guid>
             <pubDate>Thu, 16 Jan 2025 03:51:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for January 9, 2025</title>
-            <link>https://lwn.net/Articles/1003479/</link>
-            <description><![CDATA[The LWN.net Weekly Edition for January 9, 2025 is available.]]></description>
-            <guid>https://lwn.net/Articles/1003479/</guid>
-            <pubDate>Thu, 09 Jan 2025 00:12:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at the Sequoia command-line interface</title>
-            <link>https://lwn.net/Articles/1003243/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://sequoia-pgp.org/">
-Sequoia</a> OpenPGP library has been in development for some time. LWN
-<a href="https://lwn.net/Articles/830902/">covered</a> the library in 2020. Now the project's
-command-line interface has
-<a href="https://lwn.net/Articles/1002411/">been released</a>. The <tt>sq</tt> tool offers a
-promising alternative to the venerable
-<a href="https://gnupg.org/">
-GNU Privacy Guard</a> (GPG) tool — albeit one with a
-different interface, set of terminology, and approach to the web of
-trust. Several distributions are making increasing use of the tool
-behind the scenes.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1003243/</guid>
-            <pubDate>Wed, 08 Jan 2025 19:06:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] 2024 Linux and free software timeline</title>
-            <link>https://lwn.net/Articles/1004204/</link>
-            <description><![CDATA[<p>In the past, LWN had a tradition of <a
-href="https://lwn.net/op/TimelineIdx.lwn">publishing a timeline</a> of
-notable events from the previous year in early January. We thought we
-might try reviving that tradition in 2025 to see if our readers find
-it useful. While we have covered these events as they
-happened, it's interesting to see how much has taken place in just
-12 months.</p>]]></description>
-            <guid>https://lwn.net/Articles/1004204/</guid>
-            <pubDate>Tue, 07 Jan 2025 18:17:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Emacs in Scheme</title>
-            <link>https://lwn.net/Articles/1001929/</link>
-            <description><![CDATA[During <a href="https://emacsconf.org/2024/">EmacsConf&nbsp;2024</a>, which
-was held online in early December&nbsp;2024, Ramin Honary gave a <a
-href="https://emacsconf.org/2024/talks/gypsum/">talk</a> about <a
-href="https://codeberg.org/ramin_hal9001/gypsum#project-gypsum">Project
-Gypsum</a>, which is his effort to rewrite Emacs in <a
-href="https://www.scheme.org/">Scheme</a>.  Unlike most other Emacs clones,
-which simply replicate the key bindings, Gypsum is also implementing <a
-href="https://www.gnu.org/software/emacs/manual/html_node/eintr/">Emacs
-Lisp</a> (or Elisp).  Honary is initially targeting <a
-href="https://www.gnu.org/software/guile/">Guile</a>, which is an
-implementation of Scheme, but wants to make the code <a
-href="https://codeberg.org/ramin_hal9001/gypsum/wiki/Portability.md">portable</a>
-to any implementation of <a href="https://r7rs.org/">R7RS</a> Scheme.]]></description>
-            <guid>https://lwn.net/Articles/1001929/</guid>
-            <pubDate>Mon, 06 Jan 2025 21:10:48 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Preventing data races with Pony</title>
-            <link>https://lwn.net/Articles/1001224/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://www.ponylang.io/">Pony</a> programming language is dedicated to
-exploring how to make high-performance
-<a href="https://en.wikipedia.org/wiki/Actor_model">
-actor-based</a> systems. Started in 2014,
-the language's most notable feature is probably
-<a href="https://tutorial.ponylang.io/reference-capabilities/">
-reference capabilities</a>, a system of pointer annotations that gives the developer
-fine manual control over how data is shared between actors, while simultaneously
-ensuring that Pony programs don't have data races. The language is not likely to
-overtake other more popular programming languages, but its ideas could be useful for
-other languages or frameworks struggling with concurrent data access.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1001224/</guid>
-            <pubDate>Fri, 03 Jan 2025 15:35:19 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Some things to expect in 2025</title>
-            <link>https://lwn.net/Articles/1003780/</link>
-            <description><![CDATA[We are reliably informed by the calendar that yet another year has begun.
-That can only mean one thing: the time has come to go out on a limb with a
-series of ill-advised predictions that are almost certainly <i>not</i> how
-the year will actually go.  We have to try; it's traditional, after all.
-Read on for our view of what's coming and how it may play out.]]></description>
-            <guid>https://lwn.net/Articles/1003780/</guid>
-            <pubDate>Thu, 02 Jan 2025 15:25:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The Homa network protocol</title>
-            <link>https://lwn.net/Articles/1003059/</link>
-            <description><![CDATA[The origins of the TCP and UDP network protocols can be traced back a full
-50&nbsp;years.  Even though networks and their use have changed radically
-since those protocols were designed, they can still be found behind most
-networking applications.  Unsurprisingly, these protocols are not optimal
-for all situations, so there is ongoing interest in the development of
-alternatives.  One such is the <a
-href="https://homa-transport.atlassian.net/wiki/spaces/HOMA/overview">Homa
-transport protocol</a>, developed by John Ousterhout (of <a
-href="https://www.tcl.tk/">Tcl/Tk</a> and <a
-href="https://raft.github.io/">Raft</a> fame, among other accomplishments),
-which is aimed at data-center applications.  Ousterhout is currently trying
-to get <a href="https://lwn.net/ml/all/20241217000626.2958-1-ouster@cs.stanford.edu">a
-minimal Homa implementation</a> into the kernel.]]></description>
-            <guid>https://lwn.net/Articles/1003059/</guid>
-            <pubDate>Mon, 30 Dec 2024 15:34:51 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
