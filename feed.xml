@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Jan 2025 14:00:54 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Jan 2025 14:48:20 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jan 2025 15:09:25 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jan 2025 15:11:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1005946/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (redis:6), <b>Debian</b> (frr and git-lfs), <b>Fedora</b> (SDL2_sound and webkit2gtk4.0), <b>Gentoo</b> (firefox, GPL Ghostscript, libgsf, libuv, PHP, Qt, QtWebEngine, and Yubico pam-u2f), <b>Mageia</b> (chromium-browser-stable), <b>SUSE</b> (helmfile, nvidia-modprobe, qt6-webengine, ruby3.4-rubygem-actioncable-8.0-8.0.1-1.1, ruby3.4-rubygem-actionpack-8.0-8.0.1-1.1, ruby3.4-rubygem-actiontext-8.0-8.0.1-1.1, ruby3.4-rubygem-actionview-8.0-8.0.1-1.1, ruby3.4-rubygem-activejob-8.0-8.0.1-1.1, ruby3.4-rubygem-activerecord-8.0-8.0.1-1.1, ruby3.4-rubygem-activestorage-8.0-8.0.1-1.1, ruby3.4-rubygem-rails-8.0-8.0.1-1.1, and ruby3.4-rubygem-railties-8.0-8.0.1-1.1), and <b>Ubuntu</b> (bluez, openjpeg2, and python-django).]]></description>
+            <guid>https://lwn.net/Articles/1005946/</guid>
+            <pubDate>Thu, 23 Jan 2025 15:01:02 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] Ghostty 1.0 has been summoned</title>
             <link>https://lwn.net/Articles/1004377/</link>
