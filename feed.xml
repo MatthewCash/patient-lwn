@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 23 Jan 2025 01:42:39 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Jan 2025 03:48:09 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 23 Jan 2025 04:12:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -383,20 +383,6 @@ limitations of how the kernel community manages patches.]]></description>
             <guid>https://lwn.net/Articles/1005292/</guid>
             <pubDate>Thu, 16 Jan 2025 14:34:08 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>LWN.net Weekly Edition for January 16, 2025</title>
-            <link>https://lwn.net/Articles/1004544/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1004544/">Front</a>: Chimera Linux; Vim; Page-table hardening; Modifying system calls; Ghostty 1.0; TuxFamily.
-            <li> <a href="https://lwn.net/Articles/1004546/">Briefs</a>: rsync vulnerabilities; Linux Mint 22.1; Git v2.48.9; Libvirt v11.0.0; Rust 1.84.0; RIP Helen Borrie, Paolo Mantegazza, and Bill Gianopoulos; SFC lawsuit; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1004547/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1004544/</guid>
-            <pubDate>Thu, 16 Jan 2025 03:51:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
