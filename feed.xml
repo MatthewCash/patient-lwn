@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Jan 2025 13:46:01 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Jan 2025 13:48:09 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Jan 2025 14:00:42 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Jan 2025 14:10:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -355,28 +355,6 @@ it has been stuck in for most of the last decade.
 </p>]]></description>
             <guid>https://lwn.net/Articles/1004893/</guid>
             <pubDate>Fri, 17 Jan 2025 14:53:38 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1005433/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (rsync and tomcat9), <b>Fedora</b> (chromium, mingw-python-jinja2, redict, and valkey), <b>Gentoo</b> (GIMP and pip), <b>Oracle</b> (.NET, fence-agents, ipa, kernel, python-virtualenv, raptor2, and rsync), <b>Red Hat</b> (.NET 8.0 and .NET 9.0), <b>SUSE</b> (apache2-mod_jk, git, git-lfs, kernel, python-Django, thunderbird, and xen), and <b>Ubuntu</b> (audacity, bcel, dotnet8, dotnet9, gimp-dds, harfbuzz, libxml2, poppler, rsync, and tqdm).]]></description>
-            <guid>https://lwn.net/Articles/1005433/</guid>
-            <pubDate>Fri, 17 Jan 2025 14:01:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates, as expected</title>
-            <link>https://lwn.net/Articles/1005380/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/1005382/">6.12.10</a>,
-<a href="https://lwn.net/Articles/1005383/">6.6.72</a>, and
-<a href="https://lwn.net/Articles/1005386/">6.1.125</a> stable kernels have been released on
-the expected schedule. 
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1005380/</guid>
-            <pubDate>Fri, 17 Jan 2025 14:02:03 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
