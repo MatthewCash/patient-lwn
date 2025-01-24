@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Jan 2025 15:02:11 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Jan 2025 15:10:27 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Jan 2025 15:11:10 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Jan 2025 15:28:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1006103/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and python-django), <b>Fedora</b> (git-lfs and pam-u2f), <b>Mageia</b> (golang), <b>Red Hat</b> (java-11-openjdk with Extended Lifecycle Support, java-17-openjdk, and java-21-openjdk), <b>SUSE</b> (cheat, dante, docker-stable, grafana, and kernel), and <b>Ubuntu</b> (cacti, cyrus-imapd, HTMLDOC, and PCL).]]></description>
+            <guid>https://lwn.net/Articles/1006103/</guid>
+            <pubDate>Fri, 24 Jan 2025 15:11:09 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Four new stable kernels</title>
             <link>https://lwn.net/Articles/1006006/</link>
@@ -326,18 +334,6 @@ this issue.
             <guid>https://lwn.net/Articles/1005546/</guid>
             <pubDate>Sun, 19 Jan 2025 16:18:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LSFMM+BPF 2025 proposal deadline approaching</title>
-            <link>https://lwn.net/Articles/1005445/</link>
-            <description><![CDATA[A reminder has gone out that the deadline for proposals for the 2025 Linux
-Storage, Filesystem, Memory Management and BPF Summit is February&nbsp;1;
-anybody wanting to attend will need to make themselves known before then.
-The reminder also says that there will be no remote participation option
-(or live streams) this year.]]></description>
-            <guid>https://lwn.net/Articles/1005445/</guid>
-            <pubDate>Fri, 17 Jan 2025 15:19:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
