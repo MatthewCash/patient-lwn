@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 26 Jan 2025 15:35:49 +0000</pubDate>
-        <lastBuildDate>Sun, 26 Jan 2025 16:10:50 +0000</lastBuildDate>
+        <pubDate>Sun, 26 Jan 2025 16:22:27 +0000</pubDate>
+        <lastBuildDate>Sun, 26 Jan 2025 16:30:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -314,26 +314,6 @@ for more information.]]></description>
             <guid>https://lwn.net/Articles/1005488/</guid>
             <pubDate>Mon, 20 Jan 2025 00:39:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A single Sunday stable kernel release</title>
-            <link>https://lwn.net/Articles/1005546/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1005545/">6.1.126</a> stable kernel to fix <a
-href="https://lwn.net/ml/all/Z4rIlESGC6mwi8HP@duo.ucw.cz/#t">build
-failures</a> with the <a
-href="https://lwn.net/Articles/1005386/">6.1.125</a> stable
-release.</p>
-
-<blockquote class="bq">
-Only upgrade if 6.1.125 did not build properly for you.  If it did build
-properly, no need to upgrade.  Thanks to Ron Economos for the fix for
-this issue.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1005546/</guid>
-            <pubDate>Sun, 19 Jan 2025 16:18:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
