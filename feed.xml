@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Jan 2025 11:16:06 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Jan 2025 14:40:26 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Jan 2025 14:41:32 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jan 2025 14:48:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1006261/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git-lfs, java-17-openjdk, java-21-openjdk, kernel, and python-jinja2), <b>Debian</b> (git and git-lfs), <b>Fedora</b> (buildah, chromium, containers-common, freeipa, glibc, golang, mediawiki, pam-u2f, podman, and rsync), <b>Mageia</b> (glibc, iperf, openssl, phpmyadmin, and poppler), <b>Oracle</b> (firefox, git-lfs, grafana, java-17-openjdk, java-21-openjdk, kernel, python-jinja2, and redis:6), and <b>SUSE</b> (chromium, go1.22-1.22.11-1.1, go1.23-1.23.5-1.1, go1.24-1.24rc2-1.1, java-11-openjdk, kernel, libopenssl-3-devel, libQt6Bluetooth6, nodejs18, nodejs20, python311-azure-storage-blob, qt6-connectivity, and ruby3.4-rubygem-nokogiri-1.18.2-1.1).]]></description>
+            <guid>https://lwn.net/Articles/1006261/</guid>
+            <pubDate>Mon, 27 Jan 2025 14:41:31 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1006103/</link>
