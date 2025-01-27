@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Jan 2025 15:57:10 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Jan 2025 16:32:58 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Jan 2025 16:45:26 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jan 2025 16:49:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -274,21 +274,6 @@ causing problems for users of the overlayfs filesystem.]]></description>
             <guid>https://lwn.net/Articles/1005710/</guid>
             <pubDate>Tue, 21 Jan 2025 14:58:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Dillo 3.2.0 released</title>
-            <link>https://lwn.net/Articles/1005640/</link>
-            <description><![CDATA[<p><a href="https://dillo-browser.github.io/release/3.2.0/">Version
-3.2.0</a> of the <a href="https://dillo-browser.github.io/">Dillo</a>
-web browser has been released about a month after its <a
-href="https://dillo-browser.github.io/25-years/index.html">25th
-anniversary</a>. Notable new features in 3.2.0 include SVG support for
-math formulas, optional support for WebP images, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1005640/</guid>
-            <pubDate>Mon, 20 Jan 2025 16:21:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
