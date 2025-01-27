@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 26 Jan 2025 22:36:00 +0000</pubDate>
-        <lastBuildDate>Sun, 26 Jan 2025 23:48:11 +0000</lastBuildDate>
+        <pubDate>Sun, 26 Jan 2025 23:59:21 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jan 2025 00:45:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -264,56 +264,6 @@ math formulas, optional support for WebP images, and more.</p>
             <guid>https://lwn.net/Articles/1005638/</guid>
             <pubDate>Mon, 20 Jan 2025 14:04:04 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>GDB 16.1 released</title>
-            <link>https://lwn.net/Articles/1005562/</link>
-            <description><![CDATA[Version 16.1 of the GDB debugger is out.  There are a lot of changes,
-including watchpoints for tagged data pointers, a new script to print the
-stack trace of a running process, better Intel Processor Trace support, and
-more.]]></description>
-            <guid>https://lwn.net/Articles/1005562/</guid>
-            <pubDate>Mon, 20 Jan 2025 00:21:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The 6.13 kernel has been released</title>
-            <link>https://lwn.net/Articles/1005488/</link>
-            <description><![CDATA[Linus has <a href="https://git.kernel.org/linus/ffd294d346d1">tagged and
-released the 6.13 kernel</a>, though no announcement has been posted yet
-(check back for updates on that).
-<p>
-
-
-Significant features in this release include
-the <a href="https://lwn.net/Articles/994322/">lazy preemption model</a> for CPU
-scheduling, 
-Arm64 <a
-href="https://www.kernel.org/doc/html/next/arch/arm64/gcs.html">Guarded
-Control Stack</a> support,
-the <a href="https://lwn.net/Articles/992991/"><tt>PIDFD_GET_INFO()</tt> operation</a>,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6ac81fd55e8a">multi-grain
-file timestamps</a>,
-beginning <a href="https://lwn.net/Articles/974578/">atomic write</a> support for the ext4
-and XFS filesystems,
-the <tt>setxattrat()</tt>,  <tt>getxattrat()</tt>, <tt>listxattrat()</tt>,
-and <tt>removexattrat()</tt> system calls,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c1bc51f85cd6">private
-stacks</a> for BPF programs,
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=662df3e5c376">a
-new mechanism</a> for adding guard pages to a memory mapping,
-the removal of the reiserfs filesystem,
-and more.  See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/998623/">part&nbsp;1</a>, <a
-href="https://lwn.net/Articles/998990/">part&nbsp;2</a>) and <a
-href="https://kernelnewbies.org/Linux_6.13">the KernelNewbies 6.13 page</a>
-for more information.]]></description>
-            <guid>https://lwn.net/Articles/1005488/</guid>
-            <pubDate>Mon, 20 Jan 2025 00:39:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
