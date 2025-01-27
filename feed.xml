@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Jan 2025 15:46:49 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Jan 2025 15:48:09 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Jan 2025 15:57:10 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jan 2025 16:12:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux-related discussion as a cybersecurity threat</title>
+            <link>https://lwn.net/Articles/1006328/</link>
+            <description><![CDATA[The <a href="https://distrowatch.com/weekly.php?issue=20250127">DistroWatch
+January 27 edition</a> includes this interesting tidbit:
+<p>
+<blockquote class="bq">
+	Starting on January 19, 2025 Facebook's internal policy makers
+	decided that Linux is malware and labeled groups associated with
+	Linux as being "cybersecurity threats". Any posts mentioning
+	DistroWatch and multiple groups associated with Linux and Linux
+	discussions have either been shut down or had many of their posts
+	removed.
+<p>
+	We've been hearing all week from readers who say they can no longer
+	post about Linux on Facebook or share links to DistroWatch. Some
+	people have reported their accounts have been locked or limited for
+	posting about Linux. 
+</blockquote>
+<p>
+One can only hope that this is a mistake that will be resolved soon.]]></description>
+            <guid>https://lwn.net/Articles/1006328/</guid>
+            <pubDate>Mon, 27 Jan 2025 15:57:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1006261/</link>
