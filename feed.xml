@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 Jan 2025 18:06:58 +0000</pubDate>
-        <lastBuildDate>Wed, 29 Jan 2025 18:13:42 +0000</lastBuildDate>
+        <pubDate>Wed, 29 Jan 2025 18:32:18 +0000</pubDate>
+        <lastBuildDate>Wed, 29 Jan 2025 18:35:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Incus 6.9 released</title>
+            <link>https://lwn.net/Articles/1006769/</link>
+            <description><![CDATA[<p><a href="https://discuss.linuxcontainers.org/t/incus-6-9-has-been-released/22679">Version 6.9</a> of the <a href="https://linuxcontainers.org/incus/">Incus</a> container and virtual-machine management system has been released. Changes include a command to provide virtual machine memory dumps, ability to set network ACLs for instances on bridged networks, and more.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1006769/</guid>
+            <pubDate>Wed, 29 Jan 2025 18:14:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>LWN in EPUB format</title>
             <link>https://lwn.net/Articles/1006562/</link>
