@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Jan 2025 00:40:07 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jan 2025 00:43:23 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jan 2025 01:57:51 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jan 2025 02:03:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -283,108 +283,6 @@ important fixes, as is the usual case.]]></description>
             <guid>https://lwn.net/Articles/1005946/</guid>
             <pubDate>Thu, 23 Jan 2025 15:01:02 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Ghostty 1.0 has been summoned</title>
-            <link>https://lwn.net/Articles/1004377/</link>
-            <description><![CDATA[<p>The <a href="https://ghostty.org/">Ghostty</a> terminal emulator
-project has generated a surprising amount of interest, even before
-code was released to the public. This is in part due to the high
-profile of its creator, <a
-href="https://en.wikipedia.org/wiki/HashiCorp">HashiCorp</a> founder
-Mitchell Hashimoto. Its development was conducted behind closed doors
-for beta testing, until version&nbsp;1.0 was <a
-href="https://github.com/ghostty-org/ghostty/releases/tag/v1.0.0">released</a>
-on December 26 under the <a
-href="https://github.com/ghostty-org/ghostty?tab=MIT-1-ov-file#readme">MIT
-license</a>. While far from finished, Ghostty is ready for day-to-day
-use and might be of interest to those who spend significant amounts of
-time at the command line.</p>]]></description>
-            <guid>https://lwn.net/Articles/1004377/</guid>
-            <pubDate>Wed, 15 Jan 2025 17:40:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The slow death of TuxFamily</title>
-            <link>https://lwn.net/Articles/1004988/</link>
-            <description><![CDATA[<p><a href="https://www.tuxfamily.org/">TuxFamily</a> is a
-French free-software-hosting service that has been in operation since
-1999. It is a non-profit that <a
-href="https://www.tuxfamily.org/en/about">accepts</a> "<q>any project
-released under a free license</q>", whether that is a software license
-or a free-content license, such as CC-BY-SA. It is also,
-unfortunately, slowly dying due to hardware failures and lack of
-interest. For example, the site's download servers are currently
-offline with no plan to restore them.</p>]]></description>
-            <guid>https://lwn.net/Articles/1004988/</guid>
-            <pubDate>Tue, 14 Jan 2025 19:14:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Modifying another process&apos;s system calls</title>
-            <link>https://lwn.net/Articles/1004455/</link>
-            <description><![CDATA[The <a
-href="https://man7.org/linux/man-pages/man2/ptrace.2.html"><tt>ptrace()</tt></a>
-system call allows a suitably privileged process to modify another in a
-large number of ways.  Among other things, <tt>ptrace()</tt> can intercept
-system calls and make changes to them, but such operations can be fiddly
-and architecture-dependent.  <a
-href="https://lwn.net/ml/all/20250107230153.GA30560@strace.io">This patch series from
-Dmitry Levin</a> seeks to improve that situation by adding a new
-<tt>ptrace()</tt> operation to make changes to another process's system
-calls in an architecture-independent manner.]]></description>
-            <guid>https://lwn.net/Articles/1004455/</guid>
-            <pubDate>Tue, 14 Jan 2025 17:47:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Chimera Linux works toward a simplified desktop</title>
-            <link>https://lwn.net/Articles/1004324/</link>
-            <description><![CDATA[<p>
-<a href="https://chimera-linux.org/">Chimera Linux</a> is a new distribution
-designed to be "<q>simple, transparent, and easy to pick up</q>". The
-distribution is built from scratch, and
-<a href="https://chimera-linux.org/news/2024/12/entering-beta.html">
-recently announced</a> its first beta release. While the documentation and
-installation process are both a bit rough, the project already provides a
-usable desktop with plenty of useful software — one built primarily on
-tools adopted from BSD.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1004324/</guid>
-            <pubDate>Mon, 13 Jan 2025 19:41:27 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The state of Vim</title>
-            <link>https://lwn.net/Articles/1002342/</link>
-            <description><![CDATA[<p>The death of Bram Moolenaar, <a href="https://www.vim.org/">Vim</a>
-founder and benevolent dictator for life (BDFL), in 2023 sent a shock
-through the community, and raised concern about the future of the
-project. At <a href="https://vimconf.org/">VimConf</a> 2024 in
-November, current Vim maintainer Christian Brabandt delivered a
-keynote on "<q>the new Vim project</q>" that detailed how the
-community has reorganized itself to continue maintaining Vim and what
-the future looks like.</p>]]></description>
-            <guid>https://lwn.net/Articles/1002342/</guid>
-            <pubDate>Fri, 10 Jan 2025 19:00:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Page-table hardening with memory protection keys</title>
-            <link>https://lwn.net/Articles/1004029/</link>
-            <description><![CDATA[Attacks on the kernel can take many forms; one popular exploitation path is
-to find a way to overwrite some memory with attacker-supplied data.  If the
-right memory can be targeted, one well-targeted stray write is all that is
-needed to take control of the system.  Since the system's page tables
-regulate access to memory, they are an attractive target for this type of
-attack.  <a
-href="https://lwn.net/ml/all/20250108103250.3188419-1-kevin.brodsky@arm.com">This patch 
-set</a> from Kevin Brodsky is an attempt to protect page tables (and,
-eventually, other data structures) using the "memory protection keys"
-feature provided by a number of CPU architectures.]]></description>
-            <guid>https://lwn.net/Articles/1004029/</guid>
-            <pubDate>Thu, 09 Jan 2025 15:16:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
