@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Jan 2025 17:00:00 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jan 2025 17:09:27 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jan 2025 17:25:44 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jan 2025 17:28:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Freedesktop looking for new home for its GitLab instance</title>
+            <link>https://lwn.net/Articles/1007032/</link>
+            <description><![CDATA[Visitors to the <a href="https://www.freedesktop.org/">freedesktop.org</a>
+<a href="https://gitlab.freedesktop.org/">GitLab instance</a> are currently being greeted with a message noting that
+the company who has been hosting it for free for nearly five years, Equinix, has
+asked that it be moved (or start being paid for) by the end of April.  The
+<a
+href="https://gitlab.freedesktop.org/freedesktop/freedesktop/-/issues/2011">issue
+ticket</a> opened by Benjamin Tissoires in order to  track the planning of a move is clear that the project is grateful for
+the gift:
+"<q>First, I'd like to thank Equinix Metal for the years of support they gave us. They were very kind and generous with us and even if it's a shame we have to move out on a short notice, all things come to an end.</q>"
+
+<p>
+The current cost for the services, much of which is for 50TB of bandwidth
+per month and a half-dozen beefy servers for running continuous-integration
+(CI) jobs, comes to around $24,000 per month.  Tissoires believes that the
+project should start paying for service somewhere, in order to avoid
+upheaval of this sort, sometimes on short or no notice. "<q>I personally
+think we better have fd.o pay for its own servers, and then have sponsors
+chip in. This way, when a sponsor goes away, it's technically much simpler
+to just replace the money than change datacenter.</q>"  Various options are
+being discussed there, but any move is likely to disrupt normal services
+for a week or more.]]></description>
+            <guid>https://lwn.net/Articles/1007032/</guid>
+            <pubDate>Thu, 30 Jan 2025 17:17:51 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>GNU C Library 2.41 released</title>
             <link>https://lwn.net/Articles/1007024/</link>
