@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Jan 2025 15:45:34 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jan 2025 15:48:26 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jan 2025 16:03:27 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jan 2025 16:12:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU C Library 2.41 released</title>
+            <link>https://lwn.net/Articles/1007024/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/6975370.R56niFO833@pinacolada">Version 2.41</a> of the GNU
+C Library has been released.  Changes include a number of test-suite
+improvements, strict-error support in the DNS stub resolver, wrappers for
+the the <a
+href="https://man7.org/linux/man-pages/man2/sched_setattr.2.html"><tt>sched_setattr()</tt>
+and <tt>sched_getattr()</tt></a> system calls,
+Unicode 16.0.0 support,
+improved C23 support,
+support for <a href="https://lwn.net/Articles/885818/">extensible restartable
+sequences</a>,
+Guarded Control Stack support on 64-bit Arm systems,
+and more.]]></description>
+            <guid>https://lwn.net/Articles/1007024/</guid>
+            <pubDate>Thu, 30 Jan 2025 16:02:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Thunderbird moving to monthly updates in March</title>
             <link>https://lwn.net/Articles/1006917/</link>
