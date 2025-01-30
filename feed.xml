@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 30 Jan 2025 22:48:05 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jan 2025 22:48:14 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 30 Jan 2025 23:10:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -342,19 +342,6 @@ One can only hope that this is a mistake that will be resolved soon.]]></descrip
             <guid>https://lwn.net/Articles/1006103/</guid>
             <pubDate>Fri, 24 Jan 2025 15:11:09 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Four new stable kernels</title>
-            <link>https://lwn.net/Articles/1006006/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1006009/">6.12.11</a>, <a
-href="https://lwn.net/Articles/1006010/">6.6.74</a>, <a
-href="https://lwn.net/Articles/1006011/">6.1.127</a>, and <a
-href="https://lwn.net/Articles/1006012/">5.15.177</a> stable kernels.  They all contain
-important fixes, as is the usual case.]]></description>
-            <guid>https://lwn.net/Articles/1006006/</guid>
-            <pubDate>Thu, 23 Jan 2025 23:07:06 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
