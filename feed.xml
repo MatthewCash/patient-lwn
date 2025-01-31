@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 Jan 2025 12:54:52 +0000</pubDate>
-        <lastBuildDate>Fri, 31 Jan 2025 12:55:08 +0000</lastBuildDate>
+        <pubDate>Fri, 31 Jan 2025 13:12:28 +0000</pubDate>
+        <lastBuildDate>Fri, 31 Jan 2025 13:16:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1007252/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libsoup), <b>Debian</b> (debian-security-support and redis), <b>Fedora</b> (expat, java-21-openjdk, lemonldap-ng, and phpMyAdmin), <b>Mageia</b> (chromium-browser-stable and git-lfs), <b>Oracle</b> (bzip2, git-lfs, libsoup, mariadb:10.11, mariadb:10.5, python-jinja2, redis, and unbound), <b>Red Hat</b> (git-lfs, libsoup, python-jinja2, rsync, and unbound), <b>SUSE</b> (buildah, chromium, google-osconfig-agent, govulncheck-vulndb, hauler, ignition, krb5, libxml2, python311-pydantic, SDL2_sound, and trivy), and <b>Ubuntu</b> (jquery, linux-azure, linux-azure-4.15, linux-azure-5.15, linux-hwe-5.4, linux-oracle, and mysql-8.0).]]></description>
+            <guid>https://lwn.net/Articles/1007252/</guid>
+            <pubDate>Fri, 31 Jan 2025 13:07:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Freedesktop looking for new home for its GitLab instance</title>
             <link>https://lwn.net/Articles/1007032/</link>
