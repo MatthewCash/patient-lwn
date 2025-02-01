@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 01 Feb 2025 20:41:37 +0000</pubDate>
-        <lastBuildDate>Sat, 1 Feb 2025 21:48:12 +0000</lastBuildDate>
+        <pubDate>Sat, 01 Feb 2025 22:06:25 +0000</pubDate>
+        <lastBuildDate>Sat, 1 Feb 2025 22:09:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel updates for Saturday</title>
+            <link>https://lwn.net/Articles/1007438/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1007439/">6.13.1</a>,
+<a href="https://lwn.net/Articles/1007440/">6.12.12</a>,
+<a href="https://lwn.net/Articles/1007441/">6.6.75</a>,
+<a href="https://lwn.net/Articles/1007442/">6.1.128</a>,
+<a href="https://lwn.net/Articles/1007443/">5.15.178</a>,
+<a href="https://lwn.net/Articles/1007444/">5.10.234</a>, and
+<a href="https://lwn.net/Articles/1007445/">5.4.290</a>
+stable kernel updates have all been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1007438/</guid>
+            <pubDate>Sat, 01 Feb 2025 20:41:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The Linux Foundation on global regulations and sanctions</title>
             <link>https://lwn.net/Articles/1007272/</link>
