@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 02 Feb 2025 22:42:44 +0000</pubDate>
-        <lastBuildDate>Sun, 2 Feb 2025 22:48:05 +0000</lastBuildDate>
+        <pubDate>Sun, 02 Feb 2025 23:04:02 +0000</pubDate>
+        <lastBuildDate>Sun, 2 Feb 2025 23:09:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU Binutils 2.44 Released</title>
+            <link>https://lwn.net/Articles/1007541/</link>
+            <description><![CDATA[Version 2.44 of the GNU Binutils package has been released.  Perhaps the
+most significant change is the absence of the "gold" linker, which is
+deprecated and about to disappear entirely.  Gold <a
+href="https://lwn.net/Articles/274859/">appeared in 2008</a> with some fanfare as a faster
+linker, but it has suffered from a lack of maintenance in recent years.
+This release also includes some architecture-specific assembler
+improvements, and some (non-gold) linker enhancements.]]></description>
+            <guid>https://lwn.net/Articles/1007541/</guid>
+            <pubDate>Sun, 02 Feb 2025 23:04:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernel updates for Saturday</title>
             <link>https://lwn.net/Articles/1007438/</link>
