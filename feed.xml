@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Feb 2025 16:00:56 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Feb 2025 16:12:18 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Feb 2025 16:27:31 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Feb 2025 16:34:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>What’s new in GTK, winter 2025 edition</title>
+            <link>https://lwn.net/Articles/1007677/</link>
+            <description><![CDATA[<p>Matthias Clasen has written a short update on a GTK hackfest that
+took place at <a href="https://fosdem.org/">FOSDSEM</a> and what's
+coming in GTK 4.18. This includes fixes for pointer sizes in Wayland
+when fractional scaling is enabled, removal of the old GL renderer in
+favor of the <a
+href="https://blog.gtk.org/2024/01/28/new-renderers-for-gtk/">GL
+renderer</a> introduced in <a
+href="https://download.gnome.org/sources/gtk/4.13/gtk-4.13.6.news">GTK
+4.13.6</a>, and deprecation of X11 and Broadway backends with intent
+to remove them in GTK 5.</p>
+
+<p>The deprecated backends will remain available until then, and no
+action is required by developers at this time, Clasen wrote: "<q>There
+is no need to act on deprecations until you are actively porting your
+app to the next major version of GTK, which is not on the horizon
+yet</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1007677/</guid>
+            <pubDate>Mon, 03 Feb 2025 16:27:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1007646/</link>
@@ -392,31 +417,6 @@ present on that agreed platform during their working hours.
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (git and openjpeg2), <b>Mageia</b> (virtualbox), <b>SUSE</b> (podman), and <b>Ubuntu</b> (clamav, frr, libreoffice, linux-xilinx-zynqmp, and quagga).]]></description>
             <guid>https://lwn.net/Articles/1006486/</guid>
             <pubDate>Tue, 28 Jan 2025 15:02:51 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Linux-related discussion as a cybersecurity threat</title>
-            <link>https://lwn.net/Articles/1006328/</link>
-            <description><![CDATA[The <a href="https://distrowatch.com/weekly.php?issue=20250127">DistroWatch
-January 27 edition</a> includes this interesting tidbit:
-<p>
-<blockquote class="bq">
-	Starting on January 19, 2025 Facebook's internal policy makers
-	decided that Linux is malware and labeled groups associated with
-	Linux as being "cybersecurity threats". Any posts mentioning
-	DistroWatch and multiple groups associated with Linux and Linux
-	discussions have either been shut down or had many of their posts
-	removed.
-<p>
-	We've been hearing all week from readers who say they can no longer
-	post about Linux on Facebook or share links to DistroWatch. Some
-	people have reported their accounts have been locked or limited for
-	posting about Linux. 
-</blockquote>
-<p>
-One can only hope that this is a mistake that will be resolved soon.]]></description>
-            <guid>https://lwn.net/Articles/1006328/</guid>
-            <pubDate>Mon, 27 Jan 2025 15:57:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
