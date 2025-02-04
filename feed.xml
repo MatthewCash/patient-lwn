@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Feb 2025 15:23:13 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Feb 2025 15:29:29 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Feb 2025 15:34:15 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Feb 2025 15:39:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 135.0 released</title>
+            <link>https://lwn.net/Articles/1007887/</link>
+            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/135.0/releasenotes/">Version
+135.0</a> of the Firefox web browser has been released.  Changes include
+more languages for the translations feature, increasing roll-out of the
+credit-card autofill and AI chatbot features, and (perhaps most welcome):
+<p>
+<blockquote class="bq">
+	Firefox now includes safeguards to prevent sites from abusing the
+	history API by generating excessive history entries, which can make
+	navigating with the back and forward buttons difficult by
+	cluttering the history. This intervention ensures that such
+	entries, unless interacted with by the user, are skipped when using
+	the back and forward buttons.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1007887/</guid>
+            <pubDate>Tue, 04 Feb 2025 15:34:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1007886/</link>
