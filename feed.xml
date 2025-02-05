@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Feb 2025 13:43:54 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Feb 2025 14:10:13 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Feb 2025 14:26:31 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Feb 2025 14:29:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1008051/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (fastd, ovn, and yq), <b>Mageia</b> (libreoffice), <b>Slackware</b> (mozilla), <b>SUSE</b> (google-osconfig-agent, grafana, helm, and rime-schema-all), and <b>Ubuntu</b> (linux-azure, linux-azure-5.4, linux-lowlatency, openjdk-17, openjdk-21, openjdk-23, openjdk-8, and openjdk-lts).]]></description>
+            <guid>https://lwn.net/Articles/1008051/</guid>
+            <pubDate>Wed, 05 Feb 2025 14:22:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 135.0 released</title>
             <link>https://lwn.net/Articles/1007887/</link>
@@ -398,46 +406,6 @@ into the message, while bypassing [...] Git's validation.
             <guid>https://lwn.net/Articles/1006691/</guid>
             <pubDate>Wed, 29 Jan 2025 16:01:10 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1006677/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bzip2, gimp:2.8, keepalived, mariadb:10.11, mariadb:10.5, python-jinja2, and redis), <b>Debian</b> (iperf3, libtar, and pdns-recursor), <b>Fedora</b> (abseil-cpp, dotnet8.0, dotnet9.0, golang, libsoup3, and vaultwarden), <b>Oracle</b> (gimp:2.8, iperf3, keepalived, kernel, redis:7, and unbound), <b>Red Hat</b> (libsoup), <b>SUSE</b> (amazon-ssm-agent, go1.22, go1.23, iperf, java-21-openjdk, nginx, openvpn, and python311-asteval), and <b>Ubuntu</b> (kernel, libmicrodns, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe,
- linux-kvm, linux-oracle, linux, linux-azure, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
- linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg,
- linux-intel-iotg-5.15, linux-kvm, linux-lowlatency,
- linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15,
- linux-raspi, linux, linux-azure, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
- linux-hwe-6.8, linux-ibm, linux-lowlatency, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8,
- linux-raspi, linux, linux-azure, linux-gcp, linux-oem-6.11, linux-raspi, linux-realtime, linux, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-ibm,
- linux-ibm-5.4, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-oem-6.8, rsync, and tcpreplay).]]></description>
-            <guid>https://lwn.net/Articles/1006677/</guid>
-            <pubDate>Wed, 29 Jan 2025 14:04:39 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ubuntu developer discussion moving to Matrix</title>
-            <link>https://lwn.net/Articles/1006622/</link>
-            <description><![CDATA[<p>Ubuntu will be moving its "<q>official realtime communications
-channels</q>" from IRC to Matrix, beginning March&nbsp;1,&nbsp;2025, following
-a <a
-href="https://lists.ubuntu.com/archives/ubuntu-devel/2025-January/043224.html">discussion</a>
-on the ubuntu-devel mailing list.</p>
-
-<blockquote class="bq">
-"Official" communication, such as making realtime requests of privileged
-Ubuntu developer teams, could be expected to be actioned if requested on
-Matrix only. Similarly, you can consider your social responsibility to
-other developers in relation to your work in Ubuntu development to be
-fulfilled if you are present on that platform. And Canonical will
-follow in its requirement for its employed Ubuntu developers to be
-present on that agreed platform during their working hours.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1006622/</guid>
-            <pubDate>Wed, 29 Jan 2025 14:06:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
