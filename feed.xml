@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Feb 2025 15:46:14 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Feb 2025 15:48:29 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Feb 2025 16:09:19 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Feb 2025 16:12:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,43 +369,6 @@ href="mailto:lwn@lwn.net"><tt>lwn@lwn.net</tt></a>) with suggestions.]]></descri
             <guid>https://lwn.net/Articles/1006562/</guid>
             <pubDate>Wed, 29 Jan 2025 16:57:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Credential-leaking vulnerability in some Git credential managers</title>
-            <link>https://lwn.net/Articles/1006691/</link>
-            <description><![CDATA[<p>
-Security researcher RyotaK
-<a href="https://flatt.tech/research/posts/clone2leak-your-git-credentials-belong-to-us/">
-has shared</a> a series of vulnerabilities that all have to do with how Git
-interfaces with external
-credential managers. In short, while Git guards against newline characters
-(<tt>\n</tt>) being injected into a repository's URL, some programming languages
-also treat carriage return characters (<tt>\r</tt>) as being newlines. Adding a
-carriage return to a repository's URL can cause Git and the credential manager
-to disagree on how the URL should be parsed, ultimately resulting in Git
-credentials being sent to the wrong host. Malicious repositories could include
-Git submodules with malformed URLs, triggering the bug. Only password-based authentication
-with an external credential manager is
-vulnerable to this attack; SSH-based authentication remains secure. The Git project
-has chosen to consider this a vulnerability in Git, given the large amount of
-external software affected. The project has fixed the bug on its end by
-<a href="https://raw.githubusercontent.com/git/git/master/Documentation/RelNotes/2.48.1.txt">
-releasing updates</a> for all supported versions that ban
-carriage returns in URLs entirely.
-</p>
-
-<p>
-Affected software includes GitHub Desktop, Git LFS, and possibly other Git utilities:
-</p>
-
-<blockquote class="bq">
-Since Git itself doesn't use .lfsconfig file, specifying the URL that contains
-the newline character in .lfsconfig causes Git LFS to insert the newline character
-into the message, while bypassing [...] Git's validation.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1006691/</guid>
-            <pubDate>Wed, 29 Jan 2025 16:01:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
