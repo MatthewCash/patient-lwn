@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Feb 2025 16:49:36 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Feb 2025 16:51:28 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Feb 2025 17:04:29 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Feb 2025 17:09:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -344,31 +344,6 @@ will take our usual look at where all of those changes came from.]]></descriptio
             <guid>https://lwn.net/Articles/1006769/</guid>
             <pubDate>Wed, 29 Jan 2025 18:14:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LWN in EPUB format</title>
-            <link>https://lwn.net/Articles/1006562/</link>
-            <description><![CDATA[For years we have had occasional requests to be able to receive LWN in
-a format for ebook readers.  It took a while, but we are now happy to
-announce that all of LWN's feature content is available, to subscribers at
-the "professional hacker" level and above, in the EPUB format.  To obtain
-the weekly edition as an EPUB file, just click the "Download EPUB" link in
-the left column.  There is a separate <a href="https://lwn.net/headlines/">RSS feed</a>
-for the EPUB format as well.  Any other feature content can be turned into
-an ebook by appending <tt>/epub</tt> to its URL.
-<p>
-We will also be creating special EPUB books at times.  As an example of
-what is possible, our complete coverage from <a
-href="https://lwn.net/images/epub/kangrejos-2024.epub">Kangrejos 2024</a> and <a
-href="https://lwn.net/images/epub/lsfmmbpf-2024.epub">the 2024 Linux Storage, Filesystem,
-Memory Management, and BPF Summit</a> are available to all readers.
-<p>
-There are surely places where our EPUB books can be improved; please feel
-free to drop us a note (at <a
-href="mailto:lwn@lwn.net"><tt>lwn@lwn.net</tt></a>) with suggestions.]]></description>
-            <guid>https://lwn.net/Articles/1006562/</guid>
-            <pubDate>Wed, 29 Jan 2025 16:57:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
