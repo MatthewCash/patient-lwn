@@ -8,11 +8,132 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Feb 2025 23:43:36 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Feb 2025 23:48:23 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Feb 2025 00:05:42 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Feb 2025 00:44:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for January 30, 2025</title>
+            <link>https://lwn.net/Articles/1005953/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1005953/">Front</a>: Go vendoring in Fedora; Rust 2024 edition; 6.14 Merge window; uretprobe(); FOSDEM keynote; Earthstar.
+            <li> <a href="https://lwn.net/Articles/1005955/">Briefs</a>: Git security; Ubuntu discussion; LWN EPUBs; Facebook moderation; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1005956/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1005953/</guid>
+            <pubDate>Thu, 30 Jan 2025 03:44:16 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Offline applications with Earthstar</title>
+            <link>https://lwn.net/Articles/1005639/</link>
+            <description><![CDATA[<p>
+<a href="https://earthstar-project.org/">
+Earthstar</a> is a privacy-oriented,
+offline-first, LGPL-licensed database intended to support distributed
+applications. Unlike other distributed storage libraries, it
+focuses on providing mutable data with human-meaningful names and modification
+times, which gives it an interface similar to many non-distributed
+key-value databases.
+Now, the developers are looking at switching to a new synchronization
+protocol — one that is general enough that it might see wider adoption.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1005639/</guid>
+            <pubDate>Wed, 29 Jan 2025 15:53:07 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] FOSDEM keynote causes concerns</title>
+            <link>https://lwn.net/Articles/1006351/</link>
+            <description><![CDATA[<p>This year's edition of the <a href="https://fosdem.org/">Free and Open
+Source Software Developers' European Meeting</a> (FOSDEM) begins on
+February&nbsp;1 in Brussels. The event is widely regarded as one of
+the most important open-source conferences. One of the reasons that
+FOSDEM is held in high esteem by the community is its non-commercial
+nature. It does accept <a
+href="https://fosdem.org/2025/about/sponsors/">sponsors</a>, but
+sponsorships come with few perks and no "pay-for-play" speaking
+slots. Thus, the scheduling of a keynote by Jack
+Dorsey&#8288;&mdash;&#8288;primarily known for his role in co-founding Twitter, and
+currently CEO and chairman of FOSDEM sponsor <a
+href="https://en.wikipedia.org/wiki/Block%2C_Inc.">Block,&nbsp;Inc.</a>&#8288;&mdash;&#8288;raised eyebrows and led to plans for a protest. The
+keynote has since been removed from the schedule, but there are still
+a number of lingering questions.</p>]]></description>
+            <guid>https://lwn.net/Articles/1006351/</guid>
+            <pubDate>Tue, 28 Jan 2025 17:28:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Vendoring Go packages by default in Fedora</title>
+            <link>https://lwn.net/Articles/1005655/</link>
+            <description><![CDATA[<p>The <a href="https://go.dev">Go language</a> is designed to make it
+easy for developers to <a
+href="https://go.dev/doc/tutorial/getting-started#call">import other
+Go packages</a> and compile everything into a static binary
+for simple distribution. Unfortunately, this complicates things for
+those who package Go programs for Linux distributions, such as Fedora,
+that have guidelines which require dependencies to be packaged
+separately. Fedora's <a
+href="https://fedoraproject.org/wiki/SIGs/Go">Go special interest
+group</a> (SIG) is asking for relief and a loosening of the bundling
+guidelines to allow Go packagers to bundle dependencies into the
+packages that need them, otherwise known as vendoring. So far, the
+participants in the discussion have seemed largely in favor of the
+idea.</p>]]></description>
+            <guid>https://lwn.net/Articles/1005655/</guid>
+            <pubDate>Mon, 27 Jan 2025 15:17:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>The Rust 2024 Edition takes shape</title>
+            <link>https://lwn.net/Articles/1002456/</link>
+            <description><![CDATA[<p>
+Last year, LWN <a href="https://lwn.net/Articles/958792/">examined</a> the changes lined up for
+Rust's 2024 edition. Now, with the edition
+<a href="https://blog.rust-lang.org/2025/01/22/rust-2024-beta.html">
+ready to be stabilized</a> in February,
+it's time to look back at the edition process and see what was
+successfully adopted, which new changes were added, and what still remains to
+work on. A surprising amount of new work was proposed, implemented, and
+stabilized during the year.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1002456/</guid>
+            <pubDate>Fri, 24 Jan 2025 16:09:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>The trouble with the new uretprobes</title>
+            <link>https://lwn.net/Articles/1005662/</link>
+            <description><![CDATA[A "uretprobe" is a dynamic, user-space tracepoint injected by the kernel
+into a running process; <a
+href="https://docs.kernel.org/trace/uprobetracer.html">this document</a>
+tersely describes their use.  Among other things, uretprobes are used by
+the <tt>perf</tt> utility to time function calls.  The 6.11 kernel saw a
+significant change to uretprobes that improved their performance, but that
+change is also creating trouble for some users.  The best way to solve the
+problem is not entirely clear.]]></description>
+            <guid>https://lwn.net/Articles/1005662/</guid>
+            <pubDate>Thu, 23 Jan 2025 22:55:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>The first part of the 6.14 merge window</title>
+            <link>https://lwn.net/Articles/1005651/</link>
+            <description><![CDATA[As of this writing, just over 4,300 non-merge changesets have been pulled
+into the mainline repository for the 6.14 release.  Many of the pull
+requests this time around include remarks saying that activity has been
+relatively low this time around, presumably due to the holidays.  So those
+4,300 changesets are probably closer to the merge-window halfway point than
+usual.  Much of the work merged thus far looks more like incremental
+improvements than major new initiatives, but there still have been a number
+of interesting changes in the mix.]]></description>
+            <guid>https://lwn.net/Articles/1005651/</guid>
+            <pubDate>Thu, 23 Jan 2025 15:09:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Servo in 2024: stats, features and donations</title>
             <link>https://lwn.net/Articles/1008137/</link>
@@ -291,96 +412,6 @@ active installations tracked on stats.thunderbird.net.
             <guid>https://lwn.net/Articles/1006978/</guid>
             <pubDate>Thu, 30 Jan 2025 14:29:28 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>LWN.net Weekly Edition for January 23, 2025</title>
-            <link>https://lwn.net/Articles/1005296/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1005296/">Front</a>: Rsync vulnerability; Going mouseless; Commit IDs; 6.13 Development statistics; Python string formating; Python None-aware operators.
-            <li> <a href="https://lwn.net/Articles/1005298/">Briefs</a>: Kernel 6.13; Dillo 3.2.0; GDB 16.1; OpenVox; Wine 10.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1005299/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1005296/</guid>
-            <pubDate>Thu, 23 Jan 2025 00:01:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A revamped Python string-formatting proposal</title>
-            <link>https://lwn.net/Articles/1005000/</link>
-            <description><![CDATA[The proposal to add a more general facility for string formatting to
-Python, which we <a href="https://lwn.net/Articles/985346/">looked at</a> in August 2024,
-has changed a great deal since, so it merits another look.  The
-changes take multiple forms: a new title for <a
-href="https://peps.python.org/pep-0750/">PEP
-750</a> ("Template Strings"), a different mechanism for creating and using templates,
-a new <tt>Template</tt> type to hold them, and several additional authors for the PEP.
-Meanwhile, one controversial part of the original proposal, lazy evaluation
-of the interpolated values, has been changed so that it requires an
-explicit opt-in (via <a
-href="https://docs.python.org/3.8/tutorial/controlflow.html#lambda-expressions"><tt>lambda</tt></a>);
-template strings are a generalization of <a
-href="https://lwn.net/Articles/919426/">f-strings</a> and lazy evaluation was seen by some
-as a potentially confusing departure from their behavior.]]></description>
-            <guid>https://lwn.net/Articles/1005000/</guid>
-            <pubDate>Wed, 22 Jan 2025 18:08:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>A mouseless tale: trying for a keyboard-driven desktop</title>
-            <link>https://lwn.net/Articles/1005332/</link>
-            <description><![CDATA[<p>The computer mouse is a wonderful invention, but for the past few
-months I've been working to use mine as little as possible for
-productivity and ergonomic reasons. It should not be surprising that
-there are quite a few open-source applications, utilities, and
-configuration options that are either designed to or incidentally
-assist in creating a keyboard-driven desktop. This includes tiling window
-management with <a
-href="https://github.com/paperwm/PaperWM?tab=readme-ov-file#paperwm">PaperWM</a>, the <a
-href="https://vimium.github.io/">Vimium</a> browser extension, <a
-href="https://github.com/sezanzeb/input-remapper?tab=readme-ov-file#input-remapper">Input Remapper</a>, and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/1005332/</guid>
-            <pubDate>Wed, 22 Jan 2025 15:32:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A look at the recent rsync vulnerability</title>
-            <link>https://lwn.net/Articles/1005302/</link>
-            <description><![CDATA[<p>
-On January&nbsp;14, Nick Tait
-<a href="https://lwn.net/ml/all/CALDM2HfAOzs+zr3XLCDAKH8oOosigdaNooUANDf=Ez5mLSvQcQ@mail.gmail.com/">
-announced</a> the discovery of six vulnerabilities in
-<a href="https://rsync.samba.org/">
-rsync</a>, the popular file-synchronization tool. While software vulnerabilities are
-not uncommon, the
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2024-12084">
-most serious one</a> he announced allows for remote code execution
-on servers that run <tt>rsyncd</tt> — and possibly other configurations.
-The bug itself is fairly simple, but this event provides a nice opportunity to
-dig into it, show why it is so serious, and consider ways
-the open-source community can prevent such mistakes in the
-future.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1005302/</guid>
-            <pubDate>Tue, 21 Jan 2025 16:01:26 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Development statistics for 6.13</title>
-            <link>https://lwn.net/Articles/1004998/</link>
-            <description><![CDATA[The 6.13 development cycle ended on January&nbsp;19 with the <a
-href="https://lwn.net/ml/all/CAHk-=wiprabAQcCwb3qNhrT5P50MJNqunC9JU5v99kdvM-2rsg@mail.gmail.com/">release</a>
-of the 6.13 kernel.  This cycle was, on its surface, one of the slowest we
-have seen in some time; the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/998623/">part&nbsp;1</a>, <a
-href="https://lwn.net/Articles/998990/">part&nbsp;2</a>) and <a
-href="https://kernelnewbies.org/Linux_6.13">the KernelNewbies 6.13 page</a>
-can be consulted for a refresher on all it contains.  Here, instead, we
-will take our usual look at where all of those changes came from.]]></description>
-            <guid>https://lwn.net/Articles/1004998/</guid>
-            <pubDate>Mon, 20 Jan 2025 17:30:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
