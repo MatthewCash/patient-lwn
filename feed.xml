@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 06 Feb 2025 16:11:22 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Feb 2025 16:33:14 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Feb 2025 16:44:10 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Feb 2025 16:50:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LibreOffice 25.2 released</title>
+            <link>https://lwn.net/Articles/1008342/</link>
+            <description><![CDATA[Version 25.2 of the LibreOffice productivity suite is out.  Changes include
+the ability to remove all personal information from any document, support
+for ODF version&nbsp;1.4, a number of accessibility improvements, and more;
+see <a href="https://wiki.documentfoundation.org/ReleaseNotes/25.2">the
+release notes</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1008342/</guid>
+            <pubDate>Thu, 06 Feb 2025 16:44:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OpenWrt 24.10.0 released</title>
             <link>https://lwn.net/Articles/1008339/</link>
