@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 06 Feb 2025 13:59:35 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Feb 2025 14:29:06 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Feb 2025 14:36:17 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Feb 2025 14:38:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1008275/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (asterisk and chromium), <b>Fedora</b> (FlightGear, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk, and SimGear), <b>Mageia</b> (bind, chromium-browser-stable, python-django, and vim), <b>Oracle</b> (buildah, bzip2, firefox, keepalived, mariadb:10.11, and podman), <b>Slackware</b> (curl, mariadb, and mozilla), <b>SUSE</b> (cargo-audit-advisory-db-20250204 and python311-scikit-learn), and <b>Ubuntu</b> (ckeditor, krb5, and ruby2.7).]]></description>
+            <guid>https://lwn.net/Articles/1008275/</guid>
+            <pubDate>Thu, 06 Feb 2025 14:36:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for January 30, 2025</title>
             <link>https://lwn.net/Articles/1005953/</link>
@@ -379,39 +387,6 @@ and more.]]></description>
             <guid>https://lwn.net/Articles/1007024/</guid>
             <pubDate>Thu, 30 Jan 2025 16:02:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Thunderbird moving to monthly updates in March</title>
-            <link>https://lwn.net/Articles/1006917/</link>
-            <description><![CDATA[<p>The <a href="https://www.thunderbird.net/en-US/">Thunderbird</a> project has <a
-href="https://thunderbird.topicbox.com/groups/planning/Td58a7d8581e7d60f">announced</a>
-that it is making its <a
-href="https://developer.thunderbird.net/releases/channels">Release
-channel</a> the default download beginning with the 135.0 release in
-March. This will move users to major monthly releases instead of the
-annual major Extended Support Release (ESR) that is the current
-default.</p>
-
-<blockquote class="bq">
-One of our goals for 2025 is to increase active installations on the
-release channel to at least 20% of the total installations. At last
-check, we had 29,543 active installations on the release channel,
-compared to 20,918 on beta, and 5,941 on daily. The release channel
-installations currently account for 0.27% of the 10,784,551 total
-active installations tracked on stats.thunderbird.net.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1006917/</guid>
-            <pubDate>Thu, 30 Jan 2025 14:16:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1006978/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (redis:7), <b>Debian</b> (bind9, chromium, flightgear, pam-u2f, and simgear), <b>Red Hat</b> (fence-agents, git-lfs, libsoup, python3.9, rsync, and traceroute), <b>Slackware</b> (bind), <b>SUSE</b> (apache2-mod_security2, corepack22, go1.24, hplip, ignition, iperf, kernel, kernel-devel-longterm, nginx, nodejs22, openvpn, owasp-modsecurity-crs, and shadow), and <b>Ubuntu</b> (bind9, jinja2, libxml2, linux-lowlatency-hwe-6.8, php7.0, tomcat6, and vlc).]]></description>
-            <guid>https://lwn.net/Articles/1006978/</guid>
-            <pubDate>Thu, 30 Jan 2025 14:29:28 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
