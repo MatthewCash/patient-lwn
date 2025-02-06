@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 06 Feb 2025 15:57:20 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Feb 2025 16:11:01 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Feb 2025 16:11:22 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Feb 2025 16:33:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenWrt 24.10.0 released</title>
+            <link>https://lwn.net/Articles/1008339/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/607e9b10-1b06-4e68-9be8-1f2d26d5ef24@hauke-m.de">Version
+24.10.0</a> of the OpenWrt router-oriented distribution has been released.
+Changes include an update to the 6.6 kernel, use of access control lists on
+larger systems, multipath TCP support, better WiFi6 support, the
+beginning of WiFi7 support, and more.]]></description>
+            <guid>https://lwn.net/Articles/1008339/</guid>
+            <pubDate>Thu, 06 Feb 2025 16:11:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1008275/</link>
@@ -368,25 +380,6 @@ for a week or more.]]></description>
             <guid>https://lwn.net/Articles/1007032/</guid>
             <pubDate>Thu, 30 Jan 2025 17:17:51 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>GNU C Library 2.41 released</title>
-            <link>https://lwn.net/Articles/1007024/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/6975370.R56niFO833@pinacolada">Version 2.41</a> of the GNU
-C Library has been released.  Changes include a number of test-suite
-improvements, strict-error support in the DNS stub resolver, wrappers for
-the the <a
-href="https://man7.org/linux/man-pages/man2/sched_setattr.2.html"><tt>sched_setattr()</tt>
-and <tt>sched_getattr()</tt></a> system calls,
-Unicode 16.0.0 support,
-improved C23 support,
-support for <a href="https://lwn.net/Articles/885818/">extensible restartable
-sequences</a>,
-Guarded Control Stack support on 64-bit Arm systems,
-and more.]]></description>
-            <guid>https://lwn.net/Articles/1007024/</guid>
-            <pubDate>Thu, 30 Jan 2025 16:02:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
