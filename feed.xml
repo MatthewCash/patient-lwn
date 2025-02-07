@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Feb 2025 13:57:00 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Feb 2025 14:10:08 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Feb 2025 14:22:03 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Feb 2025 14:29:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1008502/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openjdk-17), <b>Fedora</b> (firefox, FlightGear, java-1.8.0-openjdk, java-11-openjdk, java-latest-openjdk, and SimGear), <b>Mageia</b> (gstreamer), <b>Red Hat</b> (firefox, kernel, kernel-rt, libsoup, and python-jinja2), <b>SUSE</b> (bind, curl, dcmtk, etcd, firefox, google-osconfig-agent, krb5, openssl-1_1, podman, python311-cbor2, thunderbird, wget, and xrdp), and <b>Ubuntu</b> (glibc).]]></description>
+            <guid>https://lwn.net/Articles/1008502/</guid>
+            <pubDate>Fri, 07 Feb 2025 14:16:14 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>OpenInfra board calls for input on joining Linux Foundation</title>
             <link>https://lwn.net/Articles/1008386/</link>
