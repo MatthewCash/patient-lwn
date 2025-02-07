@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Feb 2025 14:46:10 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Feb 2025 14:48:10 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Feb 2025 14:54:10 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Feb 2025 15:10:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -370,34 +370,6 @@ stable kernel updates have all been released; each contains another set of
 important fixes.]]></description>
             <guid>https://lwn.net/Articles/1007438/</guid>
             <pubDate>Sat, 01 Feb 2025 20:41:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The Linux Foundation on global regulations and sanctions</title>
-            <link>https://lwn.net/Articles/1007272/</link>
-            <description><![CDATA[The Linux Foundation has published <a
-href="https://www.linuxfoundation.org/blog/navigating-global-regulations-and-open-source-us-ofac-sanctions">its
-long-awaited article on international sanctions</a> and open-source
-development.  This is the reasoning that went into <a
-href="https://lwn.net/Articles/995186/">the removal of a group of Russian kernel
-maintainers</a> in October.
-<p>
-<blockquote class="bq">
-	It is disappointing that the open source community cannot operate
-	independently of international sanctions programs, but these
-	sanctions are the law of each country and are not optional. Many
-	developers work on open source projects in their spare time, or for
-	fun. Dealing with U.S. and international sanctions was unlikely on
-	the list of things that most (or very likely any) open source
-	developers thought they were signing up for. We hope that in time
-	relevant authorities will clarify that open source and standards
-	activities may continue unabated. Until that time, however, with
-	the direct and indirect sponsorship of developers by companies, the
-	intersection of sanctions on corporate entities leaves us in a
-	place where we cannot ignore the potential risks.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1007272/</guid>
-            <pubDate>Fri, 31 Jan 2025 14:42:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
