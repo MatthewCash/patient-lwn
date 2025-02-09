@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 09 Feb 2025 20:44:55 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Feb 2025 21:09:27 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Feb 2025 21:13:56 +0000</pubDate>
+        <lastBuildDate>Sun, 9 Feb 2025 21:24:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.14-rc2</title>
+            <link>https://lwn.net/Articles/1008693/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1008692/">second 6.14 kernel prepatch</a> is out for
+testing.
+<p>
+<blockquote class="bq">
+	It's Sunday afternoon, and I'm releasing the usual regularly
+	scheduled release candidate while the rest of the US is getting
+	ready for the biggest day in TV commercials interrupted by some
+	kind of lawn bowling tournament.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1008693/</guid>
+            <pubDate>Sun, 09 Feb 2025 21:13:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Three stable kernel updates</title>
             <link>https://lwn.net/Articles/1008641/</link>
