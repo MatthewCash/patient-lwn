@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 10 Feb 2025 16:05:12 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Feb 2025 16:33:51 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 16:47:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -368,31 +368,6 @@ credit-card autofill and AI chatbot features, and (perhaps most welcome):
             <guid>https://lwn.net/Articles/1007886/</guid>
             <pubDate>Tue, 04 Feb 2025 15:23:13 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>What’s new in GTK, winter 2025 edition</title>
-            <link>https://lwn.net/Articles/1007677/</link>
-            <description><![CDATA[<p>Matthias Clasen has written a short update on a GTK hackfest that
-took place at <a href="https://fosdem.org/">FOSDSEM</a> and what's
-coming in GTK 4.18. This includes fixes for pointer sizes in Wayland
-when fractional scaling is enabled, removal of the old GL renderer in
-favor of the <a
-href="https://blog.gtk.org/2024/01/28/new-renderers-for-gtk/">GL
-renderer</a> introduced in <a
-href="https://download.gnome.org/sources/gtk/4.13/gtk-4.13.6.news">GTK
-4.13.6</a>, and deprecation of X11 and Broadway backends with intent
-to remove them in GTK 5.</p>
-
-<p>The deprecated backends will remain available until then, and no
-action is required by developers at this time, Clasen wrote: "<q>There
-is no need to act on deprecations until you are actively porting your
-app to the next major version of GTK, which is not on the horizon
-yet</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1007677/</guid>
-            <pubDate>Mon, 03 Feb 2025 16:27:31 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
