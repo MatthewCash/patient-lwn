@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 10 Feb 2025 15:19:07 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Feb 2025 15:28:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 10 Feb 2025 15:38:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,14 +352,6 @@ yet</q>".</p>
             <guid>https://lwn.net/Articles/1007677/</guid>
             <pubDate>Mon, 03 Feb 2025 16:27:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1007646/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git-lfs, libsoup, and unbound), <b>Debian</b> (dcmtk, ffmpeg, openjdk-11, pam-u2f, and python-aiohttp), <b>Fedora</b> (buku, chromium, jpegxl, nodejs18, nodejs20, and rust-routinator), <b>Mageia</b> (clamav, kernel, kmod-virtualbox, kmod-xtables-addons &amp; dwarves, and kernel-linus), <b>SUSE</b> (apptainer, bind, buildah, chromedriver, clamav, dovecot24, ignition, kubelogin, libjxl, libQt5Bluetooth5-32bit, orc, owasp-modsecurity-crs, python-pydantic, python311-ipython, and stb), and <b>Ubuntu</b> (linux-azure and netdata).]]></description>
-            <guid>https://lwn.net/Articles/1007646/</guid>
-            <pubDate>Mon, 03 Feb 2025 15:21:21 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
