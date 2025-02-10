@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Feb 2025 14:15:28 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Feb 2025 14:46:38 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Feb 2025 15:02:26 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Feb 2025 15:09:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1008829/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, bzip2, galera and mariadb, keepalived, kernel, kernel-rt, mariadb:10.11, mingw-glib2, and podman), <b>Debian</b> (ark, firefox-esr, kernel, sssd, and thunderbird), <b>Fedora</b> (abseil-cpp, clevis-pin-tpm2, dbus-parsec, envision, fido-device-onboard, firefox, golang-github-nvidia-container-toolkit, gotify-desktop, jpegxl, keylime-agent-rust, keyring-ima-signer, libkrun, php-phpseclib, python-cryptography, python3-docs, python3.12, python3.13, rust-afterburn, rust-cargo-vendor-filterer, rust-coreos-installer, rust-crypto-auditing-agent, rust-eif_build, rust-gst-plugin-reqwest, rust-nu, rust-oo7-cli, rust-openssl, rust-openssl-sys, rust-pore, rust-routinator, rust-rpm-sequoia, rust-sequoia-keyring-linter, rust-sequoia-octopus-librnp, rust-sequoia-policy-config, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-sqv, rust-sevctl, rust-snphost, rust-tealdeer, rustup, s390utils, stalld, and vaultwarden), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk &amp; java-latest-openjdk, libtasn1, mariadb, nodejs, qtbase5 &amp; qtbase6, rootcerts, nss &amp; firefox, thunderbird, and xrdp), <b>Red Hat</b> (buildah, doxygen, podman, and thunderbird), <b>Slackware</b> (gnutls and openssl), <b>SUSE</b> (bind, chromedriver, crypto-policies, krb5, firefox, flannel, go1.22, go1.23, go1.23-1.23.6-1.1, go1.24-1.24rc3-1.1, openssl-1_1, openssl-3, python311-cryptography-vectors, python311-numba, python39, rsync, tomcat, and trivy), and <b>Ubuntu</b> (openrefine and rsync).]]></description>
+            <guid>https://lwn.net/Articles/1008829/</guid>
+            <pubDate>Mon, 10 Feb 2025 15:02:26 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.14-rc2</title>
             <link>https://lwn.net/Articles/1008693/</link>
