@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Feb 2025 15:40:51 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Feb 2025 15:46:41 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Feb 2025 16:05:12 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Feb 2025 16:11:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A Rust-for-Linux policy document</title>
+            <link>https://lwn.net/Articles/1008865/</link>
+            <description><![CDATA[Miguel Ojeda has <a
+href="https://lwn.net/ml/all/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com">announced</a>
+the posting of <a href="https://rust-for-linux.com/rust-kernel-policy">a
+new document</a> describing policies around the use of Rust in the Linux
+kernel.
+<p>
+<blockquote class="bq">
+	There has been a fair amount of confusion about what the kernel
+	policies around Rust are, who maintains what and so on.  This
+	document tries to clarify some of these points with what, to the
+	best of our knowledge, is the current status.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1008865/</guid>
+            <pubDate>Mon, 10 Feb 2025 15:47:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Arti 1.4.0 released</title>
+            <link>https://lwn.net/Articles/1008866/</link>
+            <description><![CDATA[<p><a href="https://blog.torproject.org/arti_1_4_0_released/">Version
+1.4.0</a> of <a
+href="https://tpo.pages.torproject.net/core/arti/">Arti</a>, the <a
+href="https://www.torproject.org/">Tor Project's</a> next-generation
+Tor client written in Rust, has been released. Notable improvements in
+this release include a new <a
+href="https://gitlab.torproject.org/tpo/core/arti/-/tree/main/doc/dev/rpc-book/src">RPC
+interface</a>, and preparatory work toward service-side onion service
+denial-of-service resistance. The release is dedicated to the <a
+href="https://lwn.net/Articles/997775/">memory of Jérémy Bobbio</a>,
+better known by many as "Lunar". For full details on the release, see
+the <a
+href="https://gitlab.torproject.org/tpo/core/arti/-/blob/main/CHANGELOG.md#arti-140--7-february-2025">changelog</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1008866/</guid>
+            <pubDate>Mon, 10 Feb 2025 16:05:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1008829/</link>
