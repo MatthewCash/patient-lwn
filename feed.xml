@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Feb 2025 15:28:20 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Feb 2025 15:29:29 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Feb 2025 15:36:19 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Feb 2025 15:39:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -376,34 +376,6 @@ enhanced commenting features, EPUB downloads, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/1008051/</guid>
             <pubDate>Wed, 05 Feb 2025 14:22:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 135.0 released</title>
-            <link>https://lwn.net/Articles/1007887/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/135.0/releasenotes/">Version
-135.0</a> of the Firefox web browser has been released.  Changes include
-more languages for the translations feature, increasing roll-out of the
-credit-card autofill and AI chatbot features, and (perhaps most welcome):
-<p>
-<blockquote class="bq">
-	Firefox now includes safeguards to prevent sites from abusing the
-	history API by generating excessive history entries, which can make
-	navigating with the back and forward buttons difficult by
-	cluttering the history. This intervention ensures that such
-	entries, unless interacted with by the user, are skipped when using
-	the back and forward buttons.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1007887/</guid>
-            <pubDate>Tue, 04 Feb 2025 15:34:07 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1007886/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openjdk-17), <b>Fedora</b> (chromium, fastd, ovn, and yq), <b>Mageia</b> (libxml2 and redis), <b>Oracle</b> (gstreamer1-plugins-base, gstreamer1-plugins-good), <b>Red Hat</b> (buildah, bzip2, galera, mariadb, grafana, keepalived, libsoup, mariadb:10.11, mariadb:10.5, mingw-glib2, podman, python-jinja2, and rsync), <b>SUSE</b> (bind, ignition, java-11-openjdk, java-17-openjdk, krb5, libxml2, openssl-1_1, orc, python-asteval, rsync, and xrdp), and <b>Ubuntu</b> (harfbuzz, libndp, libvpx, and opencv).]]></description>
-            <guid>https://lwn.net/Articles/1007886/</guid>
-            <pubDate>Tue, 04 Feb 2025 15:23:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
