@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Feb 2025 20:08:42 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Feb 2025 20:10:31 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Feb 2025 20:23:47 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Feb 2025 20:28:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -355,37 +355,6 @@ of interesting changes in the mix.]]></description>
             <guid>https://lwn.net/Articles/1005651/</guid>
             <pubDate>Thu, 23 Jan 2025 15:09:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Servo in 2024: stats, features and donations</title>
-            <link>https://lwn.net/Articles/1008137/</link>
-            <description><![CDATA[<p>The <a href="https://servo.org/">Servo</a> Rust-based rendering
-engine project has <a
-href="https://servo.org/blog/2025/01/31/servo-in-2024/">published</a>
-an article summarizing its progress in&nbsp;2024, and plans for the
-future:</p>
-
-<blockquote class="bq">
-Servo main dependencies (SpiderMonkey, Stylo and WebRender) have been
-upgraded, the new layout engine has kept evolving adding support for
-floats, tables, flexbox, fonts, etc. By the end of&nbsp;2024 Servo passes&nbsp;1,515,229 WPT subtests (79%). Many other new features have been under
-active development: WebGPU, Shadow DOM, ReadableStream, WebXR, ... Servo
-now supports two new platforms: Android and OpenHarmony. And we have
-got the first experiments of applications using Servo as a web engine
-(like <a
-href="https://servo.org/blog/2024/01/19/embedding-update/">Tauri</a>,
-<a href="https://github.com/DioxusLabs/blitz">Blitz</a>, <a
-href="https://github.com/KDABLabs/cxx-qt-servo-webview">QtWebView</a>,
-<a
-href="https://github.com/mcclure/cuervo/tree/unstable_traversal_experiment">Cuervo</a>,
-<a href="https://github.com/versotile-org/verso/">Verso</a> and <a
-href="https://github.com/moto-browser/moto">Moto</a>).
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1008137/</guid>
-            <pubDate>Wed, 05 Feb 2025 20:04:49 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
