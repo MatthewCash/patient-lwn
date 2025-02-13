@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Feb 2025 21:29:02 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Feb 2025 21:32:04 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Feb 2025 21:33:09 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Feb 2025 21:46:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -332,41 +332,6 @@ fixes.]]></description>
             <guid>https://lwn.net/Articles/1008502/</guid>
             <pubDate>Fri, 07 Feb 2025 14:16:14 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>OpenInfra board calls for input on joining Linux Foundation</title>
-            <link>https://lwn.net/Articles/1008386/</link>
-            <description><![CDATA[<p>Jonathan Bryce has <a href="https://lists.openinfra.org/archives/list/foundation@lists.openinfra.org/thread/3B7OWPRXB4KD2DVX7SYYSHYYRNCKVV46/">announced</a> two open community meetings to hear
-input on the topic of the <a href="https://openinfra.org/">OpenInfra
-Foundation</a> migrating to the Linux Foundation. Bryce
-wrote that the OpenInfra board has carefully evaluated its options,
-and sees joining the Linux Foundation as the best way forward.</p>
-
-<p>Like the Linux Foundation, the OpenInfra Foundation is 501(c)(6)
-nonprofit. According to the <a
-href="https://board.openinfra.org/strategic-consideration/faq">FAQ</a>,
-OpenInfra "<q>is in great health, financially and otherwise</q>" with
-a growth in membership of about 15% in the last year. However, its
-needs in 2025 are different than when it was founded as the OpenStack
-Foundation in 2012.</p>
-
-<blockquote class="bq">
-While the opportunities ahead for open source to make a positive
-impact on the world are greater than they have ever been, the
-challenges are more significant as well, particularly with respect to
-regulations, licensing and geopolitical tensions that threaten global
-collaboration.
-</blockquote>
-
-<p>The meetings will be held on February&nbsp;11 and February&nbsp;13 as
-Zoom calls. The OpenInfra board will schedule a vote after feedback
-has been collected and draft governance documents have been
-published.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1008386/</guid>
-            <pubDate>Thu, 06 Feb 2025 21:25:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
