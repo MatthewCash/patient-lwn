@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Feb 2025 13:55:18 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Feb 2025 14:29:37 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Feb 2025 14:32:14 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Feb 2025 14:39:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -359,14 +359,6 @@ beginning of WiFi7 support, and more.]]></description>
             <guid>https://lwn.net/Articles/1008339/</guid>
             <pubDate>Thu, 06 Feb 2025 16:11:21 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1008275/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (asterisk and chromium), <b>Fedora</b> (FlightGear, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk, and SimGear), <b>Mageia</b> (bind, chromium-browser-stable, python-django, and vim), <b>Oracle</b> (buildah, bzip2, firefox, keepalived, mariadb:10.11, and podman), <b>Slackware</b> (curl, mariadb, and mozilla), <b>SUSE</b> (cargo-audit-advisory-db-20250204 and python311-scikit-learn), and <b>Ubuntu</b> (ckeditor, krb5, and ruby2.7).]]></description>
-            <guid>https://lwn.net/Articles/1008275/</guid>
-            <pubDate>Thu, 06 Feb 2025 14:36:16 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
