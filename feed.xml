@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Feb 2025 15:17:42 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Feb 2025 15:27:54 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Feb 2025 15:35:22 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Feb 2025 15:36:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSUSE Tumbleweed switches to SELinux</title>
+            <link>https://lwn.net/Articles/1009522/</link>
+            <description><![CDATA[The openSUSE project has <a
+href="https://lwn.net/ml/all/a4280691-a338-4b45-8e62-904d1884a154@suse.de">announced</a>
+that future installations of the Tumbleweed rolling distribution will use
+SELinux for mandatory access control rather than AppArmor.  Existing
+installations will not be migrated, and AppArmor will continue to be
+maintained for Tumbleweed.  The openSUSE Leap distribution is not changing
+— for now at least.]]></description>
+            <guid>https://lwn.net/Articles/1009522/</guid>
+            <pubDate>Thu, 13 Feb 2025 15:35:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1009450/</link>
