@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Feb 2025 13:30:57 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Feb 2025 13:46:54 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Feb 2025 13:55:18 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Feb 2025 14:09:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1009450/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (doxygen and openssl), <b>Debian</b> (dcmtk and webkit2gtk), <b>Fedora</b> (chromium, clevis-pin-tpm2, envision, fido-device-onboard, gotify-desktop, keylime-agent-rust, keyring-ima-signer, libkrun, python3.10, python3.11, python3.14, rust-afterburn, rust-cargo-vendor-filterer, rust-coreos-installer, rust-eif_build, rust-gst-plugin-reqwest, rust-nu, rust-openssl, rust-openssl-sys, rust-pore, rust-rpm-sequoia, rust-sequoia-keyring-linter, rust-sequoia-octopus-librnp, rust-sequoia-policy-config, rust-sequoia-sqv, rust-sevctl, rust-snphost, rust-tealdeer, rustup, and s390utils), <b>Mageia</b> (ffmpeg, php-tcpdf, python-tornado, and subversion), <b>Red Hat</b> (openssl and python-jinja2), <b>SUSE</b> (crun, glibc, kernel, libngtcp2-16, libtasn1, netty, ovmf, podman, python, and python3), and <b>Ubuntu</b> (ansible, digikam, linux-aws, linux-aws-5.15, linux-azure-6.8, and ruby2.7).]]></description>
+            <guid>https://lwn.net/Articles/1009450/</guid>
+            <pubDate>Thu, 13 Feb 2025 13:48:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for February 6, 2025</title>
             <link>https://lwn.net/Articles/1007000/</link>
