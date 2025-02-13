@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Feb 2025 16:10:38 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Feb 2025 16:11:45 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Feb 2025 16:22:17 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Feb 2025 16:34:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -378,18 +378,6 @@ see <a href="https://wiki.documentfoundation.org/ReleaseNotes/25.2">the
 release notes</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1008342/</guid>
             <pubDate>Thu, 06 Feb 2025 16:44:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>OpenWrt 24.10.0 released</title>
-            <link>https://lwn.net/Articles/1008339/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/607e9b10-1b06-4e68-9be8-1f2d26d5ef24@hauke-m.de">Version
-24.10.0</a> of the OpenWrt router-oriented distribution has been released.
-Changes include an update to the 6.6 kernel, use of access control lists on
-larger systems, multipath TCP support, better WiFi6 support, the
-beginning of WiFi7 support, and more.]]></description>
-            <guid>https://lwn.net/Articles/1008339/</guid>
-            <pubDate>Thu, 06 Feb 2025 16:11:21 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
