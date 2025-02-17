@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Feb 2025 12:17:06 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Feb 2025 12:17:38 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Feb 2025 12:37:51 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Feb 2025 12:56:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1010328/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, gcc, libxml2, nodejs:18, and nodejs:20), <b>Debian</b> (freerdp2, golang-glog, trafficserver, and tryton-client), <b>Fedora</b> (chromium, krb5, libheif, microcode_ctl, nginx, nginx-mod-fancyindex, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, and webkitgtk), <b>Mageia</b> (ffmpeg, golang, postgresql13 and postgresql15, and python-zipp), <b>Oracle</b> (container-tools:ol8, gcc, gcc-toolset-13-gcc, gcc-toolset-14-gcc, kernel, libxml2, and nodejs:20), <b>Red Hat</b> (gcc, idm:DL1, and ipa), <b>SUSE</b> (buildah, chromium, glibc, kernel, kernel-firmware-all-20250206, libecpg6, postgresql15, python, python3, python311, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (intel-microcode).]]></description>
+            <guid>https://lwn.net/Articles/1010328/</guid>
+            <pubDate>Mon, 17 Feb 2025 12:35:59 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.14-rc3</title>
             <link>https://lwn.net/Articles/1010232/</link>
