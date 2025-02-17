@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Feb 2025 14:32:00 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Feb 2025 14:46:33 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Feb 2025 14:55:44 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Feb 2025 15:09:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels under the sky</title>
+            <link>https://lwn.net/Articles/1010352/</link>
+            <description><![CDATA[<p>
+Greg Kroah-Hartman has released three more stable kernels:
+<a href="https://lwn.net/Articles/1010354/">6.13.3</a>,
+<a href="https://lwn.net/Articles/1010356/">6.12.14</a>, and
+<a href="https://lwn.net/Articles/1010357/">6.6.78</a>.
+There was a bit of confusion that resulted in the patch for
+<a href="https://www.cve.org/CVERecord/?id=CVE-2025-21687">CVE 2025-21687</a>
+getting applied twice — but that doesn't result in any problems for users of the
+kernel, just a bit of extra noise in the CVE database, so Kroah-Hartman has
+decided to leave the releases as-is instead of rushing another point release.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1010352/</guid>
+            <pubDate>Mon, 17 Feb 2025 14:55:44 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1010328/</link>
