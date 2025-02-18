@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Feb 2025 14:17:05 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Feb 2025 14:29:35 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Feb 2025 14:35:16 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Feb 2025 14:40:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1010621/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gnutls28, openssh, and pam-pkcs11), <b>Mageia</b> (microcode and python-cryptography), <b>Oracle</b> (nodejs:18, nodejs:20, and rsync), <b>Red Hat</b> (gcc, nodejs:20, and nodejs:22), <b>SUSE</b> (emacs, kernel, openvswitch, and ucode-intel), and <b>Ubuntu</b> (Docker).]]></description>
+            <guid>https://lwn.net/Articles/1010621/</guid>
+            <pubDate>Tue, 18 Feb 2025 14:35:15 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Three stable kernels under the sky</title>
             <link>https://lwn.net/Articles/1010352/</link>
