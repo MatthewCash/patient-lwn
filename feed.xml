@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Feb 2025 14:35:16 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Feb 2025 14:40:07 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Feb 2025 14:44:02 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Feb 2025 14:46:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel 6.12.15</title>
+            <link>https://lwn.net/Articles/1010624/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1010623/">6.12.15</a> stable kernel update has been
+fast-tracked to release.  It seems that its predecessor contains <a
+href="https://lwn.net/ml/all/CAJMi0nTbyi6VGTmmZ43wYWwJWur0XPtuswZ_5UaXB+S6Z=Mo6A@mail.gmail.com">a
+regression in the XFS filesystem</a> that can lead to kernel crashes.]]></description>
+            <guid>https://lwn.net/Articles/1010624/</guid>
+            <pubDate>Tue, 18 Feb 2025 14:43:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1010621/</link>
