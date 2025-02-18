@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Feb 2025 18:52:40 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Feb 2025 19:07:25 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Feb 2025 19:18:02 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Feb 2025 19:21:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Pi-hole v6 released</title>
+            <link>https://lwn.net/Articles/1010682/</link>
+            <description><![CDATA[<p><a href="https://pi-hole.net/">Pi-hole</a> v6 has been <a
+href="https://pi-hole.net/blog/2025/02/18/introducing-pi-hole-v6/#page-content">released</a>. The
+latest version of the popular ad-blocking software sports a redesigned
+user interface, has support for subscribing to allowlists, and brings
+a new REST API and embedded web server. Its Docker/OCI image is now
+based on <a href="https://www.alpinelinux.org/">Alpine Linux</a>
+rather than <a href="https://debian.org/">Debian</a> to reduce image
+size. See the announcement for guidance on upgrading existing Pi-hole
+installations.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1010682/</guid>
+            <pubDate>Tue, 18 Feb 2025 19:18:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A milestone for reproducible openSUSE</title>
             <link>https://lwn.net/Articles/1010629/</link>
