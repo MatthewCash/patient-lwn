@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Feb 2025 14:44:02 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Feb 2025 14:46:38 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Feb 2025 14:58:54 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Feb 2025 15:10:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A milestone for reproducible openSUSE</title>
+            <link>https://lwn.net/Articles/1010629/</link>
+            <description><![CDATA[The Reproducible-openSUSE project has <a
+href="https://news.opensuse.org/2025/02/18/rbos-project-hits-milestone/">announced</a>
+that it has created a usable version of openSUSE with 100% reproducible
+packages.
+<p>
+<blockquote class="bq">
+	[Bernhard] Wiedemann took on this 4-month-long project to create a
+	fork of openSUSE that has 100% bit-reproducible packages. So far
+	ring0 (aka bootstrap) and ring1 with 3,300 software packages have
+	all successfully been patched and tested.
+</blockquote>
+<p>
+This build is not yet recommended for production use, though.]]></description>
+            <guid>https://lwn.net/Articles/1010629/</guid>
+            <pubDate>Tue, 18 Feb 2025 14:58:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernel 6.12.15</title>
             <link>https://lwn.net/Articles/1010624/</link>
@@ -286,42 +306,6 @@ description and a defiant response</a>:
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, kernel-rt, tbb, and thunderbird), <b>Debian</b> (bind9, cacti, pam-pkcs11, and ruby2.7), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, crun, and java-21-openjdk), <b>Mageia</b> (calibre, nginx, python-ansible-core, python-jinja2, python-pip, python-setuptools, python-twisted, and python-waitress), <b>Red Hat</b> (doxygen, firefox, gcc, gcc-toolset-13-gcc, gcc-toolset-14-gcc, tbb, and thunderbird), <b>SUSE</b> (go1.24, govulncheck-vulndb, java-1_8_0-openj9, kernel, openssl-3, ovmf, python3-numpy, python311, python36, qemu, and skopeo), and <b>Ubuntu</b> (bluez and openssl).]]></description>
             <guid>https://lwn.net/Articles/1009177/</guid>
             <pubDate>Wed, 12 Feb 2025 14:33:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1008966/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, tbb, and thunderbird), <b>Debian</b> (cacti, libtasn1-6, and rust-openssl), <b>Oracle</b> (galera and mariadb, kernel, raptor2, and thunderbird), <b>SUSE</b> (bind, fq, java-21-openj9, libtasn1-6-32bit, ovmf, python310, python312, python313, python314, rime-schema-all, thunderbird, and wget), and <b>Ubuntu</b> (eglibc, firefox, glibc, linux, linux-aws, linux-lts-xenial, ruby2.3, ruby2.5, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1008966/</guid>
-            <pubDate>Tue, 11 Feb 2025 14:46:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel 6.6.77</title>
-            <link>https://lwn.net/Articles/1008969/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1008968/">6.6.77</a> stable kernel update has been
-released; it contains a single fix for a User Mode Linux build problem.]]></description>
-            <guid>https://lwn.net/Articles/1008969/</guid>
-            <pubDate>Tue, 11 Feb 2025 14:49:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Plasma 6.3 released</title>
-            <link>https://lwn.net/Articles/1008971/</link>
-            <description><![CDATA[<a href="https://kde.org/announcements/plasma/6/6.3.0/">Version 6.3</a> of
-the Plasma desktop has been released.
-<p>
-<blockquote class="bq">
-	One year on, with the teething problems a major new release
-	inevitably brings firmly behind us, Plasma's developers have worked
-	on fine-tuning, squashing bugs and adding features to Plasma 6 —
-	turning it into the best desktop environment for everyone.
-</blockquote>
-<p>
-Changes include improved support for
-drawing tablets, better fractional-scaling support, and more.]]></description>
-            <guid>https://lwn.net/Articles/1008971/</guid>
-            <pubDate>Tue, 11 Feb 2025 14:54:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
