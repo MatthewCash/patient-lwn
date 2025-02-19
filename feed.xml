@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 19 Feb 2025 19:16:54 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 19:20:06 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 19 Feb 2025 19:32:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,31 +352,6 @@ abstractions have run into resistance that has the potential to block
 progress on the Rust-for-Linux project as a whole.]]></description>
             <guid>https://lwn.net/Articles/1006805/</guid>
             <pubDate>Thu, 30 Jan 2025 19:42:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Codeberg responds to hate attacks</title>
-            <link>https://lwn.net/Articles/1009227/</link>
-            <description><![CDATA[The <a href="https://codeberg.org/">Codeberg</a> development forge has
-recently been subject to sustained attacks resulting in, among other
-things, abusive email being sent to the site's users.  The organization has
-now put up <a
-href="https://blog.codeberg.org/we-stay-strong-against-hate-and-hatred.html">a
-description and a defiant response</a>:
-<p>
-<blockquote class="bq">
-	Extreme right forces actively target members of our communities and
-	discriminate based on ethnicity and gender, political background,
-	sexual orientation, disabilities, nationality and faith. However
-	diversity is an important asset in free/libre software communities
-	and it is what makes our software great and development productive.
-<p>
-	By targeting some of our most active translators, nicest
-	designers, best developers and all other motivated contributors,
-	they are hurting the free/libre software ecosystem as a whole.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1009227/</guid>
-            <pubDate>Wed, 12 Feb 2025 19:30:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
