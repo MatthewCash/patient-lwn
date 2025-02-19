@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 20:45:50 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 21:32:13 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 21:44:02 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 21:46:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mozilla announces leadership updates and next chapter</title>
+            <link>https://lwn.net/Articles/1010922/</link>
+            <description><![CDATA[<p>Mark Surman, president of the <a
+href="https://www.mozilla.org/">Mozilla Corporation</a>, has <a
+href="https://blog.mozilla.org/en/mozilla/mozilla-leadership-growth-planning-updates/">announced</a>
+leadership updates for Mozilla. This includes a Mozilla Leadership
+Council made up of executives from each Mozilla organization, and new
+board chairs for the not-for-profit <a
+href="https://foundation.mozilla.org/">Mozilla Foundation</a>, the
+Mozilla Corporation, and <a
+href="https://www.mozilla.ai/">Mozilla.ai</a>. The announcement also
+indicates a desire to further "<q>diversify</q>" Mozilla's focus:</p>
+
+<blockquote class="bq">
+We've recognized that Mozilla faces major headwinds in terms of both
+financial growth and mission impact. While Firefox remains the core of
+what we do, we also need to take steps to diversify: investing in
+privacy-respecting advertising to grow new revenue in the near term;
+developing trustworthy, open source AI to ensure technical and product
+relevance in the mid term; and creating online fundraising campaigns
+that will draw a bigger circle of supporters over the long
+run. Mozilla's impact and survival depend on us simultaneously
+strengthening Firefox AND finding new sources of revenue AND
+manifesting our mission in fresh ways. That is why we're working hard
+on all of these fronts.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1010922/</guid>
+            <pubDate>Wed, 19 Feb 2025 21:43:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Mesa 25.0.0 released</title>
             <link>https://lwn.net/Articles/1010898/</link>
