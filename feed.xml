@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 14:26:08 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 14:29:34 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 14:38:35 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 14:40:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Lange: The secret maze of Debian images</title>
+            <link>https://lwn.net/Articles/1010855/</link>
+            <description><![CDATA[<p>Debian Developer Thomas Lange has written a <a
+href="https://blog.fai-project.org/posts/cdimages-maze/">blog post</a>
+in the attempt to help users find the right Debian image for their
+systems.</p>
+
+<blockquote class="bq">
+It's difficult to find the right Debian image. We have thousands of
+ISO files and cloud images and we support multiple CPU architectures
+and several download methods. The directory structure of our main
+image server is like a maze, and our web pages for downloading are
+also confusing.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1010855/</guid>
+            <pubDate>Wed, 19 Feb 2025 14:38:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1010853/</link>
@@ -324,14 +344,6 @@ description and a defiant response</a>:
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1009227/</guid>
             <pubDate>Wed, 12 Feb 2025 19:30:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1009177/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, kernel-rt, tbb, and thunderbird), <b>Debian</b> (bind9, cacti, pam-pkcs11, and ruby2.7), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, crun, and java-21-openjdk), <b>Mageia</b> (calibre, nginx, python-ansible-core, python-jinja2, python-pip, python-setuptools, python-twisted, and python-waitress), <b>Red Hat</b> (doxygen, firefox, gcc, gcc-toolset-13-gcc, gcc-toolset-14-gcc, tbb, and thunderbird), <b>SUSE</b> (go1.24, govulncheck-vulndb, java-1_8_0-openj9, kernel, openssl-3, ovmf, python3-numpy, python311, python36, qemu, and skopeo), and <b>Ubuntu</b> (bluez and openssl).]]></description>
-            <guid>https://lwn.net/Articles/1009177/</guid>
-            <pubDate>Wed, 12 Feb 2025 14:33:48 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
