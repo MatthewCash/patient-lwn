@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 17:00:06 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 17:46:34 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 18:07:32 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 18:12:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mesa 25.0.0 released</title>
+            <link>https://lwn.net/Articles/1010898/</link>
+            <description><![CDATA[<a
+href="https://lists.freedesktop.org/archives/mesa-dev/2025-February/226464.html">Version
+25.0.0</a> of the Mesa graphics library has been released.  "<q>The flashiest addition is probably the support for Vulkan 1.4 by Anv (Intel),
+Asahi (Apple), Lavapipe (software), NVK (NVIDIA), PanVK (Mali), RADV (AMD),
+and Turnip (Qualcomm).
+
+Users can expect the usual flurry of improvements across all drivers and
+components.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1010898/</guid>
+            <pubDate>Wed, 19 Feb 2025 17:57:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>RISC-V and Fedora: All Aboard! (Fedora Magazine)</title>
             <link>https://lwn.net/Articles/1010857/</link>
