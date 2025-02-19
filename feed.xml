@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 14:44:30 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 14:46:36 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 14:59:42 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 15:10:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RISC-V and Fedora: All Aboard! (Fedora Magazine)</title>
+            <link>https://lwn.net/Articles/1010857/</link>
+            <description><![CDATA[<p>The <a href="https://fedoraproject.org/">Fedora Project</a> has <a
+href="https://fedoramagazine.org/risc-v-and-fedora-all-aboard/">announced</a>
+two milestones in its journey to supporting the RISC-V architecture: a
+dedicated RISC-V Koji build system instance is live in the Fedora data
+center, and <a
+href="https://dl.fedoraproject.org/pub/alt/risc-v/release/41/">Fedora
+41-based images</a> are now available for RISC-V. It is also <a
+href="https://fedoraproject.org/wiki/Architectures/RISC-V/QEMU">possible</a>
+to run Fedora RISC-V images using QEMU for those without supported
+hardware.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1010857/</guid>
+            <pubDate>Wed, 19 Feb 2025 14:53:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Lange: The secret maze of Debian images</title>
             <link>https://lwn.net/Articles/1010855/</link>
