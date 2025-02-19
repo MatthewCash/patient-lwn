@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 14:05:17 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 14:09:11 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Feb 2025 14:26:08 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Feb 2025 14:29:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1010853/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gcc-toolset-14-gcc, nodejs:18, and nodejs:22), <b>Fedora</b> (bootc), <b>Gentoo</b> (OpenSSH), <b>Oracle</b> (doxygen, libxml2, mingw-glib2, and NetworkManager), <b>Red Hat</b> (bind, bind9.16, bind9.18, kernel, kernel-rt, mysql, and mysql:8.0), <b>Slackware</b> (openssh), <b>SUSE</b> (buildah, emacs, glibc, google-osconfig-agent, grub2, java-11-openj9, kernel, netty, netty-tcnative, openssh, openvswitch, podman, and ucode-intel), and <b>Ubuntu</b> (atril, libsndfile, libtasn1-6, openssh, python-virtualenv, and symfony).]]></description>
+            <guid>https://lwn.net/Articles/1010853/</guid>
+            <pubDate>Wed, 19 Feb 2025 14:26:08 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Pi-hole v6 released</title>
             <link>https://lwn.net/Articles/1010682/</link>
