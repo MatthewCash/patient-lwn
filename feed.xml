@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Feb 2025 13:32:18 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Feb 2025 14:09:09 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Feb 2025 14:17:59 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Feb 2025 14:29:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1011056/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (mosquitto), <b>Fedora</b> (gnutls, kernel, libtasn1, microcode_ctl, openssh, python3.10, python3.11, and python3.9), <b>Red Hat</b> (bind, bind9.16, buildah, container-tools:rhel8, podman, and redis:6), <b>Slackware</b> (libxml2), <b>SUSE</b> (dcmtk, google-osconfig-agent, java-17-openj9, kubernetes1.30-apiserver, kubernetes1.31-apiserver, openssh, and ruby3.4-rubygem-grpc), and <b>Ubuntu</b> (linux, linux-lowlatency and linux-aws, linux-azure, linux-gcp, linux-oracle, linux-raspi, linux-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1011056/</guid>
+            <pubDate>Thu, 20 Feb 2025 14:17:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for February 13, 2025</title>
             <link>https://lwn.net/Articles/1008279/</link>
@@ -377,14 +385,6 @@ maintained for Tumbleweed.  The openSUSE Leap distribution is not changing
             <guid>https://lwn.net/Articles/1009522/</guid>
             <pubDate>Thu, 13 Feb 2025 15:35:21 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1009450/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (doxygen and openssl), <b>Debian</b> (dcmtk and webkit2gtk), <b>Fedora</b> (chromium, clevis-pin-tpm2, envision, fido-device-onboard, gotify-desktop, keylime-agent-rust, keyring-ima-signer, libkrun, python3.10, python3.11, python3.14, rust-afterburn, rust-cargo-vendor-filterer, rust-coreos-installer, rust-eif_build, rust-gst-plugin-reqwest, rust-nu, rust-openssl, rust-openssl-sys, rust-pore, rust-rpm-sequoia, rust-sequoia-keyring-linter, rust-sequoia-octopus-librnp, rust-sequoia-policy-config, rust-sequoia-sqv, rust-sevctl, rust-snphost, rust-tealdeer, rustup, and s390utils), <b>Mageia</b> (ffmpeg, php-tcpdf, python-tornado, and subversion), <b>Red Hat</b> (openssl and python-jinja2), <b>SUSE</b> (crun, glibc, kernel, libngtcp2-16, libtasn1, netty, ovmf, podman, python, and python3), and <b>Ubuntu</b> (ansible, digikam, linux-aws, linux-aws-5.15, linux-azure-6.8, and ruby2.7).]]></description>
-            <guid>https://lwn.net/Articles/1009450/</guid>
-            <pubDate>Thu, 13 Feb 2025 13:48:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
