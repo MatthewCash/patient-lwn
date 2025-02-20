@@ -8,11 +8,136 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Feb 2025 23:45:12 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Feb 2025 23:46:53 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Feb 2025 00:28:28 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Feb 2025 00:43:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for February 13, 2025</title>
+            <link>https://lwn.net/Articles/1008279/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1008279/">Front</a>: BPF load-time checking; IRQ suspension; Rust for Linux; Rewriting coreutils; Selfish contributors; emlearn.
+            <li> <a href="https://lwn.net/Articles/1008281/">Briefs</a>: RfL policy; OpenWrt 24.10.0; Arti 1.4.0; LibreOffice 25.2; OpenInfra; Plasma 6.3; Attacks on Codeberg; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1008282/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1008279/</guid>
+            <pubDate>Thu, 13 Feb 2025 00:36:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Milliwatt machine learning with emlearn</title>
+            <link>https://lwn.net/Articles/1009011/</link>
+            <description><![CDATA[While large language models and the expensive hardware they require are all
+the rage now, other areas of artificial intelligence work within much more
+constrained hardware environments. At <a
+href="https://fosdem.org/2025/">FOSDEM&nbsp;2025</a>, Jon Nordby presented
+his open-source machine-learning inference engine for microcontrollers,
+named <a href="https://emlearn.readthedocs.io">emlearn</a>. The project
+also boasts bindings for <a href="https://micropython.org">MicroPython</a>,
+thus making machine-learning applications even more accessible.]]></description>
+            <guid>https://lwn.net/Articles/1009011/</guid>
+            <pubDate>Wed, 12 Feb 2025 17:46:58 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Rewriting essential Linux packages in Rust</title>
+            <link>https://lwn.net/Articles/1007907/</link>
+            <description><![CDATA[<p>Most Linux systems depend on a suite of core utilities that the <a
+href="https://www.gnu.org/">GNU Project</a> started development on
+decades ago and are, of course, written in C. At <a
+href="https://fosdem.org/2025/">FOSDEM&nbsp;2025</a>, Sylvestre Ledru
+made the case in <a
+href="https://fosdem.org/2025/schedule/event/fosdem-2025-6196-rewriting-the-future-of-the-linux-essential-packages-in-rust-/">his
+main stage talk</a> that modern systems require safer, more
+maintainable tools. Over the past few years, Ledru has led the charge
+of rewriting the <a href="https://www.gnu.org/software/coreutils/">GNU
+Core Utilities</a> (coreutils) in Rust, as the MIT-licensed <a
+href="https://github.com/uutils/">uutils</a> project. The goal is to
+offer what he said are more secure, and more performant drop-in
+replacements for the tools Linux users depend on. At FOSDEM, Ledru
+announced that the uutils project is setting its sights even
+higher.</p>]]></description>
+            <guid>https://lwn.net/Articles/1007907/</guid>
+            <pubDate>Wed, 12 Feb 2025 12:40:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Smarter IRQ suspension in the networking stack</title>
+            <link>https://lwn.net/Articles/1008399/</link>
+            <description><![CDATA[High-performance networking is a highly tuned activity; the amount of time
+available to deal with each packet may be measured in nanoseconds, so care
+must be taken to avoid anything that might slow the process down.
+Recently, there has been a fair amount of attention given to <a
+href="https://lwn.net/ml/all/20241021015311.95468-1-jdamato@fastly.com/">a patch set
+merged for 6.13</a> that, it is claimed, can improve processing efficiency
+(and, thus, power savings)
+in data centers by as much as 30%.  The change itself, contributed by Joe
+Damato and Martin Karsten, is a relatively small tweak to existing
+optimization techniques; it shows just how much care is needed to optimize
+a high-bandwidth server.]]></description>
+            <guid>https://lwn.net/Articles/1008399/</guid>
+            <pubDate>Tue, 11 Feb 2025 15:28:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Maintainer opinions on Rust-for-Linux</title>
+            <link>https://lwn.net/Articles/1007921/</link>
+            <description><![CDATA[<p>
+Miguel Ojeda gave
+<a href="https://fosdem.org/2025/schedule/event/fosdem-2025-6507-rust-for-linux/">
+a keynote</a> at
+<a href="https://fosdem.org/2025/">
+FOSDEM&nbsp;2025</a> about the history of the
+<a href="https://rust-for-linux.com/">
+Rust-for-Linux</a>
+project, and the current attitude of people in the kernel community toward the
+experiment. Unlike his
+<a href="https://lwn.net/Articles/952029/">
+usual talks</a>, this talk didn't focus so much on the current
+state of the project, but rather on discussing history
+and predictions for the future. He ended up presenting quotes from more than 30
+people involved in kernel development about what they thought of the project and
+expected going forward.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1007921/</guid>
+            <pubDate>Mon, 10 Feb 2025 17:10:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improved load-time checking for BPF kfuncs</title>
+            <link>https://lwn.net/Articles/1007947/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/982077/">BPF verifier</a> is charged with the
+challenging task of ensuring that a BPF program is safe for the kernel to
+run before that program is loaded.  Among many other concerns, the verifier
+must ensure that any kfuncs (kernel functions that have been exported to
+BPF programs) are called with the correct parameters and from the right
+context.  The "context" part of that enforcement is showing its age in ways
+that are hurting performance; Juntong Deng has been working on
+infrastructure to provide finer-grained control over when a kfunc can be
+called.]]></description>
+            <guid>https://lwn.net/Articles/1007947/</guid>
+            <pubDate>Fri, 07 Feb 2025 15:30:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The selfish contributor revisited</title>
+            <link>https://lwn.net/Articles/1007426/</link>
+            <description><![CDATA[<p>Open source is often described as a "gift economy"&mdash;an
+ecosystem where contributors are motivated by a desire to make the
+world a better place. That is, sometimes, true. However, James
+Bottomley used his <a
+href="https://fosdem.org/2025/schedule/event/fosdem-2025-6540-the-selfish-contributor-revisited/">main
+track slot</a> at <a href="https://fosdem.org/2025/">FOSDEM 2025</a>,
+on February&nbsp;1, to make the case that it is better to bank on the
+selfish motivations of individuals to drive community success than to
+rely on their altruism.</p>]]></description>
+            <guid>https://lwn.net/Articles/1007426/</guid>
+            <pubDate>Thu, 06 Feb 2025 15:08:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Mozilla announces leadership updates and next chapter</title>
             <link>https://lwn.net/Articles/1010922/</link>
