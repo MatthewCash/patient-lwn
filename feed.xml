@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Feb 2025 15:40:01 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Feb 2025 15:46:44 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Feb 2025 16:03:43 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Feb 2025 16:12:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,24 +353,6 @@ outset.]]></description>
             <guid>https://lwn.net/Articles/1009765/</guid>
             <pubDate>Fri, 14 Feb 2025 14:06:55 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>New leadership for Asahi Linux</title>
-            <link>https://lwn.net/Articles/1009528/</link>
-            <description><![CDATA[The Asahi Linux project, which is working to support Linux on Apple
-silicon, has <a
-href="https://asahilinux.org/2025/02/passing-the-torch/">announced</a> the
-resignation of Hector "marcan" Martin as its lead, and his replacement by a
-seven-person committee.  "<q>Today's news is bittersweet. We are grateful
-to marcan for kicking off this project and tirelessly working on it these
-past years. Our community will miss him. Still, with your support, the
-project has a bright future to come</q>".  Martin has explained his reasons
-for leaving at length in <a
-href="https://marcan.st/2025/02/resigning-as-asahi-linux-project-lead/">this
-blog post</a>.]]></description>
-            <guid>https://lwn.net/Articles/1009528/</guid>
-            <pubDate>Thu, 13 Feb 2025 16:04:15 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
