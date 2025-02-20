@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Feb 2025 17:22:57 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Feb 2025 17:36:29 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Feb 2025 17:46:39 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Feb 2025 17:48:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.85.0 released</title>
+            <link>https://lwn.net/Articles/1011122/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/02/20/Rust-1.85.0.html">Version
+1.85.0</a> of the Rust language has been released.  Changes in the release
+include support for async closures, some convenience iterators for tuples,
+and a number of stabilized APIs.  The headline feature, though, is that
+this release stabilizes the <a href="https://lwn.net/Articles/1002456/">Rust 2024
+edition</a>, described as "<q>the largest edition we have released</q>".
+The <a
+href="https://doc.rust-lang.org/edition-guide/rust-2024/index.html">2024
+edition guide</a> has a detailed listing of all the changes that were
+incorporated this time around.]]></description>
+            <guid>https://lwn.net/Articles/1011122/</guid>
+            <pubDate>Thu, 20 Feb 2025 17:46:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1011056/</link>
