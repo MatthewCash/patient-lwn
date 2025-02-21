@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 21 Feb 2025 13:25:29 +0000</pubDate>
-        <lastBuildDate>Fri, 21 Feb 2025 13:36:08 +0000</lastBuildDate>
+        <pubDate>Fri, 21 Feb 2025 13:43:28 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Feb 2025 13:48:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linus on Rust and the kernel&apos;s DMA layer</title>
+            <link>https://lwn.net/Articles/1011197/</link>
+            <description><![CDATA[At the end of January we ran <a href="https://lwn.net/Articles/1006805/">this article</a>
+on the discussions around a set of Rust bindings for the kernel's
+DMA-mapping layer.  Many pixels have been expended on the topic since
+across the net, most recently in <a
+href="https://lwn.net/ml/all/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com">this
+sprawling email thread</a>.  Linus Torvalds has now <a
+href="https://lwn.net/ml/all/CAHk-=wgLbz1Bm8QhmJ4dJGSmTuV5w_R0Gwvg5kHrYr4Ko9dUHQ@mail.gmail.com">made
+his feelings known</a> on the topic:
+<p>
+<blockquote class="bq">
+	You are not forced to take any Rust code, or care about any Rust
+	code in the DMA code. You can ignore it.
+<p>
+	But "ignore the Rust side" automatically also means that you don't
+	have any *say* on the Rust side.
+<p>
+	You can't have it both ways. You can't say "I want to have nothing
+	to do with Rust", and then in the very next sentence say "And that
+	means that the Rust code that I will ignore cannot use the C
+	interfaces I maintain".
+</blockquote>
+<p>
+The code in question seems highly likely to be merged for the 6.15 release.]]></description>
+            <guid>https://lwn.net/Articles/1011197/</guid>
+            <pubDate>Fri, 21 Feb 2025 13:43:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Rust 1.85.0 released</title>
             <link>https://lwn.net/Articles/1011122/</link>
