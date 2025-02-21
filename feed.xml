@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 21 Feb 2025 13:43:28 +0000</pubDate>
-        <lastBuildDate>Fri, 21 Feb 2025 13:48:38 +0000</lastBuildDate>
+        <pubDate>Fri, 21 Feb 2025 14:07:22 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Feb 2025 14:09:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1011262/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, and mysql:8.0), <b>Debian</b> (chromium, djoser, libtasn1-6, and postgresql-13), <b>Fedora</b> (python3.12 and vim), <b>Red Hat</b> (libpq, postgresql, postgresql:13, postgresql:15, and postgresql:16), <b>Slackware</b> (ark), <b>SUSE</b> (brise, chromium, emacs, google-osconfig-agent, grafana, grub2, helm, kernel, openssh, openssl-1_1, ovmf, postgresql13, postgresql14, postgresql15, and postgresql17), and <b>Ubuntu</b> (gnutls28, libtasn1-6, openssl, python3.10, python3.12, python3.8, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1011262/</guid>
+            <pubDate>Fri, 21 Feb 2025 14:07:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Linus on Rust and the kernel&apos;s DMA layer</title>
             <link>https://lwn.net/Articles/1011197/</link>
@@ -392,14 +400,6 @@ outset.]]></description>
             <guid>https://lwn.net/Articles/1010232/</guid>
             <pubDate>Sun, 16 Feb 2025 23:02:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1009765/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (doxygen, gcc-toolset-13-gcc, gcc-toolset-14-gcc, kernel, and libxml2), <b>Debian</b> (chromium, postgresql-13, and webkit2gtk), <b>Fedora</b> (krb5, openssl, and python3.13), <b>Mageia</b> (ark, ofono, and perl-Net-OAuth, perl-Crypt-URandom, perl-Module-Build), <b>Oracle</b> (firefox, gcc, gcc-toolset-14-gcc, kernel, openssl, tbb, and thunderbird), <b>Red Hat</b> (libxml2), <b>SUSE</b> (chromium, golang-github-prometheus-prometheus, grafana, kernel, kernel-firmware-ath10k-20250206, kernel-firmware-bnx2-20250206, kernel-firmware-brcm-20250206, kernel-firmware-chelsio-20250206, kernel-firmware-dpaa2-20250206, kernel-firmware-mwifiex-20250206, kernel-firmware-platform-20250206, kernel-firmware-realtek-20250206, kernel-firmware-serial-20250206, kernel-firmware-ueagle-20250206, libtasn1, python312, qemu, SUSE Manager Client Tools, SUSE Manager Client Tools MU 5.0.3, and ucode-intel-20250211), and <b>Ubuntu</b> (activemq and libsndfile).]]></description>
-            <guid>https://lwn.net/Articles/1009765/</guid>
-            <pubDate>Fri, 14 Feb 2025 14:06:55 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
