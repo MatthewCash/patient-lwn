@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 23 Feb 2025 21:03:46 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Feb 2025 22:48:09 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 23 Feb 2025 23:09:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -400,30 +400,6 @@ decided to leave the releases as-is instead of rushing another point release.
             <guid>https://lwn.net/Articles/1010328/</guid>
             <pubDate>Mon, 17 Feb 2025 12:35:59 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.14-rc3</title>
-            <link>https://lwn.net/Articles/1010232/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1010231/">6.14-rc3</a> kernel prepatch is out for
-testing; the announcement, for unknown reasons, went only to the
-linux-btrfs list.
-<p>
-<blockquote class="bq">
-	So the first few weeks of the 6.14 release development were
-	smaller-than-usual, but rc3 is actually right in line with normal
-	releases at this point. Probably just timing of pull requests, and
-	we'll see how next week goes. But nothing looks worrisome.
-</blockquote>
-<p>
-Along with the usual stream of fixes, this release includes the "<a
-href="https://git.kernel.org/linus/35fa2d88ca94">faux bus</a>", designed
-for simple drivers that just need some sort of virtual bus to be associated
-with; this bus come with <a
-href="https://git.kernel.org/linus/78418f300d3">Rust bindings</a> from the
-outset.]]></description>
-            <guid>https://lwn.net/Articles/1010232/</guid>
-            <pubDate>Sun, 16 Feb 2025 23:02:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
