@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Feb 2025 14:26:18 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Feb 2025 14:48:06 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Feb 2025 14:49:58 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Feb 2025 15:11:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1011610/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, libpq, mysql, postgresql, postgresql:15, and postgresql:16), <b>Debian</b> (fort-validator, gnutls28, krb5, libxml2, and python-werkzeug), <b>Fedora</b> (chromium, openssh, proftpd, python3.8, vaultwarden, and vim), <b>Oracle</b> (bind, bind9.16, bind9.18, libpq, libsoup, mysql, mysql:8.0, nodejs:18, nodejs:22, postgresql, postgresql:13, postgresql:15, and postgresql:16), <b>Red Hat</b> (mysql, mysql:8.0, and python3), <b>SUSE</b> (chromedriver, dcmtk, grub2, java-1_8_0-ibm, java-23-openjdk, luanti, openssh, postgresql14, postgresql15, postgresql16, postgresql17, proftpd, radare2, and webkit2gtk3), and <b>Ubuntu</b> (intel-microcode, netty, and nginx).]]></description>
+            <guid>https://lwn.net/Articles/1011610/</guid>
+            <pubDate>Mon, 24 Feb 2025 14:49:58 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.14-rc4</title>
             <link>https://lwn.net/Articles/1011505/</link>
@@ -374,24 +382,6 @@ regression in the XFS filesystem</a> that can lead to kernel crashes.]]></descri
             <guid>https://lwn.net/Articles/1010621/</guid>
             <pubDate>Tue, 18 Feb 2025 14:35:15 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernels under the sky</title>
-            <link>https://lwn.net/Articles/1010352/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has released three more stable kernels:
-<a href="https://lwn.net/Articles/1010354/">6.13.3</a>,
-<a href="https://lwn.net/Articles/1010356/">6.12.14</a>, and
-<a href="https://lwn.net/Articles/1010357/">6.6.78</a>.
-There was a bit of confusion that resulted in the patch for
-<a href="https://www.cve.org/CVERecord/?id=CVE-2025-21687">CVE 2025-21687</a>
-getting applied twice — but that doesn't result in any problems for users of the
-kernel, just a bit of extra noise in the CVE database, so Kroah-Hartman has
-decided to leave the releases as-is instead of rushing another point release.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1010352/</guid>
-            <pubDate>Mon, 17 Feb 2025 14:55:44 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
