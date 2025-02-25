@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Feb 2025 13:53:51 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Feb 2025 14:10:50 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Feb 2025 14:28:39 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Feb 2025 14:32:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1011764/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libpq, postgresql:13, postgresql:15, and postgresql:16), <b>Debian</b> (nodejs and php-nesbot-carbon), <b>Mageia</b> (neomutt), <b>Red Hat</b> (python3.11-urllib3 and tuned), <b>SUSE</b> (crun, ovmf, pam_pkcs11, qemu, and webkit2gtk3), and <b>Ubuntu</b> (iniparser, libcap2, linux, linux-hwe, linux, linux-hwe-5.4, linux, linux-lowlatency, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-ibm-5.4, linux-azure, linux-azure-fde, linux-gkeop, linux-nvidia, linux-oracle, linux-azure-5.15, linux-azure-fde-5.15, linux-oracle-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-kvm, linux-lowlatency-hwe-5.15, and linux-xilinx-zynqmp).]]></description>
+            <guid>https://lwn.net/Articles/1011764/</guid>
+            <pubDate>Tue, 25 Feb 2025 14:28:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Aqualung 2.0 released</title>
             <link>https://lwn.net/Articles/1011671/</link>
