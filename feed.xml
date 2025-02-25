@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Feb 2025 20:58:41 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Feb 2025 21:10:16 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Feb 2025 21:20:08 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Feb 2025 21:26:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A change in maintenance for the kernel&apos;s DMA-mapping layer</title>
+            <link>https://lwn.net/Articles/1011819/</link>
+            <description><![CDATA[The conversation around the merging of a set of Rust abstractions for the
+kernel's DMA-mapping layer has mostly settled after Linus Torvalds <a
+href="https://lwn.net/Articles/1011197/">made it clear</a> that the code would be
+accepted.  One other consequence of this decision, though, is that
+Christoph Hellwig has quietly <a
+href="https://git.kernel.org/linus/f7d5db965f3e">stepped down</a> from the
+maintenance of the DMA-mapping code.  Marek Szyprowski will be the
+maintainer of that layer going forward.  Hellwig has maintained that code
+for many years; his contributions will be missed.]]></description>
+            <guid>https://lwn.net/Articles/1011819/</guid>
+            <pubDate>Tue, 25 Feb 2025 21:20:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1011764/</link>
