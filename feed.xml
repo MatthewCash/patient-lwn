@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Feb 2025 15:30:27 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Feb 2025 15:31:48 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Feb 2025 15:37:35 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Feb 2025 15:43:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Armbian 25.2 released</title>
+            <link>https://lwn.net/Articles/1011955/</link>
+            <description><![CDATA[<p><a href="https://www.armbian.com/newsflash/armbian-v25-2/">Version
+25.2</a> of the <a href="https://www.armbian.com/">Armbian</a> Linux
+distribution for single-board computers (SBCs) has been released. Notable
+changes in this release include support for many new SBCs, an upgrade
+to Linux kernel 6.12.x, and more. See the <a
+href="https://docs.armbian.com/Release_Changelog/#v2522-2025-2-25">changelog</a>
+for a complete list.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1011955/</guid>
+            <pubDate>Wed, 26 Feb 2025 15:37:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1011928/</link>
