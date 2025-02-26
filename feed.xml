@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Feb 2025 16:10:32 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Feb 2025 16:13:32 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Feb 2025 16:32:55 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Feb 2025 16:37:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Gentoo now offers qcow2 disk images</title>
+            <link>https://lwn.net/Articles/1011959/</link>
+            <description><![CDATA[<p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
+<a
+href="https://www.gentoo.org/news/2025/02/20/gentoo-qcow2-images.html">announced</a>
+the availability of qcow2 images for amd64 (x86_64) and arm64
+(aarch64), and plans to "<q>eventually</q>" offer images for the
+riscv64 and loongarch64 architectures.</p>
+
+<blockquote class="bq">
+The images, updated weekly, include an EFI boot partition and a fully
+functional Gentoo installation; either with no network activated but a
+password-less root login on the console ("no root pw"), or with
+network activated, all accounts initially locked, but cloud-init
+running on boot ("cloud-init").
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1011959/</guid>
+            <pubDate>Wed, 26 Feb 2025 16:22:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Two new site features: full-text RSS and automatic dark mode</title>
             <link>https://lwn.net/Articles/1011830/</link>
