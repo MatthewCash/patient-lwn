@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 26 Feb 2025 14:26:32 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Feb 2025 14:31:43 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 26 Feb 2025 14:43:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -364,26 +364,6 @@ hardware.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1010857/</guid>
             <pubDate>Wed, 19 Feb 2025 14:53:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Lange: The secret maze of Debian images</title>
-            <link>https://lwn.net/Articles/1010855/</link>
-            <description><![CDATA[<p>Debian Developer Thomas Lange has written a <a
-href="https://blog.fai-project.org/posts/cdimages-maze/">blog post</a>
-in the attempt to help users find the right Debian image for their
-systems.</p>
-
-<blockquote class="bq">
-It's difficult to find the right Debian image. We have thousands of
-ISO files and cloud images and we support multiple CPU architectures
-and several download methods. The directory structure of our main
-image server is like a maze, and our web pages for downloading are
-also confusing.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1010855/</guid>
-            <pubDate>Wed, 19 Feb 2025 14:38:33 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
