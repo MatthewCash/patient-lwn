@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Feb 2025 15:47:46 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Feb 2025 15:49:35 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Feb 2025 16:10:32 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Feb 2025 16:13:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Two new site features: full-text RSS and automatic dark mode</title>
+            <link>https://lwn.net/Articles/1011830/</link>
+            <description><![CDATA[One of the often-requested LWN site features that has languished the
+longest on our to-do list is full-text RSS feeds.  We are happy to announce
+that, finally, there is a set of such feeds available; the full set can be
+seen on <a href="https://lwn.net/headlines/">our feeds page</a>.  This is a
+subscriber-only feature, and it works by creating a unique fetch URL for
+each user.  We will, of course, be counting on our readers to not share
+those URLs.
+<p>
+Another feature we have had requests for is to automatically present the
+site in dark-mode colors when a reader's browser has been configured to
+prefer it.  That feature, too, is now available.  In this case, we had to
+think about the interaction between automatic selection and the color
+customization that the site has long had.  The conclusion we reached is
+that, if custom colors have been configured for an account, they will win
+out over the automatic selection.  There is a new preference in the <a
+href="https://lwn.net/MyAccount/preferences/">customization area</a> to change this
+default if desired.
+<p>
+Both of these features — and the other enhancements we have made recently —
+were enabled by the support of LWN's subscribers.  By making it possible to
+bring in new staff last year, you created the space to improve the site
+experience while keeping up with the writing.  We thank all of you for your
+support.]]></description>
+            <guid>https://lwn.net/Articles/1011830/</guid>
+            <pubDate>Wed, 26 Feb 2025 15:52:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Armbian 25.2 released</title>
             <link>https://lwn.net/Articles/1011955/</link>
