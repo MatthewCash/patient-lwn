@@ -8,11 +8,148 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Feb 2025 22:54:31 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Feb 2025 23:48:16 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Feb 2025 00:44:27 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Feb 2025 00:46:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for February 20, 2025</title>
+            <link>https://lwn.net/Articles/1009456/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1009456/">Front</a>: Systemd; AI scraperbots; Time-slice extension; FUSE regression; Multi-size THPs; Memcached; Meshtastic.
+            <li> <a href="https://lwn.net/Articles/1009458/">Briefs</a>: Asahi leadership; Debian images; RISC-V Fedora; OpenSUSE; Mesa 25.0.0; Pi-hole v6; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1009459/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1009456/</guid>
+            <pubDate>Thu, 20 Feb 2025 01:57:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Extending time slices for user-space locks</title>
+            <link>https://lwn.net/Articles/1009509/</link>
+            <description><![CDATA[<p>
+Steven Rostedt recently posted
+<a href="https://lwn.net/ml/all/20250131225837.972218232@goodmis.org/">
+a patch set</a> that could help improve the performance of certain user-space
+applications by giving the scheduler more context about when they are safe to
+interrupt. The patch set lets programs request a small grace window
+before they can be interrupted so that they can relinquish any locks, decreasing the
+amount of time that other threads have to spend waiting. Rostedt shared
+performance numbers suggesting that the patch might cut the amount of time spent
+acquiring locks in half for some programs — although, since his test was
+specifically tuned for this case, real-world projects should expect a somewhat
+less dramatic improvement. The change received some pushback from scheduler
+maintainer Peter Zijlstra, who objected to the patch set's approach.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1009509/</guid>
+            <pubDate>Wed, 19 Feb 2025 20:17:25 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Meshtastic: decentralized communication with low-power devices</title>
+            <link>https://lwn.net/Articles/1009782/</link>
+            <description><![CDATA[Many of us enjoy uninterrupted access to mobile networks. However, in
+remote areas or during emergencies, that connectivity may not always be
+available. For such scenarios, <a
+href="https://meshtastic.org">Meshtastic</a> offers a decentralized
+wireless mesh network with open-source firmware that runs on affordable,
+low-power devices.
+At <a href="https://fosdem.org/2025/">FOSDEM 2025</a>, the Meshtastic
+project was represented by one of its core developers, Thomas Göttgens, who
+gave a talk, "<a
+href="https://fosdem.org/2025/schedule/event/fosdem-2025-4375-meshtastic-off-grid-communication-for-everyone/">Meshtastic
+- off-grid communication for everyone</a>", in the <a
+href="https://fosdem.org/2025/schedule/track/radio/">Radio</a> developer
+room (devroom).]]></description>
+            <guid>https://lwn.net/Articles/1009782/</guid>
+            <pubDate>Wed, 19 Feb 2025 16:25:02 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] FUSE folio conversion confusion</title>
+            <link>https://lwn.net/Articles/1008714/</link>
+            <description><![CDATA[<p>
+Kernel developers have been working to convert various internal interfaces to
+use
+<a href="https://lwn.net/Articles/849538/">
+folios</a>; while this process has been progressing, there is still the
+occasional regression introduced by the change. In December&nbsp;2024, it was
+discovered that installing a
+<a href="https://flatpak.org/">
+Flatpak</a> application could trigger a filesystem bug in
+the kernel that would cause the software to read incorrect data from the disk.
+The problem was quickly fixed — only for an another problem caused by the folio
+rewrite to pop up in the same kernel subsystem. This was discovered by an Arch
+Linux user, who noticed that selecting files in a Flatpak application was
+causing kernel crashes. Now both bugs are fixed, but there may be more bugs to find.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1008714/</guid>
+            <pubDate>Tue, 18 Feb 2025 14:44:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] 14 years of systemd</title>
+            <link>https://lwn.net/Articles/1008721/</link>
+            <description><![CDATA[<p>It is a standard practice to use milestones to reflect on the
+achievements of a project, such as the anniversary of its first
+release or first commit. Usually, these are observed at five and
+ten&#8209;year increments; the tenth anniversary of the 1.0 release, or 25
+years since from the first public announcement, etc. Lennart
+Poettering, however, took a different approach at <a
+href="https://fosdem.org/2025/">FOSDEM&nbsp;2025</a> with a keynote
+commemorating 14 years of <a href="https://systemd.io/">systemd</a>,
+and a brief look ahead at his goals and systemd's challenges for the future.</p>]]></description>
+            <guid>https://lwn.net/Articles/1008721/</guid>
+            <pubDate>Mon, 17 Feb 2025 15:25:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fighting the AI scraperbot scourge</title>
+            <link>https://lwn.net/Articles/1008897/</link>
+            <description><![CDATA[There are many challenges involved with running a web site like LWN.  Some
+of them, such as finding the courage to write for people who know more
+about the subject matter than we do, simply come with the territory we have
+chosen.  But others show up as an unwelcome surprise; the ongoing task of
+fending off bots determined to scrape the entire Internet to (seemingly)
+feed into the insatiable meat grinder of AI training is certainly one of
+those.  Readers have, at times, expressed curiosity about that fight and
+how we are handling it; read on for a description of a modern-day plague.]]></description>
+            <guid>https://lwn.net/Articles/1008897/</guid>
+            <pubDate>Fri, 14 Feb 2025 16:32:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The evolution of Memcached</title>
+            <link>https://lwn.net/Articles/1007303/</link>
+            <description><![CDATA[<p><a href="https://www.memcached.org">Memcached</a> is a memory-based
+data-caching daemon that has a long history. More than twenty years after <a
+href="https://lj-dev.livejournal.com/539656.html">its first public
+release</a>, Memcached strives to remain relevant in a vastly changed
+computing landscape, balancing new features with a commitment to the <a
+href="https://docs.memcached.org/#design-philosophy">original
+principles</a> that separate it from newer alternatives like <a
+href="https://en.wikipedia.org/wiki/Redis">Redis</a> and <a href="https://en.wikipedia.org/wiki/Hazelcast">Hazelcast</a>.</p>]]></description>
+            <guid>https://lwn.net/Articles/1007303/</guid>
+            <pubDate>Fri, 14 Feb 2025 15:47:21 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Multi-size THP creation, two different ways</title>
+            <link>https://lwn.net/Articles/1009039/</link>
+            <description><![CDATA[Huge pages can increase the performance of many programs, but they can also
+have unfortunate performance impacts of their own.  Over the last few
+years, multi-size transparent huge pages (mTHPs) have increasingly been
+seen as a happy medium that bring the benefits of huge pages at a lower cost.
+The system cannot benefit from mTHPs, though, if it does not create them;
+two developers have independently posted patches to enable the creation of
+mTHPs in the background.]]></description>
+            <guid>https://lwn.net/Articles/1009039/</guid>
+            <pubDate>Thu, 13 Feb 2025 15:17:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Gentoo now offers qcow2 disk images</title>
             <link>https://lwn.net/Articles/1011959/</link>
@@ -243,131 +380,6 @@ incorporated this time around.]]></description>
             <guid>https://lwn.net/Articles/1011056/</guid>
             <pubDate>Thu, 20 Feb 2025 14:17:58 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for February 13, 2025</title>
-            <link>https://lwn.net/Articles/1008279/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1008279/">Front</a>: BPF load-time checking; IRQ suspension; Rust for Linux; Rewriting coreutils; Selfish contributors; emlearn.
-            <li> <a href="https://lwn.net/Articles/1008281/">Briefs</a>: RfL policy; OpenWrt 24.10.0; Arti 1.4.0; LibreOffice 25.2; OpenInfra; Plasma 6.3; Attacks on Codeberg; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1008282/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1008279/</guid>
-            <pubDate>Thu, 13 Feb 2025 00:36:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Milliwatt machine learning with emlearn</title>
-            <link>https://lwn.net/Articles/1009011/</link>
-            <description><![CDATA[While large language models and the expensive hardware they require are all
-the rage now, other areas of artificial intelligence work within much more
-constrained hardware environments. At <a
-href="https://fosdem.org/2025/">FOSDEM&nbsp;2025</a>, Jon Nordby presented
-his open-source machine-learning inference engine for microcontrollers,
-named <a href="https://emlearn.readthedocs.io">emlearn</a>. The project
-also boasts bindings for <a href="https://micropython.org">MicroPython</a>,
-thus making machine-learning applications even more accessible.]]></description>
-            <guid>https://lwn.net/Articles/1009011/</guid>
-            <pubDate>Wed, 12 Feb 2025 17:46:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rewriting essential Linux packages in Rust</title>
-            <link>https://lwn.net/Articles/1007907/</link>
-            <description><![CDATA[<p>Most Linux systems depend on a suite of core utilities that the <a
-href="https://www.gnu.org/">GNU Project</a> started development on
-decades ago and are, of course, written in C. At <a
-href="https://fosdem.org/2025/">FOSDEM&nbsp;2025</a>, Sylvestre Ledru
-made the case in <a
-href="https://fosdem.org/2025/schedule/event/fosdem-2025-6196-rewriting-the-future-of-the-linux-essential-packages-in-rust-/">his
-main stage talk</a> that modern systems require safer, more
-maintainable tools. Over the past few years, Ledru has led the charge
-of rewriting the <a href="https://www.gnu.org/software/coreutils/">GNU
-Core Utilities</a> (coreutils) in Rust, as the MIT-licensed <a
-href="https://github.com/uutils/">uutils</a> project. The goal is to
-offer what he said are more secure, and more performant drop-in
-replacements for the tools Linux users depend on. At FOSDEM, Ledru
-announced that the uutils project is setting its sights even
-higher.</p>]]></description>
-            <guid>https://lwn.net/Articles/1007907/</guid>
-            <pubDate>Wed, 12 Feb 2025 12:40:39 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Smarter IRQ suspension in the networking stack</title>
-            <link>https://lwn.net/Articles/1008399/</link>
-            <description><![CDATA[High-performance networking is a highly tuned activity; the amount of time
-available to deal with each packet may be measured in nanoseconds, so care
-must be taken to avoid anything that might slow the process down.
-Recently, there has been a fair amount of attention given to <a
-href="https://lwn.net/ml/all/20241021015311.95468-1-jdamato@fastly.com/">a patch set
-merged for 6.13</a> that, it is claimed, can improve processing efficiency
-(and, thus, power savings)
-in data centers by as much as 30%.  The change itself, contributed by Joe
-Damato and Martin Karsten, is a relatively small tweak to existing
-optimization techniques; it shows just how much care is needed to optimize
-a high-bandwidth server.]]></description>
-            <guid>https://lwn.net/Articles/1008399/</guid>
-            <pubDate>Tue, 11 Feb 2025 15:28:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Maintainer opinions on Rust-for-Linux</title>
-            <link>https://lwn.net/Articles/1007921/</link>
-            <description><![CDATA[<p>
-Miguel Ojeda gave
-<a href="https://fosdem.org/2025/schedule/event/fosdem-2025-6507-rust-for-linux/">
-a keynote</a> at
-<a href="https://fosdem.org/2025/">
-FOSDEM&nbsp;2025</a> about the history of the
-<a href="https://rust-for-linux.com/">
-Rust-for-Linux</a>
-project, and the current attitude of people in the kernel community toward the
-experiment. Unlike his
-<a href="https://lwn.net/Articles/952029/">
-usual talks</a>, this talk didn't focus so much on the current
-state of the project, but rather on discussing history
-and predictions for the future. He ended up presenting quotes from more than 30
-people involved in kernel development about what they thought of the project and
-expected going forward.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1007921/</guid>
-            <pubDate>Mon, 10 Feb 2025 17:10:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improved load-time checking for BPF kfuncs</title>
-            <link>https://lwn.net/Articles/1007947/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/982077/">BPF verifier</a> is charged with the
-challenging task of ensuring that a BPF program is safe for the kernel to
-run before that program is loaded.  Among many other concerns, the verifier
-must ensure that any kfuncs (kernel functions that have been exported to
-BPF programs) are called with the correct parameters and from the right
-context.  The "context" part of that enforcement is showing its age in ways
-that are hurting performance; Juntong Deng has been working on
-infrastructure to provide finer-grained control over when a kfunc can be
-called.]]></description>
-            <guid>https://lwn.net/Articles/1007947/</guid>
-            <pubDate>Fri, 07 Feb 2025 15:30:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The selfish contributor revisited</title>
-            <link>https://lwn.net/Articles/1007426/</link>
-            <description><![CDATA[<p>Open source is often described as a "gift economy"&mdash;an
-ecosystem where contributors are motivated by a desire to make the
-world a better place. That is, sometimes, true. However, James
-Bottomley used his <a
-href="https://fosdem.org/2025/schedule/event/fosdem-2025-6540-the-selfish-contributor-revisited/">main
-track slot</a> at <a href="https://fosdem.org/2025/">FOSDEM 2025</a>,
-on February&nbsp;1, to make the case that it is better to bank on the
-selfish motivations of individuals to drive community success than to
-rely on their altruism.</p>]]></description>
-            <guid>https://lwn.net/Articles/1007426/</guid>
-            <pubDate>Thu, 06 Feb 2025 15:08:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
