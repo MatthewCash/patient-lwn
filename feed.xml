@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Feb 2025 15:44:26 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Feb 2025 15:48:17 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Feb 2025 15:56:08 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Feb 2025 16:13:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Terms of use and privacy changes for Firefox</title>
+            <link>https://lwn.net/Articles/1012430/</link>
+            <description><![CDATA[There is a fair amount of unhappiness on the Internet about the <a
+href="https://blog.mozilla.org/en/products/firefox/firefox-news/firefox-terms-of-use/">announcement</a>
+from Mozilla about a new <a
+href="https://www.mozilla.org/en-US/about/legal/terms/firefox/">"terms of
+use" agreement</a> and an <a
+href="https://www.mozilla.org/en-US/privacy/firefox/#notice">updated
+privacy notice</a> for the Firefox browser.
+<p>
+<blockquote class="bq">
+	Firefox will always continue to add new features, improve existing
+	ones, and test new ideas. We remain dedicated to making Firefox
+	open source, but we believe that doing so along with an official
+	Terms of Use will give you more transparency over your rights and
+	permissions as you use Firefox. And actually asking you to
+	acknowledge it is an important step, so we're making it a part of
+	the standard product experience starting in early March for new
+	users and later this year for existing ones.
+</blockquote>
+<p>
+Specifically, the <a
+href="https://circumstances.run/@davidgerard/114078708183574404">apparent
+removal</a> of a promise to not sell users' personal data has drawn
+attention.
+<p>
+(See also: <a href="https://taggart-tech.com/mozilla-cycle-pt1/">this
+analysis</a> by Michael Taggart.  "<q>So, is this Mozilla 'going evil?'
+Nah, prolly not. But it is at best clumsy, and a poor showing if they want
+me to believe they care about Firefox, rather than the data it can
+provide</q>".)]]></description>
+            <guid>https://lwn.net/Articles/1012430/</guid>
+            <pubDate>Fri, 28 Feb 2025 15:50:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1012367/</link>
