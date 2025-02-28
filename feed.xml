@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Feb 2025 14:06:08 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Feb 2025 14:10:33 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Feb 2025 14:30:38 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Feb 2025 14:31:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,20 +369,6 @@ nothing in particular stands out in rc4</q>".]]></description>
             <guid>https://lwn.net/Articles/1011505/</guid>
             <pubDate>Sun, 23 Feb 2025 21:01:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Four Friday stable kernels</title>
-            <link>https://lwn.net/Articles/1011263/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has released another four stable kernels:
-<a href="https://lwn.net/Articles/1011264/">6.13.4</a>,
-<a href="https://lwn.net/Articles/1011265/">6.12.16</a>,
-<a href="https://lwn.net/Articles/1011266/">6.6.79</a>, and
-<a href="https://lwn.net/Articles/1011267/">6.1.129</a>. As usual, all users are advised to upgrade.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1011263/</guid>
-            <pubDate>Fri, 21 Feb 2025 14:13:20 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
