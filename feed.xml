@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Feb 2025 13:30:32 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Feb 2025 13:48:16 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Feb 2025 14:06:08 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Feb 2025 14:10:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1012367/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (emacs, freerdp2, and gst-plugins-good1.0), <b>Fedora</b> (java-17-openjdk, python3.6, and xorg-x11-server-Xwayland), <b>Mageia</b> (radare2), <b>SUSE</b> (libX11, openvswitch3, postgresql13, procps, ruby2.5, webkit2gtk3, and xorg-x11-server), and <b>Ubuntu</b> (git, linux-aws, linux-aws, linux-aws-6.8, linux-aws, linux-oracle, linux-oracle-5.4, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, and linux-oem-6.11).]]></description>
+            <guid>https://lwn.net/Articles/1012367/</guid>
+            <pubDate>Fri, 28 Feb 2025 14:01:11 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>McKenney: Speaking at Kernel Recipes</title>
             <link>https://lwn.net/Articles/1012286/</link>
@@ -375,44 +383,6 @@ Greg Kroah-Hartman has released another four stable kernels:
             <guid>https://lwn.net/Articles/1011263/</guid>
             <pubDate>Fri, 21 Feb 2025 14:13:20 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1011262/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, and mysql:8.0), <b>Debian</b> (chromium, djoser, libtasn1-6, and postgresql-13), <b>Fedora</b> (python3.12 and vim), <b>Red Hat</b> (libpq, postgresql, postgresql:13, postgresql:15, and postgresql:16), <b>Slackware</b> (ark), <b>SUSE</b> (brise, chromium, emacs, google-osconfig-agent, grafana, grub2, helm, kernel, openssh, openssl-1_1, ovmf, postgresql13, postgresql14, postgresql15, and postgresql17), and <b>Ubuntu</b> (gnutls28, libtasn1-6, openssl, python3.10, python3.12, python3.8, and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/1011262/</guid>
-            <pubDate>Fri, 21 Feb 2025 14:07:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Linus on Rust and the kernel&apos;s DMA layer</title>
-            <link>https://lwn.net/Articles/1011197/</link>
-            <description><![CDATA[At the end of January we ran <a href="https://lwn.net/Articles/1006805/">this article</a>
-on the discussions around a set of Rust bindings for the kernel's
-DMA-mapping layer.  Many pixels have been expended on the topic since
-across the net, most recently in <a
-href="https://lwn.net/ml/all/CANiq72m-R0tOakf=j7BZ78jDHdy=9-fvZbAT8j91Je2Bxy0sFg@mail.gmail.com">this
-sprawling email thread</a>.  Linus Torvalds has now <a
-href="https://lwn.net/ml/all/CAHk-=wgLbz1Bm8QhmJ4dJGSmTuV5w_R0Gwvg5kHrYr4Ko9dUHQ@mail.gmail.com">made
-his feelings known</a> on the topic:
-<p>
-<blockquote class="bq">
-	You are not forced to take any Rust code, or care about any Rust
-	code in the DMA code. You can ignore it.
-<p>
-	But "ignore the Rust side" automatically also means that you don't
-	have any *say* on the Rust side.
-<p>
-	You can't have it both ways. You can't say "I want to have nothing
-	to do with Rust", and then in the very next sentence say "And that
-	means that the Rust code that I will ignore cannot use the C
-	interfaces I maintain".
-</blockquote>
-<p>
-The code in question seems highly likely to be merged for the 6.15 release.]]></description>
-            <guid>https://lwn.net/Articles/1011197/</guid>
-            <pubDate>Fri, 21 Feb 2025 13:43:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
