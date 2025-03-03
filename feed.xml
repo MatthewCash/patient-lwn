@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Mar 2025 19:44:45 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Mar 2025 19:48:24 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Mar 2025 19:50:57 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Mar 2025 20:11:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -399,24 +399,6 @@ for many years; his contributions will be missed.]]></description>
             <guid>https://lwn.net/Articles/1011764/</guid>
             <pubDate>Tue, 25 Feb 2025 14:28:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Aqualung 2.0 released</title>
-            <link>https://lwn.net/Articles/1011671/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/jeremyevans/aqualung/releases/tag/2.0">Version
-2.0</a> of the <a href="http://aqualung.jeremyevans.net/">Aqualung</a>
-gapless music player has been released. Aqualung supports playback of
-a wide range of audio formats, ripping CDs to WAV, FLAC, Ogg Vorbis,
-or MP3, and subscribing to podcasts via RSS or Atom feeds. The primary
-change in this release is the <a
-href="https://github.com/jeremyevans/aqualung/issues/38">migration</a>
-from GTK2 to GTK3, and dropping support for custom skins as a
-result.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1011671/</guid>
-            <pubDate>Mon, 24 Feb 2025 19:36:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
