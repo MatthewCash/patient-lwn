@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Mar 2025 13:55:43 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Mar 2025 14:11:15 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Mar 2025 14:28:23 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Mar 2025 14:32:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1012760/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, kernel, linux-6.1, mariadb-10.5, proftpd-dfsg, and xorg-server), <b>Fedora</b> (chromium, cutter-re, iniparser, nodejs22, rizin, webkitgtk, wireshark, xen, and xorg-x11-server), <b>Mageia</b> (binutils and ffmpeg), <b>Oracle</b> (emacs and kernel), <b>Red Hat</b> (emacs and webkit2gtk3), <b>SUSE</b> (azure-cli, bsdtar, gnutls, govulncheck-vulndb, libX11, libxkbfile, libxml2, nodejs-electron, openssh8.4, ovmf, phpMyAdmin, python, python-azure-identity, python311-jupyter-server, tiff, trivy, u-boot, and wireshark), and <b>Ubuntu</b> (opennds and Ruby SAML).]]></description>
+            <guid>https://lwn.net/Articles/1012760/</guid>
+            <pubDate>Mon, 03 Mar 2025 14:28:23 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.14-rc5</title>
             <link>https://lwn.net/Articles/1012659/</link>
