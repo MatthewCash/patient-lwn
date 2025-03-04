@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Mar 2025 14:30:33 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Mar 2025 14:32:33 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Mar 2025 14:34:17 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Mar 2025 14:48:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Incus 6.10 released</title>
+            <link>https://lwn.net/Articles/1012916/</link>
+            <description><![CDATA[Version 6.10 of the Incus container-management system has been released.
+New features include better Let's Encrypt support, API-wide filtering,
+IOMMU support in virtual machines, and more.  See <a
+href="https://discuss.linuxcontainers.org/t/incus-6-10-has-been-released/23077">this
+announcement</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1012916/</guid>
+            <pubDate>Tue, 04 Mar 2025 14:34:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1012915/</link>
