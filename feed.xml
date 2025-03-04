@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Mar 2025 13:56:52 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Mar 2025 14:11:06 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Mar 2025 14:30:33 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Mar 2025 14:32:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1012915/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Mageia</b> (x11-server), <b>Red Hat</b> (emacs and webkit2gtk3), <b>SUSE</b> (ffmpeg-7, govulncheck-vulndb, kernel, and skopeo), and <b>Ubuntu</b> (cmark-gfm, erlang, krb5, linux-gcp-6.8, linux-raspi, linux-kvm, lucene-solr, postgresql-12, postgresql-14, postgresql-16, raptor2, spip, tomcat7, and wpa).]]></description>
+            <guid>https://lwn.net/Articles/1012915/</guid>
+            <pubDate>Tue, 04 Mar 2025 14:30:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Mozilla reverses course on its terms of use</title>
             <link>https://lwn.net/Articles/1012788/</link>
@@ -390,14 +398,6 @@ maintainer of that layer going forward.  Hellwig has maintained that code
 for many years; his contributions will be missed.]]></description>
             <guid>https://lwn.net/Articles/1011819/</guid>
             <pubDate>Tue, 25 Feb 2025 21:20:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1011764/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libpq, postgresql:13, postgresql:15, and postgresql:16), <b>Debian</b> (nodejs and php-nesbot-carbon), <b>Mageia</b> (neomutt), <b>Red Hat</b> (python3.11-urllib3 and tuned), <b>SUSE</b> (crun, ovmf, pam_pkcs11, qemu, and webkit2gtk3), and <b>Ubuntu</b> (iniparser, libcap2, linux, linux-hwe, linux, linux-hwe-5.4, linux, linux-lowlatency, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-ibm-5.4, linux-azure, linux-azure-fde, linux-gkeop, linux-nvidia, linux-oracle, linux-azure-5.15, linux-azure-fde-5.15, linux-oracle-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-kvm, linux-lowlatency-hwe-5.15, and linux-xilinx-zynqmp).]]></description>
-            <guid>https://lwn.net/Articles/1011764/</guid>
-            <pubDate>Tue, 25 Feb 2025 14:28:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
