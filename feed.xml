@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Mar 2025 14:07:00 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Mar 2025 14:10:55 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Mar 2025 14:31:31 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Mar 2025 14:31:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1013063/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libreoffice), <b>Fedora</b> (exim and fscrypt), <b>Red Hat</b> (kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (docker, firefox, and podman), and <b>Ubuntu</b> (linux, linux-lowlatency, linux-lowlatency-hwe-5.15, linux, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-oem-6.11, linux-aws, linux-aws-6.8, linux-oracle, linux-oracle-6.8, linux-raspi, linux-aws, linux-gcp, linux-hwe-6.11, linux-oracle, linux-raspi, linux-realtime, linux-aws, linux-gkeop, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, linux-oracle, linux-oracle-5.15, linux-raspi, and linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop).]]></description>
+            <guid>https://lwn.net/Articles/1013063/</guid>
+            <pubDate>Wed, 05 Mar 2025 14:10:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 136.0 released</title>
             <link>https://lwn.net/Articles/1012947/</link>
@@ -397,14 +405,6 @@ for a complete list.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1011955/</guid>
             <pubDate>Wed, 26 Feb 2025 15:37:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1011928/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (crun, gnutls, libtasn1, and openssl), <b>Mageia</b> (emacs, gnutls, iniparser, kernel, kmod-virtualbox, kmod-xtables-addons, kernel-linus, krb5, libxml2, and vim), <b>Slackware</b> (tigervnc and xorg), <b>SUSE</b> (libprotobuf-lite28_3_0 and Maven), and <b>Ubuntu</b> (dropbear, kernel, libxml2, linux, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-lts-xenial, linux-aws-5.4 linux-raspi-5.4, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, ProFTPD, python-virtualenv, rails, and xorg-server, xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1011928/</guid>
-            <pubDate>Wed, 26 Feb 2025 14:11:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
