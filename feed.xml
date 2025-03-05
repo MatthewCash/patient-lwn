@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Mar 2025 18:05:50 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Mar 2025 18:15:03 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Mar 2025 18:28:02 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Mar 2025 18:39:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FerretDB 2.0 released</title>
+            <link>https://lwn.net/Articles/1013114/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/FerretDB/FerretDB/releases/tag/v2.0.0">Version
+2.0.0</a> of <a href="https://www.ferretdb.com/">FerretDB</a> has been
+<a
+href="https://blog.ferretdb.io/ferretdb-v2-ga-open-source-mongodb-alternative-ready-for-production/">released</a>. FerretDB
+is an open-source alternative to MongoDB, which <a
+href="https://lwn.net/Articles/768670/">switched</a> to a non-open
+license in 2018, built on top of <a
+href="https://www.postgresql.org/">PostgreSQL</a>. This release
+utilizes the <a
+href="https://github.com/microsoft/documentdb?tab=readme-ov-file#introduction">DocumentDB</a>
+PostgreSQL extension for better performance, adds <a
+href="https://docs.ferretdb.io/guides/vector-search/">vector
+search</a>, and <a
+href="https://docs.ferretdb.io/guides/replication/">replication</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1013114/</guid>
+            <pubDate>Wed, 05 Mar 2025 18:28:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Xen 4.20 released</title>
             <link>https://lwn.net/Articles/1013104/</link>
