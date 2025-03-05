@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Mar 2025 21:40:44 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Mar 2025 22:10:48 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Mar 2025 22:29:52 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Mar 2025 22:31:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Zen and the Art of Microcode Hacking (Google Bug Hunters)</title>
+            <link>https://lwn.net/Articles/1013136/</link>
+            <description><![CDATA[The Google Bug Hunters blog has <a
+href="https://bughunters.google.com/blog/5424842357473280/zen-and-the-art-of-microcode-hacking">a
+detailed description</a> of how a vulnerability in AMD's microcode-patching
+functionality was discovered and exploited; the authors have also released
+a set of tools to assist with this kind of research in the future.
+<p>
+<blockquote class="bq">
+	Secure hash functions are designed in such a way that there is no
+	secret key, and there is no way to use knowledge of the
+	intermediate state in order to generate a collision. However, CMAC
+	was not designed as a hash function, and therefore it is a weak
+	hash function against an adversary who has the key. Remember that
+	every AMD Zen CPU has to have the same AES-CMAC key in order to
+	successfully calculate the hash of the AMD public key and the
+	microcode patch contents. Therefore, the key only needs to be
+	revealed from a single CPU in order to compromise all other CPUs
+	using the same key. This opens up the potential for hardware
+	attacks (e.g., reading the key from ROM with a scanning electron
+	microscope), side-channel attacks (e.g., using Correlation Power
+	Analysis to leak the key during validation), or other software or
+	hardware attacks that can somehow reveal the key. In summary, it is
+	a safe assumption that such a key will not remain secret forever.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1013136/</guid>
+            <pubDate>Wed, 05 Mar 2025 22:10:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>FerretDB 2.0 released</title>
             <link>https://lwn.net/Articles/1013114/</link>
