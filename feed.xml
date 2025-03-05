@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Mar 2025 15:58:03 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Mar 2025 16:17:13 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Mar 2025 16:40:32 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Mar 2025 16:48:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Xen 4.20 released</title>
+            <link>https://lwn.net/Articles/1013104/</link>
+            <description><![CDATA[<p>The <a href="https://xenproject.org/">Xen Project</a> has <a
+href="https://www.linuxfoundation.org/press/xen-project-announces-xen-420-release">announced</a>
+the release of Xen 4.20. This release adds support for
+AMD&#160;Zen&#160;5 CPUs, improved compliance with the <a
+href="https://en.wikipedia.org/wiki/MISRA_C">MISRA</a> C standard,
+work on PCI-passthrough on Arm, and more. Xen&#160;4.20 also removes
+support for <a href="https://en.wikipedia.org/wiki/Xeon_Phi">Xeon
+Phi</a> CPUs, which were <a
+href="https://www.techpowerup.com/246237/intel-is-giving-up-on-xeon-phi-eight-more-models-declared-end-of-life">discontinued</a>
+in 2018. See the <a
+href="https://wiki.xenproject.org/wiki/Xen_Project_4.20_Feature_List">feature
+list</a> and <a
+href="https://wiki.xenproject.org/wiki/Xen_Project_4.20_Release_Notes">release
+notes</a> for more information.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1013104/</guid>
+            <pubDate>Wed, 05 Mar 2025 16:32:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Thunderbird Desktop 136.0 released</title>
             <link>https://lwn.net/Articles/1013098/</link>
@@ -376,29 +399,6 @@ mTHPs in the background.]]></description>
             <guid>https://lwn.net/Articles/1009039/</guid>
             <pubDate>Thu, 13 Feb 2025 15:17:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Gentoo now offers qcow2 disk images</title>
-            <link>https://lwn.net/Articles/1011959/</link>
-            <description><![CDATA[<p>The <a href="https://www.gentoo.org/">Gentoo Linux</a> project has
-<a
-href="https://www.gentoo.org/news/2025/02/20/gentoo-qcow2-images.html">announced</a>
-the availability of qcow2 images for amd64 (x86_64) and arm64
-(aarch64), and plans to "<q>eventually</q>" offer images for the
-riscv64 and loongarch64 architectures.</p>
-
-<blockquote class="bq">
-The images, updated weekly, include an EFI boot partition and a fully
-functional Gentoo installation; either with no network activated but a
-password-less root login on the console ("no root pw"), or with
-network activated, all accounts initially locked, but cloud-init
-running on boot ("cloud-init").
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1011959/</guid>
-            <pubDate>Wed, 26 Feb 2025 16:22:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
