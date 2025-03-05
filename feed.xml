@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Mar 2025 15:32:41 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Mar 2025 15:41:59 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Mar 2025 15:46:18 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Mar 2025 15:48:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux from Scratch version 12.3 released</title>
+            <link>https://lwn.net/Articles/1013096/</link>
+            <description><![CDATA[<p><a href="https://www.linuxfromscratch.org/lfs/view/12.3/">Version
+12.3</a> of <a
+href="https://rivendell.linuxfromscratch.org/index.html">Linux From
+Scratch</a> (LFS) has been released, along with <a
+href="https://www.linuxfromscratch.org/blfs/view/12.3/">Beyond Linux
+From Scratch (BLFS) 12.3</a>. LFS provides step-by-step instructions
+on building a customized Linux system entirely from source, and BLFS
+helps to extend an LFS installation into a more usable system. Notable
+changes in this release include toolchain updates to GNU Binutils
+2.44, GNU C Library (glibc) 2.41, and Linux 6.13.2. The <a
+href="https://www.linuxfromscratch.org/lfs/view/12.3/chapter01/changelog.html">Changelog</a>
+has a full list of changes since the previous stable release.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1013096/</guid>
+            <pubDate>Wed, 05 Mar 2025 15:46:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1013063/</link>
@@ -391,21 +411,6 @@ support.]]></description>
             <guid>https://lwn.net/Articles/1011830/</guid>
             <pubDate>Wed, 26 Feb 2025 15:52:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Armbian 25.2 released</title>
-            <link>https://lwn.net/Articles/1011955/</link>
-            <description><![CDATA[<p><a href="https://www.armbian.com/newsflash/armbian-v25-2/">Version
-25.2</a> of the <a href="https://www.armbian.com/">Armbian</a> Linux
-distribution for single-board computers (SBCs) has been released. Notable
-changes in this release include support for many new SBCs, an upgrade
-to Linux kernel 6.12.x, and more. See the <a
-href="https://docs.armbian.com/Release_Changelog/#v2522-2025-2-25">changelog</a>
-for a complete list.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1011955/</guid>
-            <pubDate>Wed, 26 Feb 2025 15:37:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
