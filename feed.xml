@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 06 Mar 2025 14:08:58 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Mar 2025 14:10:39 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Mar 2025 14:24:03 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Mar 2025 14:32:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1013209/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr), <b>Fedora</b> (firefox and vim), <b>Red Hat</b> (firefox), <b>Slackware</b> (mozilla), <b>SUSE</b> (firefox, firefox-esr, kernel, and podman), and <b>Ubuntu</b> (gpac, kernel, linux, linux-aws, linux-gcp, linux-gcp-5.15, linux-gke, linux-hwe-5.15, and redis).]]></description>
+            <guid>https://lwn.net/Articles/1013209/</guid>
+            <pubDate>Thu, 06 Mar 2025 14:12:57 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for February 27, 2025</title>
             <link>https://lwn.net/Articles/1011011/</link>
