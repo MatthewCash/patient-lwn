@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 06 Mar 2025 21:30:20 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Mar 2025 22:41:20 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 6 Mar 2025 22:48:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -430,31 +430,6 @@ provide</q>".)]]></description>
             <guid>https://lwn.net/Articles/1012367/</guid>
             <pubDate>Fri, 28 Feb 2025 14:01:11 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>McKenney: Speaking at Kernel Recipes</title>
-            <link>https://lwn.net/Articles/1012286/</link>
-            <description><![CDATA[Paul McKenney has put together <a
-href="https://people.kernel.org/paulmck/kernel-recipes-2025">a series of
-articles</a> on how to improve one's ability to give a good talk at a
-technical conference.
-<p>
-<blockquote class="bq">
-	On the other hand, (1) presentation skills stay with you through
-	life, and (2) small improvements in presentation skills over months
-	or years can provide you with great advantages longer term. An old
-	saying credited to Thomas Edison claims a breakdown of 1%
-	inspiration and 99% perspiration.  However, my own experience with
-	RCU has instead been 0.1% inspiration, 9.9% perspiration, and 90%
-	communication.  Had I been unable to communicate effectively,
-	others would have extreme difficulty using RCU, as in even more
-	difficulty than they do now.
-</blockquote>
-<p>
-There is a lot of speaking experience distilled into this set of posts.]]></description>
-            <guid>https://lwn.net/Articles/1012286/</guid>
-            <pubDate>Thu, 27 Feb 2025 22:47:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
