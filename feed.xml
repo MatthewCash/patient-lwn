@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 06 Mar 2025 19:01:23 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Mar 2025 20:11:58 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 6 Mar 2025 20:30:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -454,19 +454,6 @@ technical conference.
 There is a lot of speaking experience distilled into this set of posts.]]></description>
             <guid>https://lwn.net/Articles/1012286/</guid>
             <pubDate>Thu, 27 Feb 2025 22:47:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fish shell 4.0 released</title>
-            <link>https://lwn.net/Articles/1012269/</link>
-            <description><![CDATA[<a href="https://fishshell.com/blog/new-in-40/">Version 4.0</a> of the Fish
-shell has been released.  Improvements include a better key-binding
-mechanism, the ability to tie abbreviations to a specific command,
-selective ignoring of commands in the history, some scripting improvements,
-and more.  See <a href="https://fishshell.com/docs/4.0/relnotes.html">the
-release notes</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1012269/</guid>
-            <pubDate>Thu, 27 Feb 2025 20:27:31 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
