@@ -8,11 +8,59 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Mar 2025 17:44:35 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Mar 2025 18:14:17 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Mar 2025 18:32:22 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Mar 2025 18:37:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Ubuntu 25.04 (Plucky Puffin) progress</title>
+            <link>https://lwn.net/Articles/1013386/</link>
+            <description><![CDATA[<p>Matthieu Clemenceau has <a
+href="https://discourse.ubuntu.com/t/ubuntu-foundations-25-04-plucky-puffin-progress/56635">published</a>
+a status update on Ubuntu&#160;25.04 (Plucky Puffin) development to the Ubuntu
+Discourse forum. This includes updates on Ubuntu's <a
+href="https://discourse.ubuntu.com/t/dracut-will-be-supported-in-ubuntu-25-04/56556">adoption
+of Dracut</a> as an alternative to <tt>initramfs-tools</tt>, a move to
+a single ISO for arm64 devices rather than device-specific images, and
+reverting the planned O3 optimization flags for Plucky Puffin.</p>
+
+<blockquote class="bq">
+Earlier in this cycle, we <a
+href="https://discourse.ubuntu.com/t/ubuntu-foundations-25-04-plucky-puffin-roadmap/50695#p-126156-continue-to-gain-performance-improvements-1">announced
+plans</a> to enable the O3 optimization level for all Ubuntu packages
+by default. As part of this effort, we conducted extensive
+benchmarking, which revealed that while some workloads saw
+improvements, overall system performance slightly declined, and binary
+sizes increased. Given these results, we are likely to revert this
+change soon.
+</blockquote>
+
+<p>The beta for Ubuntu 25.04 is <a
+href="https://discourse.ubuntu.com/t/plucky-puffin-release-schedule/36461">planned</a>
+for March&#160;27, with the final release scheduled on April 17.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1013386/</guid>
+            <pubDate>Fri, 07 Mar 2025 18:30:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Four more stable kernel updates</title>
+            <link>https://lwn.net/Articles/1013395/</link>
+            <description><![CDATA[<p>
+Greg Kroah-Hartman has announced the release of four more stable kernels:
+<a href="https://lwn.net/Articles/1013396/">6.13.6</a>,
+<a href="https://lwn.net/Articles/1013397/">6.12.18</a>,
+<a href="https://lwn.net/Articles/1013398/">6.6.81</a>, and
+<a href="https://lwn.net/Articles/1013399/">6.1.130</a>.
+Unlike a normal release, Kroah-Hartman did <em>not</em> call for all users to
+update their kernels. Specifically, the 6.6.81 kernel is currently broken on
+i386 systems, and users should wait for 6.6.82.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1013395/</guid>
+            <pubDate>Fri, 07 Mar 2025 18:32:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1013336/</link>
