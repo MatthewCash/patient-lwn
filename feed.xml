@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 09 Mar 2025 14:22:24 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Mar 2025 14:33:01 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Mar 2025 14:37:44 +0000</pubDate>
+        <lastBuildDate>Sun, 9 Mar 2025 14:48:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel 6.6.82</title>
+            <link>https://lwn.net/Articles/1013476/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1013475/">6.6.82</a> stable kernel has been
+released.  "<q>All i386 users of the 6.6 kernel series must upgrade (as
+they skipped the last release.)  All other arches can skip this one as it
+should not affect them.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1013476/</guid>
+            <pubDate>Sun, 09 Mar 2025 14:37:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Ubuntu 25.04 (Plucky Puffin) progress</title>
             <link>https://lwn.net/Articles/1013386/</link>
