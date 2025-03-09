@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 09 Mar 2025 20:34:09 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Mar 2025 21:09:18 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 9 Mar 2025 21:23:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -444,15 +444,6 @@ more detail about its reasons for the changes.</p>
             <guid>https://lwn.net/Articles/1012760/</guid>
             <pubDate>Mon, 03 Mar 2025 14:28:23 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.14-rc5</title>
-            <link>https://lwn.net/Articles/1012659/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1012658/">6.14-rc5</a> kernel prepatch is out for
-testing.  "<q>Nothing looks particularly big or worrisome</q>".]]></description>
-            <guid>https://lwn.net/Articles/1012659/</guid>
-            <pubDate>Sun, 02 Mar 2025 21:10:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
