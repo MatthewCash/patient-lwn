@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Mar 2025 14:45:03 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Mar 2025 14:49:08 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Mar 2025 14:59:51 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Mar 2025 15:12:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Python tail-call speedup based on LLVM regression</title>
+            <link>https://lwn.net/Articles/1013581/</link>
+            <description><![CDATA[<p>
+The <a href="https://lwn.net/Articles/1010905/">Python project's recent switch to a tail-calling interpreter</a> may not provide as large a speed advantage as initially thought. A <a href="https://blog.nelhage.com/post/cpython-tail-call/">blog post</a> from Nelson Elhage gives the details. In short, switching to a tail-call-based interpreter accidentally works around an unfixed regression in LLVM 19. On other compilers, the performance benefit (while still present) is more moderate.
+</p>
+
+<blockquote class="bq">
+When the tail-call interpreter was announced, I was surprised and impressed by the performance improvements, but also confused: I'm not an expert, but I'm passingly-familiar with modern CPU hardware, compilers, and interpreter design, and I couldn't explain why this change would be so effective. I became curious – and perhaps slightly obsessed – and the reports in this post are the result of a few weeks of off-and-on compiling and benchmarking and disassembly of dozens of different Python binaries, in an attempt to understand what I was seeing.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1013581/</guid>
+            <pubDate>Mon, 10 Mar 2025 14:56:13 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1013561/</link>
