@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Mar 2025 13:08:38 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Mar 2025 13:26:59 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Mar 2025 13:32:53 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Mar 2025 13:42:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1013561/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openvpn and thunderbird), <b>Fedora</b> (buildah, chromium, podman-tui, python-spotipy, qt6-qtwebengine, and vim), <b>Mageia</b> (chromium-browser-stable and gpac), <b>Oracle</b> (krb5), <b>Red Hat</b> (firefox, kernel, kernel-rt, libxml2, and pcs), <b>SUSE</b> (buildah, chromedriver, chromium, firefox, go1.23, go1.24, grype, python, python311-GitPython, ruby3.4-rubygem-rack, thunderbird, and xen), and <b>Ubuntu</b> (xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04).]]></description>
+            <guid>https://lwn.net/Articles/1013561/</guid>
+            <pubDate>Mon, 10 Mar 2025 13:32:52 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.14-rc6</title>
             <link>https://lwn.net/Articles/1013486/</link>
