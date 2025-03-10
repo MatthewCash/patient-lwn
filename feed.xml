@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Mar 2025 15:43:31 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Mar 2025 16:11:32 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Mar 2025 16:29:55 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Mar 2025 16:35:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -436,37 +436,6 @@ announcement</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1012915/</guid>
             <pubDate>Tue, 04 Mar 2025 14:30:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Mozilla reverses course on its terms of use</title>
-            <link>https://lwn.net/Articles/1012788/</link>
-            <description><![CDATA[<p>Mozilla has <a
-href="https://blog.mozilla.org/en/products/firefox/update-on-terms-of-use/">issued
-an update</a> to its terms of use (TOU) that were <a
-href="https://blog.mozilla.org/en/products/firefox/firefox-news/firefox-terms-of-use/">announced</a>
-on February&#160;26. It has removed a reference in the TOU to
-Mozilla's Acceptable Use Policy "<q>because it seems to be causing
-more confusion than clarity</q>", and has revised the TOU "<q>to more
-clearly reflect the limited scope of how Mozilla interacts with user
-data</q>". The new language says:</p>
-
-<blockquote class="bq">
-You give Mozilla the rights necessary to operate Firefox. This
-includes processing your data as we describe in the Firefox Privacy
-Notice. It also includes a nonexclusive, royalty-free, worldwide
-license for the purpose of doing as you request with the content you
-input in Firefox. This does not give Mozilla any ownership in that
-content.
-</blockquote>
-
-<p>Mozilla has also updated its <a
-href="https://www.mozilla.org/firefox/faq/">Privacy FAQ</a> to provide
-more detail about its reasons for the changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1012788/</guid>
-            <pubDate>Mon, 03 Mar 2025 16:11:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
