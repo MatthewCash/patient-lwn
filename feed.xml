@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 11 Mar 2025 15:27:13 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Mar 2025 15:32:18 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 11 Mar 2025 15:48:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -436,17 +436,6 @@ has a full list of changes since the previous stable release.</p>
             <guid>https://lwn.net/Articles/1013063/</guid>
             <pubDate>Wed, 05 Mar 2025 14:10:58 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 136.0 released</title>
-            <link>https://lwn.net/Articles/1012947/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/136.0/releasenotes/">Version
-136.0</a> of the Firefox browser has been released.  Changes include a new
-vertical tab layout, an automatic attempt to upgrade HTTP connections to
-HTTPS, support for AMD GPUs on Linux, an Arm64 port for Linux, and more.]]></description>
-            <guid>https://lwn.net/Articles/1012947/</guid>
-            <pubDate>Tue, 04 Mar 2025 15:37:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
