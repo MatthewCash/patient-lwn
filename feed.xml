@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Mar 2025 14:15:05 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Mar 2025 14:33:33 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Mar 2025 14:41:22 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Mar 2025 14:49:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Framework Mono 6.14.0 released</title>
+            <link>https://lwn.net/Articles/1013723/</link>
+            <description><![CDATA[<p>Version 6.14.0 of <a href="https://www.mono-project.com/">Framework
+Mono</a> has been <a
+href="https://www.winehq.org/news/2025030801">announced</a>.</p>
+
+<blockquote class="bq">
+This is the first release of Framework Mono from its new home at
+WineHQ. It includes work from the past 5 years that was never included
+in a stable release because no stable branch had been created in that
+time. Highlights are native support for ARM64 on macOS and many
+improvements to windows forms for X11.
+</blockquote>
+
+<p>See the <a
+href="https://gitlab.winehq.org/mono/mono/-/releases/mono-6.14.0">release
+notes</a> for a full list of new features and plans for future
+releases.</p>]]></description>
+            <guid>https://lwn.net/Articles/1013723/</guid>
+            <pubDate>Tue, 11 Mar 2025 14:41:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1013717/</link>
@@ -423,18 +446,6 @@ vertical tab layout, an automatic attempt to upgrade HTTP connections to
 HTTPS, support for AMD GPUs on Linux, an Arm64 port for Linux, and more.]]></description>
             <guid>https://lwn.net/Articles/1012947/</guid>
             <pubDate>Tue, 04 Mar 2025 15:37:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Incus 6.10 released</title>
-            <link>https://lwn.net/Articles/1012916/</link>
-            <description><![CDATA[Version 6.10 of the Incus container-management system has been released.
-New features include better Let's Encrypt support, API-wide filtering,
-IOMMU support in virtual machines, and more.  See <a
-href="https://discuss.linuxcontainers.org/t/incus-6-10-has-been-released/23077">this
-announcement</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1012916/</guid>
-            <pubDate>Tue, 04 Mar 2025 14:34:17 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
