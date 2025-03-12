@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Mar 2025 13:18:11 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 13:26:22 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Mar 2025 13:38:31 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Mar 2025 13:41:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GStreamer 1.26.0 released</title>
+            <link>https://lwn.net/Articles/1013840/</link>
+            <description><![CDATA[<p><a href="https://gstreamer.freedesktop.org/releases/1.26/">Version
+1.26.0</a> of the GStreamer cross-platform multimedia framework has
+been released. Notable changes in this release include support for the
+<a href="https://en.wikipedia.org/wiki/Versatile_Video_Coding">H.266
+Versatile Video Coding</a> (VVC) codec, <a
+href="https://en.wikipedia.org/wiki/LCEVC">Low Complexity Enhancement
+Video Coding</a> (LCEVC) support, closed caption improvements, and <a
+href="https://en.wikipedia.org/wiki/JPEG_XS">JPEG XS</a> image codec
+support.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1013840/</guid>
+            <pubDate>Wed, 12 Mar 2025 13:38:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1013838/</link>
