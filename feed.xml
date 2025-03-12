@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 12 Mar 2025 15:28:48 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 15:32:02 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 12 Mar 2025 15:49:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,26 +473,6 @@ Thunderbird 136.0.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1013098/</guid>
             <pubDate>Wed, 05 Mar 2025 15:53:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Linux from Scratch version 12.3 released</title>
-            <link>https://lwn.net/Articles/1013096/</link>
-            <description><![CDATA[<p><a href="https://www.linuxfromscratch.org/lfs/view/12.3/">Version
-12.3</a> of <a
-href="https://rivendell.linuxfromscratch.org/index.html">Linux From
-Scratch</a> (LFS) has been released, along with <a
-href="https://www.linuxfromscratch.org/blfs/view/12.3/">Beyond Linux
-From Scratch (BLFS) 12.3</a>. LFS provides step-by-step instructions
-on building a customized Linux system entirely from source, and BLFS
-helps to extend an LFS installation into a more usable system. Notable
-changes in this release include toolchain updates to GNU Binutils
-2.44, GNU C Library (glibc) 2.41, and Linux 6.13.2. The <a
-href="https://www.linuxfromscratch.org/lfs/view/12.3/chapter01/changelog.html">Changelog</a>
-has a full list of changes since the previous stable release.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1013096/</guid>
-            <pubDate>Wed, 05 Mar 2025 15:46:18 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
