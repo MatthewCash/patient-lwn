@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Mar 2025 13:45:35 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 14:11:17 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Mar 2025 14:32:07 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Mar 2025 14:33:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The LLVM project stabilizes its Fortran compiler</title>
+            <link>https://lwn.net/Articles/1013844/</link>
+            <description><![CDATA[<p>
+The LLVM project's Fortran compiler, which has for many years gone by the name "flang-new", will now simply be "flang", starting from LLVM's 20.1.0 release on March 4. The
+<a href="https://blog.llvm.org/posts/2025-03-11-flang-new/">
+announcement</a>, which includes details about the history of flang, comes after a long period of development and discussion. The community has considered renaming flang several times before now, but has always held off out of a feeling that the compiler was not yet ready. Now, the members of the project believe that flang has become stable and complete enough to earn its name.
+</p>
+
+<blockquote class="bq">
+We are almost 10 years from the first announcement of what would
+become LLVM Flang. In the LLVM monorepo alone there have been close
+to 10,000 commits from around 400 different contributors. Undoubtedly
+more in Classic Flang before that.  
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1013844/</guid>
+            <pubDate>Wed, 12 Mar 2025 14:15:42 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>GStreamer 1.26.0 released</title>
             <link>https://lwn.net/Articles/1013840/</link>
@@ -452,14 +471,6 @@ has a full list of changes since the previous stable release.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1013096/</guid>
             <pubDate>Wed, 05 Mar 2025 15:46:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1013063/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libreoffice), <b>Fedora</b> (exim and fscrypt), <b>Red Hat</b> (kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (docker, firefox, and podman), and <b>Ubuntu</b> (linux, linux-lowlatency, linux-lowlatency-hwe-5.15, linux, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-oem-6.11, linux-aws, linux-aws-6.8, linux-oracle, linux-oracle-6.8, linux-raspi, linux-aws, linux-gcp, linux-hwe-6.11, linux-oracle, linux-raspi, linux-realtime, linux-aws, linux-gkeop, linux-ibm, linux-intel-iotg, linux-intel-iotg-5.15, linux-oracle, linux-oracle-5.15, linux-raspi, and linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop).]]></description>
-            <guid>https://lwn.net/Articles/1013063/</guid>
-            <pubDate>Wed, 05 Mar 2025 14:10:58 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
