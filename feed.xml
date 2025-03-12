@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Mar 2025 17:00:05 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 17:10:25 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Mar 2025 17:28:54 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Mar 2025 17:30:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Traversal-resistant file APIs (The Go Blog)</title>
+            <link>https://lwn.net/Articles/1013876/</link>
+            <description><![CDATA[<p>Damien Neil has written an <a
+href="https://go.dev/blog/osroot">article</a> for the Go Blog about <a href="https://owasp.org/www-community/attacks/Path_Traversal">path
+traversal vulnerabilities</a> and the <a
+href="https://pkg.go.dev/os#Root"><tt>os.Root</tt></a> API added in <a
+href="https://tip.golang.org/doc/go1.24">Go 1.24</a> to help prevent
+them.</p>
+
+<blockquote class="bq">
+Root permits relative path components and symlinks that do not escape
+the root. For example, <tt>root.Open("a/../b")</tt> is permitted. Filenames are
+resolved using the semantics of the local platform: On Unix systems,
+this will follow any symlink in "a" (so long as that link does not
+escape the root); while on Windows systems this will open "b" (even if
+"a" does not exist).
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1013876/</guid>
+            <pubDate>Wed, 12 Mar 2025 17:13:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Below: local privilege escalation (SUSE security team blog)</title>
             <link>https://lwn.net/Articles/1013842/</link>
