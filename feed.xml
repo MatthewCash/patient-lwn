@@ -8,11 +8,152 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Mar 2025 23:35:09 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Mar 2025 23:48:06 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Mar 2025 00:33:15 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Mar 2025 00:47:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for March 6, 2025</title>
+            <link>https://lwn.net/Articles/1012147/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1012147/">Front</a>: Firefox forks; Bend and Vine; FineIBT; Guard pages; Fedora's Flatpak packaging; Zotero.
+            <li> <a href="https://lwn.net/Articles/1012149/">Briefs</a>: LFS 12.3; FerretDB 2.0; Firefox; Fish 4.0; Incus 6.10; Thunderbird 136.0; Xen 4.20; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1012150/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1012147/</guid>
+            <pubDate>Thu, 06 Mar 2025 00:15:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Two new graph-based functional programming languages</title>
+            <link>https://lwn.net/Articles/1011803/</link>
+            <description><![CDATA[<p>
+Functional programming languages have a long association with graphs. In the
+1990s, it was even thought that parallel graph-reduction
+architectures could make functional programming languages much faster than their
+imperative counterparts. Alas, that prediction mostly failed to materialize.
+Even though graphs are still used as a theoretical formalism in order to define
+and optimize functional languages (such as Haskell's
+<a href="https://www.microsoft.com/en-us/research/publication/implementing-lazy-functional-languages-on-stock-hardware-the-spineless-tagless-g-machine/">
+spineless tagless graph-machine</a>), they are still mostly compiled down to the same old
+non-parallel assembly code that every other language uses. Now, two
+projects —
+<a href="https://higherorderco.com/">
+Bend</a> and
+<a href="https://vine.dev/">
+Vine</a> — have sprung up attempting to change that, and prove that
+parallel graph reduction can be a useful technique for real programs.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1011803/</guid>
+            <pubDate>Wed, 05 Mar 2025 17:44:08 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at Firefox forks</title>
+            <link>https://lwn.net/Articles/1012453/</link>
+            <description><![CDATA[<p>Mozilla's actions have been rubbing many <a
+href="https://en.wikipedia.org/wiki/Firefox">Firefox</a> fans the
+wrong way as of late, and inspiring them to look for alternatives.
+There are many choices for users who are looking for a browser that
+isn't part of the Chrome monoculture but is full-featured and suitable
+for day-to-day use. For those who are willing to stay in the Firefox
+"family" there are a number of good options that have taken vastly
+different approaches. This includes <a
+href="https://www.gnu.org/software/gnuzilla/">GNU IceCat</a>, <a
+href="https://floorp.app/en">Floorp</a>, <a
+href="https://librewolf.net/">LibreWolf</a>, and <a
+href="https://zen-browser.app/">Zen</a>.</p>]]></description>
+            <guid>https://lwn.net/Articles/1012453/</guid>
+            <pubDate>Tue, 04 Mar 2025 19:38:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Guard pages for file-backed memory</title>
+            <link>https://lwn.net/Articles/1011366/</link>
+            <description><![CDATA[One of the many new features packed into the 6.13 kernel release was guard
+pages, a hardening mechanism that makes it possible to inject zero-access
+pages into a process's address space in an efficient way.  That feature
+only supports anonymous (user-space data) pages, though.  To make guard
+pages more widely useful, Lorenzo Stoakes has put together <a
+href="https://lwn.net/ml/all/cover.1739469950.git.lorenzo.stoakes@oracle.com">a patch
+set</a> enabling the feature for file-backed pages as well; in the process,
+he examined and resolved a long list of potential problems that extending
+the feature could encounter.  One potential problem was not on his list,
+though.]]></description>
+            <guid>https://lwn.net/Articles/1011366/</guid>
+            <pubDate>Mon, 03 Mar 2025 15:00:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora discusses Flatpak priorities</title>
+            <link>https://lwn.net/Articles/1011511/</link>
+            <description><![CDATA[<p>Differences of opinion, as well as outright disputes, between
+upstream open-source projects and Linux distribution packagers over
+packaging practices are nothing new. It is rarer, though, for those
+disputes to boil over to threats of legal action&mdash;but a
+disagreement between the <a href="https://obsproject.com/">Open
+Broadcaster Software (OBS) Studio</a> project and Fedora packagers
+reached that point in mid-February. After escalation to a higher
+authority things have been worked out to the satisfaction of the OBS
+project, but some lingering questions remain. How Fedora should
+prioritize <a href="https://flatpak.org/">Flatpak</a> repositories,
+how to handle conflicts between upstreams and Fedora packagers, and
+the mechanics of removing or retiring Flatpaks all remain open
+questions.</p>]]></description>
+            <guid>https://lwn.net/Articles/1011511/</guid>
+            <pubDate>Fri, 28 Feb 2025 19:09:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at the Zotero reference management tool</title>
+            <link>https://lwn.net/Articles/1007270/</link>
+            <description><![CDATA[<p><a href="https://www.zotero.org/blog/zotero-7/">Zotero</a> is an
+open-source reference management tool designed for collecting,
+organizing, and citing research materials. It is particularly useful
+for those writing research papers, theses, or books that require a
+bibliography in standard formats like <a
+href="https://apastyle.apa.org/style-grammar-guidelines/paper-format">APA
+Style</a>, <a
+href="https://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago
+Style</a>, or <a href="https://style.mla.org/mla-format/">MLA
+Format</a>. Zotero stores bibliographic metadata, annotations, and user
+data and integrates with word processors like LibreOffice, Microsoft
+Word, and Google Docs to produce in-text citations and
+bibliographies. The core features of Zotero include metadata extraction,
+tagging, full-text indexing, and cloud synchronization for
+multi-device access, and Zotero has a <a
+href="https://www.zotero.org/support/plugins">plugin system</a> to
+allow anyone to expand its capabilities. The most recent major
+release, <a
+href="https://www.zotero.org/blog/zotero-7/">Zotero&#160;7</a>, added
+support for reading EPUBs, brought user-interface improvements
+including a dark mode, performance improvements, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1007270/</guid>
+            <pubDate>Thu, 27 Feb 2025 17:39:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A hole in FineIBT protection</title>
+            <link>https://lwn.net/Articles/1011680/</link>
+            <description><![CDATA[Intel's <a
+href="https://en.wikipedia.org/wiki/Indirect_branch_tracking">indirect
+branch tracking (IBT)</a> is a hardware-implemented control-flow-integrity
+mechanism that makes it harder for an attacker to gain control of the
+system by way of a corrupted indirect branch.  FineIBT is a software
+extension to IBT that is meant to improve its protection.  Recently,
+though, Jennifer Miller <a
+href="https://lwn.net/ml/all/Z60NwR4w/28Z7XUa@ubun">reported</a> a novel way to bypass
+FineIBT by taking advantage of how the kernel's system-call entry point is
+constructed.  In response, Peter Zijlstra is working on <a
+href="https://lwn.net/ml/all/20250224123703.843199044@infradead.org">some FineIBT</a>
+enhancements to close that hole and make IBT more secure in general.]]></description>
+            <guid>https://lwn.net/Articles/1011680/</guid>
+            <pubDate>Thu, 27 Feb 2025 15:44:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Traversal-resistant file APIs (The Go Blog)</title>
             <link>https://lwn.net/Articles/1013876/</link>
@@ -237,170 +378,6 @@ i386 systems, and users should wait for 6.6.82.
             <guid>https://lwn.net/Articles/1013209/</guid>
             <pubDate>Thu, 06 Mar 2025 14:12:57 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for February 27, 2025</title>
-            <link>https://lwn.net/Articles/1011011/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1011011/">Front</a>: Tail calls in CPython; BPF cancellation; Slabs, sheaves, and barns; Atomic block writes; Large filesystem block sizes; EPEL 10 for older CPUs; pytest-mh; Open-source battery.
-            <li> <a href="https://lwn.net/Articles/1011013/">Briefs</a>: DMA discussion; Armbian 25.2; Gentoo qcow2; Aqualung 2.0; Emacs 30.1; Rust 1.85.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1011014/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1011011/</guid>
-            <pubDate>Thu, 27 Feb 2025 01:20:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Building an open-source battery</title>
-            <link>https://lwn.net/Articles/1011730/</link>
-            <description><![CDATA[<a href="https://fosdem.org/2025/">FOSDEM 2025</a> featured the usual talks
-about open-source software, but, as always, the conference also offered the
-opportunity to discover some more exotic and less software-centric
-topics. That's how I learned about the <a href="https://fbrc.dev">Flow
-Battery Research Collective</a> (FBRC), which is building what will
-eventually become an open-source home battery.
-Daniel Fernández Pinto represented the collective at
-FOSDEM with his talk "<a
-href="https://fosdem.org/2025/schedule/event/fosdem-2025-6003-flow-battery-research-collective-building-an-open-source-battery-for-stationary-storage/">Building
-an Open-Source Battery for Stationary Storage</a>" in the "<a
-href="https://fosdem.org/2025/schedule/track/energy/">Energy: Accelerating
-the Transition through Open Source</a>" developer room (devroom).]]></description>
-            <guid>https://lwn.net/Articles/1011730/</guid>
-            <pubDate>Wed, 26 Feb 2025 16:30:50 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python interpreter adds tail calls</title>
-            <link>https://lwn.net/Articles/1010905/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lwn.net/Articles/857754/">
-Faster CPython project</a> has been working to speed up the Python interpreter
-for the past several years. Now, Ken Jin, a member of the project, has merged a
-<a href="https://github.com/python/cpython/issues/128563">
-new set of changes</a> that
-have been
-<a href="https://gist.github.com/Fidget-Spinner/497c664eef389622d146d632990b0d21">
-benchmarked</a> as improving performance by 10% for some architectures.
-The only change is switching from using computed goto statements to using
-tail calls as part of the implementation of Python's bytecode interpreter — but that change allows
-modern compilers to generate significantly better code.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1010905/</guid>
-            <pubDate>Wed, 26 Feb 2025 14:18:05 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A possible path for cancelable BPF programs</title>
-            <link>https://lwn.net/Articles/1010404/</link>
-            <description><![CDATA[<p>
-The Linux kernel supports attaching BPF programs to many operations.
-This is generally safe because the BPF verifier ensures
-that BPF programs can't misuse kernel resources, run indefinitely, or otherwise
-escape their boundaries. There is continuing tension, however, between trying
-to expand the capabilities of BPF programs and ensuring that the verifier can
-handle every edge case. On February&#160;14, Juntong Deng
-<a href="https://lwn.net/ml/all/AM6PR03MB5080513BFAEB54A93CC70D4399FE2@AM6PR03MB5080.eurprd03.prod.outlook.com/">
-shared</a> a proof-of-concept patch set that
-adds some run-time checks to BPF to make it possible in the future to interrupt
-a running BPF program.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1010404/</guid>
-            <pubDate>Tue, 25 Feb 2025 15:32:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Slabs, sheaves, and barns</title>
-            <link>https://lwn.net/Articles/1010667/</link>
-            <description><![CDATA[The kernel's slab allocator is responsible for the allocation of small
-(usually sub-page) chunks of memory.  For many workloads, the speed of
-object allocation and freeing is one of the key factors in overall
-performance, so it is not surprising that a lot of effort has gone into
-optimizing the slab allocator over time.  Now that the kernel is <a
-href="https://lwn.net/Articles/974138/">down to a single slab allocator</a>, the
-memory-management developers have free rein to add complexity to it; the
-latest move in that direction is the <a
-href="https://lwn.net/ml/all/20250214-slub-percpu-caches-v2-0-88592ee0966a@suse.cz">per-CPU
-sheaves patch set</a> from slab maintainer Vlastimil Babka.]]></description>
-            <guid>https://lwn.net/Articles/1010667/</guid>
-            <pubDate>Mon, 24 Feb 2025 16:29:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] AlmaLinux considers EPEL 10 rebuild for older hardware</title>
-            <link>https://lwn.net/Articles/1010868/</link>
-            <description><![CDATA[<p>The <a href="https://almalinux.org/">AlmaLinux</a> project has <a
-href="https://github.com/AlmaLinux/ALESCo/blob/beed2d19470b07b5ed16dd952d1e45eda210f9af/rfcs/0001-build-fedora-epel-for-almalinux-and-almalinux-kitten-x86_64_v2.md">published</a>
-a request for comments (RFC) on rebuilding Fedora's <a
-href="https://docs.fedoraproject.org/en-US/epel/">Extra Packages for
-Enterprise Linux</a> (EPEL), which provides additional software for
-Red Hat Enterprise Linux (RHEL) and its derivatives, to support older
-x86_64 hardware that is not supported by EPEL&#160;10. While this may
-sound simple on the surface, the proposed rebuild carries a few
-potential risks that the AlmaLinux and EPEL contributors would like to
-avoid. The <a href="https://almalinux.org/alesco/">AlmaLinux
-Engineering Steering Committee</a> (ALESCo) is currently considering
-feedback and will vote on the RFC in March.</p>]]></description>
-            <guid>https://lwn.net/Articles/1010868/</guid>
-            <pubDate>Mon, 24 Feb 2025 15:56:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Multi-host testing with the pytest-mh framework</title>
-            <link>https://lwn.net/Articles/1007724/</link>
-            <description><![CDATA[<p>The <a
-href="https://pytest-mh.readthedocs.io/en/latest/"><tt>pytest-mh</tt></a>
-project is a plugin that provides a multi-host test framework for the
-popular <a href="https://pypi.org/project/pytest/"><tt>pytest</tt></a>
-unit-testing framework and test runner. Work on <tt>pytest-mh</tt>
-started in 2023 to solve a multitude of issues that
-cropped up for developers and testers when testing the <a
-href="https://sssd.io">SSSD</a> project, which is a client for
-enterprise identity management. I was not happy with the state of
-testing of the SSSD project and wanted to create something that would
-increase test readability, remove duplication, eliminate errors, and
-provide multi-host testing capabilities, while having the flexibility
-to build a new API around it. Finally, I also wanted something that
-can be used by anyone to test their projects as well.</p>]]></description>
-            <guid>https://lwn.net/Articles/1007724/</guid>
-            <pubDate>Fri, 21 Feb 2025 18:18:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Filesystem support  block sizes larger than the page size</title>
-            <link>https://lwn.net/Articles/1009548/</link>
-            <description><![CDATA[The maximum filesystem block size that the kernel can support has always
-been limited by the host page size for Linux, even if the filesystems could
-handle larger block sizes. The <a href="https://lwn.net/ml/all/20240822135018.1931258-1-kernel@pankajraghav.com/">large-block-size (LBS) patches</a> that were <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=171754c3808214d4fd8843eab584599a429deb52">merged</a>
-for the 6.12&#160;kernel removed this limitation in XFS, thereby decoupling
-the page size from the filesystem block size. XFS is the first filesystem
-to gain this support, with other filesystems likely to add LBS support in
-the future. In addition, the LBS patches have been used to get the <a
-href="https://lwn.net/Articles/974578/">initial atomic-write support</a> into XFS.]]></description>
-            <guid>https://lwn.net/Articles/1009548/</guid>
-            <pubDate>Thu, 20 Feb 2025 15:33:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Support for atomic block writes in 6.13</title>
-            <link>https://lwn.net/Articles/1009298/</link>
-            <description><![CDATA[Atomic block writes, which <a
-href="https://lwn.net/Kernel/Index/#Atomic_IO_operations">have been discussed here</a> a
-few times in the past, are block operations that either complete fully or
-do not occur at all, ensuring data consistency and preventing partial (or
-"torn") writes.  This means the disk will, at all times, contain either the
-complete new data from the atomic write operation or the complete old data
-from a previous write. It will never have a mix of both the old and the new
-data, even if a power failure occurs during an ongoing atomic write
-operation. Atomic writes have been of interest to many Linux users,
-particularly database developers, as this feature can provide significant
-performance improvements.]]></description>
-            <guid>https://lwn.net/Articles/1009298/</guid>
-            <pubDate>Thu, 20 Feb 2025 14:43:52 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
