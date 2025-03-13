@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Mar 2025 17:44:29 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Mar 2025 17:47:58 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Mar 2025 18:13:30 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Mar 2025 18:14:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Choi: announcing Casual Make</title>
+            <link>https://lwn.net/Articles/1014065/</link>
+            <description><![CDATA[<p>Charles Choi has <a
+href="http://yummymelon.com/devnull/announcing-casual-make.html">announced</a>
+the release of the <a
+href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual
+Make</a>: a menu-driven interface, implemented as part of the <a
+href="https://github.com/kickingvegas/casual?tab=readme-ov-file#casual">Casual</a>
+suite of tools, for <a
+href="https://www.emacswiki.org/emacs/MakefileMode">Makefile
+Mode</a> in GNU Emacs.</p>
+
+<blockquote class="bq">
+<p>Emacs supports makefile editing with make-mode which has a mix of
+useful and half-baked (though thankfully obsoleted in&#160;30.1)
+commands. It is from this substrate that I'm happy to announce the
+next Casual user interface: <a href="https://github.com/kickingvegas/casual/blob/main/docs/make-mode.org">Casual Make</a>.</p>
+
+<p>Of particular note to Casual Make is its attention to authoring and
+identifying automatic variables whose arcane syntax is
+un-memorizable. Want to know what $&gt; means? Just select it in the
+makefile and use the . binding in the Casual Make menu to identify
+what it does in the mini-buffer.</p>
+</blockquote>
+
+<p>Casual Make is part of <a
+href="https://github.com/kickingvegas/casual/releases/tag/2.4.0">Casual
+2.4.0</a>, released on March&#160;12 and is available from <a
+href="https://melpa.org/#/casual">MELPA</a>. The 2.4.0 update to
+Casual also includes documentation in the Info format for the first time.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1014065/</guid>
+            <pubDate>Thu, 13 Mar 2025 18:10:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Seven new stable kernels</title>
             <link>https://lwn.net/Articles/1014043/</link>
