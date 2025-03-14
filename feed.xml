@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Mar 2025 17:54:13 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Mar 2025 18:14:15 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Mar 2025 18:27:43 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Mar 2025 18:37:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Git 2.49.0 released</title>
+            <link>https://lwn.net/Articles/1014226/</link>
+            <description><![CDATA[<p><a
+href="https://lwn.net/ml/all/xmqqfrjfilc8.fsf%40gitster.g/">Version
+2.49.0</a> of the Git source-code management system has been
+released. This release comprises 460 non-merge commits since 2.48.0,
+with contributions from 89 people, including 24 new
+contributors. There is a long list of improvements and bug fixes; see
+the <a
+href="https://github.blog/open-source/git/highlights-from-git-2-49/">highlights
+blog</a> from GitHub's Taylor Blau for some of the more interesting
+features.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1014226/</guid>
+            <pubDate>Fri, 14 Mar 2025 18:27:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1014183/</link>
