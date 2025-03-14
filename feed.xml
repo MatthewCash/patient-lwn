@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Mar 2025 12:06:00 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Mar 2025 12:18:43 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Mar 2025 12:56:12 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Mar 2025 12:57:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1014183/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (iniparser, thunderbird, trafficserver, and xorg-x11-server), <b>Mageia</b> (opensc), <b>Oracle</b> (.NET 8.0, .NET 9.0, gcc, kernel, and libxml2), <b>Red Hat</b> (firefox, grub2, and krb5), <b>Slackware</b> (libxslt), <b>SUSE</b> (amazon-ssm-agent, bsdtar, build, ffmpeg-4, forgejo-runner, kernel, python, python3, python313, rubygem-rack-1_6, and tailscale), and <b>Ubuntu</b> (linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15).]]></description>
+            <guid>https://lwn.net/Articles/1014183/</guid>
+            <pubDate>Fri, 14 Mar 2025 12:56:10 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Choi: announcing Casual Make</title>
             <link>https://lwn.net/Articles/1014065/</link>
