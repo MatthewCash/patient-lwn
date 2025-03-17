@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Mar 2025 19:13:23 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Mar 2025 19:23:26 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Mar 2025 19:26:55 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Mar 2025 19:33:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>SystemRescue 12.00 released</title>
+            <link>https://lwn.net/Articles/1014444/</link>
+            <description><![CDATA[<p><a href="https://www.system-rescue.org/Changes-x86/">Version
+12.00</a> of the <a
+href="https://www.system-rescue.org/">SystemRescue</a> live Linux
+system has been released. SystemRescue is an Arch Linux based 
+bootable toolkit for repairing systems in the event of a
+crash. Notable changes in this release include an update to Linux
+6.12.19, support for bcachefs, and a number of updated disk
+utilities. See the <a
+href="https://www.system-rescue.org/Detailed-packages-list/">package
+list</a> for a complete list of software included in this release.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1014444/</guid>
+            <pubDate>Mon, 17 Mar 2025 19:26:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1014437/</link>
