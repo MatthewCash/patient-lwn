@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 16 Mar 2025 23:31:01 +0000</pubDate>
-        <lastBuildDate>Sun, 16 Mar 2025 23:48:11 +0000</lastBuildDate>
+        <pubDate>Sun, 16 Mar 2025 23:52:46 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Mar 2025 00:49:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -393,15 +393,6 @@ When the tail-call interpreter was announced, I was surprised and impressed by t
             <guid>https://lwn.net/Articles/1013561/</guid>
             <pubDate>Mon, 10 Mar 2025 13:32:52 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.14-rc6</title>
-            <link>https://lwn.net/Articles/1013486/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1013485/">6.14-rc6</a> for testing.
-"<q>This release remains on track, nothing special to report</q>".]]></description>
-            <guid>https://lwn.net/Articles/1013486/</guid>
-            <pubDate>Mon, 10 Mar 2025 00:11:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
