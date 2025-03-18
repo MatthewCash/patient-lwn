@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 18 Mar 2025 13:32:11 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Mar 2025 13:50:13 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 18 Mar 2025 14:11:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -430,14 +430,6 @@ releases.</p>]]></description>
             <guid>https://lwn.net/Articles/1013723/</guid>
             <pubDate>Tue, 11 Mar 2025 14:41:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1013717/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libaws, ruby2.7, and squid), <b>Fedora</b> (bigloo, emacs, neovim, python-jinja2, rizin, and tree-sitter), <b>Oracle</b> (kernel), <b>Red Hat</b> (grub2, kernel, kernel-rt, and libxml2), <b>SUSE</b> (iniparser, kernel, krb5, libxkbfile, and u-boot), and <b>Ubuntu</b> (gnuchess, openjdk-17-crac, openjdk-21-crac, and openvpn).]]></description>
-            <guid>https://lwn.net/Articles/1013717/</guid>
-            <pubDate>Tue, 11 Mar 2025 13:52:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
