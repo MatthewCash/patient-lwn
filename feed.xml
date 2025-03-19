@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Mar 2025 15:24:45 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Mar 2025 15:31:43 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Mar 2025 15:36:30 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 15:43:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PeerTube 7.1 released</title>
+            <link>https://lwn.net/Articles/1014734/</link>
+            <description><![CDATA[<p><a href="https://joinpeertube.org/news/release-7.1">Version 7.1</a>
+of <a href="https://joinpeertube.org/">PeerTube</a>, a tool for
+sharing videos online, has been released. Notable features in this
+release include improved support for the <a
+href="https://podcasting2.org/">Podcast 2.0</a> standard, better
+playback stability, and a new view protocol enabled by default to
+allow PeerTube to handle more simultaneous viewers. See the <a
+href="https://github.com/Chocobozzz/PeerTube/releases/tag/v7.1.0">release
+notes</a> for more details.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1014734/</guid>
+            <pubDate>Wed, 19 Mar 2025 15:32:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Supply Chain Attacks on Linux distributions (Fenrisk)</title>
             <link>https://lwn.net/Articles/1014741/</link>
