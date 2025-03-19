@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Mar 2025 17:45:50 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Mar 2025 17:48:13 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Mar 2025 18:14:05 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 18:15:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME 48 released</title>
+            <link>https://lwn.net/Articles/1014799/</link>
+            <description><![CDATA[<p><a href="https://release.gnome.org/48/">GNOME 48</a> ("Bengaluru")
+has been released. As usual, this release includes a number of new
+features and enhancements including support for shortcuts in the <a href="https://orca.gnome.org/">Orca</a>
+screen reader on Wayland, new fonts, addition of image editing to
+<a href="https://apps.gnome.org/Loupe/">Image&#160;Viewer</a>, and more.</p>
+
+<blockquote class="bq">
+GNOME 48 includes a number of notable performance improvements. The
+most significant of these is the introduction of dynamic triple
+buffering. This change has undergone significant review and testing
+over a period of five years and improves the perceived smoothness of
+changes on screen, with fewer skipped frames and more fluid
+animations. This has been achieved by enhancing the concurrency
+capabilities of Mutter, the GNOME display manager, and is particularly
+effective at handling sudden bursts of activity.
+</blockquote>
+
+<p>The GNOME&#160;48 release also adds new applications to the <a
+href="https://circle.gnome.org/">GNOME&#160;Circle</a> collection,
+such as <a href="https://apps.gnome.org/DrumMachine/">Drum&#160;Machine</a>
+and the <a href="https://apps.gnome.org/Iotas/">Iotas</a> note-taking
+application. See "<a
+href="https://release.gnome.org/48/developers/index.html">What's new
+for developers</a>" a rundown of improvements for developers in
+GNOME&#160;48.</p>]]></description>
+            <guid>https://lwn.net/Articles/1014799/</guid>
+            <pubDate>Wed, 19 Mar 2025 18:14:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>PeerTube 7.1 released</title>
             <link>https://lwn.net/Articles/1014734/</link>
