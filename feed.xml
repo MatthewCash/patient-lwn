@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Mar 2025 14:08:32 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Mar 2025 14:11:26 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Mar 2025 14:24:03 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 14:33:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -371,25 +371,6 @@ problematic log directory permissions applied in Below's code.
             <guid>https://lwn.net/Articles/1013842/</guid>
             <pubDate>Wed, 12 Mar 2025 14:47:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The LLVM project stabilizes its Fortran compiler</title>
-            <link>https://lwn.net/Articles/1013844/</link>
-            <description><![CDATA[<p>
-The LLVM project's Fortran compiler, which has for many years gone by the name "flang-new", will now simply be "flang", starting from LLVM's 20.1.0 release on March 4. The
-<a href="https://blog.llvm.org/posts/2025-03-11-flang-new/">
-announcement</a>, which includes details about the history of flang, comes after a long period of development and discussion. The community has considered renaming flang several times before now, but has always held off out of a feeling that the compiler was not yet ready. Now, the members of the project believe that flang has become stable and complete enough to earn its name.
-</p>
-
-<blockquote class="bq">
-We are almost 10 years from the first announcement of what would
-become LLVM Flang. In the LLVM monorepo alone there have been close
-to 10,000 commits from around 400 different contributors. Undoubtedly
-more in Classic Flang before that.  
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1013844/</guid>
-            <pubDate>Wed, 12 Mar 2025 14:15:42 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
