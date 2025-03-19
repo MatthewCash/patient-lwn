@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Mar 2025 14:48:47 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Mar 2025 14:50:19 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Mar 2025 15:09:08 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Mar 2025 15:11:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -371,28 +371,6 @@ escape the root); while on Windows systems this will open "b" (even if
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1013876/</guid>
             <pubDate>Wed, 12 Mar 2025 17:13:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Below: local privilege escalation (SUSE security team blog)</title>
-            <link>https://lwn.net/Articles/1013842/</link>
-            <description><![CDATA[<p>The SUSE Security Team blog has a <a href="https://security.opensuse.org/2025/03/12/below-world-writable-log-dir.html">post</a> with a
-detailed analysis of a vulnerability (<a
-href="https://www.cve.org/CVERecord?id=CVE-2025-27591">CVE-2025-27591</a>)
-in the <a
-href="https://github.com/facebookincubator/below?tab=readme-ov-file"><tt>below</tt></a>
-tool for recording and displaying system data.</p>
-
-<blockquote class="bq">
-In January 2025, Below was packaged and submitted to openSUSE
-Tumbleweed. Below runs as a systemd service with root privileges. The
-SUSE security team monitors additions and changes to systemd service
-unit files in openSUSE Tumbleweed, and through this we noticed
-problematic log directory permissions applied in Below's code.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1013842/</guid>
-            <pubDate>Wed, 12 Mar 2025 14:47:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
