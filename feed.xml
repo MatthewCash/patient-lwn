@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 20 Mar 2025 14:15:56 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Mar 2025 14:34:08 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 20 Mar 2025 14:50:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -382,14 +382,6 @@ href="https://lwn.net/Articles/1014050/">5.4.291</a> stable kernels.  They all c
 relatively large number of important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1014043/</guid>
             <pubDate>Thu, 13 Mar 2025 14:53:51 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1014042/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (ffmpeg, qt6-qtwebengine, tigervnc, and xorg-x11-server-Xwayland), <b>Red Hat</b> (fence-agents and libxml2), <b>SUSE</b> (amazon-ssm-agent, ark, chromium, fake-gcs-server, gerbera, google-guest-agent, google-osconfig-agent, grafana, kernel, libtinyxml2-10, podman, python311, python312, restic, ruby3.4-rubygem-rack, and thunderbird), and <b>Ubuntu</b> (jinja2, linux-azure, linux-azure-4.15, linux-lts-xenial, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, netatalk, python3.5, python3.8, rar, unrar-nonfree, and xorg-server, xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1014042/</guid>
-            <pubDate>Thu, 13 Mar 2025 14:47:09 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
