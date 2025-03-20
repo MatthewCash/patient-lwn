@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Mar 2025 14:15:56 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Mar 2025 14:50:33 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Mar 2025 14:54:40 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Mar 2025 15:12:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,22 +367,6 @@ Casual also includes documentation in the Info format for the first time.</p>
             <guid>https://lwn.net/Articles/1014065/</guid>
             <pubDate>Thu, 13 Mar 2025 18:10:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable kernels</title>
-            <link>https://lwn.net/Articles/1014043/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1014044/">6.13.7</a>, <a
-href="https://lwn.net/Articles/1014045/">6.12.19</a>, <a
-href="https://lwn.net/Articles/1014046/">6.6.83</a>, <a
-href="https://lwn.net/Articles/1014047/">6.1.131</a>, <a
-href="https://lwn.net/Articles/1014048/">5.15.179</a>, <a
-href="https://lwn.net/Articles/1014049/">5.10.235</a>, and <a
-href="https://lwn.net/Articles/1014050/">5.4.291</a> stable kernels.  They all contain a
-relatively large number of important fixes throughout the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/1014043/</guid>
-            <pubDate>Thu, 13 Mar 2025 14:53:51 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
