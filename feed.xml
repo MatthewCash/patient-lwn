@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Mar 2025 00:14:29 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Mar 2025 00:47:03 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Mar 2025 01:06:20 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Mar 2025 02:18:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -383,147 +383,6 @@ relatively large number of important fixes throughout the kernel tree.]]></descr
             <guid>https://lwn.net/Articles/1014042/</guid>
             <pubDate>Thu, 13 Mar 2025 14:47:09 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 6, 2025</title>
-            <link>https://lwn.net/Articles/1012147/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1012147/">Front</a>: Firefox forks; Bend and Vine; FineIBT; Guard pages; Fedora's Flatpak packaging; Zotero.
-            <li> <a href="https://lwn.net/Articles/1012149/">Briefs</a>: LFS 12.3; FerretDB 2.0; Firefox; Fish 4.0; Incus 6.10; Thunderbird 136.0; Xen 4.20; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1012150/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1012147/</guid>
-            <pubDate>Thu, 06 Mar 2025 00:15:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Two new graph-based functional programming languages</title>
-            <link>https://lwn.net/Articles/1011803/</link>
-            <description><![CDATA[<p>
-Functional programming languages have a long association with graphs. In the
-1990s, it was even thought that parallel graph-reduction
-architectures could make functional programming languages much faster than their
-imperative counterparts. Alas, that prediction mostly failed to materialize.
-Even though graphs are still used as a theoretical formalism in order to define
-and optimize functional languages (such as Haskell's
-<a href="https://www.microsoft.com/en-us/research/publication/implementing-lazy-functional-languages-on-stock-hardware-the-spineless-tagless-g-machine/">
-spineless tagless graph-machine</a>), they are still mostly compiled down to the same old
-non-parallel assembly code that every other language uses. Now, two
-projects —
-<a href="https://higherorderco.com/">
-Bend</a> and
-<a href="https://vine.dev/">
-Vine</a> — have sprung up attempting to change that, and prove that
-parallel graph reduction can be a useful technique for real programs.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1011803/</guid>
-            <pubDate>Wed, 05 Mar 2025 17:44:08 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at Firefox forks</title>
-            <link>https://lwn.net/Articles/1012453/</link>
-            <description><![CDATA[<p>Mozilla's actions have been rubbing many <a
-href="https://en.wikipedia.org/wiki/Firefox">Firefox</a> fans the
-wrong way as of late, and inspiring them to look for alternatives.
-There are many choices for users who are looking for a browser that
-isn't part of the Chrome monoculture but is full-featured and suitable
-for day-to-day use. For those who are willing to stay in the Firefox
-"family" there are a number of good options that have taken vastly
-different approaches. This includes <a
-href="https://www.gnu.org/software/gnuzilla/">GNU IceCat</a>, <a
-href="https://floorp.app/en">Floorp</a>, <a
-href="https://librewolf.net/">LibreWolf</a>, and <a
-href="https://zen-browser.app/">Zen</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1012453/</guid>
-            <pubDate>Tue, 04 Mar 2025 19:38:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Guard pages for file-backed memory</title>
-            <link>https://lwn.net/Articles/1011366/</link>
-            <description><![CDATA[One of the many new features packed into the 6.13 kernel release was guard
-pages, a hardening mechanism that makes it possible to inject zero-access
-pages into a process's address space in an efficient way.  That feature
-only supports anonymous (user-space data) pages, though.  To make guard
-pages more widely useful, Lorenzo Stoakes has put together <a
-href="https://lwn.net/ml/all/cover.1739469950.git.lorenzo.stoakes@oracle.com">a patch
-set</a> enabling the feature for file-backed pages as well; in the process,
-he examined and resolved a long list of potential problems that extending
-the feature could encounter.  One potential problem was not on his list,
-though.]]></description>
-            <guid>https://lwn.net/Articles/1011366/</guid>
-            <pubDate>Mon, 03 Mar 2025 15:00:22 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora discusses Flatpak priorities</title>
-            <link>https://lwn.net/Articles/1011511/</link>
-            <description><![CDATA[<p>Differences of opinion, as well as outright disputes, between
-upstream open-source projects and Linux distribution packagers over
-packaging practices are nothing new. It is rarer, though, for those
-disputes to boil over to threats of legal action&mdash;but a
-disagreement between the <a href="https://obsproject.com/">Open
-Broadcaster Software (OBS) Studio</a> project and Fedora packagers
-reached that point in mid-February. After escalation to a higher
-authority things have been worked out to the satisfaction of the OBS
-project, but some lingering questions remain. How Fedora should
-prioritize <a href="https://flatpak.org/">Flatpak</a> repositories,
-how to handle conflicts between upstreams and Fedora packagers, and
-the mechanics of removing or retiring Flatpaks all remain open
-questions.</p>]]></description>
-            <guid>https://lwn.net/Articles/1011511/</guid>
-            <pubDate>Fri, 28 Feb 2025 19:09:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at the Zotero reference management tool</title>
-            <link>https://lwn.net/Articles/1007270/</link>
-            <description><![CDATA[<p><a href="https://www.zotero.org/blog/zotero-7/">Zotero</a> is an
-open-source reference management tool designed for collecting,
-organizing, and citing research materials. It is particularly useful
-for those writing research papers, theses, or books that require a
-bibliography in standard formats like <a
-href="https://apastyle.apa.org/style-grammar-guidelines/paper-format">APA
-Style</a>, <a
-href="https://www.chicagomanualofstyle.org/tools_citationguide.html">Chicago
-Style</a>, or <a href="https://style.mla.org/mla-format/">MLA
-Format</a>. Zotero stores bibliographic metadata, annotations, and user
-data and integrates with word processors like LibreOffice, Microsoft
-Word, and Google Docs to produce in-text citations and
-bibliographies. The core features of Zotero include metadata extraction,
-tagging, full-text indexing, and cloud synchronization for
-multi-device access, and Zotero has a <a
-href="https://www.zotero.org/support/plugins">plugin system</a> to
-allow anyone to expand its capabilities. The most recent major
-release, <a
-href="https://www.zotero.org/blog/zotero-7/">Zotero&#160;7</a>, added
-support for reading EPUBs, brought user-interface improvements
-including a dark mode, performance improvements, and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/1007270/</guid>
-            <pubDate>Thu, 27 Feb 2025 17:39:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A hole in FineIBT protection</title>
-            <link>https://lwn.net/Articles/1011680/</link>
-            <description><![CDATA[Intel's <a
-href="https://en.wikipedia.org/wiki/Indirect_branch_tracking">indirect
-branch tracking (IBT)</a> is a hardware-implemented control-flow-integrity
-mechanism that makes it harder for an attacker to gain control of the
-system by way of a corrupted indirect branch.  FineIBT is a software
-extension to IBT that is meant to improve its protection.  Recently,
-though, Jennifer Miller <a
-href="https://lwn.net/ml/all/Z60NwR4w/28Z7XUa@ubun">reported</a> a novel way to bypass
-FineIBT by taking advantage of how the kernel's system-call entry point is
-constructed.  In response, Peter Zijlstra is working on <a
-href="https://lwn.net/ml/all/20250224123703.843199044@infradead.org">some FineIBT</a>
-enhancements to close that hole and make IBT more secure in general.]]></description>
-            <guid>https://lwn.net/Articles/1011680/</guid>
-            <pubDate>Thu, 27 Feb 2025 15:44:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
