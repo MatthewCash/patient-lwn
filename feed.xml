@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 24 Mar 2025 17:59:01 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Mar 2025 19:23:48 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 24 Mar 2025 19:33:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,24 +388,6 @@ release of GIMP 3.0 in November last year.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1014465/</guid>
             <pubDate>Mon, 17 Mar 2025 22:34:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>SystemRescue 12.00 released</title>
-            <link>https://lwn.net/Articles/1014444/</link>
-            <description><![CDATA[<p><a href="https://www.system-rescue.org/Changes-x86/">Version
-12.00</a> of the <a
-href="https://www.system-rescue.org/">SystemRescue</a> live Linux
-system has been released. SystemRescue is an Arch Linux based 
-bootable toolkit for repairing systems in the event of a
-crash. Notable changes in this release include an update to Linux
-6.12.19, support for bcachefs, and a number of updated disk
-utilities. See the <a
-href="https://www.system-rescue.org/Detailed-packages-list/">package
-list</a> for a complete list of software included in this release.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1014444/</guid>
-            <pubDate>Mon, 17 Mar 2025 19:26:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
