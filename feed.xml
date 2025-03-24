@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 24 Mar 2025 20:05:15 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Mar 2025 22:32:33 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 24 Mar 2025 22:48:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,39 +356,6 @@ distributions.
             <guid>https://lwn.net/Articles/1014543/</guid>
             <pubDate>Tue, 18 Mar 2025 13:32:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GIMP 3.0 released</title>
-            <link>https://lwn.net/Articles/1014465/</link>
-            <description><![CDATA[<p>The long-awaited <a
-href="https://www.gimp.org/news/2025/03/16/gimp-3-0-released/">GIMP
-3.0</a> release is now available. Major changes in 3.0 include <a
-href="https://www.gimp.org/release-notes/gimp-3.0.html#non-destructive-layer-effects">non&#8209;destructive
-editing</a> for most commonly&#8209;used filters, improved text creation,
-better <a
-href="https://www.gimp.org/release-notes/gimp-3.0.html#color-space-management">color&#160;space management</a>, and an update to GTK&#160;3.</p>
-
-<blockquote class="bq">
-This is the end result of seven years of hard work by volunteer
-developers, designers, artists, and community members (for reference,
-GIMP 2.10 was <a href="https://www.gimp.org/news/2018/04/27/gimp-2-10-0-released/">first published in 2018</a> and the initial development
-version of GIMP 3.0 was <a
-href="https://www.gimp.org/news/2020/11/06/gimp-2-99-2-released/">released
-in 2020</a>).
-</blockquote>
-
-<p>See the <a
-href="https://www.gimp.org/release-notes/gimp-3.0.html">release
-notes</a> and <a
-href="https://gitlab.gnome.org/GNOME/gimp/-/blob/master/NEWS">NEWS</a>
-file for more details about this release. LWN <a
-href="https://lwn.net/Articles/998793/">covered</a> a near-final
-release of GIMP 3.0 in November last year.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1014465/</guid>
-            <pubDate>Mon, 17 Mar 2025 22:34:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
