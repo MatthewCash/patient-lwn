@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Mar 2025 09:38:51 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Mar 2025 11:10:29 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Mar 2025 11:20:40 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Mar 2025 11:26:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1015377/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ruby-rack), <b>Fedora</b> (chromium, golang-github-openprinting-ipp-usb, OpenIPMI, and python-jinja2), <b>Mageia</b> (kernel, kernel-linus, and wpa_supplicant, hostapd), <b>Red Hat</b> (fence-agents, kernel, kernel-rt, libxml2, libxslt, and pcs), <b>SUSE</b> (cadvisor, docker, freetype2, nodejs-electron, php8, rsync, u-boot, warewulf4, webkit2gtk3, and zvbi), and <b>Ubuntu</b> (elfutils, python3.5, python3.8, ruby-rack, smartdns, and zvbi).]]></description>
+            <guid>https://lwn.net/Articles/1015377/</guid>
+            <pubDate>Tue, 25 Mar 2025 11:20:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The 6.14 kernel is out</title>
             <link>https://lwn.net/Articles/1015308/</link>
