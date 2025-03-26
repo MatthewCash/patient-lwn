@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Mar 2025 12:57:16 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Mar 2025 13:01:29 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Mar 2025 13:11:49 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Mar 2025 13:30:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,14 +392,6 @@ distributions.
             <guid>https://lwn.net/Articles/1014741/</guid>
             <pubDate>Wed, 19 Mar 2025 14:48:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1014722/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (tzdata), <b>Fedora</b> (expat and tigervnc), <b>Red Hat</b> (kernel, kernel-rt, thunderbird, and webkit2gtk3), <b>SUSE</b> (dcmtk), and <b>Ubuntu</b> (restrictedpython and uriparser).]]></description>
-            <guid>https://lwn.net/Articles/1014722/</guid>
-            <pubDate>Wed, 19 Mar 2025 13:26:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
