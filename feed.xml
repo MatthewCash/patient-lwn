@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Mar 2025 14:33:07 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Mar 2025 14:34:03 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Mar 2025 14:46:10 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Mar 2025 14:50:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,29 +369,6 @@ notes</a> for more details.</p>
             <guid>https://lwn.net/Articles/1014734/</guid>
             <pubDate>Wed, 19 Mar 2025 15:32:13 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Supply Chain Attacks on Linux distributions (Fenrisk)</title>
-            <link>https://lwn.net/Articles/1014741/</link>
-            <description><![CDATA[A security company called Fenrisk has posted <a
-href="https://fenrisk.com/supply-chain-attacks">an overview</a> of a pair
-of claimed successful supply-chain attacks on the Fedora and openSUSE
-distributions.
-<p>
-<blockquote class="bq">
-	We successfully identified vulnerabilities in the Pagure, the Git
-	forge used by Fedora to store their package definitions. We also
-	compromised Open Build Service, the all-in-one toolchain used and
-	developed by the openSUSE project for compilation and packaging.
-<p>
-	Their exploitation by malicious actors would have led to the
-	compromise of all the packages of the distributions Fedora and
-	openSUSE, as well as their downstream distributions, impacting
-	millions of Linux servers and desktops.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1014741/</guid>
-            <pubDate>Wed, 19 Mar 2025 14:48:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
