@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Mar 2025 15:46:04 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Mar 2025 17:10:44 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Mar 2025 17:11:47 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Mar 2025 17:30:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Neovim 0.11 released</title>
+            <link>https://lwn.net/Articles/1015496/</link>
+            <description><![CDATA[<p><a
+href="https://gpanders.com/blog/whats-new-in-neovim-0-11/">Version
+0.11</a> of the Neovim text editor has been released. Notable changes
+in this release include simpler Language Server Protocol (LSP) client
+setup, improved tree-sitter performance, better emoji support, and
+enhancements for Neovim's embedded terminal emulator. See the <a
+href="https://neovim.io/doc/user/news-0.11.html">release notes</a> for
+a full list of changes.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1015496/</guid>
+            <pubDate>Wed, 26 Mar 2025 17:11:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Debian bookworm live images now fully reproducible</title>
             <link>https://lwn.net/Articles/1015402/</link>
