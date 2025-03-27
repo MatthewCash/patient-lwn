@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Mar 2025 15:21:23 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Mar 2025 15:49:13 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Mar 2025 15:56:00 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Mar 2025 16:13:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A burst of progress on the GCC Rust front end</title>
+            <link>https://lwn.net/Articles/1015627/</link>
+            <description><![CDATA[Arthur Cohen has posted a massive series of patches in four parts
+(<a
+href="https://lwn.net/ml/all/20250317153425.727918-2-arthur.cohen@embecosm.com">part&#160;1</a>,
+<a href="https://lwn.net/ml/all/20250319145124.84511-1-arthur.cohen@embecosm.com">part&#160;2</a>,
+<a
+href="https://lwn.net/ml/all/20250321123226.184882-1-arthur.cohen@embecosm.com">part&#160;3</a>,
+<a
+href="https://lwn.net/ml/all/20250324125817.929210-1-arthur.cohen@embecosm.com">part&#160;4</a>)
+upstreaming all of the recent work on the GCC Rust front end.  These
+changes include the Polonius borrow checker, the foreign-function
+interface, inline assembly support, <tt>if-let</tt> statement handling,
+multiple built-in derive macros, <tt>for</tt> loops, and more.]]></description>
+            <guid>https://lwn.net/Articles/1015627/</guid>
+            <pubDate>Thu, 27 Mar 2025 15:56:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A new home for kernel.org</title>
             <link>https://lwn.net/Articles/1015555/</link>
