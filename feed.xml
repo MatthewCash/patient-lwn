@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Mar 2025 12:53:07 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Mar 2025 13:01:33 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Mar 2025 13:20:16 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Mar 2025 13:29:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A new home for kernel.org</title>
+            <link>https://lwn.net/Articles/1015555/</link>
+            <description><![CDATA[Akamai has sent out <a
+href="https://www.prnewswire.com/news-releases/akamai-delivers-infrastructure-support-to-ensure-uninterrupted-linux-kernel-development-302412685.html">a
+press release</a> saying that it is now hosting the kernel.org
+repositories.
+<p>
+<blockquote class="bq">
+	The Linux kernel is massive — approximately 28 million lines of
+	code. Since 2005, more than 13,500 developers from more than 1,300
+	different companies have contributed to the Linux
+	kernel. Additionally, there are many kernel versions, and
+	developers update the code constantly, distributing that code to
+	developers who are working on various distributions of
+	Linux. Akamai now delivers the infrastructure that these developers
+	and their users rely on, at no cost, supporting the Git
+	environments developers use to access kernel sources quickly,
+	regardless of where they're based.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1015555/</guid>
+            <pubDate>Thu, 27 Mar 2025 13:01:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1015589/</link>
+            <description><![CDATA[Security updates have been issued by <b>Arch Linux</b> (exim), <b>Debian</b> (exim4, ghostscript, and libcap2), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (apache-commons-vfs2, argocd-cli, azure-cli-core, buildah, chromedriver, docker-stable, ed25519-java, kernel, kubernetes1.29-apiserver, kubernetes1.30-apiserver, kubernetes1.32-apiserver, libmbedcrypto7, microcode_ctl, php7, podman, proftpd, tomcat10, and webkit2gtk3), and <b>Ubuntu</b> (containerd, exim4, mariadb, opensaml, and org-mode).]]></description>
+            <guid>https://lwn.net/Articles/1015589/</guid>
+            <pubDate>Thu, 27 Mar 2025 13:03:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for March 20, 2025</title>
             <link>https://lwn.net/Articles/1013956/</link>
