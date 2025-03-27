@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Mar 2025 20:34:28 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Mar 2025 20:48:19 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Mar 2025 21:03:01 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Mar 2025 21:11:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Bypassing Ubuntu&apos;s user-namespace restrictions</title>
+            <link>https://lwn.net/Articles/1015649/</link>
+            <description><![CDATA[<p>Ubuntu 23.10 and 24.04 LTS introduced a feature using AppArmor to
+restrict access to user namespaces. Qualys has <a
+href="https://www.qualys.com/2025/three-bypasses-of-Ubuntu-unprivileged-user-namespace-restrictions.txt">reported</a>
+three ways to bypass AppArmor's restrictions and enable local users to
+gain full administrative capabilities within a user namespace. Ubuntu
+has followed up with a <a
+href="https://discourse.ubuntu.com/t/understanding-apparmor-user-namespace-restriction/58007">post</a>
+that explains the namespace-restriction feature in detail, and says
+these bypasses do not constitute security vulnerabilities.</p>
+
+<blockquote class="bq">
+While a superficial observation of the application of user namespaces may indicate privileged (root level) access, this is a fictitious state that is operating as expected, with access control still mapped to the real (root namespace) user's permissions. As such, these bypasses do not enable more access than what the default Linux kernel
+unprivileged user namespace feature allows in most Linux
+distributions. They do, however, demonstrate limitations that we are
+looking to address in order to strengthen existing protections against
+as-of-yet-unknown Linux kernel vulnerabilities.
+</blockquote>
+
+<p>LWN <a
+href="https://lwn.net/Articles/971143/">covered</a> Ubuntu 24.04 LTS last May.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1015649/</guid>
+            <pubDate>Thu, 27 Mar 2025 20:51:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Rust adopting Ferrocene Language Specification</title>
             <link>https://lwn.net/Articles/1015636/</link>
