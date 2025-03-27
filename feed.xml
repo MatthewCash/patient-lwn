@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 27 Mar 2025 14:32:52 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Mar 2025 14:34:08 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 27 Mar 2025 14:50:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,14 +392,6 @@ to help users get started making their own custom images.</p>
             <guid>https://lwn.net/Articles/1015055/</guid>
             <pubDate>Fri, 21 Mar 2025 13:13:26 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1014938/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (php7.4, python-django, and python3.9), <b>Fedora</b> (bluez, iwd, libell, and radare2), <b>Mageia</b> (chromium-browser-stable, mosquitto, tomcat, tomcat packages, and vim), <b>Oracle</b> (firefox, grub2, python3, thunderbird, and webkit2gtk3), <b>Red Hat</b> (fence-agents, php:7.4, and python-jinja2), <b>SUSE</b> (assimp-devel, crane, ffmpeg-4, freetype2, helm, kernel, kured, python-Django, python-Jinja2, python311-Django4, and tomcat), and <b>Ubuntu</b> (alpine, djoser, libxslt, postgresql-9.5, and valkey).]]></description>
-            <guid>https://lwn.net/Articles/1014938/</guid>
-            <pubDate>Thu, 20 Mar 2025 14:15:56 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
