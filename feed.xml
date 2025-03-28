@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Mar 2025 19:18:57 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Mar 2025 20:12:37 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Mar 2025 20:29:44 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Mar 2025 20:31:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Edmundson: a modern Plasma Login Manager</title>
+            <link>https://lwn.net/Articles/1015763/</link>
+            <description><![CDATA[<p>KDE contributor David Edmundson has <a
+href="https://blog.davidedmundson.co.uk/blog/a-roadmap-for-a-modern-plasma-login-manager/">published</a>
+a blog post about improving KDE&#160;Plasma's login experience by
+replacing <a
+href="https://github.com/sddm/sddm?tab=readme-ov-file#introduction">SDDM</a>
+with a new Plasma Login Manager.</p>
+
+<blockquote class="bq">
+<p>It's worth stressing nothing is official or set in stone yet,
+whilst it has come up in previous Plasma online meetings and in the
+2023 Akademy. I'm posting this whilst starting a more official
+discussion on the plasma-devel mailing list.</p>
+
+<p>Oliver Beard and I have made a new mutli-process greeter, that uses
+the same startup mechanism as the desktop session. It doesn't have all
+the features that we propose at the start of the blog, but an
+architecture where features and services can be slowly and safely
+added.</p>
+</blockquote>
+
+<p>That discussion is <a
+href="https://mail.kde.org/pipermail/plasma-devel/2025-March/123667.HTML">here</a>
+for those who would like to follow along. The prototype is currently
+in two repositories: <a
+href="https://invent.kde.org/davidedmundson/plasma-login#plasma-login">plasma-login</a>
+for the frontend work, and <a
+href="https://invent.kde.org/davidedmundson/plasma-login-manager#plasma-login">plasma-login-manager</a>,
+which is a fork of SDDM.</p>]]></description>
+            <guid>https://lwn.net/Articles/1015763/</guid>
+            <pubDate>Fri, 28 Mar 2025 20:17:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1015718/</link>
