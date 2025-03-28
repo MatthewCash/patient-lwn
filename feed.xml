@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Mar 2025 12:58:15 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Mar 2025 13:00:42 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Mar 2025 13:10:39 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Mar 2025 13:25:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1015718/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (mercurial and opensaml), <b>Fedora</b> (augeas, mingw-libxslt, and nodejs-nodemon), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (grafana, kernel, kernel-rt, opentelemetry-collector, and podman), <b>SUSE</b> (apache-commons-vfs2, python3, and python36), and <b>Ubuntu</b> (ghostscript, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-gkeop,
+ linux-ibm, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15,
+ linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-azure, linux-gcp, linux-hwe-6.11, linux-oracle,
+ linux-realtime, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
+ linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
+ linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-aws-5.15, linux-kvm, linux-azure, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oem-6.8, linux-realtime, smarty, and snakeyaml).]]></description>
+            <guid>https://lwn.net/Articles/1015718/</guid>
+            <pubDate>Fri, 28 Mar 2025 13:10:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Bypassing Ubuntu&apos;s user-namespace restrictions</title>
             <link>https://lwn.net/Articles/1015649/</link>
@@ -450,14 +463,6 @@ to help users get started making their own custom images.</p>
             <guid>https://lwn.net/Articles/1015059/</guid>
             <pubDate>Fri, 21 Mar 2025 14:27:33 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1015055/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (fluent-bit, openssh, php, and webkitgtk), <b>Mageia</b> (freerdp), <b>Oracle</b> (libreoffice and webkit2gtk3), <b>Red Hat</b> (kernel-rt), <b>Slackware</b> (libarchive), <b>SUSE</b> (apptainer, gitea-tea, libxml2, tomcat, webkit2gtk3, and wpa_supplicant), and <b>Ubuntu</b> (libxslt and pam-pkcs11).]]></description>
-            <guid>https://lwn.net/Articles/1015055/</guid>
-            <pubDate>Fri, 21 Mar 2025 13:13:26 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
