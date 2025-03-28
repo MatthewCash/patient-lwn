@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Mar 2025 16:38:12 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Mar 2025 16:52:56 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Mar 2025 16:54:11 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Mar 2025 17:10:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,24 +398,6 @@ series should upgrade.</p>
             <guid>https://lwn.net/Articles/1015183/</guid>
             <pubDate>Sat, 22 Mar 2025 20:29:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Julien Malka proposes method for detecting XZ-like backdoors</title>
-            <link>https://lwn.net/Articles/1015095/</link>
-            <description><![CDATA[<p>
-Julien Malka has
-<a href="https://luj.fr/blog/how-nixos-could-have-detected-xz.html">
-called</a> for the NixOS project to use build-reproducibility to detect when a program has a maintainer-generated tarball that results in a different artifact than building from source. There are good reasons for projects to release maintainer-generated tarballs, but since the materials included in them are usually documentation, extra build scripts, and so on, it makes sense to check that they don't influence the final build output. While this would not have stopped 
-<a href="https://lwn.net/Articles/967866/">
-last year's XZ backdoor</a>, it would have made it harder to hide.
-</p>
-
-<blockquote class="bq">
-People are often convinced that OSS is more trustworthy than closed-source software because the code can be audited by practitioners and security professionals in order to detect vulnerabilities or backdoors. In this instance, this procedure has been made difficult by the fact that part of the code activating the backdoor was not included in the sources available within the git repository but was instead present in the maintainer-provided tarball. While this was used to hide the backdoor out of sight of most investigating eyes, this is also an opportunity for us to improve our software supply chain security processes.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1015095/</guid>
-            <pubDate>Fri, 21 Mar 2025 16:54:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
