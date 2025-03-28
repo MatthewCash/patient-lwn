@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 28 Mar 2025 14:01:41 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Mar 2025 14:11:22 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 28 Mar 2025 14:32:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,53 +416,6 @@ People are often convinced that OSS is more trustworthy than closed-source softw
             <guid>https://lwn.net/Articles/1015095/</guid>
             <pubDate>Fri, 21 Mar 2025 16:54:21 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>An Asahi Linux 6.14 progress report</title>
-            <link>https://lwn.net/Articles/1015058/</link>
-            <description><![CDATA[The Asahi Linux project, working to support Linux on Apple hardware, has
-published <a href="https://asahilinux.org/2025/03/progress-report-6-14/">a
-progress report</a> to coincide with the 6.14 kernel release.
-<p>
-<blockquote class="bq">
-	Now that Rust for Linux abstractions are starting to be merged at a
-	healthy pace, we are faced with an emerging challenge. It is rare
-	for any kernel patch to survive the mailing list without at least a
-	couple of non-trivial changes, and Rust abstractions are no
-	exception. Every time an abstraction used by our driver is merged,
-	we must drop our downstream version and rebase the driver atop the
-	version accepted upstream. This is grueling, menial, and
-	unpleasant work, and Janne has our deepest gratitude for
-	volunteering his time to get through it.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1015058/</guid>
-            <pubDate>Fri, 21 Mar 2025 14:11:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Introducing rpi-image-gen for customized Raspberry Pi images</title>
-            <link>https://lwn.net/Articles/1015059/</link>
-            <description><![CDATA[<p><a href="https://www.raspberrypi.com/">Raspberry Pi</a> has
-announced <a
-href="https://github.com/raspberrypi/rpi-image-gen?tab=readme-ov-file#rpi-image-gen">rpi-image-gen</a>,
-a tool to create custom software images for its devices.</p>
-
-<blockquote class="bq">
-rpi-image-gen is a Bash orientated scripting engine capable of
-producing software images with different on-disk partition layouts,
-file systems and profiles using collections of metadata and a defined
-flow of execution. It provides the means to create a highly customised
-software image for your Raspberry Pi device. rpi-image-gen is human
-readable, auditable and easy to use.
-</blockquote>
-
-<p>The Git repository for rpi-image-gen has a number of <a
-href="https://github.com/raspberrypi/rpi-image-gen/tree/master/examples">examples</a>
-to help users get started making their own custom images.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1015059/</guid>
-            <pubDate>Fri, 21 Mar 2025 14:27:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
