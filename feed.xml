@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 29 Mar 2025 19:48:19 +0000</pubDate>
-        <lastBuildDate>Sat, 29 Mar 2025 20:28:44 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 29 Mar 2025 20:37:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,20 +427,6 @@ for details on what's new in this release.]]></description>
             <guid>https://lwn.net/Articles/1015286/</guid>
             <pubDate>Mon, 24 Mar 2025 10:59:42 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Three Saturday stable kernels</title>
-            <link>https://lwn.net/Articles/1015183/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1015184/">6.13.8</a>, <a
-href="https://lwn.net/Articles/1015185/">6.12.20</a>, and <a
-href="https://lwn.net/Articles/1015186/">6.6.84</a> stable kernels. Each contains a
-number of important fixes throughout the kernel tree; users of those
-series should upgrade.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1015183/</guid>
-            <pubDate>Sat, 22 Mar 2025 20:29:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
