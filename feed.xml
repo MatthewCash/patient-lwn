@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 29 Mar 2025 13:37:56 +0000</pubDate>
-        <lastBuildDate>Sat, 29 Mar 2025 14:48:10 +0000</lastBuildDate>
+        <pubDate>Sat, 29 Mar 2025 14:57:12 +0000</pubDate>
+        <lastBuildDate>Sat, 29 Mar 2025 15:11:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four stable kernel updates</title>
+            <link>https://lwn.net/Articles/1015834/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman announced the release of four stable kernels on March&#160;28: <a href="https://lwn.net/Articles/1015835/">6.13.9</a>, <a href="https://lwn.net/Articles/1015836/">6.12.21</a>, <a href="https://lwn.net/Articles/1015837/">6.1.132</a>, and <a href="https://lwn.net/Articles/1015838/">6.6.85</a>. Users are advised to upgrade.</p>]]></description>
+            <guid>https://lwn.net/Articles/1015834/</guid>
+            <pubDate>Sat, 29 Mar 2025 14:57:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Edmundson: a modern Plasma Login Manager</title>
             <link>https://lwn.net/Articles/1015763/</link>
