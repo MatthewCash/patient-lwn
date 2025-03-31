@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 31 Mar 2025 09:01:30 +0000</pubDate>
-        <lastBuildDate>Mon, 31 Mar 2025 11:10:12 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 31 Mar 2025 11:26:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -419,14 +419,6 @@ for details on what's new in this release.]]></description>
             <guid>https://lwn.net/Articles/1015308/</guid>
             <pubDate>Mon, 24 Mar 2025 14:47:32 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1015286/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libxslt, mercurial, and webkit2gtk), <b>Fedora</b> (chromium, dotnet8.0, ffmpeg, jupyterlab, and kitty), <b>Mageia</b> (expat and libxslt), <b>Red Hat</b> (pcs), <b>SUSE</b> (apptainer, chromium, kernel, libarchive, mercurial, python311, radare2, xorg-x11-server, and zvbi), and <b>Ubuntu</b> (golang-github-cli-go-gh-v2 and nltk).]]></description>
-            <guid>https://lwn.net/Articles/1015286/</guid>
-            <pubDate>Mon, 24 Mar 2025 10:59:42 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
