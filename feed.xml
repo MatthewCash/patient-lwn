@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 31 Mar 2025 14:04:32 +0000</pubDate>
-        <lastBuildDate>Mon, 31 Mar 2025 14:33:51 +0000</lastBuildDate>
+        <pubDate>Mon, 31 Mar 2025 14:45:02 +0000</pubDate>
+        <lastBuildDate>Mon, 31 Mar 2025 14:50:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -399,34 +399,6 @@ contains "too much", but we will have to see where things flow.</p>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ruby-rack), <b>Fedora</b> (chromium, golang-github-openprinting-ipp-usb, OpenIPMI, and python-jinja2), <b>Mageia</b> (kernel, kernel-linus, and wpa_supplicant, hostapd), <b>Red Hat</b> (fence-agents, kernel, kernel-rt, libxml2, libxslt, and pcs), <b>SUSE</b> (cadvisor, docker, freetype2, nodejs-electron, php8, rsync, u-boot, warewulf4, webkit2gtk3, and zvbi), and <b>Ubuntu</b> (elfutils, python3.5, python3.8, ruby-rack, smartdns, and zvbi).]]></description>
             <guid>https://lwn.net/Articles/1015377/</guid>
             <pubDate>Tue, 25 Mar 2025 11:20:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The 6.14 kernel is out</title>
-            <link>https://lwn.net/Articles/1015308/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1015309/">released the 6.14 kernel</a>, a bit
-later than expected:
-<p>
-<blockquote class="bq">
-So it's early Monday morning (well - early for me, I'm not really a
-morning person), and I'd love to have some good excuse for why I
-didn't do the 6.14 release yesterday on my regular Sunday afternoon
-release schedule.
-<p>
-I'd like to say that some important last-minute thing came up and
-delayed things.
-<p>
-But no. It's just pure incompetence.
-</blockquote>
-<p>
-
-See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/1005651/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1006378/">part&#160;2</a>) and <a
-href="https://kernelnewbies.org/Linux_6.14">the KernelNewbies 6.14 page</a>
-for details on what's new in this release.]]></description>
-            <guid>https://lwn.net/Articles/1015308/</guid>
-            <pubDate>Mon, 24 Mar 2025 14:47:32 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
