@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Apr 2025 17:51:37 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Apr 2025 18:14:30 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Apr 2025 18:29:00 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Apr 2025 18:40:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Dave Täht RIP</title>
+            <link>https://lwn.net/Articles/1016109/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/705884/"><img src="https://lwn.net/images/conf/2016/lpc/DaveTaht-sm.jpg"
+class="lthumb" alt="[Dave Täht]" title="Dave Täht and Ham the monkey"></a> 
+
+From the LibreQoS site comes <a
+href="https://libreqos.io/2025/04/01/in-loving-memory-of-dave/">the sad
+news</a> that Dave Täht has passed away.  Among many other things, he bears
+a lot of credit for our networks functioning as well as they do.  "<q>We're
+incredibly grateful to have Dave as our friend, mentor, and as someone who
+continuously inspired us – showing us that we could do better for each
+other in the world, and leverage technology to make that happen. He will be
+dearly missed</q>".
+<p>
+Searching through LWN's archives will turn up many references to his work
+<a href="https://lwn.net/Articles/705884/">fixing WiFi</a>, <a
+href="https://lwn.net/Articles/496509/">improving queue management</a>, <a
+href="https://lwn.net/Articles/508783/">tackling bufferbloat</a>, and more.  Farewell,
+Dave, we hope the music is good wherever you are.
+<p>
+(Thanks to Jon Masters for the heads-up).
+<br clear="all">]]></description>
+            <guid>https://lwn.net/Articles/1016109/</guid>
+            <pubDate>Tue, 01 Apr 2025 18:28:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1016076/</link>
