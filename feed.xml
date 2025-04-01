@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 01 Apr 2025 15:49:11 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Apr 2025 16:12:31 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 1 Apr 2025 16:37:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,42 +375,6 @@ pages on the Debian wiki for more information on the images.</p>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (nginx and ruby-rack), <b>Fedora</b> (expat and libxslt), <b>Mageia</b> (bluez, dcmtk, ffmpeg, and radare2), <b>Red Hat</b> (container-tools:rhel8, gvisor-tap-vsock, kernel, kernel-rt, libreoffice, and podman), <b>SUSE</b> (buildah, forgejo, gitleaks, google-guest-agent, google-osconfig-agent, govulncheck-vulndb, grafana, helm, libxslt, php8, python-gunicorn, and python-Jinja2), and <b>Ubuntu</b> (freerdp2 and varnish).]]></description>
             <guid>https://lwn.net/Articles/1015464/</guid>
             <pubDate>Wed, 26 Mar 2025 12:17:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Bhattcharya: Closing the chapter on OpenH264</title>
-            <link>https://lwn.net/Articles/1015408/</link>
-            <description><![CDATA[<p>Boudhayan Bhattcharya has posted a lengthy <a
-href="https://bbhtt.space/posts/closing-the-chapter-on-openh264/">article</a>
-about the <a
-href="https://discourse.flathub.org/t/upcoming-freedesktop-23-08-runtime-release-will-drop-openh264-extension/9022">announcement</a>
-that the Freedesktop project is dropping OpenH264 from the <a
-href="https://freedesktop-sdk.io/">Freedesktop SDK</a> for Flatpak
-applications and runtimes.</p>
-
-<p>Some Flatpak applications that depend on the Freedesktop runtime
-version 23.08 will lose H.264 playback support starting with the
-release scheduled for April, unless application developers replace it
-with the <tt>ffmpeg-full</tt> extension. The 24.08 runtime is
-unaffected, and future releases will include a new
-<tt>codecs-extra</tt> extension to replace OpenH264 that includes <a
-href="https://ffmpeg.org/">FFmpeg</a> with support for a number of
-patented codecs.</p>
-
-<blockquote class="bq">
-<p>Considering all things, I think and hope we made the correct decision
-and hopefully the new <tt>org.freedesktop.Platform.codecs-extra</tt> works
-out. libx264, libx265 and others are built from source and there are
-no binaries or extra-data involved. So we should theoretically be able
-to patch and fix any issues that come up in the future.</p>
-
-<p>Apart from all this, I'm slightly worried at the prospects of legal
-issues cropping up with this setup and also that the new extension
-contains "too much", but we will have to see where things flow.</p>
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1015408/</guid>
-            <pubDate>Tue, 25 Mar 2025 16:20:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
