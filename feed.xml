@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Apr 2025 14:40:43 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Apr 2025 15:32:02 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Apr 2025 15:47:41 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Apr 2025 15:49:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Thunderbird plans &quot;Thundermail&quot; email and other services</title>
+            <link>https://lwn.net/Articles/1016219/</link>
+            <description><![CDATA[<p>Ryan Sipes has <a
+href="https://thunderbird.topicbox.com/groups/planning/T437cd854afcb1395">announced</a>
+efforts to expand Thunderbird's offerings with web services to
+"<q>enhance the experience of using Thunderbird</q>".</p>
+
+<blockquote class="bq">
+The Why for offering these services is simple. Thunderbird loses users
+each day to rich ecosystems that are both clients and services, such
+as Gmail and Office365. These ecosystems have both hard vendor
+lock-ins (through interoperability issues with 3rd-pary clients) and
+soft lock-ins (through convenience and integration between their
+clients and services). It is our goal to eventually have a similar
+offering so that a 100% open source, freedom-respecting alternative
+ecosystem is available for those who want it.
+</blockquote>
+
+<p>The planned services include hosted email, appointment scheduling,
+a revival of <a
+href="https://en.wikipedia.org/wiki/Firefox_Send">Firefox Send</a>,
+and (of course) an AI assistant based on a partnership with <a
+href="https://flower.ai/">Flower AI</a>. The AI features will
+"<q>always be optional for use by people who want them</q>". Sipes is
+managing director of product for Thunderbird's parent organization, <a
+href="https://blog.thunderbird.net/2020/01/thunderbirds-new-home/">MZLA
+Technologies Corporation</a>. LWN <a
+href="https://lwn.net/Articles/982610/">covered</a> his
+GUADEC&#160;2024 keynote last July.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1016219/</guid>
+            <pubDate>Wed, 02 Apr 2025 15:39:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>PorteuX 2.0 released</title>
             <link>https://lwn.net/Articles/1016216/</link>
