@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 02 Apr 2025 14:40:43 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Apr 2025 15:12:16 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 2 Apr 2025 15:32:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -445,24 +445,6 @@ a full list of changes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1015496/</guid>
             <pubDate>Wed, 26 Mar 2025 17:11:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Debian bookworm live images now fully reproducible</title>
-            <link>https://lwn.net/Articles/1015402/</link>
-            <description><![CDATA[<p>In a <a
-href="https://lists.reproducible-builds.org/pipermail/rb-general/2025-March/003675.html">short
-note</a> to the <a
-href="https://reproducible-builds.org/">Reproducible Builds</a>
-mailing list, Debian developer Roland Clobus announced that live
-images for Debian 12.10 ("bookworm") are now 100% reproducible. See the <a
-href="https://wiki.debian.org/ReproducibleInstalls/LiveImages">reproducible
-live images</a> and <a
-href="https://wiki.debian.org/DebianLive/TODO">Debian Live todo</a>
-pages on the Debian wiki for more information on the images.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1015402/</guid>
-            <pubDate>Wed, 26 Mar 2025 15:07:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
