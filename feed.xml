@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 02 Apr 2025 10:53:48 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Apr 2025 11:48:06 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 2 Apr 2025 12:20:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -394,14 +394,6 @@ pages on the Debian wiki for more information on the images.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1015402/</guid>
             <pubDate>Wed, 26 Mar 2025 15:07:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1015464/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (nginx and ruby-rack), <b>Fedora</b> (expat and libxslt), <b>Mageia</b> (bluez, dcmtk, ffmpeg, and radare2), <b>Red Hat</b> (container-tools:rhel8, gvisor-tap-vsock, kernel, kernel-rt, libreoffice, and podman), <b>SUSE</b> (buildah, forgejo, gitleaks, google-guest-agent, google-osconfig-agent, govulncheck-vulndb, grafana, helm, libxslt, php8, python-gunicorn, and python-Jinja2), and <b>Ubuntu</b> (freerdp2 and varnish).]]></description>
-            <guid>https://lwn.net/Articles/1015464/</guid>
-            <pubDate>Wed, 26 Mar 2025 12:17:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
