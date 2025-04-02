@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Apr 2025 12:55:28 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Apr 2025 13:02:03 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Apr 2025 13:26:37 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Apr 2025 13:37:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1016205/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, jetty9, openjpeg2, and tomcat9), <b>Fedora</b> (dokuwiki, firefox, php-kissifrot-php-ixr, php-phpseclib3, and rust-zincati), <b>Red Hat</b> (kernel and pki-core), <b>Slackware</b> (mozilla), <b>SUSE</b> (apparmor, atop, docker, docker-stable, firefox, govulncheck-vulndb, libmodsecurity3, openvpn, upx, and warewulf4), and <b>Ubuntu</b> (inspircd, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
+ linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oem-6.8, linux-oracle,
+ linux-oracle-6.8, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure-6.8, linux-hwe-6.8, linux-raspi, linux-realtime, nginx, phpseclib, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1016205/</guid>
+            <pubDate>Wed, 02 Apr 2025 13:03:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Rockbox 4.0 released</title>
+            <link>https://lwn.net/Articles/1016207/</link>
+            <description><![CDATA[For those of you who still have dedicated audio players: <a
+href="https://www.rockbox.org/wiki/ReleaseNotes400">version 4.0</a> of
+Rockbox, a replacement firmware for many players, has been released.
+This release brings support for a number of new devices, updated codecs, a
+number of user-interface improvements, some new games, and more.  (LWN last
+<a href="https://lwn.net/Articles/391982/">reviewed Rockbox</a> in 2010 — and looked at
+the ill-fated <a href="https://lwn.net/Articles/408626/">Android port</a> that year as
+well).]]></description>
+            <guid>https://lwn.net/Articles/1016207/</guid>
+            <pubDate>Wed, 02 Apr 2025 13:11:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Dave Täht RIP</title>
             <link>https://lwn.net/Articles/1016109/</link>
