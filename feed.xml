@@ -8,11 +8,55 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Apr 2025 13:46:03 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Apr 2025 14:33:27 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Apr 2025 14:40:43 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Apr 2025 14:49:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PorteuX 2.0 released</title>
+            <link>https://lwn.net/Articles/1016216/</link>
+            <description><![CDATA[<p><a href="https://github.com/porteux/porteux/releases">Version
+2.0</a> of <a href="https://github.com/porteux/porteux?tab=readme-ov-file#about">PorteuX</a>, a distribution based on Slackware Linux, has been
+released. This release adds the ability to test experimental Wayland
+sessions for the Cinnamon, LXQt, and Xfce desktops. PorteuX 2.0
+updates the Linux kernel to 6.14 and includes many package updates and
+bug fixes. Users have the choice of PorteuX stable or its rolling release
+called current. See the <a
+href="https://github.com/porteux/porteux/blob/main/boot/boot/docs/install.txt"><tt>install.txt</tt></a>
+for instructions on installing PorteuX to disk.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1016216/</guid>
+            <pubDate>Wed, 02 Apr 2025 14:34:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Introducing Fedora Project Leader Jef Spaleta</title>
+            <link>https://lwn.net/Articles/1016217/</link>
+            <description><![CDATA[<p>Outgoing Fedora Project Leader (FPL) Matthew Miller has <a
+href="https://fedoramagazine.org/introducing-fedora-project-leader-jef-spaleta/">announced</a>
+his successor, Jef Spaleta.</p>
+
+<blockquote class="bq">
+<p>Some of you may remember Jef's passionate voice in the early Fedora
+community. He got involved all the way back in the days of fedora.us,
+before Red Hat got involved. Jef served on the Fedora Board from July
+2007 through the end of 2008. This was the critical time after Fedora
+Extras and Fedora Core merged into one Fedora Linux where, with the
+launch of the "Features" process, Fedora became a truly community-led
+project.</p>
+</blockquote>
+
+<p>Spaleta will be joining Red Hat full time in May and Miller will be
+formally handing off FPL duties at the <a
+href="https://fedoraproject.org/flock/2025/">Flock</a> conference in
+June.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1016217/</guid>
+            <pubDate>Wed, 02 Apr 2025 14:40:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1016205/</link>
