@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Apr 2025 13:42:24 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Apr 2025 13:45:04 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Apr 2025 13:47:24 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Apr 2025 13:51:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1016361/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat), <b>Debian</b> (chromium, commons-vfs, firefox-esr, php-horde-editor, php-horde-imp, and thunderbird), <b>Fedora</b> (corosync, firefox, nextcloud, and suricata), <b>Mageia</b> (curl and upx), <b>Oracle</b> (emacs, fence-agents, freetype, kernel, libreoffice, libxml2, nginx:1.24, podman, python-jinja2, and tigervnc), <b>Red Hat</b> (firefox and python-jinja2), <b>SUSE</b> (assimp, ffmpeg-4, firefox, ghostscript, GraphicsMagick, libxslt, and tomcat), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop,
+ linux-ibm, linux-intel-iotg, linux-kvm, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-meta-raspi, linux-nvidia-tegra,
+ linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp,
+ linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-hwe-5.15, and linux-realtime, linux-intel-iot-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1016361/</guid>
+            <pubDate>Thu, 03 Apr 2025 13:46:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for March 27, 2025</title>
             <link>https://lwn.net/Articles/1014881/</link>
