@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Apr 2025 13:47:24 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Apr 2025 13:51:54 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Apr 2025 13:59:19 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Apr 2025 14:11:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.86.0 released</title>
+            <link>https://lwn.net/Articles/1016365/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/04/03/Rust-1.86.0.html">Version
+1.86.0</a> of the Rust language has been released.  Changes include support
+for trait upcasting, the ability to index multiple elements of HashMaps and
+slices mutably, and a number of stabilized APIs.]]></description>
+            <guid>https://lwn.net/Articles/1016365/</guid>
+            <pubDate>Thu, 03 Apr 2025 13:57:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1016361/</link>
