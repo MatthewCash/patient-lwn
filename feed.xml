@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Apr 2025 19:43:48 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Apr 2025 19:48:16 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Apr 2025 20:05:34 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Apr 2025 20:12:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,25 +416,6 @@ href="https://lwn.net/Articles/971143/">covered</a> Ubuntu 24.04 LTS last May.</
             <guid>https://lwn.net/Articles/1015649/</guid>
             <pubDate>Thu, 27 Mar 2025 20:51:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust adopting Ferrocene Language Specification</title>
-            <link>https://lwn.net/Articles/1015636/</link>
-            <description><![CDATA[<p>
-One recurring criticism of Rust has been that the language has no official specification. This is a barrier to adoption in some safety-conscious organizations, as well as to writing alternate language implementations. Now, the Rust project has
-<a href="https://blog.rust-lang.org/2025/03/26/adopting-the-fls.html">announced</a>
-that it will be adopting the 
-<a href="https://spec.ferrocene.dev/">
-Ferrocene Language Specification</a> (FLS) developed by 
-<a href="https://ferrous-systems.com/">Ferrous Systems</a> and maintaining it as part of the core project. While this may not satisfy die-hard standardization-process enthusiasts, it's a step toward removing another barrier to using Rust in safety-critical systems.
-</p>
-
-<blockquote class="bq">
-It's in that light that we're pleased to announce that we'll be adopting the FLS into the Rust Project as part of our ongoing specification efforts. This adoption is being made possible by the gracious donation of the FLS by Ferrous Systems. We're grateful to them for the work they've done in assembling the FLS, in making it fit for qualification purposes, in promoting its use and the use of Rust generally in safety-critical industries, and now, for working with us to take the next step and to bring the FLS into the Project.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1015636/</guid>
-            <pubDate>Thu, 27 Mar 2025 19:38:51 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
