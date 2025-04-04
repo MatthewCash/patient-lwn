@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 04 Apr 2025 12:41:19 +0000</pubDate>
-        <lastBuildDate>Fri, 4 Apr 2025 13:00:48 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Apr 2025 13:07:31 +0000</pubDate>
+        <lastBuildDate>Fri, 4 Apr 2025 13:27:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1016484/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (atop and thunderbird), <b>Fedora</b> (webkitgtk), <b>Mageia</b> (microcode), <b>Oracle</b> (expat), <b>SUSE</b> (apparmor, assimp-devel, aws-efs-utils, expat, firefox, ghostscript, go1.23, gotosocial, govulncheck-vulndb, GraphicsMagick, headscale, libmozjs-128-0, libsaml-devel, openvpn, perl-Data-Entropy, and xz), and <b>Ubuntu</b> (gnupg2, kernel, linux-azure-fips, linux-iot, openvpn, ruby-saml, and xz-utils).]]></description>
+            <guid>https://lwn.net/Articles/1016484/</guid>
+            <pubDate>Fri, 04 Apr 2025 13:05:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Rust 1.86.0 released</title>
             <link>https://lwn.net/Articles/1016365/</link>
@@ -375,19 +383,6 @@ which is a fork of SDDM.</p>]]></description>
             <guid>https://lwn.net/Articles/1015763/</guid>
             <pubDate>Fri, 28 Mar 2025 20:17:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1015718/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (mercurial and opensaml), <b>Fedora</b> (augeas, mingw-libxslt, and nodejs-nodemon), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (grafana, kernel, kernel-rt, opentelemetry-collector, and podman), <b>SUSE</b> (apache-commons-vfs2, python3, and python36), and <b>Ubuntu</b> (ghostscript, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-gkeop,
- linux-ibm, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15,
- linux-nvidia, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-azure, linux-gcp, linux-hwe-6.11, linux-oracle,
- linux-realtime, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
- linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-aws-5.15, linux-kvm, linux-azure, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oem-6.8, linux-realtime, smarty, and snakeyaml).]]></description>
-            <guid>https://lwn.net/Articles/1015718/</guid>
-            <pubDate>Fri, 28 Mar 2025 13:10:38 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
