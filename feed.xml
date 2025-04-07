@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Apr 2025 13:48:00 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Apr 2025 13:50:54 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Apr 2025 13:50:26 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Apr 2025 14:11:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,15 +367,6 @@ to PDF files.]]></description>
             <guid>https://lwn.net/Articles/1016077/</guid>
             <pubDate>Tue, 01 Apr 2025 13:58:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1015968/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (amd64-microcode, flatpak, intel-microcode, libdata-entropy-perl, librabbitmq, and vim), <b>Fedora</b> (augeas, containerd, crosswords-puzzle-sets-xword-dl, libssh2, libxml2, nodejs-nodemon, and webkitgtk), <b>Red Hat</b> (libreoffice and python-jinja2), <b>SUSE</b> (389-ds, apparmor, corosync, docker, docker-stable, erlang26, exim, ffmpeg-4, govulncheck-vulndb, istioctl, matrix-synapse, mercurial, openvpn, python3, rke2, and skopeo), and <b>Ubuntu</b> (ansible, linux, linux-hwe-5.4, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4,
- linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-azure-fips, linux-gcp-fips, linux-fips, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-realtime, linux-intel-iot-realtime, linux-xilinx-zynqmp, opensc, and ruby-doorkeeper).]]></description>
-            <guid>https://lwn.net/Articles/1015968/</guid>
-            <pubDate>Mon, 31 Mar 2025 13:58:26 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
