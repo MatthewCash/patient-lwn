@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Apr 2025 18:51:28 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Apr 2025 19:10:14 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Apr 2025 19:13:36 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Apr 2025 19:25:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSSL 3.5.0 released</title>
+            <link>https://lwn.net/Articles/1016851/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/openssl/openssl/releases/tag/openssl-3.5.0">Version
+3.5.0</a> of OpenSSL has been released. This release adds support for
+server-side QUIC (<a
+href="https://datatracker.ietf.org/doc/html/rfc9000">RFC 9000</a>), a
+new configuration option (<tt>no-tls-deprecated-ec</tt>) that disables
+support for TLS groups deprecated in <a
+href="https://www.rfc-editor.org/rfc/rfc8422">RFC 8422</a>, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1016851/</guid>
+            <pubDate>Tue, 08 Apr 2025 19:13:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>FreeDOS 1.4 released</title>
             <link>https://lwn.net/Articles/1016849/</link>
