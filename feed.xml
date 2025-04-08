@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Apr 2025 12:46:45 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Apr 2025 13:02:46 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Apr 2025 13:36:52 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Apr 2025 13:38:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1016774/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, libxslt, python3.11, python3.12, and tomcat), <b>Debian</b> (ghostscript and libnet-easytcp-perl), <b>Fedora</b> (openvpn, perl-Data-Entropy, and webkitgtk), <b>Red Hat</b> (python-jinja2), <b>SUSE</b> (giflib, pam, and xen), and <b>Ubuntu</b> (apache2, binutils, expat, fis-gtm, linux-azure, linux-azure-6.8, linux-nvidia-lowlatency, linux-azure, linux-azure-fde, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-gcp-fips, linux-hwe-5.4, linux-nvidia, linux-nvidia-tegra-igx, ruby2.7, ruby3.0, ruby3.2, ruby3.3, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1016774/</guid>
+            <pubDate>Tue, 08 Apr 2025 13:35:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fifty Years of Open Source Software Supply Chain Security (Queue)</title>
             <link>https://lwn.net/Articles/1016715/</link>
