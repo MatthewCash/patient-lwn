@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Apr 2025 13:37:07 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Apr 2025 13:50:32 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Apr 2025 13:59:55 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Apr 2025 14:12:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -379,26 +379,6 @@ Dave, we hope the music is good wherever you are.
 <br clear="all">]]></description>
             <guid>https://lwn.net/Articles/1016109/</guid>
             <pubDate>Tue, 01 Apr 2025 18:28:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1016076/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freetype, grub2, kernel, kernel-rt, and python-jinja2), <b>Debian</b> (freetype, linux-6.1, suricata, tzdata, and varnish), <b>Fedora</b> (mingw-libxslt and qgis), <b>Mageia</b> (elfutils, mercurial, and zvbi), <b>Oracle</b> (grafana, kernel, libxslt, nginx:1.22, and postgresql:12), <b>Red Hat</b> (opentelemetry-collector), <b>SUSE</b> (corosync, opera, and restic), and <b>Ubuntu</b> (aom, libtar, mariadb, ovn, php7.4, php8.1, php8.3, rabbitmq-server, and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/1016076/</guid>
-            <pubDate>Tue, 01 Apr 2025 13:54:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 137.0 released</title>
-            <link>https://lwn.net/Articles/1016077/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/137.0/releasenotes/">Version
-137.0</a> of the Firefox browser has been released.  Changes include the
-rollout of <a href="https://support.mozilla.org/en-US/kb/tab-groups">tab
-groups</a>, a number of search-bar changes, and the ability to add signatures
-to PDF files.]]></description>
-            <guid>https://lwn.net/Articles/1016077/</guid>
-            <pubDate>Tue, 01 Apr 2025 13:58:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
