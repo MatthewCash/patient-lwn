@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Apr 2025 11:46:32 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Apr 2025 12:20:31 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Apr 2025 13:01:00 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Apr 2025 13:03:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1016923/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (lemonldap-ng, libbssolv-perl, and phpmyadmin), <b>Fedora</b> (augeas, mariadb10.11, and thunderbird), <b>Oracle</b> (gimp, libxslt, python3.11, python3.12, tomcat, and xorg-x11-server), <b>Red Hat</b> (expat, grafana, opentelemetry-collector, and webkit2gtk3), <b>SUSE</b> (azure-cli-core, doomsday, kernel, and poppler), and <b>Ubuntu</b> (dotnet8, dotnet9, erlang, and poppler).]]></description>
+            <guid>https://lwn.net/Articles/1016923/</guid>
+            <pubDate>Wed, 09 Apr 2025 13:01:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSSL 3.5.0 released</title>
             <link>https://lwn.net/Articles/1016851/</link>
