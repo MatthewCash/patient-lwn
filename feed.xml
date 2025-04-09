@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Apr 2025 13:01:00 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Apr 2025 13:03:29 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Apr 2025 13:25:55 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Apr 2025 13:39:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSSH 10.0 released</title>
+            <link>https://lwn.net/Articles/1016924/</link>
+            <description><![CDATA[<p><a href="https://www.openssh.com/releasenotes.html#10.0p1">OpenSSH
+10.0</a> has been released. Support for the DSA signature algorithm,
+which was disabled by default beginning in 2015, has been
+removed. Other notable changes include using the <span
+class="nobreak">post-quantum</span> algorithm <a
+href="https://datatracker.ietf.org/doc/html/draft-kampanakis-curdle-ssh-pq-ke-03#name-mlkem768x25519-sha256">mlkem768x25519-sha256</a>
+for key agreement by default, support for systemd-style socket
+activation in <a href="https://www.openssh.com/portable.html">Portable OpenSSH</a>, and moving code for user
+authentication from the <tt>sshd-session</tt> binary to the new
+<tt>ssh-auth</tt> binary:</p>
+
+<blockquote class="bq">
+Splitting this code into a separate binary ensures that the crucial
+pre-authentication attack surface has an entirely disjoint address
+space from the code used for the rest of the connection. It also
+yields a small runtime memory saving as the authentication code will
+be unloaded after the authentication phase completes. This change
+should be largely invisible to users, though some log messages may now
+come from "sshd-auth" instead of "sshd-session". Downstream
+distributors of OpenSSH will need to package the sshd-auth binary.
+</blockquote>
+
+<p>The release notes also warn that "<q>software that naively matches
+versions using patterns like "OpenSSH_1*"</q>" may be confused by the
+new version number.</p>]]></description>
+            <guid>https://lwn.net/Articles/1016924/</guid>
+            <pubDate>Wed, 09 Apr 2025 13:18:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1016923/</link>
@@ -384,31 +416,6 @@ June.</p>
             <guid>https://lwn.net/Articles/1016217/</guid>
             <pubDate>Wed, 02 Apr 2025 14:40:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1016205/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, jetty9, openjpeg2, and tomcat9), <b>Fedora</b> (dokuwiki, firefox, php-kissifrot-php-ixr, php-phpseclib3, and rust-zincati), <b>Red Hat</b> (kernel and pki-core), <b>Slackware</b> (mozilla), <b>SUSE</b> (apparmor, atop, docker, docker-stable, firefox, govulncheck-vulndb, libmodsecurity3, openvpn, upx, and warewulf4), and <b>Ubuntu</b> (inspircd, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
- linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oem-6.8, linux-oracle,
- linux-oracle-6.8, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure-6.8, linux-hwe-6.8, linux-raspi, linux-realtime, nginx, phpseclib, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1016205/</guid>
-            <pubDate>Wed, 02 Apr 2025 13:03:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rockbox 4.0 released</title>
-            <link>https://lwn.net/Articles/1016207/</link>
-            <description><![CDATA[For those of you who still have dedicated audio players: <a
-href="https://www.rockbox.org/wiki/ReleaseNotes400">version 4.0</a> of
-Rockbox, a replacement firmware for many players, has been released.
-This release brings support for a number of new devices, updated codecs, a
-number of user-interface improvements, some new games, and more.  (LWN last
-<a href="https://lwn.net/Articles/391982/">reviewed Rockbox</a> in 2010 — and looked at
-the ill-fated <a href="https://lwn.net/Articles/408626/">Android port</a> that year as
-well).]]></description>
-            <guid>https://lwn.net/Articles/1016207/</guid>
-            <pubDate>Wed, 02 Apr 2025 13:11:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
