@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 10 Apr 2025 19:55:54 +0000</pubDate>
-        <lastBuildDate>Thu, 10 Apr 2025 20:12:53 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Apr 2025 20:29:38 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Apr 2025 20:31:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Malcolm: 6 usability improvements in GCC 15</title>
+            <link>https://lwn.net/Articles/1017132/</link>
+            <description><![CDATA[Over on the Red Hat Developer site, David Malcolm has an <a
+href="https://developers.redhat.com/articles/2025/04/10/6-usability-improvements-gcc-15#">article
+about improvements in GCC 15</a>, specifically focusing on the diagnostic
+information that the compiler emits.  This includes ASCII art with a "⚠️"
+warning emoji to display the execution path when it detects a problem (like
+an infinite loop in one of his examples), better C++ template errors,
+machine-readable diagnostics using <a href="https://sarif.info/">Static
+Analysis Results Interchange Format</a> (SARIF), better messages regarding
+C23 compatibility since that is the default C version for GCC 15, and more.
+Since the changes are focused on messages, there is the inevitable color
+scheme update as well:
+<blockquote class="bq">
+GCC will use color when emitting its text messages on stderr at a suitably modern terminal, using a few colors that seem to work well in a number of different terminal themes—but the exact rules for choosing which color to use for each aspect of the output have been rather arbitrary.
+<p>
+For GCC 15, I've gone through C and C++'s errors, looking for places where two different things in the source are being contrasted, such as type mismatches. These diagnostics now use color to visually highlight and distinguish the differences. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1017132/</guid>
+            <pubDate>Thu, 10 Apr 2025 20:29:37 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Eight new stable kernels</title>
             <link>https://lwn.net/Articles/1017048/</link>
