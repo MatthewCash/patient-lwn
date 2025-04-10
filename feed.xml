@@ -8,11 +8,223 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Apr 2025 23:10:30 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Apr 2025 23:48:56 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Apr 2025 00:33:35 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Apr 2025 00:49:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for April 3, 2025</title>
+            <link>https://lwn.net/Articles/1015512/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1015512/">Front</a>: Calibre 8.0; Fedora reproducibility; OpenWrt One; 6.15 Merge Window; LSFMM+BPF coverage including BPF in GCC, Rust merging process, and more.
+            <li> <a href="https://lwn.net/Articles/1015514/">Briefs</a>: Ubuntu namespaces; New FPL; PorteuX 2.0; Firefox 137.0; GCC Rust; Rockbox 4.0; Rust specification; Thundermail; Dave Täht RIP; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1015515/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1015512/</guid>
+            <pubDate>Thu, 03 Apr 2025 00:21:53 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Catching up with calibre</title>
+            <link>https://lwn.net/Articles/1015226/</link>
+            <description><![CDATA[<p>Saying that <a href="https://calibre-ebook.com/">calibre</a> is
+ebook-management software undersells the application by a fair
+margin. Calibre is an open-source Swiss Army knife for ebooks that can
+be used for everything from creating ebooks, converting ebooks from
+obscure formats to modern formats like EPUB, to serving up an ebook
+library over the web. The most recent major release, <a
+href="https://calibre-ebook.com/new-in/seventeen">calibre&#160;8.0</a>,
+brings a better text-to-speech engine, a tool for creating audio
+overlays when authoring ebooks, support for profiles in the ebook
+viewer, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1015226/</guid>
+            <pubDate>Wed, 02 Apr 2025 17:00:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] An update on GCC BPF support</title>
+            <link>https://lwn.net/Articles/1015747/</link>
+            <description><![CDATA[<p>
+José Marchesi and David Faust kicked off the BPF track at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit with an extra-long session on what
+they have been doing to support compiling to BPF in GCC. Overall, the project is slowly working
+toward full support for BPF, with most of the self-tests now passing using
+Faust's in-progress patches. However, the progress toward that goal has turned up
+a number of problems with how Clang supports BPF that needed to be discussed at
+length to find a path forward for both projects.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1015747/</guid>
+            <pubDate>Wed, 02 Apr 2025 15:47:39 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Approaches to reducing TLB pressure</title>
+            <link>https://lwn.net/Articles/1016009/</link>
+            <description><![CDATA[The CPU's translation lookaside buffer (TLB) caches the results of
+virtual-address translations, significantly speeding memory accesses.  TLB
+misses are expensive, so a lot of thought goes into using the TLB as
+efficiently as possible.  Reducing pressure on the TLB was the topic of Rik
+van Riel's memory-management-track session at the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit.  Some approaches were
+considered, but the session was short on firm conclusions.]]></description>
+            <guid>https://lwn.net/Articles/1016009/</guid>
+            <pubDate>Wed, 02 Apr 2025 13:45:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Slab allocator: sheaves and any-context allocations</title>
+            <link>https://lwn.net/Articles/1016001/</link>
+            <description><![CDATA[The kernel's slab allocator is charged with providing small objects on
+demand; its performance and reliability are crucial for the functioning of
+the system as a whole.  At the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit, two adjacent sessions in the
+memory-management track dug into current work on the slab allocator.  The
+first focused on the new sheaves feature, while the second discussed a set
+of allocation functions that are safe to call in any context.]]></description>
+            <guid>https://lwn.net/Articles/1016001/</guid>
+            <pubDate>Tue, 01 Apr 2025 18:54:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Updates on storage standards</title>
+            <link>https://lwn.net/Articles/1015724/</link>
+            <description><![CDATA[As he has in some previous editions of the Linux Storage, Filesystem,
+Memory-Management, and BPF Summit (LSFMM+BPF), Fred Knight gave an update
+on the status of various storage standards this year. In it, he looked at
+changes to the <a href="https://nvmexpress.org/">NVM Express</a> (NVMe)
+standards in some detail.  He also updated attendees on the fairly small
+changes that have come to the SCSI (<a href="https://www.t10.org/">T10</a>)
+and ATA (<a href="https://www.t13.org/">T13</a>) standards over the last few
+years.]]></description>
+            <guid>https://lwn.net/Articles/1015724/</guid>
+            <pubDate>Tue, 01 Apr 2025 14:32:27 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Memory persistence over kexec</title>
+            <link>https://lwn.net/Articles/1015997/</link>
+            <description><![CDATA[The kernel's <a
+href="https://man7.org/linux/man-pages/man8/kexec.8.html">kexec
+mechanism</a> allows one kernel to directly boot a new one; it can be
+thought of as a sort of kernel equivalent to the <a
+href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>
+system call.  Kexec has a number of uses, including booting a special kernel
+to perform dumps after a crash.  Normally, one does not expect user-space
+processes to survive booting into a new kernel, but that has not stopped
+developers from trying to implement that ability.  Mike Rapoport ran a
+memory-management-track session at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit to discuss one piece of that problem:
+enabling the contents of memory to persist across a kexec handover so that
+the new kernel can pick up where the old one left off.]]></description>
+            <guid>https://lwn.net/Articles/1015997/</guid>
+            <pubDate>Tue, 01 Apr 2025 14:00:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improving the merging of anonymous VMAs</title>
+            <link>https://lwn.net/Articles/1015762/</link>
+            <description><![CDATA[The virtual memory area (VMA), represented by <a
+href="https://elixir.bootlin.com/linux/v6.13.7/source/include/linux/mm_types.h#L670"><tt>struct
+vm_area_struct</tt></a>, is one of the core abstractions of the kernel's
+memory-management subsystem; a VMA represents a portion of a process's
+address space with the same characteristics.  A memory-mapped file will be
+represented by (at least) one VMA, as will the process's stack or a region
+of anonymous memory.  Efficiently managing VMAs and the logic around them
+is crucial for good performance overall.  Lorenzo Stoakes focused on one
+specific problem area: the merging of anonymous VMAs, during the
+memory-management track at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit.]]></description>
+            <guid>https://lwn.net/Articles/1015762/</guid>
+            <pubDate>Mon, 31 Mar 2025 22:26:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A herd of migration discussions</title>
+            <link>https://lwn.net/Articles/1015551/</link>
+            <description><![CDATA[Migration is the act of moving data from one location in physical
+memory to another.  The kernel may migrate pages for many reasons,
+including defragmentation, improving NUMA locality, moving data to or from
+memory hosted on a peripheral device, or freeing a range of
+memory for other uses.  Given the importance of migration to the
+memory-management subsystem, there is a lot of interest in improving its
+performance and removing impediments to its success.  Several sessions in
+the memory-management track of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit were dedicated to this topic.]]></description>
+            <guid>https://lwn.net/Articles/1015551/</guid>
+            <pubDate>Mon, 31 Mar 2025 15:07:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora change aims for 99% package reproducibility</title>
+            <link>https://lwn.net/Articles/1014979/</link>
+            <description><![CDATA[<p>The effort to ensure that open-source software is <a
+href="https://reproducible-builds.org/">reproducible</a> has been
+gathering steam over the years, and gaining traction with major Linux
+distributions. Debian, for example, has been <a
+href="https://lwn.net/Articles/985739/">working toward reproducible
+builds</a> for more than a decade; it can <a
+href="https://lists.reproducible-builds.org/pipermail/rb-general/2025-March/003675.html">now</a>
+produce <a
+href="https://wiki.debian.org/ReproducibleInstalls/LiveImages#Status">official
+live CDs</a> of the current stable release that are 
+reproducible. Fedora started on the path much later, but it has
+progressed far enough that the project is now considering a <a
+href="https://fedoraproject.org/wiki/Changes/Package_builds_are_expected_to_be_reproducible">change
+proposal</a> for the Fedora&#160;43 development cycle, expected to be
+released in October, with a goal of
+making 99% of Fedora's package builds reproducible. So far, reaction
+to the proposal seems favorable and focused primarily on how to
+achieve the <span class="nobreak">goal&mdash;with</span> minimal pain for <span class="nobreak">packagers&mdash;rather</span> than whether to attempt it.</p>]]></description>
+            <guid>https://lwn.net/Articles/1014979/</guid>
+            <pubDate>Mon, 31 Mar 2025 14:04:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Making the OpenWrt One</title>
+            <link>https://lwn.net/Articles/1014998/</link>
+            <description><![CDATA[In a keynote on the final day of <a
+href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a>, Denver
+Gingerich said that he wanted to talk "<q>a little bit about a router and
+also the big picture around that router</q>".  Gingerich is the director of
+compliance at the <a href="https://sfconservancy.org/">Software Freedom
+Conservancy</a> (SFC), which is the organization behind the <a
+href="https://openwrt.org/toh/openwrt/one">OpenWrt One</a> router that
+LWN <a href="https://lwn.net/Articles/994961/">looked at</a> back in November.  The
+router is, of course, based on firmware from the
+<a href="https://openwrt.org/start">OpenWrt project</a>, which got its
+start because of GPL-enforcement activities and is a member project at the SFC.]]></description>
+            <guid>https://lwn.net/Articles/1014998/</guid>
+            <pubDate>Fri, 28 Mar 2025 16:31:36 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The first part of the 6.15 merge window</title>
+            <link>https://lwn.net/Articles/1015414/</link>
+            <description><![CDATA[As of this writing, 6,653 non-merge changesets have been pulled into the
+mainline kernel repository for the 6.15 release.  This merge window is thus
+well underway.  A number of significant changes have been merged so far;
+read on for our summary of the first half of the 6.15 merge window.]]></description>
+            <guid>https://lwn.net/Articles/1015414/</guid>
+            <pubDate>Fri, 28 Mar 2025 15:08:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A process for handling Rust code in the core kernel</title>
+            <link>https://lwn.net/Articles/1015409/</link>
+            <description><![CDATA[The 2024 Linux Storage, Filesystem, Memory-Management, and BPF Summit
+included <a href="https://lwn.net/Articles/978738/">a tense session</a> on the use of Rust
+code in the kernel's filesystem layer.  The Rust topic returned in 2025 in
+a session run by Andreas Hindborg, with a scope that also covered the
+storage and memory-management layers.  A lot of progress has been made, and
+the discussion was less adversarial this year, but there are still process
+issues that need to be worked out.]]></description>
+            <guid>https://lwn.net/Articles/1015409/</guid>
+            <pubDate>Thu, 27 Mar 2025 13:43:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Hardening the Firefox frontend</title>
             <link>https://lwn.net/Articles/1016978/</link>
@@ -224,142 +436,6 @@ slices mutably, and a number of stabilized APIs.]]></description>
             <guid>https://lwn.net/Articles/1016361/</guid>
             <pubDate>Thu, 03 Apr 2025 13:46:29 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 27, 2025</title>
-            <link>https://lwn.net/Articles/1014881/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1014881/">Front</a>: Open source in government; OSI election; Memory-management medley; Address-space isolation; CMA; 6.14 Development stats; State of the page.
-            <li> <a href="https://lwn.net/Articles/1014883/">Briefs</a>: Asahi Linux progress; Reproducible Debian; rpi-image-gen; Neovim 0.11; OpenH264; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1014884/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1014881/</guid>
-            <pubDate>Thu, 27 Mar 2025 01:05:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The state of the page in 2025</title>
-            <link>https://lwn.net/Articles/1015320/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/849538/">folio transition</a> is one of the most
-fundamental kernel changes ever made; it can be thought of as being similar
-to replacing the foundation of a building while it remains open for
-business.  So it is not surprising that, for some years, the annual Linux
-Storage, Filesystem, Memory-Management, and BPF Summit has included a
-session on the state of this transition.  The 2025 Summit was no exception,
-with Matthew Wilcox updating the group on what has been accomplished, what
-remains to be done, and where some of the significant problems are.]]></description>
-            <guid>https://lwn.net/Articles/1015320/</guid>
-            <pubDate>Wed, 26 Mar 2025 12:26:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development statistics for 6.14</title>
-            <link>https://lwn.net/Articles/1013892/</link>
-            <description><![CDATA[By the time that Linus Torvalds <a href="https://lwn.net/Articles/1015309/">released</a>
-the 6.14 kernel, 11,003 non-merge changesets had been pulled into the
-mainline, making this one of the smallest releases we have seen in some
-time.  Indeed, one must go back to <a href="https://lwn.net/Articles/640081/">the 4.0
-release</a>, which happened almost exactly ten years ago, to find a release
-with fewer changesets than 6.14.  Even so, "small" is relative, and 6.14
-contains a lot of significant changes.]]></description>
-            <guid>https://lwn.net/Articles/1013892/</guid>
-            <pubDate>Tue, 25 Mar 2025 12:55:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Lessons from open source in the Mexican government</title>
-            <link>https://lwn.net/Articles/1013776/</link>
-            <description><![CDATA[The adoption of open-source software in governments has had its ups and
-downs.  While open source seems like a "no-brainer", it turns out that
-governments can be surprisingly resistant to using FOSS for a variety of
-reasons.  Federico González Waite spoke in the Open Government track at <a
-href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a> in Pasadena,
-California to recount his <a
-href="https://www.socallinuxexpo.org/scale/22x/speakers/federico-gonzalez-waite">experiences
-working with and for the Mexican government</a>.  He led multiple projects
-to switch away from proprietary, often predatory, software companies with
-some success—and failure.]]></description>
-            <guid>https://lwn.net/Articles/1013776/</guid>
-            <pubDate>Mon, 24 Mar 2025 11:49:35 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] OSI election ends with unsatisfying results</title>
-            <link>https://lwn.net/Articles/1014603/</link>
-            <description><![CDATA[<p>The <a href="https://opensource.org/">Open Source Initiative</a>
-(OSI) has <a
-href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board">announced</a>
-the results of its recent board of directors election. Ruth Suehle and
-McCoy Smith are new to the board, while Carlo Piana will serve another
-term. The results, however, seem tainted in the eyes of some
-participants and observers. The election has been plagued by missteps
-from the beginning and has culminated with the exclusion of three
-candidates for failing to meet a requirement added after the election
-was over to sign the OSI board agreement before results were tallied
-or announced.</p>]]></description>
-            <guid>https://lwn.net/Articles/1014603/</guid>
-            <pubDate>Fri, 21 Mar 2025 21:46:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The guaranteed contiguous memory allocator</title>
-            <link>https://lwn.net/Articles/1015000/</link>
-            <description><![CDATA[As a system runs and its memory becomes fragmented, allocating large,
-physically contiguous regions of memory becomes increasingly difficult.
-Much effort over the years has gone into avoiding the need to make such
-allocations whenever possible, but there are times when they simply cannot
-be avoided.  The kernel's <a href="https://lwn.net/Articles/486301/">contiguous memory
-allocator</a> (CMA) subsystem attempts to make such allocations possible,
-but it has never been a perfect solution.  Suren Baghdasaryan is is trying
-to improve that situation with the <a
-href="https://lwn.net/ml/all/20250320173931.1583800-1-surenb@google.com">guaranteed
-contiguous memory allocator patch set</a>, which includes work from Minchan
-Kim as well.]]></description>
-            <guid>https://lwn.net/Articles/1015000/</guid>
-            <pubDate>Fri, 21 Mar 2025 17:33:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Multiple memory classes for address-space isolation</title>
-            <link>https://lwn.net/Articles/1014440/</link>
-            <description><![CDATA[<p>
-Brendan Jackman has been working to try to get ahead of the next hardware CPU
-vulnerability
-before it gets discovered. In January, he posted the second version of
-<a href="https://lwn.net/ml/all/20250110-asi-rfc-v2-v2-0-8419288bc805@google.com/">
-a patch set</a> that introduces
-<a href="https://lwn.net/Articles/974390/">
-address-space isolation</a> (ASI) as a way of
-preventing future CPU vulnerabilities from leaking important
-information. The core concept is to ensure that data that is not currently
-needed is not present in memory, so that speculative execution cannot leak it.
-The work is nowhere near ready to be incorporated into the mainline
-kernel — not least of all because it has a large performance impact in its
-current form — but it is likely to once again be a topic of discussion at the
-2025
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Filesystem, Memory Management, and BPF Summit</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1014440/</guid>
-            <pubDate>Fri, 21 Mar 2025 16:24:22 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] MM medley: huge page allocation, page promotion, KSM, and BPF</title>
-            <link>https://lwn.net/Articles/1014220/</link>
-            <description><![CDATA[As the <a href="https://events.linuxfoundation.org/lsfmmbpf/">2025 Linux
-Storage, Filesystem, Memory-Management, and BPF Summit</a> (LSFMM+BPF)
-approaches, the density of memory-management patches on the mailing lists
-has increased.  Included among those are patches aimed at improving the
-reliability and performance of huge-page allocation, implementing page
-promotion on tiered-memory systems, adding a different approach to
-deduplicating memory, and replacing the BPF memory allocator.  Read on for
-an overview of each.]]></description>
-            <guid>https://lwn.net/Articles/1014220/</guid>
-            <pubDate>Thu, 20 Mar 2025 14:54:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
