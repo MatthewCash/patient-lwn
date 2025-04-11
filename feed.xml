@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 11 Apr 2025 12:51:32 +0000</pubDate>
-        <lastBuildDate>Fri, 11 Apr 2025 13:01:04 +0000</lastBuildDate>
+        <pubDate>Fri, 11 Apr 2025 13:19:31 +0000</pubDate>
+        <lastBuildDate>Fri, 11 Apr 2025 13:29:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1017197/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve and golang and go-toolset:rhel8), <b>Debian</b> (webkit2gtk), <b>Fedora</b> (openvpn, thunderbird, uboot-tools, and zabbix), <b>SUSE</b> (expat, fontforge, govulncheck-vulndb, and kernel), and <b>Ubuntu</b> (haproxy and libsoup2.4, libsoup3).]]></description>
+            <guid>https://lwn.net/Articles/1017197/</guid>
+            <pubDate>Fri, 11 Apr 2025 13:19:31 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Malcolm: 6 usability improvements in GCC 15</title>
             <link>https://lwn.net/Articles/1017132/</link>
@@ -454,14 +462,6 @@ pulled into the mainline during this merge window.]]></description>
             <guid>https://lwn.net/Articles/1016577/</guid>
             <pubDate>Sun, 06 Apr 2025 23:09:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1016484/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (atop and thunderbird), <b>Fedora</b> (webkitgtk), <b>Mageia</b> (microcode), <b>Oracle</b> (expat), <b>SUSE</b> (apparmor, assimp-devel, aws-efs-utils, expat, firefox, ghostscript, go1.23, gotosocial, govulncheck-vulndb, GraphicsMagick, headscale, libmozjs-128-0, libsaml-devel, openvpn, perl-Data-Entropy, and xz), and <b>Ubuntu</b> (gnupg2, kernel, linux-azure-fips, linux-iot, openvpn, ruby-saml, and xz-utils).]]></description>
-            <guid>https://lwn.net/Articles/1016484/</guid>
-            <pubDate>Fri, 04 Apr 2025 13:05:47 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
