@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Apr 2025 18:58:38 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Apr 2025 19:47:59 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Apr 2025 20:13:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -433,31 +433,6 @@ last year for its 30th anniversary.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, libxslt, python3.11, python3.12, and tomcat), <b>Debian</b> (ghostscript and libnet-easytcp-perl), <b>Fedora</b> (openvpn, perl-Data-Entropy, and webkitgtk), <b>Red Hat</b> (python-jinja2), <b>SUSE</b> (giflib, pam, and xen), and <b>Ubuntu</b> (apache2, binutils, expat, fis-gtm, linux-azure, linux-azure-6.8, linux-nvidia-lowlatency, linux-azure, linux-azure-fde, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-gcp-fips, linux-hwe-5.4, linux-nvidia, linux-nvidia-tegra-igx, ruby2.7, ruby3.0, ruby3.2, ruby3.3, and vim).]]></description>
             <guid>https://lwn.net/Articles/1016774/</guid>
             <pubDate>Tue, 08 Apr 2025 13:35:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fifty Years of Open Source Software Supply Chain Security (Queue)</title>
-            <link>https://lwn.net/Articles/1016715/</link>
-            <description><![CDATA[ACM Queue <a href="https://queue.acm.org/detail.cfm?id=3722542">looks at
-the security problem</a> in the light of a report on Multics security that
-was published in 1974.
-<p>
-<blockquote class="bq">
-	We are all struggling with a massive shift that has happened in the
-	past 10 or 20 years in the software industry. For decades, software
-	reuse was only a lofty goal. Now it's very real. Modern
-	programming environments such as Go, Node, and Rust have made it
-	trivial to reuse work by others, but our instincts about
-	responsible behaviors have not yet adapted to this new reality.
-<p>
-	The fact that the 1974 Multics review anticipated many of the
-	problems we face today is evidence that these problems are
-	fundamental and have no easy answers. We must work to make
-	continuous improvements to open source software supply chain
-	security, making attacks more and more difficult and expensive.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1016715/</guid>
-            <pubDate>Mon, 07 Apr 2025 19:56:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
