@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Apr 2025 13:35:33 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Apr 2025 13:38:51 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Apr 2025 13:51:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -444,28 +444,6 @@ was published in 1974.
             <guid>https://lwn.net/Articles/1016715/</guid>
             <pubDate>Mon, 07 Apr 2025 19:56:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1016663/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (abseil, atop, jetty9, ruby-saml, tomcat10, trafficserver, xz-utils, and zfs-linux), <b>Fedora</b> (chromium, condor, containernetworking-plugins, cri-tools1.29, crosswords-puzzle-sets-xword-dl, exim, ghostscript, matrix-synapse, upx, varnish, and yarnpkg), <b>Gentoo</b> (XZ Utils), <b>Mageia</b> (augeas, corosync, nss &amp; firefox, and thunderbird), <b>Oracle</b> (container-tools:ol8, firefox, freetype, and kernel), <b>Red Hat</b> (firefox), <b>SUSE</b> (chromium, gn, firefox-esr, go1.23-1.23.8, go1.24, go1.24-1.24.2, google-guest-agent, govulncheck-vulndb, gsl, python311-ecdsa, thunderbird, and webkit2gtk3), and <b>Ubuntu</b> (kamailio, libdbd-mysql-perl, linux-nvidia, linux-nvidia-6.8, and tomcat9).]]></description>
-            <guid>https://lwn.net/Articles/1016663/</guid>
-            <pubDate>Mon, 07 Apr 2025 13:42:30 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Five new stable kernels</title>
-            <link>https://lwn.net/Articles/1016664/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1016665/">6.14.1</a>, <a
-href="https://lwn.net/Articles/1016666/">6.13.10</a>, <a
-href="https://lwn.net/Articles/1016667/">6.12.22</a>, <a
-href="https://lwn.net/Articles/1016668/">6.6.86</a>, and <a
-href="https://lwn.net/Articles/1016669/">6.1.133</a> stable kernels have all been
-released.  They contain a relatively small collection of important fixes
-across the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/1016664/</guid>
-            <pubDate>Mon, 07 Apr 2025 13:48:00 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
