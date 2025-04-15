@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 15 Apr 2025 20:26:52 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Apr 2025 21:11:24 +0000</lastBuildDate>
+        <pubDate>Tue, 15 Apr 2025 21:25:51 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Apr 2025 21:28:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>MITRE Warns CVE Program Faces Disruption (Security Week)</title>
+            <link>https://lwn.net/Articles/1017565/</link>
+            <description><![CDATA[Security Week is one of several outlets <a
+href="https://www.securityweek.com/mitre-signals-potential-cve-program-deterioration-as-us-gov-funding-expires/">reporting</a>
+that the funding for the CVE program at MITRE disappears as of
+April&#160;16.
+<p>
+<blockquote class="bq">
+	Maintained by MITRE Corporation, a not-for-profit organization that
+	operates federal R&amp;D centers, the CVE program is funded through
+	multiple channels, including the U.S. government, industry
+	partnerships, and international organizations. 
+	<p>
+	Earlier this month, in anticipation of the US government funding
+	cuts, MITRE initiated layoffs that affected more than 400 employees
+	in its Virginia office. The cuts were ordered after the Trump
+	administration announced more than $28 million in canceled
+	contracts for the company.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1017565/</guid>
+            <pubDate>Tue, 15 Apr 2025 21:25:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Manjaro Linux 25.0 released</title>
             <link>https://lwn.net/Articles/1017538/</link>
