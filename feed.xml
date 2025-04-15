@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 15 Apr 2025 18:10:18 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Apr 2025 18:13:45 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 15 Apr 2025 18:38:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -444,39 +444,6 @@ support for TLS groups deprecated in <a
 href="https://www.rfc-editor.org/rfc/rfc8422">RFC 8422</a>, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/1016851/</guid>
             <pubDate>Tue, 08 Apr 2025 19:13:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>FreeDOS 1.4 released</title>
-            <link>https://lwn.net/Articles/1016849/</link>
-            <description><![CDATA[<p><a href="https://www.freedos.org/download/announce.html">Version
-1.4</a> of <a href="https://www.freedos.org/">FreeDOS</a> has been
-released. This is the first stable release since 2022, and
-includes improvements to the Fdisk hard-disk-management program, and
-reliability updates for the mTCP set of TCP/IP applications for
-DOS.</p>
-
-<blockquote class="bq">
-<p>This version was much smoother because Jerome Shidel, our
-distribution manager, had an idea after FreeDOS 1.3 that we could have
-a rolling test release that collected all of the changes that people
-make over time. Previous to this, each new FreeDOS distribution (like
-1.0, 1.1, 1.2, and 1.3) required bundling up packages into a "release
-candidate," and we would go through several iterations of updating the
-release candidates.</p>
-
-<p>Jerome's method of building the FreeDOS distribution made it easier
-to automate a test release, which we decided to update every month. As
-the test releases accumulated enough changes to warrant a release, we
-could then make the next test release a "release candidate" which
-would iterate to the next version of the FreeDOS distribution. Since
-2022, we've released monthly test releases. Thanks Jerome!</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/979780/">covered</a> FreeDOS
-last year for its 30th anniversary.</p>]]></description>
-            <guid>https://lwn.net/Articles/1016849/</guid>
-            <pubDate>Tue, 08 Apr 2025 17:54:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
