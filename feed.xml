@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Apr 2025 18:09:28 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Apr 2025 18:15:39 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Apr 2025 18:36:22 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Apr 2025 18:42:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -461,30 +461,6 @@ issues that need to be worked out.]]></description>
             <guid>https://lwn.net/Articles/1015409/</guid>
             <pubDate>Thu, 27 Mar 2025 13:43:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Hardening the Firefox frontend</title>
-            <link>https://lwn.net/Articles/1016978/</link>
-            <description><![CDATA[<p>Tom Schuster, Frederik Braun, and Christoph Kerschbaumer have
-published an <a
-href="https://attackanddefense.dev/2025/04/09/hardening-the-firefox-frontend-with-content-security-policies.html">article</a>
-on the Firefox Security team's <span class="nobreak"><a
-href="https://attackanddefense.dev/">Attack &amp; Defense</a></span>
-blog that explains recent work to harden Firefox's frontend code.</p>
-
-<blockquote class="bq">
-We have rewritten over 600 JavaScript event handlers to mitigate XSS
-and other injection attacks in the main Firefox user interface. This
-mitigation will ship in Firefox 138. However, blocking the execution
-of scripts in the parent process is not the end - we will expand this
-technique to other contexts in the near future. There is still more
-work to do as the UI requires JavaScript APIs with a high level of
-privileges. However: We still eliminated a whole class of attacks,
-significantly raising the bar for attackers to exploit Firefox.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1016978/</guid>
-            <pubDate>Wed, 09 Apr 2025 18:00:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
