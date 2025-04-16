@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Apr 2025 12:46:34 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Apr 2025 13:03:07 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Apr 2025 13:27:34 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Apr 2025 13:38:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1017670/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gvisor-tap-vsock, kernel, and kernel-rt), <b>Fedora</b> (chromium, dnf, dotnet9.0, golang, lemonldap-ng, mariadb10.11, perl-Crypt-URandom-Token, perl-DBIx-Class-EncodedColumn, php-tcpdf, podman-tui, and trunk), <b>Red Hat</b> (java-17-openjdk and kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache2-mod_auth_openidc, cosign, etcd, expat, flannel, kernel, libsqlite3-0, libvarnishapi3, mozjs52, Multi-Linux Manager 4.3: Server, Multi-Linux Manager 5.0: Server, Proxy and Retail Server, pgadmin4, rekor, rsync, rubygem-bundler, and webkit2gtk3), and <b>Ubuntu</b> (7zip, Docker, and quickjs).]]></description>
+            <guid>https://lwn.net/Articles/1017670/</guid>
+            <pubDate>Wed, 16 Apr 2025 13:10:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>MITRE Warns CVE Program Faces Disruption (Security Week)</title>
             <link>https://lwn.net/Articles/1017565/</link>
@@ -445,14 +453,6 @@ versions using patterns like "OpenSSH_1*"</q>" may be confused by the
 new version number.</p>]]></description>
             <guid>https://lwn.net/Articles/1016924/</guid>
             <pubDate>Wed, 09 Apr 2025 13:18:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1016923/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (lemonldap-ng, libbssolv-perl, and phpmyadmin), <b>Fedora</b> (augeas, mariadb10.11, and thunderbird), <b>Oracle</b> (gimp, libxslt, python3.11, python3.12, tomcat, and xorg-x11-server), <b>Red Hat</b> (expat, grafana, opentelemetry-collector, and webkit2gtk3), <b>SUSE</b> (azure-cli-core, doomsday, kernel, and poppler), and <b>Ubuntu</b> (dotnet8, dotnet9, erlang, and poppler).]]></description>
-            <guid>https://lwn.net/Articles/1016923/</guid>
-            <pubDate>Wed, 09 Apr 2025 13:01:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
