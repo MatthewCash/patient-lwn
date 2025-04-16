@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Apr 2025 17:45:16 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Apr 2025 17:48:08 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Apr 2025 18:09:28 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Apr 2025 18:15:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Catanzaro: Dangerous arbitrary file read vulnerability in Yelp</title>
+            <link>https://lwn.net/Articles/1017727/</link>
+            <description><![CDATA[<p>GNOME contributor Michael Catanzaro has written a <a
+href="https://blogs.gnome.org/mcatanzaro/2025/04/15/dangerous-arbitrary-file-read-vulnerability-in-yelp-cve-2025-3155/">blog
+post</a> about a noteworthy vulnerability in GNOME's help browser, <a
+href="https://apps.gnome.org/Yelp/">Yelp</a>.</p>
+
+<blockquote class="bq">
+I don't normally blog about particular CVEs, but Yelp CVE-2025-3155 is
+noteworthy because it is quite severe, public for several weeks now,
+and not yet fixed upstream. In short, help files can read your
+filesystem and execute arbitrary JavaScript code, allowing an attacker
+to exfiltrate any files your Unix user has access to.
+</blockquote>
+
+<p>The vulnerability was first reported on December&#160;25, and it
+was made public on March&#160;26 after the 90-day-disclosure deadline
+was reached. <a
+href="https://gitlab.gnome.org/GNOME/yelp/-/issues/221#note_2359937">Patches</a>
+have been proposed to fix the issue. The bug reporter has published a <a
+href="https://gist.github.com/parrot409/e970b155358d45b298d7024edd9b17f2">writeup
+demonstrating the attack</a>. Catanzaro asks that Linux vendors
+"<q>please consider applying the provided patches even though they
+have not yet been accepted upstream</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1017727/</guid>
+            <pubDate>Wed, 16 Apr 2025 17:54:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>CISA extends funding to the CVE program (BleepingComputer)</title>
             <link>https://lwn.net/Articles/1017704/</link>
