@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Apr 2025 15:11:51 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Apr 2025 15:13:51 +0000</lastBuildDate>
+        <pubDate>Wed, 16 Apr 2025 15:27:24 +0000</pubDate>
+        <lastBuildDate>Wed, 16 Apr 2025 15:33:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>CISA extends funding to the CVE program (BleepingComputer)</title>
+            <link>https://lwn.net/Articles/1017704/</link>
+            <description><![CDATA[<p>Sergiu Gatlan <a
+href="https://www.bleepingcomputer.com/news/security/cisa-extends-funding-to-ensure-no-lapse-in-critical-cve-services/">reports</a>
+that the US government has extended funding for the Common
+Vulnerabilities and Exposures (CVE) program, following yesterday's <a
+href="https://lwn.net/Articles/1017565/">reports</a> that funding
+would run out as of April&#160;16.</p>
+
+<blockquote class="bq">
+"The CVE Program is invaluable to cyber community and a priority of
+CISA," the U.S. cybersecurity agency told BleepingComputer. "Last
+night, CISA executed the option period on the contract to ensure there
+will be no lapse in critical CVE services. We appreciate our partners'
+and stakeholders' patience."
+</blockquote>
+
+<p>The article also mentions the launch of a <a
+href="https://www.thecvefoundation.org/home">CVE Foundation</a>, to
+transition the CVE program to a dedicated foundation and eliminate
+"<q>a single point of failure in the vulnerability management
+ecosystem</q>", as well as a <a
+href="https://euvd.enisa.europa.eu/">European vulnerability
+database</a> (EUVD) backed by the European Union Agency for
+Cybersecurity (ENISA). Details on these initiatives are scant at the
+moment, and it is unclear whether restoration of funding will have any
+impact on these efforts.</p>]]></description>
+            <guid>https://lwn.net/Articles/1017704/</guid>
+            <pubDate>Wed, 16 Apr 2025 15:14:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1017670/</link>
