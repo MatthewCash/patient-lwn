@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Apr 2025 14:03:33 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Apr 2025 14:11:28 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Apr 2025 14:23:54 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Apr 2025 14:33:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1017919/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and libapache2-mod-auth-openidc), <b>Oracle</b> (expat, freetype, glibc, grub2, gvisor-tap-vsock, and kernel), <b>Red Hat</b> (grub2 and webkit2gtk3), and <b>SUSE</b> (apache2-mod_auth_openidc, cosign, gitoxide, govulncheck-vulndb, GraphicsMagick, haproxy, hauler, mozjs52, oci-cli, pam, perl-Data-Entropy, poppler, python-lxml-doc, python311-aiohttp, rekor, rubygem-rexml, and webkit2gtk3).]]></description>
+            <guid>https://lwn.net/Articles/1017919/</guid>
+            <pubDate>Thu, 17 Apr 2025 14:19:57 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for April 10, 2025</title>
             <link>https://lwn.net/Articles/1016366/</link>
