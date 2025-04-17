@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Apr 2025 13:38:22 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Apr 2025 13:49:39 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Apr 2025 14:03:33 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Apr 2025 14:11:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -517,23 +517,6 @@ For GCC 15, I've gone through C and C++'s errors, looking for places where two d
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1017132/</guid>
             <pubDate>Thu, 10 Apr 2025 20:29:37 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Eight new stable kernels</title>
-            <link>https://lwn.net/Articles/1017048/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of eight stable kernels: <a
-href="https://lwn.net/Articles/1017049/">6.14.2</a>, <a
-href="https://lwn.net/Articles/1017051/">6.13.11</a>, <a
-href="https://lwn.net/Articles/1017052/">6.12.23</a>, <a
-href="https://lwn.net/Articles/1017053/">6.6.87</a>, <a
-href="https://lwn.net/Articles/1017054/">6.1.134</a>, <a
-href="https://lwn.net/Articles/1017055/">5.15.180</a>, <a
-href="https://lwn.net/Articles/1017056/">5.10.236</a>, and <a
-href="https://lwn.net/Articles/1017057/">5.4.292</a>.  These all contain a large
-assortment of important kernel fixes throughout the tree.]]></description>
-            <guid>https://lwn.net/Articles/1017048/</guid>
-            <pubDate>Thu, 10 Apr 2025 13:45:32 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
