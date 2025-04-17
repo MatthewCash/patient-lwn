@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Apr 2025 15:48:55 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Apr 2025 16:14:00 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Apr 2025 16:35:05 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Apr 2025 16:38:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Ubuntu 25.04 released</title>
+            <link>https://lwn.net/Articles/1017930/</link>
+            <description><![CDATA[<a
+href="https://canonical.com/blog/canonical-releases-ubuntu-25-04-plucky-puffin">Version
+25.04</a> ("Plucky Puffin") of the Ubuntu Linux distribution has been
+released. This release includes Linux 6.14, GNOME 48, <a
+href="https://lwn.net/Articles/1017315/">APT 3.0</a>, and introduces a
+<a
+href="https://discourse.ubuntu.com/t/ubuntu-desktop-on-arm64-history-benefits-and-what-s-next/57775">Arm64
+desktop ISO</a> to install Ubuntu Desktop on Arm64 systems. This is an
+interim release, with support through January&#160;2026. See the <a
+href="https://discourse.ubuntu.com/t/plucky-puffin-release-notes/48687">release
+notes</a> for a detailed list of new features and changes.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1017930/</guid>
+            <pubDate>Thu, 17 Apr 2025 16:35:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Tor Browser 14.5 released</title>
             <link>https://lwn.net/Articles/1017923/</link>
