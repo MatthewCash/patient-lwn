@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 18 Apr 2025 13:09:30 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Apr 2025 13:25:01 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 18 Apr 2025 13:40:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -553,14 +553,6 @@ yet, so let's see how it goes.</q>"]]></description>
             <guid>https://lwn.net/Articles/1017325/</guid>
             <pubDate>Sun, 13 Apr 2025 22:04:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1017197/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve and golang and go-toolset:rhel8), <b>Debian</b> (webkit2gtk), <b>Fedora</b> (openvpn, thunderbird, uboot-tools, and zabbix), <b>SUSE</b> (expat, fontforge, govulncheck-vulndb, and kernel), and <b>Ubuntu</b> (haproxy and libsoup2.4, libsoup3).]]></description>
-            <guid>https://lwn.net/Articles/1017197/</guid>
-            <pubDate>Fri, 11 Apr 2025 13:19:31 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
