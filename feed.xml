@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Apr 2025 12:22:49 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Apr 2025 12:59:42 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Apr 2025 13:09:30 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Apr 2025 13:25:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1018020/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (graphicsmagick and libapache2-mod-auth-openidc), <b>Fedora</b> (giflib, mod_auth_openidc, mysql8.0, perl, perl-Devel-Cover, perl-PAR-Packer, perl-String-Compare-ConstantTime, rust-openssl, rust-openssl-sys, trunk, and workrave), <b>Mageia</b> (chromium-browser-stable and rust), <b>Oracle</b> (java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, kernel, libreoffice, and webkit2gtk3), <b>Red Hat</b> (gvisor-tap-vsock), <b>SUSE</b> (containerd, docker, docker-stable, forgejo, GraphicsMagick, libmozjs-115-0, perl-32bit, poppler, subfinder, and thunderbird), and <b>Ubuntu</b> (erlang and ruby2.3, ruby2.5).]]></description>
+            <guid>https://lwn.net/Articles/1018020/</guid>
+            <pubDate>Fri, 18 Apr 2025 13:09:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Ubuntu 25.04 released</title>
             <link>https://lwn.net/Articles/1017930/</link>
