@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Apr 2025 14:24:36 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Apr 2025 15:30:29 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Apr 2025 15:37:42 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Apr 2025 15:41:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>EU OS: A European Proposal for a Public Sector Linux Desktop (The New Stack)</title>
+            <link>https://lwn.net/Articles/1018058/</link>
+            <description><![CDATA[The New Stack <a
+href="https://thenewstack.io/eu-os-a-european-proposal-for-a-public-sector-linux-desktop/">looks
+at EU OS</a>, an attempt to create a desktop system for the European public
+sector.
+<p>
+<blockquote class="bq">
+	EU OS is not a brand-new Linux distribution in the traditional
+	sense. Instead, it is a proof-of-concept built atop Fedora's
+	immutable KDE Plasma spin (Kinoite). EU OS takes a layered approach
+	to customization. The project's vision is to provide a standard,
+	adaptable Linux base that can be extended with national, regional
+	or sector-specific customizations, making it suitable for a wide
+	range of European public sector needs.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1018058/</guid>
+            <pubDate>Fri, 18 Apr 2025 15:37:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1018020/</link>
