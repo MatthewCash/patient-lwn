@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 20 Apr 2025 08:43:13 +0000</pubDate>
-        <lastBuildDate>Sun, 20 Apr 2025 13:20:13 +0000</lastBuildDate>
+        <pubDate>Sun, 20 Apr 2025 13:39:28 +0000</pubDate>
+        <lastBuildDate>Sun, 20 Apr 2025 13:40:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels</title>
+            <link>https://lwn.net/Articles/1018171/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1018173/">6.14.3</a>,
+<a href="https://lwn.net/Articles/1018172/">6.13.12</a>, and
+<a href="https://lwn.net/Articles/1018174/">6.12.24</a> stable kernel updates have been
+released; each contains another set of important fixes.  Note that the
+6.13.x series ends with 6.13.12.]]></description>
+            <guid>https://lwn.net/Articles/1018171/</guid>
+            <pubDate>Sun, 20 Apr 2025 13:39:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>EU OS: A European Proposal for a Public Sector Linux Desktop (The New Stack)</title>
             <link>https://lwn.net/Articles/1018058/</link>
