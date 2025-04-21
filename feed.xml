@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Apr 2025 11:53:03 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Apr 2025 13:44:24 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Apr 2025 13:47:59 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Apr 2025 13:49:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1018292/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (erlang, fig2dev, shadow, wget, and zabbix), <b>Fedora</b> (chromium, jupyterlab, llama-cpp, prometheus-podman-exporter, python-notebook, python-pydantic-core, rpki-client, rust-adblock, rust-cookie_store, rust-gitui, rust-gstreamer, rust-icu_collections, rust-icu_locid, rust-icu_locid_transform, rust-icu_locid_transform_data, rust-icu_normalizer, rust-icu_normalizer_data, rust-icu_properties, rust-icu_properties_data, rust-icu_provider, rust-icu_provider_macros, rust-idna, rust-idna_adapter, rust-litemap, rust-ron, rust-sequoia-openpgp, rust-sequoia-openpgp1, rust-tinystr, rust-url, rust-utf16_iter, rust-version-ranges, rust-write16, rust-writeable, rust-zerovec, rust-zip, uv, and webkitgtk), <b>Slackware</b> (libxml2 and zsh), <b>SUSE</b> (argocd-cli, chromium, coredns, ffmpeg-6, and firefox), and <b>Ubuntu</b> (imagemagick).]]></description>
+            <guid>https://lwn.net/Articles/1018292/</guid>
+            <pubDate>Mon, 21 Apr 2025 13:47:59 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.15-rc3</title>
             <link>https://lwn.net/Articles/1018193/</link>
