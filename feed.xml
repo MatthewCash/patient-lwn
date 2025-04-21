@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Apr 2025 14:05:20 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Apr 2025 14:31:59 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Apr 2025 14:39:35 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Apr 2025 14:48:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Template strings accepted for Python 3.14</title>
+            <link>https://lwn.net/Articles/1018297/</link>
+            <description><![CDATA[<p>
+The Python Steering Council
+<a href="https://discuss.python.org/t/pep750-template-strings-new-updates/71594/130">
+accepted</a> PEP 750
+("<a href="https://peps.python.org/pep-0750/">Template Strings</a>") on April 10. LWN
+<a href="https://lwn.net/Articles/985346/">covered</a> the discussion around the proposal, including the
+<a href="https://lwn.net/Articles/1005000/">substantial revisions</a> to the idea that were needed for it
+to be accepted. Template strings (t-strings) are a new kind of string that produces
+structured data instead of a raw string, allowing library authors to build their own custom
+template-handling logic.
+Since the approval happened before the cutoff for new features (May 6),
+support for template strings will be included in Python 3.14, scheduled for October 2025.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1018297/</guid>
+            <pubDate>Mon, 21 Apr 2025 14:37:42 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1018292/</link>
