@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 21 Apr 2025 11:53:03 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Apr 2025 13:29:08 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 21 Apr 2025 13:44:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -579,14 +579,6 @@ also includes a number of improvements, new effects, and bug fixes.</p>]]></desc
             <guid>https://lwn.net/Articles/1017438/</guid>
             <pubDate>Mon, 14 Apr 2025 15:16:05 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1017396/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (glib2.0, jinja2, kernel, mediawiki, perl, subversion, twitter-bootstrap3, twitter-bootstrap4, and wpa), <b>Fedora</b> (c-ares, chromium, condor, corosync, cri-tools1.29, exim, firefox, matrix-synapse, nextcloud, openvpn, perl-Data-Entropy, suricata, upx, varnish, webkitgtk, yarnpkg, and zabbix), <b>Mageia</b> (giflib, gnupg2, graphicsmagick, and poppler), <b>Oracle</b> (delve and golang, go-toolset:ol8, grub2, and webkit2gtk3), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (chromium, fontforge-20230101, govulncheck-vulndb, kernel, liblzma5-32bit, pgadmin4, python311-Django, and python311-PyJWT), and <b>Ubuntu</b> (graphicsmagick).]]></description>
-            <guid>https://lwn.net/Articles/1017396/</guid>
-            <pubDate>Mon, 14 Apr 2025 13:35:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
