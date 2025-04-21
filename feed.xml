@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Apr 2025 15:06:54 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Apr 2025 15:30:42 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Apr 2025 15:33:19 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Apr 2025 15:42:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -623,21 +623,6 @@ Fedora&#160;42.</p>]]></description>
             <guid>https://lwn.net/Articles/1017514/</guid>
             <pubDate>Tue, 15 Apr 2025 13:22:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Pinta 3.0 released</title>
-            <link>https://lwn.net/Articles/1017438/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/PintaProject/Pinta/releases/tag/3.0">Version
-3.0</a> of the <a href="https://www.pinta-project.com/">Pinta</a>
-image editor has been released. The most notable change in this
-release is that Pinta has been ported to <a
-href="https://docs.gtk.org/gtk4/">GTK&#160;4.0</a> and <a
-href="https://gnome.pages.gitlab.gnome.org/libadwaita/">libadwaita</a>. It
-also includes a number of improvements, new effects, and bug fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1017438/</guid>
-            <pubDate>Mon, 14 Apr 2025 15:16:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
