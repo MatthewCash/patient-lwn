@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Apr 2025 14:39:35 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Apr 2025 14:48:33 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Apr 2025 15:06:54 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Apr 2025 15:11:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RISC-V images for Fedora Linux 42</title>
+            <link>https://lwn.net/Articles/1018322/</link>
+            <description><![CDATA[<p>The Fedora Project's <a
+href="https://fedoraproject.org/wiki/SIGs/RISC-V">RISC-V
+special-interest group</a> (SIG) has <a
+href="https://fedoramagazine.org/full-steam-ahead-with-risc-v-and-fedora-linux-42/">announced</a>
+the availability of Fedora&#160;Linux&#160;42 images for <a
+href="https://fedoraproject.org/wiki/Architectures/RISC-V/Hardware#Supported_Hardware">supported
+RISC-V boards</a>, as well as <a
+href="https://fedoraproject.org/wiki/Architectures/RISC-V/QEMU">QEMU</a>
+and container images. The SIG is working toward making RISC-V a
+primary architecture for Fedora, and has made significant progress in
+the past year.</p>
+
+<blockquote class="bq">
+<p>Our upstreaming work continues apace, and we want to acknowledge
+that none of this progress would be possible without the incredible
+collaboration from maintainers across the Fedora Project and
+beyond. Thank you to everyone who reviewed, accepted, merged, and
+built our patches. Your support makes this architecture possible.</p>
+
+<p>We're also excited about just how many packages build cleanly
+without special treatment or overlay repositories that need to be
+cared for. RISC-V is becoming just another architecture, and that's
+exactly how it should be.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1018322/</guid>
+            <pubDate>Mon, 21 Apr 2025 15:06:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Template strings accepted for Python 3.14</title>
             <link>https://lwn.net/Articles/1018297/</link>
