@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 22 Apr 2025 14:25:28 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Apr 2025 14:34:33 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 22 Apr 2025 14:50:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -589,39 +589,6 @@ distribution is now available. This release includes Linux kernel 6.12,
 GNOME&#160;48, KDE&#160;6.3, Xfce&#160;4.18, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/1017538/</guid>
             <pubDate>Tue, 15 Apr 2025 14:36:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 42 released (Fedora Magazine)</title>
-            <link>https://lwn.net/Articles/1017537/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://fedoramagazine.org/announcing-fedora-linux-42/">announced</a>
-the release of Fedora Linux&#160;42, with "what's new" articles for <a
-href="https://fedoramagazine.org/whats-new-fedora-workstation-42/">Fedora&#160;Workstation</a>
-and <a
-href="https://fedoramagazine.org/whats-new-for-fedora-kde-plasma-desktop-42/">Fedora&#160;KDE&#160;Plasma&#160;Desktop</a>. There
-is also a last-minute warning about the live media for the release:</p>
-
-<blockquote class="bq">
-<p>We discovered a problem with the Live boot media at the last
-minute, and since the release was already out of the airlock, we can't
-do much about it. It doesn't damage anything, but is annoying: just
-booting the Live media adds an unexpected entry to the UEFI boot
-loader <em>even when Fedora Linux 42 is not installed to the local
-system.</em></p>
-
-<p>This is primarily a concern when you are dual-booting with a
-different operating system, or if you're just running the Live image
-and not intending to actually install.</p>
-</blockquote>
-
-<p>See the <a
-href="https://docs.fedoraproject.org/en-US/fedora/latest/release-notes/">release
-notes</a> for more information, and LWN's <a
-href="https://lwn.net/Articles/1016845/">coverage</a> of
-Fedora&#160;42.</p>]]></description>
-            <guid>https://lwn.net/Articles/1017537/</guid>
-            <pubDate>Tue, 15 Apr 2025 14:25:11 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
