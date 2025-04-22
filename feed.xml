@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Apr 2025 12:19:02 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Apr 2025 13:02:04 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Apr 2025 13:33:42 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Apr 2025 13:38:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1018444/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk, kernel, libxslt, mod_auth_openidc:2.3, and webkit2gtk3), <b>Fedora</b> (c-ares, giflib, jupyterlab, perl, perl-Devel-Cover, perl-PAR-Packer, prometheus-podman-exporter, python-notebook, python-pydantic-core, rpki-client, ruby, rust-adblock, rust-cookie_store, rust-gitui, rust-gstreamer, rust-icu_collections, rust-icu_locid, rust-icu_locid_transform, rust-icu_locid_transform_data, rust-icu_normalizer, rust-icu_normalizer_data, rust-icu_properties, rust-icu_properties_data, rust-icu_provider, rust-icu_provider_macros, rust-idna, rust-idna_adapter, rust-litemap, rust-ron, rust-sequoia-openpgp, rust-sequoia-openpgp1, rust-tinystr, rust-url, rust-utf16_iter, rust-version-ranges, rust-write16, rust-writeable, rust-zerovec, rust-zip, thunderbird, and uv), <b>SUSE</b> (erlang, erlang26, and govulncheck-vulndb), and <b>Ubuntu</b> (mosquitto).]]></description>
+            <guid>https://lwn.net/Articles/1018444/</guid>
+            <pubDate>Tue, 22 Apr 2025 13:20:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>RISC-V images for Fedora Linux 42</title>
             <link>https://lwn.net/Articles/1018322/</link>
