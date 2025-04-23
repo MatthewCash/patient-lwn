@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Apr 2025 16:13:03 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Apr 2025 16:14:40 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Apr 2025 16:22:17 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Apr 2025 16:40:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>NLnet announces funding for 42 FOSS projects</title>
+            <link>https://lwn.net/Articles/1018621/</link>
+            <description><![CDATA[<p>The <a href="https://nlnet.nl/">NLnet Foundation</a> has <a
+href="https://nlnet.nl/news/2025/20250422-announcement-grants-CommonsFund.html">announced</a>
+the projects that have received funding from its <a
+href="https://nlnet.nl/news/2024/20240601-call.html">October call</a>
+for grant proposals from the <a
+href="https://www.ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next
+Generation Internet (NGI) Zero Commons Fund</a>.</p>
+
+<blockquote class="bq">
+The selected projects all contribute, one way or another, to the
+mission of the Commons Fund: reclaiming the public nature of the
+internet. For example, there are people working on interesting open
+hardware projects such as the tablet <a
+href="https://nlnet.nl/project/MNT-Reform-Touch/">MNT Reform Touch</a>
+and the <a href="https://nlnet.nl/project/Solar-FemtoTX/">Solar
+FemtoTX motherboard</a> — a collaborative effort to create an
+ultra-low power motherboard that can run on solar power. <a
+href="https://nlnet.nl/project/LLM2FPGA/">LLM2FPGA</a> aims to enable
+running open source LLMs locally on programmable chips ("FPGAs") using
+a fully open-source toolchain. <a
+href="https://nlnet.nl/project/bcachefs-crypto-API/">bcachefs</a>
+readies itself as the next generation filesystem for Linux, improving
+performance, scalability and reliability when compared to legacy
+filesystems.
+</blockquote>
+
+<p>In all, 42 projects have been selected for the NGI grants which are
+between &euro;5,000 and &euro;50,000. See the announcement for the
+full list of selected projects, and the <a
+href="https://nlnet.nl/project/current.html">current projects</a> page
+for other recent projects funded by NLnet.</p>]]></description>
+            <guid>https://lwn.net/Articles/1018621/</guid>
+            <pubDate>Wed, 23 Apr 2025 16:16:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1018589/</link>
