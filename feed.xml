@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Apr 2025 12:50:25 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Apr 2025 13:03:44 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Apr 2025 13:27:11 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Apr 2025 13:39:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1018589/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bluez, expat, and postgresql:12), <b>Fedora</b> (chromium, golang, LibRaw, moodle, openiked, ruby, and trafficserver), <b>Red Hat</b> (bluez, expat, gnutls, libtasn1, libxslt, mod_auth_openidc, mod_auth_openidc:2.3, ruby:3.1, thunderbird, and xmlrpc-c), and <b>Ubuntu</b> (linux, linux-aws, linux-gcp, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oracle, linux-raspi, linux-realtime, linux-azure, linux-azure-6.11, linux-gcp-6.8, and matrix-synapse).]]></description>
+            <guid>https://lwn.net/Articles/1018589/</guid>
+            <pubDate>Wed, 23 Apr 2025 13:10:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1018444/</link>
@@ -546,14 +554,6 @@ moment, and it is unclear whether restoration of funding will have any
 impact on these efforts.</p>]]></description>
             <guid>https://lwn.net/Articles/1017704/</guid>
             <pubDate>Wed, 16 Apr 2025 15:14:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1017670/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gvisor-tap-vsock, kernel, and kernel-rt), <b>Fedora</b> (chromium, dnf, dotnet9.0, golang, lemonldap-ng, mariadb10.11, perl-Crypt-URandom-Token, perl-DBIx-Class-EncodedColumn, php-tcpdf, podman-tui, and trunk), <b>Red Hat</b> (java-17-openjdk and kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (apache2-mod_auth_openidc, cosign, etcd, expat, flannel, kernel, libsqlite3-0, libvarnishapi3, mozjs52, Multi-Linux Manager 4.3: Server, Multi-Linux Manager 5.0: Server, Proxy and Retail Server, pgadmin4, rekor, rsync, rubygem-bundler, and webkit2gtk3), and <b>Ubuntu</b> (7zip, Docker, and quickjs).]]></description>
-            <guid>https://lwn.net/Articles/1017670/</guid>
-            <pubDate>Wed, 16 Apr 2025 13:10:40 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
