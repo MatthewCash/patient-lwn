@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Apr 2025 14:30:57 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Apr 2025 14:50:53 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Apr 2025 14:59:41 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Apr 2025 15:12:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -446,37 +446,6 @@ notes</a> for a detailed list of new features and changes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1017930/</guid>
             <pubDate>Thu, 17 Apr 2025 16:35:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Tor Browser 14.5 released</title>
-            <link>https://lwn.net/Articles/1017923/</link>
-            <description><![CDATA[<p><a
-href="https://blog.torproject.org/new-release-tor-browser-145/">Version
-14.5</a> of the <a href="https://tb-manual.torproject.org/about/">Tor
-Browser</a> has been released. Notable features in this release
-include the addition of Connection Assist for the Android version of
-the Tor Browser, and language support for Belarusian, Bulgarian, and
-Portuguese for all versions of the browser.</p>
-
-<blockquote class="bq">
-Should Tor Browser fail to establish a direct connection to the Tor
-network, Connection Assist will offer to find and try bridges for
-you. But before this feature could be made available on Android, we
-had to embark on a multi-year effort to refactor our tor integration
-across each platform first. This project has now reached an important
-milestone, and we're proud to announce the release of Connection
-Assist for Android today.
-</blockquote>
-
-<p>See the <a
-href="https://blog.torproject.org/new-release-tor-browser-145/#:~:text=Full%20changelog">full
-changelog</a> for all changes in this release, and the <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser/-/issues">issues
-page</a> for known problems.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1017923/</guid>
-            <pubDate>Thu, 17 Apr 2025 15:04:23 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
