@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Apr 2025 13:50:37 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Apr 2025 13:51:51 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Apr 2025 14:09:43 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Apr 2025 14:10:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1018717/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (haproxy and openrazer), <b>Fedora</b> (c-ares and mingw-poppler), <b>Red Hat</b> (thunderbird), <b>SUSE</b> (epiphany, ffmpeg-6, gopass, and libsoup-3_0-0), and <b>Ubuntu</b> (erlang, haproxy, libapache2-mod-auth-openidc, libarchive, linux, linux-aws, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle, linux-raspi, linux, linux-aws, linux-azure, linux-azure-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8, linux-aws-6.8, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-fips, linux-gcp, linux-gke, linux-gkeop, linux-gcp-6.8, linux-ibm-5.15, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-realtime, perl, and yelp, yelp-xsl).]]></description>
+            <guid>https://lwn.net/Articles/1018717/</guid>
+            <pubDate>Thu, 24 Apr 2025 14:00:08 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for April 17, 2025</title>
             <link>https://lwn.net/Articles/1017012/</link>
