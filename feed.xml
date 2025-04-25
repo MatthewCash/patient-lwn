@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 25 Apr 2025 12:49:16 +0000</pubDate>
-        <lastBuildDate>Fri, 25 Apr 2025 13:02:29 +0000</lastBuildDate>
+        <pubDate>Fri, 25 Apr 2025 13:35:47 +0000</pubDate>
+        <lastBuildDate>Fri, 25 Apr 2025 13:37:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1018912/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (thunderbird), <b>Debian</b> (libbpf), <b>Fedora</b> (golang-github-openprinting-ipp-usb, ImageMagick, mingw-libsoup, mingw-poppler, and pgbouncer), <b>SUSE</b> (glib2, govulncheck-vulndb, libsoup-2_4-1, libxml2-2, mozjs60, ruby2.5, and thunderbird), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-5.4, linux-bluefield, linux-gcp, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-iot, linux-aws-fips, linux-azure-fips, linux-fips, linux-gcp-fips, linux-hwe-6.8, linux-ibm-5.4, linux-oracle-5.15, openssh, and php-twig).]]></description>
+            <guid>https://lwn.net/Articles/1018912/</guid>
+            <pubDate>Fri, 25 Apr 2025 13:27:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Four stable kernel updates</title>
+            <link>https://lwn.net/Articles/1018913/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1018914/">6.14.4</a>,
+<a href="https://lwn.net/Articles/1018915/">6.12.25</a>,
+<a href="https://lwn.net/Articles/1018916/">6.6.88</a>, and
+<a href="https://lwn.net/Articles/1018917/">6.1.135</a>
+stable kernel updates have been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1018913/</guid>
+            <pubDate>Fri, 25 Apr 2025 13:29:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>GCC 15.1 released</title>
+            <link>https://lwn.net/Articles/1018920/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/aAtlfgZQyPsfBPKA@tucnak">Version 15.1</a> of the GNU
+Compiler Collection has been released.  Changes include implementing the
+C23 dialect by default, a number of new C++26 features, experimental
+support for unsigned integers in Fortran, a new COBOL front end, and
+more. See <a href="https://gcc.gnu.org/gcc-15/changes.html">the GCC&#160;15
+changes page</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1018920/</guid>
+            <pubDate>Fri, 25 Apr 2025 13:35:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Debian Project Leader Election 2025 results</title>
             <link>https://lwn.net/Articles/1018826/</link>
@@ -437,14 +471,6 @@ sector.
             <guid>https://lwn.net/Articles/1018058/</guid>
             <pubDate>Fri, 18 Apr 2025 15:37:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1018020/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (graphicsmagick and libapache2-mod-auth-openidc), <b>Fedora</b> (giflib, mod_auth_openidc, mysql8.0, perl, perl-Devel-Cover, perl-PAR-Packer, perl-String-Compare-ConstantTime, rust-openssl, rust-openssl-sys, trunk, and workrave), <b>Mageia</b> (chromium-browser-stable and rust), <b>Oracle</b> (java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, kernel, libreoffice, and webkit2gtk3), <b>Red Hat</b> (gvisor-tap-vsock), <b>SUSE</b> (containerd, docker, docker-stable, forgejo, GraphicsMagick, libmozjs-115-0, perl-32bit, poppler, subfinder, and thunderbird), and <b>Ubuntu</b> (erlang and ruby2.3, ruby2.5).]]></description>
-            <guid>https://lwn.net/Articles/1018020/</guid>
-            <pubDate>Fri, 18 Apr 2025 13:09:30 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
