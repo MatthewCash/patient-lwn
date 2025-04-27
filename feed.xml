@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 27 Apr 2025 21:16:00 +0000</pubDate>
-        <lastBuildDate>Sun, 27 Apr 2025 23:10:41 +0000</lastBuildDate>
+        <pubDate>Sun, 27 Apr 2025 23:27:44 +0000</pubDate>
+        <lastBuildDate>Sun, 27 Apr 2025 23:29:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.15-rc4</title>
+            <link>https://lwn.net/Articles/1019110/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1019111/">6.15-rc4</a> kernel prepatch is out for
+testing.  "<q>So let's see if this rc ends up avoiding any silly issues -
+things certainly look pretty normal, and there were no hurried last-minute
+changes this week due to system upgrades</q>".]]></description>
+            <guid>https://lwn.net/Articles/1019110/</guid>
+            <pubDate>Sun, 27 Apr 2025 23:21:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OpenBSD 7.7 released</title>
             <link>https://lwn.net/Articles/1019104/</link>
