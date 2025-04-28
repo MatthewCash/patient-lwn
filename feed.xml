@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Apr 2025 17:34:21 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Apr 2025 18:42:45 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Apr 2025 18:44:31 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Apr 2025 18:53:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Valgrind-3.25.0 is available</title>
+            <link>https://lwn.net/Articles/1019227/</link>
+            <description><![CDATA[Version 3.25.0 of the <a href="https://valgrind.org/">Valgrind</a>
+dynamic-analysis tool has been released.  It has lots of new features,
+including initial support for RISC-V on Linux, handling zstd-compressed
+debug sections, integration of the <a
+href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
+Project</a> test suite, support for lots more Linux system calls, and more.
+It also has plenty of bug fixes, of course.]]></description>
+            <guid>https://lwn.net/Articles/1019227/</guid>
+            <pubDate>Mon, 28 Apr 2025 18:44:30 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>OSI publishes election retrospective</title>
             <link>https://lwn.net/Articles/1019215/</link>
