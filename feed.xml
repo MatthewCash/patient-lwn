@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Apr 2025 14:56:56 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Apr 2025 15:12:06 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Apr 2025 15:31:44 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Apr 2025 15:32:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Meson 1.8.0 released</title>
+            <link>https://lwn.net/Articles/1019321/</link>
+            <description><![CDATA[<p><a
+href="https://mesonbuild.com/Release-notes-for-1-8-0.html">Version&#160;1.8.0</a>
+of the <a href="https://mesonbuild.com/">Meson</a> build system has
+been released. Notable changes in this release include the ability to
+run <tt>rustdoc</tt> for Rust projects, support for the c2y and gnu2y
+compiler options, and a new argument (<tt>android_exe_type</tt>) that
+makes it possible to use the same <tt>meson.build</tt> file for
+Android and non-Android systems.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1019321/</guid>
+            <pubDate>Tue, 29 Apr 2025 15:16:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 138.0 released</title>
             <link>https://lwn.net/Articles/1019319/</link>
