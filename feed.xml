@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Apr 2025 13:40:56 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Apr 2025 13:44:32 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Apr 2025 13:50:12 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Apr 2025 13:55:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Barnes: Parallel ./configure</title>
+            <link>https://lwn.net/Articles/1019303/</link>
+            <description><![CDATA[Tavian Barnes <a href="https://tavianator.com/2025/configure.html">takes on
+the tedious process</a> of waiting for <tt>configure</tt> scripts to run.
+<p>
+<blockquote class="bq">
+	I paid good money for my 24 CPU cores, but ./configure can only
+	manage to use 69% of one of them. As a result, this random project
+	takes about 13.5× longer to <i>configure</i> the build than it does to
+	actually <i>do</i> the build.
+	<p>
+	The purpose of a ./configure script is basically to run the
+	compiler a bunch of times and check which runs succeeded. In this
+	way it can test whether particular headers, functions, struct
+	fields, etc. exist, which lets people write portable software. This
+	is an embarrassingly parallel problem, but Autoconf can't
+	parallelize it, and neither can CMake, neither can Meson, etc.,
+	etc.
+</blockquote>
+<p>
+(Thanks to Paul Wise).]]></description>
+            <guid>https://lwn.net/Articles/1019303/</guid>
+            <pubDate>Tue, 29 Apr 2025 13:46:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1019272/</link>
