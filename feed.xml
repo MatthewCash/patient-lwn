@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Apr 2025 11:35:12 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Apr 2025 11:48:19 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Apr 2025 12:20:55 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Apr 2025 12:21:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1019272/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (glibc, php:8.1, and thunderbird), <b>Debian</b> (libreoffice), <b>Fedora</b> (caddy), <b>Mageia</b> (chromium-browser-stable), <b>Red Hat</b> (php:8.1), <b>SUSE</b> (glow), and <b>Ubuntu</b> (kicad, linux-aws-5.15, linux-azure-nvidia, linux-gcp-5.15, mistral, python-mistral-lib, tomcat8, and trafficserver).]]></description>
+            <guid>https://lwn.net/Articles/1019272/</guid>
+            <pubDate>Tue, 29 Apr 2025 12:04:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Signing key change for Kali Linux</title>
+            <link>https://lwn.net/Articles/1019255/</link>
+            <description><![CDATA[The Kali Linux distribution has <a
+href="https://www.kali.org/blog/new-kali-archive-signing-key/">announced</a>
+that software updates will soon start failing for all users:
+<p>
+<blockquote class="bq">
+	This is not only you, this is for everyone, and this is entirely
+	our fault. We lost access to the signing key of the repository, so
+	we had to create a new one. At the same time, we froze the
+	repository (you might have noticed that there was no update since
+	Friday 18th), so nobody was impacted yet. But we're going to
+	unfreeze the repository this week, and it's now signed with the new
+	key.
+</blockquote>
+<p>
+The announcement includes instructions for how to recover from the problem.]]></description>
+            <guid>https://lwn.net/Articles/1019255/</guid>
+            <pubDate>Tue, 29 Apr 2025 12:05:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Valgrind-3.25.0 is available</title>
             <link>https://lwn.net/Articles/1019227/</link>
