@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Apr 2025 18:36:43 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Apr 2025 19:25:05 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Apr 2025 19:29:45 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Apr 2025 19:33:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LWN&apos;s Mastodon migration</title>
+            <link>https://lwn.net/Articles/1019336/</link>
+            <description><![CDATA[The LWN.net fediverse (Mastodon) feed has moved; we are now known as <a
+href="https://fedi.lwn.net/@LWN">@LWN@lwn.net</a>.  The migration magic has
+shifted many of our followers over automatically but, if you follow that
+stream, you might want to make sure that you have shifted to the new
+source.]]></description>
+            <guid>https://lwn.net/Articles/1019336/</guid>
+            <pubDate>Tue, 29 Apr 2025 19:29:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Meson 1.8.0 released</title>
             <link>https://lwn.net/Articles/1019321/</link>
