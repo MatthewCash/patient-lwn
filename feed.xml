@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Apr 2025 12:28:59 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Apr 2025 13:02:38 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Apr 2025 13:34:01 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Apr 2025 13:38:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1019457/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (glibc and libraw), <b>Fedora</b> (digikam, icecat, mingw-LibRaw, perl, perl-Devel-Cover, and perl-PAR-Packer), <b>Red Hat</b> (ghostscript, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (augeas, firefox, and java-11-openjdk), and <b>Ubuntu</b> (binutils, libxml2, and nodejs).]]></description>
+            <guid>https://lwn.net/Articles/1019457/</guid>
+            <pubDate>Wed, 30 Apr 2025 13:33:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>LWN&apos;s Mastodon migration</title>
             <link>https://lwn.net/Articles/1019336/</link>
