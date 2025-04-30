@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Apr 2025 15:17:10 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Apr 2025 15:32:51 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Apr 2025 15:43:01 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Apr 2025 15:49:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The conclusion of the FSF board review</title>
+            <link>https://lwn.net/Articles/1019479/</link>
+            <description><![CDATA[The Free Software Foundation has <a
+href="https://www.fsf.org/news/fsf-board-member-review-completed">announced</a>
+the completion of the review of its board of directors; the process
+resulted in the reconfirmation of all five sitting board members.
+<p>
+<blockquote class="bq">
+	The review examined board members Ian Kelling, Geoffrey Knauth,
+	Henry Poole, Richard Stallman, and Gerald Sussman. The process
+	generated detailed philosophical and policy discussions between
+	board members and the FSF's global associate members on topics
+	ranging from the firmness of the Free Software Definition,
+	developments in machine learning, to the board's president
+	position.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1019479/</guid>
+            <pubDate>Wed, 30 Apr 2025 15:42:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>How LWN is faring in 2025</title>
             <link>https://lwn.net/Articles/1019217/</link>
