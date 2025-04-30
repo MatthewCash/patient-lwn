@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 30 Apr 2025 13:34:01 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Apr 2025 13:38:20 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 30 Apr 2025 13:51:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -537,14 +537,6 @@ href="https://nlnet.nl/project/current.html">current projects</a> page
 for other recent projects funded by NLnet.</p>]]></description>
             <guid>https://lwn.net/Articles/1018621/</guid>
             <pubDate>Wed, 23 Apr 2025 16:16:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1018589/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bluez, expat, and postgresql:12), <b>Fedora</b> (chromium, golang, LibRaw, moodle, openiked, ruby, and trafficserver), <b>Red Hat</b> (bluez, expat, gnutls, libtasn1, libxslt, mod_auth_openidc, mod_auth_openidc:2.3, ruby:3.1, thunderbird, and xmlrpc-c), and <b>Ubuntu</b> (linux, linux-aws, linux-gcp, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oem-6.11, linux-oracle, linux-raspi, linux-realtime, linux-azure, linux-azure-6.11, linux-gcp-6.8, and matrix-synapse).]]></description>
-            <guid>https://lwn.net/Articles/1018589/</guid>
-            <pubDate>Wed, 23 Apr 2025 13:10:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
