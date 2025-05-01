@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 01 May 2025 22:28:10 +0000</pubDate>
-        <lastBuildDate>Thu, 1 May 2025 22:33:12 +0000</lastBuildDate>
+        <pubDate>Thu, 01 May 2025 22:34:56 +0000</pubDate>
+        <lastBuildDate>Thu, 1 May 2025 22:48:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -532,23 +532,6 @@ changes page</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1018920/</guid>
             <pubDate>Fri, 25 Apr 2025 13:35:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Debian Project Leader Election 2025 results</title>
-            <link>https://lwn.net/Articles/1018826/</link>
-            <description><![CDATA[<p>The Debian Project Leader <a
-href="https://www.debian.org/vote/2025/vote_001">election results</a>
-have been <a
-href="https://lwn.net/ml/debian-vote/aAqvGJWS2oXfUL_4%40roeckx.be/">announced</a>. Andreas
-Tille has been re-elected and will serve another term through
-April&#160;2026. LWN <a
-href="https://lwn.net/Articles/1016107/">looked at the election and
-candidates</a> in early April.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1018826/</guid>
-            <pubDate>Thu, 24 Apr 2025 22:25:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
