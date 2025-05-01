@@ -8,11 +8,186 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Apr 2025 23:14:29 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Apr 2025 23:48:13 +0000</lastBuildDate>
+        <pubDate>Thu, 01 May 2025 00:19:02 +0000</pubDate>
+        <lastBuildDate>Thu, 1 May 2025 00:57:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for April 24, 2025</title>
+            <link>https://lwn.net/Articles/1017842/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1017842/">Front</a>: Owen Le Blanc and MCC; UID/GID drift; DMA for UIO; More LSFMM+BPF 2025 coverage.
+            <li> <a href="https://lwn.net/Articles/1017844/">Briefs</a>: EU OS; RISC-V Fedora; Ubuntu 25.04; NLnet funding; Template strings; Tor Browser 14.5; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1017845/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1017842/</guid>
+            <pubDate>Thu, 24 Apr 2025 00:47:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Addressing UID/GID drift in rpm-ostree and bootc</title>
+            <link>https://lwn.net/Articles/1018082/</link>
+            <description><![CDATA[<p>The Fedora Project is looking for solutions to an interesting
+problem with its image-based editions and spins, such as the <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>
+or <a href="https://fedoraproject.org/coreos/">CoreOS</a>, that are
+created with <a
+href="https://coreos.github.io/rpm-ostree/">rpm-ostree</a> or <a
+href="https://bootc-dev.github.io/bootc/">bootc</a>. If a package that
+is part of a image-based version has a user or group created
+dynamically on installation, and it owns files installed on the
+system, the system may be subject to user ID (UID) and group ID (GID) "drift"
+on updates. This  "<span class="nobreak">UID/GID drift</span>" may come about when a new image with
+updates is generated, and therefore files may have the wrong
+ownership. This can have side-effects ranging from mildly inconvenient to
+serious. No solutions have been adopted just yet, but there are a few
+ideas on how to deal with the problem.</p>]]></description>
+            <guid>https://lwn.net/Articles/1018082/</guid>
+            <pubDate>Wed, 23 Apr 2025 17:05:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] VFS write barriers</title>
+            <link>https://lwn.net/Articles/1017947/</link>
+            <description><![CDATA[In the filesystem track at the 2025 Linux Storage, Filesystem, Memory
+Management, and BPF Summit (LSFMM+BPF), Amir Goldstein wanted to resume
+discussing
+a feature that he had briefly introduced at the end of a <a
+href="https://lwn.net/Articles/932415/">2023 summit session</a>: filesystem "write
+barriers".  The idea is to have an operation that would wait for any
+in-flight <a
+href="https://www.man7.org/linux/man-pages/man2/write.2.html"><tt>write()</tt></a>
+system calls, but not block any new <tt>write()</tt> calls as bigger
+hammers, such as freezing the filesystem,
+would do.  His prototype implementation is used by a <a
+href="https://en.wikipedia.org/wiki/Hierarchical_storage_management">hierarchical
+storage management</a> (HSM) system to create a crash-consistent
+change log, but there may be other use cases to consider.  He <a
+href="https://lwn.net/ml/all/CAOQ4uxj00D_fP3nRUBjAry6vwUCNjYuUpCZg2Uc8hwMk6n%2B2HA%40mail.gmail.com/">wanted
+to discuss</a> implementation options and the possibility of providing an
+API for user-space applications.]]></description>
+            <guid>https://lwn.net/Articles/1017947/</guid>
+            <pubDate>Wed, 23 Apr 2025 14:32:41 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Code signing for BPF programs</title>
+            <link>https://lwn.net/Articles/1017549/</link>
+            <description><![CDATA[<p>
+The Linux kernel can be configured so that
+kernel modules must be signed or
+<a href="https://lwn.net/Articles/1012946/">
+otherwise authenticated</a> to be loaded
+into the kernel. Some BPF developers want that to be an option for BPF programs
+as well — after all, if those are going to run as part of the kernel,
+they should be subject to the same code-signing requirements. Blaise Boscaccy
+and Cong Wang presented two different visions for how BPF code signing could
+work at the 2025 Linux Storage, Filesystem, Memory-Management, and BPF Summit.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1017549/</guid>
+            <pubDate>Tue, 22 Apr 2025 19:52:37 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] DMA addresses for UIO</title>
+            <link>https://lwn.net/Articles/1017449/</link>
+            <description><![CDATA[The <a href="https://docs.kernel.org/driver-api/uio-howto.html">Userspace
+I/O (UIO) subsystem</a> was first <a
+href="https://git.kernel.org/linus/beafc54c4e2f">added to the kernel</a> by
+Hans J. Koch for the 2.6.32 release in 2007.  Its purpose is to facilitate
+the writing of drivers (mostly) in user space; to that end, it provides
+access to a number of resources that user-space code normally cannot touch.
+One piece that is missing, though, is DMA addresses.  <a
+href="https://lwn.net/ml/all/20250410-uio-dma-v1-0-6468ace2c786@bootlin.com">A proposal to
+fill that gap</a> from Bastien Curutchet is running into some opposition,
+though.]]></description>
+            <guid>https://lwn.net/Articles/1017449/</guid>
+            <pubDate>Tue, 22 Apr 2025 17:24:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Indirect calls in BPF</title>
+            <link>https://lwn.net/Articles/1017439/</link>
+            <description><![CDATA[<p>
+Anton Protopopov kicked off the BPF track on
+the second day of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit with a discussion about permitting
+indirect calls in BPF. He also spoke about his continuing work on
+<a href="https://lwn.net/Articles/977993/">
+static keys</a>, a topic which is related because the implementation of indirect
+jumps and static keys in the verifier use some of the same mechanisms for
+tracking indirect control-flow.
+Although some design work remains to be done, it may soon be
+possible to make indirect calls in BPF without any extra work compared to normal
+C.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1017439/</guid>
+            <pubDate>Mon, 21 Apr 2025 20:27:59 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Owen Le Blanc: creator of the first Linux distribution</title>
+            <link>https://lwn.net/Articles/1017846/</link>
+            <description><![CDATA[<p>Ask a Linux enthusiast who created the Linux kernel, and odds are they will have
+no trouble naming Linus Torvalds&mdash;but many would be stumped if asked what the
+first Linux distribution was, and who created it. Some might guess <a
+href="http://www.slackware.com/">Slackware</a>, or its predecessor, <a
+href="https://en.wikipedia.org/wiki/Softlanding_Linux_System">Softlanding Linux
+System</a> (SLS); both were arguably more influential but arrived just a bit
+later. The first honest-to-goodness distribution with a proper installer was <a
+href="https://en.wikipedia.org/wiki/MCC_Interim_Linux">MCC&#160;Interim&#160;Linux</a>,
+created by Owen Le&#160;Blanc, released publicly in early&#160;1992. I recently
+reached out to Le&#160;Blanc to learn more about his work on the distribution, what
+he has been doing since, and his thoughts on Linux in&#160;2025.</p>]]></description>
+            <guid>https://lwn.net/Articles/1017846/</guid>
+            <pubDate>Mon, 21 Apr 2025 14:05:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The problem of unnecessary readahead</title>
+            <link>https://lwn.net/Articles/1016860/</link>
+            <description><![CDATA[The final session in the memory-management track of the 2025 Linux Storage,
+Filesystem, Memory-Management, and BPF Summit was a brief, last-minute
+addition run by Kalesh Singh.  The kernel's readahead mechanism is
+generally good for performance; it ensures that data is present by the time
+an application gets around to asking for it.  Sometimes, though, readahead
+can go a little too far.]]></description>
+            <guid>https://lwn.net/Articles/1016860/</guid>
+            <pubDate>Fri, 18 Apr 2025 14:24:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Tracepoints for the VFS?</title>
+            <link>https://lwn.net/Articles/1017573/</link>
+            <description><![CDATA[Adding tracepoints to some kernel subsystems has been controversial—or
+disallowed—due to <a href="https://lwn.net/Articles/705270/">concerns about the user-space
+ABI</a> that they might create.  The virtual filesystem (VFS) layer has
+long been one of the subsystems that has not allowed any tracepoints, but
+that may be changing. At the 2025 Linux Storage, Filesystem, Memory
+Management, and BPF Summit (LSFMM+BPF), Ted Ts'o led a discussion about
+whether the ABI concerns are outweighed by the utility of tracepoints for
+the VFS.]]></description>
+            <guid>https://lwn.net/Articles/1017573/</guid>
+            <pubDate>Fri, 18 Apr 2025 13:55:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Memory controller performance improvements</title>
+            <link>https://lwn.net/Articles/1016856/</link>
+            <description><![CDATA[The kernel's memory controller works within the control-group mechanism to
+enforce memory-usage limits on groups of processes.  This component has
+often had performance problems, so there is continual interest in
+optimizing it.  Shakeel Butt led a session during the memory-management
+track of the 2025 Linux Storage, Filesystem, Memory-Management, and BPF
+Summit to look at the current state of the memory controller and what can
+be done to reduce its overhead.]]></description>
+            <guid>https://lwn.net/Articles/1016856/</guid>
+            <pubDate>Thu, 17 Apr 2025 14:23:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Albertson: Future of OSL in Jeopardy</title>
             <link>https://lwn.net/Articles/1019520/</link>
@@ -319,249 +494,6 @@ candidates</a> in early April.</p>
             <guid>https://lwn.net/Articles/1018717/</guid>
             <pubDate>Thu, 24 Apr 2025 14:00:08 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 17, 2025</title>
-            <link>https://lwn.net/Articles/1017012/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1017012/">Front</a>: APT 3.0; Fedora 42; Lots more LSFMM+BPF coverage.
-            <li> <a href="https://lwn.net/Articles/1017014/">Briefs</a>: CVE funding; Yelp vulnerability; Fedora 42; Manjaro 25.0; GCC 15; Pinta 3.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1017015/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1017012/</guid>
-            <pubDate>Thu, 17 Apr 2025 01:00:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] What&apos;s new in APT 3.0</title>
-            <link>https://lwn.net/Articles/1017315/</link>
-            <description><![CDATA[<p>Debian's <a href="https://salsa.debian.org/apt-team/apt#apt">Advanced Package Tool</a> (APT) is the suite of utilities that handle package
-management on Debian and Debian-derived operating systems. APT recently received a
-major upgrade to 3.0 just in time for inclusion in <a
-href="https://www.debian.org/releases/trixie/releasenotes">Debian&#160;13</a>
-("trixie"), which is planned for release sometime in 2025. The version bump is
-warranted; the latest APT has user-interface improvements, switches to <a
-href="https://sequoia-pgp.org/projects/">Sequoia</a> to verify package
-signatures, and includes solver3&mdash;a new <a
-href="https://en.wikipedia.org/wiki/Solver">solver</a> that is designed to improve
-how it evaluates and resolves package dependencies.</p>]]></description>
-            <guid>https://lwn.net/Articles/1017315/</guid>
-            <pubDate>Wed, 16 Apr 2025 18:07:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Parallel directory operations</title>
-            <link>https://lwn.net/Articles/1017477/</link>
-            <description><![CDATA[Allowing directories to be modified in parallel was the topic of Jeff
-Layton's filesystem-track session at the 2025 Linux Storage, Filesystem,
-Memory Management, and BPF Summit (LSFMM+BPF).  There are certain use
-cases, including for the NFS and Lustre filesystems, as mentioned in a <a
-href="https://lwn.net/ml/all/20241220030830.272429-1-neilb%40suse.de/">patch set</a>
-referenced in the <a
-href="https://lwn.net/ml/all/f78f4a5e86c10d723fd60d51a52dd727924fed3a.camel%40kernel.org/">topic
-proposal</a>, where contention in creating multiple files in a directory is
-causing noticeable performance problems.  In some testing, Layton has found
-that the inode read-write semaphore (<tt>i_rwsem</tt>) for the directory is
-serializing operations; he wanted to discuss alternatives.]]></description>
-            <guid>https://lwn.net/Articles/1017477/</guid>
-            <pubDate>Wed, 16 Apr 2025 17:09:52 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Taking BPF programs beyond one-million instructions</title>
-            <link>https://lwn.net/Articles/1017116/</link>
-            <description><![CDATA[<p>
-The BPF verifier is not magic; it cannot solve the
-<a href="https://en.wikipedia.org/wiki/Halting_problem">
-halting problem</a>. Therefore,
-it has to err on the side of assuming that a program will run too long if it
-cannot prove that the program will not.
-The ultimate check on the size of a BPF program is the
-one-million-instruction limit — the verifier will refuse to process more than
-one-million instructions, no matter what a BPF program does. Alexei Starovoitov gave
-a talk at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit about that limit,
-why correctly written BPF programs shouldn't hit it, and how to make the user
-experience of large BPF programs better in the future.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1017116/</guid>
-            <pubDate>Wed, 16 Apr 2025 16:44:29 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improvements for the contiguous memory allocator</title>
-            <link>https://lwn.net/Articles/1016844/</link>
-            <description><![CDATA[As a system runs, its memory becomes fragmented; it does not take long
-before the allocation of large, physically contiguous memory ranges becomes
-difficult or impossible.  The <a href="https://lwn.net/Articles/486301/">contiguous memory
-allocator (CMA)</a> is a kernel subsystem that attempts to address this
-problem, but it has never worked as well as some would like.  Two sessions
-in the memory-management track at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit looked at how CMA can be improved; the
-first looked at providing guaranteed allocations, while the second
-addressed some inefficiencies in CMA.]]></description>
-            <guid>https://lwn.net/Articles/1016844/</guid>
-            <pubDate>Wed, 16 Apr 2025 15:11:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Topics from the virtual filesystem layer</title>
-            <link>https://lwn.net/Articles/1017128/</link>
-            <description><![CDATA[In the first filesystem-track session at the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), virtual
-filesystem (VFS) layer co-maintainer Christian Brauner had a few different
-topics he wanted to talk about.  Issues on the agenda
-included iterating through anonymous mount namespaces, a needed feature
-for ID-mapped mounts, the perennial unprivileged mounts topic, potentially
-using hazard pointers for file reference counting, and Rust bindings.  He
-did not expect to get through all of them in the 30 minutes allotted, but
-the session did move along pretty quickly to at least
-introduce them to the assembled filesystem developers.]]></description>
-            <guid>https://lwn.net/Articles/1017128/</guid>
-            <pubDate>Wed, 16 Apr 2025 00:01:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Don&apos;t panic: Fedora 42 is here</title>
-            <link>https://lwn.net/Articles/1016845/</link>
-            <description><![CDATA[<p>Fedora Linux&#160;42 has been <a href="https://fedoramagazine.org/announcing-fedora-linux-42/">released</a> with many
-incremental improvements and updates. In this development cycle, the <a
-href="https://fedoraproject.org/kde/">KDE&#160;Plasma&#160;Desktop</a>
-has finally gotten a <a
-href="https://lwn.net/Articles/997559/">promotion from a spin to an
-edition</a>, the new <a
-href="https://fedoramagazine.org/anaconda-installer-redesign/">web-based
-user interface for the Anaconda installer</a> makes its debut, and the
-Wayland-ification of Fedora continues apace. In all it is a solid
-release with lots of polish.</p>]]></description>
-            <guid>https://lwn.net/Articles/1016845/</guid>
-            <pubDate>Tue, 15 Apr 2025 14:05:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Automatic tuning for weighted interleaving</title>
-            <link>https://lwn.net/Articles/1016842/</link>
-            <description><![CDATA[It is common, on NUMA systems, to try to allocate all memory on the local
-node, since it will be the fastest.  That is not the only possible policy,
-though; another is <a href="https://lwn.net/Articles/948037/">weighted interleaving</a>,
-which seeks to distribute allocations across memory controllers to maximize
-the bandwidth utilization on each.  Configuring such policies can be
-challenging, though.  At the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, Joshua Hahn ran a session in the
-memory-management track about how that configuration might be automated.]]></description>
-            <guid>https://lwn.net/Articles/1016842/</guid>
-            <pubDate>Tue, 15 Apr 2025 13:25:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The state of the memory-management development process, 2025 edition</title>
-            <link>https://lwn.net/Articles/1016724/</link>
-            <description><![CDATA[Andrew Morton, the lead maintainer for the kernel's memory-management
-subsystem, tends to be quiet during the Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, preferring to let the developers work
-things out on their own.  That changes, though, when he leads the
-traditional development-process session in the memory-management track.  At
-the 2025 gathering, this discussion covered a number of ways in which the
-process could be improved, but did not unearth any significant problems.]]></description>
-            <guid>https://lwn.net/Articles/1016724/</guid>
-            <pubDate>Mon, 14 Apr 2025 14:42:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] In search of a stable BPF verifier</title>
-            <link>https://lwn.net/Articles/1016853/</link>
-            <description><![CDATA[<p>
-BPF is, famously, not part of the kernel's promises of user-space stability. New
-kernels can and do break existing BPF programs; the BPF developers try to
-fix unintentional regressions as they happen, but the whole thing can be something of a bumpy
-ride for users trying to deploy BPF programs across multiple kernel versions.
-Shung-Hsi Yu and Daniel Xu had two different approaches to fixing the problem
-that they presented at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1016853/</guid>
-            <pubDate>Mon, 14 Apr 2025 14:47:53 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Managing multiple sources of page-hotness data</title>
-            <link>https://lwn.net/Articles/1016722/</link>
-            <description><![CDATA[Knowing how frequently accessed a page of memory is (its "hotness") is a
-key input to many memory-management heuristics.  Jonathan Cameron, in a
-memory-management track at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit, pointed out that the number of sources
-of that kind of data is growing over time.  He wanted to explore the
-questions of what commonality exists between data from those sources, and
-whether it makes sense to aggregate them all somehow.]]></description>
-            <guid>https://lwn.net/Articles/1016722/</guid>
-            <pubDate>Fri, 11 Apr 2025 23:56:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Inlining kfuncs into BPF programs</title>
-            <link>https://lwn.net/Articles/1016712/</link>
-            <description><![CDATA[<p>
-Eduard Zingerman presented a daring proposal that "<q>makes sense if you think
-about it a bit</q>" at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit. He wants to inline
-performance-sensitive kernel functions
-into the BPF programs that call them. His
-prototype does not yet address all of the design problems inherent in that idea,
-but it did spark a lengthy discussion about the feasibility of his proposal.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1016712/</guid>
-            <pubDate>Fri, 11 Apr 2025 17:15:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Atomic writes for ext4</title>
-            <link>https://lwn.net/Articles/1016879/</link>
-            <description><![CDATA[Building on the discussion in the two previous sessions on untorn (or
-atomic) writes, <a
-href="https://lwn.net/Articles/1016015/">for buffered <span class="nobreak">I/O</span></a> and <a
-href="https://lwn.net/Articles/1016406/">for XFS using direct <span class="nobreak">I/O</span></a>, Ojaswin Mujoo
-remotely led a
-session on support for the feature on ext4.  That took place in the combined storage and
-filesystem track at the
-2025 Linux Storage, Filesystem, Memory Management, and BPF Summit.  Part of
-the support for the feature is already in the upstream kernel, with more
-coming.  But 
-there are still some challenges that Mujoo wanted to discuss.]]></description>
-            <guid>https://lwn.net/Articles/1016879/</guid>
-            <pubDate>Thu, 10 Apr 2025 20:35:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Management of volatile CXL devices</title>
-            <link>https://lwn.net/Articles/1016718/</link>
-            <description><![CDATA[<a href="https://en.wikipedia.org/wiki/Compute_Express_Link">Compute
-Express Link (CXL)</a> memory is not like the ordinary RAM that one might
-install into a computer; it can come and go at any time and is often not
-present when the kernel is booting.  That complicates the management of
-this memory.  During the memory-management track of the 2025 Linux Storage,
-Filesystem, Memory-Management, and BPF Summit, Gregory Price ran a session
-on the challenges posed by CXL and how they might be addressed.]]></description>
-            <guid>https://lwn.net/Articles/1016718/</guid>
-            <pubDate>Thu, 10 Apr 2025 18:18:22 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Preparing DAMON for future memory-management problems</title>
-            <link>https://lwn.net/Articles/1016525/</link>
-            <description><![CDATA[The <a href="https://docs.kernel.org/admin-guide/mm/damon/">Data Access
-MONitor (DAMON)</a> subsystem provides access to detailed memory-management
-statistics, along with a set of tools for implementing policies based on
-those statistics.  An update on DAMON by its primary author, SeongJae Park,
-has been a fixture of the Linux Storage, Filesystem, Memory-Management, and
-BPF Summit for some years.  The 2025 Summit was no exception; Park led two
-sessions on recent and future DAMON developments, and how DAMON might
-evolve to facilitate a more access-aware memory-management subsystem in the
-future.]]></description>
-            <guid>https://lwn.net/Articles/1016525/</guid>
-            <pubDate>Thu, 10 Apr 2025 13:39:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
