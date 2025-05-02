@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 02 May 2025 12:49:52 +0000</pubDate>
-        <lastBuildDate>Fri, 2 May 2025 13:01:49 +0000</lastBuildDate>
+        <pubDate>Fri, 02 May 2025 13:29:31 +0000</pubDate>
+        <lastBuildDate>Fri, 2 May 2025 13:31:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1019869/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, nodejs, openjdk-17, and thunderbird), <b>Fedora</b> (firefox, golang-github-nvidia-container-toolkit, and thunderbird), <b>Mageia</b> (kernel), <b>Oracle</b> (ghostscript, glibc, kernel, libxslt, php:8.1, and thunderbird), <b>SUSE</b> (cmctl, firefox-esr, govulncheck-vulndb, java-21-openjdk, libxml2, poppler, python-h11, and redis), and <b>Ubuntu</b> (docker.io, ghostscript, linux-xilinx-zynqmp, and micropython).]]></description>
+            <guid>https://lwn.net/Articles/1019869/</guid>
+            <pubDate>Fri, 02 May 2025 13:20:36 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>A pile of stable kernel updates</title>
             <link>https://lwn.net/Articles/1019784/</link>
