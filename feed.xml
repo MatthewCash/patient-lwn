@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 04 May 2025 20:09:52 +0000</pubDate>
-        <lastBuildDate>Sun, 4 May 2025 20:11:47 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 4 May 2025 20:30:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -510,18 +510,6 @@ things certainly look pretty normal, and there were no hurried last-minute
 changes this week due to system upgrades</q>".]]></description>
             <guid>https://lwn.net/Articles/1019110/</guid>
             <pubDate>Sun, 27 Apr 2025 23:21:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>OpenBSD 7.7 released</title>
-            <link>https://lwn.net/Articles/1019104/</link>
-            <description><![CDATA[The <a
-href="https://undeadly.org/cgi?action=article;sid=20250427183032">OpenBSD
-7.7</a> release is available.  There is, as usual, a long list of changes;
-see <a href="https://www.openbsd.org/plus77.html">the full changelog</a>
-for lots of details.]]></description>
-            <guid>https://lwn.net/Articles/1019104/</guid>
-            <pubDate>Sun, 27 Apr 2025 19:59:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
