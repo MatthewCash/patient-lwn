@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 05 May 2025 16:43:24 +0000</pubDate>
-        <lastBuildDate>Mon, 5 May 2025 17:10:52 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 5 May 2025 17:31:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -483,44 +483,6 @@ It also has plenty of bug fixes, of course.]]></description>
             <guid>https://lwn.net/Articles/1019227/</guid>
             <pubDate>Mon, 28 Apr 2025 18:44:30 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>OSI publishes election retrospective</title>
-            <link>https://lwn.net/Articles/1019215/</link>
-            <description><![CDATA[<p>The Open Source Initiative (OSI) has quietly published
-"<q>takeaways</q>" from its internal retrospective on the recent board
-of directors election as an <a
-href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board#update">update</a>
-to the March <a
-href="https://opensource.org/blog/announcing-the-new-directors-of-osi-board">blog
-post</a> that announced the new members of the board. The election was
-controversial, in part, due to poor communication and OSI changing the
-election rules and disqualifying several candidates after the election
-finished. LWN <a href="https://lwn.net/Articles/1014603/">covered</a>
-the election and results in March. The update commits to improvements
-in communication and candidate selection:</p>
-
-<blockquote class="bq">
-What this election exposed was the need for the organization to also
-assess whether candidates were fully eligible to run and prepared to
-be seated on the board before voting begins. This is something we will
-add to the election timeline next year. While we have not finished
-figuring out all of the requirements for that assessment, part of it
-will be asking candidates to sign a Candidate Agreement at nomination
-time. We also have some ideas on ways for potential candidates to have
-more information even before submitting a nomination.
-</blockquote>
-
-<p>In a related note, there is a <a
-href="https://codeberg.org/OSI-Concerns/election-results-2025/">petition</a>
-asking OSI to publish the "<q>complete, unaltered</q>" results of the
-board of directors election. Thanks to Josh Triplett for the tip on
-the petition.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1019215/</guid>
-            <pubDate>Mon, 28 Apr 2025 17:28:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
