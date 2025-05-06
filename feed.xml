@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 06 May 2025 19:19:26 +0000</pubDate>
-        <lastBuildDate>Tue, 6 May 2025 19:24:04 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 6 May 2025 19:33:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -400,18 +400,6 @@ challenges.]]></description>
             <guid>https://lwn.net/Articles/1019457/</guid>
             <pubDate>Wed, 30 Apr 2025 13:33:39 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LWN&apos;s Mastodon migration</title>
-            <link>https://lwn.net/Articles/1019336/</link>
-            <description><![CDATA[The LWN.net fediverse (Mastodon) feed has moved; we are now known as <a
-href="https://fedi.lwn.net/@LWN">@LWN@lwn.net</a>.  The migration magic has
-shifted many of our followers over automatically but, if you follow that
-stream, you might want to make sure that you have shifted to the new
-source.]]></description>
-            <guid>https://lwn.net/Articles/1019336/</guid>
-            <pubDate>Tue, 29 Apr 2025 19:29:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
