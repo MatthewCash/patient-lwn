@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 06 May 2025 07:12:33 +0000</pubDate>
-        <lastBuildDate>Tue, 6 May 2025 07:48:04 +0000</lastBuildDate>
+        <pubDate>Tue, 06 May 2025 08:11:12 +0000</pubDate>
+        <lastBuildDate>Tue, 6 May 2025 08:17:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A new AUTOSEL release</title>
+            <link>https://lwn.net/Articles/1020203/</link>
+            <description><![CDATA[AUTOSEL is a tool that is used to find kernel patches that should be
+considered for backporting into the stable releases.  Sasha Levin has <a
+href="https://lwn.net/ml/all/aBj_SEgFTXfrPVuj@lappy/">announced</a> a new and completely
+rewritten version of AUTOSEL for those who would like to play with it.
+<p>
+<blockquote class="bq">
+	Unlike the previous version that relied on word statistics and
+	older neural network techniques, AUTOSEL leverages modern large
+	language models and embedding technology to provide significantly
+	more accurate recommendations.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020203/</guid>
+            <pubDate>Tue, 06 May 2025 08:11:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Two stable kernels released—with build fixes only</title>
             <link>https://lwn.net/Articles/1020131/</link>
