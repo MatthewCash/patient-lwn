@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 May 2025 18:19:47 +0000</pubDate>
-        <lastBuildDate>Wed, 7 May 2025 19:48:06 +0000</lastBuildDate>
+        <pubDate>Wed, 07 May 2025 20:03:35 +0000</pubDate>
+        <lastBuildDate>Wed, 7 May 2025 20:13:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -453,32 +453,6 @@ Summit to look at the current state of the memory controller and what can
 be done to reduce its overhead.]]></description>
             <guid>https://lwn.net/Articles/1016856/</guid>
             <pubDate>Thu, 17 Apr 2025 14:23:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Albertson: Future of OSL in Jeopardy</title>
-            <link>https://lwn.net/Articles/1019520/</link>
-            <description><![CDATA[Lance Albertson <a href="https://osuosl.org/blog/osl-future/">writes</a>
-that the Oregon State University Open Source Lab, the home of many
-prominent free-software projects over the years, has run into financial
-trouble:
-<p>
-<blockquote class="bq">
-	I am writing to inform you about a critical and time-sensitive
-	situation facing the Open Source Lab. Over the past several years,
-	we have been operating at a deficit due to a decline in corporate
-	donations. While OSU's College of Engineering (CoE) has generously
-	filled this gap, recent changes in university funding have led to a
-	significant reduction in CoE's budget. As a result, our current
-	funding model is no longer sustainable and CoE needs to find ways
-	to cut programs.
-<p>
-	Earlier this week, I was informed that unless we secure $250,000 in
-	committed funds, the OSL will be forced to shut down later this
-	year.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1019520/</guid>
-            <pubDate>Wed, 30 Apr 2025 20:06:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
