@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 May 2025 08:07:49 +0000</pubDate>
-        <lastBuildDate>Wed, 7 May 2025 08:17:31 +0000</lastBuildDate>
+        <pubDate>Wed, 07 May 2025 08:24:48 +0000</pubDate>
+        <lastBuildDate>Wed, 7 May 2025 08:43:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The state of SSL stacks</title>
+            <link>https://lwn.net/Articles/1020309/</link>
+            <description><![CDATA[Willy Tarreau and William Lallemand have posted <a
+href="https://www.haproxy.com/blog/state-of-ssl-stacks">an extensive white
+paper</a> examining the landscape of the available SSL implementations.
+<p>
+<blockquote class="bq">
+	OpenSSL 3.0 performs significantly worse than alternative SSL
+	libraries, forcing organizations to provision more hardware just to
+	maintain existing throughput. This raises important questions about
+	performance, energy efficiency, and operational costs.
+<p>
+	Examining alternatives—BoringSSL, LibreSSL, WolfSSL, and
+	AWS-LC—reveals a landscape of trade-offs. Each offers different
+	approaches to API compatibility, performance optimization, and QUIC
+	support. For developers navigating the modern SSL ecosystem,
+	understanding these trade-offs is crucial for optimizing
+	performance, maintaining compatibility, and future-proofing their
+	infrastructure.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020309/</guid>
+            <pubDate>Wed, 07 May 2025 08:20:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The end of the USENIX Annual Technical Conference</title>
             <link>https://lwn.net/Articles/1020306/</link>
