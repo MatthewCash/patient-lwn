@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 May 2025 06:47:07 +0000</pubDate>
-        <lastBuildDate>Wed, 7 May 2025 07:30:20 +0000</lastBuildDate>
+        <pubDate>Wed, 07 May 2025 07:38:00 +0000</pubDate>
+        <lastBuildDate>Wed, 7 May 2025 07:40:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The end of the USENIX Annual Technical Conference</title>
+            <link>https://lwn.net/Articles/1020306/</link>
+            <description><![CDATA[On the 50th anniversary of the USENIX organization, its flagship Annual
+Technical Conference (ATC) is <a
+href="https://lwn.net/ml/all/CACY3YMGkaDL40rrQ4Pu9jSUt6eiQwQsA-MnQ4_Hp1gMV9sThfQ@mail.gmail.com">coming
+to an end</a>.
+<p>
+<blockquote class="bq">
+	For the past two decades, as more USENIX conferences have joined
+       	the USENIX calendar by focusing on specific topics that grew out of
+       	ATC itself, attendance at ATC has steadily decreased to the point
+       	where there is no longer a critical mass of researchers and
+       	practitioners joining us. Thus, after many years of experiments to
+       	adapt this conference to the ever-changing tech landscape and
+       	community, the USENIX Board of Directors has made the difficult
+       	decision to sunset USENIX ATC.
+</blockquote>
+<p>
+Many important technologies first saw the light of day at this event.]]></description>
+            <guid>https://lwn.net/Articles/1020306/</guid>
+            <pubDate>Wed, 07 May 2025 07:37:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Mission Center 1.0.0 released</title>
             <link>https://lwn.net/Articles/1020269/</link>
