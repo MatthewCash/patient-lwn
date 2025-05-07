@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 May 2025 14:23:18 +0000</pubDate>
-        <lastBuildDate>Wed, 7 May 2025 14:36:18 +0000</lastBuildDate>
+        <pubDate>Wed, 07 May 2025 14:38:27 +0000</pubDate>
+        <lastBuildDate>Wed, 7 May 2025 14:53:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -500,21 +500,6 @@ resulted in the reconfirmation of all five sitting board members.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1019479/</guid>
             <pubDate>Wed, 30 Apr 2025 15:42:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>How LWN is faring in 2025</title>
-            <link>https://lwn.net/Articles/1019217/</link>
-            <description><![CDATA[Just over six years ago, The Economist described the US economy as "<a
-href="https://www.economist.com/special-report/2024-10-19">the envy of the
-world</a>".  That headline would be unlikely to appear now.  The economic
-boom referenced in that article feels like a distant memory, markets are
-falling, and uncertainty is at an all-time high.  Like everybody else, LWN
-is affected by the current turbulence in the political and economic
-spheres; we expect to get through this period, but there will be some
-challenges.]]></description>
-            <guid>https://lwn.net/Articles/1019217/</guid>
-            <pubDate>Wed, 30 Apr 2025 14:37:17 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
