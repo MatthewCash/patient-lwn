@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 08 May 2025 13:37:14 +0000</pubDate>
-        <lastBuildDate>Thu, 8 May 2025 13:38:00 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 8 May 2025 13:48:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -487,14 +487,6 @@ the standardisation of version 1.4.</p>
             <guid>https://lwn.net/Articles/1019672/</guid>
             <pubDate>Thu, 01 May 2025 16:05:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1019645/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (expat, fig2dev, firefox-esr, golang-github-gorilla-csrf, jinja2, libxml2, nagvis, qemu, request-tracker4, request-tracker5, u-boot, and vips), <b>Fedora</b> (firefox, giflib, and thunderbird), <b>Mageia</b> (imagemagick), <b>Red Hat</b> (thunderbird), <b>SUSE</b> (amber-cli, libjxl, and redis), and <b>Ubuntu</b> (h2o, poppler, and postgresql-10).]]></description>
-            <guid>https://lwn.net/Articles/1019645/</guid>
-            <pubDate>Thu, 01 May 2025 13:37:57 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
