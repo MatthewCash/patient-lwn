@@ -8,11 +8,161 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 May 2025 22:40:28 +0000</pubDate>
-        <lastBuildDate>Wed, 7 May 2025 23:48:19 +0000</lastBuildDate>
+        <pubDate>Thu, 08 May 2025 00:38:20 +0000</pubDate>
+        <lastBuildDate>Thu, 8 May 2025 00:53:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 1, 2025</title>
+            <link>https://lwn.net/Articles/1018680/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1018680/">Front</a>: Mailman 2 vulnerabilities; AI in Debian; __nonstring__; Cache-aware scheduling; Freezing filesystems; Socket-level storage; Debugging information; LWN in 2025.
+            <li> <a href="https://lwn.net/Articles/1018682/">Briefs</a>: Debian election; Kali Linux key; OpenBSD 7.7; Firefox 138.0; GCC 15.1; Meson 1.8.0; Valgrind 3.25.0; FSF review; OSI retrospective; Mastodon; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1018683/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1018680/</guid>
+            <pubDate>Thu, 01 May 2025 00:19:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The mystery of the Mailman 2 CVEs</title>
+            <link>https://lwn.net/Articles/1019149/</link>
+            <description><![CDATA[<p>Many eyebrows were raised recently when three vulnerabilities were announced
+that allegedly impact <a
+href="https://www.gnu.org/software/mailman/">GNU&#160;Mailman</a> 2.1,
+since many folks assumed that it was no longer being supported. That's
+not quite the case. Even though <a
+href="https://wiki.list.org/DEV/Mailman%203.0">version&#160;3</a> of
+the GNU Mailman mailing-list manager has been available
+since&#160;2015, and version&#160;2 was declared (mostly) end of life
+(EOL) in&#160;2020, there are still plenty of users and projects still
+using version&#160;2.1.x. There is, as it turns out, a big difference between
+<em>mostly</em> EOL and <em>actually</em> EOL. For example: <a
+href="https://www.webpros.com/">WebPros</a>, the company behind the <a
+href="https://cpanel.net/">cPanel</a> server and web-site-management
+platform, still maintains a <a
+href="https://github.com/cpanel/mailman2-python3">port of
+Mailman&#160;2.1.x</a> to Python&#160;3 for its customers and was
+quick to respond to reports of vulnerabilities. However, the
+company and upstream Mailman project dispute that the CVEs are
+valid.</p>]]></description>
+            <guid>https://lwn.net/Articles/1019149/</guid>
+            <pubDate>Wed, 30 Apr 2025 17:06:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Better debugging information for inlined kernel functions</title>
+            <link>https://lwn.net/Articles/1018475/</link>
+            <description><![CDATA[<p>
+Modern compilers perform a lot of optimizations, which can complicate debugging.
+Song Liu and Thierry Treyer spoke about a potential improvement to
+<a href="https://www.kernel.org/doc/html/latest/bpf/btf.html">
+BPF Type Format</a> (BTF) debugging information that could partially combat that
+problem at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit.
+They want to add information on selectively inlined functions to BTF in order to
+better support tracing tools.
+Treyer participated remotely.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1018475/</guid>
+            <pubDate>Wed, 30 Apr 2025 16:10:03 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Cache awareness for the CPU scheduler</title>
+            <link>https://lwn.net/Articles/1018334/</link>
+            <description><![CDATA[The kernel's CPU scheduler has to balance a wide range of objectives.  The
+tasks in the system must be scheduled fairly, with latency for any given
+task kept within bounds.  All of the CPUs in the system should be kept busy
+if there is enough work to do, but unneeded CPUs should be shut down to
+reduce power consumption.  A task should also run on the CPU that is most
+likely to have cached the memory that task is using.  <a
+href="https://lwn.net/ml/all/cover.1745199017.git.yu.c.chen@intel.com">This patch
+series</a> from Chen Yu aims to improve how the scheduler handles cache
+locality for multi-threaded processes.]]></description>
+            <guid>https://lwn.net/Articles/1018334/</guid>
+            <pubDate>Tue, 29 Apr 2025 12:30:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Inline socket-local storage for BPF</title>
+            <link>https://lwn.net/Articles/1018320/</link>
+            <description><![CDATA[<p>
+Martin Lau gave a talk in the BPF track of the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit about a performance problem
+plaguing the networking subsystem, and some potential ways to fix it. He works on
+BPF programs that need to store socket-local data; amid other improvements to
+the networking and BPF subsystems, retrieving that data has become a noticeable
+bottleneck for his use case. His proposed fix prompted a good deal of discussion
+about how the data should be laid out.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1018320/</guid>
+            <pubDate>Mon, 28 Apr 2025 14:57:09 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian debates AI models and the DFSG</title>
+            <link>https://lwn.net/Articles/1018497/</link>
+            <description><![CDATA[<p>The Debian project is discussing a General Resolution (GR) that
+would, if approved, clarify that AI models must include training data
+to be compliant with the <a
+href="https://wiki.debian.org/DebianFreeSoftwareGuidelines">Debian
+Free Software Guidelines</a> (DFSG) and be distributed by Debian as
+free software. While GR discussions are sometimes contentious, the
+discussion around the proposal from Debian developer Mo&#160;Zhou has
+been anything <span class="nobreak">but&mdash;there</span> seems to be
+consensus that AI models are not <span
+class="nobreak">DFSG-compliant</span> if they lack training
+data. There are, however, some questions about the exact language and
+questions about the impact the GR will have on existing packages in
+the Debian archive.</p>]]></description>
+            <guid>https://lwn.net/Articles/1018497/</guid>
+            <pubDate>Fri, 25 Apr 2025 20:13:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some __nonstring__ turbulence</title>
+            <link>https://lwn.net/Articles/1018486/</link>
+            <description><![CDATA[New compiler releases often bring with them new warnings; those warnings
+are usually welcome, since they help developers find problems before they
+turn into nasty bugs.  Adapting to new warnings can also create disruption
+in the development process, though, especially when an important developer
+upgrades to a new compiler at an unfortunate time.  This is just the
+scenario that played out with the <a
+href="https://lwn.net/ml/all/CAHk-=wgjZ4fzDKogXwhPXVMA7OmZf9k0o1oB2FJmv-C1e=typA@mail.gmail.com/">6.15-rc3
+kernel release</a> and the implementation of
+<tt>-Wunterminated-string-initialization</tt> in GCC&#160;15.]]></description>
+            <guid>https://lwn.net/Articles/1018486/</guid>
+            <pubDate>Thu, 24 Apr 2025 14:17:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Freezing filesystems for suspend</title>
+            <link>https://lwn.net/Articles/1018341/</link>
+            <description><![CDATA[Sometimes worms have a tendency to multiply once their can is opened.
+James Bottomley recently encountered that situation; he led a session in
+the filesystem track at the 2025 Linux Storage, Filesystem, Memory
+Management, and BPF Summit (LSFMM+BPF) to discuss filesystem behavior with
+respect to suspending and resuming the system.  As he noted in his <a
+href="https://lwn.net/ml/all/0a76e074ef262ca857c61175dd3d0dc06b67ec42.camel@HansenPartnership.com/">topic
+proposal</a>, he came at the problem because he needed a way to
+resynchronize the contents of <a
+href="https://www.kernel.org/doc/html/latest/filesystems/efivarfs.html">efivarfs</a>
+after a system resume and thought there should be an API available to use.
+But, as the resulting thread shows, the filesystem freeze and thaw code had
+never been used by the system-wide suspend and resume code.  Due to a
+scheduling mixup, though, several of us missed Bottomley's session,
+including Luis Chamberlain who has been working on hooking those two pieces
+up; what follows is largely from a second session that Chamberlain led,
+with some background information from the topic-proposal discussion and an
+email exchange with Bottomley.]]></description>
+            <guid>https://lwn.net/Articles/1018341/</guid>
+            <pubDate>Thu, 24 Apr 2025 14:08:07 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Home Assistant 2025.5 released</title>
             <link>https://lwn.net/Articles/1020427/</link>
