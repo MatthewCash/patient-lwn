@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 May 2025 06:51:34 +0000</pubDate>
-        <lastBuildDate>Thu, 8 May 2025 06:56:49 +0000</lastBuildDate>
+        <pubDate>Thu, 08 May 2025 06:59:11 +0000</pubDate>
+        <lastBuildDate>Thu, 8 May 2025 07:12:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSUSE removes the Deepin desktop</title>
+            <link>https://lwn.net/Articles/1020455/</link>
+            <description><![CDATA[The openSUSE project has posted <a
+href="https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html">a
+detailed explanation</a> on why the <a
+href="https://www.deepin.org/en/dde/">Deepin Desktop</a> has been removed
+from the distribution; it comes down to a history of security problems and
+a deliberate bypass (by the packager) of openSUSE's security review.
+<p>
+<blockquote class="bq">
+	Perhaps tired of waiting, the packager decided to try a different
+	avenue to get the remaining Deepin components into openSUSE
+	skirting the review requirements. In January 2025, during routine
+	reviews, we stumbled upon the <tt>deepin-feature-enable</tt>
+	package, which was introduced on 2021-04-27 without consulting us
+	or even informing us. This innocently named package implements a
+	"license agreement dialog" which basically explains that the SUSE
+	security team has doubts about the security of Deepin, but to
+	properly use Deepin, certain components need to be installed
+	anyway. Thus, if the user does not care about security then "the
+	license" should be accepted.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020455/</guid>
+            <pubDate>Thu, 08 May 2025 06:59:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fitti: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</title>
             <link>https://lwn.net/Articles/1020452/</link>
