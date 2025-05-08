@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 May 2025 05:19:58 +0000</pubDate>
-        <lastBuildDate>Thu, 8 May 2025 05:49:50 +0000</lastBuildDate>
+        <pubDate>Thu, 08 May 2025 06:11:47 +0000</pubDate>
+        <lastBuildDate>Thu, 8 May 2025 06:16:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fitti: Waiting for Postgres 18: Accelerating Disk Reads with Asynchronous I/O</title>
+            <link>https://lwn.net/Articles/1020452/</link>
+            <description><![CDATA[Lukas Fitti <a
+href="https://pganalyze.com/blog/postgres-18-async-io">writes in detail</a>
+on the pganalyze blog about the asynchronous I/O capability coming with the
+PostgreSQL&#160;18 release.
+<p>
+<blockquote class="bq">
+	Asynchronous I/O delivers the most noticeable gains in cloud
+	environments where storage is network-attached, such as Amazon EBS
+	volumes. In these setups, individual disk reads often take multiple
+	milliseconds, introducing substantial latency compared to local
+	SSDs.
+<p>
+	With traditional synchronous I/O, each of these reads blocks query
+	execution until the data arrives, leading to idle CPU time and
+	degraded throughput. By contrast, asynchronous I/O allows Postgres
+	to issue multiple read requests in parallel and continue processing
+	while waiting for results. This reduces query latency and enables
+	much more efficient use of available I/O bandwidth and CPU cycles.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020452/</guid>
+            <pubDate>Thu, 08 May 2025 06:11:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 1, 2025</title>
             <link>https://lwn.net/Articles/1018680/</link>
