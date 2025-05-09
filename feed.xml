@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 09 May 2025 11:28:38 +0000</pubDate>
-        <lastBuildDate>Fri, 9 May 2025 13:03:12 +0000</lastBuildDate>
+        <pubDate>Fri, 09 May 2025 13:34:20 +0000</pubDate>
+        <lastBuildDate>Fri, 9 May 2025 13:38:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME Foundation announces new executive director</title>
+            <link>https://lwn.net/Articles/1020619/</link>
+            <description><![CDATA[<p>The GNOME Foundation has <a
+href="https://foundation.gnome.org/2025/05/09/gnome-foundation-welcomes-steven-deobald-as-executive-director/">announced</a>
+the hiring of Steven Deobald as its new executive director.</p>
+
+<blockquote class="bq">
+Steven has been a GNOME user since 2002 and has been involved in
+numerous free software initiatives throughout his career. His
+professional background spans technical leadership, cooperative
+business development, and nonprofit work. Having worked with projects
+like <a href="https://www.xtdb.com/">XTDB</a> and <a
+href="https://www.endatabas.com/">Endatabas</a>, he brings valuable
+experience in open source product development. Based in Halifax,
+Canada, Steven is well-positioned to collaborate with our global
+community across time zones.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020619/</guid>
+            <pubDate>Fri, 09 May 2025 13:10:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1020653/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (fossil, libapache2-mod-auth-openidc, and request-tracker4), <b>Fedora</b> (thunderbird), <b>Mageia</b> (firefox and thunderbird), <b>SUSE</b> (389-ds, apparmor, cargo-c, chromium, go1.24, govulncheck-vulndb, java-1_8_0-openjdk, kanidm, libsoup, mozjs102, openssl-1_1, openssl-3, python-Django, sccache, tealdeer, tomcat, transfig, wasm-bindgen, and wireshark), and <b>Ubuntu</b> (libreoffice and python-h11).]]></description>
+            <guid>https://lwn.net/Articles/1020653/</guid>
+            <pubDate>Fri, 09 May 2025 13:34:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1020545/</link>
@@ -415,14 +445,6 @@ release. Let's hope I didn't jinx it by saying so.</q>"]]></description>
             <guid>https://lwn.net/Articles/1019996/</guid>
             <pubDate>Mon, 05 May 2025 05:46:19 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1019869/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, nodejs, openjdk-17, and thunderbird), <b>Fedora</b> (firefox, golang-github-nvidia-container-toolkit, and thunderbird), <b>Mageia</b> (kernel), <b>Oracle</b> (ghostscript, glibc, kernel, libxslt, php:8.1, and thunderbird), <b>SUSE</b> (cmctl, firefox-esr, govulncheck-vulndb, java-21-openjdk, libxml2, poppler, python-h11, and redis), and <b>Ubuntu</b> (docker.io, ghostscript, linux-xilinx-zynqmp, and micropython).]]></description>
-            <guid>https://lwn.net/Articles/1019869/</guid>
-            <pubDate>Fri, 02 May 2025 13:20:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
