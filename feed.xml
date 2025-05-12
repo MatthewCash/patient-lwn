@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 May 2025 09:38:24 +0000</pubDate>
-        <lastBuildDate>Mon, 12 May 2025 13:05:53 +0000</lastBuildDate>
+        <pubDate>Mon, 12 May 2025 13:35:52 +0000</pubDate>
+        <lastBuildDate>Mon, 12 May 2025 13:42:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -493,14 +493,6 @@ fix build problems in their predecessors.  Only those who are having
 build troubles with 6.12.26 or 6.1.136 need to upgrade.]]></description>
             <guid>https://lwn.net/Articles/1020131/</guid>
             <pubDate>Mon, 05 May 2025 13:39:12 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1020130/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ansible, containerd, and vips), <b>Fedora</b> (chromium, java-17-openjdk, nodejs-bash-language-server, nodejs-pnpm, ntpd-rs, redis, rust-hickory-proto, thunderbird, and valkey), <b>Mageia</b> (apache-mod_auth_openidc, fcgi, graphicsmagick, kernel-linus, pam, poppler, and tomcat), <b>Red Hat</b> (firefox, libsoup, nodejs:20, redis:6, rsync, webkit2gtk3, xmlrpc-c, and yelp), and <b>SUSE</b> (audiofile, ffmpeg, firefox, libsoup-2_4-1, libsoup-3_0-0, libva, libxml2, and thunderbird).]]></description>
-            <guid>https://lwn.net/Articles/1020130/</guid>
-            <pubDate>Mon, 05 May 2025 13:31:28 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
