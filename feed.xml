@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 May 2025 14:57:20 +0000</pubDate>
-        <lastBuildDate>Mon, 12 May 2025 15:13:05 +0000</lastBuildDate>
+        <pubDate>Mon, 12 May 2025 15:32:48 +0000</pubDate>
+        <lastBuildDate>Mon, 12 May 2025 15:35:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Guix project migrating to Codeberg</title>
+            <link>https://lwn.net/Articles/1020885/</link>
+            <description><![CDATA[<p>The <a href="https://guix.gnu.org/">Guix</a> project has <a
+href="https://guix.gnu.org/blog/2025/migrating-to-codeberg/">announced</a>
+that it is migrating all of its Git repositories, as well as bug
+tracking and patch tracking, from <a
+href="https://savannah.gnu.org/projects/guix">Savannah</a> to the <a
+href="https://codeberg.org/guix">Codeberg</a> Git forge.</p>
+
+<blockquote class="bq">
+As a user, the main change is that your <tt>channels.scm</tt>
+configuration files, if they refer to the
+<tt>git.savannah.gnu.org</tt> URL, should be changed to refer to
+<tt>https://codeberg.org/guix/guix.git</tt> once migration is
+complete. But don't worry: <tt>guix&#160;pull</tt> will tell you
+if/when you need to update your config files and the old URL will
+remain a mirror for at least a year anyway.
+</blockquote>
+
+<p>The motivation for the move, which is spelled out in a <a
+href="https://archive.softwareheritage.org/browse/content/sha1_git:4d78cab341653e17db5f09beaf425f9634b5e81e/">Guix
+Consensus Document</a> (GCD), is to improve the contribution
+experience and improve quality assurance efforts. Migration of Git
+repositories should be completed by June&#160;7, though they will
+continue to be mirrored on Savannah until "<q>at least</q>" May&#160;2026. LWN <a
+href="https://lwn.net/Articles/962788/">covered</a> Guix in February&#160;2024.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1020885/</guid>
+            <pubDate>Mon, 12 May 2025 15:32:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1020884/</link>
