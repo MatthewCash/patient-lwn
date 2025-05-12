@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 May 2025 18:18:43 +0000</pubDate>
-        <lastBuildDate>Mon, 12 May 2025 20:51:18 +0000</lastBuildDate>
+        <pubDate>Mon, 12 May 2025 21:09:45 +0000</pubDate>
+        <lastBuildDate>Mon, 12 May 2025 21:10:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Multiple security issues in Screen</title>
+            <link>https://lwn.net/Articles/1020901/</link>
+            <description><![CDATA[<p>The SUSE Security Team has <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html">published</a>
+an article detailing several <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#3-security-issues">security
+issues</a> it has uncovered with GNU <a
+href="https://www.gnu.org/software/screen/">Screen</a>. This includes
+a local root exploit when Screen is shipped setuid-root, as it is in
+some Linux and BSD distributions. The security team also reports <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#6-problematic-coordinated-disclosure-process-and-upstream-status">problems
+in coordinating disclosure</a> with the upstream Screen project.</p>
+
+<blockquote class="bq">
+We are not satisfied with how this coordinated disclosure developed,
+and we will try to be more attentive to such problematic situations
+early on in the future. This experience also sheds light on the
+overall situation of Screen upstream. It looks like it suffers from a
+lack of manpower and expertise, which is worrying for such a
+widespread open source utility. We hope this publication can help to
+draw attention to this and to improve this situation in the future.
+</blockquote>
+
+<p>The article includes a <a
+href="https://security.opensuse.org/2025/05/12/screen-security-issues.html#7-affectedness-matrix">table</a>
+of operating systems, screen versions, and which vulnerabilities they
+may be affected by.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1020901/</guid>
+            <pubDate>Mon, 12 May 2025 20:58:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Guix project migrating to Codeberg</title>
             <link>https://lwn.net/Articles/1020885/</link>
