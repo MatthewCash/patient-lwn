@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 12 May 2025 13:35:52 +0000</pubDate>
-        <lastBuildDate>Mon, 12 May 2025 13:42:33 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2025 13:51:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -483,17 +483,6 @@ rewritten version of AUTOSEL for those who would like to play with it.
             <guid>https://lwn.net/Articles/1020203/</guid>
             <pubDate>Tue, 06 May 2025 08:11:11 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernels released—with build fixes only</title>
-            <link>https://lwn.net/Articles/1020131/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1020132/">6.12.27</a> and <a
-href="https://lwn.net/Articles/1020133/">6.1.137</a> stable kernels have been released to
-fix build problems in their predecessors.  Only those who are having
-build troubles with 6.12.26 or 6.1.136 need to upgrade.]]></description>
-            <guid>https://lwn.net/Articles/1020131/</guid>
-            <pubDate>Mon, 05 May 2025 13:39:12 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
