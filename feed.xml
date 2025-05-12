@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 May 2025 02:49:16 +0000</pubDate>
-        <lastBuildDate>Mon, 12 May 2025 04:01:44 +0000</lastBuildDate>
+        <pubDate>Mon, 12 May 2025 04:22:23 +0000</pubDate>
+        <lastBuildDate>Mon, 12 May 2025 04:36:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.15-rc6</title>
+            <link>https://lwn.net/Articles/1020816/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1020815/">6.15-rc6</a> for testing.
+<p>
+<blockquote class="bq">
+	Everything still looks fairly normal - we've got a bit more commits
+	than we did in rc5, which isn't the trend I want to see as the
+	release progresses, but the difference isn't all that big and it
+	feels more like just the normal noise in timing fluctuation in pull
+	requests of fixes than any real signal.
+<p>
+	So I won't worry about it. We've got another two weeks to go in the
+	normal release schedule, and it still feels like everything is on
+	track.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1020816/</guid>
+            <pubDate>Mon, 12 May 2025 04:22:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Albertson: OSL&apos;s path to sustainability</title>
             <link>https://lwn.net/Articles/1020668/</link>
