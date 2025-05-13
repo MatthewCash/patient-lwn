@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 13 May 2025 19:44:41 +0000</pubDate>
-        <lastBuildDate>Tue, 13 May 2025 19:48:29 +0000</lastBuildDate>
+        <pubDate>Tue, 13 May 2025 19:55:30 +0000</pubDate>
+        <lastBuildDate>Tue, 13 May 2025 20:13:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Nextcloud claims Google is being anticompetitive</title>
+            <link>https://lwn.net/Articles/1021016/</link>
+            <description><![CDATA[<p><a href="https://nextcloud.com/">Nextcloud</a> provides an
+open-source collaboration platform called <a
+href="https://nextcloud.com/hub/">Nextcloud Hub</a>, which includes <a
+href="https://nextcloud.com/files/">file-sharing and syncing</a>
+features. The company has <a
+href="https://nextcloud.com/blog/nextcloud-android-file-upload-issue-google/">written</a>
+a blog post explaining that Google has revoked a critical permission
+from the Nextcloud Files app for Android that allows it to sync files
+to Nextcloud Hub.</p>
+
+<blockquote class="bq">
+<p>Google is stating security concerns as a reason for revoking the
+permission. This is hard to believe for us. Nextcloud has had this
+feature since its inception in 2016, and we have never heard about any
+security concerns from Google about it. Moreover, several Big Tech
+apps as well as Google's own still have this. What we think: Google
+owning the platform means they can and are giving themselves
+preferential treatment.</p>
+
+<p>Despite multiple appeals since mid-2024, Google has refused to
+reinstate the permission, blocking automated Nextcloud file uploads
+for millions of users.</p>
+</blockquote>
+
+<p>The <a
+href="https://f-droid.org/packages/com.nextcloud.client/">Nextcloud
+app</a> available via F-Droid does not have this limitation, but the
+post notes that that is not an option for many users.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1021016/</guid>
+            <pubDate>Tue, 13 May 2025 19:55:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1020948/</link>
