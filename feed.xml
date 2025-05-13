@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 13 May 2025 08:22:58 +0000</pubDate>
-        <lastBuildDate>Tue, 13 May 2025 08:56:44 +0000</lastBuildDate>
+        <pubDate>Tue, 13 May 2025 08:55:51 +0000</pubDate>
+        <lastBuildDate>Tue, 13 May 2025 09:13:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1020948/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libeconf and rubygems), <b>Fedora</b> (libxmp), <b>Gentoo</b> (glibc), <b>Oracle</b> (java-1.8.0-openjdk, kernel, libxslt, and virtuoso-opensource), <b>SUSE</b> (augeas, git-lfs, kanidm, and tomcat10), and <b>Ubuntu</b> (linux-lts-xenial).]]></description>
+            <guid>https://lwn.net/Articles/1020948/</guid>
+            <pubDate>Tue, 13 May 2025 08:55:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Multiple security issues in Screen</title>
             <link>https://lwn.net/Articles/1020901/</link>
