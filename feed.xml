@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 13 May 2025 08:55:51 +0000</pubDate>
-        <lastBuildDate>Tue, 13 May 2025 10:13:14 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 13 May 2025 10:38:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -540,14 +540,6 @@ used by other applications.</p>]]></description>
             <guid>https://lwn.net/Articles/1020269/</guid>
             <pubDate>Tue, 06 May 2025 21:05:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1020222/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium and kappanhang), <b>Red Hat</b> (osbuild-composer and thunderbird), <b>SUSE</b> (chromedriver), and <b>Ubuntu</b> (c-ares, corosync, mysql-8.0, mysql-8.4, openjdk-17, openjdk-21, openjdk-24, openjdk-8, and openjdk-lts).]]></description>
-            <guid>https://lwn.net/Articles/1020222/</guid>
-            <pubDate>Tue, 06 May 2025 10:18:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
