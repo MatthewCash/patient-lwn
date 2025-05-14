@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 May 2025 09:30:16 +0000</pubDate>
-        <lastBuildDate>Wed, 14 May 2025 13:05:12 +0000</lastBuildDate>
+        <pubDate>Wed, 14 May 2025 13:37:35 +0000</pubDate>
+        <lastBuildDate>Wed, 14 May 2025 13:40:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1021199/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, firefox, gnutls, java-17-openjdk, java-21-openjdk, osbuild-composer, python39:3.9, and thunderbird), <b>Arch Linux</b> (screen), <b>Debian</b> (varnish), <b>Fedora</b> (chromium), <b>Gentoo</b> (Atop, FreeType, and Spidermonkey), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk and postgresql15, postgresql13), <b>Oracle</b> (389-ds-base, emacs, firefox, kernel, libsoup, libtiff, mod_auth_openidc:2.3, nodejs:20, nodejs:22, osbuild-composer, python39:3.9, qemu-kvm, ruby, ruby:3.1, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 8.0, .NET 9.0, avahi, buildah, corosync, delve and golang, exiv2, expat, firefox, ghostscript, gimp, git, grafana, gvisor-tap-vsock, java-21-openjdk, kernel, kernel-rt, libarchive, libjpeg-turbo, libsoup, libsoup3, libxslt, mod_auth_openidc, nginx, nginx:1.22, nginx:1.24, nodejs22, nodejs:20, nodejs:22, opentelemetry-collector, osbuild-composer, perl, php, php:8.2, php:8.3, podman, python-jinja2, redis, redis:7, rhc, ruby:2.5, skopeo, sqlite, thunderbird, tomcat, tomcat9, valkey, vim, xorg-x11-server-Xwayland, xterm, xz, yelp, and yggdrasil), <b>Slackware</b> (screen), <b>SUSE</b> (apparmor, dirmngr, gimp, golang-github-prometheus-node_exporter, java-11-openj9, java-17-openj9, java-21-openj9, libxmp-devel, python311-Django4, rabbitmq-server313, rke2, and transfig), and <b>Ubuntu</b> (abseil and open-vm-tools).]]></description>
+            <guid>https://lwn.net/Articles/1021199/</guid>
+            <pubDate>Wed, 14 May 2025 13:08:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Nextcloud claims Google is being anticompetitive</title>
             <link>https://lwn.net/Articles/1021016/</link>
@@ -499,14 +507,6 @@ to use Deepin Desktop</a> on openSUSE.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1020407/</guid>
             <pubDate>Wed, 07 May 2025 13:54:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1020404/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (incus and nodejs20), <b>Red Hat</b> (freetype, kernel, kernel-rt, libsoup, libtiff, redis, redis:6, and thunderbird), <b>SUSE</b> (apparmor, chromium, grafana, ImageMagick, java-11-openjdk, java-17-openjdk, libsoup, libsoup2, libxslt, opensaml, rabbitmq-server, rubygem-rack-1_6, sqlite3, and thunderbird), and <b>Ubuntu</b> (kernel, libfcgi, libraw, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-raspi, linux, linux-aws, linux-aws-5.4, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-kvm, linux-oracle, linux-oracle-5.4, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-hwe-6.8, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure, linux-azure-4.15, linux-azure, linux-azure-5.15, linux-azure-fde, linux-azure-fde-5.15, linux-azure, linux-azure-6.11, linux-azure-6.8, linux-azure-fips, linux-intel-iot-realtime, linux-realtime, linux-oem-6.11, linux-raspi, linux-realtime, python, python-scrapy, and ruby-carrierwave).]]></description>
-            <guid>https://lwn.net/Articles/1020404/</guid>
-            <pubDate>Wed, 07 May 2025 13:05:09 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
