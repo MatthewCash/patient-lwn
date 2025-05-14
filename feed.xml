@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 14 May 2025 13:37:35 +0000</pubDate>
-        <lastBuildDate>Wed, 14 May 2025 13:52:15 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 14 May 2025 14:12:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -461,53 +461,6 @@ Long Range support, a number of new integrations, and more.]]></description>
             <guid>https://lwn.net/Articles/1020427/</guid>
             <pubDate>Wed, 07 May 2025 20:25:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Deepin Desktop removed from openSUSE</title>
-            <link>https://lwn.net/Articles/1020407/</link>
-            <description><![CDATA[<p>The SUSE Security Team has <a href="https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html">announced</a> the removal of the Deepin
-Desktop from openSUSE due to violations of the project's packaging
-policy.</p>
-
-<blockquote class="bq">
-<p>The discovery of the bypass of the security whitelistings via the
-<tt>deepin-feature-enable</tt> package marks a turning point in our assessment
-of Deepin. We don't believe that the openSUSE Deepin packager acted
-with bad intent when he implemented the "license agreement" dialog to
-bypass our whitelisting restrictions. The dialog itself makes the
-security concerns we have transparent, so this does not happen in a
-sneaky way, at least not towards users. It was not discussed with us,
-however, and it violates openSUSE packaging policies. Beyond the
-security aspect, this also affects general packaging quality
-assurance: the D-Bus configuration files and Polkit policies installed
-by the <tt>deepin-feature-enable</tt> package are unknown to the package
-manager and won't be cleaned up upon package removal, for
-example. Such bypasses are not deemed acceptable by us.</p>
-
-<p>The combination of these factors led us to the decision to remove
-the Deepin desktop completely from openSUSE Tumbleweed and from the
-future Leap 16.0 release. In openSUSE Leap 15.6 we will remove the
-offending <tt>deepin-feature-enable</tt> package only. It is a difficult
-decision given that the Deepin desktop has a considerable number of
-users. We firmly believe the Deepin packaging and security assessment
-in openSUSE needs a reboot, however, ideally involving new people that
-can help get the Deepin packages into shape, establish a relationship
-with Deepin upstream and keep an eye on bugfixes, thus avoiding
-fruitless follow-up reviews that just waste our time. In such a new
-setup we would be willing to have a look at all the sensitive Deepin
-components again one by one.</p>
-</blockquote>
-
-<p>The announcement goes into detail about the bypass of
-openSUSE packaging policy and the history of security reviews of
-Deepin components. It also offers guidance on <a
-href="https://security.opensuse.org/2025/05/07/deepin-desktop-removal.html#5-how-to-continue-using-deepin-on-opensuse">continuing
-to use Deepin Desktop</a> on openSUSE.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1020407/</guid>
-            <pubDate>Wed, 07 May 2025 13:54:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
