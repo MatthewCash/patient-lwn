@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 May 2025 20:10:07 +0000</pubDate>
-        <lastBuildDate>Wed, 14 May 2025 20:28:28 +0000</lastBuildDate>
+        <pubDate>Wed, 14 May 2025 20:30:27 +0000</pubDate>
+        <lastBuildDate>Wed, 14 May 2025 20:37:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -468,19 +468,6 @@ email exchange with Bottomley.]]></description>
             <guid>https://lwn.net/Articles/1018341/</guid>
             <pubDate>Thu, 24 Apr 2025 14:08:07 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Home Assistant 2025.5 released</title>
-            <link>https://lwn.net/Articles/1020427/</link>
-            <description><![CDATA[<a
-href="https://www.home-assistant.io/blog/2025/05/07/release-20255/">Version
-2025.5</a> of the Home Assistant home automation system has been released.
-With this release, the project is celebrating two&#160;million active
-installations.  Changes include improvements to the backup system, Z-Wave
-Long Range support, a number of new integrations, and more.]]></description>
-            <guid>https://lwn.net/Articles/1020427/</guid>
-            <pubDate>Wed, 07 May 2025 20:25:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
