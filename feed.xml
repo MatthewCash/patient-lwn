@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 May 2025 13:20:37 +0000</pubDate>
-        <lastBuildDate>Thu, 15 May 2025 14:12:29 +0000</lastBuildDate>
+        <pubDate>Thu, 15 May 2025 14:26:52 +0000</pubDate>
+        <lastBuildDate>Thu, 15 May 2025 14:35:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1021379/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (open-vm-tools), <b>Fedora</b> (dnsdist), <b>Gentoo</b> (Node.js and Tracker miners), <b>Red Hat</b> (kernel and xdg-utils), <b>SUSE</b> (audiofile, go1.22-openssl, go1.24, grub2, kernel-devel, openssl-1_1, openssl-3, and python311-Django), and <b>Ubuntu</b> (ruby-rack).]]></description>
+            <guid>https://lwn.net/Articles/1021379/</guid>
+            <pubDate>Thu, 15 May 2025 14:18:07 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Oniux: kernel-level Tor isolation for Linux applications</title>
+            <link>https://lwn.net/Articles/1021354/</link>
+            <description><![CDATA[<p>The Tor project has <a
+href="https://blog.torproject.org/introducing-oniux-tor-isolation-using-linux-namespaces/">announced</a>
+the <a href="https://gitlab.torproject.org/tpo/core/oniux#oniux">oniux</a> utility which provides Tor network isolation, using Linux
+namespaces, for third-party applications.</p>
+
+<blockquote class="bq">
+<p>Namespaces are a powerful feature that gives us the ability to
+isolate Tor network access of an arbitrary application. We put each
+application in a network namespace that doesn't provide access to
+system-wide network interfaces (such as eth0), and instead provides a
+custom network interface onion0.</p>
+
+<p>This allows us to isolate an arbitrary application over Tor in the
+most secure way possible software-wise, namely by relying on a
+security primitive offered by the operating system kernel. Unlike
+SOCKS, the application cannot accidentally leak data by failing to
+make some connection via the configured SOCKS, which may happen due to
+a mistake by the developer.</p>
+</blockquote>
+
+<p>The Tor project cautions that oniux is considered experimental as
+the software it depends on, such as <a
+href="https://tpo.pages.torproject.net/core/arti/about">Arti</a> and
+<a
+href="https://gitlab.torproject.org/tpo/core/onionmasq#onionmasq---masquerading-onions">onionmasq</a>,
+are still new.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1021354/</guid>
+            <pubDate>Thu, 15 May 2025 14:19:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 8, 2025</title>
             <link>https://lwn.net/Articles/1019557/</link>
