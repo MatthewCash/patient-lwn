@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 May 2025 15:55:56 +0000</pubDate>
-        <lastBuildDate>Thu, 15 May 2025 16:15:04 +0000</lastBuildDate>
+        <pubDate>Thu, 15 May 2025 16:36:02 +0000</pubDate>
+        <lastBuildDate>Thu, 15 May 2025 16:41:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -446,14 +446,6 @@ community across time zones.
             <guid>https://lwn.net/Articles/1020653/</guid>
             <pubDate>Fri, 09 May 2025 13:34:20 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1020545/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, libapache2-mod-auth-openidc, mariadb-10.5, and openssh), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (mariadb), <b>SUSE</b> (apache2-mod_auth_openidc, glib2, ImageMagick, libsoup, libsoup2, libva, openvpn, sqlite3, and weblate), and <b>Ubuntu</b> (libsoup3, php-horde-css-parser, and python-django).]]></description>
-            <guid>https://lwn.net/Articles/1020545/</guid>
-            <pubDate>Thu, 08 May 2025 16:26:38 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
