@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 16 May 2025 12:58:20 +0000</pubDate>
-        <lastBuildDate>Fri, 16 May 2025 13:04:41 +0000</lastBuildDate>
+        <pubDate>Fri, 16 May 2025 13:29:04 +0000</pubDate>
+        <lastBuildDate>Fri, 16 May 2025 13:39:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1021482/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, kernel, kernel-rt, redis:6, and yelp and yelp-xsl), <b>Debian</b> (chromium), <b>Red Hat</b> (compat-openssl11, kernel, and thunderbird), and <b>SUSE</b> (nbdkit, open-vm-tools, and rustup).]]></description>
+            <guid>https://lwn.net/Articles/1021482/</guid>
+            <pubDate>Fri, 16 May 2025 13:10:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>An Asahi Linux 6.15 progress report</title>
+            <link>https://lwn.net/Articles/1021484/</link>
+            <description><![CDATA[<p>The <a href="https://asahilinux.org/about/">Asahi Linux</a>
+project, which supports Linux on Apple Silicon Macs, has published a
+progress report ahead of the 6.15 kernel's release.</p>
+
+<blockquote class="bq">
+We are pleased to announce that our graphics driver userspace API
+(uAPI) has been merged into the Linux kernel. This major milestone
+allows us to finally enable OpenGL, OpenCL and Vulkan support for
+Apple Silicon in upstream Mesa. This is the only time a graphics
+driver's uAPI has been merged into the kernel independent of the
+driver itself, which was kindly allowed by the kernel graphics
+subsystem (DRM) maintainers to facilitate upstream Mesa enablement
+while the required Rust abstractions make their way upstream. We are
+grateful for this one-off exception, made possible with close
+collaboration with the kernel community.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1021484/</guid>
+            <pubDate>Fri, 16 May 2025 13:26:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>In Memoriam: John L. Young (EFF)</title>
             <link>https://lwn.net/Articles/1021462/</link>
@@ -451,36 +484,6 @@ Greg Kroah-Hartman has announced the release of the
 </p>]]></description>
             <guid>https://lwn.net/Articles/1020657/</guid>
             <pubDate>Fri, 09 May 2025 14:23:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>GNOME Foundation announces new executive director</title>
-            <link>https://lwn.net/Articles/1020619/</link>
-            <description><![CDATA[<p>The GNOME Foundation has <a
-href="https://foundation.gnome.org/2025/05/09/gnome-foundation-welcomes-steven-deobald-as-executive-director/">announced</a>
-the hiring of Steven Deobald as its new executive director.</p>
-
-<blockquote class="bq">
-Steven has been a GNOME user since 2002 and has been involved in
-numerous free software initiatives throughout his career. His
-professional background spans technical leadership, cooperative
-business development, and nonprofit work. Having worked with projects
-like <a href="https://www.xtdb.com/">XTDB</a> and <a
-href="https://www.endatabas.com/">Endatabas</a>, he brings valuable
-experience in open source product development. Based in Halifax,
-Canada, Steven is well-positioned to collaborate with our global
-community across time zones.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1020619/</guid>
-            <pubDate>Fri, 09 May 2025 13:10:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1020653/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (fossil, libapache2-mod-auth-openidc, and request-tracker4), <b>Fedora</b> (thunderbird), <b>Mageia</b> (firefox and thunderbird), <b>SUSE</b> (389-ds, apparmor, cargo-c, chromium, go1.24, govulncheck-vulndb, java-1_8_0-openjdk, kanidm, libsoup, mozjs102, openssl-1_1, openssl-3, python-Django, sccache, tealdeer, tomcat, transfig, wasm-bindgen, and wireshark), and <b>Ubuntu</b> (libreoffice and python-h11).]]></description>
-            <guid>https://lwn.net/Articles/1020653/</guid>
-            <pubDate>Fri, 09 May 2025 13:34:20 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
