@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 18 May 2025 07:00:25 +0000</pubDate>
-        <lastBuildDate>Sun, 18 May 2025 08:13:49 +0000</lastBuildDate>
+        <pubDate>Sun, 18 May 2025 08:26:39 +0000</pubDate>
+        <lastBuildDate>Sun, 18 May 2025 08:35:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Five more stable kernels</title>
+            <link>https://lwn.net/Articles/1021568/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1021569/">6.14.7</a>,
+<a href="https://lwn.net/Articles/1021570/">6.12.29</a>,
+<a href="https://lwn.net/Articles/1021571/">6.6.91</a>,
+<a href="https://lwn.net/Articles/1021572/">6.1.139</a>, and
+<a href="https://lwn.net/Articles/1021573/">5.15.183</a>
+stable kernel updates have been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1021568/</guid>
+            <pubDate>Sun, 18 May 2025 08:26:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1021482/</link>
