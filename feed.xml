@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 May 2025 00:17:45 +0000</pubDate>
-        <lastBuildDate>Mon, 19 May 2025 05:50:09 +0000</lastBuildDate>
+        <pubDate>Mon, 19 May 2025 06:03:34 +0000</pubDate>
+        <lastBuildDate>Mon, 19 May 2025 06:17:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.15-rc7</title>
+            <link>https://lwn.net/Articles/1021594/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1021593/">6.15-rc7</a> kernel prepatch is out for
+testing.  "<q>So while I wish we hadn't had some of the excitement of last
+week, on the whole it all still looks pretty solid, and unless something
+strange happens I'll do the final 6.15 release next weekend.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1021594/</guid>
+            <pubDate>Mon, 19 May 2025 06:03:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Five more stable kernels</title>
             <link>https://lwn.net/Articles/1021568/</link>
