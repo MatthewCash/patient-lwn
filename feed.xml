@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 May 2025 16:00:33 +0000</pubDate>
-        <lastBuildDate>Mon, 19 May 2025 16:14:36 +0000</lastBuildDate>
+        <pubDate>Mon, 19 May 2025 16:34:30 +0000</pubDate>
+        <lastBuildDate>Mon, 19 May 2025 16:40:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1021740/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dropbear, firefox-esr, intel-microcode, net-tools, openafs, thunderbird, and xrdp), <b>Fedora</b> (chromium, micropython, syslog-ng, webkitgtk, and xen), <b>Mageia</b> (dropbear and openssh), <b>Oracle</b> (.NET 9.0, kernel, libjpeg-turbo, and yelp and yelp-xsl), <b>Red Hat</b> (compat-openssl11, git-lfs, grafana, kernel, and osbuild and osbuild-composer), <b>Slackware</b> (mozilla), <b>SUSE</b> (cargo-c, gimp, iputils-20240905, kernel, libraw, microcode_ctl, openssh, pnpm, python311-cramjam, python311-httptools, python311-jwcrypto, python311-loguru, python311-mechanize, python311-nltk, python311-oauthlib, python311-py7zr, python311-pycapnp, python311-pyspnego, python311-pywayland, python311-suds, python311-treq, python311-ujson, python311-waitress, ruby3.4-rubygem-actionmailer, ruby3.4-rubygem-actiontext, ruby3.4-rubygem-activerecord, ruby3.4-rubygem-activestorage, ruby3.4-rubygem-fluentd, ruby3.4-rubygem-globalid, ruby3.4-rubygem-jquery-rails, ruby3.4-rubygem-kramdown, ruby3.4-rubygem-loofah, ruby3.4-rubygem-multi_xml, ruby3.4-rubygem-puma, ruby3.4-rubygem-rails, ruby3.4-rubygem-rails-html-sanitizer, ruby3.4-rubygem-sprockets, ruby3.4-rubygem-web-console, ruby3.4-rubygem-websocket-extensions, ucode-intel-20250512, and valkey), and <b>Ubuntu</b> (dotnet8, dotnet9, linux, linux-aws, linux-aws-6.8, linux-ibm, linux-lowlatency,
+ linux-lowlatency-hwe-6.8, linux-oracle, linux, linux-azure-5.4, linux-gcp, linux-gcp-5.4, linux-oracle, linux, linux-gkeop, linux-ibm, linux-ibm-5.15, linux-intel-iotg,
+ linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia,
+ linux-oracle, linux-oracle-5.15, linux-fips, linux-gcp, linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-realtime, and linux-xilinx-zynqmp).]]></description>
+            <guid>https://lwn.net/Articles/1021740/</guid>
+            <pubDate>Mon, 19 May 2025 16:24:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.15-rc7</title>
             <link>https://lwn.net/Articles/1021594/</link>
