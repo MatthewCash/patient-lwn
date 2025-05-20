@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 20 May 2025 09:21:35 +0000</pubDate>
-        <lastBuildDate>Tue, 20 May 2025 10:13:08 +0000</lastBuildDate>
+        <pubDate>Tue, 20 May 2025 10:20:23 +0000</pubDate>
+        <lastBuildDate>Tue, 20 May 2025 10:37:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1021812/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, openjdk-11, openjdk-17, and wireless-regdb), <b>Fedora</b> (iputils, open-vm-tools, sfnt2woff-zopfli, and woff), <b>Red Hat</b> (postgresql:12), <b>SUSE</b> (apache2-mod_auth_openidc, brltty, helm, python-maturin, and rubygem-rack), and <b>Ubuntu</b> (linux-azure-fips).]]></description>
+            <guid>https://lwn.net/Articles/1021812/</guid>
+            <pubDate>Tue, 20 May 2025 10:20:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Go cryptography security audit (The Go Blog)</title>
             <link>https://lwn.net/Articles/1021745/</link>
