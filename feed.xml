@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 21 May 2025 17:40:34 +0000</pubDate>
-        <lastBuildDate>Wed, 21 May 2025 17:42:44 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 May 2025 17:49:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -431,26 +431,6 @@ custom OOM killers in BPF</a>.]]></description>
             <guid>https://lwn.net/Articles/1019230/</guid>
             <pubDate>Thu, 01 May 2025 13:51:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Podman 5.5.0 released</title>
-            <link>https://lwn.net/Articles/1021217/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/containers/podman/releases/tag/v5.5.0">Version
-5.5.0</a> of the <a href="https://podman.io/">Podman</a> container-management tool has been
-released. Notable features include the addition of a <tt>podman&#160;machine&#160;cp</tt> command to copy files into a running <a
-href="https://docs.podman.io/en/v5.2.2/markdown/podman-machine.1.html">Podman
-VM</a>, a <tt>podman&#160;artifact&#160;extract</tt> command to copy
-contents of an <a
-href="https://blog.podman.io/2025/01/podman-introduces-support-for-oci-artifacts/">OCI
-artifact</a> to disk, and a <tt>--mount=artifact</tt> option to mount
-OCI artifacts into containers. See the release announcement for a full
-list of improvements and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1021217/</guid>
-            <pubDate>Wed, 14 May 2025 17:37:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
