@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 May 2025 12:53:20 +0000</pubDate>
-        <lastBuildDate>Wed, 21 May 2025 13:05:56 +0000</lastBuildDate>
+        <pubDate>Wed, 21 May 2025 13:14:21 +0000</pubDate>
+        <lastBuildDate>Wed, 21 May 2025 13:42:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1022030/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, avahi, buildah, compat-openssl10, compat-openssl11, expat, firefox, gimp, git, grafana, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:22, osbuild-composer, php, redis, redis:7, skopeo, thunderbird, vim, webkit2gtk3, xterm, and yelp), <b>Arch Linux</b> (dropbear, freetype2, go, nodejs, nodejs-lts-iron, nodejs-lts-jod, python-django, webkit2gtk, webkit2gtk-4.1, webkitgtk-6.0, and wpewebkit), <b>Debian</b> (mongo-c-driver), <b>Fedora</b> (openssh, perl-Mojolicious, thunderbird, yelp, and yelp-xsl), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-ibm-semeru-certified-jdk, java-21-openjdk, kernel, libxslt, ruby, ruby:3.1, ruby:3.3, unbound, and webkit2gtk3), <b>SUSE</b> (glib2, grub2, kernel, libwebp, openssh, and s390-tools), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-6.11, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oem-6.11, linux-raspi, linux-realtime, linux-azure, linux-azure-5.15, linux-nvidia-tegra, linux-azure, linux-azure-6.8, linux-oem-6.8, linux-azure, linux-kvm, linux-azure-fips, linux-azure-nvidia, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, mariadb-10.6, and postgresql-12, postgresql-14, postgresql-16).]]></description>
+            <guid>https://lwn.net/Articles/1022030/</guid>
+            <pubDate>Wed, 21 May 2025 13:13:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Red Hat Enterprise Linux 10 released</title>
             <link>https://lwn.net/Articles/1021827/</link>
@@ -407,14 +415,6 @@ list of improvements and bug fixes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1021217/</guid>
             <pubDate>Wed, 14 May 2025 17:37:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1021199/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, firefox, gnutls, java-17-openjdk, java-21-openjdk, osbuild-composer, python39:3.9, and thunderbird), <b>Arch Linux</b> (screen), <b>Debian</b> (varnish), <b>Fedora</b> (chromium), <b>Gentoo</b> (Atop, FreeType, and Spidermonkey), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk and postgresql15, postgresql13), <b>Oracle</b> (389-ds-base, emacs, firefox, kernel, libsoup, libtiff, mod_auth_openidc:2.3, nodejs:20, nodejs:22, osbuild-composer, python39:3.9, qemu-kvm, ruby, ruby:3.1, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 8.0, .NET 9.0, avahi, buildah, corosync, delve and golang, exiv2, expat, firefox, ghostscript, gimp, git, grafana, gvisor-tap-vsock, java-21-openjdk, kernel, kernel-rt, libarchive, libjpeg-turbo, libsoup, libsoup3, libxslt, mod_auth_openidc, nginx, nginx:1.22, nginx:1.24, nodejs22, nodejs:20, nodejs:22, opentelemetry-collector, osbuild-composer, perl, php, php:8.2, php:8.3, podman, python-jinja2, redis, redis:7, rhc, ruby:2.5, skopeo, sqlite, thunderbird, tomcat, tomcat9, valkey, vim, xorg-x11-server-Xwayland, xterm, xz, yelp, and yggdrasil), <b>Slackware</b> (screen), <b>SUSE</b> (apparmor, dirmngr, gimp, golang-github-prometheus-node_exporter, java-11-openj9, java-17-openj9, java-21-openj9, libxmp-devel, python311-Django4, rabbitmq-server313, rke2, and transfig), and <b>Ubuntu</b> (abseil and open-vm-tools).]]></description>
-            <guid>https://lwn.net/Articles/1021199/</guid>
-            <pubDate>Wed, 14 May 2025 13:08:26 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
