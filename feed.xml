@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 22 May 2025 16:53:15 +0000</pubDate>
-        <lastBuildDate>Thu, 22 May 2025 16:55:02 +0000</lastBuildDate>
+        <pubDate>Thu, 22 May 2025 17:08:29 +0000</pubDate>
+        <lastBuildDate>Thu, 22 May 2025 17:10:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Home Assistant deprecates the &quot;core&quot; and &quot;supervised&quot; installation modes</title>
+            <link>https://lwn.net/Articles/1022252/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/1017720/">Our recent article on Home Assistant</a>
+observed that the project emphasizes installations using its own Linux
+distribution or within containers.  The project has now made that emphasis
+rather stronger with <a
+href="https://www.home-assistant.io/blog/2025/05/22/deprecating-core-and-supervised-installation-methods-and-32-bit-systems/">this
+announcement</a> of the deprecation of the "core" and "supervised"
+installation modes, which allowed Home Assistant to be installed as an
+ordinary application on a Linux system.
+<p>
+<blockquote class="bq">
+	These are advanced installation methods, with only a small
+	percentage of the community opting to use them. If you are using
+	these methods, you can continue to do so (you can even continue to
+	update your system), but in six months time, you will no longer be
+	supported, which I'll explain the impacts of in the next
+	section. References to these installation methods will be removed
+	from our documentation after our next release (2025.6).
+</blockquote>
+<p>
+Support for 32-bit Arm and x86 architectures has also been deprecated.]]></description>
+            <guid>https://lwn.net/Articles/1022252/</guid>
+            <pubDate>Thu, 22 May 2025 17:07:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora Council overturns FESCo provenpackager decision</title>
             <link>https://lwn.net/Articles/1022243/</link>
