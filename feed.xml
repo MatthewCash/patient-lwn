@@ -8,11 +8,138 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 May 2025 23:36:29 +0000</pubDate>
-        <lastBuildDate>Wed, 21 May 2025 23:48:33 +0000</lastBuildDate>
+        <pubDate>Thu, 22 May 2025 00:43:00 +0000</pubDate>
+        <lastBuildDate>Thu, 22 May 2025 00:53:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 15, 2025</title>
+            <link>https://lwn.net/Articles/1020448/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1020448/">Front</a>: Home Assistant; YaST; bpfilter; Flatpak; More LSFMM+BPF 2025 coverage.
+            <li> <a href="https://lwn.net/Articles/1020450/">Briefs</a>: Screen security; Guix on Codeberg; Postgres I/O; GNOME executive director; Nextcloud blog; Podman 5.5.0; OSL sustainability; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1020451/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1020448/</guid>
+            <pubDate>Thu, 15 May 2025 00:59:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The future of Flatpak</title>
+            <link>https://lwn.net/Articles/1020571/</link>
+            <description><![CDATA[<p>At the <a href="https://linuxappsummit.org/">Linux Application
+Summit</a> (LAS) in April, Sebastian Wick said that, by many metrics, <a
+href="https://flatpak.org/">Flatpak</a> is doing great. The Flatpak
+application-packaging format is popular with upstream developers, and
+with many users. More and more applications are being published in the
+<a href="https://flathub.org/">Flathub</a> application store, and the
+format is even being adopted by Linux distributions like
+Fedora. However, he worried that work on the Flatpak project itself
+had stagnated, and that there were too few developers able to review
+and merge code beyond basic maintenance.</p>]]></description>
+            <guid>https://lwn.net/Articles/1020571/</guid>
+            <pubDate>Wed, 14 May 2025 19:18:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Faster firewalls with bpfilter</title>
+            <link>https://lwn.net/Articles/1017705/</link>
+            <description><![CDATA[<p>
+From
+servers in a data center to desktop computers, many devices
+communicating on a network will eventually have to filter network
+traffic, whether it's for security or performance reasons. As a result,
+this is a domain where a lot of work is put into improving performance:
+a tiny performance improvement can have considerable gains.
+<a href="https://bpfilter.io/">
+Bpfilter</a> is a
+project that allows for packet filtering to easily be done with BPF, which can
+be faster than other mechanisms.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1017705/</guid>
+            <pubDate>Wed, 14 May 2025 17:22:47 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at what&apos;s possible with BPF arenas</title>
+            <link>https://lwn.net/Articles/1019885/</link>
+            <description><![CDATA[<p>
+<a href="https://lwn.net/Articles/961941/">
+BPF arenas</a> are areas of memory where the verifier can safely relax its checking of
+pointers, allowing programmers to write arbitrary data structures in BPF. Emil
+Tsalapatis reported on how his team has used arenas in writing
+<a href="https://lwn.net/Articles/922405/">
+sched_ext schedulers</a> at the 2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit. His biggest complaint was about the fact that
+kernel pointers can't be stored in BPF arenas — something that the BPF
+developers hope to address, although there are some implementation problems that
+must be sorted out first.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1019885/</guid>
+            <pubDate>Tue, 13 May 2025 20:44:18 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The last of YaST?</title>
+            <link>https://lwn.net/Articles/1020408/</link>
+            <description><![CDATA[<p>The <a
+href="https://news.opensuse.org/2025/04/30/leap-16-enters-beta/">announcement</a>
+of the openSUSE Leap 16.0 beta contained something of a
+surprise&mdash;along with the usual set of changes and updates, it
+informed the community of the retirement of "<q>the traditional YaST
+stack</q>" from Leap. The <a
+href="https://yast.opensuse.org/">YaST</a> ("Yet another Setup Tool")
+installation and configuration utility has been a core part of the
+openSUSE distribution since its <a
+href="https://lists.opensuse.org/archives/list/users@lists.opensuse.org/thread/32BBSXQNVTPBZFL5LWVFXBBESZU6WRMQ/">inception</a>
+in 2005, and part of SUSE Linux since 1996. It will not, immediately,
+be removed from the openSUSE&#160;Tumbleweed rolling-release
+distribution, but its future is uncertain and its fate is up to the larger
+community to decide.</p>]]></description>
+            <guid>https://lwn.net/Articles/1020408/</guid>
+            <pubDate>Mon, 12 May 2025 14:56:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A kernel developer plays with Home Assistant: general impressions</title>
+            <link>https://lwn.net/Articles/1017720/</link>
+            <description><![CDATA[Those of us who have spent our lives playing with computers naturally see
+the appeal of deploying them though the home for both data acquisition and
+automation.  But many of us who have watched the evolution of the
+technology industry are increasingly unwilling to entrust critical
+household functions to cloud-based servers run by companies that may not
+have our best interests at heart.  The Apache-licensed <a
+href="https://www.home-assistant.io/">Home Assistant</a> project offers a
+welcome alternative: locally controlled automation with free software.
+This two-part series covers roughly a year of Home Assistant use, starting
+with a set of overall observations about the project.]]></description>
+            <guid>https://lwn.net/Articles/1017720/</guid>
+            <pubDate>Fri, 09 May 2025 16:20:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A FUSE implementation for famfs</title>
+            <link>https://lwn.net/Articles/1020170/</link>
+            <description><![CDATA[The <a
+href="https://github.com/cxl-micron-reskit/famfs/blob/master/README.md">famfs</a>
+filesystem is meant to provide a shared-memory filesystem for large data
+sets that are accessed for computations by multiple systems.  It was
+developed by John Groves, who led a combined filesystem and
+memory-management session at
+the 2025 Linux Storage, Filesystem, Memory
+Management, and BPF Summit (LSFMM+BPF) to discuss it.  The session was a
+follow-up to <a href="https://lwn.net/Articles/983105/">the famfs session at last year's
+summit</a>, but it was also meant to discuss whether the kernel's <a
+href="https://docs.kernel.org/filesystems/dax.html">direct-access</a> (DAX)
+mechanism, which is used by famfs, could be replaced in the filesystem
+by using other kernel features.]]></description>
+            <guid>https://lwn.net/Articles/1020170/</guid>
+            <pubDate>Thu, 08 May 2025 19:58:59 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Status report on optional Rust in FreeBSD support</title>
             <link>https://lwn.net/Articles/1022040/</link>
@@ -285,152 +412,6 @@ are still new.</p>
             <guid>https://lwn.net/Articles/1021354/</guid>
             <pubDate>Thu, 15 May 2025 14:19:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for May 8, 2025</title>
-            <link>https://lwn.net/Articles/1019557/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1019557/">Front</a>: Debian and essential packages; Custom BPF OOM killers; Speculation barriers for BPF programs; More LSFMM+BPF 2025 coverage.
-            <li> <a href="https://lwn.net/Articles/1019559/">Briefs</a>: Deepin on openSUSE; AUTOSEL; Mission Center 1.0.0; OASIS ODF; Redis license; USENIX ATC; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1019560/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1019557/</guid>
-            <pubDate>Thu, 08 May 2025 05:19:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Hash table memory usage and a BPF interpreter bug</title>
-            <link>https://lwn.net/Articles/1019667/</link>
-            <description><![CDATA[<p>
-Anton Protopopov led a short discussion at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit about amount of memory used
-by hash tables in BPF programs. He thinks that the current memory layout is
-inefficient, and wants to split the structure that holds table entries into two
-variants for different kinds of maps. When that proposal proved
-uncontroversial, he also took the chance to talk about a bug in BPF's call
-instruction.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1019667/</guid>
-            <pubDate>Wed, 07 May 2025 16:46:47 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian&apos;s AWKward essential set</title>
-            <link>https://lwn.net/Articles/1019898/</link>
-            <description><![CDATA[<p>The Debian project has the concept of <a
-href="https://www.debian.org/doc/debian-policy/ch-binary.html#essential-packages">essential
-packages</a>, which provide the bare minimum functionality considered
-absolutely necessary (or "essential") for a system to
-function. Packages tagged as essential, and the packages that are
-required by the set of essential packages, are always installed as
-part of a Debian system. However, Debian's packaging rules do not
-require developers to explicitly declare dependencies on that set of
-packages (the essential set) but they can simply rely on the fact that those
-will always be present. That means that changing the essential set, as
-the project may wish to do occasionally, is more complicated than it
-should be. This came to light recently when a Debian developer asked
-what might be required to remove <a
-href="https://linux.die.net/man/1/mawk"><tt>mawk</tt></a> to slim down
-the project's container images.</p>]]></description>
-            <guid>https://lwn.net/Articles/1019898/</guid>
-            <pubDate>Wed, 07 May 2025 14:35:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Filtering fanotify events with BPF</title>
-            <link>https://lwn.net/Articles/1018493/</link>
-            <description><![CDATA[<p>
-Linux systems can have large filesystems; trying to keep up with the
-stream of
-<a href="https://www.kernel.org/doc/html/latest/admin-guide/filesystem-monitoring.html">
-fanotify</a> filesystem-monitoring notifications for them can be a struggle.
-Fanotify is one of a few ways to monitor accesses to filesystems provided by the kernel.
-Song Liu led a discussion
-on how to improve in-kernel filtering of fanotify events to a joint
-session of the filesystem and BPF tracks at the 2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit. He wants to combine the best parts of a few
-different approaches to efficiently filter filesystem events.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1018493/</guid>
-            <pubDate>Tue, 06 May 2025 20:14:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improving FUSE writeback performance</title>
-            <link>https://lwn.net/Articles/1019522/</link>
-            <description><![CDATA[In a combined filesystem and memory-management session at 
-the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF), Joanne Koong led a discussion on
-improving the writeback performance for the <a
-href="https://en.wikipedia.org/wiki/Filesystem_in_Userspace">Filesystem in
-Userspace</a> (FUSE) layer.  Writeback is how data that is written to the
-filesystem is actually flushed to the disk; it is the process of writing
-dirty pages from the page cache to storage.  The current FUSE
-implementation allocates unmovable memory, then copies the dirty data to it
-before initiating writeback, which is slow; Koong wanted to change that
-behavior.  Since the session, she has <a
-href="https://lwn.net/ml/all/20250414222210.3995795-1-joannelkoong@gmail.com/">posted a
-patch set</a> that has been <a
-href="https://lwn.net/ml/all/CAJfpegveOFoL-XzDKQZZ4U6UF_AetNwTUDbfmf7rdJasRFm3xA@mail.gmail.com/">applied</a>
-by FUSE maintainer Miklos Szeredi.]]></description>
-            <guid>https://lwn.net/Articles/1019522/</guid>
-            <pubDate>Tue, 06 May 2025 18:55:52 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Injecting speculation barriers into BPF programs</title>
-            <link>https://lwn.net/Articles/1018494/</link>
-            <description><![CDATA[The disclosure of the <a
-href="https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)">Spectre
-class of hardware vulnerabilities</a> created a lot of pain for kernel
-developers (and many others).  That pain was especially acutely felt in the
-BPF community.  While an attacker might have to painfully search the kernel
-code base for exploitable code, an attacker using BPF can simply write and
-load their own speculation gadgets, which is a much more efficient way of
-operating.  The BPF community reacted by, among other things, disallowing
-the loading of programs that may include speculation gadgets.  Luis
-Gerhorst would like to change that situation with <a
-href="https://lwn.net/ml/all/20250421091802.3234859-1-luis.gerhorst@fau.de">this patch
-series</a> that takes a more direct approach to the problem.]]></description>
-            <guid>https://lwn.net/Articles/1018494/</guid>
-            <pubDate>Mon, 05 May 2025 19:04:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Flexible data placement</title>
-            <link>https://lwn.net/Articles/1018642/</link>
-            <description><![CDATA[At 
-the 2025 Linux Storage, Filesystem, Memory
-Management, and BPF Summit (LSFMM+BPF) Kanchan Joshi and Keith Busch led a
-combined storage and filesystem session on data placement, which concerns
-how the data on a storage device is actually written.  In a discussion
-that hearkened back to previous summits, the idea is to give hints to enterprise-class
-SSDs to help them make better choices on where the data should go; hinting
-was most recently <a
-href="https://lwn.net/Articles/932900/">discussed at the summit in 2023</a>.  If SSDs can
-group data with similar lifetimes together, it can lead to longer life for
-the devices, but there is a need to work out the details.]]></description>
-            <guid>https://lwn.net/Articles/1018642/</guid>
-            <pubDate>Fri, 02 May 2025 17:51:48 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Custom out-of-memory killers in BPF</title>
-            <link>https://lwn.net/Articles/1019230/</link>
-            <description><![CDATA[The out-of-memory (OOM) killer has long been a scary and controversial part
-of the Linux kernel.  It is summoned from some dark place when the system
-as a whole (or, more recently, any given control group) is running so low
-on memory that further allocations are not possible; its job is to kill off
-processes until a sufficient amount of memory has been freed.  Roman
-Gushchin has found a way to make the OOM killer even scarier: adding the
-ability to <a
-href="https://lwn.net/ml/all/20250428033617.3797686-1-roman.gushchin@linux.dev">load
-custom OOM killers in BPF</a>.]]></description>
-            <guid>https://lwn.net/Articles/1019230/</guid>
-            <pubDate>Thu, 01 May 2025 13:51:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
