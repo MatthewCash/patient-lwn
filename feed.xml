@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 22 May 2025 19:30:56 +0000</pubDate>
-        <lastBuildDate>Thu, 22 May 2025 19:33:48 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 May 2025 19:48:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -441,24 +441,6 @@ for John Young</a>, the founder of Cryptome.
             <guid>https://lwn.net/Articles/1021462/</guid>
             <pubDate>Fri, 16 May 2025 08:26:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.87.0 released</title>
-            <link>https://lwn.net/Articles/1021400/</link>
-            <description><![CDATA[<p>To commemorate the tenth anniversary of the <a
-href="https://blog.rust-lang.org/2015/05/15/Rust-1.0/">1.0 release</a>
-of the Rust language,
-<a
-href="https://blog.rust-lang.org/2025/05/15/Rust-1.87.0/">version
-1.87.0</a> was announced live today at the <a
-href="https://2025.rustweek.org/celebration/">10 Years of Rust</a>
-celebration in Utrecht, Netherlands. Notable changes
-include the addition of anonymous pipes to the standard library and
-the ability for inline assembly (<tt>asm!</tt>) to jump to labeled
-blocks within Rust code.</p>]]></description>
-            <guid>https://lwn.net/Articles/1021400/</guid>
-            <pubDate>Thu, 15 May 2025 19:26:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
