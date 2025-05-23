@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 23 May 2025 12:03:15 +0000</pubDate>
-        <lastBuildDate>Fri, 23 May 2025 12:20:54 +0000</lastBuildDate>
+        <pubDate>Fri, 23 May 2025 13:01:32 +0000</pubDate>
+        <lastBuildDate>Fri, 23 May 2025 13:04:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1022352/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (dotnet9.0, dropbear, ghostscript, nbdkit, openssh, python-watchfiles, rpm-ostree, yelp, yelp-xsl, and zsync), <b>Oracle</b> (firefox and kernel), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (aaa_glibc and mozilla), <b>SUSE</b> (chromedriver, open-vm-tools, postgresql14, python-cryptography, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-hwe-5.4, python, and sqlite3).]]></description>
+            <guid>https://lwn.net/Articles/1022352/</guid>
+            <pubDate>Fri, 23 May 2025 12:34:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Mozilla is shutting down Pocket</title>
             <link>https://lwn.net/Articles/1022263/</link>
