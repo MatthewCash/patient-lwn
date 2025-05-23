@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 23 May 2025 13:15:09 +0000</pubDate>
-        <lastBuildDate>Fri, 23 May 2025 13:39:24 +0000</lastBuildDate>
+        <pubDate>Fri, 23 May 2025 13:48:28 +0000</pubDate>
+        <lastBuildDate>Fri, 23 May 2025 13:51:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,39 +398,6 @@ important fixes.]]></description>
             <guid>https://lwn.net/Articles/1021568/</guid>
             <pubDate>Sun, 18 May 2025 08:26:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1021482/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, kernel, kernel-rt, redis:6, and yelp and yelp-xsl), <b>Debian</b> (chromium), <b>Red Hat</b> (compat-openssl11, kernel, and thunderbird), and <b>SUSE</b> (nbdkit, open-vm-tools, and rustup).]]></description>
-            <guid>https://lwn.net/Articles/1021482/</guid>
-            <pubDate>Fri, 16 May 2025 13:10:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>An Asahi Linux 6.15 progress report</title>
-            <link>https://lwn.net/Articles/1021484/</link>
-            <description><![CDATA[<p>The <a href="https://asahilinux.org/about/">Asahi Linux</a>
-project, which supports Linux on Apple Silicon Macs, has published a
-progress report ahead of the 6.15 kernel's release.</p>
-
-<blockquote class="bq">
-We are pleased to announce that our graphics driver userspace API
-(uAPI) has been merged into the Linux kernel. This major milestone
-allows us to finally enable OpenGL, OpenCL and Vulkan support for
-Apple Silicon in upstream Mesa. This is the only time a graphics
-driver's uAPI has been merged into the kernel independent of the
-driver itself, which was kindly allowed by the kernel graphics
-subsystem (DRM) maintainers to facilitate upstream Mesa enablement
-while the required Rust abstractions make their way upstream. We are
-grateful for this one-off exception, made possible with close
-collaboration with the kernel community.
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1021484/</guid>
-            <pubDate>Fri, 16 May 2025 13:26:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
