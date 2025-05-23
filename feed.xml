@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 23 May 2025 08:16:31 +0000</pubDate>
-        <lastBuildDate>Fri, 23 May 2025 08:41:37 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 May 2025 08:54:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -423,24 +423,6 @@ collaboration with the kernel community.
             <guid>https://lwn.net/Articles/1021484/</guid>
             <pubDate>Fri, 16 May 2025 13:26:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>In Memoriam: John L. Young (EFF)</title>
-            <link>https://lwn.net/Articles/1021462/</link>
-            <description><![CDATA[The Electronic Frontier Foundation has posted a somewhat belated <a
-href="https://www.eff.org/deeplinks/2025/05/memoriam-john-l-young-cryptome-co-founder">memorial
-for John Young</a>, the founder of Cryptome.
-<p>
-<blockquote class="bq">
-	John was one of the early, under-recognized heroes of the digital
-	age. He not only saw the promise of digital technology to help
-	democratize access to information, he brought that idea into being
-	and nurtured it for many years.  We will miss him and his
-	unswerving commitment to the public's right to know.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1021462/</guid>
-            <pubDate>Fri, 16 May 2025 08:26:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
