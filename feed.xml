@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 24 May 2025 23:25:09 +0000</pubDate>
-        <lastBuildDate>Sun, 25 May 2025 08:13:55 +0000</lastBuildDate>
+        <pubDate>Sun, 25 May 2025 08:18:18 +0000</pubDate>
+        <lastBuildDate>Sun, 25 May 2025 08:35:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -382,21 +382,6 @@ week, on the whole it all still looks pretty solid, and unless something
 strange happens I'll do the final 6.15 release next weekend.</q>"]]></description>
             <guid>https://lwn.net/Articles/1021594/</guid>
             <pubDate>Mon, 19 May 2025 06:03:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Five more stable kernels</title>
-            <link>https://lwn.net/Articles/1021568/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1021569/">6.14.7</a>,
-<a href="https://lwn.net/Articles/1021570/">6.12.29</a>,
-<a href="https://lwn.net/Articles/1021571/">6.6.91</a>,
-<a href="https://lwn.net/Articles/1021572/">6.1.139</a>, and
-<a href="https://lwn.net/Articles/1021573/">5.15.183</a>
-stable kernel updates have been released; each contains another set of
-important fixes.]]></description>
-            <guid>https://lwn.net/Articles/1021568/</guid>
-            <pubDate>Sun, 18 May 2025 08:26:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
