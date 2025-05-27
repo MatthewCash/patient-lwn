@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 27 May 2025 14:57:55 +0000</pubDate>
-        <lastBuildDate>Tue, 27 May 2025 15:12:57 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 15:34:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,42 +349,6 @@ discussion about including Rust in the FreeBSD base system in August
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, avahi, buildah, compat-openssl10, compat-openssl11, expat, firefox, gimp, git, grafana, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:22, osbuild-composer, php, redis, redis:7, skopeo, thunderbird, vim, webkit2gtk3, xterm, and yelp), <b>Arch Linux</b> (dropbear, freetype2, go, nodejs, nodejs-lts-iron, nodejs-lts-jod, python-django, webkit2gtk, webkit2gtk-4.1, webkitgtk-6.0, and wpewebkit), <b>Debian</b> (mongo-c-driver), <b>Fedora</b> (openssh, perl-Mojolicious, thunderbird, yelp, and yelp-xsl), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-ibm-semeru-certified-jdk, java-21-openjdk, kernel, libxslt, ruby, ruby:3.1, ruby:3.3, unbound, and webkit2gtk3), <b>SUSE</b> (glib2, grub2, kernel, libwebp, openssh, and s390-tools), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-6.11, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oem-6.11, linux-raspi, linux-realtime, linux-azure, linux-azure-5.15, linux-nvidia-tegra, linux-azure, linux-azure-6.8, linux-oem-6.8, linux-azure, linux-kvm, linux-azure-fips, linux-azure-nvidia, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, mariadb-10.6, and postgresql-12, postgresql-14, postgresql-16).]]></description>
             <guid>https://lwn.net/Articles/1022030/</guid>
             <pubDate>Wed, 21 May 2025 13:13:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Red Hat Enterprise Linux 10 released</title>
-            <link>https://lwn.net/Articles/1021827/</link>
-            <description><![CDATA[<p>Red Hat has <a
-href="https://www.redhat.com/en/about/press-releases/red-hat-introduces-rhel-10">announced</a>
-the release of Red Hat Enterprise Linux (RHEL) 10. A <a
-href="https://www.redhat.com/en/blog/whats-new-rhel-10">blog post</a>
-accompanying the release provides details on some of the more notable
-features, such as encrypted DNS, a developer preview of RHEL&#160;10
-for RISC-V,
-and <a href="https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux/image-mode">image
-mode</a> for RHEL using <a
-href="https://lwn.net/Articles/979182/">bootc</a>.</p>
-
-<blockquote class="bq">
-Image mode for RHEL lets you deploy your OS as a bootc image to your
-hardware, virtual machine or cloud, and then layer your app on top of
-it. That's a far less complex operation than traditional packaged
-deployments, and it gives developers and image maintainers a common
-experience and total control over their environment.
-</blockquote>
-
-<p>RHEL&#160;10 includes the 6.12.0 kernel, GCC&#160;14.2, GNU
-Binutils 2.41, GNU C Library (glibc) 2.39, Python&#160;3.12,
-Perl&#160;5.40, and more. See the <a
-href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/10/html/10.0_release_notes/index">release
-notes</a> for a full list of changes. LWN <a
-href="https://lwn.net/Articles/986792/">covered</a>
-CentOS&#160;Stream&#160;10 in December, which provided an early look
-at what would be in the RHEL&#160;10 release.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1021827/</guid>
-            <pubDate>Tue, 20 May 2025 14:58:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
