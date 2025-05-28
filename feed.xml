@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 May 2025 13:04:42 +0000</pubDate>
-        <lastBuildDate>Wed, 28 May 2025 13:06:29 +0000</lastBuildDate>
+        <pubDate>Wed, 28 May 2025 13:40:35 +0000</pubDate>
+        <lastBuildDate>Wed, 28 May 2025 13:43:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -371,14 +371,6 @@ discussion about including Rust in the FreeBSD base system in August
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1022040/</guid>
             <pubDate>Wed, 21 May 2025 15:57:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1022030/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, avahi, buildah, compat-openssl10, compat-openssl11, expat, firefox, gimp, git, grafana, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:22, osbuild-composer, php, redis, redis:7, skopeo, thunderbird, vim, webkit2gtk3, xterm, and yelp), <b>Arch Linux</b> (dropbear, freetype2, go, nodejs, nodejs-lts-iron, nodejs-lts-jod, python-django, webkit2gtk, webkit2gtk-4.1, webkitgtk-6.0, and wpewebkit), <b>Debian</b> (mongo-c-driver), <b>Fedora</b> (openssh, perl-Mojolicious, thunderbird, yelp, and yelp-xsl), <b>Red Hat</b> (firefox, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-ibm-semeru-certified-jdk, java-21-openjdk, kernel, libxslt, ruby, ruby:3.1, ruby:3.3, unbound, and webkit2gtk3), <b>SUSE</b> (glib2, grub2, kernel, libwebp, openssh, and s390-tools), and <b>Ubuntu</b> (linux, linux-azure, linux-azure-6.11, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oem-6.11, linux-raspi, linux-realtime, linux-azure, linux-azure-5.15, linux-nvidia-tegra, linux-azure, linux-azure-6.8, linux-oem-6.8, linux-azure, linux-kvm, linux-azure-fips, linux-azure-nvidia, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, mariadb-10.6, and postgresql-12, postgresql-14, postgresql-16).]]></description>
-            <guid>https://lwn.net/Articles/1022030/</guid>
-            <pubDate>Wed, 21 May 2025 13:13:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
