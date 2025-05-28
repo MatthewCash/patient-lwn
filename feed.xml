@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 May 2025 14:37:25 +0000</pubDate>
-        <lastBuildDate>Wed, 28 May 2025 14:54:01 +0000</lastBuildDate>
+        <pubDate>Wed, 28 May 2025 15:07:43 +0000</pubDate>
+        <lastBuildDate>Wed, 28 May 2025 15:11:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Launchpad mailing lists going away</title>
+            <link>https://lwn.net/Articles/1022888/</link>
+            <description><![CDATA[<p>Canonical's <a href="https://launchpad.net/">Launchpad</a>
+software-collaboration platform that is used for Ubuntu development
+will be shutting down its <a
+href="https://help.launchpad.net/ListHelp">hosted mailing lists</a> at
+the end of October. The <a
+href="https://blog.launchpad.net/general/sunsetting-launchpads-mailing-lists">announcement</a>
+recommends <a href="https://discourse.ubuntu.com/">Discourse</a> or <a
+href="https://help.launchpad.net/Answers">Launchpad Answers</a> as
+alternatives. Ubuntu's <a href="https://lists.ubuntu.com/">mailing
+lists</a> are unaffected by the change.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1022888/</guid>
+            <pubDate>Wed, 28 May 2025 15:07:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1022853/</link>
