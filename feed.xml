@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 May 2025 12:03:35 +0000</pubDate>
-        <lastBuildDate>Wed, 28 May 2025 12:21:31 +0000</lastBuildDate>
+        <pubDate>Wed, 28 May 2025 13:04:42 +0000</pubDate>
+        <lastBuildDate>Wed, 28 May 2025 13:06:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1022853/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free and kernel), <b>Arch Linux</b> (bind and varnish), <b>Debian</b> (glibc and syslog-ng), <b>Fedora</b> (microcode_ctl, mozilla-ublock-origin, nodejs20, and nodejs22), <b>Mageia</b> (firefox, nss, rootcerts, open-vm-tools, sqlite3, and thunderbird), <b>Oracle</b> (gstreamer1-plugins-bad-free, kernel, libsoup, nodejs:22, php, php:8.2, php:8.3, python-tornado, redis, and redis:7), <b>Red Hat</b> (libsoup, pcs, and python-tornado), <b>Slackware</b> (mozilla), <b>SUSE</b> (bind, dnsdist, elemental-operator, govulncheck-vulndb, gstreamer-plugins-bad, jetty-annotations, jq, libnss_slurm2, libyelp0, mariadb, nvidia-open-driver-G06-signed, prometheus-blackbox_exporter, python-h11, python-httpcore, python-setuptools, python312, python39-setuptools, screen, sqlite3, umoci, and webkit2gtk3), and <b>Ubuntu</b> (cifs-utils, glibc, linux-aws, linux-intel-iotg-5.15, linux-nvidia-tegra-igx, linux-raspi, linux-aws-fips, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-raspi-5.4, and net-tools).]]></description>
+            <guid>https://lwn.net/Articles/1022853/</guid>
+            <pubDate>Wed, 28 May 2025 13:04:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>AlmaLinux OS 10.0 released</title>
             <link>https://lwn.net/Articles/1022744/</link>
