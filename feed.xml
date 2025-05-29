@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 May 2025 12:59:54 +0000</pubDate>
-        <lastBuildDate>Thu, 29 May 2025 13:05:05 +0000</lastBuildDate>
+        <pubDate>Thu, 29 May 2025 13:36:42 +0000</pubDate>
+        <lastBuildDate>Thu, 29 May 2025 13:40:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1023072/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Debian</b> (firefox-esr, libvpx, net-tools, php-twig, python-tornado, setuptools, varnish, webpy, yelp, and yelp-xsl), <b>Fedora</b> (xen), <b>Mageia</b> (cimg and ghostscript), <b>Oracle</b> (gstreamer1-plugins-bad-free, kernel, libsoup, thunderbird, and unbound), <b>Red Hat</b> (firefox, mingw-freetype and spice-client-win, pcs, and varnish:6), <b>Slackware</b> (curl and mozilla), <b>SUSE</b> (apparmor, containerd, dnsdist, go1.23-openssl, go1.24, gstreamer-plugins-bad, ImageMagick, jetty-minimal, python-tornado, python313-setuptools, s390-tools, thunderbird, tomcat10, ucode-intel, and wxWidgets-3_2), and <b>Ubuntu</b> (ffmpeg, krb5, libsoup3, libsoup2.4, linux-aws-5.4, linux-aws-fips, linux-fips, linux-oracle-6.8, net-tools, and python-setuptools, setuptools).]]></description>
+            <guid>https://lwn.net/Articles/1023072/</guid>
+            <pubDate>Thu, 29 May 2025 13:36:41 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 22, 2025</title>
             <link>https://lwn.net/Articles/1021258/</link>
