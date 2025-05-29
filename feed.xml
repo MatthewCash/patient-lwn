@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 May 2025 15:09:56 +0000</pubDate>
-        <lastBuildDate>Thu, 29 May 2025 15:50:14 +0000</lastBuildDate>
+        <pubDate>Thu, 29 May 2025 16:03:21 +0000</pubDate>
+        <lastBuildDate>Thu, 29 May 2025 16:14:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -305,33 +305,6 @@ Support for 32-bit Arm and x86 architectures has also been deprecated.]]></descr
             <guid>https://lwn.net/Articles/1022252/</guid>
             <pubDate>Thu, 22 May 2025 17:07:13 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Council overturns FESCo provenpackager decision</title>
-            <link>https://lwn.net/Articles/1022243/</link>
-            <description><![CDATA[<p>The Fedora Council has ruled on the Fedora Engineering Steering
-Council's (FESCo) decision last year to revoke Peter Robinson's
-provenpackager status. In a <a
-href="https://lwn.net/ml/all/20250522151512.GA10870%40mattdm.org/">statement</a>
-published to the fedora-devel-announce mailing list, the council has
-announced that it has overturned FESCo's decision:</p>
-
-<blockquote class="bq">
-FESCo didn't have a specific policy for dealing with a request to remove
-Proven Packager rights. In addition, the FESCo process was handled entirely
-in private. The contributor didn't receive a formal notification or warning
-from FESCo, and felt blindsided by the official decision when and how it was
-announced. The Fedora Council would like to extend our sincerest apology on
-behalf of the Fedora Project to them.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1002450/">covered</a> the
-story in December 2024.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1022243/</guid>
-            <pubDate>Thu, 22 May 2025 15:45:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
