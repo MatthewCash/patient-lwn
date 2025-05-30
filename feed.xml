@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 May 2025 11:37:08 +0000</pubDate>
-        <lastBuildDate>Fri, 30 May 2025 11:48:37 +0000</lastBuildDate>
+        <pubDate>Fri, 30 May 2025 12:18:32 +0000</pubDate>
+        <lastBuildDate>Fri, 30 May 2025 12:20:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1023259/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, firefox, ghostscript, gstreamer1-plugins-bad-free, libsoup3, mingw-freetype, perl, ruby, sqlite, thunderbird, unbound, valkey, and xz), <b>Debian</b> (chromium, firefox-esr, libavif, linux-6.1, modsecurity-apache, mydumper, systemd, and thunderbird), <b>Fedora</b> (coreutils, dnsdist, docker-buildx, maturin, mingw-python-flask, mingw-python-flit-core, ruff, rust-hashlink, rust-rusqlite, and thunderbird), <b>Red Hat</b> (pcs), <b>SUSE</b> (augeas, brltty, brotli, ca-certificates-mozilla, dnsdist, glibc, grub2, kernel, libsoup, libsoup2, libxml2, open-vm-tools, perl, postgresql13, postgresql15, postgresql16, postgresql17, python-cryptography, python-httpcore, python-h11, python311, runc, s390-tools, slurm, slurm_20_11, slurm_22_05, slurm_23_02, slurm_24_11, tomcat, and webkit2gtk3), and <b>Ubuntu</b> (linux-aws).]]></description>
+            <guid>https://lwn.net/Articles/1023259/</guid>
+            <pubDate>Fri, 30 May 2025 12:18:31 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Local vulnerabilities in Kea DHCP</title>
             <link>https://lwn.net/Articles/1023093/</link>
