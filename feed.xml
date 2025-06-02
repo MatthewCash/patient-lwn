@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 02 Jun 2025 14:03:24 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Jun 2025 14:36:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 2 Jun 2025 14:53:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -267,14 +267,6 @@ release notes</a> for details.  (Thanks to Pavel Roskin).]]></description>
             <guid>https://lwn.net/Articles/1022704/</guid>
             <pubDate>Tue, 27 May 2025 13:02:37 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1022639/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, ghostscript, grafana, kernel, and osbuild-composer), <b>Debian</b> (intel-microcode, kernel, libphp-adodb, and openssl), <b>Fedora</b> (dotnet8.0, ghostscript, iputils, nbdkit, open-vm-tools, thunderbird, and vyper), <b>Mageia</b> (chromium-browser-stable, glibc, iputils, microcode, nodejs, and zsync), <b>Oracle</b> (.NET 8.0, .NET 9.0, 389-ds-base, avahi, buildah, compat-openssl11, expat, firefox, ghostscript, gimp, git, grafana, gvisor-tap-vsock, libsoup, libxslt, mod_auth_openidc, nginx, nodejs:20, osbuild-composer, podman, skopeo, thunderbird, vim, webkit2gtk3, xdg-utils, xterm, and yelp), <b>Red Hat</b> (kernel, kernel-rt, libsoup, libsoup3, python-tornado, and ruby), <b>Slackware</b> (ffmpeg), <b>SUSE</b> (audiofile, firefox, glibc, govulncheck-vulndb, grafana, kernel, kind, kubo, libecpg6, postgresql13, postgresql14, python-Django, python-setuptools, python-tornado6, python311-Flask, python311-tornado6, python313, python36-setuptools, thunderbird, transfig, and xen), and <b>Ubuntu</b> (glib2.0, linux-bluefield, linux-ibm, linux-raspi, and openjdk-21-crac).]]></description>
-            <guid>https://lwn.net/Articles/1022639/</guid>
-            <pubDate>Mon, 26 May 2025 14:39:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
