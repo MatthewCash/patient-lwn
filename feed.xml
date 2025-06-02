@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Jun 2025 12:51:38 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Jun 2025 13:06:25 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Jun 2025 13:39:34 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Jun 2025 13:43:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1023501/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (espeak-ng, kitty, kmail-account-wizard, krb5, libreoffice, libvpx, net-tools, python-flask-cors, symfony, tcpdf, thunderbird, and twitter-bootstrap3), <b>Fedora</b> (chromium, dropbear, firefox, gstreamer1-plugins-bad-free, python-tornado, systemd, and thunderbird), <b>Mageia</b> (coreutils, deluge, glib2.0, and redis), <b>Oracle</b> (firefox, kernel, and systemd), <b>Red Hat</b> (firefox, kernel, kernel-rt, varnish, varnish:6, and zlib), <b>SUSE</b> (bind, curl, dnsdist, docker, ffmpeg-7, firefox, glibc, golang-github-prometheus-alertmanager, govulncheck-vulndb, icinga2, iputils, java-11-openjdk, java-1_8_0-ibm, kea, kernel, libopenssl-3-devel, libsoup, libxml2, nodejs-electron, open-vm-tools, openbao, perl-Net-Dropbox-API, pluto, poppler, postgresql14, postgresql15, postgresql16, postgresql17, python312-setuptools, runc, s390-tools, skopeo, sqlite3, thunderbird, and unbound), and <b>Ubuntu</b> (apport and libphp-adodb).]]></description>
+            <guid>https://lwn.net/Articles/1023501/</guid>
+            <pubDate>Mon, 02 Jun 2025 13:39:33 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1023259/</link>
