@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 02 Jun 2025 02:32:13 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Jun 2025 03:44:04 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 2 Jun 2025 04:17:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -267,46 +267,6 @@ release notes</a> for details.  (Thanks to Pavel Roskin).]]></description>
             <guid>https://lwn.net/Articles/1022639/</guid>
             <pubDate>Mon, 26 May 2025 14:39:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>The 6.15 kernel has been released</title>
-            <link>https://lwn.net/Articles/1022457/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1022493/">released</a> the 6.15 kernel, as
-expected.
-<p>
-<blockquote class="bq">
-	So this was delayed by a couple of hours because of a last-minute
-	bug report resulting in one new feature being disabled at the
-	eleventh hour, but 6.15 is out there now.
-</blockquote>
-<p>
-  Significant changes in 6.15 include <a
-href="https://lwn.net/Articles/1012490/">smarter timer-ID assignment</a> to make
-checkpoint/restore operations more reliable, the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6092c5016005">ability</a>
-to read status information from a pidfd after the process in question has
-been reaped, the <a href="https://lwn.net/Articles/992991/"><tt>PIDFD_SELF</tt></a>
-special pidfd value, <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=7a54947e727b">nested
-ID-mapped mounts</a>, zero-copy network-data reception via io_uring, The <a
-href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6df9d086ffcb">ability
-to read epoll events</a> via io_uring, <a
-href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6ffb9017e932">resilient
-queued spinlocks</a> for BPF programs, <a
-href="https://lwn.net/Articles/1011366/">guard-page enhancements</a> allowing them to be
-placed in file-backed memory areas and for user space to detect their
-presence, the once-controversial <a href="https://lwn.net/Articles/969383/">fwctl
-subsystem</a>, the optional <a href="https://lwn.net/Articles/1006375/">sealing of some
-system mappings</a>, and much more.
-<p>
-See the LWN merge-window summaries (<a
-href="https://lwn.net/Articles/1015414/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1016119/">part&#160;2</a>) and the in-progress <a
-href="https://kernelnewbies.org/Linux_6.15">KernelNewbies 6.15 page</a> for
-more information.]]></description>
-            <guid>https://lwn.net/Articles/1022457/</guid>
-            <pubDate>Mon, 26 May 2025 03:44:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
