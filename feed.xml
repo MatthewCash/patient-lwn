@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Jun 2025 13:03:51 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Jun 2025 13:07:38 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Jun 2025 13:15:55 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Jun 2025 13:45:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1023625/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (varnish), <b>Debian</b> (asterisk and roundcube), <b>Fedora</b> (systemd), <b>Mageia</b> (golang), <b>Red Hat</b> (ghostscript, perl-CPAN, python36:3.6, and rsync), <b>SUSE</b> (govulncheck-vulndb, libsoup-2_4-1, and postgresql, postgresql16, postgresql17), and <b>Ubuntu</b> (mariadb, open-vm-tools, php-twig, and python-tornado).]]></description>
+            <guid>https://lwn.net/Articles/1023625/</guid>
+            <pubDate>Tue, 03 Jun 2025 13:14:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Alpine Linux 3.22.0 released</title>
             <link>https://lwn.net/Articles/1023516/</link>
