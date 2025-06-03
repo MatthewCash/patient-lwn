@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Jun 2025 22:21:57 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Jun 2025 22:34:25 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Jun 2025 22:37:47 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Jun 2025 22:50:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -252,28 +252,6 @@ lists</a> are unaffected by the change.</p>
             <guid>https://lwn.net/Articles/1022853/</guid>
             <pubDate>Wed, 28 May 2025 13:04:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>AlmaLinux OS 10.0 released</title>
-            <link>https://lwn.net/Articles/1022744/</link>
-            <description><![CDATA[<a
-href="https://almalinux.org/blog/2025-05-27-welcoming-almalinux-10/">Version
-10</a> of the AlmaLinux OS distribution has been released.
-<p>
-<blockquote class="bq">
-	The goal of AlmaLinux OS is to support our community, and AlmaLinux
-	OS 10 is the best example of that yet. With an unwavering eye on
-	maintaining compatibility with Red Hat Enterprise Linux (RHEL), we
-	have made small improvements to AlmaLinux OS 10 that target
-	specific sections of our userbase.
-</blockquote>
-<p>
-See <a
-href="https://wiki.almalinux.org/release-notes/10.0.html#providing-feedback-and-getting-help">the
-release notes</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1022744/</guid>
-            <pubDate>Tue, 27 May 2025 22:45:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
