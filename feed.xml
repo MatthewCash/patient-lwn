@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Jun 2025 11:49:31 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Jun 2025 13:07:49 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Jun 2025 13:40:06 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Jun 2025 13:46:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1023793/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git, krb5, perl-CPAN, and rsync), <b>Debian</b> (tcpdf), <b>Fedora</b> (libmodsecurity, lua-http, microcode_ctl, and nextcloud), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (389-ds, avahi, ca-certificates-mozilla, docker, expat, freetype2, glib2, gnuplot, gnutls, golang-github-teddysun-v2ray-plugin, golang-github-v2fly-v2ray-core, govulncheck-vulndb, helm, iperf, kernel, kernel-livepatch-MICRO-6-0_Update_2, kernel-livepatch-MICRO-6-0_Update_4, krb5, libarchive, libsoup, libsoup2, libtasn1, libX11, libxml2, libxslt, orc, podman, python-Jinja2, python-requests, python3-setuptools, python310, python311, python39, rubygem-rack, sslh, SUSE Manager Client Tools, SUSE Manager Client Tools and Salt Bundle, ucode-intel, util-linux, and wget), and <b>Ubuntu</b> (libvpx, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-azure, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-nvidia-tegra, linux-oracle, linux, linux-aws, linux-kvm, linux-aws, linux-lts-xenial, linux-aws-fips, linux-azure-fips, linux-fips, linux-gcp-fips, linux-aws-fips, linux-gcp-fips, linux-azure-fde, linux-fips, and linux-intel-iot-realtime, linux-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1023793/</guid>
+            <pubDate>Wed, 04 Jun 2025 13:13:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Eight stable kernels released</title>
+            <link>https://lwn.net/Articles/1023794/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1023795/">6.15.1</a>, <a
+href="https://lwn.net/Articles/1023796/">6.14.10</a>, <a
+href="https://lwn.net/Articles/1023797/">6.12.32</a>, <a
+href="https://lwn.net/Articles/1023798/">6.6.93</a>, <a
+href="https://lwn.net/Articles/1023799/">6.1.141</a>, <a
+href="https://lwn.net/Articles/1023800/">5.15.185</a>, <a
+href="https://lwn.net/Articles/1023801/">5.10.238</a>, and <a
+href="https://lwn.net/Articles/1023802/">5.4.294</a> stable kernels. As usual, each
+contains a set of important fixes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1023794/</guid>
+            <pubDate>Wed, 04 Jun 2025 13:24:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1023625/</link>
