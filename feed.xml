@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 04 Jun 2025 11:49:31 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Jun 2025 12:22:08 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 4 Jun 2025 13:07:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -243,14 +243,6 @@ lists</a> are unaffected by the change.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1022888/</guid>
             <pubDate>Wed, 28 May 2025 15:07:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1022853/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free and kernel), <b>Arch Linux</b> (bind and varnish), <b>Debian</b> (glibc and syslog-ng), <b>Fedora</b> (microcode_ctl, mozilla-ublock-origin, nodejs20, and nodejs22), <b>Mageia</b> (firefox, nss, rootcerts, open-vm-tools, sqlite3, and thunderbird), <b>Oracle</b> (gstreamer1-plugins-bad-free, kernel, libsoup, nodejs:22, php, php:8.2, php:8.3, python-tornado, redis, and redis:7), <b>Red Hat</b> (libsoup, pcs, and python-tornado), <b>Slackware</b> (mozilla), <b>SUSE</b> (bind, dnsdist, elemental-operator, govulncheck-vulndb, gstreamer-plugins-bad, jetty-annotations, jq, libnss_slurm2, libyelp0, mariadb, nvidia-open-driver-G06-signed, prometheus-blackbox_exporter, python-h11, python-httpcore, python-setuptools, python312, python39-setuptools, screen, sqlite3, umoci, and webkit2gtk3), and <b>Ubuntu</b> (cifs-utils, glibc, linux-aws, linux-intel-iotg-5.15, linux-nvidia-tegra-igx, linux-raspi, linux-aws-fips, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.11, linux-oracle, linux-raspi, linux-raspi-5.4, and net-tools).]]></description>
-            <guid>https://lwn.net/Articles/1022853/</guid>
-            <pubDate>Wed, 28 May 2025 13:04:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
