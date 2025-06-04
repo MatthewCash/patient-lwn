@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Jun 2025 14:45:45 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Jun 2025 14:47:46 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Jun 2025 15:15:36 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Jun 2025 15:37:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Strategy 2028 update (Fedora Community Blog)</title>
+            <link>https://lwn.net/Articles/1023837/</link>
+            <description><![CDATA[<p><a href="https://lwn.net/Articles/1001634/">Outgoing</a> Fedora Project Leader Matthew Miller has posted an <a
+href="https://communityblog.fedoraproject.org/strategy-2028-update/">update</a>
+on Fedora's high-level plan through 2028:</p>
+
+<blockquote class="bq">
+[Fedora] Council members identified potential Initiatives that we
+believe are important to work on next. We came up with a list of
+thirteen — which is way more than we can handle at once. We previously
+set a limit of four Initiatives at a time. We decided to keep to that
+rule, and are planning to launch four initiatives in the next months
+</blockquote>
+
+<p>The initiatives are: making Fedora releases block on accessibility
+issues, experimenting with a "GitOps" workflow for packaging,
+migrating from <a href="https://pagure.io/">Pagure</a> to <a
+href="https://forgejo.org/">Forgejo</a>, and "<q>making sure Fedora
+Linux is ready for people who want to work on machine learning and AI
+development</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1023837/</guid>
+            <pubDate>Wed, 04 Jun 2025 14:54:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1023793/</link>
@@ -252,25 +279,6 @@ hoped to find a way to move forward with it.]]></description>
             <guid>https://lwn.net/Articles/1020437/</guid>
             <pubDate>Thu, 15 May 2025 14:26:51 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Launchpad mailing lists going away</title>
-            <link>https://lwn.net/Articles/1022888/</link>
-            <description><![CDATA[<p>Canonical's <a href="https://launchpad.net/">Launchpad</a>
-software-collaboration platform that is used for Ubuntu development
-will be shutting down its <a
-href="https://help.launchpad.net/ListHelp">hosted mailing lists</a> at
-the end of October. The <a
-href="https://blog.launchpad.net/general/sunsetting-launchpads-mailing-lists">announcement</a>
-recommends <a href="https://discourse.ubuntu.com/">Discourse</a> or <a
-href="https://help.launchpad.net/Answers">Launchpad Answers</a> as
-alternatives. Ubuntu's <a href="https://lists.ubuntu.com/">mailing
-lists</a> are unaffected by the change.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1022888/</guid>
-            <pubDate>Wed, 28 May 2025 15:07:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
