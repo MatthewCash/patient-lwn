@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Jun 2025 17:26:25 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Jun 2025 17:48:16 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Jun 2025 18:38:25 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Jun 2025 18:56:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>/e/OS 3.0 released</title>
+            <link>https://lwn.net/Articles/1024190/</link>
+            <description><![CDATA[<a href="https://gitlab.e.foundation/e/os/releases/-/releases">Version
+3.0</a> of the privacy-centric, open-source mobile operating system
+has been released. Notable changes in this release include improved
+privacy tools, a "find my device" feature, and more. LWN <a
+href="https://lwn.net/Articles/1006557/">looked at /e/OS</a> in
+March.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1024190/</guid>
+            <pubDate>Thu, 05 Jun 2025 18:14:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1024158/</link>
