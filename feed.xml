@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Jun 2025 13:00:46 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Jun 2025 13:04:57 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Jun 2025 13:33:15 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Jun 2025 13:42:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1024317/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, golang, nodejs:20, nodejs:22, openssh, and python36:3.6), <b>Debian</b> (edk2, libfile-find-rule-perl, and webkit2gtk), <b>Fedora</b> (emacs, libvpx, perl-FCGI, and seamonkey), <b>Mageia</b> (cifs-utils), <b>Red Hat</b> (containernetworking-plugins, go-toolset:rhel8, golang, gvisor-tap-vsock, krb5, mod_auth_openidc:2.3, protobuf, and thunderbird), <b>Slackware</b> (seamonkey), <b>SUSE</b> (gimp, gnutls, haproxy, opensaml, openssh, openvpn, python-cryptography, python-tornado, python311-nh3, and python311-selenium), and <b>Ubuntu</b> (gst-plugins-bad1.0 and linux-fips).]]></description>
+            <guid>https://lwn.net/Articles/1024317/</guid>
+            <pubDate>Fri, 06 Jun 2025 13:33:15 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>/e/OS 3.0 released</title>
             <link>https://lwn.net/Articles/1024190/</link>
