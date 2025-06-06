@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Jun 2025 15:22:05 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Jun 2025 15:31:03 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Jun 2025 15:34:58 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Jun 2025 15:43:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Netdev 0x19 videos and slides are live</title>
+            <link>https://lwn.net/Articles/1024345/</link>
+            <description><![CDATA[<p>The <a href="https://netdevconf.info/0x19/index.html">Netdev
+0x19</a> conference was held in Zagreb, Croatia from March&#160;10
+through March&#160;13. The organizers <a
+href="https://netdevconf.info/0x19/news/netdev-0x19-videos-are-live.html">announced</a>
+today that the videos and slides for <a href="https://netdevconf.info/0x19/pages/sessions.html">all sessions</a> are now
+online. Topics from the conference include IRQ suspension, the future
+of <tt>SO_TIMESTAMPING</tt>, remote TCP connection offloading, and
+more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1024345/</guid>
+            <pubDate>Fri, 06 Jun 2025 15:34:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1024317/</link>
