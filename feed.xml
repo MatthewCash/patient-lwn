@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 08 Jun 2025 20:56:35 +0000</pubDate>
-        <lastBuildDate>Sun, 8 Jun 2025 23:48:11 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Jun 2025 00:47:29 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Jun 2025 00:57:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.16-rc1</title>
+            <link>https://lwn.net/Articles/1024494/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1024493/">6.16-rc1</a> and closed the
+merge window for this release.
+<p>
+<blockquote class="bq">
+	I think we had a fairly normal merge window, although I did get the
+	feeling that there were a few more "late straggler" pull requests
+	than usual.  Not to a huge degree, but there was definitely an
+	upward bump at the end of the second week.
+	<p>
+	But on the whole, all the stats look pretty normal.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1024494/</guid>
+            <pubDate>Mon, 09 Jun 2025 00:47:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Netdev 0x19 videos and slides are live</title>
             <link>https://lwn.net/Articles/1024345/</link>
