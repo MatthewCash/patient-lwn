@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Jun 2025 18:11:01 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Jun 2025 19:34:05 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Jun 2025 19:37:30 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Jun 2025 19:48:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Ubuntu 25.10 to drop support for X11 in GNOME</title>
+            <link>https://lwn.net/Articles/1024758/</link>
+            <description><![CDATA[<p>Jean Baptiste Lallement, a member of Canonical's desktop team, has
+<a
+href="https://discourse.ubuntu.com/t/ubuntu-25-10-drops-support-for-gnome-on-xorg/62538">announced</a>
+that Ubuntu will drop support for GNOME on X11 in the 25.10
+("Questing Quokka") release set for October. GNOME plans to <a
+href="https://blogs.gnome.org/alatiera/2025/06/08/the-x11-session-removal/">remove</a>
+X11 support in GNOME&#160;49, which is scheduled for September, so
+Ubuntu is looking to be proactive:</p>
+
+<blockquote class="bq">
+Ubuntu 25.10 is the last interim release before our next LTS (Ubuntu
+26.04). By moving now, we give developers and users a full cycle to
+adapt before the next LTS, align with GNOME 49 and reduce
+fragmentation while simplifying our support matrix heading into the
+LTS.
+</blockquote>
+
+<p>Fedora <a href="https://pagure.io/fesco/issue/3408">decided in
+early May</a> to drop X11 support for GNOME in Fedora&#160;43, which
+is also due in October.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1024758/</guid>
+            <pubDate>Tue, 10 Jun 2025 19:37:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1024713/</link>
