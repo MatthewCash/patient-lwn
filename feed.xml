@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Jun 2025 12:48:00 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Jun 2025 13:07:10 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Jun 2025 13:42:42 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Jun 2025 13:44:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1024939/</link>
+            <description><![CDATA[Security updates have been issued by <strong>AlmaLinux</strong> (glibc, grafana, kernel-rt, libjpeg-turbo, libxslt, and thunderbird), <strong>Debian</strong> (curl), <strong>Fedora</strong> (dtk6core, dtk6gui, dtk6log, dtk6widget, fcitx5-qt, gammaray, kddockwidgets, kwin, LabPlot, libqtxdg, nheko, plasma-integration, python-pyqt6, python-pyside6, qt-creator, roundcubemail, zeal, and a large number of qt6 packages), <strong>Oracle</strong> (firefox, glibc, grafana, kernel, libxslt, perl-FCGI, python3.12-cryptography, thunderbird, and zlib), </strong>SUSE</strong> (glib2, libjxl, libsoup2, nbdkit, nodejs22, perl-Crypt-OpenSSL-RSA, perl-YAML-LibYAML, python3, tomcat, and transfig), and <strong>Ubuntu</strong> (dotnet8, dotnet9 and samba).]]></description>
+            <guid>https://lwn.net/Articles/1024939/</guid>
+            <pubDate>Wed, 11 Jun 2025 13:14:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Covert web-to-app tracking via localhost on Android</title>
+            <link>https://lwn.net/Articles/1024844/</link>
+            <description><![CDATA[The <a href="https://localmess.github.io/">"Local Mess" GitHub
+repository</a> is dedicated to the disclosure of an Android tracking
+exploit used by (at least) Meta and Yandex.
+<p>
+<blockquote class="bq">
+	While there are subtle differences in the way Meta and Yandex
+	bridge web and mobile contexts and identifiers, both of them
+	essentially misuse the unvetted access to localhost sockets. The
+	Android OS allows any installed app with the INTERNET permission to
+	open a listening socket on the loopback interface
+	(127.0.0.1). Browsers running on the same device also access this
+	interface without user consent or platform mediation. This allows
+	JavaScript embedded on web pages to communicate with native Android
+	apps and share identifiers and browsing habits, bridging ephemeral
+	web identifiers to long-lived mobile app IDs using standard Web
+	APIs. 
+</blockquote>
+<p>
+This backdoor, the use of which has evidently stopped since its disclosure,
+allow tracking of users across sites regardless of cookie policies or use of
+incognito browser modes.]]></description>
+            <guid>https://lwn.net/Articles/1024844/</guid>
+            <pubDate>Wed, 11 Jun 2025 13:16:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Ubuntu 25.10 to drop support for X11 in GNOME</title>
             <link>https://lwn.net/Articles/1024758/</link>
