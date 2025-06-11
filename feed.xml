@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Jun 2025 15:26:01 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Jun 2025 15:35:04 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Jun 2025 15:45:50 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Jun 2025 15:50:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -409,33 +409,6 @@ filesystems hit production.]]></description>
             <guid>https://lwn.net/Articles/1020966/</guid>
             <pubDate>Thu, 22 May 2025 14:08:55 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Strategy 2028 update (Fedora Community Blog)</title>
-            <link>https://lwn.net/Articles/1023837/</link>
-            <description><![CDATA[<p><a href="https://lwn.net/Articles/1001634/">Outgoing</a> Fedora Project Leader Matthew Miller has posted an <a
-href="https://communityblog.fedoraproject.org/strategy-2028-update/">update</a>
-on Fedora's high-level plan through 2028:</p>
-
-<blockquote class="bq">
-[Fedora] Council members identified potential Initiatives that we
-believe are important to work on next. We came up with a list of
-thirteen — which is way more than we can handle at once. We previously
-set a limit of four Initiatives at a time. We decided to keep to that
-rule, and are planning to launch four initiatives in the next months
-</blockquote>
-
-<p>The initiatives are: making Fedora releases block on accessibility
-issues, experimenting with a "GitOps" workflow for packaging,
-migrating from <a href="https://pagure.io/">Pagure</a> to <a
-href="https://forgejo.org/">Forgejo</a>, and "<q>making sure Fedora
-Linux is ready for people who want to work on machine learning and AI
-development</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1023837/</guid>
-            <pubDate>Wed, 04 Jun 2025 14:54:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
