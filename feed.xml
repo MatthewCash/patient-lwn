@@ -8,11 +8,187 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Jun 2025 22:49:25 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Jun 2025 23:49:41 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Jun 2025 00:42:25 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Jun 2025 00:54:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 5, 2025</title>
+            <link>https://lwn.net/Articles/1022979/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1022979/">Front</a>: OpenH264 in Fedora; Wallabag; Safety certification; 6.16 Merge window; Bounce buffering; Hardening repository problems; Device-initiated I/O; Faster networking; OSPM 2025; Free software in science.
+            <li> <a href="https://lwn.net/Articles/1022981/">Briefs</a>: Kea vulnerabilities; Alpine Linux 3.22.0; Fedora strategy; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1022982/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1022979/</guid>
+            <pubDate>Thu, 05 Jun 2025 01:11:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Device-initiated I/O</title>
+            <link>https://lwn.net/Articles/1022718/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/767281/">Peer-to-peer DMA</a> (P2PDMA) has been part of
+the kernel since the <a href="https://lwn.net/Articles/775487/">4.20 release</a> in 2018;
+it provides a framework that allows devices to transfer data between themselves
+directly, without using system RAM for the transfer.  At the 2025 Linux
+Storage, Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Stephen
+Bates led a combined storage, filesystems, and memory-management session on
+device-initiated I/O, which is perhaps what P2PDMA is evolving toward.  Two
+years ago, he led a <a href="https://lwn.net/Articles/931668/">session on P2PDMA</a> at the
+summit; this year's session was a brief update on P2PDMA with a look
+at where it may be heading.]]></description>
+            <guid>https://lwn.net/Articles/1022718/</guid>
+            <pubDate>Wed, 04 Jun 2025 17:39:05 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The importance of free software to science</title>
+            <link>https://lwn.net/Articles/1023299/</link>
+            <description><![CDATA[Free software plays a critical role in science, both in research and in
+disseminating it. Aspects of software freedom are directly relevant to
+simulation, analysis, document preparation and preservation, security,
+reproducibility, and usability. Free software brings practical and specific
+advantages, beyond just its ideological roots, to science, while
+proprietary software comes with equally specific risks.  As a practicing
+scientist, I would like to help others—scientists or not—see the benefits
+from free software in science.]]></description>
+            <guid>https://lwn.net/Articles/1023299/</guid>
+            <pubDate>Wed, 04 Jun 2025 14:16:09 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Two sessions on faster networking</title>
+            <link>https://lwn.net/Articles/1022648/</link>
+            <description><![CDATA[<p>
+Cong Wang and Daniel Borkmann each led session at the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit about their respective
+plans to speed up networking in the Linux kernel. Both sessions described ways
+to remove unnecessary operations in the networking stack, but they focused on
+different areas. Wang spoke about using BPF to speed up socket operations,
+while Borkmann spoke about eliminating the overhead of networking
+operations on virtual machines.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1022648/</guid>
+            <pubDate>Wed, 04 Jun 2025 14:21:46 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Safety certification for open-source systems</title>
+            <link>https://lwn.net/Articles/1022889/</link>
+            <description><![CDATA[<p>
+This year's
+<a href="https://www.linaro.org/connect/">
+Linaro Connect</a> in Lisbon, Portugal featured a number of talks about the use of
+open-source components in safety-critical systems. Kate Stewart gave a keynote on the topic
+on the first day of the conference. In it, she highlighted several projects that
+have been working to pursue safety certification and spoke about the importance of
+being able to trace software's origins to safety. In a talk on the second day, Roberto
+Bagnara shared his experience with working on one of those projects, the Xen
+hypervisor, to conform to a formal set of rules for safety-critical code.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1022889/</guid>
+            <pubDate>Tue, 03 Jun 2025 14:41:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Hardening fixes lead to hard questions</title>
+            <link>https://lwn.net/Articles/1023502/</link>
+            <description><![CDATA[Kees Cook's <a href="https://lwn.net/ml/all/202505310759.3A40AD051@keescook">"hardening
+fixes" pull request</a> for the 6.16 merge window looked like a
+straightforward exercise; it only contained four commits.  So just about
+everybody was surprised when it resulted in Cook being temporarily blocked
+from his kernel.org account among fears of malicious activity.  When the
+dust settled, though, the red alert was canceled.  It turns out,
+surprisingly, that Git is a tool with which one can inflict substantial
+self-harm in a moment of inattention.]]></description>
+            <guid>https://lwn.net/Articles/1023502/</guid>
+            <pubDate>Mon, 02 Jun 2025 16:55:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] OpenH264 induces headaches for Fedora</title>
+            <link>https://lwn.net/Articles/1023088/</link>
+            <description><![CDATA[<p>Software patents and workarounds for them are, once again,
+causing headaches for open-source projects and users. This time
+around, Fedora users have been vulnerable to a serious flaw in the <a
+href="https://www.openh264.org/">OpenH264</a> library for
+months&mdash;not for want of a fix, but because of the <a
+href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube
+Goldberg machine</a> methodology of distributing the library to Fedora
+users. The software is open source under a <span
+class="nobreak">two-clause</span> BSD license; the RPMs are built and
+signed by Fedora, but the final product is distributed by Cisco, so
+the company can pick up the tab for license fees. Unfortunately, a
+breakdown in the process of handing RPMs to Cisco for distribution has
+left Fedora users vulnerable, and inaction on Fedora's part has left
+users unaware that they are at risk.</p>]]></description>
+            <guid>https://lwn.net/Articles/1023088/</guid>
+            <pubDate>Mon, 02 Jun 2025 15:57:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reports from OSPM 2025, day three</title>
+            <link>https://lwn.net/Articles/1022054/</link>
+            <description><![CDATA[The seventh edition of the <a
+href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
+in the Linux Kernel Summit</a> (known as "OSPM") took place on March 18-20,
+2025.  Topics discussed on the third (and final) day include proxy
+execution, energy-aware scheduling, the deadline scheduler, and an
+evaluation of <a href="https://lwn.net/Articles/925371/">the kernel's EEVDF scheduler</a>.]]></description>
+            <guid>https://lwn.net/Articles/1022054/</guid>
+            <pubDate>Fri, 30 May 2025 18:18:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Out of Pocket and into the wallabag</title>
+            <link>https://lwn.net/Articles/1022399/</link>
+            <description><![CDATA[<p>Mozilla has decided to <a
+href="https://support.mozilla.org/en-US/kb/future-of-pocket">throw in
+the towel</a> on <a href="https://getpocket.com/">Pocket</a>, a <a
+href="https://en.wikipedia.org/wiki/Social_bookmarking">social-bookmarking</a>
+service that it acquired in 2017. This has left many users scrambling
+for a replacement for Pocket before its shutdown in July. One possible
+option is <a href="https://wallabag.org/">wallabag</a>, a
+self-hostable, MIT-licensed project for saving web content for later
+reading. It can import saved data from services like Pocket, share
+content on the web, export to various formats, and more. Even better,
+it puts users in control of their data long-term.</p>]]></description>
+            <guid>https://lwn.net/Articles/1022399/</guid>
+            <pubDate>Fri, 30 May 2025 12:52:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The first half of the 6.16 merge window</title>
+            <link>https://lwn.net/Articles/1022512/</link>
+            <description><![CDATA[<p>
+As of this writing, 5,546 non-merge changesets have been pulled into the mainline
+kernel repository for the 6.16 release. This is a bit less than half of the
+total commits for 6.15, so the merge window is well on its way. Read on for our
+summary of the first half of the 6.16 merge window.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1022512/</guid>
+            <pubDate>Thu, 29 May 2025 20:27:40 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Block-layer bounce buffering bounces out of the kernel</title>
+            <link>https://lwn.net/Articles/1022655/</link>
+            <description><![CDATA[As the end of the 1990s approached, a lot of kernel-development effort was
+going into improving support for <span class="nobreak">32-bit systems</span>
+with shockingly large amounts of memory installed.  This being the 1990s,
+having more than 1GB of memory in such a system was deemed to be shocking.
+Many of the compromises made to support such inconceivably large systems
+have remained in the kernel to this day.  One of those compromises —
+bounce buffering of I/O requests in the block layer — has finally been
+eased out for the 6.16 release, more than a quarter-century after its
+introduction.]]></description>
+            <guid>https://lwn.net/Articles/1022655/</guid>
+            <pubDate>Thu, 29 May 2025 18:23:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1024939/</link>
@@ -232,182 +408,6 @@ March.</p>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and mariadb-10.5), <b>Oracle</b> (firefox, ghostscript, git, go-toolset:ol8, golang, kernel, krb5, mingw-freetype and spice-client-win, nodejs:20, nodejs:22, perl-CPAN, python36:3.6, rsync, varnish, and varnish:6), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (curl and python3), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, avahi, buildkit, ca-certificates-mozilla, cloud-regionsrv-client, cloud-regionsrv-client, python-toml, containerd, containerized-data-importer, cups, curl, dnsmasq, docker, elemental-operator, elemental-toolkit, expat, firefox, freetype2, gdk-pixbuf, git, glib2, glibc, gnuplot, gnutls, gpg2, gstreamer, gstreamer-plugins-base, gtk3, haproxy, helm, java-17-openjdk, java-1_8_0-openjdk, keepalived, kernel, kernel-firmware, krb5, kubevirt, less, libarchive, libcryptopp, libdb-4_8, libndp, libpcap, libsoup, libtasn1, libvirt, libX11, libxml2, libxslt, Mesa, mozilla-nss, nghttp2, nvidia-open-driver-G06-signed, opensc, openssh, openssl-3, openssl-3, libpulp, ulp-macros, orc, pam, pam_pkcs11, pam_u2f, patch, pcp, pcr-oracle, shim, perl-Crypt-OpenSSL-RSA, podman, postgresql16, procps, protobuf, python-dnspython, python-Jinja2, python-requests, python-setuptools, python-tornado6, python-urllib3, python311, python311, python-rpm-macros, qemu, rsync, runc, rust-keylime, selinux-policy, sevctl, skopeo, sssd, SUSE Manager Client Tools, systemd, thunderbird, tiff, tpm2.0-tools, tpm2-0-tss, u-boot, ucode-intel, unbound, util-linux, vim, wget, and wpa_supplicant), and <b>Ubuntu</b> (linux-nvidia, python-django, twitter-bootstrap3, twitter-bootstrap4, and wireshark).]]></description>
             <guid>https://lwn.net/Articles/1024158/</guid>
             <pubDate>Thu, 05 Jun 2025 13:36:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for May 29, 2025</title>
-            <link>https://lwn.net/Articles/1022134/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1022134/">Front</a>: Glibc security; How we lost the Internet; Encrypted DNS; 6.15 Development statistics; Filesystem stress-testing; BPF verifier; Network access from BPF; OSPM 2025.
-            <li> <a href="https://lwn.net/Articles/1022136/">Briefs</a>: AlmaLinux 10.0; FESCo decision overturned; NixOS 25.05; Pocket, Launchpad retired; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1022137/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1022134/</guid>
-            <pubDate>Thu, 29 May 2025 03:55:56 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Glibc project revisits infrastructure security</title>
-            <link>https://lwn.net/Articles/1021837/</link>
-            <description><![CDATA[<p>The <a href="https://sourceware.org/glibc/">GNU C Library</a>
-(glibc) is the core C library for most Linux distributions, so it is a 
-crucial part of the open-source <span class="nobreak">ecosystem&mdash;and</span> an attractive
-target for any attackers looking to carry out supply-chain
-attacks. With that being the case, securing the project's
-infrastructure using industry best practices and improving the
-security of its development practices are a frequent topic among glibc
-developers. A recent discussion suggests that improvements are not
-happening as quickly as some would like.</p>]]></description>
-            <guid>https://lwn.net/Articles/1021837/</guid>
-            <pubDate>Wed, 28 May 2025 16:41:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Allowing BPF programs more access to the network</title>
-            <link>https://lwn.net/Articles/1022034/</link>
-            <description><![CDATA[<p>
-Mahé Tardy led two sessions about some of the challenges that he, Kornilios Kourtis,
-and John Fastabend have run into in their work on
-<a href="https://tetragon.io/">
-Tetragon</a> (Apache-licensed BPF-based security monitoring software)
-at the Linux Storage, Filesystem, Memory Management, and BPF Summit. The session
-prompted discussion about the feasibility of letting BPF programs
-send data over the network, as well as potential new kfuncs to let BPF firewalls
-send TCP reset packets. Tardy presented several possible ways that these could
-be accomplished.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1022034/</guid>
-            <pubDate>Wed, 28 May 2025 15:33:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] System-wide encrypted DNS</title>
-            <link>https://lwn.net/Articles/1021357/</link>
-            <description><![CDATA[<p>The increasing sophistication of attackers has organizations
-realizing that perimeter-based security models are inadequate. Many
-are planning to transition their internal networks to a <a
-href="https://en.wikipedia.org/wiki/Zero_trust_architecture">zero-trust
-architecture</a>. This requires every communication on the network to
-be encrypted, authenticated, and authorized. This can be achieved in
-applications and services by using modern communication
-protocols. However, the world still depends on Domain Name System
-(DNS) services where encryption, while possible, is far from being the
-industry standard. To address this we, as part of a working group at
-Red Hat, worked on fully integrating encrypted DNS for Linux
-systems&mdash;not only while the system is running but also during the
-installation and boot process, including support for a custom
-certificate chain in the initial ramdisk. This integration is now
-available in CentOS&#160;Stream&#160;9, 10, and the upcoming
-Fedora&#160;43 release.</p>]]></description>
-            <guid>https://lwn.net/Articles/1021357/</guid>
-            <pubDate>Wed, 28 May 2025 13:55:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Verifying the BPF verifier&apos;s path-exploration logic</title>
-            <link>https://lwn.net/Articles/1021825/</link>
-            <description><![CDATA[<p>
-Srinivas Narayana led a remote session about extending
-<a href="https://github.com/bpfverif/agni?tab=readme-ov-file#agni-verifying-the-verifier-ebpf-range-analysis-verification-cav-2023-software-artifact">
-Agni</a> to prove the correctness of
-the BPF verifier's handling of different execution paths as part of the Linux Storage,
-Filesystem, Memory Management, and BPF Summit. The problem of ensuring the
-correctness of path exploration
-is much more difficult than the problem of
-ensuring the correctness of arithmetic operations
-(which was
-<a href="https://lwn.net/Articles/1020664/">
-the subject of the previous session</a>), however. Narayana's plan to
-tackle the problem makes use of a mixture of specialized techniques — and may
-need some assistance from the BPF developers to make it feasible at all.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1021825/</guid>
-            <pubDate>Tue, 27 May 2025 19:15:46 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Cory Doctorow on how we lost the internet</title>
-            <link>https://lwn.net/Articles/1021871/</link>
-            <description><![CDATA[Cory Doctorow <a href="https://craphound.com/bio/">wears many hats</a>:
-digital activist, science-fiction author, journalist, and more.  He has
-also written many books, both fiction and non-fiction, runs the <a
-href="https://pluralistic.net/">Pluralistic blog</a>, is a visiting
-professor, and is an advisor to the <a href="https://www.eff.org/">Electronic
-Frontier Foundation</a> (EFF); his <a
-href="https://chokepointcapitalism.com/"><i>Chokepoint Capitalism</i></a>
-co-author, Rebecca Giblin, gave a <a href="https://lwn.net/Articles/927278/">2023 keynote
-in Australia</a> that we covered.  Doctorow gave a rousing keynote on
-the state of the "enshitternet"—today's internet—to kick
-off the recently held <a href="https://us.pycon.org/2025/">PyCon US
-2025</a> in Pittsburgh, Pennsylvania.]]></description>
-            <guid>https://lwn.net/Articles/1021871/</guid>
-            <pubDate>Tue, 27 May 2025 14:57:53 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development statistics for the 6.15 kernel</title>
-            <link>https://lwn.net/Articles/1022414/</link>
-            <description><![CDATA[The 6.14 kernel development cycle only brought in 11,003 non-merge
-changesets, making it the slowest cycle since 4.0, which was released in
-2015.  The 6.15 kernel, instead, brought in 14,612 changesets, making it
-the busiest release since 6.7, released at the beginning of 2024.  The
-kernel development process, in other words, is back up to full speed.  The
-<a
-href="https://lwn.net/ml/all/CAHk-=wiLRW8DN8-4jmeCZH0OpO8skXOC5e6FwMfsPwGMpQYmVQ@mail.gmail.com/">6.15
-release</a> happened on May&#160;25, so the time has come for the
-obligatory look at where the changes in this release came from.]]></description>
-            <guid>https://lwn.net/Articles/1022414/</guid>
-            <pubDate>Mon, 26 May 2025 16:04:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reports from OSPM 2025, day two</title>
-            <link>https://lwn.net/Articles/1021332/</link>
-            <description><![CDATA[The seventh edition of the <a
-href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
-in the Linux Kernel Summit</a> (known as "OSPM")  took place on March 18-20,
-2025.  Topics discussed on the second day include improvements to device
-suspend and resume, the status and future of sched_ext, the scx_lavd
-scheduler, improving the efficiency of load balancing, and hierarchical
-constant bandwidth server scheduling.]]></description>
-            <guid>https://lwn.net/Articles/1021332/</guid>
-            <pubDate>Fri, 23 May 2025 17:57:56 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Formally verifying the BPF verifier</title>
-            <link>https://lwn.net/Articles/1020664/</link>
-            <description><![CDATA[<p>
-The BPF verifier is an increasingly complex and security-critical piece of code.
-When the kinds of people who are apt to work on BPF see a situation like that,
-they naturally question whether it's possible to use formal verification to
-ensure that the implementation of the code in question is correct. Santosh
-Nagarakatte led the first of two extra-long sessions in the BPF track
-of the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
-about his team's work formally verifying the BPF verifier with a
-custom tool called
-<a href="https://github.com/bpfverif/agni">
-Agni</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1020664/</guid>
-            <pubDate>Fri, 23 May 2025 14:34:00 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Long-duration stress-testing for filesystems</title>
-            <link>https://lwn.net/Articles/1020966/</link>
-            <description><![CDATA[Testing filesystems is a frequent topic at
-the Linux Storage, Filesystem,
-Memory Management, and BPF Summit (LSFMM+BPF); the 2025 edition was no
-exception.  Boris Burkov led a filesystem-track session to discuss
-stress-testing filesystems—and running those tests for lengthy periods.  He
-reviewed what he has been doing when testing filesystems and wanted to
-gather ideas for what could be done to catch more bugs before the
-filesystems hit production.]]></description>
-            <guid>https://lwn.net/Articles/1020966/</guid>
-            <pubDate>Thu, 22 May 2025 14:08:55 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
