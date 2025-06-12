@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 12 Jun 2025 13:38:28 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Jun 2025 13:44:17 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 12 Jun 2025 13:55:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -409,14 +409,6 @@ March.</p>
             <guid>https://lwn.net/Articles/1024190/</guid>
             <pubDate>Thu, 05 Jun 2025 18:14:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1024158/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and mariadb-10.5), <b>Oracle</b> (firefox, ghostscript, git, go-toolset:ol8, golang, kernel, krb5, mingw-freetype and spice-client-win, nodejs:20, nodejs:22, perl-CPAN, python36:3.6, rsync, varnish, and varnish:6), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), <b>Slackware</b> (curl and python3), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, avahi, buildkit, ca-certificates-mozilla, cloud-regionsrv-client, cloud-regionsrv-client, python-toml, containerd, containerized-data-importer, cups, curl, dnsmasq, docker, elemental-operator, elemental-toolkit, expat, firefox, freetype2, gdk-pixbuf, git, glib2, glibc, gnuplot, gnutls, gpg2, gstreamer, gstreamer-plugins-base, gtk3, haproxy, helm, java-17-openjdk, java-1_8_0-openjdk, keepalived, kernel, kernel-firmware, krb5, kubevirt, less, libarchive, libcryptopp, libdb-4_8, libndp, libpcap, libsoup, libtasn1, libvirt, libX11, libxml2, libxslt, Mesa, mozilla-nss, nghttp2, nvidia-open-driver-G06-signed, opensc, openssh, openssl-3, openssl-3, libpulp, ulp-macros, orc, pam, pam_pkcs11, pam_u2f, patch, pcp, pcr-oracle, shim, perl-Crypt-OpenSSL-RSA, podman, postgresql16, procps, protobuf, python-dnspython, python-Jinja2, python-requests, python-setuptools, python-tornado6, python-urllib3, python311, python311, python-rpm-macros, qemu, rsync, runc, rust-keylime, selinux-policy, sevctl, skopeo, sssd, SUSE Manager Client Tools, systemd, thunderbird, tiff, tpm2.0-tools, tpm2-0-tss, u-boot, ucode-intel, unbound, util-linux, vim, wget, and wpa_supplicant), and <b>Ubuntu</b> (linux-nvidia, python-django, twitter-bootstrap3, twitter-bootstrap4, and wireshark).]]></description>
-            <guid>https://lwn.net/Articles/1024158/</guid>
-            <pubDate>Thu, 05 Jun 2025 13:36:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
