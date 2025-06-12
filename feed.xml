@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Jun 2025 12:55:07 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Jun 2025 13:06:49 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Jun 2025 13:38:28 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Jun 2025 13:44:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1025208/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (chromium, gst-plugins-bad1.0, node-tar-fs, and ublock-origin), <b>Gentoo</b> (Emacs, File-Find-Rule, GStreamer, GStreamer Plugins, GTK+ 3, LibreOffice, Node.js, OpenImageIO, Python, PyPy, Qt, X.Org X server, XWayland, and YAML-LibYAML), <b>Mageia</b> (mariadb and roundcubemail), <b>Red Hat</b> (go-toolset:rhel8, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, libxml2, libxslt, mod_security, nodejs:20, and perl-FCGI:0.78), <b>Slackware</b> (mozilla), <b>SUSE</b> (docker, docker-compose, iputils, kernel, libsoup, open-vm-tools, rabbitmq-server, rabbitmq-server313, wget, and yelp), and <b>Ubuntu</b> (libsoup2.4 and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1025208/</guid>
+            <pubDate>Thu, 12 Jun 2025 13:37:36 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 5, 2025</title>
             <link>https://lwn.net/Articles/1022979/</link>
