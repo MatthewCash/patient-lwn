@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Jun 2025 18:25:56 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Jun 2025 18:43:56 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Jun 2025 18:53:05 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Jun 2025 18:56:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -429,21 +429,6 @@ more.</p>
             <guid>https://lwn.net/Articles/1024317/</guid>
             <pubDate>Fri, 06 Jun 2025 13:33:15 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>/e/OS 3.0 released</title>
-            <link>https://lwn.net/Articles/1024190/</link>
-            <description><![CDATA[<a href="https://gitlab.e.foundation/e/os/releases/-/releases">Version
-3.0</a> of the privacy-centric, open-source mobile operating system
-has been released. Notable changes in this release include improved
-privacy tools, a "find my device" feature, and more. LWN <a
-href="https://lwn.net/Articles/1006557/">looked at /e/OS</a> in
-March.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1024190/</guid>
-            <pubDate>Thu, 05 Jun 2025 18:14:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
