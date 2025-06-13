@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Jun 2025 12:41:41 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Jun 2025 13:05:27 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Jun 2025 13:39:52 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Jun 2025 13:42:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1025354/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, glibc, kernel, and mod_security), <b>Fedora</b> (chromium, gh, mingw-icu, nginx-mod-modsecurity, python3.10, python3.9, thunderbird, valkey, and yarnpkg), <b>Oracle</b> (.NET 8.0, .NET 9.0, glibc, grafana-pcp, kernel, libxml2, mod_security, nodejs:20, and thunderbird), <b>SUSE</b> (audiofile, helm, kubernetes-old, kubernetes1.23, kubernetes1.24, libcryptopp, postgresql15, thunderbird, and valkey), and <b>Ubuntu</b> (linux-nvidia-tegra-igx).]]></description>
+            <guid>https://lwn.net/Articles/1025354/</guid>
+            <pubDate>Fri, 13 Jun 2025 13:05:32 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Rocky Linux 10.0 released</title>
             <link>https://lwn.net/Articles/1025224/</link>
@@ -421,14 +429,6 @@ more.</p>
             <guid>https://lwn.net/Articles/1024345/</guid>
             <pubDate>Fri, 06 Jun 2025 15:34:58 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1024317/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, golang, nodejs:20, nodejs:22, openssh, and python36:3.6), <b>Debian</b> (edk2, libfile-find-rule-perl, and webkit2gtk), <b>Fedora</b> (emacs, libvpx, perl-FCGI, and seamonkey), <b>Mageia</b> (cifs-utils), <b>Red Hat</b> (containernetworking-plugins, go-toolset:rhel8, golang, gvisor-tap-vsock, krb5, mod_auth_openidc:2.3, protobuf, and thunderbird), <b>Slackware</b> (seamonkey), <b>SUSE</b> (gimp, gnutls, haproxy, opensaml, openssh, openvpn, python-cryptography, python-tornado, python311-nh3, and python311-selenium), and <b>Ubuntu</b> (gst-plugins-bad1.0 and linux-fips).]]></description>
-            <guid>https://lwn.net/Articles/1024317/</guid>
-            <pubDate>Fri, 06 Jun 2025 13:33:15 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
