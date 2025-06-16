@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 15 Jun 2025 22:43:06 +0000</pubDate>
-        <lastBuildDate>Sun, 15 Jun 2025 23:48:12 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Jun 2025 00:23:16 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Jun 2025 00:57:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.16-rc2</title>
+            <link>https://lwn.net/Articles/1025529/</link>
+            <description><![CDATA[Linus Torvalds has released <a href="https://lwn.net/Articles/1025530/">6.16-rc2</a>,
+which is "<q>admittedly
+even smaller than usual</q>", though rc2 is not uncommonly one of the smaller
+release candidates.
+
+<blockquote class="bq">
+It may be that people are taking a breather after a fairly sizable
+merge window, but it might also be seasonal, with Europe starting to
+see summer vacations... We'll see how this goes.
+<p>
+The diffstat looks somewhat unusual, with a lot of one-liners with
+both ARC and pincontrol having (presumably independently) ended up
+doing some unrelated trivial cleanups.
+<p>
+But even that is probably noticeable only because everything else is
+pretty small. That "everything else" is mostly network drivers (and
+bluetooth) and bcachefs, with some rust infrastructure and core
+networking changes thrown in.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1025529/</guid>
+            <pubDate>Mon, 16 Jun 2025 00:23:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Radicle Desktop released</title>
             <link>https://lwn.net/Articles/1025405/</link>
