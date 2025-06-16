@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 16 Jun 2025 16:13:19 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Jun 2025 16:57:28 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 16 Jun 2025 17:12:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -424,29 +424,6 @@ Pamela Jones</a> in late 2005.]]></description>
             <guid>https://lwn.net/Articles/1024718/</guid>
             <pubDate>Tue, 10 Jun 2025 13:16:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>FreeBSD laptop support update</title>
-            <link>https://lwn.net/Articles/1024633/</link>
-            <description><![CDATA[<p>The <a href="https://freebsdfoundation.org/">FreeBSD Foundation</a>
-has <a
-href="https://freebsdfoundation.org/blog/april-2025-laptop-support-and-usability-project-update/">announced</a>
-a <a
-href="https://github.com/FreeBSDFoundation/proj-laptop/blob/main/monthly-updates/2025-04.md">report</a>
-for work completed in April to improve FreeBSD support for
-laptops. This includes installer updates, improved suspend/resume
-behavior, as well as progress on <a
-href="https://github.com/FreeBSDFoundation/proj-laptop/blob/main/monthly-updates/2025-04.md#port-of-linux-67-graphics-drivers">a
-port of Linux&#160;6.7 and 6.8 graphics drivers</a> to <a
-href="https://github.com/freebsd/drm-kmod?tab=readme-ov-file#drm-kmod">drm-kmod</a>. A
-<a
-href="https://github.com/FreeBSDFoundation/proj-laptop/blob/main/monthly-updates/Q2-2025-roadmap.pdf">roadmap</a>
-for the FreeBSD laptop work is also available.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1024633/</guid>
-            <pubDate>Mon, 09 Jun 2025 16:48:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
