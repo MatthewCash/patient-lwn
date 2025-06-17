@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Jun 2025 13:26:36 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Jun 2025 13:43:43 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Jun 2025 13:43:31 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Jun 2025 13:55:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1025734/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, buildah, containernetworking-plugins, firefox, gstreamer1-plugins-bad-free, libsoup3, podman, skopeo, sqlite, thunderbird, unbound, valkey, varnish, and xz), <b>Debian</b> (webkit2gtk), <b>Fedora</b> (fido-device-onboard, python-django4.2, rust-git-interactive-rebase-tool, and thunderbird), <b>Red Hat</b> (libsoup), <b>Slackware</b> (libxml2), <b>SUSE</b> (java-11-openjdk, kernel, and wireshark), and <b>Ubuntu</b> (c3p0, dojo, python-django, python3.13, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, and requests).]]></description>
+            <guid>https://lwn.net/Articles/1025734/</guid>
+            <pubDate>Tue, 17 Jun 2025 13:43:31 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Changes to Kubernetes Slack (Kubernetes Contributors blog)</title>
             <link>https://lwn.net/Articles/1025634/</link>
@@ -412,65 +420,6 @@ is also due in October.</p>
             <guid>https://lwn.net/Articles/1024758/</guid>
             <pubDate>Tue, 10 Jun 2025 19:37:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1024713/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (python-django), <b>Fedora</b> (krb5), <b>Mageia</b> (cockpit, golang, kernel, and kernel-linus), <b>SUSE</b> (augeas, go1.23, go1.24, iputils, libwebp, transfig, and xen), and <b>Ubuntu</b> (amd64-microcode, apport, linux-azure, linux-azure, linux-azure-4.15, linux-azure-fips, linux-raspi, systemd, and tomcat).]]></description>
-            <guid>https://lwn.net/Articles/1024713/</guid>
-            <pubDate>Tue, 10 Jun 2025 13:07:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates</title>
-            <link>https://lwn.net/Articles/1024714/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1024715/">6.15.2</a>,
-<a href="https://lwn.net/Articles/1024716/">6.14.11</a>, and
-<a href="https://lwn.net/Articles/1024717/">6.12.33</a>
-stable kernel updates have been released; each contains a relatively small
-set of important fixes.
-<p>
-Note that this is the end of the line for the 6.14.x updates; Greg
-Kroah-Hartman explains the timing of this move:
-<p>
-<blockquote class="bq">
-	If you notice, this has happened a bit more "early" than previous
-	end-of-life announcements.  Normally, after -rc1 is out there is a
-	TON of stable patches happening due to the changes that come into
-	the merge-window that were marked for stable backports but didn't
-	get into Linus's release before -final.  As some people have
-	objected to this large influx being added to a stable kernel that
-	is just about to go end-of-life, let's try marking this end-of-life
-	a bit earlier to see how it goes.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1024714/</guid>
-            <pubDate>Tue, 10 Jun 2025 13:10:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>20 Years of the Open Invention Network</title>
-            <link>https://lwn.net/Articles/1024718/</link>
-            <description><![CDATA[The Open Invention Network (OIN) is <a
-href="https://openinventionnetwork.com/open-invention-network-celebrates-20-years/">celebrating</a>
-its 20th anniversary.
-<p>
-<blockquote class="bq">
-	The central feature of the OIN community is a patent cross-license
-	that covers core Open Source functionality and expands in parallel
-	with the growth of Open Source technology. As growth in Open Source
-	has accelerated, OIN has proactively expanded the scope of the OIN
-	license's benefit by including more than 4,500 software components
-	and platforms in its Linux System definition, which comprises the
-	list of Open Source code and associated functionality in OIN's
-	patent cross-license. 
-</blockquote>
-<p>
-LWN's first look at OIN was <a href="https://lwn.net/Articles/163038/">this article by
-Pamela Jones</a> in late 2005.]]></description>
-            <guid>https://lwn.net/Articles/1024718/</guid>
-            <pubDate>Tue, 10 Jun 2025 13:16:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
