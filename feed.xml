@@ -8,11 +8,194 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Jun 2025 21:26:47 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Jun 2025 23:51:22 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Jun 2025 00:39:12 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Jun 2025 00:54:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 12, 2025</title>
+            <link>https://lwn.net/Articles/1023924/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1023924/">Front</a>: Nyxt; Cyber Resilience Act; Unwanted file descriptors; Core-dump API; 6.16 Merge window; Uniprocessor configurations; Smatch; FUSE zero-copy; iov_iter; Fedora documentation.
+            <li> <a href="https://lwn.net/Articles/1023926/">Briefs</a>: Android tracking; /e/OS 3.0; FreeBSD laptops; Ubuntu X11 support; Netdev 0x19; OIN anniversary; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1023927/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1023924/</guid>
+            <pubDate>Thu, 12 Jun 2025 00:57:15 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Finding locking bugs with Smatch</title>
+            <link>https://lwn.net/Articles/1023646/</link>
+            <description><![CDATA[<p>
+<a href="https://repo.or.cz/w/smatch.git">Smatch</a> is a GPL-licensed
+static-analysis tool for C that has a lot of specialized checks for the kernel. Smatch
+has <a href="https://lwn.net/Articles/691882">been used</a> in the kernel for more than 20 years; Dan
+Carpenter, its primary author, decided last year that some details of its plugin system
+were due for a rewrite. He spoke at Linaro Connect 2025 about his work on
+Smatch, the changes to its implementation, and how those changes enabled him to easily
+add additional checks for locking bugs in the kernel.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1023646/</guid>
+            <pubDate>Wed, 11 Jun 2025 13:46:14 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improving iov_iter</title>
+            <link>https://lwn.net/Articles/1023891/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/625077/"><tt>iov_iter</tt> interface</a> is used to
+describe and iterate through buffers in the kernel.  David Howells led a combined storage and
+filesystem session at 
+the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit (LSFMM+BPF) to discuss ways
+to improve <tt>iov_iter</tt>.  His <a
+href="https://lwn.net/ml/all/886959.1737148612%40warthog.procyon.org.uk/">topic
+proposal</a> listed a few different ideas including replacing some
+<tt>iov_iter</tt> types and possibly allowing mixed types in chains of <tt>iov_iter</tt>
+entries; he would like to make the interface itself and the uses of <tt>iov_iter</tt> in
+the kernel better.]]></description>
+            <guid>https://lwn.net/Articles/1023891/</guid>
+            <pubDate>Tue, 10 Jun 2025 15:16:49 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] An end to uniprocessor configurations</title>
+            <link>https://lwn.net/Articles/1023575/</link>
+            <description><![CDATA[The Linux kernel famously scales from the smallest of systems to massive
+servers with thousands of CPUs.  It was not always that way, though; the
+initial version of the kernel could only manage a single processor.  That
+limitation was lifted, obviously, but single-processor machines have always
+been treated specially in the scheduler.  That longstanding situation may
+soon come to an end, though, if <a
+href="https://lwn.net/ml/all/20250528080924.2273858-1-mingo@kernel.org">this patch
+series</a> from Ingo Molnar makes it upstream.]]></description>
+            <guid>https://lwn.net/Articles/1023575/</guid>
+            <pubDate>Tue, 10 Jun 2025 14:29:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The second half of the 6.16 merge window</title>
+            <link>https://lwn.net/Articles/1023075/</link>
+            <description><![CDATA[<p>
+The 6.16 merge window
+<a href="https://lwn.net/ml/all/CAHk-%3DwiiqYoM_Qdr3L15BqJUyRi6JjR02HSovwwz%2BBXy7DdVeA%40mail.gmail.com/">
+closed</a> on June 8, as
+expected, containing 12,899 non-merge commits. This is
+slightly more than the 6.15 merge window, but well in line with expectations.
+7,353 of those were merged after
+<a href="https://lwn.net/Articles/1022512">the summary of the first half of the merge
+window</a> was written. More detailed statistics can be found in
+<a href="https://lwn.net/ksdb/">the LWN kernel source database</a>.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1023075/</guid>
+            <pubDate>Mon, 09 Jun 2025 20:37:59 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improving Fedora&apos;s documentation</title>
+            <link>https://lwn.net/Articles/1024259/</link>
+            <description><![CDATA[<p>At <a href="https://fedoraproject.org/flock/2025/">Flock</a>,
+Fedora's annual developer conference, held in Prague from June&#160;5
+to June&#160;8, two members of the <a
+href="https://docs.fedoraproject.org/en-US/fedora-docs/">Fedora
+documentation team</a>, Petr Bokoč and Peter Boy, led <a
+href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/9VLUGL/">a
+session</a> on the state of Fedora documentation. The pair covered a
+brief history of the project's documentation since the days of <a
+href="https://lwn.net/Articles/56036/">Fedora&#160;Core&#160;1</a>,
+challenges the documentation team faces, as well as plans to improve Fedora's
+documentation by enticing more people to contribute.</p>]]></description>
+            <guid>https://lwn.net/Articles/1024259/</guid>
+            <pubDate>Mon, 09 Jun 2025 19:55:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Nyxt: the Emacs-like web browser</title>
+            <link>https://lwn.net/Articles/1001773/</link>
+            <description><![CDATA[<p><a href="https://nyxt.atlas.engineer/">Nyxt</a> is an unusual web
+browser that tries to answer the question, "what if Emacs was a
+<em>good</em> web browser?". Nyxt is not an Emacs package, but a full
+web browser written in Common Lisp and available under the BSD
+three-clause license. Its target audience is developers who want a
+browser that is keyboard-driven and extensible; Nyxt is also developed
+for Linux first, rather than Linux being an afterthought or just a
+sliver of its audience. The philosophy (as described in its <a
+href="https://nyxt.atlas.engineer/faq">FAQ</a>)
+behind the project is that users should be able to customize all of
+the browser's functionality.</p>]]></description>
+            <guid>https://lwn.net/Articles/1001773/</guid>
+            <pubDate>Fri, 06 Jun 2025 16:25:08 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Slowing the flow of core-dump-related CVEs</title>
+            <link>https://lwn.net/Articles/1024160/</link>
+            <description><![CDATA[The 6.16 kernel will include a number of changes to how the kernel handles
+the processing of core dumps for crashed processes.  Christian Brauner <a
+href="https://mastodon.social/@brauner/114592290899392625">explained</a>
+his reasons for doing this work as: "<q>Because I'm a clown and also I had
+it with all the CVEs because we provide a **** API for userspace</q>".  The
+handling of core dumps has indeed been a constant source of
+vulnerabilities; with luck, the 6.16 work will result in rather fewer of
+them in the future.]]></description>
+            <guid>https://lwn.net/Articles/1024160/</guid>
+            <pubDate>Fri, 06 Jun 2025 13:57:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Zero-copy for FUSE</title>
+            <link>https://lwn.net/Articles/1023689/</link>
+            <description><![CDATA[In a combined storage and filesystem session at the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Keith Busch led
+a discussion about zero-copy operations for the <a
+href="https://github.com/libfuse/libfuse?tab=readme-ov-file#libfuse">Filesystem
+in Userspace</a> (FUSE) subsystem.  The session was <a
+href="https://lwn.net/ml/all/dc3a5c7d-b254-48ea-9749-2c464bfd3931@davidwei.uk/">proposed</a>
+by his colleague, David Wei, who could not make it to the summit, so Busch
+filled in, though he noted that "<q>I do not really know FUSE so
+well</q>".  The idea is to eliminate data copies in the data path to and
+from the FUSE server in user space.]]></description>
+            <guid>https://lwn.net/Articles/1023689/</guid>
+            <pubDate>Thu, 05 Jun 2025 22:12:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Open source and the Cyber Resilience Act</title>
+            <link>https://lwn.net/Articles/1023306/</link>
+            <description><![CDATA[<p>
+The European Union's
+<a href="https://en.wikipedia.org/wiki/Cyber_Resilience_Act">
+Cyber Resilience Act</a> (CRA) has caused a stir in the
+software-development world. Thanks to advocacy by the Eclipse Foundation, Open
+Source Initiative, Linux Foundation, Mozilla, and others, open-source software
+projects generally have minimal requirements under the CRA
+— but nothing to do with law is ever quite
+so simple. Marta Rybczyńska spoke at Linaro Connect 2025 about the impact of the
+CRA on the open-source ecosystem, with an emphasis on the importance of
+understanding a project's role under the CRA. She later participated in a panel
+discussion with Joakim Bech, Kate Stewart, and Mike Bursell about how the CRA
+would impact embedded open-source development.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1023306/</guid>
+            <pubDate>Thu, 05 Jun 2025 18:32:39 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fending off unwanted file descriptors</title>
+            <link>https://lwn.net/Articles/1023085/</link>
+            <description><![CDATA[One of the more obscure features provided by Unix-domain sockets is the
+ability to pass a file descriptor from one process to another.  This
+feature is often used to provide access to a specific file or network
+connection to a process running in a relatively unprivileged context.  But
+what if the recipient doesn't <i>want</i> a new file descriptor?  A feature
+added for the 6.16 release makes it possible to refuse that offer.]]></description>
+            <guid>https://lwn.net/Articles/1023085/</guid>
+            <pubDate>Thu, 05 Jun 2025 13:52:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1025862/</link>
@@ -203,182 +386,6 @@ Council.]]></description>
             <guid>https://lwn.net/Articles/1025208/</guid>
             <pubDate>Thu, 12 Jun 2025 13:37:36 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 5, 2025</title>
-            <link>https://lwn.net/Articles/1022979/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1022979/">Front</a>: OpenH264 in Fedora; Wallabag; Safety certification; 6.16 Merge window; Bounce buffering; Hardening repository problems; Device-initiated I/O; Faster networking; OSPM 2025; Free software in science.
-            <li> <a href="https://lwn.net/Articles/1022981/">Briefs</a>: Kea vulnerabilities; Alpine Linux 3.22.0; Fedora strategy; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1022982/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1022979/</guid>
-            <pubDate>Thu, 05 Jun 2025 01:11:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Device-initiated I/O</title>
-            <link>https://lwn.net/Articles/1022718/</link>
-            <description><![CDATA[<a href="https://lwn.net/Articles/767281/">Peer-to-peer DMA</a> (P2PDMA) has been part of
-the kernel since the <a href="https://lwn.net/Articles/775487/">4.20 release</a> in 2018;
-it provides a framework that allows devices to transfer data between themselves
-directly, without using system RAM for the transfer.  At the 2025 Linux
-Storage, Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Stephen
-Bates led a combined storage, filesystems, and memory-management session on
-device-initiated I/O, which is perhaps what P2PDMA is evolving toward.  Two
-years ago, he led a <a href="https://lwn.net/Articles/931668/">session on P2PDMA</a> at the
-summit; this year's session was a brief update on P2PDMA with a look
-at where it may be heading.]]></description>
-            <guid>https://lwn.net/Articles/1022718/</guid>
-            <pubDate>Wed, 04 Jun 2025 17:39:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The importance of free software to science</title>
-            <link>https://lwn.net/Articles/1023299/</link>
-            <description><![CDATA[Free software plays a critical role in science, both in research and in
-disseminating it. Aspects of software freedom are directly relevant to
-simulation, analysis, document preparation and preservation, security,
-reproducibility, and usability. Free software brings practical and specific
-advantages, beyond just its ideological roots, to science, while
-proprietary software comes with equally specific risks.  As a practicing
-scientist, I would like to help others—scientists or not—see the benefits
-from free software in science.]]></description>
-            <guid>https://lwn.net/Articles/1023299/</guid>
-            <pubDate>Wed, 04 Jun 2025 14:16:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Two sessions on faster networking</title>
-            <link>https://lwn.net/Articles/1022648/</link>
-            <description><![CDATA[<p>
-Cong Wang and Daniel Borkmann each led session at the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit about their respective
-plans to speed up networking in the Linux kernel. Both sessions described ways
-to remove unnecessary operations in the networking stack, but they focused on
-different areas. Wang spoke about using BPF to speed up socket operations,
-while Borkmann spoke about eliminating the overhead of networking
-operations on virtual machines.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1022648/</guid>
-            <pubDate>Wed, 04 Jun 2025 14:21:46 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Safety certification for open-source systems</title>
-            <link>https://lwn.net/Articles/1022889/</link>
-            <description><![CDATA[<p>
-This year's
-<a href="https://www.linaro.org/connect/">
-Linaro Connect</a> in Lisbon, Portugal featured a number of talks about the use of
-open-source components in safety-critical systems. Kate Stewart gave a keynote on the topic
-on the first day of the conference. In it, she highlighted several projects that
-have been working to pursue safety certification and spoke about the importance of
-being able to trace software's origins to safety. In a talk on the second day, Roberto
-Bagnara shared his experience with working on one of those projects, the Xen
-hypervisor, to conform to a formal set of rules for safety-critical code.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1022889/</guid>
-            <pubDate>Tue, 03 Jun 2025 14:41:20 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Hardening fixes lead to hard questions</title>
-            <link>https://lwn.net/Articles/1023502/</link>
-            <description><![CDATA[Kees Cook's <a href="https://lwn.net/ml/all/202505310759.3A40AD051@keescook">"hardening
-fixes" pull request</a> for the 6.16 merge window looked like a
-straightforward exercise; it only contained four commits.  So just about
-everybody was surprised when it resulted in Cook being temporarily blocked
-from his kernel.org account among fears of malicious activity.  When the
-dust settled, though, the red alert was canceled.  It turns out,
-surprisingly, that Git is a tool with which one can inflict substantial
-self-harm in a moment of inattention.]]></description>
-            <guid>https://lwn.net/Articles/1023502/</guid>
-            <pubDate>Mon, 02 Jun 2025 16:55:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] OpenH264 induces headaches for Fedora</title>
-            <link>https://lwn.net/Articles/1023088/</link>
-            <description><![CDATA[<p>Software patents and workarounds for them are, once again,
-causing headaches for open-source projects and users. This time
-around, Fedora users have been vulnerable to a serious flaw in the <a
-href="https://www.openh264.org/">OpenH264</a> library for
-months&mdash;not for want of a fix, but because of the <a
-href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube
-Goldberg machine</a> methodology of distributing the library to Fedora
-users. The software is open source under a <span
-class="nobreak">two-clause</span> BSD license; the RPMs are built and
-signed by Fedora, but the final product is distributed by Cisco, so
-the company can pick up the tab for license fees. Unfortunately, a
-breakdown in the process of handing RPMs to Cisco for distribution has
-left Fedora users vulnerable, and inaction on Fedora's part has left
-users unaware that they are at risk.</p>]]></description>
-            <guid>https://lwn.net/Articles/1023088/</guid>
-            <pubDate>Mon, 02 Jun 2025 15:57:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reports from OSPM 2025, day three</title>
-            <link>https://lwn.net/Articles/1022054/</link>
-            <description><![CDATA[The seventh edition of the <a
-href="https://retis.sssup.it/ospm-summit/">Power Management and Scheduling
-in the Linux Kernel Summit</a> (known as "OSPM") took place on March 18-20,
-2025.  Topics discussed on the third (and final) day include proxy
-execution, energy-aware scheduling, the deadline scheduler, and an
-evaluation of <a href="https://lwn.net/Articles/925371/">the kernel's EEVDF scheduler</a>.]]></description>
-            <guid>https://lwn.net/Articles/1022054/</guid>
-            <pubDate>Fri, 30 May 2025 18:18:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Out of Pocket and into the wallabag</title>
-            <link>https://lwn.net/Articles/1022399/</link>
-            <description><![CDATA[<p>Mozilla has decided to <a
-href="https://support.mozilla.org/en-US/kb/future-of-pocket">throw in
-the towel</a> on <a href="https://getpocket.com/">Pocket</a>, a <a
-href="https://en.wikipedia.org/wiki/Social_bookmarking">social-bookmarking</a>
-service that it acquired in 2017. This has left many users scrambling
-for a replacement for Pocket before its shutdown in July. One possible
-option is <a href="https://wallabag.org/">wallabag</a>, a
-self-hostable, MIT-licensed project for saving web content for later
-reading. It can import saved data from services like Pocket, share
-content on the web, export to various formats, and more. Even better,
-it puts users in control of their data long-term.</p>]]></description>
-            <guid>https://lwn.net/Articles/1022399/</guid>
-            <pubDate>Fri, 30 May 2025 12:52:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The first half of the 6.16 merge window</title>
-            <link>https://lwn.net/Articles/1022512/</link>
-            <description><![CDATA[<p>
-As of this writing, 5,546 non-merge changesets have been pulled into the mainline
-kernel repository for the 6.16 release. This is a bit less than half of the
-total commits for 6.15, so the merge window is well on its way. Read on for our
-summary of the first half of the 6.16 merge window.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1022512/</guid>
-            <pubDate>Thu, 29 May 2025 20:27:40 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Block-layer bounce buffering bounces out of the kernel</title>
-            <link>https://lwn.net/Articles/1022655/</link>
-            <description><![CDATA[As the end of the 1990s approached, a lot of kernel-development effort was
-going into improving support for <span class="nobreak">32-bit systems</span>
-with shockingly large amounts of memory installed.  This being the 1990s,
-having more than 1GB of memory in such a system was deemed to be shocking.
-Many of the compromises made to support such inconceivably large systems
-have remained in the kernel to this day.  One of those compromises —
-bounce buffering of I/O requests in the block layer — has finally been
-eased out for the 6.16 release, more than a quarter-century after its
-introduction.]]></description>
-            <guid>https://lwn.net/Articles/1022655/</guid>
-            <pubDate>Thu, 29 May 2025 18:23:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
