@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Jun 2025 14:40:32 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Jun 2025 14:51:22 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Jun 2025 15:01:44 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Jun 2025 15:12:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1026007/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gvisor-tap-vsock), <b>Debian</b> (activemq and chromium), <b>Fedora</b> (kea, python-django4.2, python-django5, python-setuptools, and rust-git-interactive-rebase-tool), <b>Oracle</b> (ipa and kernel), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, podman, and skopeo), <b>Slackware</b> (libblockdev and xorg), <b>SUSE</b> (gdm, gstreamer-plugins-base, ignition, kernel, pam, redis, s390-tools, screen, systemd, and xorg-x11-server), and <b>Ubuntu</b> (godot, golang-1.22, libblockdev, node-express, pam, samba, and udisks2).]]></description>
+            <guid>https://lwn.net/Articles/1026007/</guid>
+            <pubDate>Thu, 19 Jun 2025 15:00:55 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 12, 2025</title>
             <link>https://lwn.net/Articles/1023924/</link>
