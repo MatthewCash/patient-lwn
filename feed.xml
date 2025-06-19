@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Jun 2025 17:03:12 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Jun 2025 17:11:02 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Jun 2025 17:25:32 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Jun 2025 17:33:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -363,41 +363,6 @@ in March, 2024.</p>
             <guid>https://lwn.net/Articles/1025354/</guid>
             <pubDate>Fri, 13 Jun 2025 13:05:32 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Rocky Linux 10.0 released</title>
-            <link>https://lwn.net/Articles/1025224/</link>
-            <description><![CDATA[<p><a
-href="https://rockylinux.org/news/rocky-linux-10-0-ga-release">Version
-10.0</a> of the Rocky Linux distribution has been released. As with
-the <a href="https://lwn.net/Articles/1022744/">AlmaLinux 10.0</a>
-release, Rocky Linux 10.0 is based on Red Hat Enterprise Linux (RHEL)
-10. See <a href="https://docs.rockylinux.org/release_notes/10_0/">the
-release notes</a> for details.</p>]]></description>
-            <guid>https://lwn.net/Articles/1025224/</guid>
-            <pubDate>Thu, 12 Jun 2025 16:58:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Summaries from the 2025 Python Language Summit</title>
-            <link>https://lwn.net/Articles/1025226/</link>
-            <description><![CDATA[The Python Software Foundation blog is carrying <a
-href="https://pyfound.blogspot.com/2025/06/python-language-summit-2025.html">a
-set of detailed summaries from the 2025 Python Language Summit</a>:
-<p>
-<blockquote class="bq">
-	The Python Language Summit 2025 occurred on May 14th in Pittsburgh,
-	Pennsylvania. Core developers and special guests from around the
-	world gathered in one room for an entire day of presentations and
-	discussions about the future of the Python programming language.
-</blockquote>
-<p>
-Topics covered include making breaking changes less painful, free-threaded
-Python, interaction with Rust, and challenges faced by the Steering
-Council.]]></description>
-            <guid>https://lwn.net/Articles/1025226/</guid>
-            <pubDate>Thu, 12 Jun 2025 17:06:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
