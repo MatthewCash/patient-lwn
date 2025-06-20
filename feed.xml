@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Jun 2025 15:04:06 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 15:12:02 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 15:29:51 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 15:32:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -357,33 +357,6 @@ networking changes thrown in.
             <guid>https://lwn.net/Articles/1025529/</guid>
             <pubDate>Mon, 16 Jun 2025 00:23:16 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Radicle Desktop released</title>
-            <link>https://lwn.net/Articles/1025405/</link>
-            <description><![CDATA[<p>The <a href="https://radicle.xyz/">Radicle</a> peer-to-peer code
-collaboration project has released <a
-href="https://radicle.xyz/2025/06/13/radicle-desktop">Radicle
-Desktop</a>: a graphical interface designed to simplify more complex
-parts of using Radicle such as issue management and patch reviews.</p>
-
-<blockquote class="bq">
-Radicle Desktop is not trying to replace your terminal, IDE, or code
-editor - you already have your preferred tools for code browsing. It
-won't replace our existing <a
-href="https://app.radicle.xyz/">app.radicle.xyz</a> and <a
-href="https://search.radicle.xyz/">search.radicle.xyz</a> for
-finding and exploring projects. It also doesn't run a node for
-you. Instead, it communicates with your existing Radicle node,
-supporting your current workflow and encourages gradual adoption.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/966869/">covered Radicle</a>
-in March, 2024.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1025405/</guid>
-            <pubDate>Fri, 13 Jun 2025 14:57:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
