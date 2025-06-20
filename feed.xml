@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Jun 2025 13:48:29 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 14:12:03 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 14:25:09 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 14:34:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Tag2upload is now ready for experimentation</title>
+            <link>https://lwn.net/Articles/1026248/</link>
+            <description><![CDATA[<p>
+Debian's long-awaited tag2upload service is
+<a href="https://lwn.net/Articles/1026246/">now ready for Debian maintainers to use in some circumstances</a>. Tag2upload makes it easier for maintainers to upload packages, by allowing them to push a signed Git commit that will automatically be picked up and built, instead of pushing a build from their local machine. LWN covered the
+<a href="https://lwn.net/Articles/978324/">discussion</a> around the service in July of last year. With the timing of its readiness, it's likely to become more useful once Debian 13 ("trixie") is released.
+</p>
+
+<blockquote class="bq">
+Be very aware of the freeze!  Do not just upload to unstable as
+   your first test!  Uploads to unstable, targeting trixie, <em>can</em> be
+   done with tag2upload - but in most cases you will probably want to
+   upload the same package to experimental first.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1026248/</guid>
+            <pubDate>Fri, 20 Jun 2025 14:13:58 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1026281/</link>
