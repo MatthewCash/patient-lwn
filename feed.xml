@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Jun 2025 13:36:51 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Jun 2025 13:42:04 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Jun 2025 13:48:29 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Jun 2025 13:52:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1026281/</link>
+            <description><![CDATA[Security updates have been issued by <b>SUSE</b> (apache2-mod_security2, augeas, ghc-pandoc, gstreamer, ignition, kernel, libblockdev, libxml2, nodejs20, openssl-3, pam_pkcs11, perl, python3, systemd, ucode-intel, webkit2gtk3, and xen) and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-gcp, linux-gcp-5.4,
+ linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-oracle-5.4,
+ linux-xilinx-zynqmp, linux-aws-fips, linux-gcp-fips, python3.13, python3.12, and roundcube).]]></description>
+            <guid>https://lwn.net/Articles/1026281/</guid>
+            <pubDate>Fri, 20 Jun 2025 13:46:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Stable kernels 6.15.3, 6.12.34, and 6.6.94</title>
             <link>https://lwn.net/Articles/1026008/</link>
@@ -355,14 +365,6 @@ in March, 2024.</p>
             <guid>https://lwn.net/Articles/1025405/</guid>
             <pubDate>Fri, 13 Jun 2025 14:57:58 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1025354/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, glibc, kernel, and mod_security), <b>Fedora</b> (chromium, gh, mingw-icu, nginx-mod-modsecurity, python3.10, python3.9, thunderbird, valkey, and yarnpkg), <b>Oracle</b> (.NET 8.0, .NET 9.0, glibc, grafana-pcp, kernel, libxml2, mod_security, nodejs:20, and thunderbird), <b>SUSE</b> (audiofile, helm, kubernetes-old, kubernetes1.23, kubernetes1.24, libcryptopp, postgresql15, thunderbird, and valkey), and <b>Ubuntu</b> (linux-nvidia-tegra-igx).]]></description>
-            <guid>https://lwn.net/Articles/1025354/</guid>
-            <pubDate>Fri, 13 Jun 2025 13:05:32 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
