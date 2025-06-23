@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 23 Jun 2025 14:09:24 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Jun 2025 14:14:03 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 14:37:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -341,14 +341,6 @@ GitHub blog post</a> for details.</p>
             <guid>https://lwn.net/Articles/1025628/</guid>
             <pubDate>Mon, 16 Jun 2025 18:35:03 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1025618/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0 and .NET 9.0), <b>Arch Linux</b> (curl, ghostscript, go, konsole, python-django, roundcubemail, and samba), <b>Fedora</b> (aerc, chromium, golang-x-perf, libkrun, python3.11, python3.12, rust-kbs-types, rust-sev, rust-sevctl, valkey, and wireshark), <b>Gentoo</b> (Konsole and sysstat), <b>Oracle</b> (.NET 9.0), <b>Red Hat</b> (bootc, grub2, keylime-agent-rust, python3.12-cryptography, rpm-ostree, rust-bootupd, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, docker, grub2, java-1_8_0-openj9, kernel, less, python-Django, screen, and sqlite3), and <b>Ubuntu</b> (cifs-utils and modsecurity-apache).]]></description>
-            <guid>https://lwn.net/Articles/1025618/</guid>
-            <pubDate>Mon, 16 Jun 2025 14:20:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
