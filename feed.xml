@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 23 Jun 2025 19:31:11 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Jun 2025 20:34:57 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 20:52:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,37 +369,6 @@ for a complete list of new features, enhancements, and bug fixes.</p>
             <guid>https://lwn.net/Articles/1025734/</guid>
             <pubDate>Tue, 17 Jun 2025 13:43:31 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Changes to Kubernetes Slack (Kubernetes Contributors blog)</title>
-            <link>https://lwn.net/Articles/1025634/</link>
-            <description><![CDATA[<p>The Kubernetes project has <a
-href="https://www.kubernetes.dev/blog/2025/06/16/changes-to-kubernetes-slack-2025/">announced</a>
-that it will be losing its "<q>special status</q>" with the <a
-href="https://slack.com/">Slack</a> communication platform and will be
-downgraded to the free tier in a matter of days:</p>
-
-<blockquote class="bq">
-On Friday, June 20, we will be subject to the <a
-href="https://slack.com/help/articles/27204752526611-Feature-limitations-on-the-free-version-of-Slack">feature
-limitations of free Slack</a>. The primary ones which will affect us
-will be only retaining 90 days of history, and having to disable
-several apps and workflows which we are currently using. The Slack
-Admin team will do their best to manage these limitations.
-</blockquote>
-
-<p>The project has a <a
-href="https://github.com/kubernetes/community/blob/master/communication/slack-migration-faq.md#what-actions-do-channel-owners-and-user-group-members-need-to-take-soon">FAQ</a>
-covering the change, its impacts, and more. The CNCF projects staff
-has <a
-href="https://github.com/kubernetes/community/blob/master/communication/slack-migration-faq.md#will-we-be-migrating-to-a-new-platform">proposed</a>
-a move to the <a href="https://discord.com/">Discord service</a> as
-the best option to handle the more than 200,000 users and thousands of
-posts per day from the Kubernetes community. The Kubernetes Steering
-Committee will be making its decision "<q>in the next few weeks</q>".</p>]]></description>
-            <guid>https://lwn.net/Articles/1025634/</guid>
-            <pubDate>Mon, 16 Jun 2025 20:45:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
