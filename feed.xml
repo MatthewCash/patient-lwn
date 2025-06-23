@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 22 Jun 2025 23:17:04 +0000</pubDate>
-        <lastBuildDate>Sun, 22 Jun 2025 23:49:58 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 23 Jun 2025 00:58:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -340,32 +340,6 @@ GitHub blog post</a> for details.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0 and .NET 9.0), <b>Arch Linux</b> (curl, ghostscript, go, konsole, python-django, roundcubemail, and samba), <b>Fedora</b> (aerc, chromium, golang-x-perf, libkrun, python3.11, python3.12, rust-kbs-types, rust-sev, rust-sevctl, valkey, and wireshark), <b>Gentoo</b> (Konsole and sysstat), <b>Oracle</b> (.NET 9.0), <b>Red Hat</b> (bootc, grub2, keylime-agent-rust, python3.12-cryptography, rpm-ostree, rust-bootupd, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, docker, grub2, java-1_8_0-openj9, kernel, less, python-Django, screen, and sqlite3), and <b>Ubuntu</b> (cifs-utils and modsecurity-apache).]]></description>
             <guid>https://lwn.net/Articles/1025618/</guid>
             <pubDate>Mon, 16 Jun 2025 14:20:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc2</title>
-            <link>https://lwn.net/Articles/1025529/</link>
-            <description><![CDATA[Linus Torvalds has released <a href="https://lwn.net/Articles/1025530/">6.16-rc2</a>,
-which is "<q>admittedly
-even smaller than usual</q>", though rc2 is not uncommonly one of the smaller
-release candidates.
-
-<blockquote class="bq">
-It may be that people are taking a breather after a fairly sizable
-merge window, but it might also be seasonal, with Europe starting to
-see summer vacations... We'll see how this goes.
-<p>
-The diffstat looks somewhat unusual, with a lot of one-liners with
-both ARC and pincontrol having (presumably independently) ended up
-doing some unrelated trivial cleanups.
-<p>
-But even that is probably noticeable only because everything else is
-pretty small. That "everything else" is mostly network drivers (and
-bluetooth) and bcachefs, with some rust infrastructure and core
-networking changes thrown in.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1025529/</guid>
-            <pubDate>Mon, 16 Jun 2025 00:23:16 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
