@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Jun 2025 14:09:24 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Jun 2025 14:54:37 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Jun 2025 15:12:55 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Jun 2025 15:13:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Media Summit 2025 recap (Collabora blog)</title>
+            <link>https://lwn.net/Articles/1026528/</link>
+            <description><![CDATA[The Collabora blog has a <a
+href="https://www.collabora.com/news-and-blog/blog/2025/06/23/linux-media-summit-2025-recap/">summary</a>,
+written by Nicolas Dufresne, about the <a
+href="https://lwn.net/ml/all/044f2fa6-a245-4ae5-b9de-7a2e8831ccd6%40xs4all.nl/">Linux
+Media Summit</a> held on May 13 in Nice, France.  It was co-located with
+the <a href="https://embedded-recipes.org/2025/">Embedded Recipes</a>
+conference and had sessions on stateless video encoders, camera support,
+staging drivers, memory accounting, and a multi-committer model for the
+media subsystem.
+"<q>Our largest Media Summit to date brought together around 20 engaged participants. Engagement was strong, marked by thoughtful questions and lively discussions.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1026528/</guid>
+            <pubDate>Mon, 23 Jun 2025 15:03:22 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1026498/</link>
