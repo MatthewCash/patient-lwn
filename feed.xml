@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Jun 2025 12:45:33 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Jun 2025 13:08:25 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Jun 2025 13:41:38 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Jun 2025 13:46:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1026848/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (commons-beanutils, dcmtk, nginx, trafficserver, and xorg-server), <b>Fedora</b> (atuin, awatcher, dotnet8.0, firefox, glibc, gotify-desktop, keylime-agent-rust, libtpms, mirrorlist-server, qt6-qtbase, qt6-qtimageformats, udisks2, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (apache-mod_security, clamav, docker, python-django, tomcat, udisks2, and yarnpkg), <b>Oracle</b> (firefox, libblockdev, mod_auth_openidc, perl-FCGI, perl-YAML-LibYAML, tigervnc, and xorg-x11-server and xorg-x11-server-Xwayland), <b>Slackware</b> (libssh and mozilla), <b>SUSE</b> (gimp, gstreamer-plugins-good, icu, ignition, kernel, pam-config, perl-File-Find-Rule, python311, and webkit2gtk3), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-ibm,
+ linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
+ linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-azure, linux-azure, linux-azure-6.8, linux-azure-5.15, linux-azure-fips, and linux-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1026848/</guid>
+            <pubDate>Wed, 25 Jun 2025 13:18:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>LSFMM+BPF 2025 reporting complete</title>
+            <link>https://lwn.net/Articles/1026338/</link>
+            <description><![CDATA[It took time and the writing of over 60 articles, but LWN's coverage from
+the <a href="https://lwn.net/Articles/lsfmmbpf2025/">2025 Linux Storage, Filesystem,
+Memory-Management, and BPF Summit</a> is now complete.  We have also made
+<a href="https://lwn.net/images/epub/lsfmmbpf2025.epub">an EPUB book (13MB)</a> containing
+the full set of coverage available to all readers.  This coverage
+constitutes the definitive guide to the challenges that these core-kernel
+communities are facing and their development plans for the coming year.
+
+<p>
+Documenting an event of this intensity at such a detailed level is not a
+small undertaking.  We are grateful to the Linux Foundation for funding our
+travel to our event and, especially, to LWN's subscribers for making the
+whole thing possible.  If you appreciate this type of coverage and have not
+yet subscribed, please <a href="https://lwn.net/subscribe/">sign up today</a> to help make
+more of it possible.]]></description>
+            <guid>https://lwn.net/Articles/1026338/</guid>
+            <pubDate>Wed, 25 Jun 2025 13:38:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 140.0 released</title>
             <link>https://lwn.net/Articles/1026701/</link>
@@ -359,30 +391,6 @@ added for the 6.16 release makes it possible to refuse that offer.]]></descripti
             <guid>https://lwn.net/Articles/1023085/</guid>
             <pubDate>Thu, 05 Jun 2025 13:52:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1025862/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-bad1.0, konsole, and libblockdev), <b>Oracle</b> (buildah, containernetworking-plugins, gimp, git-lfs, gvisor-tap-vsock, kernel, libvpx, podman, and skopeo), <b>Red Hat</b> (apache-commons-beanutils and thunderbird), <b>Slackware</b> (xorg), <b>SUSE</b> (gdm, golang-github-prometheus-alertmanager, golang-github-prometheus-node_exporter, golang-github-prometheus-prometheus, govulncheck-vulndb, grafana, kernel, Multi-Linux Manager, Multi-Linux Manager Client Tools, openssl-3, pam, python-cryptography, python-requests, python-setuptools, python3-requests, SUSE Manager Server, systemd, ucode-intel, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (dwarfutils, mujs, node-katex, xorg-server, xorg-server-hwe-16.04, xorg-server-hwe-18.04, and xorg-server, xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1025862/</guid>
-            <pubDate>Wed, 18 Jun 2025 13:13:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KDE Plasma 6.4 released</title>
-            <link>https://lwn.net/Articles/1025863/</link>
-            <description><![CDATA[<p>The KDE Project has <a
-href="https://kde.org/announcements/plasma/6/6.4.0/">announced</a> the
-Plasma 6.4 release. New features include more flexible tiling
-features, improvements to the Spectacle screen capture utility, a
-number of accessibility enhancements, and much more. See the <a
-href="https://kde.org/announcements/changelogs/plasma/6/6.3.5-6.4.0/">changelog</a>
-for a complete list of new features, enhancements, and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1025863/</guid>
-            <pubDate>Wed, 18 Jun 2025 13:27:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
