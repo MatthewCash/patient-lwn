@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Jun 2025 17:29:00 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Jun 2025 17:35:18 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Jun 2025 17:45:06 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Jun 2025 17:50:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>NLnet announces funding for 62 projects</title>
+            <link>https://lwn.net/Articles/1026895/</link>
+            <description><![CDATA[<p>The <a href="https://nlnet.nl/">NLnet Foundation</a> has <a
+href="https://nlnet.nl/news/2025/20250624-announcement-grants-CommonsFund.html">announced</a>
+a new group of projects receiving funding through the <a
+href="https://www.ngi.eu/ngi-projects/ngi-zero-commons-fund/">Next
+Generation Internet (NGI) Zero Commons Fund</a>.</p>
+
+<blockquote class="bq">
+Free and open source technologies, open standards, open hardware and
+open data help to strengthen the open web and the open internet. The
+projects selected by NLnet all contribute in their own way to this
+important goal, and will empower end users and the community at large
+on different layers of the stack. For example, there are people
+working a browser controlled ad hoc cellular network (<a
+href="https://nlnet.nl/project/WSDR">Wsdr</a>) which can be used to
+create small mobile networks where they are needed. The open hardware
+security key <a
+href="https://nlnet.nl/project/Nitrokey3-FIDO-L2">Nitrokey</a> is
+aiming for formal certification of their implementation of the FIDO2
+standard, and will be adding <a
+href="https://nlnet.nl/project/Nitrokey-Storage">encrypted storage
+capabilities</a>. There are also more applied technologies: the high
+end open hardware microscope <a
+href="https://nlnet.nl/project/OpenFlexure">OpenFlexure</a> will
+enable among others e-health use cases such as telepathology, allowing
+medical professionals to work together to help people in more remote
+areas.
+</blockquote>
+
+<p>See the announcement for the full list of selected projects and the
+<a href="https://nlnet.nl/project/current.html">current projects</a>
+page for other projects recently funded by NLnet.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1026895/</guid>
+            <pubDate>Wed, 25 Jun 2025 17:37:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1026848/</link>
