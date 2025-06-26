@@ -8,11 +8,169 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Jun 2025 23:44:46 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Jun 2025 23:50:54 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Jun 2025 00:37:58 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Jun 2025 00:54:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 19, 2025</title>
+            <link>https://lwn.net/Articles/1025076/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1025076/">Front</a>: GNOME a11y; hierarchical scheduler; CoMaps; GPU restore; FAIR.pm; buffered I/O writeback; NFS; Lustre
+            <li> <a href="https://lwn.net/Articles/1025078/">Briefs</a>: Rocky Linux 10.0; Git 2.50; KDE Plasma 6.4; Kubernetes Slack; Radicle Desktop; Quote; ...
+            <li> <a href="https://lwn.net/Articles/1025079/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1025076/</guid>
+            <pubDate>Thu, 19 Jun 2025 00:39:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The hierarchical constant bandwidth server scheduler</title>
+            <link>https://lwn.net/Articles/1024757/</link>
+            <description><![CDATA[The <a
+href="https://pubs.opengroup.org/onlinepubs/7908799/xsh/realtime.html">POSIX
+realtime model</a>, which is implemented in the Linux kernel, can ensure
+that a realtime process obtains the CPU time it needs to get its job done.
+It can be less effective, though, when there are multiple realtime
+processes competing for the available CPU resources.  The <a
+href="https://lwn.net/ml/all/20250605071412.139240-1-yurand2000@gmail.com">hierarchical
+constant bandwidth server</a> patch series, posted by Yuri Andriaccio with
+work by Luca Abeni, Alessio Balsini, and Andrea Parri, is a modification to
+the Linux scheduler intended to make it possible to configure systems with
+multiple realtime tasks in a deterministic and correct manner.]]></description>
+            <guid>https://lwn.net/Articles/1024757/</guid>
+            <pubDate>Wed, 18 Jun 2025 16:46:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Getting Lustre upstream</title>
+            <link>https://lwn.net/Articles/1025268/</link>
+            <description><![CDATA[The <a href="https://www.lustre.org/">Lustre filesystem</a> has a long
+history, some of which intersects with Linux.  It was added to the staging
+tree in 2013, but was <a href="https://lwn.net/Articles/756565/">bounced out of
+staging</a> in 2018, due to a lack of progress and a development model
+that was incompatible with the kernel's.  Lustre may be working its way
+back into the kernel, though.  In a filesystem-track session at
+the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
+(LSFMM+BPF), Timothy Day and James Simmons led a discussion on how to get
+Lustre into the mainline.]]></description>
+            <guid>https://lwn.net/Articles/1025268/</guid>
+            <pubDate>Wed, 18 Jun 2025 14:05:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A parallel path for GPU restore in CRIU</title>
+            <link>https://lwn.net/Articles/1024747/</link>
+            <description><![CDATA[<p> The fundamental concept of checkpoint/restore is elegant: capture a
+process's state and resurrect it later, perhaps elsewhere. Checkpointing
+meticulously records a process's memory, open files, CPU state, and more into a
+snapshot. Restoration then reconstructs the process from this state. This
+established technique faces new challenges with GPU-accelerated applications,
+where low-latency restoration is crucial for
+<a href='https://criu.org/Usage_scenarios#Fault-tolerant_systems'>fault
+tolerance</a>, live migration, and
+fast startups. Recently, the restore process for AMD GPUs has been redesigned to
+eliminate substantial bottlenecks. </p>]]></description>
+            <guid>https://lwn.net/Articles/1024747/</guid>
+            <pubDate>Tue, 17 Jun 2025 18:02:13 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Enhancing screen-reader functionality in modern GNOME</title>
+            <link>https://lwn.net/Articles/1025127/</link>
+            <description><![CDATA[<p>Accessibility features and the work that goes into developing those features
+often tend to be overlooked and are poorly understood by all but the people who actually
+depend on such features. At Fedora's annual developer conference, <a
+href="https://fedoraproject.org/flock/2025/">Flock</a>, Lukáš Tyrychtr sought to
+improve understanding and raise awareness about accessibility with his session on <a
+href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/NNYFPL/">accessibility
+barriers and screen-reader functionality in GNOME</a>. His talk provided rare insight
+into the world of using and developing open-source software for visually-impaired
+users&mdash;including landing important accessibility improvements in
+the latest GNOME release.</p>]]></description>
+            <guid>https://lwn.net/Articles/1025127/</guid>
+            <pubDate>Tue, 17 Jun 2025 17:06:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Supporting NFS v4.2 WRITE_SAME</title>
+            <link>https://lwn.net/Articles/1025257/</link>
+            <description><![CDATA[At the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
+(LSFMM+BPF), Anna Schumaker led a discussion about implementing the NFS
+v4.2 <a
+href="https://datatracker.ietf.org/doc/html/rfc7862#section-15.12"><tt>WRITE_SAME</tt>
+command</a> in both the NFS client and server.  <tt>WRITE_SAME</tt> is
+meant to write large amounts of identical data (e.g. zeroes) to the server
+without actually needing to transfer all of it over the wire.  In her <a
+href="https://lwn.net/ml/all/f9ade3f0-6bfc-45da-a796-c22ceaeb4722%40oracle.com/">topic
+proposal</a>, Schumaker wondered whether other filesystems needed the
+functionality, so that it should be implemented at the virtual filesystem
+(VFS) layer, or whether it should simply be handled as an NFS-specific <a
+href="https://www.man7.org/linux/man-pages/man2/ioctl.2.html"><tt>ioctl()</tt></a>.]]></description>
+            <guid>https://lwn.net/Articles/1025257/</guid>
+            <pubDate>Mon, 16 Jun 2025 14:25:21 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] CoMaps emerges as an Organic Maps fork</title>
+            <link>https://lwn.net/Articles/1024387/</link>
+            <description><![CDATA[The open-source mobile app <a href="https://organicmaps.app/">Organic
+Maps</a> is used by millions of people on both the Android and iOS
+platforms. In addition to featuring offline maps (generated from <a
+href="https://openstreetmap.org/">OpenStreetMap</a> cartography) and
+turn-by-turn navigation, it also promises its users greater privacy
+than proprietary options. However, controversial decisions taken by the
+project's leaders, feelings of disenfranchisement among contributors, and
+even accusations of embezzlement have precipitated a divide in the
+community, leading to a new fork called <a
+href="https://www.comaps.app/">CoMaps</a>.]]></description>
+            <guid>https://lwn.net/Articles/1024387/</guid>
+            <pubDate>Fri, 13 Jun 2025 15:05:24 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] FAIR package management for WordPress</title>
+            <link>https://lwn.net/Articles/1024486/</link>
+            <description><![CDATA[<p> Matt
+Mullenweg&mdash;WordPress
+<span class="nobreak">co-founder</span> and CEO of WordPress hosting company <a
+href="https://automattic.com/">Automattic</a>&mdash;started <a
+href="https://lwn.net/Articles/991906/">a messy public spat</a> with
+<a href="https://wpengine.com/">WP&#160;Engine</a>. After that, it 
+seemed inevitable that the larger WordPress community would seek to
+untangle itself from its dependence on the WordPress.org plugin and
+theme repository. That shoe finally dropped on June&#160;6,
+
+At the <a
+href="https://altctrl.org/">AltCtrlOrg</a> conference in Basel,
+Switzerland, a short walk away from <a
+href="https://europe.wordcamp.org/2025/">WordCamp&#160;Europe&#160;2025</a>,
+a group of WordPress community participants unveiled FAIR.pm,
+backed by the Linux Foundation. and is
+designed to be]]></description>
+            <guid>https://lwn.net/Articles/1024486/</guid>
+            <pubDate>Thu, 12 Jun 2025 17:37:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Parallelizing filesystem writeback</title>
+            <link>https://lwn.net/Articles/1024402/</link>
+            <description><![CDATA[Writeback for filesystems is the process of flushing the "dirty" (written)
+data in the page cache to storage. At 
+the 2025 Linux Storage,
+Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Anuj Gupta led a
+combined storage and filesystem session on some work that has been done
+to parallelize the writeback process.  Some of the performance problems
+that have been seen with the existing single-threaded writeback came up in
+a <a href="https://lwn.net/Articles/976856/">session at last year's summit</a>, where the
+idea of doing writeback in parallel was discussed.]]></description>
+            <guid>https://lwn.net/Articles/1024402/</guid>
+            <pubDate>Thu, 12 Jun 2025 14:07:02 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>NLnet announces funding for 62 projects</title>
             <link>https://lwn.net/Articles/1026895/</link>
@@ -248,189 +406,6 @@ relatively large number of important fixes throughout the kernel tree.]]></descr
             <guid>https://lwn.net/Articles/1026007/</guid>
             <pubDate>Thu, 19 Jun 2025 15:00:55 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 12, 2025</title>
-            <link>https://lwn.net/Articles/1023924/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1023924/">Front</a>: Nyxt; Cyber Resilience Act; Unwanted file descriptors; Core-dump API; 6.16 Merge window; Uniprocessor configurations; Smatch; FUSE zero-copy; iov_iter; Fedora documentation.
-            <li> <a href="https://lwn.net/Articles/1023926/">Briefs</a>: Android tracking; /e/OS 3.0; FreeBSD laptops; Ubuntu X11 support; Netdev 0x19; OIN anniversary; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1023927/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1023924/</guid>
-            <pubDate>Thu, 12 Jun 2025 00:57:15 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Finding locking bugs with Smatch</title>
-            <link>https://lwn.net/Articles/1023646/</link>
-            <description><![CDATA[<p>
-<a href="https://repo.or.cz/w/smatch.git">Smatch</a> is a GPL-licensed
-static-analysis tool for C that has a lot of specialized checks for the kernel. Smatch
-has <a href="https://lwn.net/Articles/691882">been used</a> in the kernel for more than 20 years; Dan
-Carpenter, its primary author, decided last year that some details of its plugin system
-were due for a rewrite. He spoke at Linaro Connect 2025 about his work on
-Smatch, the changes to its implementation, and how those changes enabled him to easily
-add additional checks for locking bugs in the kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1023646/</guid>
-            <pubDate>Wed, 11 Jun 2025 13:46:14 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improving iov_iter</title>
-            <link>https://lwn.net/Articles/1023891/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/625077/"><tt>iov_iter</tt> interface</a> is used to
-describe and iterate through buffers in the kernel.  David Howells led a combined storage and
-filesystem session at 
-the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF) to discuss ways
-to improve <tt>iov_iter</tt>.  His <a
-href="https://lwn.net/ml/all/886959.1737148612%40warthog.procyon.org.uk/">topic
-proposal</a> listed a few different ideas including replacing some
-<tt>iov_iter</tt> types and possibly allowing mixed types in chains of <tt>iov_iter</tt>
-entries; he would like to make the interface itself and the uses of <tt>iov_iter</tt> in
-the kernel better.]]></description>
-            <guid>https://lwn.net/Articles/1023891/</guid>
-            <pubDate>Tue, 10 Jun 2025 15:16:49 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] An end to uniprocessor configurations</title>
-            <link>https://lwn.net/Articles/1023575/</link>
-            <description><![CDATA[The Linux kernel famously scales from the smallest of systems to massive
-servers with thousands of CPUs.  It was not always that way, though; the
-initial version of the kernel could only manage a single processor.  That
-limitation was lifted, obviously, but single-processor machines have always
-been treated specially in the scheduler.  That longstanding situation may
-soon come to an end, though, if <a
-href="https://lwn.net/ml/all/20250528080924.2273858-1-mingo@kernel.org">this patch
-series</a> from Ingo Molnar makes it upstream.]]></description>
-            <guid>https://lwn.net/Articles/1023575/</guid>
-            <pubDate>Tue, 10 Jun 2025 14:29:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The second half of the 6.16 merge window</title>
-            <link>https://lwn.net/Articles/1023075/</link>
-            <description><![CDATA[<p>
-The 6.16 merge window
-<a href="https://lwn.net/ml/all/CAHk-%3DwiiqYoM_Qdr3L15BqJUyRi6JjR02HSovwwz%2BBXy7DdVeA%40mail.gmail.com/">
-closed</a> on June 8, as
-expected, containing 12,899 non-merge commits. This is
-slightly more than the 6.15 merge window, but well in line with expectations.
-7,353 of those were merged after
-<a href="https://lwn.net/Articles/1022512">the summary of the first half of the merge
-window</a> was written. More detailed statistics can be found in
-<a href="https://lwn.net/ksdb/">the LWN kernel source database</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1023075/</guid>
-            <pubDate>Mon, 09 Jun 2025 20:37:59 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improving Fedora&apos;s documentation</title>
-            <link>https://lwn.net/Articles/1024259/</link>
-            <description><![CDATA[<p>At <a href="https://fedoraproject.org/flock/2025/">Flock</a>,
-Fedora's annual developer conference, held in Prague from June&#160;5
-to June&#160;8, two members of the <a
-href="https://docs.fedoraproject.org/en-US/fedora-docs/">Fedora
-documentation team</a>, Petr Bokoč and Peter Boy, led <a
-href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/9VLUGL/">a
-session</a> on the state of Fedora documentation. The pair covered a
-brief history of the project's documentation since the days of <a
-href="https://lwn.net/Articles/56036/">Fedora&#160;Core&#160;1</a>,
-challenges the documentation team faces, as well as plans to improve Fedora's
-documentation by enticing more people to contribute.</p>]]></description>
-            <guid>https://lwn.net/Articles/1024259/</guid>
-            <pubDate>Mon, 09 Jun 2025 19:55:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Nyxt: the Emacs-like web browser</title>
-            <link>https://lwn.net/Articles/1001773/</link>
-            <description><![CDATA[<p><a href="https://nyxt.atlas.engineer/">Nyxt</a> is an unusual web
-browser that tries to answer the question, "what if Emacs was a
-<em>good</em> web browser?". Nyxt is not an Emacs package, but a full
-web browser written in Common Lisp and available under the BSD
-three-clause license. Its target audience is developers who want a
-browser that is keyboard-driven and extensible; Nyxt is also developed
-for Linux first, rather than Linux being an afterthought or just a
-sliver of its audience. The philosophy (as described in its <a
-href="https://nyxt.atlas.engineer/faq">FAQ</a>)
-behind the project is that users should be able to customize all of
-the browser's functionality.</p>]]></description>
-            <guid>https://lwn.net/Articles/1001773/</guid>
-            <pubDate>Fri, 06 Jun 2025 16:25:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Slowing the flow of core-dump-related CVEs</title>
-            <link>https://lwn.net/Articles/1024160/</link>
-            <description><![CDATA[The 6.16 kernel will include a number of changes to how the kernel handles
-the processing of core dumps for crashed processes.  Christian Brauner <a
-href="https://mastodon.social/@brauner/114592290899392625">explained</a>
-his reasons for doing this work as: "<q>Because I'm a clown and also I had
-it with all the CVEs because we provide a **** API for userspace</q>".  The
-handling of core dumps has indeed been a constant source of
-vulnerabilities; with luck, the 6.16 work will result in rather fewer of
-them in the future.]]></description>
-            <guid>https://lwn.net/Articles/1024160/</guid>
-            <pubDate>Fri, 06 Jun 2025 13:57:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Zero-copy for FUSE</title>
-            <link>https://lwn.net/Articles/1023689/</link>
-            <description><![CDATA[In a combined storage and filesystem session at the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Keith Busch led
-a discussion about zero-copy operations for the <a
-href="https://github.com/libfuse/libfuse?tab=readme-ov-file#libfuse">Filesystem
-in Userspace</a> (FUSE) subsystem.  The session was <a
-href="https://lwn.net/ml/all/dc3a5c7d-b254-48ea-9749-2c464bfd3931@davidwei.uk/">proposed</a>
-by his colleague, David Wei, who could not make it to the summit, so Busch
-filled in, though he noted that "<q>I do not really know FUSE so
-well</q>".  The idea is to eliminate data copies in the data path to and
-from the FUSE server in user space.]]></description>
-            <guid>https://lwn.net/Articles/1023689/</guid>
-            <pubDate>Thu, 05 Jun 2025 22:12:29 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Open source and the Cyber Resilience Act</title>
-            <link>https://lwn.net/Articles/1023306/</link>
-            <description><![CDATA[<p>
-The European Union's
-<a href="https://en.wikipedia.org/wiki/Cyber_Resilience_Act">
-Cyber Resilience Act</a> (CRA) has caused a stir in the
-software-development world. Thanks to advocacy by the Eclipse Foundation, Open
-Source Initiative, Linux Foundation, Mozilla, and others, open-source software
-projects generally have minimal requirements under the CRA
-— but nothing to do with law is ever quite
-so simple. Marta Rybczyńska spoke at Linaro Connect 2025 about the impact of the
-CRA on the open-source ecosystem, with an emphasis on the importance of
-understanding a project's role under the CRA. She later participated in a panel
-discussion with Joakim Bech, Kate Stewart, and Mike Bursell about how the CRA
-would impact embedded open-source development.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1023306/</guid>
-            <pubDate>Thu, 05 Jun 2025 18:32:39 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fending off unwanted file descriptors</title>
-            <link>https://lwn.net/Articles/1023085/</link>
-            <description><![CDATA[One of the more obscure features provided by Unix-domain sockets is the
-ability to pass a file descriptor from one process to another.  This
-feature is often used to provide access to a specific file or network
-connection to a process running in a relatively unprivileged context.  But
-what if the recipient doesn't <i>want</i> a new file descriptor?  A feature
-added for the 6.16 release makes it possible to refuse that offer.]]></description>
-            <guid>https://lwn.net/Articles/1023085/</guid>
-            <pubDate>Thu, 05 Jun 2025 13:52:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
