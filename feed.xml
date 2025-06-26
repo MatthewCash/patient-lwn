@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Jun 2025 14:46:52 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Jun 2025 14:52:36 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Jun 2025 15:11:52 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Jun 2025 15:12:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Coccinelle for Rust progress report (Collabora blog)</title>
+            <link>https://lwn.net/Articles/1027087/</link>
+            <description><![CDATA[Over on the Collabora blog, Tathagata Roy has an <a
+href="https://www.collabora.com/news-and-blog/blog/2025/06/25/coccinelle-for-rust-progress-report/">update</a>
+on the progress of targeting the <a
+href="https://coccinelle.gitlabpages.inria.fr/website/">Coccinelle</a> tool
+for matching and transforming source code to Rust.  The <a
+href="https://rust-for-linux.com/coccinelle-for-rust">Coccinelle for Rust
+project</a>, which we <a href="https://lwn.net/Articles/991399/">covered</a> in a 2024
+talk by Roy at <a href="https://kangrejos.com/">Kangrejos</a>, is adding
+the ability to transform Rust programs and the goal is "<q>to bring
+Coccinelle For Rust at par with Coccinelle For C in terms of basic
+functionalities</q>".  There is still work to be done to get there, but
+progress is being made in various areas.
+
+
+<blockquote class="bq">
+Computational Tree Logic (CTL) is the heart of Coccinelle, which takes semantic patches and generalizes them over Rust files. Prior to using this engine, CfR used an ad-hoc method for matching patterns of code. This engine is the same as the one used for Coccinelle for C, with a few minor changes. Most of the changes were idiomatic but to the same effect. More information on the engine and its language (CTL-VW) can be found in the <a href="https://coccinelle.gitlabpages.inria.fr/website/papers/popl09.pdf">POPL Paper</a>. With a standard engine, each step of the matching process can be logged, allowing us to learn and reuse the same design patterns from Coccinelle for C, including critical test cases.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1027087/</guid>
+            <pubDate>Thu, 26 Jun 2025 15:11:51 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1027082/</link>
@@ -405,14 +429,6 @@ href="https://lwn.net/Articles/1026011/">6.6.94</a> stable kernels.  Each contai
 relatively large number of important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1026008/</guid>
             <pubDate>Thu, 19 Jun 2025 15:21:32 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1026007/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gvisor-tap-vsock), <b>Debian</b> (activemq and chromium), <b>Fedora</b> (kea, python-django4.2, python-django5, python-setuptools, and rust-git-interactive-rebase-tool), <b>Oracle</b> (ipa and kernel), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, podman, and skopeo), <b>Slackware</b> (libblockdev and xorg), <b>SUSE</b> (gdm, gstreamer-plugins-base, ignition, kernel, pam, redis, s390-tools, screen, systemd, and xorg-x11-server), and <b>Ubuntu</b> (godot, golang-1.22, libblockdev, node-express, pam, samba, and udisks2).]]></description>
-            <guid>https://lwn.net/Articles/1026007/</guid>
-            <pubDate>Thu, 19 Jun 2025 15:00:55 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
