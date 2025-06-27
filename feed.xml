@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Jun 2025 13:38:09 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Jun 2025 13:53:18 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Jun 2025 14:07:43 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Jun 2025 14:11:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Seven more stable kernel updates</title>
+            <link>https://lwn.net/Articles/1027271/</link>
+            <description><![CDATA[<p>
+Kernel versions
+<a href="https://lwn.net/Articles/1027274/">6.15.4</a>,
+<a href="https://lwn.net/Articles/1027277/">6.12.35</a>,
+<a href="https://lwn.net/Articles/1027279/">6.6.95</a>,
+<a href="https://lwn.net/Articles/1027280/">6.1.142</a>,
+<a href="https://lwn.net/Articles/1027283/">5.15.186</a>,
+<a href="https://lwn.net/Articles/1027284/">5.10.239</a>, and
+<a href="https://lwn.net/Articles/1027286/">5.4.295</a> have all been released.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1027271/</guid>
+            <pubDate>Fri, 27 Jun 2025 14:04:22 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1027251/</link>
