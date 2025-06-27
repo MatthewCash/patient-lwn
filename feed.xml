@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Jun 2025 15:10:30 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Jun 2025 15:12:36 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Jun 2025 15:30:20 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Jun 2025 15:33:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Bcachefs may be headed out of the kernel</title>
+            <link>https://lwn.net/Articles/1027289/</link>
+            <description><![CDATA[<p>
+The history of the bcachefs filesystem in the kernel has been turbulent,
+most recently with Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wi2ae794_MyuW1XJAR64RDkDLUsRHvSemuWAkO6T45=YA@mail.gmail.com">refusing
+a pull request</a> for the 6.16-rc3 release.  Torvalds has now <a
+href="https://lwn.net/ml/all/CAHk-=wi+k8E4kWR8c-nREP0+EA4D+=rz5j0Hdk3N6cWgfE03-Q@mail.gmail.com">pulled
+the code in question</a>, but also said:
+</p>
+
+<blockquote class="bq">
+	I think we'll be
+	parting ways in the 6.17 merge window.
+<p>
+	You made it very clear that I can't even question any bug-fixes and
+	I should just pull anything and everything.
+<p>
+	Honestly, at that point, I don't really feel comfortable being
+	involved at all, and the only thing we both seemed to really
+	fundamentally agree on in that discussion was "we're done".
+</blockquote>
+
+<p>
+Bcachefs developer Kent Overstreet <a
+href="https://lwn.net/ml/all/xl2fyyjk4kjcszcgypirhoyflxojzeyxkzoevvxsmo26mklq7i@jw2ou76lh2py">has
+his own view</a> of the situation.  Both Torvalds and Overstreet
+refer to a seemingly private conversation where the pull request (and other
+topics) were discussed.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1027289/</guid>
+            <pubDate>Fri, 27 Jun 2025 15:16:06 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Seven more stable kernel updates</title>
             <link>https://lwn.net/Articles/1027271/</link>
