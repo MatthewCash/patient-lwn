@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 29 Jun 2025 20:44:19 +0000</pubDate>
-        <lastBuildDate>Sun, 29 Jun 2025 20:49:41 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 29 Jun 2025 21:10:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -470,16 +470,6 @@ media subsystem.
             <guid>https://lwn.net/Articles/1026498/</guid>
             <pubDate>Mon, 23 Jun 2025 14:09:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc3</title>
-            <link>https://lwn.net/Articles/1026406/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1026405/">6.16-rc3</a> for testing.
-"<q>So rc2 was smaller than usual, but rc3 seems to be right in the usual
-ballpark for this time, so everything looks entirely normal.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1026406/</guid>
-            <pubDate>Sun, 22 Jun 2025 20:47:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
