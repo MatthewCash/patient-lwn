@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Jun 2025 18:36:48 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Jun 2025 18:45:19 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Jun 2025 18:50:06 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Jun 2025 18:57:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -405,39 +405,6 @@ improvements to translation performance, and more.]]></description>
             <guid>https://lwn.net/Articles/1026646/</guid>
             <pubDate>Tue, 24 Jun 2025 12:32:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Graham: about Plasma’s X11 session</title>
-            <link>https://lwn.net/Articles/1026552/</link>
-            <description><![CDATA[<p>KDE contributor Nate Graham recently <a
-href="https://pointieststick.com/2025/06/21/about-plasmas-x11-session/">wrote</a>
-about the KDE Project's plans for Plasma's X11 session. He notes that
-the project will continue to ensure that Plasma "<q>continues to
-compile and deploy on X11</q>" and isn't horribly broken. Major
-regressions will probably be fixed, eventually, but the writing is on
-the wall:
-
-<blockquote class="bq">
-<p>X11's upstream development has dropped off significantly in recent
-years, and X11 isn't able to perform up to the standards of what
-people expect today with respect to HDR, 10 bits-per-color monitors,
-other fancy monitor features, multi-monitor setups (especially with
-mixed DPIs or refresh rates), multi-GPU setups, screen tearing,
-security, crash robustness, input handling, and more.</p>
-
-<p>As for when Plasma will drop support for X11? There's currently no
-firm timeline for this, and I certainly don't expect it to happen in
-the next year, or even the next two years. But that's just a guess; it
-depends on how quickly we implement everything on
-<a href="https://community.kde.org/Plasma/Wayland_Known_Significant_Issues">https://community.kde.org/Plasma/Wayland_Known_Significant_Issues</a>. Our
-plan is to handle everything on that page such that even the most
-hardcore X11 user doesn't notice anything missing when they move to
-Wayland.</p>
-</Blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1026552/</guid>
-            <pubDate>Mon, 23 Jun 2025 18:35:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
