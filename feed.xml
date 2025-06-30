@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Jun 2025 14:06:28 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Jun 2025 14:12:47 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Jun 2025 14:33:01 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Jun 2025 14:36:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -471,14 +471,6 @@ media subsystem.
 "<q>Our largest Media Summit to date brought together around 20 engaged participants. Engagement was strong, marked by thoughtful questions and lively discussions.</q>"]]></description>
             <guid>https://lwn.net/Articles/1026528/</guid>
             <pubDate>Mon, 23 Jun 2025 15:03:22 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1026498/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libblockdev and open-vm-tools), <b>Debian</b> (debian-security-support, gdk-pixbuf, konsole, and node-send), <b>Fedora</b> (apache-commons-beanutils, chromium, clamav, dotnet9.0, libblockdev, mediawiki, mingw-python-setuptools, pam, perl-File-Find-Rule, python-pycares, python-setuptools, spdlog, udisks2, and xorg-x11-server-Xwayland), <b>Mageia</b> (chromium-browser-stable), <b>Oracle</b> (apache-commons-beanutils, container-tools:ol8, gimp:2.8, idm:DL1, perl-FCGI:0.78, and postgresql), <b>Red Hat</b> (container-tools:rhel8, delve, git-lfs, go-toolset:rhel8, grafana, kernel, mod_auth_openidc, and spice-client-win), <b>SUSE</b> (apache-commons-beanutils, apache2-mod_security2, distribution, gstreamer-plugins-good, icu, ignition, perl, python310, python311, python312, and python39), and <b>Ubuntu</b> (apache-log4j1.2 and botan).]]></description>
-            <guid>https://lwn.net/Articles/1026498/</guid>
-            <pubDate>Mon, 23 Jun 2025 14:09:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
