@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 30 Jun 2025 14:55:54 +0000</pubDate>
-        <lastBuildDate>Mon, 30 Jun 2025 15:13:25 +0000</lastBuildDate>
+        <pubDate>Mon, 30 Jun 2025 15:27:24 +0000</pubDate>
+        <lastBuildDate>Mon, 30 Jun 2025 15:35:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -437,31 +437,6 @@ Wayland.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1026552/</guid>
             <pubDate>Mon, 23 Jun 2025 18:35:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>PostmarketOS 25.06: &quot;the one with systemd&quot;</title>
-            <link>https://lwn.net/Articles/1026531/</link>
-            <description><![CDATA[<p>The <a href="https://postmarketos.org/">postmarketOS</a> project,
-which creates a Linux distribution for mobile devices, <a
-href="https://postmarketos.org/blog/2024/03/05/adding-systemd/">announced</a>
-it was working on adding a version with systemd last March. That day
-has arrived with the <a
-href="https://postmarketos.org/blog/2025/06/22/v25.06-release/">announcement
-of version 25.06</a>:</p>
-
-<blockquote class="bq">
-We considered supporting an upgrade from OpenRC to systemd in our
-upgrade script, but then decided against it as such an upgrade path
-might introduce its own bugs and we would rather spend the time
-improving other parts of postmarketOS. So for this one-time scenario
-we ask you to please reinstall postmarketOS to get from OpenRC to
-systemd. Thank you for your understanding!
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1026531/</guid>
-            <pubDate>Mon, 23 Jun 2025 15:32:45 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
