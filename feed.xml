@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Jul 2025 13:06:25 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Jul 2025 13:07:36 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Jul 2025 13:43:24 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Jul 2025 13:44:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -431,17 +431,6 @@ control over vertical tabs, a dialog to add custom search engines,
 improvements to translation performance, and more.]]></description>
             <guid>https://lwn.net/Articles/1026701/</guid>
             <pubDate>Tue, 24 Jun 2025 16:33:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1026646/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dns-root-data and xorg-server), <b>Fedora</b> (glibc, mingw-glib2, and optipng), <b>Red Hat</b> (iputils, kernel, kernel-rt, krb5, libarchive, mod_auth_openidc, mod_proxy_cluster, and xorg-x11-server-Xwayland), <b>SUSE</b> (python313), and <b>Ubuntu</b> (fig2dev, gnuplot, gss-ntlmssp, linux, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-kvm,
- linux-lowlatency, linux-nvidia, linux-nvidia-tegra,
- linux-nvidia-tegra-igx, linux-oracle, linux-aws-5.15, linux-gcp-5.15, linux-ibm-5.15, linux-lowlatency-hwe-5.15,
- linux-oracle-5.15, linux-aws-fips, linux-fips, linux-gcp-fips, linux-hwe-5.15, and linux-intel-iot-realtime, linux-realtime).]]></description>
-            <guid>https://lwn.net/Articles/1026646/</guid>
-            <pubDate>Tue, 24 Jun 2025 12:32:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
