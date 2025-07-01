@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Jul 2025 14:09:03 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Jul 2025 14:12:07 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Jul 2025 14:29:54 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Jul 2025 14:34:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU Health Hospital Information System 5.0 released</title>
+            <link>https://lwn.net/Articles/1028010/</link>
+            <description><![CDATA[<a href="https://savannah.gnu.org/news/?id=10783">Version 5.0</a> of the
+GNU Health Hospital Information System has been released.  This project,
+working to support medical offices, shows just how far the free-software
+effort can reach.  Changes in this release include improved reporting and
+analytics, more comprehensive handling of many types of patient
+information, a reworked medical-imaging subsystem, better insurance and
+billing functionality, and more.]]></description>
+            <guid>https://lwn.net/Articles/1028010/</guid>
+            <pubDate>Tue, 01 Jul 2025 14:19:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1027971/</link>
