@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Jul 2025 16:07:19 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Jul 2025 16:15:14 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Jul 2025 16:18:25 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Jul 2025 16:43:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -434,17 +434,6 @@ yet subscribed, please <a href="https://lwn.net/subscribe/">sign up today</a> to
 more of it possible.]]></description>
             <guid>https://lwn.net/Articles/1026338/</guid>
             <pubDate>Wed, 25 Jun 2025 13:38:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 140.0 released</title>
-            <link>https://lwn.net/Articles/1026701/</link>
-            <description><![CDATA[<a href="https://www.mozilla.org/en-US/firefox/140.0/releasenotes/">Version
-140.0</a> of the Firefox browser has been released.  Changes include more
-control over vertical tabs, a dialog to add custom search engines,
-improvements to translation performance, and more.]]></description>
-            <guid>https://lwn.net/Articles/1026701/</guid>
-            <pubDate>Tue, 24 Jun 2025 16:33:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
