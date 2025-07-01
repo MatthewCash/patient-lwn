@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Jul 2025 12:20:32 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Jul 2025 12:22:28 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Jul 2025 13:06:25 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Jul 2025 13:07:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1027971/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve, emacs, gimp, gimp:2.8, glibc, idm:DL1, ipa, iputils, kernel, krb5, libarchive, libblockdev, libxml2, mod_proxy_cluster, osbuild-composer, pam, perl-File-Find-Rule, perl-YAML-LibYAML, qt5-qtbase, weldr-client, xorg-x11-server and xorg-x11-server-Xwayland, and xorg-x11-server-Xwayland), <b>Debian</b> (mbedtls and sudo), <b>Oracle</b> (.NET 8.0, delve, delve, golang, firefox, ghostscript, glibc, golang, grafana, iputils, kernel, krb5, libarchive, libblockdev, nodejs22, ruby, thunderbird, tomcat, tomcat9, unbound, and wireshark), <b>Red Hat</b> (glibc and mod_auth_openidc), <b>Slackware</b> (sudo), <b>SUSE</b> (gpg2, ImageMagick, iputils, jakarta-commons-fileupload, kernel, libblockdev, libsoup, open-vm-tools, pam, python-tornado6, screen, sudo, and xwayland), and <b>Ubuntu</b> (linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oracle,
+ linux-raspi, linux-realtime, linux-gcp, linux-gcp-6.8, linux-hwe-5.4, linux-oem-6.11, and sudo).]]></description>
+            <guid>https://lwn.net/Articles/1027971/</guid>
+            <pubDate>Tue, 01 Jul 2025 12:46:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>15 Years of OsmAnd</title>
+            <link>https://lwn.net/Articles/1027973/</link>
+            <description><![CDATA[The OsmAnd map and navigation app project recently <a
+href="https://osmand.net/blog/15-years/">celebrated its 15th
+anniversary</a>.
+<p>
+<blockquote class="bq">
+	All these 15 years can be roughly divided into three stages. For
+	the first five years, we built the very basic functionality—offline
+	maps and navigation that just worked. Over the next five years, we
+	transformed OsmAnd into a full-fledged application with plugins,
+	extensive settings, and professional tools. We dedicated the third
+	five-year period to deep internal work: completely rewriting and
+	improving key components like the rendering engine and routing
+	algorithms.
+<p>
+	Now, a new, fourth stage begins. We have reached functional
+	maturity, and our main goal for the near future is to polish what
+	we've already built. We will focus on stability, speed, and
+	consolidation. User expectations are growing, and what was once
+	considered normal must now be flawless.
+</blockquote>
+<p>
+(Thanks to Paul Wise).]]></description>
+            <guid>https://lwn.net/Articles/1027973/</guid>
+            <pubDate>Tue, 01 Jul 2025 12:50:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1027769/</link>
