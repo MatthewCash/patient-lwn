@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Jul 2025 13:43:07 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Jul 2025 13:43:51 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Jul 2025 13:53:32 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Jul 2025 13:55:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Copyleft-next project relaunched</title>
+            <link>https://lwn.net/Articles/1028166/</link>
+            <description><![CDATA[The <a href="https://next.copyleft.org/">copyleft-next project</a> is an
+effort to develop a next-generation copyleft license; it was <a
+href="https://lwn.net/Articles/537559/">covered here</a> back in 2013 (as well as in <a
+href="https://lwn.net/Articles/660428/">2015</a> and <a
+href="https://lwn.net/Articles/862611/">2021</a>).  The project has stalled in recent
+years, but now Richard Fontana and Bradley Kuhn have <a
+href="https://lists.copyleft.org/pipermail/next/2025q2/000000.html">announced</a>
+a new effort to push copyleft-next forward:
+<p>
+<blockquote class="bq">
+	Today, GPLv3 turns exactly 18 years old.  This month, GPLv2 turned
+	34 years old.  These are both great licenses and we love them.
+	Nevertheless, at least once in a generation, FOSS needs a new
+	approach to strong copyleft.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1028166/</guid>
+            <pubDate>Wed, 02 Jul 2025 13:50:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1028160/</link>
@@ -417,38 +439,6 @@ page for other projects recently funded by NLnet.</p>
             <guid>https://lwn.net/Articles/1026895/</guid>
             <pubDate>Wed, 25 Jun 2025 17:37:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1026848/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (commons-beanutils, dcmtk, nginx, trafficserver, and xorg-server), <b>Fedora</b> (atuin, awatcher, dotnet8.0, firefox, glibc, gotify-desktop, keylime-agent-rust, libtpms, mirrorlist-server, qt6-qtbase, qt6-qtimageformats, udisks2, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (apache-mod_security, clamav, docker, python-django, tomcat, udisks2, and yarnpkg), <b>Oracle</b> (firefox, libblockdev, mod_auth_openidc, perl-FCGI, perl-YAML-LibYAML, tigervnc, and xorg-x11-server and xorg-x11-server-Xwayland), <b>Slackware</b> (libssh and mozilla), <b>SUSE</b> (gimp, gstreamer-plugins-good, icu, ignition, kernel, pam-config, perl-File-Find-Rule, python311, and webkit2gtk3), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-ibm,
- linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-azure, linux-azure, linux-azure-6.8, linux-azure-5.15, linux-azure-fips, and linux-realtime).]]></description>
-            <guid>https://lwn.net/Articles/1026848/</guid>
-            <pubDate>Wed, 25 Jun 2025 13:18:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LSFMM+BPF 2025 reporting complete</title>
-            <link>https://lwn.net/Articles/1026338/</link>
-            <description><![CDATA[It took time and the writing of over 60 articles, but LWN's coverage from
-the <a href="https://lwn.net/Articles/lsfmmbpf2025/">2025 Linux Storage, Filesystem,
-Memory-Management, and BPF Summit</a> is now complete.  We have also made
-<a href="https://lwn.net/images/epub/lsfmmbpf2025.epub">an EPUB book (13MB)</a> containing
-the full set of coverage available to all readers.  This coverage
-constitutes the definitive guide to the challenges that these core-kernel
-communities are facing and their development plans for the coming year.
-
-<p>
-Documenting an event of this intensity at such a detailed level is not a
-small undertaking.  We are grateful to the Linux Foundation for funding our
-travel to our event and, especially, to LWN's subscribers for making the
-whole thing possible.  If you appreciate this type of coverage and have not
-yet subscribed, please <a href="https://lwn.net/subscribe/">sign up today</a> to help make
-more of it possible.]]></description>
-            <guid>https://lwn.net/Articles/1026338/</guid>
-            <pubDate>Wed, 25 Jun 2025 13:38:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
