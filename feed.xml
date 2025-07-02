@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Jul 2025 15:12:04 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Jul 2025 15:12:59 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Jul 2025 15:33:53 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Jul 2025 15:34:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Debian looking for testers with Apple M1/M2 machines</title>
+            <link>https://lwn.net/Articles/1028224/</link>
+            <description><![CDATA[<p>Debian's <a
+href="https://wiki.debian.org/Teams/Bananas">Bananas</a> team has <a
+href="https://lwn.net/ml/all/86037b55-e1b8-49e6-a0c9-f961b4ddc1a1%40disroot.org/">put
+out a call</a> for people with Apple M1 or M2 systems to help test
+Debian on those machines:</p>
+
+<blockquote class="bq">
+The Bananas Team has set up an installer at with images 
+for GNOME, KDE and console installations. While we'd like to build an 
+actual Debian installer sooner or later (we may need a heads-up from the 
+Debian Images team for that), at this time we only provide an asahi-type 
+installer, which installs both the "bootloader" and the OS partitions to 
+disk from the network (as opposed to only installing the bootloader and 
+then letting you install Debian using a d-i USB stick). We haven't 
+forked Trixie from Testing yet, so what you'll get is Debian Testing 
+quite deep into the freeze.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1028224/</guid>
+            <pubDate>Wed, 02 Jul 2025 15:32:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The Netdev Foundation launches</title>
             <link>https://lwn.net/Articles/1028209/</link>
