@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Jul 2025 12:38:24 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Jul 2025 13:07:21 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Jul 2025 13:43:07 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Jul 2025 13:43:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1028160/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (apache-commons-beanutils, firefox, kea, kernel, kernel-rt, libblockdev, libvpx, pam, python-setuptools, python3, python3.11, python3.12, python3.9, and sudo), <b>Debian</b> (chromium), <b>Gentoo</b> (sudo), <b>Oracle</b> (.NET 8.0, buildah, firefox, freerdp, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, libsoup3, mod_proxy_cluster, perl-FCGI, podman, python-setuptools, qt6-qtbase, skopeo, sudo, and thunderbird), <b>Slackware</b> (mozilla), <b>SUSE</b> (redis, runc, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (composer, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
+ linux-gkeop, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
+ linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle,
+ linux-oracle-6.8, linux-raspi, linux, linux-aws, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop,
+ linux-hwe-5.15, linux-ibm, linux-kvm, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-gcp, linux-gcp-6.11, linux-hwe-6.11, linux-oracle,
+ linux-raspi, linux-realtime, linux, linux-aws, linux-lts-xenial, linux, linux-gcp, linux-raspi, linux-realtime, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-realtime, and linux-realtime, linux-raspi-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1028160/</guid>
+            <pubDate>Wed, 02 Jul 2025 13:13:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GNU Health Hospital Information System 5.0 released</title>
             <link>https://lwn.net/Articles/1028010/</link>
