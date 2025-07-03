@@ -8,11 +8,150 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Jul 2025 23:44:54 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Jul 2025 23:51:20 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Jul 2025 00:25:29 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Jul 2025 00:55:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 26, 2025</title>
+            <link>https://lwn.net/Articles/1025929/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1025929/">Front</a>: Libxml2; GNOME and systemd; Rust in the kernel; Defconfigs; ngnfs, Free-threaded Python; Asterinas.
+            <li> <a href="https://lwn.net/Articles/1025931/">Briefs</a>: LSFMM+BPF book; tag2upload; PostmarketOS 25.06; Firefox 140.0; NLnet funding; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1025932/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1025929/</guid>
+            <pubDate>Thu, 26 Jun 2025 01:22:31 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Libxml2&apos;s &quot;no security embargoes&quot; policy</title>
+            <link>https://lwn.net/Articles/1025971/</link>
+            <description><![CDATA[<p><a
+href="https://gitlab.gnome.org/GNOME/libxml2/#libxml2">Libxml2</a>, an
+XML parser and toolkit, is an almost perfect example of the successes
+and failures of the open-source movement. In the 25 years since its
+first release, it has been widely adopted by open-source projects, for
+use in commercial software, and for government use. It also
+illustrates that while many organizations love using open-source software,
+far fewer have yet to see value in helping to sustain it. That has led
+libxml2's current maintainer to reject security embargoes and sparked
+a discussion about maintenance terms for free and open-source
+projects.</p>]]></description>
+            <guid>https://lwn.net/Articles/1025971/</guid>
+            <pubDate>Wed, 25 Jun 2025 15:29:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Getting extensions to work with free-threaded Python</title>
+            <link>https://lwn.net/Articles/1025893/</link>
+            <description><![CDATA[One of the biggest changes to come to the Python world is the <a
+href="https://lwn.net/Articles/947138/">addition of the free-threading
+interpreter</a>, which eliminates the <a
+href="https://docs.python.org/3/glossary.html#term-global-interpreter-lock">global
+interpreter lock</a> (GIL) that kept the interpreter thread-safe, but also
+serialized multi-threaded Python code.  Over the years, the GIL has been a
+source of complaints about the scalability of Python code using
+threads, so many developers have been looking forward to the change, which
+has been an experimental feature since <a
+href="https://www.python.org/downloads/release/python-3130/">Python 3.13
+was released</a> in October 2024.  Making the free-threaded version work
+with the rest of the Python ecosystem, especially native extensions, is an
+ongoing effort, however; Nathan Goldbaum and Lysandros Nikolaou spoke at <a
+href="https://us.pycon.org/2025/">PyCon US 2025</a> about those efforts.]]></description>
+            <guid>https://lwn.net/Articles/1025893/</guid>
+            <pubDate>Wed, 25 Jun 2025 14:32:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Who are kernel defconfigs for?</title>
+            <link>https://lwn.net/Articles/1026337/</link>
+            <description><![CDATA[Working on the kernel can be a challenging task but, for many,
+<i>configuring</i> a kernel build can be the largest obstacle to getting
+started.  The kernel has thousands of configuration options; many of those,
+if set incorrectly, will result in a kernel that does not work on the
+target system.  The key to helping users with complex configuration
+problems is to provide reasonable defaults but, in the kernel community,
+there is currently little consensus around what those defaults should be.]]></description>
+            <guid>https://lwn.net/Articles/1026337/</guid>
+            <pubDate>Tue, 24 Jun 2025 13:06:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] GNOME deepens systemd dependencies</title>
+            <link>https://lwn.net/Articles/1025560/</link>
+            <description><![CDATA[<p>Adrian Vovk, a GNOME contributor and member of its <a
+href="https://handbook.gnome.org/release-planning/release-team.html">release
+team</a>, recently <a
+href="https://blogs.gnome.org/adrianvovk/2025/06/10/gnome-systemd-dependencies/">announced</a>
+in a blog post that GNOME would be adding new dependencies on <a
+href="https://systemd.io/">systemd</a>, and soon. The idea is to shed
+GNOME's homegrown service manager in favor of using systemd, and to
+improve GNOME's ability to run concurrent user sessions. However, the
+move is also going to throw a spanner in the works for the BSDs and
+Linux distributions without systemd when the changes take effect in
+the GNOME&#160;49 release that is set for September.</p>]]></description>
+            <guid>https://lwn.net/Articles/1025560/</guid>
+            <pubDate>Mon, 23 Jun 2025 15:06:15 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] How to write Rust in the kernel: part 1</title>
+            <link>https://lwn.net/Articles/1024202/</link>
+            <description><![CDATA[<p>
+The Linux kernel is seeing a steady accumulation of Rust code. As it becomes
+more prevalent, maintainers may want to know how to read, review, and test the
+Rust code that relates to their areas of expertise. Just as kernel C code is
+different from user-space C code, so too is kernel Rust code somewhat different
+from user-space Rust code. That fact makes Rust's
+<a href="https://doc.rust-lang.org/stable/book/">
+extensive documentation</a> of
+less use than it otherwise would be, and means that potential contributors with
+user-space experience will need some additional instruction.
+This article is the first in a multi-part series aimed at helping existing
+kernel contributors become familiar with Rust, and helping existing Rust
+programmers become familiar with what the kernel does differently from the
+typical Rust project.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1024202/</guid>
+            <pubDate>Fri, 20 Jun 2025 18:18:49 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A distributed filesystem for archival systems: ngnfs</title>
+            <link>https://lwn.net/Articles/1025650/</link>
+            <description><![CDATA[A new filesystem was the topic of a session led by Zach Brown at
+the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
+(LSFMM+BPF).  The <a
+href="https://git.infradead.org/?p=users/zab/ngnfs-progs.git">ngnfs</a>
+filesystem is not a "next generation" NFS, as might be guessed from the
+name; Brown said that he did not think about that linkage
+("<q>I hate naming so much</q>") until it was pointed out to him by Chuck
+Lever in an email.  It is, instead, a filesystem for enormous data sets
+that are mostly stored offline.]]></description>
+            <guid>https://lwn.net/Articles/1025650/</guid>
+            <pubDate>Fri, 20 Jun 2025 17:15:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Asterinas: a new Linux-compatible kernel project</title>
+            <link>https://lwn.net/Articles/1022920/</link>
+            <description><![CDATA[Born from research at the <a
+href="https://www.sustech.edu.cn/en/">Southern University of Science and
+Technology</a> (SUSTech) in Shenzen, China, <a
+href="https://asterinas.github.io/">Asterinas</a> is a new
+Linux-ABI-compatible kernel project written in Rust, based on what the
+authors call a "framekernel architecture".  The project overlaps somewhat
+with the goals of the <a href="https://rust-for-linux.com/">Rust-for-Linux
+project</a>, but approaches the problem space from a different direction by
+trying to get the best from both monolithic and microkernel designs.]]></description>
+            <guid>https://lwn.net/Articles/1022920/</guid>
+            <pubDate>Thu, 19 Jun 2025 16:35:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Debian looking for testers with Apple M1/M2 machines</title>
             <link>https://lwn.net/Articles/1028224/</link>
@@ -286,164 +425,6 @@ Computational Tree Logic (CTL) is the heart of Coccinelle, which takes semantic 
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr and libxml2), <b>Fedora</b> (firefox, libtpms, and tigervnc), <b>Mageia</b> (chromium-browser-stable and nss &amp; firefox), <b>Oracle</b> (emacs, iputils, kernel, krb5, libarchive, mod_proxy_cluster, pam, perl-File-Find-Rule, perl-YAML-LibYAML, and qt5-qtbase), <b>Red Hat</b> (opentelemetry-collector, osbuild-composer, and weldr-client), <b>SUSE</b> (clamav, firefox, go1.24-openssl, and helm), and <b>Ubuntu</b> (libarchive, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-azure-nvidia, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-xilinx-zynqmp, and python-urllib3).]]></description>
             <guid>https://lwn.net/Articles/1027082/</guid>
             <pubDate>Thu, 26 Jun 2025 14:18:55 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 19, 2025</title>
-            <link>https://lwn.net/Articles/1025076/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1025076/">Front</a>: GNOME a11y; hierarchical scheduler; CoMaps; GPU restore; FAIR.pm; buffered I/O writeback; NFS; Lustre
-            <li> <a href="https://lwn.net/Articles/1025078/">Briefs</a>: Rocky Linux 10.0; Git 2.50; KDE Plasma 6.4; Kubernetes Slack; Radicle Desktop; Quote; ...
-            <li> <a href="https://lwn.net/Articles/1025079/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1025076/</guid>
-            <pubDate>Thu, 19 Jun 2025 00:39:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The hierarchical constant bandwidth server scheduler</title>
-            <link>https://lwn.net/Articles/1024757/</link>
-            <description><![CDATA[The <a
-href="https://pubs.opengroup.org/onlinepubs/7908799/xsh/realtime.html">POSIX
-realtime model</a>, which is implemented in the Linux kernel, can ensure
-that a realtime process obtains the CPU time it needs to get its job done.
-It can be less effective, though, when there are multiple realtime
-processes competing for the available CPU resources.  The <a
-href="https://lwn.net/ml/all/20250605071412.139240-1-yurand2000@gmail.com">hierarchical
-constant bandwidth server</a> patch series, posted by Yuri Andriaccio with
-work by Luca Abeni, Alessio Balsini, and Andrea Parri, is a modification to
-the Linux scheduler intended to make it possible to configure systems with
-multiple realtime tasks in a deterministic and correct manner.]]></description>
-            <guid>https://lwn.net/Articles/1024757/</guid>
-            <pubDate>Wed, 18 Jun 2025 16:46:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Getting Lustre upstream</title>
-            <link>https://lwn.net/Articles/1025268/</link>
-            <description><![CDATA[The <a href="https://www.lustre.org/">Lustre filesystem</a> has a long
-history, some of which intersects with Linux.  It was added to the staging
-tree in 2013, but was <a href="https://lwn.net/Articles/756565/">bounced out of
-staging</a> in 2018, due to a lack of progress and a development model
-that was incompatible with the kernel's.  Lustre may be working its way
-back into the kernel, though.  In a filesystem-track session at
-the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
-(LSFMM+BPF), Timothy Day and James Simmons led a discussion on how to get
-Lustre into the mainline.]]></description>
-            <guid>https://lwn.net/Articles/1025268/</guid>
-            <pubDate>Wed, 18 Jun 2025 14:05:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] A parallel path for GPU restore in CRIU</title>
-            <link>https://lwn.net/Articles/1024747/</link>
-            <description><![CDATA[<p> The fundamental concept of checkpoint/restore is elegant: capture a
-process's state and resurrect it later, perhaps elsewhere. Checkpointing
-meticulously records a process's memory, open files, CPU state, and more into a
-snapshot. Restoration then reconstructs the process from this state. This
-established technique faces new challenges with GPU-accelerated applications,
-where low-latency restoration is crucial for
-<a href='https://criu.org/Usage_scenarios#Fault-tolerant_systems'>fault
-tolerance</a>, live migration, and
-fast startups. Recently, the restore process for AMD GPUs has been redesigned to
-eliminate substantial bottlenecks. </p>]]></description>
-            <guid>https://lwn.net/Articles/1024747/</guid>
-            <pubDate>Tue, 17 Jun 2025 18:02:13 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Enhancing screen-reader functionality in modern GNOME</title>
-            <link>https://lwn.net/Articles/1025127/</link>
-            <description><![CDATA[<p>Accessibility features and the work that goes into developing those features
-often tend to be overlooked and are poorly understood by all but the people who actually
-depend on such features. At Fedora's annual developer conference, <a
-href="https://fedoraproject.org/flock/2025/">Flock</a>, Lukáš Tyrychtr sought to
-improve understanding and raise awareness about accessibility with his session on <a
-href="https://cfp.fedoraproject.org/flock-to-fedora-2025/talk/NNYFPL/">accessibility
-barriers and screen-reader functionality in GNOME</a>. His talk provided rare insight
-into the world of using and developing open-source software for visually-impaired
-users&mdash;including landing important accessibility improvements in
-the latest GNOME release.</p>]]></description>
-            <guid>https://lwn.net/Articles/1025127/</guid>
-            <pubDate>Tue, 17 Jun 2025 17:06:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Supporting NFS v4.2 WRITE_SAME</title>
-            <link>https://lwn.net/Articles/1025257/</link>
-            <description><![CDATA[At the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
-(LSFMM+BPF), Anna Schumaker led a discussion about implementing the NFS
-v4.2 <a
-href="https://datatracker.ietf.org/doc/html/rfc7862#section-15.12"><tt>WRITE_SAME</tt>
-command</a> in both the NFS client and server.  <tt>WRITE_SAME</tt> is
-meant to write large amounts of identical data (e.g. zeroes) to the server
-without actually needing to transfer all of it over the wire.  In her <a
-href="https://lwn.net/ml/all/f9ade3f0-6bfc-45da-a796-c22ceaeb4722%40oracle.com/">topic
-proposal</a>, Schumaker wondered whether other filesystems needed the
-functionality, so that it should be implemented at the virtual filesystem
-(VFS) layer, or whether it should simply be handled as an NFS-specific <a
-href="https://www.man7.org/linux/man-pages/man2/ioctl.2.html"><tt>ioctl()</tt></a>.]]></description>
-            <guid>https://lwn.net/Articles/1025257/</guid>
-            <pubDate>Mon, 16 Jun 2025 14:25:21 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] CoMaps emerges as an Organic Maps fork</title>
-            <link>https://lwn.net/Articles/1024387/</link>
-            <description><![CDATA[The open-source mobile app <a href="https://organicmaps.app/">Organic
-Maps</a> is used by millions of people on both the Android and iOS
-platforms. In addition to featuring offline maps (generated from <a
-href="https://openstreetmap.org/">OpenStreetMap</a> cartography) and
-turn-by-turn navigation, it also promises its users greater privacy
-than proprietary options. However, controversial decisions taken by the
-project's leaders, feelings of disenfranchisement among contributors, and
-even accusations of embezzlement have precipitated a divide in the
-community, leading to a new fork called <a
-href="https://www.comaps.app/">CoMaps</a>.]]></description>
-            <guid>https://lwn.net/Articles/1024387/</guid>
-            <pubDate>Fri, 13 Jun 2025 15:05:24 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] FAIR package management for WordPress</title>
-            <link>https://lwn.net/Articles/1024486/</link>
-            <description><![CDATA[<p> Matt
-Mullenweg&mdash;WordPress
-<span class="nobreak">co-founder</span> and CEO of WordPress hosting company <a
-href="https://automattic.com/">Automattic</a>&mdash;started <a
-href="https://lwn.net/Articles/991906/">a messy public spat</a> with
-<a href="https://wpengine.com/">WP&#160;Engine</a>. After that, it 
-seemed inevitable that the larger WordPress community would seek to
-untangle itself from its dependence on the WordPress.org plugin and
-theme repository. That shoe finally dropped on June&#160;6,
-
-At the <a
-href="https://altctrl.org/">AltCtrlOrg</a> conference in Basel,
-Switzerland, a short walk away from <a
-href="https://europe.wordcamp.org/2025/">WordCamp&#160;Europe&#160;2025</a>,
-a group of WordPress community participants unveiled FAIR.pm,
-backed by the Linux Foundation. and is
-designed to be]]></description>
-            <guid>https://lwn.net/Articles/1024486/</guid>
-            <pubDate>Thu, 12 Jun 2025 17:37:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Parallelizing filesystem writeback</title>
-            <link>https://lwn.net/Articles/1024402/</link>
-            <description><![CDATA[Writeback for filesystems is the process of flushing the "dirty" (written)
-data in the page cache to storage. At 
-the 2025 Linux Storage,
-Filesystem, Memory Management, and BPF Summit (LSFMM+BPF), Anuj Gupta led a
-combined storage and filesystem session on some work that has been done
-to parallelize the writeback process.  Some of the performance problems
-that have been seen with the existing single-threaded writeback came up in
-a <a href="https://lwn.net/Articles/976856/">session at last year's summit</a>, where the
-idea of doing writeback in parallel was discussed.]]></description>
-            <guid>https://lwn.net/Articles/1024402/</guid>
-            <pubDate>Thu, 12 Jun 2025 14:07:02 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
