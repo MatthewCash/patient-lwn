@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Jul 2025 20:29:35 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Jul 2025 20:33:39 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Jul 2025 20:48:06 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Jul 2025 20:51:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Richards: Introducing tmux-rs</title>
+            <link>https://lwn.net/Articles/1028583/</link>
+            <description><![CDATA[<p>Collin Richards has <a
+href="https://richardscollin.github.io/tmux-rs/">announced</a> version
+0.0.1 of tmux-rs, a port of the <a
+href="https://github.com/tmux/tmux/wiki">tmux</a> terminal multiplexer
+to Rust.</p>
+
+<blockquote class="bq">
+For the [past] 6 months or so I've been quietly porting tmux from C to
+Rust. I've recently reached a big milestone: the code base is now 100%
+(unsafe) Rust. I'd like to share the process of porting the original
+codebase from ~67,000 lines of C code to ~81,000 lines of Rust
+(excluding comments and empty lines). You might be asking: why did you
+rewrite tmux in Rust? And yeah, I don't really have a good
+reason. It's a hobby project. Like gardening, but with more segfaults.
+</blockquote>
+
+<p>Richards says that the next goal for the project is to convert it
+to safe Rust. It is currently "<q>not very difficult to get it to
+crash</q>", but he wanted to share the project with other Rust fans
+now. The project is <a
+href="https://github.com/richardscollin/tmux-rs">available on
+GitHub</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1028583/</guid>
+            <pubDate>Thu, 03 Jul 2025 20:40:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1028554/</link>
