@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 03 Jul 2025 14:18:24 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Jul 2025 14:35:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 3 Jul 2025 14:52:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -425,14 +425,6 @@ Computational Tree Logic (CTL) is the heart of Coccinelle, which takes semantic 
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1027087/</guid>
             <pubDate>Thu, 26 Jun 2025 15:11:51 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1027082/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr and libxml2), <b>Fedora</b> (firefox, libtpms, and tigervnc), <b>Mageia</b> (chromium-browser-stable and nss &amp; firefox), <b>Oracle</b> (emacs, iputils, kernel, krb5, libarchive, mod_proxy_cluster, pam, perl-File-Find-Rule, perl-YAML-LibYAML, and qt5-qtbase), <b>Red Hat</b> (opentelemetry-collector, osbuild-composer, and weldr-client), <b>SUSE</b> (clamav, firefox, go1.24-openssl, and helm), and <b>Ubuntu</b> (libarchive, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-azure-nvidia, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-xilinx-zynqmp, and python-urllib3).]]></description>
-            <guid>https://lwn.net/Articles/1027082/</guid>
-            <pubDate>Thu, 26 Jun 2025 14:18:55 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
