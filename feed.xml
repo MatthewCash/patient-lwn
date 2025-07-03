@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 03 Jul 2025 18:28:45 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Jul 2025 18:45:13 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 3 Jul 2025 18:57:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -371,18 +371,6 @@ Kernel versions
             <guid>https://lwn.net/Articles/1027251/</guid>
             <pubDate>Fri, 27 Jun 2025 13:36:12 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.88.0 released</title>
-            <link>https://lwn.net/Articles/1027120/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/06/26/Rust-1.88.0/">Version
-1.88.0</a> of the Rust language has been released.  Changes include the
-ability to chain <tt>let</tt> expressions, "naked" functions that have no
-compiler-generated prologue or epilogue, automatic garbage collection in
-<tt>cargo</tt>, a set of stabilized APIs, and more.]]></description>
-            <guid>https://lwn.net/Articles/1027120/</guid>
-            <pubDate>Thu, 26 Jun 2025 18:37:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
