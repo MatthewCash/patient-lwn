@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 03 Jul 2025 16:48:36 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Jul 2025 17:35:14 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 3 Jul 2025 17:51:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -382,25 +382,6 @@ compiler-generated prologue or epilogue, automatic garbage collection in
 <tt>cargo</tt>, a set of stabilized APIs, and more.]]></description>
             <guid>https://lwn.net/Articles/1027120/</guid>
             <pubDate>Thu, 26 Jun 2025 18:37:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Oracle Linux 10 released</title>
-            <link>https://lwn.net/Articles/1027112/</link>
-            <description><![CDATA[<a
-href="https://blogs.oracle.com/linux/post/oracle-linux-10-now-generally-available">Version
-10</a> of the Oracle Linux distribution has been released.
-<p>
-<blockquote class="bq">
-	Oracle Linux 10 is now generally available for 64-bit Intel and AMD
-	(x86_64) and 64-bit Arm (aarch64) platforms. Oracle Linux 10
-	delivers robust security and exceptional performance for business
-	agility and demanding workloads at cloud scale. Key features
-	include modernized cryptographic capabilities, advancements in
-	developer tooling, and innovations for resilient infrastructure. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1027112/</guid>
-            <pubDate>Thu, 26 Jun 2025 17:42:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
