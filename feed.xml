@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Jul 2025 13:42:12 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Jul 2025 14:12:19 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Jul 2025 14:18:24 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Jul 2025 14:35:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1028554/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0, aardvark-dns, apache-commons-beanutils, bootc, buildah, corosync, delve and golang, exiv2, expat, firefox, ghostscript, git, git-lfs, gnutls, grafana, grafana-pcp, grub2, gstreamer1, gstreamer1-plugins-bad-free, gstreamer1-plugins-ugly-free, and gstreamer1-rtsp-server, gstreamer1-plugins-base, gstreamer1-plugins-good, gvisor-tap-vsock, iptraf-ng, java-21-openjdk, kernel, keylime-agent-rust, krb5, libarchive, libblockdev, libsoup3, libtasn1, libvpx, libxslt, microcode_ctl, mod_auth_openidc, nodejs22, nodejs:20, openjpeg2, osbuild and osbuild-composer, perl-FCGI, perl-Module-ScanDeps, perl-YAML-LibYAML, php, php:8.2, php:8.3, podman, protobuf, python-jinja2, python-requests, python3.11, python3.12, python3.12-cryptography, python3.9, rpm-ostree, rsync, rust-bootupd, skopeo, thunderbird, tigervnc, tomcat, tomcat9, webkit2gtk3, xdg-utils, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (ring), <b>Mageia</b> (libarchive and rootcerts, nss &amp; firefox), <b>Oracle</b> (.NET 9.0, corosync, firefox, osbuild-composer, pam, python3, python3.11, python3.12, python3.9, skopeo, sudo, and thunderbird), <b>Red Hat</b> (microcode_ctl, pam, php, thunderbird, tigervnc, xorg-x11-server, xorg-x11-server and xorg-x11-server-Xwayland, and xorg-x11-server-Xwayland), <b>SUSE</b> (clamav, icu, libgepub, libsoup, python-requests, tomcat, and xorg-x11-server), and <b>Ubuntu</b> (clamav, logback, mongo-c-driver, pcs, and python-flask-cors).]]></description>
+            <guid>https://lwn.net/Articles/1028554/</guid>
+            <pubDate>Thu, 03 Jul 2025 14:18:24 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 26, 2025</title>
             <link>https://lwn.net/Articles/1025929/</link>
