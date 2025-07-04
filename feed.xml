@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 04 Jul 2025 12:48:26 +0000</pubDate>
-        <lastBuildDate>Fri, 4 Jul 2025 13:05:30 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Jul 2025 13:18:37 +0000</pubDate>
+        <lastBuildDate>Fri, 4 Jul 2025 13:41:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1028684/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0, container-tools:rhel8, ghostscript, git-lfs, grafana-pcp, pandoc, perl-FCGI:0.78, ruby:2.5, ruby:3.3, tigervnc, and varnish:6), <b>Debian</b> (jpeg-xl and mediawiki), <b>Fedora</b> (darktable, guacamole-server, mingw-gdk-pixbuf, and yarnpkg), <b>Oracle</b> (gimp, kernel, libsoup, python-tornado, python3.12, and thunderbird), <b>Slackware</b> (php), <b>SUSE</b> (libgepub), and <b>Ubuntu</b> (libtpms, linux-aws-5.15, linux-intel-iot-realtime, and linux-bluefield).]]></description>
+            <guid>https://lwn.net/Articles/1028684/</guid>
+            <pubDate>Fri, 04 Jul 2025 13:17:58 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Richards: Introducing tmux-rs</title>
             <link>https://lwn.net/Articles/1028583/</link>
@@ -393,14 +401,6 @@ Kernel versions
 </p>]]></description>
             <guid>https://lwn.net/Articles/1027271/</guid>
             <pubDate>Fri, 27 Jun 2025 14:04:22 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1027251/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (freeradius and icu), <b>Fedora</b> (clamav, glow, libssh, perl-Crypt-OpenSSL-RSA, perl-CryptX, podman, trafficserver, and xorg-x11-server), <b>Mageia</b> (gdk-pixbuf2.0 and thunderbird), <b>Red Hat</b> (osbuild-composer and weldr-client), <b>SUSE</b> (afterburn, google-osconfig-agent, libblockdev, pam, python-tornado6, screen, and yelp-xsl), and <b>Ubuntu</b> (libxslt and python-pip).]]></description>
-            <guid>https://lwn.net/Articles/1027251/</guid>
-            <pubDate>Fri, 27 Jun 2025 13:36:12 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
