@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 07 Jul 2025 14:54:10 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Jul 2025 15:11:25 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 7 Jul 2025 15:32:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -364,14 +364,6 @@ anniversary</a>.
             <guid>https://lwn.net/Articles/1027973/</guid>
             <pubDate>Tue, 01 Jul 2025 12:50:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1027769/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (mod_proxy_cluster), <b>Debian</b> (catdoc, chromium, nagvis, and sudo), <b>Fedora</b> (chromium, gum, kubernetes1.32, moodle, podman, python3-docs, python3.13, salt, and tigervnc), <b>Mageia</b> (x11-server, x11-server-xwayland &amp; tigervnc), <b>Oracle</b> (apache-commons-beanutils, exiv2, expat, firefox, git, git-lfs, gstreamer1-plugins-bad-free, ipa, java-21-openjdk, kea, kernel, libarchive, libblockdev, libsoup3, libvpx, libxslt, mod_auth_openidc, nodejs22, osbuild-composer, perl, perl-File-Find-Rule, php, python-jinja2, python-tornado, sqlite, thunderbird, valkey, varnish, weldr-client, xorg-x11-server-Xwayland, xz, and yggdrasil), <b>Red Hat</b> (apache-commons-beanutils, javapackages-tools:201801, kernel, and python3.11), <b>SUSE</b> (apache-commons-fileupload, gimp, glib2, himmelblau, nvidia-open-driver-G06-signed, sqlite3, thunderbird, yelp, and yelp-xsl), and <b>Ubuntu</b> (samba).]]></description>
-            <guid>https://lwn.net/Articles/1027769/</guid>
-            <pubDate>Mon, 30 Jun 2025 14:55:54 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
