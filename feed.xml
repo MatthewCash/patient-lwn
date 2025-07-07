@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 07 Jul 2025 13:04:33 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Jul 2025 13:07:48 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 7 Jul 2025 13:45:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -364,16 +364,6 @@ anniversary</a>.
             <guid>https://lwn.net/Articles/1027769/</guid>
             <pubDate>Mon, 30 Jun 2025 14:55:54 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc4</title>
-            <link>https://lwn.net/Articles/1027641/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1027640/">6.16-rc4</a> for testing.
-"<q>Despite a fairly large merge window, things continue to look fairly
-calm on the rc front</q>".]]></description>
-            <guid>https://lwn.net/Articles/1027641/</guid>
-            <pubDate>Mon, 30 Jun 2025 13:30:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
