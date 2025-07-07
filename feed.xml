@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Jul 2025 14:46:12 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Jul 2025 14:53:29 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Jul 2025 14:54:10 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Jul 2025 15:11:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1029073/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (thunderbird and xmedcon), <b>Fedora</b> (darktable, mbedtls, sudo, and yarnpkg), <b>Mageia</b> (catdoc and php), <b>Red Hat</b> (java-1.8.0-ibm, kernel, python-setuptools, python3, python3.11, python3.12, python3.9, socat, sudo, tigervnc, webkit2gtk3, webkitgtk4, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (alloy, apache-commons-fileupload, apache2-mod_security2, assimp-devel, chromedriver, clamav, clustershell, corepack22, ctdb, curl, dpkg, erlang-rabbitmq-client, ffmpeg-4, firefox, firefox-esr, flake-pilot, fractal, gdm, ggml-devel-5699, gio-branding-upstream, git-lfs, glib2, glibc, go1.23, go1.24, govulncheck-vulndb, gpg2, grafana, grype, helm, himmelblau, icu, jgit, jq, jupyter-bqplot-jupyterlab, jupyter-jupyterlab-templates, jupyter-matplotlib, jupyter-nbclassic, jupyter-nbdime, jupyter-panel, jupyter-plotly, keylime-ima-policy, kubernetes1.30-apiserver, kubernetes1.31-apiserver, kubernetes1.32-apiserver, libbd_btrfs-devel, libetebase-devel, libmozjs-128-0, libprotobuf-lite31_1_0, libQt5Bootstrap-devel-static-32bit, libsoup, libsoup-2_4-1, libsoup-3_0-0, libspdlog1_15, libssh, libssh-config, libsystemd0, libtpms-devel, libwireshark18, libwx_gtk2u_adv-suse16_0_0, mirrorsorcerer, moarvm, nix, nodejs-electron, nova, oci-cli, opa, openbao, ovmf-202505, pam, pam_pkcs11, perl, perl-32bit, perl-CryptX, perl-File-Find-Rule, perl-YAML-LibYAML, podman, polaris, postgresql-jdbc, pure-ftpd, python-furo-doc, python-requests, python310, python311, python311-Django, python311-Django4, python311-jupyter-core, python311-Pillow, python311-pydata-sphinx-theme, python311-requests, python311-salt, python311-urllib3, python312, python313, python314, python39, radare2, redis, samba, SDL, SDL2, sudo, teleport, thunderbird, tomcat, tomcat10, tomcat11, traefik, traefik2, valkey, velociraptor, vim, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (linux-ibm, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-6.11, and linux-oem-6.14).]]></description>
+            <guid>https://lwn.net/Articles/1029073/</guid>
+            <pubDate>Mon, 07 Jul 2025 14:54:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.16-rc5</title>
             <link>https://lwn.net/Articles/1028843/</link>
