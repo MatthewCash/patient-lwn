@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Jul 2025 20:33:20 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Jul 2025 20:52:10 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Jul 2025 21:04:08 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Jul 2025 21:11:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>U-Boot v2025.07 released</title>
+            <link>https://lwn.net/Articles/1029092/</link>
+            <description><![CDATA[The <a href="https://u-boot.org/">U-Boot</a> universal bootloader project
+has announced the release of version 2025.07.  It has multiple new features
+including "uthreads" (inspired by the "bthreads" coroutines in the <a
+href="https://www.barebox.org/">barebox</a> bootloader), exFAT support,
+new architecture and SoC support and improvements to existing platforms,
+cleanups, better testing, and more.  Project leader Tom Rini took the
+opportunity to mention his <a
+href="https://lore.kernel.org/u-boot/20250602222738.GC100073@bill-the-cat/">efforts</a>
+toward getting some help with the project and more formal governance:
+
+<blockquote class="bq">
+As this is a full release, and not just a release candidate I'm hoping
+for a few more people to read this and then read what I'm linking to as
+well. For the overall health of the project, and the community, I'm
+hoping to find a few people within the community that can help with
+overall organization and management. I would like to long term be able
+to move us to being under the Software Freedom Conservancy umbrella and
+that in turn means having a organizational structure that's not just a
+single person.
+</blockquote>
+<p>
+He also noted that there is a community meeting on July 8th, 2025 at 9am (GMT -06:00) on
+Google Meet.]]></description>
+            <guid>https://lwn.net/Articles/1029092/</guid>
+            <pubDate>Mon, 07 Jul 2025 21:04:08 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Bash-5.3-release available</title>
             <link>https://lwn.net/Articles/1029079/</link>
