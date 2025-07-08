@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Jul 2025 18:05:50 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Jul 2025 18:16:23 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Jul 2025 18:28:18 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Jul 2025 18:46:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A set of Git security-fix releases</title>
+            <link>https://lwn.net/Articles/1029182/</link>
+            <description><![CDATA[Versions v2.43.7, v2.44.4, v2.45.4, v2.46.4, v2.47.3, v2.48.2, v2.49.1 and
+v2.50.1 of the Git source-code management system have been released.
+"<q>This is a set of coordinated security fix releases.  Please update at
+your earliest convenience</q>".  See <a
+href="https://lwn.net/ml/all/xmqq5xg2wrd1.fsf@gitster.g">the announcement</a> for details;
+many of the vulnerabilities have to do with tricks buried in untrusted
+repositories.]]></description>
+            <guid>https://lwn.net/Articles/1029182/</guid>
+            <pubDate>Tue, 08 Jul 2025 18:28:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Thunderbird 140 released</title>
             <link>https://lwn.net/Articles/1029175/</link>
