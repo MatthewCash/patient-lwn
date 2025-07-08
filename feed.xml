@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Jul 2025 11:25:48 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Jul 2025 12:22:48 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Jul 2025 13:07:03 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Jul 2025 13:07:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1029150/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (djvulibre and slurm-wlm), <b>Red Hat</b> (apache-commons-vfs, container-tools:rhel8, kernel, kernel-rt, podman, python3, rsync, socat, and sudo), <b>SUSE</b> (apache2, helm-mirror, incus, kernel, openssl-3, python-Django, and systemd), and <b>Ubuntu</b> (dcmtk, File::Find::Rule, ghostscript, jquery, and libssh).]]></description>
+            <guid>https://lwn.net/Articles/1029150/</guid>
+            <pubDate>Tue, 08 Jul 2025 13:02:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>U-Boot v2025.07 released</title>
             <link>https://lwn.net/Articles/1029092/</link>
