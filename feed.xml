@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Jul 2025 14:30:05 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Jul 2025 17:34:42 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Jul 2025 17:40:23 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Jul 2025 17:51:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Thunderbird 140 released</title>
+            <link>https://lwn.net/Articles/1029175/</link>
+            <description><![CDATA[<p><a
+href="https://blog.thunderbird.net/2025/07/welcome-to-thunderbird-140-eclipse/">Version
+140</a> of the Thunderbird mail client has been released. Notable
+features include "dark message mode" to adapt message content
+to dark mode, the ability to easily transfer desktop
+settings to the mobile Thunderbird client, experimental support for
+Microsoft Exchange, as well as global controls for message threading
+and sort order.</p>
+
+<p>Thunderbird&#160;140 is an <a href="https://support.mozilla.org/en-US/kb/thunderbird-release">extended-support
+release</a> (ESR) which will be supported for 12 months. However, the
+Thunderbird project is trying to encourage users to adopt the <a
+href="https://updates.thunderbird.net/en-CA/thunderbird/128.0/monthly/">Release</a>
+channel for monthly updates instead. The project is staggering
+upgrades to 140 for existing Thunderbird users in order to catch any
+significant bugs before they are widely deployed, but users can
+upgrade manually via the <span class="nobreak">Help &gt; About</span>
+menu. See the <a
+href="https://www.thunderbird.net/en-US/thunderbird/140.0esr/releasenotes/">release
+notes</a> for a full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1029175/</guid>
+            <pubDate>Tue, 08 Jul 2025 17:40:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1029150/</link>
