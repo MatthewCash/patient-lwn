@@ -8,11 +8,59 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Jul 2025 16:23:33 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Jul 2025 16:58:25 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Jul 2025 17:14:20 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Jul 2025 17:16:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>New upgrade paths for ELevate</title>
+            <link>https://lwn.net/Articles/1029312/</link>
+            <description><![CDATA[<p>The AlmaLinux project has <a
+href="https://almalinux.org/blog/2025-07-07-elevate-to-el-10/">announced</a>
+new upgrade paths for its <a
+href="https://wiki.almalinux.org/elevate/">ELevate</a> utility, which
+allows users to upgrade between major versions of Red Hat Enterprise
+Linux derivatives. The new paths include upgrades from AlmaLinux&#160;9
+to AlmaLinux&#160;10 and CentOS&#160;Stream&#160;9 to
+CentOS&#160;Stream&#160;10, with support for EPEL, Docker&#160;CE, and
+PostgreSQL third-party package repositories. LWN <a
+href="https://lwn.net/Articles/977762/">covered</a> ELevate last
+year.</p> 
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1029312/</guid>
+            <pubDate>Wed, 09 Jul 2025 17:04:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Amarok 3.3 released</title>
+            <link>https://lwn.net/Articles/1029313/</link>
+            <description><![CDATA[<p><a
+href="https://blogs.kde.org/2025/07/08/amarok-3.3-far-above-the-clouds-released/">Version
+3.3</a> of the <a href="https://amarok.kde.org/">Amarok</a> music
+player has been released. This is the first release of Amarok based on
+<a
+href="https://develop.kde.org/products/frameworks/">KDE&#160;Frameworks&#160;6</a>
+and <a href="https://www.qt.io/product/qt6">Qt&#160;6</a>. Amarok 3.3
+also includes a major rework of its audio engine to use <a
+href="https://gstreamer.freedesktop.org/">GStreamer</a> for audio
+playback.</p>
+
+<blockquote class="bq">
+The reworked audio engine provides unified feature set for all users
+and should provide a solid and future-proof sonic experience for years
+to come. Notable improvements have also landed to the database system:
+improved character set support helps with e.g. emojis in podcast
+descriptions and other very exotic symbols, date handling has been
+improved ('year 2038 problem'), and various other potential and actual
+database-related issues have been fixed.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1029313/</guid>
+            <pubDate>Wed, 09 Jul 2025 17:14:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1029278/</link>
