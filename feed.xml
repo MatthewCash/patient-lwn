@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Jul 2025 11:42:00 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Jul 2025 12:22:30 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Jul 2025 13:07:33 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Jul 2025 13:08:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1029278/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, jq, kernel, podman, python-setuptools, socat, and thunderbird), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, ClamAV, Git, NTP, REXML, and strongSwan), <b>Oracle</b> (buildah, gnome-remote-desktop, ipa, jq, kernel, podman, python-setuptools, ruby:3.3, socat, uek-kernel, and xorg-x11-server-Xwayland), <b>SUSE</b> (kernel), and <b>Ubuntu</b> (freerdp3, git, gnupg2, linux-aws, linux-oracle, linux-azure, linux-azure, linux-azure-6.11, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-ibm-5.15, linux-intel-iotg, linux-nvidia-tegra,
+ linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-kvm, linux-lowlatency, linux-oem-6.11, and onionshare).]]></description>
+            <guid>https://lwn.net/Articles/1029278/</guid>
+            <pubDate>Wed, 09 Jul 2025 13:06:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A set of Git security-fix releases</title>
             <link>https://lwn.net/Articles/1029182/</link>
