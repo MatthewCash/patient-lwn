@@ -8,11 +8,130 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Jul 2025 20:13:11 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Jul 2025 23:50:56 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Jul 2025 00:36:38 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Jul 2025 00:56:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 3, 2025</title>
+            <link>https://lwn.net/Articles/1026982/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1026982/">Front</a>: Kernel features from Python; i686 in Fedora; Kernel development with LLMs; Rust drivers; Load balancing with machine learning; Transparent huge pages.
+            <li> <a href="https://lwn.net/Articles/1026984/">Briefs</a>: Bcachefs removal; Coccinelle for Rust; Netdev Foundation; Oracle Linux 10; GNU HHIS 5.0; Rust 1.88.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1026985/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1026982/</guid>
+            <pubDate>Thu, 03 Jul 2025 01:17:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Accessing new kernel features from Python</title>
+            <link>https://lwn.net/Articles/1026749/</link>
+            <description><![CDATA[Every release of the Linux kernel has lots of new features, many of which
+are accessible from user space.  Usually, though, the GNU C Library (glibc)
+and tools that access the Linux user-space API lag behind the kernel
+releases.  Geoffrey Thomas showed how Python programs can access these new
+kernel features as soon as the kernel is released in his "What's New in the
+Linux Kernel... from Python" talk at
+<a
+href="https://us.pycon.org/2025/">PyCon US 2025</a>.  While he had two
+examples of accessing new kernel features, the real goal of the talk was to
+demonstrate <i>how</i> to go about connecting Python to
+the Linux kernel.]]></description>
+            <guid>https://lwn.net/Articles/1026749/</guid>
+            <pubDate>Wed, 02 Jul 2025 14:03:39 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Yet another way to configure transparent huge pages</title>
+            <link>https://lwn.net/Articles/1025629/</link>
+            <description><![CDATA[<p>
+<a href="https://lwn.net/Articles/423584/">
+Transparent huge pages</a> (THPs) are, theoretically, supposed to allow processes to
+benefit from larger page sizes without changes to their code. This does work,
+but the performance impacts from THPs are not always a benefit, so system
+administrators with specific knowledge of their workloads may want the ability
+to fine-tune THPs to the application. On May&#160;15, Usama Arif
+<a href="https://lwn.net/ml/all/20250515133519.2779639-1-usamaarif642@gmail.com/">
+shared</a> a patch set that would add a
+<a href="https://www.man7.org/linux/man-pages/man2/prctl.2.html">
+<tt>prctl()</tt></a> option for setting THP defaults for a process; that patch
+set has sparked discussion about whether such a setting is a good fit for
+<tt>prctl()</tt>, and what alternative designs may work instead.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1025629/</guid>
+            <pubDate>Tue, 01 Jul 2025 14:06:43 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Improved load balancing with machine learning</title>
+            <link>https://lwn.net/Articles/1027096/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a>
+("sched_ext") allows the loading of a custom CPU scheduler into the kernel
+as a set of BPF functions; it was merged for the 6.12 kernel release.
+Since then, sched_ext has enabled a wide range of experimentation with
+scheduling algorithms.  At the 2025 <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a>, Ching-Chun ("Jim") Huang presented work
+that has been done to apply (local) machine learning to the problem of
+scheduling processes on complex systems.]]></description>
+            <guid>https://lwn.net/Articles/1027096/</guid>
+            <pubDate>Tue, 01 Jul 2025 13:06:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora&apos;s i686 support gets a reprieve</title>
+            <link>https://lwn.net/Articles/1026917/</link>
+            <description><![CDATA[<p>A <a
+href="https://fedoraproject.org/wiki/Changes/Drop_i686_support">change
+proposal</a> to end support for 32-bit x86 (i686) applications on the
+x86_64 architecture with the Fedora&#160;44 release has been withdrawn
+after significant pushback. As proposed, the change could have
+had a significant impact on gamers, compiler development, and the <a
+href="https://bazzite.gg/">Bazzite</a> project, which uses Fedora as a
+base for a gaming-focused distribution. While i686 gets a reprieve for
+now, the question still lingers: who is going to keep the necessary
+i686 packages in working order when few upstream maintainers or
+volunteer packagers care about the architecture?</p>]]></description>
+            <guid>https://lwn.net/Articles/1026917/</guid>
+            <pubDate>Mon, 30 Jun 2025 16:41:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] How to write Rust in the kernel: part 2</title>
+            <link>https://lwn.net/Articles/1025232/</link>
+            <description><![CDATA[<p>
+In 2023, Fujita Tomonori
+<a href="https://lwn.net/ml/all/20231012125349.2702474-5-fujita.tomonori@gmail.com/">
+wrote a Rust version</a> of the existing driver for the
+Asix AX88796B embedded Ethernet controller. At slightly more than 100 lines,
+it's about as simple as a driver can be, and therefore is a useful touchstone for
+the differences between writing Rust and C in the kernel. Looking at the Rust
+syntax, types, and APIs used by the driver and contrasting them with the C
+version will help illustrate those differences.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1025232/</guid>
+            <pubDate>Fri, 27 Jun 2025 16:55:04 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Supporting kernel development with large language models</title>
+            <link>https://lwn.net/Articles/1026558/</link>
+            <description><![CDATA[Kernel development and machine learning seem like vastly different areas of
+endeavor; there are not, yet, stories circulating about the vibe-coding of
+new memory-management algorithms.  There may well be places where machine
+learning (and large language models — LLMs — in particular) prove to be
+helpful on the edges of the kernel project, though.  At the <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">2025
+North-American edition of the Open Source Summit</a>, Sasha Levin presented
+some of the work he has done putting LLMs to work to make the kernel better]]></description>
+            <guid>https://lwn.net/Articles/1026558/</guid>
+            <pubDate>Thu, 26 Jun 2025 14:46:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>New upgrade paths for ELevate</title>
             <link>https://lwn.net/Articles/1029312/</link>
@@ -253,145 +372,6 @@ GitHub</a>.</p>
             <guid>https://lwn.net/Articles/1028554/</guid>
             <pubDate>Thu, 03 Jul 2025 14:18:24 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 26, 2025</title>
-            <link>https://lwn.net/Articles/1025929/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1025929/">Front</a>: Libxml2; GNOME and systemd; Rust in the kernel; Defconfigs; ngnfs, Free-threaded Python; Asterinas.
-            <li> <a href="https://lwn.net/Articles/1025931/">Briefs</a>: LSFMM+BPF book; tag2upload; PostmarketOS 25.06; Firefox 140.0; NLnet funding; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1025932/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1025929/</guid>
-            <pubDate>Thu, 26 Jun 2025 01:22:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Libxml2&apos;s &quot;no security embargoes&quot; policy</title>
-            <link>https://lwn.net/Articles/1025971/</link>
-            <description><![CDATA[<p><a
-href="https://gitlab.gnome.org/GNOME/libxml2/#libxml2">Libxml2</a>, an
-XML parser and toolkit, is an almost perfect example of the successes
-and failures of the open-source movement. In the 25 years since its
-first release, it has been widely adopted by open-source projects, for
-use in commercial software, and for government use. It also
-illustrates that while many organizations love using open-source software,
-far fewer have yet to see value in helping to sustain it. That has led
-libxml2's current maintainer to reject security embargoes and sparked
-a discussion about maintenance terms for free and open-source
-projects.</p>]]></description>
-            <guid>https://lwn.net/Articles/1025971/</guid>
-            <pubDate>Wed, 25 Jun 2025 15:29:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Getting extensions to work with free-threaded Python</title>
-            <link>https://lwn.net/Articles/1025893/</link>
-            <description><![CDATA[One of the biggest changes to come to the Python world is the <a
-href="https://lwn.net/Articles/947138/">addition of the free-threading
-interpreter</a>, which eliminates the <a
-href="https://docs.python.org/3/glossary.html#term-global-interpreter-lock">global
-interpreter lock</a> (GIL) that kept the interpreter thread-safe, but also
-serialized multi-threaded Python code.  Over the years, the GIL has been a
-source of complaints about the scalability of Python code using
-threads, so many developers have been looking forward to the change, which
-has been an experimental feature since <a
-href="https://www.python.org/downloads/release/python-3130/">Python 3.13
-was released</a> in October 2024.  Making the free-threaded version work
-with the rest of the Python ecosystem, especially native extensions, is an
-ongoing effort, however; Nathan Goldbaum and Lysandros Nikolaou spoke at <a
-href="https://us.pycon.org/2025/">PyCon US 2025</a> about those efforts.]]></description>
-            <guid>https://lwn.net/Articles/1025893/</guid>
-            <pubDate>Wed, 25 Jun 2025 14:32:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Who are kernel defconfigs for?</title>
-            <link>https://lwn.net/Articles/1026337/</link>
-            <description><![CDATA[Working on the kernel can be a challenging task but, for many,
-<i>configuring</i> a kernel build can be the largest obstacle to getting
-started.  The kernel has thousands of configuration options; many of those,
-if set incorrectly, will result in a kernel that does not work on the
-target system.  The key to helping users with complex configuration
-problems is to provide reasonable defaults but, in the kernel community,
-there is currently little consensus around what those defaults should be.]]></description>
-            <guid>https://lwn.net/Articles/1026337/</guid>
-            <pubDate>Tue, 24 Jun 2025 13:06:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] GNOME deepens systemd dependencies</title>
-            <link>https://lwn.net/Articles/1025560/</link>
-            <description><![CDATA[<p>Adrian Vovk, a GNOME contributor and member of its <a
-href="https://handbook.gnome.org/release-planning/release-team.html">release
-team</a>, recently <a
-href="https://blogs.gnome.org/adrianvovk/2025/06/10/gnome-systemd-dependencies/">announced</a>
-in a blog post that GNOME would be adding new dependencies on <a
-href="https://systemd.io/">systemd</a>, and soon. The idea is to shed
-GNOME's homegrown service manager in favor of using systemd, and to
-improve GNOME's ability to run concurrent user sessions. However, the
-move is also going to throw a spanner in the works for the BSDs and
-Linux distributions without systemd when the changes take effect in
-the GNOME&#160;49 release that is set for September.</p>]]></description>
-            <guid>https://lwn.net/Articles/1025560/</guid>
-            <pubDate>Mon, 23 Jun 2025 15:06:15 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] How to write Rust in the kernel: part 1</title>
-            <link>https://lwn.net/Articles/1024202/</link>
-            <description><![CDATA[<p>
-The Linux kernel is seeing a steady accumulation of Rust code. As it becomes
-more prevalent, maintainers may want to know how to read, review, and test the
-Rust code that relates to their areas of expertise. Just as kernel C code is
-different from user-space C code, so too is kernel Rust code somewhat different
-from user-space Rust code. That fact makes Rust's
-<a href="https://doc.rust-lang.org/stable/book/">
-extensive documentation</a> of
-less use than it otherwise would be, and means that potential contributors with
-user-space experience will need some additional instruction.
-This article is the first in a multi-part series aimed at helping existing
-kernel contributors become familiar with Rust, and helping existing Rust
-programmers become familiar with what the kernel does differently from the
-typical Rust project.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1024202/</guid>
-            <pubDate>Fri, 20 Jun 2025 18:18:49 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A distributed filesystem for archival systems: ngnfs</title>
-            <link>https://lwn.net/Articles/1025650/</link>
-            <description><![CDATA[A new filesystem was the topic of a session led by Zach Brown at
-the 2025 Linux Storage, Filesystem, Memory Management, and BPF Summit
-(LSFMM+BPF).  The <a
-href="https://git.infradead.org/?p=users/zab/ngnfs-progs.git">ngnfs</a>
-filesystem is not a "next generation" NFS, as might be guessed from the
-name; Brown said that he did not think about that linkage
-("<q>I hate naming so much</q>") until it was pointed out to him by Chuck
-Lever in an email.  It is, instead, a filesystem for enormous data sets
-that are mostly stored offline.]]></description>
-            <guid>https://lwn.net/Articles/1025650/</guid>
-            <pubDate>Fri, 20 Jun 2025 17:15:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Asterinas: a new Linux-compatible kernel project</title>
-            <link>https://lwn.net/Articles/1022920/</link>
-            <description><![CDATA[Born from research at the <a
-href="https://www.sustech.edu.cn/en/">Southern University of Science and
-Technology</a> (SUSTech) in Shenzen, China, <a
-href="https://asterinas.github.io/">Asterinas</a> is a new
-Linux-ABI-compatible kernel project written in Rust, based on what the
-authors call a "framekernel architecture".  The project overlaps somewhat
-with the goals of the <a href="https://rust-for-linux.com/">Rust-for-Linux
-project</a>, but approaches the problem space from a different direction by
-trying to get the best from both monolithic and microkernel designs.]]></description>
-            <guid>https://lwn.net/Articles/1022920/</guid>
-            <pubDate>Thu, 19 Jun 2025 16:35:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
