@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 11 Jul 2025 12:44:37 +0000</pubDate>
-        <lastBuildDate>Fri, 11 Jul 2025 13:07:02 +0000</lastBuildDate>
+        <pubDate>Fri, 11 Jul 2025 13:43:02 +0000</pubDate>
+        <lastBuildDate>Fri, 11 Jul 2025 13:43:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1029597/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnome-remote-desktop, go-toolset:rhel8, golang, jq, kernel, kernel-rt, libxml2, and podman), <b>Fedora</b> (chromium, git, helix, pam, rust-blazesym-c, rust-clearscreen, rust-gitui, rust-nu-cli, rust-nu-command, rust-nu-test-support, rust-procs, rust-which, selenium-manager, sudo, thunderbird, and uv), <b>SUSE</b> (audiofile, chmlib-devel, docker, firefox, go1, libsoup, libsoup2, libssh, libxml2, tomcat, umoci, and xen), and <b>Ubuntu</b> (git and resteasy, resteasy3.0).]]></description>
+            <guid>https://lwn.net/Articles/1029597/</guid>
+            <pubDate>Fri, 11 Jul 2025 13:20:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Five new stable kernels</title>
             <link>https://lwn.net/Articles/1029367/</link>
@@ -347,14 +355,6 @@ fixes.]]></description>
             <guid>https://lwn.net/Articles/1028826/</guid>
             <pubDate>Sun, 06 Jul 2025 18:29:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1028684/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0, container-tools:rhel8, ghostscript, git-lfs, grafana-pcp, pandoc, perl-FCGI:0.78, ruby:2.5, ruby:3.3, tigervnc, and varnish:6), <b>Debian</b> (jpeg-xl and mediawiki), <b>Fedora</b> (darktable, guacamole-server, mingw-gdk-pixbuf, and yarnpkg), <b>Oracle</b> (gimp, kernel, libsoup, python-tornado, python3.12, and thunderbird), <b>Slackware</b> (php), <b>SUSE</b> (libgepub), and <b>Ubuntu</b> (libtpms, linux-aws-5.15, linux-intel-iot-realtime, and linux-bluefield).]]></description>
-            <guid>https://lwn.net/Articles/1028684/</guid>
-            <pubDate>Fri, 04 Jul 2025 13:17:58 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
