@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Jul 2025 17:10:01 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Jul 2025 17:17:26 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Jul 2025 17:43:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -342,30 +342,6 @@ He also noted that there is a community meeting on July 8th, 2025 at 9am (GMT -0
 Google Meet.]]></description>
             <guid>https://lwn.net/Articles/1029092/</guid>
             <pubDate>Mon, 07 Jul 2025 21:04:08 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Bash-5.3-release available</title>
-            <link>https://lwn.net/Articles/1029079/</link>
-            <description><![CDATA[The GNU project's <a href="https://www.gnu.org/software/bash/">Bourne Again
-SHell</a> (Bash) has released version 5.3, with some significant new
-features, including some from the associated 
-<a href="https://lwn.net/Articles/1029080/">Readline 8.3 release</a>, which provides
-command-line editing and other features for Bash and lots of other
-programs.  Bash 5.3 has a "<q>new form of command substitution that executes the command in
-the current shell execution context</q>", pathname-completion sorting
-will be handled based on the <tt>GLOBSORT</tt> shell variable, generated
-completions can go to a shell variable instead of to stdout, the source
-code has been updated to C23, and more.  Meanwhile:
-
-<blockquote class="bq">
-Readline has new features as well.  There is a new option that allows
-case-insensitive searching, a new command that executes a named readline
-command, and a new command that exports possible word completions in a
-specified format for consumption by another process. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1029079/</guid>
-            <pubDate>Mon, 07 Jul 2025 17:26:49 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
