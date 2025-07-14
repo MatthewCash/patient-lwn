@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 14 Jul 2025 00:35:14 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Jul 2025 00:59:30 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 14 Jul 2025 03:00:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,16 +353,6 @@ specified format for consumption by another process.
             <guid>https://lwn.net/Articles/1029073/</guid>
             <pubDate>Mon, 07 Jul 2025 14:54:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc5</title>
-            <link>https://lwn.net/Articles/1028843/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1028842/">6.16-rc5</a> kernel prepatch has been
-released. Quoth Linus: "<q>Please keep testing, but this all feels fairly
-regular for this phase of the release</q>".]]></description>
-            <guid>https://lwn.net/Articles/1028843/</guid>
-            <pubDate>Mon, 07 Jul 2025 02:42:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
