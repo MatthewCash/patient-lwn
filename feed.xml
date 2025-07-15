@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 15 Jul 2025 13:35:08 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Jul 2025 13:49:17 +0000</lastBuildDate>
+        <pubDate>Tue, 15 Jul 2025 14:12:51 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Jul 2025 14:14:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The Software in the Public Interest 2024 annual report</title>
+            <link>https://lwn.net/Articles/1029943/</link>
+            <description><![CDATA[Software in the Public Interest has <a
+href="https://www.spi-inc.org/corporate/annual-reports/2024.pdf">released
+its annual report</a> for 2024.  It includes reports from the long list of
+projects housed under the SPI umbrella, but the financial statements are
+not included at this time.]]></description>
+            <guid>https://lwn.net/Articles/1029943/</guid>
+            <pubDate>Tue, 15 Jul 2025 14:12:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1029919/</link>
