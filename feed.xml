@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 15 Jul 2025 12:08:52 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Jul 2025 12:23:25 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 15 Jul 2025 13:09:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -319,14 +319,6 @@ notes</a> for a full list of changes.</p>
             <guid>https://lwn.net/Articles/1029175/</guid>
             <pubDate>Tue, 08 Jul 2025 17:40:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1029150/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (djvulibre and slurm-wlm), <b>Red Hat</b> (apache-commons-vfs, container-tools:rhel8, kernel, kernel-rt, podman, python3, rsync, socat, and sudo), <b>SUSE</b> (apache2, helm-mirror, incus, kernel, openssl-3, python-Django, and systemd), and <b>Ubuntu</b> (dcmtk, File::Find::Rule, ghostscript, jquery, and libssh).]]></description>
-            <guid>https://lwn.net/Articles/1029150/</guid>
-            <pubDate>Tue, 08 Jul 2025 13:02:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
