@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Jul 2025 15:45:28 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Jul 2025 16:15:06 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Jul 2025 16:26:03 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Jul 2025 16:45:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Forgejo 12.0 released</title>
+            <link>https://lwn.net/Articles/1030343/</link>
+            <description><![CDATA[<a href="https://forgejo.org/2025-07-release-v12-0/">Version 12.0</a> of
+the Forgejo software forge has been released.  Changes include a number of
+user-interface improvements, a mechanism to keep forks in sync with their
+upstream, and more; see <a
+href="https://codeberg.org/forgejo/forgejo/milestone/12836">the release
+notes</a> for the full list.]]></description>
+            <guid>https://lwn.net/Articles/1030343/</guid>
+            <pubDate>Thu, 17 Jul 2025 16:26:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1030256/</link>
