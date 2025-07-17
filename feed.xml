@@ -8,11 +8,138 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Jul 2025 23:07:46 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Jul 2025 23:50:42 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Jul 2025 00:45:39 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Jul 2025 00:57:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] Anubis sends AI scraperbots to a well-deserved fate</title>
+            <link>https://lwn.net/Articles/1028558/</link>
+            <description><![CDATA[<p>Few, if any, web sites or web-based services have gone unscathed by
+the locust-like hordes of AI crawlers looking to <a href="https://lwn.net/Articles/1008897/">consume (and then
+<em>re-consume</em>) all of the world's content</a>. The <a
+href="https://anubis.techaro.lol/">Anubis</a> project is designed to
+provide a first line of defense that blocks mindless bots&mdash;while
+granting real users access to sites without too much hassle. Anubis is
+a young project, not even a year old. However, its development is
+moving quickly, and the project seems to be enjoying rapid
+adoption. The most recent release of Anubis, <a
+href="https://anubis.techaro.lol/blog/release/v1.20.0/">version
+1.20.0</a>, includes a feature that many users have been interested in
+since the project launched: support for challenging clients without
+requiring users to have JavaScript turned on.</p>]]></description>
+            <guid>https://lwn.net/Articles/1028558/</guid>
+            <pubDate>Thu, 10 Jul 2025 15:39:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 10, 2025</title>
+            <link>https://lwn.net/Articles/1028368/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1028368/">Front</a>: Python packaging; Kernel API specification; Kselftests and KUnit; niri; pedalboard.
+            <li> <a href="https://lwn.net/Articles/1028370/">Briefs</a>: Git security fixes; Amarok 3.3; Bash 5.3; Thunderbird 140; tmux-rs; U-Boot 2025.07; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1028371/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1028368/</guid>
+            <pubDate>Thu, 10 Jul 2025 00:16:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reinventing the Python wheel</title>
+            <link>https://lwn.net/Articles/1028299/</link>
+            <description><![CDATA[It is no secret that the Python packaging world is at something of a
+crossroads; there have been debates and discussions about the packaging
+landscape that started long before our <a href="https://lwn.net/Articles/924104/">2023
+series</a> describing some of the difficulties.  There has been progress
+since then—and incremental improvements all along, in truth—but a new
+initiative is looking to overhaul packaging for the language.  At <a
+href="https://us.pycon.org/2025/">PyCon US 2025</a>, Barry Warsaw and
+Jonathan Dekhtiar gave a presentation on the <a
+href="https://wheelnext.dev/">WheelNext project</a>, which is a community
+effort that aims improve the experience for users and providers of Python
+packages while also working with toolmakers and other parts of the
+ecosystem to "<q>reinvent the wheel</q>".  While the project's name refers
+to Python's <a
+href="https://packaging.python.org/en/latest/specifications/binary-distribution-format/">wheel</a>
+binary distribution format, its goals stretch much further than simply the
+format.]]></description>
+            <guid>https://lwn.net/Articles/1028299/</guid>
+            <pubDate>Wed, 09 Jul 2025 14:05:59 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Toward the unification of kselftests and KUnit</title>
+            <link>https://lwn.net/Articles/1029077/</link>
+            <description><![CDATA[The kernel project, for many years, lacked a formal testing setup; it was
+often joked that testing was the project's main reason for keeping users
+around.  While many types of kernel testing can only be done in the
+presence of specific hardware, there are other parts of the kernel
+that could be more widely tested.  Over time, though, the kernel has gained
+two separate testing frameworks and a growing body of automated tests to go
+with them.  These two frameworks — kselftests and KUnit — take different
+approaches to the testing problem; now <a
+href="https://lwn.net/ml/all/20250626-kunit-kselftests-v4-0-48760534fef5@linutronix.de">this
+patch series</a> from Thomas Weißschuh aims to bring them together.]]></description>
+            <guid>https://lwn.net/Articles/1029077/</guid>
+            <pubDate>Tue, 08 Jul 2025 13:07:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A tour of the niri scrolling-tiling Wayland compositor</title>
+            <link>https://lwn.net/Articles/1025866/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/YaLTeR/niri?tab=readme-ov-file#abouttm">Niri</a>
+is a relatively new Rust-based <a
+href="https://en.wikipedia.org/wiki/Compositing_manager">compositor</a>
+for Wayland with a different take on <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window management</a>: windows
+are placed onscreen in an "infinite" row that can expand beyond the
+bounds of the visible workspace. It is not a full-blown desktop
+environment, but niri may be a suitable option for Linux users who
+want tiling features and the minimalism of a window manager for
+Wayland.</p>]]></description>
+            <guid>https://lwn.net/Articles/1025866/</guid>
+            <pubDate>Mon, 07 Jul 2025 16:04:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Python audio processing with pedalboard</title>
+            <link>https://lwn.net/Articles/1027814/</link>
+            <description><![CDATA[The
+<a href="https://pypi.org/project/pedalboard/"><tt>pedalboard</tt></a>
+library for Python is aimed at audio processing of various sorts, from
+converting between formats to adding audio effects.  The maintainer of
+<tt>pedalboard</tt>, Peter Sobot, gave a talk about audio in Python at
+<a
+href="https://us.pycon.org/2025/">PyCon US 2025</a>, which was held in Pittsburgh,
+Pennsylvania in May.  He started from the basics of digital audio and then
+moved into working with <tt>pedalboard</tt>. There were, as might be guessed, audio examples
+in the talk, along with some visual information; interested readers may want to view the <a
+href="https://www.youtube.com/watch?v=kpKrsFqJgXc">YouTube video</a> of the
+presentation.]]></description>
+            <guid>https://lwn.net/Articles/1027814/</guid>
+            <pubDate>Fri, 04 Jul 2025 13:18:37 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Kernel API specification and validation</title>
+            <link>https://lwn.net/Articles/1027811/</link>
+            <description><![CDATA[The kernel project makes a strong promise to its users: the kernel ABI will
+not be changed in ways that break user-space code.  The occasional failure
+notwithstanding, kernel developers do try to live up to that promise.  They
+are handicapped by one little problem, though: there is no description of
+what the kernel ABI is, and no comprehensive way to test whether a given
+change breaks it.  The <a
+href="https://lwn.net/ml/all/20250624180742.5795-1-sashal@kernel.org">kernel API
+specification framework</a> proposed (in its second revision) by Sasha
+Levin addresses some of those concerns, but the solution is incomplete and
+does not come for free.]]></description>
+            <guid>https://lwn.net/Articles/1027811/</guid>
+            <pubDate>Thu, 03 Jul 2025 18:24:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Hyprland 0.50.0 released</title>
             <link>https://lwn.net/Articles/1030177/</link>
@@ -142,125 +269,6 @@ case, each contains important fixes all over the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1029418/</guid>
             <pubDate>Thu, 10 Jul 2025 15:07:44 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 3, 2025</title>
-            <link>https://lwn.net/Articles/1026982/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1026982/">Front</a>: Kernel features from Python; i686 in Fedora; Kernel development with LLMs; Rust drivers; Load balancing with machine learning; Transparent huge pages.
-            <li> <a href="https://lwn.net/Articles/1026984/">Briefs</a>: Bcachefs removal; Coccinelle for Rust; Netdev Foundation; Oracle Linux 10; GNU HHIS 5.0; Rust 1.88.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1026985/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1026982/</guid>
-            <pubDate>Thu, 03 Jul 2025 01:17:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Accessing new kernel features from Python</title>
-            <link>https://lwn.net/Articles/1026749/</link>
-            <description><![CDATA[Every release of the Linux kernel has lots of new features, many of which
-are accessible from user space.  Usually, though, the GNU C Library (glibc)
-and tools that access the Linux user-space API lag behind the kernel
-releases.  Geoffrey Thomas showed how Python programs can access these new
-kernel features as soon as the kernel is released in his "What's New in the
-Linux Kernel... from Python" talk at
-<a
-href="https://us.pycon.org/2025/">PyCon US 2025</a>.  While he had two
-examples of accessing new kernel features, the real goal of the talk was to
-demonstrate <i>how</i> to go about connecting Python to
-the Linux kernel.]]></description>
-            <guid>https://lwn.net/Articles/1026749/</guid>
-            <pubDate>Wed, 02 Jul 2025 14:03:39 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Yet another way to configure transparent huge pages</title>
-            <link>https://lwn.net/Articles/1025629/</link>
-            <description><![CDATA[<p>
-<a href="https://lwn.net/Articles/423584/">
-Transparent huge pages</a> (THPs) are, theoretically, supposed to allow processes to
-benefit from larger page sizes without changes to their code. This does work,
-but the performance impacts from THPs are not always a benefit, so system
-administrators with specific knowledge of their workloads may want the ability
-to fine-tune THPs to the application. On May&#160;15, Usama Arif
-<a href="https://lwn.net/ml/all/20250515133519.2779639-1-usamaarif642@gmail.com/">
-shared</a> a patch set that would add a
-<a href="https://www.man7.org/linux/man-pages/man2/prctl.2.html">
-<tt>prctl()</tt></a> option for setting THP defaults for a process; that patch
-set has sparked discussion about whether such a setting is a good fit for
-<tt>prctl()</tt>, and what alternative designs may work instead.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1025629/</guid>
-            <pubDate>Tue, 01 Jul 2025 14:06:43 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Improved load balancing with machine learning</title>
-            <link>https://lwn.net/Articles/1027096/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a>
-("sched_ext") allows the loading of a custom CPU scheduler into the kernel
-as a set of BPF functions; it was merged for the 6.12 kernel release.
-Since then, sched_ext has enabled a wide range of experimentation with
-scheduling algorithms.  At the 2025 <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
-Source Summit North America</a>, Ching-Chun ("Jim") Huang presented work
-that has been done to apply (local) machine learning to the problem of
-scheduling processes on complex systems.]]></description>
-            <guid>https://lwn.net/Articles/1027096/</guid>
-            <pubDate>Tue, 01 Jul 2025 13:06:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora&apos;s i686 support gets a reprieve</title>
-            <link>https://lwn.net/Articles/1026917/</link>
-            <description><![CDATA[<p>A <a
-href="https://fedoraproject.org/wiki/Changes/Drop_i686_support">change
-proposal</a> to end support for 32-bit x86 (i686) applications on the
-x86_64 architecture with the Fedora&#160;44 release has been withdrawn
-after significant pushback. As proposed, the change could have
-had a significant impact on gamers, compiler development, and the <a
-href="https://bazzite.gg/">Bazzite</a> project, which uses Fedora as a
-base for a gaming-focused distribution. While i686 gets a reprieve for
-now, the question still lingers: who is going to keep the necessary
-i686 packages in working order when few upstream maintainers or
-volunteer packagers care about the architecture?</p>]]></description>
-            <guid>https://lwn.net/Articles/1026917/</guid>
-            <pubDate>Mon, 30 Jun 2025 16:41:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] How to write Rust in the kernel: part 2</title>
-            <link>https://lwn.net/Articles/1025232/</link>
-            <description><![CDATA[<p>
-In 2023, Fujita Tomonori
-<a href="https://lwn.net/ml/all/20231012125349.2702474-5-fujita.tomonori@gmail.com/">
-wrote a Rust version</a> of the existing driver for the
-Asix AX88796B embedded Ethernet controller. At slightly more than 100 lines,
-it's about as simple as a driver can be, and therefore is a useful touchstone for
-the differences between writing Rust and C in the kernel. Looking at the Rust
-syntax, types, and APIs used by the driver and contrasting them with the C
-version will help illustrate those differences.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1025232/</guid>
-            <pubDate>Fri, 27 Jun 2025 16:55:04 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Supporting kernel development with large language models</title>
-            <link>https://lwn.net/Articles/1026558/</link>
-            <description><![CDATA[Kernel development and machine learning seem like vastly different areas of
-endeavor; there are not, yet, stories circulating about the vibe-coding of
-new memory-management algorithms.  There may well be places where machine
-learning (and large language models — LLMs — in particular) prove to be
-helpful on the edges of the kernel project, though.  At the <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">2025
-North-American edition of the Open Source Summit</a>, Sasha Levin presented
-some of the work he has done putting LLMs to work to make the kernel better]]></description>
-            <guid>https://lwn.net/Articles/1026558/</guid>
-            <pubDate>Thu, 26 Jun 2025 14:46:51 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
