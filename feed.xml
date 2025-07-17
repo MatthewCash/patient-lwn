@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Jul 2025 14:12:46 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Jul 2025 14:54:38 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Jul 2025 15:03:29 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Jul 2025 15:13:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -268,14 +268,6 @@ href="https://lwn.net/Articles/1029423/">5.15.187</a> stable kernels.  As is the
 case, each contains important fixes all over the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1029367/</guid>
             <pubDate>Thu, 10 Jul 2025 15:18:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1029418/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (sslh), <b>Oracle</b> (container-tools:rhel8, gnome-remote-desktop, golang, javapackages-tools:201801, jq, libvpx, libxml2, mpfr, and perl-File-Find-Rule-Perl), <b>Red Hat</b> (glib2, libblockdev, and sudo), <b>Slackware</b> (git), <b>SUSE</b> (avif-tools, containerd, djvulibre, gpg2, helm, kernel, libpoppler-cpp2, libxml2, libxml2-2, openssl-3, perl-YAML-LibYAML, python-cryptography, python-setuptools, python311-pycares, tomcat10, and wireshark), and <b>Ubuntu</b> (djvulibre, git, libyaml-libyaml-perl, and protobuf).]]></description>
-            <guid>https://lwn.net/Articles/1029418/</guid>
-            <pubDate>Thu, 10 Jul 2025 15:07:44 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
