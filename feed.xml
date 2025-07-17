@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Jul 2025 05:21:14 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Jul 2025 05:24:09 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Jul 2025 05:42:05 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Jul 2025 05:47:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1030256/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, java-17-openjdk, kernel, kernel-rt, microcode_ctl, python3.11-setuptools, python3.12-setuptools, and socat), <b>Debian</b> (gnutls28), <b>Fedora</b> (vim), <b>Red Hat</b> (java-1.8.0-ibm), <b>Slackware</b> (bind), <b>SUSE</b> (docker, erlang, erlang26, ggml-devel-5889, gnuplot, kernel, kubernetes1.27, libQt6Concurrent6, mailman3, and transfig), and <b>Ubuntu</b> (apache2, bind9, linux-iot, linux-lowlatency-hwe-6.11, and linux-raspi, linux-raspi-5.4).]]></description>
+            <guid>https://lwn.net/Articles/1030256/</guid>
+            <pubDate>Thu, 17 Jul 2025 05:40:45 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] Anubis sends AI scraperbots to a well-deserved fate</title>
             <link>https://lwn.net/Articles/1028558/</link>
