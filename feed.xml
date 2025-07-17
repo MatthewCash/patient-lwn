@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Jul 2025 15:03:29 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Jul 2025 15:13:35 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Jul 2025 15:32:52 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Jul 2025 15:36:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -255,20 +255,6 @@ week.
             <guid>https://lwn.net/Articles/1029597/</guid>
             <pubDate>Fri, 11 Jul 2025 13:20:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Five new stable kernels</title>
-            <link>https://lwn.net/Articles/1029367/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1029419/">6.15.6</a>, <a
-href="https://lwn.net/Articles/1029420/">6.12.37</a>, <a
-href="https://lwn.net/Articles/1029421/">6.6.97</a>, <a
-href="https://lwn.net/Articles/1029422/">6.1.144</a>, and <a
-href="https://lwn.net/Articles/1029423/">5.15.187</a> stable kernels.  As is the usual
-case, each contains important fixes all over the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/1029367/</guid>
-            <pubDate>Thu, 10 Jul 2025 15:18:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
