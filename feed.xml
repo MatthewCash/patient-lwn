@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Jul 2025 11:20:05 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Jul 2025 11:51:30 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Jul 2025 12:22:08 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Jul 2025 12:23:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1030479/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cloud-init, glib2, glibc, kernel, and tomcat), <b>Debian</b> (chromium), <b>Fedora</b> (luajit, minidlna, nginx-mod-modsecurity, python-asteval, rust-sequoia-octopus-librnp, and vim), <b>Oracle</b> (cloud-init, glib2, glibc, java-17-openjdk, kernel, python311-olamkit, tomcat, and tomcat9), <b>SUSE</b> (apache-commons-lang3, bind, coreutils, ffmpeg, gnutls, gstreamer-plugins-good, kubernetes1.25, kubernetes1.28, libxml2, MozillaFirefox, MozillaFirefox-branding-SLE, poppler, python311, and python312), and <b>Ubuntu</b> (erlang, ledgersmb, libmobi, libsoup3, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-6.8, linux-azure-nvidia, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-oem-6.14, linux-raspi, linux-realtime, php7.0, php7.2, php8.1, php8.3, php8.4, python-aiohttp, and rails).]]></description>
+            <guid>https://lwn.net/Articles/1030479/</guid>
+            <pubDate>Fri, 18 Jul 2025 12:22:08 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>A pile of stable kernel updates</title>
             <link>https://lwn.net/Articles/1030355/</link>
