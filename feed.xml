@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Jul 2025 13:02:19 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Jul 2025 13:10:37 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Jul 2025 13:23:56 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Jul 2025 13:49:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -284,14 +284,6 @@ week.
             <guid>https://lwn.net/Articles/1029716/</guid>
             <pubDate>Mon, 14 Jul 2025 00:35:13 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1029597/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnome-remote-desktop, go-toolset:rhel8, golang, jq, kernel, kernel-rt, libxml2, and podman), <b>Fedora</b> (chromium, git, helix, pam, rust-blazesym-c, rust-clearscreen, rust-gitui, rust-nu-cli, rust-nu-command, rust-nu-test-support, rust-procs, rust-which, selenium-manager, sudo, thunderbird, and uv), <b>SUSE</b> (audiofile, chmlib-devel, docker, firefox, go1, libsoup, libsoup2, libssh, libxml2, tomcat, umoci, and xen), and <b>Ubuntu</b> (git and resteasy, resteasy3.0).]]></description>
-            <guid>https://lwn.net/Articles/1029597/</guid>
-            <pubDate>Fri, 11 Jul 2025 13:20:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
