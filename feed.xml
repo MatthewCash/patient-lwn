@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 20 Jul 2025 23:24:19 +0000</pubDate>
-        <lastBuildDate>Sun, 20 Jul 2025 23:51:06 +0000</lastBuildDate>
+        <pubDate>Sun, 20 Jul 2025 23:55:38 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Jul 2025 01:01:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.16-rc7</title>
+            <link>https://lwn.net/Articles/1030656/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1030655/">6.16-rc7</a> for testing.
+<p>
+<blockquote class="bq">
+	Nothing really stands out - the biggest patches in here are for
+	some documentation and self-tests or tooling, not actual kernel
+	code changes.
+<P>
+	So unlike the week before, it all feels very trivial and I think
+	we're in good shape. Knock wood,
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1030656/</guid>
+            <pubDate>Sun, 20 Jul 2025 23:55:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Malicious packages uploaded to the Arch Linux AUR</title>
             <link>https://lwn.net/Articles/1030603/</link>
@@ -299,28 +316,6 @@ release</q>".]]></description>
             <guid>https://lwn.net/Articles/1029764/</guid>
             <pubDate>Mon, 14 Jul 2025 08:34:43 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc6</title>
-            <link>https://lwn.net/Articles/1029716/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1029715/">6.16-rc6</a> for testing;
-it includes a fix for a somewhat scary regression that came up over the
-week.
-<p>
-<blockquote class="bq">
-	So I was flailing around blaming everybody and their pet hamster,
-	because for a while it looked like a drm issue and then a netlink
-	problem (it superficially coincided with separate issues with both
-	of those subsystems).
-<p>
-	But I did eventually figure out how to trigger it reliably and then
-	it bisected nicely, and a couple of days have passed, and I'm
-	feeling much better about the release again. We're back on track,
-	and despite that little scare, I think we're in good shape.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1029716/</guid>
-            <pubDate>Mon, 14 Jul 2025 00:35:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
