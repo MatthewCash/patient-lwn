@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Jul 2025 13:47:43 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Jul 2025 13:51:04 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Jul 2025 14:11:02 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Jul 2025 14:15:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1030774/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk), <b>Debian</b> (angular.js and batik), <b>Fedora</b> (chromium, pypy, screen, unbound, wine, and wine-mono), <b>Mageia</b> (djvulibre, quictls, and redis), <b>Red Hat</b> (avahi, gnome-remote-desktop, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-openjdk, kernel, kernel-rt, python-setuptools, redis, and valkey), <b>SUSE</b> (chromedriver, coreutils, cosign, docker, FastCGI, ffmpeg-4, fractal, gimp, glib2, ImageMagick, iputils, java-17-openjdk, java-24-openjdk, jq, kubelogin, kubernetes1.23, kubernetes1.24, kubernetes1.26, python-requests, python3, rmt-server, rustup, and thunderbird), and <b>Ubuntu</b> (apache2).]]></description>
+            <guid>https://lwn.net/Articles/1030774/</guid>
+            <pubDate>Mon, 21 Jul 2025 13:54:36 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.16-rc7</title>
             <link>https://lwn.net/Articles/1030656/</link>
