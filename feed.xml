@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 21 Jul 2025 20:01:35 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Jul 2025 20:14:00 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 21 Jul 2025 20:36:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -287,20 +287,6 @@ not included at this time.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg), <b>Fedora</b> (gnutls, linux-firmware, mingw-djvulibre, mingw-python-requests, and salt), <b>Mageia</b> (qtimageformats6), <b>Oracle</b> (gnome-remote-desktop, golang, kernel, libxml2, and perl-File-Find-Rule), <b>SUSE</b> (gstreamer-plugins-base, gstreamer-plugins-good, kernel, and protobuf), and <b>Ubuntu</b> (apport, glibc, gnutls28, and roundcube).]]></description>
             <guid>https://lwn.net/Articles/1029919/</guid>
             <pubDate>Tue, 15 Jul 2025 13:35:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Parrot 6.4 released</title>
-            <link>https://lwn.net/Articles/1029857/</link>
-            <description><![CDATA[<a href="https://www.parrotsec.org/">Parrot</a> is a Debian-based
-distribution with an emphasis on security improvement and tools; the <a
-href="https://www.parrotsec.org/blog/2025-07-07-parrot-6.4-release-notes">6.4
-release</a> is now available.  "<q>Many tools, like Metasploit, Sliver,
-Caido and Empire received important updates, the Linux kernel was updated
-to a more recent version, and the latest LTS version of Firefox was
-provided with all our privacy oriented patches.</q>".]]></description>
-            <guid>https://lwn.net/Articles/1029857/</guid>
-            <pubDate>Mon, 14 Jul 2025 20:29:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
