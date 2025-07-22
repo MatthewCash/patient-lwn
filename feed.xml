@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Jul 2025 12:50:54 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Jul 2025 13:11:17 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Jul 2025 13:47:51 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Jul 2025 13:50:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1030930/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (tomcat9), <b>Debian</b> (djvulibre, libcommons-fileupload-java, libowasp-esapi-java, and tomcat9), <b>Fedora</b> (cef, dpkg, mingw-gdk-pixbuf, and mingw-python3), <b>Gentoo</b> (Roundcube), <b>Oracle</b> (avahi, cloud-init, fence-agents, git, kernel, and valkey), <b>Red Hat</b> (wireshark), <b>SUSE</b> (afterburn, apache2, busybox, java-21-openjdk, kernel, kernel-livepatch-MICRO-6-0-RT_Update_10, lemon, libexslt0, libgcrypt, libxml2-2, php8, postgresql17, python, python-oslo.utils, python311, python312, python313, and sudo), and <b>Ubuntu</b> (drupal7, erlang, fdkaac, gobgp, jq, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-kvm, linux-oracle, and ruby-nokogiri).]]></description>
+            <guid>https://lwn.net/Articles/1030930/</guid>
+            <pubDate>Tue, 22 Jul 2025 13:23:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1030774/</link>
@@ -279,14 +287,6 @@ projects housed under the SPI umbrella, but the financial statements are
 not included at this time.]]></description>
             <guid>https://lwn.net/Articles/1029943/</guid>
             <pubDate>Tue, 15 Jul 2025 14:12:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1029919/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg), <b>Fedora</b> (gnutls, linux-firmware, mingw-djvulibre, mingw-python-requests, and salt), <b>Mageia</b> (qtimageformats6), <b>Oracle</b> (gnome-remote-desktop, golang, kernel, libxml2, and perl-File-Find-Rule), <b>SUSE</b> (gstreamer-plugins-base, gstreamer-plugins-good, kernel, and protobuf), and <b>Ubuntu</b> (apport, glibc, gnutls28, and roundcube).]]></description>
-            <guid>https://lwn.net/Articles/1029919/</guid>
-            <pubDate>Tue, 15 Jul 2025 13:35:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
