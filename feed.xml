@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Jul 2025 15:08:01 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Jul 2025 15:16:40 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Jul 2025 15:26:11 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Jul 2025 15:41:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>An update on Home Assistant&apos;s Android app</title>
+            <link>https://lwn.net/Articles/1031129/</link>
+            <description><![CDATA[<p>The Home Assistant project has <a
+href="https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/">published</a>
+an update on improvements in its Android app, and plans for upcoming releases:</p>
+
+<blockquote class="bq">
+<p>In our latest update of the Android app <a href="https://github.com/home-assistant/android/releases/tag/2025.7.1">2025.7.1</a>, we've added a
+couple of useful features. Including a new basic invite flow, which
+will be shared between Android and iOS, adding a good layer of
+consistency between our most-used companion apps. The idea is to make
+it much more seamless to add new users or set up new devices (no need
+to type the URL in your Android Automotive device!).</p>
+
+<p>We've also made <a href="https://my.home-assistant.io/">My
+Links</a> work better. If you're unfamiliar with My Links, they're
+those cool links (<a
+href="https://my.home-assistant.io/create-link/">that anyone can
+make</a>) that bring you right to an integration, blueprint, add-on,
+or settings page. They have always worked great on desktop, but up
+until recently, they were a bit clunky to use on mobile. Now you can
+get to the link's destination with a single click.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
+Assistant in May.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1031129/</guid>
+            <pubDate>Wed, 23 Jul 2025 15:22:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1031104/</link>
