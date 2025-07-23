@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Jul 2025 13:47:46 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Jul 2025 13:49:19 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Jul 2025 13:49:58 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Jul 2025 14:15:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -362,14 +362,6 @@ option to exclude applications from screen sharing, a new test suite, and
 more.]]></description>
             <guid>https://lwn.net/Articles/1030177/</guid>
             <pubDate>Wed, 16 Jul 2025 19:01:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1030106/</link>
-            <description><![CDATA[Security updates have been issued by <b>Oracle</b> (cloud-init, emacs, firefox, glib2, go-toolset:rhel8, kernel, lz4, python-setuptools, python3.11-setuptools, python3.12-setuptools, and socat), <b>Red Hat</b> (fence-agents, glib2, glibc, java-17-openjdk, kernel, kernel-rt, python-setuptools, python3.11-setuptools, and python3.12-setuptools), <b>Slackware</b> (libxml2), <b>SUSE</b> (glib2, gpg2, kernel, libxml2, poppler, rmt-server, runc, stalld, and xen), and <b>Ubuntu</b> (jpeg-xl).]]></description>
-            <guid>https://lwn.net/Articles/1030106/</guid>
-            <pubDate>Wed, 16 Jul 2025 13:33:27 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
