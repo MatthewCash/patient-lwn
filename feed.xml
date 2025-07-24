@@ -8,11 +8,123 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Jul 2025 23:33:21 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Jul 2025 23:51:25 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Jul 2025 00:41:38 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Jul 2025 00:58:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 17, 2025</title>
+            <link>https://lwn.net/Articles/1029426/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1029426/">Front</a>: Python JIT; Anubis; Secure Boot certificate expiration; SFrame; Exported symbols; Python packaging in Fedora.
+            <li> <a href="https://lwn.net/Articles/1029428/">Briefs</a>: Parrot 6.4; SPI report; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1029429/">Announcements</a>: Newsletters, conferences, security updates, patches, and more. 
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1029426/</guid>
+            <pubDate>Thu, 17 Jul 2025 00:45:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Linux and Secure Boot certificate expiration</title>
+            <link>https://lwn.net/Articles/1029767/</link>
+            <description><![CDATA[Linux users who have <a
+href="https://en.wikipedia.org/wiki/UEFI#Secure_Boot">Secure Boot</a>
+enabled on their systems knowingly or unknowingly rely on a key from
+Microsoft that is set to expire in September.  After that point, Microsoft
+will no longer use that key to sign the <a
+href="https://github.com/rhboot/shim#shim-a-first-stage-uefi-bootloader">shim</a>
+first-stage UEFI bootloader that is used by Linux distributions to boot the
+kernel with Secure Boot.  But the replacement key, which has been available
+since 2023, may not be installed on many systems; worse yet, it may require
+the hardware vendor to issue an update for the system firmware, which may
+or may not happen.  It seems that the vast majority of systems will not be
+lost in the shuffle, but it may require extra work from distributors and
+users.]]></description>
+            <guid>https://lwn.net/Articles/1029767/</guid>
+            <pubDate>Wed, 16 Jul 2025 18:00:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora SIG changes Python packaging strategy</title>
+            <link>https://lwn.net/Articles/1029354/</link>
+            <description><![CDATA[<p>Fedora's <a
+href="https://docs.fedoraproject.org/en-US/neurofedora/overview/">NeuroFedora
+special-interest group</a> (SIG) is considering a change of strategy
+when it comes to packaging Python modules. The SIG, which consists of
+three active members, is struggling to keep up with maintaining the
+<a href="https://pagure.io/neuro-sig/NeuroFedora/blob/main/f/package-list/list.txt">hundreds of packages</a> that it has taken on. What's more, it's not
+clear that the majority of packages are even being consumed by Fedora
+users; the group is trying to determine the right strategy to meet its
+goals and shed unnecessary work. If its new packaging strategy is
+successful, it may point the way to a more sustainable model for Linux
+distributions to provide value to users without trying to package
+everything under the sun.</p>]]></description>
+            <guid>https://lwn.net/Articles/1029354/</guid>
+            <pubDate>Wed, 16 Jul 2025 13:38:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Enforcement (or not) for module-specific exported symbols</title>
+            <link>https://lwn.net/Articles/1029492/</link>
+            <description><![CDATA[Loadable kernel modules require access to kernel data structures and
+functions to get their job done; the kernel provides this access by way of
+exported symbols.  Almost since this mechanism was created, there have been
+debates over which symbols should be exported, and how.  The 6.16 kernel
+gained a new export mechanism that limits access to symbols to specific
+kernel modules.  That code is likely to change soon, but the addition
+of an enforcement mechanism has since been backed out.]]></description>
+            <guid>https://lwn.net/Articles/1029492/</guid>
+            <pubDate>Tue, 15 Jul 2025 13:59:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Following up on the Python JIT</title>
+            <link>https://lwn.net/Articles/1029307/</link>
+            <description><![CDATA[<a href="https://lwn.net/Archives/PythonIndex/#Performance">Performance of Python
+programs</a> has been a major focus of development for the language over the last
+five years or so; the <a href="https://github.com/faster-cpython/">Faster
+CPython project</a> has been a big part of that effort.
+One of its subprojects is to add an <a
+href="https://lwn.net/Articles/970397/">experimental just-in-time (JIT) compiler</a> to
+the language;  at last year's PyCon US, project member Brandt Bucher <a
+href="https://lwn.net/Articles/977855/">gave an introduction</a> to the copy-and-patch JIT
+compiler.  At
+<a href="https://us.pycon.org/2025/">PyCon US
+2025</a>, he followed that up with a talk on "What they don't tell you
+about building a JIT compiler for CPython" to describe some of the things
+he wishes he had known when he set out to work on that project.  There
+was something of an elephant in the room, however, in that 
+<a
+href="https://www.linkedin.com/posts/mdboom_its-been-a-tough-couple-of-days-microsofts-activity-7328583333536268289-p4Lp/">Microsoft
+dropped support for the project</a> and laid off most of its
+Faster CPython
+team a few days before the talk.]]></description>
+            <guid>https://lwn.net/Articles/1029307/</guid>
+            <pubDate>Mon, 14 Jul 2025 08:49:20 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] SFrame-based stack unwinding for the kernel</title>
+            <link>https://lwn.net/Articles/1029189/</link>
+            <description><![CDATA[The kernel's <a
+href="https://www.man7.org/linux/man-pages/man2/perf_event_open.2.html">perf
+events subsystem</a> can produce high-quality profiles, with full
+function-call chains, of resource usage
+within the kernel itself.  Developers, however, often would like to see
+profiles of the whole system in one integrated report with, for example,
+call-stack information that crosses the boundary between the kernel and
+user space.  Support for unwinding user-space call stacks in the perf
+events subsystem is currently inefficient at best.  A long-running effort
+to provide reliable, user-space call-stack unwinding within the kernel,
+which will improve that situation considerably, appears to be reaching
+fruition.]]></description>
+            <guid>https://lwn.net/Articles/1029189/</guid>
+            <pubDate>Fri, 11 Jul 2025 13:42:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Discovering and recovering from PostgreSQL corruption on Matrix.org</title>
             <link>https://lwn.net/Articles/1031148/</link>
@@ -284,133 +396,6 @@ notes</a> for the full list.]]></description>
             <guid>https://lwn.net/Articles/1030256/</guid>
             <pubDate>Thu, 17 Jul 2025 05:40:45 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Anubis sends AI scraperbots to a well-deserved fate</title>
-            <link>https://lwn.net/Articles/1028558/</link>
-            <description><![CDATA[<p>Few, if any, web sites or web-based services have gone unscathed by
-the locust-like hordes of AI crawlers looking to <a href="https://lwn.net/Articles/1008897/">consume (and then
-<em>re-consume</em>) all of the world's content</a>. The <a
-href="https://anubis.techaro.lol/">Anubis</a> project is designed to
-provide a first line of defense that blocks mindless bots&mdash;while
-granting real users access to sites without too much hassle. Anubis is
-a young project, not even a year old. However, its development is
-moving quickly, and the project seems to be enjoying rapid
-adoption. The most recent release of Anubis, <a
-href="https://anubis.techaro.lol/blog/release/v1.20.0/">version
-1.20.0</a>, includes a feature that many users have been interested in
-since the project launched: support for challenging clients without
-requiring users to have JavaScript turned on.</p>]]></description>
-            <guid>https://lwn.net/Articles/1028558/</guid>
-            <pubDate>Thu, 10 Jul 2025 15:39:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 10, 2025</title>
-            <link>https://lwn.net/Articles/1028368/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1028368/">Front</a>: Python packaging; Kernel API specification; Kselftests and KUnit; niri; pedalboard.
-            <li> <a href="https://lwn.net/Articles/1028370/">Briefs</a>: Git security fixes; Amarok 3.3; Bash 5.3; Thunderbird 140; tmux-rs; U-Boot 2025.07; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1028371/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1028368/</guid>
-            <pubDate>Thu, 10 Jul 2025 00:16:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reinventing the Python wheel</title>
-            <link>https://lwn.net/Articles/1028299/</link>
-            <description><![CDATA[It is no secret that the Python packaging world is at something of a
-crossroads; there have been debates and discussions about the packaging
-landscape that started long before our <a href="https://lwn.net/Articles/924104/">2023
-series</a> describing some of the difficulties.  There has been progress
-since then—and incremental improvements all along, in truth—but a new
-initiative is looking to overhaul packaging for the language.  At <a
-href="https://us.pycon.org/2025/">PyCon US 2025</a>, Barry Warsaw and
-Jonathan Dekhtiar gave a presentation on the <a
-href="https://wheelnext.dev/">WheelNext project</a>, which is a community
-effort that aims improve the experience for users and providers of Python
-packages while also working with toolmakers and other parts of the
-ecosystem to "<q>reinvent the wheel</q>".  While the project's name refers
-to Python's <a
-href="https://packaging.python.org/en/latest/specifications/binary-distribution-format/">wheel</a>
-binary distribution format, its goals stretch much further than simply the
-format.]]></description>
-            <guid>https://lwn.net/Articles/1028299/</guid>
-            <pubDate>Wed, 09 Jul 2025 14:05:59 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Toward the unification of kselftests and KUnit</title>
-            <link>https://lwn.net/Articles/1029077/</link>
-            <description><![CDATA[The kernel project, for many years, lacked a formal testing setup; it was
-often joked that testing was the project's main reason for keeping users
-around.  While many types of kernel testing can only be done in the
-presence of specific hardware, there are other parts of the kernel
-that could be more widely tested.  Over time, though, the kernel has gained
-two separate testing frameworks and a growing body of automated tests to go
-with them.  These two frameworks — kselftests and KUnit — take different
-approaches to the testing problem; now <a
-href="https://lwn.net/ml/all/20250626-kunit-kselftests-v4-0-48760534fef5@linutronix.de">this
-patch series</a> from Thomas Weißschuh aims to bring them together.]]></description>
-            <guid>https://lwn.net/Articles/1029077/</guid>
-            <pubDate>Tue, 08 Jul 2025 13:07:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A tour of the niri scrolling-tiling Wayland compositor</title>
-            <link>https://lwn.net/Articles/1025866/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/YaLTeR/niri?tab=readme-ov-file#abouttm">Niri</a>
-is a relatively new Rust-based <a
-href="https://en.wikipedia.org/wiki/Compositing_manager">compositor</a>
-for Wayland with a different take on <a href="https://en.wikipedia.org/wiki/Tiling_window_manager">tiling window management</a>: windows
-are placed onscreen in an "infinite" row that can expand beyond the
-bounds of the visible workspace. It is not a full-blown desktop
-environment, but niri may be a suitable option for Linux users who
-want tiling features and the minimalism of a window manager for
-Wayland.</p>]]></description>
-            <guid>https://lwn.net/Articles/1025866/</guid>
-            <pubDate>Mon, 07 Jul 2025 16:04:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python audio processing with pedalboard</title>
-            <link>https://lwn.net/Articles/1027814/</link>
-            <description><![CDATA[The
-<a href="https://pypi.org/project/pedalboard/"><tt>pedalboard</tt></a>
-library for Python is aimed at audio processing of various sorts, from
-converting between formats to adding audio effects.  The maintainer of
-<tt>pedalboard</tt>, Peter Sobot, gave a talk about audio in Python at
-<a
-href="https://us.pycon.org/2025/">PyCon US 2025</a>, which was held in Pittsburgh,
-Pennsylvania in May.  He started from the basics of digital audio and then
-moved into working with <tt>pedalboard</tt>. There were, as might be guessed, audio examples
-in the talk, along with some visual information; interested readers may want to view the <a
-href="https://www.youtube.com/watch?v=kpKrsFqJgXc">YouTube video</a> of the
-presentation.]]></description>
-            <guid>https://lwn.net/Articles/1027814/</guid>
-            <pubDate>Fri, 04 Jul 2025 13:18:37 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Kernel API specification and validation</title>
-            <link>https://lwn.net/Articles/1027811/</link>
-            <description><![CDATA[The kernel project makes a strong promise to its users: the kernel ABI will
-not be changed in ways that break user-space code.  The occasional failure
-notwithstanding, kernel developers do try to live up to that promise.  They
-are handicapped by one little problem, though: there is no description of
-what the kernel ABI is, and no comprehensive way to test whether a given
-change breaks it.  The <a
-href="https://lwn.net/ml/all/20250624180742.5795-1-sashal@kernel.org">kernel API
-specification framework</a> proposed (in its second revision) by Sasha
-Levin addresses some of those concerns, but the solution is incomplete and
-does not come for free.]]></description>
-            <guid>https://lwn.net/Articles/1027811/</guid>
-            <pubDate>Thu, 03 Jul 2025 18:24:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
