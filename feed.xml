@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 24 Jul 2025 03:51:11 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Jul 2025 05:41:38 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 05:55:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,14 +388,6 @@ notes</a> for the full list.]]></description>
             <guid>https://lwn.net/Articles/1030343/</guid>
             <pubDate>Thu, 17 Jul 2025 16:26:02 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1030256/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, java-17-openjdk, kernel, kernel-rt, microcode_ctl, python3.11-setuptools, python3.12-setuptools, and socat), <b>Debian</b> (gnutls28), <b>Fedora</b> (vim), <b>Red Hat</b> (java-1.8.0-ibm), <b>Slackware</b> (bind), <b>SUSE</b> (docker, erlang, erlang26, ggml-devel-5889, gnuplot, kernel, kubernetes1.27, libQt6Concurrent6, mailman3, and transfig), and <b>Ubuntu</b> (apache2, bind9, linux-iot, linux-lowlatency-hwe-6.11, and linux-raspi, linux-raspi-5.4).]]></description>
-            <guid>https://lwn.net/Articles/1030256/</guid>
-            <pubDate>Thu, 17 Jul 2025 05:40:45 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
