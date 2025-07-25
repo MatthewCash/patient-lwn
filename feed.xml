@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 25 Jul 2025 11:30:29 +0000</pubDate>
-        <lastBuildDate>Fri, 25 Jul 2025 12:22:48 +0000</lastBuildDate>
+        <pubDate>Fri, 25 Jul 2025 13:04:42 +0000</pubDate>
+        <lastBuildDate>Fri, 25 Jul 2025 13:10:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1031426/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git, kernel, nginx:1.24, and sudo), <b>Fedora</b> (dpkg, java-21-openjdk, java-25-openjdk, java-latest-openjdk, and valkey), <b>Oracle</b> (apache-commons-vfs, sudo, tigervnc, and xorg-x11-server), <b>Red Hat</b> (kernel, krb5, and openssh), <b>SUSE</b> (gnutls, ImageMagick, iputils, kernel-livepatch-MICRO-6-0-RT_Update_10, kubernetes1.18, libarchive, ovmf, python, and salt), and <b>Ubuntu</b> (iputils, linux-aws-6.14, linux-raspi, openjdk-21, and openjdk-24).]]></description>
+            <guid>https://lwn.net/Articles/1031426/</guid>
+            <pubDate>Fri, 25 Jul 2025 13:03:07 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Wayback 0.1 released</title>
             <link>https://lwn.net/Articles/1031287/</link>
@@ -406,14 +414,6 @@ abrupt end of its Clear Linux cloud-oriented distribution:
             <guid>https://lwn.net/Articles/1030563/</guid>
             <pubDate>Sat, 19 Jul 2025 13:51:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1030479/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cloud-init, glib2, glibc, kernel, and tomcat), <b>Debian</b> (chromium), <b>Fedora</b> (luajit, minidlna, nginx-mod-modsecurity, python-asteval, rust-sequoia-octopus-librnp, and vim), <b>Oracle</b> (cloud-init, glib2, glibc, java-17-openjdk, kernel, python311-olamkit, tomcat, and tomcat9), <b>SUSE</b> (apache-commons-lang3, bind, coreutils, ffmpeg, gnutls, gstreamer-plugins-good, kubernetes1.25, kubernetes1.28, libxml2, MozillaFirefox, MozillaFirefox-branding-SLE, poppler, python311, and python312), and <b>Ubuntu</b> (erlang, ledgersmb, libmobi, libsoup3, libsoup2.4, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux, linux-aws, linux-oem-6.8, linux, linux-gcp, linux-raspi, linux-realtime, linux-aws, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-6.8, linux-azure-nvidia, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-intel-iot-realtime, linux-realtime, linux-intel-iotg-5.15, linux-oem-6.14, linux-raspi, linux-realtime, php7.0, php7.2, php8.1, php8.3, php8.4, python-aiohttp, and rails).]]></description>
-            <guid>https://lwn.net/Articles/1030479/</guid>
-            <pubDate>Fri, 18 Jul 2025 12:22:08 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
