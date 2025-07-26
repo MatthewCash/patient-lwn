@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 26 Jul 2025 13:29:24 +0000</pubDate>
-        <lastBuildDate>Sat, 26 Jul 2025 13:43:10 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 26 Jul 2025 13:53:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,27 +392,6 @@ take the necessary measures in order to ensure they were not
 compromised.</q>"]]></description>
             <guid>https://lwn.net/Articles/1030603/</guid>
             <pubDate>Sat, 19 Jul 2025 21:36:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The end of Clear Linux</title>
-            <link>https://lwn.net/Articles/1030563/</link>
-            <description><![CDATA[Intel has <a
-href="https://community.clearlinux.org/t/all-good-things-come-to-an-end-shutting-down-clear-linux-os/10716">announced</a> the
-abrupt end of its Clear Linux cloud-oriented distribution:
-<p>
-<blockquote class="bq">
-	After years of innovation and community collaboration, we're ending
-	support for Clear Linux OS. Effective immediately, Intel will no
-	longer provide security patches, updates, or maintenance for Clear
-	Linux OS, and the Clear Linux OS GitHub repository will be archived
-	in read-only mode. So, if you're currently using Clear Linux OS, we
-	strongly recommend planning your migration to another actively
-	maintained Linux distribution as soon as possible to ensure ongoing
-	security and stability.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1030563/</guid>
-            <pubDate>Sat, 19 Jul 2025 13:51:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
