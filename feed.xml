@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 26 Jul 2025 20:16:40 +0000</pubDate>
-        <lastBuildDate>Sat, 26 Jul 2025 21:30:26 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 26 Jul 2025 21:41:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -376,22 +376,6 @@ verification of reproducible builds of software projects.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1030656/</guid>
             <pubDate>Sun, 20 Jul 2025 23:55:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Malicious packages uploaded to the Arch Linux AUR</title>
-            <link>https://lwn.net/Articles/1030603/</link>
-            <description><![CDATA[The Arch Linux project has sent out <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/7EZTJXLIAQLARQNTMEW2HBWZYE626IFJ/">an
-advisory</a> warning that a set of malicious packages, containing a remote
-access trojan, were uploaded to the Arch User Repository (AUR).  The
-affected packages were librewolf-fix-bin, firefox-patch-bin, and
-zen-browser-patched-bin.  "<q>We strongly encourage users that may have
-installed one of these packages to remove them from their system and to
-take the necessary measures in order to ensure they were not
-compromised.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1030603/</guid>
-            <pubDate>Sat, 19 Jul 2025 21:36:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
