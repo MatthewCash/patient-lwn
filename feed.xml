@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Jul 2025 19:33:49 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Jul 2025 19:55:42 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Jul 2025 20:18:33 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Jul 2025 20:23:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Help for OpenPrinting needed</title>
+            <link>https://lwn.net/Articles/1031701/</link>
+            <description><![CDATA[<p>Till Kamppeter, co-founder and lead of the <a
+href="https://openprinting.github.io/">OpenPrinting</a> project, has
+<a href="https://ubuntu.social/@till/114932498368800052">put out a call for sponsors</a> after being laid off by Canonical:</p>
+
+<blockquote class="bq">
+<p>I want to continue doing OpenPrinting for a living, and need a way to
+do so. I am currently working with the Linux Foundation to make
+OpenPrinting an organiation which can receive sponsor funding. So now
+I am looking for sponsors.</p>
+
+<p>Even greater would be, if independent of this somebody could hire
+me to continue OpenPrinting...</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1031701/</guid>
+            <pubDate>Mon, 28 Jul 2025 20:04:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The 6.16 kernel is out</title>
             <link>https://lwn.net/Articles/1031534/</link>
