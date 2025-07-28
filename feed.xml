@@ -8,11 +8,71 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 27 Jul 2025 06:07:17 +0000</pubDate>
-        <lastBuildDate>Sun, 27 Jul 2025 10:37:57 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Jul 2025 16:41:33 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Jul 2025 16:42:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 6.16 kernel is out</title>
+            <link>https://lwn.net/Articles/1031534/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/ml/all/CAHk-%3Dwh0kuQE%2BtWMEPJqCR48F4Tip2EeYQU-mi%2B2Fx_Oa1Ehbw%40mail.gmail.com/">released the 6.16 kernel</a>:
+<P>
+<blockquote class="bq">
+	It's Sunday afternoon, and the release cycle has come to an end. Last
+	week was nice and calm, and there were no big show-stopper surprises
+	to keep us from the regular schedule, so I've tagged and pushed out
+	6.16 as planned.
+</blockquote>
+<p>
+Headline changes in this release include
+enabling <a href="https://lwn.net/Articles/717293/">five-level page tables</a> by default
+on x86 systems,
+a number of <a href="https://lwn.net/Articles/1024160/">core-dump changes</a> including
+the ability to send core dumps to a socket,
+the ability to <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=53db8a71ecb42c2ec5e9c6925269a750255f9af5">create
+pipes</a> in io_uring,
+<a href="https://lwn.net/Articles/1016406/">atomic-write support</a> in the XFS
+filesystem,
+the <a href="https://lwn.net/Articles/1022655/">elimination</a> of block-layer bounce
+buffering,
+a <a href="https://lwn.net/Articles/997563/">new DMA-mapping API</a>,
+an option to <a href="https://lwn.net/Articles/1023085/">block file descriptors</a> passed
+in via Unix-domain sockets,
+and more.
+<p>
+See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/1022512/">part&#160;1</a>, 
+<a href="https://lwn.net/Articles/1023075/">part&#160;2</a>) and the <a
+href="https://kernelnewbies.org/Linux_6.16">KernelNewbies 6.16 page</a> for
+more information.]]></description>
+            <guid>https://lwn.net/Articles/1031534/</guid>
+            <pubDate>Mon, 28 Jul 2025 03:42:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>LWN is back</title>
+            <link>https://lwn.net/Articles/1031536/</link>
+            <description><![CDATA[The good folks at Linode still have not managed to fix whatever broke in
+their data center, so we are running on an emergency backup server.  Things
+seem to be working, but the occasional glitch is to be expected.  Please
+accept our apologies for the extended downtime!
+<p>
+<b>Update</b>: we're back on the regular production server, and all seems
+stable now.]]></description>
+            <guid>https://lwn.net/Articles/1031536/</guid>
+            <pubDate>Mon, 28 Jul 2025 10:27:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1031667/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (audiofile, libcaca, libetpan, libxml2, php7.4, snapcast, and thunderbird), <b>Fedora</b> (glibc, iputils, mingw-binutils, and thunderbird), <b>Red Hat</b> (kernel, kernel-rt, mod_auth_openidc, and mod_auth_openidc:2.3), <b>SUSE</b> (afterburn, apache2, atop, chromedriver, chromium, cloud-init, deepin-feature-enable, firefox, firefox-esr, grafana, grype-db, gstreamer-plugins-bad, javamail, jupyter-jupyterlab-templates, jupyter-nbdime, konsole, libetebase, libxmp, minio-client-20250721T052808Z, MozillaFirefox, MozillaFirefox-branding-SLE, opera, pdns-recursor, perl-Authen-SASL, polkit, python-Django, python3-pycares, python311-starlette, rpi-imager, ruby3.4-rubygem-thor, spdlog, thunderbird, varnish, viewvc, and xtrabackup), and <b>Ubuntu</b> (openjdk-21-crac).]]></description>
+            <guid>https://lwn.net/Articles/1031667/</guid>
+            <pubDate>Mon, 28 Jul 2025 14:29:54 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1031426/</link>
@@ -351,31 +411,6 @@ verification of reproducible builds of software projects.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (tomcat9), <b>Debian</b> (djvulibre, libcommons-fileupload-java, libowasp-esapi-java, and tomcat9), <b>Fedora</b> (cef, dpkg, mingw-gdk-pixbuf, and mingw-python3), <b>Gentoo</b> (Roundcube), <b>Oracle</b> (avahi, cloud-init, fence-agents, git, kernel, and valkey), <b>Red Hat</b> (wireshark), <b>SUSE</b> (afterburn, apache2, busybox, java-21-openjdk, kernel, kernel-livepatch-MICRO-6-0-RT_Update_10, lemon, libexslt0, libgcrypt, libxml2-2, php8, postgresql17, python, python-oslo.utils, python311, python312, python313, and sudo), and <b>Ubuntu</b> (drupal7, erlang, fdkaac, gobgp, jq, linux-aws, linux-aws-6.8, linux-gke, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux-kvm, linux-oracle, and ruby-nokogiri).]]></description>
             <guid>https://lwn.net/Articles/1030930/</guid>
             <pubDate>Tue, 22 Jul 2025 13:23:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1030774/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk), <b>Debian</b> (angular.js and batik), <b>Fedora</b> (chromium, pypy, screen, unbound, wine, and wine-mono), <b>Mageia</b> (djvulibre, quictls, and redis), <b>Red Hat</b> (avahi, gnome-remote-desktop, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-21-openjdk, kernel, kernel-rt, python-setuptools, redis, and valkey), <b>SUSE</b> (chromedriver, coreutils, cosign, docker, FastCGI, ffmpeg-4, fractal, gimp, glib2, ImageMagick, iputils, java-17-openjdk, java-24-openjdk, jq, kubelogin, kubernetes1.23, kubernetes1.24, kubernetes1.26, python-requests, python3, rmt-server, rustup, and thunderbird), and <b>Ubuntu</b> (apache2).]]></description>
-            <guid>https://lwn.net/Articles/1030774/</guid>
-            <pubDate>Mon, 21 Jul 2025 13:54:36 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.16-rc7</title>
-            <link>https://lwn.net/Articles/1030656/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1030655/">6.16-rc7</a> for testing.
-<p>
-<blockquote class="bq">
-	Nothing really stands out - the biggest patches in here are for
-	some documentation and self-tests or tooling, not actual kernel
-	code changes.
-<P>
-	So unlike the week before, it all feels very trivial and I think
-	we're in good shape. Knock wood,
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1030656/</guid>
-            <pubDate>Sun, 20 Jul 2025 23:55:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
