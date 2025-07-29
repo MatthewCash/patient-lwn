@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Jul 2025 13:52:11 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Jul 2025 14:01:15 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Jul 2025 14:29:44 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Jul 2025 14:35:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -419,34 +419,6 @@ need to panic</q>".</p>
             <guid>https://lwn.net/Articles/1030936/</guid>
             <pubDate>Tue, 22 Jul 2025 14:19:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Google launches OSS Rebuild</title>
-            <link>https://lwn.net/Articles/1030935/</link>
-            <description><![CDATA[Google has <a
-href="https://security.googleblog.com/2025/07/introducing-oss-rebuild-open-source.html">announced</a>
-the existence of OSS Rebuild, an infrastructure for the creation and
-verification of reproducible builds of software projects.
-<p>
-<blockquote class="bq">
-	Our aim with OSS Rebuild is to empower the security community to
-	deeply understand and control their supply chains by making package
-	consumption as transparent as using a source repository. Our
-	rebuild platform unlocks this transparency by utilizing a
-	declarative build process, build instrumentation, and network
-	monitoring capabilities which, within the SLSA Build framework,
-	produces fine-grained, durable, trustworthy security metadata. [...]
-<p>
-	Our vision extends beyond any single ecosystem: We are committed to
-	bringing supply chain transparency and security to all open source
-	software development. Our initial support for the PyPI (Python),
-	npm (JS/TS), and Crates.io (Rust) package registries—providing
-	rebuild provenance for many of their most popular packages—is just
-	the beginning of our journey.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1030935/</guid>
-            <pubDate>Tue, 22 Jul 2025 13:51:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
