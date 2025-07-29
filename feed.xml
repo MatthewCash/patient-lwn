@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 29 Jul 2025 14:29:44 +0000</pubDate>
-        <lastBuildDate>Tue, 29 Jul 2025 14:35:10 +0000</lastBuildDate>
+        <pubDate>Tue, 29 Jul 2025 14:47:12 +0000</pubDate>
+        <lastBuildDate>Tue, 29 Jul 2025 15:00:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -387,38 +387,6 @@ has been applied by a package manager</q>".]]></description>
             <guid>https://lwn.net/Articles/1030971/</guid>
             <pubDate>Tue, 22 Jul 2025 16:55:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Catanzaro: Fedora must (carefully) embrace Flathub</title>
-            <link>https://lwn.net/Articles/1030936/</link>
-            <description><![CDATA[<p>GNOME and Fedora contributor Michael Catanzaro has written a
-lengthy <a
-href="https://blogs.gnome.org/mcatanzaro/2025/07/21/fedora-must-carefully-embrace-flathub/">blog
-post</a> about the future of Fedora Workstation as an image-based
-release and the need to enable <a
-href="https://flathub.org/">Flathub</a> by default. He writes that the
-Fedora Workstation of the future must be "<q>safe and image-based by
-default</q>", with applications provided through Flathub:</p>
-
-<blockquote class="bq">
-<p>Flathub is drastically more popular than Fedora Flatpaks even among
-the most hardcore Fedora community members who participate in change
-proposal debate on Fedora Discussion. (At time of writing, nearly 80%
-of discussion participants favor filtering out Fedora Flatpaks.)</p>
-
-<p>This is the most important point. Flathub has <em>already</em>
-won.</p>
-</blockquote>
-
-<p>He notes that Fedora should not force users to install an
-image-based OS if they do not want to, and there will be a
-package-based version for users who prefer or require it: "<q>so no
-need to panic</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1030936/</guid>
-            <pubDate>Tue, 22 Jul 2025 14:19:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
