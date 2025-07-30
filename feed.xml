@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Jul 2025 13:12:38 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Jul 2025 13:31:12 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Jul 2025 13:43:31 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Jul 2025 14:00:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -376,28 +376,6 @@ Assistant in May.</p>
             <guid>https://lwn.net/Articles/1031129/</guid>
             <pubDate>Wed, 23 Jul 2025 15:22:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1031104/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cloud-init, fence-agents, git, kernel, and kernel-rt), <b>Debian</b> (openjdk-11), <b>Fedora</b> (firefox, golang, libinput, transfig, and yasm), <b>Mageia</b> (qtbase5, qtbase6), <b>Red Hat</b> (fence-agents, go-toolset:rhel8, golang, kernel, and python-setuptools), <b>Slackware</b> (mozilla), <b>SUSE</b> (cyradm, gstreamer-plugins-base, and xen), and <b>Ubuntu</b> (gdk-pixbuf, jq, linux-gcp, linux-gcp-6.8, linux-oracle, ruby-sinatra, thunderbird, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1031104/</guid>
-            <pubDate>Wed, 23 Jul 2025 13:18:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Prokop: What to expect from Debian/trixie</title>
-            <link>https://lwn.net/Articles/1031106/</link>
-            <description><![CDATA[Michael Prokop has posted <a
-href="https://michael-prokop.at/blog/2025/07/20/what-to-expect-from-debian-trixie-newintrixie/">a
-lengthy list of changes</a> coming in the Debian "trixie" release, due in
-early August.  "<q>As usual with major upgrades, there are some things to
-be aware of, and hereby I'm starting my public notes on trixie that might
-be worth for other folks. My focus is primarily on server systems and
-looking at things from a sysadmin perspective.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1031106/</guid>
-            <pubDate>Wed, 23 Jul 2025 13:38:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
