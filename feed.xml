@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Jul 2025 15:05:45 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Jul 2025 15:23:15 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Jul 2025 15:39:57 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Jul 2025 15:47:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>We need a European Sovereign Tech Fund (GitHub blog)</title>
+            <link>https://lwn.net/Articles/1031943/</link>
+            <description><![CDATA[<p>GitHub director of developer policy, Felix Reda, has <a
+href="https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/">published
+a blog post</a> about a GitHub-commissioned <a
+href="https://eu-stf.openforumeurope.org/">study</a> by <a
+href="https://openforumeurope.org/">Open Forum Europe</a>, <a
+href="https://www.isi.fraunhofer.de/en.html">Fraunhofer ISI</a> and
+the <a href="https://www.eui.eu/en/home">European University
+Institute</a>. The study finds, not surprisingly, "<q>a profound
+mismatch between the importance of open source maintenance and the
+public attention it receives</q>"; it calls for a European sovereign
+tech fund (STF) modeled after Germany's <a
+href="https://www.sovereign.tech/">Sovereign Tech Agency</a>.</p>
+
+<blockquote class="bq">
+The study proposes two alternative institutional setups for the
+EU-STF: either the creation of a centralized EU institution (the
+moonshot model), or a consortium of EU member states that provide the
+initial funding and apply for additional resources from the EU budget
+(the pragmatic model). In both cases, to make the fund a success, the
+minimum contribution from the upcoming EU multiannual budget should be
+no less than €350 million. This would not be enough to meet the open
+source maintenance need, but it could form the basis for leveraging
+industry and national government co-financing that would make a
+lasting impact.
+</blockquote>
+
+<p>The European Union is currently starting negotiations for its
+2028-2034 budget, the <a
+href="https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/eu-budget-2028-2034_en">Multiannual
+Financial Framework</a>; GitHub and others hope to persuade EU legislators to
+include a European STF in that framework.</p>]]></description>
+            <guid>https://lwn.net/Articles/1031943/</guid>
+            <pubDate>Wed, 30 Jul 2025 15:39:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1031919/</link>
@@ -342,39 +380,6 @@ corruption!</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1031148/</guid>
             <pubDate>Wed, 23 Jul 2025 17:46:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>An update on Home Assistant&apos;s Android app</title>
-            <link>https://lwn.net/Articles/1031129/</link>
-            <description><![CDATA[<p>The Home Assistant project has <a
-href="https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/">published</a>
-an update on improvements in its Android app, and plans for upcoming releases:</p>
-
-<blockquote class="bq">
-<p>In our latest update of the Android app <a href="https://github.com/home-assistant/android/releases/tag/2025.7.1">2025.7.1</a>, we've added a
-couple of useful features. Including a new basic invite flow, which
-will be shared between Android and iOS, adding a good layer of
-consistency between our most-used companion apps. The idea is to make
-it much more seamless to add new users or set up new devices (no need
-to type the URL in your Android Automotive device!).</p>
-
-<p>We've also made <a href="https://my.home-assistant.io/">My
-Links</a> work better. If you're unfamiliar with My Links, they're
-those cool links (<a
-href="https://my.home-assistant.io/create-link/">that anyone can
-make</a>) that bring you right to an integration, blueprint, add-on,
-or settings page. They have always worked great on desktop, but up
-until recently, they were a bit clunky to use on mobile. Now you can
-get to the link's destination with a single click.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
-Assistant in May.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1031129/</guid>
-            <pubDate>Wed, 23 Jul 2025 15:22:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
