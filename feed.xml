@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Jul 2025 17:38:31 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Jul 2025 17:48:21 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Jul 2025 18:30:22 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Jul 2025 18:31:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,35 +352,6 @@ fruition.]]></description>
             <guid>https://lwn.net/Articles/1029189/</guid>
             <pubDate>Fri, 11 Jul 2025 13:42:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Discovering and recovering from PostgreSQL corruption on Matrix.org</title>
-            <link>https://lwn.net/Articles/1031148/</link>
-            <description><![CDATA[<p>Richard van der Hoff, a member of the team that runs the <a
-href="https://matrix.org/homeserver/about/">Matrix.org homeserver</a>,
-has <a
-href="https://matrix.org/blog/2025/07/postgres-corruption-postmortem/">written</a>
-a detailed blog post about diagnosing and fixing a problem where <a
-href="https://status.matrix.org/incidents/8gljb3gtlv11">Matrix rooms
-would simply stop working</a>:</p>
-
-<blockquote class="bq">
-<p>We know that there are plenty of users out there who will have been
-affected by the problem, and found themselves unable to communicate as
-a result. We very much share your frustration, and we'd like to
-apologise for the disruption to service.</p>
-
-<p>With that said, we're glad that we were able to get to the bottom
-of most of the problem, and get the lost data restored within a
-relatively short time. If nothing else, hopefully this blog post will
-be of use to future generations faced with Postgres index
-corruption!</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1031148/</guid>
-            <pubDate>Wed, 23 Jul 2025 17:46:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
