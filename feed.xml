@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 31 Jul 2025 16:39:26 +0000</pubDate>
-        <lastBuildDate>Thu, 31 Jul 2025 16:54:50 +0000</lastBuildDate>
+        <pubDate>Thu, 31 Jul 2025 17:18:51 +0000</pubDate>
+        <lastBuildDate>Thu, 31 Jul 2025 17:21:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Garrett: Secure boot certificate rollover is real but probably won&apos;t hurt you</title>
+            <link>https://lwn.net/Articles/1032090/</link>
+            <description><![CDATA[Matthew Garrett has posted <a
+href="https://mjg59.dreamwidth.org/72892.html">a detailed followup</a> to
+our recent <a href="https://lwn.net/Articles/1029767/">article</a> on the coming
+expiration if Microsoft's Secure Boot signing key.
+<p>
+<blockquote class="bq">
+	The upshot is that nobody actually enforces these expiry dates - <a
+	href="https://github.com/tianocore/edk2/blob/edk2-stable202505/CryptoPkg/Library/BaseCryptLib/Pk/CryptPkcs7VerifyCommon.c#L893-L900">here's
+	the reference code that disables it</a>. In a year's time we'll
+	have gone past the expiration date for 'Microsoft Windows UEFI
+	Driver Publisher' and everything will still be working, and a few
+	months later 'Microsoft Windows Production PCA 2011' will also
+	expire and systems will keep booting Windows despite being signed
+	with a now-expired certificate. This isn't a Y2K scenario where
+	everything keeps working because people have done a huge amount of
+	work - it's a situation where everything keeps working even if
+	nobody does any work.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1032090/</guid>
+            <pubDate>Thu, 31 Jul 2025 17:14:48 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1032083/</link>
