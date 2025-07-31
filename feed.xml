@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 31 Jul 2025 14:23:37 +0000</pubDate>
-        <lastBuildDate>Thu, 31 Jul 2025 14:26:44 +0000</lastBuildDate>
+        <pubDate>Thu, 31 Jul 2025 14:33:00 +0000</pubDate>
+        <lastBuildDate>Thu, 31 Jul 2025 14:50:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -305,41 +305,6 @@ stable now.]]></description>
             <guid>https://lwn.net/Articles/1031426/</guid>
             <pubDate>Fri, 25 Jul 2025 13:03:07 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Wayback 0.1 released</title>
-            <link>https://lwn.net/Articles/1031287/</link>
-            <description><![CDATA[<p><a
-href="https://wayback.freedesktop.org/news/2025/07/23/wayback-0.1-released/">Version
-0.1</a> of the <a href="https://wayback.freedesktop.org/">Wayback</a>
-project has been released:</p>
-
-<blockquote class="bq">
-<p>Wayback is an X11 compatibility layer that allows for running full
-X11-only desktop environments using Wayland. It is essentially an X11
-server backed by Wayland, leveraging <a href="https://gitlab.freedesktop.org/wlroots">wlroots</a> and <tt>Xwayland</tt>. Our goal is
-for Wayback to eventually be a completely drop-in replacement to the
-<tt>Xorg</tt> binary, thus reducing maintenance burden for distro
-maintainers.</p>
-
-<p>Ever since Wayback was announced on <a href="https://social.treehouse.systems/@ariadne/114763023239748529">June&#160;28</a>, we have been making lots
-of progress to get it as stable and functional as possible, and while
-this is a preview release it is already daily-driveable by users with
-simple requirements, as long as they don't mind bugs.</p>
-</blockquote>
-
-<p>The release is considered alpha-quality and is missing a number of
-features, including <a
-href="https://gitlab.freedesktop.org/wayback/wayback/-/issues/8">multi-monitor
-support</a> and <a
-href="https://gitlab.freedesktop.org/wayback/wayback/-/issues/55">DPMS</a>,
-but adventurous users can find the code <a
-href="https://gitlab.freedesktop.org/wayback/wayback/-/releases/0.1">here</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1031287/</guid>
-            <pubDate>Thu, 24 Jul 2025 14:19:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
