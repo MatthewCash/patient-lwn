@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 01 Aug 2025 12:18:08 +0000</pubDate>
-        <lastBuildDate>Fri, 1 Aug 2025 12:42:43 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 1 Aug 2025 13:27:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -322,14 +322,6 @@ stable now.]]></description>
             <guid>https://lwn.net/Articles/1031667/</guid>
             <pubDate>Mon, 28 Jul 2025 14:29:54 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1031426/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git, kernel, nginx:1.24, and sudo), <b>Fedora</b> (dpkg, java-21-openjdk, java-25-openjdk, java-latest-openjdk, and valkey), <b>Oracle</b> (apache-commons-vfs, sudo, tigervnc, and xorg-x11-server), <b>Red Hat</b> (kernel, krb5, and openssh), <b>SUSE</b> (gnutls, ImageMagick, iputils, kernel-livepatch-MICRO-6-0-RT_Update_10, kubernetes1.18, libarchive, ovmf, python, and salt), and <b>Ubuntu</b> (iputils, linux-aws-6.14, linux-raspi, openjdk-21, and openjdk-24).]]></description>
-            <guid>https://lwn.net/Articles/1031426/</guid>
-            <pubDate>Fri, 25 Jul 2025 13:03:07 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
