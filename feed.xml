@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 04 Aug 2025 13:30:46 +0000</pubDate>
-        <lastBuildDate>Mon, 4 Aug 2025 13:33:13 +0000</lastBuildDate>
+        <pubDate>Mon, 04 Aug 2025 14:03:31 +0000</pubDate>
+        <lastBuildDate>Mon, 4 Aug 2025 14:04:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1032371/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-21-openjdk, kernel, libxml2, and lz4), <b>Debian</b> (exempi, ruby-graphql, and sope), <b>Fedora</b> (binutils, chromium, gdk-pixbuf2, libsoup3, poppler, and reposurgeon), <b>Mageia</b> (glib2.0 and wxgtk), <b>Oracle</b> (jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base and libxml2), <b>Red Hat</b> (kernel, pandoc, pcs, qemu-kvm, redis, and rsync), <b>SUSE</b> (chromedriver, coreutils, cosign, docker, gdk-pixbuf-devel, glib2, gnutls, grub2, gstreamer-plugins-base, helm, ignition, java-21-openjdk, jbigkit, jq, kernel, kubernetes1.28, kwctl, libxml2, nvidia-open-driver-G06-signed, opensc, pam-config, protobuf, python310, tgt, and valkey), and <b>Ubuntu</b> (linux-iot).]]></description>
+            <guid>https://lwn.net/Articles/1032371/</guid>
+            <pubDate>Mon, 04 Aug 2025 14:03:30 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>More malware uploaded to Arch Linux AUR (Linuxiac)</title>
             <link>https://lwn.net/Articles/1032193/</link>
