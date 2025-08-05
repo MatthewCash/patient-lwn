@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 05 Aug 2025 13:30:46 +0000</pubDate>
-        <lastBuildDate>Tue, 5 Aug 2025 13:32:13 +0000</lastBuildDate>
+        <pubDate>Tue, 05 Aug 2025 14:01:26 +0000</pubDate>
+        <lastBuildDate>Tue, 5 Aug 2025 14:04:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -281,28 +281,6 @@ default shell, and Btrfs as its default filesystem.</p>
             <guid>https://lwn.net/Articles/1031836/</guid>
             <pubDate>Tue, 29 Jul 2025 15:42:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1031812/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, git-lfs, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, icu, ipa, iputils, krb5, libvpx, nodejs:22, osbuild-composer, perl, python-tornado, qt6-qtbase, sqlite, unbound, valkey, wireshark, and yggdrasil), <b>Debian</b> (libfastjson and php8.2), <b>Fedora</b> (glibc), <b>Oracle</b> (firefox, icu, perl, and unbound), <b>Red Hat</b> (389-ds-base, glib2, icu, libtpms, redis:6, redis:7, and yelp), <b>SUSE</b> (boost, forgejo-longterm, java-11-openj9, java-17-openj9, java-1_8_0-openj9, kernel, nginx, and salt), and <b>Ubuntu</b> (linux-xilinx-zynqmp, openjdk-8, openjdk-lts, poppler, and sqlite3).]]></description>
-            <guid>https://lwn.net/Articles/1031812/</guid>
-            <pubDate>Tue, 29 Jul 2025 13:45:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNU C Library 2.42 released</title>
-            <link>https://lwn.net/Articles/1031813/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/5906001.DvuYhMxLoT@pinacolada">Version 2.42</a> of the GNU
-C Library has been released.  Changes include the addition of a number of
-new math functions, support for arbitrary baud rates in the
-<tt>termios.h</tt> interface, support for SFrame-based stack tracing
-(described in <a href="https://lwn.net/Articles/1029189/">this article</a>), support for
-<a href="https://lwn.net/Articles/1011366/">memory guard pages</a>, and a handful of
-security fixes.]]></description>
-            <guid>https://lwn.net/Articles/1031813/</guid>
-            <pubDate>Tue, 29 Jul 2025 13:52:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
