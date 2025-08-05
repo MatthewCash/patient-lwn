@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 05 Aug 2025 15:46:46 +0000</pubDate>
-        <lastBuildDate>Tue, 5 Aug 2025 15:54:06 +0000</lastBuildDate>
+        <pubDate>Tue, 05 Aug 2025 16:15:30 +0000</pubDate>
+        <lastBuildDate>Tue, 5 Aug 2025 16:22:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -283,21 +283,6 @@ include a European STF in that framework.</p>]]></description>
  linux-raspi-5.4, and perl).]]></description>
             <guid>https://lwn.net/Articles/1031919/</guid>
             <pubDate>Wed, 30 Jul 2025 13:06:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>HeliumOS 10 released</title>
-            <link>https://lwn.net/Articles/1031836/</link>
-            <description><![CDATA[<p>The <a href="https://www.heliumos.org/">HeliumOS</a> project has <a
-href="https://www.heliumos.org/blog/post/heliumos-10-released/">announced</a>
-the release of HeliumOS&#160;10. It is relatively new image-based ("atomic")
-desktop distribution based on packages from CentOS&#160;Stream and
-AlmaLinux, with a goal of providing 10 years of
-support. HeliumOS&#160;10 uses the KDE Plasma Desktop, Zsh as its
-default shell, and Btrfs as its default filesystem.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1031836/</guid>
-            <pubDate>Tue, 29 Jul 2025 15:42:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
