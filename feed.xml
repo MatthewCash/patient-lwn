@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 Aug 2025 15:24:04 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Aug 2025 15:56:55 +0000</lastBuildDate>
+        <pubDate>Wed, 06 Aug 2025 16:16:52 +0000</pubDate>
+        <lastBuildDate>Wed, 6 Aug 2025 16:27:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Almeida: a brief introduction on how GPU drivers work</title>
+            <link>https://lwn.net/Articles/1032744/</link>
+            <description><![CDATA[Daniel Almeida <a
+href="https://www.collabora.com/news-and-blog/blog/2025/08/06/writing-a-rust-gpu-kernel-driver-a-brief-introduction-on-how-gpu-drivers-work/">continues
+his look at graphics drivers</a> on the Collabora blog.
+<p>
+<blockquote class="bq">
+	The starting point is to understand that a kernel-mode GPU driver
+	connects a much larger UMD (user-mode driver) to the actual
+	GPU. The UMD will actually implement APIs like Vulkan, OpenGL,
+	OpenCL, and others. These APIs, in turn, will be used by actual
+	programs to describe their workload to the GPU. This includes
+	allocating and using not only the geometry and textures, but also
+	the shaders being used to process said data into the final
+	result. This means that a key aspect of GPU drivers is actually
+	allocating GPU memory to house data related to the current scene
+	being drawn so that it can actually be operated on by the hardware.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1032744/</guid>
+            <pubDate>Wed, 06 Aug 2025 16:16:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Tuba v0.10.0 released</title>
             <link>https://lwn.net/Articles/1032736/</link>
