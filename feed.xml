@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 Aug 2025 11:15:21 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Aug 2025 12:44:27 +0000</lastBuildDate>
+        <pubDate>Wed, 06 Aug 2025 13:17:40 +0000</pubDate>
+        <lastBuildDate>Wed, 6 Aug 2025 13:33:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1032700/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and python3.12-setuptools), <b>Fedora</b> (perl-Crypt-CBC and unbound), <b>Gentoo</b> (FontForge, GPL Ghostscript, Mozilla Network Security Service (NSS), and PAM), <b>Oracle</b> (gdk-pixbuf2, jq, kernel, mod_security, ncurses, python-requests, and python3-setuptools), <b>Red Hat</b> (python-requests and socat), <b>SUSE</b> (docker, kernel-livepatch-MICRO-6-0-RT_Update_2, kernel-livepatch-MICRO-6-0-RT_Update_4, kernel-livepatch-MICRO-6-0-RT_Update_5, kernel-livepatch-MICRO-6-0-RT_Update_6, kernel-livepatch-MICRO-6-0-RT_Update_7, kernel-livepatch-MICRO-6-0_Update_2, kernel-livepatch-MICRO-6-0_Update_4, kernel-livepatch-MICRO-6-0_Update_5, kernel-livepatch-MICRO-6-0_Update_6, kubeshark-cli, libgcrypt, pam-config, perl, python-requests, python311, and python313), and <b>Ubuntu</b> (linux-raspi).]]></description>
+            <guid>https://lwn.net/Articles/1032700/</guid>
+            <pubDate>Wed, 06 Aug 2025 13:08:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Proxmox Virtual Environment 9.0 released</title>
             <link>https://lwn.net/Articles/1032622/</link>
@@ -293,15 +301,6 @@ Financial Framework</a>; GitHub and others hope to persuade EU legislators to
 include a European STF in that framework.</p>]]></description>
             <guid>https://lwn.net/Articles/1031943/</guid>
             <pubDate>Wed, 30 Jul 2025 15:39:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1031919/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, icu, kernel-rt, libtpms, redis:6, redis:7, and sqlite), <b>Fedora</b> (chromium and cloud-init), <b>Oracle</b> (icu, java-1.8.0-openjdk, java-21-openjdk, kernel, nodejs:22, perl, and sqlite), <b>SUSE</b> (docker, java-1_8_0-openj9, libxml2, python-starlette, and thunderbird), and <b>Ubuntu</b> (cloud-init, linux-azure, linux-azure-5.4, linux-azure-fips, linux-raspi,
- linux-raspi-5.4, and perl).]]></description>
-            <guid>https://lwn.net/Articles/1031919/</guid>
-            <pubDate>Wed, 30 Jul 2025 13:06:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
