@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 06 Aug 2025 15:24:04 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Aug 2025 15:35:16 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 6 Aug 2025 15:56:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -299,44 +299,6 @@ isolated CPUs from being surprised by LRU batching.]]></description>
             <guid>https://lwn.net/Articles/1029093/</guid>
             <pubDate>Thu, 17 Jul 2025 14:11:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>We need a European Sovereign Tech Fund (GitHub blog)</title>
-            <link>https://lwn.net/Articles/1031943/</link>
-            <description><![CDATA[<p>GitHub director of developer policy, Felix Reda, has <a
-href="https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/">published
-a blog post</a> about a GitHub-commissioned <a
-href="https://eu-stf.openforumeurope.org/">study</a> by <a
-href="https://openforumeurope.org/">Open Forum Europe</a>, <a
-href="https://www.isi.fraunhofer.de/en.html">Fraunhofer ISI</a> and
-the <a href="https://www.eui.eu/en/home">European University
-Institute</a>. The study finds, not surprisingly, "<q>a profound
-mismatch between the importance of open source maintenance and the
-public attention it receives</q>"; it calls for a European sovereign
-tech fund (STF) modeled after Germany's <a
-href="https://www.sovereign.tech/">Sovereign Tech Agency</a>.</p>
-
-<blockquote class="bq">
-The study proposes two alternative institutional setups for the
-EU-STF: either the creation of a centralized EU institution (the
-moonshot model), or a consortium of EU member states that provide the
-initial funding and apply for additional resources from the EU budget
-(the pragmatic model). In both cases, to make the fund a success, the
-minimum contribution from the upcoming EU multiannual budget should be
-no less than €350 million. This would not be enough to meet the open
-source maintenance need, but it could form the basis for leveraging
-industry and national government co-financing that would make a
-lasting impact.
-</blockquote>
-
-<p>The European Union is currently starting negotiations for its
-2028-2034 budget, the <a
-href="https://commission.europa.eu/strategy-and-policy/eu-budget/long-term-eu-budget/eu-budget-2028-2034_en">Multiannual
-Financial Framework</a>; GitHub and others hope to persuade EU legislators to
-include a European STF in that framework.</p>]]></description>
-            <guid>https://lwn.net/Articles/1031943/</guid>
-            <pubDate>Wed, 30 Jul 2025 15:39:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
