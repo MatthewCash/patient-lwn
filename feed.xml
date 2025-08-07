@@ -8,11 +8,139 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 Aug 2025 23:16:20 +0000</pubDate>
-        <lastBuildDate>Wed, 6 Aug 2025 23:55:33 +0000</lastBuildDate>
+        <pubDate>Thu, 07 Aug 2025 00:51:03 +0000</pubDate>
+        <lastBuildDate>Thu, 7 Aug 2025 01:47:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 31, 2025</title>
+            <link>https://lwn.net/Articles/1031201/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1031201/">Front</a>: Becoming a Python contributor; Graphene OS; Fedora quality team; 6.16 Development statistics; Proxy execution; Run-time verification; Confidential VMs.
+            <li> <a href="https://lwn.net/Articles/1031203/">Briefs</a>: HeliumOS 10; European Tech Funding; GNU C Library 2.42; OpenPrinting; Wayback 0.1
+            <li> <a href="https://lwn.net/Articles/1031204/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1031201/</guid>
+            <pubDate>Thu, 31 Jul 2025 01:15:15 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Extending run-time verification for the kernel</title>
+            <link>https://lwn.net/Articles/1030685/</link>
+            <description><![CDATA[<p>
+There are a lot of things people expect the Linux kernel to do correctly. Some
+of these are checked by testing or static analysis; a few are ensured by
+run-time verification: checking a live property of a running Linux system. For
+example, the scheduler has a handful of different correctness properties that
+can be
+checked in this way.
+Nam Cao posted a
+<a href="https://lwn.net/ml/all/cover.1751634289.git.namcao@linutronix.de/">
+patch series</a> that aims to extend the kinds of properties that the kernel's
+<a href="https://docs.kernel.org/trace/rv/runtime-verification.html">run-time
+verification system</a> can check, by adding support for
+<a href="https://en.wikipedia.org/wiki/Linear_temporal_logic">
+linear temporal logic</a> (LTL). The patch set has seen eleven revisions since the
+<a href="https://lwn.net/ml/all/cover.1741708239.git.namcao@linutronix.de/">
+first version</a> in March&#160;2025, and recently made it into the linux-next
+tree, from where it seems likely to reach the mainline kernel soon.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1030685/</guid>
+            <pubDate>Wed, 30 Jul 2025 15:39:46 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] On becoming a Python contributor</title>
+            <link>https://lwn.net/Articles/1030821/</link>
+            <description><![CDATA[In the first keynote at
+<a href="https://ep2025.europython.eu/">EuroPython 2025</a> in Prague,
+Savannah Bailey described her path to becoming a CPython core developer in
+November 2024.  She started down that path a few years earlier and her
+talk was meant to inspire others—not to slavishly follow hers,
+but to create their own.  In the talk, entitled "You don't have to be a compiler engineer
+to work on Python", she had lots of ideas for those who
+might be thinking about contributing and are wondering how to do so.]]></description>
+            <guid>https://lwn.net/Articles/1030821/</guid>
+            <pubDate>Wed, 30 Jul 2025 13:34:03 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A proxy-execution baby step</title>
+            <link>https://lwn.net/Articles/1030842/</link>
+            <description><![CDATA[Priority inversion comes about when a low-priority task holds a resource
+that is also needed by a high-priority task, preventing the latter from
+running.  This problem is made much worse if the low-priority task is
+unable to gain access to the CPU and, as a result, cannot complete its work
+and free the resources it holds.  Proxy execution is a potential solution
+to this problem, but it is a complex solution that has been under
+development for several years; LWN first <a href="https://lwn.net/Articles/820575/">looked
+at it</a> in 2020.  The 6.17 kernel is likely to contain an important step
+forward for this long-running project.]]></description>
+            <guid>https://lwn.net/Articles/1030842/</guid>
+            <pubDate>Tue, 29 Jul 2025 14:13:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Smaller Fedora quality team proposes cuts</title>
+            <link>https://lwn.net/Articles/1031066/</link>
+            <description><![CDATA[<p>Fedora's <a href="https://fedoraproject.org/wiki/QA">quality
+team</a> is looking to reduce the scope of test coverage and change
+the project's release criteria to drop some features from the list of
+release blockers. This is, in part, an exercise in getting rid of
+criteria, such as booting from optical media, that are less relevant. 
+It is also a necessity, since the Red Hat team focusing on Fedora
+quality assurance (QA) is only half the size it was a year ago.</p>]]></description>
+            <guid>https://lwn.net/Articles/1031066/</guid>
+            <pubDate>Mon, 28 Jul 2025 16:48:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some 6.16 development statistics</title>
+            <link>https://lwn.net/Articles/1031161/</link>
+            <description><![CDATA[The 6.16 development cycle was another busy one, with 14,639 non-merge
+changesets pulled into the mainline — just 18&#160;commits short of the
+total for 6.15.  The <a href="https://lwn.net/Articles/1031553/">6.16 release</a> happened
+on July&#160;27, as expected.  Also as expected, LWN has put together its
+traditional look at where the code for this release came from.]]></description>
+            <guid>https://lwn.net/Articles/1031161/</guid>
+            <pubDate>Mon, 28 Jul 2025 17:05:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Rethinking the Linux cloud stack for confidential VMs</title>
+            <link>https://lwn.net/Articles/1030818/</link>
+            <description><![CDATA[There is an inherent limit to the privacy of the <em>public</em>
+cloud. While Linux can isolate virtual machines (VMs) from each other,
+nothing in the system's memory is ultimately out of reach for the host cloud
+provider. To accommodate the most privacy-conscious clients, <a
+href="https://en.wikipedia.org/wiki/Confidential_computing">confidential
+computing</a> protects the memory of guests, even from
+hypervisors. But the Linux cloud stack needs to be rethought in order to host
+confidential VMs, juggling two goals that are often at odds: performance
+and security.]]></description>
+            <guid>https://lwn.net/Articles/1030818/</guid>
+            <pubDate>Fri, 25 Jul 2025 14:55:01 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Graphene OS: a security-enhanced Android build</title>
+            <link>https://lwn.net/Articles/1030004/</link>
+            <description><![CDATA[People tend to put a lot of trust into their phones.  Those devices have
+access to no end of sensitive data about our lives — our movements,
+finances, communications, and more — so phones belonging to even relatively
+low-profile people can be high-value targets.  Android devices run free
+software, at least at some levels, so it should be possible to ensure that
+they are working in their owners' interests.  Off-the-shelf Android
+installations tend to fall short of that goal.  The <a
+href="https://grapheneos.org/">GrapheneOS</a> Android rebuild is an attempt
+to improve on that situation.]]></description>
+            <guid>https://lwn.net/Articles/1030004/</guid>
+            <pubDate>Thu, 24 Jul 2025 13:38:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Native NVIDIA support for AlmaLinux OS 9 and 10</title>
             <link>https://lwn.net/Articles/1032753/</link>
@@ -236,118 +364,6 @@ expiration if Microsoft's Secure Boot signing key.
             <guid>https://lwn.net/Articles/1032083/</guid>
             <pubDate>Thu, 31 Jul 2025 14:17:53 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 24, 2025</title>
-            <link>https://lwn.net/Articles/1030295/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1030295/">Front</a>: Debian's security processes; Tor; Immutability for Python; CPU scheduler; QUIC; Rust abstractions.
-            <li> <a href="https://lwn.net/Articles/1030297/">Briefs</a>: Brief news items from throughout the community.
-            <li> <a href="https://lwn.net/Articles/1030298/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1030295/</guid>
-            <pubDate>Thu, 24 Jul 2025 00:15:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Understanding Debian&apos;s security processes</title>
-            <link>https://lwn.net/Articles/1030669/</link>
-            <description><![CDATA[<p>Providing security updates for a Linux distribution, such as
-Debian, involves a lot of work behind the scenes&mdash;and requires
-much more than simply shipping the latest code. On July 15, at <a
-href="https://debconf25.debconf.org/">DebConf25</a> in Brest, France,
-Samuel Henrique walked through the process of providing security
-updates to users; he discussed how Debian learns about security
-vulnerabilities, decides on the best response, and the process of
-sending out updates to keep its users safe. He also provided guidance
-on how others could get involved.</p>]]></description>
-            <guid>https://lwn.net/Articles/1030669/</guid>
-            <pubDate>Wed, 23 Jul 2025 16:21:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Deep immutability for Python</title>
-            <link>https://lwn.net/Articles/1030291/</link>
-            <description><![CDATA[<p>
-Python has recently seen a number of experiments to improve its parallel
-performance, including exposing
-<a href="https://lwn.net/Articles/820424/">
-subinterpreters</a> as part of the standard library. These allow
-separate threads within the same Python process to run simultaneously, as long
-as any data sent between them is copied, rather than shared.
-<a href="https://pep-previews--4468.org.readthedocs.build/pep-0795/">
-PEP&#160;795</a> ("Deep Immutability in Python")
-seeks to make efficient sharing of data between subinterpreters possible by
-allowing Python objects to be "frozen", so that they can be accessed from
-multiple subinterpreters without copying or synchronization.
-That task is more difficult than it
-seems, and the PEP prompted a good deal of skepticism from the Python community.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1030291/</guid>
-            <pubDate>Wed, 23 Jul 2025 13:31:39 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] QUIC for the kernel</title>
-            <link>https://lwn.net/Articles/1029851/</link>
-            <description><![CDATA[The QUIC transport-layer network protocol is not exactly new; it was first
-<a href="https://lwn.net/Articles/558826/">covered here</a> in 2013.  Despite carrying a
-significant part of the traffic on the Internet, QUIC has been anything but
-quick when it comes to getting support into the Linux kernel.  The pace
-might be picking up, though; Xin Long has posted <a
-href="https://lwn.net/ml/all/cover.1751743914.git.lucien.xin@gmail.com">the first set of
-patches</a> intended to provide mainline support for this protocol.]]></description>
-            <guid>https://lwn.net/Articles/1029851/</guid>
-            <pubDate>Tue, 22 Jul 2025 13:24:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] When free-software communities unite for privacy</title>
-            <link>https://lwn.net/Articles/1029769/</link>
-            <description><![CDATA[<p>At <a href="https://debconf25.debconf.org/">DebConf25</a> in Brest,
-France, <a
-href="https://debconf25.debconf.org/talks/142-when-free-software-communities-unite-tails-tor-and-the-fight-for-privacy/">the
-talk</a> "When Free Software Communities Unite: Tails, Tor, and the
-Fight for Privacy" was delivered by a man who introduced himself only
-as intrigeri. He delivered an overview of the <a
-href="https://www.torproject.org/">Tor Project</a>, its mission, and
-the projects under the umbrella. He also spoke about how the
-organization depends on Debian, and plans for the software it
-delivers.</p>]]></description>
-            <guid>https://lwn.net/Articles/1029769/</guid>
-            <pubDate>Mon, 21 Jul 2025 14:42:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] How to write Rust in the kernel: part 3</title>
-            <link>https://lwn.net/Articles/1026694/</link>
-            <description><![CDATA[<p>
-The interfaces between C and Rust in the kernel have grown over time; any
-non-trivial Rust driver will use a number of these. Tasks like allocating memory,
-dealing with immovable structures, and interacting with locks are necessary for
-handling most devices. There are also many subsystem-specific bindings, but the
-focus this time will be on an overview of the bindings that all kernel Rust code
-can be expected to use.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1026694/</guid>
-            <pubDate>Fri, 18 Jul 2025 13:14:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Scheduler medley: time-slice extension, sched_ext deadline servers, and LRU batching.</title>
-            <link>https://lwn.net/Articles/1029093/</link>
-            <description><![CDATA[Decades after its creation, the Linux CPU scheduler remains an area
-of active development; it is difficult to find a time slice to cover every
-interesting scheduler change.  In an attempt to catch up, the time has come
-to round-robin through a few patches that have been circulating recently.
-The work at hand focuses on a new attempt at time-slice extension, the
-creation of a deadline server for sched_ext tasks, and keeping tasks on
-isolated CPUs from being surprised by LRU batching.]]></description>
-            <guid>https://lwn.net/Articles/1029093/</guid>
-            <pubDate>Thu, 17 Jul 2025 14:11:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
