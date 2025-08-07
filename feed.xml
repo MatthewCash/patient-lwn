@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 07 Aug 2025 14:00:30 +0000</pubDate>
-        <lastBuildDate>Thu, 7 Aug 2025 14:01:01 +0000</lastBuildDate>
+        <pubDate>Thu, 07 Aug 2025 14:07:35 +0000</pubDate>
+        <lastBuildDate>Thu, 7 Aug 2025 14:34:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,14 +356,6 @@ expiration if Microsoft's Secure Boot signing key.
             <guid>https://lwn.net/Articles/1032090/</guid>
             <pubDate>Thu, 31 Jul 2025 17:14:48 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1032083/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, java-21-openjdk, kernel, thunderbird, and unbound), <b>Debian</b> (chromium and systemd), <b>Fedora</b> (libtiff), <b>Oracle</b> (java-21-openjdk, libtpms, nodejs:22, redis:7, thunderbird, and unbound), <b>Red Hat</b> (firefox, redis, and thunderbird), <b>SUSE</b> (apache2, cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, java-11-openjdk, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestf, libarchive, nvidia-open-driver-G06-signed, redis, and rmt-server), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.14, linux-gcp, linux-gcp-6.14, linux-hwe-6.14, linux-oem-6.14, linux-raspi, linux-realtime, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gke, linux-gkeop, linux-hwe-6.8, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oem-6.8, linux-oracle, linux, linux-aws, linux-kvm, linux-aws, linux-lts-xenial, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-fips, linux-intel-iot-realtime, linux-realtime, linux-oracle, linux-oracle-6.8, linux-realtime, and sqlite3).]]></description>
-            <guid>https://lwn.net/Articles/1032083/</guid>
-            <pubDate>Thu, 31 Jul 2025 14:17:53 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
