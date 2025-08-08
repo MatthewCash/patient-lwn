@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 08 Aug 2025 12:33:32 +0000</pubDate>
-        <lastBuildDate>Fri, 8 Aug 2025 12:43:13 +0000</lastBuildDate>
+        <pubDate>Fri, 08 Aug 2025 13:26:18 +0000</pubDate>
+        <lastBuildDate>Fri, 8 Aug 2025 13:28:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1033009/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gdk-pixbuf2, glibc, kernel, kernel-rt, libxml2, and opentelemetry-collector), <b>Fedora</b> (firefox, mingw-opencv, moby-engine, varnish, webkitgtk, xen, and yarnpkg), <b>Oracle</b> (firefox, gdk-pixbuf2, glibc, kernel, libblockdev, libxml2, python-requests, python3.12-setuptools, and qt5-qt3d), <b>Red Hat</b> (libxml2, pcs, and sudo), and <b>SUSE</b> (agama, chromium, dpkg, ghostscript, iperf, kubo, libIex-3_3-32, libpoppler-cpp2, libsoup, libtiff-devel-32bit, nginx, python-urllib3, ruby2.5, tgt, traefik, and traefik2).]]></description>
+            <guid>https://lwn.net/Articles/1033009/</guid>
+            <pubDate>Fri, 08 Aug 2025 13:26:18 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1032861/</link>
