@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 08 Aug 2025 13:51:56 +0000</pubDate>
-        <lastBuildDate>Fri, 8 Aug 2025 13:58:08 +0000</lastBuildDate>
+        <pubDate>Fri, 08 Aug 2025 14:23:13 +0000</pubDate>
+        <lastBuildDate>Fri, 8 Aug 2025 14:26:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -339,27 +339,6 @@ installed a malicious script identified as a remote-access trojan.</p>]]></descr
             <guid>https://lwn.net/Articles/1032193/</guid>
             <pubDate>Fri, 01 Aug 2025 15:17:03 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three more stable kernel updates</title>
-            <link>https://lwn.net/Articles/1032147/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has released the
-<a href="https://lwn.net/Articles/1032148/">6.15.9</a>,
-<a href="https://lwn.net/Articles/1032149/">6.12.41</a>, and
-<a href="https://lwn.net/Articles/1032150/">6.6.101</a> stable kernels.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1032147/</guid>
-            <pubDate>Fri, 01 Aug 2025 14:07:25 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1032174/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox and thunderbird), <b>Debian</b> (libcommons-lang-java, node-form-data, redis, and sope), <b>Fedora</b> (chromium), <b>Mageia</b> (slurm), <b>Oracle</b> (apache-commons-beanutils, firefox, kernel, redis:6, and thunderbird), <b>Red Hat</b> (kernel, kernel-rt, libxml2, and redis), <b>SUSE</b> (chromium, docker, ffmpeg-7, gnutls, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, libgcrypt, rav1e, and sccache), and <b>Ubuntu</b> (linux-lowlatency, linux-lowlatency-hwe-6.8).]]></description>
-            <guid>https://lwn.net/Articles/1032174/</guid>
-            <pubDate>Fri, 01 Aug 2025 14:08:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
