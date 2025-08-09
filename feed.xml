@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 09 Aug 2025 21:49:19 +0000</pubDate>
-        <lastBuildDate>Sat, 9 Aug 2025 21:52:00 +0000</lastBuildDate>
+        <pubDate>Sat, 09 Aug 2025 22:14:46 +0000</pubDate>
+        <lastBuildDate>Sat, 9 Aug 2025 22:19:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Debian 13 (&quot;trixie&quot;) released</title>
+            <link>https://lwn.net/Articles/1033134/</link>
+            <description><![CDATA[<p>The Debian Project has released its latest stable version, <a
+href="https://www.debian.org/News/2025/20250809">Debian&#160;13</a>
+("trixie"), which will be supported through 2030. This release
+includes GNOME&#160;48, KDE&#160;Plasma&#160;6.3, Xfce&#160;4.20,
+Linux&#160;6.12, GCC&#160;14.2, Python&#160;3.13, and
+systemd&#160;257.
+
+<blockquote class="bq">
+<p>This release contains over 14,100 new packages for a total count of
+69,830 packages, while over 8,840 packages have been removed as
+"obsolete". 44,326 packages were updated in this release. The overall
+disk usage for "trixie" is 403,854,660 kB (403 GB), and is made up of
+1,463,291,186 lines of code. [...]</p>
+
+<p>With this broad selection of packages and its traditional wide
+architecture support, Debian once again stays true to its goal of
+being "<em>The Universal Operating System</em>". It is suitable for many
+different use cases: from desktop systems to netbooks; from
+development servers to cluster systems; and for database, web, and
+storage servers. At the same time, additional quality assurance
+efforts like automatic installation and upgrade tests for all packages
+in Debian's archive ensure that "<em>trixie</em>" fulfills the high
+expectations that users have of a stable Debian release.</p>
+</blockquote>
+
+<p>Trixie adds riscv64 as an officially supported architecture, and
+drops i386 as a regular architecture. Users with i386 systems should
+not upgrade to trixie; the project recommends reinstalling them as
+amd64, or retiring the hardware. See the <a
+href="https://www.debian.org/releases/trixie/release-notes/index.en.html">release
+notes</a> and <a
+href="https://www.debian.org/releases/trixie/release-notes/issues.en.html">issues
+to be aware of</a> before installing or upgrading to trixie.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1033134/</guid>
+            <pubDate>Sat, 09 Aug 2025 22:14:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Some turbulence at CalyxOS</title>
             <link>https://lwn.net/Articles/1033042/</link>
