@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 10 Aug 2025 18:11:29 +0000</pubDate>
-        <lastBuildDate>Sun, 10 Aug 2025 19:29:52 +0000</lastBuildDate>
+        <pubDate>Sun, 10 Aug 2025 19:38:45 +0000</pubDate>
+        <lastBuildDate>Sun, 10 Aug 2025 19:41:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.17-rc1</title>
+            <link>https://lwn.net/Articles/1033168/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1033167/">released 6.17-rc1</a> and closed the
+merge window for this development cycle.
+<p>
+<blockquote class="bq">
+	Anyway, the merge window did end up looking fairly healthy, despite
+	me having to go through a couple of bisections for trouble spots
+	(one during travels with a laptop - not optimal, but thankfully it
+	was at least one of the "reliable symptoms that bisect right to the
+	culprit" kind). The stats look pretty normal both in patch size and
+	in number of commits.
+</blockquote>
+<p>
+In the end, 11,404 non-merge changesets found their way into the mainline
+during the merge window.]]></description>
+            <guid>https://lwn.net/Articles/1033168/</guid>
+            <pubDate>Sun, 10 Aug 2025 19:38:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Debian 13 (&quot;trixie&quot;) released</title>
             <link>https://lwn.net/Articles/1033134/</link>
