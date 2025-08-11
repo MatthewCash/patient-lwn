@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 11 Aug 2025 15:16:17 +0000</pubDate>
-        <lastBuildDate>Mon, 11 Aug 2025 15:23:20 +0000</lastBuildDate>
+        <pubDate>Mon, 11 Aug 2025 15:46:01 +0000</pubDate>
+        <lastBuildDate>Mon, 11 Aug 2025 15:46:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1033328/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base and libxml2), <b>Debian</b> (distro-info-data, gnutls28, modsecurity-crs, and node-tmp), <b>Fedora</b> (chromium, incus, perl, perl-Devel-Cover, perl-PAR-Packer, polymake, varnish, and xen), <b>Red Hat</b> (kernel, kernel-rt, and rhc), and <b>SUSE</b> (chromedriver, ffmpeg-4, go1.23, go1.24, go1.25, govulncheck-vulndb, himmelblau, iperf, keylime-ima-policy, net-tools, sqlite3, texmaker, tomcat, and zabbix).]]></description>
+            <guid>https://lwn.net/Articles/1033328/</guid>
+            <pubDate>Mon, 11 Aug 2025 15:36:54 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc1</title>
             <link>https://lwn.net/Articles/1033168/</link>
