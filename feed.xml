@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 12 Aug 2025 12:19:57 +0000</pubDate>
-        <lastBuildDate>Tue, 12 Aug 2025 12:41:03 +0000</lastBuildDate>
+        <pubDate>Tue, 12 Aug 2025 13:20:14 +0000</pubDate>
+        <lastBuildDate>Tue, 12 Aug 2025 13:23:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Debian GNU/Hurd 2025 released</title>
+            <link>https://lwn.net/Articles/1033414/</link>
+            <description><![CDATA[<p>Debian's <a href="https://www.debian.org/ports/hurd/">GNU/Hurd</a>
+team has <a
+href="https://www.debian.org/ports/hurd/hurd-news">announced</a>
+the release of Debian GNU/Hurd&#160;2025:</p>
+
+<blockquote class="bq">
+<p>This is a snapshot of Debian "sid" at the time of the stable Debian
+"Trixie" release (August 2025), so it is mostly based on the same
+sources.  It is not an official Debian release, but it is an official
+Debian GNU/Hurd port release. [...]</p>
+
+<p>Debian GNU/Hurd is currently available for the i386 and amd64
+architectures with about 72% of the Debian archive, and more to
+come!</p>
+</blockquote>
+
+<p>See the <a
+href="https://www.gnu.org/software/hurd/faq.html">FAQ</a> and <a
+href="https://www.debian.org/ports/hurd/hurd-install">configuration
+guide</a> for more on the GNU/Hurd port.</p>
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1033414/</guid>
+            <pubDate>Tue, 12 Aug 2025 13:05:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1033445/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and python-requests), <b>Debian</b> (ca-certificates-java), <b>Fedora</b> (chromium, clash-meta, mingw-python3, openjpeg, php-adodb, and toolbox), <b>Mageia</b> (kernel and kernel-linus), <b>SUSE</b> (chromium, ImageMagick, libgcrypt, libssh, libxml2, opensc, postgresql14, and postgresql16), and <b>Ubuntu</b> (dnsmasq, linux-gcp-6.8, linux-raspi, linux-oracle-6.14, and openjdk-17).]]></description>
+            <guid>https://lwn.net/Articles/1033445/</guid>
+            <pubDate>Tue, 12 Aug 2025 13:20:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Hughes: LVFS Sustainability Plan</title>
             <link>https://lwn.net/Articles/1033335/</link>
