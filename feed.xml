@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 12 Aug 2025 19:00:24 +0000</pubDate>
-        <lastBuildDate>Tue, 12 Aug 2025 19:17:12 +0000</lastBuildDate>
+        <pubDate>Tue, 12 Aug 2025 19:28:58 +0000</pubDate>
+        <lastBuildDate>Tue, 12 Aug 2025 19:39:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -426,25 +426,6 @@ important subsystems in the near future.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and python3.12-setuptools), <b>Fedora</b> (perl-Crypt-CBC and unbound), <b>Gentoo</b> (FontForge, GPL Ghostscript, Mozilla Network Security Service (NSS), and PAM), <b>Oracle</b> (gdk-pixbuf2, jq, kernel, mod_security, ncurses, python-requests, and python3-setuptools), <b>Red Hat</b> (python-requests and socat), <b>SUSE</b> (docker, kernel-livepatch-MICRO-6-0-RT_Update_2, kernel-livepatch-MICRO-6-0-RT_Update_4, kernel-livepatch-MICRO-6-0-RT_Update_5, kernel-livepatch-MICRO-6-0-RT_Update_6, kernel-livepatch-MICRO-6-0-RT_Update_7, kernel-livepatch-MICRO-6-0_Update_2, kernel-livepatch-MICRO-6-0_Update_4, kernel-livepatch-MICRO-6-0_Update_5, kernel-livepatch-MICRO-6-0_Update_6, kubeshark-cli, libgcrypt, pam-config, perl, python-requests, python311, and python313), and <b>Ubuntu</b> (linux-raspi).]]></description>
             <guid>https://lwn.net/Articles/1032700/</guid>
             <pubDate>Wed, 06 Aug 2025 13:08:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Proxmox Virtual Environment 9.0 released</title>
-            <link>https://lwn.net/Articles/1032622/</link>
-            <description><![CDATA[<p>Proxmox Virtual Environment 9.0, based on Debian&#160;13
-("trixie"), has been <a
-href="https://forum.proxmox.com/threads/proxmox-virtual-environment-9-0-released.169257/">released</a>. Notable
-new features include snapshots for thick-provisioned LVM shared
-storage, affinity rules for high availability (HA) clusters, and a
-modernized mobile web interface for managing Proxmox systems. See the
-<a href="https://pve.proxmox.com/wiki/Roadmap#Proxmox_VE_9.0">release
-notes</a> and <a
-href="https://pve.proxmox.com/wiki/Roadmap#9.0-known-issues">known
-issues</a> for more details about the release.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1032622/</guid>
-            <pubDate>Tue, 05 Aug 2025 19:24:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
