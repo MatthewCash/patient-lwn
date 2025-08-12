@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 12 Aug 2025 14:40:18 +0000</pubDate>
-        <lastBuildDate>Tue, 12 Aug 2025 14:47:42 +0000</lastBuildDate>
+        <pubDate>Tue, 12 Aug 2025 15:05:30 +0000</pubDate>
+        <lastBuildDate>Tue, 12 Aug 2025 15:22:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -446,24 +446,6 @@ issues</a> for more details about the release.</p>
             <guid>https://lwn.net/Articles/1032622/</guid>
             <pubDate>Tue, 05 Aug 2025 19:24:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The 2025 Maintainers Summit call for topics</title>
-            <link>https://lwn.net/Articles/1032603/</link>
-            <description><![CDATA[The <a href="https://lwn.net/ml/all/20250805144357.GA762104@mit.edu">call for topics for
-the 2025 Maintainers Summit</a> has been posted.  The Summit, to be held in
-Tokyo on December&#160;10, will involve around 30 developers gathered to
-discuss development-process issues for the kernel.  Anybody who is
-interested in attending is encouraged to post a nomination along with the
-topic they would like to discuss.  Nominations and topics are best sent
-before September&#160;10.
-<p>
-The call for topics for the Kernel Summit, which runs as a <a
-href="https://lpc.events/">Linux Plumbers Conference</a> track, is also
-out.]]></description>
-            <guid>https://lwn.net/Articles/1032603/</guid>
-            <pubDate>Tue, 05 Aug 2025 15:01:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
