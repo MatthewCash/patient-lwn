@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 17:49:32 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 17:52:01 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 18:27:50 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 18:28:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>NGINX adds native support for ACME protocol</title>
+            <link>https://lwn.net/Articles/1033657/</link>
+            <description><![CDATA[<p>NGINX has <a
+href="https://blog.nginx.org/blog/native-support-for-acme-protocol">announced</a>
+the preview release of the <a
+href="https://github.com/nginx/nginx-acme?tab=readme-ov-file#nginx-acme">nginx-acme</a>
+module, which adds native support to NGINX for the <a
+href="https://www.rfc-editor.org/rfc/rfc8555.html">Automatic
+Certificate Management Environment</a> (ACME) protocol:</p>
+
+<blockquote class="bq">
+NGINX's native support for ACME brings a variety of benefits that
+simplify and enhance the overall SSL/TLS certificate management
+process. Being able to configure ACME directly using NGINX directives
+drastically reduces manual errors and eliminates much of the ongoing
+overhead traditionally associated with managing SSL/TLS
+certificates. It also reduces reliance on external tools like Certbot,
+creating a more secure and streamlined workflow with fewer
+vulnerabilities and a smaller attack surface.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1033657/</guid>
+            <pubDate>Wed, 13 Aug 2025 17:59:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Go 1.25 released</title>
             <link>https://lwn.net/Articles/1033646/</link>
