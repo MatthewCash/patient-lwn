@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 17:38:47 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 17:41:15 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 17:49:32 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 17:52:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,32 +380,6 @@ to improve on that situation.]]></description>
             <guid>https://lwn.net/Articles/1030004/</guid>
             <pubDate>Thu, 24 Jul 2025 13:38:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Native NVIDIA support for AlmaLinux OS 9 and 10</title>
-            <link>https://lwn.net/Articles/1032753/</link>
-            <description><![CDATA[<p>The AlmaLinux project has <a
-href="https://almalinux.org/blog/2025-08-06-announcing-native-nvidia-suport/">announced</a>
-the availability of packages to enable native NVIDIA driver support,
-including CUDA and Secure Boot, for AlmaLinux&#160;9 and 10.</p>
-
-<blockquote class="bq">
-When AlmaLinux started just 5 years ago, this wouldn't have been
-possible. With NVIDIA's open source version of their graphics drivers
-things have changed.  This open source version is slowly becoming the
-flagship driver, with new products being added exclusively to it. With
-the help of some incredible people in the open source ecosystem and
-the AlmaLinux community, we were able to do something that has yet to
-be done in the EL ecosystem - ship Secure Boot signed, open source,
-NVIDIA kernel modules.
-</blockquote>
-
-<p>Full documentation is <a
-href="https://wiki.almalinux.org/documentation/nvidia.html">available
-on the AlmaLinux wiki</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1032753/</guid>
-            <pubDate>Wed, 06 Aug 2025 17:34:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
