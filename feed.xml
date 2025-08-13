@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 13:23:45 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 13:25:11 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 13:49:59 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 13:54:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,14 +427,6 @@ important subsystems in the near future.]]></description>
             <guid>https://lwn.net/Articles/1032722/</guid>
             <pubDate>Wed, 06 Aug 2025 13:41:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1032700/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and python3.12-setuptools), <b>Fedora</b> (perl-Crypt-CBC and unbound), <b>Gentoo</b> (FontForge, GPL Ghostscript, Mozilla Network Security Service (NSS), and PAM), <b>Oracle</b> (gdk-pixbuf2, jq, kernel, mod_security, ncurses, python-requests, and python3-setuptools), <b>Red Hat</b> (python-requests and socat), <b>SUSE</b> (docker, kernel-livepatch-MICRO-6-0-RT_Update_2, kernel-livepatch-MICRO-6-0-RT_Update_4, kernel-livepatch-MICRO-6-0-RT_Update_5, kernel-livepatch-MICRO-6-0-RT_Update_6, kernel-livepatch-MICRO-6-0-RT_Update_7, kernel-livepatch-MICRO-6-0_Update_2, kernel-livepatch-MICRO-6-0_Update_4, kernel-livepatch-MICRO-6-0_Update_5, kernel-livepatch-MICRO-6-0_Update_6, kubeshark-cli, libgcrypt, pam-config, perl, python-requests, python311, and python313), and <b>Ubuntu</b> (linux-raspi).]]></description>
-            <guid>https://lwn.net/Articles/1032700/</guid>
-            <pubDate>Wed, 06 Aug 2025 13:08:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
