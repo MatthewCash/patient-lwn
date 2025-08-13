@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 13:49:59 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 13:54:14 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 14:19:40 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 14:21:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -408,25 +408,6 @@ more details and highlights.</p>
             <guid>https://lwn.net/Articles/1032736/</guid>
             <pubDate>Wed, 06 Aug 2025 15:23:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A kbuild and kconfig maintainer change</title>
-            <link>https://lwn.net/Articles/1032722/</link>
-            <description><![CDATA[For eight years, Masahiro Yamada has been the sole maintainer of the
-kernel's build and configuration systems — two complex pieces of
-infrastructure that many people interact with, but few truly understand.
-Yamada has just <a
-href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8d6841d5cb20">stepped
-down from that position</a>.  Maintenance of the build system will be taken
-up by Nathan Chancellor and Nicolas Schier (in the "odd fixes" capacity),
-while the configuration system is now entirely unmaintained.
-<p>
-Thanks are due to Yamada for all that work, and to Chancellor and Schier
-for stepping up.  Hopefully a way will be found to better support these
-important subsystems in the near future.]]></description>
-            <guid>https://lwn.net/Articles/1032722/</guid>
-            <pubDate>Wed, 06 Aug 2025 13:41:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
