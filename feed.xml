@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 15:15:30 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 15:19:42 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 15:37:40 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 15:40:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Syncthing 2.0 released</title>
+            <link>https://lwn.net/Articles/1033634/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/syncthing/syncthing/releases/tag/v2.0.0">Version
+2.0</a> of <a href="https://lwn.net/Articles/861978/">Syncthing</a>, a
+continuous file synchronization utility, has been released. Notable
+changes in 2.0 include multiple connections for synchronizing metadata
+and file data, a new logging format, as well as a switch from LevelDB
+to SQLite for Syncthing's backend. This the first release in the 2.0
+series, and the release notes advise users to "<q>expect some rough
+edges and keep a sense of adventure</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1033634/</guid>
+            <pubDate>Wed, 13 Aug 2025 15:37:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1033588/</link>
@@ -392,22 +410,6 @@ his look at graphics drivers</a> on the Collabora blog.
             <guid>https://lwn.net/Articles/1032744/</guid>
             <pubDate>Wed, 06 Aug 2025 16:16:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Tuba v0.10.0 released</title>
-            <link>https://lwn.net/Articles/1032736/</link>
-            <description><![CDATA[<a href="https://github.com/GeopJr/Tuba/releases/tag/v0.10.0">Version
-0.10.0</a> of the <a href="https://tuba.geopjr.dev/">Tuba</a>
-fediverse client has been released. Notable changes in this release
-include a new post composer, an in-app web browser, search history,
-and many other refinements. See this <a
-href="https://floss.social/@Tuba/114968038689023945">thread</a> for
-more details and highlights.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1032736/</guid>
-            <pubDate>Wed, 06 Aug 2025 15:23:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
