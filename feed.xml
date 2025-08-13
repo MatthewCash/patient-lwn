@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 Aug 2025 12:34:10 +0000</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 12:41:41 +0000</lastBuildDate>
+        <pubDate>Wed, 13 Aug 2025 13:23:45 +0000</pubDate>
+        <lastBuildDate>Wed, 13 Aug 2025 13:25:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1033588/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (apache2, kernel, linux-6.1, openjdk-17, and pgpool2), <b>Fedora</b> (glib2, matrix-synapse, openjpeg, python3-docs, and python3.13), <b>Oracle</b> (gdk-pixbuf2, glibc, java-1.8.0-openjdk, kernel, libxml2, python-requests, python3.11-setuptools, and thunderbird), <b>SUSE</b> (amber-cli, apache-commons-lang3, eclipse-jgit, go1.23, go1.24, govulncheck-vulndb, grub2, icinga2, kubernetes1.23, libgcrypt, python3, python313, sccache, slurm, tiff, and webkit2gtk3), and <b>Ubuntu</b> (linux-oracle).]]></description>
+            <guid>https://lwn.net/Articles/1033588/</guid>
+            <pubDate>Wed, 13 Aug 2025 13:23:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Radicle 1.3.0 released</title>
             <link>https://lwn.net/Articles/1033446/</link>
