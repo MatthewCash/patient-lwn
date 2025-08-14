@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Aug 2025 13:00:48 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Aug 2025 13:54:16 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Aug 2025 14:10:58 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Aug 2025 14:20:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1033737/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, python3.11-setuptools, thunderbird, and toolbox), <b>Debian</b> (chromium), <b>Fedora</b> (open62541 and perl-Authen-SASL), <b>Oracle</b> (git, kernel, konsole, and webkit2gtk3), <b>SUSE</b> (framework-inputmodule-control and poppler), and <b>Ubuntu</b> (apache2, mysql-8.0, mysql-8.4, node-qs, request-tracker5, and ruby-sidekiq).]]></description>
+            <guid>https://lwn.net/Articles/1033737/</guid>
+            <pubDate>Thu, 14 Aug 2025 14:00:31 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 7, 2025</title>
             <link>https://lwn.net/Articles/1032016/</link>
