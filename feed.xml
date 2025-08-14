@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Aug 2025 00:08:10 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Aug 2025 01:39:48 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Aug 2025 02:15:38 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Aug 2025 03:13:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -422,134 +422,6 @@ support for inferring the length of certain arrays, lint messages suggesting how
             <guid>https://lwn.net/Articles/1032808/</guid>
             <pubDate>Thu, 07 Aug 2025 14:45:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 31, 2025</title>
-            <link>https://lwn.net/Articles/1031201/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1031201/">Front</a>: Becoming a Python contributor; Graphene OS; Fedora quality team; 6.16 Development statistics; Proxy execution; Run-time verification; Confidential VMs.
-            <li> <a href="https://lwn.net/Articles/1031203/">Briefs</a>: HeliumOS 10; European Tech Funding; GNU C Library 2.42; OpenPrinting; Wayback 0.1
-            <li> <a href="https://lwn.net/Articles/1031204/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1031201/</guid>
-            <pubDate>Thu, 31 Jul 2025 01:15:15 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Extending run-time verification for the kernel</title>
-            <link>https://lwn.net/Articles/1030685/</link>
-            <description><![CDATA[<p>
-There are a lot of things people expect the Linux kernel to do correctly. Some
-of these are checked by testing or static analysis; a few are ensured by
-run-time verification: checking a live property of a running Linux system. For
-example, the scheduler has a handful of different correctness properties that
-can be
-checked in this way.
-Nam Cao posted a
-<a href="https://lwn.net/ml/all/cover.1751634289.git.namcao@linutronix.de/">
-patch series</a> that aims to extend the kinds of properties that the kernel's
-<a href="https://docs.kernel.org/trace/rv/runtime-verification.html">run-time
-verification system</a> can check, by adding support for
-<a href="https://en.wikipedia.org/wiki/Linear_temporal_logic">
-linear temporal logic</a> (LTL). The patch set has seen eleven revisions since the
-<a href="https://lwn.net/ml/all/cover.1741708239.git.namcao@linutronix.de/">
-first version</a> in March&#160;2025, and recently made it into the linux-next
-tree, from where it seems likely to reach the mainline kernel soon.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1030685/</guid>
-            <pubDate>Wed, 30 Jul 2025 15:39:46 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] On becoming a Python contributor</title>
-            <link>https://lwn.net/Articles/1030821/</link>
-            <description><![CDATA[In the first keynote at
-<a href="https://ep2025.europython.eu/">EuroPython 2025</a> in Prague,
-Savannah Bailey described her path to becoming a CPython core developer in
-November 2024.  She started down that path a few years earlier and her
-talk was meant to inspire others—not to slavishly follow hers,
-but to create their own.  In the talk, entitled "You don't have to be a compiler engineer
-to work on Python", she had lots of ideas for those who
-might be thinking about contributing and are wondering how to do so.]]></description>
-            <guid>https://lwn.net/Articles/1030821/</guid>
-            <pubDate>Wed, 30 Jul 2025 13:34:03 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] A proxy-execution baby step</title>
-            <link>https://lwn.net/Articles/1030842/</link>
-            <description><![CDATA[Priority inversion comes about when a low-priority task holds a resource
-that is also needed by a high-priority task, preventing the latter from
-running.  This problem is made much worse if the low-priority task is
-unable to gain access to the CPU and, as a result, cannot complete its work
-and free the resources it holds.  Proxy execution is a potential solution
-to this problem, but it is a complex solution that has been under
-development for several years; LWN first <a href="https://lwn.net/Articles/820575/">looked
-at it</a> in 2020.  The 6.17 kernel is likely to contain an important step
-forward for this long-running project.]]></description>
-            <guid>https://lwn.net/Articles/1030842/</guid>
-            <pubDate>Tue, 29 Jul 2025 14:13:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Smaller Fedora quality team proposes cuts</title>
-            <link>https://lwn.net/Articles/1031066/</link>
-            <description><![CDATA[<p>Fedora's <a href="https://fedoraproject.org/wiki/QA">quality
-team</a> is looking to reduce the scope of test coverage and change
-the project's release criteria to drop some features from the list of
-release blockers. This is, in part, an exercise in getting rid of
-criteria, such as booting from optical media, that are less relevant. 
-It is also a necessity, since the Red Hat team focusing on Fedora
-quality assurance (QA) is only half the size it was a year ago.</p>]]></description>
-            <guid>https://lwn.net/Articles/1031066/</guid>
-            <pubDate>Mon, 28 Jul 2025 16:48:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Some 6.16 development statistics</title>
-            <link>https://lwn.net/Articles/1031161/</link>
-            <description><![CDATA[The 6.16 development cycle was another busy one, with 14,639 non-merge
-changesets pulled into the mainline — just 18&#160;commits short of the
-total for 6.15.  The <a href="https://lwn.net/Articles/1031553/">6.16 release</a> happened
-on July&#160;27, as expected.  Also as expected, LWN has put together its
-traditional look at where the code for this release came from.]]></description>
-            <guid>https://lwn.net/Articles/1031161/</guid>
-            <pubDate>Mon, 28 Jul 2025 17:05:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rethinking the Linux cloud stack for confidential VMs</title>
-            <link>https://lwn.net/Articles/1030818/</link>
-            <description><![CDATA[There is an inherent limit to the privacy of the <em>public</em>
-cloud. While Linux can isolate virtual machines (VMs) from each other,
-nothing in the system's memory is ultimately out of reach for the host cloud
-provider. To accommodate the most privacy-conscious clients, <a
-href="https://en.wikipedia.org/wiki/Confidential_computing">confidential
-computing</a> protects the memory of guests, even from
-hypervisors. But the Linux cloud stack needs to be rethought in order to host
-confidential VMs, juggling two goals that are often at odds: performance
-and security.]]></description>
-            <guid>https://lwn.net/Articles/1030818/</guid>
-            <pubDate>Fri, 25 Jul 2025 14:55:01 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Graphene OS: a security-enhanced Android build</title>
-            <link>https://lwn.net/Articles/1030004/</link>
-            <description><![CDATA[People tend to put a lot of trust into their phones.  Those devices have
-access to no end of sensitive data about our lives — our movements,
-finances, communications, and more — so phones belonging to even relatively
-low-profile people can be high-value targets.  Android devices run free
-software, at least at some levels, so it should be possible to ensure that
-they are working in their owners' interests.  Off-the-shelf Android
-installations tend to fall short of that goal.  The <a
-href="https://grapheneos.org/">GrapheneOS</a> Android rebuild is an attempt
-to improve on that situation.]]></description>
-            <guid>https://lwn.net/Articles/1030004/</guid>
-            <pubDate>Thu, 24 Jul 2025 13:38:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
