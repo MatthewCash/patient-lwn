@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 Aug 2025 14:38:56 +0000</pubDate>
-        <lastBuildDate>Thu, 14 Aug 2025 14:47:08 +0000</lastBuildDate>
+        <pubDate>Thu, 14 Aug 2025 15:14:10 +0000</pubDate>
+        <lastBuildDate>Thu, 14 Aug 2025 15:22:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -408,27 +408,6 @@ try to convince those users to come back.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gdk-pixbuf2, glibc, kernel, kernel-rt, libxml2, and opentelemetry-collector), <b>Fedora</b> (firefox, mingw-opencv, moby-engine, varnish, webkitgtk, xen, and yarnpkg), <b>Oracle</b> (firefox, gdk-pixbuf2, glibc, kernel, libblockdev, libxml2, python-requests, python3.12-setuptools, and qt5-qt3d), <b>Red Hat</b> (libxml2, pcs, and sudo), and <b>SUSE</b> (agama, chromium, dpkg, ghostscript, iperf, kubo, libIex-3_3-32, libpoppler-cpp2, libsoup, libtiff-devel-32bit, nginx, python-urllib3, ruby2.5, tgt, traefik, and traefik2).]]></description>
             <guid>https://lwn.net/Articles/1033009/</guid>
             <pubDate>Fri, 08 Aug 2025 13:26:18 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1032861/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (glibc, kernel, libxml2, python-requests, and python-setuptools), <b>Debian</b> (chromium), <b>Fedora</b> (chromium, firefox, gdk-pixbuf2, iputils, libsoup3, libssh, perl, perl-Devel-Cover, perl-PAR-Packer, polymake, and poppler), <b>Gentoo</b> (Composer and Spreadsheet-ParseExcel), <b>Oracle</b> (glibc, kernel, libxml2, python-setuptools, sqlite, and virt:rhel and virt-devel:rhel), <b>Red Hat</b> (libxml2), <b>SUSE</b> (grub2, libarchive, libgcrypt, and python311), and <b>Ubuntu</b> (cifs-utils and poppler).]]></description>
-            <guid>https://lwn.net/Articles/1032861/</guid>
-            <pubDate>Thu, 07 Aug 2025 14:35:03 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.89 released</title>
-            <link>https://lwn.net/Articles/1032808/</link>
-            <description><![CDATA[<p>
-The release of Rust 1.89 has been
-<a href="https://blog.rust-lang.org/2025/08/07/Rust-1.89.0/">announced</a>. Changes this time include
-support for inferring the length of certain arrays, lint messages suggesting how to clarify potentially confusing uses of lifetime elision in function signatures, and improvements to the C ABI. The
-<a href="https://releases.rs/docs/1.89.0/">full changelog</a> is also available.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1032808/</guid>
-            <pubDate>Thu, 07 Aug 2025 14:45:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
         </item>
     </channel>
