@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 18 Aug 2025 20:20:56 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Aug 2025 20:42:49 +0000</lastBuildDate>
+        <pubDate>Mon, 18 Aug 2025 20:51:57 +0000</pubDate>
+        <lastBuildDate>Mon, 18 Aug 2025 20:52:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The State of Python 2025</title>
+            <link>https://lwn.net/Articles/1034313/</link>
+            <description><![CDATA[The JetBrains blog presents <a
+href="https://blog.jetbrains.com/pycharm/2025/08/the-state-of-python-2025/">the
+results of the eighth annual Python Developers Survey</a>, carried out in
+partnership with the Python Software Foundation.
+<p>
+<blockquote class="bq">
+	This year, 51% of all surveyed Python developers are involved in
+	data exploration and processing, with pandas and NumPy being the
+	tools most commonly used for this.
+<p>
+	Many of us in the Python pundit space have talked about Python as
+	being divided into thirds: One-third web development, one-third
+	data science and pure science, and one-third as a catch-all bin.
+<p>
+	We need to rethink that positioning now that one of those thirds is
+	overwhelmingly the most significant portion of Python.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1034313/</guid>
+            <pubDate>Mon, 18 Aug 2025 20:51:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Git v2.51 released</title>
             <link>https://lwn.net/Articles/1034306/</link>
