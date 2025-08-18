@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 18 Aug 2025 15:48:47 +0000</pubDate>
-        <lastBuildDate>Mon, 18 Aug 2025 17:20:07 +0000</lastBuildDate>
+        <pubDate>Mon, 18 Aug 2025 17:43:40 +0000</pubDate>
+        <lastBuildDate>Mon, 18 Aug 2025 17:45:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,30 +353,6 @@ guide</a> for more on the GNU/Hurd port.</p>
             <guid>https://lwn.net/Articles/1033445/</guid>
             <pubDate>Tue, 12 Aug 2025 13:20:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Hughes: LVFS Sustainability Plan</title>
-            <link>https://lwn.net/Articles/1033335/</link>
-            <description><![CDATA[Richard Hughes, creator and maintainer of the <a
-href="https://fwupd.org/">Linux Vendor Firmware Service</a> (LVFS), has
-written a <a
-href="https://blogs.gnome.org/hughsie/2025/08/08/lvfs-sustainability-plan/">blog
-post</a> about the <a
-href="https://docs.google.com/presentation/d/1l_Rmkn2-UwOkS0XK5d6u9pi29TZpmG-upa4Lu5HuEy4/edit?usp=sharing">sustainability
-plan</a> he has put together for the service.  He is calling for the
-vendors that use the service to help fund its development and maintenance
-going forward.
-
-<blockquote class="bq">
-The Linux Foundation is kindly paying for all the hosting costs of the LVFS, and Red Hat pays for all my time — but as LVFS grows and grows that's going to be less and less sustainable longer term. We're trying to find funding to hire additional resources as a "me replacement" so that there is backup and additional attention to LVFS (and so that I can go on holiday for two weeks without needing to take a laptop with me).
-<p>
-This year there will be a fair-use quota introduced, with different sponsorship levels having a different quota allowance. Nothing currently happens if the quota is exceeded, although there will be additional warnings asking the vendor to contribute. The "associate" (free) quota is also generous, with 50,000 monthly downloads and 50 monthly uploads. This means that almost all the 140 vendors on the LVFS should expect no changes.
-</blockquote>
-<p>
-(Thanks to Paul Wise.)]]></description>
-            <guid>https://lwn.net/Articles/1033335/</guid>
-            <pubDate>Mon, 11 Aug 2025 17:03:44 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
