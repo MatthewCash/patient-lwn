@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 19 Aug 2025 20:03:35 +0000</pubDate>
-        <lastBuildDate>Tue, 19 Aug 2025 20:21:40 +0000</lastBuildDate>
+        <pubDate>Tue, 19 Aug 2025 20:33:17 +0000</pubDate>
+        <lastBuildDate>Tue, 19 Aug 2025 20:41:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Preventing domain-resurrection attacks (PyPI blog)</title>
+            <link>https://lwn.net/Articles/1034450/</link>
+            <description><![CDATA[<p>The Python Package Index (PyPI) has <a href="https://blog.pypi.org/posts/2025-08-18-preventing-domain-resurrections/">announced</a> that it is now
+checking for expired domains to try to prevent domain-resurrection
+attacks. In this type of attack, a malicious user buys an expired
+domain and uses it to take over an account by resetting the password
+associated with the email used with PyPI. Since June, PyPI has
+unverified more than 1,800 email addresses after their associated
+domains entered expiration phases.</p>
+
+<blockquote class="bq">
+<p>After an initial bulk check period that took place in April 2025,
+PyPI will check daily for any domains in use for status changes, and
+update its internal database with the most recent status.</p>
+
+<p>If a domain registration enters the redemption period, that's an
+indicator to PyPI that the previously verified email destinations may
+not be trusted, and will un-verify a previously-verified email
+address. PyPI will not issue a password reset request to addresses
+that have become unverified.</p>
+</blockquote>
+
+<p>PyPI recommends that users add a second verified email address
+"<q>from another notable domain (e.g. Gmail)</q>" to their account, if
+they do not have one already.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1034450/</guid>
+            <pubDate>Tue, 19 Aug 2025 20:33:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 142.0 released</title>
             <link>https://lwn.net/Articles/1034436/</link>
