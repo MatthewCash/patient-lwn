@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 19 Aug 2025 16:08:57 +0000</pubDate>
-        <lastBuildDate>Tue, 19 Aug 2025 16:48:57 +0000</lastBuildDate>
+        <pubDate>Tue, 19 Aug 2025 17:10:54 +0000</pubDate>
+        <lastBuildDate>Tue, 19 Aug 2025 17:18:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 142.0 released</title>
+            <link>https://lwn.net/Articles/1034436/</link>
+            <description><![CDATA[<a href="https://www.firefox.com/en-US/firefox/142.0/releasenotes/">Version
+142.0</a> of the firefox browser has been released.  Changes include a new
+link preview feature (with optional "<q>AI-generated key points</q>"), and
+a "flexible exception list" for the <a
+href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop#w_strict-enhanced-tracking-protection">strict
+tracking protection feature</a> that allows relaxing specific protections
+on sites that otherwise will not work properly.]]></description>
+            <guid>https://lwn.net/Articles/1034436/</guid>
+            <pubDate>Tue, 19 Aug 2025 17:10:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1034402/</link>
