@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 20 Aug 2025 17:02:27 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Aug 2025 17:17:36 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 20 Aug 2025 17:42:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -389,25 +389,6 @@ vulnerabilities and a smaller attack surface.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1033657/</guid>
             <pubDate>Wed, 13 Aug 2025 17:59:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Go 1.25 released</title>
-            <link>https://lwn.net/Articles/1033646/</link>
-            <description><![CDATA[<p><a href="https://go.dev/blog/go1.25">Version 1.25</a> of Go has
-been released. Notable changes include support for generating debug
-information in the <a
-href="https://dwarfstd.org/dwarf5std.html">DWARF&#160;5</a> format,
-"<a href="https://go.dev/doc/go1.25#runtime">container awareness</a>"
-when setting the maximum number of CPUs to be used, and a new <a
-href="https://go.dev/pkg/testing/synctest">testing/synctest</a>
-package with support for testing concurrent code. See the <a
-href="https://go.dev/doc/go1.25">release notes</a> for a comprehensive
-list of changes in 1.25.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1033646/</guid>
-            <pubDate>Wed, 13 Aug 2025 17:11:40 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
