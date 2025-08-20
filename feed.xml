@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 Aug 2025 17:48:48 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Aug 2025 17:51:42 +0000</lastBuildDate>
+        <pubDate>Wed, 20 Aug 2025 18:27:43 +0000</pubDate>
+        <lastBuildDate>Wed, 20 Aug 2025 18:28:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels for Wednesday</title>
+            <link>https://lwn.net/Articles/1034567/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1034570/">6.16.2</a>, <a
+href="https://lwn.net/Articles/1034571/">6.15.11</a>, and <a
+href="https://lwn.net/Articles/1034569/">6.12.43</a> stable kernels. He notes that
+this is the last release in the 6.15.y series, and recommends that
+users move to the 6.16.y kernel branch at this time.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1034567/</guid>
+            <pubDate>Wed, 20 Aug 2025 17:59:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>LibreOffice 25.8 released</title>
             <link>https://lwn.net/Articles/1034558/</link>
