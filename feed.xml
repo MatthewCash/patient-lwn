@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 Aug 2025 15:04:01 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Aug 2025 15:21:33 +0000</lastBuildDate>
+        <pubDate>Wed, 20 Aug 2025 15:25:11 +0000</pubDate>
+        <lastBuildDate>Wed, 20 Aug 2025 15:44:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -408,24 +408,6 @@ list of changes in 1.25.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1033646/</guid>
             <pubDate>Wed, 13 Aug 2025 17:11:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Syncthing 2.0 released</title>
-            <link>https://lwn.net/Articles/1033634/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/syncthing/syncthing/releases/tag/v2.0.0">Version
-2.0</a> of <a href="https://lwn.net/Articles/861978/">Syncthing</a>, a
-continuous file synchronization utility, has been released. Notable
-changes in 2.0 include multiple connections for synchronizing metadata
-and file data, a new logging format, as well as a switch from LevelDB
-to SQLite for Syncthing's backend. This the first release in the 2.0
-series, and the release notes advise users to "<q>expect some rough
-edges and keep a sense of adventure</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1033634/</guid>
-            <pubDate>Wed, 13 Aug 2025 15:37:39 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
