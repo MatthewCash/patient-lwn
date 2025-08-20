@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 Aug 2025 18:27:43 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Aug 2025 18:28:33 +0000</lastBuildDate>
+        <pubDate>Wed, 20 Aug 2025 18:49:21 +0000</pubDate>
+        <lastBuildDate>Wed, 20 Aug 2025 18:52:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Adding stubble to Ubuntu&apos;s generic Arm64 Desktop ISOs</title>
+            <link>https://lwn.net/Articles/1034579/</link>
+            <description><![CDATA[<p>Tobias Heider has <a
+href="https://discourse.ubuntu.com/t/what-s-new-for-generic-arm64-desktop-isos-in-25-10/66559">written</a>
+an article that explains changes that are coming for Ubuntu's generic
+Arm64 desktop ISO images in the 25.10 release. The current solution,
+Heider says, depends on GRUB features that are unavailable in secure
+boot mode and require adding device-specific logic to multiple
+packages. The new solution, called <a
+href="https://github.com/canonical/stubble?tab=readme-ov-file#stubble">stubble</a>,
+is derived from <tt><a href="https://www.freedesktop.org/software/systemd/man/latest/systemd-stub.html">systemd-stub</a></tt>: 
+
+<blockquote class="bq">
+<p>A bundled stubble image contains stubble itself, a Linux kernel, a
+HWID lookup table to map devices to device trees and multiple device
+trees. When grub loads this "kernel", stubble executes first, reads
+the SMBIOS table to generate HWIDs, looks for a match in the embeeded
+lookup table and loads a matching device tree before passing control
+to the actual Linux kernel.</p>
+
+<p>The elegance in this approach lies in how it interacts with the
+rest of the system. Integrating stubble happens entirely at build time
+in the kernel package. The stubble package is a build dependency for
+the kernel. After building the kernel itself, we bundle it with
+stubble and our DTBs and ship the combined binary instead. The
+resulting stubble + kernel + dtb bundle can be loaded by grub like any
+other Ubuntu kernel. No further changes in grub or other packages are
+necessary to make it work.</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1034579/</guid>
+            <pubDate>Wed, 20 Aug 2025 18:46:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three stable kernels for Wednesday</title>
             <link>https://lwn.net/Articles/1034567/</link>
@@ -379,32 +414,6 @@ the details.]]></description>
             <guid>https://lwn.net/Articles/1031713/</guid>
             <pubDate>Thu, 31 Jul 2025 14:23:37 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>NGINX adds native support for ACME protocol</title>
-            <link>https://lwn.net/Articles/1033657/</link>
-            <description><![CDATA[<p>NGINX has <a
-href="https://blog.nginx.org/blog/native-support-for-acme-protocol">announced</a>
-the preview release of the <a
-href="https://github.com/nginx/nginx-acme?tab=readme-ov-file#nginx-acme">nginx-acme</a>
-module, which adds native support to NGINX for the <a
-href="https://www.rfc-editor.org/rfc/rfc8555.html">Automatic
-Certificate Management Environment</a> (ACME) protocol:</p>
-
-<blockquote class="bq">
-NGINX's native support for ACME brings a variety of benefits that
-simplify and enhance the overall SSL/TLS certificate management
-process. Being able to configure ACME directly using NGINX directives
-drastically reduces manual errors and eliminates much of the ongoing
-overhead traditionally associated with managing SSL/TLS
-certificates. It also reduces reliance on external tools like Certbot,
-creating a more secure and streamlined workflow with fewer
-vulnerabilities and a smaller attack surface.
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1033657/</guid>
-            <pubDate>Wed, 13 Aug 2025 17:59:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
