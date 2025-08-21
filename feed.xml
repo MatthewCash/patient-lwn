@@ -9,10 +9,148 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 20 Aug 2025 20:58:49 +0000</pubDate>
-        <lastBuildDate>Wed, 20 Aug 2025 23:52:27 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 Aug 2025 01:24:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 14, 2025</title>
+            <link>https://lwn.net/Articles/1032862/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1032862/">Front</a>: Indico; Arch Linux wiki; StarDict; Python debugging; LLM assistants for kernel development; 6.17 Merge window; Signed BPF programs.
+            <li> <a href="https://lwn.net/Articles/1032864/">Briefs</a>: CalyxOS; ACME on NGINX; Debian 13; LVFS sustainability; Go 1.25; Radicle 1.3.0; Rust 1.89; Syncthing 2.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1032865/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1032862/</guid>
+            <pubDate>Thu, 14 Aug 2025 02:15:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Indico: event management using Python</title>
+            <link>https://lwn.net/Articles/1032422/</link>
+            <description><![CDATA[The <a href="https://getindico.io/">Indico</a> event-management tool has
+been in development at <a href="https://home.cern/">CERN</a> for two
+decades at this point.  The MIT-licensed web application helps organize
+conferences, meetings, workshops, and so on; it runs on Python and uses the <a
+href="https://flask.palletsprojects.com/en/stable/">Flask web framework</a>. Two software engineers on the project, Dominic
+Hollis and Tomas Roun, came to 
+<a
+href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> in Prague to talk about
+Indico, its history, and some metrics about its community.  There is a bit of a
+connection between Indico and the conference: in 2006 and 2007,
+the tool was used to manage EuroPython.]]></description>
+            <guid>https://lwn.net/Articles/1032422/</guid>
+            <pubDate>Wed, 13 Aug 2025 14:23:35 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Possible paths for signing BPF programs</title>
+            <link>https://lwn.net/Articles/1031854/</link>
+            <description><![CDATA[<p>
+BPF programs are loaded directly into the kernel.
+Even though the verifier protects the kernel from certain kinds of
+misbehavior in BPF programs, some people are still justifiably concerned about
+adding unsigned code to their kernel. A fully correct BPF program can still be
+used to expose sensitive data, for example.
+To remedy this, Blaise Boscaccy and KP Singh
+have both shared patch sets that add ways to verify cryptographic
+signatures of BPF programs, allowing users to configure their kernels to load
+only pre-approved BPF programs. This work follows on from the
+<a href="https://lwn.net/Articles/1017549/">
+discussion</a> at the
+Linux Storage, Filesystem, Memory-Management, and BPF Summit (LSFMM+BPF)
+in April and Boscaccy's
+<a href="https://lwn.net/ml/all/20250502184421.1424368-1-bboscaccy@linux.microsoft.com/">
+earlier proposal</a> of a Linux Security Module (LSM) to accomplish the same goal.
+There are
+still some fundamental disagreements over the best approach to signing BPF
+programs, however.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1031854/</guid>
+            <pubDate>Tue, 12 Aug 2025 16:31:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Arch shares its wiki strategy with Debian</title>
+            <link>https://lwn.net/Articles/1032604/</link>
+            <description><![CDATA[<p>The <a href="https://archlinux.org/">Arch Linux project</a> is
+especially well-known in the Linux community for two things: its
+rolling-release model and the quality of the documentation in the <a
+href="https://wiki.archlinux.org/title/Main_page">ArchWiki</a>. No
+matter which Linux distribution one uses, the odds are that eventually
+the ArchWiki's documentation will prove useful. The Debian project
+recognized this and has sought to improve its own documentation game
+by inviting ArchWiki maintainers Jakub Klinkovský and Vladimir
+Lavallade to <a href="https://debconf25.debconf.org/">DebConf25</a> in
+Brest, France, to speak about how Arch manages its wiki. The talk has
+already borne fruit with the launch of an effort to revamp the Debian
+wiki.</p>]]></description>
+            <guid>https://lwn.net/Articles/1032604/</guid>
+            <pubDate>Tue, 12 Aug 2025 14:52:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] StarDict sends X11 clipboard to remote servers</title>
+            <link>https://lwn.net/Articles/1032732/</link>
+            <description><![CDATA[<p>
+<a href="https://stardict-4.sourceforge.net/index_en.php">StarDict</a> is a
+GPLv3-licensed cross-platform dictionary application. It includes dictionaries
+for a number of languages, and has a rich plugin ecosystem. It also has a
+glaring security problem: while running on X11, using Debian's default configuration,
+it will send a user's text selections over unencrypted HTTP to two remote servers.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1032732/</guid>
+            <pubDate>Mon, 11 Aug 2025 16:23:11 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The rest of the 6.17 merge window</title>
+            <link>https://lwn.net/Articles/1032095/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1033167/">6.17-rc1</a> prepatch was released by
+Linus Torvalds on August&#160;10; the 6.17 merge window is now closed.
+There were 11,404 non-merge changesets pulled into the mainline this time
+around, a little over 7,000 of which came in after <a
+href="https://lwn.net/Articles/1031713/">the first-half merge-window summary</a> was
+written.  As one would expect, quite a few changes and new features were
+included in that work.]]></description>
+            <guid>https://lwn.net/Articles/1032095/</guid>
+            <pubDate>Mon, 11 Aug 2025 15:45:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Treating Python&apos;s debugging woes</title>
+            <link>https://lwn.net/Articles/1031979/</link>
+            <description><![CDATA[Debugging in Python is not like it is for some other languages, as there is
+no way to attach a debugger to a running program to try to diagnose its
+ills.  Pablo Galindo Salgado noticed that when he started programming in
+Python ten years ago or so; it bugged him enough that he helped fill the hole. The results will be delivered in October with Python&#160;3.14.
+At <a href="https://ep2025.europython.eu/">EuroPython&#160;2025</a>, he
+gave a characteristically fast-paced and humorous look at debugging and
+what will soon be possible for Python debugging—while comparing it all to
+medical diagnosis.]]></description>
+            <guid>https://lwn.net/Articles/1031979/</guid>
+            <pubDate>Fri, 08 Aug 2025 13:51:55 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] On the use of LLM assistants for kernel development</title>
+            <link>https://lwn.net/Articles/1032612/</link>
+            <description><![CDATA[By some appearances, at least, the kernel community has been relatively
+insulated from the onslaught of AI-driven software-development tools.
+There has not been a flood of vibe-coded memory-management patches — yet.
+But kernel development is, in the end, software development, and these
+tools threaten to change many aspects of how software development is done.
+In a world where companies are actively pushing their developers to use
+these tools, it is not surprising that the topic is increasingly prominent
+in kernel circles as well.  There are currently a number of ongoing
+discussions about how tools based on large language models (LLMs) fit into
+the kernel-development community.]]></description>
+            <guid>https://lwn.net/Articles/1032612/</guid>
+            <pubDate>Thu, 07 Aug 2025 15:23:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Zig version 0.15.1</title>
             <link>https://lwn.net/Articles/1034583/</link>
