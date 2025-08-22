@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 22 Aug 2025 19:12:33 +0000</pubDate>
-        <lastBuildDate>Fri, 22 Aug 2025 19:29:30 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 19:41:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -420,32 +420,6 @@ means that next week will see more noise.</q>"]]></description>
             <guid>https://lwn.net/Articles/1034158/</guid>
             <pubDate>Sun, 17 Aug 2025 23:04:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Hashimoto: We rewrote the Ghostty GTK application</title>
-            <link>https://lwn.net/Articles/1033954/</link>
-            <description><![CDATA[<p>Mitchell Hashimoto has written <a
-href="https://mitchellh.com/writing/ghostty-gtk-rewrite">a blog
-post</a> about "<q>fully embracing the GObject type system</q>" with a
-rewrite of the GTK version of <a
-href="https://ghostty.org/">Ghostty</a>:</p>
-
-<blockquote class="bq">
-In addition to memory management [improvements], we can now more
-easily create custom GTK widgets. This let us fully embrace modern GTK
-UI technologies such as Blueprint. For example, here is our terminal
-window Blueprint file. This has already led to more easily introducing
-GUI features like a new GTK titlebar tabs option, an animated border
-on bell, etc.
-</blockquote>
-
-<p>The rewrite is now the default if one builds Ghostty from source,
-and will be included in the 1.2 release that is expected in the next
-few weeks. LWN <a href="https://lwn.net/Articles/1004377/">covered</a>
-Ghostty in January.</p>]]></description>
-            <guid>https://lwn.net/Articles/1033954/</guid>
-            <pubDate>Fri, 15 Aug 2025 19:26:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
