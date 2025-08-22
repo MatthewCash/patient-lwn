@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 22 Aug 2025 19:12:33 +0000</pubDate>
-        <lastBuildDate>Fri, 22 Aug 2025 20:52:40 +0000</lastBuildDate>
+        <pubDate>Fri, 22 Aug 2025 21:01:44 +0000</pubDate>
+        <lastBuildDate>Fri, 22 Aug 2025 21:17:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FFmpeg 8.0 released</title>
+            <link>https://lwn.net/Articles/1034813/</link>
+            <description><![CDATA[<a href="https://ffmpeg.org/index.html#pr8.0">Version 8.0</a> of the FFmpeg
+audio and video toolkit has been released.
+<p>
+<blockquote class="bq">
+Thanks to several delays, and modernization of our entire infrastructure,
+this release ended up being one of our largest releases to date. In short,
+its new features are:
+<ul>
+<li>    Native decoders: APV, ProRes RAW, RealVideo 6.0, Sanyo LD-ADPCM, G.728
+<li>    VVC decoder improvements: IBC, ACT, Palette Mode
+<li>    Vulkan compute-based codecs: FFv1 (encode and decode), ProRes RAW (decode only)
+<li>    Hardware accelerated decoding: Vulkan VP9, VAAPI VVC, OpenHarmony H264/5
+<li>    Hardware accelerated encoding: Vulkan AV1, OpenHarmony H264/5
+<li>    Formats: MCC, G.728, Whip, APV
+<li>    Filters: colordetect, pad_cuda, scale_d3d11, Whisper, and others
+</ul>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1034813/</guid>
+            <pubDate>Fri, 22 Aug 2025 21:01:44 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1034755/</link>
