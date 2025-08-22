@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 22 Aug 2025 15:22:37 +0000</pubDate>
-        <lastBuildDate>Fri, 22 Aug 2025 16:23:41 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 22 Aug 2025 16:47:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -446,21 +446,6 @@ Ghostty in January.</p>]]></description>
             <guid>https://lwn.net/Articles/1033954/</guid>
             <pubDate>Fri, 15 Aug 2025 19:26:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Five Friday stable kernels</title>
-            <link>https://lwn.net/Articles/1033941/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has announced the release of the
-<a href="https://lwn.net/Articles/1033942/">6.16.1</a>,
-<a href="https://lwn.net/Articles/1033943/">6.15.10</a>,
-<a href="https://lwn.net/Articles/1033944/">6.12.42</a>,
-<a href="https://lwn.net/Articles/1033945/">6.6.102</a>, and
-<a href="https://lwn.net/Articles/1033946/">6.1.148</a> stable kernels. Get them while they're hot!
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1033941/</guid>
-            <pubDate>Fri, 15 Aug 2025 15:54:32 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
