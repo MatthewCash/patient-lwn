@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 23 Aug 2025 15:26:41 +0000</pubDate>
-        <lastBuildDate>Sat, 23 Aug 2025 18:24:32 +0000</lastBuildDate>
+        <pubDate>Sat, 23 Aug 2025 18:42:45 +0000</pubDate>
+        <lastBuildDate>Sat, 23 Aug 2025 18:46:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel 6.16.3</title>
+            <link>https://lwn.net/Articles/1034857/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1034856/">6.16.3</a> stable kernel update has been
+released.  It contains a set of ext4 filesystem fixes that are probably a
+good thing for any 6.16 ext4 user to have.]]></description>
+            <guid>https://lwn.net/Articles/1034857/</guid>
+            <pubDate>Sat, 23 Aug 2025 18:26:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>FFmpeg 8.0 released</title>
             <link>https://lwn.net/Articles/1034813/</link>
