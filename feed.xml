@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 24 Aug 2025 19:17:37 +0000</pubDate>
-        <lastBuildDate>Sun, 24 Aug 2025 23:17:53 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 24 Aug 2025 23:40:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -453,18 +453,6 @@ As a result, Git can generate packs using the path walk approach that are often 
             <guid>https://lwn.net/Articles/1034267/</guid>
             <pubDate>Mon, 18 Aug 2025 14:28:17 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.17-rc2</title>
-            <link>https://lwn.net/Articles/1034158/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1034157/">second 6.17 kernel prepatch</a> is out for
-testing.  "<q>So it's been a very calm week, and this is one of the smaller
-rc2 releases we've had lately. I'm definitely not complaining, since I've
-been jetlagged much of the week, but I have this suspicion that it just
-means that next week will see more noise.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1034158/</guid>
-            <pubDate>Sun, 17 Aug 2025 23:04:44 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
