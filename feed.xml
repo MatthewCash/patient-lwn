@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 Aug 2025 14:35:28 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Aug 2025 14:45:32 +0000</lastBuildDate>
+        <pubDate>Mon, 25 Aug 2025 14:52:54 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Aug 2025 14:56:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,14 +473,6 @@ As a result, Git can generate packs using the path walk approach that are often 
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1034306/</guid>
             <pubDate>Mon, 18 Aug 2025 20:01:49 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1034267/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (go-toolset:rhel8, kernel, and kernel-rt), <b>Fedora</b> (chromium), <b>Oracle</b> (libxml2), <b>Red Hat</b> (go-toolset:rhel8, golang, kernel, kernel-rt, openjpeg2, rsync, and tigervnc), and <b>SUSE</b> (apache-commons-lang3, chromedriver, fractal, framework_tool, go1.23-openssl, go1.24-openssl, grub2, gstreamer-devtools, gstreamer-plugins-rs, jasper, libavif, lighttpd, nginx, podman, postgresql13, postgresql14, postgresql15, postgresql16, python311-pypdf, ruby2.5, rust-keylime, tiff, tomcat, tomcat10, and tomcat11).]]></description>
-            <guid>https://lwn.net/Articles/1034267/</guid>
-            <pubDate>Mon, 18 Aug 2025 14:28:17 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
