@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 Aug 2025 19:47:03 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Aug 2025 19:51:49 +0000</lastBuildDate>
+        <pubDate>Mon, 25 Aug 2025 20:18:35 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Aug 2025 20:21:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -480,27 +480,6 @@ partnership with the Python Software Foundation.
             <guid>https://lwn.net/Articles/1034313/</guid>
             <pubDate>Mon, 18 Aug 2025 20:51:56 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Git v2.51 released</title>
-            <link>https://lwn.net/Articles/1034306/</link>
-            <description><![CDATA[The <a href="https://git-scm.com/">Git</a> distributed version-control
-system has release version 2.51, with "<q>506 non-merge commits since
-v2.50.1, contributed by 91 people, 21 of which are new faces</q>".  It
-brings multiple new features, some of which are highlighted in a <a
-href="https://github.blog/open-source/git/highlights-from-git-2-51/">post
-on the GitHub blog</a>.  It includes some performance improvements for multi-pack indexes
-(MIDXs),  a way to import and export stash entries so they can be migrated
-more easily, and smaller pack files:
-
-<blockquote class="bq">
-Git 2.51 takes the spirit of that change and goes a step further by introducing a new way to collect objects when repacking, called "path walk". Instead of walking objects in <a href="https://git-scm.com/docs/MyFirstObjectWalk#_changing_the_order">revision order</a> with Git emitting objects with their corresponding path names along the way, the path walk approach emits all objects from a given path at the same time. This approach avoids the name-hash heuristic altogether and can look for deltas within groups of objects that are known to be at the same path.
-<p>
-As a result, Git can generate packs using the path walk approach that are often significantly smaller than even those generated with the new name hash function described above. Its timings are competitive even with generating packs using the existing revision order traversal.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1034306/</guid>
-            <pubDate>Mon, 18 Aug 2025 20:01:49 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
