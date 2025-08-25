@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 24 Aug 2025 19:17:37 +0000</pubDate>
-        <lastBuildDate>Mon, 25 Aug 2025 04:27:40 +0000</lastBuildDate>
+        <pubDate>Mon, 25 Aug 2025 04:27:17 +0000</pubDate>
+        <lastBuildDate>Mon, 25 Aug 2025 04:49:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1034932/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and tomcat9), <b>Debian</b> (iperf3, mupdf, qemu, thunderbird, and unbound), <b>Fedora</b> (glab, kubernetes1.31, kubernetes1.32, kubernetes1.33, and toolbox), <b>Oracle</b> (kernel and tomcat9), <b>Red Hat</b> (firefox, kernel, kernel-rt, and squid), <b>SUSE</b> (abseil-cpp-devel, aide, flake-pilot, gdk-pixbuf, glibc, go-sendxmpp, ImageMagick, jetty-annotations, jupyter-bqplot-jupyterlab, libtiff-devel-32bit, pam, pdns-recursor, ruby3.4-rubygem-activerecord, rust-keylime, terragrunt, and thunderbird), and <b>Ubuntu</b> (linux-azure and linux-azure-fips).]]></description>
+            <guid>https://lwn.net/Articles/1034932/</guid>
+            <pubDate>Mon, 25 Aug 2025 04:27:17 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc3</title>
             <link>https://lwn.net/Articles/1034877/</link>
