@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Aug 2025 15:16:19 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Aug 2025 15:20:33 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Aug 2025 15:34:32 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Aug 2025 15:41:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GhostBSD 25.02 released</title>
+            <link>https://lwn.net/Articles/1035321/</link>
+            <description><![CDATA[<p>The GhostBSD project has released version 25.02 of the
+FreeBSD-based desktop operating system. This release brings GhostBSD
+up to date with <a
+href="https://www.freebsd.org/releases/14.3R/relnotes/">FreeBSD&#160;14.3</a>,
+includes enhancements for the Software Station package management
+application, and introduces an "<q>OS X-like</q>" desktop environment
+based on <a href="https://www.gnustep.org/">GNUstep</a> called <a
+href="https://github.com/gershwin-desktop/gershwin-desktop">Gershwin</a>:</p>
+
+<blockquote class="bq">
+<p>This early preview includes:</p>
+
+<ul class="spacylist">
+<li>GNUstep-based desktop environment with familiar OS X-style
+interface</li>
+<li>Seamless integration with GhostBSD tools through wrappers for
+installer, Software Station, Backup Station, and Update Station</li>
+<li>Support for running non-GNUstep applications alongside GNUstep
+apps</li>
+<li>Several included GNUstep applications to get you started</li>
+</ul>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/978837/">covered</a> GhostBSD
+in June 2024.</p>]]></description>
+            <guid>https://lwn.net/Articles/1035321/</guid>
+            <pubDate>Wed, 27 Aug 2025 15:25:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1035307/</link>
