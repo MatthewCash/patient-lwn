@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Aug 2025 21:13:48 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Aug 2025 21:18:02 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Aug 2025 21:18:00 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Aug 2025 21:38:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -400,27 +400,6 @@ the kernel-development community.]]></description>
             <guid>https://lwn.net/Articles/1032612/</guid>
             <pubDate>Thu, 07 Aug 2025 15:23:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Zig version 0.15.1</title>
-            <link>https://lwn.net/Articles/1034583/</link>
-            <description><![CDATA[<p>
-The Zig project has
-<a href="https://ziglang.org/download/0.15.1/release-notes.html">announced</a> version 0.15.1 of the language. The release, much like the
-<a href="https://lwn.net/Articles/1012809/">last one</a>, includes incremental progress toward the goal of completely dropping LLVM and improving compile time, as well as a handful of breaking changes as the language team wrestles with past API design. The biggest change this time around is to the standard library <tt>Reader</tt> and <tt>Writer</tt> interfaces, which have been completely rearranged in the name of performance and reducing unneeded copies.
-</p>
-
-<blockquote class="bq">
-<p>
-All existing std.io readers and writers are deprecated in favor of the newly provided <tt>std.Io.Reader</tt> and <tt>std.Io.Writer</tt> which are non-generic and have the buffer above the vtable - in other words the buffer is in the interface, not the implementation. This means that although Reader and Writer are no longer generic, they are still transparent to optimization; all of the interface functions have a concrete hot path operating on the buffer, and only make vtable calls when the buffer is full.
-</p>
-<p>
-These changes are extremely breaking. I am sorry for that, but I have carefully examined the situation and acquired confidence that this is the direction that Zig needs to go. I hope you will strap in your seatbelt and come along for the ride; it will be worth it.
-</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1034583/</guid>
-            <pubDate>Wed, 20 Aug 2025 20:58:14 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
