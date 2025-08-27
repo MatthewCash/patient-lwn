@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 Aug 2025 17:06:27 +0000</pubDate>
-        <lastBuildDate>Wed, 27 Aug 2025 17:17:17 +0000</lastBuildDate>
+        <pubDate>Wed, 27 Aug 2025 17:35:50 +0000</pubDate>
+        <lastBuildDate>Wed, 27 Aug 2025 17:41:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rosenzweig: Dissecting the Apple M1 GPU, the end</title>
+            <link>https://lwn.net/Articles/1035332/</link>
+            <description><![CDATA[<p>Alyssa Rosenzweig has written a <a
+href="https://rosenzweig.io/blog/asahi-gpu-part-n.html">blog post</a>
+about her work to help ship a "<q>great driver</q>" for the Apple M1
+GPU that supports OpenGL, Vulkan, and enables gaming with <a
+href="https://en.wikipedia.org/wiki/Proton_(software)">Proton</a>.</p>
+
+<blockquote class="bq">
+<p>We've succeeded beyond my dreams. The challenges I chased, I have
+tackled. The drivers are fully upstream in Mesa. Performance isn't too
+bad. With the Vulkan on Apple myth busted, conformant Vulkan is now
+coming to macOS via <a
+href="https://www.lunarg.com/a-vulkan-on-metal-mesa-3d-graphics-driver/">LunarG's
+KosmicKrisp</a> project building on my work.</p>
+
+<p>Satisfied, I am now stepping away from the Apple ecosystem. My
+friends in the Asahi Linux orbit will carry the torch from here.</p>
+</blockquote>
+
+<p>Rosenzweig indicates her next project will be working on Intel's
+<a href="https://www.intel.com/content/www/us/en/developer/articles/technical/introduction-to-the-xe-hpg-architecture.html">H<sup>e</sup>-HPG graphics architecture</a>. LWN <a
+href="https://lwn.net/Articles/995383/">covered</a> her talk on Apple
+M1/M2 GPU drivers in October&#160;2024.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1035332/</guid>
+            <pubDate>Wed, 27 Aug 2025 17:25:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GhostBSD 25.02 released</title>
             <link>https://lwn.net/Articles/1035321/</link>
