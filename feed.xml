@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 28 Aug 2025 14:08:36 +0000</pubDate>
-        <lastBuildDate>Thu, 28 Aug 2025 14:19:27 +0000</lastBuildDate>
+        <pubDate>Thu, 28 Aug 2025 14:18:44 +0000</pubDate>
+        <lastBuildDate>Thu, 28 Aug 2025 14:44:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,15 +380,6 @@ ongoing.</p>
             <guid>https://lwn.net/Articles/1034716/</guid>
             <pubDate>Fri, 22 Aug 2025 03:23:21 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1034650/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libarchive, mingw-sqlite, pki-deps:10.6, and tomcat), <b>Debian</b> (chromium and firefox-esr), <b>Fedora</b> (python3.6 and suricata), <b>Oracle</b> (go-toolset:rhel8, kernel, libarchive, mingw-sqlite, tomcat, and xterm), <b>Red Hat</b> (kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (aws-efs-utils, docker-machine-driver-kvm2, nova, pluto, polaris, and python310), and <b>Ubuntu</b> (ceph, gcc-10, gcc-11, gcc-12, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gkeop, linux-ibm,
- linux-ibm-6.8, linux-hwe-6.14, linux-oem-6.14, linux-ibm, linux-intel-iotg, linux-oracle, linux-raspi, linux-iot, poppler, and tiff).]]></description>
-            <guid>https://lwn.net/Articles/1034650/</guid>
-            <pubDate>Thu, 21 Aug 2025 13:56:15 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
