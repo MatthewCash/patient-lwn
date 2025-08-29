@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 29 Aug 2025 13:09:22 +0000</pubDate>
-        <lastBuildDate>Fri, 29 Aug 2025 13:16:38 +0000</lastBuildDate>
+        <pubDate>Fri, 29 Aug 2025 13:17:39 +0000</pubDate>
+        <lastBuildDate>Fri, 29 Aug 2025 13:40:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,14 +388,6 @@ its new features are:
             <guid>https://lwn.net/Articles/1034813/</guid>
             <pubDate>Fri, 22 Aug 2025 21:01:44 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1034755/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (tomcat), <b>Debian</b> (squid), <b>Fedora</b> (matrix-synapse, rust-slab, socat, and webkitgtk), <b>SUSE</b> (firefox-esr, gdk-pixbuf, gdk-pixbuf-devel, govulncheck-vulndb, rust-keylime, and wicked2nm), and <b>Ubuntu</b> (linux-nvidia, linux-oracle, linux-oracle-6.8, php7.0, php7.2, php7.4, python3.13, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and ruby-webrick).]]></description>
-            <guid>https://lwn.net/Articles/1034755/</guid>
-            <pubDate>Fri, 22 Aug 2025 13:03:06 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
