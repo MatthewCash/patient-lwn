@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 29 Aug 2025 16:18:58 +0000</pubDate>
-        <lastBuildDate>Fri, 29 Aug 2025 16:57:20 +0000</lastBuildDate>
+        <pubDate>Fri, 29 Aug 2025 17:08:42 +0000</pubDate>
+        <lastBuildDate>Fri, 29 Aug 2025 17:17:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Bcachefs goes to &quot;externally maintained&quot;</title>
+            <link>https://lwn.net/Articles/1035736/</link>
+            <description><![CDATA[Linus Torvalds has quietly <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=ebf2bfec412a">changed
+the maintainer status of bcachefs</a> to "externally maintained",
+indicating that further changes are unlikely to enter the mainline anytime
+soon.  This change also suggests, though, that the immediate removal of
+bcachefs from the mainline kernel is not in the cards.]]></description>
+            <guid>https://lwn.net/Articles/1035736/</guid>
+            <pubDate>Fri, 29 Aug 2025 17:08:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1035724/</link>
