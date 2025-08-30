@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 30 Aug 2025 18:27:00 +0000</pubDate>
-        <lastBuildDate>Sat, 30 Aug 2025 18:45:43 +0000</lastBuildDate>
+        <pubDate>Sat, 30 Aug 2025 18:53:18 +0000</pubDate>
+        <lastBuildDate>Sat, 30 Aug 2025 18:55:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -381,16 +381,6 @@ testing.  "<q>Anyway, things seem fairly normal for this phase in the
 release cycle, nothing stands out. Please keep testing,</q>"]]></description>
             <guid>https://lwn.net/Articles/1034877/</guid>
             <pubDate>Sun, 24 Aug 2025 18:29:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel 6.16.3</title>
-            <link>https://lwn.net/Articles/1034857/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1034856/">6.16.3</a> stable kernel update has been
-released.  It contains a set of ext4 filesystem fixes that are probably a
-good thing for any 6.16 ext4 user to have.]]></description>
-            <guid>https://lwn.net/Articles/1034857/</guid>
-            <pubDate>Sat, 23 Aug 2025 18:26:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
