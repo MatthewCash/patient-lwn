@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Sep 2025 08:49:38 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Sep 2025 08:50:50 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Sep 2025 09:18:59 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Sep 2025 09:23:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -342,27 +342,6 @@ PyCon&#160;2025.</p>
             <guid>https://lwn.net/Articles/1034959/</guid>
             <pubDate>Mon, 25 Aug 2025 15:29:08 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Report: the state of commercial open source</title>
-            <link>https://lwn.net/Articles/1034944/</link>
-            <description><![CDATA[The Linux Foundation, in cooperation with a couple of other groups, has <a
-href="https://www.linuxfoundation.org/research/2025-state-of-commercial-open-source">announced</a>
-the publication on the intersection of businesses and commercial
-open-source software (deemed "COSS").  Everything, it seems, is great, and
-COSS companies make a lot of money for their investors.
-<p>
-<blockquote class="bq">
-	Even more encouraging, COSS project communities continue along
-	healthy growth paths after the company receives venture funding. In
-	essence, highly valued COSS companies tend to cultivate more
-	vibrant, diverse, and integral open source ecosystems, reinforcing
-	the idea that business value and community value are tightly
-	coupled in successful COSS models.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1034944/</guid>
-            <pubDate>Mon, 25 Aug 2025 08:54:43 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
