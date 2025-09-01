@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Sep 2025 19:31:23 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Sep 2025 19:51:52 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Sep 2025 20:05:52 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Sep 2025 20:19:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME loses another executive director</title>
+            <link>https://lwn.net/Articles/1036218/</link>
+            <description><![CDATA[The GNOME Foundation has <a
+href="https://blogs.gnome.org/aday/2025/08/29/thanks-and-farewell-to-steven-deobald/">announced</a>
+that Steven Deobald will be leaving the position of Executive Director
+after just four months.
+<p>
+<blockquote class="bq">
+	We are extremely grateful to Steven for all this and more. Despite
+	these many positive achievements, Steven and the board have come to
+	the conclusion that Steven is not the right fit for the Executive
+	Director role at this time. We are therefore bidding Steven a fond
+	farewell.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1036218/</guid>
+            <pubDate>Mon, 01 Sep 2025 20:04:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1036084/</link>
