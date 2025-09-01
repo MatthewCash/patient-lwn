@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Sep 2025 14:42:08 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Sep 2025 14:43:08 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Sep 2025 14:42:55 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Sep 2025 14:53:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1036084/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (postgresql16, postgresql:16, python3.11, and thunderbird), <b>Debian</b> (firebird4.0, libcommons-lang3-java, mbedtls, nodejs, openvpn, and ruby-saml), <b>Fedora</b> (cef, chromium, docker-buildx, exiv2, firefox, rocm-rpp, and udisks2), <b>Oracle</b> (postgresql:16), <b>Red Hat</b> (fence-agents, firefox, gdk-pixbuf2, httpd, kernel, kernel-rt, libarchive, libxml2, multiple packages, postgresql, postgresql16, postgresql:15, postgresql:16, python3.11, python3.12, python39:3.9, and thunderbird), <b>Slackware</b> (udisks2), <b>SUSE</b> (go-sendxmpp, helm, ImageMagick, javamail, jq, kea, kernel, libarchive, libsoup, libssh, libxml2, openssl-3, postgresql14, postgresql15, python, python-future, systemd, and xz), and <b>Ubuntu</b> (open-vm-tools and python2.7).]]></description>
+            <guid>https://lwn.net/Articles/1036084/</guid>
+            <pubDate>Mon, 01 Sep 2025 14:42:54 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc4</title>
             <link>https://lwn.net/Articles/1036041/</link>
