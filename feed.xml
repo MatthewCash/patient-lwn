@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 01 Sep 2025 15:19:54 +0000</pubDate>
-        <lastBuildDate>Mon, 1 Sep 2025 15:40:23 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Sep 2025 15:47:23 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Sep 2025 15:52:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -335,33 +335,6 @@ own devices:
             <guid>https://lwn.net/Articles/1034989/</guid>
             <pubDate>Tue, 26 Aug 2025 05:01:35 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>PyCon US 2025 recap and recordings</title>
-            <link>https://lwn.net/Articles/1034959/</link>
-            <description><![CDATA[<p>The PyCon team has <a
-href="https://pycon.blogspot.com/2025/08/pycon-us-2025-recap-and-recordings.html">announced</a>
-that all <a href="https://www.youtube.com/watch?v=flnVc2Ke-bw&list=PL2Uw4_HvXqvb98mQjN0-rYQjdDxJ_hcrs">PyCon US 2025 recordings</a> are now available on its
-<a href="https://www.youtube.com/c/pyconus">YouTube channel</a>.</p>
-
-<blockquote class="bq">
-We had an amazing and diverse group of community members join us for
-PyCon US 2025, attending from 58 different countries! By the numbers,
-we welcomed a total attendance of 2,225 Pythonistas to the David
-L. Lawrence Convention Center. We couldn't be more grateful for all
-who supported the Python ecosystem and helped make PyCon US 2025 a
-huge success.
-</blockquote>
-
-<p>See the <a
-href="https://lwn.net/Archives/ConferenceIndex/#PyCon-2025">LWN
-conference index</a> for coverage of some of the talks from
-PyCon&#160;2025.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1034959/</guid>
-            <pubDate>Mon, 25 Aug 2025 15:29:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
