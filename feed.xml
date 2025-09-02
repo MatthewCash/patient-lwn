@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 02 Sep 2025 13:35:30 +0000</pubDate>
-        <lastBuildDate>Tue, 2 Sep 2025 13:47:07 +0000</lastBuildDate>
+        <pubDate>Tue, 02 Sep 2025 14:13:16 +0000</pubDate>
+        <lastBuildDate>Tue, 2 Sep 2025 14:19:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The hidden vulnerabilities of open source (FastCode)</title>
+            <link>https://lwn.net/Articles/1036373/</link>
+            <description><![CDATA[The FastCode site has <a
+href="https://fastcode.io/2025/09/02/the-hidden-vulnerabilities-of-open-source/">a
+lengthy article</a> on how large language models make open-source projects
+far more vulnerable to XZ-style attacks.
+<p>
+<blockquote class="bq">
+	Open source maintainers, already overwhelmed by legitimate
+	contributions, have no realistic way to counter this threat. How do
+	you verify that a helpful contributor with months of solid commits
+	isn't an LLM generated persona? How do you distinguish between
+	genuine community feedback and AI created pressure campaigns? The
+	same tools that make these attacks possible are largely
+	inaccessible to volunteer maintainers. They lack the resources,
+	skills, or time to deploy defensive processes and systems.
+<p>
+	The detection problem becomes exponentially harder when LLMs can
+	generate code that passes all existing security reviews,
+	contribution histories that look perfectly normal, and social
+	interactions that feel authentically human. Traditional code
+	analysis tools will struggle against LLM generated backdoors
+	designed specifically to evade detection. Meanwhile, the human
+	intuition that spot social engineering attacks becomes useless when
+	the "humans" are actually sophisticated language models.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1036373/</guid>
+            <pubDate>Tue, 02 Sep 2025 14:06:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1036369/</link>
