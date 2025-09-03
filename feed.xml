@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Sep 2025 13:14:34 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Sep 2025 13:17:07 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Sep 2025 13:31:00 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Sep 2025 13:44:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -362,14 +362,6 @@ apps</li>
 in June 2024.</p>]]></description>
             <guid>https://lwn.net/Articles/1035321/</guid>
             <pubDate>Wed, 27 Aug 2025 15:25:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1035307/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (node-cipher-base), <b>Fedora</b> (keylime-agent-rust and libtiff), <b>Oracle</b> (aide, kernel, mod_http2, pam, pki-deps:10.6, python-cryptography, python3, python3.12, and thunderbird), <b>SUSE</b> (cheat, ffmpeg, firebird, govulncheck-vulndb, postgresql17, tomcat, tomcat10, tomcat11, ucode-intel-20250812, and v2ray-core), and <b>Ubuntu</b> (binutils, gst-plugins-base1.0, gst-plugins-good1.0, and linux-raspi-realtime).]]></description>
-            <guid>https://lwn.net/Articles/1035307/</guid>
-            <pubDate>Wed, 27 Aug 2025 13:05:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
