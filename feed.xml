@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Sep 2025 13:31:00 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Sep 2025 13:44:44 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Sep 2025 13:46:18 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Sep 2025 13:55:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>New ELF specification for public review</title>
+            <link>https://lwn.net/Articles/1036569/</link>
+            <description><![CDATA[<p>Cary Coutant has <a
+href="https://groups.google.com/g/generic-abi/c/doY6WIIPqhU/?pli=1">announced</a>
+a <a href="https://gabi.xinuos.com/">draft for version 4.3</a> of the
+Executable and Linking Format (ELF) object file format. The
+specification was formerly part of the <a
+href="https://www.sco.com/developers/devspecs/gabi40.pdf">Unix System
+V Release 4 (SVR4) gABI document</a>:</p>
+
+<blockquote class="bq">
+<p>The last published gABI documents were the Fourth Edition and a draft
+of Edition 4.1, both published in March 1997. The ELF portions of the
+document were updated several times between 1998 and 2015, published
+online [...]</p>
+
+<p>I've published the last draft from 2015 as Version 4.2, and collected
+the several changes since then, along with new e_machine values, as
+Version 4.3.</p>
+</blockquote>
+
+<p>The source for the draft is on <a
+href="https://github.com/xinuos/gabi">GitHub</a> in <a
+href="https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html">reStructuredText</a>
+format, and Coutant has collected the mailing list discussions for
+changes in 4.3 as <a
+href="https://github.com/xinuos/gabi/issues">GitHub
+issues</a>. Thanks to Jose E. Marchesi for the tip.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1036569/</guid>
+            <pubDate>Wed, 03 Sep 2025 13:46:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1036567/</link>
