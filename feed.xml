@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Sep 2025 15:18:38 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Sep 2025 15:51:41 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Sep 2025 15:58:53 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Sep 2025 16:24:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -430,22 +430,6 @@ of the keynote is also available.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1035537/</guid>
             <pubDate>Thu, 28 Aug 2025 21:46:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernels for Thursday</title>
-            <link>https://lwn.net/Articles/1035512/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a href="https://lwn.net/Articles/1035513/">6.16.4</a>, <a
-href="https://lwn.net/Articles/1035514/">6.12.44</a>, <a
-href="https://lwn.net/Articles/1035515/">6.6.103</a>, <a
-href="https://lwn.net/Articles/1035516/">6.1.149</a>, <a
-href="https://lwn.net/Articles/1035517/">5.15.190</a>, <a
-href="https://lwn.net/Articles/1035518/">5.10.241</a>, and <a
-href="https://lwn.net/Articles/1035511/">5.4.297</a> stable Linux kernels. Each one
-contains important fixes.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1035512/</guid>
-            <pubDate>Thu, 28 Aug 2025 15:46:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
