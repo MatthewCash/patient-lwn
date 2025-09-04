@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 04 Sep 2025 00:40:35 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Sep 2025 01:19:05 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 4 Sep 2025 02:42:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -431,125 +431,6 @@ contains important fixes.</p>
             <guid>https://lwn.net/Articles/1035464/</guid>
             <pubDate>Thu, 28 Aug 2025 09:01:34 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for August 21, 2025</title>
-            <link>https://lwn.net/Articles/1033740/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1033740/">Front</a>: Debian; CPython; huge zero folio; kexec handover; FHS; Koka programming language
-            <li> <a href="https://lwn.net/Articles/1033742/">Briefs</a>: PyPI domain checks; Firefox 142.0; Git v2.51; Ghostty; LibreOffice 25.8; Zig 0.15.1; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1033743/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1033740/</guid>
-            <pubDate>Thu, 21 Aug 2025 03:01:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python, tail calls, and performance</title>
-            <link>https://lwn.net/Articles/1033373/</link>
-            <description><![CDATA[Ken Jin welcomed <a
-href="https://ep2025.europython.eu/">EuroPython&#160;2025</a> attendees to
-his talk entitled "Building a new tail-calling interpreter for Python", but
-noted that the title really should be: "Measuring the performance of
-compilers and interpreters is really hard".  Jin's efforts <a
-href="https://lwn.net/Articles/1010905/">to switch the CPython interpreter to use tail calls</a>,
-which can be optimized as regular jumps,
-initially seemed to produce an almost miraculous performance improvement.
-As his modified title suggests, the <a
-href="https://blog.nelhage.com/post/cpython-tail-call/">actual improvement
-was rather smaller</a>; there is still some performance improvement and
-there are other benefits from the change.]]></description>
-            <guid>https://lwn.net/Articles/1033373/</guid>
-            <pubDate>Wed, 20 Aug 2025 14:45:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Lucky 13: a look at Debian trixie</title>
-            <link>https://lwn.net/Articles/1033474/</link>
-            <description><![CDATA[<p>After more than two years of development, the Debian Project has <a
-href="https://www.debian.org/News/2025/20250809">released</a> its new stable version, Debian&#160;13 ("trixie"). The release comes with the usual bounty of
-upgraded packages and more than 14,000 new packages; it also debuts <a
-href="https://lwn.net/Articles/1017315/">Advanced Package Tool
-(APT)&#160;3.0</a> as the default package manager and makes 64-bit
-<span class="nobreak">RISC-V</span> a supported architecture. There are few surprises with trixie,
-which is exactly what many Linux users are hoping for&mdash;a free
-operating system that just works as expected.</p>]]></description>
-            <guid>https://lwn.net/Articles/1033474/</guid>
-            <pubDate>Wed, 20 Aug 2025 13:34:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The Koka programming language</title>
-            <link>https://lwn.net/Articles/1033050/</link>
-            <description><![CDATA[<p>
-Statically typed programming languages can help catch mismatches between the kinds of
-values a program is intended to manipulate, and the values it actually manipulates.
-While there have been many bytes spent on discussions of whether this is worth
-the effort, some programming language designers believe that the type checking
-in current languages
-does not go far enough.
-<a href="https://koka-lang.github.io/koka/doc/index.html">
-Koka</a>, an
-experimental functional programming language, extends its type system
-with an
-<a href="https://en.wikipedia.org/wiki/Effect_system">
-effect system</a> that tracks the side-effects a program will have in the
-course of producing a value.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1033050/</guid>
-            <pubDate>Tue, 19 Aug 2025 14:25:00 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Kexec handover and the live update orchestrator</title>
-            <link>https://lwn.net/Articles/1033364/</link>
-            <description><![CDATA[Rebooting a computer ordinarily brings an abrupt end to any state built up
-by the old system; the new kernel starts from scratch.  There are, however,
-people who would like to be able to reboot their systems without
-disrupting the workloads running therein.  Various developers are currently
-partway through the project of adding this capability, in the form of
-"kexec handover" and the "live update orchestrator", to the kernel.]]></description>
-            <guid>https://lwn.net/Articles/1033364/</guid>
-            <pubDate>Mon, 18 Aug 2025 18:37:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Finding a successor to the FHS</title>
-            <link>https://lwn.net/Articles/1032947/</link>
-            <description><![CDATA[<p>The purpose of the <a
-href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">Filesystem
-Hierarchy Standard</a> (FHS) is to provide a specification for
-filesystem layout; it specifies the location for files and directories
-on a Linux system to simplify application development for multiple
-distributions. In its heyday it had some success at this, but the
-standard has been frozen in time since 2015, and much has changed
-since then. There is a <span class="nobreak">slow-moving</span> effort
-to revive the FHS and create a FHS&#160;4.0, but a recent discussion
-among Fedora developers also raised the possibility of standardizing
-on the suggestions in systemd's <a
-href="https://www.freedesktop.org/software/systemd/man/latest/file-hierarchy.html"><tt>file-hierarchy</tt></a>
-documentation, which has now been added to the Linux Userspace API
-(UAPI) Group's <a
-href="https://uapi-group.org/specifications/">specifications</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1032947/</guid>
-            <pubDate>Fri, 15 Aug 2025 14:33:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Simpler management of the huge zero folio</title>
-            <link>https://lwn.net/Articles/1033058/</link>
-            <description><![CDATA[One might imagine that managing a page full of zeroes would be a relatively
-straightforward task; there is, after all, no data of note that must be
-preserved there.  The management of the huge zero folio in the kernel,
-though, shows that life is often not as simple as it seems.  Tradeoffs
-between conflicting objectives have driven the design of this core
-functionality in different directions over the years, but much of the
-associated complexity may be about to go away.]]></description>
-            <guid>https://lwn.net/Articles/1033058/</guid>
-            <pubDate>Thu, 14 Aug 2025 14:38:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
