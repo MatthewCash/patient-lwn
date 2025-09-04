@@ -8,11 +8,133 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Sep 2025 23:15:50 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Sep 2025 23:51:51 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Sep 2025 00:40:35 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Sep 2025 01:19:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 28, 2025</title>
+            <link>https://lwn.net/Articles/1034604/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1034604/">Front</a>: Groklaw takeover; CRL cache sharing; browsers and XSLT; Microdot; restartable sequences; shadow-stack control
+            <li> <a href="https://lwn.net/Articles/1034606/">Briefs</a>: Android restrictions; Arch services; GhostBSD 25.02; FFmpeg 8.0; PyCon videos; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1034607/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1034604/</guid>
+            <pubDate>Thu, 28 Aug 2025 00:20:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The tangled web of XSLT browser support</title>
+            <link>https://lwn.net/Articles/1034560/</link>
+            <description><![CDATA[<p>The <a href="https://en.wikipedia.org/wiki/XSLT">Extensible
+Stylesheet Language Transformations</a> (XSLT) language is used by web
+browsers to style XML content to make it easily readable; XSLT is part of the
+<a href="https://html.spec.whatwg.org/multipage/">HTML living
+standard</a> that is maintained by the <a
+href="https://whatwg.org/">Web Hypertext Application Technology
+Working Group</a> (WHATWG). Only a small fraction of web sites serve
+content that requires web browsers to support XSLT, in part because
+major browser implementations have neglected the technology over the past 25
+years. Now, it seems, they would like to rid themselves of it
+entirely. A <a href="https://issues.chromium.org/issues/435623334">plan</a>
+to disable XSLT in <a href="https://www.chromium.org/blink/">Blink</a> (Chrome's rendering engine) and a <a
+href="https://github.com/whatwg/html/pull/11563">pull request</a> by
+a Google Chrome developer to remove mentions of the specification from
+the HTML standard have been met with opposition, but arguments in
+favor of XSLT have proven ineffective.</p>]]></description>
+            <guid>https://lwn.net/Articles/1034560/</guid>
+            <pubDate>Wed, 27 Aug 2025 17:03:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Shadow-stack control in clone3()</title>
+            <link>https://lwn.net/Articles/1034442/</link>
+            <description><![CDATA[Shadow stacks are a control-flow-integrity feature designed to defend
+against exploits that manipulate a thread's call stack.  The kernel first
+<a href="https://lwn.net/Articles/926649/">gained support for hardware-implemented shadow
+stacks</a>, for the x86 architecture, in the 6.6 release; 64-bit Arm
+support followed in 6.13.  This feature does not give user space much
+control over the allocation of shadow stacks for new threads, though; a <a
+href="https://lwn.net/ml/all/20250819-clone3-shadow-stack-v19-0-bc957075479b@kernel.org">patch
+series</a> from Mark Brown may, after many attempts, finally be about
+to change that situation.]]></description>
+            <guid>https://lwn.net/Articles/1034442/</guid>
+            <pubDate>Tue, 26 Aug 2025 07:16:52 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Linux&apos;s missing CRL infrastructure</title>
+            <link>https://lwn.net/Articles/1033809/</link>
+            <description><![CDATA[<p>
+In July 2024,
+<a href="https://letsencrypt.org/">
+Let's Encrypt</a>, the nonprofit TLS certificate authority (CA),
+<a href="https://lwn.net/Articles/982965/">
+announced</a>
+that it would be ending support for the
+<a href="https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol">
+online certificate status protocol</a>
+(OCSP), which is used to determine when a server's signing certificate has been
+revoked. This prevents a compromised key from being used to impersonate a web
+server.
+The organization cited privacy concerns, and recommended that people
+rely on
+<a href="https://en.wikipedia.org/wiki/Certificate_revocation_list">
+certificate revocation lists</a> (CRLs)
+instead. On August&#160;6, Let's Encrypt
+followed through and disabled its OCSP service. This poses a
+problem for Linux systems that must now rely on CRLs because, unlike on other
+operating systems, there is no standardized way for Linux programs to share a
+CRL cache.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1033809/</guid>
+            <pubDate>Mon, 25 Aug 2025 14:52:54 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The &quot;impossibly small&quot; Microdot web framework</title>
+            <link>https://lwn.net/Articles/1034121/</link>
+            <description><![CDATA[The <a
+href="https://github.com/miguelgrinberg/microdot?tab=readme-ov-file#microdot">Microdot</a>
+web framework is quite small, as its name would imply; it supports both
+standard CPython and <a href="https://micropython.org/">MicroPython</a>,
+so it can be used on systems ranging from internet-of-things (IoT) devices
+all the way up to large, cloudy servers.  It was developed by Miguel
+Grinberg, who gave a presentation about it at <a
+href="https://ep2025.europython.eu/">EuroPython&#160;2025</a>.  His name
+may sound familiar from his well-known <a
+href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world">Flask
+Mega-Tutorial</a>, which has introduced many to the <a
+href="https://flask.palletsprojects.com/en/stable/">Flask</a> lightweight Python-based
+web framework.  It should come as no surprise, then, that Microdot is
+inspired by its rather larger cousin, so Flask enthusiasts will find much
+to like in Microdot—and will come up to speed quickly should their needs turn
+toward smaller systems.]]></description>
+            <guid>https://lwn.net/Articles/1034121/</guid>
+            <pubDate>Fri, 22 Aug 2025 14:22:50 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Bringing restartable sequences out of the niche</title>
+            <link>https://lwn.net/Articles/1033955/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/697979/">restartable sequences</a> feature, which
+was added to the 4.18 kernel in 2018, exists to enable better performance
+in certain types of threaded applications.  While there are users for
+restartable sequences, they tend to be relatively specialized code; this is
+not a tool that most application developers reach for.  Over time, though,
+the use of restartable sequences has grown, and it looks to grow further as
+the feature is tied to new capabilities provided by the kernel.  As
+restartable sequences become less of a niche feature, though, some problems
+have turned up; fixing one of them may involve an ABI change visible in
+user space.]]></description>
+            <guid>https://lwn.net/Articles/1033955/</guid>
+            <pubDate>Thu, 21 Aug 2025 16:12:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Home Assistant 2025.9 released</title>
             <link>https://lwn.net/Articles/1036635/</link>
