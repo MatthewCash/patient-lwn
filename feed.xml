@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 05 Sep 2025 13:40:28 +0000</pubDate>
-        <lastBuildDate>Fri, 5 Sep 2025 13:51:51 +0000</lastBuildDate>
+        <pubDate>Fri, 05 Sep 2025 14:07:26 +0000</pubDate>
+        <lastBuildDate>Fri, 5 Sep 2025 14:17:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>No more 32-bit Firefox support</title>
+            <link>https://lwn.net/Articles/1036856/</link>
+            <description><![CDATA[Mozilla has <a
+href="https://blog.mozilla.org/futurereleases/2025/09/05/firefox-32-bit-linux-support-to-end-in-2026/">announced</a>
+that support for the Firefox browser on 32-bit systems ends with
+version&#160;144.  "<q>For users who cannot transition immediately, Firefox
+ESR 140 will remain available — including 32-bit builds — and will continue
+to receive security updates until at least September 2026.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1036856/</guid>
+            <pubDate>Fri, 05 Sep 2025 13:51:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Seven new stable kernels</title>
             <link>https://lwn.net/Articles/1036785/</link>
