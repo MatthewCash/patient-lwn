@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Sep 2025 19:35:31 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Sep 2025 19:51:40 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Sep 2025 20:15:55 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Sep 2025 20:21:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -424,25 +424,6 @@ far more vulnerable to XZ-style attacks.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, mod_http2, postgresql, postgresql:15, and python39:3.9), <b>Debian</b> (libsndfile), <b>Mageia</b> (ceph, glibc, and golang), <b>Oracle</b> (postgresql and python39:3.9), <b>Red Hat</b> (aide, postgresql:12, postgresql:13, postgresql:15, and postgresql:16), <b>SUSE</b> (git, govulncheck-vulndb, jetty-minimal, nginx, python-future, and ruby2.5), and <b>Ubuntu</b> (imagemagick).]]></description>
             <guid>https://lwn.net/Articles/1036369/</guid>
             <pubDate>Tue, 02 Sep 2025 13:35:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNOME loses another executive director</title>
-            <link>https://lwn.net/Articles/1036218/</link>
-            <description><![CDATA[The GNOME Foundation has <a
-href="https://blogs.gnome.org/aday/2025/08/29/thanks-and-farewell-to-steven-deobald/">announced</a>
-that Steven Deobald will be leaving the position of Executive Director
-after just four months.
-<p>
-<blockquote class="bq">
-	We are extremely grateful to Steven for all this and more. Despite
-	these many positive achievements, Steven and the board have come to
-	the conclusion that Steven is not the right fit for the Executive
-	Director role at this time. We are therefore bidding Steven a fond
-	farewell.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1036218/</guid>
-            <pubDate>Mon, 01 Sep 2025 20:04:35 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
