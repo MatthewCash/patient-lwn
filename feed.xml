@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Sep 2025 16:11:10 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Sep 2025 17:41:48 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Sep 2025 17:45:45 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Sep 2025 17:52:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>npm debug and chalk packages compromised (Aikido)</title>
+            <link>https://lwn.net/Articles/1037167/</link>
+            <description><![CDATA[The Aikido blog <a
+href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised">describes</a>
+an apparently ongoing series of phishing attacks against NPM package
+maintainers, resulting in the uploading of compromised versions of heavily
+used packages:
+<p>
+<blockquote class="bq">
+	All together, these packages have more than 2 billion downloads per
+	week.
+<p>
+	The packages were updated to contain a piece of code that would be
+	executed on the client of a website, which silently intercepts
+	crypto and web3 activity in the browser, manipulates wallet
+	interactions, and rewrites payment destinations so that funds and
+	approvals are redirected to attacker-controlled accounts without
+	any obvious signs to the user.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1037167/</guid>
+            <pubDate>Mon, 08 Sep 2025 17:45:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1037157/</link>
