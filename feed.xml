@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Sep 2025 13:49:30 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Sep 2025 14:20:17 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Sep 2025 14:32:05 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Sep 2025 14:45:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1037157/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, libhtp, modsecurity-apache, shibboleth-sp, and wireless-regdb), <b>Fedora</b> (chromium, kea, tcpreplay, and yq), <b>Mageia</b> (rootcerts, nspr, nss &amp; firefox and thunderbird), <b>Red Hat</b> (python3), and <b>SUSE</b> (7zip, chromedriver, go1.25, libQt5Pdf5, libsixel-bash-completion, libsoup2, libwireshark18, netty, rav1e, and trivy).]]></description>
+            <guid>https://lwn.net/Articles/1037157/</guid>
+            <pubDate>Mon, 08 Sep 2025 14:32:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc5</title>
             <link>https://lwn.net/Articles/1037072/</link>
