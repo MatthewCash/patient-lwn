@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Sep 2025 16:48:09 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Sep 2025 17:17:03 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Sep 2025 17:33:34 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Sep 2025 17:39:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A new pile of stable kernels</title>
+            <link>https://lwn.net/Articles/1037359/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1037360/">6.16.6</a>,
+<a href="https://lwn.net/Articles/1037361/">6.12.46</a>,
+<a href="https://lwn.net/Articles/1037362/">6.6.105</a>,
+<a href="https://lwn.net/Articles/1037363/">6.1.151</a>,
+<a href="https://lwn.net/Articles/1037364/">5.15.192</a>,
+<a href="https://lwn.net/Articles/1037365/">5.10.243</a>,
+and <a href="https://lwn.net/Articles/1037366/">5.4.299</a>
+stable kernel updates have been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1037359/</guid>
+            <pubDate>Tue, 09 Sep 2025 17:30:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Anaconda WebUI: progress update and roadmap</title>
             <link>https://lwn.net/Articles/1037349/</link>
