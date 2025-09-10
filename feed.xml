@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Sep 2025 13:05:43 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Sep 2025 13:15:58 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Sep 2025 13:21:01 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Sep 2025 13:38:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -441,15 +441,6 @@ issues</a>. Thanks to Jose E. Marchesi for the tip.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1036569/</guid>
             <pubDate>Wed, 03 Sep 2025 13:46:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1036567/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (httpd, kernel, and kernel-rt), <b>Debian</b> (python-eventlet and python-h2), <b>Mageia</b> (aide, gnutls, tomcat, and vim), <b>Oracle</b> (httpd, mod_http2, postgresql:15, python3.11, python3.12, python3.9, and udisks2), <b>Red Hat</b> (kernel, postgresql, postgresql:12, and postgresql:15), <b>SUSE</b> (dcmtk, jupyter-bqplot-jupyterlab, kured, libudisks2-0, munge, python-eventlet, python-future, python311-eventlet, rekor, traefik2, and ucode-intel), and <b>Ubuntu</b> (linux-aws, linux-azure-5.15, linux-gcp-6.8, linux-gke, linux-gkeop, linux-hwe-6.8, linux-nvidia,
- linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, linux-gke, linux-ibm-5.15, linux-kvm, and protobuf).]]></description>
-            <guid>https://lwn.net/Articles/1036567/</guid>
-            <pubDate>Wed, 03 Sep 2025 13:03:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
