@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Sep 2025 18:46:51 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Sep 2025 18:48:34 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Sep 2025 19:11:09 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Sep 2025 19:16:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -345,19 +345,6 @@ have turned up; fixing one of them may involve an ABI change visible in
 user space.]]></description>
             <guid>https://lwn.net/Articles/1033955/</guid>
             <pubDate>Thu, 21 Aug 2025 16:12:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Home Assistant 2025.9 released</title>
-            <link>https://lwn.net/Articles/1036635/</link>
-            <description><![CDATA[<a
-href="https://www.home-assistant.io/blog/2025/09/03/release-20259/">Version
-2025.9</a> of the Home Assistant home automation system has been released.
-Changes include a new experimental dashboard that is eventually meant to
-become the default, a number of tile-card improvements, a reworked
-automation editor, several new integrations, and more.]]></description>
-            <guid>https://lwn.net/Articles/1036635/</guid>
-            <pubDate>Wed, 03 Sep 2025 19:02:05 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
