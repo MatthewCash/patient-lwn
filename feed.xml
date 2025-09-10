@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Sep 2025 16:33:23 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Sep 2025 16:46:47 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Sep 2025 16:48:55 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Sep 2025 16:57:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -359,47 +359,6 @@ automation editor, several new integrations, and more.]]></description>
             <guid>https://lwn.net/Articles/1036635/</guid>
             <pubDate>Wed, 03 Sep 2025 19:02:05 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Niri 25.08 released</title>
-            <link>https://lwn.net/Articles/1036625/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/YaLTeR/niri/releases/tag/v25.08">Version
-25.08</a> of the niri scrollable-tiling Wayland compositor has been
-released. Notable changes include <a
-href="https://github.com/Supreeeme/xwayland-satellite?tab=readme-ov-file#xwayland-satellite">xwayland-satellite</a>
-integration, modal exit confirmation, and the introduction of basic
-support for screen readers:</p>
-
-<blockquote class="bq">
-<p>A <a
-href="https://fireborn.mataroa.blog/blog/i-want-to-love-linux-it-doesnt-love-me-back-post-1-built-for-control-but-not-for-people/">series
-of posts</a> by fireborn earlier this year on the screen reader
-situation in Linux got me curious: how <em>does</em> one support
-screen readers in a Wayland compositor? The documentation is
-unfortunately scarce and difficult to find. Thankfully, <a
-href="https://github.com/DataTriny">@DataTriny</a> from the <a
-href="https://accesskit.dev/">AccessKit</a> project came across <a
-href="https://github.com/YaLTeR/niri/issues/1904">my issue</a>,
-pointed me at the right protocols, and answered a lot of my questions.</p>
-
-<p>So, as of this release, niri has basic support for screen readers!
-We implement the <tt>org.freedesktop.a11y.KeyboardMonitor</tt> D-Bus
-interface for <a href="https://orca.gnome.org/">Orca</a> to listen and
-grab keyboard keys, and we expose the main niri UI elements via
-AccessKit. [...]</p>
-
-<p>The current screen reader support and further considerations are
-documented on the new <a href="https://yalter.github.io/niri/Accessibility.html">Accessibility</a> wiki page.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1025866/">covered</a> niri in
-July.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1036625/</guid>
-            <pubDate>Wed, 03 Sep 2025 16:46:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
