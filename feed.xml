@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Sep 2025 15:33:15 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Sep 2025 15:51:52 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Sep 2025 16:17:38 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Sep 2025 16:23:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -419,25 +419,6 @@ for all updates since 12.3.</p>
             <guid>https://lwn.net/Articles/1036624/</guid>
             <pubDate>Wed, 03 Sep 2025 16:26:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Announcing the Rust Innovation Lab</title>
-            <link>https://lwn.net/Articles/1035169/</link>
-            <description><![CDATA[<p>
-During the opening of RustConf 2025 in Seattle, Washington,
-the Rust Foundation announced 
-<a href="https://rustfoundation.org/rust-innovation-lab/">
-a new initiative</a> to provide financial and administrative support to open-source Rust projects. The first project to benefit from the new Rust Innovation Lab is
-<a href="https://github.com/rustls/rustls">
-Rustls</a>, an implementation of TLS in Rust. The foundation welcomes inquiries from other projects. Dr. Rebecca Rumbul, Executive Director of the Rust Foundation said:
-</p>
-
-<blockquote class="bq">
-Rustls is hopefully the first of many really good [...] projects that will find a home in the foundation.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1035169/</guid>
-            <pubDate>Wed, 03 Sep 2025 16:14:41 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
