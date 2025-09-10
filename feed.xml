@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Sep 2025 16:17:38 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Sep 2025 16:23:29 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Sep 2025 16:33:23 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Sep 2025 16:46:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -399,25 +399,6 @@ July.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1036625/</guid>
             <pubDate>Wed, 03 Sep 2025 16:46:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Linux From Scratch 12.4 released</title>
-            <link>https://lwn.net/Articles/1036624/</link>
-            <description><![CDATA[<p><a href="https://www.linuxfromscratch.org/lfs/view/12.4/">Version
-12.4</a> of Linux From Scratch (LFS) and Beyond Linux From Scratch
-(BLFS) have been <a
-href="https://lists.linuxfromscratch.org/sympa/arc/lfs-announce/2025-09/msg00000.html">released</a>. LFS
-provides step-by-step instructions on building a customized Linux
-system entirely from source, and BLFS helps to extend an LFS
-installation into a more usable system. Notable changes in this
-release include updates to GNU Binutils 2.45, GCC 15.2, GNU C Library
-(glibc) 2.42, and Linux 6.15.1. See the <a
-href="https://www.linuxfromscratch.org/lfs/view/12.4/chapter01/changelog.html">Changelog</a>
-for all updates since 12.3.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1036624/</guid>
-            <pubDate>Wed, 03 Sep 2025 16:26:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
