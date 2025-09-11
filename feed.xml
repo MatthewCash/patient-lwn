@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 11 Sep 2025 15:16:18 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Sep 2025 15:18:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 11 Sep 2025 15:39:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,22 +367,6 @@ to receive security updates until at least September 2026.</q>"]]></description>
             <guid>https://lwn.net/Articles/1036856/</guid>
             <pubDate>Fri, 05 Sep 2025 13:51:22 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable kernels</title>
-            <link>https://lwn.net/Articles/1036785/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1036786/">6.16.5</a>, <a
-href="https://lwn.net/Articles/1036787/">6.12.45</a>, <a
-href="https://lwn.net/Articles/1036788/">6.6.104</a>, <a
-href="https://lwn.net/Articles/1036789/">6.1.150</a>, <a
-href="https://lwn.net/Articles/1036790/">5.15.191</a>, <a
-href="https://lwn.net/Articles/1036791/">5.10.242</a>, and <a
-href="https://lwn.net/Articles/1036792/">5.4.298</a> stable kernels.  Each contains
-important fixes throughout the kernel tree; users should upgrade.]]></description>
-            <guid>https://lwn.net/Articles/1036785/</guid>
-            <pubDate>Thu, 04 Sep 2025 15:18:36 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
