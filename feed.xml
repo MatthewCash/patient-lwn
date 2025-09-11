@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 11 Sep 2025 14:10:02 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Sep 2025 14:19:32 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Sep 2025 14:34:04 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Sep 2025 14:42:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>How FOSS Projects Handle Legal Takedown Requests (F-Droid)</title>
+            <link>https://lwn.net/Articles/1037703/</link>
+            <description><![CDATA[The F-Droid project has <a
+href="https://f-droid.org/en/2025/09/10/how-foss-projects-handle-legal-takedown-requests.html">some
+advice for free-software projects</a> on how to deal with takedown
+requests.
+<p>
+<blockquote class="bq">
+	As part of our legal resilience research, we spoke with a range of
+	legal experts, software freedom advocates, and maintainers of
+	mature FOSS infrastructure to understand how others manage these
+	moments. In this article, we share what we learned, and how F-Droid
+	is incorporating these lessons into its own approach.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1037703/</guid>
+            <pubDate>Thu, 11 Sep 2025 14:34:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for September 4, 2025</title>
             <link>https://lwn.net/Articles/1035384/</link>
