@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 11 Sep 2025 14:45:20 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Sep 2025 14:52:29 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Sep 2025 15:16:18 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Sep 2025 15:18:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1037777/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (python3.12-cryptography), <b>Debian</b> (chromium, hsqldb1.8.0, and imagemagick), <b>Fedora</b> (bustle, cef, maturin, rust-busd, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-monitord, rust-monitord-exporter, rustup, tuigreet, and wireshark), <b>Oracle</b> (kernel, microcode_ctl, and python3.12-cryptography), <b>Red Hat</b> (httpd:2.4 and multiple packages), <b>SUSE</b> (coreutils, curl, dpkg, ffmpeg-4, glib2, gnutls, go1.23-openssl, go1.24-openssl, go1.25-openssl, grub2, ImageMagick, jbigkit, kernel, libxslt, Mesa, opensc, opera, perl-JSON-XS, polkit, postgresql16, protobuf, python311, python311-deepdiff, sqlite3, ucode-intel, and warewulf4), and <b>Ubuntu</b> (bind9 and libxml2).]]></description>
+            <guid>https://lwn.net/Articles/1037777/</guid>
+            <pubDate>Thu, 11 Sep 2025 15:12:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>How FOSS Projects Handle Legal Takedown Requests (F-Droid)</title>
             <link>https://lwn.net/Articles/1037703/</link>
