@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 12 Sep 2025 13:27:02 +0000</pubDate>
-        <lastBuildDate>Fri, 12 Sep 2025 13:52:27 +0000</lastBuildDate>
+        <pubDate>Fri, 12 Sep 2025 13:54:10 +0000</pubDate>
+        <lastBuildDate>Fri, 12 Sep 2025 14:18:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1037919/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (cups, imagemagick, libcpanel-json-xs-perl, and libjson-xs-perl), <b>Fedora</b> (checkpointctl, chromium, civetweb, glycin, kernel, libssh, ruff, rust-secret-service, snapshot, and uv), <b>Mageia</b> (curl), <b>Red Hat</b> (kernel), <b>SUSE</b> (cups, curl, perl-Cpanel-JSON-XS, regionServiceClientConfigAzure, regionServiceClientConfigEC2, regionServiceClientConfigGCE, trivy, and xen), and <b>Ubuntu</b> (cups, node-cipher-base, and qemu).]]></description>
+            <guid>https://lwn.net/Articles/1037919/</guid>
+            <pubDate>Fri, 12 Sep 2025 13:54:10 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Six stable kernels patching the VMScape Spectre variant</title>
             <link>https://lwn.net/Articles/1037788/</link>
@@ -373,19 +381,6 @@ updates "<q>until at least September 2026</q>".</p>
             <guid>https://lwn.net/Articles/1036907/</guid>
             <pubDate>Fri, 05 Sep 2025 14:19:32 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>No more 32-bit Firefox support</title>
-            <link>https://lwn.net/Articles/1036856/</link>
-            <description><![CDATA[Mozilla has <a
-href="https://blog.mozilla.org/futurereleases/2025/09/05/firefox-32-bit-linux-support-to-end-in-2026/">announced</a>
-that support for the Firefox browser on 32-bit systems ends with
-version&#160;144.  "<q>For users who cannot transition immediately, Firefox
-ESR 140 will remain available — including 32-bit builds — and will continue
-to receive security updates until at least September 2026.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1036856/</guid>
-            <pubDate>Fri, 05 Sep 2025 13:51:22 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
