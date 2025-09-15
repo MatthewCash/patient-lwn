@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Sep 2025 16:47:07 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Sep 2025 17:32:42 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Sep 2025 17:51:37 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Sep 2025 17:52:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Varnish 8.0.0 and bonus project news</title>
+            <link>https://lwn.net/Articles/1038242/</link>
+            <description><![CDATA[<a
+href="https://varnish-cache.org/releases/rel8.0.0.html#rel8-0-0">Version
+8.0.0</a> of <a
+href="https://varnish-cache.org/intro/index.html#intro">Varnish Cache</a>
+has been released. In addition to a number
+of changes to <tt>varnishd</tt> parameters, the ability to access some
+runtime parameters using the Varnish Configuration Language, and other
+improvements, 8.0.0 comes with big news; the project is forming an
+organization called a <a
+href="https://frivillighed.dk/foreningsportalen/om-foreningsportalen/the-association-portal">forening</a>
+that will set out formal governance for the project.</p>
+
+<p>The move also comes with a name change due to legal difficulties in
+securing the Varnish Cache name:</p>
+
+<blockquote class="bq">
+<p>The new association and the new project will be named "The Vinyl
+Cache Project", and this release 8.0.0, will be the last under the
+"Varnish Cache" name. The next release, in March will be under the new
+name, and will include compatility scripts, to make the transition as
+smooth as possible for everybody.</p>
+
+<p>I want to make it absolutely clear that this is 100% a mess of my
+making: I should have insisted on a firm written agreement about the
+name sharing, but I did not.</p>
+
+<p>I will also state for the record, that there are no hard feelings
+between Varnish Software and the FOSS project.</p>
+
+<p>Varnish Software has always been, and still is, an important and
+valued contributor to the FOSS project, but sometimes even friends can
+make a mess of a situation.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1038242/</guid>
+            <pubDate>Mon, 15 Sep 2025 17:51:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1038231/</link>
@@ -321,30 +361,6 @@ changes in April.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Debian</b> (openafs and qemu), <b>Fedora</b> (buildah, containers-common, podman, python-flask, and snapshot), <b>Mageia</b> (postgresql, python-django, and udisks2), <b>Oracle</b> (kernel and libxml2), <b>Red Hat</b> (apache-commons-beanutils, firefox, httpd, httpd:2.4, kernel, kernel-rt, mod_http2, qt5-qt3d, and thunderbird), <b>Slackware</b> (libxml2), <b>SUSE</b> (firebird, go1.25-openssl, ImageMagick, microcode_ctl, netty, netty-tcnative, and ovmf), and <b>Ubuntu</b> (libetpan and postgresql-14, postgresql-16, postgresql-17).]]></description>
             <guid>https://lwn.net/Articles/1037308/</guid>
             <pubDate>Tue, 09 Sep 2025 13:22:33 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>npm debug and chalk packages compromised (Aikido)</title>
-            <link>https://lwn.net/Articles/1037167/</link>
-            <description><![CDATA[The Aikido blog <a
-href="https://www.aikido.dev/blog/npm-debug-and-chalk-packages-compromised">describes</a>
-an apparently ongoing series of phishing attacks against NPM package
-maintainers, resulting in the uploading of compromised versions of heavily
-used packages:
-<p>
-<blockquote class="bq">
-	All together, these packages have more than 2 billion downloads per
-	week.
-<p>
-	The packages were updated to contain a piece of code that would be
-	executed on the client of a website, which silently intercepts
-	crypto and web3 activity in the browser, manipulates wallet
-	interactions, and rewrites payment destinations so that funds and
-	approvals are redirected to attacker-controlled accounts without
-	any obvious signs to the user.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1037167/</guid>
-            <pubDate>Mon, 08 Sep 2025 17:45:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
