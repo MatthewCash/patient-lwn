@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Sep 2025 22:16:20 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Sep 2025 22:17:23 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Sep 2025 22:18:37 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Sep 2025 22:40:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Plumbers Conference registration open</title>
+            <link>https://lwn.net/Articles/1038271/</link>
+            <description><![CDATA[Registration for the 2025 Linux Plumbers Conference (Tokyo,
+December&#160;11 to&#160;13) <a
+href="https://lpc.events/blog/current/index.php/2025/09/15/registration-for-lpc-2025-is-now-open/">is
+now open</a>.  LPC tickets often sell out quickly, so it would be best not
+to delay if you intend to attend.]]></description>
+            <guid>https://lwn.net/Articles/1038271/</guid>
+            <pubDate>Mon, 15 Sep 2025 22:18:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Varnish 8.0.0 and bonus project news</title>
             <link>https://lwn.net/Articles/1038242/</link>
