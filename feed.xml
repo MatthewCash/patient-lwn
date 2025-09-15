@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Sep 2025 13:31:48 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Sep 2025 14:19:56 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Sep 2025 14:36:11 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Sep 2025 14:41:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1038231/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups, kernel, and mysql-selinux and mysql8.4), <b>Debian</b> (cjson, jetty9, and shibboleth-sp), <b>Fedora</b> (bustle, cef, checkpointctl, chromium, civetweb, cups, forgejo, jupyterlab, kernel, libsixel, linenoise, maturin, niri, perl-Cpanel-JSON-XS, python-uv-build, ruff, rust-busd, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-matchers, rust-monitord, rust-monitord-exporter, rust-secret-service, rust-tracing-subscriber, rustup, tcpreplay, tuigreet, udisks2, uv, and xwayland-satellite), <b>Oracle</b> (cups, gdk-pixbuf2, kernel, mysql-selinux and mysql8.4, and php:8.2), <b>Red Hat</b> (kernel, kernel-rt, and multiple packages), <b>Slackware</b> (cups, kernel, and patch), and <b>SUSE</b> (busybox, busybox-links, chromedriver, chromium, cups-filters, curl, go1.25, jasper, java-11-openj9, java-17-openj9, java-1_8_0-openjdk, kernel, kernel-devel, kubo, libssh-config, orthanc-gdcm, python-aiohttp, python-eventlet, python-h2, and xen).]]></description>
+            <guid>https://lwn.net/Articles/1038231/</guid>
+            <pubDate>Mon, 15 Sep 2025 14:36:11 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc6</title>
             <link>https://lwn.net/Articles/1038074/</link>
