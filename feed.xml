@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 15 Sep 2025 14:36:11 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Sep 2025 14:41:20 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 15 Sep 2025 14:52:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -346,14 +346,6 @@ used packages:
             <guid>https://lwn.net/Articles/1037167/</guid>
             <pubDate>Mon, 08 Sep 2025 17:45:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1037157/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, libhtp, modsecurity-apache, shibboleth-sp, and wireless-regdb), <b>Fedora</b> (chromium, kea, tcpreplay, and yq), <b>Mageia</b> (rootcerts, nspr, nss &amp; firefox and thunderbird), <b>Red Hat</b> (python3), and <b>SUSE</b> (7zip, chromedriver, go1.25, libQt5Pdf5, libsixel-bash-completion, libsoup2, libwireshark18, netty, rav1e, and trivy).]]></description>
-            <guid>https://lwn.net/Articles/1037157/</guid>
-            <pubDate>Mon, 08 Sep 2025 14:32:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
