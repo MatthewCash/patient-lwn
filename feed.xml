@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 16 Sep 2025 15:38:16 +0000</pubDate>
-        <lastBuildDate>Tue, 16 Sep 2025 15:41:56 +0000</lastBuildDate>
+        <pubDate>Tue, 16 Sep 2025 15:42:23 +0000</pubDate>
+        <lastBuildDate>Tue, 16 Sep 2025 15:52:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 143.0 released</title>
+            <link>https://lwn.net/Articles/1038345/</link>
+            <description><![CDATA[<a href="https://www.firefox.com/en-US/firefox/143.0/releasenotes/">Version
+143.0</a> of the Firefox browser has been released.  Changes include the
+ability to pin tabs by dragging them to the edge, previews in the camera
+permissions dialog, improved fingerprinting protection, and (optional)
+automatic deletion of files downloaded in private browsing mode.]]></description>
+            <guid>https://lwn.net/Articles/1038345/</guid>
+            <pubDate>Tue, 16 Sep 2025 15:42:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Another npm supply-chain attack</title>
             <link>https://lwn.net/Articles/1038326/</link>
