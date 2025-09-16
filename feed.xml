@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 16 Sep 2025 20:15:13 +0000</pubDate>
-        <lastBuildDate>Tue, 16 Sep 2025 21:51:56 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 16 Sep 2025 22:17:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -360,22 +360,6 @@ out.</p>
             <guid>https://lwn.net/Articles/1037471/</guid>
             <pubDate>Wed, 10 Sep 2025 13:05:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A path toward removal of kernel high-memory support</title>
-            <link>https://lwn.net/Articles/1037391/</link>
-            <description><![CDATA[As a followup to <a href="https://lwn.net/Articles/1035727/">his OSS Europe talk on the
-future of 32-bit support in the kernel</a>, Arnd Bergmann has put together
-<a href="https://lwn.net/ml/all/4ff89b72-03ff-4447-9d21-dd6a5fe1550f@app.fastmail.com">a
-detailed plan</a> for the eventual removal of high-memory support, which he
-calls "<q>one of the least popular features of the Linux kernel</q>".  The
-intent is "<q>to gradually phase out highmem over the next 2 years for
-mainline kernels</q>".  This plan is posted as a prompt for a discussion to
-be held at the Kernel Summit in December, so chances are it will evolve
-considerably in the next few months.]]></description>
-            <guid>https://lwn.net/Articles/1037391/</guid>
-            <pubDate>Tue, 09 Sep 2025 21:53:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
