@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 16 Sep 2025 09:59:05 +0000</pubDate>
-        <lastBuildDate>Tue, 16 Sep 2025 13:18:07 +0000</lastBuildDate>
+        <pubDate>Tue, 16 Sep 2025 13:36:12 +0000</pubDate>
+        <lastBuildDate>Tue, 16 Sep 2025 13:46:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1038325/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Debian</b> (node-sha.js and python-django), <b>Fedora</b> (chromium, cups, exiv2, perl-Catalyst-Authentication-Credential-HTTP, perl-Catalyst-Plugin-Session, perl-Plack-Middleware-Session, and qemu), <b>Red Hat</b> (container-tools:rhel8, podman, and udisks2), <b>SUSE</b> (cargo-audit, cargo-c, cargo-packaging, and kernel-devel), and <b>Ubuntu</b> (libcpanel-json-xs-perl, libjson-xs-perl, rubygems, sqlite3, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1038325/</guid>
+            <pubDate>Tue, 16 Sep 2025 13:36:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Linux Plumbers Conference registration open</title>
             <link>https://lwn.net/Articles/1038271/</link>
