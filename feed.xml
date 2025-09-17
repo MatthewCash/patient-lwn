@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Sep 2025 15:46:44 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Sep 2025 15:52:06 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Sep 2025 16:15:14 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Sep 2025 16:23:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME 49 released</title>
+            <link>https://lwn.net/Articles/1038487/</link>
+            <description><![CDATA[<a href="https://release.gnome.org/49/">Version 49</a> of the GNOME desktop
+environment has been released.  Changes include new default video
+(Showtime) and PDF-viewing (Papers) applications, a number of calendar
+improvements, and updates to the Web, Maps, and Software applications.]]></description>
+            <guid>https://lwn.net/Articles/1038487/</guid>
+            <pubDate>Wed, 17 Sep 2025 15:53:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Jackson: tag2upload in the first month of forky</title>
             <link>https://lwn.net/Articles/1038486/</link>
