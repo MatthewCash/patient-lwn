@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Sep 2025 14:47:38 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Sep 2025 14:52:25 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Sep 2025 15:18:02 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Sep 2025 15:19:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Libxml2 2.15.0 released</title>
+            <link>https://lwn.net/Articles/1038478/</link>
+            <description><![CDATA[<p><a
+href="https://discourse.gnome.org/t/libxml2-2-15-0-released/31397">Version
+2.15.0</a> of <a
+href="https://gitlab.gnome.org/GNOME/libxml2/#libxml2">libxml2</a> has
+been released. Notable changes include the disabling of Python
+bindings by default, using Doxygen to generate API documentation, as
+well as bringing HTML serialization and handling of character
+encodings more in line with the HTML5 specification.</p>
+
+<p>Nick Wellnhofer has also <a
+href="https://discourse.gnome.org/t/stepping-down-as-libxml2-maintainer/31398">announced</a>
+that he is stepping down as libxml2 maintainer, and Iván Chavero has
+<a
+href="https://discourse.gnome.org/t/stepping-down-as-libxml2-maintainer/31398/4">volunteered</a>
+to take over. LWN <a
+href="https://lwn.net/Articles/1025971/">covered</a> libxml2 in
+June.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1038478/</guid>
+            <pubDate>Wed, 17 Sep 2025 15:15:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Systemd v258 released</title>
             <link>https://lwn.net/Articles/1038458/</link>
@@ -348,18 +374,6 @@ stored on the Internet is an ephemeral thing and cannot be expected to
 remain available forever.]]></description>
             <guid>https://lwn.net/Articles/1034849/</guid>
             <pubDate>Wed, 27 Aug 2025 13:05:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>OpenSUSE disables bcachefs</title>
-            <link>https://lwn.net/Articles/1037496/</link>
-            <description><![CDATA[The openSUSE project has <a
-href="https://lwn.net/ml/all/9032de2a-03a7-4f9e-9c8a-8bd81c5d1fc5@suse.cz">announced</a>
-that the bcachefs filesystem will be disabled in its kernel builds starting
-with 6.17; bcachefs users will have to make other arrangements.  "<q>The
-current 6.16.* is NOT affected. Neither is Slowroll (for now).</q>"]]></description>
-            <guid>https://lwn.net/Articles/1037496/</guid>
-            <pubDate>Wed, 10 Sep 2025 14:51:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
