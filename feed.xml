@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Sep 2025 13:41:33 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Sep 2025 13:55:12 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Sep 2025 14:04:35 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Sep 2025 14:19:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Systemd v258 released</title>
+            <link>https://lwn.net/Articles/1038458/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/systemd/systemd/releases/tag/v258">Systemd
+v258</a> has been released with a long list of new features and
+changes; slice units now have basic workload management features,
+quotas for tmpfs have been added, the "<tt>systemctl&#160;start</tt>"
+command now has a verbose (<tt>-v</tt>) option, and more. This release
+also, finally, completely removes support for control groups v1
+support. LWN <a href="https://lwn.net/Articles/1028275/">covered</a>
+some of systemd v258's features and changes in August.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1038458/</guid>
+            <pubDate>Wed, 17 Sep 2025 13:57:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1038453/</link>
@@ -343,25 +361,6 @@ current 6.16.* is NOT affected. Neither is Slowroll (for now).</q>"]]></descript
             <guid>https://lwn.net/Articles/1037496/</guid>
             <pubDate>Wed, 10 Sep 2025 14:51:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three decades in kernelland</title>
-            <link>https://lwn.net/Articles/1037477/</link>
-            <description><![CDATA[<p>At <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a>, LWN's Jonathan Corbet presented "<a
-href="https://osseu2025.sched.com/event/25Vq3">Three Decades in
-Kernelland</a>"; the talk provides a look at how the kernel got to
-where it is, what makes it successful, and what may be coming
-next. The <a
-href="https://www.youtube.com/watch?v=LS2LGMRzE1I">video</a> of the
-talk is now online for LWN readers who would like to check it
-out.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1037477/</guid>
-            <pubDate>Wed, 10 Sep 2025 14:03:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
