@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Sep 2025 10:45:39 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Sep 2025 12:38:25 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Sep 2025 13:09:24 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Sep 2025 13:17:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1038453/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel, and podman), <b>Debian</b> (node-sha.js), <b>Fedora</b> (firefox, kea, and perl-JSON-XS), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk), <b>Oracle</b> (kernel, libarchive, podman, and python-cryptography), <b>Red Hat</b> (multiple packages, mysql:8.4, and python3.11), <b>SUSE</b> (expat, java-1_8_0-ibm, krb5, libavif, net-tools, nginx, nvidia-open-driver-G06-signed, onefetch, pcp, rabbitmq-server313, raptor, and vim), and <b>Ubuntu</b> (libyang2, linux, linux-aws, linux-aws-5.4, linux-bluefield, linux-gcp,
+ linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot,
+ linux-kvm, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-fips, linux-fips, linux-gcp-fips, and python-xmltodict).]]></description>
+            <guid>https://lwn.net/Articles/1038453/</guid>
+            <pubDate>Wed, 17 Sep 2025 13:09:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 143.0 released</title>
             <link>https://lwn.net/Articles/1038345/</link>
@@ -351,14 +361,6 @@ out.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1037477/</guid>
             <pubDate>Wed, 10 Sep 2025 14:03:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1037471/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (buildah, containers-common, glycin, loupe, podman, rust-matchers, and rust-tracing-subscriber), <b>Red Hat</b> (fence-agents, jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, pki-deps:10.6, python-requests, python3.12-cryptography, redis:6, redis:7, and resource-agents), <b>Slackware</b> (libssh), <b>SUSE</b> (aide, cloud-init, iperf, java-1_8_0-openjdk, jq, kernel-devel, python-deepdiff, regionServiceClientConfigAzure, regionServiceClientConfigEC2, and regionServiceClientConfigGCE), and <b>Ubuntu</b> (gnutls28).]]></description>
-            <guid>https://lwn.net/Articles/1037471/</guid>
-            <pubDate>Wed, 10 Sep 2025 13:05:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
