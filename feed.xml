@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 18 Sep 2025 16:38:19 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Sep 2025 16:46:11 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 Sep 2025 16:56:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -442,25 +442,6 @@ Please do keep testing, so that we don't get complacent.</q>"]]></description>
             <guid>https://lwn.net/Articles/1037919/</guid>
             <pubDate>Fri, 12 Sep 2025 13:54:10 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Six stable kernels patching the VMScape Spectre variant</title>
-            <link>https://lwn.net/Articles/1037788/</link>
-            <description><![CDATA[The <a
-href="https://comsec.ethz.ch/research/microarch/vmscape-exposing-and-exploiting-incomplete-branch-predictor-isolation-in-cloud-environments/">VMScape</a>
-vulnerability is a Spectre variant that "<q>allows a malicious KVM guest to
-leak sensitive information such as encryption/decryption keys from a
-userspace hypervisor such as QEMU</q>".  Greg Kroah-Hartman has announced
-the <a href="https://lwn.net/Articles/1037790/">6.16.7</a>, <a
-href="https://lwn.net/Articles/1037791/">6.12.47</a>, <a
-href="https://lwn.net/Articles/1037792/">6.6.106</a>, <a
-href="https://lwn.net/Articles/1037793/">6.1.152</a>, <a
-href="https://lwn.net/Articles/1037794/">5.15.193</a>, and <a
-href="https://lwn.net/Articles/1037795/">5.10.244</a> stable kernels, which add a
-mitigation for the hardware bug.]]></description>
-            <guid>https://lwn.net/Articles/1037788/</guid>
-            <pubDate>Thu, 11 Sep 2025 16:46:29 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
