@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Sep 2025 14:10:30 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Sep 2025 14:19:48 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Sep 2025 14:37:53 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Sep 2025 14:42:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Bluefin LTS released</title>
+            <link>https://lwn.net/Articles/1038584/</link>
+            <description><![CDATA[<p>The Universal Blue project has announced the release of <a
+href="https://docs.projectbluefin.io/blog/bluefin-lts-ga/">Bluefin&#160;LTS</a>,
+an image-based distribution similar to <a
+href="https://lwn.net/Articles/954059/">Bluefin</a> that uses
+CentOS&#160;Stream&#160;10 and EPEL instead of Fedora as its base:</p>
+
+<blockquote class="bq">
+<p>Bluefin LTS ships with Linux 6.12.0, which is the kernel for the
+lifetime of release. An optional hwe branch with new kernels is
+available, offering the same modern kernel you'll find in Bluefin and
+Bluefin GTS. Both vanilla and HWE ISOs are available, and you can
+always choose to switch back and forth after installation. [...]</p>
+
+<p>Bluefin LTS provides a backported GNOME desktop so that you are not
+left behind. This is an important thing for us. James has been
+diligently working on GNOME backports with the upstream CentOS
+community, and we feel bringing modern GNOME desktops to an LTS makes
+sense.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1038584/</guid>
+            <pubDate>Thu, 18 Sep 2025 14:24:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1038638/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnutls, mysql:8.4, opentelemetry-collector, and python-cryptography), <b>Debian</b> (nextcloud-desktop), <b>Fedora</b> (chromium, firefox, forgejo, gitleaks, kernel, kernel-headers, lemonldap-ng, perl-Cpanel-JSON-XS, and python-pip), <b>Red Hat</b> (firefox and libxml2), <b>Slackware</b> (expat and mozilla), <b>SUSE</b> (avahi, bluez, cups, curl, firefox-esr, gdk-pixbuf, gstreamer, java-1_8_0-ibm, krb5, net-tools, podman, raptor, sevctl, tkimg, ucode-intel, and vim), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp,
+ linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-fips, linux-azure-fips, linux-gcp-fips, and linux-gcp-6.14, linux-oracle, linux-oracle-6.14).]]></description>
+            <guid>https://lwn.net/Articles/1038638/</guid>
+            <pubDate>Thu, 18 Sep 2025 14:28:08 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Tails 7.0 released</title>
             <link>https://lwn.net/Articles/1038579/</link>
@@ -420,25 +457,6 @@ mitigation for the hardware bug.]]></description>
             <guid>https://lwn.net/Articles/1037777/</guid>
             <pubDate>Thu, 11 Sep 2025 15:12:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>How FOSS Projects Handle Legal Takedown Requests (F-Droid)</title>
-            <link>https://lwn.net/Articles/1037703/</link>
-            <description><![CDATA[The F-Droid project has <a
-href="https://f-droid.org/en/2025/09/10/how-foss-projects-handle-legal-takedown-requests.html">some
-advice for free-software projects</a> on how to deal with takedown
-requests.
-<p>
-<blockquote class="bq">
-	As part of our legal resilience research, we spoke with a range of
-	legal experts, software freedom advocates, and maintainers of
-	mature FOSS infrastructure to understand how others manage these
-	moments. In this article, we share what we learned, and how F-Droid
-	is incorporating these lessons into its own approach.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1037703/</guid>
-            <pubDate>Thu, 11 Sep 2025 14:34:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
