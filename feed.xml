@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Sep 2025 00:06:39 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Sep 2025 01:19:22 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Sep 2025 02:18:50 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Sep 2025 02:43:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -399,146 +399,6 @@ requests.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1037703/</guid>
             <pubDate>Thu, 11 Sep 2025 14:34:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 4, 2025</title>
-            <link>https://lwn.net/Articles/1035384/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1035384/">Front</a>: Maintaining curl; GNOME governance; Guix in Debian; Tracking untrusted data in the kernel; 32-Bit support; systemd v258.
-            <li> <a href="https://lwn.net/Articles/1035386/">Briefs</a>: bcachefs maintenance; Linux from Scratch 12.4; Elf spec; Niri 25.08; Python documentary; GNOME executive director; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1035387/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1035384/</guid>
-            <pubDate>Thu, 04 Sep 2025 00:04:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Tracking trust with Rust in the kernel</title>
-            <link>https://lwn.net/Articles/1034603/</link>
-            <description><![CDATA[<p>
-The Linux kernel has to handle many different sources of data that should not
-be trusted: user space, network connections, and removable storage, to name a
-few. The kernel has to remain secure even if one of these sends garbled (or
-malicious) data. Benno Lossin has been working on an API for kernel Rust code
-that makes it harder to accidentally make decisions based on data from user space. That work
-is now on its
-<a href="https://lwn.net/ml/all/20250814124424.516191-1-lossin@kernel.org/">
-fourth revision</a>, and Lossin has asked kernel developers to experiment with
-it and see where problems remain, making this a good time to look at the proposed API.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1034603/</guid>
-            <pubDate>Wed, 03 Sep 2025 16:15:07 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Removing Guix from Debian</title>
-            <link>https://lwn.net/Articles/1035491/</link>
-            <description><![CDATA[<p>As a rule, if a package is shipped with a Debian release, users can
-count on it being available, and updated, for the entire
-life of the release. If package <em>foo</em> is included in the stable
-<span class="nobreak">release&mdash;currently</span> Debian&#160;13
-<span class="nobreak">("trixie")&mdash;a</span> user can
-reasonably expect that it will continue to be available with security
-backports as long as that release is supported, though it may not be
-included in Debian&#160;14 ("forky"). However, it is likely that the
-<a href="https://guix.gnu.org/en/">Guix</a> package manager will soon
-be removed from the repositories for Debian&#160;13 and
-Debian&#160;12 ("bookworm", also called oldstable).</p>]]></description>
-            <guid>https://lwn.net/Articles/1035491/</guid>
-            <pubDate>Tue, 02 Sep 2025 14:20:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The future of 32-bit support in the kernel</title>
-            <link>https://lwn.net/Articles/1035727/</link>
-            <description><![CDATA[Arnd Bergmann started his <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a> 2025 talk with a clear statement of position: 32-bit
-systems are obsolete when it comes to use in any sort of new products.  The
-only reason to work with them at this point is when there is existing
-hardware and software to support.  Since Bergmann is the overall maintainer
-for architecture support in the kernel, he is frequently asked whether
-32-bit support can be removed.  So, he concluded, the time has come to talk
-more about that possibility.]]></description>
-            <guid>https://lwn.net/Articles/1035727/</guid>
-            <pubDate>Mon, 01 Sep 2025 17:51:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The challenge of maintaining curl</title>
-            <link>https://lwn.net/Articles/1034966/</link>
-            <description><![CDATA[Keynote sessions at Open Source Summit events tend not to allow much time for
-detailed talks, and the 2025 <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a> did not diverge from that pattern.  Even so,
-Daniel Stenberg, the maintainer of the <a href="https://curl.se/">curl</a>
-project, managed to cram a lot into the 15&#160;minutes given to him.
-Like the maintainers of many other projects, Stenberg is feeling some
-stress, and the problems appear to be getting worse over time.]]></description>
-            <guid>https://lwn.net/Articles/1034966/</guid>
-            <pubDate>Fri, 29 Aug 2025 15:20:24 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Highlights from systemd v258: part one</title>
-            <link>https://lwn.net/Articles/1028275/</link>
-            <description><![CDATA[<p>The next release of systemd has been percolating for an unusually
-long time. Systemd releases are usually about six months apart, but
-v257 <a href="https://lwn.net/Articles/1001657/">came out</a> in
-December&#160;2024, and v258 just now seems to be nearing the finish
-line; the third release candidate for v258 was published on
-August&#160;20 (<a
-href="https://github.com/systemd/systemd/releases/tag/v258-rc3">release
-notes</a>). Now is a good time to dig in and take a look at some of
-the new features, enhancements, and removals coming soon to
-systemd. These include new workload-management features, a concept for
-multiple home-directory environments, and the final, once-and-for-all
-removal of support for <a
-href="https://docs.kernel.org/admin-guide/cgroup-v1/index.html#cgroup-v1">control
-groups version&#160;1</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1028275/</guid>
-            <pubDate>Fri, 29 Aug 2025 14:47:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Changing GNOME technical governance?</title>
-            <link>https://lwn.net/Articles/1034684/</link>
-            <description><![CDATA[The <a href="https://www.gnome.org/">GNOME project</a>, which recently <a
-href="https://thisweek.gnome.org/posts/2025/08/twig-212/">celebrated its
-28th birthday</a>, has never had a formal technical governance; progress
-has been driven by individuals and groups that advocated for—and worked
-toward—a particular goal in an ad hoc fashion.  Longtime GNOME contributor
-Emmanuele Bassi would like to see that change by adding cross-project teams
-and a steering committee for the project; to that end, he gave a talk (<a
-href="https://www.youtube.com/watch?v=18Ir6RXkIeA&t=3378s">YouTube
-video</a>) at <a href="https://events.gnome.org/event/259/">GUADEC 2025</a>
-in late July on his idea to establish some technical governance for the
-project. He also put together a <a
-href="https://www.bassi.io/articles/2025/08/03/governance-in-gnome/">blog
-post</a> with his notes from the talk.  The audience reaction was
-favorable, so he has followed up on the <a
-href="https://discourse.gnome.org/">GNOME discussion forum</a> with <a
-href="https://discourse.gnome.org/t/rfc-governance/30738">an RFC on
-governance</a> to try to move the effort along.]]></description>
-            <guid>https://lwn.net/Articles/1034684/</guid>
-            <pubDate>Thu, 28 Aug 2025 09:01:58 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The need to reliably preserve our community history</title>
-            <link>https://lwn.net/Articles/1034849/</link>
-            <description><![CDATA[The Internet is a wonderful thing; it allows anybody to look up
-information of interest.  Included in all of that is the history of the
-free-software development community; how we got to where we are says a lot
-about why things are the way they are and what might come next.  So the
-takeover of Groklaw rings a loud alarm; we have been reminded that history
-stored on the Internet is an ephemeral thing and cannot be expected to
-remain available forever.]]></description>
-            <guid>https://lwn.net/Articles/1034849/</guid>
-            <pubDate>Wed, 27 Aug 2025 13:05:54 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
