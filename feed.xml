@@ -8,11 +8,133 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Sep 2025 22:55:28 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Sep 2025 23:51:55 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Sep 2025 00:06:39 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Sep 2025 01:19:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 11, 2025</title>
+            <link>https://lwn.net/Articles/1036683/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1036683/">Front</a>: Space Grade Linux; KDE's new distribution; Rug pulls and forks; Dependency tracker; Kernel configuration; Framework 12 laptop.
+            <li> <a href="https://lwn.net/Articles/1036685/">Briefs</a>: npm security; high-memory; Anaconda WebUI; OpenSUSE bcachefs; 32-bit Firefox; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1036686/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1036683/</guid>
+            <pubDate>Thu, 11 Sep 2025 00:19:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] How many ways are there to configure the Linux kernel?</title>
+            <link>https://lwn.net/Articles/1034811/</link>
+            <description><![CDATA[<p>
+There are a large number of ways to configure the 6.16
+Linux kernel. It has 32,468 different configuration options on x86_64,
+and a comparable number for other platforms. Exploring the ways the kernel can
+be configured is sufficiently difficult that it requires specialized tools.
+These show the
+<a href="https://lwn.net/Articles/1034812/">
+number of possible configurations</a> that options can be combined in has
+6,550 digits. How has that number changed over the history of the kernel, and
+what does it mean for testing?
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1034811/</guid>
+            <pubDate>Wed, 10 Sep 2025 16:10:27 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] KDE launches its own distribution (again)</title>
+            <link>https://lwn.net/Articles/1037166/</link>
+            <description><![CDATA[<p>At <a href="https://akademy.kde.org/2025/">Akademy 2025</a>, the
+KDE Project <a
+href="https://floss.social/@kde/115157115844689060">released</a> an
+alpha version of <a href="https://kde.org/linux/">KDE Linux</a>, a
+distribution built by the project to "<q>include the best
+implementation of everything KDE has to offer, using the most advanced
+technologies</q>". It is aimed at providing an operating system
+suitable for home use, business use, OEM installations, and more
+"<q>eventually</q>". For now there are many rough edges and missing
+features that users should be aware of before taking the plunge; but
+it is an interesting look at the kind of complete Linux system that
+KDE developers would like to see.</p>]]></description>
+            <guid>https://lwn.net/Articles/1037166/</guid>
+            <pubDate>Wed, 10 Sep 2025 14:12:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Introducing Space Grade Linux</title>
+            <link>https://lwn.net/Articles/1036168/</link>
+            <description><![CDATA[A new project, targeting Linux for the proverbial final frontier—outer
+space—was the subject of a talk (<a
+href="https://www.youtube.com/watch?v=jfFPlaVtTDY">YouTube video</a>) at
+the Embedded Linux Conference, which was held as part of <a
+href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
+Source Summit Europe</a> in Amsterdam in late August.  Ramón Roche
+introduced <a href="https://elisa.tech/space-grade-linux-sig/">Space Grade
+Linux</a> (SGL), which is currently incubating as a special interest group
+(SIG) of the <a href="https://elisa.tech/">Embedding Linux in Safety
+Applications</a> (ELISA) project.  The idea is to create a distribution
+with a base layer that can be used for off-planet missions of various
+sorts, along with other layers that can be used to customize it for
+different space-based use cases.]]></description>
+            <guid>https://lwn.net/Articles/1036168/</guid>
+            <pubDate>Tue, 09 Sep 2025 13:59:03 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Testing the 2-in-1 Framework 12 Laptop</title>
+            <link>https://lwn.net/Articles/1035758/</link>
+            <description><![CDATA[<p><a href="https://frame.work/">Framework Computer</a> is a US-based
+computer manufacturer with a line of Linux-supported, modular, easily
+repairable and upgradeable laptops. In February, the company <a
+href="https://frame.work/blog/introducing-the-framework-laptop-12">announced</a>
+a new model, the <a
+href="https://frame.work/laptop12">Framework&#160;Laptop&#160;12</a>,
+an "<q>entry-level</q>" 12.2-inch convertible notebook that can be
+used as a laptop or tablet. The systems were made available for pre-order
+in April, I received mine in mid-August. Since then, I have been
+putting it through its paces with Debian&#160;13 ("trixie") and
+Fedora&#160;Linux&#160;42. It's a good choice for users who want a
+Linux-friendly, lightweight, <span class="nobreak">2-in-1</span>
+device&mdash;if they are willing to make a few concessions on storage
+capacity, RAM, and CPU/GPU choices.</p>]]></description>
+            <guid>https://lwn.net/Articles/1035758/</guid>
+            <pubDate>Mon, 08 Sep 2025 15:12:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Rug pulls, forks, and open-source feudalism</title>
+            <link>https://lwn.net/Articles/1036465/</link>
+            <description><![CDATA[Like almost all human endeavors, open-source software development involves
+a range of power dynamics.  Companies, developers, and users are all
+concerned with the power to influence the direction of the software — and,
+often, to profit from it.  At the 2025 <a
+href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
+Source Summit Europe</a>, Dawn Foster talked about how those dynamics can
+play out, with an eye toward a couple of tactics — rug pulls and forks — that
+are available to try to shift power in one direction or another.]]></description>
+            <guid>https://lwn.net/Articles/1036465/</guid>
+            <pubDate>Fri, 05 Sep 2025 14:48:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The dependency tracker for complex deadlock detection</title>
+            <link>https://lwn.net/Articles/1036222/</link>
+            <description><![CDATA[Deadlocks are a constant threat in concurrent settings with shared
+data; it is thus not surprising that the kernel project has long since
+developed tools to detect potential deadlocks so they can be fixed before
+they affect production users.  Byungchul Park thinks that he has developed
+a better tool that can detect more deadlock-prone situations.  At the 2025 <a
+href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
+Source Summit Europe</a>, he presented an introduction to his dependency
+tracker (or "DEPT") tool and the kinds of problems it can detect.]]></description>
+            <guid>https://lwn.net/Articles/1036222/</guid>
+            <pubDate>Thu, 04 Sep 2025 14:34:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>GNOME 49 released</title>
             <link>https://lwn.net/Articles/1038487/</link>
