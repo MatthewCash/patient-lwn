@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 19 Sep 2025 13:17:20 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Sep 2025 13:52:23 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Sep 2025 13:55:12 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Sep 2025 14:18:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -442,14 +442,6 @@ Please do keep testing, so that we don't get complacent.</q>"]]></description>
             <guid>https://lwn.net/Articles/1038074/</guid>
             <pubDate>Sun, 14 Sep 2025 23:26:45 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1037919/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (cups, imagemagick, libcpanel-json-xs-perl, and libjson-xs-perl), <b>Fedora</b> (checkpointctl, chromium, civetweb, glycin, kernel, libssh, ruff, rust-secret-service, snapshot, and uv), <b>Mageia</b> (curl), <b>Red Hat</b> (kernel), <b>SUSE</b> (cups, curl, perl-Cpanel-JSON-XS, regionServiceClientConfigAzure, regionServiceClientConfigEC2, regionServiceClientConfigGCE, trivy, and xen), and <b>Ubuntu</b> (cups, node-cipher-base, and qemu).]]></description>
-            <guid>https://lwn.net/Articles/1037919/</guid>
-            <pubDate>Fri, 12 Sep 2025 13:54:10 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
