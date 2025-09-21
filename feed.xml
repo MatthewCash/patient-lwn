@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 21 Sep 2025 23:13:05 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Sep 2025 23:16:51 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Sep 2025 23:30:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -455,18 +455,6 @@ make a mess of a situation.</p>
             <guid>https://lwn.net/Articles/1038231/</guid>
             <pubDate>Mon, 15 Sep 2025 14:36:11 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.17-rc6</title>
-            <link>https://lwn.net/Articles/1038074/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1038075/">6.17-rc6</a> kernel prepatch is out for
-testing.  "<q>But really, none of it is very large. So everything seems slated for a
-normal release in two weeks.
-
-Please do keep testing, so that we don't get complacent.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1038074/</guid>
-            <pubDate>Sun, 14 Sep 2025 23:26:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
