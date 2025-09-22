@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Sep 2025 10:05:31 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Sep 2025 13:56:30 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Sep 2025 14:05:57 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Sep 2025 14:20:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1039053/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, jetty12, jetty9, jq, and pam), <b>Fedora</b> (curl, libssh, podman-tui, and prometheus-podman-exporter), <b>Oracle</b> (firefox, gnutls, kernel, and thunderbird), and <b>SUSE</b> (bluez, cairo, chromium, cmake, cups, firefox, frr, govulncheck-vulndb, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, mariadb, mybatis, ognl, python-h2, and rke2).]]></description>
+            <guid>https://lwn.net/Articles/1039053/</guid>
+            <pubDate>Mon, 22 Sep 2025 13:59:44 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.17-rc7</title>
             <link>https://lwn.net/Articles/1038976/</link>
