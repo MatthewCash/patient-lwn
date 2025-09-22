@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 22 Sep 2025 22:13:12 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Sep 2025 22:40:04 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 22 Sep 2025 22:52:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -410,18 +410,6 @@ this week's attack</a> on JavaScript packages in the npm repository.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Debian</b> (node-sha.js and python-django), <b>Fedora</b> (chromium, cups, exiv2, perl-Catalyst-Authentication-Credential-HTTP, perl-Catalyst-Plugin-Session, perl-Plack-Middleware-Session, and qemu), <b>Red Hat</b> (container-tools:rhel8, podman, and udisks2), <b>SUSE</b> (cargo-audit, cargo-c, cargo-packaging, and kernel-devel), and <b>Ubuntu</b> (libcpanel-json-xs-perl, libjson-xs-perl, rubygems, sqlite3, and vim).]]></description>
             <guid>https://lwn.net/Articles/1038325/</guid>
             <pubDate>Tue, 16 Sep 2025 13:36:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Linux Plumbers Conference registration open</title>
-            <link>https://lwn.net/Articles/1038271/</link>
-            <description><![CDATA[Registration for the 2025 Linux Plumbers Conference (Tokyo,
-December&#160;11 to&#160;13) <a
-href="https://lpc.events/blog/current/index.php/2025/09/15/registration-for-lpc-2025-is-now-open/">is
-now open</a>.  LPC tickets often sell out quickly, so it would be best not
-to delay if you intend to attend.]]></description>
-            <guid>https://lwn.net/Articles/1038271/</guid>
-            <pubDate>Mon, 15 Sep 2025 22:18:35 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
