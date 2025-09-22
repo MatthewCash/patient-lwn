@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Sep 2025 17:55:58 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Sep 2025 18:26:24 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Sep 2025 18:37:46 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Sep 2025 18:47:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RPM 6.0.0 released</title>
+            <link>https://lwn.net/Articles/1039071/</link>
+            <description><![CDATA[<p>Version 6.0.0 of the <a href="https://rpm.org/">RPM Package Manager</a> has been released. Notable changes in this release include support for multiple OpenPGP signatures per package, the ability to update previously installed PGP keys, as well as support for RPM v4 and v6 packages. See the <a href="https://rpm.org/releases/6.0.0">release notes</a> for full details.]]></description>
+            <guid>https://lwn.net/Articles/1039071/</guid>
+            <pubDate>Mon, 22 Sep 2025 18:37:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1039053/</link>
