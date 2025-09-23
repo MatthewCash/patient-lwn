@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 23 Sep 2025 12:57:04 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Sep 2025 13:56:12 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 23 Sep 2025 14:19:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -379,29 +379,6 @@ permissions dialog, improved fingerprinting protection, and (optional)
 automatic deletion of files downloaded in private browsing mode.]]></description>
             <guid>https://lwn.net/Articles/1038345/</guid>
             <pubDate>Tue, 16 Sep 2025 15:42:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Another npm supply-chain attack</title>
-            <link>https://lwn.net/Articles/1038326/</link>
-            <description><![CDATA[The Socket.dev blog <a
-href="https://socket.dev/blog/tinycolor-supply-chain-attack-affects-40-packages">describes
-this week's attack</a> on JavaScript packages in the npm repository.
-<p>
-<blockquote class="bq">
-	A malicious update to <tt>@ctrl/tinycolor</tt> (2.2M weekly
-	downloads) was detected on npm as part of a broader supply chain
-	attack that impacted more than 40 packages spanning multiple
-	maintainers.
-<p>
-	The compromised versions include a function
-	(<tt>NpmModule.updatePackage</tt>) that downloads a package
-	tarball, modifies <tt>package.json</tt>, injects a local script
-	(<tt>bundle.js</tt>), repacks the archive, and republishes it,
-	enabling automatic trojanization of downstream packages.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1038326/</guid>
-            <pubDate>Tue, 16 Sep 2025 13:51:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
