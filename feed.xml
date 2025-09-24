@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Sep 2025 12:50:47 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 13:18:24 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 13:25:36 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 13:46:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1039311/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and kernel-rt), <b>Fedora</b> (expat), <b>Red Hat</b> (kernel and multiple packages), <b>SUSE</b> (avahi, busybox, busybox-links, kernel, sevctl, tcpreplay, thunderbird, and tor), and <b>Ubuntu</b> (isc-kea, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-aws-6.8, linux-gcp-6.8, linux-aws-fips, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-realtime, python-pip, and rabbitmq-server).]]></description>
+            <guid>https://lwn.net/Articles/1039311/</guid>
+            <pubDate>Wed, 24 Sep 2025 13:18:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Open Infrastructure is Not Free: A Joint Statement on Sustainable Stewardship</title>
             <link>https://lwn.net/Articles/1039127/</link>
