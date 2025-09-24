@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Sep 2025 12:37:50 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 12:38:48 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 12:50:47 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 13:18:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,16 +392,6 @@ some of systemd v258's features and changes in August.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1038458/</guid>
             <pubDate>Wed, 17 Sep 2025 13:57:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1038453/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel, and podman), <b>Debian</b> (node-sha.js), <b>Fedora</b> (firefox, kea, and perl-JSON-XS), <b>Mageia</b> (java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk), <b>Oracle</b> (kernel, libarchive, podman, and python-cryptography), <b>Red Hat</b> (multiple packages, mysql:8.4, and python3.11), <b>SUSE</b> (expat, java-1_8_0-ibm, krb5, libavif, net-tools, nginx, nvidia-open-driver-G06-signed, onefetch, pcp, rabbitmq-server313, raptor, and vim), and <b>Ubuntu</b> (libyang2, linux, linux-aws, linux-aws-5.4, linux-bluefield, linux-gcp,
- linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot,
- linux-kvm, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-fips, linux-fips, linux-gcp-fips, and python-xmltodict).]]></description>
-            <guid>https://lwn.net/Articles/1038453/</guid>
-            <pubDate>Wed, 17 Sep 2025 13:09:24 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
