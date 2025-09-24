@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Sep 2025 15:46:47 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 15:52:19 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 16:24:18 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 16:24:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -313,17 +313,6 @@ Source Summit Europe</a>, he presented an introduction to his dependency
 tracker (or "DEPT") tool and the kinds of problems it can detect.]]></description>
             <guid>https://lwn.net/Articles/1036222/</guid>
             <pubDate>Thu, 04 Sep 2025 14:34:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNOME 49 released</title>
-            <link>https://lwn.net/Articles/1038487/</link>
-            <description><![CDATA[<a href="https://release.gnome.org/49/">Version 49</a> of the GNOME desktop
-environment has been released.  Changes include new default video
-(Showtime) and PDF-viewing (Papers) applications, a number of calendar
-improvements, and updates to the Web, Maps, and Software applications.]]></description>
-            <guid>https://lwn.net/Articles/1038487/</guid>
-            <pubDate>Wed, 17 Sep 2025 15:53:45 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
