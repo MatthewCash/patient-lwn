@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Sep 2025 15:34:40 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 15:41:46 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 15:46:47 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 15:52:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -325,38 +325,6 @@ improvements, and updates to the Web, Maps, and Software applications.]]></descr
             <guid>https://lwn.net/Articles/1038487/</guid>
             <pubDate>Wed, 17 Sep 2025 15:53:45 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Jackson: tag2upload in the first month of forky</title>
-            <link>https://lwn.net/Articles/1038486/</link>
-            <description><![CDATA[<p>Ian Jackson has <a
-href="https://diziet.dreamwidth.org/20143.html">published a blog
-post</a> summarizing the <a
-href="https://wiki.debian.org/tag2upload">tag2upload</a> service's
-first month of handling uploads for the upcoming <a href="https://wiki.debian.org/DebianForky">Debian&#160;14</a> ("forky") release:</p>
-
-<blockquote class="bq">
-<p>We announced tag2upload's open beta in mid-July. That was in the
-middle of the the freeze for trixie, so usage was fairly light until
-the forky floodgates opened.</p>
-
-<p>Since then the service has successfully performed 637 uploads, of
-which 420 were in the last 32 days. That's an average of about 13 per
-day. For comparison, during the first half of September up to today
-there have been 2475 uploads to unstable. That's about 176/day.</p>
-
-<p>So, tag2upload is already handling around 7.5% of uploads. This is
-very gratifying for a service which is advertised as still being in
-beta!</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/978324/">covered</a>
-tag2upload in July 2024.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1038486/</guid>
-            <pubDate>Wed, 17 Sep 2025 15:41:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
