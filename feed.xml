@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Sep 2025 14:48:14 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 14:52:25 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Sep 2025 15:16:55 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Sep 2025 15:20:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,32 +356,6 @@ tag2upload in July 2024.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1038486/</guid>
             <pubDate>Wed, 17 Sep 2025 15:41:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Libxml2 2.15.0 released</title>
-            <link>https://lwn.net/Articles/1038478/</link>
-            <description><![CDATA[<p><a
-href="https://discourse.gnome.org/t/libxml2-2-15-0-released/31397">Version
-2.15.0</a> of <a
-href="https://gitlab.gnome.org/GNOME/libxml2/#libxml2">libxml2</a> has
-been released. Notable changes include the disabling of Python
-bindings by default, using Doxygen to generate API documentation, as
-well as bringing HTML serialization and handling of character
-encodings more in line with the HTML5 specification.</p>
-
-<p>Nick Wellnhofer has also <a
-href="https://discourse.gnome.org/t/stepping-down-as-libxml2-maintainer/31398">announced</a>
-that he is stepping down as libxml2 maintainer, and Iván Chavero has
-<a
-href="https://discourse.gnome.org/t/stepping-down-as-libxml2-maintainer/31398/4">volunteered</a>
-to take over. LWN <a
-href="https://lwn.net/Articles/1025971/">covered</a> libxml2 in
-June.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1038478/</guid>
-            <pubDate>Wed, 17 Sep 2025 15:15:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
