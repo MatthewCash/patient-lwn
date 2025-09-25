@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Sep 2025 15:58:41 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Sep 2025 16:23:41 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Sep 2025 16:43:27 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Sep 2025 16:47:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora considers an AI-tool policy</title>
+            <link>https://lwn.net/Articles/1039603/</link>
+            <description><![CDATA[The Fedora project has posted <a
+href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">a
+proposal</a> for a policy regarding the use of AI tools when developing for
+the distribution.
+<p>
+<blockquote class="bq">
+	<b>You are responsible for your contributions</b>. AI-generated
+	content must be treated as a suggestion, not as final code or
+	text. It is your responsibility to review, test, and understand
+	everything you submit. Submitting unverified or low-quality
+	machine-generated content (sometimes called "AI slop") creates an
+	unfair review burden on the community and is not an acceptable
+	contribution.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1039603/</guid>
+            <pubDate>Thu, 25 Sep 2025 16:43:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Four stable kernels released</title>
             <link>https://lwn.net/Articles/1039533/</link>
