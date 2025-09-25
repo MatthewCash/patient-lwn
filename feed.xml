@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Sep 2025 13:24:00 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Sep 2025 13:46:29 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Sep 2025 13:51:36 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Sep 2025 13:56:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -291,45 +291,6 @@ sense.</p>
             <guid>https://lwn.net/Articles/1038638/</guid>
             <pubDate>Thu, 18 Sep 2025 14:28:08 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Tails 7.0 released</title>
-            <link>https://lwn.net/Articles/1038579/</link>
-            <description><![CDATA[<p><a
-href="https://blog.torproject.org/new-release-tails-7_0/">Version
-7.0</a> of the <a href="https://tails.net/">Tails</a> portable
-operating system has been released. This is the first version of Tails
-based on Linux 6.12.43, <a
-href="https://lwn.net/Articles/1033474/">Debian&#160;13</a>
-("trixie") and GNOME&#160;48. It uses <tt>ztsd</tt> instead of
-<tt>xz</tt> to compress the USB and ISO images to deliver a
-faster start time on most computers. The release is dedicated to the <a
-href="https://lwn.net/Articles/997775/">memory of Lunar</a>, "<q>a
-traveling companion for Tails, a Tor volunteer, Free Software hacker,
-and community organizer</q>":</p>
-
-<blockquote class="bq">
-<p>Lunar has always been by our side throughout Tails' history. From
-the first baby steps of the project that eventually became Tails, to
-the merge with Tor, he's provided sensible technical suggestions,
-out-of-the-box product design ideas, outreach support, and caring
-organizational advice.</p>
-
-<p>Outside of Tor, Lunar worked on highly successful Free Software
-projects such as the <a href="https://www.debian.org/">Debian</a> project, the Linux distribution on which
-Tails is based, and the <a
-href="https://reproducible-builds.org/">Reproducible Builds</a>
-project, which helps us verify the <a href="https://tails.net/contribute/build/reproducible/">integrity of Tails releases</a>.</p>
-</blockquote>
-
-<p>See the <a
-href="https://gitlab.tails.boum.org/tails/tails/-/blob/master/debian/changelog">changelog</a>
-for a full list of fixes, upgraded applications, and removals. LWN <a
-href="https://lwn.net/Articles/1029769/">covered</a> Tails
-Project team leader intrigeri's <a href="https://debconf25.debconf.org/">DebConf25</a> talk in July.</p>]]></description>
-            <guid>https://lwn.net/Articles/1038579/</guid>
-            <pubDate>Thu, 18 Sep 2025 13:52:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
