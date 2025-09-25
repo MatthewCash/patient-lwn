@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Sep 2025 18:33:01 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Sep 2025 18:50:02 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Sep 2025 19:13:19 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Sep 2025 19:16:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</title>
+            <link>https://lwn.net/Articles/1039612/</link>
+            <description><![CDATA[Longtime <a href="https://pypy.org/">PyPy</a> developer Antonio Cuni has a
+<a
+href="https://antocuni.eu/2025/09/24/tracing-jits-in-the-real-world--cpython-core-dev-sprint/">lengthy
+blog post</a> that describes his talk at the recently completed 
+<a
+href="https://www.linkedin.com/posts/diegor_yesterday-we-wrapped-up-thecpython-core-activity-7375230888177057792-GezI">2025
+CPython
+Core Dev Sprint</a>, held at Arm in Cambridge, UK.  The talk, entitled
+"Tracing JIT and real world Python — aka: what we can learn from PyPy" was
+meant to try to pass on some of his experiences "<q>optimizing existing
+code for PyPy at a high-frequency trading firm</q>" to the
+developers working on the <a
+href="https://lwn.net/Archives/PythonIndex/#JIT">CPython JIT compiler</a>.  His goal was
+to raise awareness of some of the problems he encountered:
+
+<blockquote class="bq">
+Until now CPython's performance has been particularly predictable, there are well established "performance tricks" to make code faster, and generally speaking you can mostly reason about the speed of a given piece of code "locally".
+<p>
+Adding a JIT completely changes how we reason about performance of a given program, for two reasons:
+<ol class="spacylist">
+    <li>JITted code can be very fast if your code conforms to the heuristics applied by the JIT compiler, but unexpectedly slow(-ish) otherwise;
+
+    <li>the speed of a given piece of code might depend heavily on what
+    happens elsewhere in the program, making it much harder to reason about
+    performance locally.
+</ol>
+<p>
+The end result is that modifying a line of code can significantly impact seemingly unrelated code. This effect becomes more pronounced as the JIT becomes more sophisticated.
+</blockquote>
+
+
+<p>
+Cuni also gave a talk on Python performance, which LWN <a href="https://lwn.net/Articles/1031707/">covered</a>, at
+EuroPython 2025 in July.]]></description>
+            <guid>https://lwn.net/Articles/1039612/</guid>
+            <pubDate>Thu, 25 Sep 2025 19:13:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Fedora considers an AI-tool policy</title>
             <link>https://lwn.net/Articles/1039603/</link>
