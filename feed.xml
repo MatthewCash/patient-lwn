@@ -9,10 +9,148 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 24 Sep 2025 23:06:12 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Sep 2025 23:51:55 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Sep 2025 01:21:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 18, 2025</title>
+            <link>https://lwn.net/Articles/1037644/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1037644/">Front</a>: Fighting human trafficking; End of 10; Link tags; Healthy subsystem communities; New kernel tools; Rust and Carbon; Typst.
+            <li> <a href="https://lwn.net/Articles/1037646/">Briefs</a>: Brief news items from throughout the community.
+            <li> <a href="https://lwn.net/Articles/1037647/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1037644/</guid>
+            <pubDate>Thu, 18 Sep 2025 00:06:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Typst: a possible LaTeX replacement</title>
+            <link>https://lwn.net/Articles/1037577/</link>
+            <description><![CDATA[<a href="https://typst.app">Typst</a> is a program for document
+typesetting. It is especially well-suited to technical material
+incorporating elements such as mathematics, tables, and floating
+figures. It produces high-quality results, comparable to the gold standard,
+<a href="https://www.latex-project.org/">LaTeX</a>, with a simpler markup
+system and easier customization, all while compiling documents
+more quickly. Typst is free software, Apache-2.0 licensed, and is written in Rust.]]></description>
+            <guid>https://lwn.net/Articles/1037577/</guid>
+            <pubDate>Wed, 17 Sep 2025 14:30:42 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Providing support for Windows 10 refugees</title>
+            <link>https://lwn.net/Articles/1037132/</link>
+            <description><![CDATA[<p>In October, consumer versions of Windows&#160;10 will
+stop receiving security updates. Many users who would ordinarily move
+to the next version are blocked by Windows&#160;11's hardware
+requirements unless they are willing to buy a newer PC. The "<a
+href="https://endof10.org/">End of 10</a>" campaign is an effort to
+convince those users to switch to Linux rather than sticking with an
+end-of-life operating system or buying a new Windows system. At
+Akademy&#160;2025, Dr. Joseph De&#160;Veaugh-Geiss,
+Bettina Louis,  Carolina Silva Rodé, and Nicole Teale discussed their
+work on the campaign, its progress so far, and what's next.</p>]]></description>
+            <guid>https://lwn.net/Articles/1037132/</guid>
+            <pubDate>Wed, 17 Sep 2025 13:41:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Comparing Rust to Carbon</title>
+            <link>https://lwn.net/Articles/1036912/</link>
+            <description><![CDATA[<p>
+Safe, ergonomic interoperability between Rust and <span style="white-space:nowrap;">C/C++</span> was a popular topic at
+<a href="https://rustconf.com/">
+RustConf&#160;2025</a> in Seattle, Washington. Chandler Carruth gave a presentation
+about the different approaches to interoperability in Rust and
+<a href="https://docs.carbon-lang.dev/">
+Carbon</a>, the
+experimental "<span style="white-space:nowrap;">(C++)++</span>" language.
+His ultimate conclusion was that
+while Rust's ability to interface with other languages is expanding over time,
+it wouldn't offer a complete solution to C++ interoperability anytime soon — and so there is room for
+Carbon to take a different approach to incrementally upgrading existing C++ projects.
+His
+<a href="https://chandlerc.blog/slides/2025-rustconf-memory-safety-everywhere/#/">
+slides</a> are available for readers wishing to study his example code in more
+detail.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1036912/</guid>
+            <pubDate>Tue, 16 Sep 2025 16:10:36 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fighting human trafficking with self-contained applications</title>
+            <link>https://lwn.net/Articles/1036916/</link>
+            <description><![CDATA[<p>
+Brooke Deuson is the developer behind
+<a href="https://traffickingfreetomorrow.com/">
+Trafficking Free Tomorrow</a>, a nonprofit organization that
+produces free software to help law enforcement combat human trafficking. She is
+a survivor of human trafficking herself.
+She spoke at RustConf 2025 about her
+mission, and why she chose to write her anti-trafficking software in Rust.
+Interestingly, it has nothing to do with Rust's lifetime-analysis-based memory-safety —
+instead, her choice was motivated by the difficulty she faces getting police
+departments to actually use her software. The fact that Rust is statically
+linked and capable of cross compilation by default makes deploying Rust software
+in those environments easier.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1036916/</guid>
+            <pubDate>Mon, 15 Sep 2025 19:15:06 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] New kernel tools: wprobes, KStackWatch, and KFuzzTest</title>
+            <link>https://lwn.net/Articles/1037390/</link>
+            <description><![CDATA[The kernel runs in a special environment that makes it difficult to use
+many of the development tools that are available to user-space developers.
+Kernel developers often respond by simply doing without, but the truth is
+that they need good tools as much as anybody else.  Three new tools for the
+tracking down of bugs have recently landed on the linux-kernel mailing
+list; here is an overview.]]></description>
+            <guid>https://lwn.net/Articles/1037390/</guid>
+            <pubDate>Mon, 15 Sep 2025 15:14:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Creating a healthy kernel subsystem community</title>
+            <link>https://lwn.net/Articles/1036908/</link>
+            <description><![CDATA[Creating welcoming communities within open-source projects is a recurring
+topic at conferences; those projects rely on contributions from others, so
+making them welcome is important. The kernel has, rather infamously
+over the years, been an oft-cited example of an unwelcoming project, though
+there have been (and are) multiple efforts to change that with varying
+degrees of success.  Hans de Goede talked about such efforts within his
+corner of the kernel project in a talk (<a
+href="https://www.youtube.com/watch?v=O8Q8nIzEG6c">YouTube video</a>) at
+<a
+href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
+Source Summit Europe</a>.]]></description>
+            <guid>https://lwn.net/Articles/1036908/</guid>
+            <pubDate>Fri, 12 Sep 2025 15:50:51 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A policy for Link tags</title>
+            <link>https://lwn.net/Articles/1037069/</link>
+            <description><![CDATA[The Git source-code management system stores a lot of information about
+changes to code — but it does not hold everything that might be of interest
+to a developer who needs to investigate a specific change in the future.
+Commits in a repository are the end result of a (sometimes extended)
+discussion; often, that discussion will result in changes to the code that
+are not explained in the changelog.  For some years now, many maintainers
+have followed the convention of applying a Link tag to commits that points
+back to the mailing-list posting of the change.  Linus Torvalds has been
+expressing his dislike for this convention for a while, though, and its
+time appears to be coming to an end.]]></description>
+            <guid>https://lwn.net/Articles/1037069/</guid>
+            <pubDate>Thu, 11 Sep 2025 15:16:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1039311/</link>
@@ -192,128 +330,6 @@ Project team leader intrigeri's <a href="https://debconf25.debconf.org/">DebConf
             <guid>https://lwn.net/Articles/1038579/</guid>
             <pubDate>Thu, 18 Sep 2025 13:52:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 11, 2025</title>
-            <link>https://lwn.net/Articles/1036683/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1036683/">Front</a>: Space Grade Linux; KDE's new distribution; Rug pulls and forks; Dependency tracker; Kernel configuration; Framework 12 laptop.
-            <li> <a href="https://lwn.net/Articles/1036685/">Briefs</a>: npm security; high-memory; Anaconda WebUI; OpenSUSE bcachefs; 32-bit Firefox; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1036686/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1036683/</guid>
-            <pubDate>Thu, 11 Sep 2025 00:19:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] How many ways are there to configure the Linux kernel?</title>
-            <link>https://lwn.net/Articles/1034811/</link>
-            <description><![CDATA[<p>
-There are a large number of ways to configure the 6.16
-Linux kernel. It has 32,468 different configuration options on x86_64,
-and a comparable number for other platforms. Exploring the ways the kernel can
-be configured is sufficiently difficult that it requires specialized tools.
-These show the
-<a href="https://lwn.net/Articles/1034812/">
-number of possible configurations</a> that options can be combined in has
-6,550 digits. How has that number changed over the history of the kernel, and
-what does it mean for testing?
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1034811/</guid>
-            <pubDate>Wed, 10 Sep 2025 16:10:27 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] KDE launches its own distribution (again)</title>
-            <link>https://lwn.net/Articles/1037166/</link>
-            <description><![CDATA[<p>At <a href="https://akademy.kde.org/2025/">Akademy 2025</a>, the
-KDE Project <a
-href="https://floss.social/@kde/115157115844689060">released</a> an
-alpha version of <a href="https://kde.org/linux/">KDE Linux</a>, a
-distribution built by the project to "<q>include the best
-implementation of everything KDE has to offer, using the most advanced
-technologies</q>". It is aimed at providing an operating system
-suitable for home use, business use, OEM installations, and more
-"<q>eventually</q>". For now there are many rough edges and missing
-features that users should be aware of before taking the plunge; but
-it is an interesting look at the kind of complete Linux system that
-KDE developers would like to see.</p>]]></description>
-            <guid>https://lwn.net/Articles/1037166/</guid>
-            <pubDate>Wed, 10 Sep 2025 14:12:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Introducing Space Grade Linux</title>
-            <link>https://lwn.net/Articles/1036168/</link>
-            <description><![CDATA[A new project, targeting Linux for the proverbial final frontier—outer
-space—was the subject of a talk (<a
-href="https://www.youtube.com/watch?v=jfFPlaVtTDY">YouTube video</a>) at
-the Embedded Linux Conference, which was held as part of <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a> in Amsterdam in late August.  Ramón Roche
-introduced <a href="https://elisa.tech/space-grade-linux-sig/">Space Grade
-Linux</a> (SGL), which is currently incubating as a special interest group
-(SIG) of the <a href="https://elisa.tech/">Embedding Linux in Safety
-Applications</a> (ELISA) project.  The idea is to create a distribution
-with a base layer that can be used for off-planet missions of various
-sorts, along with other layers that can be used to customize it for
-different space-based use cases.]]></description>
-            <guid>https://lwn.net/Articles/1036168/</guid>
-            <pubDate>Tue, 09 Sep 2025 13:59:03 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Testing the 2-in-1 Framework 12 Laptop</title>
-            <link>https://lwn.net/Articles/1035758/</link>
-            <description><![CDATA[<p><a href="https://frame.work/">Framework Computer</a> is a US-based
-computer manufacturer with a line of Linux-supported, modular, easily
-repairable and upgradeable laptops. In February, the company <a
-href="https://frame.work/blog/introducing-the-framework-laptop-12">announced</a>
-a new model, the <a
-href="https://frame.work/laptop12">Framework&#160;Laptop&#160;12</a>,
-an "<q>entry-level</q>" 12.2-inch convertible notebook that can be
-used as a laptop or tablet. The systems were made available for pre-order
-in April, I received mine in mid-August. Since then, I have been
-putting it through its paces with Debian&#160;13 ("trixie") and
-Fedora&#160;Linux&#160;42. It's a good choice for users who want a
-Linux-friendly, lightweight, <span class="nobreak">2-in-1</span>
-device&mdash;if they are willing to make a few concessions on storage
-capacity, RAM, and CPU/GPU choices.</p>]]></description>
-            <guid>https://lwn.net/Articles/1035758/</guid>
-            <pubDate>Mon, 08 Sep 2025 15:12:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rug pulls, forks, and open-source feudalism</title>
-            <link>https://lwn.net/Articles/1036465/</link>
-            <description><![CDATA[Like almost all human endeavors, open-source software development involves
-a range of power dynamics.  Companies, developers, and users are all
-concerned with the power to influence the direction of the software — and,
-often, to profit from it.  At the 2025 <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a>, Dawn Foster talked about how those dynamics can
-play out, with an eye toward a couple of tactics — rug pulls and forks — that
-are available to try to shift power in one direction or another.]]></description>
-            <guid>https://lwn.net/Articles/1036465/</guid>
-            <pubDate>Fri, 05 Sep 2025 14:48:07 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The dependency tracker for complex deadlock detection</title>
-            <link>https://lwn.net/Articles/1036222/</link>
-            <description><![CDATA[Deadlocks are a constant threat in concurrent settings with shared
-data; it is thus not surprising that the kernel project has long since
-developed tools to detect potential deadlocks so they can be fixed before
-they affect production users.  Byungchul Park thinks that he has developed
-a better tool that can detect more deadlock-prone situations.  At the 2025 <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a>, he presented an introduction to his dependency
-tracker (or "DEPT") tool and the kinds of problems it can detect.]]></description>
-            <guid>https://lwn.net/Articles/1036222/</guid>
-            <pubDate>Thu, 04 Sep 2025 14:34:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
