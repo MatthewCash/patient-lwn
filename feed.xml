@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Sep 2025 14:09:06 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Sep 2025 14:19:44 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Sep 2025 14:39:29 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Sep 2025 14:45:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1039528/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grub2 and kernel), <b>Debian</b> (chromium and libxslt), <b>Fedora</b> (chromium, expat, libssh, and webkitgtk), <b>Oracle</b> (avahi, firefox, ImageMagick, kernel, libtpms, and mysql), <b>Red Hat</b> (kernel), <b>SUSE</b> (bird3, expat, kernel, and tiff), and <b>Ubuntu</b> (dpkg, gnuplot, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-riscv-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-6.14, linux-oracle, linux-realtime, linux-riscv, linux-riscv-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-oem-6.14, linux-oracle-5.15, linux-realtime-6.14, and python-eventlet).]]></description>
+            <guid>https://lwn.net/Articles/1039528/</guid>
+            <pubDate>Thu, 25 Sep 2025 14:39:29 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>PostgreSQL 18 released</title>
             <link>https://lwn.net/Articles/1039483/</link>
@@ -285,43 +293,6 @@ usual set of stabilized APIs.]]></description>
             <guid>https://lwn.net/Articles/1038649/</guid>
             <pubDate>Thu, 18 Sep 2025 14:56:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Bluefin LTS released</title>
-            <link>https://lwn.net/Articles/1038584/</link>
-            <description><![CDATA[<p>The Universal Blue project has announced the release of <a
-href="https://docs.projectbluefin.io/blog/bluefin-lts-ga/">Bluefin&#160;LTS</a>,
-an image-based distribution similar to <a
-href="https://lwn.net/Articles/954059/">Bluefin</a> that uses
-CentOS&#160;Stream&#160;10 and EPEL instead of Fedora as its base:</p>
-
-<blockquote class="bq">
-<p>Bluefin LTS ships with Linux 6.12.0, which is the kernel for the
-lifetime of release. An optional hwe branch with new kernels is
-available, offering the same modern kernel you'll find in Bluefin and
-Bluefin GTS. Both vanilla and HWE ISOs are available, and you can
-always choose to switch back and forth after installation. [...]</p>
-
-<p>Bluefin LTS provides a backported GNOME desktop so that you are not
-left behind. This is an important thing for us. James has been
-diligently working on GNOME backports with the upstream CentOS
-community, and we feel bringing modern GNOME desktops to an LTS makes
-sense.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1038584/</guid>
-            <pubDate>Thu, 18 Sep 2025 14:24:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1038638/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnutls, mysql:8.4, opentelemetry-collector, and python-cryptography), <b>Debian</b> (nextcloud-desktop), <b>Fedora</b> (chromium, firefox, forgejo, gitleaks, kernel, kernel-headers, lemonldap-ng, perl-Cpanel-JSON-XS, and python-pip), <b>Red Hat</b> (firefox and libxml2), <b>Slackware</b> (expat and mozilla), <b>SUSE</b> (avahi, bluez, cups, curl, firefox-esr, gdk-pixbuf, gstreamer, java-1_8_0-ibm, krb5, net-tools, podman, raptor, sevctl, tkimg, ucode-intel, and vim), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp,
- linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, linux-fips, linux-azure-fips, linux-gcp-fips, and linux-gcp-6.14, linux-oracle, linux-oracle-6.14).]]></description>
-            <guid>https://lwn.net/Articles/1038638/</guid>
-            <pubDate>Thu, 18 Sep 2025 14:28:08 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
