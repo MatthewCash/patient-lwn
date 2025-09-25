@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Sep 2025 13:51:36 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Sep 2025 13:56:54 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Sep 2025 14:09:06 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Sep 2025 14:19:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PostgreSQL 18 released</title>
+            <link>https://lwn.net/Articles/1039483/</link>
+            <description><![CDATA[<p><a
+href="https://www.postgresql.org/about/news/postgresql-18-released-3142/">Version
+18</a> of the PostgreSQL database has been released. Notable
+improvements in this release include "skip scan" lookups for
+multicolumn B-tree indexes, <a
+href="https://www.postgresql.org/docs/18/sql-createtable.html#SQL-CREATETABLE-PARMS-GENERATED-STORED">virtual
+generated columns</a>, better text processing, <a
+href="https://www.postgresql.org/docs/18/auth-oauth.html">oauth
+authentication</a>, and a new asynchronous I/O (AIO) subsystem to improve
+performance:</p>
+
+<blockquote class="bq">
+AIO lets PostgreSQL issue multiple I/O requests concurrently instead
+of waiting for each to finish in sequence. This expands existing
+readahead and improves overall throughput. AIO operations supported in
+PostgreSQL 18 include sequential scans, bitmap heap scans, and
+vacuum. Benchmarking has demonstrated performance gains of up to 3x in
+certain scenarios.
+</blockquote>
+
+<p>There are, of course, many other improvements and changes; see the
+<a href="https://www.postgresql.org/docs/18/release-18.html">release
+notes</a> for full details.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1039483/</guid>
+            <pubDate>Thu, 25 Sep 2025 14:08:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for September 18, 2025</title>
             <link>https://lwn.net/Articles/1037644/</link>
