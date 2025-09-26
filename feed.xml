@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Sep 2025 12:29:53 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Sep 2025 12:38:57 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Sep 2025 12:52:51 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Sep 2025 13:17:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -346,14 +346,6 @@ contains an important set of fixes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1038840/</guid>
             <pubDate>Fri, 19 Sep 2025 15:13:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1038802/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, cjson, and firefox-esr), <b>Fedora</b> (expat, gh, scap-security-guide, and xen), <b>Oracle</b> (container-tools:rhel8, firefox, grub2, and mysql:8.4), <b>SUSE</b> (busybox, busybox-links, element-web, kernel, shadowsocks-v2ray-plugin, and yt-dlp), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-azure, linux-azure-5.15, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, linux-oracle-6.8, linux-realtime, and openjpeg2).]]></description>
-            <guid>https://lwn.net/Articles/1038802/</guid>
-            <pubDate>Fri, 19 Sep 2025 13:10:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
