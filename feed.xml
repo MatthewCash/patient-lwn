@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Sep 2025 14:08:23 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Sep 2025 14:51:53 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Sep 2025 14:54:07 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Sep 2025 15:20:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -340,21 +340,6 @@ week</q>".]]></description>
             <guid>https://lwn.net/Articles/1038976/</guid>
             <pubDate>Sun, 21 Sep 2025 22:28:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Four Friday stable kernel updates</title>
-            <link>https://lwn.net/Articles/1038840/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1038841/">6.16.8</a>, <a
-href="https://lwn.net/Articles/1038842/">6.12.48</a>, <a
-href="https://lwn.net/Articles/1038843/">6.6.107</a>, and <a
-href="https://lwn.net/Articles/1038844/">6.1.153</a> stable kernels; each
-contains an important set of fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1038840/</guid>
-            <pubDate>Fri, 19 Sep 2025 15:13:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
