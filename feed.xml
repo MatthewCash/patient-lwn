@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Sep 2025 12:52:51 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Sep 2025 13:45:00 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Sep 2025 13:51:17 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Sep 2025 13:55:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1039749/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and thunderbird), <b>Debian</b> (ceph and thunderbird), <b>Fedora</b> (chromium, mingw-expat, python-deepdiff, python-orderly-set, python-pip, rust-az-cvm-vtpm, rust-az-snp-vtpm, rust-az-tdx-vtpm, and trustee-guest-components), <b>Oracle</b> (aide, kernel, and thunderbird), <b>Red Hat</b> (firefox, kernel, openssh, perl-YAML-LibYAML, and thunderbird), <b>Slackware</b> (expat), <b>SUSE</b> (jasper, libssh, openjpeg2, and python-pycares), and <b>Ubuntu</b> (linux-aws-6.14, linux-hwe-6.14, linux-azure, linux-hwe-6.8, linux-realtime-6.8, node-sha.js, and pcre2).]]></description>
+            <guid>https://lwn.net/Articles/1039749/</guid>
+            <pubDate>Fri, 26 Sep 2025 13:51:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Cuni: Tracing JITs in the real world @ CPython Core Dev Sprint</title>
             <link>https://lwn.net/Articles/1039612/</link>
