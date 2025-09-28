@@ -8,11 +8,56 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 28 Sep 2025 21:33:37 +0000</pubDate>
-        <lastBuildDate>Sun, 28 Sep 2025 23:16:45 +0000</lastBuildDate>
+        <pubDate>Sun, 28 Sep 2025 23:27:43 +0000</pubDate>
+        <lastBuildDate>Sun, 28 Sep 2025 23:30:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 6.17 kernel has been released</title>
+            <link>https://lwn.net/Articles/1038266/</link>
+            <description><![CDATA[Linus Torvalds has <a href="https://lwn.net/ml/all/CAHk-%3DwiX38oG6%3DxFBNLO0pnjqHfxzjd6-1kZ5Nv9HfqNC2PoFA%40mail.gmail.com/">released</a> the 6.17 kernel.  He notes that the shortlog for the changes since -rc7 are pretty tame:
+
+<blockquote class="bq">
+It's not exciting, which is all good. I think the
+biggest patch in there is some locking fixes for some bluetooth races
+that could cause use-after-free situations. Whee - that's about as
+exciting as it gets.
+<p>
+Other than that, there' the usual driver fixlets (GPU and networking
+dominate as usual, but "dominate" is still pretty small), there's some
+minor random other driver updates, some filesystem noise, and core
+kernel and mm.
+<p>
+And some selftest updates.
+</blockquote>
+<p>
+Significant features in this release include
+<a href="https://lwn.net/Articles/1013640/">better control</a> over x86 Spectre
+mitigations,
+live patching support on 64-bit Arm platforms,
+a number of <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=672dcda24607">pidfd
+improvements</a>,
+the <a href="https://lwn.net/Articles/1023575/">removal</a> of special support for
+uniprocessor systems,
+<a href="https://lwn.net/Articles/1030842/">initial support</a> for proxy execution,
+experimental large-folio support in the Btrfs filesystem,
+the <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=662416578541"><tt>file_getattr()</tt>
+and <tt>file_setattr()</tt> system calls</a>, and
+support for the <a
+href="https://web.git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8f9516daedd6">DualPI2
+congestion-control protocol</a>.
+<p>
+See the LWN merge-window summaries 
+(<a href="https://lwn.net/Articles/1031713/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1032095/">part&#160;2</a>) for more information.
+In addition, KernelNewbies has a <a href="https://kernelnewbies.org/Linux_6.17">look at the changes</a> that went into 6.17.]]></description>
+            <guid>https://lwn.net/Articles/1038266/</guid>
+            <pubDate>Sun, 28 Sep 2025 23:27:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1039749/</link>
