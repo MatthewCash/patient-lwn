@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Sep 2025 16:29:44 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Sep 2025 16:52:08 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Sep 2025 17:13:31 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Sep 2025 17:17:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>NixOS moderation team resigns</title>
+            <link>https://lwn.net/Articles/1040059/</link>
+            <description><![CDATA[<p>
+The 
+<a href="https://nixos.org/">
+NixOS</a> moderation team, which is theoretically 
+<a href="https://nixos.org/community/teams/moderation/">
+in charge</a> of ensuring that community participation on the project's 
+<a href="https://github.com/NixOS/">
+repositories</a> and
+<a href="https://discourse.nixos.org/">discussion forum</a> remains welcoming and useful, has released
+<a href="https://discourse.nixos.org/t/a-statement-from-members-of-the-moderation-team/69828">
+a joint resignation statement</a>. This action was motivated by conflict with the project's steering council (SC), which has repeatedly overridden the moderation team, leading the team members to decide that they could not continue acting as moderators. Arian Van Putten, speaking for the whole team, writes:
+</p>
+
+<blockquote class="bq">
+<p>
+The SC has also shown, in private and public conversations, their lack of understanding of basic principles of community management and open communication. They have mistaken quiet and a lack of controversy for success and peace. They have consistently become upset when there is criticism, and gone quiet on crucial issues in between. We have some fundamental conflicts in this community, which absolutely require discussion. Meanwhile, discussion with the SC has only become less effective.
+</p>
+
+<p>
+We think that the goal of moderation should not be to avoid difficult conversations - it's to navigate those difficult conversations in ways that remain safe and constructive. We believe we've made considerable progress as a community on making those conversations happen, and we believe they need to happen more for the project to grow, not be suppressed. We thank everyone for the growth that we have seen, and for their efforts to avoid personal focus in discussion, especially recently.
+</p>
+</blockquote>
+
+<p>
+The NixOS project has had problems with community moderation stretching back
+<a href="https://lwn.net/Articles/970824/">more than a year</a>. With the next steering council election coming up soon, it will be interesting to see whether the community selects a council that feels differently or not.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1040059/</guid>
+            <pubDate>Mon, 29 Sep 2025 17:13:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1040058/</link>
