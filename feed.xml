@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Sep 2025 08:23:51 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Sep 2025 08:50:47 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Sep 2025 09:10:57 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Sep 2025 09:22:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>F-Droid and Google&apos;s Developer Registration Decree</title>
+            <link>https://lwn.net/Articles/1039904/</link>
+            <description><![CDATA[The F-Droid project has posted <a
+href="https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html">an
+urgent message</a> regarding Google's plan to require developer
+registration to install apps on Android devices.
+<p>
+<blockquote class="bq">
+	The F-Droid project cannot require that developers register their
+	apps through Google, but at the same time, we cannot "take over"
+	the application identifiers for the open-source apps we distribute,
+	as that would effectively seize exclusive distribution rights to
+	those applications.
+<p>
+	If it were to be put into effect, the developer registration decree
+	will end the F-Droid project and other free/open-source app
+	distribution sources as we know them today, and the world will be
+	deprived of the safety and security of the catalog of thousands of
+	apps that can be trusted and verified by any and all. F-Droid's
+	myriad users will be left adrift, with no means to install — or
+	even update their existing installed — applications.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1039904/</guid>
+            <pubDate>Mon, 29 Sep 2025 09:08:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The 6.17 kernel has been released</title>
             <link>https://lwn.net/Articles/1038266/</link>
