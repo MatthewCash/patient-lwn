@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Sep 2025 15:16:51 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Sep 2025 15:20:23 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Sep 2025 15:30:11 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Sep 2025 15:41:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1040058/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (avahi, cups, firefox, gnutls, golang, httpd, kernel, libtpms, mysql, opentelemetry-collector, php:8.2, podman, postgresql:13, postgresql:15, python3, python3.11, python3.12, python3.9, thunderbird, and udisks2), <b>Debian</b> (firefox-esr, gimp, nncp, node-tar-fs, and squid), <b>Fedora</b> (chromium, firebird, python-azure-keyvault-securitydomain, python-azure-mgmt-security, and python-microsoft-security-utilities-secret-masker), <b>Red Hat</b> (httpd:2.4, kernel, kernel-rt, and mod_http2), <b>SUSE</b> (aide, apache2-mod_security2, chromedriver, cloud-init, docker, gdk-pixbuf, git, google-osconfig-agent, govulncheck-vulndb, gstreamer-plugins-base, iperf, kernel, krb5, krita, luajit, net-tools, nvidia-open-driver-G06-signed, pam, postgresql17, python311, rust-keylime, sevctl, tor, tree-sitter-ruby, and udisks2), and <b>Ubuntu</b> (curl, ghostscript, inetutils, python2.7, and qtbase-opensource-src).]]></description>
+            <guid>https://lwn.net/Articles/1040058/</guid>
+            <pubDate>Mon, 29 Sep 2025 15:30:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>F-Droid and Google&apos;s Developer Registration Decree</title>
             <link>https://lwn.net/Articles/1039904/</link>
