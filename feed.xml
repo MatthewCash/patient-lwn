@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 30 Sep 2025 19:45:05 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Sep 2025 19:52:25 +0000</lastBuildDate>
+        <pubDate>Tue, 30 Sep 2025 19:54:49 +0000</pubDate>
+        <lastBuildDate>Tue, 30 Sep 2025 20:20:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Radicle 1.5.0 released</title>
+            <link>https://lwn.net/Articles/1040236/</link>
+            <description><![CDATA[<a
+href="https://radicle.xyz/2025/09/30/radicle-1.5.0">Version 1.5.0</a>
+of the Radicle peer-to-peer Git collaboration platform has been
+released. This release includes better support for bare repositories,
+structured logging, and improvements in the output of <tt>rad patch
+show</tt>:</p>
+
+<blockquote class="bq">
+The previous output would differentiate "updates", where the original
+author creates a new revision, and "revisions", where another author
+creates a revision. This could be confusing since updates are also
+revisions. Instead, the output shows a timeline of the root of the
+patch and each new revision, without any differentiation. The revision
+identifiers, head commit of the revision, and author are still printed
+as per usual.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/966869/">covered</a> Radicle
+in March 2024.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1040236/</guid>
+            <pubDate>Tue, 30 Sep 2025 19:54:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1040152/</link>
