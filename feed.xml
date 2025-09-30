@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 30 Sep 2025 14:43:31 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Sep 2025 15:40:38 +0000</lastBuildDate>
+        <pubDate>Tue, 30 Sep 2025 15:45:50 +0000</pubDate>
+        <lastBuildDate>Tue, 30 Sep 2025 15:52:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -413,33 +413,6 @@ time appears to be coming to an end.]]></description>
             <guid>https://lwn.net/Articles/1039311/</guid>
             <pubDate>Wed, 24 Sep 2025 13:18:11 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Open Infrastructure is Not Free: A Joint Statement on Sustainable Stewardship</title>
-            <link>https://lwn.net/Articles/1039127/</link>
-            <description><![CDATA[The <a href="https://openssf.org/">Open Source Security Foundation</a>
-(OpenSSF) has put together a joint statement from many of the public
-package repositories for various languages about the need for assistance in
-maintaining these commons.  Services such as <a
-href="https://pypi.org/">PyPI</a> for Python, <a
-href="https://crates.io/">crates.io</a> for Rust, and many others are
-working together to try to find ways to sustain these services in the face
-of challenges from "<q>automated CI systems, large-scale dependency
-scanners, and ephemeral container builds</q>" all downloading enormous
-amounts of package data, coupled with the rise of generative and agentic AI
-"<q>driving a further explosion of machine-driven, often wasteful automated
-usage, compounding the existing challenges</q>".  It is not a crisis, yet,
-they say, but it is headed in that direction.
-
-
-<blockquote class="bq">
-Despite serving billions (perhaps even trillions) of downloads each month (largely driven by commercial-scale consumption), many of these services are funded by a small group of benefactors. Sometimes they are supported by commercial vendors, such as Sonatype (Maven Central), GitHub (npm) or Microsoft (NuGet). At other times, they are supported by nonprofit foundations that rely on grants, donations, and sponsorships to cover their maintenance, operation, and staffing.
-<p>
-Regardless of the operating model, the pattern remains the same: a small number of organizations absorb the majority of infrastructure costs, while the overwhelming majority of large-scale users, including commercial entities that generate demand and <b>extract economic value, consume these services without contributing to their sustainability</b>.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1039127/</guid>
-            <pubDate>Tue, 23 Sep 2025 15:25:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
