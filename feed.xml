@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 30 Sep 2025 06:08:46 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Sep 2025 06:52:24 +0000</lastBuildDate>
+        <pubDate>Tue, 30 Sep 2025 07:10:21 +0000</pubDate>
+        <lastBuildDate>Tue, 30 Sep 2025 07:19:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Bcachefs removed from the mainline kernel</title>
+            <link>https://lwn.net/Articles/1040120/</link>
+            <description><![CDATA[After marking bcachefs "externally maintained" in 6.17, Linus Torvalds has
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f2c61db29f27">removed
+it entirely</a> for 6.18.  "<q>It's now a DKMS module, making the in-kernel
+code stale, so remove it to avoid any version confusion.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1040120/</guid>
+            <pubDate>Tue, 30 Sep 2025 07:10:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>NixOS moderation team resigns</title>
             <link>https://lwn.net/Articles/1040059/</link>
