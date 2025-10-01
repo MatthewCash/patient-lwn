@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Oct 2025 12:22:34 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Oct 2025 12:40:32 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Oct 2025 13:15:05 +0000</pubDate>
+        <lastBuildDate>Wed, 1 Oct 2025 13:20:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSUSE Leap 16 released</title>
+            <link>https://lwn.net/Articles/1040323/</link>
+            <description><![CDATA[The <a
+href="https://news.opensuse.org/2025/10/01/next-chapter-opens-with-leap-release/">openSUSE
+Leap 16 release</a> is now available.
+<p>
+<blockquote class="bq">
+	This major version update of our fixed-release community-Linux
+	distribution has a fresh software stack and introduces an unmatched
+	maintenance- and security-support cycle, a new installer and
+	simplified migration options.
+</blockquote>
+<p>
+See <a href="https://lwn.net/Articles/1019688/">our look at this release</a> for more
+information.]]></description>
+            <guid>https://lwn.net/Articles/1040323/</guid>
+            <pubDate>Wed, 01 Oct 2025 13:01:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1040375/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, mysql:8.0, and openssh), <b>Debian</b> (libcommons-lang-java, libcommons-lang3-java, libcpanel-json-xs-perl, libjson-xs-perl, libxml2, open-vm-tools, and u-boot), <b>Fedora</b> (bird, dnsdist, mapserver, ntpd-rs, python-nh3, and rust-ammonia), <b>Oracle</b> (kernel and mysql:8.0), <b>Red Hat</b> (cups, postgresql:12, and postgresql:13), <b>SUSE</b> (cJSON-devel, gimp, kernel-devel, kubecolor, open-vm-tools, openssl-1_1, openssl-3, and ruby3.4-rubygem-rack), and <b>Ubuntu</b> (linux-azure-5.15 and openssl, openssl1.0).]]></description>
+            <guid>https://lwn.net/Articles/1040375/</guid>
+            <pubDate>Wed, 01 Oct 2025 13:13:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Radicle 1.5.0 released</title>
             <link>https://lwn.net/Articles/1040236/</link>
