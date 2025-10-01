@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Oct 2025 17:24:17 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Oct 2025 17:51:59 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Oct 2025 18:18:55 +0000</pubDate>
+        <lastBuildDate>Wed, 1 Oct 2025 18:27:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Alpine Linux plans /usr merge</title>
+            <link>https://lwn.net/Articles/1040410/</link>
+            <description><![CDATA[<p>The Alpine Linux project has <a
+href="https://alpinelinux.org/posts/2025-10-01-usr-merge.html">announced</a>
+plans to change its base filesystem hierarchy:</p>
+
+<blockquote class="bq">
+<p>In the future, <tt>/lib</tt>, <tt>/bin</tt>, and <tt>/sbin</tt>
+will be symbolic links to their <tt>/usr</tt> counterparts, and every package
+shall be installed under the <tt>/usr</tt> paths. For now,
+<tt>/usr/bin</tt> and <tt>/usr/sbin</tt> will continue to be independent paths,
+but that might change if the Filesystem Hierarchy Standard (FHS) gets
+updated.
+</blockquote>
+
+<p>The merge will take place in the upcoming Alpine&#160;3.23 release
+planned for November; non-merged systems will be considered
+unsupported when 3.22 is at its end of life in May 2027.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1040410/</guid>
+            <pubDate>Wed, 01 Oct 2025 17:52:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSUSE Leap 16 released</title>
             <link>https://lwn.net/Articles/1040323/</link>
