@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Oct 2025 01:05:12 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Oct 2025 01:19:34 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Oct 2025 02:32:21 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Oct 2025 02:43:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -485,144 +485,6 @@ notes</a> for full details.</p>
             <guid>https://lwn.net/Articles/1039483/</guid>
             <pubDate>Thu, 25 Sep 2025 14:08:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 18, 2025</title>
-            <link>https://lwn.net/Articles/1037644/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1037644/">Front</a>: Fighting human trafficking; End of 10; Link tags; Healthy subsystem communities; New kernel tools; Rust and Carbon; Typst.
-            <li> <a href="https://lwn.net/Articles/1037646/">Briefs</a>: Brief news items from throughout the community.
-            <li> <a href="https://lwn.net/Articles/1037647/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1037644/</guid>
-            <pubDate>Thu, 18 Sep 2025 00:06:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Typst: a possible LaTeX replacement</title>
-            <link>https://lwn.net/Articles/1037577/</link>
-            <description><![CDATA[<a href="https://typst.app">Typst</a> is a program for document
-typesetting. It is especially well-suited to technical material
-incorporating elements such as mathematics, tables, and floating
-figures. It produces high-quality results, comparable to the gold standard,
-<a href="https://www.latex-project.org/">LaTeX</a>, with a simpler markup
-system and easier customization, all while compiling documents
-more quickly. Typst is free software, Apache-2.0 licensed, and is written in Rust.]]></description>
-            <guid>https://lwn.net/Articles/1037577/</guid>
-            <pubDate>Wed, 17 Sep 2025 14:30:42 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Providing support for Windows 10 refugees</title>
-            <link>https://lwn.net/Articles/1037132/</link>
-            <description><![CDATA[<p>In October, consumer versions of Windows&#160;10 will
-stop receiving security updates. Many users who would ordinarily move
-to the next version are blocked by Windows&#160;11's hardware
-requirements unless they are willing to buy a newer PC. The "<a
-href="https://endof10.org/">End of 10</a>" campaign is an effort to
-convince those users to switch to Linux rather than sticking with an
-end-of-life operating system or buying a new Windows system. At
-Akademy&#160;2025, Dr. Joseph De&#160;Veaugh-Geiss,
-Bettina Louis,  Carolina Silva Rodé, and Nicole Teale discussed their
-work on the campaign, its progress so far, and what's next.</p>]]></description>
-            <guid>https://lwn.net/Articles/1037132/</guid>
-            <pubDate>Wed, 17 Sep 2025 13:41:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Comparing Rust to Carbon</title>
-            <link>https://lwn.net/Articles/1036912/</link>
-            <description><![CDATA[<p>
-Safe, ergonomic interoperability between Rust and <span style="white-space:nowrap;">C/C++</span> was a popular topic at
-<a href="https://rustconf.com/">
-RustConf&#160;2025</a> in Seattle, Washington. Chandler Carruth gave a presentation
-about the different approaches to interoperability in Rust and
-<a href="https://docs.carbon-lang.dev/">
-Carbon</a>, the
-experimental "<span style="white-space:nowrap;">(C++)++</span>" language.
-His ultimate conclusion was that
-while Rust's ability to interface with other languages is expanding over time,
-it wouldn't offer a complete solution to C++ interoperability anytime soon — and so there is room for
-Carbon to take a different approach to incrementally upgrading existing C++ projects.
-His
-<a href="https://chandlerc.blog/slides/2025-rustconf-memory-safety-everywhere/#/">
-slides</a> are available for readers wishing to study his example code in more
-detail.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1036912/</guid>
-            <pubDate>Tue, 16 Sep 2025 16:10:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fighting human trafficking with self-contained applications</title>
-            <link>https://lwn.net/Articles/1036916/</link>
-            <description><![CDATA[<p>
-Brooke Deuson is the developer behind
-<a href="https://traffickingfreetomorrow.com/">
-Trafficking Free Tomorrow</a>, a nonprofit organization that
-produces free software to help law enforcement combat human trafficking. She is
-a survivor of human trafficking herself.
-She spoke at RustConf 2025 about her
-mission, and why she chose to write her anti-trafficking software in Rust.
-Interestingly, it has nothing to do with Rust's lifetime-analysis-based memory-safety —
-instead, her choice was motivated by the difficulty she faces getting police
-departments to actually use her software. The fact that Rust is statically
-linked and capable of cross compilation by default makes deploying Rust software
-in those environments easier.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1036916/</guid>
-            <pubDate>Mon, 15 Sep 2025 19:15:06 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] New kernel tools: wprobes, KStackWatch, and KFuzzTest</title>
-            <link>https://lwn.net/Articles/1037390/</link>
-            <description><![CDATA[The kernel runs in a special environment that makes it difficult to use
-many of the development tools that are available to user-space developers.
-Kernel developers often respond by simply doing without, but the truth is
-that they need good tools as much as anybody else.  Three new tools for the
-tracking down of bugs have recently landed on the linux-kernel mailing
-list; here is an overview.]]></description>
-            <guid>https://lwn.net/Articles/1037390/</guid>
-            <pubDate>Mon, 15 Sep 2025 15:14:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Creating a healthy kernel subsystem community</title>
-            <link>https://lwn.net/Articles/1036908/</link>
-            <description><![CDATA[Creating welcoming communities within open-source projects is a recurring
-topic at conferences; those projects rely on contributions from others, so
-making them welcome is important. The kernel has, rather infamously
-over the years, been an oft-cited example of an unwelcoming project, though
-there have been (and are) multiple efforts to change that with varying
-degrees of success.  Hans de Goede talked about such efforts within his
-corner of the kernel project in a talk (<a
-href="https://www.youtube.com/watch?v=O8Q8nIzEG6c">YouTube video</a>) at
-<a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a>.]]></description>
-            <guid>https://lwn.net/Articles/1036908/</guid>
-            <pubDate>Fri, 12 Sep 2025 15:50:51 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] A policy for Link tags</title>
-            <link>https://lwn.net/Articles/1037069/</link>
-            <description><![CDATA[The Git source-code management system stores a lot of information about
-changes to code — but it does not hold everything that might be of interest
-to a developer who needs to investigate a specific change in the future.
-Commits in a repository are the end result of a (sometimes extended)
-discussion; often, that discussion will result in changes to the code that
-are not explained in the changelog.  For some years now, many maintainers
-have followed the convention of applying a Link tag to commits that points
-back to the mailing-list posting of the change.  Linus Torvalds has been
-expressing his dislike for this convention for a while, though, and its
-time appears to be coming to an end.]]></description>
-            <guid>https://lwn.net/Articles/1037069/</guid>
-            <pubDate>Thu, 11 Sep 2025 15:16:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
