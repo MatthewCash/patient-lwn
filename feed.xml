@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 02 Oct 2025 14:31:53 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Oct 2025 14:42:59 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 2 Oct 2025 14:52:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -469,14 +469,6 @@ href="https://lwn.net/Articles/1039537/">6.1.154</a> stable kernels have been re
 As usual, they all contain important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1039533/</guid>
             <pubDate>Thu, 25 Sep 2025 14:58:41 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1039528/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grub2 and kernel), <b>Debian</b> (chromium and libxslt), <b>Fedora</b> (chromium, expat, libssh, and webkitgtk), <b>Oracle</b> (avahi, firefox, ImageMagick, kernel, libtpms, and mysql), <b>Red Hat</b> (kernel), <b>SUSE</b> (bird3, expat, kernel, and tiff), and <b>Ubuntu</b> (dpkg, gnuplot, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-riscv-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-gcp, linux-gcp-6.14, linux-oracle, linux-realtime, linux-riscv, linux-riscv-6.14, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-oem-6.14, linux-oracle-5.15, linux-realtime-6.14, and python-eventlet).]]></description>
-            <guid>https://lwn.net/Articles/1039528/</guid>
-            <pubDate>Thu, 25 Sep 2025 14:39:29 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
