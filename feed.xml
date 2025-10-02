@@ -8,11 +8,148 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Oct 2025 22:56:00 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Oct 2025 23:51:40 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Oct 2025 01:05:12 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Oct 2025 01:19:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 25, 2025</title>
+            <link>https://lwn.net/Articles/1038643/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1038643/">Front</a>: Debian stable bug; Canceling async Rust; CHERI Linux; Time-slice extension; Multikernel; Revocable references; Blender 4.5.
+            <li> <a href="https://lwn.net/Articles/1038645/">Briefs</a>: Bluefin LTS; RPM 6.0.0; Tails 7.0; Rust 1.90.0; Infrastructure costs; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1038646/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1038643/</guid>
+            <pubDate>Thu, 25 Sep 2025 02:01:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Canceling asynchronous Rust</title>
+            <link>https://lwn.net/Articles/1036924/</link>
+            <description><![CDATA[<p>
+Asynchronous Rust code has what Rain Paharia calls a "<q>universal cancellation
+protocol</q>", meaning that any asynchronous code can be interrupted in the same
+way. They claim
+that this is both a useful feature when used deliberately, and a source of
+errors when done by accident. They presented
+about this problem at
+<a href="https://rustconf.com/">
+RustConf&#160;2025</a>, offering a handful of techniques to avoid introducing bugs into
+asynchronous Rust code.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1036924/</guid>
+            <pubDate>Wed, 24 Sep 2025 15:15:53 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] CHERI with a Linux on top</title>
+            <link>https://lwn.net/Articles/1037974/</link>
+            <description><![CDATA[The <a
+href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/">Capability
+Hardware Enhanced RISC Instructions</a> (CHERI) project is a rethinking of
+computer architecture in order to improve system security.  Carl Shaw gave
+a presentation at
+<a
+href="https://events.linuxfoundation.org/linux-security-summit-europe/">Linux
+Security Summit Europe</a> (LSS EU) about CHERI and the efforts to get
+Linux running on it.  He introduced <a
+href="https://en.wikipedia.org/wiki/Capability-based_security">capabilities</a>,
+which are a mechanism for access control, and outlined their
+history, which goes back many decades at this point, then looked more
+specifically at the CHERI project and what it will take to apply the
+<a href="https://lwn.net/Articles/909265/">security constraints of capabilities</a> to an operating system like Linux.]]></description>
+            <guid>https://lwn.net/Articles/1037974/</guid>
+            <pubDate>Wed, 24 Sep 2025 14:09:41 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] An unstable Debian stable update</title>
+            <link>https://lwn.net/Articles/1038699/</link>
+            <description><![CDATA[<p>A bug in a recent release of systemd's network manager caused
+headaches for people managing systems that have a virtual LAN (VLAN)
+interface on a bridge; something one might want to do, for example,
+when configuring network interfaces for virtual machines. The bug
+affected several Debian users when upgrading the <a
+href="https://packages.debian.org/trixie/systemd">systemd</a> package
+from v257.7-1 to v257.8-1. The updated package is part of the <a
+href="https://www.debian.org/News/2025/20250906">Debian&#160;13.1</a>
+release, and the bug has snared enough users to cause a minor
+stir&mdash;due in no small part to the maintainer's response as much
+as the bug itself.</p>]]></description>
+            <guid>https://lwn.net/Articles/1038699/</guid>
+            <pubDate>Tue, 23 Sep 2025 15:14:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Revocable references for transient devices</title>
+            <link>https://lwn.net/Articles/1038523/</link>
+            <description><![CDATA[Computers were once relatively static devices; if a peripheral was present
+at boot, it was unlikely to disappear while the system was operating.
+Those days are far behind us, though; devices can come and go at any time,
+often with no notice.  That impermanence can create challenges for kernel
+code, which may not be expecting resources it is managing to make an abrupt
+exit.  The <a
+href="https://lwn.net/ml/all/20250912081718.3827390-1-tzungbi@kernel.org">revocable
+resource management patch set</a> from Tzung-Bi Shih is meant to help with
+the creation of more robust — and more secure — kernel subsystems in a
+dynamic world.]]></description>
+            <guid>https://lwn.net/Articles/1038523/</guid>
+            <pubDate>Mon, 22 Sep 2025 14:05:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Multiple kernels on a single system</title>
+            <link>https://lwn.net/Articles/1038847/</link>
+            <description><![CDATA[The Linux kernel generally wants to be in charge of the system as a whole;
+it runs on all of the available CPUs and controls access to them globally.
+Cong Wang has just come forward with <a
+href="https://lwn.net/ml/all/20250918222607.186488-1-xiyou.wangcong@gmail.com">a different
+approach</a>: allowing each CPU to run its own kernel.  The patch set is in
+an early form, but it gives a hint for what might be possible.]]></description>
+            <guid>https://lwn.net/Articles/1038847/</guid>
+            <pubDate>Fri, 19 Sep 2025 19:14:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Blender 4.5 brings big changes</title>
+            <link>https://lwn.net/Articles/1036262/</link>
+            <description><![CDATA[<p><a href="https://blender.org/">Blender</a> 4.5 LTS <a
+href="https://www.blender.org/download/releases/4-5/">was released</a>
+on July 15, 2025, and will be supported through 2027. This is the last
+feature release of the 3D graphics-creation suite's 4.x series; it
+includes quality-of-life improvements, including work to bring the <a
+href="https://en.wikipedia.org/wiki/Vulkan">Vulkan</a> backend up to
+par with the default OpenGL backend. With 4.5 released, Blender
+developers are turning their attention toward Blender 5.0, planned for
+release later this year. It will introduce substantial changes,
+particularly in the <a
+href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html">Geometry
+Nodes</a> system, a central feature of Blender's procedural
+workflows.</p>]]></description>
+            <guid>https://lwn.net/Articles/1036262/</guid>
+            <pubDate>Fri, 19 Sep 2025 13:55:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Extending the time-slice-extension discussion</title>
+            <link>https://lwn.net/Articles/1038235/</link>
+            <description><![CDATA[Time-slice extension is a proposed scheduler feature that would allow a
+user-space process to request to not be preempted for a short period while
+it executes a critical section.  It is an idea that has been circulating
+for years, but efforts to implement it <a href="https://lwn.net/Articles/1009509/">became
+more serious</a> in February of this year.  The latest developer to make an
+attempt at time-slice extension is Thomas Gleixner, who has posted <a
+href="https://lwn.net/ml/all/20250908225709.144709889@linutronix.de">a new patch set</a>
+with a reworked API.  Chances are good that this implementation is close to
+what will actually be adopted by the kernel.]]></description>
+            <guid>https://lwn.net/Articles/1038235/</guid>
+            <pubDate>Thu, 18 Sep 2025 15:30:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Alpine Linux plans /usr merge</title>
             <link>https://lwn.net/Articles/1040410/</link>
