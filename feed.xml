@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Oct 2025 13:06:33 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Oct 2025 13:14:47 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Oct 2025 13:31:39 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Oct 2025 13:37:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1040729/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (idm:DL1), <b>Debian</b> (gegl and haproxy), <b>Fedora</b> (ffmpeg, firefox, freeipa, python-pip, rust-astral-tokio-tar, sqlite, uv, webkitgtk, and xen), <b>Oracle</b> (idm:DL1, ipa, kernel, perl-JSON-XS, and python3), <b>Red Hat</b> (git), <b>SUSE</b> (curl, frr, jupyter-jupyterlab, and libsuricata8_0_1), and <b>Ubuntu</b> (linux-aws, linux-lts-xenial, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-azure, linux-azure-6.8, linux-fips, linux-gcp-fips, and linux-intel-iot-realtime, linux-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1040729/</guid>
+            <pubDate>Fri, 03 Oct 2025 13:31:39 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Ian Kelling is the new FSF president</title>
             <link>https://lwn.net/Articles/1040663/</link>
