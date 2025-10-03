@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Oct 2025 13:31:39 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Oct 2025 13:52:17 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Oct 2025 14:06:27 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Oct 2025 14:18:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -420,14 +420,6 @@ In addition, KernelNewbies has a <a href="https://kernelnewbies.org/Linux_6.17">
             <guid>https://lwn.net/Articles/1038266/</guid>
             <pubDate>Sun, 28 Sep 2025 23:27:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1039749/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and thunderbird), <b>Debian</b> (ceph and thunderbird), <b>Fedora</b> (chromium, mingw-expat, python-deepdiff, python-orderly-set, python-pip, rust-az-cvm-vtpm, rust-az-snp-vtpm, rust-az-tdx-vtpm, and trustee-guest-components), <b>Oracle</b> (aide, kernel, and thunderbird), <b>Red Hat</b> (firefox, kernel, openssh, perl-YAML-LibYAML, and thunderbird), <b>Slackware</b> (expat), <b>SUSE</b> (jasper, libssh, openjpeg2, and python-pycares), and <b>Ubuntu</b> (linux-aws-6.14, linux-hwe-6.14, linux-azure, linux-hwe-6.8, linux-realtime-6.8, node-sha.js, and pcre2).]]></description>
-            <guid>https://lwn.net/Articles/1039749/</guid>
-            <pubDate>Fri, 26 Sep 2025 13:51:17 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
