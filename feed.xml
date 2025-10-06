@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Oct 2025 08:10:41 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Oct 2025 09:23:26 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Oct 2025 09:40:54 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Oct 2025 09:42:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSSH 10.1 released</title>
+            <link>https://lwn.net/Articles/1040870/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/dd12623ae86aa5eb@cvs.openbsd.org">OpenSSH 10.1</a> has
+been released.  Along with "<q>a minor security fix</q>" and some other bug
+fixes, this release disallows control characters in user names passed via
+the command line, adds better logging around certificate refusals, and a
+new <tt>RefuseConnection</tt> server configuration option.]]></description>
+            <guid>https://lwn.net/Articles/1040870/</guid>
+            <pubDate>Mon, 06 Oct 2025 09:23:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1040729/</link>
