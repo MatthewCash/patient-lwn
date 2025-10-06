@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Oct 2025 20:41:05 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Oct 2025 20:52:14 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Oct 2025 20:52:06 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Oct 2025 21:16:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>U-Boot v2025.10 released</title>
+            <link>https://lwn.net/Articles/1041023/</link>
+            <description><![CDATA[Version 2025.10 of the <a href="https://u-boot.org/">U-Boot</a> boot loader
+has been released with new features, including Python tooling improvements,
+cleanups for implicit header inclusions, better support for numerous Arm
+platforms, support for new RISC-V platforms, better documentation, and
+more.  Maintainer Tom Rini also reports on some project news:
+
+<blockquote class="bq">
+As I mentioned with the v2025.07
+release, I was looking for a few people to step up and help with the
+overall organization and management of the project. To that end, Peter
+Robinson and Neil Armstrong have stepped up and have been helping me.
+This has been part of the process for the project to join up under the
+Software Freedom Conservancy's (SFC) umbrella and have a legal entity
+that can help the project work with other legal entities on things like
+donations.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1041023/</guid>
+            <pubDate>Mon, 06 Oct 2025 20:52:06 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1040991/</link>
