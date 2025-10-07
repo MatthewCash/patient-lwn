@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Oct 2025 17:39:29 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Oct 2025 17:51:56 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Oct 2025 18:13:38 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Oct 2025 18:27:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Python 3.14.0 released</title>
+            <link>https://lwn.net/Articles/1041102/</link>
+            <description><![CDATA[<a
+href="https://blog.python.org/2025/10/python-3140-final-is-here.html">Version
+3.14.0</a> of the Python language has been released.  There are a lot of
+changes this time around, including official support for <a
+href="https://lwn.net/Articles/939981/">free threading</a>, <a
+href="https://lwn.net/Articles/985346/">template string literals</a>, and much more; see
+the announcement for details.]]></description>
+            <guid>https://lwn.net/Articles/1041102/</guid>
+            <pubDate>Tue, 07 Oct 2025 18:12:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1041069/</link>
