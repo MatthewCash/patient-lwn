@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Oct 2025 07:15:37 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Oct 2025 07:51:49 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Oct 2025 08:14:46 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Oct 2025 08:25:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1041069/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (chromium), <b>Red Hat</b> (kernel, open-vm-tools, and postgresql), <b>SUSE</b> (chromedriver and chromium), and <b>Ubuntu</b> (haproxy and pam-u2f).]]></description>
+            <guid>https://lwn.net/Articles/1041069/</guid>
+            <pubDate>Tue, 07 Oct 2025 08:14:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Notes from the 2025 Git Contributor&apos;s Summit</title>
+            <link>https://lwn.net/Articles/1041058/</link>
+            <description><![CDATA[Taylor Blau has posted <a href="https://lwn.net/ml/all/aOQVeVYY6zadPjln@nand.local">an
+extensive set of notes</a> from the recently concluded Git Contributor's
+Summit.  Covered topics include the SHA-256 transition, Rust, Change-ID
+headers, Git&#160;3.0, and many more.  The note are also available <a
+href="https://docs.google.com/document/d/1arvvXP8DrF3F8PCKQOmGvYh5jUg8P9Clx9m-FgDD4EI">on
+Google Docs</a> for those who prefer that format.]]></description>
+            <guid>https://lwn.net/Articles/1041058/</guid>
+            <pubDate>Tue, 07 Oct 2025 08:14:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>U-Boot v2025.10 released</title>
             <link>https://lwn.net/Articles/1041023/</link>
