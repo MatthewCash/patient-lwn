@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Oct 2025 14:16:22 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Oct 2025 14:19:32 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Oct 2025 15:00:47 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Oct 2025 15:08:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1041404/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnutls, kernel, kernel-rt, and open-vm-tools), <b>Debian</b> (chromium, python-django, and redis), <b>Fedora</b> (chromium, insight, mirrorlist-server, oci-seccomp-bpf-hook, rust-maxminddb, rust-prometheus, rust-prometheus_exporter, rust-protobuf, rust-protobuf-codegen, rust-protobuf-parse, rust-protobuf-support, turbo-attack, and yarnpkg), <b>Oracle</b> (iputils, kernel, open-vm-tools, redis, and valkey), <b>Red Hat</b> (perl-File-Find-Rule and perl-File-Find-Rule-Perl), <b>SUSE</b> (expat, ImageMagick, matrix-synapse, python-xmltodict, redis, redis7, and valkey), and <b>Ubuntu</b> (fort-validator and imagemagick).]]></description>
+            <guid>https://lwn.net/Articles/1041404/</guid>
+            <pubDate>Thu, 09 Oct 2025 15:00:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 2, 2025</title>
             <link>https://lwn.net/Articles/1039529/</link>
@@ -292,30 +300,6 @@ the selection of Ian Kelling as the organization's president.
             <guid>https://lwn.net/Articles/1040663/</guid>
             <pubDate>Fri, 03 Oct 2025 05:39:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1040591/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (perl-JSON-XS), <b>Debian</b> (chromium and openssl), <b>Fedora</b> (bird, dnsdist, firefox, mapserver, ntpd-rs, python-nh3, rust-ammonia, skopeo, sqlite, thunderbird, and xen), <b>Oracle</b> (perl-JSON-XS), <b>Red Hat</b> (kernel, kernel-rt, and libvpx), <b>SUSE</b> (afterburn, cairo, docker-stable, firefox, nginx, python-Django, snpguest, and warewulf4), and <b>Ubuntu</b> (libmspack, libxslt, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gcp-5.15, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-5.4, linux-bluefield, linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-raspi, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.14, linux-hwe-6.14, linux-realtime, linux, linux-aws, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-4.15, linux-hwe, linux-oracle, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux, linux-kvm, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure, linux-hwe-6.8, linux-kvm, linux-oracle-5.15, linux-oracle-6.14, linux-raspi, linux-raspi-realtime, linux-realtime, linux-realtime-6.8, linux-realtime-6.14, and python-django).]]></description>
-            <guid>https://lwn.net/Articles/1040591/</guid>
-            <pubDate>Thu, 02 Oct 2025 14:25:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable kernels</title>
-            <link>https://lwn.net/Articles/1040593/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1040594/">6.16.10</a>, <a
-href="https://lwn.net/Articles/1040595/">6.12.50</a>, <a
-href="https://lwn.net/Articles/1040596/">6.6.109</a>, <a
-href="https://lwn.net/Articles/1040597/">6.1.155</a>, <a
-href="https://lwn.net/Articles/1040598/">5.15.194</a>, <a
-href="https://lwn.net/Articles/1040599/">5.10.245</a>, and <a
-href="https://lwn.net/Articles/1040600/">5.4.300</a> stable kernels.  All of these kernels
-have lots of important fixes throughout the kernel tree.]]></description>
-            <guid>https://lwn.net/Articles/1040593/</guid>
-            <pubDate>Thu, 02 Oct 2025 14:31:30 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
