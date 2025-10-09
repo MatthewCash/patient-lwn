@@ -8,11 +8,139 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Oct 2025 23:22:30 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Oct 2025 23:52:08 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Oct 2025 00:40:58 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Oct 2025 01:21:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 2, 2025</title>
+            <link>https://lwn.net/Articles/1039529/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1039529/">Front</a>: Fedora and AI; Linting kernel Rust; openSUSE Leap 16; mmap() file operation; 6.17 statistics; dirlock.
+            <li> <a href="https://lwn.net/Articles/1039531/">Briefs</a>: Bcachefs removal; Alpine /usr merge; F-Droid; Fedora AI policy; OpenSUSE Leap 16; PostgreSQL 18; Radicle 1.5.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1039532/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1039529/</guid>
+            <pubDate>Thu, 02 Oct 2025 01:05:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora floats AI-assisted contributions policy</title>
+            <link>https://lwn.net/Articles/1039623/</link>
+            <description><![CDATA[<p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora 
+Council</a> began a process to create a policy on AI-assisted
+contributions in 2024, starting with a survey to ask the community
+its opinions about AI and using AI technologies in Fedora. On
+September&#160;25, Jason Brooks <a
+href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">published</a>
+a draft policy for discussion; so far, in keeping with the spirit of
+compromise, it has something to make everyone unhappy. For some it is
+too AI-friendly, while others have complained that it holds Fedora
+back from experimenting with AI tooling.</p>]]></description>
+            <guid>https://lwn.net/Articles/1039623/</guid>
+            <pubDate>Wed, 01 Oct 2025 14:06:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Linting Rust code in the kernel</title>
+            <link>https://lwn.net/Articles/1038750/</link>
+            <description><![CDATA[<p>
+<a href="https://github.com/Rust-for-Linux/klint?tab=readme-ov-file#klint">
+Klint</a> is a Rust compiler extension
+<a href="https://lwn.net/Articles/951550/">
+developed by Gary Guo</a> to run some
+kernel-specific lint rules, which may also be useful for embedded system
+development. He spoke about his
+recent work on the project at
+<a href="https://kangrejos.com/">
+Kangrejos 2025</a>. The next day, Alejandra González
+led a discussion about Rust's normal linter,
+<a href="https://doc.rust-lang.org/stable/clippy/index.html">
+Clippy</a>. The two tools offer complementary approaches to analyzing Rust
+kernel code, although both need some additional direction and support from
+kernel developers to reach their full potential.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1038750/</guid>
+            <pubDate>Tue, 30 Sep 2025 17:22:58 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for 6.17</title>
+            <link>https://lwn.net/Articles/1038358/</link>
+            <description><![CDATA[The 6.17 development cycle ended on September&#160;28 with the <a
+href="https://lwn.net/ml/all/CAHk-=wiX38oG6=xFBNLO0pnjqHfxzjd6-1kZ5Nv9HfqNC2PoFA@mail.gmail.com/">release</a>
+of the 6.17 kernel.  This cycle brought in 13,089 non-merge changesets, a
+slowdown from its predecessor but still within the normal bounds for recent
+kernels.  The time has come for a look at where those changes came from,
+with a bit of a side trip into bug statistics.]]></description>
+            <guid>https://lwn.net/Articles/1038358/</guid>
+            <pubDate>Mon, 29 Sep 2025 20:18:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Managing encrypted filesystems with dirlock</title>
+            <link>https://lwn.net/Articles/1038859/</link>
+            <description><![CDATA[As with a mobile phone, a portable gaming device like the <a
+href="https://store.steampowered.com/steamdeck">Steam Deck</a> can contain
+lots of personal information that the owner would like to keep
+secret—especially given that such devices can do far more than gaming.
+Alberto Garcia worked with his colleagues at Igalia and people at
+Valve, the company behind the <a
+href="https://store.steampowered.com/">Steam</a> gaming platform, to come
+up with a new tool to manage encrypted filesystems for <a
+href="https://store.steampowered.com/steamos">SteamOS</a>, which is a Linux
+distribution optimized for gaming.  Garcia gave a talk about that tool, <a
+href="https://gitlab.steamos.cloud/holo/dirlock#dirlock">dirlock</a>, at <a
+href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
+Source Summit Europe</a>, which was held in Amsterdam in late August.
+In the talk, he looked at the design process for
+the encrypted-files feature, the alternatives considered, and why they made
+the choices 
+they did.]]></description>
+            <guid>https://lwn.net/Articles/1038859/</guid>
+            <pubDate>Mon, 29 Sep 2025 16:16:43 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Jumping into openSUSE Leap 16</title>
+            <link>https://lwn.net/Articles/1019688/</link>
+            <description><![CDATA[<p>The openSUSE project is nearing the release of <a href="https://get.opensuse.org/leap/16.0/">Leap&#160;16</a>, its
+first major release since <a
+href="https://news.opensuse.org/2018/05/25/based-on-enterprise-code-tested-millions-of-times-opensuse-leap-15-released/">openSUSE&#160;Leap&#160;15
+in May 2018</a>. This release brings some changes to the
+core of the distribution aside from the usual software upgrades; <a
+href="https://lwn.net/Articles/1020408/">YaST has been retired</a>,
+SELinux has replaced AppArmor as the default mandatory access control
+(MAC) system, and more. If all goes according to plan, Leap&#160;16
+final should be released in early October, with planned support
+through 2031.</p>]]></description>
+            <guid>https://lwn.net/Articles/1019688/</guid>
+            <pubDate>Fri, 26 Sep 2025 14:08:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The phaseout of the mmap() file operation</title>
+            <link>https://lwn.net/Articles/1038715/</link>
+            <description><![CDATA[The <a
+href="https://elixir.bootlin.com/linux/v6.16.7/source/include/linux/fs.h#L2151"><tt>file_operations</tt></a>
+structure in the kernel is a set of function pointers implementing, as the
+name would suggest, operations on files.  A subsystem that manages objects
+which can be represented by a file descriptor will provide a
+<tt>file_operations</tt> structure providing implementations of the various
+operations that a user of the file descriptor may want to carry out.  The
+<tt>mmap()</tt> method, in particular, is invoked when user space calls the
+<a
+href="https://man7.org/linux/man-pages/man2/mmap.2.html"><tt>mmap()</tt></a>
+system call to map the object behind a file descriptor into its address
+space.  That method, though, is currently on its way out in a multi-release
+process that started in 6.17.]]></description>
+            <guid>https://lwn.net/Articles/1038715/</guid>
+            <pubDate>Thu, 25 Sep 2025 16:48:55 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Better profile management coming to Firefox</title>
             <link>https://lwn.net/Articles/1041266/</link>
@@ -188,143 +316,6 @@ have lots of important fixes throughout the kernel tree.]]></description>
             <guid>https://lwn.net/Articles/1040593/</guid>
             <pubDate>Thu, 02 Oct 2025 14:31:30 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 25, 2025</title>
-            <link>https://lwn.net/Articles/1038643/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1038643/">Front</a>: Debian stable bug; Canceling async Rust; CHERI Linux; Time-slice extension; Multikernel; Revocable references; Blender 4.5.
-            <li> <a href="https://lwn.net/Articles/1038645/">Briefs</a>: Bluefin LTS; RPM 6.0.0; Tails 7.0; Rust 1.90.0; Infrastructure costs; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1038646/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1038643/</guid>
-            <pubDate>Thu, 25 Sep 2025 02:01:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Canceling asynchronous Rust</title>
-            <link>https://lwn.net/Articles/1036924/</link>
-            <description><![CDATA[<p>
-Asynchronous Rust code has what Rain Paharia calls a "<q>universal cancellation
-protocol</q>", meaning that any asynchronous code can be interrupted in the same
-way. They claim
-that this is both a useful feature when used deliberately, and a source of
-errors when done by accident. They presented
-about this problem at
-<a href="https://rustconf.com/">
-RustConf&#160;2025</a>, offering a handful of techniques to avoid introducing bugs into
-asynchronous Rust code.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1036924/</guid>
-            <pubDate>Wed, 24 Sep 2025 15:15:53 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] CHERI with a Linux on top</title>
-            <link>https://lwn.net/Articles/1037974/</link>
-            <description><![CDATA[The <a
-href="https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/">Capability
-Hardware Enhanced RISC Instructions</a> (CHERI) project is a rethinking of
-computer architecture in order to improve system security.  Carl Shaw gave
-a presentation at
-<a
-href="https://events.linuxfoundation.org/linux-security-summit-europe/">Linux
-Security Summit Europe</a> (LSS EU) about CHERI and the efforts to get
-Linux running on it.  He introduced <a
-href="https://en.wikipedia.org/wiki/Capability-based_security">capabilities</a>,
-which are a mechanism for access control, and outlined their
-history, which goes back many decades at this point, then looked more
-specifically at the CHERI project and what it will take to apply the
-<a href="https://lwn.net/Articles/909265/">security constraints of capabilities</a> to an operating system like Linux.]]></description>
-            <guid>https://lwn.net/Articles/1037974/</guid>
-            <pubDate>Wed, 24 Sep 2025 14:09:41 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] An unstable Debian stable update</title>
-            <link>https://lwn.net/Articles/1038699/</link>
-            <description><![CDATA[<p>A bug in a recent release of systemd's network manager caused
-headaches for people managing systems that have a virtual LAN (VLAN)
-interface on a bridge; something one might want to do, for example,
-when configuring network interfaces for virtual machines. The bug
-affected several Debian users when upgrading the <a
-href="https://packages.debian.org/trixie/systemd">systemd</a> package
-from v257.7-1 to v257.8-1. The updated package is part of the <a
-href="https://www.debian.org/News/2025/20250906">Debian&#160;13.1</a>
-release, and the bug has snared enough users to cause a minor
-stir&mdash;due in no small part to the maintainer's response as much
-as the bug itself.</p>]]></description>
-            <guid>https://lwn.net/Articles/1038699/</guid>
-            <pubDate>Tue, 23 Sep 2025 15:14:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Revocable references for transient devices</title>
-            <link>https://lwn.net/Articles/1038523/</link>
-            <description><![CDATA[Computers were once relatively static devices; if a peripheral was present
-at boot, it was unlikely to disappear while the system was operating.
-Those days are far behind us, though; devices can come and go at any time,
-often with no notice.  That impermanence can create challenges for kernel
-code, which may not be expecting resources it is managing to make an abrupt
-exit.  The <a
-href="https://lwn.net/ml/all/20250912081718.3827390-1-tzungbi@kernel.org">revocable
-resource management patch set</a> from Tzung-Bi Shih is meant to help with
-the creation of more robust — and more secure — kernel subsystems in a
-dynamic world.]]></description>
-            <guid>https://lwn.net/Articles/1038523/</guid>
-            <pubDate>Mon, 22 Sep 2025 14:05:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Multiple kernels on a single system</title>
-            <link>https://lwn.net/Articles/1038847/</link>
-            <description><![CDATA[The Linux kernel generally wants to be in charge of the system as a whole;
-it runs on all of the available CPUs and controls access to them globally.
-Cong Wang has just come forward with <a
-href="https://lwn.net/ml/all/20250918222607.186488-1-xiyou.wangcong@gmail.com">a different
-approach</a>: allowing each CPU to run its own kernel.  The patch set is in
-an early form, but it gives a hint for what might be possible.]]></description>
-            <guid>https://lwn.net/Articles/1038847/</guid>
-            <pubDate>Fri, 19 Sep 2025 19:14:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Blender 4.5 brings big changes</title>
-            <link>https://lwn.net/Articles/1036262/</link>
-            <description><![CDATA[<p><a href="https://blender.org/">Blender</a> 4.5 LTS <a
-href="https://www.blender.org/download/releases/4-5/">was released</a>
-on July 15, 2025, and will be supported through 2027. This is the last
-feature release of the 3D graphics-creation suite's 4.x series; it
-includes quality-of-life improvements, including work to bring the <a
-href="https://en.wikipedia.org/wiki/Vulkan">Vulkan</a> backend up to
-par with the default OpenGL backend. With 4.5 released, Blender
-developers are turning their attention toward Blender 5.0, planned for
-release later this year. It will introduce substantial changes,
-particularly in the <a
-href="https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/introduction.html">Geometry
-Nodes</a> system, a central feature of Blender's procedural
-workflows.</p>]]></description>
-            <guid>https://lwn.net/Articles/1036262/</guid>
-            <pubDate>Fri, 19 Sep 2025 13:55:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Extending the time-slice-extension discussion</title>
-            <link>https://lwn.net/Articles/1038235/</link>
-            <description><![CDATA[Time-slice extension is a proposed scheduler feature that would allow a
-user-space process to request to not be preempted for a short period while
-it executes a critical section.  It is an idea that has been circulating
-for years, but efforts to implement it <a href="https://lwn.net/Articles/1009509/">became
-more serious</a> in February of this year.  The latest developer to make an
-attempt at time-slice extension is Thomas Gleixner, who has posted <a
-href="https://lwn.net/ml/all/20250908225709.144709889@linutronix.de">a new patch set</a>
-with a reworked API.  Chances are good that this implementation is close to
-what will actually be adopted by the kernel.]]></description>
-            <guid>https://lwn.net/Articles/1038235/</guid>
-            <pubDate>Thu, 18 Sep 2025 15:30:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
