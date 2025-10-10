@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 10 Oct 2025 05:17:40 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Oct 2025 05:18:50 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 10 Oct 2025 05:42:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -297,30 +297,6 @@ new <tt>RefuseConnection</tt> server configuration option.]]></description>
             <guid>https://lwn.net/Articles/1040729/</guid>
             <pubDate>Fri, 03 Oct 2025 13:31:39 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Ian Kelling is the new FSF president</title>
-            <link>https://lwn.net/Articles/1040663/</link>
-            <description><![CDATA[The Free Software Foundation has <a
-href="https://www.fsf.org/news/2025-ian-kelling-becomes-board-president">announced</a>
-the selection of Ian Kelling as the organization's president.
-<p>
-<blockquote class="bq">
-	Kelling, age forty-three, has held the role of a board member and a
-	voting member since March 2021. The board said of Kelling's
-	confirmation: "His hands-on technical experience resulting from his
-	position as the organization's senior systems administrator proved
-	invaluable for his work on the board of directors. The board is
-	confident Kelling is the right person to help the organization
-	achieve its long-term goals. His commitment to free software comes
-	from a life of exploring ways to exert user control. He has the
-	technical knowledge to speak with authority on most free software
-	issues, and he has a strong connection with the community as an
-	active speaker and blogger."
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1040663/</guid>
-            <pubDate>Fri, 03 Oct 2025 05:39:43 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
