@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Oct 2025 14:10:50 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Oct 2025 14:20:42 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Oct 2025 14:41:54 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Oct 2025 14:44:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four new stable kernels</title>
+            <link>https://lwn.net/Articles/1041781/</link>
+            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1041782/">6.17.2</a>, <a
+href="https://lwn.net/Articles/1041783/">6.16.12</a>, <a
+href="https://lwn.net/Articles/1041784/">6.12.52</a>, and <a
+href="https://lwn.net/Articles/1041785/">6.6.111</a> stable kernels.  They each contain a
+relatively small set of important fixes.  In addition: "<q>Note, this is the LAST 6.16.y kernel release, this branch is now
+end-of-life.  Please move to the 6.17.y branch at this point in time.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1041781/</guid>
+            <pubDate>Mon, 13 Oct 2025 14:35:20 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1041779/</link>
