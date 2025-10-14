@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 14 Oct 2025 12:38:38 +0000</pubDate>
-        <lastBuildDate>Tue, 14 Oct 2025 12:41:07 +0000</lastBuildDate>
+        <pubDate>Tue, 14 Oct 2025 12:56:32 +0000</pubDate>
+        <lastBuildDate>Tue, 14 Oct 2025 13:21:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1041886/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ghostscript and libfcgi), <b>Fedora</b> (qt5-qtsvg), <b>Red Hat</b> (kernel, perl-FCGI, perl-FCGI:0.78, and vim), <b>SUSE</b> (bluez, curl, podman, postgresql14, python-xmltodict, and udisks2), and <b>Ubuntu</b> (linux-azure, linux-azure-5.4, linux-azure-fips, linux-oracle, and subversion).]]></description>
+            <guid>https://lwn.net/Articles/1041886/</guid>
+            <pubDate>Tue, 14 Oct 2025 12:51:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Four new stable kernels</title>
             <link>https://lwn.net/Articles/1041781/</link>
