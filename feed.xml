@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Oct 2025 13:08:34 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Oct 2025 13:21:47 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Oct 2025 13:46:50 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Oct 2025 13:49:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Mint Debian Edition (LMDE) 7 released</title>
+            <link>https://lwn.net/Articles/1042079/</link>
+            <description><![CDATA[<p>Linux Mint Debian Edition (LMDE) 7, based on Debian&#160;13
+("trixie"), has been <a
+href="https://blog.linuxmint.com/?p=4924">released</a>:</p>
+
+<blockquote class="bq">
+Its goal is to ensure Linux Mint would be able to continue to deliver
+the same user experience, and how much work would be involved, if
+Ubuntu was ever to disappear. LMDE is also one of our development
+targets, to guarantee the software we develop is compatible outside of
+Ubuntu.
+</blockquote>
+
+<p>The LMDE <a href="https://linuxmint.com/rel_gigi.php">release notes</a>
+are rather sparse; users are also advised to review Debian&#160;13's
+<a
+href="https://www.debian.org/releases/trixie/release-notes/">release
+notes</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1042079/</guid>
+            <pubDate>Wed, 15 Oct 2025 13:26:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Four new stable kernels released</title>
             <link>https://lwn.net/Articles/1042013/</link>
