@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Oct 2025 15:03:34 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Oct 2025 15:21:10 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Oct 2025 15:33:39 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Oct 2025 15:42:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -331,27 +331,6 @@ translates to the bigger picture too.</q>"]]></description>
             <guid>https://lwn.net/Articles/1041564/</guid>
             <pubDate>Fri, 10 Oct 2025 13:53:10 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Ubuntu 25.10 released</title>
-            <link>https://lwn.net/Articles/1041405/</link>
-            <description><![CDATA[<p><a
-href="https://lists.ubuntu.com/archives/ubuntu-announce/2025-October/000318.html">Ubuntu
-25.10</a>, "Questing Quokka", has been released. This release includes
-Linux&#160;6.17, GNOME&#160;49, GCC&#160;15, Python&#160;3.13.7,
-Rust&#160;1.85, and more. This release also features Rust-based
-implementations of sudo and coreutils; LWN <a
-href="https://lwn.net/Articles/1014002/">covered</a> the switch to the
-Rust-based tools in March. The 25.10 version of Ubuntu flavors
-Edubuntu, Kubuntu, Lubuntu, Ubuntu Budgie, Ubuntu Cinnamon, Ubuntu
-Kylin, Ubuntu MATE, Ubuntu Studio, and Xubuntu have <a
-href="https://discourse.ubuntu.com/t/questing-quokka-release-notes/59220#heading--official-flavours">also
-been released</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1041405/</guid>
-            <pubDate>Thu, 09 Oct 2025 15:26:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
