@@ -8,11 +8,140 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Oct 2025 23:21:02 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Oct 2025 23:52:03 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Oct 2025 01:20:38 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Oct 2025 01:22:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 9, 2025</title>
+            <link>https://lwn.net/Articles/1040456/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1040456/">Front</a>: Kernel Rust features; systemd v258, part 2; Cauldron kernel hackers; BPF for GNU tools; 6.18 merge window, part 1; Lifetime-end pointer zapping; Robot Operating System.
+            <li> <a href="https://lwn.net/Articles/1040458/">Briefs</a>: OpenSSH 10.1; Firefox profiles; Python 3.14; U-Boot v2025.10; FSF presidency; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1040459/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1040456/</guid>
+            <pubDate>Thu, 09 Oct 2025 00:40:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Upcoming Rust language features for kernel development</title>
+            <link>https://lwn.net/Articles/1039073/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://rust-for-linux.com/">
+Rust for Linux</a> project has been good for Rust, Tyler Mandry, one of the
+co-leads of Rust's language-design team, said. He
+gave a talk at
+<a href="https://kangrejos.com/">
+Kangrejos&#160;2025</a> covering upcoming Rust language features and thanking
+the Rust for Linux developers for helping drive them forward. Afterward, Benno Lossin and Xiangfei Ding
+went into more detail about their work on the three most important language
+features for kernel development: field projections, in-place initialization, and arbitrary self types.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1039073/</guid>
+            <pubDate>Wed, 08 Oct 2025 16:48:36 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Highlights from systemd v258: part two</title>
+            <link>https://lwn.net/Articles/1039481/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/systemd/systemd/releases/tag/v258">Systemd
+v258</a> was released on September&#160;17 after more than nine months
+of development. LWN has already <a
+href="https://lwn.net/Articles/1028275/">covered</a> some of the
+features and changes being readied for v258 before it was final. Now
+that the release is out, it is time to look at more of what came in
+v258, including a sandbox shell, new boot options, service-level disk
+quotas, and enhancements to <tt>systemd-resolved</tt>.</p>]]></description>
+            <guid>https://lwn.net/Articles/1039481/</guid>
+            <pubDate>Tue, 07 Oct 2025 14:54:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Progress on defeating lifetime-end pointer zapping</title>
+            <link>https://lwn.net/Articles/1038757/</link>
+            <description><![CDATA[<p>
+Paul McKenney gave a remote presentation at
+<a href="https://kangrejos.com/">
+Kangrejos&#160;2025</a> following up on the
+talk he gave <a href="https://lwn.net/Articles/993484/">last year</a> about the
+lifetime-end-pointer-zapping problem: certain common patterns for multithreaded code are
+technically undefined behavior, and changes to the C and <span style="whitespace:nowrap;">C++</span> specifications
+will be needed to correct that. Those changes could also impact code that uses
+unsafe Rust, such as the kernel's Rust bindings. Progress on the problem has been slow,
+but McKenney believes that a solution is near at hand.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1038757/</guid>
+            <pubDate>Tue, 07 Oct 2025 15:04:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] 6.18 merge window, part 1</title>
+            <link>https://lwn.net/Articles/1040203/</link>
+            <description><![CDATA[<p>
+At the time of writing, there have been 9,099 commits in the 6.18 merge window,
+8,475 non-merges and 624 merges. The
+changes so far include core-kernel, graphics, and networking work, among others.
+There are no big surprises, but several items that were discussed at this year's
+<a href="https://lwn.net/Articles/lsfmmbpf2025/">
+LFSMM+BPF Summit</a> have now been merged.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1040203/</guid>
+            <pubDate>Mon, 06 Oct 2025 18:03:05 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Next steps for BPF support in the GNU toolchain</title>
+            <link>https://lwn.net/Articles/1039827/</link>
+            <description><![CDATA[Support for BPF in the kernel has been tied to the LLVM toolchain since the
+advent of extended BPF.  There has been a growing effort to add BPF support
+to the GNU toolchain as well, though.  At the 2025 GNU Tools Cauldron, the
+developers involved got together with representatives of the kernel
+community to talk about the state of that work and what needs to happen
+next.]]></description>
+            <guid>https://lwn.net/Articles/1039827/</guid>
+            <pubDate>Mon, 06 Oct 2025 16:23:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at the Robot Operating System</title>
+            <link>https://lwn.net/Articles/1031669/</link>
+            <description><![CDATA[<p>Despite its name, the <a href="https://www.ros.org/">Robot
+Operating System</a> (ROS) is not an operating system; it is
+a software development kit (SDK) that provides building blocks for
+robotic applications. One of the main goals of ROS is to present a
+common API that abstracts away the details of particular hardware
+drivers or algorithms to make development easier; developers can focus
+on what a robot should do rather than the low-level details of
+specific controllers. The latest release of ROS, <a
+href="https://discourse.ros.org/t/ros-2-kilted-kaiju-release/43902">Kilted
+Kaiju</a>, features improvements to the middleware layer that is used
+to deliver data between components.</p>]]></description>
+            <guid>https://lwn.net/Articles/1031669/</guid>
+            <pubDate>Fri, 03 Oct 2025 15:06:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Kernel hackers at Cauldron, 2025 edition</title>
+            <link>https://lwn.net/Articles/1039784/</link>
+            <description><![CDATA[The GNU Tools Cauldron is almost entirely focused on user-space tools, but
+kernel developers need a solid toolchain too.  In what appears to be a
+developing tradition (<a href="https://lwn.net/Articles/990379/">started in 2024</a>),
+some kernel developers attended the <a
+href="https://conf.gnu-tools-cauldron.org/opo25/">2025 Cauldron</a> for the
+second year in a row to discuss their needs with the assembled toolchain
+developers.  Topics covered in this year's gathering include Rust, better
+<a href="https://www.kernel.org/doc/html/latest/bpf/btf.html">BPF type
+format (BTF)</a> support, SFrame, and more.]]></description>
+            <guid>https://lwn.net/Articles/1039784/</guid>
+            <pubDate>Thu, 02 Oct 2025 14:31:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Linux Mint Debian Edition (LMDE) 7 released</title>
             <link>https://lwn.net/Articles/1042079/</link>
@@ -200,134 +329,6 @@ been released</a>.</p>
             <guid>https://lwn.net/Articles/1041404/</guid>
             <pubDate>Thu, 09 Oct 2025 15:00:46 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 2, 2025</title>
-            <link>https://lwn.net/Articles/1039529/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1039529/">Front</a>: Fedora and AI; Linting kernel Rust; openSUSE Leap 16; mmap() file operation; 6.17 statistics; dirlock.
-            <li> <a href="https://lwn.net/Articles/1039531/">Briefs</a>: Bcachefs removal; Alpine /usr merge; F-Droid; Fedora AI policy; OpenSUSE Leap 16; PostgreSQL 18; Radicle 1.5.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1039532/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1039529/</guid>
-            <pubDate>Thu, 02 Oct 2025 01:05:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora floats AI-assisted contributions policy</title>
-            <link>https://lwn.net/Articles/1039623/</link>
-            <description><![CDATA[<p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora 
-Council</a> began a process to create a policy on AI-assisted
-contributions in 2024, starting with a survey to ask the community
-its opinions about AI and using AI technologies in Fedora. On
-September&#160;25, Jason Brooks <a
-href="https://communityblog.fedoraproject.org/council-policy-proposal-policy-on-ai-assisted-contributions/">published</a>
-a draft policy for discussion; so far, in keeping with the spirit of
-compromise, it has something to make everyone unhappy. For some it is
-too AI-friendly, while others have complained that it holds Fedora
-back from experimenting with AI tooling.</p>]]></description>
-            <guid>https://lwn.net/Articles/1039623/</guid>
-            <pubDate>Wed, 01 Oct 2025 14:06:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Linting Rust code in the kernel</title>
-            <link>https://lwn.net/Articles/1038750/</link>
-            <description><![CDATA[<p>
-<a href="https://github.com/Rust-for-Linux/klint?tab=readme-ov-file#klint">
-Klint</a> is a Rust compiler extension
-<a href="https://lwn.net/Articles/951550/">
-developed by Gary Guo</a> to run some
-kernel-specific lint rules, which may also be useful for embedded system
-development. He spoke about his
-recent work on the project at
-<a href="https://kangrejos.com/">
-Kangrejos 2025</a>. The next day, Alejandra González
-led a discussion about Rust's normal linter,
-<a href="https://doc.rust-lang.org/stable/clippy/index.html">
-Clippy</a>. The two tools offer complementary approaches to analyzing Rust
-kernel code, although both need some additional direction and support from
-kernel developers to reach their full potential.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1038750/</guid>
-            <pubDate>Tue, 30 Sep 2025 17:22:58 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development statistics for 6.17</title>
-            <link>https://lwn.net/Articles/1038358/</link>
-            <description><![CDATA[The 6.17 development cycle ended on September&#160;28 with the <a
-href="https://lwn.net/ml/all/CAHk-=wiX38oG6=xFBNLO0pnjqHfxzjd6-1kZ5Nv9HfqNC2PoFA@mail.gmail.com/">release</a>
-of the 6.17 kernel.  This cycle brought in 13,089 non-merge changesets, a
-slowdown from its predecessor but still within the normal bounds for recent
-kernels.  The time has come for a look at where those changes came from,
-with a bit of a side trip into bug statistics.]]></description>
-            <guid>https://lwn.net/Articles/1038358/</guid>
-            <pubDate>Mon, 29 Sep 2025 20:18:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Managing encrypted filesystems with dirlock</title>
-            <link>https://lwn.net/Articles/1038859/</link>
-            <description><![CDATA[As with a mobile phone, a portable gaming device like the <a
-href="https://store.steampowered.com/steamdeck">Steam Deck</a> can contain
-lots of personal information that the owner would like to keep
-secret—especially given that such devices can do far more than gaming.
-Alberto Garcia worked with his colleagues at Igalia and people at
-Valve, the company behind the <a
-href="https://store.steampowered.com/">Steam</a> gaming platform, to come
-up with a new tool to manage encrypted filesystems for <a
-href="https://store.steampowered.com/steamos">SteamOS</a>, which is a Linux
-distribution optimized for gaming.  Garcia gave a talk about that tool, <a
-href="https://gitlab.steamos.cloud/holo/dirlock#dirlock">dirlock</a>, at <a
-href="https://events.linuxfoundation.org/open-source-summit-europe/">Open
-Source Summit Europe</a>, which was held in Amsterdam in late August.
-In the talk, he looked at the design process for
-the encrypted-files feature, the alternatives considered, and why they made
-the choices 
-they did.]]></description>
-            <guid>https://lwn.net/Articles/1038859/</guid>
-            <pubDate>Mon, 29 Sep 2025 16:16:43 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Jumping into openSUSE Leap 16</title>
-            <link>https://lwn.net/Articles/1019688/</link>
-            <description><![CDATA[<p>The openSUSE project is nearing the release of <a href="https://get.opensuse.org/leap/16.0/">Leap&#160;16</a>, its
-first major release since <a
-href="https://news.opensuse.org/2018/05/25/based-on-enterprise-code-tested-millions-of-times-opensuse-leap-15-released/">openSUSE&#160;Leap&#160;15
-in May 2018</a>. This release brings some changes to the
-core of the distribution aside from the usual software upgrades; <a
-href="https://lwn.net/Articles/1020408/">YaST has been retired</a>,
-SELinux has replaced AppArmor as the default mandatory access control
-(MAC) system, and more. If all goes according to plan, Leap&#160;16
-final should be released in early October, with planned support
-through 2031.</p>]]></description>
-            <guid>https://lwn.net/Articles/1019688/</guid>
-            <pubDate>Fri, 26 Sep 2025 14:08:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The phaseout of the mmap() file operation</title>
-            <link>https://lwn.net/Articles/1038715/</link>
-            <description><![CDATA[The <a
-href="https://elixir.bootlin.com/linux/v6.16.7/source/include/linux/fs.h#L2151"><tt>file_operations</tt></a>
-structure in the kernel is a set of function pointers implementing, as the
-name would suggest, operations on files.  A subsystem that manages objects
-which can be represented by a file descriptor will provide a
-<tt>file_operations</tt> structure providing implementations of the various
-operations that a user of the file descriptor may want to carry out.  The
-<tt>mmap()</tt> method, in particular, is invoked when user space calls the
-<a
-href="https://man7.org/linux/man-pages/man2/mmap.2.html"><tt>mmap()</tt></a>
-system call to map the object behind a file descriptor into its address
-space.  That method, though, is currently on its way out in a multi-release
-process that started in 6.17.]]></description>
-            <guid>https://lwn.net/Articles/1038715/</guid>
-            <pubDate>Thu, 25 Sep 2025 16:48:55 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
