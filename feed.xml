@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Oct 2025 14:15:56 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Oct 2025 14:56:13 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Oct 2025 15:03:34 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Oct 2025 15:21:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1042330/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and libsoup3), <b>Debian</b> (chromium and firefox-esr), <b>Fedora</b> (httpd), <b>Oracle</b> (cups, ImageMagick, kernel, and vim), <b>Red Hat</b> (libssh), <b>Slackware</b> (samba), <b>SUSE</b> (alloy, exim, firefox-esr, ImageMagick, kernel, libcryptopp-devel, libQt6Svg6, libsoup-3_0-0, libtiff-devel-32bit, lsd, python3-gi-docgen, python311-Authlib, qt6-base, samba, and squid), and <b>Ubuntu</b> (ffmpeg, linux-oracle-6.8, redict, redis, samba, and subversion).]]></description>
+            <guid>https://lwn.net/Articles/1042330/</guid>
+            <pubDate>Thu, 16 Oct 2025 15:01:40 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Forgejo 13.0 released</title>
             <link>https://lwn.net/Articles/1042229/</link>
@@ -344,14 +352,6 @@ been released</a>.</p>
             <guid>https://lwn.net/Articles/1041405/</guid>
             <pubDate>Thu, 09 Oct 2025 15:26:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1041404/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnutls, kernel, kernel-rt, and open-vm-tools), <b>Debian</b> (chromium, python-django, and redis), <b>Fedora</b> (chromium, insight, mirrorlist-server, oci-seccomp-bpf-hook, rust-maxminddb, rust-prometheus, rust-prometheus_exporter, rust-protobuf, rust-protobuf-codegen, rust-protobuf-parse, rust-protobuf-support, turbo-attack, and yarnpkg), <b>Oracle</b> (iputils, kernel, open-vm-tools, redis, and valkey), <b>Red Hat</b> (perl-File-Find-Rule and perl-File-Find-Rule-Perl), <b>SUSE</b> (expat, ImageMagick, matrix-synapse, python-xmltodict, redis, redis7, and valkey), and <b>Ubuntu</b> (fort-validator and imagemagick).]]></description>
-            <guid>https://lwn.net/Articles/1041404/</guid>
-            <pubDate>Thu, 09 Oct 2025 15:00:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
