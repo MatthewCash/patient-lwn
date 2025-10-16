@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Oct 2025 13:46:55 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Oct 2025 13:49:01 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Oct 2025 14:15:56 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Oct 2025 14:21:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Forgejo 13.0 released</title>
+            <link>https://lwn.net/Articles/1042229/</link>
+            <description><![CDATA[<p><a href="https://forgejo.org/2025-10-release-v13-0/">Version
+13.0</a> of the Forgejo software forge has been released. Notable
+changes in this release include <a
+href="https://forgejo.org/2025-10-release-v13-0/#reporting-abusive-content">content
+moderation</a> features, ability to <a
+href="https://forgejo.org/2025-10-release-v13-0/#configurable-global-2fa-enforcement">require
+2FA</a> for users or administrators, and a <a
+href="https://forgejo.org/2025-10-release-v13-0/#migration-from-pagure">migration
+feature</a> for Pagure repositories. The last will be useful for
+Fedora's <a
+href="https://fedoramagazine.org/fedora-moves-towards-forgejo-a-unified-decision/">move
+to Forgejo</a> as its new git forge. See the <a
+href="https://codeberg.org/forgejo/forgejo/milestone/21377">release
+notes</a> for all changes in 13.0.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1042229/</guid>
+            <pubDate>Thu, 16 Oct 2025 14:15:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 9, 2025</title>
             <link>https://lwn.net/Articles/1040456/</link>
