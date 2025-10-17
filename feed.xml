@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Oct 2025 14:16:10 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Oct 2025 14:19:23 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Oct 2025 14:30:00 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Oct 2025 14:43:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Transition of RubyGems Repository Ownership</title>
+            <link>https://lwn.net/Articles/1042480/</link>
+            <description><![CDATA[<p>The Ruby community has experienced some <a
+href="https://mensfeld.pl/2025/09/ruby-central-rubygems-takeover-analysis/">turbulence</a>
+of late after Ruby Central <a
+href="https://rubycentral.org/news/strengthening-the-stewardship-of-rubygems-and-bundler/">took
+control</a> of the GitHub repositories for a number of projects
+including <a
+href="https://github.com/ruby/rubygems?tab=readme-ov-file#rubygems">RubyGems</a>
+and <a href="https://bundler.io/">Bundler</a>. Those projects have <a
+href="https://lwn.net/Articles/1042131/">historically been developed
+separately</a> from Ruby itself. They are now being put under the
+control of Ruby's core team, according to Ruby creator Yukihiro
+Matsumoto (a.k.a. "Matz"):</p>
+
+<blockquote class="bq">
+<p>To provide the community with long-term stability and continuity,
+the Ruby core team, led by Matz, has decided to assume stewardship of
+these projects from Ruby Central. We will continue their development
+in close collaboration with Ruby Central and the broader
+community.</p>
+</blockquote>
+
+<p>Ruby Central has also issued a <a
+href="https://rubycentral.org/news/ruby-central-statement-on-rubygems-bundler/">statement</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1042480/</guid>
+            <pubDate>Fri, 17 Oct 2025 14:30:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1042452/</link>
