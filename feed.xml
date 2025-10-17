@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Oct 2025 12:22:35 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Oct 2025 13:17:53 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Oct 2025 13:38:54 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Oct 2025 13:45:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1042452/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and libssh), <b>Debian</b> (firefox-esr and pgpool2), <b>Mageia</b> (varnish &amp; lighttpd), <b>Red Hat</b> (python3, python3.11, python3.12, python3.9, and python39:3.9), <b>SUSE</b> (expat, gstreamer-plugins-rs, kernel, openssl1, pgadmin4, python311-ldap, and squid), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10 and mupdf).]]></description>
+            <guid>https://lwn.net/Articles/1042452/</guid>
+            <pubDate>Fri, 17 Oct 2025 13:32:54 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1042330/</link>
