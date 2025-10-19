@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 19 Oct 2025 19:07:33 +0000</pubDate>
-        <lastBuildDate>Sun, 19 Oct 2025 23:38:22 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 19 Oct 2025 23:51:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -367,18 +367,6 @@ end-of-life.  Please move to the 6.17.y branch at this point in time.</q>"]]></d
             <guid>https://lwn.net/Articles/1041779/</guid>
             <pubDate>Mon, 13 Oct 2025 14:10:49 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.18-rc1</title>
-            <link>https://lwn.net/Articles/1041658/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1041657/">released 6.18-rc1</a> and closed the
-merge window for this development cycle.  "<q>This was one of the good
-merge windows where I didn't end up having to bisect any particular problem
-on nay of the machines I was testing.  Let's hope that success mostly
-translates to the bigger picture too.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1041658/</guid>
-            <pubDate>Sun, 12 Oct 2025 23:24:21 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
