@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 19 Oct 2025 19:07:33 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Oct 2025 01:28:19 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Oct 2025 02:45:24 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Oct 2025 03:04:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.18-rc2</title>
+            <link>https://lwn.net/Articles/1042593/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1042592/">6.18-rc2</a> kernel prepatch is out.
+<p>
+<blockquote class="bq">
+	End result: rc2 is on the bigger side, and we still have some of
+	the remaining regressions outstanding, but we should be making slow
+	progress. It's fairly early days yet, so I'm not very
+	worried. Things on the whole look fairly normal.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1042593/</guid>
+            <pubDate>Mon, 20 Oct 2025 02:11:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Sunday stable kernels</title>
             <link>https://lwn.net/Articles/1042567/</link>
