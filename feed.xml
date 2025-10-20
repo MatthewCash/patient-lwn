@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Oct 2025 14:10:59 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Oct 2025 14:19:08 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Oct 2025 14:37:03 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Oct 2025 14:44:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1042680/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (imagemagick, incus, lxd, pgagent, svgpp, and sysstat), <b>Fedora</b> (chromium, complyctl, fetchmail, firefox, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, python3.10, python3.11, python3.12, python3.9, runc, and suricata), <b>Mageia</b> (expat), <b>Red Hat</b> (firefox, kernel, qt5-qtbase, and qt6-qtbase), <b>Slackware</b> (stunnel), <b>SUSE</b> (chromium, coredns, ctdb, firefox, kernel, libexslt0, libpoppler-cpp2, ollama, openssl-1_1, pam, samba, and thunderbird), and <b>Ubuntu</b> (samba).]]></description>
+            <guid>https://lwn.net/Articles/1042680/</guid>
+            <pubDate>Mon, 20 Oct 2025 14:21:12 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.18-rc2</title>
             <link>https://lwn.net/Articles/1042593/</link>
@@ -373,14 +381,6 @@ relatively small set of important fixes.  In addition: "<q>Note, this is the LAS
 end-of-life.  Please move to the 6.17.y branch at this point in time.</q>"]]></description>
             <guid>https://lwn.net/Articles/1041781/</guid>
             <pubDate>Mon, 13 Oct 2025 14:35:20 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1041779/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (compat-libtiff3, iputils, kernel, open-vm-tools, and vim), <b>Debian</b> (asterisk, ghostscript, kernel, linux-6.1, and tiff), <b>Fedora</b> (cef, chromium, cri-o1.31, cri-o1.32, cri-o1.33, cri-o1.34, docker-buildx, log4cxx, mingw-poppler, openssl, podman-tui, prometheus-podman-exporter, python-socketio, python3.10, python3.11, python3.12, python3.9, skopeo, and valkey), <b>Mageia</b> (open-vm-tools), <b>Red Hat</b> (compat-libtiff3, kernel, kernel-rt, vim, and webkit2gtk3), and <b>SUSE</b> (distrobuilder, docker-stable, expat, forgejo, forgejo-longterm, gitea-tea, go1.25, haproxy, headscale, open-vm-tools, openssl-3, podman, podofo, ruby3.4-rubygem-rack, and weblate).]]></description>
-            <guid>https://lwn.net/Articles/1041779/</guid>
-            <pubDate>Mon, 13 Oct 2025 14:10:49 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
