@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Oct 2025 11:00:48 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Oct 2025 13:51:23 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Oct 2025 14:08:03 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Oct 2025 14:18:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1042822/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, firefox, kernel, kernel-rt, libssh, and perl-JSON-XS), <b>Debian</b> (ark and libphp-adodb), <b>Fedora</b> (chromium and gi-docgen), <b>Mageia</b> (quictls), <b>Oracle</b> (.NET 8.0, .NET 9.0, firefox, httpd, kernel, libsoup3, libssh, microcode_ctl, and webkit2gtk3), <b>SUSE</b> (go1.24, go1.25, krb5, python-ldap, and webkit2gtk3), and <b>Ubuntu</b> (gst-plugins-base1.0, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15,
+ linux-ibm, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15,
+ linux-nvidia, linux-oracle, linux-oracle-5.15, linux-xilinx-zynqmp, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips,
+ linux-intel-iot-realtime, linux-realtime, and python-ldap).]]></description>
+            <guid>https://lwn.net/Articles/1042822/</guid>
+            <pubDate>Tue, 21 Oct 2025 14:03:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>DigiKam 8.8.0 released</title>
+            <link>https://lwn.net/Articles/1042823/</link>
+            <description><![CDATA[<a
+href="https://www.digikam.org/news/2025-10-19-8.8.0_release_announcement/">Version
+8.8.0</a> of the digiKam photo-management system has been released.
+"<q>This version delivers significant improvements in performance,
+stability, and user experience, with a particular focus on image
+processing, color management, and workflow efficiency</q>".  Changes
+include an import/export feature for tag hierarchies, focus-point
+visualization for some camera models, automatic use of the monitor color
+profile, and a background-blur tool.]]></description>
+            <guid>https://lwn.net/Articles/1042823/</guid>
+            <pubDate>Tue, 21 Oct 2025 14:08:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1042680/</link>
