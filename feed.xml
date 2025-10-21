@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 21 Oct 2025 21:22:01 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Oct 2025 22:17:31 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 21 Oct 2025 22:39:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -358,28 +358,6 @@ kernels are advised to upgrade.</p>
             <guid>https://lwn.net/Articles/1042076/</guid>
             <pubDate>Wed, 15 Oct 2025 13:06:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The FSF&apos;s Librephone project</title>
-            <link>https://lwn.net/Articles/1041952/</link>
-            <description><![CDATA[The Free Software Foundation has <a
-href="https://www.fsf.org/news/librephone-project">announced</a> the launch
-of the Librephone project, which is aimed at the creation of a fully-free
-operating system for mobile devices.
-<p>
-<blockquote class="bq">
-	Practically, Librephone aims to close the last gaps between
-	existing distributions of the Android operating system and software
-	freedom. The FSF has hired experienced developer Rob Savoye
-	(DejaGNU, Gnash, OpenStreetMap, and more) to lead the technical
-	project. He is currently investigating the state of device firmware
-	and binary blobs in other mobile phone freedom projects,
-	prioritizing the free software work done by the not entirely free
-	software mobile phone operating system LineageOS.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1041952/</guid>
-            <pubDate>Tue, 14 Oct 2025 22:11:52 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
