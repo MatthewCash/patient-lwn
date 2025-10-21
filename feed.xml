@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Oct 2025 14:26:33 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Oct 2025 15:20:23 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Oct 2025 15:42:53 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Oct 2025 15:44:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -350,30 +350,6 @@ operating system for mobile devices.
             <guid>https://lwn.net/Articles/1041952/</guid>
             <pubDate>Tue, 14 Oct 2025 22:11:52 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Julia 1.12 released</title>
-            <link>https://lwn.net/Articles/1041916/</link>
-            <description><![CDATA[<p><a
-href="https://julialang.org/blog/2025/10/julia-1.12-highlights/index.html">Version
-1.12</a> of Julia has been released. Highlights of the release include
-<a
-href="https://julialang.org/blog/2025/10/julia-1.12-highlights/index.html#new_multi-threading_features">new
-multi-threading features</a>, <a
-href="https://julialang.org/blog/2025/10/julia-1.12-highlights/index.html#new_tracing_flags_and_macros_for_inspecting_what_julia_compiles">new
-tracing flags and macros</a>, and an <a
-href="https://julialang.org/blog/2025/10/julia-1.12-highlights/index.html#new_--trim_feature">experimental
-<tt>--trim</tt> feature</a>. See the <a
-href="https://github.com/JuliaLang/julia/blob/release-1.12/NEWS.md">release
-notes</a> for a full list of new features, changes, and
-improvements. LWN last <a
-href="https://lwn.net/Articles/1006117/">covered</a> Julia in
-January.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1041916/</guid>
-            <pubDate>Tue, 14 Oct 2025 14:57:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
