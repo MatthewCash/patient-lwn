@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Oct 2025 16:38:42 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Oct 2025 16:51:04 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Oct 2025 17:15:35 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Oct 2025 17:18:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora Council approves AI-assisted contributions policy</title>
+            <link>https://lwn.net/Articles/1042947/</link>
+            <description><![CDATA[<p>The Fedora Council has <a
+href="https://discussion.fedoraproject.org/t/council-policy-proposal-policy-on-ai-assisted-contributions/165092/242">approved</a>
+an <a
+href="https://pagure.io/Fedora-Council/tickets/issue/542#comment-990353">AI-assisted
+contributions policy</a>. This follows several
+weeks of discussion, some of which were <a
+href="https://lwn.net/Articles/1039623/">covered</a> by LWN on
+October&#160;1. The final policy contains substantial differences from
+the <a
+href="https://discussion.fedoraproject.org/t/council-policy-proposal-policy-on-ai-assisted-contributions/165092">initial
+proposal</a>, and now requires disclosure of AI tools "<q>when the
+significant part of the contribution is taken from a tool without
+changes</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1042947/</guid>
+            <pubDate>Wed, 22 Oct 2025 17:00:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>KDE Plasma 6.5 released</title>
             <link>https://lwn.net/Articles/1042936/</link>
