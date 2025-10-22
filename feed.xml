@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Oct 2025 12:22:10 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Oct 2025 12:41:14 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Oct 2025 13:10:46 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Oct 2025 13:23:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -333,30 +333,6 @@ notes</a>.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1042079/</guid>
             <pubDate>Wed, 15 Oct 2025 13:26:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Four new stable kernels released</title>
-            <link>https://lwn.net/Articles/1042013/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1042014/">6.17.3</a>, <a
-href="https://lwn.net/Articles/1042015/">6.12.53</a>, <a
-href="https://lwn.net/Articles/1042016/">6.6.112</a>, and <a
-href="https://lwn.net/Articles/1042017/">6.1.156</a> stable kernels. As usual, each
-contains important fixes throughout the kernel tree. Users of these
-kernels are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1042013/</guid>
-            <pubDate>Wed, 15 Oct 2025 12:49:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1042076/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, vim, and webkit2gtk3), <b>Debian</b> (distro-info-data, https-everywhere, and php-horde-css-parser), <b>Fedora</b> (inih, mingw-exiv2, mirrorlist-server, rust-maxminddb, rust-monitord-exporter, rust-prometheus, rust-prometheus_exporter, rust-protobuf, rust-protobuf-codegen, rust-protobuf-parse, and rust-protobuf-support), <b>Mageia</b> (fetchmail), <b>Oracle</b> (gnutls, kernel, vim, and webkit2gtk3), <b>Red Hat</b> (kernel, kernel-rt, and webkit2gtk3), <b>Slackware</b> (mozilla), <b>SUSE</b> (curl, libxslt, and net-tools), and <b>Ubuntu</b> (linux-azure-5.15, linux-azure-6.8, linux-azure-fips, linux-oracle, linux-oracle-6.14, and linux-raspi).]]></description>
-            <guid>https://lwn.net/Articles/1042076/</guid>
-            <pubDate>Wed, 15 Oct 2025 13:06:29 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
