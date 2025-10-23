@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Oct 2025 19:16:35 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Oct 2025 20:20:46 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Oct 2025 20:34:27 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Oct 2025 20:41:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Date bug affects Ubuntu 25.10 automatic updates</title>
+            <link>https://lwn.net/Articles/1043103/</link>
+            <description><![CDATA[<p>The Ubuntu Project has <a
+href="https://lists.ubuntu.com/archives/ubuntu-security-announce/2025-October/009890.html">announced</a>
+that a bug in the Rust-based <a
+href="https://uutils.github.io/">uutils</a> version of the
+<tt>date</tt> command shipped with Ubuntu&#160;25.10 broke automatic
+updates:</p>
+
+<blockquote class="bq">
+<p>Some Ubuntu 25.10 systems have been unable to automatically check
+for available software updates. Affected machines include cloud
+deployments, container images, Ubuntu Desktop and Ubuntu Server
+installs.</p>
+</blockquote>
+
+<p>The announcement includes remediation instructions for those
+affected by the bug. Systems with the <tt>rust-coreutils</tt> package
+version 0.2.2-0ubuntu2 or earlier have the bug, it is fixed in
+0.2.2-0ubuntu2.1 or later. It does not impact manual updates using the
+<tt>apt</tt> command or other utilities.</p>
+
+<p>Ubuntu embarked on a project to "oxidize" the distribution by
+switching to uutils and <a
+href="https://github.com/trifectatechfoundation/sudo-rs?tab=readme-ov-file#sudo-rs">sudo-rs</a>
+for the 25.10 release, and to see if the Rust-based utilities would be
+suitable for the long-term-release slated for next April. LWN <a
+href="https://lwn.net/Articles/1014002/">covered</a> that project in
+March.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1043103/</guid>
+            <pubDate>Thu, 23 Oct 2025 20:34:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three new stable kernels for Thursday</title>
             <link>https://lwn.net/Articles/1043081/</link>
