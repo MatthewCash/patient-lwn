@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Oct 2025 12:34:37 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Oct 2025 12:41:10 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Oct 2025 13:15:57 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Oct 2025 13:22:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1043027/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ipa, kernel, and thunderbird), <b>Debian</b> (gdk-pixbuf, gegl, gimp, intel-microcode, raptor2, request-tracker4, and request-tracker5), <b>Fedora</b> (samba and wireshark), <b>Mageia</b> (haproxy, nginx, openssl, and python-django), <b>Oracle</b> (kernel and thunderbird), <b>Red Hat</b> (redis and redis:7), <b>Slackware</b> (bind), <b>SUSE</b> (aws-cli, local-npm-registry, python-boto3, python- botocore, python-coverage, python-flaky, python-pluggy, python-pytest, python- pytest-cov, python-pytest-html, python-pytest-metada, cargo-audit-advisory-db-20251021, fetchmail, git-bug, ImageMagick, istioctl, kernel, krb5, libsoup, libxslt, python-Authlib, and sccache), and <b>Ubuntu</b> (bind9, linux, linux-aws, linux-azure, linux-azure-6.8, linux-gcp, linux-gkeop,
+ linux-ibm, linux-ibm-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8,
+ linux-oracle, linux-azure, linux-azure-5.15, linux-gcp-5.15, linux-gcp-6.8, linux-gke, linux-nvidia, linux-nvidia-6.8,
+ linux-nvidia-lowlatency, and linux-realtime, linux-realtime-6.8).]]></description>
+            <guid>https://lwn.net/Articles/1043027/</guid>
+            <pubDate>Thu, 23 Oct 2025 13:12:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 16, 2025</title>
             <link>https://lwn.net/Articles/1041303/</link>
