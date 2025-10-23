@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Oct 2025 15:05:52 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Oct 2025 15:21:30 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Oct 2025 15:39:49 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Oct 2025 15:41:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three new stable kernels for Thursday</title>
+            <link>https://lwn.net/Articles/1043081/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1043082/">6.17.5</a>, <a
+href="https://lwn.net/Articles/1043083/">6.12.55</a>, and <a
+href="https://lwn.net/Articles/1043084/">6.6.114</a> stable kernels. As usual, each
+contains important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1043081/</guid>
+            <pubDate>Thu, 23 Oct 2025 15:39:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Btrfs support coming to AlmaLinux 10.1</title>
             <link>https://lwn.net/Articles/1043029/</link>
