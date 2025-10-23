@@ -8,11 +8,153 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Oct 2025 23:38:13 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Oct 2025 23:52:08 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Oct 2025 00:12:53 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Oct 2025 01:24:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 16, 2025</title>
+            <link>https://lwn.net/Articles/1041303/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1041303/">Front</a>: LLMs and copyright; Systemd packaging in Debian; Gccrs; FineIBT; 6.18 Merge window; Interrupt-aware spinlocks; Fedora's /boot.
+            <li> <a href="https://lwn.net/Articles/1041305/">Briefs</a>: Librephone; LMDE 7; Ubuntu 25.10; Firefox 144.0; Julia 1.12; ...
+            <li> <a href="https://lwn.net/Articles/1041306/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1041303/</guid>
+            <pubDate>Thu, 16 Oct 2025 01:06:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new API for interrupt-aware spinlocks</title>
+            <link>https://lwn.net/Articles/1039374/</link>
+            <description><![CDATA[<p>
+Boqun Feng spoke at
+<a href="https://kangrejos.com/">
+Kangrejos&#160;2025</a> about adding a frequently needed API for Rust drivers
+that need to handle interrupts: interrupt-aware spinlocks. Most drivers will
+need to communicate information from interrupt handlers to main driver code, and
+this exchange is frequently synchronized with the use of spinlocks. While his
+first attempts ran into problems, Feng's ultimate solution could help prevent bugs
+in C code as well, by tracking the number of nested scopes that have disabled
+interrupts. The <a href="https://lwn.net/ml/all/20251013155205.2004838-1-lyude@redhat.com/">
+patch set</a>, which contains work from Feng and Lyude Paul, is still under review.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1039374/</guid>
+            <pubDate>Wed, 15 Oct 2025 16:28:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The end of the 6.18 merge window</title>
+            <link>https://lwn.net/Articles/1041004/</link>
+            <description><![CDATA[<p>
+The 6.18 merge window has come to an end, bringing with it a total of 11,974
+non-merge commits, 3,499 of which came in after LWN's
+<a href="https://lwn.net/Articles/1040203">first-half summary</a>.
+The total is a little higher than the 6.17 merge window, which saw 11,404
+non-merge commits. There are once again
+a good number of changes and new features included in this release.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1041004/</guid>
+            <pubDate>Tue, 14 Oct 2025 17:07:08 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The FSF considers large language models</title>
+            <link>https://lwn.net/Articles/1040888/</link>
+            <description><![CDATA[The Free Software Foundation's <a
+href="https://www.fsf.org/licensing/team">Licensing and Compliance Lab</a>
+concerns itself with many aspects of software licensing, Krzysztof Siewicz
+said at the beginning of his <a
+href="https://conf.gnu-tools-cauldron.org/opo25/">2025 GNU Tools
+Cauldron</a> session.  These include supporting projects that are facing
+licensing challenges, collecting copyright assignments, and addressing GPL
+violations.  In this session, though, there was really only one topic that
+the audience wanted to know about: the interaction between free-software
+licensing and large language models (LLMs).]]></description>
+            <guid>https://lwn.net/Articles/1040888/</guid>
+            <pubDate>Tue, 14 Oct 2025 12:56:24 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian Technical Committee overrides systemd change</title>
+            <link>https://lwn.net/Articles/1041316/</link>
+            <description><![CDATA[<p>Debian packagers have a great deal of latitude when it comes to the
+configuration of the software they package; they may opt, for example,
+to <a href="https://lwn.net/Articles/973782/">disable default
+features</a> in software that they feel are a security
+hazard. However, packagers are expected to ensure that their packages
+comply with <a
+href="https://www.debian.org/doc/debian-policy/">Debian Policy</a>,
+regardless of the upstream's preferences. If a packager fails to
+comply with the policy, the <a
+href="https://www.debian.org/devel/tech-ctte">Debian Technical
+Committee</a> (TC) can step in to override them, which it has
+done in the case of a recent systemd change that broke several
+programs that depend on a world-writable <tt>/run/lock</tt>
+directory.</p>]]></description>
+            <guid>https://lwn.net/Articles/1041316/</guid>
+            <pubDate>Mon, 13 Oct 2025 16:59:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Enhancing FineIBT</title>
+            <link>https://lwn.net/Articles/1039633/</link>
+            <description><![CDATA[At the <a
+href="https://events.linuxfoundation.org/linux-security-summit-europe/">Linux
+Security Summit Europe</a> (LSS EU), Scott Constable and Sebastian
+Österlund gave a talk on an enhancement to a control-flow integrity (CFI)
+protection that was added to the kernel several years ago.  The "<a
+href="https://arxiv.org/abs/2303.16353">FineIBT: Fine-grain Control-flow
+Enforcement with Indirect Branch Tracking</a>" mechanism was merged for
+Linux 6.2 in early 2023 to harden the kernel against CFI attacks of various
+sorts, but needed <a href="https://lwn.net/Articles/1011680/">some fixes and
+enhancements</a> more recently. The talk looked at the CFI vulnerability
+problem, FineIBT, and an enhanced version that is hoped to be able to unify
+all of the disparate hardware and software mitigations to address both
+regular and speculative CFI vulnerabilities.]]></description>
+            <guid>https://lwn.net/Articles/1039633/</guid>
+            <pubDate>Fri, 10 Oct 2025 14:32:27 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Gccrs after libcore</title>
+            <link>https://lwn.net/Articles/1040197/</link>
+            <description><![CDATA[Despite its increasing popularity, the Rust programming language is still
+supported by a single compiler, the LLVM-based rustc.  At the <a
+href="https://conf.gnu-tools-cauldron.org/opo25/">2025 GNU Tools
+Cauldron</a>, Pierre-Emmanuel Patry said that a lot of people are waiting
+for a GCC-based Rust compiler before jumping into the language.  Patry, who
+is working on just that compiler (known as "gccrs"), provided an update on
+the status of that project and what is coming next.]]></description>
+            <guid>https://lwn.net/Articles/1040197/</guid>
+            <pubDate>Thu, 09 Oct 2025 17:10:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Last-minute /boot boost for Fedora 43</title>
+            <link>https://lwn.net/Articles/1041078/</link>
+            <description><![CDATA[<p>Sudden increases in the size of Fedora's <a
+href="https://static.lwn.net/kerneldoc/filesystems/ramfs-rootfs-initramfs.html#what-is-initramfs">initramfs</a>
+files have prompted the project to fast-track a proposal to increase
+the default size of the <tt>/boot</tt> partition for new installs of
+Fedora&#160;43 and later. The project has also walked back a few
+changes that have contributed to larger initramfs files, but the
+ever-increasing size of firmware means that the need for more room is
+unavoidable. The Fedora Engineering Steering Council (FESCo) has
+approved a last-minute <a
+href="https://fedoraproject.org/wiki/Changes/2GbootPartition">change</a>
+just before the final freeze for Fedora&#160;43 to increase the
+default size of the <tt>/boot</tt> partition from 1GB to 2GB; this
+will leave plenty of space for kernels and initramfs images if a user
+is installing from scratch, but it is of no help for users upgrading
+from Fedora&#160;42.</p>]]></description>
+            <guid>https://lwn.net/Articles/1041078/</guid>
+            <pubDate>Thu, 09 Oct 2025 15:44:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Fedora Council approves AI-assisted contributions policy</title>
             <link>https://lwn.net/Articles/1042947/</link>
@@ -245,135 +387,6 @@ notes</a> for all changes in 13.0.</p>
             <guid>https://lwn.net/Articles/1042229/</guid>
             <pubDate>Thu, 16 Oct 2025 14:15:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 9, 2025</title>
-            <link>https://lwn.net/Articles/1040456/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1040456/">Front</a>: Kernel Rust features; systemd v258, part 2; Cauldron kernel hackers; BPF for GNU tools; 6.18 merge window, part 1; Lifetime-end pointer zapping; Robot Operating System.
-            <li> <a href="https://lwn.net/Articles/1040458/">Briefs</a>: OpenSSH 10.1; Firefox profiles; Python 3.14; U-Boot v2025.10; FSF presidency; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1040459/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1040456/</guid>
-            <pubDate>Thu, 09 Oct 2025 00:40:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Upcoming Rust language features for kernel development</title>
-            <link>https://lwn.net/Articles/1039073/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://rust-for-linux.com/">
-Rust for Linux</a> project has been good for Rust, Tyler Mandry, one of the
-co-leads of Rust's language-design team, said. He
-gave a talk at
-<a href="https://kangrejos.com/">
-Kangrejos&#160;2025</a> covering upcoming Rust language features and thanking
-the Rust for Linux developers for helping drive them forward. Afterward, Benno Lossin and Xiangfei Ding
-went into more detail about their work on the three most important language
-features for kernel development: field projections, in-place initialization, and arbitrary self types.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1039073/</guid>
-            <pubDate>Wed, 08 Oct 2025 16:48:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Highlights from systemd v258: part two</title>
-            <link>https://lwn.net/Articles/1039481/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/systemd/systemd/releases/tag/v258">Systemd
-v258</a> was released on September&#160;17 after more than nine months
-of development. LWN has already <a
-href="https://lwn.net/Articles/1028275/">covered</a> some of the
-features and changes being readied for v258 before it was final. Now
-that the release is out, it is time to look at more of what came in
-v258, including a sandbox shell, new boot options, service-level disk
-quotas, and enhancements to <tt>systemd-resolved</tt>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1039481/</guid>
-            <pubDate>Tue, 07 Oct 2025 14:54:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Progress on defeating lifetime-end pointer zapping</title>
-            <link>https://lwn.net/Articles/1038757/</link>
-            <description><![CDATA[<p>
-Paul McKenney gave a remote presentation at
-<a href="https://kangrejos.com/">
-Kangrejos&#160;2025</a> following up on the
-talk he gave <a href="https://lwn.net/Articles/993484/">last year</a> about the
-lifetime-end-pointer-zapping problem: certain common patterns for multithreaded code are
-technically undefined behavior, and changes to the C and <span style="whitespace:nowrap;">C++</span> specifications
-will be needed to correct that. Those changes could also impact code that uses
-unsafe Rust, such as the kernel's Rust bindings. Progress on the problem has been slow,
-but McKenney believes that a solution is near at hand.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1038757/</guid>
-            <pubDate>Tue, 07 Oct 2025 15:04:16 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] 6.18 merge window, part 1</title>
-            <link>https://lwn.net/Articles/1040203/</link>
-            <description><![CDATA[<p>
-At the time of writing, there have been 9,099 commits in the 6.18 merge window,
-8,475 non-merges and 624 merges. The
-changes so far include core-kernel, graphics, and networking work, among others.
-There are no big surprises, but several items that were discussed at this year's
-<a href="https://lwn.net/Articles/lsfmmbpf2025/">
-LFSMM+BPF Summit</a> have now been merged.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1040203/</guid>
-            <pubDate>Mon, 06 Oct 2025 18:03:05 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Next steps for BPF support in the GNU toolchain</title>
-            <link>https://lwn.net/Articles/1039827/</link>
-            <description><![CDATA[Support for BPF in the kernel has been tied to the LLVM toolchain since the
-advent of extended BPF.  There has been a growing effort to add BPF support
-to the GNU toolchain as well, though.  At the 2025 GNU Tools Cauldron, the
-developers involved got together with representatives of the kernel
-community to talk about the state of that work and what needs to happen
-next.]]></description>
-            <guid>https://lwn.net/Articles/1039827/</guid>
-            <pubDate>Mon, 06 Oct 2025 16:23:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A look at the Robot Operating System</title>
-            <link>https://lwn.net/Articles/1031669/</link>
-            <description><![CDATA[<p>Despite its name, the <a href="https://www.ros.org/">Robot
-Operating System</a> (ROS) is not an operating system; it is
-a software development kit (SDK) that provides building blocks for
-robotic applications. One of the main goals of ROS is to present a
-common API that abstracts away the details of particular hardware
-drivers or algorithms to make development easier; developers can focus
-on what a robot should do rather than the low-level details of
-specific controllers. The latest release of ROS, <a
-href="https://discourse.ros.org/t/ros-2-kilted-kaiju-release/43902">Kilted
-Kaiju</a>, features improvements to the middleware layer that is used
-to deliver data between components.</p>]]></description>
-            <guid>https://lwn.net/Articles/1031669/</guid>
-            <pubDate>Fri, 03 Oct 2025 15:06:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Kernel hackers at Cauldron, 2025 edition</title>
-            <link>https://lwn.net/Articles/1039784/</link>
-            <description><![CDATA[The GNU Tools Cauldron is almost entirely focused on user-space tools, but
-kernel developers need a solid toolchain too.  In what appears to be a
-developing tradition (<a href="https://lwn.net/Articles/990379/">started in 2024</a>),
-some kernel developers attended the <a
-href="https://conf.gnu-tools-cauldron.org/opo25/">2025 Cauldron</a> for the
-second year in a row to discuss their needs with the assembled toolchain
-developers.  Topics covered in this year's gathering include Rust, better
-<a href="https://www.kernel.org/doc/html/latest/bpf/btf.html">BPF type
-format (BTF)</a> support, SFrame, and more.]]></description>
-            <guid>https://lwn.net/Articles/1039784/</guid>
-            <pubDate>Thu, 02 Oct 2025 14:31:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
