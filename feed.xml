@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Oct 2025 13:14:42 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Oct 2025 13:21:12 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Oct 2025 13:47:04 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Oct 2025 13:48:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1043235/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (webkit2gtk3), <b>Debian</b> (bind9, chromium, python-internetarchive, and tryton-sao), <b>Fedora</b> (dokuwiki and php-php81_bc-strftime), <b>Mageia</b> (firefox, nss &amp; rootcerts and thunderbird), <b>Slackware</b> (openssl), <b>SUSE</b> (bleachbit, chromium, kernel, mozilla-nss, and python311-uv), and <b>Ubuntu</b> (fetchmail, golang-go.crypto, and linux-oracle-5.4).]]></description>
+            <guid>https://lwn.net/Articles/1043235/</guid>
+            <pubDate>Fri, 24 Oct 2025 13:37:59 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Date bug affects Ubuntu 25.10 automatic updates</title>
             <link>https://lwn.net/Articles/1043103/</link>
@@ -446,14 +454,6 @@ href="https://rubycentral.org/news/ruby-central-statement-on-rubygems-bundler/">
             <guid>https://lwn.net/Articles/1042480/</guid>
             <pubDate>Fri, 17 Oct 2025 14:30:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1042452/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and libssh), <b>Debian</b> (firefox-esr and pgpool2), <b>Mageia</b> (varnish &amp; lighttpd), <b>Red Hat</b> (python3, python3.11, python3.12, python3.9, and python39:3.9), <b>SUSE</b> (expat, gstreamer-plugins-rs, kernel, openssl1, pgadmin4, python311-ldap, and squid), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10 and mupdf).]]></description>
-            <guid>https://lwn.net/Articles/1042452/</guid>
-            <pubDate>Fri, 17 Oct 2025 13:32:54 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
