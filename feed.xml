@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Oct 2025 14:26:24 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Oct 2025 14:43:23 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Oct 2025 14:49:43 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Oct 2025 14:53:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -457,14 +457,6 @@ profile, and a background-blur tool.]]></description>
             <guid>https://lwn.net/Articles/1042823/</guid>
             <pubDate>Tue, 21 Oct 2025 14:08:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1042680/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (imagemagick, incus, lxd, pgagent, svgpp, and sysstat), <b>Fedora</b> (chromium, complyctl, fetchmail, firefox, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, python3.10, python3.11, python3.12, python3.9, runc, and suricata), <b>Mageia</b> (expat), <b>Red Hat</b> (firefox, kernel, qt5-qtbase, and qt6-qtbase), <b>Slackware</b> (stunnel), <b>SUSE</b> (chromium, coredns, ctdb, firefox, kernel, libexslt0, libpoppler-cpp2, ollama, openssl-1_1, pam, samba, and thunderbird), and <b>Ubuntu</b> (samba).]]></description>
-            <guid>https://lwn.net/Articles/1042680/</guid>
-            <pubDate>Mon, 20 Oct 2025 14:21:12 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
