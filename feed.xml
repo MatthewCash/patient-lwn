@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Oct 2025 11:19:46 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Oct 2025 11:52:08 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Oct 2025 12:34:14 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Oct 2025 12:41:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Valgrind 3.26.0 released</title>
+            <link>https://lwn.net/Articles/1043391/</link>
+            <description><![CDATA[<p>Version 3.26.0 of the <a href="https://valgrind.org/">Valgrind</a>
+memory-profiling and debugging framework has been released. Notable
+changes include updated support for the <a
+href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
+Project</a> (LTP) to version v20250930, many new Linux syscall
+wrappers, and the license for Valgrind has been changed from GPLv2 to
+GPLv3.</p>]]></description>
+            <guid>https://lwn.net/Articles/1043391/</guid>
+            <pubDate>Mon, 27 Oct 2025 12:34:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.18-rc3</title>
             <link>https://lwn.net/Articles/1043368/</link>
