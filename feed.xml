@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Oct 2025 16:25:14 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Oct 2025 16:25:46 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Oct 2025 16:45:33 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Oct 2025 16:49:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Python Software Foundation withdraws security-related grant proposal</title>
+            <link>https://lwn.net/Articles/1043563/</link>
+            <description><![CDATA[The Python Software Foundation, earlier this year, successfully obtained a
+$1.5&#160;million grant from the US National Science Foundation "<q>to
+address structural vulnerabilities in Python and PyPI</q>".  The actual
+grant came with some strings attached though, in the form of a requirement
+not to pursue diversity, equity, and inclusion programs.  So the Foundation
+has <a
+href="https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html">withdrawn
+the proposal</a> rather than agree to terms that run counter to its own
+mission.
+<p>
+<blockquote class="bq">
+	We're disappointed to have been put in the position where we had to
+	make this decision, because we believe our proposed project would
+	offer invaluable advances to the Python and greater open source
+	community, protecting millions of PyPI users from attempted
+	supply-chain attacks. The proposed project would create new tools
+	for automated proactive review of all packages uploaded to PyPI,
+	rather than the current process of reactive-only review.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1043563/</guid>
+            <pubDate>Mon, 27 Oct 2025 16:28:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Rust Coreutils 0.3.0 released</title>
             <link>https://lwn.net/Articles/1043390/</link>
