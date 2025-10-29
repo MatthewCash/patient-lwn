@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 Oct 2025 12:33:46 +0000</pubDate>
-        <lastBuildDate>Wed, 29 Oct 2025 12:41:47 +0000</lastBuildDate>
+        <pubDate>Wed, 29 Oct 2025 13:19:14 +0000</pubDate>
+        <lastBuildDate>Wed, 29 Oct 2025 13:23:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1043983/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gimp, python-authlib, and xorg-server), <b>Fedora</b> (chromium and git-lfs), <b>Mageia</b> (poppler and tomcat), <b>Red Hat</b> (kernel, kernel-rt, redis, and redis:6), <b>SUSE</b> (fetchmail, grafana, ImageMagick, kernel-devel, libluajit-5_1-2, proxy-helm, python-Authlib, and xen), and <b>Ubuntu</b> (linux-intel-iotg, linux-intel-iotg-5.15 and squid, squid3).]]></description>
+            <guid>https://lwn.net/Articles/1043983/</guid>
+            <pubDate>Wed, 29 Oct 2025 13:18:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Fedora Linux 43 released (Fedora Magazine)</title>
             <link>https://lwn.net/Articles/1043785/</link>
