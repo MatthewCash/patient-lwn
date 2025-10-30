@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Oct 2025 19:55:05 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Oct 2025 20:52:56 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Oct 2025 21:07:07 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Oct 2025 21:18:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.91.0 released</title>
+            <link>https://lwn.net/Articles/1044297/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2025/10/30/Rust-1.91.0/">Version
+1.91.0</a> of the Rust language has been released.  Changes include
+promoting <tt>aarch64-pc-windows-msvc</tt> to a tier-1 platform, a new lint
+to catch dangling raw pointers from local variables, and a fair number of
+newly stabilized APIs.]]></description>
+            <guid>https://lwn.net/Articles/1044297/</guid>
+            <pubDate>Thu, 30 Oct 2025 21:07:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Bazzite fall update released</title>
             <link>https://lwn.net/Articles/1044246/</link>
