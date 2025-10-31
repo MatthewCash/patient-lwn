@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 31 Oct 2025 13:41:50 +0000</pubDate>
-        <lastBuildDate>Fri, 31 Oct 2025 13:47:21 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2025 14:20:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -451,14 +451,6 @@ LWN <a href="https://lwn.net/Articles/1037577/">looked at Typst</a> in September
             <guid>https://lwn.net/Articles/1043242/</guid>
             <pubDate>Fri, 24 Oct 2025 14:08:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1043235/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (webkit2gtk3), <b>Debian</b> (bind9, chromium, python-internetarchive, and tryton-sao), <b>Fedora</b> (dokuwiki and php-php81_bc-strftime), <b>Mageia</b> (firefox, nss &amp; rootcerts and thunderbird), <b>Slackware</b> (openssl), <b>SUSE</b> (bleachbit, chromium, kernel, mozilla-nss, and python311-uv), and <b>Ubuntu</b> (fetchmail, golang-go.crypto, and linux-oracle-5.4).]]></description>
-            <guid>https://lwn.net/Articles/1043235/</guid>
-            <pubDate>Fri, 24 Oct 2025 13:37:59 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
