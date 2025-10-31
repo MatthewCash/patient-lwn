@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 31 Oct 2025 13:41:50 +0000</pubDate>
-        <lastBuildDate>Fri, 31 Oct 2025 14:20:00 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 31 Oct 2025 14:45:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -428,28 +428,6 @@ calmer than usual, but that's likely just the usual fluctuation in pull
 request timing rather than anything else</q>".]]></description>
             <guid>https://lwn.net/Articles/1043368/</guid>
             <pubDate>Sun, 26 Oct 2025 23:19:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Typst 0.14 released</title>
-            <link>https://lwn.net/Articles/1043242/</link>
-            <description><![CDATA[<a href="https://typst.app/blog/2025/typst-0.14/">Version 0.14</a> of the
-Typst document processor has been released.
-<p>
-<blockquote class="bq">
-	If you need to comply with accessibility-related regulations, Typst
-	0.14 has your back. Typst now generates accessible documents by
-	default, with opt-in support for stricter checks. For those working
-	with complex illustrations, PDFs are now supported as a native
-	image format. In case you're typesetting a book, the new
-	character-level justification will give your layout the final
-	touch. And if you're building a website or blog, many improvements
-	to Typst's HTML export are waiting for you.
-</blockquote>
-<p>
-LWN <a href="https://lwn.net/Articles/1037577/">looked at Typst</a> in September.]]></description>
-            <guid>https://lwn.net/Articles/1043242/</guid>
-            <pubDate>Fri, 24 Oct 2025 14:08:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
