@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 01 Nov 2025 18:15:46 +0000</pubDate>
-        <lastBuildDate>Sat, 1 Nov 2025 18:24:51 +0000</lastBuildDate>
+        <pubDate>Sat, 01 Nov 2025 18:42:47 +0000</pubDate>
+        <lastBuildDate>Sat, 1 Nov 2025 18:45:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Debian to require Rust as of May 2026</title>
+            <link>https://lwn.net/Articles/1044496/</link>
+            <description><![CDATA[Julian Andres Klode has <a
+href="https://lwn.net/ml/all/20251031213541.GA73786@debian.org">announced</a> that the
+Debian APT package-management tool will acquire "<q>hard Rust
+dependencies</q> sometime after May 2026.  "<q>If you maintain a port
+without a working Rust toolchain, please ensure it has one within the next
+6 months, or sunset the port.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1044496/</guid>
+            <pubDate>Sat, 01 Nov 2025 18:42:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Ubuntu introduces architecture variants</title>
             <link>https://lwn.net/Articles/1044383/</link>
