@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Nov 2025 11:49:25 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Nov 2025 12:41:13 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Nov 2025 13:19:01 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Nov 2025 13:21:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1044763/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, and webkit2gtk3), <b>Debian</b> (ruby-rack, strongswan, ublock-origin, and wordpress), <b>Fedora</b> (firefox, kea, openapi-python-client, openbao, python-uv-build, qt5-qtbase, ruby, ruff, rust-astral-tokio-tar, rust-attribute-derive, rust-attribute-derive-macro, rust-backon, rust-collection_literals, rust-get-size-derive2, rust-get-size2, rust-interpolator, rust-manyhow, rust-manyhow-macros, rust-proc-macro-utils, rust-quote-use, rust-quote-use-macros, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, rust-tikv-jemalloc-sys, rust-tikv-jemallocator, samba, skopeo, sssd, Thunar, unbound, uv, vgrep, and xorg-x11-server-Xwayland), <b>Mageia</b> (bind, libtiff, sope, and transfig), <b>Oracle</b> (compat-libtiff3, kernel, libtiff, redis, redis:6, and redis:7), <b>Red Hat</b> (kernel, kernel-rt, libssh, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (seamonkey), <b>SUSE</b> (bind, chromedriver, chromium, colord, coreboot-utils, git-bug, ImageMagick, java-11-openj9, java-17-openj9, java-21-openj9, java-25-openj9, kea, libmozjs-115-0, libmozjs-140-0, libssh, libtiff-devel-32bit, nodejs18, ongres-scram, poppler, python311-starlette, rav1e, squid, strongswan, webkit2gtk3, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (linux-gcp-6.14 and linux-hwe-6.8).]]></description>
+            <guid>https://lwn.net/Articles/1044763/</guid>
+            <pubDate>Mon, 03 Nov 2025 13:15:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.18-rc4</title>
             <link>https://lwn.net/Articles/1044582/</link>
@@ -439,20 +447,6 @@ that <a href="https://lwn.net/Articles/1043103/">affected automatic updates in U
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (intel-microcode, openjdk-11, openjdk-17, openjdk-21, python-pip, request-tracker4, thunderbird, and tika), <b>Fedora</b> (cef, chromium, complyctl, cri-o1.31, cri-o1.32, cri-o1.33, cri-o1.34, docker-buildkit, docker-buildx, dovecot, fetchmail, gi-docgen, golang-github-facebook-time, insight, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, moodle, openssl, perl-YAML-Syck, podman-tui, python-socketio, python-sqlparse, python3.10, python3.11, python3.12, python3.9, qt5-qtsvg, runc, samba, squid, sssd, suricata, valkey, wireshark, wordpress, and yarnpkg), <b>Red Hat</b> (libssh), <b>SUSE</b> (aaa_base, afterburn, bind, chromedriver, chrony, firefox, git, govulncheck-vulndb, grub2, ImageMagick, java-11-openjdk, java-17-openjdk, kernel, libssh, libunbound8, libxslt, micropython, mozilla-nss, netty, open-vm-tools, openbao, p7zip, podman, poppler, python-python-socketio, python-urllib3, ruby2.5, rust-keylime, vim, wireshark, and xen), and <b>Ubuntu</b> (linux-aws-6.14).]]></description>
             <guid>https://lwn.net/Articles/1043499/</guid>
             <pubDate>Mon, 27 Oct 2025 13:02:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Valgrind 3.26.0 released</title>
-            <link>https://lwn.net/Articles/1043391/</link>
-            <description><![CDATA[<p>Version 3.26.0 of the <a href="https://valgrind.org/">Valgrind</a>
-memory-profiling and debugging framework has been released. Notable
-changes include updated support for the <a
-href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
-Project</a> (LTP) to version v20250930, many new Linux syscall
-wrappers, and the license for Valgrind has been changed from GPLv2 to
-GPLv3.</p>]]></description>
-            <guid>https://lwn.net/Articles/1043391/</guid>
-            <pubDate>Mon, 27 Oct 2025 12:34:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
