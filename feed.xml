@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Nov 2025 13:19:01 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Nov 2025 13:21:13 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Nov 2025 13:37:56 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Nov 2025 13:48:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -439,14 +439,6 @@ that <a href="https://lwn.net/Articles/1043103/">affected automatic updates in U
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1043390/</guid>
             <pubDate>Mon, 27 Oct 2025 13:46:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1043499/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (intel-microcode, openjdk-11, openjdk-17, openjdk-21, python-pip, request-tracker4, thunderbird, and tika), <b>Fedora</b> (cef, chromium, complyctl, cri-o1.31, cri-o1.32, cri-o1.33, cri-o1.34, docker-buildkit, docker-buildx, dovecot, fetchmail, gi-docgen, golang-github-facebook-time, insight, mbedtls, mingw-binutils, mingw-python3, mingw-qt5-qtsvg, mingw-qt6-qtsvg, moodle, openssl, perl-YAML-Syck, podman-tui, python-socketio, python-sqlparse, python3.10, python3.11, python3.12, python3.9, qt5-qtsvg, runc, samba, squid, sssd, suricata, valkey, wireshark, wordpress, and yarnpkg), <b>Red Hat</b> (libssh), <b>SUSE</b> (aaa_base, afterburn, bind, chromedriver, chrony, firefox, git, govulncheck-vulndb, grub2, ImageMagick, java-11-openjdk, java-17-openjdk, kernel, libssh, libunbound8, libxslt, micropython, mozilla-nss, netty, open-vm-tools, openbao, p7zip, podman, poppler, python-python-socketio, python-urllib3, ruby2.5, rust-keylime, vim, wireshark, and xen), and <b>Ubuntu</b> (linux-aws-6.14).]]></description>
-            <guid>https://lwn.net/Articles/1043499/</guid>
-            <pubDate>Mon, 27 Oct 2025 13:02:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
