@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Nov 2025 22:01:17 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Nov 2025 23:51:50 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Nov 2025 23:59:44 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Nov 2025 01:26:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Defeating KASLR by Doing Nothing at All (Project Zero)</title>
+            <link>https://lwn.net/Articles/1044867/</link>
+            <description><![CDATA[The Project Zero blog <a
+href="https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html">explains</a>
+that, on 64-bit Arm systems, the kernel's direct map is always placed at
+the same virtual location, regardless of whether kernel address-space
+layout randomization (KASLR) is enabled.
+<p>
+<blockquote class="bq">
+	While it remains true that KASLR should not be trusted to prevent
+	exploitation, particularly in local contexts, it is regrettable
+	that the attitude around Linux KASLR is so fatalistic that putting
+	in the engineering effort to preserve its remaining integrity is
+	not considered to be worthwhile. The joint effect of these two
+	issues dramatically simplified what might otherwise have been a
+	more complicated and likely less reliable exploit.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1044867/</guid>
+            <pubDate>Mon, 03 Nov 2025 23:59:24 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Python steering council accepts lazy imports</title>
             <link>https://lwn.net/Articles/1044844/</link>
