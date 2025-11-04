@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Nov 2025 14:14:16 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Nov 2025 14:20:53 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Nov 2025 14:21:29 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Nov 2025 14:47:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1044949/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (dcmtk, geographiclib, gimp, pure-ftpd, and ruby-rack), <b>Fedora</b> (dotnet9.0), <b>Oracle</b> (expat, kernel, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (git, mariadb:10.5, multiple packages, osbuild-composer, pcs, sssd, and tigervnc), <b>SUSE</b> (kernel and redis), and <b>Ubuntu</b> (google-guest-agent).]]></description>
+            <guid>https://lwn.net/Articles/1044949/</guid>
+            <pubDate>Tue, 04 Nov 2025 14:21:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>CHERIoT 1.0 released</title>
             <link>https://lwn.net/Articles/1044915/</link>
@@ -479,38 +487,6 @@ are advised to upgrade.</p>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (gimp, python-authlib, and xorg-server), <b>Fedora</b> (chromium and git-lfs), <b>Mageia</b> (poppler and tomcat), <b>Red Hat</b> (kernel, kernel-rt, redis, and redis:6), <b>SUSE</b> (fetchmail, grafana, ImageMagick, kernel-devel, libluajit-5_1-2, proxy-helm, python-Authlib, and xen), and <b>Ubuntu</b> (linux-intel-iotg, linux-intel-iotg-5.15 and squid, squid3).]]></description>
             <guid>https://lwn.net/Articles/1043983/</guid>
             <pubDate>Wed, 29 Oct 2025 13:18:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 43 released (Fedora Magazine)</title>
-            <link>https://lwn.net/Articles/1043785/</link>
-            <description><![CDATA[<p>The Fedora Project has <a href="https://fedoramagazine.org/announcing-fedora-linux-43/">announced</a> the release of Fedora Linux&#160;43,
-with "what's new" articles for <a
-href="https://fedoramagazine.org/whats-new-fedora-workstation-43/">Fedora
-Workstation</a>, <a
-href="https://fedoramagazine.org/whats-new-in-fedora-kde-plasma-desktop-43/">Fedora
-KDE Plasma Desktop</a>, and <a
-href="https://fedoramagazine.org/whats-new-fedora-atomic-desktops-in-fedora-linux-43/">Fedora
-Atomic Desktops</a>.</p>
-
-<blockquote class="bq">
-<p>For those of you installing fresh Fedora Linux&#160;43 Spins, you may be
-greeted with the new Anaconda WebUI. This was the default installer
-interface for Fedora Workstation&#160;42, and now it's the default
-installer UI for the Spins as well.</p>
-
-<p>If you are a GNOME desktop user, you'll also notice that the GNOME
-is now Wayland-only in Fedora Linux&#160;43. GNOME upstream has deprecated
-X11 support, and has disabled it as a compile time default in GNOME&#160;49. Upstream GNOME plans to fully remove X11 support in GNOME&#160;50.</p>
-</blockquote>
-
-<p>See the <a
-href="https://docs.fedoraproject.org/en-US/fedora/latest/release-notes/">release
-notes</a> for a full list of changes in Fedora&#160;43.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1043785/</guid>
-            <pubDate>Tue, 28 Oct 2025 14:11:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
