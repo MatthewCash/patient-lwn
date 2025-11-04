@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Nov 2025 15:22:55 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Nov 2025 15:44:41 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Nov 2025 15:55:19 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Nov 2025 15:56:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Incus 6.18 released</title>
+            <link>https://lwn.net/Articles/1044987/</link>
+            <description><![CDATA[<p><a
+href="https://discuss.linuxcontainers.org/t/incus-6-18-has-been-released/25091">Version
+6.18</a> of the Incus container and virtual-machine management system
+has been released. Notable changes in this release include new
+configuration keys for providing credentials to systemd, BPF token
+delegation, VirtIO support for sound cards, the ability to export ISO
+volumes, improvements to the <a href="https://github.com/lxc/incus-os?tab=readme-ov-file#introduction">IncusOS</a> command-line utility, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1044987/</guid>
+            <pubDate>Tue, 04 Nov 2025 15:55:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1044949/</link>
