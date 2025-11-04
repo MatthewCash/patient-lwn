@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Nov 2025 13:22:39 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Nov 2025 13:25:08 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Nov 2025 13:46:31 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Nov 2025 13:51:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>CHERIoT 1.0 released</title>
+            <link>https://lwn.net/Articles/1044915/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/CHERIoT-Platform/cheriot-sail/releases/tag/v1.0">Version
+1.0</a> of the Capability Hardware Extension to RISC-V for IoT
+(CHERIoT) specification has been released. CHERIoT is a
+hardware-software system for secure embedded devices, and the
+specification provides a full description of the ISA and its intended
+use by <a
+href="https://github.com/CHERIoT-Platform/cheriot-rtos/?tab=readme-ov-file#cheriot-rtos">CHERIoT
+RTOS</a>. David Chisnall has written a <a
+href="https://cheriot.org/sail/specification/release/2025/11/03/cheriot-1.0.html">blog
+post</a> about the release that explains its significance as well as plans
+for CHERIoT 2.0 and beyond:</p>
+
+<blockquote class="bq">
+<p>The last change that we made to the ISA was in December 2024, so we
+are confident that this is a stable release that we can support in
+hardware for a long time. This specification was implemented by the
+1.0 release of CHERIoT Ibex and by CHERIoT Kudu (which has not yet had
+an official release). These two implementations demonstrate that the
+ISA scales from three-stage single-issue pipelines to six-stage
+dual-issue pipelines, roughly the same range of microarchitectures
+supported by Arm's M profile.</p>
+
+<p>We at SCI have the first of our ICENI chips, which use the CHERIoT
+Ibex core, on the way back from the fab now and will be scaling up to
+mass production in the new year. I am not allowed to speak for other
+folks building CHERIoT silicon, but I expect 2026 to be an exciting
+year for the CHERIoT project!</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1044915/</guid>
+            <pubDate>Tue, 04 Nov 2025 13:46:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Defeating KASLR by Doing Nothing at All (Project Zero)</title>
             <link>https://lwn.net/Articles/1044867/</link>
