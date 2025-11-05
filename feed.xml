@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Nov 2025 17:49:34 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Nov 2025 17:52:05 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Nov 2025 18:24:57 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Nov 2025 18:28:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Removing XSLT from Chromium</title>
+            <link>https://lwn.net/Articles/1045161/</link>
+            <description><![CDATA[<p>Mason Freed and Dominik Röttsches have published a <a
+href="https://developer.chrome.com/docs/web-platform/deprecating-xslt">document</a>
+with a timeline and plans for removing Extensible Stylesheet Language
+Transformations (XSLT) from the Chromium project and Chrome
+browser:</p>
+
+<blockquote class="bq">
+Chromium has officially deprecated XSLT, including the XSLTProcessor
+JavaScript API and the XML stylesheet processing instruction. We
+intend to remove support from version 155 (November 17, 2026). The
+Firefox and WebKit projects have also indicated plans to remove XSLT
+from their browser engines. This document provides some history and
+context, explains how we are removing XSLT to make Chrome safer, and
+provides a path for migrating before these features are removed from
+the browser.
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1034560/">covered</a> the Web
+Hypertext Application Technology Working Group (WHATWG) discussion
+about XSLT in August.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1045161/</guid>
+            <pubDate>Wed, 05 Nov 2025 17:59:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>LXQt 2.3.0 released</title>
             <link>https://lwn.net/Articles/1045140/</link>
