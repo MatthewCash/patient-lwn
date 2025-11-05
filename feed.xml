@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Nov 2025 16:45:09 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Nov 2025 16:52:04 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Nov 2025 17:06:18 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Nov 2025 17:19:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -457,52 +457,6 @@ can be used to review patches, rather than create them.]]></description>
             <guid>https://lwn.net/Articles/1041694/</guid>
             <pubDate>Thu, 16 Oct 2025 15:03:24 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>ICANN report: DNS runs on FOSS</title>
-            <link>https://lwn.net/Articles/1044064/</link>
-            <description><![CDATA[<p>ICANN's <a href="https://www.icann.org/en/ssac">Security and
-Stability Advisory Committee (SSAC)</a> has <a
-href="https://www.icann.org/en/blogs/details/the-internet-runs-on-free-and-open-source-softwareand-so-does-the-dns-23-10-2025-en">announced</a>
-a <a
-href="https://www.icann.org/en/ssac/publications/documents/sac132-executive-summary-for-the-domain-name-system-runs-on-free-and-open-source-software-foss-25-09-2025-en">report</a>
-on "<q>the critical role of Free and Open Source Software (FOSS)
-within the Domain Name System (DNS)</q>". The report is aimed at
-policymakers and examines recent cybersecurity regulations in the US,
-UK, and EU as they apply to FOSS in the DNS system; it includes
-findings and guidelines "<q>to strengthen the FOSS ecosystem that is
-critical to the secure and stable operation of the Internet</q>". From
-the report's summary:</p>
-
-<blockquote class="bq">
-<p>This ecosystem depends on a global network of maintainers and
-contributors who are often unpaid volunteers. While many are unpaid
-volunteers, the DNS space is unique in also relying on a handful of
-long-lived maintenance organizations. This creates a model based on
-community collaboration rather than the commercial contracts that
-define a traditional software supply chain, which introduces unique
-risks related to financial sustainability for the maintenance
-organizations and maintainer burnout for volunteers.</p>
-
-<p>These unique characteristics mean that regulatory frameworks
-designed for proprietary software may not be well-suited for FOSS and
-therefore could have severe unintended consequences to the stability
-of critical Internet infrastructure.</p>
-</blockquote>
-
-<p>Thanks to SSAC member Maarten Aertsen for the tip.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1044064/</guid>
-            <pubDate>Wed, 29 Oct 2025 17:05:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GNU/Linux man pages 6.16 released</title>
-            <link>https://lwn.net/Articles/1044066/</link>
-            <description><![CDATA[<p>Alejandro Colomar has announced the release of version 6.16 of the GNU/Linux man pages. This release includes new or rewritten man pages for <tt>fsconfig()</tt>, <tt>fsmount()</tt>, and <tt>fsopen()</tt>, as well as a number of newly documented interfaces in existing man pages. The release is also available as a <a href="https://www.kernel.org/pub/linux/docs/man-pages/book/man-pages-6.16.pdf">PDF book</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1044066/</guid>
-            <pubDate>Wed, 29 Oct 2025 17:17:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
