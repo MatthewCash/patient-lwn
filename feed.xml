@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Nov 2025 14:12:21 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Nov 2025 14:20:43 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Nov 2025 14:32:19 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Nov 2025 14:46:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OCI Runtime Specification 1.3 adds FreeBSD</title>
+            <link>https://lwn.net/Articles/1045125/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/opencontainers/runtime-spec/releases/tag/v1.3.0">Version
+1.3</a> of the Open Container Initiative (OCI) <a
+href="https://github.com/opencontainers/runtime-spec/blob/main/spec.md">Runtime
+Specification</a> has been released. The specification covers the
+configuration, execution environment, and lifecycle of containers. The
+most notable change in 1.3 is the addition of FreeBSD to the
+specification, which the FreeBSD Foundation <a
+href="https://freebsdfoundation.org/blog/freebsd-officially-supported-in-oci-runtime-specification-v1-3/">calls</a>
+"<q>a watershed moment for FreeBSD</q>":</p>
+
+<blockquote class="bq">
+The addition of cloud-native container support complements FreeBSD's
+already robust virtualization capabilities, particularly the powerful
+FreeBSD jails technology that has been a cornerstone of the operating
+system for over two decades. In fact, OCI containers on FreeBSD are
+implemented using jails as the underlying isolation mechanism,
+bringing together the security and resource management benefits of
+jails with the portability and ecosystem advantages of OCI-compliant
+containers.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1045125/</guid>
+            <pubDate>Wed, 05 Nov 2025 14:32:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1045124/</link>
@@ -483,25 +513,6 @@ Firefox that have passed the Tor Project's audit.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1044047/</guid>
             <pubDate>Wed, 29 Oct 2025 15:15:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernels for Wednesday</title>
-            <link>https://lwn.net/Articles/1043992/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1043994/">6.17.6</a>, <a
-href="https://lwn.net/Articles/1043995/">6.12.56</a>, <a
-href="https://lwn.net/Articles/1043996/">6.6.115</a>, <a
-href="https://lwn.net/Articles/1043997/">6.1.158</a>, <a
-href="https://lwn.net/Articles/1043998/">5.15.196</a>, <a
-href="https://lwn.net/Articles/1043999/">5.10.246</a>, and <a
-href="https://lwn.net/Articles/1043993/">5.4.301</a> stable kernels. As always, each
-contains important fixes throughout the tree. Users of these kernels
-are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1043992/</guid>
-            <pubDate>Wed, 29 Oct 2025 14:01:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
