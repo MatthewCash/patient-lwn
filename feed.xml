@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 06 Nov 2025 13:33:02 +0000</pubDate>
-        <lastBuildDate>Thu, 6 Nov 2025 13:49:53 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Nov 2025 14:13:39 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Nov 2025 14:20:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1045352/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (unbound), <b>Fedora</b> (deepin-qt5integration, deepin-qt5platform-plugins, dtkcore, dtkgui, dtklog, dtkwidget, fcitx-qt5, fcitx5-qt, fontforge, gammaray, golang-github-openprinting-ipp-usb, kddockwidgets, keepassxc, kf5-akonadi-server, kf5-frameworkintegration, kf5-kwayland, plasma-integration, python-qt5, qadwaitadecorations, qt5, qt5-qt3d, qt5-qtbase, qt5-qtcharts, qt5-qtconnectivity, qt5-qtdatavis3d, qt5-qtdeclarative, qt5-qtdoc, qt5-qtgamepad, qt5-qtgraphicaleffects, qt5-qtimageformats, qt5-qtlocation, qt5-qtmultimedia, qt5-qtnetworkauth, qt5-qtquickcontrols, qt5-qtquickcontrols2, qt5-qtremoteobjects, qt5-qtscript, qt5-qtscxml, qt5-qtsensors, qt5-qtserialbus, qt5-qtserialport, qt5-qtspeech, qt5-qtsvg, qt5-qttools, qt5-qttranslations, qt5-qtvirtualkeyboard, qt5-qtwayland, qt5-qtwebchannel, qt5-qtwebengine, qt5-qtwebkit, qt5-qtwebsockets, qt5-qtwebview, qt5-qtx11extras, qt5-qtxmlpatterns, qt5ct, and xorg-x11-server), <b>Mageia</b> (binutils, gstreamer1.0-plugins-bad, libsoup, libsoup3, mediawiki, net-tools, and tigervnc, x11-server, and x11-server-xwayland), <b>Red Hat</b> (tigervnc), <b>SUSE</b> (aws-efs-utils, fetchmail, flake-pilot, ImageMagick, java-1_8_0-ibm, java-1_8_0-openjdk, kernel-devel, kubecolor, OpenSMTPD, sccache, tiff, and zellij), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-6.14, linux-gcp, linux-gcp-6.14,
+ linux-oem-6.14, linux-oracle, linux-oracle-6.14, linux-raspi,
+ linux-realtime, linux, linux-aws, linux-gkeop, linux-hwe-6.8, linux-ibm, linux-ibm-6.8,
+ linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia,
+ linux-nvidia-lowlatency, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-oracle-6.8, linux-realtime-6.14, poppler, python-django, and various linux-* packages).]]></description>
+            <guid>https://lwn.net/Articles/1045352/</guid>
+            <pubDate>Thu, 06 Nov 2025 14:08:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 30, 2025</title>
             <link>https://lwn.net/Articles/1042980/</link>
@@ -474,23 +486,6 @@ newly stabilized APIs.]]></description>
             <guid>https://lwn.net/Articles/1044297/</guid>
             <pubDate>Thu, 30 Oct 2025 21:07:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Bazzite fall update released</title>
-            <link>https://lwn.net/Articles/1044246/</link>
-            <description><![CDATA[<p>The <a href="https://universal-blue.org/">Universal Blue</a>
-project has <a
-href="https://universal-blue.discourse.group/t/bazzite-fall-update-fedora-43-xbox-allies-legion-go-2-nvidia-gtx/10948">announced</a>
-the fall update for the Fedora-based <a
-href="https://bazzite.gg/">Bazzite</a> gaming distribution. This
-release brings Bazzite up to Fedora&#160;43, includes support for
-additional handheld gaming systems, as well as drivers for a number of
-steering wheel devices, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1044246/</guid>
-            <pubDate>Thu, 30 Oct 2025 14:07:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
