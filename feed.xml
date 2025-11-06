@@ -8,11 +8,151 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Nov 2025 23:14:45 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Nov 2025 23:52:08 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Nov 2025 01:22:53 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Nov 2025 01:26:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 30, 2025</title>
+            <link>https://lwn.net/Articles/1042980/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1042980/">Front</a>: Pixnapping attack; Fil-C; Debian ftpmasters; GoFundMe complaints; Safer user-space access.
+            <li> <a href="https://lwn.net/Articles/1042982/">Briefs</a>: Man pages 6.16; Btrfs on AlmaLinux; Fedora Linux 43; ICANN report; PSF grants; Rust Coreutils 0.3.0; Tor Browser 15.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1042983/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1042980/</guid>
+            <pubDate>Thu, 30 Oct 2025 00:08:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Retrieving pixels from Android phones with Pixnapping</title>
+            <link>https://lwn.net/Articles/1042715/</link>
+            <description><![CDATA[A new class of attacks on Android phones, called "<a
+href="https://www.pixnapping.com/">Pixnapping</a>", was announced on
+October 13.  It allows a malicious app to gather output rendered in a
+victim app, pixel-by-pixel, by exploiting a GPU side-channel.  Depending on
+what the victim app displays, anything from sensitive email and chats to
+two-factor authentication (2FA) codes could be captured—and shipped off to
+an attacker's site.]]></description>
+            <guid>https://lwn.net/Articles/1042715/</guid>
+            <pubDate>Wed, 29 Oct 2025 16:44:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian splits ftpmaster team</title>
+            <link>https://lwn.net/Articles/1043364/</link>
+            <description><![CDATA[<p>Debian's <a href="https://ftp-master.debian.org/">ftpmaster</a>
+team has been responsible for allowing new packages to enter Debian,
+removing old packages, and otherwise maintaining Debian's package
+archive for more than two decades. As of October&#160;26, the team is
+no more and its duties are being split between two new teams. The <a
+href="https://wiki.debian.org/Teams/ArchiveOperations">Archive
+Operations Team</a> will focus on the infrastructure required to
+support the <a
+href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
+archives</a>, and the <a
+href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing &amp; New
+Packages Team</a>, which is responsible for reviewing packages
+entering the <a href="https://wiki.debian.org/NewQueue">new
+queue</a>. In time, this move could speed up processing of new
+packages, as well as making the teams more sustainable, but only after
+new members are recruited and trained. For now, the same folks are
+doing the work but spread across two teams.</p>]]></description>
+            <guid>https://lwn.net/Articles/1043364/</guid>
+            <pubDate>Wed, 29 Oct 2025 14:05:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fil-C: A memory-safe C implementation</title>
+            <link>https://lwn.net/Articles/1042938/</link>
+            <description><![CDATA[<p>
+<a href="https://fil-c.org/">
+Fil-C</a> is a memory-safe implementation of C and C++ that aims to let C code —
+complete with pointer arithmetic, unions, and other features that are often
+cited as a problem for memory-safe languages — run safely, unmodified.
+Its dedication to being "<q>fanatically
+compatible</q>" makes it an attractive choice for retrofitting memory-safety
+into existing applications. Despite the project's relative youth and single
+active contributor, Fil-C is capable of compiling an
+entire memory-safe Linux user space (based on
+<a href="https://www.linuxfromscratch.org/">
+Linux From Scratch</a>),
+albeit with some modifications to the more complex programs. It also features
+memory-safe signal handling and a concurrent garbage collector.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1042938/</guid>
+            <pubDate>Tue, 28 Oct 2025 16:49:13 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] BPF signing LSM hook change rejected</title>
+            <link>https://lwn.net/Articles/1042625/</link>
+            <description><![CDATA[<p>
+BPF lets users load programs into a running kernel.
+Even though BPF programs are checked by the verifier to
+ensure that they stay inside certain limits, some users would still like to ensure
+that only approved BPF programs are loaded. KP Singh's
+<a href="https://lwn.net/ml/linux-security-module/20250813205526.2992911-1-kpsingh@kernel.org/">
+patches</a> adding that capability to the kernel were accepted
+in version 6.18, but not everyone is
+satisfied with his implementation. Blaise Boscaccy, who has been working to get
+a version of BPF code signing with better auditability
+into the kernel for some time, posted
+<a href="https://lwn.net/ml/all/20250929213520.1821223-1-bboscaccy@linux.microsoft.com/">
+a patch set</a> on top of Singh's changes that alters the loading process to
+not invoke security module hooks
+until the entire loading process is complete.
+The discussion on the patch
+set is the continuation of a
+<a href="https://lwn.net/Articles/1031854/">
+long-running disagreement</a> over
+the interface for signed BPF programs.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1042625/</guid>
+            <pubDate>Mon, 27 Oct 2025 18:46:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] GoFundMe to delete unwanted open-source foundation pages</title>
+            <link>https://lwn.net/Articles/1043075/</link>
+            <description><![CDATA[<p>Open-source foundations and projects that have charity status in
+the US may want to see if <a
+href="https://www.gofundme.com/">GoFundMe</a> has created a profile
+for them without permission. The company has operated since 2010 as a
+self-service fundraising platform; individuals or groups could create
+pages to raise money for all manner of causes. In June, the company <a
+href="https://www.gofundme.com/c/newsroom/gofundme-launches-giving-funds">announced</a>
+that it would expand its offerings to "<q>manage all aspects of
+charitable giving</q>" for users through its platform. That seems to
+include creating profiles for nonprofit organizations without their
+involvement. After pushback, the company <a
+href="https://www.linkedin.com/posts/gofundme-pro_at-gofundme-our-mission-has-always-been-activity-7387176830908407808-3AXY/">said</a>
+on October&#160;23 that it would be removing the pages. It has not
+answered more fundamental questions about how it planned to disburse
+funds to nonprofits that had no awareness of the GoFundMe pages in the
+first place.</p>]]></description>
+            <guid>https://lwn.net/Articles/1043075/</guid>
+            <pubDate>Fri, 24 Oct 2025 11:44:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Safer speculation-free user-space access</title>
+            <link>https://lwn.net/Articles/1042711/</link>
+            <description><![CDATA[The Spectre class of hardware vulnerabilities truly is a gift that keeps on
+giving.  New variants are still being discovered in current CPUs nearly
+eight years after the <a href="https://lwn.net/Articles/742702/">disclosure</a> of this
+problem, and developers are still working to minimize the performance costs
+that come from defending against it.  The masked user-space access
+mechanism is a case in point: it reduces the cost of defending against some
+speculative attacks, but it brought some challenges of its own that are
+only now being addressed.]]></description>
+            <guid>https://lwn.net/Articles/1042711/</guid>
+            <pubDate>Thu, 23 Oct 2025 14:19:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Removing XSLT from Chromium</title>
             <link>https://lwn.net/Articles/1045161/</link>
