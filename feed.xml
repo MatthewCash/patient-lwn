@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Nov 2025 13:26:18 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Nov 2025 13:45:38 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Nov 2025 13:52:11 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Nov 2025 13:55:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -480,32 +480,6 @@ without a working Rust toolchain, please ensure it has one within the next
             <guid>https://lwn.net/Articles/1044496/</guid>
             <pubDate>Sat, 01 Nov 2025 18:42:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Ubuntu introduces architecture variants</title>
-            <link>https://lwn.net/Articles/1044383/</link>
-            <description><![CDATA[<p>Michael Hudson-Doyle, a member of Ubuntu's Foundations team, has <a
-href="https://discourse.ubuntu.com/t/introducing-architecture-variants-amd64v3-now-available-in-ubuntu-25-10/71312">announced</a>
-the introduction of an "architecture variant" for Ubuntu 25.10:</p>
-
-<blockquote class="bq">
-<p>By making changes to <tt>dpkg</tt>, <tt>apt</tt> and Launchpad, we are able to build
-multiple versions of a package, each for a different level of the
-<tt>x86-64</tt> architecture, meaning we can have packages that specifically
-target <tt>x86-64-v3</tt>, for example.</p>
-
-<p>As a result, we're very excited to share that in Ubuntu 25.10, some
-packages are available, on an opt-in basis, in their optimized form
-for the more modern <tt>x86-64-v3</tt> architecture level.</p>
-</blockquote>
-
-<p>See the announcement for details on opting in to <tt>x86-64-v3</tt>
-packages.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1044383/</guid>
-            <pubDate>Fri, 31 Oct 2025 13:39:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
