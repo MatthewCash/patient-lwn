@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 09 Nov 2025 15:36:32 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Nov 2025 15:38:21 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Nov 2025 15:47:07 +0000</pubDate>
+        <lastBuildDate>Sun, 9 Nov 2025 15:51:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -462,18 +462,6 @@ rc4 isn't really smaller than usual: all the stats look very normal, both
 in number of changes and where the changes are.</q>"]]></description>
             <guid>https://lwn.net/Articles/1044582/</guid>
             <pubDate>Sun, 02 Nov 2025 23:08:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates</title>
-            <link>https://lwn.net/Articles/1044542/</link>
-            <description><![CDATA[The relatively small
-<a href="https://lwn.net/Articles/1044543/">6.17.7</a>,
-<a href="https://lwn.net/Articles/1044544/">6.12.57</a>, and
-<a href="https://lwn.net/Articles/1044545/">6.6.116</a>
-stable kernels have been released; each contains another set of important fixes.]]></description>
-            <guid>https://lwn.net/Articles/1044542/</guid>
-            <pubDate>Sun, 02 Nov 2025 15:37:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
