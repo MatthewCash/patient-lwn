@@ -8,11 +8,68 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 09 Nov 2025 21:35:57 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Nov 2025 22:18:15 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Nov 2025 22:45:06 +0000</pubDate>
+        <lastBuildDate>Sun, 9 Nov 2025 22:50:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A proposed kernel policy for LLM-generated contributions</title>
+            <link>https://lwn.net/Articles/1045806/</link>
+            <description><![CDATA[The kernel community is currently reviewing <a
+href="https://lwn.net/ml/all/20251105231514.3167738-1-dave.hansen@linux.intel.com/">a
+proposed policy</a> for contributors who are using large language models to
+assist in the creation of their patches; the primary focus is on disclosure
+of the use of those tools.  "<q>The goal here is to clarify community
+expectations around tools. This lets everyone become more productive while
+also maintaining high degrees of trust between submitters and
+reviewers.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1045806/</guid>
+            <pubDate>Sun, 09 Nov 2025 22:33:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>About KeePassXC&apos;s code quality control (KeePassXC blog)</title>
+            <link>https://lwn.net/Articles/1045807/</link>
+            <description><![CDATA[<p>The KeePassXC project has recently updated its <a
+href="https://github.com/keepassxreboot/keepassxc/blob/develop/.github/CONTRIBUTING.md">contribution
+policy</a> and <a
+href="https://github.com/keepassxreboot/keepassxc/blob/develop/README.md">README</a>
+to note its policy around contributions created with generative AI
+tools. The project's use of those tools, such as GitHub Copilot, have
+raised a number of questions and concerns, which the project has
+<a
+href="https://keepassxc.org/blog/2025-11-09-about-keepassxcs-code-quality-control/">responded
+to</a>:</p>
+
+<blockquote class="bq">
+<p><strong>There are no AI features inside KeePassXC and there never
+will be!</strong></p>
+
+<p>The use of Copilot for drafting pull requests is reserved for very
+simple and focused tasks with a small handful of changes, such as
+simple bugfixes or UI changes. We use it sparingly (mostly because
+it's not very good at complex tasks) and only where we think it offers
+a benefit. Copilot is good at helping developers plan complex changes
+by reviewing the code base and writing suggestions in markdown, as
+well as boilerplate tasks such as test development. Copilot can mess
+up, and we catch that in our standard review process (e.g., by
+committing a full directory of rubbish, which we identified and
+fixed). You can review our copilot instructions. Would we ever let AI
+rewrite our crypto stack? No. Would we let it refactor and rewrite
+large parts of the application? No. Would we ask it to fix a
+regression or add more test cases? Yes, sometimes.</p>
+</blockquote>
+
+<p>Emphasis in the original. See the full post to learn more about the
+project's processes and pull requests that have been created with AI
+assistance.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1045807/</guid>
+            <pubDate>Sun, 09 Nov 2025 22:45:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1045612/</link>
