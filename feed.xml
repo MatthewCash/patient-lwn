@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 09 Nov 2025 22:45:06 +0000</pubDate>
-        <lastBuildDate>Sun, 9 Nov 2025 23:38:34 +0000</lastBuildDate>
+        <pubDate>Sun, 09 Nov 2025 23:44:20 +0000</pubDate>
+        <lastBuildDate>Sun, 9 Nov 2025 23:51:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.18-rc5</title>
+            <link>https://lwn.net/Articles/1045810/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1045809/">6.18-rc5</a> kernel prepatch is out for
+testing.  "<q>In other words: it all looks just the way I like it at this
+point: small and boring.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1045810/</guid>
+            <pubDate>Sun, 09 Nov 2025 23:44:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A proposed kernel policy for LLM-generated contributions</title>
             <link>https://lwn.net/Articles/1045806/</link>
