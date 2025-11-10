@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 14:37:39 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 14:45:45 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 14:52:12 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 14:56:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -516,27 +516,6 @@ href="https://files.devuan.org/devuan_excalibur/Release_notes.txt">the
 release notes</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1044823/</guid>
             <pubDate>Mon, 03 Nov 2025 15:18:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A new kernel port — to WebAssembly</title>
-            <link>https://lwn.net/Articles/1044786/</link>
-            <description><![CDATA[Joel Severin has <a
-href="https://lwn.net/ml/all/618f3602-03aa-46a8-b2d4-3c9798c4cd2b@icemanor.se">announced</a>
-the availability of his port of the Linux kernel to WebAssembly; one can go
-to <a href="https://joelseverin.github.io/linux-wasm/">this page</a> and
-watch it boot in a browser.
-<p>
-<blockquote class="bq">
-	Wasm is similar to every other arch in Linux, but also
-	different. One important difference is that there is no way to
-	suspend execution of a task. There is a way around this though:
-	Linux supports up to 8k CPUs (or possibly more...). We can just
-	spin up a new CPU dedicated to each user task (process/thread) and
-	never preempt it
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1044786/</guid>
-            <pubDate>Mon, 03 Nov 2025 14:55:00 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
