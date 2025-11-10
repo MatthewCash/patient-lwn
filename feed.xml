@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 14:11:22 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 14:20:18 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 14:37:39 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 14:45:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Pytest 9.0.0 released</title>
+            <link>https://lwn.net/Articles/1045923/</link>
+            <description><![CDATA[<a
+href="https://github.com/pytest-dev/pytest/releases/tag/9.0.0">Version
+9.0.0</a> of pytest has been released. Notable changes in this release
+include the addition of <a
+href="https://docs.pytest.org/en/stable/how-to/subtests.html#subtests">subtests</a>,
+native support for TOML configuration files, and a new <a
+href="https://docs.pytest.org/en/stable/explanation/goodpractices.html#strict-mode">strict
+mode</a>.  See the <a
+href="https://docs.pytest.org/en/stable/changelog.html#pytest-9-0-0-2025-11-05">changelog</a>
+for a complete list of new features, enhancements, and bug fixes.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1045923/</guid>
+            <pubDate>Mon, 10 Nov 2025 14:37:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1045922/</link>
