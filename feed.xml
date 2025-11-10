@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 15:41:22 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 15:54:58 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 16:24:15 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 16:27:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Public-inbox 2.0.0 released</title>
+            <link>https://lwn.net/Articles/1045965/</link>
+            <description><![CDATA[Version 2.0.0 of public-inbox, the mail archiving system behind
+lore.kernel.org and LWN's email archive, has been released.  "<q>This
+release includes several new features and fixes; mostly around improved
+integration between inboxes and coderepos for solver.  Portability and
+reliability is also improved, especially in the internal process management
+of lei.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1045965/</guid>
+            <pubDate>Mon, 10 Nov 2025 16:13:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Pytest 9.0.0 released</title>
             <link>https://lwn.net/Articles/1045923/</link>
