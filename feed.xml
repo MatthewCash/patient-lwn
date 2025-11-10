@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 14:52:12 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 14:56:30 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 15:04:56 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 15:22:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -503,20 +503,6 @@ What about <tt>from foo lazy import bar</tt>? <b>Nope!</b> We like that in both 
             <guid>https://lwn.net/Articles/1044844/</guid>
             <pubDate>Mon, 03 Nov 2025 18:16:08 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Devuan 6.0 released</title>
-            <link>https://lwn.net/Articles/1044823/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/0babed59-acb2-42a9-8203-d0cd83578194@gmail.com">Version
-6.0 ("Excalibur")</a> of the systemd-averse Devuan distribution has been
-released.  It is based on Debian&#160;13 ("trixie"), and includes some of
-the significant changes from that release, including the merged
-<tt>/usr</tt> hierarchy.  See <a
-href="https://files.devuan.org/devuan_excalibur/Release_notes.txt">the
-release notes</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1044823/</guid>
-            <pubDate>Mon, 03 Nov 2025 15:18:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
