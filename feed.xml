@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 17:48:56 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 17:52:02 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 18:04:30 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 18:28:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -486,36 +486,6 @@ layout randomization (KASLR) is enabled.
             <guid>https://lwn.net/Articles/1044867/</guid>
             <pubDate>Mon, 03 Nov 2025 23:59:24 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Python steering council accepts lazy imports</title>
-            <link>https://lwn.net/Articles/1044844/</link>
-            <description><![CDATA[Barry Warsaw, writing for the Python steering council, has <a
-href="https://discuss.python.org/t/pep-810-explicit-lazy-imports/104131/466">announced</a>
-that <a href="https://peps.python.org/pep-0810/">PEP&#160;810</a> ("Explicit lazy
-imports") has been approved, unanimously, by the four who could vote.  Since
-Pablo Galindo Salgado was one of the PEP authors, he did not vote.  The PEP provides a way to defer importing modules until the names
-defined in a module are
-needed by other parts of the program.  We <a
-href="https://lwn.net/Articles/1041120/">covered</a> the PEP and the discussion around it
-a few weeks back.  The council also had "<q>recommendations about some of
-the PEP's details, a few suggestions for filling a couple of small
-gaps</q>", including:
-
-<blockquote class="bq">
-Use <tt>lazy</tt> as the keyword. We debated many of the given alternatives
-(and some we came up with ourselves), and ultimately agreed with the PEP's
-choice of the <tt>lazy</tt> keyword. The closest challenger was
-<tt>defer</tt>, but once we tried to use that in all the places where the
-term is visible, we ultimately didn't think it was as good an overall
-fit. The same was true with all the other alternative keywords we could
-come up with, so... <b><tt>lazy</tt> it is!</b>
-<p>
-What about <tt>from foo lazy import bar</tt>? <b>Nope!</b> We like that in both module imports and <tt>from</tt>-imports that the <tt>lazy</tt> keyword is the first thing on the line. It helps to visually recognize lazy imports of both varieties.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1044844/</guid>
-            <pubDate>Mon, 03 Nov 2025 18:16:08 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
