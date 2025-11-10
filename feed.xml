@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Nov 2025 13:44:12 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Nov 2025 13:49:28 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Nov 2025 14:11:22 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Nov 2025 14:20:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1045922/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (galera and mariadb, kernel, kernel-rt, mingw-libtiff, redis:7, tigervnc, and xorg-x11-server-Xwayland), <b>Fedora</b> (bind, bind-dyndb-ldap, bpfman, chromium, dolphin-emu, dotnet9.0, golang-github-openprinting-ipp-usb, kea, libnbd, luksmeta, python-cloudpickle, python-pydantic, python-pydantic-core, python-uv-build, ruby, ruff, rust-get-size-derive2, rust-get-size2, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, singularity-ce, uv, xen, and xorg-x11-server-Xwayland), <b>Mageia</b> (libxml2, libxslt, opencontainers-runc, and xen), <b>Oracle</b> (bind, galera and mariadb, libsoup, linux-firmware, mariadb:10.5, mingw-libtiff, osbuild-composer, qt5-qt3d, tigervnc, and xorg-x11-server-Xwayland), <b>SUSE</b> (chromium, erlang, google-osconfig-agent, govulncheck-vulndb, java-11-openjdk, java-17-openjdk, java-1_8_0-openj9, opentofu, python-djangorestframework-simplejwt, python311-Django, python315, squid, thunderbird, tiff, tomcat, tomcat11, and xen), and <b>Ubuntu</b> (linux-fips, linux-hwe-6.14, and linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx,
+ linux-raspi).]]></description>
+            <guid>https://lwn.net/Articles/1045922/</guid>
+            <pubDate>Mon, 10 Nov 2025 14:05:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.18-rc5</title>
             <link>https://lwn.net/Articles/1045810/</link>
