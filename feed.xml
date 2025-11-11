@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Nov 2025 14:08:09 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Nov 2025 14:21:03 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Nov 2025 14:45:14 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Nov 2025 14:45:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1046042/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, expat, kernel, osbuild-composer, qt6-qtsvg, runc, valkey, and xorg-x11-server-Xwayland), <b>Debian</b> (incus), <b>Fedora</b> (cef and dotnet8.0), <b>Mageia</b> (strongswan), <b>Red Hat</b> (fence-agents and python-requests), <b>SUSE</b> (chromium, colord, erlang26, java-1_8_0-openjdk, libsoup, python-django, thunderbird, tiff, and warewulf4), and <b>Ubuntu</b> (intel-microcode and rust-sudo-rs).]]></description>
+            <guid>https://lwn.net/Articles/1046042/</guid>
+            <pubDate>Tue, 11 Nov 2025 14:45:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Public-inbox 2.0.0 released</title>
             <link>https://lwn.net/Articles/1045965/</link>
