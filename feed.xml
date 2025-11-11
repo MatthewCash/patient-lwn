@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 11 Nov 2025 16:48:02 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Nov 2025 16:50:07 +0000</lastBuildDate>
+        <pubDate>Tue, 11 Nov 2025 16:49:53 +0000</pubDate>
+        <lastBuildDate>Tue, 11 Nov 2025 17:18:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 145 released</title>
+            <link>https://lwn.net/Articles/1046082/</link>
+            <description><![CDATA[<p>Firefox 145 has been <a
+href="https://www.firefox.com/en-US/firefox/145.0/releasenotes/">released</a>. Notable
+changes in this release include <a
+href="https://support.mozilla.org/en-US/kb/view-pdf-files-firefox-or-choose-another-viewer#w_comment-in-pdf-files">note-taking
+features</a> for PDFs viewed in Firefox, <a
+href="https://blog.mozilla.org/en/firefox/fingerprinting-protections/">enhanced
+privacy protections</a>, and the ability to access and manage passwords in
+the sidebar. This release also drops support for 32-bit Linux systems.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1046082/</guid>
+            <pubDate>Tue, 11 Nov 2025 16:49:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1046042/</link>
