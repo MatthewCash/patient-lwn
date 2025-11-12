@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Nov 2025 13:17:51 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Nov 2025 13:50:50 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Nov 2025 14:12:12 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Nov 2025 14:21:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1046173/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libtiff), <b>Debian</b> (kernel, libarchive, rust-sudo-rs, and squid), <b>Fedora</b> (chromium, dotnet8.0, forgejo, ruby, and webkitgtk), <b>Oracle</b> (bind, bind9.18, kernel, kernel-uek*, libtiff, and runc), <b>Red Hat</b> (firefox, kernel, and kernel-rt), <b>Slackware</b> (mozilla), <b>SUSE</b> (buildah, colord, containerd, kernel, lasso, libsoup, micropython, ongres-scram, openssh, proxy-helm, uyuni-tools, python-pdfminer.six, qatengine, qatlib, regclient, and runc), and <b>Ubuntu</b> (raptor and raptor2).]]></description>
+            <guid>https://lwn.net/Articles/1046173/</guid>
+            <pubDate>Wed, 12 Nov 2025 14:12:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 145 released</title>
             <link>https://lwn.net/Articles/1046082/</link>
@@ -419,15 +427,6 @@ containers.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1045125/</guid>
             <pubDate>Wed, 05 Nov 2025 14:32:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1045124/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (bind9 and gimp), <b>Fedora</b> (chromium, fastapi-cli, fastapi-cloud-cli, gherkin, libnbd, maturin, openapi-python-client, python-annotated-doc, python-cron-converter, python-fastapi, python-inline-snapshot, python-jiter, python-openapi-core, python-platformio, python-pydantic, python-pydantic-core, python-pydantic-extra-types, python-rignore, python-starlette, python-typer, python-typing-inspection, python-uv-build, ruff, rust-astral-tokio-tar, rust-attribute-derive, rust-attribute-derive-macro, rust-collection_literals, rust-get-size-derive2, rust-get-size2, rust-interpolator, rust-jiter, rust-manyhow, rust-manyhow-macros, rust-proc-macro-utils, rust-quote-use, rust-quote-use-macros, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, rust-serde_json, rust-speedate, rust-tikv-jemalloc-sys, rust-tikv-jemallocator, and uv), <b>Mageia</b> (golang and libavif), <b>Red Hat</b> (bind9.16, pcs, and qt6-qtsvg), <b>SUSE</b> (colord, ffmpeg, govulncheck-vulndb, jasper, openjpeg, poppler, qatengine, qatlib, runc, sccache, and tiff), and <b>Ubuntu</b> (keystone, libssh, linux-hwe-6.14, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx,
- linux-raspi, runc-app, runc-stable, squid, squid3, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1045124/</guid>
-            <pubDate>Wed, 05 Nov 2025 14:12:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
