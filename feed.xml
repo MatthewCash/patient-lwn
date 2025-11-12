@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Nov 2025 14:59:19 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Nov 2025 15:25:13 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Nov 2025 15:51:32 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Nov 2025 15:58:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,23 +380,6 @@ about XSLT in August.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1045161/</guid>
             <pubDate>Wed, 05 Nov 2025 17:59:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LXQt 2.3.0 released</title>
-            <link>https://lwn.net/Articles/1045140/</link>
-            <description><![CDATA[<p><a
-href="https://lxqt-project.org/release/2025/11/05/release-lxqt-2-3-0/">Version
-2.3.0</a> of the Lightweight Qt Desktop Environment (LXQt) has been
-released. The highlight of this release is continued improvement in
-Wayland support across LXQt components. Rather than offering its own
-compositor, the LXQt project <a href="https://lxqt-project.org/blog/2025/09/22/2-way-of-wayland/">takes a modular approach</a> and works with
-several Wayland compositors, such as <a href="https://invent.kde.org/plasma/kwin#kwin">KWin</a>, <a
-href="https://labwc.github.io/">labwc</a>, and <a
-href="https://yalter.github.io/niri/">niri</a>.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1045140/</guid>
-            <pubDate>Wed, 05 Nov 2025 15:37:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
