@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 13 Nov 2025 15:30:40 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Nov 2025 15:42:48 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 13 Nov 2025 15:53:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -309,47 +309,6 @@ assistance.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, libsoup, mariadb:10.5, and sssd), <b>Debian</b> (chromium, keystone, and swift), <b>Fedora</b> (apptainer, buildah, chromium, fcitx5, fcitx5-anthy, fcitx5-chewing, fcitx5-chinese-addons, fcitx5-configtool, fcitx5-hangul, fcitx5-kkc, fcitx5-libthai, fcitx5-m17n, fcitx5-qt, fcitx5-rime, fcitx5-sayura, fcitx5-skk, fcitx5-table-extra, fcitx5-unikey, fcitx5-zhuyin, GeographicLib, libime, mbedtls, mingw-poppler, mupen64plus, python-starlette, webkitgtk, and xen), <b>Mageia</b> (dcmtk, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk, libvpx, and sqlite3), <b>Oracle</b> (bind, bind9.16, kernel, libsoup, libsoup3, osbuild-composer, qt6-qtsvg, sssd, and valkey), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (bind, gpg2, ImageMagick, python-Django, and runc), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-fips, linux-aws-fips, inux-gcp-fips, linux-gcp, linux-gcp-6.8, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-5.4, and linux-realtime, linux-realtime-6.8).]]></description>
             <guid>https://lwn.net/Articles/1045612/</guid>
             <pubDate>Fri, 07 Nov 2025 14:03:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Freedesktop.org now hosts the Filesystem Hierarchy Standard</title>
-            <link>https://lwn.net/Articles/1045405/</link>
-            <description><![CDATA[The future of the Filesystem Hierarchy Standard (FHS) has <a
-href="https://lwn.net/Articles/1032947/">been under discussion</a> for some time; now,
-Neal Gompa has <a
-href="https://lwn.net/ml/all/CAEg-Je-=WnZt1dwEbhtv=f_-wbSSYsYgsNzpu3R4bDGB_zgfQg@mail.gmail.com">announced</a>
-that the FHS is "<q>hosted and stewarded</q>" by Freedesktop.org.
-<p>
-<blockquote class="bq">
-	For those who are unaware, the Filesystem Hierarchy Standard (FHS)
-	is the definition for POSIX operating systems to organize system
-	and user data. It is broadly adopted by Linux, BSD, and other
-	operating systems that follow POSIX-like conventions.
-</blockquote>
-<p>
-See <a href="https://specifications.freedesktop.org/fhs/latest/">this
-page</a> for the specification's new home.]]></description>
-            <guid>https://lwn.net/Articles/1045405/</guid>
-            <pubDate>Thu, 06 Nov 2025 15:30:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Mastodon 4.5 released</title>
-            <link>https://lwn.net/Articles/1045401/</link>
-            <description><![CDATA[<p><a
-href="https://blog.joinmastodon.org/2025/11/mastodon-4.5/">Version
-4.5</a> of the <a href="https://joinmastodon.org/">Mastodon</a>
-decentralized social-media platform has been released. Notable
-features in this release include <a
-href="https://blog.joinmastodon.org/2025/09/introducing-quote-posts/">quote
-posts</a>, native emoji support, as well as enhanced moderation and
-blocking features for server administrators. The project also has a <a
-href="https://blog.joinmastodon.org/2025/10/mastodon-4-5-for-devs/">post</a>
-detailing new features in 4.5 for developers of clients and other
-software that interacts with Mastodon.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1045401/</guid>
-            <pubDate>Thu, 06 Nov 2025 15:32:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
