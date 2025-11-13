@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Nov 2025 17:44:14 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Nov 2025 17:54:06 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Nov 2025 18:21:46 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Nov 2025 18:28:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Thunderbird 145 released</title>
+            <link>https://lwn.net/Articles/1046375/</link>
+            <description><![CDATA[<p><a
+href="https://www.thunderbird.net/en-US/thunderbird/145.0/releasenotes/">Version
+145</a> of the Thunderbird email client has been released. Notable
+changes in this release include enabling DNS over HTTPS, support for
+Microsoft Exchange via Exchange Web Services, and quite a few bug
+fixes. As of 145, the project is no longer shipping 32-bit binaries
+for Linux on x86.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1046375/</guid>
+            <pubDate>Thu, 13 Nov 2025 18:21:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1046318/</link>
