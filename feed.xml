@@ -8,11 +8,139 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Nov 2025 21:05:39 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Nov 2025 23:52:03 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Nov 2025 01:04:41 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Nov 2025 01:27:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for November 6, 2025</title>
+            <link>https://lwn.net/Articles/1044227/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1044227/">Front</a>: Python thread safety; Namespace reference counting; Merigraf; Speeding up short reads; Julia 1.12; systemd security.
+            <li> <a href="https://lwn.net/Articles/1044229/">Briefs</a>: CHERIoT 1.0; Chromium XSLT; Arm KASLR; Bazzite; Devuan 6.0; Incus 6.18; LXQt 2.3.0; Rust 1.91.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1044230/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1044227/</guid>
+            <pubDate>Thu, 06 Nov 2025 00:14:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A security model for systemd</title>
+            <link>https://lwn.net/Articles/1042888/</link>
+            <description><![CDATA[<p>Linux has many security features and tools that have evolved over
+the years to address threats as they emerge and security gaps as they
+are discovered. Linux security is all, as Lennart Poettering observed at the <a
+href="https://all-systems-go.io/">All Systems Go!</a> conference held
+in Berlin, somewhat random and <em>not</em> a "<q>clean</q>"
+design. To many observers, that may also appear to be the case for
+systemd; however, Poettering said that he does have a vision for how
+all of the security-related pieces of systemd are meant to fit
+together. He wanted to use his talk to explain "<q>how the individual
+security-related parts of systemd actually fit together and why they
+exist in the first place</q>".</p>]]></description>
+            <guid>https://lwn.net/Articles/1042888/</guid>
+            <pubDate>Wed, 05 Nov 2025 15:04:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Julia 1.12 brings progress on standalone binaries and more</title>
+            <link>https://lwn.net/Articles/1044280/</link>
+            <description><![CDATA[<a href="https://julialang.org/">Julia</a> is a modern programming
+language that is of particular interest to scientists due to its high
+performance combined with language features such as Lisp-style macros, an
+advanced type system, and multiple dispatch. We last <a
+href="https://lwn.net/Articles/1006117/">looked at Julia</a> in January on the occasion of
+its 1.11&#160;release. Early in October <a
+href="https://julialang.org/blog/2025/10/julia-1.12-highlights">Julia&#160;1.12
+appeared</a>, bringing a handful of quality-of-life improvements for Julia
+programmers, most notably support, though still experimental and limited,
+for the creation of binaries.]]></description>
+            <guid>https://lwn.net/Articles/1044280/</guid>
+            <pubDate>Tue, 04 Nov 2025 14:50:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] An explicit thread-safety proposal for Python</title>
+            <link>https://lwn.net/Articles/1043568/</link>
+            <description><![CDATA[<p>
+Python already has several ways to run programs concurrently —
+including asynchronous functions, threads, subinterpreters, and multiprocessing
+— but all of those options have drawbacks of one kind or another.
+<a href="https://peps.python.org/pep-0703/">
+PEP&#160;703</a> ("Making the Global Interpreter Lock Optional in CPython")
+<a href="https://lwn.net/Articles/940780/">removed a major barrier</a> to running Python
+threads in parallel, but also exposed Python programmers to the same tricky
+synchronization problems found in other languages supporting multithreaded
+programs. A new draft proposal
+by Mark Shannon,
+<a href="https://pep-previews--4579.org.readthedocs.build/pep-0805/">
+PEP&#160;805</a> ("Safe Parallel Python"), suggests a way for the CPython runtime
+to cut down on concurrency bugs, making it more practical for Python programmers
+to use versions of the language without the global interpreter lock (GIL).
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1043568/</guid>
+            <pubDate>Mon, 03 Nov 2025 17:44:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Namespace reference counting and listns()</title>
+            <link>https://lwn.net/Articles/1043824/</link>
+            <description><![CDATA[The kernel's <a href="https://lwn.net/Articles/531114/">namespaces feature</a> is, among
+other things, a key part of the implementation of containers.  Like much in
+the kernel, though, the namespace API evolved over time; there was no
+design at the outset.  As a result, this API has some rough edges and
+missing features.  Christian Brauner is working to straighten out the
+namespace situation somewhat with <a
+href="https://lwn.net/ml/all/20251029-work-namespace-nstree-listns-v4-0-2e6f823ebdc0@kernel.org">this
+daunting 72-part patch series</a> that, among other things, adds a new
+system call to allow user space to query the namespaces present on the
+system.]]></description>
+            <guid>https://lwn.net/Articles/1043824/</guid>
+            <pubDate>Mon, 03 Nov 2025 15:13:24 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Mergiraf: syntax-aware merging for Git</title>
+            <link>https://lwn.net/Articles/1042355/</link>
+            <description><![CDATA[<p>
+The idea of automatic syntax-aware merging in version-control systems goes back to
+<a href="https://link.springer.com/chapter/10.1007/3-540-60578-9_14">
+2005 or earlier</a>, but initial implementations were
+often language-specific and slow.
+<a href="https://mergiraf.org/introduction.html">
+Mergiraf</a> is a merge-conflict resolver that uses a generic algorithm plus a
+small amount of language-specific knowledge
+to solve conflicts that Git's default strategy cannot.
+The project's contributors have been working on the
+tool for just under a year, but it already
+<a href="https://mergiraf.org/languages.html">
+supports 33 languages</a>, including C,
+Python, Rust, and even
+<a href="https://en.wikipedia.org/wiki/SystemVerilog">
+SystemVerilog</a>.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1042355/</guid>
+            <pubDate>Fri, 31 Oct 2025 19:30:00 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The long path toward optimizing short reads</title>
+            <link>https://lwn.net/Articles/1043640/</link>
+            <description><![CDATA[The kernel's file-I/O subsystems have been highly optimized over the years
+in the hope of providing the best performance for a wide variety of
+workloads.  There is, however, one workload type that suffers with current
+kernels: applications that perform many short reads, in multiple processes,
+from the same file.  Kiryl Shutsemau has been working on <a
+href="https://lwn.net/ml/all/20251017141536.577466-1-kirill@shutemov.name">a patch</a> to
+try to optimize this case, but the task is turning out to be harder than
+one might expect.]]></description>
+            <guid>https://lwn.net/Articles/1043640/</guid>
+            <pubDate>Thu, 30 Oct 2025 14:08:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Homebrew 5.0.0 released</title>
             <link>https://lwn.net/Articles/1046227/</link>
@@ -227,146 +355,6 @@ software that interacts with Mastodon.</p>
             <guid>https://lwn.net/Articles/1045352/</guid>
             <pubDate>Thu, 06 Nov 2025 14:08:49 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 30, 2025</title>
-            <link>https://lwn.net/Articles/1042980/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1042980/">Front</a>: Pixnapping attack; Fil-C; Debian ftpmasters; GoFundMe complaints; Safer user-space access.
-            <li> <a href="https://lwn.net/Articles/1042982/">Briefs</a>: Man pages 6.16; Btrfs on AlmaLinux; Fedora Linux 43; ICANN report; PSF grants; Rust Coreutils 0.3.0; Tor Browser 15.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1042983/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1042980/</guid>
-            <pubDate>Thu, 30 Oct 2025 00:08:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Retrieving pixels from Android phones with Pixnapping</title>
-            <link>https://lwn.net/Articles/1042715/</link>
-            <description><![CDATA[A new class of attacks on Android phones, called "<a
-href="https://www.pixnapping.com/">Pixnapping</a>", was announced on
-October 13.  It allows a malicious app to gather output rendered in a
-victim app, pixel-by-pixel, by exploiting a GPU side-channel.  Depending on
-what the victim app displays, anything from sensitive email and chats to
-two-factor authentication (2FA) codes could be captured—and shipped off to
-an attacker's site.]]></description>
-            <guid>https://lwn.net/Articles/1042715/</guid>
-            <pubDate>Wed, 29 Oct 2025 16:44:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian splits ftpmaster team</title>
-            <link>https://lwn.net/Articles/1043364/</link>
-            <description><![CDATA[<p>Debian's <a href="https://ftp-master.debian.org/">ftpmaster</a>
-team has been responsible for allowing new packages to enter Debian,
-removing old packages, and otherwise maintaining Debian's package
-archive for more than two decades. As of October&#160;26, the team is
-no more and its duties are being split between two new teams. The <a
-href="https://wiki.debian.org/Teams/ArchiveOperations">Archive
-Operations Team</a> will focus on the infrastructure required to
-support the <a
-href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
-archives</a>, and the <a
-href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing &amp; New
-Packages Team</a>, which is responsible for reviewing packages
-entering the <a href="https://wiki.debian.org/NewQueue">new
-queue</a>. In time, this move could speed up processing of new
-packages, as well as making the teams more sustainable, but only after
-new members are recruited and trained. For now, the same folks are
-doing the work but spread across two teams.</p>]]></description>
-            <guid>https://lwn.net/Articles/1043364/</guid>
-            <pubDate>Wed, 29 Oct 2025 14:05:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fil-C: A memory-safe C implementation</title>
-            <link>https://lwn.net/Articles/1042938/</link>
-            <description><![CDATA[<p>
-<a href="https://fil-c.org/">
-Fil-C</a> is a memory-safe implementation of C and C++ that aims to let C code —
-complete with pointer arithmetic, unions, and other features that are often
-cited as a problem for memory-safe languages — run safely, unmodified.
-Its dedication to being "<q>fanatically
-compatible</q>" makes it an attractive choice for retrofitting memory-safety
-into existing applications. Despite the project's relative youth and single
-active contributor, Fil-C is capable of compiling an
-entire memory-safe Linux user space (based on
-<a href="https://www.linuxfromscratch.org/">
-Linux From Scratch</a>),
-albeit with some modifications to the more complex programs. It also features
-memory-safe signal handling and a concurrent garbage collector.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1042938/</guid>
-            <pubDate>Tue, 28 Oct 2025 16:49:13 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] BPF signing LSM hook change rejected</title>
-            <link>https://lwn.net/Articles/1042625/</link>
-            <description><![CDATA[<p>
-BPF lets users load programs into a running kernel.
-Even though BPF programs are checked by the verifier to
-ensure that they stay inside certain limits, some users would still like to ensure
-that only approved BPF programs are loaded. KP Singh's
-<a href="https://lwn.net/ml/linux-security-module/20250813205526.2992911-1-kpsingh@kernel.org/">
-patches</a> adding that capability to the kernel were accepted
-in version 6.18, but not everyone is
-satisfied with his implementation. Blaise Boscaccy, who has been working to get
-a version of BPF code signing with better auditability
-into the kernel for some time, posted
-<a href="https://lwn.net/ml/all/20250929213520.1821223-1-bboscaccy@linux.microsoft.com/">
-a patch set</a> on top of Singh's changes that alters the loading process to
-not invoke security module hooks
-until the entire loading process is complete.
-The discussion on the patch
-set is the continuation of a
-<a href="https://lwn.net/Articles/1031854/">
-long-running disagreement</a> over
-the interface for signed BPF programs.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1042625/</guid>
-            <pubDate>Mon, 27 Oct 2025 18:46:17 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] GoFundMe to delete unwanted open-source foundation pages</title>
-            <link>https://lwn.net/Articles/1043075/</link>
-            <description><![CDATA[<p>Open-source foundations and projects that have charity status in
-the US may want to see if <a
-href="https://www.gofundme.com/">GoFundMe</a> has created a profile
-for them without permission. The company has operated since 2010 as a
-self-service fundraising platform; individuals or groups could create
-pages to raise money for all manner of causes. In June, the company <a
-href="https://www.gofundme.com/c/newsroom/gofundme-launches-giving-funds">announced</a>
-that it would expand its offerings to "<q>manage all aspects of
-charitable giving</q>" for users through its platform. That seems to
-include creating profiles for nonprofit organizations without their
-involvement. After pushback, the company <a
-href="https://www.linkedin.com/posts/gofundme-pro_at-gofundme-our-mission-has-always-been-activity-7387176830908407808-3AXY/">said</a>
-on October&#160;23 that it would be removing the pages. It has not
-answered more fundamental questions about how it planned to disburse
-funds to nonprofits that had no awareness of the GoFundMe pages in the
-first place.</p>]]></description>
-            <guid>https://lwn.net/Articles/1043075/</guid>
-            <pubDate>Fri, 24 Oct 2025 11:44:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Safer speculation-free user-space access</title>
-            <link>https://lwn.net/Articles/1042711/</link>
-            <description><![CDATA[The Spectre class of hardware vulnerabilities truly is a gift that keeps on
-giving.  New variants are still being discovered in current CPUs nearly
-eight years after the <a href="https://lwn.net/Articles/742702/">disclosure</a> of this
-problem, and developers are still working to minimize the performance costs
-that come from defending against it.  The masked user-space access
-mechanism is a case in point: it reduces the cost of defending against some
-speculative attacks, but it brought some challenges of its own that are
-only now being addressed.]]></description>
-            <guid>https://lwn.net/Articles/1042711/</guid>
-            <pubDate>Thu, 23 Oct 2025 14:19:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
