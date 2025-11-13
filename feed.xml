@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Nov 2025 11:54:25 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Nov 2025 13:51:21 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Nov 2025 14:10:49 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Nov 2025 14:20:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1046318/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and firefox-esr), <b>Fedora</b> (firefox, rubygem-rack, skopeo, and webkitgtk), <b>Mageia</b> (perl, perl-CPAN, perl-HTTP-Tiny, perl-Data-Entropy, perl-FCGI, perl-File-Find-Rule, perl-YAML-LibYAML, python-tornado, python-urllib3, python-pip, python3, and unbound), <b>Oracle</b> (ipa and kernel), <b>Red Hat</b> (container-tools:rhel8, krb5, openssl, pcs, podman, and runc), <b>Slackware</b> (mozilla), <b>SUSE</b> (binutils, kernel, netty, netty-tcnative, podman, python311-pdfminer, and tomcat11), and <b>Ubuntu</b> (bind9 and linux-aws-6.8).]]></description>
+            <guid>https://lwn.net/Articles/1046318/</guid>
+            <pubDate>Thu, 13 Nov 2025 14:07:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for November 6, 2025</title>
             <link>https://lwn.net/Articles/1044227/</link>
