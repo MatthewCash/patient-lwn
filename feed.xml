@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Nov 2025 14:09:16 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Nov 2025 14:19:52 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Nov 2025 14:22:02 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Nov 2025 14:43:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,14 +388,6 @@ assistance.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1045807/</guid>
             <pubDate>Sun, 09 Nov 2025 22:45:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1045612/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, libsoup, mariadb:10.5, and sssd), <b>Debian</b> (chromium, keystone, and swift), <b>Fedora</b> (apptainer, buildah, chromium, fcitx5, fcitx5-anthy, fcitx5-chewing, fcitx5-chinese-addons, fcitx5-configtool, fcitx5-hangul, fcitx5-kkc, fcitx5-libthai, fcitx5-m17n, fcitx5-qt, fcitx5-rime, fcitx5-sayura, fcitx5-skk, fcitx5-table-extra, fcitx5-unikey, fcitx5-zhuyin, GeographicLib, libime, mbedtls, mingw-poppler, mupen64plus, python-starlette, webkitgtk, and xen), <b>Mageia</b> (dcmtk, java-1.8.0-openjdk, java-11-openjdk, java-17-openjdk, java-latest-openjdk, libvpx, and sqlite3), <b>Oracle</b> (bind, bind9.16, kernel, libsoup, libsoup3, osbuild-composer, qt6-qtsvg, sssd, and valkey), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (bind, gpg2, ImageMagick, python-Django, and runc), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-fips, linux-aws-fips, inux-gcp-fips, linux-gcp, linux-gcp-6.8, linux-gke, linux-intel-iot-realtime, linux-realtime, linux-raspi-5.4, and linux-realtime, linux-realtime-6.8).]]></description>
-            <guid>https://lwn.net/Articles/1045612/</guid>
-            <pubDate>Fri, 07 Nov 2025 14:03:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
