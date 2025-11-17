@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 16 Nov 2025 22:40:55 +0000</pubDate>
-        <lastBuildDate>Sun, 16 Nov 2025 23:51:23 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Nov 2025 01:23:45 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Nov 2025 01:27:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.18-rc6</title>
+            <link>https://lwn.net/Articles/1046651/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1046650/">6.18-rc6</a> for testing.
+"<q>So we have a slightly larger rc6 than usual, but I think it's just the
+random noise and a result of pull request timings rather than due to any
+issues with the release. But I guess we have a couple of weeks remaining to
+find out.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1046651/</guid>
+            <pubDate>Mon, 17 Nov 2025 00:34:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1046497/</link>
@@ -322,16 +334,6 @@ for a complete list of new features, enhancements, and bug fixes.</p>
             <guid>https://lwn.net/Articles/1045922/</guid>
             <pubDate>Mon, 10 Nov 2025 14:05:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.18-rc5</title>
-            <link>https://lwn.net/Articles/1045810/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1045809/">6.18-rc5</a> kernel prepatch is out for
-testing.  "<q>In other words: it all looks just the way I like it at this
-point: small and boring.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1045810/</guid>
-            <pubDate>Sun, 09 Nov 2025 23:44:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
