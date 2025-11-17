@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Nov 2025 15:23:40 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Nov 2025 15:57:03 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Nov 2025 16:04:04 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Nov 2025 16:28:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -336,19 +336,6 @@ the sidebar. This release also drops support for 32-bit Linux systems.</p>
             <guid>https://lwn.net/Articles/1046042/</guid>
             <pubDate>Tue, 11 Nov 2025 14:45:13 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Public-inbox 2.0.0 released</title>
-            <link>https://lwn.net/Articles/1045965/</link>
-            <description><![CDATA[Version 2.0.0 of public-inbox, the mail archiving system behind
-lore.kernel.org and LWN's email archive, has been released.  "<q>This
-release includes several new features and fixes; mostly around improved
-integration between inboxes and coderepos for solver.  Portability and
-reliability is also improved, especially in the internal process management
-of lei.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1045965/</guid>
-            <pubDate>Mon, 10 Nov 2025 16:13:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
