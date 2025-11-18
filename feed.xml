@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Nov 2025 19:46:43 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Nov 2025 19:51:57 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Nov 2025 20:22:47 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Nov 2025 20:24:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Blender 5.0 released</title>
+            <link>https://lwn.net/Articles/1046962/</link>
+            <description><![CDATA[<p><a
+href="https://www.blender.org/press/blender-5-0-release/">Version
+5.0</a> of the Blender animation system has been released. Notable
+improvements include improved color management, HDR capabilities, and
+a new storyboarding template. See the <a
+href="https://www.blender.org/download/releases/5-0/">release
+notes</a> for a lengthy list of new features and changes, and the <a
+href="https://developer.blender.org/docs/release_notes/5.0/bugfixes/">bugfixes
+page</a> for the 588 commits that fixed bugs in Blender 4.5 or older.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1046962/</guid>
+            <pubDate>Tue, 18 Nov 2025 20:22:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1046891/</link>
