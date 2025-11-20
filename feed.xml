@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 20 Nov 2025 22:28:36 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Nov 2025 22:40:38 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2025 22:51:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -358,18 +358,6 @@ find out.</q>"]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (keystone and lxd), <b>Fedora</b> (docker-buildkit, firefox, gh, gitleaks, lasso, runc, and seamonkey), <b>Mageia</b> (perl-Authen-SASL, perl-Cpanel-JSON-XS, perl-Crypt-OpenSSL-RSA, perl-JSON-XS, python-flask-cors, python-py, python-setuptools, and ruby), <b>Oracle</b> (java-1.8.0-openjdk), <b>SUSE</b> (binutils, cargo-packaging, rust-bindgen, chromium, go-sendxmpp, helm, lasso, libxml2, openssh, openssh8.4, python-Django, python-Scrapy-doc, python311-Brotli, squid, tomcat10, and weblate), and <b>Ubuntu</b> (linux-nvidia-6.8, linux-oracle, linux-oracle-6.8 and linux-xilinx-zynqmp).]]></description>
             <guid>https://lwn.net/Articles/1046497/</guid>
             <pubDate>Fri, 14 Nov 2025 14:09:15 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Two new stable kernels</title>
-            <link>https://lwn.net/Articles/1046410/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1046412/">6.17.8</a> and <a
-href="https://lwn.net/Articles/1046411/">6.12.58</a> stable kernels. Each contains an
-important set of fixes. Users are advised to upgrade.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1046410/</guid>
-            <pubDate>Thu, 13 Nov 2025 22:20:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
