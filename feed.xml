@@ -8,11 +8,145 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Nov 2025 23:25:11 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Nov 2025 23:51:51 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Nov 2025 01:12:16 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Nov 2025 01:25:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] Another Fedora Flatpak discussion</title>
+            <link>https://lwn.net/Articles/1045247/</link>
+            <description><![CDATA[<p>Many distributions provide support out of the proverbial box for
+Flatpak packages, but Fedora is unusual in that it also provides, and
+defaults, to its own repository of Fedora-built Flatpaks. This has been
+a source of confusion for Fedora users, who expect to get the Flatpak
+built by the original developers and hosted on <a
+href="https://flathub.org/en">Flathub</a>. It has also been a source
+of conflict with upstream projects, because users complain of bugs in
+Flatpak packages they are not responsible for. The situation has also frustrated some
+Fedora developers, who would prefer to offer put Flathub's offerings
+first. A new complaint that Fedora has apparently used <a
+href="https://docs.flatpak.org/en/latest/manifests.html#manifests">manifests</a>
+from Flathub to build the packages for Fedora—without giving credit to
+the original authors&mdash;has spurred discussions about Fedora's
+Flatpaks once again. While no concrete changes are on the table, yet,
+there may be some movement toward addressing persistent complaints.</p>]]></description>
+            <guid>https://lwn.net/Articles/1045247/</guid>
+            <pubDate>Thu, 13 Nov 2025 14:49:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] LWN.net Weekly Edition for November 13, 2025</title>
+            <link>https://lwn.net/Articles/1045243/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1045243/">Front</a>: FUSE performance; Magic kfuncs; Tails Linux; Direct I/O and modifying buffers; Working with bootable containers.
+            <li> <a href="https://lwn.net/Articles/1045245/">Briefs</a>: Kernel LLM policy; Firefox 145; FHS; Homebrew 5.0.0; Mastodon 4.5; Public-inbox 2.0.0; Pytest 9.0.0; Quote; ...
+            <li> <a href="https://lwn.net/Articles/1045246/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1045243/</guid>
+            <pubDate>Thu, 13 Nov 2025 01:04:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The intersection of unstable pages and direct I/O</title>
+            <link>https://lwn.net/Articles/1045006/</link>
+            <description><![CDATA[Longtime LWN readers will have encountered the concept of "stable pages"
+before; it was first <a href="https://lwn.net/Articles/429295/">covered here</a> nearly
+15&#160;years ago.  For the most part, the problem that stable pages were
+meant to solve — preventing errors when user space modifies a buffer that
+is under <span class="nobreak">I/O</span> — has been dealt with.  But
+recent discussions show that there is one area where problems remain:
+direct <span class="nobreak">I/O</span>.  There is some disagreement,
+though, over whether those problems are the result of user-space bugs and
+how much of a performance price should be paid to address them.]]></description>
+            <guid>https://lwn.net/Articles/1045006/</guid>
+            <pubDate>Wed, 12 Nov 2025 15:51:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Protecting privacy with Tails</title>
+            <link>https://lwn.net/Articles/1044979/</link>
+            <description><![CDATA[<p><a href="https://tails.net/">Tails</a> is an unusual Linux
+distribution developed by the <a
+href="https://www.torproject.org/about/history/">Tor Project</a>; it
+is designed to help users work around internet censorship and avoid
+surveillance. It is a "portable" operating system that is meant to be
+run from a USB stick or ISO image and to leave no trace on the
+computer it was run on. Tails routes connections to the internet over
+the <a href="https://en.wikipedia.org/wiki/Tor_(network)">Tor
+network</a> and includes a selection of applications and tools
+suited to working with sensitive documents, communicating securely,
+and preserving users' anonymity. The tradeoff, of course, is that
+Tails is less convenient and requires users to learn a new set of
+tools to avoid compromising their own security and anonymity. <a 
+href="https://tails.net/news/version_7.1/">Tails&#160;7.1</a> was
+released in October, and it seemed like as good a time as any to take
+it for a spin.</p>]]></description>
+            <guid>https://lwn.net/Articles/1044979/</guid>
+            <pubDate>Tue, 11 Nov 2025 15:04:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Magic kernel functions for BPF</title>
+            <link>https://lwn.net/Articles/1044824/</link>
+            <description><![CDATA[<p>
+When programs written in BPF (the kernel's hot-loadable virtual-machine
+ bytecode) call kernel functions (kfuncs), it may be useful
+for those functions to have additional information about the context in which
+those BPF programs are executing. Rather than requiring it to supply
+that information, it would be convenient to let the BPF verifier pass that
+information to the called function automatically. That is already possible, but
+<a href="https://lwn.net/ml/all/20251029190113.3323406-1-ihor.solodrai@linux.dev/">
+a recent patch set</a> from Ihor Solodrai would make it more ergonomic.
+It allows kernel
+developers to specify that a kfunc should be passed additional
+parameters inferred by the verifier, invisibly to the BPF program. The
+discussion included concerns that Solodrai's implementation was unnecessarily
+ complex, however.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1044824/</guid>
+            <pubDate>Mon, 10 Nov 2025 15:04:55 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Bootc for workstation use</title>
+            <link>https://lwn.net/Articles/1042708/</link>
+            <description><![CDATA[<p>The <a
+href="https://bootc-dev.github.io/">bootc</a> project allows users to
+create a bootable Linux system image using the container tooling that many
+developers are already familiar with. It is an evolution of <a
+href="https://github.com/ostreedev/ostree?tab=readme-ov-file#libostree">OSTree</a>
+(now called libostree), which is used to create <a
+href="https://fedoraproject.org/atomic-desktops/silverblue">Fedora
+Silverblue</a> and other image-based distributions. While creating
+custom images is still a job for experts, the container technology
+simplifies delivering heavily customized images to non-technical
+users.</p>]]></description>
+            <guid>https://lwn.net/Articles/1042708/</guid>
+            <pubDate>Fri, 07 Nov 2025 16:32:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Toward fast, containerized, user-space filesystems</title>
+            <link>https://lwn.net/Articles/1044432/</link>
+            <description><![CDATA[Filesystems are complex and performance-sensitive beasts.  They can also
+present security concerns.  Microkernel-based systems have long pushed
+filesystems into separate processes in order to contain any vulnerabilities
+that may be found there.  Linux can do the same with the <a
+href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
+Userspace</a> (FUSE) subsystem, but using FUSE brings a significant
+performance penalty.  Darrick Wong is working on ways to eliminate that
+penalty, and he has <a
+href="https://lwn.net/ml/all/20251029002755.GK6174@frogsfrogsfrogs">a massive patch
+set</a> showing how ext4 filesystems can be safely implemented in user space by
+unprivileged processes with good performance.  This work has the potential
+to radically change how filesystems are managed on Linux systems.]]></description>
+            <guid>https://lwn.net/Articles/1044432/</guid>
+            <pubDate>Thu, 06 Nov 2025 15:22:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>GStreamer Conference 2025 video recordings now available</title>
             <link>https://lwn.net/Articles/1047055/</link>
