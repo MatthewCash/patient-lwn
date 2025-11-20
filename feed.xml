@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Nov 2025 15:41:23 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Nov 2025 15:54:57 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Nov 2025 16:12:09 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Nov 2025 16:26:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Racing karts on a Rust GPU kernel driver (Collabora blog)</title>
+            <link>https://lwn.net/Articles/1047291/</link>
+            <description><![CDATA[<p>In July, Collabora <a
+href="https://www.collabora.com/news-and-blog/news-and-events/introducing-tyr-a-new-rust-drm-driver.html">announced</a>
+the Rust-based <a href="https://rust-for-linux.com/tyr-gpu-driver">Tyr
+GPU driver</a> for <a
+href="https://en.wikipedia.org/wiki/Mali_(processor)">Arm Mali</a>
+GPUs. Daniel Almeida has posted an <a
+href="https://www.collabora.com/news-and-blog/news-and-events/racing-karts-on-a-rust-gpu-kernel-driver.html">update</a>
+on progress with a prototype of the driver running on a Rock 5B board
+with the Rockchip RK3588 system-on-chip:</p>
+
+<blockquote class="bq">
+<p>The Tyr prototype has progressed from basic GPU job execution to
+running GNOME, Weston, and full-screen 3D games like SuperTuxKart,
+demonstrating a functional, high-performance Rust driver that matches
+C-driver performance and paves the way for eventual upstream
+integration! [...]</p>
+
+<p>Tyr is not ready to be used as a daily-driver, and it will still
+take time to replicate this upstream, although it is now clear that we
+will surely get there. And as a mere prototype, it has a lot of
+shortcuts that we would not have in an upstream version, even though
+it can run on top of an unmodified (i.e., upstream) version of
+Mesa.</p>
+
+<p>That said, this prototype can serve as an experimental driver and
+as a testbed for all the Rust abstraction work taking place
+upstream. It will let us experiment with different design decisions
+and gather data on what truly contributes to the project's
+objective.</p>
+</blockquote>
+
+<p>There is also a <a
+href="https://www.youtube.com/watch?v=wX9cTGenBDk">video</a> on
+YouTube of the prototype in action.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1047291/</guid>
+            <pubDate>Thu, 20 Nov 2025 16:06:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1047220/</link>
