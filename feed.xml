@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Nov 2025 01:12:16 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Nov 2025 01:25:18 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Nov 2025 02:17:19 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Nov 2025 02:55:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -393,134 +393,6 @@ for Linux on x86.</p>
             <guid>https://lwn.net/Articles/1046318/</guid>
             <pubDate>Thu, 13 Nov 2025 14:07:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 6, 2025</title>
-            <link>https://lwn.net/Articles/1044227/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1044227/">Front</a>: Python thread safety; Namespace reference counting; Merigraf; Speeding up short reads; Julia 1.12; systemd security.
-            <li> <a href="https://lwn.net/Articles/1044229/">Briefs</a>: CHERIoT 1.0; Chromium XSLT; Arm KASLR; Bazzite; Devuan 6.0; Incus 6.18; LXQt 2.3.0; Rust 1.91.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1044230/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1044227/</guid>
-            <pubDate>Thu, 06 Nov 2025 00:14:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A security model for systemd</title>
-            <link>https://lwn.net/Articles/1042888/</link>
-            <description><![CDATA[<p>Linux has many security features and tools that have evolved over
-the years to address threats as they emerge and security gaps as they
-are discovered. Linux security is all, as Lennart Poettering observed at the <a
-href="https://all-systems-go.io/">All Systems Go!</a> conference held
-in Berlin, somewhat random and <em>not</em> a "<q>clean</q>"
-design. To many observers, that may also appear to be the case for
-systemd; however, Poettering said that he does have a vision for how
-all of the security-related pieces of systemd are meant to fit
-together. He wanted to use his talk to explain "<q>how the individual
-security-related parts of systemd actually fit together and why they
-exist in the first place</q>".</p>]]></description>
-            <guid>https://lwn.net/Articles/1042888/</guid>
-            <pubDate>Wed, 05 Nov 2025 15:04:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Julia 1.12 brings progress on standalone binaries and more</title>
-            <link>https://lwn.net/Articles/1044280/</link>
-            <description><![CDATA[<a href="https://julialang.org/">Julia</a> is a modern programming
-language that is of particular interest to scientists due to its high
-performance combined with language features such as Lisp-style macros, an
-advanced type system, and multiple dispatch. We last <a
-href="https://lwn.net/Articles/1006117/">looked at Julia</a> in January on the occasion of
-its 1.11&#160;release. Early in October <a
-href="https://julialang.org/blog/2025/10/julia-1.12-highlights">Julia&#160;1.12
-appeared</a>, bringing a handful of quality-of-life improvements for Julia
-programmers, most notably support, though still experimental and limited,
-for the creation of binaries.]]></description>
-            <guid>https://lwn.net/Articles/1044280/</guid>
-            <pubDate>Tue, 04 Nov 2025 14:50:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] An explicit thread-safety proposal for Python</title>
-            <link>https://lwn.net/Articles/1043568/</link>
-            <description><![CDATA[<p>
-Python already has several ways to run programs concurrently —
-including asynchronous functions, threads, subinterpreters, and multiprocessing
-— but all of those options have drawbacks of one kind or another.
-<a href="https://peps.python.org/pep-0703/">
-PEP&#160;703</a> ("Making the Global Interpreter Lock Optional in CPython")
-<a href="https://lwn.net/Articles/940780/">removed a major barrier</a> to running Python
-threads in parallel, but also exposed Python programmers to the same tricky
-synchronization problems found in other languages supporting multithreaded
-programs. A new draft proposal
-by Mark Shannon,
-<a href="https://pep-previews--4579.org.readthedocs.build/pep-0805/">
-PEP&#160;805</a> ("Safe Parallel Python"), suggests a way for the CPython runtime
-to cut down on concurrency bugs, making it more practical for Python programmers
-to use versions of the language without the global interpreter lock (GIL).
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1043568/</guid>
-            <pubDate>Mon, 03 Nov 2025 17:44:17 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Namespace reference counting and listns()</title>
-            <link>https://lwn.net/Articles/1043824/</link>
-            <description><![CDATA[The kernel's <a href="https://lwn.net/Articles/531114/">namespaces feature</a> is, among
-other things, a key part of the implementation of containers.  Like much in
-the kernel, though, the namespace API evolved over time; there was no
-design at the outset.  As a result, this API has some rough edges and
-missing features.  Christian Brauner is working to straighten out the
-namespace situation somewhat with <a
-href="https://lwn.net/ml/all/20251029-work-namespace-nstree-listns-v4-0-2e6f823ebdc0@kernel.org">this
-daunting 72-part patch series</a> that, among other things, adds a new
-system call to allow user space to query the namespaces present on the
-system.]]></description>
-            <guid>https://lwn.net/Articles/1043824/</guid>
-            <pubDate>Mon, 03 Nov 2025 15:13:24 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Mergiraf: syntax-aware merging for Git</title>
-            <link>https://lwn.net/Articles/1042355/</link>
-            <description><![CDATA[<p>
-The idea of automatic syntax-aware merging in version-control systems goes back to
-<a href="https://link.springer.com/chapter/10.1007/3-540-60578-9_14">
-2005 or earlier</a>, but initial implementations were
-often language-specific and slow.
-<a href="https://mergiraf.org/introduction.html">
-Mergiraf</a> is a merge-conflict resolver that uses a generic algorithm plus a
-small amount of language-specific knowledge
-to solve conflicts that Git's default strategy cannot.
-The project's contributors have been working on the
-tool for just under a year, but it already
-<a href="https://mergiraf.org/languages.html">
-supports 33 languages</a>, including C,
-Python, Rust, and even
-<a href="https://en.wikipedia.org/wiki/SystemVerilog">
-SystemVerilog</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1042355/</guid>
-            <pubDate>Fri, 31 Oct 2025 19:30:00 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The long path toward optimizing short reads</title>
-            <link>https://lwn.net/Articles/1043640/</link>
-            <description><![CDATA[The kernel's file-I/O subsystems have been highly optimized over the years
-in the hope of providing the best performance for a wide variety of
-workloads.  There is, however, one workload type that suffers with current
-kernels: applications that perform many short reads, in multiple processes,
-from the same file.  Kiryl Shutsemau has been working on <a
-href="https://lwn.net/ml/all/20251017141536.577466-1-kirill@shutemov.name">a patch</a> to
-try to optimize this case, but the task is turning out to be harder than
-one might expect.]]></description>
-            <guid>https://lwn.net/Articles/1043640/</guid>
-            <pubDate>Thu, 30 Oct 2025 14:08:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
