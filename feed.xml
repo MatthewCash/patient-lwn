@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 20 Nov 2025 18:28:54 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Nov 2025 18:30:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 20 Nov 2025 18:53:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -391,37 +391,6 @@ Android project.
             <guid>https://lwn.net/Articles/1046397/</guid>
             <pubDate>Thu, 13 Nov 2025 20:41:27 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Privilege escalation in LightDM Greeter by KDE (SUSE Security Team Blog)</title>
-            <link>https://lwn.net/Articles/1046376/</link>
-            <description><![CDATA[<p>The SUSE Security Team has published an <a
-href="https://security.opensuse.org/2025/11/13/lightdm-kde-greeter-auth-helper.html">in-depth
-article</a> on its findings after reviewing a D-Bus service contained
-in <a
-href="https://invent.kde.org/plasma/lightdm-kde-greeter">LightDM
-Greeter by KDE</a> (the <tt>lightdm-kde-greeter</tt> package)
-for addition to openSUSE Tumbleweed. The team found a privilege
-escalation from the <tt>lightdm</tt> service user to <tt>root</tt>, as
-well as other attack vectors in the service:</p>
-
-<blockquote class="bq">
-In agreement with upstream, we assigned CVE-2025-62876 to track the
-<tt>lightdm</tt> service user to <tt>root</tt> privilege escalation aspect described in
-this report. The severity of the issue is low, since it only affects
-defense-in-depth (if the <tt>lightdm</tt> service user were compromised) and
-the problematic logic can only be reached and exploited if triggered
-interactively by a privileged user.
-</blockquote>
-
-<p>The fixes are contained in the <a
-href="https://invent.kde.org/plasma/lightdm-kde-greeter/-/tags/v6.0.4">6.0.4
-release</a> of the project.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1046376/</guid>
-            <pubDate>Thu, 13 Nov 2025 18:43:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
