@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Nov 2025 16:11:09 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Nov 2025 16:22:42 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Nov 2025 16:27:46 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Nov 2025 16:45:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Racket 9.0 released</title>
+            <link>https://lwn.net/Articles/1047549/</link>
+            <description><![CDATA[The <a href="https://racket-lang.org/">Racket programming language</a>
+project has <a
+href="https://blog.racket-lang.org/2025/11/racket-v9-0.html">released Racket
+version 9.0</a>. Racket is a descendant of <a
+href="https://www.scheme.org/">Scheme</a>, so it is part of the Lisp family of languages. The headline feature in the release is <a
+href="https://blog.racket-lang.org/2025/11/parallel-threads.html">parallel
+threads</a>, which adds to the concurrency tools in the language: "<q>While
+Racket has had green threads for some time, and supports parallelism via
+futures and places, we feel parallel threads is a major addition.</q>"
+Other new features include the <a
+href="https://docs.racket-lang.org/reference/black-box.html#%28def._%28%28quote._~23~25kernel%29._black-box%29%29">black-box</a>
+wrapper to prevent the compiler from optimizing calculations away, the <a
+href="https://docs.racket-lang.org/reference/linklets.html#%28def._%28%28lib._racket%2Flinklet..rkt%29._decompile-linklet%29%29">decompile-linklet</a>
+function to map <a
+href="https://docs.racket-lang.org/reference/linklets.html">linklets</a>
+back to an <a
+href="https://en.wikipedia.org/wiki/S-expression">s-expression</a>, the
+addition of <a
+href="https://docs.racket-lang.org/math/Real_Distribution_Families.html#%28part._.Weibull_.Distributions%29">Weibull
+distributions</a> to the math library, and more.]]></description>
+            <guid>https://lwn.net/Articles/1047549/</guid>
+            <pubDate>Sun, 23 Nov 2025 16:27:46 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</title>
             <link>https://lwn.net/Articles/1047547/</link>
