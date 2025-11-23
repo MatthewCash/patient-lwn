@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Nov 2025 14:38:40 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Nov 2025 15:39:14 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Nov 2025 15:45:01 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Nov 2025 15:52:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 2025 Linux Foundation Technical Advisory Board election</title>
+            <link>https://lwn.net/Articles/1047546/</link>
+            <description><![CDATA[The <a href="https://lwn.net/ml/all/20251122004147.1655175-1-ojeda@kernel.org">call for
+candidates</a> for the 2025 election for the Linux Foundation Technical
+Advisory Board has been posted.
+<p>
+<blockquote class="bq">
+	The TAB exists to provide advice from the kernel community to the
+	Linux Foundation and holds a seat on the LF's board of directors;
+	it also serves to facilitate interactions both within the community
+	and with outside entities.  Over the last year, the TAB has
+	overseen the organization of the Linux Plumbers Conference, advised
+	on the setup of the kernel CVE numbering authority, worked behind
+	the scenes to help resolve a number of contentious community
+	discussions, worked with the Linux Foundation on community
+	conference planning, and more.
+</blockquote>
+<p>
+Nominations close on December 13.]]></description>
+            <guid>https://lwn.net/Articles/1047546/</guid>
+            <pubDate>Sun, 23 Nov 2025 15:45:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>PHP 8.5.0 released</title>
             <link>https://lwn.net/Articles/1047429/</link>
