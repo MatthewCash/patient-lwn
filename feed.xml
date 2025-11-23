@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Nov 2025 15:45:01 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Nov 2025 15:52:14 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Nov 2025 16:11:09 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Nov 2025 16:22:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</title>
+            <link>https://lwn.net/Articles/1047547/</link>
+            <description><![CDATA[The Oracle blog has <a
+href="https://blogs.oracle.com/linux/improving-gcc-buffer-overflow-detection-for-c-flexible-array-members">a
+lengthy article</a> on enhancements to GCC to help detect overflows of
+flexible array members (FAMs) in C programs.
+<p>
+<blockquote class="bq">
+	We describe here two new GNU extensions which specify size
+	information for FAMs. These are a new attribute,
+	"<tt>counted_by</tt>" and a new builtin function,
+	"<tt>__builtin_counted_by_ref</tt>". Both extensions can be used in
+	GNU C applications to specify size information for FAMs, improving
+	the buffer overflow detection for FAMs in general.
+</blockquote>
+<p>
+This work has been <a href="https://lwn.net/Articles/936728/">covered on LWN</a> as well.]]></description>
+            <guid>https://lwn.net/Articles/1047547/</guid>
+            <pubDate>Sun, 23 Nov 2025 16:08:32 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The 2025 Linux Foundation Technical Advisory Board election</title>
             <link>https://lwn.net/Articles/1047546/</link>
