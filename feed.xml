@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Nov 2025 20:20:42 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Nov 2025 20:23:15 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Nov 2025 20:37:30 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Nov 2025 20:42:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -464,21 +464,6 @@ page</a> for the 588 commits that fixed bugs in Blender 4.5 or older.</p>
             <guid>https://lwn.net/Articles/1046891/</guid>
             <pubDate>Tue, 18 Nov 2025 14:08:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Git 2.52.0 released</title>
-            <link>https://lwn.net/Articles/1046835/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/xmqqh5usmvsd.fsf@gitster.g">Version 2.52.0</a> of the Git
-source-code management system has been released.  Changes include a new
-<tt>last-modified</tt> command to find the closest ancestor commit that
-touched one or more paths, a couple of <tt>git refs</tt> improvements, a
-new <tt>git repo</tt> command for obtaining information about the
-repository itself, and more.  See the announcement and <a
-href="https://github.blog/open-source/git/highlights-from-git-2-52/">this
-GitHub blog entry</a> for more information.]]></description>
-            <guid>https://lwn.net/Articles/1046835/</guid>
-            <pubDate>Mon, 17 Nov 2025 19:55:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
