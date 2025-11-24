@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Nov 2025 19:03:26 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Nov 2025 19:14:59 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Nov 2025 19:27:17 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Nov 2025 19:28:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>AlmaLinux 10.1 released</title>
+            <link>https://lwn.net/Articles/1047763/</link>
+            <description><![CDATA[<p><a href="https://almalinux.org/">AlmaLinux</a> 10.1 has been <a
+href="https://almalinux.org/blog/2025-11-24-almalinux_101_release/">released</a>. In
+addition to providing binary compatibility with Red Hat Enterprise
+Linux (RHEL)&#160;10.1, the most notable feature in AlmaLinux&#160;10.1 is
+the addition of <a
+href="https://almalinux.org/blog/2025-10-21-announcing-btrfs-support-in-almalinux-10-1/">support
+for Btrfs</a>, which is not available in RHEL:</p>
+
+<blockquote class="bq">
+<p>Btrfs support encompasses both kernel and userspace enablement, and it
+is now possible to install AlmaLinux OS on a Btrfs filesystem from the
+very beginning. Initial enablement was scoped to the installer and
+storage management stack, and broader support within the AlmaLinux
+software collection for Btrfs features is forthcoming.</p>
+
+<p>In addition to Btrfs support, AlmaLinux OS 10.1 includes numerous
+other improvements to serve our community. We have continued to extend
+hardware support both by <a
+href="https://wiki.almalinux.org/release-notes/10.1.html#extended-hardware-support">adding
+drivers</a> and by adding a secondary version of AlmaLinux OS and <a
+href="https://almalinux.org/blog/2025-06-26-epel-v2-now-covers-almalinux-10-stable/">EPEL</a>
+to extend support of x86_64_v2 processors.</p>
+</blockquote>
+
+<p>See the <a
+href="https://wiki.almalinux.org/release-notes/10.1.html">release
+notes</a> for a full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1047763/</guid>
+            <pubDate>Mon, 24 Nov 2025 19:18:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1047682/</link>
