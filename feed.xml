@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Nov 2025 14:12:36 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Nov 2025 14:21:21 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Nov 2025 14:23:44 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Nov 2025 14:46:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -476,14 +476,6 @@ list of known issues</a> before trying the images out.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1046757/</guid>
             <pubDate>Mon, 17 Nov 2025 15:07:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1046756/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-base1.0, lasso, and thunderbird), <b>Fedora</b> (bind9-next, chromium, containerd, fvwm3, luksmeta, opentofu, python-pdfminer, python-uv-build, ruff, rust-get-size-derive2, rust-get-size2, rust-regex, rust-regex-automata, rust-reqsign, rust-reqsign-aws-v4, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-http-send-reqwest, suricata, uv, and xmedcon), <b>Mageia</b> (apache-commons-beanutils, apache-commons-fileupload, apache-commons-lang, botan2, python-django, spdlog, stardict, webkit2, and yelp-xsl), <b>Slackware</b> (xpdf), and <b>SUSE</b> (bind, chromedriver, firefox, kernel, libxml2, and openssh).]]></description>
-            <guid>https://lwn.net/Articles/1046756/</guid>
-            <pubDate>Mon, 17 Nov 2025 14:23:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
