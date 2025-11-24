@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Nov 2025 14:23:44 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Nov 2025 14:57:49 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Nov 2025 15:11:37 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Nov 2025 15:26:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -443,40 +443,6 @@ GitHub blog entry</a> for more information.]]></description>
             <guid>https://lwn.net/Articles/1046835/</guid>
             <pubDate>Mon, 17 Nov 2025 19:55:02 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Josefsson: Introducing the Debian Libre Live Images</title>
-            <link>https://lwn.net/Articles/1046757/</link>
-            <description><![CDATA[<p>Debian developer Simon Josefsson has <a
-href="https://blog.josefsson.org/2025/11/13/introducing-the-debian-libre-live-images/">announced</a>
-the <a
-href="https://gitlab.com/debdistutils/debian-libre/debian-libre-live#debian-libre-live-images">Debian
-Libre Live Images</a> project, to allow installing Debian without any
-non-free software:</p>
-
-<blockquote class="bq">
-<p>Since the <a href="https://www.debian.org/vote/2022/vote_003">2022 decision on non-free firmware</a>, the official images
-for bookworm and trixie contains non-free software.</p>
-
-<p>The Debian Libre Live Images project provides Live ISO images for
-Intel/AMD-compatible 64-bit x86 CPUs (amd64) built without any
-non-free software, suitable for running and installing Debian. The
-images are similar to the <a
-href="https://www.debian.org/CD/live/">Debian Live Images</a>
-distributed as <a
-href="https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/">Debian
-live images</a>.</p>
-</blockquote>
-
-<p>He does warn that this is a first public release, so there may be
-problems. See the <a
-href="https://gitlab.com/debdistutils/debian-libre/debian-libre-live/-/issues">current
-list of known issues</a> before trying the images out.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1046757/</guid>
-            <pubDate>Mon, 17 Nov 2025 15:07:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
