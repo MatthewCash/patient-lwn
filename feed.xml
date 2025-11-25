@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Nov 2025 13:49:22 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Nov 2025 13:51:48 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Nov 2025 14:06:30 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Nov 2025 14:21:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -455,14 +455,6 @@ page</a> for the 588 commits that fixed bugs in Blender 4.5 or older.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1046962/</guid>
             <pubDate>Tue, 18 Nov 2025 20:22:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1046891/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (libwebsockets), <b>Fedora</b> (chromium and fvwm3), <b>Mageia</b> (apache, firefox, and postgresql13, postgresql15), <b>Oracle</b> (idm:DL1), <b>Red Hat</b> (bind, bind9.18, firefox, and openssl), <b>SUSE</b> (alloy, ghostscript, and openssl-1_0_0), and <b>Ubuntu</b> (ffmpeg and freeglut).]]></description>
-            <guid>https://lwn.net/Articles/1046891/</guid>
-            <pubDate>Tue, 18 Nov 2025 14:08:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
