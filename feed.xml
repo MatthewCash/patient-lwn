@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Nov 2025 16:25:46 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Nov 2025 16:26:11 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Nov 2025 16:50:52 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Nov 2025 16:51:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>KDE Plasma 6.8 will be Wayland-only</title>
+            <link>https://lwn.net/Articles/1048208/</link>
+            <description><![CDATA[<p>KDE's Plasma team has <a
+href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
+that KDE Plasma will drop X11 session support with Plasma&#160;6.8:</p>
+
+<blockquote class="bq">
+<p>The Plasma X11 session will be supported by KDE into early
+2027.</p>
+
+<p>We cannot provide a specific date, as we're exploring the
+possibility of shipping some extra bug-fix releases for Plasma
+6.7. The exact timing of the last one will only be known when we get
+closer to its actual release, which we expect will be sometime in
+early 2027.</p>
+
+<strong><p>What if I still really need X11?</p></strong>
+
+<p>This is a perfect use case for long term support (LTS)
+distributions shipping older versions of Plasma. For example,
+AlmaLinux 9 includes the Plasma X11 session and will be supported
+until sometime in 2032.</p>
+</blockquote>
+
+<p>See the blog post for information on running X11 applications
+(still supported), accessibility, gaming, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1048208/</guid>
+            <pubDate>Wed, 26 Nov 2025 16:49:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1048195/</link>
@@ -397,56 +430,6 @@ to radically change how filesystems are managed on Linux systems.]]></descriptio
             <guid>https://lwn.net/Articles/1044432/</guid>
             <pubDate>Thu, 06 Nov 2025 15:22:10 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GStreamer Conference 2025 video recordings now available</title>
-            <link>https://lwn.net/Articles/1047055/</link>
-            <description><![CDATA[<p>Recordings from the <a
-href="https://gstreamer.freedesktop.org/conference/2025/">GStreamer
-Conference 2025</a>, held in London in late October, are <a
-href="https://gstconf.ubicast.tv/channels/#gstreamer-conference-2025">now
-available</a> on the GStreamer Conferences Archive site. Includes the
-<a
-href="https://gstconf.ubicast.tv/videos/gstreamer-state-of-the-union-2025_hk7g3xocv4/">GStreamer
-State of the Union</a> talk by Tim-Philipp Müller, <a
-href="https://gstconf.ubicast.tv/videos/state-of-mpeg-ts-in-gstreamer/">State
-of MPEG 2 Transport Stream (MPEG-TS)</a> by Edward Hervey, and many
-others.</p>]]></description>
-            <guid>https://lwn.net/Articles/1047055/</guid>
-            <pubDate>Wed, 19 Nov 2025 15:56:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Postmortem of the Xubuntu.org download site compromise</title>
-            <link>https://lwn.net/Articles/1047056/</link>
-            <description><![CDATA[<p>In mid-October, the <a href="https://xubuntu.org/">Xubuntu</a>
-download site was compromised and had directed users to a malicious
-zip file instead of the Torrent file that users expected. Elizabeth
-K. Joseph has <a
-href="https://lists.ubuntu.com/archives/xubuntu-users/2025-November/012210.html">published</a>
-a postmortem of the incident, along with plans to avoid such a breach
-in the future:</p>
-
-<blockquote class="bq">
-<p>To be perfectly clear: this only impacted our website, and the torrent
-links provided there.</p>
-
-<p>If you downloaded or opened a file named "Xubuntu-Safe-Download.zip"
-from the Xubuntu downloads page during this period, you should assume
-it was malicious. We strongly recommend scanning your computer with a
-trusted antivirus or anti-malware solution and deleting the file
-immediately.</p>
-
-<p>Nothing on cdimages.ubuntu.com or any of the other official Ubuntu
-repositories was impacted, and our mirrors remained safe as long as
-they were also mirroring from official resources.</p>
-
-<p>None of the build systems, packages, or other components of Xubuntu
-itself were impacted.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1047056/</guid>
-            <pubDate>Wed, 19 Nov 2025 16:16:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
