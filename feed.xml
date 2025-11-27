@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Nov 2025 13:04:49 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Nov 2025 14:20:49 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Nov 2025 14:36:11 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Nov 2025 14:45:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1048448/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kdeconnect, libssh, and samba), <b>Fedora</b> (7zip, docker-buildkit, and docker-buildx), <b>Oracle</b> (bind, buildah, cups, delve and golang, expat, firefox, gimp, go-rpm-macros, haproxy, kernel, lasso, libsoup, libtiff, mingw-expat, openssl, podman, python-kdcproxy, qt5-qt3d, runc, squid, thunderbird, tigervnc, valkey, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (buildah, cloudflared, containerd, expat, firefox, gnutls, helm, kernel, libxslt, mysql-connector-java, ongres-scram, openbao, openexr, openssh, podman, python311, python312, ruby2.5, rubygem-rack, runc, samba, sssd, tiff, unbound, and yelp), and <b>Ubuntu</b> (edk2, ffmpeg, h2o, python3.13, rust-openssl, and valkey).]]></description>
+            <guid>https://lwn.net/Articles/1048448/</guid>
+            <pubDate>Thu, 27 Nov 2025 14:36:11 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>KDE Plasma 6.8 will be Wayland-only</title>
             <link>https://lwn.net/Articles/1048208/</link>
@@ -285,16 +293,6 @@ YouTube of the prototype in action.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1047291/</guid>
             <pubDate>Thu, 20 Nov 2025 16:06:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1047220/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, container-tools:rhel8, expat, grub2, haproxy, idm:DL1, kernel, kernel-rt, lasso, libsoup, libssh, libtiff, pcs, podman, python-kdcproxy, qt5-qt3d, redis, redis:7, runc, shadow-utils, sqlite, squid, vim, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, and zziplib), <b>Debian</b> (chromium), <b>Oracle</b> (lasso and postgresql), <b>SUSE</b> (erlang27, ghostscript, grub2, kernel, libIex-3_4-33, python312, and sbctl), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4,
- linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-oracle-5.4,
- linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-6.8, linux-fips, linux-aws-fips, linux-gcp-fips, linux-oracle, and mysql-8.0, mysql-8.4).]]></description>
-            <guid>https://lwn.net/Articles/1047220/</guid>
-            <pubDate>Thu, 20 Nov 2025 14:11:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
