@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Nov 2025 13:40:31 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Nov 2025 14:54:44 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Nov 2025 14:55:04 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Nov 2025 15:20:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1048596/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (krita and tryton-server), <b>Oracle</b> (bind9.18, ipa, kernel, libssh, redis, redis:7, sqlite, sssd, and vim), <b>Slackware</b> (cups), <b>SUSE</b> (containerd, cups, curl, dovecot24, git-bug, gitea-tea, glib2, grub2, himmelblau, java-25-openjdk, kernel, libmicrohttpd, libvirt, pnpm, powerpc-utils, python311, python313, redis, rnp, runc, sssd, tomcat11, unbound, and xwayland), and <b>Ubuntu</b> (cups, libxml2, openvpn, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1048596/</guid>
+            <pubDate>Fri, 28 Nov 2025 14:55:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1047386/</link>
