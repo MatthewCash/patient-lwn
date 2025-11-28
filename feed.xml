@@ -9,10 +9,32 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 28 Nov 2025 14:55:04 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Nov 2025 15:41:57 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 15:52:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PHP 8.5.0 released</title>
+            <link>https://lwn.net/Articles/1047429/</link>
+            <description><![CDATA[<a
+href="https://lwn.net/ml/all/CALaXqqT+vb-WoCrGaSG=d4d20wkuKPgA+gH7ThFygBQ4M0C_nw@mail.gmail.com">Version
+8.5.0</a> of the PHP language has been released.  Changes include a new
+"<tt>|&gt;</tt>" operator that, for some reason, makes these two lines
+equivalent:
+<p>
+<pre>
+    $result = strlen("Hello world");
+    $result = "Hello world" |&gt; strlen(...);
+</pre>
+<p>
+Other changes include a new function attribute, "<tt>#[\NoDiscard]</tt>" to
+indicate that the return value should be used, attributes on constants, and
+more; see <a href="https://www.php.net/manual/en/migration85.php">the
+migration guide</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1047429/</guid>
+            <pubDate>Fri, 21 Nov 2025 15:47:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1048596/</link>
