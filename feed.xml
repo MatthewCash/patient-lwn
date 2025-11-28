@@ -9,10 +9,18 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 28 Nov 2025 13:40:31 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Nov 2025 14:20:32 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 14:44:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1047386/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve and golang), <b>Debian</b> (webkit2gtk), <b>Oracle</b> (expat and thunderbird), <b>Red Hat</b> (kernel), <b>Slackware</b> (openvpn), <b>SUSE</b> (chromium, grub2, and kernel), and <b>Ubuntu</b> (cups-filters, imagemagick, and libcupsfilters).]]></description>
+            <guid>https://lwn.net/Articles/1047386/</guid>
+            <pubDate>Fri, 21 Nov 2025 14:42:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1048448/</link>
