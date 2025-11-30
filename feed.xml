@@ -8,11 +8,78 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 30 Nov 2025 14:03:04 +0000</pubDate>
-        <lastBuildDate>Sun, 30 Nov 2025 15:51:58 +0000</lastBuildDate>
+        <pubDate>Sun, 30 Nov 2025 16:20:35 +0000</pubDate>
+        <lastBuildDate>Sun, 30 Nov 2025 16:23:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 2025 Linux Foundation Technical Advisory Board election</title>
+            <link>https://lwn.net/Articles/1047546/</link>
+            <description><![CDATA[The <a href="https://lwn.net/ml/all/20251122004147.1655175-1-ojeda@kernel.org">call for
+candidates</a> for the 2025 election for the Linux Foundation Technical
+Advisory Board has been posted.
+<p>
+<blockquote class="bq">
+	The TAB exists to provide advice from the kernel community to the
+	Linux Foundation and holds a seat on the LF's board of directors;
+	it also serves to facilitate interactions both within the community
+	and with outside entities.  Over the last year, the TAB has
+	overseen the organization of the Linux Plumbers Conference, advised
+	on the setup of the kernel CVE numbering authority, worked behind
+	the scenes to help resolve a number of contentious community
+	discussions, worked with the Linux Foundation on community
+	conference planning, and more.
+</blockquote>
+<p>
+Nominations close on December 13.]]></description>
+            <guid>https://lwn.net/Articles/1047546/</guid>
+            <pubDate>Sun, 23 Nov 2025 15:45:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Improving GCC Buffer Overflow Detection for C Flexible Array Members (Oracle)</title>
+            <link>https://lwn.net/Articles/1047547/</link>
+            <description><![CDATA[The Oracle blog has <a
+href="https://blogs.oracle.com/linux/improving-gcc-buffer-overflow-detection-for-c-flexible-array-members">a
+lengthy article</a> on enhancements to GCC to help detect overflows of
+flexible array members (FAMs) in C programs.
+<p>
+<blockquote class="bq">
+	We describe here two new GNU extensions which specify size
+	information for FAMs. These are a new attribute,
+	"<tt>counted_by</tt>" and a new builtin function,
+	"<tt>__builtin_counted_by_ref</tt>". Both extensions can be used in
+	GNU C applications to specify size information for FAMs, improving
+	the buffer overflow detection for FAMs in general.
+</blockquote>
+<p>
+This work has been <a href="https://lwn.net/Articles/936728/">covered on LWN</a> as well.]]></description>
+            <guid>https://lwn.net/Articles/1047547/</guid>
+            <pubDate>Sun, 23 Nov 2025 16:08:32 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Landlock-ing Linux (prizrak.me)</title>
+            <link>https://lwn.net/Articles/1048704/</link>
+            <description><![CDATA[The prizrak.me blog is carrying <a
+href="https://blog.prizrak.me/post/landlock/">an introduction to the
+Landlock security module</a>.
+<p>
+<blockquote class="bq">
+	Landlock shines when an application has a predictable set of files
+	or directories it needs. For example, a web server could restrict
+	itself to accessing only <tt>/var/www/html</tt> and <tt>/tmp</tt>.
+	<p>
+	Unlike SELinux or AppArmor, Landlock policies don't require
+	administrator involvement or system-wide configuration. Developers
+	can embed policies directly in application code, making sandboxing
+	a natural part of the development process.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1048704/</guid>
+            <pubDate>Sun, 30 Nov 2025 15:58:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>PHP 8.5.0 released</title>
             <link>https://lwn.net/Articles/1047429/</link>
