@@ -8,11 +8,71 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 30 Nov 2025 23:38:00 +0000</pubDate>
-        <lastBuildDate>Sun, 30 Nov 2025 23:51:55 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Dec 2025 00:03:59 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Dec 2025 01:52:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.18-rc7</title>
+            <link>https://lwn.net/Articles/1047578/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1047577/">6.18-rc7</a>, probably the
+last -rc before the 6.18 release.
+<p>
+<blockquote class="bq">
+	So the rc6 kernel wasn't great: we had a last-minute core VM
+	regression that caused people problems.
+<p>
+	That's not a great thing late in the release cycle like that, but
+	it was a fairly trivial fix, and the cause wasn't some horrid bug,
+	just a latent gotcha that happened to then bite a late VM fix. So
+	while not great, it also doesn't make me worry about the state of
+	6.18. We're still on track for a final release next weekend unless
+	some big new problem rears its ugly head.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1047578/</guid>
+            <pubDate>Mon, 24 Nov 2025 00:10:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>The 6.18 kernel has been released</title>
+            <link>https://lwn.net/Articles/1048703/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/ml/all/CAHk-=whnC+hRftevTLeVs3tyyqwn+7un=jUES2-WX+pZhDdKNw@mail.gmail.com/">released the 6.18 kernel</a>, as expected.
+<p>
+<blockquote class="bq">
+	So I'll have to admit that I'd have been happier with slightly less
+	bugfixing noise in this last week of the release, but while there's
+	a few more fixes than I would hope for, there was nothing that made
+	me feel like this needs more time to cook. So 6.18 is tagged and
+	pushed out.
+</blockquote>
+<p>
+Headline changes in this release include
+the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3ab378cfa793">ability</a>
+to manage namespaces with file handles,
+support for the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f60034689f2c">AccECN</a>
+congestion-control protocol,
+initial <a href="https://lwn.net/Articles/1031854/">support</a> for signing of BPF
+programs,
+improved memory management with <a href="https://lwn.net/Articles/1010667/">sheaves</a>,
+the <a href="https://lwn.net/Articles/953116/">Rust binder driver</a>,
+better <a href="https://lwn.net/Articles/1032199/">control over transparent huge
+pages</a>,
+and a lot more.
+This release also saw the <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f2c61db29f27">removal
+of the bcachefs filesystem</a>.
+<p>
+See the LWN merge-window summaries 
+(<a href="https://lwn.net/Articles/1040203/">part&#160;1</a>, <a href="https://lwn.net/Articles/1041004/">part&#160;2</a>)
+and <a href="https://kernelnewbies.org/Linux_6.18">the KernelNewbies 6.18
+page</a> for more information.]]></description>
+            <guid>https://lwn.net/Articles/1048703/</guid>
+            <pubDate>Mon, 01 Dec 2025 00:03:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>NixOS 25.11 released</title>
             <link>https://lwn.net/Articles/1048727/</link>
