@@ -9,10 +9,18 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 02 Dec 2025 14:19:56 +0000</pubDate>
-        <lastBuildDate>Tue, 2 Dec 2025 14:49:47 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 2 Dec 2025 15:24:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1047950/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
+            <guid>https://lwn.net/Articles/1047950/</guid>
+            <pubDate>Tue, 25 Nov 2025 14:46:41 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1048973/</link>
