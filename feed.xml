@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 02 Dec 2025 14:19:56 +0000</pubDate>
-        <lastBuildDate>Tue, 2 Dec 2025 15:24:03 +0000</lastBuildDate>
+        <pubDate>Tue, 02 Dec 2025 15:37:10 +0000</pubDate>
+        <lastBuildDate>Tue, 2 Dec 2025 15:47:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Let&apos;s Encrypt to reduce certificate lifetimes</title>
+            <link>https://lwn.net/Articles/1048976/</link>
+            <description><![CDATA[<p>Let's Encrypt has <a
+href="https://letsencrypt.org/2025/12/02/from-90-to-45.html">announced</a>
+that it will be reducing the validity period of its certificates from
+90 days to 45 days by 2028:</p>
+
+<blockquote class="bq">
+<p>Most users of Let's Encrypt who automatically issue certificates
+will not have to make any changes. However, you should verify that
+your automation is compatible with certificates that have shorter
+validity periods.</p>
+
+<p>To ensure your ACME client renews on time, we recommend using <a href="https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari">ACME
+Renewal Information (ARI)</a>. ARI is a feature we've introduced to help
+clients know when they need to renew their certificates. Consult your
+ACME client's documentation on how to enable ARI, as it differs from
+client to client. If you are a client developer, check out this
+<a href="https://letsencrypt.org/2024/04/25/guide-to-integrating-ari-into-existing-acme-clients">integration guide</a>.</p>
+
+<p>If your client doesn't support ARI yet, ensure it runs on a
+schedule that is compatible with 45-day certificates. For example,
+renewing at a hardcoded interval of 60 days will no longer be
+sufficient. Acceptable behavior includes renewing certificates at
+approximately two thirds of the way through the current certificate's
+lifetime.</p>
+
+<p>Manually renewing certificates is not recommended, as it will need
+to be done more frequently with shorter certificate lifetimes.</p>
+</blockquote>
+    
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1048976/</guid>
+            <pubDate>Tue, 02 Dec 2025 15:37:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
