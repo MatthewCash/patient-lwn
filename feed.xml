@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Dec 2025 16:01:35 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Dec 2025 16:29:49 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Dec 2025 16:41:28 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Dec 2025 16:56:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Django 6.0 released</title>
+            <link>https://lwn.net/Articles/1049111/</link>
+            <description><![CDATA[The <a href="https://www.djangoproject.com/">Django</a> Python web
+framework project has <a
+href="https://www.djangoproject.com/weblog/2025/dec/03/django-60-released/">announced
+the release of Django 6.0</a> including many new features, as can be seen in
+the <a href="https://docs.djangoproject.com/en/6.0/releases/6.0/">release
+notes</a>.  Some highlights include template partials for modularizing
+templates, a flexible task framework for running background tasks, a
+modernized email API, and a <a
+href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">Content
+Security Policy</a> (CSP) feature that provides the ability to "<q>easily configure and enforce browser-level security policies to protect against content injection</q>".]]></description>
+            <guid>https://lwn.net/Articles/1049111/</guid>
+            <pubDate>Wed, 03 Dec 2025 16:41:27 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>A final stable kernel update for 5.4</title>
             <link>https://lwn.net/Articles/1049059/</link>
@@ -415,39 +432,6 @@ migration guide</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1048448/</guid>
             <pubDate>Thu, 27 Nov 2025 14:36:11 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>KDE Plasma 6.8 will be Wayland-only</title>
-            <link>https://lwn.net/Articles/1048208/</link>
-            <description><![CDATA[<p>KDE's Plasma team has <a
-href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
-that KDE Plasma will drop X11 session support with Plasma&#160;6.8:</p>
-
-<blockquote class="bq">
-<p>The Plasma X11 session will be supported by KDE into early
-2027.</p>
-
-<p>We cannot provide a specific date, as we're exploring the
-possibility of shipping some extra bug-fix releases for Plasma
-6.7. The exact timing of the last one will only be known when we get
-closer to its actual release, which we expect will be sometime in
-early 2027.</p>
-
-<strong><p>What if I still really need X11?</p></strong>
-
-<p>This is a perfect use case for long term support (LTS)
-distributions shipping older versions of Plasma. For example,
-AlmaLinux 9 includes the Plasma X11 session and will be supported
-until sometime in 2032.</p>
-</blockquote>
-
-<p>See the blog post for information on running X11 applications
-(still supported), accessibility, gaming, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1048208/</guid>
-            <pubDate>Wed, 26 Nov 2025 16:49:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
         <item>
             <title>Security updates for Tuesday</title>
