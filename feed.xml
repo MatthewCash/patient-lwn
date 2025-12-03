@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Dec 2025 19:23:15 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Dec 2025 19:40:27 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Dec 2025 19:50:26 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Dec 2025 19:51:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Home Assistant 2025.12 released</title>
+            <link>https://lwn.net/Articles/1049142/</link>
+            <description><![CDATA[<a
+href="https://www.home-assistant.io/blog/2025/12/03/release-202512/">Version
+2025.12</a> of the Home Assistant home-automation system has been released.
+<p>
+<blockquote class="bq">
+	This month, we're unveiling Home Assistant Labs, a brand-new space
+	where you can preview features before they go mainstream. And what
+	better way to kick it off than with Winter mode? ❄️ Enable it and
+	watch snowflakes drift across your dashboard. It's completely
+	unnecessary, utterly delightful, and exactly the kind of thing we
+	love to build. ❄️
+<p>
+	But that's just the beginning. We've been working on making
+	automations more intuitive over the past releases, and this release
+	finally delivers purpose-specific triggers and conditions. Instead
+	of thinking in (numeric) states, you can now simply say "When a
+	light turns on" or "If the climate is heating". It's automation
+	building the way our mind works, as it should be.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1049142/</guid>
+            <pubDate>Wed, 03 Dec 2025 19:44:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Django 6.0 released</title>
             <link>https://lwn.net/Articles/1049111/</link>
