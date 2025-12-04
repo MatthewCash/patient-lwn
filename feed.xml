@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Dec 2025 14:09:54 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Dec 2025 14:22:38 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Dec 2025 14:42:18 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Dec 2025 14:48:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -618,14 +618,6 @@ migration guide</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1047386/</guid>
             <pubDate>Fri, 21 Nov 2025 14:42:04 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1048448/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kdeconnect, libssh, and samba), <b>Fedora</b> (7zip, docker-buildkit, and docker-buildx), <b>Oracle</b> (bind, buildah, cups, delve and golang, expat, firefox, gimp, go-rpm-macros, haproxy, kernel, lasso, libsoup, libtiff, mingw-expat, openssl, podman, python-kdcproxy, qt5-qt3d, runc, squid, thunderbird, tigervnc, valkey, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (buildah, cloudflared, containerd, expat, firefox, gnutls, helm, kernel, libxslt, mysql-connector-java, ongres-scram, openbao, openexr, openssh, podman, python311, python312, ruby2.5, rubygem-rack, runc, samba, sssd, tiff, unbound, and yelp), and <b>Ubuntu</b> (edk2, ffmpeg, h2o, python3.13, rust-openssl, and valkey).]]></description>
-            <guid>https://lwn.net/Articles/1048448/</guid>
-            <pubDate>Thu, 27 Nov 2025 14:36:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
         <item>
             <title>Security updates for Tuesday</title>
