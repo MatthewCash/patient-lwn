@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Dec 2025 19:22:55 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Dec 2025 19:26:53 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Dec 2025 19:26:35 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Dec 2025 19:41:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Alpine Linux 3.23.0 released</title>
+            <link>https://lwn.net/Articles/1049299/</link>
+            <description><![CDATA[<p><a href="https://alpinelinux.org/posts/Alpine-3.23.0-released.html">Version 3.23.0</a> of Alpine Linux has been released. Notable changes
+in this release include an upgrade to <a
+href="https://gitlab.alpinelinux.org/alpine/apk-tools/-/releases/v3.0.0">version&#160;3.0</a>
+of the <a
+href="https://gitlab.alpinelinux.org/alpine/apk-tools#apk-tools">Alpine
+Package Keeper</a> (apk), and replacing the <tt>linux-edge</tt>
+package with <tt>linux-stable</tt>:</p>
+
+<blockquote class="bq">
+<p>For years, linux-lts and linux-edge grew apart and developed their
+own kernel configs, different architectures, etc.</p>
+
+<p>Now linux-edge gets replaced with linux-stable which has the
+identical configuration as linux-lts, but follows the stable releases
+instead of the long-term releases (see https://kernel.org/).</p>
+</blockquote>
+
+<p>The <a
+href="https://www.alpinelinux.org/posts/2025-10-01-usr-merge.html"><tt>/usr</tt>
+merge planned for this release has been postponed</a>; a new timeline
+for the change will be published later. See the <a
+href="https://wiki.alpinelinux.org/wiki/Release_Notes_for_Alpine_3.23.0">release
+notes</a> for more information on this release.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1049299/</guid>
+            <pubDate>Thu, 04 Dec 2025 19:26:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1049251/</link>
