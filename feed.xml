@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 05 Dec 2025 13:42:03 +0000</pubDate>
-        <lastBuildDate>Fri, 5 Dec 2025 13:50:13 +0000</lastBuildDate>
+        <pubDate>Fri, 05 Dec 2025 14:12:56 +0000</pubDate>
+        <lastBuildDate>Fri, 5 Dec 2025 14:21:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1049417/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, gimp:2.8, go-toolset:rhel8, ipa, kea, kernel, kernel-rt, pcs, qt6-qtquick3d, qt6-qtsvg, systemd, and valkey), <b>Debian</b> (chromium and unbound), <b>Fedora</b> (alexvsbus, CuraEngine, fcgi, libcoap, python-kdcproxy, texlive-base, timg, and xpdf), <b>Mageia</b> (digikam, darktable, libraw, gnutls, python-django, unbound, webkit2, and xkbcomp), <b>Oracle</b> (bind, firefox, gimp:2.8, haproxy, ipa, java-25-openjdk, kea, kernel, libsoup3, libssh, libtiff, openssl, podman, qt6-qtsvg, squid, systemd, vim, and xorg-x11-server-Xwayland), <b>Slackware</b> (httpd and libpng), <b>SUSE</b> (chromedriver, kernel, and python-mistralclient), and <b>Ubuntu</b> (cups, linux-azure, linux-gcp, linux-gcp, linux-gke, linux-gkeop, linux-ibm-6.8, linux-iot, and mame).]]></description>
+            <guid>https://lwn.net/Articles/1049417/</guid>
+            <pubDate>Fri, 05 Dec 2025 14:12:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Alpine Linux 3.23.0 released</title>
             <link>https://lwn.net/Articles/1049299/</link>
