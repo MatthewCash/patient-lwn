@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 05 Dec 2025 14:12:56 +0000</pubDate>
-        <lastBuildDate>Fri, 5 Dec 2025 14:21:48 +0000</lastBuildDate>
+        <pubDate>Fri, 05 Dec 2025 14:33:09 +0000</pubDate>
+        <lastBuildDate>Fri, 5 Dec 2025 14:46:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -652,14 +652,6 @@ migration guide</a> for details.]]></description>
             <dc:creator>jake</dc:creator>
         </item>
         <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1047386/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve and golang), <b>Debian</b> (webkit2gtk), <b>Oracle</b> (expat and thunderbird), <b>Red Hat</b> (kernel), <b>Slackware</b> (openvpn), <b>SUSE</b> (chromium, grub2, and kernel), and <b>Ubuntu</b> (cups-filters, imagemagick, and libcupsfilters).]]></description>
-            <guid>https://lwn.net/Articles/1047386/</guid>
-            <pubDate>Fri, 21 Nov 2025 14:42:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
@@ -840,14 +832,6 @@ migration guide</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1047429/</guid>
             <pubDate>Fri, 21 Nov 2025 15:47:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1047386/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve and golang), <b>Debian</b> (webkit2gtk), <b>Oracle</b> (expat and thunderbird), <b>Red Hat</b> (kernel), <b>Slackware</b> (openvpn), <b>SUSE</b> (chromium, grub2, and kernel), and <b>Ubuntu</b> (cups-filters, imagemagick, and libcupsfilters).]]></description>
-            <guid>https://lwn.net/Articles/1047386/</guid>
-            <pubDate>Fri, 21 Nov 2025 14:42:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
