@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 05 Dec 2025 14:33:09 +0000</pubDate>
-        <lastBuildDate>Fri, 5 Dec 2025 15:45:35 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 5 Dec 2025 15:56:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -622,28 +622,6 @@ Landlock security module</a>.
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>PHP 8.5.0 released</title>
-            <link>https://lwn.net/Articles/1047429/</link>
-            <description><![CDATA[<a
-href="https://lwn.net/ml/all/CALaXqqT+vb-WoCrGaSG=d4d20wkuKPgA+gH7ThFygBQ4M0C_nw@mail.gmail.com">Version
-8.5.0</a> of the PHP language has been released.  Changes include a new
-"<tt>|&gt;</tt>" operator that, for some reason, makes these two lines
-equivalent:
-<p>
-<pre>
-    $result = strlen("Hello world");
-    $result = "Hello world" |&gt; strlen(...);
-</pre>
-<p>
-Other changes include a new function attribute, "<tt>#[\NoDiscard]</tt>" to
-indicate that the return value should be used, attributes on constants, and
-more; see <a href="https://www.php.net/manual/en/migration85.php">the
-migration guide</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1047429/</guid>
-            <pubDate>Fri, 21 Nov 2025 15:47:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
@@ -801,28 +779,6 @@ Advisory Board has been posted.
 Nominations close on December 13.]]></description>
             <guid>https://lwn.net/Articles/1047546/</guid>
             <pubDate>Sun, 23 Nov 2025 15:45:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>PHP 8.5.0 released</title>
-            <link>https://lwn.net/Articles/1047429/</link>
-            <description><![CDATA[<a
-href="https://lwn.net/ml/all/CALaXqqT+vb-WoCrGaSG=d4d20wkuKPgA+gH7ThFygBQ4M0C_nw@mail.gmail.com">Version
-8.5.0</a> of the PHP language has been released.  Changes include a new
-"<tt>|&gt;</tt>" operator that, for some reason, makes these two lines
-equivalent:
-<p>
-<pre>
-    $result = strlen("Hello world");
-    $result = "Hello world" |&gt; strlen(...);
-</pre>
-<p>
-Other changes include a new function attribute, "<tt>#[\NoDiscard]</tt>" to
-indicate that the return value should be used, attributes on constants, and
-more; see <a href="https://www.php.net/manual/en/migration85.php">the
-migration guide</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1047429/</guid>
-            <pubDate>Fri, 21 Nov 2025 15:47:25 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
