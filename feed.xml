@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 07 Dec 2025 15:52:27 +0000</pubDate>
-        <lastBuildDate>Sun, 7 Dec 2025 16:45:34 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 7 Dec 2025 16:55:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -544,33 +544,6 @@ release notes</a> for details.]]></description>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
-            <title>Racket 9.0 released</title>
-            <link>https://lwn.net/Articles/1047549/</link>
-            <description><![CDATA[The <a href="https://racket-lang.org/">Racket programming language</a>
-project has <a
-href="https://blog.racket-lang.org/2025/11/racket-v9-0.html">released Racket
-version 9.0</a>. Racket is a descendant of <a
-href="https://www.scheme.org/">Scheme</a>, so it is part of the Lisp family of languages. The headline feature in the release is <a
-href="https://blog.racket-lang.org/2025/11/parallel-threads.html">parallel
-threads</a>, which adds to the concurrency tools in the language: "<q>While
-Racket has had green threads for some time, and supports parallelism via
-futures and places, we feel parallel threads is a major addition.</q>"
-Other new features include the <a
-href="https://docs.racket-lang.org/reference/black-box.html#%28def._%28%28quote._~23~25kernel%29._black-box%29%29">black-box</a>
-wrapper to prevent the compiler from optimizing calculations away, the <a
-href="https://docs.racket-lang.org/reference/linklets.html#%28def._%28%28lib._racket%2Flinklet..rkt%29._decompile-linklet%29%29">decompile-linklet</a>
-function to map <a
-href="https://docs.racket-lang.org/reference/linklets.html">linklets</a>
-back to an <a
-href="https://en.wikipedia.org/wiki/S-expression">s-expression</a>, the
-addition of <a
-href="https://docs.racket-lang.org/math/Real_Distribution_Families.html#%28part._.Weibull_.Distributions%29">Weibull
-distributions</a> to the math library, and more.]]></description>
-            <guid>https://lwn.net/Articles/1047549/</guid>
-            <pubDate>Sun, 23 Nov 2025 16:27:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
@@ -656,33 +629,6 @@ last -rc before the 6.18 release.
             <guid>https://lwn.net/Articles/1047578/</guid>
             <pubDate>Mon, 24 Nov 2025 00:10:02 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Racket 9.0 released</title>
-            <link>https://lwn.net/Articles/1047549/</link>
-            <description><![CDATA[The <a href="https://racket-lang.org/">Racket programming language</a>
-project has <a
-href="https://blog.racket-lang.org/2025/11/racket-v9-0.html">released Racket
-version 9.0</a>. Racket is a descendant of <a
-href="https://www.scheme.org/">Scheme</a>, so it is part of the Lisp family of languages. The headline feature in the release is <a
-href="https://blog.racket-lang.org/2025/11/parallel-threads.html">parallel
-threads</a>, which adds to the concurrency tools in the language: "<q>While
-Racket has had green threads for some time, and supports parallelism via
-futures and places, we feel parallel threads is a major addition.</q>"
-Other new features include the <a
-href="https://docs.racket-lang.org/reference/black-box.html#%28def._%28%28quote._~23~25kernel%29._black-box%29%29">black-box</a>
-wrapper to prevent the compiler from optimizing calculations away, the <a
-href="https://docs.racket-lang.org/reference/linklets.html#%28def._%28%28lib._racket%2Flinklet..rkt%29._decompile-linklet%29%29">decompile-linklet</a>
-function to map <a
-href="https://docs.racket-lang.org/reference/linklets.html">linklets</a>
-back to an <a
-href="https://en.wikipedia.org/wiki/S-expression">s-expression</a>, the
-addition of <a
-href="https://docs.racket-lang.org/math/Real_Distribution_Families.html#%28part._.Weibull_.Distributions%29">Weibull
-distributions</a> to the math library, and more.]]></description>
-            <guid>https://lwn.net/Articles/1047549/</guid>
-            <pubDate>Sun, 23 Nov 2025 16:27:46 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
