@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 07 Dec 2025 22:59:35 +0000</pubDate>
-        <lastBuildDate>Sun, 7 Dec 2025 23:18:20 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 7 Dec 2025 23:39:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -526,21 +526,6 @@ and <a href="https://kernelnewbies.org/Linux_6.18">the KernelNewbies 6.18
 page</a> for more information.]]></description>
             <guid>https://lwn.net/Articles/1048703/</guid>
             <pubDate>Mon, 01 Dec 2025 00:03:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>NixOS 25.11 released</title>
-            <link>https://lwn.net/Articles/1048727/</link>
-            <description><![CDATA[<a href="https://nixos.org/blog/announcements/2025/nixos-2511/">Version
-25.11</a> of the NixOS distribution has been released.  "<q>The 25.11
-release was made possible due to the efforts of 2742 contributors, who
-authored 59430 commits since the previous release</q>".  Changes include
-7,002 new packages, GNOME&#160;49, LLVM&#160;21, a new COSMIC desktop
-environment beta, firewalld support, and more; see <a
-href="https://nixos.org/manual/nixos/stable/release-notes#sec-release-25.11">the
-release notes</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1048727/</guid>
-            <pubDate>Sun, 30 Nov 2025 23:06:07 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
         <item>
