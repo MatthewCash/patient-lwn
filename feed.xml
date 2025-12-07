@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 07 Dec 2025 15:10:59 +0000</pubDate>
-        <lastBuildDate>Sun, 7 Dec 2025 15:38:32 +0000</lastBuildDate>
+        <pubDate>Sun, 07 Dec 2025 15:50:54 +0000</pubDate>
+        <lastBuildDate>Sun, 7 Dec 2025 15:52:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Six stable kernels for the weekend</title>
+            <link>https://lwn.net/Articles/1049554/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the
+<a href="https://lwn.net/Articles/1049556/">6.17.11</a>,
+<a href="https://lwn.net/Articles/1049557/">6.12.61</a>,
+<a href="https://lwn.net/Articles/1049558/">6.6.119</a>,
+<a href="https://lwn.net/Articles/1049559/">6.1.159</a>,
+<a href="https://lwn.net/Articles/1049560/">5.15.197</a>, and
+<a href="https://lwn.net/Articles/1049555/">5.10.247</a> stable kernels. Each contains important fixes throughout the tree; users of these kernels should upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1049554/</guid>
+            <pubDate>Sun, 07 Dec 2025 15:48:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1049417/</link>
