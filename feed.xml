@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Dec 2025 13:51:33 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Dec 2025 13:53:03 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Dec 2025 14:11:02 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Dec 2025 14:22:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1049657/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, krita, lasso, and libpng1.6), <b>Fedora</b> (abrt, cef, chromium, tinygltf, webkitgtk, and xkbcomp), <b>Oracle</b> (buildah, delve and golang, expat, python-kdcproxy, qt6-qtquick3d, qt6-qtsvg, sssd, thunderbird, and valkey), <b>Red Hat</b> (webkit2gtk3), and <b>SUSE</b> (git-bug, go1, and libpng12-0).]]></description>
+            <guid>https://lwn.net/Articles/1049657/</guid>
+            <pubDate>Mon, 08 Dec 2025 14:11:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Six stable kernels for the weekend</title>
             <link>https://lwn.net/Articles/1049554/</link>
@@ -424,51 +432,6 @@ notes</a> for a full list of changes.</p>
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1047682/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (calibre, chromium, cri-o1.32, cri-o1.33, cri-o1.34, dotnet10.0, dovecot, gnutls, gopass, gopass-hibp, gopass-jsonapi, kubernetes1.31, kubernetes1.32, kubernetes1.33, kubernetes1.34, and linux-firmware), <b>Mageia</b> (ffmpeg, kernel, kmod-xtables-addons &amp; kmod-virtualbox, kernel-linus, konsole, and redis), <b>Red Hat</b> (bind and bind-dyndb-ldap and kernel), <b>SUSE</b> (act, alloy, amazon-ssm-agent, ansible-12, ansible-core, blender, chromium, cups-filters, curl, elfutils, expat, firefox, glib2, grub2, helm, kernel, libipa_hbac-devel, libxslt, nvidia-container-toolkit, ongres-scram, openexr, podman, poppler, runc, samba, sssd, thunderbird, and tomcat), and <b>Ubuntu</b> (cups-filters, linux, linux-aws, linux-gcp, linux-hwe-6.14, linux-oracle, linux-realtime, linux-oem-6.14, and linux-realtime-6.14).]]></description>
-            <guid>https://lwn.net/Articles/1047682/</guid>
-            <pubDate>Mon, 24 Nov 2025 14:05:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates, two french hens, ...</title>
-            <link>https://lwn.net/Articles/1047683/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has announced the release of the
-<a href="https://lwn.net/Articles/1047684/">6.17.9</a>,
-<a href="https://lwn.net/Articles/1047685/">6.12.59</a>, and
-<a href="https://lwn.net/Articles/1047686/">6.6.117</a> stable kernels. As usual, he advises
-users of stable kernels to upgrade.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1047683/</guid>
-            <pubDate>Mon, 24 Nov 2025 14:11:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1048817/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind9.18, cups, gimp, ipa, kernel, libssh, mingw-expat, openssl, pcs, sssd, tigervnc, and valkey), <b>Debian</b> (gnome-shell-extension-gsconnect, mistral-dashboard, pagure, python-mistralclient, pytorch, qtbase-opensource-src, sogo, tryton-server, and unbound), <b>Fedora</b> (cef, drupal7, glib2, linux-firmware, migrate, pack, pgadmin4, rnp, and unbound), <b>Slackware</b> (libxslt), <b>SUSE</b> (cpp-httplib, curl, glib2, grub2, kernel, libcoap-devel, libcryptopp, libwireshark19, postgresql15, and postgresql17), and <b>Ubuntu</b> (edk2).]]></description>
-            <guid>https://lwn.net/Articles/1048817/</guid>
-            <pubDate>Mon, 01 Dec 2025 14:14:39 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernels for Monday</title>
-            <link>https://lwn.net/Articles/1048755/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1048756/">6.17.10</a>, <a
-href="https://lwn.net/Articles/1048757/">6.12.60</a>, and <a
-href="https://lwn.net/Articles/1048758/">6.6.118</a> stable kernels. As usual, each
-contains a number of important fixes throughout the tree. Users are
-advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1048755/</guid>
-            <pubDate>Mon, 01 Dec 2025 13:51:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
@@ -511,28 +474,6 @@ notes</a> for a full list of changes.</p>
             <guid>https://lwn.net/Articles/1047763/</guid>
             <pubDate>Mon, 24 Nov 2025 19:18:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1047682/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (calibre, chromium, cri-o1.32, cri-o1.33, cri-o1.34, dotnet10.0, dovecot, gnutls, gopass, gopass-hibp, gopass-jsonapi, kubernetes1.31, kubernetes1.32, kubernetes1.33, kubernetes1.34, and linux-firmware), <b>Mageia</b> (ffmpeg, kernel, kmod-xtables-addons &amp; kmod-virtualbox, kernel-linus, konsole, and redis), <b>Red Hat</b> (bind and bind-dyndb-ldap and kernel), <b>SUSE</b> (act, alloy, amazon-ssm-agent, ansible-12, ansible-core, blender, chromium, cups-filters, curl, elfutils, expat, firefox, glib2, grub2, helm, kernel, libipa_hbac-devel, libxslt, nvidia-container-toolkit, ongres-scram, openexr, podman, poppler, runc, samba, sssd, thunderbird, and tomcat), and <b>Ubuntu</b> (cups-filters, linux, linux-aws, linux-gcp, linux-hwe-6.14, linux-oracle, linux-realtime, linux-oem-6.14, and linux-realtime-6.14).]]></description>
-            <guid>https://lwn.net/Articles/1047682/</guid>
-            <pubDate>Mon, 24 Nov 2025 14:05:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates, two french hens, ...</title>
-            <link>https://lwn.net/Articles/1047683/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has announced the release of the
-<a href="https://lwn.net/Articles/1047684/">6.17.9</a>,
-<a href="https://lwn.net/Articles/1047685/">6.12.59</a>, and
-<a href="https://lwn.net/Articles/1047686/">6.6.117</a> stable kernels. As usual, he advises
-users of stable kernels to upgrade.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1047683/</guid>
-            <pubDate>Mon, 24 Nov 2025 14:11:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
