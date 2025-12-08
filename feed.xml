@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Dec 2025 01:29:15 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Dec 2025 01:29:45 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Dec 2025 02:06:25 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Dec 2025 03:11:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -469,66 +469,6 @@ advised to upgrade.</p>
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
-            <title>Kernel prepatch 6.18-rc7</title>
-            <link>https://lwn.net/Articles/1047578/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1047577/">6.18-rc7</a>, probably the
-last -rc before the 6.18 release.
-<p>
-<blockquote class="bq">
-	So the rc6 kernel wasn't great: we had a last-minute core VM
-	regression that caused people problems.
-<p>
-	That's not a great thing late in the release cycle like that, but
-	it was a fairly trivial fix, and the cause wasn't some horrid bug,
-	just a latent gotcha that happened to then bite a late VM fix. So
-	while not great, it also doesn't make me worry about the state of
-	6.18. We're still on track for a final release next weekend unless
-	some big new problem rears its ugly head.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1047578/</guid>
-            <pubDate>Mon, 24 Nov 2025 00:10:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The 6.18 kernel has been released</title>
-            <link>https://lwn.net/Articles/1048703/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/ml/all/CAHk-=whnC+hRftevTLeVs3tyyqwn+7un=jUES2-WX+pZhDdKNw@mail.gmail.com/">released the 6.18 kernel</a>, as expected.
-<p>
-<blockquote class="bq">
-	So I'll have to admit that I'd have been happier with slightly less
-	bugfixing noise in this last week of the release, but while there's
-	a few more fixes than I would hope for, there was nothing that made
-	me feel like this needs more time to cook. So 6.18 is tagged and
-	pushed out.
-</blockquote>
-<p>
-Headline changes in this release include
-the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3ab378cfa793">ability</a>
-to manage namespaces with file handles,
-support for the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f60034689f2c">AccECN</a>
-congestion-control protocol,
-initial <a href="https://lwn.net/Articles/1031854/">support</a> for signing of BPF
-programs,
-improved memory management with <a href="https://lwn.net/Articles/1010667/">sheaves</a>,
-the <a href="https://lwn.net/Articles/953116/">Rust binder driver</a>,
-better <a href="https://lwn.net/Articles/1032199/">control over transparent huge
-pages</a>,
-and a lot more.
-This release also saw the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f2c61db29f27">removal
-of the bcachefs filesystem</a>.
-<p>
-See the LWN merge-window summaries 
-(<a href="https://lwn.net/Articles/1040203/">part&#160;1</a>, <a href="https://lwn.net/Articles/1041004/">part&#160;2</a>)
-and <a href="https://kernelnewbies.org/Linux_6.18">the KernelNewbies 6.18
-page</a> for more information.]]></description>
-            <guid>https://lwn.net/Articles/1048703/</guid>
-            <pubDate>Mon, 01 Dec 2025 00:03:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1047950/</link>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, go-rpm-macros, kernel, kernel-rt, podman, and thunderbird), <b>Debian</b> (erlang, python-gevent, and r-cran-gh), <b>Fedora</b> (buildah, chromium, k9s, kubernetes1.33, kubernetes1.34, podman, python-mkdocs-include-markdown-plugin, and webkitgtk), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge. Opera, qtsvg, redict, redis, UDisks, and WebKitGTK+), <b>Mageia</b> (cups-filters and ruby-rack), <b>Oracle</b> (kernel and libssh), <b>Red Hat</b> (.NET 8.0, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (act, bind, cups-filters, govulncheck-vulndb, grub2, libebml, python39, and tcpreplay), and <b>Ubuntu</b> (linux-raspi, linux-raspi-realtime, openjdk-21, openjdk-25, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and runc-app, runc-stable).]]></description>
@@ -593,27 +533,6 @@ users of stable kernels to upgrade.
             <guid>https://lwn.net/Articles/1047683/</guid>
             <pubDate>Mon, 24 Nov 2025 14:11:01 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.18-rc7</title>
-            <link>https://lwn.net/Articles/1047578/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1047577/">6.18-rc7</a>, probably the
-last -rc before the 6.18 release.
-<p>
-<blockquote class="bq">
-	So the rc6 kernel wasn't great: we had a last-minute core VM
-	regression that caused people problems.
-<p>
-	That's not a great thing late in the release cycle like that, but
-	it was a fairly trivial fix, and the cause wasn't some horrid bug,
-	just a latent gotcha that happened to then bite a late VM fix. So
-	while not great, it also doesn't make me worry about the state of
-	6.18. We're still on track for a final release next weekend unless
-	some big new problem rears its ugly head.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1047578/</guid>
-            <pubDate>Mon, 24 Nov 2025 00:10:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
