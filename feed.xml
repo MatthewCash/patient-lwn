@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Dec 2025 13:41:41 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Dec 2025 13:56:34 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Dec 2025 14:22:31 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Dec 2025 14:23:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1049939/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (abrt and kernel), <b>Debian</b> (libpng1.6, libsoup2.4, pdns-recursor, webkit2gtk, and wordpress), <b>Fedora</b> (imhex, libwebsockets, lunasvg, python3-docs, and python3.14), <b>Mageia</b> (python3 and webkit2), <b>Red Hat</b> (abrt, firefox, mysql8.4, and postgresql:15), <b>Slackware</b> (mozilla), <b>SUSE</b> (gegl, gnutls, go1.24, go1.25, libpng16-16, openssh, postgresql13, python-Jinja2, and sssd), and <b>Ubuntu</b> (fonttools and netty).]]></description>
+            <guid>https://lwn.net/Articles/1049939/</guid>
+            <pubDate>Wed, 10 Dec 2025 14:16:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The end of the kernel Rust experiment</title>
             <link>https://lwn.net/Articles/1049831/</link>
@@ -386,34 +394,6 @@ Security Policy</a> (CSP) feature that provides the ability to "<q>easily config
             <guid>https://lwn.net/Articles/1049111/</guid>
             <pubDate>Wed, 03 Dec 2025 16:41:27 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>A final stable kernel update for 5.4</title>
-            <link>https://lwn.net/Articles/1049059/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1049060/">5.4.302</a> stable kernel:</p>
-
-<blockquote class="bq">
-This is the LAST 5.4.y release. It is now end-of-life and should not
-be used by anyone, anymore. As of this point in time, there are 1539
-documented unfixed CVEs for this kernel branch, and that number will
-only increase over time as more CVEs get assigned for kernel bugs.
-</blockquote>
-
-<p>For the curious, Kroah-Hartman has also <a
-href="https://lwn.net/ml/all/2025120358-skating-outage-7c61@gregkh/">provided</a>
-a list of the unfixed CVEs for 5.5.302.</p>]]></description>
-            <guid>https://lwn.net/Articles/1049059/</guid>
-            <pubDate>Wed, 03 Dec 2025 14:00:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1049103/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (containerd, mako, and xen), <b>Fedora</b> (forgejo, nextcloud, openbao, rclone, restic, and tigervnc), <b>Oracle</b> (firefox, kernel, libtiff, libxml2, and postgresql), <b>SUSE</b> (libecpg6, lightdm-kde-greeter, python-cbor2, python-mistralclient-doc, python315, and python39), and <b>Ubuntu</b> (kdeconnect, linux, linux-aws, linux-realtime, python-django, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1049103/</guid>
-            <pubDate>Wed, 03 Dec 2025 14:11:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
