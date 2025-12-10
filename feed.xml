@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Dec 2025 01:26:07 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Dec 2025 01:40:50 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Dec 2025 02:57:54 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Dec 2025 03:14:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The end of the kernel Rust experiment</title>
+            <link>https://lwn.net/Articles/1049831/</link>
+            <description><![CDATA[The topic of the Rust experiment was just discussed at the annual
+Maintainers Summit.  The consensus among the assembled developers is that
+Rust in the kernel is no longer experimental — it is now a core part of the
+kernel and is here to stay.  So the "experimental" tag will be coming off.
+Congratulations are in order for all of the Rust-for-Linux team.
+<p>
+(Stay tuned for details in our Maintainers Summit coverage.)]]></description>
+            <guid>https://lwn.net/Articles/1049831/</guid>
+            <pubDate>Wed, 10 Dec 2025 02:57:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The 2024 Free Software Awards winners</title>
             <link>https://lwn.net/Articles/1049822/</link>
