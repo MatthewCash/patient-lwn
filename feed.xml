@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Dec 2025 16:43:50 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Dec 2025 16:54:31 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Dec 2025 17:19:17 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Dec 2025 17:22:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -377,23 +377,6 @@ href="https://www.home-assistant.io/blog/2025/12/03/release-202512/">Version
             <guid>https://lwn.net/Articles/1049142/</guid>
             <pubDate>Wed, 03 Dec 2025 19:44:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Django 6.0 released</title>
-            <link>https://lwn.net/Articles/1049111/</link>
-            <description><![CDATA[The <a href="https://www.djangoproject.com/">Django</a> Python web
-framework project has <a
-href="https://www.djangoproject.com/weblog/2025/dec/03/django-60-released/">announced
-the release of Django 6.0</a> including many new features, as can be seen in
-the <a href="https://docs.djangoproject.com/en/6.0/releases/6.0/">release
-notes</a>.  Some highlights include template partials for modularizing
-templates, a flexible task framework for running background tasks, a
-modernized email API, and a <a
-href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP">Content
-Security Policy</a> (CSP) feature that provides the ability to "<q>easily configure and enforce browser-level security policies to protect against content injection</q>".]]></description>
-            <guid>https://lwn.net/Articles/1049111/</guid>
-            <pubDate>Wed, 03 Dec 2025 16:41:27 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
