@@ -8,11 +8,59 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Dec 2025 17:36:09 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Dec 2025 17:48:14 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Dec 2025 18:29:51 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Dec 2025 18:30:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kroah-Hartman: Linux CVEs, more than you ever wanted to know</title>
+            <link>https://lwn.net/Articles/1049963/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman is <a
+href="http://www.kroah.com/log/blog/2025/12/08/linux-cves-more-than-you-ever-wanted-to-know/">writing
+a series of blog posts</a> about Linux becoming a Certificate
+Numbering Authority (CNA):</p>
+
+<blockquote class="bq">
+<p>It's been almost 2 full years since <a href="http://www.kroah.com/log/blog/2024/02/13/linux-is-a-cna/">Linux became a CNA (Certificate
+Numbering Authority)</a> which meant that we (i.e. the kernel.org
+community) are now responsible for issuing all CVEs for the Linux
+kernel. During this time, we've become one of the largest creators of
+CVEs by quantity, going from nothing to number 3 in 2024 to number 1
+in 2025. Naturally, this has caused some questions about how we are
+both doing all of this work, and how people can keep track of it.</p>
+</blockquote>
+
+<p>So far, Kroah-Hartman has published the introductory post, as well
+as a <a
+href="http://www.kroah.com/log/blog/2025/12/09/linux-kernel-version-numbers/">detailed
+post about kernel version numbers</a> that is well worth reading.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1049963/</guid>
+            <pubDate>Wed, 10 Dec 2025 18:24:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>10 Years of Let&apos;s Encrypt Certificates</title>
+            <link>https://lwn.net/Articles/1049965/</link>
+            <description><![CDATA[<p>Let's Encrypt has <a
+href="https://letsencrypt.org/2025/12/09/10-years.html">published</a>
+a retrospective that covers the decade since it published its first
+publicly trusted certificate in September 2015:</p>
+
+<blockquote class="bq">
+In March 2016, we issued our one millionth certificate. Just two years
+later, in September 2018, we were issuing a million certificates every
+day. In 2020 we reached a billion total certificates issued and as of
+late 2025 we're frequently issuing ten million certificates per
+day. We're now on track to reach a billion active sites, probably
+sometime in the coming year.
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1049965/</guid>
+            <pubDate>Wed, 10 Dec 2025 18:29:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1049939/</link>
