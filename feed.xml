@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Dec 2025 23:42:36 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Dec 2025 23:52:12 +0000</lastBuildDate>
+        <pubDate>Wed, 10 Dec 2025 01:26:07 +0000</pubDate>
+        <lastBuildDate>Wed, 10 Dec 2025 01:40:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 2024 Free Software Awards winners</title>
+            <link>https://lwn.net/Articles/1049822/</link>
+            <description><![CDATA[The Free Software Foundation has <a
+href="https://www.fsf.org/news/2024-free-software-awards-winners">announced</a>
+the recipients of its 2024 (even though 2025 is almost over) Free Software
+Awards.  Andy Wingo won the award for the advancement of free software, Alx
+Sa is the outstanding new free-software contributor, and Govdirectory takes
+the award for projects of social benefit.]]></description>
+            <guid>https://lwn.net/Articles/1049822/</guid>
+            <pubDate>Tue, 09 Dec 2025 23:55:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 146 released</title>
             <link>https://lwn.net/Articles/1049771/</link>
