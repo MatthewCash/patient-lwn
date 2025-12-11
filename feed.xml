@@ -8,11 +8,148 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Dec 2025 23:45:49 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Dec 2025 23:51:55 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Dec 2025 00:36:56 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Dec 2025 01:41:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for December 4, 2025</title>
+            <link>https://lwn.net/Articles/1047221/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1047221/">Front</a>: Rust in Debian; Python comprehensions; asynchronous Zig; BPF and io_uring; C safety; 6.18 statistics; just.
+            <li> <a href="https://lwn.net/Articles/1047223/">Briefs</a>: Landlock; Let's Encrypt lifetimes; Last 5.4 kernel; TAB election; AlmaLinux 10.1; FreeBSD 15.0; NixOS 25.11; Django 6.0; Home Assistant 2025.12; PHP 8.5.0; Racket 9.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1047224/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1047221/</guid>
+            <pubDate>Thu, 04 Dec 2025 00:10:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Just: a command runner</title>
+            <link>https://lwn.net/Articles/1047715/</link>
+            <description><![CDATA[<p>Over time, many Linux users wind up with a collection of aliases,
+shell scripts, and makefiles to run simple commands (or a series of
+commands) that are often used, but challenging to remember and
+annoying to type out at length. The <a
+href="https://just.systems/"><tt>just</tt></a> command runner is a
+Rust-based utility that just does one thing and does it well: it reads
+recipes from a text file (aptly called a "justfile"), and runs the
+commands from an invoked recipe. Rather than accumulating a library
+of one-off shell scripts over time, <tt>just</tt> provides a cross-platform tool
+with a framework and well-documented syntax for collecting and
+documenting tasks that makes it useful for solo users and
+collaborative projects.</p>]]></description>
+            <guid>https://lwn.net/Articles/1047715/</guid>
+            <pubDate>Wed, 03 Dec 2025 16:01:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Zig&apos;s new plan for asynchronous programs</title>
+            <link>https://lwn.net/Articles/1046084/</link>
+            <description><![CDATA[<p>
+The designers of the
+<a href="https://ziglang.org/">
+Zig programming language</a> have been working to find a
+suitable design for asynchronous code for some time.
+Zig is a carefully minimalist language, and its
+<a href="https://ziglang.org/documentation/0.5.0/#Async-Functions">
+initial design</a> for
+asynchronous I/O did not fit well with its other
+features. Now, the project has
+<a href="https://zig.show/episodes/41/">
+announced</a> (in a Zig SHOWTIME video) a new approach to asynchronous I/O that
+promises to solve the
+<a href="https://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/">
+function coloring</a> problem, and allows writing code that will execute
+correctly using either synchronous or asynchronous I/O.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1046084/</guid>
+            <pubDate>Tue, 02 Dec 2025 14:10:36 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Checked-size array parameters in C</title>
+            <link>https://lwn.net/Articles/1046840/</link>
+            <description><![CDATA[There are many possible programmer mistakes that are not caught by the
+minimal checks specified by the C language; among those is passing an array
+of the wrong size to a function.  A recent attempt to add some safety
+around array parameters within the crypto layer involved the use of some
+clever tricks, but it turns out that clever tricks are unnecessary in this
+case.  There is an obscure C feature that can cause this checking to
+happen, and it is already in use in a few places within the kernel.]]></description>
+            <guid>https://lwn.net/Articles/1046840/</guid>
+            <pubDate>Mon, 01 Dec 2025 21:11:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some 6.18 development statistics</title>
+            <link>https://lwn.net/Articles/1046966/</link>
+            <description><![CDATA[Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=whnC+hRftevTLeVs3tyyqwn+7un=jUES2-WX+pZhDdKNw@mail.gmail.com/">released</a>
+the 6.18 kernel as expected on November&#160;30, closing the last full
+development cycle of 2025.  It was another busy cycle, featuring a record
+number of developers.  The time has come for a look at where the code came
+from for this kernel release, but also for the year-long long-term-support
+cycle which has also reached its conclusion with this release.]]></description>
+            <guid>https://lwn.net/Articles/1046966/</guid>
+            <pubDate>Mon, 01 Dec 2025 17:50:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] APT Rust requirement raises questions</title>
+            <link>https://lwn.net/Articles/1046841/</link>
+            <description><![CDATA[<p>It is rarely newsworthy when a project or package picks up a new
+dependency. However, changes in a core tool like Debian's <a
+href="https://salsa.debian.org/apt-team/apt#apt">Advanced Package
+Tool</a> (APT) can have far-reaching effects. For example, Julian
+Andres Klode's <a
+href="https://lwn.net/ml/all/20251031213541.GA73786@debian.org/">declaration</a>
+that APT would require Rust in May 2026 means that a few of Debian's
+unofficial ports must either acquire a working Rust toolchain or
+depend on an old version of APT. This has raised several questions
+within the project, particularly about the ability of a single
+maintainer to make changes that have widespread impact.</p>]]></description>
+            <guid>https://lwn.net/Articles/1046841/</guid>
+            <pubDate>Mon, 24 Nov 2025 15:26:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Unpacking for Python comprehensions</title>
+            <link>https://lwn.net/Articles/1046216/</link>
+            <description><![CDATA[Unpacking Python <a href="https://docs.python.org/3/glossary.html#term-iterable">iterables</a> of various sorts, such as dictionaries or lists,
+is useful in a number of contexts, including for function arguments, but
+there has long been a call for extending that capability to <a href="https://docs.python.org/3/glossary.html#term-list-comprehension">comprehensions</a>.  <a
+href="https://peps.python.org/pep-0798/">PEP&#160;798</a> ("Unpacking in
+Comprehensions") was first proposed in June 2025 to fill that gap.  In early
+November, the steering council <a
+href="https://discuss.python.org/t/pep-798-unpacking-in-comprehensions/99435/60">accepted</a>
+the PEP, which means that the feature will be coming to Python&#160;3.15 in
+October&#160;2026.  It may be something of a niche feature, but it is an
+inconsistency 
+that has been apparent for a while—to the point that some Python programmers
+assume that it is already present in the language.]]></description>
+            <guid>https://lwn.net/Articles/1046216/</guid>
+            <pubDate>Fri, 21 Nov 2025 16:09:50 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] BPF and io_uring, two different ways</title>
+            <link>https://lwn.net/Articles/1046950/</link>
+            <description><![CDATA[BPF allows programs uploaded from user space to be run, safely, within the
+kernel.  The io_uring subsystem, too, can be thought of as a way of loading
+programs in the kernel, though the programs in question are mostly a
+sequence of I/O-related system calls.  It has sometimes seemed inevitable
+that io_uring would, like many other parts of the kernel, gain BPF
+capabilities as a way of providing more flexibility to user space.  That
+has not yet happened, but there are currently two patches sets under
+consideration that take different approaches to the problem.]]></description>
+            <guid>https://lwn.net/Articles/1046950/</guid>
+            <pubDate>Thu, 20 Nov 2025 15:39:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kroah-Hartman: Linux CVEs, more than you ever wanted to know</title>
             <link>https://lwn.net/Articles/1049963/</link>
@@ -279,126 +416,6 @@ href="https://gitlab.com/cmocka/cmocka/-/blob/cmocka-2.0.0/CHANGELOG.md#changelo
             <guid>https://lwn.net/Articles/1049199/</guid>
             <pubDate>Thu, 04 Dec 2025 14:09:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Cro provides commentary on LWN&apos;s Zig asynchronicity article</title>
-            <link>https://lwn.net/Articles/1049158/</link>
-            <description><![CDATA[<p>
-Loris Cro has published
-<a href="https://www.youtube.com/watch?v=JY2Zxu7kngc">
-a detailed YouTube video</a> talking about the terminology used to discuss asynchronicity, concurrency, and parallelism in <a href="https://lwn.net/Articles/1046084/">our recent article</a> about Zig's new <tt>Io</tt> interface. Our article is not completely clear because it uses the term "asynchronous <span style="white-space:nowrap;">I/O</span>" to refer to what should really be called "non-blocking <span style="white-space:nowrap;">I/O</span>", and sometimes confuses asynchronicity for concurrency, among other errors of terminology, he says. Readers interested in precise details about Zig's approach and some of the motivation behind the design may find Cro's video interesting.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1049158/</guid>
-            <pubDate>Thu, 04 Dec 2025 00:44:38 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 20, 2025</title>
-            <link>https://lwn.net/Articles/1046323/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1046323/">Front</a>: Hardware architectures; Fedora Flatpaks; Debian hardware support; sockaddr structure; NUMA nodes; Homebrew.
-            <li> <a href="https://lwn.net/Articles/1046325/">Briefs</a>: LightDM security; Debian Libre Live; Xubuntu postmortem; Blender 5.0; Git 2.52.0; Rust in Android; Thunderbird 145; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1046326/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1046323/</guid>
-            <pubDate>Thu, 20 Nov 2025 00:13:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian debates amending architecture support stratagem</title>
-            <link>https://lwn.net/Articles/1046319/</link>
-            <description><![CDATA[<p>
-The Linux kernel
-<a href="https://lwn.net/Articles/1045363">supports a large number of architectures</a>.
-Not all of those are supported by Linux distributions, but Debian does support
-many of them, officially or unofficially. On October 26, Bastian Blank
-<a href="https://lists.debian.org/debian-68k/2025/10/msg00002.html">
-opened a discussion</a> about the minimum version of these architectures
-that Debian should support: in particular, raising the de-facto minimum
-versions in the next Debian release ("forky"). Thread participants were generally in favor of
-keeping support for older architecture variants, but didn't reach a firm
-conclusion.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1046319/</guid>
-            <pubDate>Wed, 19 Nov 2025 16:17:20 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The current state of Linux architecture support</title>
-            <link>https://lwn.net/Articles/1045363/</link>
-            <description><![CDATA[<p>
-There have been several recent announcements about Linux distributions changing
-the list of architectures they support, or adjusting how they build binaries for
-some versions of those architectures.
-Ubuntu <a href="https://lwn.net/Articles/1044383/">introduced</a> architecture variants, Fedora
-<a href="https://lwn.net/Articles/1026917/">considered</a> dropping support for i686 but
-reversed course after some pushback, and Debian developers
-<a href="https://lists.debian.org/debian-68k/2025/10/msg00002.html">
-have discussed</a> raising its architecture baseline for the upcoming
-<a href="https://www.debian.org/releases/forky/">
-Debian 15</a>
-("forky").
-Linux supports a large number of architectures, and it's not always
-clear where or by whom they are used.
- With increasing concerns about diminishing support for legacy
-architectures, it's a good time to look at the overall state of architecture
-support on Linux.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1045363/</guid>
-            <pubDate>Tue, 18 Nov 2025 15:28:55 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Pouring packages with Homebrew</title>
-            <link>https://lwn.net/Articles/1046236/</link>
-            <description><![CDATA[<p>The <a href="https://brew.sh/">Homebrew</a> project is an
-open-source package-management system that comes with a repository of
-useful packages for Linux and macOS. Even though Linux distributions
-have their own package management and repositories, Homebrew is often
-used to obtain software that is not available in a distribution's repository
-or to install more current versions of projects than are available
-from long-term-support (LTS) distributions. <a
-href="https://brew.sh/2025/11/12/homebrew-5.0.0/">Homebrew 5.0.0</a>,
-released on November 12, 2025, expanded Linux support to include
-64-bit Arm packages in addition to x86_64, and turned on concurrent
-downloads by default to speed up package downloads.</p>]]></description>
-            <guid>https://lwn.net/Articles/1046236/</guid>
-            <pubDate>Tue, 18 Nov 2025 14:40:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Hot-page migration and specific-purpose NUMA nodes</title>
-            <link>https://lwn.net/Articles/1046249/</link>
-            <description><![CDATA[For better or for worse, the NUMA node is the abstraction used by the
-kernel to keep track of different types of memory.  How that abstraction is
-used, though, is still an active area of development.  Two patch sets
-focused on this problem are currently under review; one addresses the
-perennial problem of promoting heavily used folios from slower to faster
-memory, while the other aims to improve the kernel's handling of nodes
-containing special memory installed for a specific purpose.]]></description>
-            <guid>https://lwn.net/Articles/1046249/</guid>
-            <pubDate>Mon, 17 Nov 2025 16:46:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A struct sockaddr sequel</title>
-            <link>https://lwn.net/Articles/1045453/</link>
-            <description><![CDATA[One of the many objectives of the <a href="https://kspp.github.io/">Linux
-Kernel Self-Protection Project (KSPP)</a>, which just <a
-href="https://hachyderm.io/@kees/115500589609430241">completed ten years of
-work</a>, is to ensure that all array references can be bounds-checked,
-even in the case of flexible array members, the size of which is not known
-at compile time.  One of the most challenging flexible array members in the
-kernel is not even declared as such.  Almost exactly one year ago, LWN <a
-href="https://lwn.net/Articles/997094/">looked at</a> the effort to increase safety around
-the networking subsystem's heavily used <tt>sockaddr</tt> structure.  One
-year later, Kees Cook is still looking for a way to bring this work to a
-close.]]></description>
-            <guid>https://lwn.net/Articles/1045453/</guid>
-            <pubDate>Fri, 14 Nov 2025 15:10:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
