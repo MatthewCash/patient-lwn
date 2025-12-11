@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 11 Dec 2025 13:28:17 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Dec 2025 13:58:01 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Dec 2025 14:11:00 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Dec 2025 14:25:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1050117/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, firefox-esr, libsndfile, and rear), <b>Fedora</b> (httpd, perl-CGI-Simple, and tinyproxy), <b>Oracle</b> (firefox, kernel, libsoup, mysql8.4, tigervnc, tomcat, tomcat9, and uek-kernel), <b>SUSE</b> (alloy, curl, dovecot24, fontforge, glib2, himmelblau, java-17-openjdk, java-21-openjdk, kernel, krb5, lasso, libvirt, mozjs128, mysql-connector-java, nvidia-open-driver-G07-signed-check, openssh, poppler, postgresql17, postgresql18, python-cbor2, python-Django, python310, python311-Django, runc, strongswan, tomcat11, and xwayland), and <b>Ubuntu</b> (binutils, libpng1.6, linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4,
+ linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.14, linux-gcp, linux-hwe-6.14, linux-raspi, linux, linux-aws, linux-gcp, linux-realtime, and qtbase-opensource-src).]]></description>
+            <guid>https://lwn.net/Articles/1050117/</guid>
+            <pubDate>Thu, 11 Dec 2025 14:10:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for December 4, 2025</title>
             <link>https://lwn.net/Articles/1047221/</link>
@@ -367,54 +376,6 @@ notes</a> for more information on this release.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1049299/</guid>
             <pubDate>Thu, 04 Dec 2025 19:26:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1049251/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat and libxml2), <b>Debian</b> (openvpn and webkit2gtk), <b>Fedora</b> (gi-loadouts, kf6-kcoreaddons, kf6-kguiaddons, kf6-kjobwidgets, kf6-knotifications, kf6-kstatusnotifieritem, kf6-kunitconversion, kf6-kwidgetsaddons, kf6-kxmlgui, nanovna-saver, persepolis, python-ezdxf, python-pyside6, sigil, stb, syncplay, tinyproxy, torbrowser-launcher, ubertooth, and usd), <b>Mageia</b> (cups), <b>SUSE</b> (cups, gegl, icinga2, mozjs128, and Security), and <b>Ubuntu</b> (ghostscript, kernel, linux, linux-aws, linux-aws-5.15, linux-gcp-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-oracle-5.15, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux-aws-fips, linux-fips, linux-aws-fips, linux-fips, linux-gcp-fips, linux-azure-fips, linux-gcp, linux-gcp-4.15, linux-hwe, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-gcp-6.14, linux-raspi, linux-gcp-fips, linux-intel-iot-realtime, linux-realtime, linux-raspi, linux-raspi-realtime, linux-xilinx, and postgresql-14, postgresql-16, postgresql-17).]]></description>
-            <guid>https://lwn.net/Articles/1049251/</guid>
-            <pubDate>Thu, 04 Dec 2025 14:07:15 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>cmocka 2.0 released</title>
-            <link>https://lwn.net/Articles/1049199/</link>
-            <description><![CDATA[<p>Andreas Schneider has <a
-href="https://blog.cryptomilk.org/2025/12/04/cmocka-2-0-released-enhancing-unit-testing-in-c/">announced
-version 2.0</a> of the <a href="https://cmocka.org/">cmocka</a>
-unit-testing framework for C:</p>
-
-<blockquote class="bq">
-<p>This release represents a major modernization effort, bringing
-cmocka firmly into the "modern" C99 era while maintaining the
-simplicity and ease of use that users have come to expect.</p>
-
-<p>One of the most significant changes in cmocka 2.0 is the migration
-to C99 standard integer types. The LargestIntegralType typedef has
-been replaced with <tt>intmax_t</tt> and <tt>uintmax_t</tt> from
-<tt>stdint</tt>.h, providing better type safety and portability across
-different platforms. Additionally, we've adopted the bool type where
-appropriate, making the code more expressive and self-documenting.</p>
-
-<p>Using <tt>intmax_t</tt> and <tt>uintmax_t</tt> also allows to print
-better error messages. So you can now find
-e.g. <tt>assert_int_equal</tt> and <tt>assert_uint_equal</tt>.</p>
-
-<p>cmocka 2.0 introduces a comprehensive set of type-specific
-assertion macros, including `assert_uint_equal()`,
-`assert_float_equal()`, and enhanced pointer assertions. The mocking
-system has also been significantly improved with type-specific macros
-like `will_return_int()` and `will_return_float()`. The same for
-parameter checking etc.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/558106/">covered</a> the
-project early in its development in 2013. See the full list of new
-features, enhancements, and bug fixes in cmocka 2.0 in the <a
-href="https://gitlab.com/cmocka/cmocka/-/blob/cmocka-2.0.0/CHANGELOG.md#changelog">changelog</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1049199/</guid>
-            <pubDate>Thu, 04 Dec 2025 14:09:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
