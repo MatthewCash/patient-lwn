@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 12 Dec 2025 13:09:36 +0000</pubDate>
-        <lastBuildDate>Fri, 12 Dec 2025 13:53:30 +0000</lastBuildDate>
+        <pubDate>Fri, 12 Dec 2025 14:16:34 +0000</pubDate>
+        <lastBuildDate>Fri, 12 Dec 2025 14:20:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1050251/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, luksmeta, mysql, mysql:8.0, mysql:8.4, tomcat, and wireshark), <b>Debian</b> (chromium, kernel, and tzdata), <b>Fedora</b> (brotli, dr_libs, perl-Alien-Brotli, python-urllib3, singularity-ce, wireshark, and yarnpkg), <b>Oracle</b> (firefox, grafana, lasso, libsoup3, luksmeta, ruby, ruby:3.3, tomcat, and wireshark), <b>Slackware</b> (mozilla), <b>SUSE</b> (container-suseconnect, kubernetes-client, libpoppler-cpp2, postgresql14, postgresql15, and python3), and <b>Ubuntu</b> (c-ares, keystone, linux, linux-aws, linux-aws-5.15, linux-azure, linux-gcp, linux-gcp-5.15,
+ linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15,
+ linux-intel-iotg, linux-intel-iotg-5.15, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra,
+ linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle,
+ linux-oracle-5.15, linux-xilinx-zynqmp, linux-azure, linux-azure-4.15, linux-oracle,, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-hwe-6.8, linux-oracle-6.8, linux-raspi, linux-realtime, linux-intel-iot-realtime, and python-urllib3).]]></description>
+            <guid>https://lwn.net/Articles/1050251/</guid>
+            <pubDate>Fri, 12 Dec 2025 14:16:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Pop!_OS 24.04 LTS released</title>
             <link>https://lwn.net/Articles/1050129/</link>
