@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 14 Dec 2025 03:43:18 +0000</pubDate>
-        <lastBuildDate>Sun, 14 Dec 2025 07:52:17 +0000</lastBuildDate>
+        <pubDate>Sun, 14 Dec 2025 08:19:22 +0000</pubDate>
+        <lastBuildDate>Sun, 14 Dec 2025 08:26:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.19-rc1</title>
+            <link>https://lwn.net/Articles/1050381/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1050380/">6.19-rc1</a>, perhaps a bit
+earlier than expected.
+<p>
+<blockquote class="bq">
+	So it's Sunday afternoon in the part of the world where I am now,
+	so if somebody was looking at trying to limbo under the merge
+	window timing with one last pull request and is taken by surprise
+	by the slightly unusual timing of the rc1 release, that failed.
+<p>
+	Teaching moment, or random capricious acts? You be the judge.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1050381/</guid>
+            <pubDate>Sun, 14 Dec 2025 08:16:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Conill: Rethinking sudo with object capabilities</title>
             <link>https://lwn.net/Articles/1050370/</link>
