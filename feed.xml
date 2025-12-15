@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Dec 2025 17:38:46 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Dec 2025 17:40:28 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Dec 2025 17:54:05 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Dec 2025 17:55:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -445,48 +445,6 @@ computers</q>". See the release notes for all changes.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and webkit2gtk3), <b>Fedora</b> (abrt and mingw-libpng), <b>Mageia</b> (apache and libpng), <b>Oracle</b> (abrt, go-toolset:rhel8, kernel, sssd, and webkit2gtk3), <b>Red Hat</b> (kernel and kernel-rt), <b>SUSE</b> (gimp, gnutls, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, and postgresql13), and <b>Ubuntu</b> (gnupg2, python-apt, radare2, and webkit2gtk).]]></description>
             <guid>https://lwn.net/Articles/1049769/</guid>
             <pubDate>Tue, 09 Dec 2025 14:15:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Addressing Linux&apos;s missing PKI infrastructure</title>
-            <link>https://lwn.net/Articles/1049663/</link>
-            <description><![CDATA[<p>Jon Seager, VP of engineering for Canonical, has <a
-href="https://discourse.ubuntu.com/t/addressing-linuxs-missing-pki-infrastructure/73314">announced</a>
-a plan to develop a universal Public Key Infrastructure tool called
-upki:</p>
-
-<blockquote class="bq">
-<p>Earlier this year, LWN featured an excellent article titled
-"<a href="https://lwn.net/Articles/1033809/">Linux's missing CRL
-infrastructure</a>". The article highlighted a number
-of key issues surrounding traditional Public Key Infrastructure (PKI),
-but critically noted how even the available measures are effectively
-ignored by the majority of system-level software on Linux.</p>
-
-<p>One of the motivators for the discussion is that the Online
-Certificate Status Protocol (OCSP) will cease to be supported by Let's
-Encrypt. The remaining alternative is to use Certificate Revocation
-Lists (CRLs), yet there is little or no support for managing (or even
-querying) these lists in most Linux system utilities.</p>
-
-<p>To solve this, I'm happy to share that in partnership with <a href="https://github.com/rustls/rustls">rustls</a>
-maintainers <a href="https://dirkjan.ochtman.nl/">Dirkjan Ochtman</a>
-and <a href="https://jbp.io/">Joe Birr-Pixton</a>, we're starting the
-development of upki: a universal PKI tool. This project initially aims
-to close the revocation gap through the combination of a new system
-utility and eventual library support for common TLS/SSL libraries such
-as <a href="https://openssl-library.org/">OpenSSL</a>, <a
-href="https://gnutls.org/">GnuTLS</a> and <a
-href="https://github.com/rustls/rustls">rustls</a>.</p>
-</blockquote>
-
-<p>No code is available as of yet, but the announcement indicates that
-upki will be available as an opt-in preview for
-Ubuntu&#160;26.04&#160;LTS. Thanks to Dirjan Ochtman for the tip.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1049663/</guid>
-            <pubDate>Mon, 08 Dec 2025 17:48:35 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
