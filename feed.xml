@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Dec 2025 15:09:00 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Dec 2025 15:59:01 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Dec 2025 16:38:13 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Dec 2025 16:38:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Announcing Vojtux: a Fedora-based accessible Linux distribution</title>
+            <link>https://lwn.net/Articles/1050539/</link>
+            <description><![CDATA[<p>Vojtěch Polášek has <a
+href="https://www.freelists.org/post/orca/Announcing-Vojtux-Accessible-Linux-distro-which-is-almost-pure-Fedora">announced</a>
+an unofficial effort to create a Fedora-based distribution designed
+for visually impaired users:</p>
+
+<blockquote class="bq">
+<p>My ultimate vision for this project is "NO VOJTUX NEEDED!" because
+I believe Fedora should eventually be fully accessible out of the
+box. We aren't there yet, which is where Vojtux comes in to fill the
+gap. [...]</p>
+<p>Key Features:<br />
+-Speaks out of the box: When the live desktop is ready, Orca starts
+automatically. After installation, it is configured so that it starts
+on the login screen and also after logging in.<br />
+-Batteries included: Comes with LIOS , Ocrdesktop, Tesseract,
+Audacity, and command-line tools like Git and Curl. There are also
+many preconfigured keyboard shortcuts.
+</p>
+</blockquote>
+
+<p>See the <a
+href="https://github.com/vojtapolasek/vojtux?tab=readme-ov-file#what-is-it-about">repository</a>
+for instructions on getting the image.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1050539/</guid>
+            <pubDate>Mon, 15 Dec 2025 16:35:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1050523/</link>
