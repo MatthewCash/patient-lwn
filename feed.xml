@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Dec 2025 13:41:47 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Dec 2025 14:00:19 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Dec 2025 14:33:40 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Dec 2025 14:36:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1050523/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, grafana, kernel, libsoup3, mysql8.4, and wireshark), <b>Debian</b> (ruby-git, ruby-sidekiq, thunderbird, and vlc), <b>Fedora</b> (apptainer, chromium, firefox, golangci-lint, libpng, and xkbcomp), <b>Mageia</b> (golang), <b>SUSE</b> (binutils, chromium, firefox, gegl, go1.25, govulncheck-vulndb, hauler, kernel, keylime, libpng12, pgadmin4, postgresql16, python, python-Django, python-django, python3, python311, rhino, thunderbird, unbound, and xkbcomp), and <b>Ubuntu</b> (usbmuxd).]]></description>
+            <guid>https://lwn.net/Articles/1050523/</guid>
+            <pubDate>Mon, 15 Dec 2025 14:11:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.19-rc1</title>
             <link>https://lwn.net/Articles/1050381/</link>
@@ -448,14 +456,6 @@ Ubuntu&#160;26.04&#160;LTS. Thanks to Dirjan Ochtman for the tip.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1049663/</guid>
             <pubDate>Mon, 08 Dec 2025 17:48:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1049657/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, krita, lasso, and libpng1.6), <b>Fedora</b> (abrt, cef, chromium, tinygltf, webkitgtk, and xkbcomp), <b>Oracle</b> (buildah, delve and golang, expat, python-kdcproxy, qt6-qtquick3d, qt6-qtsvg, sssd, thunderbird, and valkey), <b>Red Hat</b> (webkit2gtk3), and <b>SUSE</b> (git-bug, go1, and libpng12-0).]]></description>
-            <guid>https://lwn.net/Articles/1049657/</guid>
-            <pubDate>Mon, 08 Dec 2025 14:11:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
