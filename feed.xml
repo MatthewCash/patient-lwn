@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Dec 2025 01:25:22 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Dec 2025 01:27:30 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Dec 2025 03:01:04 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Dec 2025 03:08:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -445,19 +445,6 @@ Congratulations are in order for all of the Rust-for-Linux team.
 (Stay tuned for details in our Maintainers Summit coverage.)]]></description>
             <guid>https://lwn.net/Articles/1049831/</guid>
             <pubDate>Wed, 10 Dec 2025 02:57:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The 2024 Free Software Awards winners</title>
-            <link>https://lwn.net/Articles/1049822/</link>
-            <description><![CDATA[The Free Software Foundation has <a
-href="https://www.fsf.org/news/2024-free-software-awards-winners">announced</a>
-the recipients of its 2024 (even though 2025 is almost over) Free Software
-Awards.  Andy Wingo won the award for the advancement of free software, Alx
-Sa is the outstanding new free-software contributor, and Govdirectory takes
-the award for projects of social benefit.]]></description>
-            <guid>https://lwn.net/Articles/1049822/</guid>
-            <pubDate>Tue, 09 Dec 2025 23:55:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
