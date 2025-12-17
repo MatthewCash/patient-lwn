@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Dec 2025 14:19:48 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Dec 2025 14:23:03 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Dec 2025 14:43:24 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Dec 2025 14:50:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -431,14 +431,6 @@ sometime in the coming year.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1049965/</guid>
             <pubDate>Wed, 10 Dec 2025 18:29:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1049939/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (abrt and kernel), <b>Debian</b> (libpng1.6, libsoup2.4, pdns-recursor, webkit2gtk, and wordpress), <b>Fedora</b> (imhex, libwebsockets, lunasvg, python3-docs, and python3.14), <b>Mageia</b> (python3 and webkit2), <b>Red Hat</b> (abrt, firefox, mysql8.4, and postgresql:15), <b>Slackware</b> (mozilla), <b>SUSE</b> (gegl, gnutls, go1.24, go1.25, libpng16-16, openssh, postgresql13, python-Jinja2, and sssd), and <b>Ubuntu</b> (fonttools and netty).]]></description>
-            <guid>https://lwn.net/Articles/1049939/</guid>
-            <pubDate>Wed, 10 Dec 2025 14:16:11 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
