@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Dec 2025 15:47:29 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Dec 2025 15:48:33 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Dec 2025 16:07:13 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Dec 2025 16:29:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Asahi Linux 6.18 progress report</title>
+            <link>https://lwn.net/Articles/1050953/</link>
+            <description><![CDATA[<p>The Asahi Linux project has <a
+href="https://asahilinux.org/2025/12/progress-report-6-18/">published</a>
+its progress report following the release of Linux 6.18. This time
+around the project reports progress on many fronts, including
+microphone support for M2 Pro/Max MacBooks, work queued for Linux 6.19
+to support USB3 via the USB-C ports, and work to improve the Asahi
+Linux installation experience. The project is also enabling as
+additional System Management Controller (SMC) drivers, which means
+that "<q>the myriad voltage, current, temperature and power sensors
+controlled by the SMC will be readable using the standard hwmon
+interfaces</q>".</p>]]></description>
+            <guid>https://lwn.net/Articles/1050953/</guid>
+            <pubDate>Wed, 17 Dec 2025 16:07:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1050942/</link>
