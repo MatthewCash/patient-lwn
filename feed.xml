@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Dec 2025 16:39:38 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Dec 2025 16:40:37 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Dec 2025 17:00:16 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Dec 2025 17:02:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A change of maintainership for linux-next</title>
+            <link>https://lwn.net/Articles/1051179/</link>
+            <description><![CDATA[Stephen Rothwell, who has maintained the kernel's linux-next integration
+tree from its inception, has <a
+href="https://lwn.net/ml/all/20251218180721.20eb878e@canb.auug.org.au">announced</a> his
+retirement from that role:
+<p>
+<blockquote class="bq">
+	I will be stepping down as Linux-Next maintainer on Jan 16, 2026.
+	Mark Brown has generously volunteered to take up the challenge.  He
+	has helped in the past filling in when I have been unavailable, so
+	hopefully knows what he is getting in to.  I hope you will all
+	treat him with the same (or better) level of respect that I have
+	received.
+<p>
+	It has been a long but mostly interesting task and I hope it has
+	been helpful to others.  It seems a long time since I read Andrew
+	Morton's "I have a dream" email and decided that I could help out
+	there - little did I know what I was heading for.
+</blockquote>
+<p>
+Over the last two decades or so, the kernel's development process has evolved
+from an unorganized mess with irregular releases to a smooth machine with a
+new release every nine or ten weeks.  That would not have happened without
+linux-next; thanks are due to Stephen for helping to make the current
+process possible.]]></description>
+            <guid>https://lwn.net/Articles/1051179/</guid>
+            <pubDate>Thu, 18 Dec 2025 16:40:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Systemd v259 released</title>
             <link>https://lwn.net/Articles/1051163/</link>
