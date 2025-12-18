@@ -8,11 +8,146 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Dec 2025 23:39:19 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Dec 2025 23:52:43 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Dec 2025 01:19:41 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Dec 2025 01:28:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for December 11, 2025</title>
+            <link>https://lwn.net/Articles/1049161/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1049161/">Front</a>: Rust in CPython; Python frozendict; Bazzite; IETF post-quantum disagreement; Distrobox; 6.19 merge window; Leaving the TAB.
+            <li> <a href="https://lwn.net/Articles/1049163/">Briefs</a>: Let's Encrypt retrospective; PKI infrastructure; Rust in kernel to stay; CNA series; Alpine 3.23.0; cmocka 2.0; Firefox 146; 2024 Free Software Awards; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1049164/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1049161/</guid>
+            <pubDate>Thu, 11 Dec 2025 00:18:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Mix and match Linux distributions with Distrobox</title>
+            <link>https://lwn.net/Articles/1049423/</link>
+            <description><![CDATA[<p>Linux containers have made it reasonably easy to develop, distribute, and
+deploy server applications along with all the distribution dependencies that they
+need. For example, anyone can deploy and run a Debian-based <a
+href="https://hub.docker.com/_/postgres">PostgreSQL container</a> 
+on a Fedora&#160;Linux host. <a
+href="https://distrobox.it/">Distrobox</a> is a project that is designed to
+bring the cross-distribution compatibility to the desktop and allow users to
+mix-and-match Linux distributions without fussing with dual-booting, virtual
+machines, or multiple computers. It is an ideal way to install
+additional software on image-based systems, such as Fedora's <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a>
+or <a href="https://lwn.net/Articles/1046228/">Bazzite</a>, and also
+provides a convenient way to move a development environment or
+favorite applications to a new system.</p>]]></description>
+            <guid>https://lwn.net/Articles/1049423/</guid>
+            <pubDate>Wed, 10 Dec 2025 16:05:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Bazzite: a gem for Linux gamers</title>
+            <link>https://lwn.net/Articles/1046228/</link>
+            <description><![CDATA[<p>One of the things that has historically stood between Linux and the
+fabled "year of the Linux desktop" is its lack of support for video
+games. Many users who would have happily abandoned Windows have,
+reluctantly, stayed for the video games or had to deal with dual
+booting. In the past few years, though, Linux support for
+games&mdash;including those that only have Windows versions&mdash;has
+improved dramatically, if one is willing to put the pieces
+together. <a href="https://bazzite.gg/">Bazzite</a>, an image-based
+Fedora derivative, is a project that aims to let users play games and
+use the Linux desktop with almost no assembly required.</p>]]></description>
+            <guid>https://lwn.net/Articles/1046228/</guid>
+            <pubDate>Tue, 09 Dec 2025 15:18:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Disagreements over post-quantum encryption for TLS</title>
+            <link>https://lwn.net/Articles/1048978/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://www.ietf.org/">
+Internet Engineering Task Force</a> (IETF) is the standards body responsible
+for the TLS encryption standard — which your browser is using right now
+to allow you to read LWN.net. As part of its work to keep TLS secure, the IETF
+has been entertaining
+<a href="https://datatracker.ietf.org/doc/draft-ietf-tls-mlkem/">
+proposals</a> to adopt "post-quantum" cryptography (that is,
+cryptography that is not known to be easily broken by a quantum computer) for TLS
+version 1.3. Discussion of the proposal has exposed a large disagreement between
+participants who worried about weakened security and others who worried about
+weakened marketability.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1048978/</guid>
+            <pubDate>Mon, 08 Dec 2025 18:27:58 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] An open seat on the TAB</title>
+            <link>https://lwn.net/Articles/1049035/</link>
+            <description><![CDATA[As has been recently <a
+href="https://lwn.net/ml/all/20251122004147.1655175-1-ojeda@kernel.org/">announced</a>,
+nominations are open for the 2025 Linux Foundation Technical Advisory Board
+(TAB) elections.  I am one of the TAB members whose term is coming to an
+end, but I have decided that, after 18&#160;years on the board, I will not
+be seeking re-election; instead, I will step aside and make room for a
+fresh voice.  My time on the TAB has been rewarding, and I will be sad to
+leave; the TAB has an important role to play in the functioning of the
+kernel community.]]></description>
+            <guid>https://lwn.net/Articles/1049035/</guid>
+            <pubDate>Mon, 08 Dec 2025 08:25:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Eventual Rust in CPython</title>
+            <link>https://lwn.net/Articles/1046933/</link>
+            <description><![CDATA[<p>
+Emma Smith and Kirill Podoprigora, two of Python's core developers, have
+<a href="https://discuss.python.org/t/pre-pep-rust-for-cpython/104906">opened a
+discussion</a> about including Rust code in CPython, the reference implementation of
+the Python programming language. Initially, Rust would only be used for optional
+extension modules, but they would like to see Rust become a required dependency
+over time. The initial plan was to make Rust required by 2028, but Smith and
+Podoprigora indefinitely postponed that goal in response to concerns raised in the discussion.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1046933/</guid>
+            <pubDate>Fri, 05 Dec 2025 14:33:09 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The beginning of the 6.19 merge window</title>
+            <link>https://lwn.net/Articles/1048869/</link>
+            <description><![CDATA[As of this writing, 4,124 non-merge commits have been pulled into the
+mainline repository for the 6.19 kernel development cycle.  That is a
+relatively small fraction of what can be expected this time around, but it
+contains quite a bit of significant work, with changes to many core kernel
+subsystems.  Read on for a summary of the first part of the 6.19 merge
+window.]]></description>
+            <guid>https://lwn.net/Articles/1048869/</guid>
+            <pubDate>Thu, 04 Dec 2025 19:22:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A &quot;frozen&quot; dictionary for Python</title>
+            <link>https://lwn.net/Articles/1047238/</link>
+            <description><![CDATA[Dictionaries are ubiquitous in Python code; they are the data structure of
+choice for a wide variety of tasks.  But dictionaries are mutable, which
+makes them problematic for sharing data in concurrent code.  Python has
+added various concurrency features to the language over the last decade or
+so—<a href="https://lwn.net/Articles/726600/">async</a>, <a href="https://lwn.net/Articles/947138/">free threading without the global interpreter lock</a>
+(GIL), and <a href="https://lwn.net/Articles/941090/">independent subinterpreters</a>—but users must work out their own
+solution for an immutable dictionary that can be safely shared by
+concurrent code.  There are existing modules that could be used, but a recent proposal, <a
+href="https://peps.python.org/pep-0814/">PEP 814</a> ("Add frozendict
+built-in type"), looks to bring the feature to the language itself.]]></description>
+            <guid>https://lwn.net/Articles/1047238/</guid>
+            <pubDate>Thu, 04 Dec 2025 14:42:12 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Asahi Linux 6.18 progress report</title>
             <link>https://lwn.net/Articles/1050953/</link>
