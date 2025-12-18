@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 18 Dec 2025 18:40:37 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Dec 2025 19:01:02 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 18 Dec 2025 19:24:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -443,26 +443,6 @@ alpha version of COSMIC in August 2024.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1050129/</guid>
             <pubDate>Thu, 11 Dec 2025 19:31:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.92.0 released</title>
-            <link>https://lwn.net/Articles/1050125/</link>
-            <description><![CDATA[<p><a
-href="https://blog.rust-lang.org/2025/12/11/Rust-1.92.0/">Version
-1.92.0</a> of Rust has been released. This release includes a number
-of stabilized APIs, emits unwind tables by default on Linux, validates
-input to <tt>#[macro_export]</tt>, and much more. See the separate
-release notes for <a
-href="https://github.com/rust-lang/rust/releases/tag/1.92.0">Rust</a>,
-<a
-href="https://doc.rust-lang.org/nightly/cargo/CHANGELOG.html#cargo-192-2025-12-11">Cargo</a>,
-and <a
-href="https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-192">Clippy</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1050125/</guid>
-            <pubDate>Thu, 11 Dec 2025 18:40:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
