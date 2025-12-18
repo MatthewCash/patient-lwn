@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Dec 2025 14:18:49 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Dec 2025 14:22:59 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Dec 2025 14:48:32 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Dec 2025 14:49:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Systemd v259 released</title>
+            <link>https://lwn.net/Articles/1051163/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/systemd/systemd/releases/tag/v259">Systemd
+v259</a> has been released. Notable changes include a new
+"<tt>--empower</tt>" option for <tt>run0</tt> that provides elevated
+privileges to a user without switching to root, ability to propagate a
+user's home directory into a VM with <tt>systemd-vmspawn</tt>, and
+more. Support for System V service scripts has been deprecated, and
+will be removed in v260. See the release notes for other changes,
+feature removals, and deprecated features.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1051163/</guid>
+            <pubDate>Thu, 18 Dec 2025 14:48:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1051156/</link>
@@ -414,15 +432,6 @@ href="https://github.com/rust-lang/rust-clippy/blob/master/CHANGELOG.md#rust-192
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1050125/</guid>
             <pubDate>Thu, 11 Dec 2025 18:40:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1050117/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, firefox-esr, libsndfile, and rear), <b>Fedora</b> (httpd, perl-CGI-Simple, and tinyproxy), <b>Oracle</b> (firefox, kernel, libsoup, mysql8.4, tigervnc, tomcat, tomcat9, and uek-kernel), <b>SUSE</b> (alloy, curl, dovecot24, fontforge, glib2, himmelblau, java-17-openjdk, java-21-openjdk, kernel, krb5, lasso, libvirt, mozjs128, mysql-connector-java, nvidia-open-driver-G07-signed-check, openssh, poppler, postgresql17, postgresql18, python-cbor2, python-Django, python310, python311-Django, runc, strongswan, tomcat11, and xwayland), and <b>Ubuntu</b> (binutils, libpng1.6, linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4,
- linux-ibm, linux-ibm-5.4, linux-kvm, linux-oracle, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-6.14, linux-gcp, linux-hwe-6.14, linux-raspi, linux, linux-aws, linux-gcp, linux-realtime, and qtbase-opensource-src).]]></description>
-            <guid>https://lwn.net/Articles/1050117/</guid>
-            <pubDate>Thu, 11 Dec 2025 14:10:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
