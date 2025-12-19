@@ -8,11 +8,50 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 19 Dec 2025 18:00:22 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Dec 2025 18:30:04 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Dec 2025 18:45:03 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Dec 2025 18:55:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FreeBSD laptop progress</title>
+            <link>https://lwn.net/Articles/1051394/</link>
+            <description><![CDATA[<p>The FreeBSD Foundation has a <a
+href="https://freebsdfoundation.org/blog/freebsd-closes-the-laptop-gap-year-one-project-update/">blog
+post</a> about the progress it has made in 2025 on the <a
+href="https://github.com/FreeBSDFoundation/proj-laptop">Laptop Support
+&amp; Usability Project</a> for FreeBSD. The foundation committed
+$750,000 to the project in 2025 and has made progress on graphics
+drivers, Wi-Fi&#160;4 and 5 support, audio improvements, sleep states,
+and more.</p>
+
+<blockquote class="bq">
+<p>The installer for FreeBSD has gained a couple of new features that
+benefit laptop users. In 15.0 the installer now supports downloading
+and installing firmware packages after the FreeBSD base system
+installation is complete. Coming in 15.1 it will be possible to
+install the KDE graphical desktop environment during the installation
+process. Grateful thanks to Bjoern Zeeb and Alfonso Siciliano
+respectively. [...]</p>
+
+<p>The project continues into 2026 with a similar sized investment and
+scope. Key targets include completing work on sleep states (modern
+standby and hibernate), adding support for graphics drivers up to
+Linux 6.18, Wi-Fi 6 support, USB4 and Thunderbolt support, HDMI
+improvements, UVC webcam support, and Bluetooth improvements.</p>
+
+<p>A substantial testing program will also start in January, aiming to
+test all the functionality together across a range of
+hardware. Community testers are very welcome to help out, the
+Foundation will release a blog post and send an invite to help to the
+Desktop mailing list some time in January 2026.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1051394/</guid>
+            <pubDate>Fri, 19 Dec 2025 18:43:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1051384/</link>
