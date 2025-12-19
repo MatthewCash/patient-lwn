@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 19 Dec 2025 15:08:50 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Dec 2025 15:57:22 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 16:29:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -388,26 +388,6 @@ are advised to upgrade.</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1050270/</guid>
             <pubDate>Fri, 12 Dec 2025 19:45:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KDE Gear 25.12 released</title>
-            <link>https://lwn.net/Articles/1050262/</link>
-            <description><![CDATA[<p>KDE has <a
-href="https://kde.org/announcements/gear/25.12.0/">announced</a> the
-release of KDE&#160;Gear&#160;25.12. This release adds more
-"extractors" to the <a
-href="https://apps.kde.org/itinerary/">Itinerary</a> travel-assistant
-application, improved Git support in the <a
-href="https://apps.kde.org/kate/">Kate</a> text editor, better PDF
-export in <a href="https://apps.kde.org/konqueror">Konqueror</a>, and
-much more. See the <a
-href="https://kde.org/announcements/changelogs/gear/25.12.0/">changelog</a>
-for all new features, improvements, and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1050262/</guid>
-            <pubDate>Fri, 12 Dec 2025 16:13:49 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
