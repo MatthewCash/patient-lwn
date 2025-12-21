@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 21 Dec 2025 14:05:20 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Dec 2025 15:19:45 +0000</lastBuildDate>
+        <pubDate>Sun, 21 Dec 2025 15:31:26 +0000</pubDate>
+        <lastBuildDate>Sun, 21 Dec 2025 15:40:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Results from the 2025 TAB election</title>
+            <link>https://lwn.net/Articles/1051459/</link>
+            <description><![CDATA[The 2025 election for members of the Linux Foundation Technical Advisory
+Board <a href="https://lwn.net/ml/all/20251221125206.99296-1-ojeda@kernel.org">has
+concluded</a>; the winners are Greg Kroah-Hartman, Steven Rostedt, Julia
+Lawall, David Hildenbrand, and Ted Ts'o.]]></description>
+            <guid>https://lwn.net/Articles/1051459/</guid>
+            <pubDate>Sun, 21 Dec 2025 15:31:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>FreeBSD laptop progress</title>
             <link>https://lwn.net/Articles/1051394/</link>
