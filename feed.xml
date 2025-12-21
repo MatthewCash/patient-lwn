@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 21 Dec 2025 04:37:22 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Dec 2025 07:51:57 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Dec 2025 08:26:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,24 +375,6 @@ for instructions on getting the image.</p>
             <guid>https://lwn.net/Articles/1050523/</guid>
             <pubDate>Mon, 15 Dec 2025 14:11:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.19-rc1</title>
-            <link>https://lwn.net/Articles/1050381/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1050380/">6.19-rc1</a>, perhaps a bit
-earlier than expected.
-<p>
-<blockquote class="bq">
-	So it's Sunday afternoon in the part of the world where I am now,
-	so if somebody was looking at trying to limbo under the merge
-	window timing with one last pull request and is taken by surprise
-	by the slightly unusual timing of the rc1 release, that failed.
-<p>
-	Teaching moment, or random capricious acts? You be the judge.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1050381/</guid>
-            <pubDate>Sun, 14 Dec 2025 08:16:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
