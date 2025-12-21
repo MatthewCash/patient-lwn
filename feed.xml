@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 21 Dec 2025 00:02:38 +0000</pubDate>
-        <lastBuildDate>Sun, 21 Dec 2025 01:45:58 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 21 Dec 2025 03:21:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,28 +392,6 @@ earlier than expected.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1050381/</guid>
             <pubDate>Sun, 14 Dec 2025 08:16:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Conill: Rethinking sudo with object capabilities</title>
-            <link>https://lwn.net/Articles/1050370/</link>
-            <description><![CDATA[Ariadne Conill <a
-href="https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html">is
-exploring</a> a capability-based approach to privilege escalation on Linux
-systems.
-<p>
-<blockquote class="bq">
-	Inspired by the object-capability model, I've been working on a
-	project named <a
-	href="https://github.com/kaniini/capsudo">capsudo</a>. Instead of
-	treating privilege escalation as a temporary change of identity,
-	capsudo reframes it as a mediated interaction with a service called
-	<tt>capsudod</tt> that holds specific authority, which may range
-	from full root privileges to a narrowly scoped set of capabilities
-	depending on how it is deployed.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1050370/</guid>
-            <pubDate>Sun, 14 Dec 2025 01:07:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
