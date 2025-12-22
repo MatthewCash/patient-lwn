@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Dec 2025 13:49:58 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Dec 2025 13:52:50 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Dec 2025 14:11:02 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Dec 2025 14:21:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1051572/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, dropbear, mediawiki, php8.4, python-mechanize, rails, roundcube, usbmuxd, and wordpress), <b>Fedora</b> (cef, chromium, fonttools, gobuster, gosec, mingw-libpng, moby-engine, mqttcli, nextcloud, pgadmin4, python-unicodedata2, uriparser, and util-linux), <b>Mageia</b> (php and webkit2), <b>Oracle</b> (binutils, curl, gcc-toolset-13-binutils, gimp, git-lfs, kernel, openssh, php:8.3, podman, python-kdcproxy, python3.12, python3.9, skopeo, and webkit2gtk3), <b>Red Hat</b> (rsync), <b>Slackware</b> (php), <b>SUSE</b> (alloy, busybox, chromedriver, chromium, coredns-for-k8s, duc, firefox, kernel-devel, libpng16, libruby3_4-3_4, mariadb, netty, php8, python311-tornado6, rsync, taglib, and xen), and <b>Ubuntu</b> (linux-oracle-5.4, linux-raspi, linux-realtime-6.14, and linux-xilinx).]]></description>
+            <guid>https://lwn.net/Articles/1051572/</guid>
+            <pubDate>Mon, 22 Dec 2025 13:58:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Loong64 is now an official Debian architecture</title>
+            <link>https://lwn.net/Articles/1051576/</link>
+            <description><![CDATA[John Paul Adrian Glaubitz has <a
+href="https://lwn.net/ml/debian-devel-announce/c92784a9ff7f69d4d136936fb615d513e98163ee.camel%40physik.fu-berlin.de/">announced</a>
+that loong64 is now an official architecture for Debian, and will be
+part of the Debian&#160;14 ("forky") release "<q>if everything goes
+along as planned</q>". This is a bit more than two years after the <a
+href="https://lwn.net/ml/all/c32d3af9f9ebc362431e2f208f75b52ba64779c0.camel%40physik.fu-berlin.de/">initial
+bootstrap</a> of the architecture.</p>
+
+<blockquote class="bq">
+So far, we have manually built and imported an initial set of 112
+packages with the help of the packages in Debian Ports. This was
+enough to create an initial chroot and set up the first buildd which
+is now churning through the build queue. Over night, the currently
+single buildd instance already built and uploaded 300 new packages.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1051576/</guid>
+            <pubDate>Mon, 22 Dec 2025 14:06:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.19-rc2</title>
             <link>https://lwn.net/Articles/1051466/</link>
