@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Dec 2025 20:11:40 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Dec 2025 20:23:21 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Dec 2025 20:39:30 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Dec 2025 20:44:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -454,38 +454,6 @@ interfaces</q>".</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (node-url-parse), <b>Fedora</b> (assimp, conda-build, mod_md, util-linux, and webkitgtk), <b>Oracle</b> (firefox), <b>SUSE</b> (chromium, librsvg, poppler, python311, qemu, strongswan, webkit2gtk3, wireshark, and xen), and <b>Ubuntu</b> (linux-azure, linux-azure-5.4, linux-azure-5.15, linux-azure-fips, and linux-raspi, linux-raspi-realtime, linux-xilinx).]]></description>
             <guid>https://lwn.net/Articles/1050942/</guid>
             <pubDate>Wed, 17 Dec 2025 14:19:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Mozilla gets a new CEO: Anthony Enzor-DeMeo</title>
-            <link>https://lwn.net/Articles/1050826/</link>
-            <description><![CDATA[<p>Mozilla has <a
-href="https://www.prnewswire.co.uk/news-releases/mozilla-appoints-anthony-enzor-demeo-as-ceo-to-lead-the-next-era-of-user-first-trusted-technology-302642861.html">announced</a>
-a new CEO, Anthony Enzor-DeMeo. Prior to becoming CEO, Enzor-DeMeo was
-general manager of Firefox and led its "<q>vision, strategy, and
-business performance</q>". He has <a
-href="https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/">published
-a blog post</a> about taking over from interim CEO Laura Chambers, and
-his plans for Mozilla and Firefox:</p>
-
-<blockquote class="bq">
-<p>As Mozilla moves forward, we will focus on becoming the trusted
-software company. This is not a slogan. It is a direction that guides
-how we build and how we grow. It means three things.</p>
-
-<ul class="spacylist">
-    <li>First: Every product we build must give people agency in how it works. Privacy, data use, and AI must be clear and understandable. Controls must be simple. AI should always be a choice — something people can easily turn off. People should know why a feature works the way it does and what value they get from it.</li>
-    <li>Second: our business model must align with trust. We will grow through transparent monetization that people recognize and value.</li>
-    <li>Third: Firefox will grow from a browser into a broader
-    ecosystem of trusted software. Firefox will remain our anchor. It
-    will evolve into a modern AI browser and support a portfolio of
-    new and trusted software additions.</li>
-</ul>
-</blockquote>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1050826/</guid>
-            <pubDate>Tue, 16 Dec 2025 20:09:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
