@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Dec 2025 14:12:58 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Dec 2025 14:21:53 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Dec 2025 14:40:22 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Dec 2025 14:47:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -468,17 +468,6 @@ how we build and how we grow. It means three things.</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1050826/</guid>
             <pubDate>Tue, 16 Dec 2025 20:09:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1050778/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (binwalk, glib2.0, libgd2, paramiko, and python-apt), <b>Fedora</b> (chromium, python3.13, python3.14, qt6-qtdeclarative, and usd), <b>Mageia</b> (ffmpeg, firefox, nspr, nss, and thunderbird), <b>Oracle</b> (kernel, mysql, mysql:8.0, mysql:8.4, ruby:3.3, wireshark, and xorg-x11-server), <b>Red Hat</b> (expat, mingw-expat, and rsync), <b>SUSE</b> (binutils, curl, glib2, gnutls, go1.24, go1.25, keylime, libmicrohttpd, libssh, openexr, postgresql15, python311, and xkbcomp), and <b>Ubuntu</b> (libsoup3, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-gke,
- linux-gkeop, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency,
- linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8,
- linux-nvidia-lowlatency, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-azure, linux-azure-6.14, linux-azure, linux-azure-6.8, linux-azure-fips, linux-fips, linux-fips, linux-aws-fips, linux-gcp-fips, linux-kvm, linux-oem-6.14, linux-raspi, and linux-realtime, linux-realtime-6.8).]]></description>
-            <guid>https://lwn.net/Articles/1050778/</guid>
-            <pubDate>Tue, 16 Dec 2025 14:16:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
