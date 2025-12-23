@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Dec 2025 15:19:35 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Dec 2025 15:22:30 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Dec 2025 15:40:34 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Dec 2025 15:46:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Elementary OS 8.1 released</title>
+            <link>https://lwn.net/Articles/1051773/</link>
+            <description><![CDATA[<p><a href="https://blog.elementary.io/os-8-1-available-now/">Version
+8.1</a> of elementary OS has been released. Notable changes in this
+release include making the Wayland session the default, changes to
+window management and multitasking, as well as a number of
+accessibility improvements. The 8.1 release is the first to be made
+available for Arm64 devices, which should allow users to run
+elementary on Apple M-series hardware or other Arm devices that can
+load UEFI-supporting firmware, such as some Raspberry Pi models. See
+the blog post for a full list of changes.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1051773/</guid>
+            <pubDate>Tue, 23 Dec 2025 15:40:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1051758/</link>
