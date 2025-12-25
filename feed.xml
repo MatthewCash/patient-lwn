@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Dec 2025 14:09:18 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Dec 2025 14:44:45 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Dec 2025 14:52:32 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Dec 2025 14:55:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -443,24 +443,6 @@ process possible.]]></description>
             <guid>https://lwn.net/Articles/1051179/</guid>
             <pubDate>Thu, 18 Dec 2025 16:40:50 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Systemd v259 released</title>
-            <link>https://lwn.net/Articles/1051163/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/systemd/systemd/releases/tag/v259">Systemd
-v259</a> has been released. Notable changes include a new
-"<tt>--empower</tt>" option for <tt>run0</tt> that provides elevated
-privileges to a user without switching to root, ability to propagate a
-user's home directory into a VM with <tt>systemd-vmspawn</tt>, and
-more. Support for System V service scripts has been deprecated, and
-will be removed in v260. See the release notes for other changes,
-feature removals, and deprecated features.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1051163/</guid>
-            <pubDate>Thu, 18 Dec 2025 14:48:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
