@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 25 Dec 2025 14:09:18 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Dec 2025 14:20:11 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 25 Dec 2025 14:44:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -460,30 +460,6 @@ feature removals, and deprecated features.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1051163/</guid>
             <pubDate>Thu, 18 Dec 2025 14:48:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1051156/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, keylime, mysql:8.4, and tomcat), <b>Debian</b> (c-ares and webkit2gtk), <b>Fedora</b> (brotli, cups, golang-github-facebook-time, nebula, NetworkManager, perl-Alien-Brotli, python-django4.2, python-django5, and vips), <b>Red Hat</b> (binutils, buildah, curl, go-toolset:rhel8, golang, grafana, multiple packages, php:8.3, podman, python3.12, python39:3.9, ruby:3.3, and skopeo), <b>SUSE</b> (buildah, cups, firefox, glib2, grub2, helm, icinga-php-library, icingaweb2, ImageMagick, imagemagick, kernel, libpng12, libpng16, mariadb, openssl-3, poppler, python39, usbmuxd, webkit2gtk3, wireshark, and xkbcomp), and <b>Ubuntu</b> (linux-azure-fips).]]></description>
-            <guid>https://lwn.net/Articles/1051156/</guid>
-            <pubDate>Thu, 18 Dec 2025 14:07:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernels for Thursday</title>
-            <link>https://lwn.net/Articles/1051157/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1051158/">6.18.2</a>, <a
-href="https://lwn.net/Articles/1051160/">6.17.13</a>, and <a
-href="https://lwn.net/Articles/1051161/">6.12.63</a> stable kernels. As always, each
-contains important fixes throughout the tree. He notes that
-6.17.13 is the last release of the 6.17.y kernel; users are
-advised to move to the 6.18.y kernel branch.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1051157/</guid>
-            <pubDate>Thu, 18 Dec 2025 14:18:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
