@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Dec 2025 14:07:20 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Dec 2025 14:20:53 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Dec 2025 14:45:28 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Dec 2025 14:45:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -454,14 +454,6 @@ Desktop mailing list some time in January 2026.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1051394/</guid>
             <pubDate>Fri, 19 Dec 2025 18:43:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1051384/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (roundcube), <b>Fedora</b> (checkpointctl, containernetworking-plugins, mingw-libpng, NetworkManager, php, python3-docs, python3.13, and webkitgtk), <b>Oracle</b> (kernel, keylime, and libssh), and <b>SUSE</b> (apache2, clair, colord, flannel, gnutls, golang-github-prometheus-alertmanager, grafana, grub2, helm, ImageMagick, libpng16, netty, openssl-3, postgresql13, postgresql14, postgresql15, python36, salt, uyuni-tools, and venv-salt-minion).]]></description>
-            <guid>https://lwn.net/Articles/1051384/</guid>
-            <pubDate>Fri, 19 Dec 2025 14:16:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
