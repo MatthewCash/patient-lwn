@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Dec 2025 15:07:10 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Dec 2025 15:23:18 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Dec 2025 15:33:25 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Dec 2025 15:45:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -346,40 +346,6 @@ href="https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob_plain;f=gd
 NEWS file</a> for more information.]]></description>
             <guid>https://lwn.net/Articles/1051653/</guid>
             <pubDate>Mon, 22 Dec 2025 16:37:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Jackson: Debian’s git transition</title>
-            <link>https://lwn.net/Articles/1051580/</link>
-            <description><![CDATA[Ian Jackson (along with Sean Whitton) has posted <a
-href="https://diziet.dreamwidth.org/20436.html">a manifesto and status
-update</a> to the effect that, since Git repositories have become the
-preferred method to distribute source, that is how Debian should be
-distributing its source packages.
-<p>
-<blockquote class="bq">
-<b>Everyone who interacts with Debian source code should be able to
-do so entirely in git.</b>
-<p>	
-That means, more specifically:
-<ol class="spacylist">
-<li>    All examination and edits to the source should be performed via
-normal git operations. 
-
-<li> Source code should be transferred and exchanged as git data, not
-tarballs. git should be the canonical form everywhere.
-
-<li> Upstream git histories should be re-published, traceably, as part of
-formal git releases published by Debian.
-
-<li> No-one should have to learn about Debian Source Packages, which are
-bizarre, and have been obsoleted by modern version control.
-</ol>
-<p>
-This is very ambitious, but we have come a long way!
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1051580/</guid>
-            <pubDate>Mon, 22 Dec 2025 15:32:16 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
