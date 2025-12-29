@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 29 Dec 2025 03:18:28 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Dec 2025 05:29:09 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 29 Dec 2025 05:53:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -405,17 +405,6 @@ single buildd instance already built and uploaded 300 new packages.
             <guid>https://lwn.net/Articles/1051576/</guid>
             <pubDate>Mon, 22 Dec 2025 14:06:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.19-rc2</title>
-            <link>https://lwn.net/Articles/1051466/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1051465/">6.19-rc2</a> kernel prepatch is out for
-testing.  "<q>I obviously expect next week to be even quieter, with people
-being distracted by the holidays. So let's all enjoy taking a little break,
-but maybe break the boredom with some early rc testing?</q>"]]></description>
-            <guid>https://lwn.net/Articles/1051466/</guid>
-            <pubDate>Mon, 22 Dec 2025 05:09:24 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
