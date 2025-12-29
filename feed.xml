@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Dec 2025 18:30:36 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Dec 2025 18:31:05 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Dec 2025 18:50:00 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Dec 2025 18:55:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -321,27 +321,6 @@ the blog post for a full list of changes.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (binutils, curl, gcc-toolset-13-binutils, git-lfs, httpd, httpd:2.4, keylime, libssh, mod_md, openssh, php:8.3, podman, python3.12, python3.9, python39:3.9, skopeo, tomcat, tomcat9, and webkit2gtk3), <b>Fedora</b> (mingw-glib2, mingw-libsoup, and mingw-python3), <b>Mageia</b> (roundcubemail), <b>Oracle</b> (git-lfs and mod_md), and <b>SUSE</b> (glib2, kernel, mariadb, and qemu).]]></description>
             <guid>https://lwn.net/Articles/1051758/</guid>
             <pubDate>Tue, 23 Dec 2025 14:12:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Incus 6.20 released</title>
-            <link>https://lwn.net/Articles/1051664/</link>
-            <description><![CDATA[<p><a
-href="https://discuss.linuxcontainers.org/t/incus-6-20-has-been-released/25635">Version
-6.20</a> of the Incus container and virtual-machine management system
-has been released. Notable changes in this release include a new
-<a
-href="https://discuss.linuxcontainers.org/t/incus-6-20-has-been-released/25635#p-87412-standalone-incus-cluster-join-command-4">standalone
-command</a> to add IncusOS servers to a cluster,
-<a
-href="https://discuss.linuxcontainers.org/t/incus-6-20-has-been-released/25635#p-87412-qcow2-formatted-volumes-on-clustered-lvm-3">qcow2-formatted
-volumes</a> for clustered LVM, and <a
-href="https://discuss.linuxcontainers.org/t/incus-6-20-has-been-released/25635#p-87412-reverse-dns-records-in-ovn-6">reverse
-DNS records in OVN</a>. See the announcement for a full list of
-changes.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1051664/</guid>
-            <pubDate>Mon, 22 Dec 2025 18:08:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
