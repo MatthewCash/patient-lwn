@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Dec 2025 16:31:24 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Dec 2025 16:51:23 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Dec 2025 17:04:14 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Dec 2025 17:19:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -343,33 +343,6 @@ changes.</p>
             <guid>https://lwn.net/Articles/1051664/</guid>
             <pubDate>Mon, 22 Dec 2025 18:08:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Qubes OS 4.3.0 released</title>
-            <link>https://lwn.net/Articles/1051650/</link>
-            <description><![CDATA[Version 4.3.0 of the security-oriented Qubes OS distribution has been
-released.  Changes include more recent distribution templates, preloaded
-disposable virtual machines, and the reintroduction of the Qubes Windows
-Tools set.  See <a
-href="https://doc.qubes-os.org/en/latest/developer/releases/4_3/release-notes.html">the
-release notes</a> for more information.]]></description>
-            <guid>https://lwn.net/Articles/1051650/</guid>
-            <pubDate>Mon, 22 Dec 2025 16:30:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GDB 17.1 released</title>
-            <link>https://lwn.net/Articles/1051653/</link>
-            <description><![CDATA[Version 17.1 of the GDB debugger is out.  Changes include shadow-stack
-support, <tt>info threads</tt> improvements, a number of Python API
-improvements, and more, including: "<q>Warnings and error messages now
-start with an emoji (warning sign, or cross mark) if supported by the host
-charset. Configurable.</q>"  See <a
-href="https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob_plain;f=gdb/NEWS;hb=gdb-17.1-release">the
-NEWS file</a> for more information.]]></description>
-            <guid>https://lwn.net/Articles/1051653/</guid>
-            <pubDate>Mon, 22 Dec 2025 16:37:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
