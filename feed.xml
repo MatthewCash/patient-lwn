@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 01 Jan 2026 16:25:09 +0000</pubDate>
-        <lastBuildDate>Thu, 1 Jan 2026 16:52:08 +0000</lastBuildDate>
+        <pubDate>Thu, 01 Jan 2026 16:59:22 +0000</pubDate>
+        <lastBuildDate>Thu, 1 Jan 2026 17:19:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A partial ruling in the Vizio GPL suit</title>
+            <link>https://lwn.net/Articles/1051984/</link>
+            <description><![CDATA[The judge in the Vizio GPL-compliance lawsuit has ruled, in <a
+href="https://media.social.kernel.org/media/7423738b6977f73678ca7f996227fecf171a09d691f1a0f737e4d8e7e556b850.pdf">a
+summary judgment</a>, that the GNU General Public License, version&#160;2,
+does not require the provision of signing keys needed to install modified
+software on a device.
+<p>
+<blockquote class="bq">
+	Read as a whole, the Agreements require Vizio to make the source
+	code available in such a manner that the source code can be readily
+	obtained and modified by Plaintiff or other third parties. While
+	source code is defined to include "the scripts used to control
+	compilation and installation," this does not mean that Vizio must
+	allow users to reinstall the software, modified or otherwise, back
+	onto its smart TVs in a manner that preserves all features of the
+	original program and/or ensures the smart TVs continue to function
+	properly. Rather, in the context of the Agreements, the disputed
+	language means that Vizio must provide the source code in a manner
+	that allows the source code to be obtained and revised by Plaintiff
+	or others for use in other applications.
+</blockquote>
+<p>
+As the Software Freedom Conservancy, the plaintiff in the case, has <a
+href="https://sfconservancy.org/news/2025/dec/24/vizio-msa-irrelevant-ruling/">pointed
+out</a>, the judge has ruled against a claim that was never actually made.
+<p>
+<blockquote class="bq">
+	SFC has never held the position, nor do we today hold the position,
+	that any version of the GPL (even including GPLv3!) require "that
+	the device continues to function properly" after a user installs
+	their modified version of the copyleft components.
+</blockquote>
+<p>
+Linus Torvalds, meanwhile, has posted <a
+href="https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ">his own take</a>
+on the ruling that has, as one might imagine, sparked an extended
+discussion as well.]]></description>
+            <guid>https://lwn.net/Articles/1051984/</guid>
+            <pubDate>Thu, 25 Dec 2025 17:11:31 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1051978/</link>
