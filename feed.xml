@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 01 Jan 2026 14:18:49 +0000</pubDate>
-        <lastBuildDate>Thu, 1 Jan 2026 14:20:07 +0000</lastBuildDate>
+        <pubDate>Thu, 01 Jan 2026 14:33:58 +0000</pubDate>
+        <lastBuildDate>Thu, 1 Jan 2026 14:45:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1051978/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (httpd, retroarch, and roundcubemail), <b>Oracle</b> (container-tools:rhel8, grafana, httpd, kernel, python3.12, python39:3.9, thunderbird, and uek-kernel), and <b>SUSE</b> (cheat, go-sendxmpp, and kernel).]]></description>
+            <guid>https://lwn.net/Articles/1051978/</guid>
+            <pubDate>Thu, 25 Dec 2025 13:59:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Ruby 4.0 released</title>
+            <link>https://lwn.net/Articles/1051953/</link>
+            <description><![CDATA[<p>Once again there is a brand-new release under the tree from the
+Ruby programming-language project: <a
+href="https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/">Ruby&#160;4.0</a>
+has been released with many new features and improvements. Notable
+changes include the experimental <a
+href="https://docs.ruby-lang.org/en/master/Ruby/Box.html">Ruby Box</a>
+feature for in-process isolation of classes and modules, a new
+just-in-time compiler called ZJIT, and improvements to Ruby's
+parallel-execution mechanism (Ractor). There are a number of language
+changes as well. See the <a
+href="https://docs.ruby-lang.org/en/master/index.html">documentation
+for Ruby&#160;4.0</a> for more.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1051953/</guid>
+            <pubDate>Thu, 25 Dec 2025 14:09:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1052526/</link>
