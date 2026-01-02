@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 02 Jan 2026 13:45:59 +0000</pubDate>
-        <lastBuildDate>Fri, 2 Jan 2026 13:50:33 +0000</lastBuildDate>
+        <pubDate>Fri, 02 Jan 2026 14:12:13 +0000</pubDate>
+        <lastBuildDate>Fri, 2 Jan 2026 14:21:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1052070/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gst-plugins-good1.0, postgresql-13, and python-urllib3), <b>Fedora</b> (chezmoi, docker-buildkit, ov, and subfinder), <b>Oracle</b> (httpd:2.4), <b>Slackware</b> (net), and <b>SUSE</b> (apache2, buildah, kernel, and mariadb).]]></description>
+            <guid>https://lwn.net/Articles/1052070/</guid>
+            <pubDate>Fri, 26 Dec 2025 14:07:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1052600/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (smb4k), <b>Fedora</b> (direwolf, gh, usd, and webkitgtk), <b>Slackware</b> (libpcap and seamonkey), and <b>SUSE</b> (kepler).]]></description>
+            <guid>https://lwn.net/Articles/1052600/</guid>
+            <pubDate>Fri, 02 Jan 2026 14:03:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>6.18.3 stable kernel released</title>
+            <link>https://lwn.net/Articles/1052589/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1052590/">6.18.3</a> stable kernel. As always, this
+update contains important fixes; users of this kernel are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1052589/</guid>
+            <pubDate>Fri, 02 Jan 2026 14:04:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A partial ruling in the Vizio GPL suit</title>
             <link>https://lwn.net/Articles/1051984/</link>
