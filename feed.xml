@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 02 Jan 2026 15:16:10 +0000</pubDate>
-        <lastBuildDate>Fri, 2 Jan 2026 15:26:01 +0000</lastBuildDate>
+        <pubDate>Fri, 02 Jan 2026 15:43:46 +0000</pubDate>
+        <lastBuildDate>Fri, 2 Jan 2026 15:44:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kroah-Hartman: Linux kernel security work</title>
+            <link>https://lwn.net/Articles/1052607/</link>
+            <description><![CDATA[Greg Kroah-Hartman has written <a
+href="http://www.kroah.com/log/blog/2026/01/02/linux-kernel-security-work/">an
+overview of how the kernel's security team works</a>.
+<p>
+<blockquote class="bq">
+	The members of the security team contain a handful of core kernel
+	developers that have experience dealing with security bugs, and
+	represent different major subsystems of the kernel. They do this
+	work as individuals, and specifically can NOT tell their employer,
+	or anyone else, anything that is discussed on the security alias
+	before it is resolved. This arrangement has allowed the kernel
+	security team to remain independent and continue to operate across
+	the different governments that the members operate in, and it looks
+	to become the normal way project security teams work with the
+	advent of the European Union's new CRA law coming into effect.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1052607/</guid>
+            <pubDate>Fri, 02 Jan 2026 15:37:52 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1052070/</link>
