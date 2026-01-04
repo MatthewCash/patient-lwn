@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 04 Jan 2026 22:19:06 +0000</pubDate>
-        <lastBuildDate>Sun, 4 Jan 2026 22:20:30 +0000</lastBuildDate>
+        <pubDate>Sun, 04 Jan 2026 22:21:11 +0000</pubDate>
+        <lastBuildDate>Sun, 4 Jan 2026 22:45:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.19-rc3</title>
+            <link>https://lwn.net/Articles/1052191/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1052190/">6.19-rc3</a> for testing.  "<q>Another week, another -rc release.
+
+Except the past week has obviously been the holiday week, and this rc
+release is pretty small as a result. Very much as expected.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1052191/</guid>
+            <pubDate>Sun, 28 Dec 2025 22:43:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kroah-Hartman: Linux kernel security work</title>
             <link>https://lwn.net/Articles/1052607/</link>
