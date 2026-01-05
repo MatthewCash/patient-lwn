@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Jan 2026 13:50:02 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Jan 2026 14:02:06 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Jan 2026 14:43:51 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Jan 2026 14:45:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1052236/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kodi, pgbouncer, and rails), <b>Fedora</b> (duc, fluidsynth, gdu, singularity-ce, and tkimg), <b>Slackware</b> (vim), and <b>SUSE</b> (buildah, duc, gnutls, python39, qemu, and webkit2gtk3).]]></description>
+            <guid>https://lwn.net/Articles/1052236/</guid>
+            <pubDate>Mon, 29 Dec 2025 14:11:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1052795/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (tar), <b>Debian</b> (curl and gimp), <b>Fedora</b> (doctl, gitleaks, gnupg2, grpcurl, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, and usd), <b>Mageia</b> (cups), <b>Red Hat</b> (container-tools:rhel8, go-toolset:rhel8, grafana, and skopeo), and <b>SUSE</b> (dirmngr, fluidsynth, gnu-recutils, libmatio-devel, python311-marshmallow, python312-Django6, rsync, and thunderbird).]]></description>
+            <guid>https://lwn.net/Articles/1052795/</guid>
+            <pubDate>Mon, 05 Jan 2026 14:19:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GNU ddrescue 1.30 released</title>
+            <link>https://lwn.net/Articles/1052796/</link>
+            <description><![CDATA[<p>Version 1.30 of the <a
+href="https://www.gnu.org/software/ddrescue/ddrescue.html">GNU
+ddrescue</a> data recovery tool has been released. Notable changes in
+this release include improvements to automatic recovery of a drive
+with a dead head, addition of a <tt>--no-sweep</tt> option to disable
+reading of skipped areas, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1052796/</guid>
+            <pubDate>Mon, 05 Jan 2026 14:27:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.19-rc4</title>
             <link>https://lwn.net/Articles/1052732/</link>
