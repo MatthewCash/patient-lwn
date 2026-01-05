@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Jan 2026 15:50:27 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Jan 2026 15:58:00 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Jan 2026 16:27:56 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Jan 2026 16:31:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Graham: [KDE] Highlights from 2025</title>
+            <link>https://lwn.net/Articles/1052241/</link>
+            <description><![CDATA[Nate Graham <a
+href="https://pointieststick.com/2025/12/28/highlights-from-2025/">looks
+back at how 2025 went</a> for the KDE project.
+<p>
+<blockquote class="bq">
+	Today Plasma is the default desktop environment in a bunch of the
+	hottest new gaming-focused distros, including Bazzite, CachyOS,
+	Garuda, Nobara, and of course SteamOS on Valve's gaming
+	devices. Fedora's Plasma edition was also promoted to co-equal
+	status with the GNOME edition, and Asahi Linux — the single
+	practical option for Linux on newer Macs — only supports KDE
+	Plasma. Parrot Linux recently switched to Plasma by default,
+	too. And Plasma remains the default on old standbys like
+	EndeavourOS, Manjaro, NixOS, OpenMandriva, Slackware and TuxedoOS —
+	which ships on all devices sold by Tuxedo Computers!
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1052241/</guid>
+            <pubDate>Mon, 29 Dec 2025 15:48:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1052236/</link>
