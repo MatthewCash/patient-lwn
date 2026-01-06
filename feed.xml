@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 06 Jan 2026 15:28:38 +0000</pubDate>
-        <lastBuildDate>Tue, 6 Jan 2026 15:47:12 +0000</lastBuildDate>
+        <pubDate>Tue, 06 Jan 2026 15:57:34 +0000</pubDate>
+        <lastBuildDate>Tue, 6 Jan 2026 16:29:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -331,24 +331,6 @@ there, the operation is done.
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
-            <title>Elementary OS 8.1 released</title>
-            <link>https://lwn.net/Articles/1051773/</link>
-            <description><![CDATA[<p><a href="https://blog.elementary.io/os-8-1-available-now/">Version
-8.1</a> of elementary OS has been released. Notable changes in this
-release include making the Wayland session the default, changes to
-window management and multitasking, as well as a number of
-accessibility improvements. The 8.1 release is the first to be made
-available for Arm64 devices, which should allow users to run
-elementary on Apple M-series hardware or other Arm devices that can
-load UEFI-supporting firmware, such as some Raspberry Pi models. See
-the blog post for a full list of changes.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1051773/</guid>
-            <pubDate>Tue, 23 Dec 2025 15:40:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1052327/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (openjpeg2, osslsigncode, php-dompdf, and python-django), <b>Fedora</b> (fluidsynth, golang-github-alecthomas-chroma-2, golang-github-evanw-esbuild, golang-github-jwt-5, and opentofu), <b>Mageia</b> (ceph and ruby-rack), and <b>SUSE</b> (anubis, apache2-mod_auth_openidc, dpdk22, kernel, libpng16, and python311-openapi-core).]]></description>
@@ -484,24 +466,6 @@ for Ruby&#160;4.0</a> for more.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, grafana, opentelemetry-collector, and thunderbird), <b>Red Hat</b> (kernel), and <b>SUSE</b> (cheat, libsoup, mariadb, mozjs52, python310, python315, qemu, rsync, and zk).]]></description>
             <guid>https://lwn.net/Articles/1051862/</guid>
             <pubDate>Wed, 24 Dec 2025 14:04:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Elementary OS 8.1 released</title>
-            <link>https://lwn.net/Articles/1051773/</link>
-            <description><![CDATA[<p><a href="https://blog.elementary.io/os-8-1-available-now/">Version
-8.1</a> of elementary OS has been released. Notable changes in this
-release include making the Wayland session the default, changes to
-window management and multitasking, as well as a number of
-accessibility improvements. The 8.1 release is the first to be made
-available for Arm64 devices, which should allow users to run
-elementary on Apple M-series hardware or other Arm devices that can
-load UEFI-supporting firmware, such as some Raspberry Pi models. See
-the blog post for a full list of changes.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1051773/</guid>
-            <pubDate>Tue, 23 Dec 2025 15:40:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
