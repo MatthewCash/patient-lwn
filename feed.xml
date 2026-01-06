@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 06 Jan 2026 12:48:22 +0000</pubDate>
-        <lastBuildDate>Tue, 6 Jan 2026 13:56:16 +0000</lastBuildDate>
+        <pubDate>Tue, 06 Jan 2026 14:22:31 +0000</pubDate>
+        <lastBuildDate>Tue, 6 Jan 2026 14:23:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1052327/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openjpeg2, osslsigncode, php-dompdf, and python-django), <b>Fedora</b> (fluidsynth, golang-github-alecthomas-chroma-2, golang-github-evanw-esbuild, golang-github-jwt-5, and opentofu), <b>Mageia</b> (ceph and ruby-rack), and <b>SUSE</b> (anubis, apache2-mod_auth_openidc, dpdk22, kernel, libpng16, and python311-openapi-core).]]></description>
+            <guid>https://lwn.net/Articles/1052327/</guid>
+            <pubDate>Tue, 30 Dec 2025 14:00:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1052955/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, ruby, and thunderbird), <b>Debian</b> (libsodium and ruby-rmagick), <b>Fedora</b> (gnupg2 and proxychains-ng), <b>Oracle</b> (gcc-toolset-14-binutils, rsync, tar, and thunderbird), <b>Red Hat</b> (buildah, mariadb, mariadb10.11, podman, and tar), <b>SUSE</b> (alloy, apache2, buildah, erlang26, glib2, ImageMagick, kernel, libsoup, pgadmin4, python-tornado6, python3, python312, python313, qemu, webkit2gtk3, and xen), and <b>Ubuntu</b> (webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1052955/</guid>
+            <pubDate>Tue, 06 Jan 2026 14:09:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Graham: [KDE] Highlights from 2025</title>
             <link>https://lwn.net/Articles/1052241/</link>
