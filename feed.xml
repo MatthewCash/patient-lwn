@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Jan 2026 14:36:37 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Jan 2026 14:54:08 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Jan 2026 14:54:59 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Jan 2026 15:26:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Google will now only release Android source code twice a year (Android Authority)</title>
+            <link>https://lwn.net/Articles/1053061/</link>
+            <description><![CDATA[Android Authority <a
+href="https://www.androidauthority.com/aosp-source-code-schedule-3630018/">reports</a>
+that Google will be reducing the frequency of releases of code to the
+Android Open Source Project to only twice per year.
+<p>
+<blockquote class="bq">
+	A spokesperson for Google offered some additional context on this
+	decision, stating that it helps simplify development, eliminates
+	the complexity of managing multiple code branches, and allows them
+	to deliver more stable and secure code to Android platform
+	developers. The spokesperson also reiterated that Google's
+	commitment to AOSP is unchanged and that this new release schedule
+	helps the company build a more robust and secure foundation for the
+	Android ecosystem.
+</blockquote>
+<p>
+The release schedule for security patches is unchanged.]]></description>
+            <guid>https://lwn.net/Articles/1053061/</guid>
+            <pubDate>Wed, 07 Jan 2026 14:54:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1052425/</link>
