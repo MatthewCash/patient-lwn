@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Jan 2026 13:51:14 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Jan 2026 13:59:02 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Jan 2026 14:26:11 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Jan 2026 14:30:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1052425/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (mediawiki), <b>Fedora</b> (duc, golang-github-projectdiscovery-mapcidr, and kustomize), <b>Slackware</b> (wget2), and <b>SUSE</b> (cheat, duc, flannel, go-sendxmpp, python311, python312, python313, and trivy).]]></description>
+            <guid>https://lwn.net/Articles/1052425/</guid>
+            <pubDate>Wed, 31 Dec 2025 14:04:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1053057/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (resource-agents, ruby:3.3, thunderbird, and xorg-x11-server), <b>Fedora</b> (libpcap), <b>Red Hat</b> (brotli), <b>Slackware</b> (libsodium), <b>SUSE</b> (dcmtk, govulncheck-vulndb, libpcap, mozjs60, qemu, rsync, and usbmuxd), and <b>Ubuntu</b> (glib2.0 and linux-raspi, linux-raspi-5.4).]]></description>
+            <guid>https://lwn.net/Articles/1053057/</guid>
+            <pubDate>Wed, 07 Jan 2026 14:26:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Stenberg: No strcpy either</title>
             <link>https://lwn.net/Articles/1052355/</link>
@@ -331,14 +347,6 @@ disruption.</p>
         </item>
         <item>
             <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1051862/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, grafana, opentelemetry-collector, and thunderbird), <b>Red Hat</b> (kernel), and <b>SUSE</b> (cheat, libsoup, mariadb, mozjs52, python310, python315, qemu, rsync, and zk).]]></description>
-            <guid>https://lwn.net/Articles/1051862/</guid>
-            <pubDate>Wed, 24 Dec 2025 14:04:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1052425/</link>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (mediawiki), <b>Fedora</b> (duc, golang-github-projectdiscovery-mapcidr, and kustomize), <b>Slackware</b> (wget2), and <b>SUSE</b> (cheat, duc, flannel, go-sendxmpp, python311, python312, python313, and trivy).]]></description>
             <guid>https://lwn.net/Articles/1052425/</guid>
@@ -497,14 +505,6 @@ for Ruby&#160;4.0</a> for more.</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1051953/</guid>
             <pubDate>Thu, 25 Dec 2025 14:09:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1051862/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, grafana, opentelemetry-collector, and thunderbird), <b>Red Hat</b> (kernel), and <b>SUSE</b> (cheat, libsoup, mariadb, mozjs52, python310, python315, qemu, rsync, and zk).]]></description>
-            <guid>https://lwn.net/Articles/1051862/</guid>
-            <pubDate>Wed, 24 Dec 2025 14:04:45 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
