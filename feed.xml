@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Jan 2026 14:54:59 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Jan 2026 15:26:06 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Jan 2026 15:45:11 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Jan 2026 15:50:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>IPFire 2.29 Core Update 199 released</title>
+            <link>https://lwn.net/Articles/1053083/</link>
+            <description><![CDATA[<p>The <a href="https://www.ipfire.org/">IPFire project</a>, an
+open-source firewall Linux distribution, has released <a
+href="https://www.ipfire.org/blog/ipfire-2-29-core-update-199-released">version
+2.29 - Core Update 199</a>. Notable changes in this release include an
+update to Linux 6.12.58, support for WiFi&#160;6 and 7 features on
+wireless access points, as well as native support for link-local
+discovery protocol (LLDP) and Cisco discovery protocol (CDP).</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1053083/</guid>
+            <pubDate>Wed, 07 Jan 2026 15:45:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Google will now only release Android source code twice a year (Android Authority)</title>
             <link>https://lwn.net/Articles/1053061/</link>
@@ -321,52 +337,6 @@ for Ruby&#160;4.0</a> for more.</p>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (imagemagick and net-snmp), <b>Fedora</b> (delve, golang-github-google-wire, and golang-github-googlecloudplatform-cloudsql-proxy), and <b>SUSE</b> (podman, python3, and python36).]]></description>
             <guid>https://lwn.net/Articles/1052526/</guid>
             <pubDate>Thu, 01 Jan 2026 14:04:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Shadow-utils 4.19.0 released</title>
-            <link>https://lwn.net/Articles/1052435/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/shadow-maint/shadow/releases/tag/4.19.0">Version
-4.19.0</a> of the <a
-href="https://github.com/shadow-maint/shadow?tab=readme-ov-file#shadow-utils">shadow-utils</a>
-project has been released. Notable changes in this release include
-<a
-href="https://github.com/shadow-maint/shadow/commit/25aea74226152305e43213372bb26057698b0a90">disallowing
-some usernames that were previously accepted</a> with the
-<tt>--badname</tt> option, and <a
-href="https://github.com/shadow-maint/shadow/commit/b0a7ce58b924b04101a3a19f9f28673f578d7cce">removing
-support for escaped newlines</a> in configuration files. Possibly more
-interesting is the announcement that the project is deprecating a
-number of programs, hashing algorithms, and the ability to
-periodically expire passwords:</p>
-
-<blockquote class="bq">
-<p>Scientific research shows that periodic password expiration
-leads to predictable password patterns, and that even in a
-theoretical scenario where that wouldn't happen the gains in
-security are mathematically negligible (<a
-href="https://people.scs.carleton.ca/~paulv/papers/expiration-authorcopy.pdf">paper
-link</a>).</p>
-
-<p>Modern security standards, such as NIST SP 800-63B-4 in the USA,
-prohibit periodic password expiration. [...]</p>
-
-<p>To align with these, we're deprecating the ability to
-periodically expire passwords. The specifics and long-term
-roadmap are currently being discussed, and we invite feedback
-from users, particularly from those in regulated environments.
-See <a
-href="https://github.com/shadow-maint/shadow/pull/1432">#1432</a>.</p>
-</blockquote>
-
-<p>The release announcement notes that the features will remain
-functional "<q>for a significant period</q>" to minimize
-disruption.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1052435/</guid>
-            <pubDate>Wed, 31 Dec 2025 15:43:21 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
         <item>
