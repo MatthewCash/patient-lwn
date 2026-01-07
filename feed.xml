@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Jan 2026 18:31:11 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Jan 2026 18:35:03 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Jan 2026 19:00:51 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Jan 2026 19:02:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>European Commission issues call for evidence on open source</title>
+            <link>https://lwn.net/Articles/1053107/</link>
+            <description><![CDATA[<p>The European Commission has <a
+href="https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/16213-European-Open-Digital-Ecosystems_en">opened</a>
+a "<a
+href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=intcom%3AAres%282026%2969111">call
+for evidence</a>" to help shape its European Open Digital Ecosystem
+Strategy. The commission is looking to reduce its dependence on
+software from non-EU countries:</p>
+
+<blockquote class="bq">
+The EU faces a significant problem of dependence on non-EU countries
+in the digital sphere. This reduces users' choice, hampers EU
+companies' competitiveness and can raise supply chain security issues
+as it makes it difficult to control our digital infrastructure (both
+physical and software components), potentially creating
+vulnerabilities including in critical sectors. In the last few years,
+it has been widely acknowledged that open source – which is a public
+good to be freely used, modified, and redistributed – has the strong
+potential to underpin a diverse portfolio of high-quality and secure
+digital solutions that are valid alternatives to proprietary ones. By
+doing so, it increases user agency, helps regain control and boost the
+resilience of our digital infrastructure.
+</blockquote>
+
+<p>The feedback period runs until midnight (Brussels time)
+February&#160;3, 2026. The commission seeks input from all interested
+stakeholders, "<q>in particular the European open-source community
+(including individual contributors, open-source companies and
+foundations), public administrations, specialised business sectors,
+the ICT industry, academia and research institutions</q>".</p>]]></description>
+            <guid>https://lwn.net/Articles/1053107/</guid>
+            <pubDate>Wed, 07 Jan 2026 19:00:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>IPFire 2.29 Core Update 199 released</title>
             <link>https://lwn.net/Articles/1053083/</link>
