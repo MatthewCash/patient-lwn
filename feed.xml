@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 Jan 2026 14:58:27 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Jan 2026 15:00:09 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Jan 2026 15:17:28 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Jan 2026 15:36:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Two new stable kernels</title>
+            <link>https://lwn.net/Articles/1053279/</link>
+            <description><![CDATA[Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1053280/">6.18.4</a> and <a
+href="https://lwn.net/Articles/1053278/">6.12.64</a> stable kernels. As always, each
+contains important fixes throughout the tree. Users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1053279/</guid>
+            <pubDate>Thu, 08 Jan 2026 15:06:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1053277/</link>
