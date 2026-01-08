@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 Jan 2026 17:39:41 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Jan 2026 17:44:15 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Jan 2026 17:56:30 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Jan 2026 17:58:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora Linux 43 election results</title>
+            <link>https://lwn.net/Articles/1053333/</link>
+            <description><![CDATA[<p>The Fedora Project has <a
+href="https://communityblog.fedoraproject.org/f43-election-results/">announced</a>
+the results of the Fedora&#160;43 election cycle. Five seats were open
+on the <a
+href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
+Steering Committee</a> (FESCo), and the <a
+href="https://elections.fedoraproject.org/about/f43-fesco">winners</a>
+are Kevin Fenzi, Zbigniew Jędrzejewski-Szmek, Timothée Ravier, Dave
+Cantrell, and Máirín Duffy.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1053333/</guid>
+            <pubDate>Thu, 08 Jan 2026 17:56:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Gentoo looks back on 2025</title>
             <link>https://lwn.net/Articles/1053289/</link>
