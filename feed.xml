@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 09 Jan 2026 23:14:09 +0000</pubDate>
-        <lastBuildDate>Fri, 9 Jan 2026 23:53:48 +0000</lastBuildDate>
+        <pubDate>Sat, 10 Jan 2026 01:39:56 +0000</pubDate>
+        <lastBuildDate>Sat, 10 Jan 2026 01:40:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Evans: A data model for Git (and other docs updates)</title>
+            <link>https://lwn.net/Articles/1053595/</link>
+            <description><![CDATA[On her blog, Julia Evans <a
+href="https://jvns.ca/blog/2026/01/08/a-data-model-for-git/">writes about
+improving Git documentation</a>, including a new <a
+href="https://github.com/git/git/blob/master/Documentation/gitdatamodel.adoc">data
+model man page</a> she wrote with Marie
+LeBlanc Flanagan,  and updates to the pages for several other Git sub-commands
+(<tt>add</tt>, <tt>checkout</tt>, <tt>push</tt>, and <tt>pull</tt>).  As
+part of the process, she asked Git users to describe problems they had run into
+in the documentation, which helped guide the changes that she made.
+
+
+
+<blockquote class="bq">
+I'm excited about this because understanding how Git organizes its commit and branch data has really helped me reason about how Git works over the years, and I think it's important to have a short (1600 words!) version of the data model that's accurate.
+<p>
+The "accurate" part turned out to not be that easy: I knew the basics of how Git's data model worked, but during the review process I learned some new details and had to make quite a few changes (for example how merge conflicts are stored in the staging area).
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1053595/</guid>
+            <pubDate>Sat, 10 Jan 2026 01:06:59 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1053492/</link>
