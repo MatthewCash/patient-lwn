@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 11 Jan 2026 14:24:08 +0000</pubDate>
-        <lastBuildDate>Sun, 11 Jan 2026 15:20:55 +0000</lastBuildDate>
+        <pubDate>Sun, 11 Jan 2026 15:41:13 +0000</pubDate>
+        <lastBuildDate>Sun, 11 Jan 2026 15:42:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four stable kernel updates</title>
+            <link>https://lwn.net/Articles/1053664/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1053665/">6.18.5</a>,
+<a href="https://lwn.net/Articles/1053666/">6.12.65</a>,
+<a href="https://lwn.net/Articles/1053667/">6.6.120</a>, and
+<a href="https://lwn.net/Articles/1053668/">6.1.160</a>
+stable updates have been released.  They all contain <a
+href="https://lwn.net/ml/all/20251107160645.929564468@infradead.org/">a small patch
+set</a> fixing a scheduling regression associated with idle balancing; the
+6.6.120 and 6.1.60 updates also contain a large set of other important
+fixes.]]></description>
+            <guid>https://lwn.net/Articles/1053664/</guid>
+            <pubDate>Sun, 11 Jan 2026 15:41:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Evans: A data model for Git (and other docs updates)</title>
             <link>https://lwn.net/Articles/1053595/</link>
