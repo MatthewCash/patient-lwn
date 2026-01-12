@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 Jan 2026 01:20:37 +0000</pubDate>
-        <lastBuildDate>Mon, 12 Jan 2026 01:48:41 +0000</lastBuildDate>
+        <pubDate>Mon, 12 Jan 2026 03:16:28 +0000</pubDate>
+        <lastBuildDate>Mon, 12 Jan 2026 03:50:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -479,26 +479,6 @@ reading of skipped areas, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/1052796/</guid>
             <pubDate>Mon, 05 Jan 2026 14:27:52 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.19-rc4</title>
-            <link>https://lwn.net/Articles/1052732/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1052731/">6.19-rc4</a> kernel prepatch is out for
-testing.
-<p>
-<blockquote class="bq">
-	So this rc is still a bit smaller than usual, but it's not _much_
-	smaller, and I think next week is likely going to be more or less
-	back to normal.
-<p>
-	Which is all exactly as expected, and nothing here looks
-	particularly odd. I'll make an rc8 this release just because of the
-	time lost to the holidays, not because it looks like we'd have any
-	particular issues pending (knock wood).
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1052732/</guid>
-            <pubDate>Mon, 05 Jan 2026 01:16:43 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
         <item>
             <title>Security updates for Wednesday</title>
