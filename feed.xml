@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 Jan 2026 15:19:37 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Jan 2026 15:38:43 +0000</lastBuildDate>
+        <pubDate>Wed, 14 Jan 2026 15:53:29 +0000</pubDate>
+        <lastBuildDate>Wed, 14 Jan 2026 15:57:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,22 +380,6 @@ foundations), public administrations, specialised business sectors,
 the ICT industry, academia and research institutions</q>".</p>]]></description>
             <guid>https://lwn.net/Articles/1053107/</guid>
             <pubDate>Wed, 07 Jan 2026 19:00:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>IPFire 2.29 Core Update 199 released</title>
-            <link>https://lwn.net/Articles/1053083/</link>
-            <description><![CDATA[<p>The <a href="https://www.ipfire.org/">IPFire project</a>, an
-open-source firewall Linux distribution, has released <a
-href="https://www.ipfire.org/blog/ipfire-2-29-core-update-199-released">version
-2.29 - Core Update 199</a>. Notable changes in this release include an
-update to Linux 6.12.58, support for WiFi&#160;6 and 7 features on
-wireless access points, as well as native support for link-local
-discovery protocol (LLDP) and Cisco discovery protocol (CDP).</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1053083/</guid>
-            <pubDate>Wed, 07 Jan 2026 15:45:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
