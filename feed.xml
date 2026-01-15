@@ -8,11 +8,140 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 Jan 2026 23:36:40 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Jan 2026 23:52:11 +0000</lastBuildDate>
+        <pubDate>Thu, 15 Jan 2026 01:40:39 +0000</pubDate>
+        <lastBuildDate>Thu, 15 Jan 2026 01:43:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for January 8, 2026</title>
+            <link>https://lwn.net/Articles/1051994/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1051994/">Front</a>: What to expect in 2026; LAVD scheduler; libpathrs; Questions for the TAB; Graphite; 2025 timeline.
+            <li> <a href="https://lwn.net/Articles/1051996/">Briefs</a>: shadow-utils 4.19.0; Android releases; IPFire 2.29-199; Manjaro 26.0; curl strcpy(); GNU ddrescue 1.30; Ruby 4.0; Partial GPL ruling; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1051997/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1051994/</guid>
+            <pubDate>Thu, 08 Jan 2026 01:36:16 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Lessons from creating a gaming-oriented scheduler</title>
+            <link>https://lwn.net/Articles/1051430/</link>
+            <description><![CDATA[At the <a href="https://lpc.events/event/19/">2025 Linux Plumbers
+Conference</a> (LPC), held in Tokyo in mid-December, Changwoo Min led a <a
+href="https://lpc.events/event/19/contributions/2150/">session</a> on what
+he has learned while developing the
+"<a
+href="https://github.com/sched-ext/scx/tree/main/scheds/rust/scx_lavd#scx_lavd">latency-criticality
+aware virtual deadline</a>" (LAVD) scheduler, which is aimed at gaming
+workloads.  The session was part of the <a
+href="https://lpc.events/event/19/sessions/225/#20251213">Gaming
+on Linux</a> microconference, which is a new entrant into LPC; organizers
+hope to see it return <a href="https://lpc.events/event/20/">next year in
+Prague</a> and, presumably, beyond.  LAVD uses the <a
+href="https://lwn.net/Articles/922405/">extensible scheduler class</a> (sched_ext) and has
+the primary goal of minimizing <a
+href="https://www.gameslearningsociety.org/what-is-game-stuttering/">stuttering</a>
+in games;
+it is implemented in a combination of BPF and Rust.]]></description>
+            <guid>https://lwn.net/Articles/1051430/</guid>
+            <pubDate>Wed, 07 Jan 2026 17:24:50 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] 2025 Linux and free software timeline</title>
+            <link>https://lwn.net/Articles/1051808/</link>
+            <description><![CDATA[<p><a href="https://lwn.net/Articles/1004204/">Last year</a> we
+revived the tradition of <a
+href="https://lwn.net/op/TimelineIdx.lwn">publishing a timeline</a> of
+notable events from the previous year. Since that seemed to go over
+well, we decided we should continue the practice and look back on some
+of the most noteworthy events and releases of 2025.</p>]]></description>
+            <guid>https://lwn.net/Articles/1051808/</guid>
+            <pubDate>Wed, 07 Jan 2026 16:08:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The difficulty of safe path traversal</title>
+            <link>https://lwn.net/Articles/1050887/</link>
+            <description><![CDATA[<p>
+Aleksa Sarai, as the maintainer of the
+<a href="https://github.com/opencontainers/runc?tab=readme-ov-file#runc">runc container runtime</a>, faces a
+constant battle against security problems. Recently, runc has seen
+<a href="https://nvd.nist.gov/vuln/detail/CVE-2025-52565">
+another
+instance</a> of a security vulnerability that can be traced back to the difficulty
+of handling file paths on Linux. Sarai spoke at the 2025
+<a href="https://lpc.events/event/19">Linux Plumbers Conference</a>
+(<a href="https://lpc.events/event/19/contributions/2065/attachments/1851/3964/Path%20Safety%20in%20the%20Trenches%20%5BLPC%202025%5D.pdf">slides</a>;
+<a href="http://www.youtube.com/watch?v=z8v7ovIeDRM">video</a>)
+about
+some of the problems runc has had with path-traversal vulnerabilities, and to
+ask people to please use
+<a href="https://github.com/cyphar/libpathrs/?tab=readme-ov-file#libpathrs">
+libpathrs</a>, the library that he has been developing for
+safe path traversal.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1050887/</guid>
+            <pubDate>Tue, 06 Jan 2026 17:14:43 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Questions for the Technical Advisory Board</title>
+            <link>https://lwn.net/Articles/1051768/</link>
+            <description><![CDATA[<p>
+The nature and role of the Linux Foundation's Technical Advisory Board (TAB) is
+not well-understood, though
+<a href="https://lwn.net/Articles/1049035/">a recent LWN article</a> shed some light on its
+role and
+history. At the 2025
+<a href="https://lpc.events/event/19/">
+Linux Plumbers Conference</a> (LPC), the TAB held a question and
+answer session to address whatever it was the community wanted to know
+(<a href="https://www.youtube.com/watch?v=1_4TlTgpRrE">video</a>).
+Those questions ended up covering the role of large language models in kernel
+development, what it is like to be on the TAB, how the TAB can help grease the
+wheels of corporate bureaucracy, and more.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1051768/</guid>
+            <pubDate>Tue, 06 Jan 2026 17:14:57 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Predictions for the new year</title>
+            <link>https://lwn.net/Articles/1052269/</link>
+            <description><![CDATA[The calendar has flipped over to 2026; a new year has begun.  That means
+the moment we all dread has arrived: it is time for LWN to put out a set of
+lame predictions for what may happen in the coming year.  Needless to say,
+we do not know any more than anybody else, but that doesn't stop us from
+making authoritative-sounding pronouncements anyway.]]></description>
+            <guid>https://lwn.net/Articles/1052269/</guid>
+            <pubDate>Mon, 05 Jan 2026 18:16:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] An early look at the Graphite 2D graphics editor</title>
+            <link>https://lwn.net/Articles/1051242/</link>
+            <description><![CDATA[<p><a href="http://graphite.art/">Graphite</a> is an effort to unify
+illustration, raster editing, desktop publishing, and animation in one
+browser-based application. The project has been in development since
+2020 and announced its first alpha release in 2022. <a
+href="https://discuss.pixls.us/t/graphite-2d-foss-raster-vector-editor-looking-back-on-2023-and-whats-next/41306">According to creator Keavon Chambers</a>, the project's mission is to become
+"<q>the 2D counterpart to Blender</q>", by bringing a node-based,
+non-destructive workflow to 2D graphics. The project, currently still in
+alpha, is a long way from complete; but it is worth testing for anyone
+involved with open-source-graphics production. <a
+href="https://github.com/GraphiteEditor/Graphite/releases/">Current
+builds</a>, from September 2025, include vector-illustration tools, a
+node-based compositor, and early brush tooling, with broader pixel-based-
+and photo-editing work still in progress.</p>]]></description>
+            <guid>https://lwn.net/Articles/1051242/</guid>
+            <pubDate>Fri, 26 Dec 2025 15:45:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The State of OpenSSL for pyca/cryptography</title>
             <link>https://lwn.net/Articles/1054258/</link>
