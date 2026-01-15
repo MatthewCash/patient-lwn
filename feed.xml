@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 Jan 2026 15:56:06 +0000</pubDate>
-        <lastBuildDate>Thu, 15 Jan 2026 16:04:18 +0000</lastBuildDate>
+        <pubDate>Thu, 15 Jan 2026 16:49:41 +0000</pubDate>
+        <lastBuildDate>Thu, 15 Jan 2026 16:54:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -357,34 +357,6 @@ Cantrell, and Máirín Duffy.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1053333/</guid>
             <pubDate>Thu, 08 Jan 2026 17:56:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Gentoo looks back on 2025</title>
-            <link>https://lwn.net/Articles/1053289/</link>
-            <description><![CDATA[<p>Gentoo Linux has published a <a
-href="https://www.gentoo.org/news/2026/01/05/new-year.html">2025
-project retrospective</a> that looks at how the community has evolved,
-changes to the distribution, infrastructure, and finances for the
-Gentoo Foundation.</p>
-
-<blockquote class="bq">
-<p>Gentoo currently consists of 31663 ebuilds for 19174 different
-packages. For amd64 (x86-64), there are 89 GBytes of binary packages
-available on the mirrors. Gentoo each week builds 154 distinct <a
-href="https://www.gentoo.org/downloads/">installation stages</a> for
-different processor architectures and system configurations, with an
-overwhelming part of these fully up-to-date.</p>
-
-<p>The number of commits to the <a
-href="https://gitweb.gentoo.org/repo/gentoo.git/">main ::gentoo</a>
-repository has remained at an overall high level in 2025, with a
-slight decrease from 123942 to 112927. The number of commits by
-external contributors was 9396, now across 377 unique external
-authors.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1053289/</guid>
-            <pubDate>Thu, 08 Jan 2026 16:06:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
