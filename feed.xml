@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 Jan 2026 17:32:05 +0000</pubDate>
-        <lastBuildDate>Thu, 15 Jan 2026 17:32:19 +0000</lastBuildDate>
+        <pubDate>Thu, 15 Jan 2026 17:54:41 +0000</pubDate>
+        <lastBuildDate>Thu, 15 Jan 2026 18:03:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -339,24 +339,6 @@ The "accurate" part turned out to not be that easy: I knew the basics of how Git
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (pdfminer and vlc), <b>Red Hat</b> (kernel, kernel-rt, and microcode_ctl), <b>Slackware</b> (libtasn1), <b>SUSE</b> (apptainer, curl, ImageMagick, libpcap, libvirt, libwget4, php8, podman, python311-cbor2, qemu, and rsync), and <b>Ubuntu</b> (gnupg, gnupg2, gpsd, libsodium, and python-tornado).]]></description>
             <guid>https://lwn.net/Articles/1053492/</guid>
             <pubDate>Fri, 09 Jan 2026 13:59:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 43 election results</title>
-            <link>https://lwn.net/Articles/1053333/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/f43-election-results/">announced</a>
-the results of the Fedora&#160;43 election cycle. Five seats were open
-on the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a> (FESCo), and the <a
-href="https://elections.fedoraproject.org/about/f43-fesco">winners</a>
-are Kevin Fenzi, Zbigniew Jędrzejewski-Szmek, Timothée Ravier, Dave
-Cantrell, and Máirín Duffy.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1053333/</guid>
-            <pubDate>Thu, 08 Jan 2026 17:56:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
