@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 16 Jan 2026 14:14:04 +0000</pubDate>
-        <lastBuildDate>Fri, 16 Jan 2026 14:25:26 +0000</lastBuildDate>
+        <pubDate>Fri, 16 Jan 2026 14:48:04 +0000</pubDate>
+        <lastBuildDate>Fri, 16 Jan 2026 14:51:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -413,14 +413,6 @@ The "accurate" part turned out to not be that easy: I knew the basics of how Git
             <guid>https://lwn.net/Articles/1053595/</guid>
             <pubDate>Sat, 10 Jan 2026 01:06:59 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1053492/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (pdfminer and vlc), <b>Red Hat</b> (kernel, kernel-rt, and microcode_ctl), <b>Slackware</b> (libtasn1), <b>SUSE</b> (apptainer, curl, ImageMagick, libpcap, libvirt, libwget4, php8, podman, python311-cbor2, qemu, and rsync), and <b>Ubuntu</b> (gnupg, gnupg2, gpsd, libsodium, and python-tornado).]]></description>
-            <guid>https://lwn.net/Articles/1053492/</guid>
-            <pubDate>Fri, 09 Jan 2026 13:59:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
