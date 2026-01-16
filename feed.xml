@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 16 Jan 2026 13:43:47 +0000</pubDate>
-        <lastBuildDate>Fri, 16 Jan 2026 13:57:01 +0000</lastBuildDate>
+        <pubDate>Fri, 16 Jan 2026 14:14:04 +0000</pubDate>
+        <lastBuildDate>Fri, 16 Jan 2026 14:25:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1054683/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnupg2), <b>Debian</b> (firefox-esr), <b>Oracle</b> (cups, gnupg2, libpq, net-snmp, postgresql, postgresql:15, postgresql:16, transfig, and vsftpd), <b>Red Hat</b> (firefox), <b>SUSE</b> (apache2, curl, firefox, gpg2, hawk2, libcryptopp-devel, openCryptoki, python310, python311-urllib3, rke2, squid, and tomcat), and <b>Ubuntu</b> (cpp-httplib, git, python-apt, and simgear).]]></description>
+            <guid>https://lwn.net/Articles/1054683/</guid>
+            <pubDate>Fri, 16 Jan 2026 14:14:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A 0-click exploit chain for the Pixel 9 (Project Zero)</title>
             <link>https://lwn.net/Articles/1054547/</link>
