@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 18 Jan 2026 20:48:07 +0000</pubDate>
-        <lastBuildDate>Sun, 18 Jan 2026 21:19:16 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 18 Jan 2026 21:40:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,19 +375,6 @@ fixes</a>, including several sandbox escape vulnerabilities.</p>
             <guid>https://lwn.net/Articles/1053820/</guid>
             <pubDate>Mon, 12 Jan 2026 14:14:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The LSFMM+BPF 2026 call for proposals is out</title>
-            <link>https://lwn.net/Articles/1053698/</link>
-            <description><![CDATA[The 2026 edition of the Linux Storage, Filesystem, Memory Management, and
-BPF Summit will be held May&#160;4-6 in Zagreb, Croatia.  The <a
-href="https://lwn.net/ml/all/20260110-lsfmm-2026-cfp-ae970765d60e@brauner">call for
-proposals</a> has gone out for anybody who would like to attend this
-invitation-only meeting.  "<q>We are asking that you please let us know you
-want to be invited by February 20, 2026</q>".]]></description>
-            <guid>https://lwn.net/Articles/1053698/</guid>
-            <pubDate>Sun, 11 Jan 2026 21:05:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
