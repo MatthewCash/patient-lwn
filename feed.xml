@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 Jan 2026 13:45:33 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Jan 2026 13:45:58 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Jan 2026 14:12:30 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Jan 2026 14:16:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1054992/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups, libpq, libsoup3, podman, and postgresql16), <b>Debian</b> (ffmpeg, gpsd, python-urllib3, and thunderbird), <b>Fedora</b> (chromium, foomuuri, forgejo, freerdp, harfbuzz, libtpms, musescore, python-biopython, and python3.12), <b>Mageia</b> (gimp, libpng, nodejs, and python-urllib3), and <b>SUSE</b> (alloy, avahi, bind, chromedriver, chromium, cpp-httplib, docker, erlang, fluidsynth, freerdp, go-sendxmpp, govulncheck-vulndb, kernel, libwireshark19, NetworkManager-applet-l2tp, python, python311-virtualenv, thunderbird, and zk).]]></description>
+            <guid>https://lwn.net/Articles/1054992/</guid>
+            <pubDate>Mon, 19 Jan 2026 13:58:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Two new stable kernels for Monday</title>
+            <link>https://lwn.net/Articles/1054993/</link>
+            <description><![CDATA[Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1054994/">5.15.198</a>, and <a
+href="https://lwn.net/Articles/1054996/">5.10.248</a> stable kernels. As usual, each
+contains important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1054993/</guid>
+            <pubDate>Mon, 19 Jan 2026 14:01:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 6.19-rc6</title>
             <link>https://lwn.net/Articles/1054924/</link>
