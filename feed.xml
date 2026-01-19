@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 18 Jan 2026 22:44:00 +0000</pubDate>
-        <lastBuildDate>Sun, 18 Jan 2026 23:53:11 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Jan 2026 01:26:07 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Jan 2026 01:49:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 6.19-rc6</title>
+            <link>https://lwn.net/Articles/1054924/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1054923/">6.19-rc6</a> for testing.
+"<q>So we finally ended up with a slightly bigger rc than usual for this
+stage in the release cycle, but it's not _that_ big, and things still seem
+quite stable and civilized.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1054924/</guid>
+            <pubDate>Mon, 19 Jan 2026 00:55:15 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Four stable kernels for the weekend</title>
             <link>https://lwn.net/Articles/1054815/</link>
