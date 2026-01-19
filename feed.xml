@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 Jan 2026 21:03:52 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Jan 2026 21:25:23 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Jan 2026 21:33:36 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Jan 2026 21:43:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The end of OzLabs</title>
+            <link>https://lwn.net/Articles/1055051/</link>
+            <description><![CDATA[<a href="https://ozlabs.org/">OzLabs</a> is a collection of Australian
+free-software developers that was, for most of its history, associated with
+IBM.  Members of OzLabs have included Hugh Blemings, Michael Ellerman, Ben
+Herrenschmidt, Greg Lehey, Paul Mackerras, Martin Pool, Stephen Rothwell,
+Rusty Russell, and Andrew Tridgell, among others.  The <a
+href="https://ozlabs.org/about.html">OzLabs "about" page</a> notes that, as
+of January 2026, the last remaining OzLabs members have departed IBM.
+"<q>This brought to a close the Ozlabs association with IBM</q>".  Thus
+ends a quarter-century of development history.
+<p>
+(Thanks to Jon Masters).]]></description>
+            <guid>https://lwn.net/Articles/1055051/</guid>
+            <pubDate>Mon, 19 Jan 2026 21:33:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Haas: Who contributed to PostgreSQL development in 2025?</title>
             <link>https://lwn.net/Articles/1055033/</link>
