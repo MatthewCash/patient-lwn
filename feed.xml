@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 Jan 2026 14:12:30 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Jan 2026 14:16:30 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Jan 2026 14:45:41 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Jan 2026 14:49:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Wine 11.0 released</title>
+            <link>https://lwn.net/Articles/1055001/</link>
+            <description><![CDATA[<p><a
+href="https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0">Version
+11.0</a> of the Wine Windows compatibility layer is out. "<q>This
+release represents a year of development effort, around&#160;6,300
+individual changes, and more than&#160;600 bug fixes.</q>" The most notable
+changes in this release are support for the NTSync Linux kernel module
+(when available), and the completion of the Windows&#160;32-bit on Windows&#160;64-bit (WoW64) architecture that was announced as experimental in Wine&#160;9.0.</p>]]></description>
+            <guid>https://lwn.net/Articles/1055001/</guid>
+            <pubDate>Mon, 19 Jan 2026 14:32:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1054992/</link>
@@ -399,14 +413,6 @@ fixes</a>, including several sandbox escape vulnerabilities.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (mariadb10.11, mariadb:10.11, mariadb:10.3, mariadb:10.5, and tar), <b>Debian</b> (net-snmp), <b>Fedora</b> (coturn, NetworkManager-l2tp, openssh, and tuxanci), <b>Mageia</b> (libtasn1), <b>Oracle</b> (buildah, cups, httpd, kernel, libpq, libsoup, libsoup3, mariadb:10.11, mariadb:10.3, openssl, and podman), <b>SUSE</b> (cpp-httplib, ImageMagick, libtasn1, python-cbor2, util-linux, valkey, and wget2), and <b>Ubuntu</b> (google-guest-agent, linux-iot, and python-urllib3).]]></description>
             <guid>https://lwn.net/Articles/1053988/</guid>
             <pubDate>Tue, 13 Jan 2026 14:03:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1053820/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium and sogo), <b>Fedora</b> (chromium, foomuuri, libpng, libsodium, mariadb10.11, musescore, nginx, python-pdfminer, python-urllib3, python3.12, seamonkey, wasmedge, and wget2), <b>Mageia</b> (curl, libpcap, sodium, wget2, and zlib), <b>Slackware</b> (lcms2), <b>SUSE</b> (chromedriver, chromium, noopenh264, coredns, curl, dcmtk, fontforge, gdk-pixbuf-loader-libheif, gimp, kernel, libheif, libpng16, libsoup-2_4-1, libvirt, mariadb, php8, poppler, python-filelock, python-tornado6, python311-aiohttp, qemu, sssd, and traefik), and <b>Ubuntu</b> (libheif, libtasn1-6, linux-azure-nvidia, linux-kvm, linux-raspi, linux-raspi-realtime, and php7.2, php7.4, php8.1, php8.3, php8.4).]]></description>
-            <guid>https://lwn.net/Articles/1053820/</guid>
-            <pubDate>Mon, 12 Jan 2026 14:14:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
