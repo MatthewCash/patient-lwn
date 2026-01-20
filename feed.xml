@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 20 Jan 2026 13:39:37 +0000</pubDate>
-        <lastBuildDate>Tue, 20 Jan 2026 13:51:49 +0000</lastBuildDate>
+        <pubDate>Tue, 20 Jan 2026 14:13:26 +0000</pubDate>
+        <lastBuildDate>Tue, 20 Jan 2026 14:31:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1055152/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gpsd-minimal, jmc, kernel, kernel-rt, and net-snmp), <b>Debian</b> (apache-log4j2 and dcmtk), <b>Fedora</b> (exim, gpsd, mysql8.0, mysql8.4, python-biopython, and rust-lru), <b>Mageia</b> (firefox, nss and thunderbird), <b>Oracle</b> (container-tools:rhel8, gpsd-minimal, jmc, kernel, net-snmp, and uek-kernel), <b>Red Hat</b> (net-snmp), <b>SUSE</b> (chromium, go, harfbuzz-devel, kernel, libsoup, rust1.91, rust1.92, and thunderbird), and <b>Ubuntu</b> (apache2, avahi, and python-urllib3).]]></description>
+            <guid>https://lwn.net/Articles/1055152/</guid>
+            <pubDate>Tue, 20 Jan 2026 14:06:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The end of OzLabs</title>
             <link>https://lwn.net/Articles/1055051/</link>
