@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 20 Jan 2026 16:34:08 +0000</pubDate>
-        <lastBuildDate>Tue, 20 Jan 2026 16:52:36 +0000</lastBuildDate>
+        <pubDate>Tue, 20 Jan 2026 17:26:37 +0000</pubDate>
+        <lastBuildDate>Tue, 20 Jan 2026 17:30:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mozilla introduces Firefox Nightly RPM package repository</title>
+            <link>https://lwn.net/Articles/1055191/</link>
+            <description><![CDATA[<p>Mozilla has <a
+href="https://blog.nightly.mozilla.org/2026/01/19/introducing-mozillas-firefox-nightly-rpm-package-for-rpm-based-linux-distributions/">announced</a>
+a repository with <a
+href="https://www.firefox.com/en-US/channel/desktop/">Firefox
+Nightly channel</a> packages for RPM-based Linux distributions such as CentOS
+Stream, Fedora, and openSUSE. Mozilla has provided a Debian repository
+since 2023.</p>
+
+<p>Note that this repository only includes the nightly builds of The
+<tt>firefox-nightly</tt> package. Mozilla is not providing stable
+builds as RPMs at this time. However, the package will not conflict
+with a distribution's regular <tt>firefox</tt> package; both packages
+can be installed at the same time for those who wish to test the
+nightly builds. See the blog post for instructions on setting up the
+repository.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1055191/</guid>
+            <pubDate>Tue, 20 Jan 2026 17:26:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1055152/</link>
