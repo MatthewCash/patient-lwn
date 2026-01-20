@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 20 Jan 2026 19:20:28 +0000</pubDate>
-        <lastBuildDate>Tue, 20 Jan 2026 20:43:05 +0000</lastBuildDate>
+        <pubDate>Tue, 20 Jan 2026 20:45:46 +0000</pubDate>
+        <lastBuildDate>Tue, 20 Jan 2026 21:02:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Remote authentication bypass in telnetd</title>
+            <link>https://lwn.net/Articles/1055213/</link>
+            <description><![CDATA[One would assume that most LWN readers stopped running network-accessible
+telnet services some number of decades ago.  For the rest of you, <a
+href="https://lwn.net/ml/all/87h5sg9yfs.fsf@josefsson.org">this security advisory from
+Simon Josefsson</a> is worthy of note:
+<p>
+<blockquote class="bq">
+	The telnetd server invokes /usr/bin/login (normally running as
+	root) passing the value of the USER environment variable received
+	from the client as the last parameter.
+<p>
+	If the client supplies a carefully crafted USER environment value
+	being the string "-f root", and passes the telnet(1) -a or --login
+	parameter to send this USER environment to the server, the client
+	will be automatically logged in as root bypassing normal
+	authentication processes.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1055213/</guid>
+            <pubDate>Tue, 20 Jan 2026 20:45:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Mozilla introduces Firefox Nightly RPM package repository</title>
             <link>https://lwn.net/Articles/1055191/</link>
