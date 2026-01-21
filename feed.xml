@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Jan 2026 17:09:18 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Jan 2026 17:18:26 +0000</lastBuildDate>
+        <pubDate>Wed, 21 Jan 2026 18:07:41 +0000</pubDate>
+        <lastBuildDate>Wed, 21 Jan 2026 18:09:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Pandas 3.0 released</title>
+            <link>https://lwn.net/Articles/1055327/</link>
+            <description><![CDATA[<p><a
+href="https://pandas.pydata.org/docs/whatsnew/v3.0.0.html">Version
+3.0.0</a> of the <a href="https://pandas.pydata.org/">pandas</a> data
+analysis and manipulation library for Python has been
+released. Notable changes include a <a
+href="https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-guide">dedicated
+string type (<tt>str</tt>)</a>, new <a
+href="https://pandas.pydata.org/docs/user_guide/copy_on_write.html#copy-on-write">"copy-on-write" behavior</a>, and much more. This release also removes
+a number of features that were deprecated in prior versions of pandas;
+developers are advised to upgrade to pandas&#160;2.3 and ensure code is
+working without warnings before moving to&#160;3.0. See the <a
+href="https://pandas.pydata.org/docs/whatsnew/index.html#release">release
+notes</a> for the full changelog.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1055327/</guid>
+            <pubDate>Wed, 21 Jan 2026 17:37:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1055322/</link>
