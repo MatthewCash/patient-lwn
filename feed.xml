@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 21 Jan 2026 13:28:44 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Jan 2026 13:45:55 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 14:58:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -477,32 +477,6 @@ If we are able to successfully switch to one of OpenSSL's forks for our binary w
             <guid>https://lwn.net/Articles/1054258/</guid>
             <pubDate>Wed, 14 Jan 2026 23:16:05 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1054167/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (sssd), <b>Debian</b> (linux-6.1 and python-parsl), <b>Fedora</b> (chezmoi, complyctl, composer, and firefox), <b>Oracle</b> (kernel), <b>Red Hat</b> (buildah, libpq, podman, postgresql, postgresql16, postgresql:13, postgresql:15, and postgresql:16), <b>SUSE</b> (avahi, curl, ffmpeg-4, ffmpeg-7, firefox, istioctl, k6, kubelogin, libmicrohttpd, libpcap-devel, libpng16, libtasn1-6-32bit, matio, ovmf, python-tornado6, python311-Authlib, and teleport), and <b>Ubuntu</b> (angular.js, python-urllib3, and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/1054167/</guid>
-            <pubDate>Wed, 14 Jan 2026 14:05:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Radicle 1.6.0 released</title>
-            <link>https://lwn.net/Articles/1054171/</link>
-            <description><![CDATA[<p><a href="https://radicle.xyz/2026/01/14/radicle-1.6.0">Version
-1.6.0</a> of the Radicle peer-to-peer, local-first code collaboration
-stack has been released. Notable changes in this release include
-support for <a href="https://systemd.io/CREDENTIALS/">systemd
-credentials</a>, use of Rust's <a
-href="https://docs.rs/clap/latest/clap/"><tt>clap</tt></a> crate for
-parsing command-line arguments, and more. LWN <a
-href="https://lwn.net/Articles/966869/">covered</a> the project in March
-2024.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1054171/</guid>
-            <pubDate>Wed, 14 Jan 2026 14:13:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
