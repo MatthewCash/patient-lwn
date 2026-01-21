@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Jan 2026 13:28:44 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Jan 2026 15:36:51 +0000</lastBuildDate>
+        <pubDate>Wed, 21 Jan 2026 15:42:31 +0000</pubDate>
+        <lastBuildDate>Wed, 21 Jan 2026 16:04:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1055322/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (brotli and container-tools:rhel8), <b>Debian</b> (python-keystonemiddleware and python3.9), <b>Fedora</b> (cef, freerdp, golang-github-tetratelabs-wazero, and libpcap), <b>Oracle</b> (brotli, gpsd, kernel, and transfig), <b>Red Hat</b> (freerdp, golang, java-11-openjdk with Extended Lifecycle Support, libpng, libssh, mingw-libpng, and runc), <b>SUSE</b> (abseil-cpp, alloy, apache2, bind, cpp-httplib, curl, erlang, firefox, gpg2, grafana, haproxy, hauler, hawk2, libblkid-devel, libpng16, libraylib550, python-keystonemiddleware-doc, python-uv, python-weasyprint, squid, and tomcat), and <b>Ubuntu</b> (crawl and iperf3).]]></description>
+            <guid>https://lwn.net/Articles/1055322/</guid>
+            <pubDate>Wed, 21 Jan 2026 15:42:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Ryabitsev: Tracking kernel development with korgalore</title>
             <link>https://lwn.net/Articles/1055219/</link>
