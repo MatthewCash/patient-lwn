@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 21 Jan 2026 21:18:12 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Jan 2026 22:53:47 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 21 Jan 2026 23:26:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -480,33 +480,6 @@ and photo-editing work still in progress.</p>]]></description>
             <guid>https://lwn.net/Articles/1051242/</guid>
             <pubDate>Fri, 26 Dec 2025 15:45:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The State of OpenSSL for pyca/cryptography</title>
-            <link>https://lwn.net/Articles/1054258/</link>
-            <description><![CDATA[Paul Kehrer and Alex Gaynor, maintainers of the Python <a
-href="https://cryptography.io/en/latest/"><tt>cryptography</tt></a> module, have put out some <a
-href="https://cryptography.io/en/latest/statements/state-of-openssl/">strongly
-worded criticism</a> of <a href="https://www.openssl.org/">OpenSSL</a>. It
-comes from a talk they gave at the <a href="https://2025.openssl-conference.org/">OpenSSL conference</a> in October 2025 (<a
-href="https://www.youtube.com/watch?v=RUIguklWwx0">YouTube video</a>).  The
-post goes into a lot of detail about the problems with the OpenSSL code
-base and testing, which has led the <tt>cryptography</tt> team to
-reconsider using the library. "<q>The mistakes we see in OpenSSL's
-development have become so significant that we believe substantial changes
-are required — either to OpenSSL, or to our reliance on it.</q>"  They go
-further in the conclusion:
-
-<blockquote class="bq">
-First, we will no longer require OpenSSL implementations for new functionality. Where we deem it desirable, we will add new APIs that are only on LibreSSL/BoringSSL/AWS-LC. Concretely, we expect to add ML-KEM and ML-DSA APIs that are only available with LibreSSL/BoringSSL/AWS-LC, and not with OpenSSL.
-<p>
-Second, we currently statically link a copy of OpenSSL in our wheels (binary artifacts). We are beginning the process of looking into what would be required to change our wheels to link against one of the OpenSSL forks.
-<p>
-If we are able to successfully switch to one of OpenSSL's forks for our binary wheels, we will begin considering the circumstances under which we would drop support for OpenSSL entirely.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1054258/</guid>
-            <pubDate>Wed, 14 Jan 2026 23:16:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
