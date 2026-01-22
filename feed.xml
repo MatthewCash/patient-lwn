@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 22 Jan 2026 18:57:07 +0000</pubDate>
-        <lastBuildDate>Thu, 22 Jan 2026 19:05:24 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 22 Jan 2026 19:36:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -480,41 +480,6 @@ three</a> looks at the implications:
             <guid>https://lwn.net/Articles/1054547/</guid>
             <pubDate>Fri, 16 Jan 2026 00:04:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Running Debian on the OpenWrt One (Collabora Blog)</title>
-            <link>https://lwn.net/Articles/1054519/</link>
-            <description><![CDATA[<p>Sjoerd Simons has <a
-href="https://www.collabora.com/news-and-blog/news-and-events/openwrt-one-meets-debian.html">published
-a blog post</a> about running Debian on the <a
-href="https://sfconservancy.org/activities/openwrt-one.html">OpenWrt&#160;One</a>
-router hardware:</p>
-
-<blockquote class="bq">
-<p>With openwrt-one-debian, you can now install and run a full Debian
-system leveraging the OpenWrt One's NVMe storage, enabling everything
-from custom services and containers to development tools and
-lightweight server workloads, all on open hardware.</p>
-
-<p>This project provides a rust-based flasher to install Debian on the
-OpenWrt One, opening the door to standard Debian tooling, packages,
-and workflows. For developers and power users, it transforms the
-OpenWrt One from a network appliance into a compact, general-purpose
-Linux system.</p>
-</blockquote>
-
-<p>See the <a
-href="https://github.com/sjoerdsimons/openwrt-one-debian?tab=readme-ov-file#debian-on-openwrt-one">GitHub
-repository</a> for the code and latest build. LWN <a
-href="https://lwn.net/Articles/994961/">reviewed</a> the device in
-November 2024, and <a
-href="https://lwn.net/Articles/1014998/">covered</a> Denver
-Gingerich's talk at <a
-href="https://www.socallinuxexpo.org/scale/22x">SCALE 22x</a> about
-the making of the router in March 2025.</p>]]></description>
-            <guid>https://lwn.net/Articles/1054519/</guid>
-            <pubDate>Thu, 15 Jan 2026 18:57:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
