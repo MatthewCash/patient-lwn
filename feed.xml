@@ -8,11 +8,169 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Jan 2026 23:43:32 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Jan 2026 23:48:25 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Jan 2026 00:47:48 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Jan 2026 01:47:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for January 15, 2026</title>
+            <link>https://lwn.net/Articles/1053201/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1053201/">Front</a>: SFC v. VIZIO; GPLv2 requirements; Debian and GTK 2; OpenZL; kernel scheduler QoS; Rust concurrent data access; Asciinema.
+            <li> <a href="https://lwn.net/Articles/1053203/">Briefs</a>: OpenSSL and Python; LSFMM+BPF 2026; Fedora elections; Gentoo retrospective; EU lawmaking; Git data model; Firefox 147; Radicle 1.6.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1053204/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1053201/</guid>
+            <pubDate>Thu, 15 Jan 2026 00:03:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Format-specific compression with OpenZL</title>
+            <link>https://lwn.net/Articles/1053018/</link>
+            <description><![CDATA[Lossless data compression is an important tool for reducing the storage
+requirements of the world's ever-growing data sets.  Yann Collet developed
+the <a href="https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)">LZ4
+algorithm</a> and designed the <a
+href="https://en.wikipedia.org/wiki/Zstd">Zstandard</a> (or Zstd)
+algorithm; he came to the <a
+href="https://events.linuxfoundation.org/archive/2025/open-source-summit-japan/">2025
+Open Source Summit Japan</a> in Tokyo to talk about where data compression
+goes from here.  It turns out that we have reached a point where
+general-purpose algorithms are only going to provide limited improvement;
+for significant increases in compression, while keeping computation costs
+within reason for data-center use, turning to format-specific techniques
+will be needed.]]></description>
+            <guid>https://lwn.net/Articles/1053018/</guid>
+            <pubDate>Wed, 14 Jan 2026 17:51:21 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debian discusses removing GTK 2 for forky</title>
+            <link>https://lwn.net/Articles/1051006/</link>
+            <description><![CDATA[<p>The Debian GNOME team would like to remove the GTK&#160;2 graphics
+toolkit, which has been unmaintained upstream for more than five
+years, and ship Debian&#160;14 ("forky") without it. As one might
+expect, however, there are those who would like to find a way to keep
+it. Despite its age and declared obsolescence, quite a few Debian
+packages still depend on GTK&#160;2. Many of those applications are
+unlikely to be updated, and users are not eager to give them
+up. Discussion about how to handle this is ongoing; it seems likely
+that Debian developers will find some way to continue supporting
+applications that require GTK&#160;2, but users may have to look
+outside official Debian repositories.</p>]]></description>
+            <guid>https://lwn.net/Articles/1051006/</guid>
+            <pubDate>Wed, 14 Jan 2026 16:08:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A high-level quality-of-service interface</title>
+            <link>https://lwn.net/Articles/1051982/</link>
+            <description><![CDATA[<p>
+Quality-of-service (QoS) mechanisms attempt to prioritize some processes (or
+network traffic, disk I/O, etc.) over others in order to meet a system's
+performance goals. This is a difficult topic to handle in the world of Linux,
+where workloads, hardware, and user expectations vary wildly. Qais Yousef spoke
+at the 2025 Linux Plumbers Conference, alongside his collaborators John Stultz,
+Steven Rostedt, and Vincent Guittot, about their plans for introducing a
+high-level QoS API for Linux in a way that leaves end users in control of its
+configuration. The talk focused specifically on a QoS mechanism for the
+scheduler, to prioritize access to CPU resources differently for different kinds
+of processes.
+(<a
+href="https://lpc.events/event/19/contributions/2089/attachments/1797/3877/Userspace%20Assisted%20Scheduling%20via%20Sched%20QoS.pdf">slides</a>;
+<a href="http://www.youtube.com/watch?v=zuOjTaVohm0">video</a>)
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1051982/</guid>
+            <pubDate>Tue, 13 Jan 2026 19:04:34 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Asciinema: making movies at the command-line</title>
+            <link>https://lwn.net/Articles/1053355/</link>
+            <description><![CDATA[<p>In open-source circles there are many situations, such as bug
+reports, demos, and tutorials, when one might want to provide a
+play-by-play of a session in one's terminal. The <a
+href="https://asciinema.org/">asciinema</a> project provides a set of
+tools to do just that. Its tools let users record, edit, and share
+terminal sessions in a text-based format that has quite a few
+advantages compared to making and sharing videos of terminal sessions. For
+example, it is easy to use, offers the ability to search text from
+recorded sessions, and allows users to copy and paste directly from
+the recording.</p>]]></description>
+            <guid>https://lwn.net/Articles/1053355/</guid>
+            <pubDate>Mon, 12 Jan 2026 17:30:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] READ_ONCE(), WRITE_ONCE(), but not for Rust</title>
+            <link>https://lwn.net/Articles/1053142/</link>
+            <description><![CDATA[The <tt>READ_ONCE()</tt> and <tt>WRITE_ONCE()</tt> macros are heavily used
+within the kernel; there are nearly 8,000 call sites for
+<tt>READ_ONCE()</tt>.  They are key to the implementation of many <a
+href="https://lwn.net/Articles/844224/">lockless algorithms</a> and can be necessary for some
+types of device-memory access.  So one might think that, as the
+amount of Rust code in the kernel increases, there would be a place for
+Rust versions of these macros as well.  The truth of the matter, though, is
+that the Rust community seems to want to take a different approach to
+concurrent data access.]]></description>
+            <guid>https://lwn.net/Articles/1053142/</guid>
+            <pubDate>Fri, 09 Jan 2026 15:47:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] GPLv2 and installation requirements</title>
+            <link>https://lwn.net/Articles/1052842/</link>
+            <description><![CDATA[On December 24 2025, Linus Torvalds posted <a
+href="https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ">a strongly
+worded message</a> celebrating a <a href="https://lwn.net/Articles/1051984/">ruling</a> in
+the ongoing <a href="https://lwn.net/Articles/1052734/">GPL-compliance lawsuit</a> filed
+against VIZIO by the Software Freedom Conservancy (SFC).  This case and
+Torvalds's response have put a spotlight on an old debate over the extent
+to which the source-code requirements of the <a
+href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU
+General Public License (version&#160;2)</a> extend to keys and other data
+needed to successfully install modified software on a device.  It is worth
+looking at whether this requirement exists, the subtleties in
+interpretation that cloud the issue, and the extent to which, if any, the
+SFC is demanding that information.]]></description>
+            <guid>https://lwn.net/Articles/1052842/</guid>
+            <pubDate>Thu, 08 Jan 2026 15:36:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] SFC v. VIZIO: who can enforce the GPL?</title>
+            <link>https://lwn.net/Articles/1052734/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://sfconservancy.org/">
+Software Freedom Conservancy</a> (SFC) is
+<a href="https://lwn.net/Articles/873415/">
+suing</a>
+<a href="https://www.vizio.com/en/home">
+VIZIO</a> over smart TVs that
+include software licensed under the GPL and LGPL (including the Linux kernel,
+FFmpeg, systemd, and others).
+VIZIO didn't provide the source code along with the device, and on request they
+only provided some of it. Unlike a typical lawsuit about enforcing the GPL, the
+SFC isn't suing as a copyright holder; it's suing as
+a normal owner of the TV
+in question. This approach opens some important legal questions, and after years
+of pre-trial maneuvering (most recently resulting in
+<a href="https://lwn.net/Articles/1051984/">a ruling related to signing keys</a> that
+<a href="https://lwn.net/Articles/1052842/">is the subject of a separate article</a>),
+we might finally obtain some answers when the case goes
+to trial on January&#160;12. As things stand, it seems likely that the judge in
+the case will rule that that the GPL-enforcement lawsuits can be a matter of
+contract law, not just copyright law, which would be a major change to how GPL
+enforcement works.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1052734/</guid>
+            <pubDate>Thu, 08 Jan 2026 15:36:37 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Pandas 3.0 released</title>
             <link>https://lwn.net/Articles/1055327/</link>
@@ -350,135 +508,6 @@ is becoming so difficult to send legitimate email as a small
 business.</p>]]></description>
             <guid>https://lwn.net/Articles/1054410/</guid>
             <pubDate>Thu, 15 Jan 2026 14:29:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for January 8, 2026</title>
-            <link>https://lwn.net/Articles/1051994/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1051994/">Front</a>: What to expect in 2026; LAVD scheduler; libpathrs; Questions for the TAB; Graphite; 2025 timeline.
-            <li> <a href="https://lwn.net/Articles/1051996/">Briefs</a>: shadow-utils 4.19.0; Android releases; IPFire 2.29-199; Manjaro 26.0; curl strcpy(); GNU ddrescue 1.30; Ruby 4.0; Partial GPL ruling; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1051997/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1051994/</guid>
-            <pubDate>Thu, 08 Jan 2026 01:36:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Lessons from creating a gaming-oriented scheduler</title>
-            <link>https://lwn.net/Articles/1051430/</link>
-            <description><![CDATA[At the <a href="https://lpc.events/event/19/">2025 Linux Plumbers
-Conference</a> (LPC), held in Tokyo in mid-December, Changwoo Min led a <a
-href="https://lpc.events/event/19/contributions/2150/">session</a> on what
-he has learned while developing the
-"<a
-href="https://github.com/sched-ext/scx/tree/main/scheds/rust/scx_lavd#scx_lavd">latency-criticality
-aware virtual deadline</a>" (LAVD) scheduler, which is aimed at gaming
-workloads.  The session was part of the <a
-href="https://lpc.events/event/19/sessions/225/#20251213">Gaming
-on Linux</a> microconference, which is a new entrant into LPC; organizers
-hope to see it return <a href="https://lpc.events/event/20/">next year in
-Prague</a> and, presumably, beyond.  LAVD uses the <a
-href="https://lwn.net/Articles/922405/">extensible scheduler class</a> (sched_ext) and has
-the primary goal of minimizing <a
-href="https://www.gameslearningsociety.org/what-is-game-stuttering/">stuttering</a>
-in games;
-it is implemented in a combination of BPF and Rust.]]></description>
-            <guid>https://lwn.net/Articles/1051430/</guid>
-            <pubDate>Wed, 07 Jan 2026 17:24:50 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] 2025 Linux and free software timeline</title>
-            <link>https://lwn.net/Articles/1051808/</link>
-            <description><![CDATA[<p><a href="https://lwn.net/Articles/1004204/">Last year</a> we
-revived the tradition of <a
-href="https://lwn.net/op/TimelineIdx.lwn">publishing a timeline</a> of
-notable events from the previous year. Since that seemed to go over
-well, we decided we should continue the practice and look back on some
-of the most noteworthy events and releases of 2025.</p>]]></description>
-            <guid>https://lwn.net/Articles/1051808/</guid>
-            <pubDate>Wed, 07 Jan 2026 16:08:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The difficulty of safe path traversal</title>
-            <link>https://lwn.net/Articles/1050887/</link>
-            <description><![CDATA[<p>
-Aleksa Sarai, as the maintainer of the
-<a href="https://github.com/opencontainers/runc?tab=readme-ov-file#runc">runc container runtime</a>, faces a
-constant battle against security problems. Recently, runc has seen
-<a href="https://nvd.nist.gov/vuln/detail/CVE-2025-52565">
-another
-instance</a> of a security vulnerability that can be traced back to the difficulty
-of handling file paths on Linux. Sarai spoke at the 2025
-<a href="https://lpc.events/event/19">Linux Plumbers Conference</a>
-(<a href="https://lpc.events/event/19/contributions/2065/attachments/1851/3964/Path%20Safety%20in%20the%20Trenches%20%5BLPC%202025%5D.pdf">slides</a>;
-<a href="http://www.youtube.com/watch?v=z8v7ovIeDRM">video</a>)
-about
-some of the problems runc has had with path-traversal vulnerabilities, and to
-ask people to please use
-<a href="https://github.com/cyphar/libpathrs/?tab=readme-ov-file#libpathrs">
-libpathrs</a>, the library that he has been developing for
-safe path traversal.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1050887/</guid>
-            <pubDate>Tue, 06 Jan 2026 17:14:43 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Questions for the Technical Advisory Board</title>
-            <link>https://lwn.net/Articles/1051768/</link>
-            <description><![CDATA[<p>
-The nature and role of the Linux Foundation's Technical Advisory Board (TAB) is
-not well-understood, though
-<a href="https://lwn.net/Articles/1049035/">a recent LWN article</a> shed some light on its
-role and
-history. At the 2025
-<a href="https://lpc.events/event/19/">
-Linux Plumbers Conference</a> (LPC), the TAB held a question and
-answer session to address whatever it was the community wanted to know
-(<a href="https://www.youtube.com/watch?v=1_4TlTgpRrE">video</a>).
-Those questions ended up covering the role of large language models in kernel
-development, what it is like to be on the TAB, how the TAB can help grease the
-wheels of corporate bureaucracy, and more.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1051768/</guid>
-            <pubDate>Tue, 06 Jan 2026 17:14:57 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Predictions for the new year</title>
-            <link>https://lwn.net/Articles/1052269/</link>
-            <description><![CDATA[The calendar has flipped over to 2026; a new year has begun.  That means
-the moment we all dread has arrived: it is time for LWN to put out a set of
-lame predictions for what may happen in the coming year.  Needless to say,
-we do not know any more than anybody else, but that doesn't stop us from
-making authoritative-sounding pronouncements anyway.]]></description>
-            <guid>https://lwn.net/Articles/1052269/</guid>
-            <pubDate>Mon, 05 Jan 2026 18:16:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] An early look at the Graphite 2D graphics editor</title>
-            <link>https://lwn.net/Articles/1051242/</link>
-            <description><![CDATA[<p><a href="http://graphite.art/">Graphite</a> is an effort to unify
-illustration, raster editing, desktop publishing, and animation in one
-browser-based application. The project has been in development since
-2020 and announced its first alpha release in 2022. <a
-href="https://discuss.pixls.us/t/graphite-2d-foss-raster-vector-editor-looking-back-on-2023-and-whats-next/41306">According to creator Keavon Chambers</a>, the project's mission is to become
-"<q>the 2D counterpart to Blender</q>", by bringing a node-based,
-non-destructive workflow to 2D graphics. The project, currently still in
-alpha, is a long way from complete; but it is worth testing for anyone
-involved with open-source-graphics production. <a
-href="https://github.com/GraphiteEditor/Graphite/releases/">Current
-builds</a>, from September 2025, include vector-illustration tools, a
-node-based compositor, and early brush tooling, with broader pixel-based-
-and photo-editing work still in progress.</p>]]></description>
-            <guid>https://lwn.net/Articles/1051242/</guid>
-            <pubDate>Fri, 26 Dec 2025 15:45:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
