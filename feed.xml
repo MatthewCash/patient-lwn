@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 22 Jan 2026 14:28:36 +0000</pubDate>
-        <lastBuildDate>Thu, 22 Jan 2026 14:30:38 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Jan 2026 14:48:24 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Jan 2026 14:59:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -532,33 +532,6 @@ href="https://forgejo.org/2026-01-release-v14-0/#interact-with-ui-without-javasc
 Forgejo's web UI work without JavaScript</a>.</p>]]></description>
             <guid>https://lwn.net/Articles/1054461/</guid>
             <pubDate>Thu, 15 Jan 2026 15:04:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1054408/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, gnupg2, and mongo-c-driver), <b>Fedora</b> (firefox, gpsd, linux-firmware, and seamonkey), <b>Mageia</b> (net-snmp), <b>Oracle</b> (kernel, podman, postgresql16, postgresql:13, postgresql:15, postgresql:16, and uek-kernel), <b>Red Hat</b> (libpq, net-snmp, and transfig), <b>Slackware</b> (libpng and mozilla), <b>SUSE</b> (avahi, bluez, capstone, curl, dpdk, firefox, firefox-esr, fluidsynth, glib2, kernel, kernel-devel, libmicrohttpd, libpcap, libpng16, libsoup, libsoup-3_0-0, libtasn1, libvirt, mcphost, openvswitch, ovmf, podman, poppler, python-tornado6, python311, qemu, rsync, and valkey), and <b>Ubuntu</b> (erlang, klibc, libpng1.6, and ruby-rack).]]></description>
-            <guid>https://lwn.net/Articles/1054408/</guid>
-            <pubDate>Thu, 15 Jan 2026 14:04:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A note for MXroute users</title>
-            <link>https://lwn.net/Articles/1054410/</link>
-            <description><![CDATA[<p>We have recently noticed that email from LWN.net seems to be
-blocked by MXroute. Unfortunately, the company also does not seem to
-have a way for non-customers to report problems in mail delivery, so
-we have no good way to get ourselves unblocked.</p>
-
-<p>As a result, readers who have subscribed to an LWN mailing list
-from a domain hosted with MXroute will probably not receive our
-mailings. We have not yet unsubscribed addresses that are being
-blocked by MXroute, but will soon if the problem persists. Please
-accept our apologies for the inconvenience; it is unfortunate that it
-is becoming so difficult to send legitimate email as a small
-business.</p>]]></description>
-            <guid>https://lwn.net/Articles/1054410/</guid>
-            <pubDate>Thu, 15 Jan 2026 14:29:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
