@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Fri, 23 Jan 2026 00:05:44 +0000</pubDate>
-        <lastBuildDate>Fri, 23 Jan 2026 01:44:16 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jan 2026 03:24:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -442,44 +442,6 @@ upgrade.</p>
             <guid>https://lwn.net/Articles/1054683/</guid>
             <pubDate>Fri, 16 Jan 2026 14:14:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A 0-click exploit chain for the Pixel 9 (Project Zero)</title>
-            <link>https://lwn.net/Articles/1054547/</link>
-            <description><![CDATA[The Project Zero blog has <a
-href="https://projectzero.google/2026/01/pixel-0-click-part-1.html">a
-three-part series</a> describing a working, zero-click exploit for
-Pixel&#160;9 devices.
-<p>
-<blockquote class="bq">
-	Over the past few years, several AI-powered features have been
-	added to mobile phones that allow users to better search and
-	understand their messages. One effect of this change is increased
-	0-click attack surface, as efficient analysis often requires
-	message media to be decoded before the message is opened by the
-	user. One such feature is audio transcription. Incoming SMS and RCS
-	audio attachments received by Google Messages are now automatically
-	decoded with no user interaction. As a result, audio decoders are
-	now in the 0-click attack surface of most Android phones.
-</blockquote>
-<p>
-The blog entry does not question the wisdom of directly exposing audio
-decoders to external attackers, but it does provide a lot of detail showing
-how it can go wrong.  The first part looks at compromising the codec; <a
-href="https://projectzero.google/2026/01/pixel-0-click-part-2.html">part
-two</a> extends the exploit to the kernel, and <a
-href="https://projectzero.google/2026/01/pixel-0-click-part-3.html">part
-three</a> looks at the implications:
-<P>
-<blockquote class="bq">
-	It is alarming that it took 139 days for a vulnerability
-	exploitable in a 0-click context to get patched on any Android
-	device, and it took Pixel 54 days longer. The vulnerability was
-	public for 82 days before it was patched by Pixel.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1054547/</guid>
-            <pubDate>Fri, 16 Jan 2026 00:04:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
