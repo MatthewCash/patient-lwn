@@ -8,11 +8,60 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 23 Jan 2026 13:59:39 +0000</pubDate>
-        <lastBuildDate>Fri, 23 Jan 2026 14:03:44 +0000</lastBuildDate>
+        <pubDate>Fri, 23 Jan 2026 14:14:25 +0000</pubDate>
+        <lastBuildDate>Fri, 23 Jan 2026 14:45:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Two new stable kernels for Friday</title>
+            <link>https://lwn.net/Articles/1055672/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1055673/">6.18.7</a> and <a
+href="https://lwn.net/Articles/1055674/">6.12.67</a> stable kernels. As always, each
+contains important fixes throughout the tree. Users are advised to
+upgrade.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1055672/</guid>
+            <pubDate>Fri, 23 Jan 2026 14:05:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GNU Guix 1.5.0 released</title>
+            <link>https://lwn.net/Articles/1055675/</link>
+            <description><![CDATA[<p><a
+href="https://guix.gnu.org/blog/2026/gnu-guix-1.5.0-released/">Version
+1.5.0</a> of the GNU Guix package manager and the Guix System have
+been released. Notable improvements include the ability to run the
+Guix daemon without root privileges, support for 64-bit RISC-V, and
+experimental support for the GNU Hurd kernel.</p>
+
+<blockquote class="bq">
+<p>The release comes with ISO-9660 installation images, virtual
+machine images, and with tarballs to install the package manager on
+top of your GNU/Linux distro, either from source or from
+binaries—check out the download page. Guix users can update by running
+guix pull.</p>
+
+<p>It's been 3 years since the previous release. That's a lot of time,
+reflecting both the fact that, as a rolling release, users
+continuously get new features and update by running guix pull; but it
+also shows a lack of processes, something that we had to address
+before another release could be made.</p>
+
+<p>During that time, Guix received about 71,338 commits by 744 people,
+which include many new features.</p>
+</blockquote>
+
+<p>LWN <a
+href="https://lwn.net/Articles/962788/">last looked at Guix</a> in
+February 2024.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1055675/</guid>
+            <pubDate>Fri, 23 Jan 2026 14:14:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1055671/</link>
@@ -441,14 +490,6 @@ upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1054815/</guid>
             <pubDate>Sat, 17 Jan 2026 19:27:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1054683/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gnupg2), <b>Debian</b> (firefox-esr), <b>Oracle</b> (cups, gnupg2, libpq, net-snmp, postgresql, postgresql:15, postgresql:16, transfig, and vsftpd), <b>Red Hat</b> (firefox), <b>SUSE</b> (apache2, curl, firefox, gpg2, hawk2, libcryptopp-devel, openCryptoki, python310, python311-urllib3, rke2, squid, and tomcat), and <b>Ubuntu</b> (cpp-httplib, git, python-apt, and simgear).]]></description>
-            <guid>https://lwn.net/Articles/1054683/</guid>
-            <pubDate>Fri, 16 Jan 2026 14:14:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
