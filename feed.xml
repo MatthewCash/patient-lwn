@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 26 Jan 2026 15:44:20 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Jan 2026 15:56:04 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 16:35:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -453,32 +453,6 @@ ends a quarter-century of development history.
             <guid>https://lwn.net/Articles/1055051/</guid>
             <pubDate>Mon, 19 Jan 2026 21:33:35 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Haas: Who contributed to PostgreSQL development in 2025?</title>
-            <link>https://lwn.net/Articles/1055033/</link>
-            <description><![CDATA[<p>PostgreSQL contributor Robert Haas has <a
-href="https://rhaas.blogspot.com/2026/01/who-contributed-to-postgresql.html">published</a>
-a blog post that breaks down code contributions to PostgreSQL in
-2025.</p>
-
-<blockquote class="bq">
-I calculate that, in 2025, there were 266 people who were the
-principal author of at least one PostgreSQL commit. 66% of the new
-lines of code where contributed by one of 26 people, and 90% of the
-lines of new code were contributed by one of 67 people.
-</blockquote>
-
-<p>Contributions to the project seem to be on the upswing; in his <a
-href="https://rhaas.blogspot.com/2025/01/who-contributed-to-postgresql.html">analysis
-of development in 2024</a>, there were 229 people who were the primary
-authors of a commit, and 66% of new lines of code were contributed by
-one of 18 people. The <a
-href="https://sites.google.com/site/robertmhaas/contributions">raw
-data</a> is also available.</p>]]></description>
-            <guid>https://lwn.net/Articles/1055033/</guid>
-            <pubDate>Mon, 19 Jan 2026 16:18:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
