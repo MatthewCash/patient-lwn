@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 26 Jan 2026 20:05:00 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Jan 2026 21:25:04 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 26 Jan 2026 21:48:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -472,24 +472,6 @@ repository.</p>
             <guid>https://lwn.net/Articles/1055152/</guid>
             <pubDate>Tue, 20 Jan 2026 14:06:26 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The end of OzLabs</title>
-            <link>https://lwn.net/Articles/1055051/</link>
-            <description><![CDATA[<a href="https://ozlabs.org/">OzLabs</a> is a collection of Australian
-free-software developers that was, for most of its history, associated with
-IBM.  Members of OzLabs have included Hugh Blemings, Michael Ellerman, Ben
-Herrenschmidt, Greg Lehey, Paul Mackerras, Martin Pool, Stephen Rothwell,
-Rusty Russell, and Andrew Tridgell, among others.  The <a
-href="https://ozlabs.org/about.html">OzLabs "about" page</a> notes that, as
-of January 2026, the last remaining OzLabs members have departed IBM.
-"<q>This brought to a close the Ozlabs association with IBM</q>".  Thus
-ends a quarter-century of development history.
-<p>
-(Thanks to Jon Masters).]]></description>
-            <guid>https://lwn.net/Articles/1055051/</guid>
-            <pubDate>Mon, 19 Jan 2026 21:33:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
