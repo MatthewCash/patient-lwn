@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 26 Jan 2026 14:28:18 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Jan 2026 14:49:15 +0000</lastBuildDate>
+        <pubDate>Mon, 26 Jan 2026 15:21:42 +0000</pubDate>
+        <lastBuildDate>Mon, 26 Jan 2026 15:29:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -478,20 +478,6 @@ href="https://sites.google.com/site/robertmhaas/contributions">raw
 data</a> is also available.</p>]]></description>
             <guid>https://lwn.net/Articles/1055033/</guid>
             <pubDate>Mon, 19 Jan 2026 16:18:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Wine 11.0 released</title>
-            <link>https://lwn.net/Articles/1055001/</link>
-            <description><![CDATA[<p><a
-href="https://gitlab.winehq.org/wine/wine/-/releases/wine-11.0">Version
-11.0</a> of the Wine Windows compatibility layer is out. "<q>This
-release represents a year of development effort, around&#160;6,300
-individual changes, and more than&#160;600 bug fixes.</q>" The most notable
-changes in this release are support for the NTSync Linux kernel module
-(when available), and the completion of the Windows&#160;32-bit on Windows&#160;64-bit (WoW64) architecture that was announced as experimental in Wine&#160;9.0.</p>]]></description>
-            <guid>https://lwn.net/Articles/1055001/</guid>
-            <pubDate>Mon, 19 Jan 2026 14:32:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
