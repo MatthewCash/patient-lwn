@@ -8,11 +8,56 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 27 Jan 2026 13:46:09 +0000</pubDate>
-        <lastBuildDate>Tue, 27 Jan 2026 13:57:48 +0000</lastBuildDate>
+        <pubDate>Tue, 27 Jan 2026 14:28:31 +0000</pubDate>
+        <lastBuildDate>Tue, 27 Jan 2026 14:33:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1056158/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, python-urllib3, python3.11-urllib3, and python3.12-urllib3), <b>Debian</b> (imagemagick, openjdk-11, openjdk-17, and openjdk-21), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, ghostscript, glibc, mingw-glib2, mingw-harfbuzz, mingw-libsoup, mingw-openexr, and qownnotes), <b>Mageia</b> (kernel-linus), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (go1.24-openssl, go1.25-openssl, govulncheck-vulndb, kernel, nodejs22, openCryptoki, openvswitch3, python-pyasn1, python311, and qemu), and <b>Ubuntu</b> (git-lfs, node-form-data, and screen).]]></description>
+            <guid>https://lwn.net/Articles/1056158/</guid>
+            <pubDate>Tue, 27 Jan 2026 14:07:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Xfwl4: the roadmap for a Xfce Wayland compositor</title>
+            <link>https://lwn.net/Articles/1056159/</link>
+            <description><![CDATA[<p>The Xfce team has <a
+href="https://alexxcons.github.io/blogpost_15.html">announced</a> that
+it will be providing funding to Brian Tarricone to work on <a
+href="https://gitlab.xfce.org/kelnos/xfwl4#xfwl4-xfces-wayland-compositor">xfwl4</a>,
+a Wayland compositor for Xfce:</p>
+
+<blockquote class="bq">
+<p>Xfwl4 will not be based on the existing xfwm4 code. Instead, it
+will be written from scratch in rust, using smithay building
+blocks.</p>
+
+<p>The first attempt at creating an Xfce Wayland compositor involved
+modifying the existing xfwm4 code to support both X11 and Wayland in
+parallel. However, this approach turned out to be the wrong path
+forward for several reasons:</p>
+
+<p>
+<ul class="spacylist">
+    <li>Xfwm4 is architected in a way that makes it very difficult to put the window management behavior behind generic interfaces that don't include X11 specifics.</li>
+    <li>Refactoring Xfwm4 is risky, since it might introduce new bugs to X11. Having two parallel code bases will allow for rapid development and experimentation with the Wayland compositor, with zero risk to break xfwm4.</li>
+    <li>Some X11 window management concepts just aren't available or supported by Wayland protocols at this time, and dealing with those differences can be difficult in an X11-first code base.</li>
+    <li>Using the existing codebase would require us to use C and
+    wlroots, even if a better alternative is available.</li>
+</ul>
+</p>
+</blockquote>
+
+<p>Work has already commenced on the project, and the project hopes to
+share a development release in mid-2026.</p>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1056159/</guid>
+            <pubDate>Tue, 27 Jan 2026 14:20:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Stenberg: The end of the curl bug-bounty program</title>
             <link>https://lwn.net/Articles/1055996/</link>
@@ -463,14 +508,6 @@ repository.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1055191/</guid>
             <pubDate>Tue, 20 Jan 2026 17:26:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1055152/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gpsd-minimal, jmc, kernel, kernel-rt, and net-snmp), <b>Debian</b> (apache-log4j2 and dcmtk), <b>Fedora</b> (exim, gpsd, mysql8.0, mysql8.4, python-biopython, and rust-lru), <b>Mageia</b> (firefox, nss and thunderbird), <b>Oracle</b> (container-tools:rhel8, gpsd-minimal, jmc, kernel, net-snmp, and uek-kernel), <b>Red Hat</b> (net-snmp), <b>SUSE</b> (chromium, go, harfbuzz-devel, kernel, libsoup, rust1.91, rust1.92, and thunderbird), and <b>Ubuntu</b> (apache2, avahi, and python-urllib3).]]></description>
-            <guid>https://lwn.net/Articles/1055152/</guid>
-            <pubDate>Tue, 20 Jan 2026 14:06:26 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
