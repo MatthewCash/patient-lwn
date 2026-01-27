@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 27 Jan 2026 16:27:23 +0000</pubDate>
-        <lastBuildDate>Tue, 27 Jan 2026 16:41:52 +0000</lastBuildDate>
+        <pubDate>Tue, 27 Jan 2026 16:58:55 +0000</pubDate>
+        <lastBuildDate>Tue, 27 Jan 2026 17:05:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The GNU C Library is moving from Sourceware</title>
+            <link>https://lwn.net/Articles/1056206/</link>
+            <description><![CDATA[GNU C Library maintainer Carlos O'Donell has <a
+href="https://lwn.net/ml/all/287f1496-8f87-4ed3-a18b-3cb8c52c2ab3@redhat.com">announced</a>
+that the project will be moving its core services away from <a
+href="https://sourceware.org/">Sourceware</a> in favor of services hosted
+at the Linux Foundation.
+<p>
+<blockquote class="bq">
+	While it was clear to the GNU Toolchain leadership that
+	requirements were coming to improve the toolchain cyber-security
+	posture, these requirements were not clear to all project
+	developers. As part of receiving this feedback we have worked to
+	document and define a secure development policy for glibc and at a
+	higher level the GNU Toolchain.  While Sourceware has started
+	making some critical technical changes, the GNU Toolchain still
+	faces serious, systemic concerns about securing a global, highly
+	available service and building a sustainable, diverse sponsorship
+	model.
+</blockquote>
+<p>
+This has been a long-running discussion; see <a
+href="https://lwn.net/Articles/908638/">this 2022 article</a> for some background.]]></description>
+            <guid>https://lwn.net/Articles/1056206/</guid>
+            <pubDate>Tue, 27 Jan 2026 16:58:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1056158/</link>
