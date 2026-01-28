@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Jan 2026 15:39:49 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Jan 2026 15:42:49 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Jan 2026 16:01:50 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Jan 2026 16:05:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PC Gamer on the scx_horoscope scheduler</title>
+            <link>https://lwn.net/Articles/1056354/</link>
+            <description><![CDATA[PC Gamer has run <a
+href="https://www.pcgamer.com/hardware/this-scientifically-dubious-linux-cpu-scheduler-makes-decisions-based-on-real-time-planetary-positions-zodiac-signs-and-astrological-principles/">an
+amusing review</a> of the <a
+href="https://github.com/zampierilucas/scx_horoscope">scx_horoscope
+scheduler</a> for Linux, which uses astrology to optimize scheduling
+decisions.
+<p>
+<blockquote class="bq">
+	The scheduler is full of bizarre features, like its ability to
+	perform real planetary calculations based on accurate geocentric
+	planetary positions, lunar phase scheduling (the full moon gives a
+	1.4x boost to tasking, apparently) and "zodiac-based task
+	classification".
+<p>
+	That latter feature is easily one of my favourite bits. Specific
+	planetary bodies "rule" over specific system tasks, so the Sun is
+	in charge of critical system processes, the Moon (tied to emotions,
+	of course) rules over interactive tasks, and Jupiter is assigned to
+	memory-heavy applications, among others.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1056354/</guid>
+            <pubDate>Wed, 28 Jan 2026 16:00:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1056330/</link>
@@ -489,14 +516,6 @@ notes</a> for the full changelog.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1055327/</guid>
             <pubDate>Wed, 21 Jan 2026 17:37:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1055322/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (brotli and container-tools:rhel8), <b>Debian</b> (python-keystonemiddleware and python3.9), <b>Fedora</b> (cef, freerdp, golang-github-tetratelabs-wazero, and libpcap), <b>Oracle</b> (brotli, gpsd, kernel, and transfig), <b>Red Hat</b> (freerdp, golang, java-11-openjdk with Extended Lifecycle Support, libpng, libssh, mingw-libpng, and runc), <b>SUSE</b> (abseil-cpp, alloy, apache2, bind, cpp-httplib, curl, erlang, firefox, gpg2, grafana, haproxy, hauler, hawk2, libblkid-devel, libpng16, libraylib550, python-keystonemiddleware-doc, python-uv, python-weasyprint, squid, and tomcat), and <b>Ubuntu</b> (crawl and iperf3).]]></description>
-            <guid>https://lwn.net/Articles/1055322/</guid>
-            <pubDate>Wed, 21 Jan 2026 15:42:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
