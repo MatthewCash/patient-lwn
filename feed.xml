@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Jan 2026 13:40:05 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Jan 2026 13:53:41 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Jan 2026 14:10:32 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Jan 2026 14:30:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1056330/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk), <b>Debian</b> (openssl), <b>Fedora</b> (assimp, chromium, curl, freerdp, gimp, and harfbuzz), <b>Mageia</b> (glibc, haproxy, iperf, and python-pyasn1), <b>Red Hat</b> (image-builder, openssl, and osbuild-composer), <b>Slackware</b> (mozilla), <b>SUSE</b> (avahi, cups, gio-branding-upstream, google-osconfig-agent, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel-firmware, libmatio-devel, libopenjp2-7, nodejs22, php8, python-python-multipart, python311-urllib3_1, qemu, and xen), and <b>Ubuntu</b> (ffmpeg, jaraco.context, openssl, and openssl, openssl1.0).]]></description>
+            <guid>https://lwn.net/Articles/1056330/</guid>
+            <pubDate>Wed, 28 Jan 2026 14:09:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A critical GnuPG security update</title>
             <link>https://lwn.net/Articles/1056209/</link>
