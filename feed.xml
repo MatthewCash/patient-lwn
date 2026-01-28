@@ -8,11 +8,74 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Jan 2026 17:46:40 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Jan 2026 18:02:01 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Jan 2026 18:53:35 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Jan 2026 18:55:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OSI pauses 2026 board election cycle</title>
+            <link>https://lwn.net/Articles/1056376/</link>
+            <description><![CDATA[<p>The Open Source Initiative (OSI) has <a
+href="https://opensource.org/blog/2026-osi-elections-update">announced</a>
+that it will not be holding the 2026 spring board election. Instead,
+it will be creating a working group to "<q>review and improve OSI's
+board member selection process</q>" and provide recommendations by
+September&#160;2026:</p>
+
+<blockquote class="bq">
+<p>The public election process was designed to gather community
+priorities and improve board member selection, while final
+appointments remained with the board.</p>
+
+<p>Over time, that nuance has become a source of understandable
+confusion for community members. Many reasonably expected elections to
+function as elections normally do, and in fact, the board has
+generally adopted the electorate's recommendations. When a process
+feels unclear, trust suffers. When trust suffers, engagement becomes
+harder. This is especially problematic for an organization whose
+mission depends on legitimacy and credibility. [...]</p>
+
+<p>OSI tried its experiment for the right reasons, but a variety of
+factors resulted in "elections" that are performatively democratic
+while being gameable and representative of only a small group, and
+we've learned from the results. Now we are making space to align our
+director selection process with our bylaws, to rebuild trust, and to
+develop better, more durable and truly representative participation in
+which the global stakeholder community can be heard.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1014603/">covered the
+previous OSI election</a> in March 2025.</p>]]></description>
+            <guid>https://lwn.net/Articles/1056376/</guid>
+            <pubDate>Wed, 28 Jan 2026 18:13:39 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Mourning Didier Spaier</title>
+            <link>https://lwn.net/Articles/1056384/</link>
+            <description><![CDATA[<p>We have received the sad news that Didier Spaier, maintainer of the
+blind-friendly Slackware-based Slint distribution, has recently <a
+href="https://www.freelists.org/post/slint/Very-sad-news,41">passed
+away</a>. Philippe Delavalade, who posted the announcement to the
+Slint mailing list, said:</p>
+
+<blockquote class="bq">
+<p>Early 2015, I asked on the slackware list if brltty could be added
+in the installer; Didier answered promptly that he could do it on
+slint. Afterwards, he worked hard so that slint became as accessible
+as possible for visually impaired people.</p>
+
+<p>You all know that all these years, he tried and succeeded to answer
+as quickly as possible to our issues and questions.</p>
+
+<p>He will be irreplaceable.</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1056384/</guid>
+            <pubDate>Wed, 28 Jan 2026 18:41:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>PC Gamer on the scx_horoscope scheduler</title>
             <link>https://lwn.net/Articles/1056354/</link>
@@ -495,28 +558,6 @@ enforcement works.
             <guid>https://lwn.net/Articles/1052734/</guid>
             <pubDate>Thu, 08 Jan 2026 15:36:37 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Pandas 3.0 released</title>
-            <link>https://lwn.net/Articles/1055327/</link>
-            <description><![CDATA[<p><a
-href="https://pandas.pydata.org/docs/whatsnew/v3.0.0.html">Version
-3.0.0</a> of the <a href="https://pandas.pydata.org/">pandas</a> data
-analysis and manipulation library for Python has been
-released. Notable changes include a <a
-href="https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-guide">dedicated
-string type (<tt>str</tt>)</a>, new <a
-href="https://pandas.pydata.org/docs/user_guide/copy_on_write.html#copy-on-write">"copy-on-write" behavior</a>, and much more. This release also removes
-a number of features that were deprecated in prior versions of pandas;
-developers are advised to upgrade to pandas&#160;2.3 and ensure code is
-working without warnings before moving to&#160;3.0. See the <a
-href="https://pandas.pydata.org/docs/whatsnew/index.html#release">release
-notes</a> for the full changelog.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1055327/</guid>
-            <pubDate>Wed, 21 Jan 2026 17:37:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
