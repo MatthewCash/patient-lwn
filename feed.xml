@@ -8,11 +8,146 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Jan 2026 23:31:53 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Jan 2026 23:58:19 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Jan 2026 01:43:45 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Jan 2026 02:24:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for January 22, 2026</title>
+            <link>https://lwn.net/Articles/1054411/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1054411/">Front</a>: Singularity; fsconfig(); io_uring restrictions; GPG vulnerabilities; slab allocator; AshOS.
+            <li> <a href="https://lwn.net/Articles/1054413/">Briefs</a>: Pixel exploit; telnetd exploit; OzLabs; korgalore; Firefox Nightly RPMs; Forgejo 14.0; Pandas 3.0; Wine 11.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1054414/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1054411/</guid>
+            <pubDate>Thu, 22 Jan 2026 00:47:48 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Cleanup on aisle fsconfig()</title>
+            <link>https://lwn.net/Articles/1054228/</link>
+            <description><![CDATA[As part of the process of writing man pages for the <a
+href="https://lwn.net/Articles/759499/">"new" mount API</a>, which has been available in the
+kernel since 2019, Aleksa Sarai encountered a number of places where the <a
+href="https://manpages.opensuse.org/Tumbleweed/man-pages/fsconfig.2.en.html"><tt>fsconfig()</tt></a>
+system call—for configuring filesystems before mounting—needs to be cleaned up.  In the 2025 Linux Plumbers Conference
+(LPC) <a href="https://lpc.events/event/19/contributions/2239/">session</a> 
+that he led, Sarai wanted to discuss some of the problems he found,
+including at least one with security implications.  The idea of the session
+was for him to describe the various bugs and ambiguities that he had found,
+but he also wanted attendees to raise other problems they had with the
+system call.]]></description>
+            <guid>https://lwn.net/Articles/1054228/</guid>
+            <pubDate>Wed, 21 Jan 2026 18:34:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Responses to gpg.fail</title>
+            <link>https://lwn.net/Articles/1054220/</link>
+            <description><![CDATA[<p>At the <a
+href="https://events.ccc.de/congress/2025/infos/startpage.html">39th
+Chaos Communication Congress</a> (39C3) in December, researchers Lexi
+Groves ("49016") and Liam Wachter said that they had discovered a
+number of flaws in popular implementations of <a
+href="https://www.openpgp.org/">OpenPGP</a> email-encryption standard. They also released an
+accompanying web site, <a href="https://gpg.fail">gpg.fail</a>, with
+descriptions of the discoveries. Most of those
+presented were found in <a href="https://www.gnupg.org/">GNU Privacy
+Guard</a> (GPG), though the pair also discussed problems in <a
+href="https://pkg.go.dev/filippo.io/age">age</a>,
+<a href="https://jedisct1.github.io/minisign/">Minisign</a>, <a
+href="https://sequoia-pgp.org/">Sequoia</a>, and the <a
+href="https://www.rfc-editor.org/rfc/rfc9580.html">OpenPGP
+standard</a> (RFC 9580) itself. The discoveries have spurred some interesting
+discussions and as well as responses from GPG and Sequoia
+developers.</p>]]></description>
+            <guid>https://lwn.net/Articles/1054220/</guid>
+            <pubDate>Wed, 21 Jan 2026 16:05:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] An alternate path for immutable distributions</title>
+            <link>https://lwn.net/Articles/1054216/</link>
+            <description><![CDATA[<p>
+LWN has had a number of articles on immutable distributions,
+such as <a href="https://lwn.net/Articles/954059/">Bluefin</a> and <a href="https://lwn.net/Articles/1046228/">
+Bazzite</a>, in recent years. These distributions have taken a variety of approaches, including
+using
+<a href="https://coreos.github.io/rpm-ostree/">
+rpm-ostree</a>, filesystem snapshots, and
+<a href="https://lwn.net/Articles/979182/">bootable container (bootc) images</a>. But those
+approaches, especially the latter, lead to extra complexity for a user
+attempting to install new software, instead of just
+using the existing package manager.
+<a href="https://github.com/ashos/ashos?tab=readme-ov-file#ashos-any-snapshot-hierarchical-os">
+AshOS</a> (Any Snapshot Hierarchical OS) is an experimental AGPL-3-licensed
+"<q>meta-distribution</q>" that tried a different approach more in line with
+traditional package management. Although the project is no longer updated,
+it remains usable, and can still shed some light on a potential alternate path for users
+worried about adopting bootc-based approaches.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1054216/</guid>
+            <pubDate>Tue, 20 Jan 2026 16:22:09 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Task-level io_uring restrictions</title>
+            <link>https://lwn.net/Articles/1054225/</link>
+            <description><![CDATA[The <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
+subsystem</a> is more than an asynchronous I/O interface for Linux; it is,
+for all practical purposes, an independent system-call API.  It has enabled
+high-performance applications, but it also brings challenges for code built
+around classic, Unix-style system calls.  For example, the <a
+href="https://man7.org/linux/man-pages/man2/seccomp.2.html"><tt>seccomp()</tt></a>
+sandboxing mechanism does not work with it, causing applications using
+<tt>seccomp()</tt> to disable io_uring outright.  Io_uring maintainer Jens
+Axboe is seeking to improve that situation with a rapidly evolving patch
+series adding a new restrictive mechanism to that subsystem.]]></description>
+            <guid>https://lwn.net/Articles/1054225/</guid>
+            <pubDate>Mon, 19 Jan 2026 16:08:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A free and open-source rootkit for Linux</title>
+            <link>https://lwn.net/Articles/1053099/</link>
+            <description><![CDATA[<p>
+While there are several rootkits that target Linux, they have so far not fully
+embraced the open-source ethos typical of Linux software.
+Luckily, Matheus Alves has been working to remedy
+this lack by creating
+<a href="https://github.com/MatheuZSecurity/Singularity?tab=readme-ov-file#singularity---poc-of-stealthy-linux-kernel-rootkit">
+an open-source rootkit called Singularity</a> for Linux systems. Users who feel
+their computers are too secure can install the Singularity kernel module in
+order to allow remote code execution, disable security features, and hide files
+and processes from normal administrative tools. Despite its many features,
+Singularity is not currently known to be in use in the wild — instead, it
+provides security researchers with a testbed to investigate new detection and
+evasion techniques.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1053099/</guid>
+            <pubDate>Fri, 16 Jan 2026 17:57:32 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Removing a pointer dereference from slab allocations</title>
+            <link>https://lwn.net/Articles/1053870/</link>
+            <description><![CDATA[Al Viro does not often stray outside of the core virtual filesystem area;
+when he does, it is usually worthy of note.  Recently, he wandered into
+memory management with <a
+href="https://lwn.net/ml/all/20260110040217.1927971-1-viro@zeniv.linux.org.uk">this patch
+series</a> to the slab allocator and some of its users.  Kernel developers
+will often put considerable effort into small optimizations, but it is
+still interesting to look at just how much effort has gone toward the purpose of
+avoiding a single pointer dereference in some memory-allocation hot paths.]]></description>
+            <guid>https://lwn.net/Articles/1053870/</guid>
+            <pubDate>Thu, 15 Jan 2026 14:49:16 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OSI pauses 2026 board election cycle</title>
             <link>https://lwn.net/Articles/1056376/</link>
@@ -400,164 +535,6 @@ WDDM.</p>
             <guid>https://lwn.net/Articles/1055485/</guid>
             <pubDate>Thu, 22 Jan 2026 14:28:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for January 15, 2026</title>
-            <link>https://lwn.net/Articles/1053201/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1053201/">Front</a>: SFC v. VIZIO; GPLv2 requirements; Debian and GTK 2; OpenZL; kernel scheduler QoS; Rust concurrent data access; Asciinema.
-            <li> <a href="https://lwn.net/Articles/1053203/">Briefs</a>: OpenSSL and Python; LSFMM+BPF 2026; Fedora elections; Gentoo retrospective; EU lawmaking; Git data model; Firefox 147; Radicle 1.6.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1053204/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1053201/</guid>
-            <pubDate>Thu, 15 Jan 2026 00:03:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Format-specific compression with OpenZL</title>
-            <link>https://lwn.net/Articles/1053018/</link>
-            <description><![CDATA[Lossless data compression is an important tool for reducing the storage
-requirements of the world's ever-growing data sets.  Yann Collet developed
-the <a href="https://en.wikipedia.org/wiki/LZ4_(compression_algorithm)">LZ4
-algorithm</a> and designed the <a
-href="https://en.wikipedia.org/wiki/Zstd">Zstandard</a> (or Zstd)
-algorithm; he came to the <a
-href="https://events.linuxfoundation.org/archive/2025/open-source-summit-japan/">2025
-Open Source Summit Japan</a> in Tokyo to talk about where data compression
-goes from here.  It turns out that we have reached a point where
-general-purpose algorithms are only going to provide limited improvement;
-for significant increases in compression, while keeping computation costs
-within reason for data-center use, turning to format-specific techniques
-will be needed.]]></description>
-            <guid>https://lwn.net/Articles/1053018/</guid>
-            <pubDate>Wed, 14 Jan 2026 17:51:21 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian discusses removing GTK 2 for forky</title>
-            <link>https://lwn.net/Articles/1051006/</link>
-            <description><![CDATA[<p>The Debian GNOME team would like to remove the GTK&#160;2 graphics
-toolkit, which has been unmaintained upstream for more than five
-years, and ship Debian&#160;14 ("forky") without it. As one might
-expect, however, there are those who would like to find a way to keep
-it. Despite its age and declared obsolescence, quite a few Debian
-packages still depend on GTK&#160;2. Many of those applications are
-unlikely to be updated, and users are not eager to give them
-up. Discussion about how to handle this is ongoing; it seems likely
-that Debian developers will find some way to continue supporting
-applications that require GTK&#160;2, but users may have to look
-outside official Debian repositories.</p>]]></description>
-            <guid>https://lwn.net/Articles/1051006/</guid>
-            <pubDate>Wed, 14 Jan 2026 16:08:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A high-level quality-of-service interface</title>
-            <link>https://lwn.net/Articles/1051982/</link>
-            <description><![CDATA[<p>
-Quality-of-service (QoS) mechanisms attempt to prioritize some processes (or
-network traffic, disk I/O, etc.) over others in order to meet a system's
-performance goals. This is a difficult topic to handle in the world of Linux,
-where workloads, hardware, and user expectations vary wildly. Qais Yousef spoke
-at the 2025 Linux Plumbers Conference, alongside his collaborators John Stultz,
-Steven Rostedt, and Vincent Guittot, about their plans for introducing a
-high-level QoS API for Linux in a way that leaves end users in control of its
-configuration. The talk focused specifically on a QoS mechanism for the
-scheduler, to prioritize access to CPU resources differently for different kinds
-of processes.
-(<a
-href="https://lpc.events/event/19/contributions/2089/attachments/1797/3877/Userspace%20Assisted%20Scheduling%20via%20Sched%20QoS.pdf">slides</a>;
-<a href="http://www.youtube.com/watch?v=zuOjTaVohm0">video</a>)
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1051982/</guid>
-            <pubDate>Tue, 13 Jan 2026 19:04:34 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Asciinema: making movies at the command-line</title>
-            <link>https://lwn.net/Articles/1053355/</link>
-            <description><![CDATA[<p>In open-source circles there are many situations, such as bug
-reports, demos, and tutorials, when one might want to provide a
-play-by-play of a session in one's terminal. The <a
-href="https://asciinema.org/">asciinema</a> project provides a set of
-tools to do just that. Its tools let users record, edit, and share
-terminal sessions in a text-based format that has quite a few
-advantages compared to making and sharing videos of terminal sessions. For
-example, it is easy to use, offers the ability to search text from
-recorded sessions, and allows users to copy and paste directly from
-the recording.</p>]]></description>
-            <guid>https://lwn.net/Articles/1053355/</guid>
-            <pubDate>Mon, 12 Jan 2026 17:30:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] READ_ONCE(), WRITE_ONCE(), but not for Rust</title>
-            <link>https://lwn.net/Articles/1053142/</link>
-            <description><![CDATA[The <tt>READ_ONCE()</tt> and <tt>WRITE_ONCE()</tt> macros are heavily used
-within the kernel; there are nearly 8,000 call sites for
-<tt>READ_ONCE()</tt>.  They are key to the implementation of many <a
-href="https://lwn.net/Articles/844224/">lockless algorithms</a> and can be necessary for some
-types of device-memory access.  So one might think that, as the
-amount of Rust code in the kernel increases, there would be a place for
-Rust versions of these macros as well.  The truth of the matter, though, is
-that the Rust community seems to want to take a different approach to
-concurrent data access.]]></description>
-            <guid>https://lwn.net/Articles/1053142/</guid>
-            <pubDate>Fri, 09 Jan 2026 15:47:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] GPLv2 and installation requirements</title>
-            <link>https://lwn.net/Articles/1052842/</link>
-            <description><![CDATA[On December 24 2025, Linus Torvalds posted <a
-href="https://social.kernel.org/notice/B1aR6QFuzksLVSyBZQ">a strongly
-worded message</a> celebrating a <a href="https://lwn.net/Articles/1051984/">ruling</a> in
-the ongoing <a href="https://lwn.net/Articles/1052734/">GPL-compliance lawsuit</a> filed
-against VIZIO by the Software Freedom Conservancy (SFC).  This case and
-Torvalds's response have put a spotlight on an old debate over the extent
-to which the source-code requirements of the <a
-href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU
-General Public License (version&#160;2)</a> extend to keys and other data
-needed to successfully install modified software on a device.  It is worth
-looking at whether this requirement exists, the subtleties in
-interpretation that cloud the issue, and the extent to which, if any, the
-SFC is demanding that information.]]></description>
-            <guid>https://lwn.net/Articles/1052842/</guid>
-            <pubDate>Thu, 08 Jan 2026 15:36:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] SFC v. VIZIO: who can enforce the GPL?</title>
-            <link>https://lwn.net/Articles/1052734/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://sfconservancy.org/">
-Software Freedom Conservancy</a> (SFC) is
-<a href="https://lwn.net/Articles/873415/">
-suing</a>
-<a href="https://www.vizio.com/en/home">
-VIZIO</a> over smart TVs that
-include software licensed under the GPL and LGPL (including the Linux kernel,
-FFmpeg, systemd, and others).
-VIZIO didn't provide the source code along with the device, and on request they
-only provided some of it. Unlike a typical lawsuit about enforcing the GPL, the
-SFC isn't suing as a copyright holder; it's suing as
-a normal owner of the TV
-in question. This approach opens some important legal questions, and after years
-of pre-trial maneuvering (most recently resulting in
-<a href="https://lwn.net/Articles/1051984/">a ruling related to signing keys</a> that
-<a href="https://lwn.net/Articles/1052842/">is the subject of a separate article</a>),
-we might finally obtain some answers when the case goes
-to trial on January&#160;12. As things stand, it seems likely that the judge in
-the case will rule that that the GPL-enforcement lawsuits can be a matter of
-contract law, not just copyright law, which would be a major change to how GPL
-enforcement works.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1052734/</guid>
-            <pubDate>Thu, 08 Jan 2026 15:36:37 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
