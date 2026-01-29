@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Jan 2026 13:45:18 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Jan 2026 14:10:55 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Jan 2026 14:51:53 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Jan 2026 14:59:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1056544/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-25-openjdk, openssl, and python3.9), <b>Debian</b> (gimp, libmatio, pyasn1, and python-django), <b>Fedora</b> (perl-HarfBuzz-Shaper, python-tinycss2, and weasyprint), <b>Mageia</b> (glib2.0), <b>Oracle</b> (curl, fence-agents, gcc-toolset-15-binutils, glibc, grafana, java-1.8.0-openjdk, kernel, mariadb, osbuild-composer, perl, php:8.2, python-urllib3, python3.11, python3.11-urllib3, python3.12, and python3.12-urllib3), <b>SUSE</b> (alloy, avahi, bind, buildah, busybox, container-suseconnect, coredns, gdk-pixbuf, gimp, go1.24, go1.24-openssl, go1.25, helm, kernel, kubernetes, libheif, libpcap, libpng16, openjpeg2, openssl-1_0_0, openssl-1_1, openssl-3, php8, python-jaraco.context, python-marshmallow, python-pyasn1, python-urllib3, python-virtualenv, python311, python313, rabbitmq-server, xen, zli, and zot-registry), and <b>Ubuntu</b> (containerd, containerd-app and wlc).]]></description>
+            <guid>https://lwn.net/Articles/1056544/</guid>
+            <pubDate>Thu, 29 Jan 2026 14:33:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for January 22, 2026</title>
             <link>https://lwn.net/Articles/1054411/</link>
@@ -483,57 +491,6 @@ February 2024.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (bind9, chromium, osslsigncode, and python-urllib3), <b>Fedora</b> (freerdp, ghostscript, hcloud, rclone, rust-rkyv0.7, rust-rkyv_derive0.7, and vsftpd), <b>Mageia</b> (avahi and harfbuzz), <b>SUSE</b> (alloy, avahi, busybox, cargo-c, corepack22, corepack24, curl, docker, dpdk, exiv2-0_26, ffmpeg-4, firefox, glib2, go1.24, go1.25, gpg2, haproxy, kernel, kernel-firmware, keylime, libpng16, librsvg, libsodium, libsoup, libsoup2, libtasn1, log4j, net-snmp, open-vm-tools, openldap2_5, ovmf, pgadmin4, php7, podman, python-filelock, python-marshmallow, python-pyasn1, python-tornado, python-urllib3, python-virtualenv, python3, python311-pyasn1, python311-weasyprint, rust1.91, rust1.92, util-linux, webkit2gtk3, and wireshark), and <b>Ubuntu</b> (libxml2 and pyasn1).]]></description>
             <guid>https://lwn.net/Articles/1055671/</guid>
             <pubDate>Fri, 23 Jan 2026 13:59:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1055484/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (inetutils and modsecurity-crs), <b>Fedora</b> (cpp-httplib, curl, mariadb11.8, mingw-libtasn1, mingw-libxslt, mingw-python3, rclone, and rpki-client), <b>Oracle</b> (gimp, glib2, go-toolset:rhel8, golang, kernel, mariadb-devel:10.3, and thunderbird), <b>Red Hat</b> (buildah, go-toolset:rhel8, golang, grafana, kernel, kernel-rt, multiple packages, openssl, osbuild-composer, podman, and skopeo), <b>Slackware</b> (bind), <b>SUSE</b> (ffmpeg-4, libsodium, libvirt, net-snmp, open-vm-tools, ovmf, postgresql17, postgresql18, python-FontTools, python-weasyprint, and webkit2gtk3), and <b>Ubuntu</b> (glib2.0 and opencc).]]></description>
-            <guid>https://lwn.net/Articles/1055484/</guid>
-            <pubDate>Thu, 22 Jan 2026 14:17:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.93.0 released</title>
-            <link>https://lwn.net/Articles/1055487/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/01/22/Rust-1.93.0/">Version
-1.93.0</a> of the Rust programming language has been released.  Notable
-changes include in updated version of the bundled musl library,
-thread-local storage for the global allocator, some <tt>asm!</tt>
-improvements, and a number of newly stabilized APIs.]]></description>
-            <guid>https://lwn.net/Articles/1055487/</guid>
-            <pubDate>Thu, 22 Jan 2026 14:25:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>30 years of ReactOS</title>
-            <link>https://lwn.net/Articles/1055485/</link>
-            <description><![CDATA[<p><a href="https://reactos.org/">ReactOS</a>, an open-source project
-to develop an operating system that is compatible with Microsoft
-Windows NT applications and drivers, is <a
-href="https://reactos.org/blogs/30yrs-of-ros/">celebrating 30
-years</a> since the first commit to its source tree. In that time
-there have been more than 88,000 commits from 301 contributors, for a
-total of 14,929,578 lines of code. There is, of course, much left to
-do.</p>
-
-<blockquote class="bq">
-<p>It's been such a long journey that many of our contributors today,
-including myself, were not alive during this event. Yet our mission to
-deliver "your favorite Windows apps and drivers in an open-source
-environment you can trust" continues to bring people together. [...]</p>
-
-<p>We're continuing to move ReactOS forward. Behind the scenes there are
-several out-of-tree projects in development. Some of these exciting
-projects include a new build environment for developers (RosBE), a new
-NTFS driver, a new ATA driver, multi-processor (SMP) support, support
-for class 3 UEFI systems, kernel and usermode address space layout
-randomization (ASLR), and support for modern GPU drivers built on
-WDDM.</p>
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1055485/</guid>
-            <pubDate>Thu, 22 Jan 2026 14:28:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
