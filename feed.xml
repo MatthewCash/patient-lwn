@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Jan 2026 15:38:11 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Jan 2026 15:43:08 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Jan 2026 16:14:21 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Jan 2026 16:23:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A proposed governance structure for openSUSE</title>
+            <link>https://lwn.net/Articles/1056593/</link>
+            <description><![CDATA[<a href="https://en.opensuse.org/User:Jeff_mahoney">Jeff Mahoney</a>, who
+holds a vice-president position at SUSE, has posted <a
+href="https://lwn.net/ml/all/570f67b7-bd58-41cb-8027-3eec220752b5@suse.com">a detailed
+proposal</a> for improving the governance of the openSUSE project.
+<p>
+<blockquote class="bq">
+	It's meant to be a way to move from governance by volume or
+	persistence toward governance by legitimacy, transparency, and
+	process - so that disagreements can be resolved fairly and the
+	project can keep moving forward.  Introducing structure and
+	predictability means it easier for newcomers to the project to
+	participate without needing to understand decades of accumulated
+	history.  It potentially could provide a clearer roadmap for
+	developers to find a place to contribute.
+</blockquote>
+<p>
+The stated purpose is to start a discussion; this is openSUSE, so he is
+likely to succeed.]]></description>
+            <guid>https://lwn.net/Articles/1056593/</guid>
+            <pubDate>Thu, 29 Jan 2026 15:44:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1056544/</link>
