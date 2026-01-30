@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Jan 2026 13:48:53 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Jan 2026 13:57:09 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Jan 2026 14:33:39 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Jan 2026 14:37:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -508,14 +508,6 @@ February 2024.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1055675/</guid>
             <pubDate>Fri, 23 Jan 2026 14:14:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1055671/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (bind9, chromium, osslsigncode, and python-urllib3), <b>Fedora</b> (freerdp, ghostscript, hcloud, rclone, rust-rkyv0.7, rust-rkyv_derive0.7, and vsftpd), <b>Mageia</b> (avahi and harfbuzz), <b>SUSE</b> (alloy, avahi, busybox, cargo-c, corepack22, corepack24, curl, docker, dpdk, exiv2-0_26, ffmpeg-4, firefox, glib2, go1.24, go1.25, gpg2, haproxy, kernel, kernel-firmware, keylime, libpng16, librsvg, libsodium, libsoup, libsoup2, libtasn1, log4j, net-snmp, open-vm-tools, openldap2_5, ovmf, pgadmin4, php7, podman, python-filelock, python-marshmallow, python-pyasn1, python-tornado, python-urllib3, python-virtualenv, python3, python311-pyasn1, python311-weasyprint, rust1.91, rust1.92, util-linux, webkit2gtk3, and wireshark), and <b>Ubuntu</b> (libxml2 and pyasn1).]]></description>
-            <guid>https://lwn.net/Articles/1055671/</guid>
-            <pubDate>Fri, 23 Jan 2026 13:59:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
