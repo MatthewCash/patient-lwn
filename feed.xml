@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 31 Jan 2026 16:07:38 +0000</pubDate>
-        <lastBuildDate>Sat, 31 Jan 2026 16:29:33 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 16:57:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -488,19 +488,6 @@ transition.  The plan largely follows what was decided at <a
 href="https://lwn.net/Articles/1050179/">the Maintainers Summit</a> in December.]]></description>
             <guid>https://lwn.net/Articles/1055796/</guid>
             <pubDate>Sun, 25 Jan 2026 23:09:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNU C Library 2.43 released</title>
-            <link>https://lwn.net/Articles/1055757/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/13932477.uLZWGnKmhe@pinacolada">Version 2.43</a> of the
-GNU C Library has been released.  Changes include support for the <a
-href="https://lwn.net/Articles/978010/"><tt>mseal()</tt></a> and <a
-href="https://man7.org/linux/man-pages/man2/openat2.2.html"><tt>openat2()</tt></a>
-system calls, experimental support for building with the Clang compiler,
-Unicode 17.0.0 support, a number of security fixes, and much more.]]></description>
-            <guid>https://lwn.net/Articles/1055757/</guid>
-            <pubDate>Sat, 24 Jan 2026 16:28:15 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
