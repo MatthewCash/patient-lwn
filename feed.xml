@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Feb 2026 15:28:18 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Feb 2026 16:40:45 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Feb 2026 17:22:53 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Feb 2026 17:26:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -432,43 +432,6 @@ share a development release in mid-2026.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1056159/</guid>
             <pubDate>Tue, 27 Jan 2026 14:20:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stenberg: The end of the curl bug-bounty program</title>
-            <link>https://lwn.net/Articles/1055996/</link>
-            <description><![CDATA[<p>Curl creator Daniel Stenberg has written a <a
-href="https://daniel.haxx.se/blog/2026/01/26/the-end-of-the-curl-bug-bounty/">blog
-post</a> explaining why the project is ending its bug-bounty
-program, which started in April 2019:</p>
-
-<blockquote class="bq">
-<p>The never-ending slop submissions take a serious mental toll to
-manage and sometimes also a long time to debunk. Time and energy that
-is completely wasted while also hampering our will to live.</p>
-
-<p>I have also started to get the feeling that a lot of the security
-reporters submit reports with a bad faith attitude. These "helpers"
-try too hard to twist whatever they find into something horribly bad
-and a critical vulnerability, but they rarely actively contribute to
-actually improve curl. They can go to extreme efforts to argue and
-insist on their specific current finding, but not to write a fix or
-work with the team on improving curl long-term etc. I don't think we
-need more of that.</p>
-
-<p>There are these three bad trends combined that makes us take this
-step: the mind-numbing AI slop, humans doing worse than ever and the
-apparent will to poke holes rather than to help.</p>
-</blockquote>
-
-<p>Stenberg writes that he still expects "<q>the best and our most
-valued security reporters</q>" to continue informing the project when
-security vulnerabilities are discovered. The program will officially
-end on January 31, 2026.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1055996/</guid>
-            <pubDate>Mon, 26 Jan 2026 16:52:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
