@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Feb 2026 17:40:05 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Feb 2026 18:05:38 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Feb 2026 22:13:46 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Feb 2026 23:06:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Git 2.53.0 released</title>
+            <link>https://lwn.net/Articles/1056955/</link>
+            <description><![CDATA[<a href="https://lwn.net/ml/all/xmqq4inz13e3.fsf@gitster.g">Version 2.53.0</a> of the Git
+source-code management system has been released.  Changes include
+documentation for the Git data model, the ability to choose the diff
+algorithm to use with <tt>git blame</tt>, a new white-space error class,
+and more; see the announcement for details.]]></description>
+            <guid>https://lwn.net/Articles/1056955/</guid>
+            <pubDate>Mon, 02 Feb 2026 20:33:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1056923/</link>
