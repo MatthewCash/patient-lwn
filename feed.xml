@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Feb 2026 17:13:03 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Feb 2026 17:14:13 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Feb 2026 17:28:21 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Feb 2026 18:08:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -359,27 +359,6 @@ decisions.
             <guid>https://lwn.net/Articles/1056330/</guid>
             <pubDate>Wed, 28 Jan 2026 14:09:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A critical GnuPG security update</title>
-            <link>https://lwn.net/Articles/1056209/</link>
-            <description><![CDATA[There is a new GnuPG update for a "<q>critical security bug</q>" in recent
-GnuPG releases.
-<p>
-<blockquote class="bq">
-	A crafted CMS (S/MIME) EnvelopedData message carrying an oversized
-	wrapped session key can cause a stack buffer overflow in gpg-agent
-	during the PKDECRYPT--kem=CMS handling.  This can easily be used
-	for a DoS but, worse, the memory corruption can very likley also be
-	used to mount a remote code execution attack.  The bug was
-	introduced while changing an internal API to the FIPS required KEM
-	API.
-</blockquote>
-<p>
-Only versions 2.5.13 through 2.5.16 are affected.]]></description>
-            <guid>https://lwn.net/Articles/1056209/</guid>
-            <pubDate>Tue, 27 Jan 2026 17:31:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
