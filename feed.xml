@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Feb 2026 13:55:33 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Feb 2026 14:06:03 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Feb 2026 15:00:14 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Feb 2026 15:01:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1057247/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (thunderbird), <b>Fedora</b> (openqa, os-autoinst, python-jupytext, python-python-multipart, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sequoia-sqv, and xen), <b>Oracle</b> (curl, kernel, net-snmp, python3, and python3.12), <b>Red Hat</b> (container-tools:rhel8, fence-agents, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, opentelemetry-collector, podman, python-s3transfer, python-wheel, and resource-agents), <b>SUSE</b> (alloy, chromium, cockpit-podman, cockpit-subscriptions, dpdk, elemental-register, elemental-toolkit, glib2, glibc, gpg2, ImageMagick, imagemagick, jasper, java-17-openjdk, java-21-openjdk, kernel, libheif, libmlt++, libpng16, libsodium, libsoup, libvirt, openssl-3, openvpn, php8, postgresql16, postgresql17 and postgresql18, protobuf, python-FontTools, python-fonttools, python-h2, python-python-multipart, python-urllib3, python-wheel, python311-PyNaCl, trivy, ucode-amd, udisks2, unbound, util-linux, wireshark, and xkbcomp), and <b>Ubuntu</b> (emacs, freerdp2, glibc, imagemagick, mysql-8.0, pagure, python-django, python-filelock, python-internetarchive, and python-keystonemiddleware).]]></description>
+            <guid>https://lwn.net/Articles/1057247/</guid>
+            <pubDate>Wed, 04 Feb 2026 14:42:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>LibreOffice 26.2 released</title>
+            <link>https://lwn.net/Articles/1057256/</link>
+            <description><![CDATA[Version 26.2 of the <a href="https://www.libreoffice.org/">LibreOffice</a>
+office suite has been <a
+href="https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/">released</a>.
+
+<blockquote class="bq">
+LibreOffice 26.2 is focused on improvements that make a difference in daily work and brings better performance, smoother interaction with complex documents and improved compatibility with files created in other office software. Whether you're writing reports, managing spreadsheets, or preparing presentations, the experience feels more responsive and reliable.
+<p>
+LibreOffice has always been about giving users control. LibreOffice 26.2 continues that tradition by strengthening support for open document standards, and ensuring long-term access to your files, without subscriptions, license restrictions, or data collection. Your documents stay yours – forever.
+</blockquote>
+
+
+<p>
+More information can be found in the <a
+href="https://wiki.documentfoundation.org/ReleaseNotes/26.2">release notes
+for LibreOffice 26.2</a>.]]></description>
+            <guid>https://lwn.net/Articles/1057256/</guid>
+            <pubDate>Wed, 04 Feb 2026 15:00:14 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1057047/</link>
@@ -351,14 +381,6 @@ decisions.
             <guid>https://lwn.net/Articles/1056354/</guid>
             <pubDate>Wed, 28 Jan 2026 16:00:06 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1056330/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-1.8.0-openjdk), <b>Debian</b> (openssl), <b>Fedora</b> (assimp, chromium, curl, freerdp, gimp, and harfbuzz), <b>Mageia</b> (glibc, haproxy, iperf, and python-pyasn1), <b>Red Hat</b> (image-builder, openssl, and osbuild-composer), <b>Slackware</b> (mozilla), <b>SUSE</b> (avahi, cups, gio-branding-upstream, google-osconfig-agent, java-11-openjdk, java-17-openjdk, java-21-openjdk, kernel-firmware, libmatio-devel, libopenjp2-7, nodejs22, php8, python-python-multipart, python311-urllib3_1, qemu, and xen), and <b>Ubuntu</b> (ffmpeg, jaraco.context, openssl, and openssl, openssl1.0).]]></description>
-            <guid>https://lwn.net/Articles/1056330/</guid>
-            <pubDate>Wed, 28 Jan 2026 14:09:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
