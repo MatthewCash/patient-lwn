@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Feb 2026 00:43:42 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Feb 2026 02:02:25 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Feb 2026 02:06:56 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Feb 2026 04:24:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -276,141 +276,6 @@ likely to succeed.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-25-openjdk, openssl, and python3.9), <b>Debian</b> (gimp, libmatio, pyasn1, and python-django), <b>Fedora</b> (perl-HarfBuzz-Shaper, python-tinycss2, and weasyprint), <b>Mageia</b> (glib2.0), <b>Oracle</b> (curl, fence-agents, gcc-toolset-15-binutils, glibc, grafana, java-1.8.0-openjdk, kernel, mariadb, osbuild-composer, perl, php:8.2, python-urllib3, python3.11, python3.11-urllib3, python3.12, and python3.12-urllib3), <b>SUSE</b> (alloy, avahi, bind, buildah, busybox, container-suseconnect, coredns, gdk-pixbuf, gimp, go1.24, go1.24-openssl, go1.25, helm, kernel, kubernetes, libheif, libpcap, libpng16, openjpeg2, openssl-1_0_0, openssl-1_1, openssl-3, php8, python-jaraco.context, python-marshmallow, python-pyasn1, python-urllib3, python-virtualenv, python311, python313, rabbitmq-server, xen, zli, and zot-registry), and <b>Ubuntu</b> (containerd, containerd-app and wlc).]]></description>
             <guid>https://lwn.net/Articles/1056544/</guid>
             <pubDate>Thu, 29 Jan 2026 14:33:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for January 22, 2026</title>
-            <link>https://lwn.net/Articles/1054411/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1054411/">Front</a>: Singularity; fsconfig(); io_uring restrictions; GPG vulnerabilities; slab allocator; AshOS.
-            <li> <a href="https://lwn.net/Articles/1054413/">Briefs</a>: Pixel exploit; telnetd exploit; OzLabs; korgalore; Firefox Nightly RPMs; Forgejo 14.0; Pandas 3.0; Wine 11.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1054414/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1054411/</guid>
-            <pubDate>Thu, 22 Jan 2026 00:47:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Cleanup on aisle fsconfig()</title>
-            <link>https://lwn.net/Articles/1054228/</link>
-            <description><![CDATA[As part of the process of writing man pages for the <a
-href="https://lwn.net/Articles/759499/">"new" mount API</a>, which has been available in the
-kernel since 2019, Aleksa Sarai encountered a number of places where the <a
-href="https://manpages.opensuse.org/Tumbleweed/man-pages/fsconfig.2.en.html"><tt>fsconfig()</tt></a>
-system call—for configuring filesystems before mounting—needs to be cleaned up.  In the 2025 Linux Plumbers Conference
-(LPC) <a href="https://lpc.events/event/19/contributions/2239/">session</a> 
-that he led, Sarai wanted to discuss some of the problems he found,
-including at least one with security implications.  The idea of the session
-was for him to describe the various bugs and ambiguities that he had found,
-but he also wanted attendees to raise other problems they had with the
-system call.]]></description>
-            <guid>https://lwn.net/Articles/1054228/</guid>
-            <pubDate>Wed, 21 Jan 2026 18:34:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Responses to gpg.fail</title>
-            <link>https://lwn.net/Articles/1054220/</link>
-            <description><![CDATA[<p>At the <a
-href="https://events.ccc.de/congress/2025/infos/startpage.html">39th
-Chaos Communication Congress</a> (39C3) in December, researchers Lexi
-Groves ("49016") and Liam Wachter said that they had discovered a
-number of flaws in popular implementations of <a
-href="https://www.openpgp.org/">OpenPGP</a> email-encryption standard. They also released an
-accompanying web site, <a href="https://gpg.fail">gpg.fail</a>, with
-descriptions of the discoveries. Most of those
-presented were found in <a href="https://www.gnupg.org/">GNU Privacy
-Guard</a> (GPG), though the pair also discussed problems in <a
-href="https://pkg.go.dev/filippo.io/age">age</a>,
-<a href="https://jedisct1.github.io/minisign/">Minisign</a>, <a
-href="https://sequoia-pgp.org/">Sequoia</a>, and the <a
-href="https://www.rfc-editor.org/rfc/rfc9580.html">OpenPGP
-standard</a> (RFC 9580) itself. The discoveries have spurred some interesting
-discussions and as well as responses from GPG and Sequoia
-developers.</p>]]></description>
-            <guid>https://lwn.net/Articles/1054220/</guid>
-            <pubDate>Wed, 21 Jan 2026 16:05:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] An alternate path for immutable distributions</title>
-            <link>https://lwn.net/Articles/1054216/</link>
-            <description><![CDATA[<p>
-LWN has had a number of articles on immutable distributions,
-such as <a href="https://lwn.net/Articles/954059/">Bluefin</a> and <a href="https://lwn.net/Articles/1046228/">
-Bazzite</a>, in recent years. These distributions have taken a variety of approaches, including
-using
-<a href="https://coreos.github.io/rpm-ostree/">
-rpm-ostree</a>, filesystem snapshots, and
-<a href="https://lwn.net/Articles/979182/">bootable container (bootc) images</a>. But those
-approaches, especially the latter, lead to extra complexity for a user
-attempting to install new software, instead of just
-using the existing package manager.
-<a href="https://github.com/ashos/ashos?tab=readme-ov-file#ashos-any-snapshot-hierarchical-os">
-AshOS</a> (Any Snapshot Hierarchical OS) is an experimental AGPL-3-licensed
-"<q>meta-distribution</q>" that tried a different approach more in line with
-traditional package management. Although the project is no longer updated,
-it remains usable, and can still shed some light on a potential alternate path for users
-worried about adopting bootc-based approaches.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1054216/</guid>
-            <pubDate>Tue, 20 Jan 2026 16:22:09 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Task-level io_uring restrictions</title>
-            <link>https://lwn.net/Articles/1054225/</link>
-            <description><![CDATA[The <a
-href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
-subsystem</a> is more than an asynchronous I/O interface for Linux; it is,
-for all practical purposes, an independent system-call API.  It has enabled
-high-performance applications, but it also brings challenges for code built
-around classic, Unix-style system calls.  For example, the <a
-href="https://man7.org/linux/man-pages/man2/seccomp.2.html"><tt>seccomp()</tt></a>
-sandboxing mechanism does not work with it, causing applications using
-<tt>seccomp()</tt> to disable io_uring outright.  Io_uring maintainer Jens
-Axboe is seeking to improve that situation with a rapidly evolving patch
-series adding a new restrictive mechanism to that subsystem.]]></description>
-            <guid>https://lwn.net/Articles/1054225/</guid>
-            <pubDate>Mon, 19 Jan 2026 16:08:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A free and open-source rootkit for Linux</title>
-            <link>https://lwn.net/Articles/1053099/</link>
-            <description><![CDATA[<p>
-While there are several rootkits that target Linux, they have so far not fully
-embraced the open-source ethos typical of Linux software.
-Luckily, Matheus Alves has been working to remedy
-this lack by creating
-<a href="https://github.com/MatheuZSecurity/Singularity?tab=readme-ov-file#singularity---poc-of-stealthy-linux-kernel-rootkit">
-an open-source rootkit called Singularity</a> for Linux systems. Users who feel
-their computers are too secure can install the Singularity kernel module in
-order to allow remote code execution, disable security features, and hide files
-and processes from normal administrative tools. Despite its many features,
-Singularity is not currently known to be in use in the wild — instead, it
-provides security researchers with a testbed to investigate new detection and
-evasion techniques.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1053099/</guid>
-            <pubDate>Fri, 16 Jan 2026 17:57:32 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Removing a pointer dereference from slab allocations</title>
-            <link>https://lwn.net/Articles/1053870/</link>
-            <description><![CDATA[Al Viro does not often stray outside of the core virtual filesystem area;
-when he does, it is usually worthy of note.  Recently, he wandered into
-memory management with <a
-href="https://lwn.net/ml/all/20260110040217.1927971-1-viro@zeniv.linux.org.uk">this patch
-series</a> to the slab allocator and some of its users.  Kernel developers
-will often put considerable effort into small optimizations, but it is
-still interesting to look at just how much effort has gone toward the purpose of
-avoiding a single pointer dereference in some memory-allocation hot paths.]]></description>
-            <guid>https://lwn.net/Articles/1053870/</guid>
-            <pubDate>Thu, 15 Jan 2026 14:49:16 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
