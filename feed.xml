@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Feb 2026 13:26:51 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Feb 2026 14:11:57 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Feb 2026 14:28:28 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Feb 2026 15:04:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1057381/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (brotli, curl, kernel, python-wheel, and python3.12), <b>Debian</b> (containerd), <b>Fedora</b> (gnupg2, pgadmin4, phpunit10, phpunit11, phpunit12, phpunit8, phpunit9, and yarnpkg), <b>Mageia</b> (expat), <b>Oracle</b> (qemu-kvm and util-linux), <b>Red Hat</b> (kernel, kernel-rt, opentelemetry-collector, and python3.12-wheel), <b>SUSE</b> (abseil-cpp, dpdk, freerdp, glib2, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-ibm, java-1_8_0-openj9, java-1_8_0-openjdk, java-21-openj9, kernel, libsoup, libsoup-3_0-0, openssl-3, patch, python-Django, rekor, rizin, udisks2, and xrdp), and <b>Ubuntu</b> (gh, linux, linux-aws, linux-azure, linux-azure-5.15, linux-gcp, linux-gke,
+ linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iotg,
+ linux-intel-iotg-5.15, linux-kvm, linux-lowlatency,
+ linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra,
+ linux-nvidia-tegra-5.15, linux-oracle, linux-raspi, linux, linux-aws, linux-azure, linux-gcp, linux-oem-6.17, linux-oracle,
+ linux-raspi, linux-realtime, linux, linux-gke, linux-gkeop, linux-hwe-6.8, linux-oracle,
+ linux-oracle-6.8, linux-raspi, linux-fips, linux-aws-fips, linux-azure-fips,  linux-gcp-fips, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-realtime, linux-intel-iot-realtime, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1057381/</guid>
+            <pubDate>Thu, 05 Feb 2026 14:28:27 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for January 29, 2026</title>
             <link>https://lwn.net/Articles/1055441/</link>
@@ -268,14 +282,6 @@ The stated purpose is to start a discussion; this is openSUSE, so he is
 likely to succeed.]]></description>
             <guid>https://lwn.net/Articles/1056593/</guid>
             <pubDate>Thu, 29 Jan 2026 15:44:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1056544/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-25-openjdk, openssl, and python3.9), <b>Debian</b> (gimp, libmatio, pyasn1, and python-django), <b>Fedora</b> (perl-HarfBuzz-Shaper, python-tinycss2, and weasyprint), <b>Mageia</b> (glib2.0), <b>Oracle</b> (curl, fence-agents, gcc-toolset-15-binutils, glibc, grafana, java-1.8.0-openjdk, kernel, mariadb, osbuild-composer, perl, php:8.2, python-urllib3, python3.11, python3.11-urllib3, python3.12, and python3.12-urllib3), <b>SUSE</b> (alloy, avahi, bind, buildah, busybox, container-suseconnect, coredns, gdk-pixbuf, gimp, go1.24, go1.24-openssl, go1.25, helm, kernel, kubernetes, libheif, libpcap, libpng16, openjpeg2, openssl-1_0_0, openssl-1_1, openssl-3, php8, python-jaraco.context, python-marshmallow, python-pyasn1, python-urllib3, python-virtualenv, python311, python313, rabbitmq-server, xen, zli, and zot-registry), and <b>Ubuntu</b> (containerd, containerd-app and wlc).]]></description>
-            <guid>https://lwn.net/Articles/1056544/</guid>
-            <pubDate>Thu, 29 Jan 2026 14:33:18 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
