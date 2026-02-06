@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Feb 2026 12:50:36 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Feb 2026 14:04:54 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Feb 2026 14:45:23 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Feb 2026 15:00:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1057506/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, kernel, python3, and python3.12-wheel), <b>Debian</b> (alsa-lib, chromium, openjdk-25, phpunit, tomcat10, tomcat11, and tomcat9), <b>Fedora</b> (openqa, pgadmin4, phpunit10, phpunit11, phpunit12, phpunit8, phpunit9, and yarnpkg), <b>Mageia</b> (python-django), <b>SUSE</b> (alloy, cups, dpdk, expat, glib2, java-1_8_0-ibm, java-1_8_0-openj9, java-25-openjdk, kernel, libpainter0, libsoup, libxml2, openssl-3, python-filelock, python-wheel, python312-Django6, thunderbird, traefik2, udisks2, wireshark, and xen), and <b>Ubuntu</b> (glib2.0, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-4.15, python3.14, python3.13, python3.12, python3.11, python3.10, python3.9, python3.8, python3.7, python3.6, python3.5, python3.4, and tracker-miners).]]></description>
+            <guid>https://lwn.net/Articles/1057506/</guid>
+            <pubDate>Fri, 06 Feb 2026 14:18:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1057381/</link>
