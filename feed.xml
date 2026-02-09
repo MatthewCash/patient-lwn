@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Feb 2026 14:45:29 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Feb 2026 14:52:44 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Feb 2026 15:52:14 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Feb 2026 15:56:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,15 +427,6 @@ and more; see the announcement for details.]]></description>
             <guid>https://lwn.net/Articles/1056955/</guid>
             <pubDate>Mon, 02 Feb 2026 20:33:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1056923/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (iperf3, kernel, and php), <b>Debian</b> (ceph, pillow, pyasn1, python-django, and python-tornado), <b>Fedora</b> (bind9-next, cef, chromium, fontforge, java-21-openjdk, java-25-openjdk, java-latest-openjdk, mingw-python-urllib3, mingw-python-wheel, nodejs20, nodejs22, nodejs24, opencc, openssl, python-wheel, and qownnotes), <b>Red Hat</b> (binutils, gcc-toolset-13-binutils, gcc-toolset-14-binutils, gcc-toolset-15-binutils, java-1.8.0-openjdk, and java-25-openjdk), <b>Slackware</b> (expat), <b>SUSE</b> (bind, cacti, cacti-spine, chromedriver, chromium, dirmngr, fontforge-20251009, glib2, golang-github-prometheus-prometheus, govulncheck-vulndb, icinga2, ImageMagick, kernel, logback, openCryptoki, openssl-1_1, python311-djangorestframework, python311-pypdf, python314, python315, qemu, and xen), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-hwe-5.4,
- linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm and linux-aws-fips, linux-fips, linux-gcp-fips).]]></description>
-            <guid>https://lwn.net/Articles/1056923/</guid>
-            <pubDate>Mon, 02 Feb 2026 14:14:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
