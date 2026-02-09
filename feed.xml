@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Feb 2026 21:26:32 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Feb 2026 22:22:44 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Feb 2026 22:46:52 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Feb 2026 23:06:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -415,18 +415,6 @@ for LibreOffice 26.2</a>.]]></description>
             <guid>https://lwn.net/Articles/1057047/</guid>
             <pubDate>Tue, 03 Feb 2026 14:20:56 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Git 2.53.0 released</title>
-            <link>https://lwn.net/Articles/1056955/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/xmqq4inz13e3.fsf@gitster.g">Version 2.53.0</a> of the Git
-source-code management system has been released.  Changes include
-documentation for the Git data model, the ability to choose the diff
-algorithm to use with <tt>git blame</tt>, a new white-space error class,
-and more; see the announcement for details.]]></description>
-            <guid>https://lwn.net/Articles/1056955/</guid>
-            <pubDate>Mon, 02 Feb 2026 20:33:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
