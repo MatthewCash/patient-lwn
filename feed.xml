@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 08 Feb 2026 23:10:01 +0000</pubDate>
-        <lastBuildDate>Sun, 8 Feb 2026 23:34:09 +0000</lastBuildDate>
+        <pubDate>Sun, 08 Feb 2026 23:50:02 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Feb 2026 00:00:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -355,16 +355,6 @@ and more; see the announcement for details.]]></description>
             <guid>https://lwn.net/Articles/1056923/</guid>
             <pubDate>Mon, 02 Feb 2026 14:14:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 6.19-rc8</title>
-            <link>https://lwn.net/Articles/1056812/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1056811/">6.19-rc8</a> kernel prepatch is out for
-testing.  "<q>So things all look good, and unless something odd happens
-we'll have a final 6.19 next weekend.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1056812/</guid>
-            <pubDate>Sun, 01 Feb 2026 23:39:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
