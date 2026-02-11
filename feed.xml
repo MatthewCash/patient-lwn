@@ -8,11 +8,62 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Feb 2026 15:37:13 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Feb 2026 15:41:33 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Feb 2026 16:42:36 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Feb 2026 16:44:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>postmarketOS FOSDEM 2026 and hackathon recap</title>
+            <link>https://lwn.net/Articles/1058285/</link>
+            <description><![CDATA[<p>The <a href="https://postmarketos.org/">postmarketOS</a> project
+has <a
+href="https://postmarketos.org/blog/2026/02/10/fosdem-and-hackathon/">published</a>
+a recap from FOSDEM&#160;2026, including the <a
+href="https://fosdem.org/2026/schedule/track/foss-on-mobile/">FOSS on
+Mobile devroom</a>, and a summary of its <a
+href="https://postmarketos.org/blog/2026/02/10/fosdem-and-hackathon/#hackathon">post-FOSDEM
+hackathon</a>. This includes decisions on governance and the project's
+AI policy:</p>
+
+<blockquote class="bq">
+<p><strong>AI policy</strong>: our current <a
+href="https://docs.postmarketos.org/policies-and-processes/development/contributing-and-ai.html">AI
+policy</a> does not state that we forbid the use of generative AI in
+postmarketOS, so far this document just lists why we think it is a bad
+idea and misaligned with the project values. We discussed this and
+will soon change it (via merge request) to clearly state that we don't
+want generative AI to be used in the project. It was also noted that
+currently the policy is too long, it would make sense to split it into
+the actual policy and still keep, but separate the reasoning from
+it.</p>
+
+<p>[...] <strong>Power delegation and teams</strong>: in over two
+hours we discussed how to move forward with [postmarketOS change
+request] <a href="https://gitlab.postmarketos.org/postmarketOS/pmcr/-/merge_requests/14">PMCR&#160;0008</a> to organize
+ourselves better, and how it fits with soon having a legal entity. We
+figured that we need to rename "The Board" (which is currently for
+financial oversight) to "Financial Team", as we will soon have a new
+board for the legal entity. In the end our idea was to have the new
+board refer to an "assembly" for all important decisions, and this
+"assembly" would just be all Trusted Contributors in postmarketOS. The
+Core Contributors team would be dissolved in favor of having several
+topic-specific teams (a lot of which we already have, such as the
+infra team). This way we would have a very flat decision
+structure. The PMCR will be updated soon and discussed further
+there. <a
+href="https://postmarketos.org/team/#casey-connolly-kcxt">Casey</a>
+also asked <a href="https://social.treehouse.systems/@cas/116017957165300406">on fedi</a> for further feedback and got a lot of input.</p>
+</blockquote>
+
+<p>Other topics include reaching out to resellers to sell phones with
+postmarketOS preinstalled, security, and more.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1058285/</guid>
+            <pubDate>Wed, 11 Feb 2026 15:55:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1058265/</link>
