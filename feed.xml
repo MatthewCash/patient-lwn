@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Feb 2026 14:33:57 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Feb 2026 14:38:00 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Feb 2026 15:37:13 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Feb 2026 15:41:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -460,36 +460,6 @@ information to decide whether to include it in their kernel.
             <guid>https://lwn.net/Articles/1049295/</guid>
             <pubDate>Thu, 22 Jan 2026 17:43:15 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1057247/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (thunderbird), <b>Fedora</b> (openqa, os-autoinst, python-jupytext, python-python-multipart, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sequoia-sqv, and xen), <b>Oracle</b> (curl, kernel, net-snmp, python3, and python3.12), <b>Red Hat</b> (container-tools:rhel8, fence-agents, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, opentelemetry-collector, podman, python-s3transfer, python-wheel, and resource-agents), <b>SUSE</b> (alloy, chromium, cockpit-podman, cockpit-subscriptions, dpdk, elemental-register, elemental-toolkit, glib2, glibc, gpg2, ImageMagick, imagemagick, jasper, java-17-openjdk, java-21-openjdk, kernel, libheif, libmlt++, libpng16, libsodium, libsoup, libvirt, openssl-3, openvpn, php8, postgresql16, postgresql17 and postgresql18, protobuf, python-FontTools, python-fonttools, python-h2, python-python-multipart, python-urllib3, python-wheel, python311-PyNaCl, trivy, ucode-amd, udisks2, unbound, util-linux, wireshark, and xkbcomp), and <b>Ubuntu</b> (emacs, freerdp2, glibc, imagemagick, mysql-8.0, pagure, python-django, python-filelock, python-internetarchive, and python-keystonemiddleware).]]></description>
-            <guid>https://lwn.net/Articles/1057247/</guid>
-            <pubDate>Wed, 04 Feb 2026 14:42:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>LibreOffice 26.2 released</title>
-            <link>https://lwn.net/Articles/1057256/</link>
-            <description><![CDATA[Version 26.2 of the <a href="https://www.libreoffice.org/">LibreOffice</a>
-office suite has been <a
-href="https://blog.documentfoundation.org/blog/2026/02/04/libreoffice-26-2-is-here/">released</a>.
-
-<blockquote class="bq">
-LibreOffice 26.2 is focused on improvements that make a difference in daily work and brings better performance, smoother interaction with complex documents and improved compatibility with files created in other office software. Whether you're writing reports, managing spreadsheets, or preparing presentations, the experience feels more responsive and reliable.
-<p>
-LibreOffice has always been about giving users control. LibreOffice 26.2 continues that tradition by strengthening support for open document standards, and ensuring long-term access to your files, without subscriptions, license restrictions, or data collection. Your documents stay yours – forever.
-</blockquote>
-
-
-<p>
-More information can be found in the <a
-href="https://wiki.documentfoundation.org/ReleaseNotes/26.2">release notes
-for LibreOffice 26.2</a>.]]></description>
-            <guid>https://lwn.net/Articles/1057256/</guid>
-            <pubDate>Wed, 04 Feb 2026 15:00:14 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
