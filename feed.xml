@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Feb 2026 13:18:31 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Feb 2026 13:23:58 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Feb 2026 14:33:57 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Feb 2026 14:38:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1058265/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel, linux-6.1, munge, and tcpflow), <b>Fedora</b> (accel-ppp, atuin, babl, bustle, endless-sky, envision, ettercap, fapolicy-analyzer, firefox, glycin, gnome-settings-daemon, go-fdo-client, greenboot-rs, greetd, helix, hwdata, keylime-agent-rust, kiwi, libdrm, maturin, mirrorlist-server, ntpd-rs, ogr2osm, open-vm-tools, perl-App-Cme, perl-Net-RDAP, perl-rdapper, polymake, python-requests-ratelimiter, python-tqdm, rust-add-determinism, rust-afterburn, rust-ambient-id, rust-app-store-connect, rust-bat, rust-below, rust-btrd, rust-busd, rust-bytes, rust-cargo-c, rust-cargo-deny, rust-coreos-installer, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-crypto-auditing-log-parser, rust-dua-cli, rust-eif_build, rust-git-delta, rust-git-interactive-rebase-tool, rust-git2, rust-gst-plugin-dav1d, rust-gst-plugin-reqwest, rust-heatseeker, rust-ingredients, rust-jsonwebtoken, rust-lsd, rust-monitord, rust-monitord-exporter, rust-muvm, rust-nu, rust-num-conv, rust-onefetch, rust-oo7-cli, rust-pleaser, rust-pore, rust-pretty-git-prompt, rust-procs, rust-rbspy, rust-rbw, rust-rd-agent, rust-rd-hashd, rust-redlib, rust-resctl-bench, rust-resctl-demo, rust-routinator, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, rust-sequoia-chameleon-gnupg, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sevctl, rust-shadow-rs, rust-sigul-pesign-bridge, rust-speakersafetyd, rust-tealdeer, rust-time, rust-time-core, rust-time-macros, rust-tokei, rust-weezl, rust-wiremix, rust-ybaas, rustup, sad, strawberry, systemd, tbtools, transmission, trustedqsl, tuigreet, uv, and vdr-extrecmenung), <b>Oracle</b> (brotli, git-lfs, java-1.8.0-openjdk, kernel, libsoup, libsoup3, nodejs:24, python3.12, and thunderbird), <b>Red Hat</b> (fence-agents, python-urllib3, python3.11-urllib3, python3.12-urllib3, and resource-agents), <b>SUSE</b> (avahi, cups, freerdp, golang-github-prometheus-prometheus, java-11-openjdk, java-17-openjdk, libsoup2, libxml2, and python-pip), and <b>Ubuntu</b> (expat, glib2.0, and imagemagick).]]></description>
+            <guid>https://lwn.net/Articles/1058265/</guid>
+            <pubDate>Wed, 11 Feb 2026 14:01:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Stable kernels for Wednesday</title>
+            <link>https://lwn.net/Articles/1058268/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has unleashed six new stable kernels: <a
+href="https://lwn.net/Articles/1058269/">6.18.10</a>, <a
+href="https://lwn.net/Articles/1058270/">6.6.124</a>, <a
+href="https://lwn.net/Articles/1058271/">6.12.70</a>, <a
+href="https://lwn.net/Articles/1058272/">6.1.163</a>, <a
+href="https://lwn.net/Articles/1058273/">5.15.200</a>, and <a
+href="https://lwn.net/Articles/1058274/">5.10.250</a>. Each one contains important
+fixes throughout the tree; users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1058268/</guid>
+            <pubDate>Wed, 11 Feb 2026 14:33:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GTK hackfest, 2026 edition (GTK Development Blog)</title>
             <link>https://lwn.net/Articles/1058024/</link>
