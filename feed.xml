@@ -8,11 +8,150 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Feb 2026 23:07:44 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Feb 2026 23:48:21 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Feb 2026 00:41:47 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Feb 2026 02:09:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for February 5, 2026</title>
+            <link>https://lwn.net/Articles/1056417/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1056417/">Front</a>: Sigil; Eurydice; Sub-schedulers for sched_ext; Swap table; Futex robust lists; Tyr.
+            <li> <a href="https://lwn.net/Articles/1056419/">Briefs</a>: openSUSE governance; Git 2.53.0; LibreOffice 26.2; Open Source Award; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1056420/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1056417/</guid>
+            <pubDate>Thu, 05 Feb 2026 00:12:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] API changes for the futex robust list</title>
+            <link>https://lwn.net/Articles/1056387/</link>
+            <description><![CDATA[The <a href="https://docs.kernel.org/locking/robust-futex-ABI.html">robust
+futex kernel API</a> is a way for a user-space program to ensure that the
+locks it holds are properly cleaned up when it exits.  But the API suffers
+from a number of different problems, as André Almeida described in a <a
+href="https://lpc.events/event/19/contributions/2108/">session</a> in the
+<a href="https://lpc.events/event/19/sessions/225/#20251213">"Gaming on
+Linux" microconference</a> at the 2025 Linux Plumbers Conference in Tokyo.
+He had some ideas for a new API that would solve many of those problems,
+which he wanted to discuss with attendees; there is a
+difficult-to-trigger race condition that he wanted to talk about too.]]></description>
+            <guid>https://lwn.net/Articles/1056387/</guid>
+            <pubDate>Wed, 04 Feb 2026 17:48:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Sigil simplifies creating and editing EPUBs</title>
+            <link>https://lwn.net/Articles/1054751/</link>
+            <description><![CDATA[<p>Creating an ebook in <a
+href="https://www.w3.org/publishing/epub3/">EPUB format</a> is easy,
+for certain values of "easy". All one really needs 
+is a text editor, a few command-line utilities; also needed is a working
+knowledge of XHTML, CSS, along with an understanding of the format's
+structure and required <a
+href="https://github.com/javierarce/epub-boilerplate?tab=readme-ov-file#epub-boilerplate">boilerplate</a>. Creating
+a well-formatted and attractive ebook is a bit harder. However, it can be
+made easier with an application custom-made for the purpose. <a
+href="https://sigil-ebook.com/sigil/">Sigil</a> is an <a
+href="https://en.wikipedia.org/wiki/EPUB">EPUB</a> editor that
+provides the tooling authors and publishers may be looking for.</p>]]></description>
+            <guid>https://lwn.net/Articles/1054751/</guid>
+            <pubDate>Wed, 04 Feb 2026 15:11:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The future for Tyr</title>
+            <link>https://lwn.net/Articles/1055590/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://gitlab.freedesktop.org/panfrost/linux/-/project_members">
+team</a> behind
+<a href="https://rust-for-linux.com/tyr-gpu-driver">
+Tyr</a> started 2025 with little to show in our quest to
+produce a Rust GPU driver for Arm Mali hardware, and by the end of the
+year, we were able to play <a
+href="https://supertuxkart.net">SuperTuxKart</a> (a 3D open-source racing
+game) at the Linux Plumbers Conference (LPC). Our prototype was a joint
+effort between Arm, Collabora, and Google; it ran well for the duration
+of the event, and the performance was more than adequate for players.
+Thankfully, we picked up steam at precisely the right moment: Dave
+Airlie just
+<a href="https://lwn.net/Articles/1050174/">
+announced</a> in the Maintainers Summit that the DRM subsystem
+is only "<q>about a year away</q>" from disallowing new drivers written in C
+and requiring the use of Rust. Now it is time to lay out a
+possible roadmap for 2026 in order to upstream all of this work.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1055590/</guid>
+            <pubDate>Tue, 03 Feb 2026 14:47:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Modernizing swapping: introducing the swap table</title>
+            <link>https://lwn.net/Articles/1056405/</link>
+            <description><![CDATA[The kernel's swap subsystem is a complex and often unloved beast.  It is
+also a critical component in the memory-management subsystem and has a
+significant impact on the performance of the system as a whole.  At the
+2025 Linux Storage, Filesystem, Memory-Management and BPF Summit, Kairui
+Song <a href="https://lwn.net/Articles/1016136/">outlined a plan</a> to simplify and
+optimize the kernel's swap code.  A <a
+href="https://lwn.net/ml/all/20250916160100.31545-1-ryncsn@gmail.com/">first installment
+of that work</a>, written with help from Chris Li, was merged for the 6.18
+release.  This article will catch up with the 6.18 work, setting the stage
+for a future look at the changes that are yet to be merged.]]></description>
+            <guid>https://lwn.net/Articles/1056405/</guid>
+            <pubDate>Mon, 02 Feb 2026 15:28:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Compiling Rust to readable C with Eurydice</title>
+            <link>https://lwn.net/Articles/1055211/</link>
+            <description><![CDATA[<p>
+A few years ago, the only way to compile Rust code was using the rustc compiler
+with LLVM as a backend. Since then, several projects, including
+<a href="https://github.com/thepowersgang/mrustc?tab=readme-ov-file#mutabahs-rust-compiler">
+Mutabah's Rust Compiler</a> (mrustc), <a href="https://lwn.net/Articles/1040197/">GCC's Rust
+support</a> (gccrs),
+<a href="https://lwn.net/Articles/907405/#rust_codegen_gcc">
+rust_codegen_gcc</a>, and
+<a href="https://lwn.net/Articles/964735/">
+Cranelift</a> have made enormous progress
+on diversifying Rust's compiler implementations. The most recent such project,
+<a href="https://github.com/AeneasVerif/eurydice?tab=readme-ov-file#eurydice">
+Eurydice</a>, has a
+more ambitious goal: converting Rust code to clean C code. This is especially
+useful in high-assurance software, where existing verification and compliance
+tools expect C. Until such tools can be updated to work with Rust, Eurydice could
+provide a smoother transition for these projects, as well as a stepping-stone
+for environments that have a C compiler but no working Rust compiler. Eurydice
+has been used to compile some post-quantum-cryptography routines from Rust to C,
+for example.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1055211/</guid>
+            <pubDate>Fri, 30 Jan 2026 16:09:24 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Sub-schedulers for sched_ext</title>
+            <link>https://lwn.net/Articles/1056014/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a> (sched_ext)
+allows the installation of a custom CPU scheduler built as a set of BPF
+programs.  Its merging for the 6.12 kernel release moved the kernel away
+from the "one scheduler fits all" approach that had been taken until then;
+now any system can have its own scheduler optimized for its workloads.
+Within any given machine, though, it's still "one scheduler fits all"; only
+one scheduler can be loaded for the system as a whole.  The <a
+href="https://lwn.net/ml/all/20260121231140.832332-1-tj@kernel.org">sched_ext
+sub-scheduler patch series</a> from Tejun Heo aims to change that situation
+by allowing multiple CPU schedulers to run on a single system.]]></description>
+            <guid>https://lwn.net/Articles/1056014/</guid>
+            <pubDate>Thu, 29 Jan 2026 15:36:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Linux man pages 6.17 released</title>
             <link>https://lwn.net/Articles/1058323/</link>
@@ -416,127 +555,6 @@ In the coming weeks, we'll begin to sketch out what we have planned next for Ard
             <guid>https://lwn.net/Articles/1057381/</guid>
             <pubDate>Thu, 05 Feb 2026 14:28:27 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for January 29, 2026</title>
-            <link>https://lwn.net/Articles/1055441/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1055441/">Front</a>: PostmarketOS; LKRG 1.0; Fedora elections; EROFS, NTFS, and XFS; Fedora and GPG 2.5; BPF kfuncs.
-            <li> <a href="https://lwn.net/Articles/1055443/">Briefs</a>: curl bounties; GPG security; Guix 1.5.0; ReactOS turns 30; glibc 2.43; Rust 1.93; Xfwl4; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1055444/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1055441/</guid>
-            <pubDate>Thu, 29 Jan 2026 01:01:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Open source for phones: postmarketOS</title>
-            <link>https://lwn.net/Articles/1055391/</link>
-            <description><![CDATA[Phones running Linux are ubiquitous these days and it has been that way
-since Android started working toward dominance in the smartphone market.
-Unfortunately, Android has slowly increased its freedom-unfriendliness and
-has become something of a privacy nightmare.  In a talk entitled "We need
-an open-source phone OS" at <a
-href="https://events.linuxfoundation.org/archive/2025/open-source-summit-japan/">Open
-Source Summit Japan 2025</a>, Luca Weiss described the smartphone landscape
-and gave an overview of <a
-href="https://postmarketos.org/">postmarketOS</a> as an alternative Linux
-operating system for mobile handsets.]]></description>
-            <guid>https://lwn.net/Articles/1055391/</guid>
-            <pubDate>Wed, 28 Jan 2026 17:46:40 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Who should vote in Fedora elections?</title>
-            <link>https://lwn.net/Articles/1055539/</link>
-            <description><![CDATA[<p>Creating fair governance models for open-source projects is not
-easy; defining criteria for participants to receive membership and
-voting rights is a particularly thorny problem for projects that have
-elections for representative bodies. The <a
-href="https://docs.fedoraproject.org/en-US/council/">Fedora
-Council</a>, the project's top-level governance body, is wrestling
-with that conundrum now. This was triggered by a Fedora special-interest
-group (SIG) granting temporary membership to at least one person for the
-sole purpose of allowing them to vote in the most recent Fedora
-Engineering Steering Council (FESCo) election. That opened a large can
-of worms about what it means to be a contributor and how contributors
-can be identified for voting purposes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1055539/</guid>
-            <pubDate>Wed, 28 Jan 2026 15:51:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Implicit arguments for BPF kfuncs</title>
-            <link>https://lwn.net/Articles/1055559/</link>
-            <description><![CDATA[The kernel's "kfunc" mechanism is a way of exporting kernel functions so
-that they can be called directly from BPF programs.  There are over 300
-kfuncs in current kernels, ranging in functionality from string processing
-(<a
-href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/bpf/helpers.c#L3550"><tt>bpf_strnlen()</tt></a>)
-to custom schedulers (<a
-href="https://elixir.bootlin.com/linux/v6.18.6/source/kernel/sched/ext.c#L6024"><tt>scx_bpf_kick_cpu()</tt></a>)
-and beyond.  Sometimes these kfuncs need access to context information that
-is not directly available to BPF programs, and which thus cannot be passed
-in as arguments.  The <a
-href="https://lwn.net/ml/all/20260116201700.864797-1-ihor.solodrai@linux.dev">implicit
-arguments patch set</a> from Ihor Solodrai is the latest attempt to solve
-this problem.]]></description>
-            <guid>https://lwn.net/Articles/1055559/</guid>
-            <pubDate>Tue, 27 Jan 2026 15:41:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora and GPG 2.5</title>
-            <link>https://lwn.net/Articles/1055053/</link>
-            <description><![CDATA[<p>The <a href="https://www.gnupg.org/">GNU Privacy Guard</a> (GPG)
-project decided to break from the <a
-href="https://www.openpgp.org/">OpenPGP</a> standard for email
-encryption in 2023, and instead <a href="https://lwn.net/Articles/953797/">adopted its own</a> homegrown <a
-href="https://librepgp.org/">LibrePGP</a> specification. The GPG 2.4
-branch, the last one to adhere to OpenPGP, will be reaching the end of
-life in mid-2026. The Fedora project is currently having a discussion
-about how that affects the distribution, its users, and what to offer
-once 2.4 is no longer receiving updates.</p>]]></description>
-            <guid>https://lwn.net/Articles/1055053/</guid>
-            <pubDate>Mon, 26 Jan 2026 17:28:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Filesystem medley: EROFS, NTFS, and XFS</title>
-            <link>https://lwn.net/Articles/1055062/</link>
-            <description><![CDATA[Filesystems seem to be one of those many areas where the problems are well
-understood, but there is always somebody working toward a better solution.
-As a result, filesystem development in the Linux kernel continues at a fast
-pace even after all these years.  In recent news, the EROFS filesystem is
-on the path to gain a useful page-cache-sharing feature, there is a new
-NTFS implementation on the horizon, and XFS may be about to get an
-infrastructure for self healing.]]></description>
-            <guid>https://lwn.net/Articles/1055062/</guid>
-            <pubDate>Fri, 23 Jan 2026 15:27:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Linux Kernel Runtime Guard reaches its 1.0 release</title>
-            <link>https://lwn.net/Articles/1049295/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://lkrg.org">
-Linux Kernel Runtime Guard</a> (LKRG) is a out-of-tree loadable kernel module that
-attempts to detect and report violations of the kernel's internal invariants,
-such as might be caused by an in-progress security exploit or a rootkit.
-LKRG has been experimental since its
-<a href="https://lwn.net/Articles/749707/">
-initial release in 2018</a>. In September
-2025, the project
-<a href="https://www.openwall.com/lists/announce/2025/09/02/1">announced</a>
-the 1.0 version. With the promises of stability that version brings, users might want more
-information to decide whether to include it in their kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1049295/</guid>
-            <pubDate>Thu, 22 Jan 2026 17:43:15 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
