@@ -8,11 +8,66 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Feb 2026 13:37:28 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Feb 2026 13:45:49 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Feb 2026 14:31:22 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Feb 2026 14:39:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1058473/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (brotli, git-lfs, image-builder, kernel, keylime, libsoup3, and pcs), <b>Fedora</b> (chromium, gnutls, osslsigncode, and p11-kit), <b>Mageia</b> (golang, libpng, thunderbird, and xrdp), <b>Red Hat</b> (git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, osbuild-composer, and toolbox), <b>Slackware</b> (gnutls and libpng), <b>SUSE</b> (apptainer, cockpit, cockpit-packages, cockpit-subscriptions, freerdp2, gimp, glib2, go, go1.24, go1.25, gpg2, ImageMagick, java-1_8_0-openjdk, kernel, keylime-config, keylime-ima-policy, lemon, libp11-kit0, libsoup, libsoup-2_4-1, libxml2, libxml2-16, munge, nodejs20, nvidia-modprobe.cuda, nvidia-open-driver-G06-signed, nvidia-persistenced.cuda, openQA, orthanc, gdcm, orthanc-authorization,, python-brotlipy, python-Django, python-maturin, python-pyasn1, python-urllib3, python-wheel, python313-wheel, qemu, rust-keylime, sqlite3, uriparser, wicked2nm, and xrdp), and <b>Ubuntu</b> (libtasn1-6, libwebsockets, libxmltok, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux, linux-raspi, linux, linux-raspi, linux-realtime, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-ibm,
+ linux-ibm-6.8, linux-lowlatency-hwe-6.8, linux-aws-5.15, linux-gcp-5.15, linux-nvidia-tegra-igx, linux-oracle-5.15,
+ linux-xilinx-zynqmp, linux-aws-fips, linux-fips, linux-gcp-fips, linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-intel-iot-realtime, linux-realtime, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-realtime-6.8, linux-xilinx-zynqmp, and python-multipart).]]></description>
+            <guid>https://lwn.net/Articles/1058473/</guid>
+            <pubDate>Thu, 12 Feb 2026 14:10:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>A single stable kernel for Thursday</title>
+            <link>https://lwn.net/Articles/1058478/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1058479/">6.12.71</a> stable kernel. He writes,
+"<q>All users of the 6.12 kernel series that had issues with 6.12.69
+or 6.12.70 should upgrade, as some regressions are fixed
+here.</q>"</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1058478/</guid>
+            <pubDate>Thu, 12 Feb 2026 14:17:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Debian DFSG Team announces new dashboard and queue processes</title>
+            <link>https://lwn.net/Articles/1058480/</link>
+            <description><![CDATA[<p>Reinhard Tartler of Debian's <a
+href="https://lwn.net/ml/all/aW40P_28P2ZukDyd%40an3as.eu/">new DFSG,
+Licensing &amp; New Packages Team</a>, or simply "DFSG Team", has <a
+href="https://lwn.net/ml/all/20260212132552.46C7013F903%40x1.int.tauware.de/">announced</a>
+that the team is now operational and is deploying new tooling to
+improve the NEW queue experience for Debian developers and
+maintainers.</p>
+
+<blockquote class="bq">
+<p>Our primary and immediate goal is simple: get the queue down.</p>
+
+<p>We are currently settling in and refining our processes to ensure
+stability and consistency. While our focus right now is on clearing
+the backlog, our long-term vision is to enable all Debian Developers
+to meaningfully contribute to DFSG reviewing activities, distributing
+the workload and knowledge more effectively across the project.</p>
+</blockquote>
+
+<p>The announcement includes information on the new <a
+href="https://dfsg-new-queue.debian.org/dashboard">dashboard for
+packages in the NEW queue</a>, the rationale for the new tooling, and
+an introduction to the members of the team.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1058480/</guid>
+            <pubDate>Thu, 12 Feb 2026 14:30:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for February 5, 2026</title>
             <link>https://lwn.net/Articles/1056417/</link>
