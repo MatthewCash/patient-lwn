@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Feb 2026 15:55:27 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Feb 2026 16:01:03 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Feb 2026 16:57:26 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Feb 2026 17:00:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -566,69 +566,6 @@ upgrade.</p>
             <guid>https://lwn.net/Articles/1057550/</guid>
             <pubDate>Fri, 06 Feb 2026 16:45:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Linux from Scratch to drop System V versions</title>
-            <link>https://lwn.net/Articles/1057509/</link>
-            <description><![CDATA[<p>The <a
-href="https://rivendell.linuxfromscratch.org/index.html">Linux From
-Scratch</a> (LFS) project provides step-by-step instructions on
-building a customized Linux system entirely from source. Historically,
-the project has provided separate System&#160;V and systemd editions,
-which gave users a choice of init systems. Bruce Dubbs has <a
-href="https://lists.linuxfromscratch.org/sympa/arc/lfs-announce/2026-02/msg00000.html">announced</a>
-the project will no longer produce the System&#160;V version:</p>
-
-<blockquote class="bq">
-<p>There are two reasons for this decision. The first reason is
-workload. No one working on LFS is paid. We rely completely on
-volunteers. In LFS there are 88 packages. In BLFS there are over
-1000. The volume of changes from upstream is overwhelming the
-editors. In this release cycle that started on the 1st of September
-until now, there have been 70 commits to LFS and 1155 commits to BLFS
-(and counting). When making package updates, many packages need to be
-checked for both System V and systemd. When preparing for release, all
-packages need to be checked for each init system.</p>
-
-<p>The second reason for dropping System V is that packages like GNOME
-and soon KDE's Plasma are building in requirements that require
-capabilities in systemd that are not in System V. This could
-potentially be worked around with another init system like OpenRC, but
-beyond the transition process it still does not address the ongoing
-workload problem.</p>
-
-<p>[...] As a personal note, I do not like this decision. To me LFS is
-about learning how a system works. Understanding the boot process is a
-big part of that. systemd is about 1678 "C" files plus many data
-files. System V is "22" C files plus about 50 short bash scripts and
-data files. Yes, systemd provides a lot of capabilities, but we will
-be losing some things I consider important.</p>
-</blockquote>
-
-<p>The next version, 13.0, is expected in March and will only focus on
-systemd.</p>
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1057509/</guid>
-            <pubDate>Fri, 06 Feb 2026 15:11:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ardour 9.0 released</title>
-            <link>https://lwn.net/Articles/1057548/</link>
-            <description><![CDATA[The <a href="https://ardour.org/">Ardour</a> digital-audio-workstation (DAW)
-project has <a href="https://ardour.org/whatsnew.html">announced the
-release of version 9.0</a>.
-
-<blockquote class="bq">
-This is a major release for the project, seeing several substantive new features that users have asked for over a long period of time. Region FX, clip recording, a touch-sensitive GUI, pianoroll windows, clip editing and more, not to mention dozens of bug fixes, new MIDI binding maps, improved GUI performance on macOS (for most) ...
-<p>
-We expect to get feedback on some of the major new features in this release, and plan to take that into account as we improve and refine them and the rest of Ardour going forward. We have no doubt that there will be both delight and disappointment with certain things - rather than assume that we don't know what we're doing, please leave us feedback on <a href="https://discourse.ardour.org/">the forums</a> so that Ardour gets better over time. Those of you new to our clip launching implementation might care to read up on <a href="https://ardour.org/clip_differences.html">the differences with Ableton Live</a>.
-<p>
-In the coming weeks, we'll begin to sketch out what we have planned next for Ardour, in addition to responding to the feedback we get on this 9.0 release. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1057548/</guid>
-            <pubDate>Fri, 06 Feb 2026 16:24:54 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
