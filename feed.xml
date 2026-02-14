@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 14 Feb 2026 16:13:33 +0000</pubDate>
-        <lastBuildDate>Sat, 14 Feb 2026 16:29:49 +0000</lastBuildDate>
+        <pubDate>Sat, 14 Feb 2026 16:29:50 +0000</pubDate>
+        <lastBuildDate>Sat, 14 Feb 2026 16:58:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Vim 9.2 released</title>
+            <link>https://lwn.net/Articles/1058744/</link>
+            <description><![CDATA[<a href="https://www.vim.org/vim-9.2-released.php">Version 9.2</a> of the
+Vim text editor has been released.  "<q>Vim 9.2 brings significant
+enhancements to the Vim9 scripting language, improved diff mode,
+comprehensive completion features, and platform-specific improvements
+including experimental Wayland support.</q>"  Also included is a new
+interactive tutor mode.]]></description>
+            <guid>https://lwn.net/Articles/1058744/</guid>
+            <pubDate>Sat, 14 Feb 2026 16:29:50 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>New delegation for Debian&apos;s data protection team</title>
             <link>https://lwn.net/Articles/1058663/</link>
