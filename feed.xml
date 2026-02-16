@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Feb 2026 14:06:12 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Feb 2026 14:12:37 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Feb 2026 14:32:33 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Feb 2026 15:02:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four stable kernels for Monday</title>
+            <link>https://lwn.net/Articles/1058990/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1058994/">6.19.1</a>, <a
+href="https://lwn.net/Articles/1058991/">6.18.11</a>, <a
+href="https://lwn.net/Articles/1058993/">6.12.72</a>, and <a
+href="https://lwn.net/Articles/1058992/">6.6.125</a> stable kernels. As always, each
+contains important fixes throughout the tree; users of these kernels
+are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1058990/</guid>
+            <pubDate>Mon, 16 Feb 2026 14:19:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1058989/</link>
@@ -427,87 +443,6 @@ passing of Dave Farber.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, firefox, fontforge, freerdp, kernel-rt, keylime, libsoup, libsoup3, nodejs22, nodejs24, opentelemetry-collector, osbuild-composer, python3.12-wheel, qemu-kvm, resource-agents, thunderbird, and util-linux), <b>Debian</b> (kernel, rlottie, shaarli, and usbmuxd), <b>Fedora</b> (asciinema, atuin, bustle, cef, envision, glycin, greetd, helix, java-21-openjdk, java-25-openjdk, java-latest-openjdk, keylime-agent-rust, maturin, mirrorlist-server, ntpd-rs, python3.6, rust-add-determinism, rust-afterburn, rust-ambient-id, rust-app-store-connect, rust-bat, rust-below, rust-btrd, rust-busd, rust-bytes, rust-cargo-c, rust-cargo-deny, rust-coreos-installer, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-crypto-auditing-log-parser, rust-dua-cli, rust-eif_build, rust-git-delta, rust-git-interactive-rebase-tool, rust-git2, rust-gst-plugin-dav1d, rust-gst-plugin-reqwest, rust-heatseeker, rust-ingredients, rust-jsonwebtoken, rust-lsd, rust-monitord, rust-monitord-exporter, rust-muvm, rust-nu, rust-num-conv, rust-onefetch, rust-oo7-cli, rust-pleaser, rust-pore, rust-pretty-git-prompt, rust-procs, rust-rbspy, rust-rbw, rust-rd-agent, rust-rd-hashd, rust-redlib, rust-resctl-bench, rust-resctl-demo, rust-routinator, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, rust-sequoia-chameleon-gnupg, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sevctl, rust-shadow-rs, rust-sigul-pesign-bridge, rust-snpguest, rust-speakersafetyd, rust-tealdeer, rust-time, rust-time-core, rust-time-macros, rust-tokei, rust-weezl, rust-wiremix, rust-ybaas, rustup, sad, tbtools, tuigreet, and uv), <b>Mageia</b> (fontforge and nginx), <b>Oracle</b> (firefox, fontforge, freerdp, kernel, keylime, libsoup, python, thunderbird, and uek-kernel), <b>SUSE</b> (abseil-cpp and kernel), and <b>Ubuntu</b> (freerdp2 and libsoup3).]]></description>
             <guid>https://lwn.net/Articles/1057993/</guid>
             <pubDate>Tue, 10 Feb 2026 14:10:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1057759/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fontforge, kernel, and osbuild-composer), <b>Debian</b> (debian-security-support, sudo, wireshark, xrdp, and zabbix), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, k9s, libgit2, mingw-glib2, node-exporter, open-vm-tools, plantuml, xorgxrdp, and xrdp), <b>Oracle</b> (fence-agents, image-builder, kernel, libsoup3, and osbuild-composer), <b>Red Hat</b> (image-builder and osbuild-composer), <b>Slackware</b> (openssl and p11), <b>SUSE</b> (chromium, cockpit-354, cockpit-machines, cockpit-machines-346, cockpit-packages, cockpit-podman, cockpit-subscriptions, govulncheck-vulndb, kubernetes-old, libsnmp45-32bit, libxml2, localsearch, micropython, opencloud-server, python-django, python-djangorestframework, python-maturin, python311-Django, python311-wheel, python315, sqlite3, and xrdp), and <b>Ubuntu</b> (linux-fips, linux-aws-fips, linux-gcp-fips and python-pip).]]></description>
-            <guid>https://lwn.net/Articles/1057759/</guid>
-            <pubDate>Mon, 09 Feb 2026 14:06:39 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Debian&apos;s tag2upload considered stable</title>
-            <link>https://lwn.net/Articles/1057765/</link>
-            <description><![CDATA[<p>Sean Whitton has <a
-href="https://lwn.net/ml/all/87o6ly2gfr.fsf@zephyr.silentflame.com/">announced</a>
-that Debian's <a href="https://tag2upload.debian.org/">tag2upload</a>
-service is now out of beta and ready for use by Debian developers and
-maintainers.</p>
-
-<blockquote class="bq">
-<p>During the beta we encountered only a few significant bugs.  Now that
-we've fixed those, our rate of successful uploads is hovering around
-95%. Failures are almost always due to packaging inconsistencies that
-older workflows don't detect, and therefore only need fixing once per
-package.</p>
-
-<p>We don't think you need explicit approval from your co-maintainers
-anymore.  Your upload workflows can be different to your teammates.
-They can be using dput, dgit or tag2upload.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/978324/">covered</a>
-tag2upload in July 2024.</p>
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1057765/</guid>
-            <pubDate>Mon, 09 Feb 2026 14:33:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Offpunk 3.0 released</title>
-            <link>https://lwn.net/Articles/1057766/</link>
-            <description><![CDATA[<p><a href="https://ploum.net/2026-02-09-offpunk3.html">Version
-3.0</a> of the <a href="https://offpunk.net/">Offpunk</a>
-offline-first, command-line web, <a
-href="https://en.wikipedia.org/wiki/Gemini_(protocol)">Gemini</a>, and
-<a href="https://en.wikipedia.org/wiki/Gopher_(protocol)">Gopher</a>
-browser has been released. Notable changes in this release include
-integration of the <a
-href="https://codeberg.org/vjousse/unmerdify#unmerdif">unmerdify</a>
-library to "<q>remove cruft</q>" from web sites, the <tt>xkcdpunk</tt>
-standalone tool for viewing <a href="https://www.xkcd.com/">xkcd</a>
-comics in the terminal, and a <tt>cookies</tt> command to enable
-browsing web sites (such as LWN.net) while being logged in.</p>
-
-<blockquote class="bq">
-<p>Something wonderful happened on the road leading to 3.0: Offpunk
-became a true cooperative effort. Offpunk 3.0 is probably the first
-release that contains code I didn't review line-by-line. Unmerdify (by
-Vincent Jousse), all the translation infrastructure (by the
-always-present JMCS), and the community packaging effort are areas for
-which I barely touched the code.</p>
-
-<p>So, before anything else, I want to thank all the people involved
-for sharing their energy and motivation. I'm very grateful for every
-contribution the project received. I'm also really happy to see "old
-names" replying from time to time on the mailing list. It makes me
-feel like there's an emerging Offpunk community where everybody can
-contribute at their own pace.</p>
-
-<p>There were a lot of changes between 2.8 and 3.0, which probably
-means some new bugs and some regressions. We count on you, yes, you!,
-to report them and make 3.1 a lot more stable. It's as easy at typing
-"bugreport" in offpunk!</p>
-</blockquote>
-
-<p>See the "<a href="https://offpunk.net/install.html">Installing
-Offpunk</a>" page to get started.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1057766/</guid>
-            <pubDate>Mon, 09 Feb 2026 14:45:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
