@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Feb 2026 15:05:50 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Feb 2026 15:08:38 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Feb 2026 16:03:30 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Feb 2026 16:09:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -505,14 +505,6 @@ passing of Dave Farber.
             <guid>https://lwn.net/Articles/1058028/</guid>
             <pubDate>Tue, 10 Feb 2026 16:38:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1057993/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, firefox, fontforge, freerdp, kernel-rt, keylime, libsoup, libsoup3, nodejs22, nodejs24, opentelemetry-collector, osbuild-composer, python3.12-wheel, qemu-kvm, resource-agents, thunderbird, and util-linux), <b>Debian</b> (kernel, rlottie, shaarli, and usbmuxd), <b>Fedora</b> (asciinema, atuin, bustle, cef, envision, glycin, greetd, helix, java-21-openjdk, java-25-openjdk, java-latest-openjdk, keylime-agent-rust, maturin, mirrorlist-server, ntpd-rs, python3.6, rust-add-determinism, rust-afterburn, rust-ambient-id, rust-app-store-connect, rust-bat, rust-below, rust-btrd, rust-busd, rust-bytes, rust-cargo-c, rust-cargo-deny, rust-coreos-installer, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-crypto-auditing-log-parser, rust-dua-cli, rust-eif_build, rust-git-delta, rust-git-interactive-rebase-tool, rust-git2, rust-gst-plugin-dav1d, rust-gst-plugin-reqwest, rust-heatseeker, rust-ingredients, rust-jsonwebtoken, rust-lsd, rust-monitord, rust-monitord-exporter, rust-muvm, rust-nu, rust-num-conv, rust-onefetch, rust-oo7-cli, rust-pleaser, rust-pore, rust-pretty-git-prompt, rust-procs, rust-rbspy, rust-rbw, rust-rd-agent, rust-rd-hashd, rust-redlib, rust-resctl-bench, rust-resctl-demo, rust-routinator, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, rust-sequoia-chameleon-gnupg, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sevctl, rust-shadow-rs, rust-sigul-pesign-bridge, rust-snpguest, rust-speakersafetyd, rust-tealdeer, rust-time, rust-time-core, rust-time-macros, rust-tokei, rust-weezl, rust-wiremix, rust-ybaas, rustup, sad, tbtools, tuigreet, and uv), <b>Mageia</b> (fontforge and nginx), <b>Oracle</b> (firefox, fontforge, freerdp, kernel, keylime, libsoup, python, thunderbird, and uek-kernel), <b>SUSE</b> (abseil-cpp and kernel), and <b>Ubuntu</b> (freerdp2 and libsoup3).]]></description>
-            <guid>https://lwn.net/Articles/1057993/</guid>
-            <pubDate>Tue, 10 Feb 2026 14:10:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
