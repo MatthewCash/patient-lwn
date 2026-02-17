@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Feb 2026 16:03:30 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Feb 2026 16:09:51 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Feb 2026 16:55:49 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Feb 2026 17:17:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -455,56 +455,6 @@ fixes throughout the tree; users are advised to upgrade.</p>
             <guid>https://lwn.net/Articles/1058268/</guid>
             <pubDate>Wed, 11 Feb 2026 14:33:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GTK hackfest, 2026 edition (GTK Development Blog)</title>
-            <link>https://lwn.net/Articles/1058024/</link>
-            <description><![CDATA[<p>Matthias Clasen has published a short <a
-href="https://blogs.gnome.org/gtk/2026/02/06/gtk-hackfest-2026-edition/">summary of the GTK hackfest</a> held prior to <a
-href="https://fosdem.org/2026/">FOSDEM&#160;2026</a>. Topics include
-discussions on unstable APIs, a decision to bump the C runtime
-requirement to C11 in the next development cycle, limiting changes in
-GTK3 to crash and build fixes, as well as the state of
-accessibility:</p>
-
-<blockquote class="bq">
-<p>On the accessibility side, we are somewhat worried about the state
-of <a href="https://github.com/AccessKit/accesskit">AccessKit</a>. The
-code upstream is maintained, but we haven't seen movement in the GTK
-implementation. We still default to the AT-SPI backend on Linux, but
-AccessKit is used on Windows and macOS (and possibly Android in the
-future); it would be nice to have consumers of the accessibility stack
-looking at the code and issues.</p>
-
-<p>On the AT-SPI side we are still missing proper feature negotiation
-in the protocol; interfaces are now versioned on D-Bus, but there's no
-mechanism to negotiate the supported set of roles or events between
-toolkits, compositors, and assistive technologies, which makes running
-newer applications on older OS versions harder.</p>
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1058024/</guid>
-            <pubDate>Tue, 10 Feb 2026 16:28:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Dave Farber RIP</title>
-            <link>https://lwn.net/Articles/1058028/</link>
-            <description><![CDATA[From the NANOG list comes <a
-href="https://seclists.org/nanog/2026/Feb/18">the sad news</a> of the
-passing of Dave Farber.
-<p>
-<blockquote class="bq">
-	His professional accomplishments and impact are almost endless, but
-	often captured by one moniker: "grandfather of the Internet,"
-	acknowledging the foundational contributions made by his many
-	students at the University of California, Irvine; the University of
-	Delaware; the University of Pennsylvania; and Carnegie Mellon
-	University.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1058028/</guid>
-            <pubDate>Tue, 10 Feb 2026 16:38:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
