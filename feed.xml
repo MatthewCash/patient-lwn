@@ -8,11 +8,74 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Feb 2026 14:04:49 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Feb 2026 14:13:58 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Feb 2026 14:47:23 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Feb 2026 15:07:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>An update to the malicious crate notification policy (Rust Blog)</title>
+            <link>https://lwn.net/Articles/1059338/</link>
+            <description><![CDATA[<p>Adam Harvey, on behalf of the <a
+href="https://rust-lang.org/governance/teams/dev-tools/#team-crates-io">crates.io
+team</a> has published a <a
+href="https://blog.rust-lang.org/2026/02/13/crates.io-malicious-crate-update/">blog
+post</a> to inform users of a change in their practice of publishing
+information about malicious Rust crates:</p>
+
+<blockquote class="bq">
+<p>The crates.io team will no longer publish a blog post each time a
+malicious crate is detected or reported. In the vast majority of cases
+to date, these notifications have involved crates that have no
+evidence of real world usage, and we feel that publishing these blog
+posts is generating noise, rather than signal.</p>
+
+<p>We will always publish a <a href="https://rustsec.org/">RustSec</a>
+advisory when a crate is removed for containing malware. You can
+subscribe to the <a href="https://rustsec.org/feed.xml">RustSec
+advisory RSS feed</a> to receive updates.</p>
+
+<p>Crates that contain malware and are seeing real usage or
+exploitation will still get both a blog post and a RustSec
+advisory. We may also notify via additional communication channels
+(such as social media) if we feel it is warranted.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1059338/</guid>
+            <pubDate>Wed, 18 Feb 2026 14:35:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>An Asahi Linux progress report</title>
+            <link>https://lwn.net/Articles/1059339/</link>
+            <description><![CDATA[The Asahi Linux project, which is working to implement support for Linux on
+Apple CPUs, has published <a
+href="https://asahilinux.org/2026/02/progress-report-6-19/">a detailed 6.19
+progress report</a>.
+<p>
+<blockquote class="bq">
+	We've made incredible progress upstreaming patches over the past 12
+	months. Our patch set has shrunk from 1232 patches with 6.13.8, to
+	858 as of 6.18.8. Our total delta in terms of lines of code has
+	also shrunk, from 95,000 lines to 83,000 lines for the same kernel
+	versions. Hmm, a 15% reduction in lines of code for a 30% reduction
+	in patches seems a bit wrong…
+<p>
+	Not all patches are created equal. Some of the upstreamed patches
+	have been small fixes, others have been thousands of lines. All of
+	them, however, pale in comparison to the GPU driver.
+<p>
+	The GPU driver is 21,000 lines by itself, discounting the
+	downstream Rust abstractions we are still carrying. It is almost
+	double the size of the DCP driver and thrice the size of the
+	ISP/webcam driver, its two closest rivals. And upstreaming work has
+	now begun.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1059339/</guid>
+            <pubDate>Wed, 18 Feb 2026 14:39:04 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1059333/</link>
@@ -437,31 +500,6 @@ postmarketOS preinstalled, security, and more.</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1058285/</guid>
             <pubDate>Wed, 11 Feb 2026 15:55:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1058265/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel, linux-6.1, munge, and tcpflow), <b>Fedora</b> (accel-ppp, atuin, babl, bustle, endless-sky, envision, ettercap, fapolicy-analyzer, firefox, glycin, gnome-settings-daemon, go-fdo-client, greenboot-rs, greetd, helix, hwdata, keylime-agent-rust, kiwi, libdrm, maturin, mirrorlist-server, ntpd-rs, ogr2osm, open-vm-tools, perl-App-Cme, perl-Net-RDAP, perl-rdapper, polymake, python-requests-ratelimiter, python-tqdm, rust-add-determinism, rust-afterburn, rust-ambient-id, rust-app-store-connect, rust-bat, rust-below, rust-btrd, rust-busd, rust-bytes, rust-cargo-c, rust-cargo-deny, rust-coreos-installer, rust-crypto-auditing-agent, rust-crypto-auditing-client, rust-crypto-auditing-event-broker, rust-crypto-auditing-log-parser, rust-dua-cli, rust-eif_build, rust-git-delta, rust-git-interactive-rebase-tool, rust-git2, rust-gst-plugin-dav1d, rust-gst-plugin-reqwest, rust-heatseeker, rust-ingredients, rust-jsonwebtoken, rust-lsd, rust-monitord, rust-monitord-exporter, rust-muvm, rust-nu, rust-num-conv, rust-onefetch, rust-oo7-cli, rust-pleaser, rust-pore, rust-pretty-git-prompt, rust-procs, rust-rbspy, rust-rbw, rust-rd-agent, rust-rd-hashd, rust-redlib, rust-resctl-bench, rust-resctl-demo, rust-routinator, rust-sccache, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, rust-sequoia-chameleon-gnupg, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-sq, rust-sevctl, rust-shadow-rs, rust-sigul-pesign-bridge, rust-speakersafetyd, rust-tealdeer, rust-time, rust-time-core, rust-time-macros, rust-tokei, rust-weezl, rust-wiremix, rust-ybaas, rustup, sad, strawberry, systemd, tbtools, transmission, trustedqsl, tuigreet, uv, and vdr-extrecmenung), <b>Oracle</b> (brotli, git-lfs, java-1.8.0-openjdk, kernel, libsoup, libsoup3, nodejs:24, python3.12, and thunderbird), <b>Red Hat</b> (fence-agents, python-urllib3, python3.11-urllib3, python3.12-urllib3, and resource-agents), <b>SUSE</b> (avahi, cups, freerdp, golang-github-prometheus-prometheus, java-11-openjdk, java-17-openjdk, libsoup2, libxml2, and python-pip), and <b>Ubuntu</b> (expat, glib2.0, and imagemagick).]]></description>
-            <guid>https://lwn.net/Articles/1058265/</guid>
-            <pubDate>Wed, 11 Feb 2026 14:01:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernels for Wednesday</title>
-            <link>https://lwn.net/Articles/1058268/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has unleashed six new stable kernels: <a
-href="https://lwn.net/Articles/1058269/">6.18.10</a>, <a
-href="https://lwn.net/Articles/1058270/">6.6.124</a>, <a
-href="https://lwn.net/Articles/1058271/">6.12.70</a>, <a
-href="https://lwn.net/Articles/1058272/">6.1.163</a>, <a
-href="https://lwn.net/Articles/1058273/">5.15.200</a>, and <a
-href="https://lwn.net/Articles/1058274/">5.10.250</a>. Each one contains important
-fixes throughout the tree; users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1058268/</guid>
-            <pubDate>Wed, 11 Feb 2026 14:33:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
