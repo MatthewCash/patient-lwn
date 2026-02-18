@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 18 Feb 2026 19:34:10 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Feb 2026 21:35:37 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 22:05:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -452,32 +452,6 @@ sub-scheduler patch series</a> from Tejun Heo aims to change that situation
 by allowing multiple CPU schedulers to run on a single system.]]></description>
             <guid>https://lwn.net/Articles/1056014/</guid>
             <pubDate>Thu, 29 Jan 2026 15:36:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Linux man pages 6.17 released</title>
-            <link>https://lwn.net/Articles/1058323/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/aYy41v6tYda2Qc_1@devuan">Version 6.17</a> of the Linux
-manual-page collection has been released.  Along with a long list of
-updates to the man pages themselves, it includes some new utility programs
-of interest.
-<p>
-<blockquote class="bq">
-	The grepc(1) program is something that originated in this project,
-	as it helped me find code quickly in glibc and the Linux kernel.
-	However, I've found it incredibly useful outside of this project.
-	I'll take some space to announce it, as it's much more than just a
-	tool for writing manual pages, and I expect it to be useful to most
-	--if not all-- C programmers.
-<p>
-	It is a command-line tool that finds C source code (for example, a
-	function definition) in arbitrary projects.  It doesn't use any
-	indexing mechanism (unlike ctags and similar tools).  This means
-	that it can be used right after cloning some repository, without
-	having to first generate an index.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1058323/</guid>
-            <pubDate>Wed, 11 Feb 2026 21:24:02 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
