@@ -8,11 +8,104 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Feb 2026 23:32:09 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Feb 2026 23:56:13 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Feb 2026 00:09:54 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Feb 2026 02:07:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for February 12, 2026</title>
+            <link>https://lwn.net/Articles/1057382/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1057382/">Front</a>: Git; GCC and KCFI; modernizing swapping; 6.18 statistics; modern FOSS challenges.
+            <li> <a href="https://lwn.net/Articles/1057384/">Briefs</a>: Kernel ML; tag2upload; LFS sysvinit; postmarketOS FOSDEM; Ardour 9.0; Offpunk 3.0; Dave Farber RIP; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1057385/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1057382/</guid>
+            <pubDate>Thu, 12 Feb 2026 00:02:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Evolving Git for the next decade</title>
+            <link>https://lwn.net/Articles/1057561/</link>
+            <description><![CDATA[<p>Git is ubiquitous; in the last two decades, the version-control
+system has truly achieved world domination. Almost every developer
+uses it and the vast majority of open-source projects are hosted in
+Git repositories. That does not mean, however, that it is
+perfect. Patrick Steinhardt used his main-track session at FOSDEM 2026
+to discuss some of its shortcomings and how they are being
+addressed to prepare Git for the next decade.</p>]]></description>
+            <guid>https://lwn.net/Articles/1057561/</guid>
+            <pubDate>Wed, 11 Feb 2026 15:55:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] FOSS in times of war, scarcity, and AI</title>
+            <link>https://lwn.net/Articles/1056800/</link>
+            <description><![CDATA[<p>Michiel Leenaars, director of strategy at the <a
+href="https://nlnet.nl/">NLnet Foundation</a>, used his <a
+href="https://fosdem.org/2026/schedule/event/FE7ULY-foss-in-times-of-war-scarcity-and-ai/">keynote</a>
+at <a href="https://fosdem.org/2026/">FOSDEM</a> to sound warnings for
+the community for free and open-source (FOSS) software; in particular, he
+talked about the threats posed by geopolitical politics, dangerous
+allies, and large language models (LLMs). His talk was a mix of
+observations and suggestions that pertain to FOSS in general and to
+Europe in particular as geopolitical tensions have mounted in recent
+months.</p>]]></description>
+            <guid>https://lwn.net/Articles/1056800/</guid>
+            <pubDate>Tue, 10 Feb 2026 14:50:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for 6.19</title>
+            <link>https://lwn.net/Articles/1057302/</link>
+            <description><![CDATA[Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wh0Fj7yE7iuW8awFCFt53s9T186qNbZX673E+oNCeQSFg@mail.gmail.com/">released
+the 6.19 kernel</a> on February&#160;8, as expected.  This development
+cycle brought 14,344 non-merge changesets into the mainline, making it the
+busiest release since 6.16 in July 2025.  As usual, we have put together a
+set of statistics on where these changes come from, along with a quick look
+at how long new kernel developers stay around.]]></description>
+            <guid>https://lwn.net/Articles/1057302/</guid>
+            <pubDate>Mon, 09 Feb 2026 18:02:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Kernel control-flow-integrity support comes to GCC</title>
+            <link>https://lwn.net/Articles/1056601/</link>
+            <description><![CDATA[<p>
+Control-flow integrity (CFI) is a set of techniques that make it more difficult for
+attackers to hijack indirect jumps to exploit a system. The Linux kernel has
+supported forward-edge CFI (which protects indirect function calls)
+<a href="https://lwn.net/Articles/810077/">since 2020</a>, with the most recent implementation
+of the feature introduced <a href="https://lwn.net/Articles/898040">in 2022</a>. That
+version avoids the overhead introduced by the earlier approach by using a
+compiler flag (<tt>-fsanitize=kcfi</tt>) that is present in Clang but not in
+GCC. Now, Kees Cook has
+<a href="https://lwn.net/ml/all/20251210022025.harder.803-kees@kernel.org/">
+a patch set</a> adding that support to GCC that looks likely to land in GCC
+17.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1056601/</guid>
+            <pubDate>Fri, 06 Feb 2026 16:23:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Modernizing swapping: the end of the swap map</title>
+            <link>https://lwn.net/Articles/1057102/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/1056405/">The first installment in this series</a>
+introduced several data structures in the kernel's swap subsystem and
+described work to replace some of those with a new "swap table" structure.
+The work did not stop there, though; there is more modernization of the
+swap subsystem queued for an upcoming development cycle, and even more for
+multiple kernel releases after that.  Once that work is done, the swap
+subsystem will be both simpler and faster than it is now.]]></description>
+            <guid>https://lwn.net/Articles/1057102/</guid>
+            <pubDate>Thu, 05 Feb 2026 15:26:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora now available in Syria</title>
             <link>https://lwn.net/Articles/1059342/</link>
