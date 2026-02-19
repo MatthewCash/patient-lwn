@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Feb 2026 14:11:10 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Feb 2026 14:16:23 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Feb 2026 15:04:36 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Feb 2026 15:10:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>openSUSE governance proposal advances</title>
+            <link>https://lwn.net/Articles/1059511/</link>
+            <description><![CDATA[<p>Douglas DeMaio has <a
+href="https://news.opensuse.org/2026/02/19/comm-advances-gov-proposal-after-virtual-meeting/">announced</a>
+that Jeff Mahoney's new <a
+href="https://gitlab.com/jeffmahoney/opensuse-docs/-/blob/main/governance-draft.md">governance
+proposal</a> for openSUSE, which was <a
+href="https://lwn.net/Articles/1056593/">published in January</a>,
+is moving forward. The new structure would have three governance
+bodies: a new technical steering committee (TSC), a community and 
+marketing committee (CMC), as well as the existing openSUSE
+board.</p>
+
+<blockquote class="bq">
+<p>The discussions during the meeting proposed that the Technical
+Steering Committee should begin with five members with a chair elected
+by the committee. The group would establish clear processes for
+reviewing and approving technical changes, drawing inspiration from
+Fedora's FESCo model. Decisions for the TSC would use a voting system
+of +1 to approve, 0 for neutral, or -1 to block. A proposal passes
+without objection. A -1 vote would require a dedicated meeting, where
+a majority of attendees would decide the outcome. Objections must
+include a clear, documented rationale.</p>
+
+<p>Discussions related to the Community and Marketing Committee would
+focus on outreach, advocacy, and community growth. It could also serve
+as an initial escalation point for disputes. If consensus cannot be
+reached at that level, matters would advance to the Board.</p>
+
+<p>[...] No timeline for final adoption was announced. Project
+contributors will continue discussions through the GitLab repository
+and future community meetings.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1059511/</guid>
+            <pubDate>Thu, 19 Feb 2026 14:46:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1059500/</link>
@@ -359,61 +397,6 @@ retention, dealing with deletion requests, and more.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gcc-toolset-14-binutils, nodejs:20, nodejs:22, nodejs:24, php:7.4, and python3.12), <b>Debian</b> (haproxy, nginx, postgresql-15, and postgresql-17), <b>Fedora</b> (libssh), <b>Oracle</b> (glib2, libsoup, nodejs:20, nodejs:22, and php:7.4), <b>SUSE</b> (assimp, gnutls, helm, kernel, kubevirt, virt-api-container, virt-controller-container, virt-exportproxy-container, virt-exportserver-container, virt-handler-container, virt-launcher-container, virt-libguestfs-t, libmunge2, libsodium, libsoup, micropython, munge, openCryptoki, python-azure-core, rust-keylime, rustup, sccache, snpguest, tcpreplay, xorg-x11-server, xrdp, and zabbix), and <b>Ubuntu</b> (dnsdist, dotnet8, dotnet9, dotnet10, haproxy, libpng1.6, linux-aws-5.15, linux-azure, linux-azure-fips, linux-oracle, linux-oracle-5.4, munge, nginx, and node-dottie).]]></description>
             <guid>https://lwn.net/Articles/1058642/</guid>
             <pubDate>Fri, 13 Feb 2026 14:06:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1058473/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (brotli, git-lfs, image-builder, kernel, keylime, libsoup3, and pcs), <b>Fedora</b> (chromium, gnutls, osslsigncode, and p11-kit), <b>Mageia</b> (golang, libpng, thunderbird, and xrdp), <b>Red Hat</b> (git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, osbuild-composer, and toolbox), <b>Slackware</b> (gnutls and libpng), <b>SUSE</b> (apptainer, cockpit, cockpit-packages, cockpit-subscriptions, freerdp2, gimp, glib2, go, go1.24, go1.25, gpg2, ImageMagick, java-1_8_0-openjdk, kernel, keylime-config, keylime-ima-policy, lemon, libp11-kit0, libsoup, libsoup-2_4-1, libxml2, libxml2-16, munge, nodejs20, nvidia-modprobe.cuda, nvidia-open-driver-G06-signed, nvidia-persistenced.cuda, openQA, orthanc, gdcm, orthanc-authorization,, python-brotlipy, python-Django, python-maturin, python-pyasn1, python-urllib3, python-wheel, python313-wheel, qemu, rust-keylime, sqlite3, uriparser, wicked2nm, and xrdp), and <b>Ubuntu</b> (libtasn1-6, libwebsockets, libxmltok, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux, linux-raspi, linux, linux-raspi, linux-realtime, linux-aws, linux-aws-6.8, linux-gcp, linux-gcp-6.8, linux-ibm,
- linux-ibm-6.8, linux-lowlatency-hwe-6.8, linux-aws-5.15, linux-gcp-5.15, linux-nvidia-tegra-igx, linux-oracle-5.15,
- linux-xilinx-zynqmp, linux-aws-fips, linux-fips, linux-gcp-fips, linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-intel-iot-realtime, linux-realtime, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-realtime-6.8, linux-xilinx-zynqmp, and python-multipart).]]></description>
-            <guid>https://lwn.net/Articles/1058473/</guid>
-            <pubDate>Thu, 12 Feb 2026 14:10:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A single stable kernel for Thursday</title>
-            <link>https://lwn.net/Articles/1058478/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1058479/">6.12.71</a> stable kernel. He writes,
-"<q>All users of the 6.12 kernel series that had issues with 6.12.69
-or 6.12.70 should upgrade, as some regressions are fixed
-here.</q>"</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1058478/</guid>
-            <pubDate>Thu, 12 Feb 2026 14:17:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Debian DFSG Team announces new dashboard and queue processes</title>
-            <link>https://lwn.net/Articles/1058480/</link>
-            <description><![CDATA[<p>Reinhard Tartler of Debian's <a
-href="https://lwn.net/ml/all/aW40P_28P2ZukDyd%40an3as.eu/">new DFSG,
-Licensing &amp; New Packages Team</a>, or simply "DFSG Team", has <a
-href="https://lwn.net/ml/all/20260212132552.46C7013F903%40x1.int.tauware.de/">announced</a>
-that the team is now operational and is deploying new tooling to
-improve the NEW queue experience for Debian developers and
-maintainers.</p>
-
-<blockquote class="bq">
-<p>Our primary and immediate goal is simple: get the queue down.</p>
-
-<p>We are currently settling in and refining our processes to ensure
-stability and consistency. While our focus right now is on clearing
-the backlog, our long-term vision is to enable all Debian Developers
-to meaningfully contribute to DFSG reviewing activities, distributing
-the workload and knowledge more effectively across the project.</p>
-</blockquote>
-
-<p>The announcement includes information on the new <a
-href="https://dfsg-new-queue.debian.org/dashboard">dashboard for
-packages in the NEW queue</a>, the rationale for the new tooling, and
-an introduction to the members of the team.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1058480/</guid>
-            <pubDate>Thu, 12 Feb 2026 14:30:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
