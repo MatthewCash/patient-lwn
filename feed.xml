@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Feb 2026 15:31:29 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Feb 2026 16:04:57 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Feb 2026 17:09:41 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Feb 2026 17:14:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Seven stable kernels for Thursday</title>
+            <link>https://lwn.net/Articles/1059538/</link>
+            <description><![CDATA[Greg Kroah-Hartman has announced the <a
+href="https://lwn.net/Articles/1059539/">6.19.3</a>, <a
+href="https://lwn.net/Articles/1059540/">6.18.13</a>, <a
+href="https://lwn.net/Articles/1059541/">6.12.74</a>, <a
+href="https://lwn.net/Articles/1059542/">6.6.127</a>, <a
+href="https://lwn.net/Articles/1059543/">6.1.164</a>, <a
+href="https://lwn.net/Articles/1059544/">5.15.201</a>, and <a
+href="https://lwn.net/Articles/1059545/">5.10.251</a> stable kernels. As usual, each
+includes important fixes and users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1059538/</guid>
+            <pubDate>Thu, 19 Feb 2026 16:38:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>openSUSE governance proposal advances</title>
             <link>https://lwn.net/Articles/1059511/</link>
