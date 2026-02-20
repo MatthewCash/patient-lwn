@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Feb 2026 12:27:17 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Feb 2026 13:34:45 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Feb 2026 14:26:56 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Feb 2026 14:27:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1059638/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana), <b>Debian</b> (gegl, inetutils, libvpx, nova, and python-django), <b>Fedora</b> (azure-cli, chromium, microcode_ctl, python-azure-core, python3.14, and roundcubemail), <b>Red Hat</b> (grafana and osbuild-composer), <b>SUSE</b> (apptainer, dnsdist, istioctl, libsoup, openCryptoki, python-nltk, python311, python313, rclone, and thunderbird), and <b>Ubuntu</b> (libvpx, linux-azure, linux-azure-5.4, linux-azure-fips, and linux-intel-iotg).]]></description>
+            <guid>https://lwn.net/Articles/1059638/</guid>
+            <pubDate>Fri, 20 Feb 2026 14:04:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>The Book of Remind</title>
+            <link>https://lwn.net/Articles/1059641/</link>
+            <description><![CDATA[<p>Dianne Skoll, creator and maintainer of the command-line calendar
+and alarm program <a
+href="https://salsa.debian.org/dskoll/remind#remind">Remind</a>, has
+<a
+href="https://mastodon.social/@dfs_comedy/116082518986153849">announced</a>
+the release of <em><a
+href="https://dianne.skoll.ca/projects/remind/download-book.php?file=remind-book-1.0.pdf">The
+Book of Remind</a></em>. As the name suggests, it is a step-by-step
+guide to learning how to use Remind, and a useful supplement to the extensive
+<tt><a href="https://linux.die.net/man/1/remind">remind(1)</a></tt>
+man page. The book is free to download.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1059641/</guid>
+            <pubDate>Fri, 20 Feb 2026 14:26:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernels for Thursday</title>
             <link>https://lwn.net/Articles/1059538/</link>
