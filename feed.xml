@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 21 Feb 2026 16:24:18 +0000</pubDate>
-        <lastBuildDate>Sat, 21 Feb 2026 16:34:39 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 21 Feb 2026 17:02:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -390,19 +390,6 @@ are advised to upgrade.</p>
             <guid>https://lwn.net/Articles/1058989/</guid>
             <pubDate>Mon, 16 Feb 2026 14:06:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Vim 9.2 released</title>
-            <link>https://lwn.net/Articles/1058744/</link>
-            <description><![CDATA[<a href="https://www.vim.org/vim-9.2-released.php">Version 9.2</a> of the
-Vim text editor has been released.  "<q>Vim 9.2 brings significant
-enhancements to the Vim9 scripting language, improved diff mode,
-comprehensive completion features, and platform-specific improvements
-including experimental Wayland support.</q>"  Also included is a new
-interactive tutor mode.]]></description>
-            <guid>https://lwn.net/Articles/1058744/</guid>
-            <pubDate>Sat, 14 Feb 2026 16:29:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
