@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Feb 2026 15:45:22 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Feb 2026 16:03:52 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Feb 2026 17:14:04 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Feb 2026 17:19:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -392,23 +392,6 @@ believed they deserved is the stuff FLOSS legends are made of.</q>"</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, go-toolset:rhel8, and golang), <b>Debian</b> (roundcube), <b>Fedora</b> (gnupg2, libpng, and rsync), <b>Mageia</b> (dcmtk and usbmuxd), <b>Oracle</b> (gcc-toolset-14-binutils, gimp, gnupg2, go-toolset:ol8, golang, kernel, and openssl), <b>Slackware</b> (libssh, lrzip, and mozilla), <b>SUSE</b> (abseil-cpp, chromium, curl, elemental-toolkit, elemental-operator, expat, freerdp, iperf, libnvidia-container, libsoup, libxml2, net-snmp, openCryptoki, openssl-3, patch, protobuf, python-urllib3, python-xmltodict, python311, screen, systemd, and util-linux), and <b>Ubuntu</b> (alsa-lib, gnutls28, and linux-aws, linux-oracle).]]></description>
             <guid>https://lwn.net/Articles/1059176/</guid>
             <pubDate>Tue, 17 Feb 2026 14:02:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Four stable kernels to fix problematic commit</title>
-            <link>https://lwn.net/Articles/1059031/</link>
-            <description><![CDATA[<p>Greg-Kroah Hartman has released the <a
-href="https://lwn.net/Articles/1059034/">6.19.2</a>, <a
-href="https://lwn.net/Articles/1059035/">6.18.12</a>, <a
-href="https://lwn.net/Articles/1059036/">6.12.73</a>, and <a
-href="https://lwn.net/Articles/1059033/">6.6.126</a> stable kernels. These kernels
-each contain a single change; Kroah-Hartman has reverted one
-problematic commit that prevents some systems from booting. "<q>If the
-last stable release worked just fine, no need to upgrade.</q>"</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1059031/</guid>
-            <pubDate>Mon, 16 Feb 2026 16:32:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
