@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Feb 2026 15:02:22 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Feb 2026 15:09:07 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Feb 2026 15:45:22 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Feb 2026 16:03:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The Ladybird browser project shifts to Rust</title>
+            <link>https://lwn.net/Articles/1059812/</link>
+            <description><![CDATA[The Ladybird browser project has <a
+href="https://ladybird.org/posts/adopting-rust/">announced</a> a move to
+the Rust programming language:
+<p>
+<blockquote class="bq">
+	When we originally evaluated Rust back in 2024, we rejected it
+	because it's not great at C++ style OOP. The web platform object
+	model inherits a lot of 1990s OOP flavor, with garbage collection,
+	deep inheritance hierarchies, and so on. Rust's ownership model is
+	not a natural fit for that.
+<p>
+	But after another year of treading water, it's time to make the
+	pragmatic choice. Rust has the ecosystem and the safety guarantees
+	we need. Both Firefox and Chromium have already begun introducing
+	Rust into their codebases, and we think it's the right choice for
+	Ladybird too.
+</blockquote>
+<p>
+Large language models are being used to translate existing code.]]></description>
+            <guid>https://lwn.net/Articles/1059812/</guid>
+            <pubDate>Mon, 23 Feb 2026 15:20:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1059864/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel-rt and openssl), <b>Debian</b> (ca-certificates, chromium, gegl, glib2.0, libvpx, modsecurity-crs, nova, and pillow), <b>Fedora</b> (chromium, mingw-libpng, mupdf, python-pyasn1, python-PyMuPDF, python-uv-build, python3.13, qpdfview, rust-ambient-id, uv, and zathura-pdf-mupdf), <b>Mageia</b> (freerdp, gnutls, and libvpx), <b>Red Hat</b> (butane and grafana-pcp), <b>SUSE</b> (chromedriver, chromium, cockpit-repos, firefox, kernel, libpng16, postgresql16, postgresql17, postgresql18, python, python311-nltk, snpguest, ucode-intel-20260210, vexctl, and xen), and <b>Ubuntu</b> (djvulibre, evolution-data-server, linux-lowlatency, linux-xilinx, and u-boot).]]></description>
+            <guid>https://lwn.net/Articles/1059864/</guid>
+            <pubDate>Mon, 23 Feb 2026 15:30:44 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.0-rc1</title>
             <link>https://lwn.net/Articles/1059773/</link>
