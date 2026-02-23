@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Feb 2026 13:01:44 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Feb 2026 13:04:16 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Feb 2026 14:05:45 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Feb 2026 14:14:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -391,14 +391,6 @@ are advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1058990/</guid>
             <pubDate>Mon, 16 Feb 2026 14:19:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1058989/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, pdns-recursor, python-django, and wireshark), <b>Fedora</b> (gnutls, linux-sgx, mingw-expat, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, p11-kit, python-aiohttp, vim, and xen), <b>Red Hat</b> (kernel, kernel-rt, python-s3transfer, python-urllib3, and resource-agents), <b>SUSE</b> (aaa_base, abseil-cpp, build-20260202, cargo-auditable, cargo-c, chromedriver, cockpit, cockpit-packages, cockpit-subscriptions, curl, elemental-toolkit, elemental-operator, gnome-remote-desktop, go1.24, go1.25, gpg2, haproxy, himmelblau, htmldoc, ImageMagick, iperf, java-1_8_0-openjdk, kernel, krb5, kubevirt, libowncloudsync-devel, libpng16-16, libsodium, libsoup, libsoup2, micropython, net-snmp, opencryptoki, openjfx, openssl1, ovmf, postgresql14, postgresql15, postgresql16, protobuf, python-aiohttp, python-brotli, python-maturin, python-pip, python-urllib3, python310, python311, python-rpm-macros, python311-cryptography, python314, screen, systemd, u-boot, util-linux, and vim), and <b>Ubuntu</b> (dotnet8, dotnet10, expat, freerdp2, freerdp3, and python-aiohttp).]]></description>
-            <guid>https://lwn.net/Articles/1058989/</guid>
-            <pubDate>Mon, 16 Feb 2026 14:06:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
