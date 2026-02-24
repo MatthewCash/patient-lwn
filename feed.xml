@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Feb 2026 05:29:19 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Feb 2026 06:14:45 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Feb 2026 14:10:52 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Feb 2026 14:17:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,14 +427,6 @@ believed they deserved is the stuff FLOSS legends are made of.</q>"</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1059187/</guid>
             <pubDate>Tue, 17 Feb 2026 15:04:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1059176/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, go-toolset:rhel8, and golang), <b>Debian</b> (roundcube), <b>Fedora</b> (gnupg2, libpng, and rsync), <b>Mageia</b> (dcmtk and usbmuxd), <b>Oracle</b> (gcc-toolset-14-binutils, gimp, gnupg2, go-toolset:ol8, golang, kernel, and openssl), <b>Slackware</b> (libssh, lrzip, and mozilla), <b>SUSE</b> (abseil-cpp, chromium, curl, elemental-toolkit, elemental-operator, expat, freerdp, iperf, libnvidia-container, libsoup, libxml2, net-snmp, openCryptoki, openssl-3, patch, protobuf, python-urllib3, python-xmltodict, python311, screen, systemd, and util-linux), and <b>Ubuntu</b> (alsa-lib, gnutls28, and linux-aws, linux-oracle).]]></description>
-            <guid>https://lwn.net/Articles/1059176/</guid>
-            <pubDate>Tue, 17 Feb 2026 14:02:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
