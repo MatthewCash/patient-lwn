@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Feb 2026 14:10:52 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Feb 2026 14:17:50 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Feb 2026 15:26:52 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Feb 2026 15:32:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1060018/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and munge), <b>Debian</b> (openssl), <b>Mageia</b> (gegl), <b>Oracle</b> (firefox, freerdp, gnupg2, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, java-11-openjdk, kernel, libpng15, munge, nodejs:20, nodejs:22, protobuf, and uek-kernel), <b>SUSE</b> (libpng12, libpng16, and openQA, openQA-devel-container, os-autoinst), and <b>Ubuntu</b> (gimp, libssh, and linux-azure).]]></description>
+            <guid>https://lwn.net/Articles/1060018/</guid>
+            <pubDate>Tue, 24 Feb 2026 14:33:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GNU Octave 11.1.0 released</title>
             <link>https://lwn.net/Articles/1059965/</link>
@@ -383,50 +391,6 @@ progress report</a>.
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (ceph, gimp, gnutls28, and libpng1.6), <b>Fedora</b> (freerdp, libpng, libssh, mingw-libpng, mingw-libsoup, mingw-python3, pgadmin4, python-pillow, thunderbird, and vim), <b>Mageia</b> (postgresql15), <b>Red Hat</b> (python-urllib3), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, frr, gpg2, kubernetes, kubernetes-old, libsodium, libsoup-2_4-1, libssh, libtasn1, libxml2, nodejs22, openCryptoki, openssl-3, and python311-pip), and <b>Ubuntu</b> (frr, linux-aws, linux-aws-6.8, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-oracle-6.8, linux-aws-fips, linux-fips, linux-gcp-5.15, linux-kvm, linux-oracle, linux-oracle-5.15, linux-gcp-fips, linux-nvidia, linux-nvidia-tegra-igx, linux-oem-6.17, linux-realtime, linux-raspi-realtime, nova, and pillow).]]></description>
             <guid>https://lwn.net/Articles/1059333/</guid>
             <pubDate>Wed, 18 Feb 2026 14:03:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>An update on upki</title>
-            <link>https://lwn.net/Articles/1059184/</link>
-            <description><![CDATA[<p>In December 2025, Canonical <a
-href="https://lwn.net/Articles/1049663/">announced</a> a plan to
-develop a universal Public Key Infrastructure called <a
-href="https://github.com/rustls/upki">upki</a>. Jon Seager has <a
-href="https://discourse.ubuntu.com/t/an-update-on-upki/77063">published
-an update</a> about the project with instructions on trying it
-out.</p>
-
-<blockquote class="bq">
-In the few weeks since we announced upki, the core revocation engine
-has been established and is now functional, the CRLite mirroring tool
-is working and a production deployment in Canonical's datacentres is
-ongoing. We're now preparing for an alpha release and remain on track
-for an opt-in preview for Ubuntu 26.04 LTS.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1059184/</guid>
-            <pubDate>Tue, 17 Feb 2026 14:44:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Plasma 6.6.0 released</title>
-            <link>https://lwn.net/Articles/1059187/</link>
-            <description><![CDATA[<p><a href="https://kde.org/announcements/plasma/6/6.6.0/">Version
-6.6.0</a> of KDE's Plasma desktop environment has been
-released. Notable additions in this release include the ability to
-create global themes for Plasma, an "extract text" feature in the <a
-href="https://apps.kde.org/spectacle/">Spectacle</a> screenshot
-utility, accessibility improvements, and a new on-screen keyboard. See
-the <a
-href="https://kde.org/announcements/changelogs/plasma/6/6.5.5-6.6.0/">changelog</a>
-for a full list of new features, enhancements, and bug fixes.</p>
-
-<p>The release is dedicated to the memory of Björn Balazs, a KDE
-contributor who passed away in September 2025. "<q>Björn's drive to
-help people achieve the privacy and control over technology that he
-believed they deserved is the stuff FLOSS legends are made of.</q>"</p>
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1059187/</guid>
-            <pubDate>Tue, 17 Feb 2026 15:04:53 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
