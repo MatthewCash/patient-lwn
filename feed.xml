@@ -8,11 +8,67 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Feb 2026 15:26:52 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Feb 2026 15:32:44 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Feb 2026 16:34:25 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Feb 2026 16:46:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 148.0 released</title>
+            <link>https://lwn.net/Articles/1060047/</link>
+            <description><![CDATA[<p><a
+href="https://www.firefox.com/en-US/firefox/148.0/releasenotes/">Version
+148</a> of Firefox has been released. The most notable change in this
+release is the addition of a <a href="https://support.mozilla.org/en-US/kb/firefox-ai-controls">"Block AI enhancements" option</a> that
+allows turning off "<q>new or current AI enhancements in Firefox, or
+pop-ups about them</q>" with a single toggle.</p>
+
+<p>With this release, Firefox now supports the <a
+href="https://developer.mozilla.org/docs/Web/API/Trusted_Types_API">Trusted
+Types API</a> to help prevent cross-site scripting attacks as well as
+the <a
+href="https://developer.mozilla.org/en-US/docs/Web/API/Sanitizer">Sanitizer
+API</a> that provides new methods for HTML manipulation. See the <a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/148">release
+notes for developers</a> for changes that may affect web developers or
+those who create Firefox add-ons.</p>]]></description>
+            <guid>https://lwn.net/Articles/1060047/</guid>
+            <pubDate>Tue, 24 Feb 2026 15:52:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GNU Awk 5.4.0 released</title>
+            <link>https://lwn.net/Articles/1060050/</link>
+            <description><![CDATA[<p><a
+href="https://lists.gnu.org/archive/html/info-gnu/2026-02/msg00011.html">Version
+5.4.0</a> of <a href="https://www.gnu.org/software/gawk/">GNU awk</a>
+(gawk) has been released. This is a major release with a change in
+gawk's default regular-expression matcher: it now uses <a
+href="https://github.com/mikehaertel/minrx?tab=readme-ov-file#minrx-a-minimalist-posix-extended-regular-expression-matcher">MinRX</a>
+as the default regular-expression engine.</p>
+
+<blockquote class="bq">
+<p>This matcher is fully POSIX compliant, which the current GNU matchers
+are not. In particular it follows POSIX rules for finding the longest
+leftmost submatches.  It is also more strict as to regular expression
+syntax, but primarily in a few corner cases that normal, correct,
+regular expression usage should not encounter.</p>
+
+<p>Because regular expression matching is such a fundamental part of
+awk/gawk, the original GNU matchers are still included in gawk.  In order
+to use them, give a value to the GAWK_GNU_MATCHERS environment variable
+before invoking gawk.</p>
+
+<p>[...] The original GNU matchers will eventually be removed from
+gawk.  So, please take the time to notice and report any issues in the
+MinRX matcher, so that they can be ironed out sooner rather than later.</p>
+</blockquote>
+
+<p>See the release announcement for additional changes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1060050/</guid>
+            <pubDate>Tue, 24 Feb 2026 16:22:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1060018/</link>
