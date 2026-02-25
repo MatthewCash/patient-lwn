@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Feb 2026 13:05:59 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Feb 2026 13:27:31 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Feb 2026 14:26:21 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Feb 2026 14:32:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1060185/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana and grafana-pcp), <b>Debian</b> (gnutls28), <b>Fedora</b> (chromium and yt-dlp), <b>Oracle</b> (389-ds-base, kernel, munge, and openssl), <b>Red Hat</b> (buildah, containernetworking-plugins, opentelemetry-collector, podman, runc, and skopeo), <b>Slackware</b> (mozilla), <b>SUSE</b> (chromium, cosign, firefox, freerdp, gimp, heroic-games-launcher, kernel, libopenssl-3-devel, libxml2, libxslt, mosquitto, openqa, os-autoinst, openqa-devel-container, openvswitch, phpunit, postgresql14, postgresql15, postgresql16, protobuf, python310, python311-PyPDF2, python36, snpguest, warewulf4, and weblate), and <b>Ubuntu</b> (curl, kernel, linux, linux-gcp, linux-gke, linux-gkeop, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia-tegra, linux-oracle, linux-xilinx-zynqmp, linux, linux-gkeop, linux-hwe-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-raspi, linux-fips, linux-fips, linux-gcp-fips, linux-gcp, linux-gcp-6.8, linux-gke, linux-oracle-6.8, linux-gcp-fips, linux-ibm, linux-ibm-6.8, linux-intel-iot-realtime, linux-realtime, linux-raspi-realtime, linux-realtime, linux-realtime-6.8, and linux-xilinx).]]></description>
+            <guid>https://lwn.net/Articles/1060185/</guid>
+            <pubDate>Wed, 25 Feb 2026 14:08:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>MetaBrainz mourns the loss of Robert Kaye</title>
+            <link>https://lwn.net/Articles/1060189/</link>
+            <description><![CDATA[<p>The MetaBrainz Foundation has announced the unexpected passing of
+its founder and executive director, Robert Kaye:</p>
+
+<blockquote class="bq">
+<p>Robert's vision and leadership shaped MetaBrainz and left a lasting
+mark on the music industry and open source movement. His contributions
+were significant and his loss is deeply felt across our global
+community.</p>
+
+<p>The Board is actively overseeing a smooth leadership transition and
+has measures in place to ensure that MetaBrainz continues to operate
+without interruption. Further updates will be shared in due
+course.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1060189/</guid>
+            <pubDate>Wed, 25 Feb 2026 14:22:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Restarting LibreOffice Online</title>
             <link>https://lwn.net/Articles/1060087/</link>
@@ -469,14 +500,6 @@ progress report</a>.
             <guid>https://lwn.net/Articles/1059339/</guid>
             <pubDate>Wed, 18 Feb 2026 14:39:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1059333/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ceph, gimp, gnutls28, and libpng1.6), <b>Fedora</b> (freerdp, libpng, libssh, mingw-libpng, mingw-libsoup, mingw-python3, pgadmin4, python-pillow, thunderbird, and vim), <b>Mageia</b> (postgresql15), <b>Red Hat</b> (python-urllib3), <b>SUSE</b> (cdi-apiserver-container, cdi-cloner-container, cdi- controller-container, cdi-importer-container, cdi-operator-container, cdi- uploadproxy-container, cdi-uploadserver-container, cont, frr, gpg2, kubernetes, kubernetes-old, libsodium, libsoup-2_4-1, libssh, libtasn1, libxml2, nodejs22, openCryptoki, openssl-3, and python311-pip), and <b>Ubuntu</b> (frr, linux-aws, linux-aws-6.8, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-oracle-6.8, linux-aws-fips, linux-fips, linux-gcp-5.15, linux-kvm, linux-oracle, linux-oracle-5.15, linux-gcp-fips, linux-nvidia, linux-nvidia-tegra-igx, linux-oem-6.17, linux-realtime, linux-raspi-realtime, nova, and pillow).]]></description>
-            <guid>https://lwn.net/Articles/1059333/</guid>
-            <pubDate>Wed, 18 Feb 2026 14:03:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
