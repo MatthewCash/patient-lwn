@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Feb 2026 12:58:36 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Feb 2026 13:05:28 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Feb 2026 14:11:26 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Feb 2026 14:15:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1060391/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp), <b>Debian</b> (firefox-esr and libstb), <b>Fedora</b> (389-ds-base, chromium, firefox, munge, opentofu, python3-docs, python3.14, and vim), <b>Oracle</b> (buildah, containernetworking-plugins, gimp, grafana, grafana-pcp, kernel, podman, runc, and skopeo), <b>Red Hat</b> (go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, mariadb:10.11, podman, and skopeo), <b>SUSE</b> (cacti, docker-stable, expat, firefox-esr, freerdp, freerdp2, libjxl, libsoup-2_4-1, python-tornado, python-urllib3_1, python3, python311-Django4, python312, python313, python39, and redis), and <b>Ubuntu</b> (ceph, mongodb, protobuf, and rlottie).]]></description>
+            <guid>https://lwn.net/Articles/1060391/</guid>
+            <pubDate>Thu, 26 Feb 2026 14:02:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for February 19, 2026</title>
             <link>https://lwn.net/Articles/1058474/</link>
