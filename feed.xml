@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Feb 2026 14:59:36 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Feb 2026 15:08:47 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Feb 2026 15:53:55 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Feb 2026 16:08:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -436,44 +436,6 @@ includes important fixes and users are advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1059538/</guid>
             <pubDate>Thu, 19 Feb 2026 16:38:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>openSUSE governance proposal advances</title>
-            <link>https://lwn.net/Articles/1059511/</link>
-            <description><![CDATA[<p>Douglas DeMaio has <a
-href="https://news.opensuse.org/2026/02/19/comm-advances-gov-proposal-after-virtual-meeting/">announced</a>
-that Jeff Mahoney's new <a
-href="https://gitlab.com/jeffmahoney/opensuse-docs/-/blob/main/governance-draft.md">governance
-proposal</a> for openSUSE, which was <a
-href="https://lwn.net/Articles/1056593/">published in January</a>,
-is moving forward. The new structure would have three governance
-bodies: a new technical steering committee (TSC), a community and 
-marketing committee (CMC), as well as the existing openSUSE
-board.</p>
-
-<blockquote class="bq">
-<p>The discussions during the meeting proposed that the Technical
-Steering Committee should begin with five members with a chair elected
-by the committee. The group would establish clear processes for
-reviewing and approving technical changes, drawing inspiration from
-Fedora's FESCo model. Decisions for the TSC would use a voting system
-of +1 to approve, 0 for neutral, or -1 to block. A proposal passes
-without objection. A -1 vote would require a dedicated meeting, where
-a majority of attendees would decide the outcome. Objections must
-include a clear, documented rationale.</p>
-
-<p>Discussions related to the Community and Marketing Committee would
-focus on outreach, advocacy, and community growth. It could also serve
-as an initial escalation point for disputes. If consensus cannot be
-reached at that level, matters would advance to the Board.</p>
-
-<p>[...] No timeline for final adoption was announced. Project
-contributors will continue discussions through the GitLab repository
-and future community meetings.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1059511/</guid>
-            <pubDate>Thu, 19 Feb 2026 14:46:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
