@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Feb 2026 14:11:26 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Feb 2026 14:15:56 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Feb 2026 14:59:36 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Feb 2026 15:08:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -474,14 +474,6 @@ and future community meetings.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1059511/</guid>
             <pubDate>Thu, 19 Feb 2026 14:46:31 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1059500/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (edk2, glibc, gnupg2, golang, grafana, nodejs:24, and php), <b>Debian</b> (gimp and kernel), <b>Fedora</b> (fvwm3), <b>Mageia</b> (microcode and vim), <b>Oracle</b> (edk2, glibc, kernel, nodejs:24, and php), <b>Red Hat</b> (python-s3transfer), <b>SUSE</b> (abseil-cpp, avahi, azure-cli-core, fontforge, go1.24, go1.25, golang-github-prometheus-prometheus, libpcap, libsoup2, libxml2-16, mupdf, nodejs22, openCryptoki, openjpeg2, patch, python-aiohttp, python-Brotli, python-pip, python311-asgiref, rust1.93, and traefik), and <b>Ubuntu</b> (inetutils, libssh, linux-gcp, linux-gke, linux-hwe-6.8, linux-lowlatency-hwe-6.8, linux-intel-iotg-5.15, linux-xilinx-zynqmp, linux-lowlatency, linux-nvidia-lowlatency, and trafficserver).]]></description>
-            <guid>https://lwn.net/Articles/1059500/</guid>
-            <pubDate>Thu, 19 Feb 2026 14:11:10 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
