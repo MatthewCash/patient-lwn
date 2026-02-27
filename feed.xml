@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Feb 2026 14:06:17 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Feb 2026 14:09:57 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Feb 2026 14:36:34 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Feb 2026 14:59:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Two new stable kernels, possible regression</title>
+            <link>https://lwn.net/Articles/1060646/</link>
+            <description><![CDATA[Greg Kroah-Hartman has announced the <a
+href="https://lwn.net/Articles/1060647/">6.19.4</a> and <a
+href="https://lwn.net/Articles/1060648/">6.18.14</a> stable kernels. Shortly after
+6.19.4 was released Kris Karas <a
+href="https://lwn.net/ml/all/eb2d1da9-0b4b-4887-83a4-0e2a65e703aa%40moonlit-rail.com/">reported</a> "<q>getting a repeatable Oops right 
+when networking is initialized, likely when nft is loading its
+ruleset</q>"; the problem did not appear to be present in 6.18.14. Users
+of nftables may wish to hold off on upgrades to 6.19.4 for now. We
+will provide updates as they are available.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1060646/</guid>
+            <pubDate>Fri, 27 Feb 2026 14:36:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1060645/</link>
@@ -399,34 +417,6 @@ now: two weeks have passed, and the kernel merge window is closed.</q>"]]></desc
             <guid>https://lwn.net/Articles/1059773/</guid>
             <pubDate>Mon, 23 Feb 2026 00:41:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1059638/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana), <b>Debian</b> (gegl, inetutils, libvpx, nova, and python-django), <b>Fedora</b> (azure-cli, chromium, microcode_ctl, python-azure-core, python3.14, and roundcubemail), <b>Red Hat</b> (grafana and osbuild-composer), <b>SUSE</b> (apptainer, dnsdist, istioctl, libsoup, openCryptoki, python-nltk, python311, python313, rclone, and thunderbird), and <b>Ubuntu</b> (libvpx, linux-azure, linux-azure-5.4, linux-azure-fips, and linux-intel-iotg).]]></description>
-            <guid>https://lwn.net/Articles/1059638/</guid>
-            <pubDate>Fri, 20 Feb 2026 14:04:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The Book of Remind</title>
-            <link>https://lwn.net/Articles/1059641/</link>
-            <description><![CDATA[<p>Dianne Skoll, creator and maintainer of the command-line calendar
-and alarm program <a
-href="https://salsa.debian.org/dskoll/remind#remind">Remind</a>, has
-<a
-href="https://mastodon.social/@dfs_comedy/116082518986153849">announced</a>
-the release of <em><a
-href="https://dianne.skoll.ca/projects/remind/download-book.php?file=remind-book-1.0.pdf">The
-Book of Remind</a></em>. As the name suggests, it is a step-by-step
-guide to learning how to use Remind, and a useful supplement to the extensive
-<tt><a href="https://linux.die.net/man/1/remind">remind(1)</a></tt>
-man page. The book is free to download.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1059641/</guid>
-            <pubDate>Fri, 20 Feb 2026 14:26:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
