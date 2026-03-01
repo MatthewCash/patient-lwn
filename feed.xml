@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 01 Mar 2026 20:34:01 +0000</pubDate>
-        <lastBuildDate>Sun, 1 Mar 2026 20:51:14 +0000</lastBuildDate>
+        <pubDate>Sun, 01 Mar 2026 21:23:03 +0000</pubDate>
+        <lastBuildDate>Sun, 1 Mar 2026 21:23:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>groff 1.24.0 released</title>
+            <link>https://lwn.net/Articles/1060786/</link>
+            <description><![CDATA[Version 1.24.0 of the groff text-formatting system has been released.
+Improvements include the ability to insert hyperlinks between man pages, a
+new <tt>polygon</tt> command for the <tt>pic</tt> preprocessor, various
+PDF-output improvements, and more.]]></description>
+            <guid>https://lwn.net/Articles/1060786/</guid>
+            <pubDate>Sun, 01 Mar 2026 21:15:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Two new stable kernels, possible regression</title>
             <link>https://lwn.net/Articles/1060646/</link>
