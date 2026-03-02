@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 02 Mar 2026 22:27:12 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Mar 2026 22:55:48 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 2 Mar 2026 23:26:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -450,30 +450,6 @@ MinRX matcher, so that they can be ironed out sooner rather than later.</p>
             <guid>https://lwn.net/Articles/1060018/</guid>
             <pubDate>Tue, 24 Feb 2026 14:33:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GNU Octave 11.1.0 released</title>
-            <link>https://lwn.net/Articles/1059965/</link>
-            <description><![CDATA[<a
-href="https://octave.org/news/release/2026/02/20/octave-1.1.0-released.html">Version
-11.1.0</a> of the GNU Octave scientific programming language has been
-released.
-<p>
-<blockquote class="bq">
-	This major release contains many new and improved functions. Among
-	other things, it brings better support for classdef objects and
-	arrays, broadcasting for special matrix types (like sparse,
-	diagonal, or permutation matrices), updates for Matlab
-	compatibility (notably support for the nanflag, vecdim and other
-	parameters for many basic math and statistics functions), and
-	performance improvements in many functions.
-</blockquote>
-<p>
-See <a href="https://octave.org/NEWS-11.html">the release notes</a> for
-details.]]></description>
-            <guid>https://lwn.net/Articles/1059965/</guid>
-            <pubDate>Mon, 23 Feb 2026 22:28:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
