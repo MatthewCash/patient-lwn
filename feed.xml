@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Mar 2026 18:55:16 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Mar 2026 19:12:50 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Mar 2026 19:32:13 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Mar 2026 19:52:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -454,25 +454,6 @@ details.]]></description>
             <guid>https://lwn.net/Articles/1059965/</guid>
             <pubDate>Mon, 23 Feb 2026 22:28:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Vlad: Weston 15.0 is here: Lua shells, Vulkan rendering, and a smoother display stack</title>
-            <link>https://lwn.net/Articles/1059933/</link>
-            <description><![CDATA[Over on the Collabora blog, Marius Vlad has an <a
-href="https://www.collabora.com/news-and-blog/news-and-events/weston-15-here-lua-shells-vulkan-rendering-smoother-display-stack.html">overview
-of Weston 15.0</a>, which was released on February 19.  <a href="https://wayland.pages.freedesktop.org/weston/#">Weston</a> is the
-reference implementation of a <a
-href="https://wayland.freedesktop.org/">Wayland</a> compositor.  The new
-release comes with a new shell that can be programmed using the <a
-href="https://lua.org/">Lua</a> language, a new, experimental Vulkan
-renderer, smoother media playback, color-management additions, and more.
-
-<blockquote class="bq">
-One of Weston's fundamental pillars has always been making the most efficient use of display hardware. Over time, all the work we did to track and offload as much work as possible to this efficient fixed-function hardware has come at the cost of eating CPU time. In the last couple of release cycles, we've focused really hard on improving performance on even the most low-end of devices, so not only do we make the most efficient use of the GPU and display hardware, but we're also really kind on your CPU now. As part of that and to improve our tooling, Weston 15 now comes with support for the <a href="https://perfetto.dev/">Perfetto</a> profiler.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1059933/</guid>
-            <pubDate>Mon, 23 Feb 2026 18:42:06 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
