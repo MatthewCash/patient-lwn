@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 01 Mar 2026 23:36:38 +0000</pubDate>
-        <lastBuildDate>Sun, 1 Mar 2026 23:47:37 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Mar 2026 01:07:10 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Mar 2026 02:04:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.0-rc2</title>
+            <link>https://lwn.net/Articles/1060802/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1060801/">7.0-rc2</a> kernel prepatch is out for
+testing.  According to Linus:
+<p>
+<blockquote class="bq">
+	So I'm not super-happy with how big this is, but I'm hoping it's
+	just the random timing noise we see every once in a while where I
+	just happen to get more pull requests one week, only for the next
+	week to then be quieter.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1060802/</guid>
+            <pubDate>Mon, 02 Mar 2026 01:07:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>groff 1.24.0 released</title>
             <link>https://lwn.net/Articles/1060786/</link>
