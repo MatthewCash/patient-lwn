@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Mar 2026 19:32:13 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Mar 2026 19:52:13 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Mar 2026 20:38:11 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Mar 2026 20:38:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Høiland-Jørgensen: The inner workings of TCP zero-copy</title>
+            <link>https://lwn.net/Articles/1060953/</link>
+            <description><![CDATA[Toke Høiland-Jørgensen has posted <a
+href="https://blog.tohojo.dk/2026/02/the-inner-workings-of-tcp-zero-copy.html">an
+overview of how zero-copy networking works</a> in the Linux kernel.
+<p>
+<blockquote class="bq">
+	Since the memory is being copied directly from userspace to the
+	network device, the userspace application has to keep it around
+	unmodified, until it has finished sending. The <tt>sendmsg()</tt>
+	syscall itself is asynchronous, and will return without waiting for
+	this. Instead, once the memory buffers are no longer needed by the
+	stack, the kernel will return a notification to userspace that the
+	buffers can be reused.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1060953/</guid>
+            <pubDate>Mon, 02 Mar 2026 20:12:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Texinfo 7.3 released</title>
             <link>https://lwn.net/Articles/1060950/</link>
