@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Mar 2026 14:42:08 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Mar 2026 14:57:43 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Mar 2026 15:34:16 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Mar 2026 15:49:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,14 +473,6 @@ MinRX matcher, so that they can be ironed out sooner rather than later.</p>
 <p>See the release announcement for additional changes.</p>]]></description>
             <guid>https://lwn.net/Articles/1060050/</guid>
             <pubDate>Tue, 24 Feb 2026 16:22:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1060018/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and munge), <b>Debian</b> (openssl), <b>Mageia</b> (gegl), <b>Oracle</b> (firefox, freerdp, gnupg2, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, java-11-openjdk, kernel, libpng15, munge, nodejs:20, nodejs:22, protobuf, and uek-kernel), <b>SUSE</b> (libpng12, libpng16, and openQA, openQA-devel-container, os-autoinst), and <b>Ubuntu</b> (gimp, libssh, and linux-azure).]]></description>
-            <guid>https://lwn.net/Articles/1060018/</guid>
-            <pubDate>Tue, 24 Feb 2026 14:33:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
