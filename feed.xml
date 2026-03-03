@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 03 Mar 2026 23:12:05 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Mar 2026 23:28:29 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 3 Mar 2026 23:52:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -417,35 +417,6 @@ course.</p>
             <guid>https://lwn.net/Articles/1060189/</guid>
             <pubDate>Wed, 25 Feb 2026 14:22:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Restarting LibreOffice Online</title>
-            <link>https://lwn.net/Articles/1060087/</link>
-            <description><![CDATA[LibreOffice online is a web-based version of the LibreOffice suite that can
-be hosted on anybody's infrastructure.  This project was <a
-href="https://lwn.net/Articles/882460/">put into stasis</a> back in 2022, a move marked by
-some tension with Collabora, a major LibreOffice developer that has <a
-href="https://www.collaboraonline.com/">its own online offering</a>.  Now,
-the Document Foundation has <a
-href="https://blog.documentfoundation.org/blog/2026/02/24/libreoffice-online-a-fresh-start/">announced</a>
-a new effort to breathe life into this project.
-<p>
-<blockquote class="bq">
-	We plan to reopen the repository for LibreOffice Online at The
-	Document Foundation for contributions, but provide warnings about
-	the state of the repository until TDF's team agrees that it's safe
-	and usable – while at the same time encourage the community to join
-	in with code, technologies and other contributions that can be used
-	to move forward.
-</blockquote>
-<p>
-Meanwhile, <a
-href="https://community.documentfoundation.org/t/vote-revoke-votes-related-to-libreoffice-online-atticiziation-and-freezing-of-repository/13495/17">this
-post from Michael Meeks</a> suggests that the tension around online
-versions of LibreOffice has not abated.]]></description>
-            <guid>https://lwn.net/Articles/1060087/</guid>
-            <pubDate>Tue, 24 Feb 2026 23:20:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
