@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Mar 2026 19:06:38 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Mar 2026 19:51:46 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Mar 2026 20:15:32 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Mar 2026 20:32:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -398,18 +398,6 @@ Since then, though, other problems have arisen, and the planned merging of
 this series into the 7.0 release has been called off.]]></description>
             <guid>https://lwn.net/Articles/1058041/</guid>
             <pubDate>Thu, 12 Feb 2026 15:35:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Support period lengthened for the 6.6, 6.12, and 6.18 kernels</title>
-            <link>https://lwn.net/Articles/1060271/</link>
-            <description><![CDATA[The stated support periods for the 6.6, 6.12, and 6.18 kernels has been <a
-href="https://git.kernel.org/pub/scm/docs/kernel/website.git/commit/?id=d04587da86a3464881e0c97aabddd2c271105698">extended</a>.
-The 6.6 kernel will be supported with stable updates through the end of
-2027 (for four years of support total), while 6.12 and 6.18 will get
-updates through the end of 2028, for four and three years of support.]]></description>
-            <guid>https://lwn.net/Articles/1060271/</guid>
-            <pubDate>Wed, 25 Feb 2026 19:43:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
