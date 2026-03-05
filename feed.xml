@@ -8,11 +8,162 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Mar 2026 23:38:39 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Mar 2026 23:59:57 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Mar 2026 01:58:07 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Mar 2026 02:42:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for February 26, 2026</title>
+            <link>https://lwn.net/Articles/1059501/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1059501/">Front</a>: New flags for clone3(); Discord replacements; virtual swap spaces; BPF memory protection keys; PostgreSQL's lessons in attracting contributors; 7.0 merge window; Network Time Security.
+            <li> <a href="https://lwn.net/Articles/1059503/">Briefs</a>: OpenSUSE governance; Firefox 148.0; GNU Awk 5.4.0; GNU Octave 11.1.0; Rust in Ladybird; LibreOffice Online; Weston 15.0; RIP Robert Kaye; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1059504/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1059501/</guid>
+            <pubDate>Thu, 26 Feb 2026 00:20:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] No hardware memory isolation for BPF programs</title>
+            <link>https://lwn.net/Articles/1059218/</link>
+            <description><![CDATA[<p>
+On February&#160;12, Yeoreum Yun posted a
+<a href="https://lwn.net/ml/all/aY3+Raf8eZqipCd6@e129823.arm.com/">suggestion</a>
+for an improvement to the security of the kernel's BPF implementation: use
+<a href="https://lwn.net/Articles/643797/">
+memory protection keys</a> to prevent unauthorized access to memory by BPF
+programs.
+Yun wanted to put the topic on the list for discussion at the Linux
+Storage, Filesystem, Memory Management, and BPF Summit in May, but the
+lack of engagement makes that unlikely. They also have a patch set implementing
+some of the proposed changes, but has not yet shared that with the mailing list.
+Yun's proposal does not seem likely to be accepted in its
+current form, but the kernel has
+<a href="https://lwn.net/Articles/517475/">
+added hardware-based hardening options</a> in the
+past, sometimes after substantial discussion.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1059218/</guid>
+            <pubDate>Wed, 25 Feb 2026 15:27:45 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] An effort to secure the Network Time Protocol</title>
+            <link>https://lwn.net/Articles/1059200/</link>
+            <description><![CDATA[<p>The <a href="https://www.rfc-editor.org/rfc/rfc5905">Network Time
+Protocol</a> (NTP) debuted in 1985; it is a universally used, open
+specification that is deeply important for all sorts of activities we
+take for granted. It also, despite a number of efforts, remains
+stubbornly unsecured. Ruben Nijveld presented work at FOSDEM 2026 to
+speed adoption of the thus-far largely ignored standard for securing
+NTP traffic: IETF's RFC-8915 that specifies <a
+href="https://datatracker.ietf.org/doc/html/rfc8915">Network Time
+Security</a> (NTS) for NTP.</p>]]></description>
+            <guid>https://lwn.net/Articles/1059200/</guid>
+            <pubDate>Wed, 25 Feb 2026 14:26:21 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] As ye clone(), so shall ye AUTOREAP</title>
+            <link>https://lwn.net/Articles/1059673/</link>
+            <description><![CDATA[The facilities provided by the kernel for the management of processes have
+evolved considerably in the last few years, driven mostly by the advent of
+the <a href="https://lwn.net/Kernel/Index/#pidfd">pidfd API</a>.  A pidfd is a file
+descriptor that refers to a process; unlike a process ID, a pidfd is an
+unambiguous handle for a process; that makes it a safer, more deterministic
+way of operating on processes.  Christian Brauner, who has driven much of
+the pidfd-related work, is <a
+href="https://lwn.net/ml/all/20260223-work-pidfs-autoreap-v4-0-e393c08c09d1@kernel.org">proposing
+two new flags</a> for the <a
+href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone3()</tt></a>
+system call, one of which changes the kernel's security model in a
+somewhat controversial way.]]></description>
+            <guid>https://lwn.net/Articles/1059673/</guid>
+            <pubDate>Tue, 24 Feb 2026 15:26:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The second half of the 7.0 merge window</title>
+            <link>https://lwn.net/Articles/1058664/</link>
+            <description><![CDATA[<p>
+The 7.0 merge window
+<a href="https://lwn.net/ml/all/CAHk-%3DwiiRA_XxoF96Q_1n4BadBGJLRkHarHG92u3aTc%2B1ZMeGQ%40mail.gmail.com/">
+closed</a> on February 22 with 11,588 non-merge commits total,
+3,893 of which came in after
+<a href="https://lwn.net/Articles/1057769/">the article covering the first half of the merge
+window</a>. The changes in the second half were weighted toward bug fixes over
+new features, which is usual. There were still a handful of surprises, however, including
+89 separate tiny code-cleanup changes from different people for the rtl8723bs
+driver, a number that
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a5f22b9b1397">surprised</a>
+Greg Kroah-Hartman. It's unusual for a WiFi-chip driver to receive that much
+attention, especially a staging driver that is not yet ready for general use.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1058664/</guid>
+            <pubDate>Mon, 23 Feb 2026 19:36:49 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Lessons on attracting new contributors from 30 years of PostgreSQL</title>
+            <link>https://lwn.net/Articles/1058831/</link>
+            <description><![CDATA[<p>The <a href="https://www.postgresql.org/">PostgreSQL</a> project has been
+chugging along for decades; in that time, it has become a thriving open-source
+project, and its participants have learned a thing or two about what works in
+attracting new contributors. At FOSDEM&#160;2026, PostgreSQL contributor Claire
+Giordano shared some of the lessons learned and where the project is still
+struggling. The lessons might be of interest to others who are thinking about
+how their own projects can evolve.</p>]]></description>
+            <guid>https://lwn.net/Articles/1058831/</guid>
+            <pubDate>Mon, 23 Feb 2026 15:00:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Open-source Discord alternatives</title>
+            <link>https://lwn.net/Articles/1058319/</link>
+            <description><![CDATA[<p>
+The closed-source chat platform Discord
+<a href="https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally">
+announced</a> on February&#160;9 that it would soon require some users to verify their
+ages in order to access some content — although the company quickly
+<a href="https://discord.com/press-releases/discord-launches-teen-by-default-settings-globally#age-assurance-clarification">
+added</a> that
+the "<q>vast majority</q>" of users would not have to. That reassurance has to
+contend with the fact that the UK and other countries are implementing
+increasingly strict age requirements for social media. Discord's age
+verification would be done with an AI age-judging
+model or with a government photo ID. A surprising number of open-source
+projects use Discord for support or project communications, and some of those
+projects are now looking for open-source alternatives. Mastodon, for example,
+<a href="https://mastodon.social/@Gargron/116041405748460511">
+has moved discussion to Zulip</a>. There are some alternatives out there, all
+with their own pros and cons, that communities may want to consider if they want
+to switch away from Discord.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1058319/</guid>
+            <pubDate>Fri, 20 Feb 2026 14:32:51 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Modernizing swapping: virtual swap spaces</title>
+            <link>https://lwn.net/Articles/1059201/</link>
+            <description><![CDATA[The kernel's unloved but performance-critical swapping subsystem has been
+undergoing multiple rounds of improvement in recent times.  Recent articles
+have described <a href="https://lwn.net/Articles/1056405/">the addition of the swap
+table</a> as a new way of representing the state of the swap cache, and <a
+href="https://lwn.net/Articles/1057102/">the removal of the swap map</a> as the way of
+tracking swap space.  Work in this area is not done, though; <a
+href="https://lwn.net/ml/all/20260208215839.87595-1-nphamcs@gmail.com">this series from
+Nhat Pham</a> addresses a number of swap-related problems by replacing the
+new swap table structures with a single, virtual swap space.]]></description>
+            <guid>https://lwn.net/Articles/1059201/</guid>
+            <pubDate>Thu, 19 Feb 2026 15:20:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1061295/</link>
@@ -251,154 +402,6 @@ will provide updates as they are available.</p>
             <guid>https://lwn.net/Articles/1060391/</guid>
             <pubDate>Thu, 26 Feb 2026 14:02:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for February 19, 2026</title>
-            <link>https://lwn.net/Articles/1058474/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1058474/">Front</a>: AI agent goes rogue; debuginfo; iocane; revocable resource-management patches; 7.0 merge window; AccECN; LLMs and security; Humanitarian OpenStreetMap Team.
-            <li> <a href="https://lwn.net/Articles/1058476/">Briefs</a>: upki; Asahi Linux progress; DFSG processes; Fedora in Syria; Plasma 6.6.0; Vim 9.2; ...
-            <li> <a href="https://lwn.net/Articles/1058477/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1058474/</guid>
-            <pubDate>Thu, 19 Feb 2026 00:09:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] More accurate congestion notification for TCP</title>
-            <link>https://lwn.net/Articles/1058666/</link>
-            <description><![CDATA[The "More Accurate Explicit Congestion Notification" (AccECN) mechanism is
-defined by <a
-href="https://datatracker.ietf.org/doc/draft-ietf-tcpm-accurate-ecn/">this
-RFC draft</a>.  The Linux kernel has been gaining support for AccECN with
-TCP over the last few releases; the 7.0 release will enable it by default
-for general use.  AccECN is a subtle change to how TCP works, but it has
-the potential to improve how traffic flows over both public and private
-networks.]]></description>
-            <guid>https://lwn.net/Articles/1058666/</guid>
-            <pubDate>Wed, 18 Feb 2026 15:38:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Do androids dream of accepted pull requests?</title>
-            <link>https://lwn.net/Articles/1058643/</link>
-            <description><![CDATA[<p>Various forms of tools, colloquially known as "AI", have been
-rapidly pervading all aspects of open-source development. Many
-developers are embracing LLM tools for code creation and review. Some 
-project maintainers complain about suffering from a deluge of slop-laden pull
-requests, as well as <a
-href="https://lwn.net/Articles/1058266/">fabricated bug and security
-reports</a>. Too many projects are reeling from <a
-href="https://lwn.net/Articles/1008897/">scraperbot attacks</a> that
-effectively DDoS important infrastructure. But an AI bot flaming an
-open-source maintainer was not on our bingo card for 2026; that seemed
-a bit too far-fetched. However, it appears that is just what happened
-recently after a project rejected a bot-driven pull request.</p>]]></description>
-            <guid>https://lwn.net/Articles/1058643/</guid>
-            <pubDate>Tue, 17 Feb 2026 15:22:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Open source security in spite of AI</title>
-            <link>https://lwn.net/Articles/1058266/</link>
-            <description><![CDATA[<p>The <a href="https://curl.se/">curl</a> project has found AI-powered tools to be a mixed bag when
-it comes to security reports. At <a
-href="https://fosdem.org/2026/">FOSDEM&#160;2026</a>, curl creator and
-lead developer Daniel Stenberg used his keynote session to discuss his
-experience receiving a slew of low-quality reports and, at the same
-time, realizing that large language model (LLM) tools can sometimes
-find flaws that other tools have missed.</p>]]></description>
-            <guid>https://lwn.net/Articles/1058266/</guid>
-            <pubDate>Mon, 16 Feb 2026 19:13:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Compact formats for debugging—and more</title>
-            <link>https://lwn.net/Articles/1057295/</link>
-            <description><![CDATA[At the 2025 Linux Plumbers Conference in Tokyo, Stephen Brennan gave a
-presentation on the <a
-href="https://developers.redhat.com/articles/2022/01/10/gdb-developers-gnu-debugger-tutorial-part-2-all-about-debuginfo">debuginfo
-format</a>, which contains the symbols and other information needed for
-debugging, along with some alternatives. Debuginfo files are large and, he
-believes, are a bit scary to customers because of the "debug" in their name.
-By rethinking debuginfo and the tools that use it, he hopes that
-free-software developers "<q>can add new, interesting capabilities to tools
-that we are already using or build new interesting tools</q>".]]></description>
-            <guid>https://lwn.net/Articles/1057295/</guid>
-            <pubDate>Mon, 16 Feb 2026 14:32:33 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Open-source mapping for disaster response</title>
-            <link>https://lwn.net/Articles/1057691/</link>
-            <description><![CDATA[<p>At <a href="https://fosdem.org/2026/">FOSDEM 2026</a> Petya
-Kangalova, a senior tech partnership and engagement manager for the <a
-href="https://www.hotosm.org/">Humanitarian OpenStreetMap
-Team</a> (HOT) spoke about how
-the project helps people map their surroundings to assist in
-disaster response and humanitarian aid. The project has
-developed a stack of technology to help volunteers collectively map an
-area and add in local knowledge metadata. "<q>One of the core things
-that we believe is that when we speak about disaster response or
-people having access to data is that they really need accessible
-technology that's free and open for anyone to use</q>."</p>]]></description>
-            <guid>https://lwn.net/Articles/1057691/</guid>
-            <pubDate>Fri, 13 Feb 2026 15:17:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The first half of the 7.0 merge window</title>
-            <link>https://lwn.net/Articles/1057769/</link>
-            <description><![CDATA[<p>
-The merge window for Linux 7.0 has opened, and with it
-comes a number of interesting improvements and enhancements. At the time of
-writing, there have been 7,695 non-merge commits accepted. The 7.0 release is
-not special,
-<a href="http://www.kroah.com/log/blog/2025/12/09/linux-kernel-version-numbers/">
-according to the kernel's versioning scheme</a> — just the release
-that comes after 6.19. Humans love symbolism and round numbers, though, so it
-may feel like something of a milestone.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1057769/</guid>
-            <pubDate>Fri, 13 Feb 2026 15:32:24 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Poisoning scraperbots with iocaine</title>
-            <link>https://lwn.net/Articles/1056953/</link>
-            <description><![CDATA[<p>
-Web sites are being increasingly beset by AI scraperbots — a problem that we have
-<a href="https://lwn.net/Articles/1008897/">written about before</a>, and which has slowly
-ramped up to an occasional de-facto DDoS attack. This has not gone
-uncontested, however: web site operators from around the world have been working on
-inventive countermeasures. These solutions target the problem posed by scraperbots in different ways;
-<a href="https://iocaine.madhouse-project.org/">
-iocaine</a>, a MIT-licensed nonsense generator, is designed
-to make scraped text less useful by poisoning it with fake data. The hope is to
-make running scraperbots not economically viable, and thereby address the
-problem at its root instead of playing an eternal game of Whac-A-Mole.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1056953/</guid>
-            <pubDate>Thu, 12 Feb 2026 16:55:04 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The reverting of revocable</title>
-            <link>https://lwn.net/Articles/1058041/</link>
-            <description><![CDATA[Transient devices pose a special challenge for an operating-system kernel.
-They can disappear at any time, leaving behind kernel data structures that
-no longer refer to an existing device, but which may still be in use by
-unknown kernel code.  Managing the resulting lifecycle issues has
-frustrated kernel developers for years.  In September 2025, the <a
-href="https://lwn.net/Articles/1038523/">revocable resource-management patch series</a>
-from Tzung-Bi Shih appeared to offer a partial solution to this problem.
-Since then, though, other problems have arisen, and the planned merging of
-this series into the 7.0 release has been called off.]]></description>
-            <guid>https://lwn.net/Articles/1058041/</guid>
-            <pubDate>Thu, 12 Feb 2026 15:35:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
