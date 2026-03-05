@@ -8,11 +8,70 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Mar 2026 18:05:03 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Mar 2026 18:22:25 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Mar 2026 19:43:09 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Mar 2026 19:43:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Buildroot 2026.02 released</title>
+            <link>https://lwn.net/Articles/1061543/</link>
+            <description><![CDATA[<p>Peter Korsgaard has <a
+href="https://lore.kernel.org/buildroot/87ecm0huqz.fsf@dell.be.48ers.dk/T/#u">
+announced version 2026.02</a> of <a
+href="https://buildroot.net/">Buildroot</a>, a tool for generating
+embedded Linux systems through cross-compilation. Notable changes
+include added support for HPPA, use of the 6.19.x kernel headers by
+default, better SBOM generation, and more.</p>
+
+<blockquote class="bq">
+Again a very active cycle with more than 1500 changes from 97 unique
+contributors. I'm once again very happy to see so many "new" people next
+to the "oldtimers".
+</blockquote>
+
+<p>See the <a
+href="https://gitlab.com/buildroot.org/buildroot/-/blob/2026.02/CHANGES">changelog</a>
+for full details. Thanks to Julien Olivain for pointing us to the announcement.</p>]]></description>
+            <guid>https://lwn.net/Articles/1061543/</guid>
+            <pubDate>Thu, 05 Mar 2026 18:33:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>A GitHub Issue Title Compromised 4,000 Developer Machines (grith.ai)</title>
+            <link>https://lwn.net/Articles/1061548/</link>
+            <description><![CDATA[The grith.ai blog <a
+href="https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another">reports</a>
+on an LLM prompt-injection vulnerability that led to 4,000 installations of
+a compromised version of the Cline utility.
+<p>
+<blockquote class="bq">
+	For the next eight hours, every developer who installed or updated
+	Cline got OpenClaw - a separate AI agent with full system access -
+	installed globally on their machine without consent. Approximately
+	4,000 downloads occurred before the package was pulled.
+<p>
+	The interesting part is not the payload. It is how the attacker got
+	the npm token in the first place: by injecting a prompt into a
+	GitHub issue title, which an AI triage bot read, interpreted as an
+	instruction, and executed.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1061548/</guid>
+            <pubDate>Thu, 05 Mar 2026 19:21:21 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Rust 1.94.0 released</title>
+            <link>https://lwn.net/Articles/1061550/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/03/05/Rust-1.94.0/">Version
+1.94.0</a> of the Rust language has been released.  Changes include <a
+href="https://doc.rust-lang.org/stable/std/primitive.slice.html#method.array_windows">array
+windows</a> (an iterator for slices), some Cargo enhancements, and a number
+of newly stabilized APIs.]]></description>
+            <guid>https://lwn.net/Articles/1061550/</guid>
+            <pubDate>Thu, 05 Mar 2026 19:43:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>New stable kernels to address build failures</title>
             <link>https://lwn.net/Articles/1061524/</link>
