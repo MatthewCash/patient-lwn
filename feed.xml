@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Mar 2026 15:01:20 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Mar 2026 15:06:30 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Mar 2026 16:01:32 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Mar 2026 16:04:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>New stable kernels to address build failures</title>
+            <link>https://lwn.net/Articles/1061524/</link>
+            <description><![CDATA[<p>Sasha Levin has announced the release of the <a
+href="https://lwn.net/Articles/1061525/">6.12.76</a>, <a
+href="https://lwn.net/Articles/1061526/">6.6.129</a>, and <a
+href="https://lwn.net/Articles/1061527/">6.1.166</a> stable kernels. These releases
+address a regression <a
+href="https://lwn.net/ml/all/0be301c0-f9be-4d70-9fdb-7a260ccf83ac%40googlemail.com/">reported</a>
+by Peter Schneider; Levin said that an upgrade is only necessary for
+those who have observed a build failure with the 6.12.75, 6.6.128, or
+6.1.165 kernels.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1061524/</guid>
+            <pubDate>Thu, 05 Mar 2026 16:01:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1061464/</link>
