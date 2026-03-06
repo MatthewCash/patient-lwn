@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Mar 2026 14:57:50 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Mar 2026 14:58:18 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Mar 2026 15:38:42 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Mar 2026 15:41:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,24 +473,6 @@ PDF-output improvements, and more.]]></description>
             <guid>https://lwn.net/Articles/1060786/</guid>
             <pubDate>Sun, 01 Mar 2026 21:15:09 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Two new stable kernels, possible regression</title>
-            <link>https://lwn.net/Articles/1060646/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the <a
-href="https://lwn.net/Articles/1060647/">6.19.4</a> and <a
-href="https://lwn.net/Articles/1060648/">6.18.14</a> stable kernels. Shortly after
-6.19.4 was released Kris Karas <a
-href="https://lwn.net/ml/all/eb2d1da9-0b4b-4887-83a4-0e2a65e703aa%40moonlit-rail.com/">reported</a> "<q>getting a repeatable Oops right 
-when networking is initialized, likely when nft is loading its
-ruleset</q>"; the problem did not appear to be present in 6.18.14. Users
-of nftables may wish to hold off on upgrades to 6.19.4 for now. We
-will provide updates as they are available.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1060646/</guid>
-            <pubDate>Fri, 27 Feb 2026 14:36:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
