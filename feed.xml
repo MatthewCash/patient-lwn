@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Mar 2026 14:01:31 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Mar 2026 14:13:56 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Mar 2026 14:55:51 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Mar 2026 15:13:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -461,70 +461,6 @@ It contains a number of new features, performance improvements, and enhancements
             <guid>https://lwn.net/Articles/1060950/</guid>
             <pubDate>Mon, 02 Mar 2026 18:47:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1060911/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (lxd, orthanc, and thunderbird), <b>Fedora</b> (cef, chromium, gimp, nextcloud, pgadmin4, python-django4.2, python-django5, python3-docs, python3.12, python3.13, and python3.9), <b>Oracle</b> (container-tools:rhel8 and mingw-fontconfig), <b>Slackware</b> (gvfs, mozilla, and telnet), <b>SUSE</b> (avahi, cockpit-356, cockpit-podman, cockpit-podman-120, containerized-data-importer, digger-cli, docker, evolution-data-server, expat, firefox, freerdp2, gimp, glib2, glibc, go1, google-guest-agent, google-osconfig-agent, gosec, gpg2, heroic-games-launcher, ImageMagick, kernel, kernel-firmware, kubevirt, libIex-3_4-33, libjxl-devel, libpng16, libsodium, libsoup, libsoup2, libssh, libudisks2-0, libwireshark19, protobuf, python-pyasn1, python-urllib3, python311, python311-Flask, rust-keylime, thunderbird, ucode-intel, and valkey), and <b>Ubuntu</b> (git).]]></description>
-            <guid>https://lwn.net/Articles/1060911/</guid>
-            <pubDate>Mon, 02 Mar 2026 14:07:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Gram 1.0 released</title>
-            <link>https://lwn.net/Articles/1060912/</link>
-            <description><![CDATA[<p><a href="https://gram.liten.app/posts/first-release/">Version
-1.0</a> of Gram, an "<q>opinionated fork of the Zed code editor</q>",
-has been released. Gram removes telemetry, AI features, collaboration
-features, and more. It adds built-in documentation, support for
-additional languages, and tab-completion features similar to the <a
-href="https://github.com/ervandew/supertab/tree/main?tab=readme-ov-file#overview">Supertab</a>
-plugin for Vim. The <a
-href="https://gram.liten.app/docs/mission/">mission statement</a> for
-the project explains:</p>
-
-<blockquote class="bq">
-<p>At first, I tried to build some other efforts I found online to
-make Zed work without the AI features just so I could check it out,
-but didn't manage to get them to work. At some point, the curiosity
-turned into spite. I became determined to not only get the editor to
-run without all of the misfeatures, but to make it a full-blown fork
-of the project. Independent of corporate control, in the spirit of Vim
-and the late Bram Moolenaar who could have added subscription fees and
-abusive license agreements had he so wanted, but instead gave his work
-as a gift to the world and asked only for donations to a good cause
-close to his heart in return.</p>
-
-<p>This is the result. Feel free to build it and see if it works for
-you. There is no license agreement or subscription beyond the open
-source license of the code (GPLv3). It is yours now, to do with as you
-please.</p>
-</blockquote>
-
-<p>According to a <a
-href="https://gram.liten.app/posts/go-slow-and-fix-things/">blog
-post</a> on the site, the plan for the editor is to diverge from Zed
-and proceed slowly.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1060912/</guid>
-            <pubDate>Mon, 02 Mar 2026 14:58:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Motorola announces a partnership with the GrapheneOS Foundation</title>
-            <link>https://lwn.net/Articles/1060913/</link>
-            <description><![CDATA[Motorola has <a
-href="https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/">announced</a>
-that it will be working with the GrapheneOS Foundation, a producer of a
-security-enhanced Android distribution.  "<q>Together, Motorola and the
-GrapheneOS Foundation will work to strengthen smartphone security and
-collaborate on future devices engineered with GrapheneOS
-compatibility.</q>".  LWN <a href="https://lwn.net/Articles/1030004/">looked at
-GrapheneOS</a> last July.]]></description>
-            <guid>https://lwn.net/Articles/1060913/</guid>
-            <pubDate>Mon, 02 Mar 2026 14:58:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
