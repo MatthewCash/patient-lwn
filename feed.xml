@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Mar 2026 16:10:21 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Mar 2026 16:15:17 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Mar 2026 16:56:26 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Mar 2026 17:10:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,34 +380,6 @@ advised to upgrade.</p>]]></description>
             <guid>https://lwn.net/Articles/1061209/</guid>
             <pubDate>Wed, 04 Mar 2026 14:15:13 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>CBP Tapped Into the Online Advertising Ecosystem To Track Peoples’ Movements
-(404 Media)</title>
-            <link>https://lwn.net/Articles/1061085/</link>
-            <description><![CDATA[<a
-href="https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/">This
-404 Media article</a> looks at how the US Customs and Border Protection
-agency (CBP) is using location data from phones to track the location of
-people of interest.
-<p>
-<blockquote class="bq">
-	Specifically, CBP says the data was in part sourced via real-time
-	bidding, or RTB. Whenever an advertisement is displayed inside an
-	app, a near instantaneous bidding process happens with companies
-	vying to have their advert served to a certain demographic. A side
-	effect of this is that surveillance firms, or rogue advertising
-	companies working on their behalf, can observe this process and
-	siphon information about mobile phones, including their
-	location. All of this is essentially invisible to an ordinary phone
-	user, but happens constantly.
-</blockquote>
-<p>
-We should note that the minimal advertising shown on LWN is not delivered
-via this bidding system.]]></description>
-            <guid>https://lwn.net/Articles/1061085/</guid>
-            <pubDate>Tue, 03 Mar 2026 16:35:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
