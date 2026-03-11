@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Mar 2026 14:06:01 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Mar 2026 14:10:22 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Mar 2026 14:47:34 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Mar 2026 15:06:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -389,31 +389,6 @@ new swap table structures with a single, virtual swap space.]]></description>
             <guid>https://lwn.net/Articles/1059201/</guid>
             <pubDate>Thu, 19 Feb 2026 15:20:28 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1061295/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, firefox, go-rpm-macros, kernel, kernel-rt, mingw-fontconfig, nginx:1.24, thunderbird, and valkey), <b>Debian</b> (gimp), <b>Fedora</b> (apt, avr-binutils, keylime, keylime-agent-rust, perl-Crypt-URandom, python-apt, and rsync), <b>Red Hat</b> (go-rpm-macros and yggdrasil-worker-package-manager), <b>Slackware</b> (python3), <b>SUSE</b> (busybox, cosign, cups, docker, evolution-data-server, freerdp, glibc, gnome-remote-desktop, go1.24-openssl, go1.25-openssl, govulncheck-vulndb, libpng16, libsoup, libssh, libxml2, patch, postgresql14, postgresql15, postgresql16, postgresql17, postgresql18, python, python311, rust-keylime, smc-tools, tracker-miners, and zlib), and <b>Ubuntu</b> (curl, imagemagick, intel-microcode, linux, linux-aws, linux-kvm, linux-aws, linux-aws-5.15, linux-gcp-5.15, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle-5.15, linux-aws-fips, and linux-raspi, linux-raspi-5.4).]]></description>
-            <guid>https://lwn.net/Articles/1061295/</guid>
-            <pubDate>Wed, 04 Mar 2026 14:15:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable Linux kernels</title>
-            <link>https://lwn.net/Articles/1061209/</link>
-            <description><![CDATA[<p>Sasha Levin has announced the release of the <a
-href="https://lwn.net/Articles/1061210/">6.19.6</a>, <a
-href="https://lwn.net/Articles/1061211/">6.18.16</a>, <a
-href="https://lwn.net/Articles/1061212/">6.12.75</a>, <a
-href="https://lwn.net/Articles/1061213/">6.6.128</a>, <a
-href="https://lwn.net/Articles/1061214/">6.1.165</a>, <a
-href="https://lwn.net/Articles/1061215/">5.15.202</a>, and <a
-href="https://lwn.net/Articles/1061216/">5.10.252</a> stable kernels. Each contains
-important fixes throughout the tree; users of these kernels are
-advised to upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/1061209/</guid>
-            <pubDate>Wed, 04 Mar 2026 14:15:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
