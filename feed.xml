@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Mar 2026 16:00:54 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Mar 2026 16:03:36 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Mar 2026 17:04:27 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Mar 2026 17:11:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Introducing Moonforge: a Yocto-based Linux OS (Igalia Blog)</title>
+            <link>https://lwn.net/Articles/1062451/</link>
+            <description><![CDATA[Igalia has <a
+href="https://www.igalia.com/2026/03/09/Introducing-Moonforge-A-Yocto-Based-Linux-OS.html">announced</a>
+the <a href="https://moonforgelinux.org/">Moonforge</a> Linux
+distribution, based on <a
+href="https://www.openembedded.org/wiki/Main_Page">OpenEmbedded</a>
+and <a href="https://www.yoctoproject.org/">Yocto</a>.</p>
+
+<blockquote class="bq">
+<p>Moonforge is an operating system framework for Linux devices that
+simplifies the process of building and maintaining custom operating
+systems.</p>
+
+<p>It provides a curated collection of Yocto layers and configuration
+files that help developers generate immutable, maintainable, and
+easily updatable operating system images.</p>
+
+<p>The goal is to offer the best possible developer experience for
+teams building embedded Linux products. Moonforge handles the complex
+aspects of operating system creation, such as system integration,
+security, updates, and infrastructure, so developers can focus on
+building and deploying their applications or devices.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1062451/</guid>
+            <pubDate>Wed, 11 Mar 2026 16:46:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1062403/</link>
