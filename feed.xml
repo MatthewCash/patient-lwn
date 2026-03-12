@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Mar 2026 14:14:23 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Mar 2026 14:14:52 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Mar 2026 15:11:27 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Mar 2026 15:12:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -416,14 +416,6 @@ those who have observed a build failure with the 6.12.75, 6.6.128, or
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1061524/</guid>
             <pubDate>Thu, 05 Mar 2026 16:01:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1061464/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (go-rpm-macros, libpng, thunderbird, udisks2, and valkey), <b>Fedora</b> (coturn, php-zumba-json-serializer, valkey, and yt-dlp), <b>Red Hat</b> (delve, go-rpm-macros, grafana, grafana-pcp, image-builder, osbuild-composer, and postgresql), <b>Slackware</b> (nvi), <b>SUSE</b> (firefox, glibc, haproxy, kernel, kubevirt, libsoup, libsoup2, libxslt, mozilla-nss, ocaml, python, python-Django, python-pip, util-linux, virtiofsd, wicked2nm,suse-migration-services,suse-migration- sle16-activation,SLES16-Migration,SLES16-SAP_Migration, and wireshark), and <b>Ubuntu</b> (gimp, linux-aws, linux-lts-xenial, linux-aws-fips, linux-azure, linux-azure-fips, linux-fips, nss, postgresql-14, postgresql-16, postgresql-17, and qemu).]]></description>
-            <guid>https://lwn.net/Articles/1061464/</guid>
-            <pubDate>Thu, 05 Mar 2026 14:14:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
