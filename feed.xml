@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Mar 2026 17:48:46 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Mar 2026 18:06:02 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Mar 2026 18:26:09 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Mar 2026 19:02:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernels for Friday the 13th</title>
+            <link>https://lwn.net/Articles/1062862/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1062864/">6.19.8</a>, <a
+href="https://lwn.net/Articles/1062865/">6.18.18</a>, and <a
+href="https://lwn.net/Articles/1062866/">6.12.77</a> stable kernels. Each of these
+kernels includes a number of important fixes; users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1062862/</guid>
+            <pubDate>Fri, 13 Mar 2026 18:26:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>An investigation of the forces behind the age-verification bills</title>
             <link>https://lwn.net/Articles/1062779/</link>
