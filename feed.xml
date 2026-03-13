@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Mar 2026 14:02:32 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Mar 2026 14:02:50 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Mar 2026 14:44:57 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Mar 2026 15:02:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>An investigation of the forces behind the age-verification bills</title>
+            <link>https://lwn.net/Articles/1062779/</link>
+            <description><![CDATA[Reddit user "Ok_Lingonberry3296" has posted <a
+href="https://www.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/?share_id=3dwRVKl2yrkPXVurGC7fc">the
+results of an extensive investigation</a> into the companies that are
+pushing US state legislatures to enact age-verification bills.
+<p>
+<blockquote class="bq">
+	I've been pulling public records on the wave of "age verification"
+	bills moving through US state legislatures. IRS 990 filings, Senate
+	lobbying disclosures, state ethics databases, campaign finance
+	records, corporate registries, WHOIS lookups, Wayback Machine
+	archives. What started as curiosity about who was pushing these
+	bills turned into documenting a coordinated influence operation
+	that, from a privacy standpoint, is building surveillance
+	infrastructure at the operating system level while the company
+	behind it faces zero new requirements for its own platforms.
+</blockquote>
+<p>
+(See also <a href="https://lwn.net/Articles/1062112/">this article</a> for a look at the
+California law.)]]></description>
+            <guid>https://lwn.net/Articles/1062779/</guid>
+            <pubDate>Fri, 13 Mar 2026 14:09:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1062775/</link>
@@ -350,26 +376,6 @@ time protocol</a>, and efforts to secure it, in detail.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1061930/</guid>
             <pubDate>Sat, 07 Mar 2026 20:52:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1061738/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (freerdp, libsixel, opensips, and yt-dlp), <b>Mageia</b> (python-django, rsync, and vim), <b>Red Hat</b> (go-rpm-macros and osbuild-composer), <b>SUSE</b> (7zip, assertj-core, autogen, c3p0, cockpit-machines, cockpit, cockpit-repos, containerized-data-importer, cpp-httplib, docker, docker-stable, expat, firefox, gnutls, go1.25-openssl, golang-github-prometheus-prometheus, haproxy, ImageMagick, incus, kernel, kubevirt, libsoup, libsoup2, mchange-commons, ocaml, openCryptoki, openvpn, php-composer2, postgresql14, postgresql15, python-Authlib, python-azure-core, python-nltk, python-urllib3_1, python311-Django4, python311-pillow-heif, python311-PyPDF2, python313, python313-Django6, qemu, rhino, roundcubemail, ruby4.0-rubygem-rack, sdbootutil, and wicked2nm), and <b>Ubuntu</b> (less, nss, python-bleach, qtbase-opensource-src, and zutty).]]></description>
-            <guid>https://lwn.net/Articles/1061738/</guid>
-            <pubDate>Fri, 06 Mar 2026 14:17:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenWrt 25.12.0 released</title>
-            <link>https://lwn.net/Articles/1061746/</link>
-            <description><![CDATA[<a href="https://openwrt.org/releases/25.12/notes-25.12.0">Version
-25.12.0</a> of the OpenWrt router distribution is available; this release
-has been dedicated to the memory of Dave Täht.  Changes include a switch to
-the <tt>apk</tt> package manager, the integration of the attended
-sysupgrade method, and support for a long list of new targets.]]></description>
-            <guid>https://lwn.net/Articles/1061746/</guid>
-            <pubDate>Fri, 06 Mar 2026 14:39:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
