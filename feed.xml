@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 14 Mar 2026 15:49:14 +0000</pubDate>
-        <lastBuildDate>Sat, 14 Mar 2026 20:55:39 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 14 Mar 2026 21:27:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -353,44 +353,6 @@ bit busier than I'd like. But nothing particularly stands out or looks
 bad.</q>"]]></description>
             <guid>https://lwn.net/Articles/1062002/</guid>
             <pubDate>Mon, 09 Mar 2026 00:28:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Huston: Revisiting time</title>
-            <link>https://lwn.net/Articles/1061930/</link>
-            <description><![CDATA[Geoff Huston <a
-href="https://www.potaroo.net/ispcol/2026-03/nts.html">looks at the network
-time protocol</a>, and efforts to secure it, in detail.
-<p>
-<blockquote class="bq">
-	NTP operates in the clear, and it is often the case that the
-	servers used by a client are not local. This provides an
-	opportunity for an adversary to disrupt an NTP session, by
-	masquerading as a NTP server, or altering NTP payloads in an effort
-	to disrupt a client's time-of-day clock. Many application-level
-	protocols are time sensitive, including TLS, HTTPS, DNSSEC and
-	NFS. Most Cloud applications rely on a coordinated time to
-	determine the most recent version of a data object. Disrupting time
-	can cause significant chaos in distributed network environments.
-<p>
-	While it can be relatively straightforward to secure a TCP-based
-	protocol by adding an initial TLS handshake and operating a TLS
-	shim between TCP and the application traffic, it's not so
-	straightforward to use TLS in place of a UDP-based protocol for
-	NTP. TLS can add significant jitter to the packet exchange. Where
-	the privacy of the UDP payload is essential, then DTLS might
-	conceivably be considered, but in the case of NTP the privacy of
-	the timestamps is not essential, but the veracity and authenticity
-	of the server is important.
-<p>
-	NTS, a secured version of NTP, is designed to address this
-	requirement relating to the veracity and authenticity of packets
-	passed from a NTS server to an NTS client. The protocol adds a NTS
-	Key Establishment protocol (NTS-KE) in additional to a conventional
-	NTPv4 UDP packet exchange (RFC 8915).
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1061930/</guid>
-            <pubDate>Sat, 07 Mar 2026 20:52:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
