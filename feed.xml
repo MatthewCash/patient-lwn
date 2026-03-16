@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 15 Mar 2026 22:37:29 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Mar 2026 00:03:07 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Mar 2026 02:38:57 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2026 03:34:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -369,17 +369,6 @@ editing of geolocation coordinates</a>.</p>
             <guid>https://lwn.net/Articles/1062105/</guid>
             <pubDate>Mon, 09 Mar 2026 13:13:11 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.0-rc3</title>
-            <link>https://lwn.net/Articles/1062002/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1062003/">7.0-rc3</a> for testing.
-"<q>So it's still pretty early in the release cycle, and it just feels a
-bit busier than I'd like. But nothing particularly stands out or looks
-bad.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1062002/</guid>
-            <pubDate>Mon, 09 Mar 2026 00:28:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
