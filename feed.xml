@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Mar 2026 17:17:07 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Mar 2026 17:18:24 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Mar 2026 17:53:12 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2026 18:15:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Debian Project Leader election underway</title>
+            <link>https://lwn.net/Articles/1063115/</link>
+            <description><![CDATA[<p>Kurt Roeckx has <a
+href="https://lwn.net/ml/all/abUgW8L4fQ3YrE9R%40roeckx.be/">announced</a>
+that Debian has moved to the campaigning period for the 2026 Debian
+Project Leader (DPL) election. This year there is only one candidate,
+Sruthi Chandran, so Debian voters will have a choice between Chandran
+as DPL or "None of the above". The campaign period will run through
+April&#160;3, and the voting period will run from April&#160;4 to
+April&#160;17. Chandran has not yet posted a platform for the 2026
+election, but her <a
+href="https://www.debian.org/vote/2024/platforms/srud">2024
+platform</a> is available on the Debian wiki.</p>
+
+</p></p>]]></description>
+            <guid>https://lwn.net/Articles/1063115/</guid>
+            <pubDate>Mon, 16 Mar 2026 17:43:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GIMP 3.2 released</title>
             <link>https://lwn.net/Articles/1063111/</link>
