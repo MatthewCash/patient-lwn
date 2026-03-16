@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Mar 2026 13:07:00 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Mar 2026 13:55:33 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Mar 2026 14:23:00 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2026 15:00:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -346,36 +346,6 @@ private</a> again by EQT in August&#160;2023.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (imagemagick), <b>Fedora</b> (chromium, matrix-synapse, mingw-zlib, perl-Net-CIDR, polkit, and rust-pythonize), <b>Mageia</b> (coturn, firefox, and thunderbird), <b>Oracle</b> (delve, git-lfs, gnutls, go-rpm-macros, image-builder, kernel, libsoup, nfs-utils, nginx:1.24, osbuild-composer, postgresql, thunderbird, udisks2, and valkey), <b>Red Hat</b> (grafana, image-builder, and opentelemetry-collector), <b>SUSE</b> (c3p0 and mchange-commons, corepack24, go1, ImageMagick, python-Flask, tomcat, tomcat10, tomcat11, virtiofsd, and weblate), and <b>Ubuntu</b> (apache2 and yara).]]></description>
             <guid>https://lwn.net/Articles/1062260/</guid>
             <pubDate>Tue, 10 Mar 2026 13:13:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1062103/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (delve, git-lfs, and postgresql16), <b>Fedora</b> (cef, chezmoi, chromium, coturn, erlang-hex_core, firefox, gh, gimp, k9s, keylime, keylime-agent-rust, libsixel, microcode_ctl, nextcloud, nss, perl-Crypt-URandom, pgadmin4, php-zumba-json-serializer, postgresql16-anonymizer, prometheus, python-asyncmy, python3.10, python3.11, python3.9, staticcheck, valkey, and vim), <b>SUSE</b> (chromedriver, chromium, coredns, expat, freetype2-devel, gitea-tea, go1.24-openssl, go1.25-openssl, grpc, gstreamer-rtsp-server, gstreamer-plugins-ugly,, helm, jetty-annotations, kubeshark-cli, libaec, libblkid-devel, libsoup, libxml2, libxslt, NetworkManager-applet-strongswan, podman, python-joserfc, python-Markdown, python-pypdf2, python-tornado, python-uv, python311-Django, python311-joserfc, python311-nltk, roundcubemail, and valkey), and <b>Ubuntu</b> (python3.4, python3.5, python3.6, python3.7, python3.8, python3.9, python3.10, python3.11, python3.12, python3.13, python3.14).]]></description>
-            <guid>https://lwn.net/Articles/1062103/</guid>
-            <pubDate>Mon, 09 Mar 2026 13:06:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>digiKam 9.0.0 released</title>
-            <link>https://lwn.net/Articles/1062105/</link>
-            <description><![CDATA[<p><a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/">Version
-9.0.0</a> of the digiKam photo-management system has been
-released. "<q>This major version introduces groundbreaking
-improvements in performance, usability, and workflow efficiency, with
-a strong focus on modernizing the user interface, enhancing metadata
-management, and expanding support for new camera models and file
-formats.</q>" Some of the changes include <a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/#new-survey-tool">a
-new survey tool</a>, more advanced search and sorting options, as well
-as <a
-href="https://www.digikam.org/news/2026-03-08-9.0.0_release_announcement/#geolocation-editor">bulk
-editing of geolocation coordinates</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1062105/</guid>
-            <pubDate>Mon, 09 Mar 2026 13:13:11 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
