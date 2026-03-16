@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Mar 2026 11:50:43 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Mar 2026 12:05:54 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Mar 2026 13:07:00 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2026 13:55:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1063095/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, delve, git-lfs, gnutls, kernel, mingw-libpng, nfs-utils, opentelemetry-collector, python3.11, python3.12, python3.9, and vim), <b>Debian</b> (chromium, gimp, kernel, linux-6.1, and wireless-regdb), <b>Fedora</b> (alertmanager, chromium, freerdp, glab, golang-github-openprinting-ipp-usb, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, insight, pcs, pgadmin4, python-gstreamer1, python3.10, python3.11, python3.6, qgis, SDL2_sound, SDL3_sound, systemd, and wireshark), <b>Mageia</b> (python-nltk, tomcat, and vim), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, compat-openssl11, dtrace, python3.12, and vim), <b>Red Hat</b> (buildah, git-lfs, golang-github-openprinting-ipp-usb, opentelemetry-collector, podman, and runc), and <b>SUSE</b> (amazon-ssm-agent, busybox, clamav, firefox, giflib-devel-32bit, glibc, heroic-games-launcher, himmelblau, kubelogin, libpng15, libsoup, libsoup2, mingw32-binutils, mingw64-binutils, osc, obs-scm-bridge, python, python-black, python3, qemu, ruby4.0-rubygem-actioncable, ruby4.0-rubygem-actiontext, ruby4.0-rubygem-activejob, ruby4.0-rubygem-activemodel, tomcat, and tomcat10).]]></description>
+            <guid>https://lwn.net/Articles/1063095/</guid>
+            <pubDate>Mon, 16 Mar 2026 13:07:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.0-rc4</title>
             <link>https://lwn.net/Articles/1062952/</link>
