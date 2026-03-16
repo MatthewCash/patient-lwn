@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Mar 2026 15:40:24 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Mar 2026 16:12:58 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Mar 2026 17:17:07 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Mar 2026 17:18:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GIMP 3.2 released</title>
+            <link>https://lwn.net/Articles/1063111/</link>
+            <description><![CDATA[After a year's worth of development since GIMP 3.0 was <a
+href="https://www.gimp.org/news/2025/03/16/gimp-3-0-released/">released</a>,
+the team behind the <a href="https://www.gimp.org/">open-source image editor</a> has <a
+href="https://www.gimp.org/news/2026/03/14/gimp-3-2-released/">released
+GIMP 3.2</a>.  It comes as part of the <a
+href="https://www.gimp.org/release-notes/gimp-3.0.html#next-steps-on-the-roadmap">plan</a>
+to release GIMP more frequently, rather than wait six or seven years
+between releases.  The release comes with lots of new features (as can
+be seen in more detail in the <a
+href="https://www.gimp.org/release-notes/gimp-3.2.html">release notes</a>),
+including 20 new brushes for the MyPaint Brush tool, an "overwrite" paint
+mode, new and upgraded file formats, UI improvements in a variety of
+places, such as the on-canvas text editor, and new non-destructive layers:
+
+<blockquote class="bq">
+<ul class="spacylist">
+<li>You can now use <b>Link Layers</b> to incorporate external image as
+part of your compositions, easily scaling, rotating, and transforming them
+without losing quality or sharpness. The link layer's content is updated
+when the source file is modified
+<li>The Path tool can now create <b>Vector Layers</b>, which lets you draw
+shapes with adjustable fill and stroke settings.
+</ul>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1063111/</guid>
+            <pubDate>Mon, 16 Mar 2026 17:04:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1063095/</link>
