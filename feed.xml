@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Mar 2026 13:06:44 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Mar 2026 13:13:57 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Mar 2026 14:07:29 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Mar 2026 14:36:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -418,14 +418,6 @@ href="https://www.reuters.com/markets/deals/german-software-firm-suse-be-taken-p
 private</a> again by EQT in August&#160;2023.</p>]]></description>
             <guid>https://lwn.net/Articles/1062316/</guid>
             <pubDate>Tue, 10 Mar 2026 20:47:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1062260/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (imagemagick), <b>Fedora</b> (chromium, matrix-synapse, mingw-zlib, perl-Net-CIDR, polkit, and rust-pythonize), <b>Mageia</b> (coturn, firefox, and thunderbird), <b>Oracle</b> (delve, git-lfs, gnutls, go-rpm-macros, image-builder, kernel, libsoup, nfs-utils, nginx:1.24, osbuild-composer, postgresql, thunderbird, udisks2, and valkey), <b>Red Hat</b> (grafana, image-builder, and opentelemetry-collector), <b>SUSE</b> (c3p0 and mchange-commons, corepack24, go1, ImageMagick, python-Flask, tomcat, tomcat10, tomcat11, virtiofsd, and weblate), and <b>Ubuntu</b> (apache2 and yara).]]></description>
-            <guid>https://lwn.net/Articles/1062260/</guid>
-            <pubDate>Tue, 10 Mar 2026 13:13:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
