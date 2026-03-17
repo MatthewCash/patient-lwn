@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Mar 2026 09:26:31 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Mar 2026 11:57:10 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Mar 2026 13:06:44 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Mar 2026 13:13:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1063248/</link>
+            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (mingw-openexr, vim, and yarnpkg), <b>Oracle</b> (freerdp), <b>Red Hat</b> (389-ds-base, container-tools:rhel8, libpng, libpng15, nginx, nginx:1.24, nginx:1.26, opencryptoki, python3, python3.11, python3.12, and python3.9), <b>SUSE</b> (ruby4.0-rubygem-activestorage, ruby4.0-rubygem-activesupport, ruby4.0-rubygem-glogalid, ruby4.0-rubygem-grpc, ruby4.0-rubygem-jquery-rails, ruby4.0-rubygem-loofah, and rubygem4.0-rubygem-fluentd), and <b>Ubuntu</b> (curl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-hwe-6.17, linux-oracle,
+ linux-oracle-6.17, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
+ linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency,
+ linux-lowlatency-hwe-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-gcp, linux-gkeop, linux-ibm, linux-ibm-5.15,
+ linux-intel-iotg, linux-kvm, linux-lowlatency, linux-nvidia,
+ linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
+ linux-xilinx-zynqmp, linux-fips, linux-aws-fips, linux-gcp-fips, linux-gcp, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, python-cryptography, and roundcube).]]></description>
+            <guid>https://lwn.net/Articles/1063248/</guid>
+            <pubDate>Tue, 17 Mar 2026 12:18:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Marknote 1.5 released</title>
             <link>https://lwn.net/Articles/1063122/</link>
