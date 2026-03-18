@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Mar 2026 17:31:18 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Mar 2026 17:47:04 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Mar 2026 18:58:54 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Mar 2026 18:59:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Samba 4.24.0 released</title>
+            <link>https://lwn.net/Articles/1063517/</link>
+            <description><![CDATA[Version 4.24.0 of the Samba SMB filesystem implementation has been
+released.  There are a number of significant changes, including audit
+support for authentication information, remote password management, a
+number of Kerberos improvements, asynchronous-I/O rate limiting, and more.]]></description>
+            <guid>https://lwn.net/Articles/1063517/</guid>
+            <pubDate>Wed, 18 Mar 2026 17:47:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>GNOME 50 released</title>
             <link>https://lwn.net/Articles/1063466/</link>
