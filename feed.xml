@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Mar 2026 16:35:01 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Mar 2026 16:44:05 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Mar 2026 17:31:18 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Mar 2026 17:47:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNOME 50 released</title>
+            <link>https://lwn.net/Articles/1063466/</link>
+            <description><![CDATA[<p><a href="https://release.gnome.org/50/">GNOME&#160;50</a> has been
+released. Notable changes in this release include enhancements to the
+Orca screen-reader application, interface and performance improvements
+for GNOME's file manager (Files), a "<q>massive set of stability and
+performance updates</q>" for its display-handling technologies, and
+much more. See also the "<a
+href="https://release.gnome.org/50/developers/index.html">What's new
+for developers</a>" article that covers changes of interest to GNOME
+and GNOME application developers.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1063466/</guid>
+            <pubDate>Wed, 18 Mar 2026 16:59:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Fedora Asahi Remix 43 released</title>
             <link>https://lwn.net/Articles/1063451/</link>
@@ -474,35 +492,6 @@ archives.]]></description>
             <guid>https://lwn.net/Articles/1059565/</guid>
             <pubDate>Thu, 26 Feb 2026 15:16:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Introducing Moonforge: a Yocto-based Linux OS (Igalia Blog)</title>
-            <link>https://lwn.net/Articles/1062451/</link>
-            <description><![CDATA[Igalia has <a
-href="https://www.igalia.com/2026/03/09/Introducing-Moonforge-A-Yocto-Based-Linux-OS.html">announced</a>
-the <a href="https://moonforgelinux.org/">Moonforge</a> Linux
-distribution, based on <a
-href="https://www.openembedded.org/wiki/Main_Page">OpenEmbedded</a>
-and <a href="https://www.yoctoproject.org/">Yocto</a>.</p>
-
-<blockquote class="bq">
-<p>Moonforge is an operating system framework for Linux devices that
-simplifies the process of building and maintaining custom operating
-systems.</p>
-
-<p>It provides a curated collection of Yocto layers and configuration
-files that help developers generate immutable, maintainable, and
-easily updatable operating system images.</p>
-
-<p>The goal is to offer the best possible developer experience for
-teams building embedded Linux products. Moonforge handles the complex
-aspects of operating system creation, such as system integration,
-security, updates, and infrastructure, so developers can focus on
-building and deploying their applications or devices.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1062451/</guid>
-            <pubDate>Wed, 11 Mar 2026 16:46:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
