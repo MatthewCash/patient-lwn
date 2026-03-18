@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Mar 2026 12:01:33 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Mar 2026 12:36:16 +0000</lastBuildDate>
+        <pubDate>Wed, 18 Mar 2026 14:02:41 +0000</pubDate>
+        <lastBuildDate>Wed, 18 Mar 2026 14:07:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1063446/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 9.0, compat-openssl11, container-tools:rhel8, grub2, and libvpx), <b>Debian</b> (ansible, gst-plugins-base1.0, and nodejs), <b>Fedora</b> (chromium, forgejo, and systemd), <b>Oracle</b> (container-tools:rhel8, grub2, kernel, libpng, libvpx, nginx, opencryptoki, python3.12, and vim), <b>Red Hat</b> (firefox, python-wheel, python3.12-wheel, and thunderbird), <b>SUSE</b> (389-ds, chromium, clamav, container-suseconnect, curl, freerdp, gvfs, kea, kubernetes, ruby4.0-rubygem-minitar, ruby4.0-rubygem-multi_xml, ruby4.0-rubygem-nokogiri, ruby4.0-rubygem-puma, ruby4.0-rubygem-rack, ruby4.0-rubygem-rack-session, ruby4.0-rubygem-rails, ruby4.0-rubygem-rails-html-sanitizer, ruby4.0-rubygem-railties, ruby4.0-rubygem-rubyzip, vim, and xen), and <b>Ubuntu</b> (flask, libssh, linux-aws-5.15, linux-gcp-5.15, linux-gke, linux-hwe-5.15,
+ linux-intel-iotg-5.15, linux-lowlatency-hwe-5.15, linux-oracle-5.15, linux-gcp-6.17, linux-realtime, linux-realtime, linux-realtime, linux-realtime-6.8, snapd, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1063446/</guid>
+            <pubDate>Wed, 18 Mar 2026 13:16:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The Sashiko patch-review system</title>
             <link>https://lwn.net/Articles/1063292/</link>
