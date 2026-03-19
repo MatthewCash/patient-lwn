@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Mar 2026 14:59:07 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Mar 2026 15:08:41 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Mar 2026 16:08:14 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Mar 2026 16:10:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Two new stable kernels</title>
+            <link>https://lwn.net/Articles/1063723/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1063724/">6.19.9</a> and <a
+href="https://lwn.net/Articles/1063725/">6.18.19</a> stable kernels. As usual, each
+has important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1063723/</guid>
+            <pubDate>Thu, 19 Mar 2026 16:08:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Radicle 1.7.0 released</title>
             <link>https://lwn.net/Articles/1063712/</link>
