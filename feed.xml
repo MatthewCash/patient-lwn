@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Mar 2026 18:50:37 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Mar 2026 19:15:48 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Mar 2026 19:55:06 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Mar 2026 19:55:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Google details new 24-hour process to sideload unverified Android apps (Ars
+Technica)</title>
+            <link>https://lwn.net/Articles/1063735/</link>
+            <description><![CDATA[Ars Technica <a
+href="https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/">describes
+the ritual</a> that will be required before a future Android device will
+deign to install apps from somewhere other than the Play Store.  It is not
+for the impatient.
+<p>
+<blockquote class="bq">
+Here are the steps:</p>
+<ul>
+<li>Enable developer options by tapping the software build number in About
+Phone seven times</li>
+<li>In Settings &gt; System, open Developer Options and scroll down to
+"Allow Unverified Packages."</li> 
+<li>Flip the toggle and tap to confirm you are not being coerced</li>
+<li>Enter device unlock code</li>
+<li>Restart your device</li>
+<li>Wait 24 hours</li>
+<li>Return to the unverified packages menu at the end of the security delay</li>
+<li>Scroll past additional warnings and select either "Allow temporarily"
+(seven days) or "Allow indefinitely."</li> 
+<li>Check the box confirming you understand the risks.</li>
+<li>You can now install unverified packages on the device by tapping the
+"Install anyway" option in the package manager.</li> 
+</ul>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1063735/</guid>
+            <pubDate>Thu, 19 Mar 2026 19:21:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Two new stable kernels</title>
             <link>https://lwn.net/Articles/1063723/</link>
