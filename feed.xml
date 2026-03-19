@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Mar 2026 00:00:35 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Mar 2026 00:01:30 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Mar 2026 01:28:28 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Mar 2026 03:16:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -535,142 +535,6 @@ upgrade.</p>
             <guid>https://lwn.net/Articles/1062575/</guid>
             <pubDate>Thu, 12 Mar 2026 13:19:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 5, 2026</title>
-            <link>https://lwn.net/Articles/1060392/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1060392/">Front</a>: Python's bitwise-inversion operator; atomic buffered I/O; keeping open source open; Magit and Majutsu; IIIF; free software and free tools.
-            <li> <a href="https://lwn.net/Articles/1060394/">Briefs</a>: Ad tracking; firmware updates; TCP zero-copy; Motorola GrapheneOS phones; Gram 1.0; groff 1.24.0; Texinfo 7.3; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1060395/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1060392/</guid>
-            <pubDate>Thu, 05 Mar 2026 01:42:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Magit and Majutsu: discoverable version-control</title>
-            <link>https://lwn.net/Articles/1060024/</link>
-            <description><![CDATA[<p>
-<a href="https://lwn.net/Articles/958468/">
-Jujutsu</a> is an increasingly popular Git-compatible version-control system. It has
-a focus on simplifying Git's conceptual model to produce a smoother, clearer command-line
-experience. Some people already have a preferred replacement for Git's usual
-command-line interface, though:
-<a href="https://magit.vc/">
-Magit</a>, an Emacs package for working with Git
-repositories that also tries to make the interface more
-discoverable.
-Now, a handful of people are working to implement a Magit-style interface for Jujutsu:
-<a href="https://github.com/0WD0/majutsu?tab=readme-ov-file#majutsu---emacs-interface-for-jujutsu">
-Majutsu</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1060024/</guid>
-            <pubDate>Wed, 04 Mar 2026 14:11:39 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Free software needs free tools</title>
-            <link>https://lwn.net/Articles/1060649/</link>
-            <description><![CDATA[<p>One of the contradictions of the modern open-source movement is
-that projects which respect user freedoms often rely on proprietary
-tools that do not: communities often turn to non-free software for
-code hosting, communication, and more. At <a
-href="https://cfgmgmtcamp.org/ghent2026/">Configuration Management
-Camp</a> (CfgMgmtCamp) 2026, Jan Ainali <a
-href="https://cfp.cfgmgmtcamp.org/ghent2026/talk/LHWU8T/">spoke
-about</a> the need for open-source projects to adopt open tools;  
-he hoped to persuade new and mature projects to switch to open
-alternatives, even if just one tool, to reduce their dependencies on
-tech giants and support community-driven infrastructure.</p>]]></description>
-            <guid>https://lwn.net/Articles/1060649/</guid>
-            <pubDate>Tue, 03 Mar 2026 15:12:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The ongoing quest for atomic buffered writes</title>
-            <link>https://lwn.net/Articles/1060063/</link>
-            <description><![CDATA[There are many applications that need to be able to write multi-block
-chunks of data to disk with the assurance that the operation will either
-complete successfully or fail altogether — that the write will not be
-partially completed (or "torn"), in other words.  For years, kernel
-developers have worked on providing atomic writes as a way of satisfying
-that need; see, for example, sessions from the Linux Storage, Filesystem,
-Memory Management, and BPF (LSFMM+BPF) Summit from <a
-href="https://lwn.net/Articles/933015/">2023</a>, <a href="https://lwn.net/Articles/974578/">2024</a>,
-and <a href="https://lwn.net/Articles/1016015/">2025</a> (<a
-href="https://lwn.net/Articles/1016406/">twice</a>).  While atomic <i>direct</i> <span
-class="nobreak">I/O</span> is now supported by some filesystems, atomic
-<i>buffered</i> <span class="nobreak">I/O</span> still is not.  Filling
-that gap seems certain to be a 2026 LSFMM+BPF topic but, thanks to an early
-discussion, the shape of a solution might already be coming into focus.]]></description>
-            <guid>https://lwn.net/Articles/1060063/</guid>
-            <pubDate>Mon, 02 Mar 2026 22:27:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The exploitation paradox in open source</title>
-            <link>https://lwn.net/Articles/1058031/</link>
-            <description><![CDATA[<p>The free and open-source software (FOSS) movements have always been
-about giving freedom and power to individuals and organizations;
-throughout that history, though, there have also been actors trying
-to exploit FOSS to their own advantage. At <a
-href="https://cfgmgmtcamp.org/ghent2026/">Configuration Management
-Camp</a> (CfgMgmtCamp) 2026 in Ghent, Belgium, Richard Fontana <a
-href="https://cfp.cfgmgmtcamp.org/ghent2026/talk/KP9YPK/">described</a>
-the "<q>exploitation paradox</q>" of open source: the recurring
-pattern of crises when actors exploit loopholes to restrict freedoms
-or gain the upper hand over others in the community. He also talked
-about the attempts to close those loopholes as well as the need to
-look beyond licenses as a means of keeping freedom alive.</p>]]></description>
-            <guid>https://lwn.net/Articles/1058031/</guid>
-            <pubDate>Mon, 02 Mar 2026 15:28:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The troubles with Boolean inversion in Python</title>
-            <link>https://lwn.net/Articles/1059177/</link>
-            <description><![CDATA[The Python bitwise-inversion (or complement) operator, "<tt>~</tt>", <a
-href="https://docs.python.org/3/library/stdtypes.html#index-16">behaves</a>
-pretty much as expected when it is applied to integers—it toggles every
-bit, from one
-to zero and vice versa.  It might be expected that applying the
-operator to a non-integer, a <a
-href="https://docs.python.org/3/library/stdtypes.html#boolean-type-bool"><tt>bool</tt></a>
-for example, would raise a <tt>TypeError</tt>, but, because the
-<tt>bool</tt> type is really an <a
-href="https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex"><tt>int</tt></a>
-in disguise, the complement operator is allowed, at least for now.  For
-nearly 15&#160;years (and perhaps longer), there have been discussions about the
-oddity of that behavior and whether it should be changed.  Eventually,
-that resulted in the "feature" being deprecated, producing a warning, with removal slated for
-Python&#160;3.16 (due October 2027). That has led to some reconsideration and the
-deprecation may itself be deprecated.]]></description>
-            <guid>https://lwn.net/Articles/1059177/</guid>
-            <pubDate>Fri, 27 Feb 2026 16:21:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] IIIF: images and visual presentations for the web</title>
-            <link>https://lwn.net/Articles/1059565/</link>
-            <description><![CDATA[The <a href="https://iiif.io/">International Image Interoperability
-Framework</a>, or IIIF ("triple-eye eff"), is a small set of standards that
-form a basis for serving, displaying, and reusing image data on the web. It
-consists of a number of API definitions that compose with each other to
-achieve a standard for providing, for example, presentations of
-high-resolution images at multiple zoom levels, as well as bundling multiple images
-together. Presentations may include metadata about details like authorship,
-dates, references to other representations of the same work, copyright
-information, bibliographic identifiers, etc. Presentations can be further
-grouped into collections, and metadata can be added in the form of
-transcriptions, annotations, or captions. IIIF is most popular with
-cultural-heritage organizations, such as libraries, universities, and
-archives.]]></description>
-            <guid>https://lwn.net/Articles/1059565/</guid>
-            <pubDate>Thu, 26 Feb 2026 15:16:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
