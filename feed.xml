@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Mar 2026 13:39:35 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Mar 2026 14:14:02 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Mar 2026 14:59:07 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Mar 2026 15:08:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Radicle 1.7.0 released</title>
+            <link>https://lwn.net/Articles/1063712/</link>
+            <description><![CDATA[<p><a href="https://radicle.xyz/2026/03/18/radicle-1.7.0">Version
+1.7.0</a> ("Daffodil") of the Radicle peer-to-peer, local-first code
+collaboration stack has been released. Some of the changes in this
+release include improved I/O usage, the ability to block nodes at the
+connection level, and clearer errors for <tt>rad&#160;id</tt>
+updates. See the release notes for a full list of changes and bug
+fixes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1063712/</guid>
+            <pubDate>Thu, 19 Mar 2026 14:25:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1063659/</link>
