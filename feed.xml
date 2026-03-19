@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 19 Mar 2026 11:27:56 +0000</pubDate>
-        <lastBuildDate>Thu, 19 Mar 2026 11:51:38 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Mar 2026 13:01:03 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Mar 2026 13:04:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1063659/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (freetype), <b>Fedora</b> (aqualung, kiss-fft, libtasn1, mac, and vim), <b>Red Hat</b> (libarchive, osbuild-composer, and rhc), <b>Slackware</b> (expat), <b>SUSE</b> (ca-certificates-mozilla, chromium, cockpit, cockpit-machines, cockpit-podman, curl, docker, docker-compose, docker-stable, gnutls, gstreamer-rtsp-server, gstreamer-plugins-ugly, gstreamer- plugins-rs, gstreamer-plugins-libav, gstreamer-plugins-good, gstreamer-plugins- base, gstreamer-plugins-bad, gstreamer-docs, gstreamer-devtools, gstreamer, gvfs, helm, kernel, krb5-appl, libsoup, libxslt, libxml2, openssh, python-cryptography, python-django, python-pypdf2, python-simpleeval, python311, qemu, ruby4.0-rubygem-sprockets, ruby4.0-rubygem-thor, ruby4.0-rubygem-web-console, ruby4.0-rubygem-websocket-extensions, skaffold, smb4k, tomcat, ucode-intel, util-linux, virtiofsd, and zlib), and <b>Ubuntu</b> (bouncycastle, exiv2, freerdp3, linux-aws, linux-aws-5.4, linux-gcp-5.4, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-aws-fips, python2.7, roundcube, and valkey).]]></description>
+            <guid>https://lwn.net/Articles/1063659/</guid>
+            <pubDate>Thu, 19 Mar 2026 13:01:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for March 12, 2026</title>
             <link>https://lwn.net/Articles/1061465/</link>
