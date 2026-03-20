@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Mar 2026 18:16:08 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Mar 2026 18:25:13 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Mar 2026 18:48:44 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2026 19:12:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Agama 19 released</title>
+            <link>https://lwn.net/Articles/1064067/</link>
+            <description><![CDATA[<p><a
+href="https://agama-project.github.io/blog/2026/03/20/agama-19">Version
+19</a> of the Agama installer for openSUSE and SUSE has been
+released. This release includes major changes in Agama's architectural
+design, organization of the web interface, and more.</p>
+
+<blockquote class="bq">
+<p>We always wanted Agama to follow the schema [...] in which the core of
+the installer could be controlled through a consistent and simple
+programming interface (an API, in developers jargon). In that schema,
+the web-based user interface, the command-line tools and the
+unattended installation are built on top of that generic API.</p>
+
+<p>But previous versions of Agama were full of quirks that didn't
+allow us to define an API that would match our quality standards as a
+solid foundation to build a simple but comprehensive installer. Agama
+19 represents a quite significant architectural overhaul, needed to
+leave all those quirks behind and to define mechanisms that can be the
+cornerstone for any future development.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1019688/#leap">last looked at
+Agama</a> in September 2025.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1064067/</guid>
+            <pubDate>Fri, 20 Mar 2026 18:41:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1063990/</link>
@@ -520,21 +552,6 @@ shapes with adjustable fill and stroke settings.
             <guid>https://lwn.net/Articles/1062952/</guid>
             <pubDate>Sun, 15 Mar 2026 22:37:28 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernels for Friday the 13th</title>
-            <link>https://lwn.net/Articles/1062862/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1062864/">6.19.8</a>, <a
-href="https://lwn.net/Articles/1062865/">6.18.18</a>, and <a
-href="https://lwn.net/Articles/1062866/">6.12.77</a> stable kernels. Each of these
-kernels includes a number of important fixes; users are advised to
-upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1062862/</guid>
-            <pubDate>Fri, 13 Mar 2026 18:26:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
