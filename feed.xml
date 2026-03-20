@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Mar 2026 14:06:00 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Mar 2026 14:13:08 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Mar 2026 14:51:13 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2026 15:04:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -535,32 +535,6 @@ upgrade.</p>
             <guid>https://lwn.net/Articles/1062862/</guid>
             <pubDate>Fri, 13 Mar 2026 18:26:09 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>An investigation of the forces behind the age-verification bills</title>
-            <link>https://lwn.net/Articles/1062779/</link>
-            <description><![CDATA[Reddit user "Ok_Lingonberry3296" has posted <a
-href="https://www.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/?share_id=3dwRVKl2yrkPXVurGC7fc">the
-results of an extensive investigation</a> into the companies that are
-pushing US state legislatures to enact age-verification bills.
-<p>
-<blockquote class="bq">
-	I've been pulling public records on the wave of "age verification"
-	bills moving through US state legislatures. IRS 990 filings, Senate
-	lobbying disclosures, state ethics databases, campaign finance
-	records, corporate registries, WHOIS lookups, Wayback Machine
-	archives. What started as curiosity about who was pushing these
-	bills turned into documenting a coordinated influence operation
-	that, from a privacy standpoint, is building surveillance
-	infrastructure at the operating system level while the company
-	behind it faces zero new requirements for its own platforms.
-</blockquote>
-<p>
-(See also <a href="https://lwn.net/Articles/1062112/">this article</a> for a look at the
-California law.)]]></description>
-            <guid>https://lwn.net/Articles/1062779/</guid>
-            <pubDate>Fri, 13 Mar 2026 14:09:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
