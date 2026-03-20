@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Mar 2026 22:32:28 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Mar 2026 22:48:53 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Mar 2026 23:05:33 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2026 23:29:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>b4 v0.15.0 released</title>
+            <link>https://lwn.net/Articles/1064097/</link>
+            <description><![CDATA[Version 0.15.0 of the b4 patch-management tool is out.  Highlights in this
+release include the <tt>b4 review</tt> workflow manager for maintainers
+(covered briefly in <a href="https://lwn.net/Articles/1063303/">this article</a>), <tt>b4
+dig</tt>, which can find the original mailing-list submission behind a
+commit, three-way-merge support in <tt>b4 shazam</tt>, and more.  See <a
+href="https://b4.docs.kernel.org/en/latest/releases.html#v0-15">the release
+notes</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1064097/</guid>
+            <pubDate>Fri, 20 Mar 2026 23:05:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Agama 19 released</title>
             <link>https://lwn.net/Articles/1064067/</link>
