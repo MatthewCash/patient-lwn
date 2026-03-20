@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 20 Mar 2026 13:13:00 +0000</pubDate>
-        <lastBuildDate>Fri, 20 Mar 2026 13:21:22 +0000</lastBuildDate>
+        <pubDate>Fri, 20 Mar 2026 14:06:00 +0000</pubDate>
+        <lastBuildDate>Fri, 20 Mar 2026 14:13:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -560,37 +560,6 @@ pushing US state legislatures to enact age-verification bills.
 California law.)]]></description>
             <guid>https://lwn.net/Articles/1062779/</guid>
             <pubDate>Fri, 13 Mar 2026 14:09:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1062775/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, kernel, and multipart), <b>Fedora</b> (dnf5, dr_libs, easyrpg-player, libmaxminddb, python3.12, strongswan, task, and udisks2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, gnutls, ImageMagick, kernel, libvpx, mingw-libpng, nginx:1.26, python3.11, and uek-kernel), <b>Red Hat</b> (delve, git-lfs, mingw-libpng, osbuild-composer, and rhc-worker-playbook), <b>SUSE</b> (cjson, curl, dnsdist, libsoup2, postgresql16, postgresql17, postgresql18, python-lxml_html_clean, python-pypdf2, python36, and thunderbird), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, freetype, golang-github-go-git-go-git, golang-golang-x-net, openssh, python-cryptography, sudo, and util-linux).]]></description>
-            <guid>https://lwn.net/Articles/1062775/</guid>
-            <pubDate>Fri, 13 Mar 2026 13:09:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A set of AppArmor vulnerabilities</title>
-            <link>https://lwn.net/Articles/1062778/</link>
-            <description><![CDATA[Qualys has sent out <a
-href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/12/crackarmor-critical-apparmor-flaws-enable-local-privilege-escalation-to-root">a
-somewhat breathless advisory</a> describing a number of vulnerabilities in
-the AppArmor security module, which is used in a number of Debian-based
-distributions (among others).
-<p>
-<blockquote class="bq">
-	This "CrackArmor" advisory exposes a confused-deputy flaw allowing
-	unprivileged users to manipulate security profiles via
-	pseudo-files, bypass user-namespace restrictions, and execute
-	arbitrary code within the kernel. These flaws facilitate local
-	privilege escalation to root through complex interactions with
-	tools like Sudo and Postfix, alongside denial-of-service attacks
-	via stack exhaustion and Kernel Address Space Layout Randomization
-	(KASLR) bypasses via out-of-bounds reads.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1062778/</guid>
-            <pubDate>Fri, 13 Mar 2026 14:02:32 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
