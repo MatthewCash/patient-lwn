@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 22 Mar 2026 22:25:54 +0000</pubDate>
-        <lastBuildDate>Sun, 22 Mar 2026 22:26:38 +0000</lastBuildDate>
+        <pubDate>Sun, 22 Mar 2026 22:32:59 +0000</pubDate>
+        <lastBuildDate>Sun, 22 Mar 2026 22:53:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -540,32 +540,6 @@ shapes with adjustable fill and stroke settings.
             <guid>https://lwn.net/Articles/1063095/</guid>
             <pubDate>Mon, 16 Mar 2026 13:07:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.0-rc4</title>
-            <link>https://lwn.net/Articles/1062952/</link>
-            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1062951/">7.0-rc4</a> for testing.
-<p>
-<blockquote class="bq">
-	Then Thursday hit with the networking pull. And then on Friday
-	everybody else decided to send in their work for the week, with a
-	few more trickling in over the weekend. End result: what had for a
-	short few days looked like a nice calm week turned into another
-	"bigger than usual" release candidate.
-<p>
-	To be fair, that "almost everything comes in at the end of the
-	week" is 100% normal, and none of this is surprising. I was
-	admittedly hoping that things would start to calm down, but that
-	was not to be.
-<p>
-	I no longer really believe that it was the one extra week we had
-	last release cycle: I'm starting to suspect it's the psychological
-	result of "hey, new major number", and people are just being a bit
-	more active as a result.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1062952/</guid>
-            <pubDate>Sun, 15 Mar 2026 22:37:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
