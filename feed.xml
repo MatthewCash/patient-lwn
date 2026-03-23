@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Mar 2026 12:02:12 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Mar 2026 12:03:30 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Mar 2026 13:05:13 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Mar 2026 13:50:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1064298/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp:2.8, grub2, kernel, libarchive, libvpx, nginx, opencryptoki, python3.12, vim, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (chromium, freeciv, libvirt, libyaml-syck-perl, mapserver, ruby-rack, spip, and webkit2gtk), <b>Fedora</b> (chromium, cpp-httplib, glib2, libsoup3, localsearch, openssh, python-scitokens, python-ujson, python3.6, scitokens-cpp, uxplay, wordpress, and xen), <b>Mageia</b> (expat), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (Announcement ID: SUSE-SU-2026:0940-1   Release Date: 2026-03-20T13:41:23Z   Rating: important   References:, Announcement ID: SUSE-SU-2026:0941-1   Release Date: 2026-03-20T13:41:30Z   Rating: important   References:, Announcement ID: SUSE-SU-2026:0943-1   Release Date: 2026-03-20T13:41:33Z   Rating: important   References:, Announcement ID: SUSE-SU-2026:0944-1   Release Date: 2026-03-20T13:41:37Z   Rating: important   References:, Announcement ID: SUSE-SU-2026:0945-1   Release Date: 2026-03-20T13:41:40Z   Rating: important   References:, chromium, docker, go1.25-openssl, GraphicsMagick, helm, mumble, python311, python311-pyasn1, python313, runc, sqlite3, and tempo-cli), and <b>Ubuntu</b> (debian-goodies and libnet-cidr-perl).]]></description>
+            <guid>https://lwn.net/Articles/1064298/</guid>
+            <pubDate>Mon, 23 Mar 2026 13:05:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>b4 v0.15.0 released</title>
             <link>https://lwn.net/Articles/1064097/</link>
