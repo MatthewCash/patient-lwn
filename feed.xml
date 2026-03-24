@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Mar 2026 15:04:29 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Mar 2026 15:20:26 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Mar 2026 16:00:03 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Mar 2026 16:36:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -512,42 +512,6 @@ implementation has evolved considerably.]]></description>
             <guid>https://lwn.net/Articles/1063292/</guid>
             <pubDate>Tue, 17 Mar 2026 16:32:49 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>FSFE reports trouble with payment provider</title>
-            <link>https://lwn.net/Articles/1063287/</link>
-            <description><![CDATA[<p>The Free Software Foundation Europe (FSFE) is <a
-href="https://fsfe.org/news/2026/news-20260316-01.en.html">reporting</a>
-that payment provider Nexi has terminated its contract without prior
-notice, which means that a number of FSFE supporters' recurring
-payments have been halted:</p>
-
-<blockquote class="bq">
-<p>Over the past few months, our former payment provider Nexi
-S.p.A. ("Nexi") requested access to private data, which we understood
-to be specifically the usernames and passwords of our supporters. We
-have refused this request. All our attempts to clarify Nexi's request,
-or to understand how their need for such information was necessary and
-legal, were met with what we consider to be vague and unsatisfactory
-explanations relating to a general need for risk analysis.</p>
-
-<p>[...] The decisions that Nexi has made are incomprehensible to
-us. Over the last months, as part of a security audit that Nexi
-claimed to be conducting, we have provided them with large amounts of
-the FSFE's financial documentation, which even included private
-information of our executive staff. We have answered all of their
-questions. But we have to draw a line when private companies like Nexi
-demand access to the sensitive and private data of our supporters.</p>
-</blockquote>
-
-<p>According to the blog post, more than 450 supporters have been
-affected by this. The FSFE's donation pages have been updated with its
-new payment provider.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1063287/</guid>
-            <pubDate>Tue, 17 Mar 2026 15:15:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
