@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Mar 2026 16:00:03 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Mar 2026 16:36:57 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Mar 2026 17:36:39 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Mar 2026 17:39:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -488,30 +488,6 @@ for verifying if a system is vulnerable and how to upgrade if so.</p>
             <guid>https://lwn.net/Articles/1063446/</guid>
             <pubDate>Wed, 18 Mar 2026 13:16:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The Sashiko patch-review system</title>
-            <link>https://lwn.net/Articles/1063292/</link>
-            <description><![CDATA[Roman Gushchin has <a
-href="https://lwn.net/ml/all/7ia4o6kmpj5s.fsf@castle.c.googlers.com">announced</a> the
-existence of an LLM-driven patch-review system named <a
-href="https://sashiko.dev/">Sashiko</a>.  It automatically creates reviews
-for all patches sent to the linux-kernel mailing list (and some others).
-<p>
-<blockquote class="bq">
-	In my measurement, Sashiko was able to find 53% of bugs based on a
-	completely unfiltered set of 1,000 recent upstream issues using
-	"Fixes:" tags (using Gemini 3.1 Pro). Some might say that 53% is
-	not that impressive, but 100% of these issues were missed by human
-	reviewers.
-</blockquote>
-<p>
-Sashiko is built on Chris Mason's review prompts (<a
-href="https://lwn.net/Articles/1041694/">covered here</a> in October 2025), but the
-implementation has evolved considerably.]]></description>
-            <guid>https://lwn.net/Articles/1063292/</guid>
-            <pubDate>Tue, 17 Mar 2026 16:32:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
