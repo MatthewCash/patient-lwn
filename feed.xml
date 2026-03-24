@@ -8,11 +8,88 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 24 Mar 2026 12:06:29 +0000</pubDate>
-        <lastBuildDate>Tue, 24 Mar 2026 12:35:27 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Mar 2026 13:48:18 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Mar 2026 14:05:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1064474/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (strongswan and vlc), <b>Fedora</b> (cmake, giflib, and python-diskcache), <b>SUSE</b> (curl, docker-stable, freeciv, freerdp, freerdp2, freetype2, go1.25-openssl, go1.26-openssl, GraphicsMagick, gvfs, harfbuzz, kernel, lemon, libpng16, librsvg, libsodium, libsoup, net-snmp, protobuf, python-Authlib, python-maturin, python-tornado6, python310, python311-pypdf, python311-PyPDF2, python314, python39, rust-keylime, strongswan, systemd, ucode-intel, util-linux, and vim), and <b>Ubuntu</b> (gvfs, linux-aws-6.8, linux-azure, linux-azure, linux-azure-4.15, linux-azure-fips, linux-hwe-5.4, linux-ibm, linux-intel-iot-realtime, linux-nvidia-tegra-igx, linux-realtime-6.17, pyopenssl, rust-sized-chunks, strongswan, systemd, and tiff).]]></description>
+            <guid>https://lwn.net/Articles/1064474/</guid>
+            <pubDate>Tue, 24 Mar 2026 13:06:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Krita 5.3.0 and 6.0.0 released</title>
+            <link>https://lwn.net/Articles/1064477/</link>
+            <description><![CDATA[<p>The Krita project has <a
+href="https://krita.org/en/posts/2026/krita-5.3.0-released/">announced</a>
+the release of Krita 5.3.0 and 6.0.0:</p>
+
+<blockquote class="bq">
+<p>Krita 5.3/6.0 is the result of many years of work by the Krita
+developers. Some features have been rewritten from the ground up,
+others make their first appearance.</p>
+
+<p>Enjoy the completely new text feature: on canvas editing, full
+opentype support, text flowing into shapes. It is now easier than ever
+to create vector-based panels for comic pages. Tools got extended: for
+instance, the fill tool now can close gaps. The liquify mode of the
+transform tool is much faster. There are new filters: a propagate
+colors filter and a reset transparent filter. Support for HDR painting
+has been improved. The recorder docker can now work in real
+time. There is improved support for file formats, like support for
+text objects in PSD files. And much, much, much more!</p>
+</blockquote>
+
+
+<p>According to the announcement, the versions are almost functionally
+identical. However, the 6.0.0 release is the first based on Qt&#160;6;
+it has more Wayland functionality but is considered experimental. It
+cautions that users should stick to 5.3.0 for real work. See
+the <a
+href="https://krita.org/en/release-notes/krita-5-3-release-notes/">release
+notes</a> for a full list of changes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1064477/</guid>
+            <pubDate>Tue, 24 Mar 2026 13:31:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Down: Debunking zswap and zram myths</title>
+            <link>https://lwn.net/Articles/1064478/</link>
+            <description><![CDATA[Chris Down has posted <a
+href="https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html">a
+detailed look</a> at how the kernel's zswap and zram subsystems work — and
+how they differ.
+<p>
+<blockquote class="bq">
+	Most people think of zswap and zram simply as two different
+	flavours of the same thing: compressed swap. At a surface level,
+	that's correct – both compress pages that would otherwise end up on
+	disk – but they make fundamentally different bets about how the
+	kernel should handle memory pressure, and picking the wrong one for
+	your situation can actively make things worse than having no swap
+	at all
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1064478/</guid>
+            <pubDate>Tue, 24 Mar 2026 13:34:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>LiteLLM on PyPI is compromised</title>
+            <link>https://lwn.net/Articles/1064479/</link>
+            <description><![CDATA[<a href="https://github.com/BerriAI/litellm/issues/24512">This issue
+report</a> describes a credential-stealing attack buried within LiteLLM
+1.82.8 in the PyPI repository.  It collects and exfiltrates a wide variety
+of information, including SSH keys, credentials for a number of cloud
+services, crypto wallets, and so on.  Anybody who has installed this
+package has likely been compromised and needs to respond accordingly.]]></description>
+            <guid>https://lwn.net/Articles/1064479/</guid>
+            <pubDate>Tue, 24 Mar 2026 13:48:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.0-rc5</title>
             <link>https://lwn.net/Articles/1064306/</link>
@@ -470,20 +547,6 @@ new payment provider.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1063287/</guid>
             <pubDate>Tue, 17 Mar 2026 15:15:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1063248/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (mingw-openexr, vim, and yarnpkg), <b>Oracle</b> (freerdp), <b>Red Hat</b> (389-ds-base, container-tools:rhel8, libpng, libpng15, nginx, nginx:1.24, nginx:1.26, opencryptoki, python3, python3.11, python3.12, and python3.9), <b>SUSE</b> (ruby4.0-rubygem-activestorage, ruby4.0-rubygem-activesupport, ruby4.0-rubygem-glogalid, ruby4.0-rubygem-grpc, ruby4.0-rubygem-jquery-rails, ruby4.0-rubygem-loofah, and rubygem4.0-rubygem-fluentd), and <b>Ubuntu</b> (curl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-hwe-6.17, linux-oracle,
- linux-oracle-6.17, linux, linux-aws, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop,
- linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-lowlatency,
- linux-lowlatency-hwe-6.8, linux-oracle, linux-oracle-6.8, linux, linux-aws, linux-gcp, linux-gkeop, linux-ibm, linux-ibm-5.15,
- linux-intel-iotg, linux-kvm, linux-lowlatency, linux-nvidia,
- linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
- linux-xilinx-zynqmp, linux-fips, linux-aws-fips, linux-gcp-fips, linux-gcp, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, python-cryptography, and roundcube).]]></description>
-            <guid>https://lwn.net/Articles/1063248/</guid>
-            <pubDate>Tue, 17 Mar 2026 12:18:51 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
