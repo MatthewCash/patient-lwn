@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Mar 2026 17:22:34 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Mar 2026 17:35:06 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Mar 2026 18:31:53 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Mar 2026 18:36:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -519,24 +519,6 @@ number of Kerberos improvements, asynchronous-I/O rate limiting, and more.]]></d
             <guid>https://lwn.net/Articles/1063517/</guid>
             <pubDate>Wed, 18 Mar 2026 17:47:51 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNOME 50 released</title>
-            <link>https://lwn.net/Articles/1063466/</link>
-            <description><![CDATA[<p><a href="https://release.gnome.org/50/">GNOME&#160;50</a> has been
-released. Notable changes in this release include enhancements to the
-Orca screen-reader application, interface and performance improvements
-for GNOME's file manager (Files), a "<q>massive set of stability and
-performance updates</q>" for its display-handling technologies, and
-much more. See also the "<a
-href="https://release.gnome.org/50/developers/index.html">What's new
-for developers</a>" article that covers changes of interest to GNOME
-and GNOME application developers.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1063466/</guid>
-            <pubDate>Wed, 18 Mar 2026 16:59:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
