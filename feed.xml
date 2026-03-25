@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Mar 2026 18:31:53 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Mar 2026 18:36:13 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Mar 2026 19:03:13 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Mar 2026 19:34:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -507,17 +507,6 @@ the future of MGLRU.  While some developers are looking for ways to improve
 the subsystem, another has called for it to be removed entirely.]]></description>
             <guid>https://lwn.net/Articles/1060967/</guid>
             <pubDate>Thu, 05 Mar 2026 15:47:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Samba 4.24.0 released</title>
-            <link>https://lwn.net/Articles/1063517/</link>
-            <description><![CDATA[Version 4.24.0 of the Samba SMB filesystem implementation has been
-released.  There are a number of significant changes, including audit
-support for authentication information, remote password management, a
-number of Kerberos improvements, asynchronous-I/O rate limiting, and more.]]></description>
-            <guid>https://lwn.net/Articles/1063517/</guid>
-            <pubDate>Wed, 18 Mar 2026 17:47:51 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
