@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Mar 2026 14:46:32 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Mar 2026 14:59:19 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Mar 2026 16:14:38 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Mar 2026 16:17:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Setting up a Tor Relay at National Taiwan Normal University (Tor Blog)</title>
+            <link>https://lwn.net/Articles/1064671/</link>
+            <description><![CDATA[<p>The Tor Blog has an interesting <a
+href="https://blog.torproject.org/setting-up-tor-university-relay-taiwan/">article</a>
+about the non-technical side of setting up a Tor Relay. It documents how a
+computer science student at National Taiwan Normal University worked with the
+university system to set up a relay and provides a template for future
+attempts:</p>
+
+<blockquote class="bq">
+<p>In Taiwan, anonymous networks do not lack technical documentation or
+ideological support. The real scarcity is experience from actually working
+through the real institutional system once. Especially in an environment where
+academic networks are highly centralized and outbound connectivity is tightly
+controlled, distributed anonymous infrastructure like Tor Relays is inherently
+difficult to sustain.</p>
+
+<p>This implementation at National Taiwan Normal University was not meant to
+provide a final answer for anonymous networks. It was a concrete attempt made
+within real-world institutions. It may not immediately improve the performance
+or security of anonymous networks, and it was not intended to become a directly
+reproducible standard process. What it did achieve was leaving behind a clearly
+visible path of practice—one that can be understood, referenced, and built
+upon.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1064671/</guid>
+            <pubDate>Wed, 25 Mar 2026 15:10:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1064634/</link>
@@ -504,55 +536,6 @@ and GNOME application developers.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1063466/</guid>
             <pubDate>Wed, 18 Mar 2026 16:59:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Asahi Remix 43 released</title>
-            <link>https://lwn.net/Articles/1063451/</link>
-            <description><![CDATA[<p>Fedora Asahi&#160;Remix&#160;43 <a
-href="https://fedoramagazine.org/fedora-asahi-remix-43-is-now-available/">is
-now available</a>:</p>
-
-<blockquote class="bq">
-<p>This release incorporates all the exciting improvements brought by
-<a
-href="https://fedoramagazine.org/announcing-fedora-linux-43/">Fedora
-Linux&#160;43</a>. Notably, package management is significantly
-upgraded with <a
-href="https://rpm.org/releases/6.0.0">RPM&#160;6.0</a> and the new
-DNF5 backend for PackageKit for Plasma Discover and GNOME Software
-ahead of Fedora Linux&#160;44. It also continues to provide extensive
-device support. This includes newly added support for the Mac Pro,
-microphones in M2 Pro/Max MacBooks, and&#160;120Hz refresh rate for
-the built-in displays for MacBook Pro&#160;14/16 models.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1063451/</guid>
-            <pubDate>Wed, 18 Mar 2026 15:21:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Local-privilege escalation in snapd</title>
-            <link>https://lwn.net/Articles/1063453/</link>
-            <description><![CDATA[<p>Qualys has <a
-href="https://blog.qualys.com/vulnerabilities-threat-research/2026/03/17/cve-2026-3888-important-snap-flaw-enables-local-privilege-escalation-to-root">discovered
-a local-privilege escalation (LPE) vulnerability</a> affecting Ubuntu
-Desktop 24.04 and later:</p>
-
-<blockquote class="bq">
-This flaw (CVE-2026-3888) allows an unprivileged local attacker to
-escalate privileges to full root access through the interaction of two
-standard system components: snap-confine and systemd-tmpfiles.
-</blockquote>
-
-<p>More details are available in the <a
-href="https://cdn2.qualys.com/advisory/2026/03/17/snap-confine-systemd-tmpfiles.txt">security
-advisory</a>. Canonical has published updated packages as well as <a
-href="https://discourse.ubuntu.com/t/snapd-local-privilege-escalation-cve-2026-3888/78627">instructions</a>
-for verifying if a system is vulnerable and how to upgrade if so.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1063453/</guid>
-            <pubDate>Wed, 18 Mar 2026 15:34:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
