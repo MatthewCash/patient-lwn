@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Mar 2026 13:10:50 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Mar 2026 14:13:02 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Mar 2026 15:35:01 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Mar 2026 15:42:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The forge is our new home (Fedora Community Blog)</title>
+            <link>https://lwn.net/Articles/1064809/</link>
+            <description><![CDATA[<p>Tomáš Hrčka has <a
+href="https://communityblog.fedoraproject.org/the-forge-is-our-new-home/">announced</a>
+that the <a href="https://forgejo.org/">Forgejo</a>-based <a
+href="https://forge.fedoraproject.org/">Fedora Forge</a> is now a
+fully operational collaborative-development platform; it is ready for
+use by the larger Fedora community, which means the homegrown <a
+href="https://pagure.io/">Pagure</a> platform's days are numbered:</p>
+
+<blockquote class="bq">
+<p>While pagure.io has been a vital part of our community for many
+years, the time has come to retire our homegrown forge and transition
+to this powerful new tool.</p>
+
+<p>The final cutover is planned for Flock to Fedora 2026. We strongly
+encourage teams to migrate their projects well before the conference
+to ensure a smooth transition. The pagure.io migration is only the
+first step in a broader infrastructure modernization effort. By the
+2027 Fedora 46 release, we plan to retire all remaining Pagure
+instances across the project, including the package source
+repositories on src.fedoraproject.org. Getting familiar with Fedora
+Forge now will help ensure your team is ready as the rest of the
+Fedora ecosystem transitions.</p>
+</blockquote>
+
+<p>There is a <a
+href="https://docs.fedoraproject.org/en-US/forge-documentation/migration/pagure_repository/">migration
+guide</a> for Fedora community members that own projects hosted on
+Pagure and need to move to the new forge.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1064809/</guid>
+            <pubDate>Thu, 26 Mar 2026 14:53:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1064761/</link>
@@ -449,22 +486,6 @@ upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1063723/</guid>
             <pubDate>Thu, 19 Mar 2026 16:08:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Radicle 1.7.0 released</title>
-            <link>https://lwn.net/Articles/1063712/</link>
-            <description><![CDATA[<p><a href="https://radicle.xyz/2026/03/18/radicle-1.7.0">Version
-1.7.0</a> ("Daffodil") of the Radicle peer-to-peer, local-first code
-collaboration stack has been released. Some of the changes in this
-release include improved I/O usage, the ability to block nodes at the
-connection level, and clearer errors for <tt>rad&#160;id</tt>
-updates. See the release notes for a full list of changes and bug
-fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1063712/</guid>
-            <pubDate>Thu, 19 Mar 2026 14:25:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
