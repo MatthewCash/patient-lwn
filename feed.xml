@@ -8,11 +8,137 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Mar 2026 23:31:30 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Mar 2026 23:59:14 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Mar 2026 00:41:35 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Mar 2026 02:51:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for March 19, 2026</title>
+            <link>https://lwn.net/Articles/1062571/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1062571/">Front</a>: Privacy battles; page-cache-timing protections; null filesystems; Fedora Sandbox; safer kmalloc(); BPF in io_uring.
+            <li> <a href="https://lwn.net/Articles/1062573/">Briefs</a>: AppArmor vulnerabilities; snapd vulnerability; Sashiko; DPL election; Fedora Asahi 43; GIMP 3.2; Marknote 1.5; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1062574/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1062571/</guid>
+            <pubDate>Thu, 19 Mar 2026 00:00:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Cindy Cohn on privacy battles old and new</title>
+            <link>https://lwn.net/Articles/1061979/</link>
+            <description><![CDATA[Cindy Cohn is the executive director of the <a
+href="https://www.eff.org/">Electronic Frontier Foundation</a> (EFF) and
+she gave the Saturday morning keynote at <a
+href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena
+about some of the work she and others have done to help protect online
+rights, especially digital privacy.  The talk recounted some of the history
+of the court cases that the organization has brought over the years to try
+to dial back privacy invasions. One underlying theme was the
+role that attendees can play in protecting our rights, hearkening back to
+earlier efforts by the technical community.]]></description>
+            <guid>https://lwn.net/Articles/1061979/</guid>
+            <pubDate>Wed, 18 Mar 2026 19:14:00 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] BPF comes to io_uring at last</title>
+            <link>https://lwn.net/Articles/1062286/</link>
+            <description><![CDATA[<p>
+The kernel's asynchronous
+<a href="https://man7.org/linux/man-pages/man7/io_uring.7.html">
+io_uring interface</a> maintains two shared ring buffers:
+a submission queue for sending requests to the kernel, and a completion queue
+containing the results of those requests. Even with shared memory removing much
+of the overhead of communicating with user space, there is still some overhead
+whenever the kernel must switch to user space to give it the opportunity to
+process completion requests and
+queue up any subsequent work items. A
+<a href="https://lwn.net/ml/all/cover.1772109579.git.asml.silence@gmail.com/">
+patch set</a> from Pavel Begunkov minimizes this overhead by letting
+programmers extend the io_uring event loop with a BPF program that can enqueue
+additional work in response to completion events. The patch set has
+<a href="https://lwn.net/Articles/847951/">been in development</a> for a long time, but has
+finally been accepted.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1062286/</guid>
+            <pubDate>Wed, 18 Mar 2026 14:57:14 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora ponders a &quot;sandbox&quot; technology lifecycle</title>
+            <link>https://lwn.net/Articles/1062579/</link>
+            <description><![CDATA[<p>Fedora Project Leader (FPL) Jef Spaleta has <a
+href="https://discussion.fedoraproject.org/t/a-modest-proposal-a-technology-innovation-lifecycle-process-for-fedora/182435">issued</a>
+a "<q>modest proposal</q>" for a technology-innovation-lifecycle process 
+that would provide more formal structure for adopting technologies in
+Fedora. The idea is to spur innovation in the project without having an adverse
+impact on stability or the release process. Spaleta's proposal is
+somewhat light on details, particularly as far as specific examples of
+which projects would benefit; however, the reception so far is mostly
+positive and some think that it could make Fedora more "competitive" by being the
+place where open-source projects come to grow.</p>]]></description>
+            <guid>https://lwn.net/Articles/1062579/</guid>
+            <pubDate>Tue, 17 Mar 2026 13:30:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A safer kmalloc() for 7.0</title>
+            <link>https://lwn.net/Articles/1062856/</link>
+            <description><![CDATA[A pull request that touches over 8,000 files, changing over 20,000 lines of
+code in the process, is (fortunately) not something that happens every day.
+It did happen at the end of the 7.0 merge window, though, when Linus
+Torvalds <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8934827db540">merged</a>
+an extensive set of changes by Kees Cook to the venerable <tt>kmalloc()</tt> API (and
+its users).  As a result of that work, though, the kernel has a new set of
+type-safe memory-allocation functions, with a last-minute bonus change to
+make the API a little easier to use.]]></description>
+            <guid>https://lwn.net/Articles/1062856/</guid>
+            <pubDate>Mon, 16 Mar 2026 14:22:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] More timing side-channels for the page cache</title>
+            <link>https://lwn.net/Articles/1061743/</link>
+            <description><![CDATA[<p>
+In 2019, researchers published a way to
+<a href="https://lwn.net/Articles/776801/">identify which file-backed pages</a>
+were being accessed on a system using timing information from the page cache,
+leading to a handful of unpleasant consequences and a change to the design of
+the
+<a href="https://www.man7.org/linux/man-pages/man2/mincore.2.html">
+<tt>mincore()</tt></a> system call. Discussion at the time
+<a href="https://lwn.net/Articles/778437/">led to a number of ad-hoc patches</a> to address the
+problem. The lack of new page-cache attacks suggested that attempts to fix
+things in a piecemeal fashion had succeeded. Now, however, Sudheendra Raghav Neela,
+Jonas Juffinger, Lukas Maar, and Daniel Gruss have
+<a href="https://snee.la/pdf/pubs/eviction-notice.pdf">found a new set of
+holes</a>  in the Linux kernel's page-cache-timing protections that allow
+the same general class of attack.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1061743/</guid>
+            <pubDate>Fri, 13 Mar 2026 13:59:14 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Practical uses for a null filesystem</title>
+            <link>https://lwn.net/Articles/1062163/</link>
+            <description><![CDATA[One of the first changes merged for the upcoming 7.0 release was <a
+href="https://lwn.net/ml/all/20260112-work-immutable-rootfs-v2-0-88dd1c34a204@kernel.org/">nullfs</a>,
+an empty filesystem that cannot actually contain any files.  One might
+logically wonder why the kernel would need such a thing.  It turns out,
+though, that there are places where a null filesystem can come in handy.
+For 7.0, nullfs will be used to make life a bit easier for <tt>init</tt>
+programs; future releases will likely use nullfs to increase the isolation
+of kernel threads from the init process.]]></description>
+            <guid>https://lwn.net/Articles/1062163/</guid>
+            <pubDate>Thu, 12 Mar 2026 14:58:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Setting up a Tor Relay at National Taiwan Normal University (Tor Blog)</title>
             <link>https://lwn.net/Articles/1064671/</link>
@@ -340,174 +466,6 @@ fixes.</p>
             <guid>https://lwn.net/Articles/1063659/</guid>
             <pubDate>Thu, 19 Mar 2026 13:01:03 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 12, 2026</title>
-            <link>https://lwn.net/Articles/1061465/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1061465/">Front</a>: Chardet; Linux and age verification; Debian AI; Python lazy imports; Python type-system PEP; PQC HTTPS certificates; MGLRU; Fedora strategy.
-            <li> <a href="https://lwn.net/Articles/1061467/">Briefs</a>: LLM vulnerability; NTP security; OpenWrt 25.12.0; SUSE sale; Buildroot 2026.02; digiKam 9.0.0; Rust 1.94.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1061468/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1061465/</guid>
-            <pubDate>Thu, 12 Mar 2026 00:08:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] California&apos;s Digital Age Assurance Act and Linux distributions</title>
-            <link>https://lwn.net/Articles/1062112/</link>
-            <description><![CDATA[<p>A recently enacted law in California imposes an age-verification requirement on
-operating-system providers beginning next year. The language of the <a
-href="https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB1043">Digital
-Age Assurance Act</a> does not restrict its requirements to proprietary or commercial
-operating systems; projects like Debian, FreeBSD, Fedora, and others seem to be on
-the hook just as much as Apple or Microsoft. There is some hope that the law will be
-amended, but there is no guarantee that it will be. This means that the developer
-communities behind Linux distributions are having to discuss whether and how to
-comply with the law with little time and even less legal guidance.</p>]]></description>
-            <guid>https://lwn.net/Articles/1062112/</guid>
-            <pubDate>Wed, 11 Mar 2026 17:35:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] HTTPS certificates in the age of quantum computing</title>
-            <link>https://lwn.net/Articles/1060941/</link>
-            <description><![CDATA[<p>
-There has been <a href="https://lwn.net/Articles/1048978/">ongoing discussion</a> in the
-<a href="https://www.ietf.org/">
-Internet Engineering Task Force</a> (IETF)
-about how to protect internet traffic against future quantum computers. So far,
-that work has focused on key exchange as the most urgent problem; now,
-<a href="https://datatracker.ietf.org/wg/plants/about/">
-a new IETF working group</a> is looking at adopting post-quantum cryptography
-for authentication and certificate transparency as well. The main challenge to
-doing so is the increased size of
-certificates — around 40 times larger. The techniques that the working group is investigating
-to reduce that overhead could have efficiency benefits for traditional
-certificates as well.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1060941/</guid>
-            <pubDate>Wed, 11 Mar 2026 13:26:54 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Disabling Python&apos;s lazy imports from the command line</title>
-            <link>https://lwn.net/Articles/1061112/</link>
-            <description><![CDATA[The advent of lazy imports in the Python language is upon us, now that <a
-href="https://peps.python.org/pep-0810/">PEP 810</a> ("Explicit lazy
-imports") was <a href="https://lwn.net/Articles/1044844/">accepted by the steering
-council</a> and the feature will appear in the upcoming Python 3.15 release
-in October.  There are a number of good reasons,
-performance foremost, for wanting to defer spending—perhaps wasting—the
-time to do an import before a needed symbol is used.  However, there are
-also good reasons <i>not</i> to want that behavior, at least in some cases.  The
-tension between those two positions is what led to an  <a
-href="https://lwn.net/Articles/917280/">earlier PEP rejection</a>,
-but it is also playing into a recent discussion of the API used to control
-lazy imports.]]></description>
-            <guid>https://lwn.net/Articles/1061112/</guid>
-            <pubDate>Tue, 10 Mar 2026 22:17:12 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debian decides not to decide on AI-generated contributions</title>
-            <link>https://lwn.net/Articles/1061544/</link>
-            <description><![CDATA[<p>Debian is the latest in an ever-growing list of projects to wrestle (<a
-href="https://lwn.net/ml/all/3qxsesyoouxh2h6fodosnln4wsyl3tpmnbcu6pqzekqkz6k577%40a2gos5jbaowf/">again</a>)
-with the question of LLM-generated contributions; the latest debate stared in
-mid-February, after
-Lucas Nussbaum <a
-href="https://lwn.net/ml/all/aZY_P6jA8cGYkev2%40grub.nussbaum.fr/">opened a
-discussion</a> with a draft general resolution (GR) on whether Debian should
-accept AI-assisted contributions. It seems to have, mostly, subsided without a GR
-being put forward or any decisions being made, but the conversation was illuminating
-nonetheless.</p>]]></description>
-            <guid>https://lwn.net/Articles/1061544/</guid>
-            <pubDate>Tue, 10 Mar 2026 13:23:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Inspecting and modifying Python types during type checking</title>
-            <link>https://lwn.net/Articles/1061083/</link>
-            <description><![CDATA[<p>
-Python has a
-<a href="https://lwn.net/Articles/958326/">
-unique approach to static typing</a>. Python programs can contain type
-annotations, and even access those annotations at run time, but the annotations
-aren't evaluated by default. Instead, it is up to external programs to ascribe
-meaning to those annotations. The annotations themselves can be arbitrary Python
-expressions, but in practice usually involve using helpers from the built-in
-<a href="https://docs.python.org/3/library/typing.html">
-<tt>typing</tt></a> module, the meanings of which external type-checkers mostly
-agree upon. Yet the type system implicitly defined by the <tt>typing</tt> module
-and common type-checkers is insufficiently powerful to model all of the kinds of
-dynamic metaprogramming found in real-world Python programs.
-<a href="https://peps.python.org/pep-0827/">PEP 827</a> ("Type Manipulation")
-aims to add additional
-capabilities to Python's type system to fix this, but
-<a href="https://discuss.python.org/t/pep-827-type-manipulation/106353">discussion</a>
-of the PEP has been of mixed sentiment.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1061083/</guid>
-            <pubDate>Mon, 09 Mar 2026 13:53:00 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora shares strategy updates and &quot;weird research university&quot; model</title>
-            <link>https://lwn.net/Articles/1060190/</link>
-            <description><![CDATA[<p>In early February, members of the <a href="https://docs.fedoraproject.org/en-US/council/">Fedora Council</a> met in Tirana,
-Albania to discuss and set the strategic direction for the Fedora Project. The
-council has <a
-href="https://discussion.fedoraproject.org/t/fedora-council-2026-strategy-summit-daily-briefings-summaries-tirana-albania/180535">published
-summaries</a> from its strategy summit, and Fedora Project Leader (FPL) Jed Spaleta,
-as well as some of the council members, held a video meeting to discuss outcomes from
-the summit on February&#160;25. Topics included a plan to experiment with <a
-href="https://opencollective.com/">Open Collective</a> to raise
-funds for specific Fedora projects, tools to build image-based editions, and
-more. Spaleta also explained his model for Fedora governance.</p>]]></description>
-            <guid>https://lwn.net/Articles/1060190/</guid>
-            <pubDate>Fri, 06 Mar 2026 17:33:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The relicensing of chardet</title>
-            <link>https://lwn.net/Articles/1061534/</link>
-            <description><![CDATA[<a
-href="https://github.com/chardet/chardet?tab=readme-ov-file#chardet">Chardet</a>
-is a Python module that attempts to determine which character set was used
-to encode a text string.  It was originally written by Mark Pilgrim, who is
-also the author of a number of Python books; the <a
-href="https://pypi.org/project/chardet/1.0/">1.0 release</a> happened in
-2006.  For many years, this module has been under the maintainership of
-Dan Blanchard.  Chardet has always been licensed under the LGPL, but, with
-the <a href="https://github.com/chardet/chardet/releases/tag/7.0.0">7.0.0
-release</a>, Blanchard changed the terms to the permissive MIT license.
-That has led to an extensive (and ongoing) discussion on when code can be
-relicensed against the wishes of its original author, and whether using a
-large language model to rewrite code is a legitimate way to strip copyleft
-requirements from code.]]></description>
-            <guid>https://lwn.net/Articles/1061534/</guid>
-            <pubDate>Thu, 05 Mar 2026 19:13:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reconsidering the multi-generational LRU</title>
-            <link>https://lwn.net/Articles/1060967/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/894859/">multi-generational LRU</a> (MGLRU) is an
-alternative memory-management algorithm that was merged for the 6.1 kernel
-in late 2022.  It brought a promise of much-improved performance and
-simplified code.  Since then, though, progress on MGLRU has stalled, and it
-still is not enabled on many systems.  As the <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">2026 Linux Storage,
-Filesystem, Memory-Management and BPF Summit</a> (LSFMM+BPF) approaches,
-several memory-management developers have indicated a desire to talk about
-the future of MGLRU.  While some developers are looking for ways to improve
-the subsystem, another has called for it to be removed entirely.]]></description>
-            <guid>https://lwn.net/Articles/1060967/</guid>
-            <pubDate>Thu, 05 Mar 2026 15:47:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
