@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Mar 2026 15:56:13 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Mar 2026 16:14:12 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Mar 2026 17:02:11 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Mar 2026 17:12:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The telnyx packages on PyPI have been compromised</title>
+            <link>https://lwn.net/Articles/1065059/</link>
+            <description><![CDATA[The SafeDep blog <a
+href="https://safedep.io/malicious-telnyx-pypi-compromise/">reports</a>
+that compromised versions of the telnyx package have been found in the PyPI
+repository:
+<p>
+<blockquote class="bq">
+	Two versions of <tt>telnyx</tt> (4.87.1 and 4.87.2) published to
+	PyPI on March 27, 2026 contain malicious code injected into
+	<tt>telnyx/_client.py</tt>. The telnyx package averages <b>over 1 million
+	downloads per month</b> (~30,000/day), making this a high-impact
+	supply chain compromise. The payload downloads a second-stage
+	binary hidden inside WAV audio files from a remote server, then
+	either drops a persistent executable on Windows or harvests
+	credentials on Linux/macOS.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1065059/</guid>
+            <pubDate>Fri, 27 Mar 2026 16:21:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Stable kernel update to fix regression on LoongArch platform</title>
             <link>https://lwn.net/Articles/1065018/</link>
