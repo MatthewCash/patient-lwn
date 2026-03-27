@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Mar 2026 17:02:11 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Mar 2026 18:05:58 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Mar 2026 19:02:24 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Mar 2026 19:13:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -445,38 +445,6 @@ notes</a> for details.]]></description>
             <guid>https://lwn.net/Articles/1064097/</guid>
             <pubDate>Fri, 20 Mar 2026 23:05:33 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Agama 19 released</title>
-            <link>https://lwn.net/Articles/1064067/</link>
-            <description><![CDATA[<p><a
-href="https://agama-project.github.io/blog/2026/03/20/agama-19">Version
-19</a> of the Agama installer for openSUSE and SUSE has been
-released. This release includes major changes in Agama's architectural
-design, organization of the web interface, and more.</p>
-
-<blockquote class="bq">
-<p>We always wanted Agama to follow the schema [...] in which the core of
-the installer could be controlled through a consistent and simple
-programming interface (an API, in developers jargon). In that schema,
-the web-based user interface, the command-line tools and the
-unattended installation are built on top of that generic API.</p>
-
-<p>But previous versions of Agama were full of quirks that didn't
-allow us to define an API that would match our quality standards as a
-solid foundation to build a simple but comprehensive installer. Agama
-19 represents a quite significant architectural overhaul, needed to
-leave all those quirks behind and to define mechanisms that can be the
-cornerstone for any future development.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1019688/#leap">last looked at
-Agama</a> in September 2025.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1064067/</guid>
-            <pubDate>Fri, 20 Mar 2026 18:41:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
