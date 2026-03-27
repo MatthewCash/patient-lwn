@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Mar 2026 13:10:15 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Mar 2026 13:15:46 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Mar 2026 13:45:29 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Mar 2026 14:18:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Stable kernel update to fix regression on LoongArch platform</title>
+            <link>https://lwn.net/Articles/1065018/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1065019/">6.12.79</a> stable kernel. This release
+only reverts a <a
+href="https://lwn.net/ml/all/20251213094950.1068951-1-chenhuacai%40loongson.cn/">patch</a>
+that caused a regression on the LoongArch platform; users who
+could not build 6.12.78 on LoongArch need to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1065018/</guid>
+            <pubDate>Fri, 27 Mar 2026 13:32:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1065015/</link>
@@ -439,14 +454,6 @@ Agama</a> in September 2025.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1064067/</guid>
             <pubDate>Fri, 20 Mar 2026 18:41:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1063990/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (capstone, glibc, grub2, kernel, libarchive, libpng, mysql, and python3.11), <b>Debian</b> (evolution-data-server, imagemagick, and snapd), <b>Fedora</b> (bpfman, chromium, cpp-httplib, dotnet10.0, openssh, polkit, and vim), <b>Mageia</b> (graphicsmagick, imagemagick, openssh, and perl-YAML-Syck), <b>Oracle</b> (capstone, grub2, kernel, mysql, and python-pyasn1), <b>Red Hat</b> (container-tools:rhel8, rhc, yggdrasil, and yggdrasil-worker-package-manager), <b>SUSE</b> (cargo1.92, cargo1.93, chromedriver, coturn, curl, freerdp, jq, kernel, libssh, php-composer2, python311-uv, python312, qemu, tomcat, util-linux, vim, and virtiofsd), and <b>Ubuntu</b> (exiv2, freerdp3, glance, linux, linux-aws, linux-aws-hwe, linux-gcp, linux-gcp-4.15, linux-hwe, linux-kvm, linux-oracle, and linux-aws-fips, linux-fips, linux-gcp-fips).]]></description>
-            <guid>https://lwn.net/Articles/1063990/</guid>
-            <pubDate>Fri, 20 Mar 2026 13:10:40 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
