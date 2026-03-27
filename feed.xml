@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Mar 2026 11:39:38 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Mar 2026 11:58:29 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Mar 2026 13:10:15 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Mar 2026 13:15:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1065015/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, gnutls, mysql:8.0, mysql:8.4, nginx, nginx:1.24, opencryptoki, python3, vim, and virt:rhel and virt-devel:rhel), <b>Debian</b> (firefox-esr, ruby-rack, and thunderbird), <b>Fedora</b> (fontforge, headscale, kryoptic, libopenmpt, pyOpenSSL, python-cryptography, rubygem-json, rust-asn1, rust-asn1_derive, rust-cryptoki, rust-cryptoki-sys, rust-wycheproof, vim, and vtk), <b>Oracle</b> (freerdp, golang, mysql:8.0, and ncurses), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (libpng and tigervnc), <b>SUSE</b> (chromium, frr, kea, kernel, nghttp2, pgvector, python-deepdiff, python-pyasn1, python-tornado6, python-urllib3, python3, python310, ruby2.5, salt, sqlite3, systemd, tomcat, vim, and xen), and <b>Ubuntu</b> (libcryptx-perl).]]></description>
+            <guid>https://lwn.net/Articles/1065015/</guid>
+            <pubDate>Fri, 27 Mar 2026 13:07:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The forge is our new home (Fedora Community Blog)</title>
             <link>https://lwn.net/Articles/1064809/</link>
