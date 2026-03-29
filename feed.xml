@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 29 Mar 2026 20:13:27 +0000</pubDate>
-        <lastBuildDate>Sun, 29 Mar 2026 23:03:03 +0000</lastBuildDate>
+        <pubDate>Sun, 29 Mar 2026 23:40:58 +0000</pubDate>
+        <lastBuildDate>Sun, 29 Mar 2026 23:49:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.0-rc6</title>
+            <link>https://lwn.net/Articles/1065194/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1065193/">7.0-rc6</a> kernel prepatch is out for
+testing.
+<p>
+<blockquote class="bq">
+	Anyway, exactly because it's just "more than usual" rather than
+	feeling *worse* than usual, I don't currently feel this merits
+	extending the release, and I still hope that next weekend will be
+	the last rc. But it's just a bit unnerving how this release doesn't
+	want to calm down, so no promises.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1065194/</guid>
+            <pubDate>Sun, 29 Mar 2026 23:28:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The telnyx packages on PyPI have been compromised</title>
             <link>https://lwn.net/Articles/1065059/</link>
