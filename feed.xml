@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Apr 2026 12:36:05 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Apr 2026 12:43:35 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Apr 2026 14:13:27 +0000</pubDate>
+        <lastBuildDate>Wed, 1 Apr 2026 14:20:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1065814/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, libxslt, python3.11, and python3.12), <b>Debian</b> (libpng1.6, lxd, netty, and python-tornado), <b>Fedora</b> (chunkah, cpp-httplib, firefox, freerdp, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, insight, python-gstreamer1, python3.14, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, rust-resctl-bench, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, and xen), <b>Mageia</b> (freeipmi, python-openssl, python-ply, ruby-rack, vim, and zlib), <b>Oracle</b> (firefox, freerdp, kernel, libpng, thunderbird, uek-kernel, and virt:ol and virt-devel:ol), <b>Red Hat</b> (golang), <b>SUSE</b> (bind, expat, fetchmail, ffmpeg-7, freerdp, gsl, incus, kernel, libjavamapscript, libjxl, libpng16-16, libpolkit-agent-1-0-127, net-snmp, net-tools, openexr, perl-XML-Parser, python-ldap, python-pyasn1, python-PyJWT, python311-requests, tailscale, thunderbird, tinyproxy, and ucode-intel), and <b>Ubuntu</b> (golang-golang-x-net-dev and ruby2.3, ruby2.5, ruby2.7, ruby3.0, ruby3.2, ruby3.3).]]></description>
+            <guid>https://lwn.net/Articles/1065814/</guid>
+            <pubDate>Wed, 01 Apr 2026 13:11:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1065585/</link>
