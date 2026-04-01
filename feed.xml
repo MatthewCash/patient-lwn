@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 01 Apr 2026 14:13:27 +0000</pubDate>
-        <lastBuildDate>Wed, 1 Apr 2026 14:20:01 +0000</lastBuildDate>
+        <pubDate>Wed, 01 Apr 2026 15:51:54 +0000</pubDate>
+        <lastBuildDate>Wed, 1 Apr 2026 15:53:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Servo 0.0.6 released</title>
+            <link>https://lwn.net/Articles/1065827/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/servo/servo/releases/tag/v0.0.6">Version
+0.0.6</a> of the Rust-based <a href="https://servo.org/">Servo</a> web
+browser rendering engine has been released. This release boasts a <a href="https://servo.org/blog/2026/03/31/february-in-servo/">long
+list of new features, performance enhancements, improvements, and bug
+fixes</a>. Some of the notable changes include <a
+href="https://servo.org/blog/2026/03/31/february-in-servo/#performance-and-stability">layout
+performance improvements</a>, a <tt>servo:config</tt> page for setting
+any preference, and <a
+href="https://servo.org/blog/2026/03/31/february-in-servo/#developer-tools">developer
+tools enhancements</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1065827/</guid>
+            <pubDate>Wed, 01 Apr 2026 14:25:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1065814/</link>
@@ -376,65 +396,6 @@ upon.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1064671/</guid>
             <pubDate>Wed, 25 Mar 2026 15:10:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1064634/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium), <b>Fedora</b> (chromium, containernetworking-plugins, musescore, and python-multipart), <b>Mageia</b> (perl-XML-Parser, roundcubemail, trilead-ssh2, vim, and webkit2), <b>Oracle</b> (389-ds:1.4, gimp:2.8, glibc, gnutls, kernel, libarchive, nginx:1.24, opencryptoki, python3, uek-kernel, vim, yggdrasil, and yggdrasil-worker-package-manager), <b>Red Hat</b> (delve, osbuild-composer, and skopeo), <b>Slackware</b> (mozilla), <b>SUSE</b> (dpkg, go1.26-openssl, gstreamer-plugins-ugly, kernel, libssh, ovmf, python-pyasn1, python-tornado6, python311, salt, sqlite3, and systemd), and <b>Ubuntu</b> (linux-aws-fips, linux-azure, linux-azure-fips, linux-fips, linux-gcp-fips, linux-iot, linux-kvm, pjproject, and redis).]]></description>
-            <guid>https://lwn.net/Articles/1064634/</guid>
-            <pubDate>Wed, 25 Mar 2026 13:57:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Five new stable kernels</title>
-            <link>https://lwn.net/Articles/1064648/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1064650/">6.19.10</a>, <a href="https://lwn.net/Articles/1064652/">6.18.20</a>, <a
-href="https://lwn.net/Articles/1064654/">6.12.78</a>, <a href="https://lwn.net/Articles/1064659/">6.6.130</a>, and
-<a href="https://lwn.net/Articles/1064663/">6.1.167</a> stable kernels. Each contains important
-fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1064648/</guid>
-            <pubDate>Wed, 25 Mar 2026 14:05:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LibreQoS v2.0 released</title>
-            <link>https://lwn.net/Articles/1064669/</link>
-            <description><![CDATA[<p><a href="https://libreqos.io/2026/03/19/libreqos-v2-0/">Version
-2.0</a> of the LibreQoS traffic-management and network operations
-platform has been released.</p>
-
-<blockquote class="bq">
-<p>This release makes LibreQoS easier to operate, easier to understand,
-and much more useful for day-to-day network work. Now users can see
-more of what is happening across the network, troubleshoot subscriber
-issues with better tools, and work from a much stronger local
-WebUI.</p>
-
-<p>This release includes many capabilities that reflect ideas and
-direction long championed by our late colleague, Dave Täht.</p>
-
-<p>Dave's work helped shape the understanding of bufferbloat and the
-importance of latency under load across the networking community. His
-influence continues to guide both LibreQoS and the broader effort to
-improve Internet quality.</p>
-</blockquote>
-
-<p>The project has also <a
-href="https://libreqos.io/2026/03/23/libreqos-bufferbloat-test-v2/">announced</a>
-the release of the <a
-href="https://bufferbloat.libreqos.com/">LibreQoS Bufferbloat Test
-v2</a>, also dedicated to Täht. It runs in a user's browser to look at
-"<q>latency under load, jitter, loss, and what those things mean for
-the kinds of traffic people actually care about: browsing, streaming,
-video calls, audio calls, backups, and gaming</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1064669/</guid>
-            <pubDate>Wed, 25 Mar 2026 14:46:32 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
