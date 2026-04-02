@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Apr 2026 00:52:56 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Apr 2026 02:35:51 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Apr 2026 04:23:44 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Apr 2026 04:55:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -380,132 +380,6 @@ Pagure and need to move to the new forge.</p>
             <guid>https://lwn.net/Articles/1064761/</guid>
             <pubDate>Thu, 26 Mar 2026 13:10:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 19, 2026</title>
-            <link>https://lwn.net/Articles/1062571/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1062571/">Front</a>: Privacy battles; page-cache-timing protections; null filesystems; Fedora Sandbox; safer kmalloc(); BPF in io_uring.
-            <li> <a href="https://lwn.net/Articles/1062573/">Briefs</a>: AppArmor vulnerabilities; snapd vulnerability; Sashiko; DPL election; Fedora Asahi 43; GIMP 3.2; Marknote 1.5; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1062574/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1062571/</guid>
-            <pubDate>Thu, 19 Mar 2026 00:00:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Cindy Cohn on privacy battles old and new</title>
-            <link>https://lwn.net/Articles/1061979/</link>
-            <description><![CDATA[Cindy Cohn is the executive director of the <a
-href="https://www.eff.org/">Electronic Frontier Foundation</a> (EFF) and
-she gave the Saturday morning keynote at <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena
-about some of the work she and others have done to help protect online
-rights, especially digital privacy.  The talk recounted some of the history
-of the court cases that the organization has brought over the years to try
-to dial back privacy invasions. One underlying theme was the
-role that attendees can play in protecting our rights, hearkening back to
-earlier efforts by the technical community.]]></description>
-            <guid>https://lwn.net/Articles/1061979/</guid>
-            <pubDate>Wed, 18 Mar 2026 19:14:00 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] BPF comes to io_uring at last</title>
-            <link>https://lwn.net/Articles/1062286/</link>
-            <description><![CDATA[<p>
-The kernel's asynchronous
-<a href="https://man7.org/linux/man-pages/man7/io_uring.7.html">
-io_uring interface</a> maintains two shared ring buffers:
-a submission queue for sending requests to the kernel, and a completion queue
-containing the results of those requests. Even with shared memory removing much
-of the overhead of communicating with user space, there is still some overhead
-whenever the kernel must switch to user space to give it the opportunity to
-process completion requests and
-queue up any subsequent work items. A
-<a href="https://lwn.net/ml/all/cover.1772109579.git.asml.silence@gmail.com/">
-patch set</a> from Pavel Begunkov minimizes this overhead by letting
-programmers extend the io_uring event loop with a BPF program that can enqueue
-additional work in response to completion events. The patch set has
-<a href="https://lwn.net/Articles/847951/">been in development</a> for a long time, but has
-finally been accepted.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1062286/</guid>
-            <pubDate>Wed, 18 Mar 2026 14:57:14 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora ponders a &quot;sandbox&quot; technology lifecycle</title>
-            <link>https://lwn.net/Articles/1062579/</link>
-            <description><![CDATA[<p>Fedora Project Leader (FPL) Jef Spaleta has <a
-href="https://discussion.fedoraproject.org/t/a-modest-proposal-a-technology-innovation-lifecycle-process-for-fedora/182435">issued</a>
-a "<q>modest proposal</q>" for a technology-innovation-lifecycle process 
-that would provide more formal structure for adopting technologies in
-Fedora. The idea is to spur innovation in the project without having an adverse
-impact on stability or the release process. Spaleta's proposal is
-somewhat light on details, particularly as far as specific examples of
-which projects would benefit; however, the reception so far is mostly
-positive and some think that it could make Fedora more "competitive" by being the
-place where open-source projects come to grow.</p>]]></description>
-            <guid>https://lwn.net/Articles/1062579/</guid>
-            <pubDate>Tue, 17 Mar 2026 13:30:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A safer kmalloc() for 7.0</title>
-            <link>https://lwn.net/Articles/1062856/</link>
-            <description><![CDATA[A pull request that touches over 8,000 files, changing over 20,000 lines of
-code in the process, is (fortunately) not something that happens every day.
-It did happen at the end of the 7.0 merge window, though, when Linus
-Torvalds <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=8934827db540">merged</a>
-an extensive set of changes by Kees Cook to the venerable <tt>kmalloc()</tt> API (and
-its users).  As a result of that work, though, the kernel has a new set of
-type-safe memory-allocation functions, with a last-minute bonus change to
-make the API a little easier to use.]]></description>
-            <guid>https://lwn.net/Articles/1062856/</guid>
-            <pubDate>Mon, 16 Mar 2026 14:22:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] More timing side-channels for the page cache</title>
-            <link>https://lwn.net/Articles/1061743/</link>
-            <description><![CDATA[<p>
-In 2019, researchers published a way to
-<a href="https://lwn.net/Articles/776801/">identify which file-backed pages</a>
-were being accessed on a system using timing information from the page cache,
-leading to a handful of unpleasant consequences and a change to the design of
-the
-<a href="https://www.man7.org/linux/man-pages/man2/mincore.2.html">
-<tt>mincore()</tt></a> system call. Discussion at the time
-<a href="https://lwn.net/Articles/778437/">led to a number of ad-hoc patches</a> to address the
-problem. The lack of new page-cache attacks suggested that attempts to fix
-things in a piecemeal fashion had succeeded. Now, however, Sudheendra Raghav Neela,
-Jonas Juffinger, Lukas Maar, and Daniel Gruss have
-<a href="https://snee.la/pdf/pubs/eviction-notice.pdf">found a new set of
-holes</a>  in the Linux kernel's page-cache-timing protections that allow
-the same general class of attack.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1061743/</guid>
-            <pubDate>Fri, 13 Mar 2026 13:59:14 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Practical uses for a null filesystem</title>
-            <link>https://lwn.net/Articles/1062163/</link>
-            <description><![CDATA[One of the first changes merged for the upcoming 7.0 release was <a
-href="https://lwn.net/ml/all/20260112-work-immutable-rootfs-v2-0-88dd1c34a204@kernel.org/">nullfs</a>,
-an empty filesystem that cannot actually contain any files.  One might
-logically wonder why the kernel would need such a thing.  It turns out,
-though, that there are places where a null filesystem can come in handy.
-For 7.0, nullfs will be used to make life a bit easier for <tt>init</tt>
-programs; future releases will likely use nullfs to increase the isolation
-of kernel threads from the init process.]]></description>
-            <guid>https://lwn.net/Articles/1062163/</guid>
-            <pubDate>Thu, 12 Mar 2026 14:58:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
