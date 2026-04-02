@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Apr 2026 14:03:18 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Apr 2026 14:09:42 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Apr 2026 15:14:44 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Apr 2026 15:17:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -451,14 +451,6 @@ Pagure and need to move to the new forge.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1064809/</guid>
             <pubDate>Thu, 26 Mar 2026 14:53:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1064761/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (awstats, firefox-esr, and nss), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, freerdp, and wireshark), <b>Mageia</b> (graphicsmagick and xen), <b>Oracle</b> (mysql:8.4 and nginx), <b>Red Hat</b> (podman), <b>Slackware</b> (bind and tigervnc), <b>SUSE</b> (azure-storage-azcopy, firefox-esr, giflib, glances-common, govulncheck-vulndb, grafana, kernel, libpng16, libsoup, mumble, net-snmp, perl-Crypt-URandom, pgvector-devel, pnpm, postgresql17, Prometheus, protobuf, python-cbor2, python-Jinja2, python-simpleeval, python311-dynaconf, python311-pydicom, python313-PyMuPDF, salt, snpguest, systemd, and vim), and <b>Ubuntu</b> (bind9, linux-azure, linux-azure, linux-azure-6.17, linux-azure-6.8, and mbedtls).]]></description>
-            <guid>https://lwn.net/Articles/1064761/</guid>
-            <pubDate>Thu, 26 Mar 2026 13:10:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
