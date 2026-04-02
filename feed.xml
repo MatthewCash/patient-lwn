@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Apr 2026 15:14:44 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Apr 2026 15:17:11 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Apr 2026 16:05:06 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Apr 2026 16:31:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -414,43 +414,6 @@ could not build 6.12.78 on LoongArch need to upgrade.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, gnutls, mysql:8.0, mysql:8.4, nginx, nginx:1.24, opencryptoki, python3, vim, and virt:rhel and virt-devel:rhel), <b>Debian</b> (firefox-esr, ruby-rack, and thunderbird), <b>Fedora</b> (fontforge, headscale, kryoptic, libopenmpt, pyOpenSSL, python-cryptography, rubygem-json, rust-asn1, rust-asn1_derive, rust-cryptoki, rust-cryptoki-sys, rust-wycheproof, vim, and vtk), <b>Oracle</b> (freerdp, golang, mysql:8.0, and ncurses), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (libpng and tigervnc), <b>SUSE</b> (chromium, frr, kea, kernel, nghttp2, pgvector, python-deepdiff, python-pyasn1, python-tornado6, python-urllib3, python3, python310, ruby2.5, salt, sqlite3, systemd, tomcat, vim, and xen), and <b>Ubuntu</b> (libcryptx-perl).]]></description>
             <guid>https://lwn.net/Articles/1065015/</guid>
             <pubDate>Fri, 27 Mar 2026 13:07:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The forge is our new home (Fedora Community Blog)</title>
-            <link>https://lwn.net/Articles/1064809/</link>
-            <description><![CDATA[<p>Tomáš Hrčka has <a
-href="https://communityblog.fedoraproject.org/the-forge-is-our-new-home/">announced</a>
-that the <a href="https://forgejo.org/">Forgejo</a>-based <a
-href="https://forge.fedoraproject.org/">Fedora Forge</a> is now a
-fully operational collaborative-development platform; it is ready for
-use by the larger Fedora community, which means the homegrown <a
-href="https://pagure.io/">Pagure</a> platform's days are numbered:</p>
-
-<blockquote class="bq">
-<p>While pagure.io has been a vital part of our community for many
-years, the time has come to retire our homegrown forge and transition
-to this powerful new tool.</p>
-
-<p>The final cutover is planned for Flock to Fedora 2026. We strongly
-encourage teams to migrate their projects well before the conference
-to ensure a smooth transition. The pagure.io migration is only the
-first step in a broader infrastructure modernization effort. By the
-2027 Fedora 46 release, we plan to retire all remaining Pagure
-instances across the project, including the package source
-repositories on src.fedoraproject.org. Getting familiar with Fedora
-Forge now will help ensure your team is ready as the rest of the
-Fedora ecosystem transitions.</p>
-</blockquote>
-
-<p>There is a <a
-href="https://docs.fedoraproject.org/en-US/forge-documentation/migration/pagure_repository/">migration
-guide</a> for Fedora community members that own projects hosted on
-Pagure and need to move to the new forge.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1064809/</guid>
-            <pubDate>Thu, 26 Mar 2026 14:53:36 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
