@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Apr 2026 14:04:37 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Apr 2026 14:07:55 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Apr 2026 14:18:14 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Apr 2026 15:03:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>No kidding: Gentoo GNU/Hurd</title>
+            <link>https://lwn.net/Articles/1066241/</link>
+            <description><![CDATA[<p>On April 1, the Gentoo Linux project published a blog post
+announcing that it was switching to <a
+href="https://www.gnu.org/software/hurd/">GNU Hurd</a> as its primary
+kernel as an April Fool's joke. While that is not true, the project
+has followed up with <a
+href="https://www.gentoo.org/news/2026/04/01/gentoo-hurd.html">an announcement</a>
+of a new Gentoo port to the Hurd:</p>
+
+<blockquote class="bq">
+<p>Our crack team has been working hard to port Gentoo to the Hurd and
+can now share that they've succeeded, though it remains still in a
+heavily experimental stage. You can try Gentoo GNU/Hurd using a
+pre-prepared disk image. The easiest way to do this is with QEMU
+[...]</p>
+
+<p>We have developed scripts to build this image locally and
+conveniently work on further development of the Hurd port. Release
+media like stages and automated image builds are future goals, as is
+feature parity on x86-64. Further contributions are welcome,
+encouraged, and needed. Be patient, expect to get your hands dirty,
+anticipate breakage, and have fun!</p>
+
+<p>Oh, and Gentoo GNU/Hurd also works on real hardware!</p>
+</blockquote>
+
+<p>Text for the April Fool's post is available at the bottom of the
+real announcement.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1066241/</guid>
+            <pubDate>Fri, 03 Apr 2026 14:12:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1066236/</link>
@@ -446,21 +482,6 @@ repository:
             <guid>https://lwn.net/Articles/1065059/</guid>
             <pubDate>Fri, 27 Mar 2026 16:21:17 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel update to fix regression on LoongArch platform</title>
-            <link>https://lwn.net/Articles/1065018/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1065019/">6.12.79</a> stable kernel. This release
-only reverts a <a
-href="https://lwn.net/ml/all/20251213094950.1068951-1-chenhuacai%40loongson.cn/">patch</a>
-that caused a regression on the LoongArch platform; users who
-could not build 6.12.78 on LoongArch need to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1065018/</guid>
-            <pubDate>Fri, 27 Mar 2026 13:32:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
