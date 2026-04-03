@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Apr 2026 12:55:23 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Apr 2026 13:03:54 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Apr 2026 14:04:37 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Apr 2026 14:07:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1066236/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, kernel, rsync, and thunderbird), <b>Debian</b> (chromium, inetutils, and libpng1.6), <b>Fedora</b> (bind9-next, nginx-mod-modsecurity, and openbao), <b>Mageia</b> (firefox, nss and thunderbird), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (conftest, dnsdist, ignition, libsoup, libsoup2, LibVNCServer, libXvnc-devel, opensc, ovmf-202602, perl-Crypt-URandom, python-tornado, python311-ecdsa, python311-Pygments, python315, tar, and wireshark), and <b>Ubuntu</b> (cairo, jpeg-xl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17,
+ linux-hwe-6.17, linux-realtime, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
+ linux-lowlatency, linux-nvidia, linux-raspi, linux-fips, linux-fips, linux-aws-fips, linux-fips, linux-aws-fips, linux-gcp-fips, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).]]></description>
+            <guid>https://lwn.net/Articles/1066236/</guid>
+            <pubDate>Fri, 03 Apr 2026 13:24:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>What the FCC router ban means for FOSS</title>
             <link>https://lwn.net/Articles/1066162/</link>
@@ -450,14 +460,6 @@ could not build 6.12.78 on LoongArch need to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1065018/</guid>
             <pubDate>Fri, 27 Mar 2026 13:32:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1065015/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, gnutls, mysql:8.0, mysql:8.4, nginx, nginx:1.24, opencryptoki, python3, vim, and virt:rhel and virt-devel:rhel), <b>Debian</b> (firefox-esr, ruby-rack, and thunderbird), <b>Fedora</b> (fontforge, headscale, kryoptic, libopenmpt, pyOpenSSL, python-cryptography, rubygem-json, rust-asn1, rust-asn1_derive, rust-cryptoki, rust-cryptoki-sys, rust-wycheproof, vim, and vtk), <b>Oracle</b> (freerdp, golang, mysql:8.0, and ncurses), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (libpng and tigervnc), <b>SUSE</b> (chromium, frr, kea, kernel, nghttp2, pgvector, python-deepdiff, python-pyasn1, python-tornado6, python-urllib3, python3, python310, ruby2.5, salt, sqlite3, systemd, tomcat, vim, and xen), and <b>Ubuntu</b> (libcryptx-perl).]]></description>
-            <guid>https://lwn.net/Articles/1065015/</guid>
-            <pubDate>Fri, 27 Mar 2026 13:07:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
