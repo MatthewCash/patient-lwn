@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 Apr 2026 13:21:47 +0000</pubDate>
-        <lastBuildDate>Sun, 5 Apr 2026 13:31:30 +0000</lastBuildDate>
+        <pubDate>Sun, 05 Apr 2026 13:56:10 +0000</pubDate>
+        <lastBuildDate>Sun, 5 Apr 2026 14:08:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Hackers breached the European Commission (The Next Web)</title>
+            <link>https://lwn.net/Articles/1066371/</link>
+            <description><![CDATA[LWN recently <a href="https://lwn.net/Articles/1064693/">reported on</a> the Trivy
+compromise that led, in turn, to the compromise of the LiteLLM system; that
+article made the point that the extent of the problem was likely rather
+larger than was known.  The Next Web now <a
+href="https://thenextweb.com/news/european-commission-breach-trivy-supply-chain">reports</a>
+that the Trivy attack was used to compromise a wide range of European
+Commission systems.
+<p>
+<blockquote class="bq">
+	The European Union's computer emergency response team said on
+	Thursday that a supply chain attack on an open-source security
+	scanner gave hackers the keys to the European Commission's cloud
+	infrastructure, resulting in the theft and public leak of
+	approximately 92 gigabytes of compressed data including the
+	personal information and email contents of staff across dozens of
+	EU institutions.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1066371/</guid>
+            <pubDate>Sun, 05 Apr 2026 13:55:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>No kidding: Gentoo GNU/Hurd</title>
             <link>https://lwn.net/Articles/1066241/</link>
