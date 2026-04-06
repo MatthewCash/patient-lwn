@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Apr 2026 15:46:05 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Apr 2026 17:28:13 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Apr 2026 17:51:50 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Apr 2026 18:13:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -456,44 +456,6 @@ exploits.
             <guid>https://lwn.net/Articles/1065586/</guid>
             <pubDate>Tue, 31 Mar 2026 13:26:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Rspamd version 4.0.0 released</title>
-            <link>https://lwn.net/Articles/1065476/</link>
-            <description><![CDATA[<a href="https://github.com/rspamd/rspamd/releases/tag/4.0.0">Version
-4.0.0</a> of the <a
-href="https://github.com/rspamd/rspamd?tab=readme-ov-file#introduction">Rspamd</a>
-spam-filtering system has been released. Notable new features include
-HTML fuzzy phishing detection, support for up to eight flags with <a
-href="https://docs.rspamd.com/tutorials/fuzzy_storage/">fuzzy
-hashes</a>, and more. See the <a
-href="https://docs.rspamd.com/changelog/">changelog</a> for more on
-improvements, breaking changes, and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1065476/</guid>
-            <pubDate>Mon, 30 Mar 2026 17:12:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>SystemRescue 13.00 released</title>
-            <link>https://lwn.net/Articles/1065480/</link>
-            <description><![CDATA[<p>SystemRescue 13.00 has been <a
-href="https://www.system-rescue.org/Changes-x86/">released</a>. The
-SystemRescue distribution is a live boot system-rescue toolkit, based
-on Arch Linux, for repairing systems in the event of a crash. This
-release includes the 6.18.20 LTS kernel, updates bcachefs tools and
-kernel module to 1.37.3, and <a
-href="https://www.system-rescue.org/Detailed-packages-list/">many
-upgraded packages</a>. See the <a
-href="https://www.system-rescue.org/Books/">step-by-step guide</a> for
-instructions on performing common operations such as recovering files,
-creating disk clones, and resetting lost passwords.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1065480/</guid>
-            <pubDate>Mon, 30 Mar 2026 17:25:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
