@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 Apr 2026 21:11:22 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Apr 2026 00:04:03 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Apr 2026 02:40:36 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Apr 2026 03:42:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.0-rc7</title>
+            <link>https://lwn.net/Articles/1066406/</link>
+            <description><![CDATA[Linus has released <a href="https://lwn.net/Articles/1066405/">7.0-rc7</a> for testing.
+"<q>Things look set for a final release next weekend, but please keep
+testing.  The Easter bunny is watching</q>".]]></description>
+            <guid>https://lwn.net/Articles/1066406/</guid>
+            <pubDate>Mon, 06 Apr 2026 01:01:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Hackers breached the European Commission (The Next Web)</title>
             <link>https://lwn.net/Articles/1066371/</link>
