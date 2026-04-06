@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Apr 2026 09:27:39 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Apr 2026 12:01:15 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Apr 2026 13:16:06 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Apr 2026 13:41:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1066505/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, kernel, libpng12, libpng15, perl-YAML-Syck, python3, and rsync), <b>Debian</b> (dovecot, libxml-parser-perl, pyasn1, python-tornado, roundcube, tor, trafficserver, and valkey), <b>Fedora</b> (bind9-next, chromium, cmake, domoticz, freerdp, giflib, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, libgsasl, libinput, libopenmpt, mapserver, mingw-binutils, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-libpng, mingw-python3, nginx-mod-modsecurity, openbao, python-gstreamer1, python3.12, python3.13, python3.14, python3.9, rust, rust-sccache, tcpflow, and vim), <b>Red Hat</b> (ncurses), <b>Slackware</b> (infozip and krita), <b>SUSE</b> (chromium, corosync, keybase-client, libinput-devel, osslsigncode, python-pillow, python311-Flask-Cors, python313, and python314), and <b>Ubuntu</b> (libarchive and spip).]]></description>
+            <guid>https://lwn.net/Articles/1066505/</guid>
+            <pubDate>Mon, 06 Apr 2026 13:16:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.0-rc7</title>
             <link>https://lwn.net/Articles/1066406/</link>
