@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Apr 2026 11:55:29 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Apr 2026 12:44:22 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Apr 2026 14:11:37 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Apr 2026 14:18:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1066665/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (crun, kernel, and kernel-rt), <b>Debian</b> (dovecot), <b>Fedora</b> (calibre and nextcloud), <b>Mageia</b> (freerdp, polkit-122, python-nltk, python-pyasn1, vim, and xz), <b>Red Hat</b> (edk2 and openssl), <b>SUSE</b> (avahi, cockpit, python-pyOpenSSL, python311, and tar), and <b>Ubuntu</b> (lambdaisland-uri-clojure, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-oem-6.17, and linux-realtime-6.17).]]></description>
+            <guid>https://lwn.net/Articles/1066665/</guid>
+            <pubDate>Tue, 07 Apr 2026 13:07:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Introducing the FreeBSD laptop integration testing project</title>
             <link>https://lwn.net/Articles/1066593/</link>
@@ -448,52 +456,6 @@ tools enhancements</a>.</p>
             <guid>https://lwn.net/Articles/1065814/</guid>
             <pubDate>Wed, 01 Apr 2026 13:11:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1065585/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, kernel, and kernel-rt), <b>Debian</b> (phpseclib and roundcube), <b>Fedora</b> (bind, bind-dyndb-ldap, dotnet8.0, dotnet9.0, firefox, freerdp, mingw-expat, musescore, nss, ntpd-rs, perl-YAML-Syck, php-phpseclib3, polkit, pyOpenSSL, python3.12, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, stgit, webkitgtk, and xen), <b>SUSE</b> (dovecot24, ImageMagick, jupyter-nbclassic, kernel, libjxl, libsuricata8_0_4, obs-service-recompress, obs-service-tar_scm, obs-service-set_version, openbao, perl-Crypt-URandom, plexus-utils, python-pyasn1, python-PyJWT, strongswan, traefik, traefik2, and webkit2gtk3), and <b>Ubuntu</b> (gst-plugins-base1.0, gst-plugins-good1.0, imagemagick, pillow, pyasn1, pyjwt, and roundcube).]]></description>
-            <guid>https://lwn.net/Articles/1065585/</guid>
-            <pubDate>Tue, 31 Mar 2026 13:09:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Vulnerability Research Is Cooked (sockpuppet.org)</title>
-            <link>https://lwn.net/Articles/1065586/</link>
-            <description><![CDATA[There is <a
-href="https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/">a
-blog post on sockpuppet.org</a> arguing that we are not prepared for the
-upcoming flood of high-quality, LLM-generated vulnerability reports and
-exploits.
-<p>
-<blockquote class="bq">
-	Now consider the poor open source developers who, for the last 18
-	months, have complained about a torrent of slop vulnerability
-	reports. I'd had mixed sympathies, but the complaints were at least
-	empirically correct. That could change real fast. The new models
-	find real stuff. Forget the slop; will projects be able to keep up
-	with a steady feed of verified, reproducible, reliably-exploitable
-	sev:hi vulnerabilities? That's what's coming down the pipe.
-<p>
-	Everything is up in the air. The industry is sold on memory-safe
-	software, but the shift is slow going. We've bought time with
-	sandboxing and attack surface restriction. How well will these
-	countermeasures hold up? A 4 layer system of sandboxes, kernels,
-	hypervisors, and IPC schemes are, to an agent, an iterated version
-	of the same problem. Agents will generate full-chain exploits, and
-	they will do so soon.
-<p>
-	Meanwhile, no defense looks flimsier now than closed source
-	code. Reversing was already mostly a speed-bump even for
-	entry-level teams, who lift binaries into IR or decompile them all
-	the way back to source. Agents can do this too, but they can also
-	reason directly from assembly. If you want a problem better suited
-	to LLMs than bug hunting, program translation is a good place to
-	start.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1065586/</guid>
-            <pubDate>Tue, 31 Mar 2026 13:26:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
