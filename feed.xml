@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Apr 2026 19:44:18 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Apr 2026 19:59:36 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Apr 2026 20:38:28 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Apr 2026 20:54:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -452,26 +452,6 @@ attempt at a framework for the specification and verification of kernel
 APIs.]]></description>
             <guid>https://lwn.net/Articles/1063303/</guid>
             <pubDate>Thu, 19 Mar 2026 14:19:32 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Turbulence at the Documentation Foundation</title>
-            <link>https://lwn.net/Articles/1065908/</link>
-            <description><![CDATA[Michael Meeks has posted <a
-href="https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/">an
-angry missive</a> about changes at the Document Foundation.  What has
-really happened is not entirely clear, but it seems to involve, at a
-minimum, the forced removal of all Collabora staff from the foundation.
-There has been a set of "thank you" notes to the people involved posted <a
-href="https://community.documentfoundation.org/c/board-discuss/26">in the
-foundation's forums</a>.  The Document Foundation's <a
-href="https://lwn.net/Articles/1060087/">decision to restart LibreOffice Online</a> almost
-certainly plays into this as well.
-<p>
-Details are fuzzy at best; we will be working at providing a clearer
-picture, but that will take some time.]]></description>
-            <guid>https://lwn.net/Articles/1065908/</guid>
-            <pubDate>Wed, 01 Apr 2026 19:46:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
