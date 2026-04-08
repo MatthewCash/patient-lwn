@@ -8,11 +8,56 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Apr 2026 13:14:03 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Apr 2026 13:20:08 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Apr 2026 14:53:20 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Apr 2026 14:53:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1066809/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (openssl), <b>Fedora</b> (corosync, goose, kea, pspp, and rauc), <b>Mageia</b> (python-pygments, roundcubemail, and tigervnc), <b>SUSE</b> (bind, gimp, google-cloud-sap-agent, govulncheck-vulndb, ignition, ImageMagick, python, python-PyJWT, and python-pyOpenSSL), and <b>Ubuntu</b> (adsys, juju-core, lxd, python-django, and salt).]]></description>
+            <guid>https://lwn.net/Articles/1066809/</guid>
+            <pubDate>Wed, 08 Apr 2026 13:28:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Nix privilege escalation security advisory</title>
+            <link>https://lwn.net/Articles/1066813/</link>
+            <description><![CDATA[<p>The NixOS project has <a
+href="https://discourse.nixos.org/t/nix-security-advisory-privilege-escalation-via-symlink-following-during-fod-output-registration/76900">announced
+a critical vulnerability</a> in many versions of the Nix package
+manager's daemon. The flaw was introduced as part of a fix for <a
+href="https://github.com/NixOS/nix/security/advisories/GHSA-2ffj-w4mj-pg37">a
+prior vulnerability in 2024</a>. According to the <a
+href="https://github.com/NixOS/nix/security/advisories/GHSA-g3g9-5vj6-r3gj">advisory</a>,
+all default configurations of NixOS and systems building untrusted <a
+href="https://nix.dev/manual/nix/2.28/language/derivations.html">derivations</a>
+are impacted.</p>
+
+<blockquote class="bq">
+<p>A bug in the fix for <a
+href="https://nvd.nist.gov/vuln/detail/CVE-2024-27297">CVE-2024-27297</a>
+allowed for arbitrary overwrites of files writable by the Nix process
+orchestrating the builds (typically the Nix daemon running as root in
+multi-user installations) by following symlinks during fixed-output
+derivation output registration. This affects sandboxed Linux builds -
+sandboxed macOS builds are unaffected. The location of the temporary
+output used for the output copy was located inside the build chroot. A
+symlink, pointing to an arbitrary location in the filesystem, could be
+created by the derivation builder at that path. During output
+registration, the Nix process (running in the host mount namespace)
+would follow that symlink and overwrite the destination with the
+derivation's output contents.</p>
+
+<p>In multi-user installations, this allows all users able to submit
+builds to the Nix daemon (<tt>allowed-users</tt> - defaulting to all users) to
+gain root privileges by modifying sensitive files.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1066813/</guid>
+            <pubDate>Wed, 08 Apr 2026 13:52:21 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1066665/</link>
@@ -447,14 +492,6 @@ tools enhancements</a>.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1065827/</guid>
             <pubDate>Wed, 01 Apr 2026 14:25:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1065814/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, libxslt, python3.11, and python3.12), <b>Debian</b> (libpng1.6, lxd, netty, and python-tornado), <b>Fedora</b> (chunkah, cpp-httplib, firefox, freerdp, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, insight, python-gstreamer1, python3.14, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, rust-resctl-bench, rust-scx_layered, rust-scx_rustland, rust-scx_rusty, and xen), <b>Mageia</b> (freeipmi, python-openssl, python-ply, ruby-rack, vim, and zlib), <b>Oracle</b> (firefox, freerdp, kernel, libpng, thunderbird, uek-kernel, and virt:ol and virt-devel:ol), <b>Red Hat</b> (golang), <b>SUSE</b> (bind, expat, fetchmail, ffmpeg-7, freerdp, gsl, incus, kernel, libjavamapscript, libjxl, libpng16-16, libpolkit-agent-1-0-127, net-snmp, net-tools, openexr, perl-XML-Parser, python-ldap, python-pyasn1, python-PyJWT, python311-requests, tailscale, thunderbird, tinyproxy, and ucode-intel), and <b>Ubuntu</b> (golang-golang-x-net-dev and ruby2.3, ruby2.5, ruby2.7, ruby3.0, ruby3.2, ruby3.3).]]></description>
-            <guid>https://lwn.net/Articles/1065814/</guid>
-            <pubDate>Wed, 01 Apr 2026 13:11:12 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
