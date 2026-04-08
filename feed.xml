@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Apr 2026 14:53:20 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Apr 2026 14:53:34 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Apr 2026 16:14:23 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Apr 2026 16:14:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,26 +473,6 @@ picture, but that will take some time.]]></description>
             <guid>https://lwn.net/Articles/1065908/</guid>
             <pubDate>Wed, 01 Apr 2026 19:46:40 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Servo 0.0.6 released</title>
-            <link>https://lwn.net/Articles/1065827/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/servo/servo/releases/tag/v0.0.6">Version
-0.0.6</a> of the Rust-based <a href="https://servo.org/">Servo</a> web
-browser rendering engine has been released. This release boasts a <a href="https://servo.org/blog/2026/03/31/february-in-servo/">long
-list of new features, performance enhancements, improvements, and bug
-fixes</a>. Some of the notable changes include <a
-href="https://servo.org/blog/2026/03/31/february-in-servo/#performance-and-stability">layout
-performance improvements</a>, a <tt>servo:config</tt> page for setting
-any preference, and <a
-href="https://servo.org/blog/2026/03/31/february-in-servo/#developer-tools">developer
-tools enhancements</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1065827/</guid>
-            <pubDate>Wed, 01 Apr 2026 14:25:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
