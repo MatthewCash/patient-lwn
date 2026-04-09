@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 09 Apr 2026 19:45:41 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Apr 2026 19:50:54 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 9 Apr 2026 20:52:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -374,50 +374,6 @@ real announcement.</p>
  linux-lowlatency, linux-nvidia, linux-raspi, linux-fips, linux-fips, linux-aws-fips, linux-fips, linux-aws-fips, linux-gcp-fips, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).]]></description>
             <guid>https://lwn.net/Articles/1066236/</guid>
             <pubDate>Fri, 03 Apr 2026 13:24:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>What the FCC router ban means for FOSS</title>
-            <link>https://lwn.net/Articles/1066162/</link>
-            <description><![CDATA[<p>Denver Gingerich of the Software Freedom Conservancy (SFC) has published
-an <a
-href="https://sfconservancy.org/blog/2026/apr/02/fcc-router-ban/">article</a>
-on the impact of the <a
-href="https://docs.fcc.gov/public/attachments/DOC-420034A1.pdf">ban on
-the sale of all new home routers</a> not made in the United States
-issued by the Federal Communications Commission (FCC). The SFC, of
-course, is the <a href="https://lwn.net/Articles/160704/">organization
-behind the OpenWrt One router</a>.</p>
-
-<blockquote class="bq">
-<p>Since software updates to already-FCC-approved devices do not
-require a new FCC approval, it appears the FCC is trying to move
-beyond its usual authorization procedures to restrict what
-manufacturers are allowed to push to existing routers. However, the
-FCC notably does not restrict software changes made by owners of
-routers in the U.S. In particular, there is no indication that updates
-people make to their own routers, using software they have sourced
-themselves, would run afoul of any past or present FCC rule.</p>
-
-<p>As a result, we do not believe that this new FCC decision affects
-whether and how people can run OpenWrt or other user-selected firmware
-updates on routers they have already purchased. Not only is this an
-important right in relation to our ownership and control of our own
-devices, it also ensures that people can keep their routers secure for
-far longer than the manufacturer may choose to provide security
-updates, by allowing them to install up-to-date community software
-that supports routers for 10, 15, or even more years after their
-initial release date, as OpenWrt does for many devices.</p>
-</blockquote>
-
-<p>He also notes that, as the OpenWrt One is already FCC-approved,
-there should be no impact on its availability in the US. The SFC has
-asked the FCC for clarification and plans to provide updates when they
-receive a reply.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1066162/</guid>
-            <pubDate>Thu, 02 Apr 2026 20:21:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
