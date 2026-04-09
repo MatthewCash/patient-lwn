@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Thu, 09 Apr 2026 02:04:34 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Apr 2026 02:11:36 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 9 Apr 2026 04:43:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -463,127 +463,6 @@ I pulled data from Sashiko's public API and tested both.
             <guid>https://lwn.net/Articles/1065971/</guid>
             <pubDate>Thu, 02 Apr 2026 13:27:33 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for March 26, 2026</title>
-            <link>https://lwn.net/Articles/1063660/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1063660/">Front</a>: Security collaboration; Manjaro governance; kernel development tools; PHP licensing; kernel direct map patches; sleepable BPF.
-            <li> <a href="https://lwn.net/Articles/1063662/">Briefs</a>: LiteLLM compromise; Tor in Taiwan; b4 v0.15.0; 24-hour sideloading; Agama 19; Firefox 149.0; GNOME 50; Krita 5.3.0 and 6.0.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1063663/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1063660/</guid>
-            <pubDate>Thu, 26 Mar 2026 00:41:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Collaboration for battling security incidents</title>
-            <link>https://lwn.net/Articles/1063459/</link>
-            <description><![CDATA[The keynote for <a href="https://www.sunseccon.org/2026/">Sun Security Con
-2026</a> (SunSecCon) was given by Farzan Karimi on how incident handling
-can go awry because of a lack of collaboration between the "good
-guys"—which stands in contrast to how attackers collaboratively operate.
-He provided some "war stories" where security incident handling had
-benefited from collaboration and others where it was hampered by its lack.
-SunSecCon was held in conjunction with <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena
-in early March.]]></description>
-            <guid>https://lwn.net/Articles/1063459/</guid>
-            <pubDate>Wed, 25 Mar 2026 17:07:17 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] More efficient removal of pages from the direct map</title>
-            <link>https://lwn.net/Articles/1064090/</link>
-            <description><![CDATA[The kernel's direct map provides code running in kernel mode with direct
-access to all physical memory installed in the system — on 64-bit systems,
-at least.  It obviously makes life easier for kernel developers, but the
-direct map also brings some problems of its own, most of which are
-security-related.  Interest in removing at least some pages from the direct
-map has been simmering for years; a couple of patch sets under 
-discussion show some use cases for memory that has been removed from the
-direct map, and how such memory might be efficiently managed.]]></description>
-            <guid>https://lwn.net/Articles/1064090/</guid>
-            <pubDate>Wed, 25 Mar 2026 14:32:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] A PHP license change is imminent</title>
-            <link>https://lwn.net/Articles/1063993/</link>
-            <description><![CDATA[<p>PHP's licensing has been a source of confusion for some time. The project is,
-currently, using two licenses that cover different parts of the code base: <a
-href="https://spdx.org/licenses/PHP-3.01.html">PHP v3.01</a> for the
-bulk of the code and <a
-href="https://spdx.org/licenses/Zend-2.0.html">Zend v2.0</a> for code
-in the <tt>Zend</tt> directory. Much has changed
-since the project settled on those licenses in 2006, and the need for custom
-licensing seems to have passed. An effort to simplify PHP's licensing, led by
-Ben Ramsey, is underway; if successful, the existing licenses will be deprecated
-and replaced by the <a href="https://spdx.org/licenses/BSD-3-Clause.html">BSD
-three-clause</a> license. The PHP community is now voting on the <a
-href="https://wiki.php.net/rfc/php_license_update#php_rfcphp_license_update">license
-update RFC</a> through April&#160;4, 2026.</p>]]></description>
-            <guid>https://lwn.net/Articles/1063993/</guid>
-            <pubDate>Tue, 24 Mar 2026 16:00:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Tracking when BPF programs may sleep</title>
-            <link>https://lwn.net/Articles/1062868/</link>
-            <description><![CDATA[<p>
-BPF programs can run in both sleepable and non-sleepable (atomic) contexts.
-Currently, sleepable BPF programs are not allowed to enter an atomic context.
-Puranjay Mohan has a
-<a href="https://lwn.net/ml/all/20260226161500.775715-1-puranjay@kernel.org/">
-new patch set</a> that changes that. The patch set would let BPF programs called
-in sleepable contexts temporarily acquire locks that cause the programs to
-transition to an atomic context. BPF maintainer Alexei
-Starovoitov objected to parts of the implementation, however, so acceptance of
-the patch depends on whether Mohan is willing and able to straighten it out.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1062868/</guid>
-            <pubDate>Mon, 23 Mar 2026 16:00:38 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A truce in the Manjaro governance struggle</title>
-            <link>https://lwn.net/Articles/1063717/</link>
-            <description><![CDATA[<p>Members of the <a href="https://manjaro.org/">Manjaro Linux</a> distribution's community have published
-a "<a
-href="https://forum.manjaro.org/t/manjaro-2-0-manifesto/186171">Manjaro&#160;2.0&#160;Manifesto</a>"
-that contains a list of complaints and a demand to restructure the project to provide
-a clear separation between the community and Manjaro as a company. The manifesto
-asserts that the project's leadership is not acting in the best interests of the
-community, which has caused developers to leave and innovation to stagnate. It
-also demands a handover of the Manjaro trademark and other assets to a
-to-be-formed nonprofit association. The responses on the <a
-href="https://forum.manjaro.org/">Manjaro forum</a> showed widespread support
-for the manifesto; Philip Müller, project lead and CEO of the Manjaro
-company, largely stayed out of the discussion. However, he surfaced
-on March&#160;19 to say he was "<q>open to serious discussions</q>", but only
-after a nonprofit had actually been set up.</p>]]></description>
-            <guid>https://lwn.net/Articles/1063717/</guid>
-            <pubDate>Fri, 20 Mar 2026 18:06:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development tools: Sashiko, b4 review, and API specification</title>
-            <link>https://lwn.net/Articles/1063303/</link>
-            <description><![CDATA[The kernel project has a unique approach to tooling that avoids many
-commonly used development systems that do not fit the community's scale and
-ways of working.  Another way of looking at the situation is that the kernel
-project has often under-invested in tooling, and sometimes seems bent on
-doing things the hard way.  In recent times, though, the amount of effort
-that has gone into development tools for the kernel has increased, with
-some interesting results.  Recent developments in this area include the
-Sashiko code-review system, a patch-review manager built into b4, and a new
-attempt at a framework for the specification and verification of kernel
-APIs.]]></description>
-            <guid>https://lwn.net/Articles/1063303/</guid>
-            <pubDate>Thu, 19 Mar 2026 14:19:32 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
