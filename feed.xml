@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Apr 2026 11:37:54 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Apr 2026 12:01:07 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Apr 2026 13:26:00 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Apr 2026 13:43:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1067200/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, fontforge, freerdp, go-toolset:rhel8, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good, kernel, kernel-rt, libtasn1, mariadb:10.11, mysql:8.4, nginx:1.24, openssh, pcs, python-jinja2, python3.9, ruby:3.1, vim, virt:rhel and virt-devel:rhel, and xmlrpc-c), <b>Debian</b> (libyaml-syck-perl and openssh), <b>Fedora</b> (cockpit, crun, dnsdist, doctl, fido-device-onboard, libcgif, libpng12, libpng15, mbedtls, opensc, and util-linux), <b>Red Hat</b> (git-lfs, go-toolset:rhel8, grafana, grafana-pcp, and rhc), <b>Slackware</b> (libpng), <b>SUSE</b> (389-ds, aws-c-event-stream, bind, cockpit, cockpit-repos, corepack24, dcmtk, dnsdist, docker-compose, expat, firefox, firefox-esr, gnome-online-accounts, gvfs, gnutls, jupyter-jupyterlab-templates, kea, libIex-3_4-33, libpng16, mapserver, perl-XML-Parser, postgresql13, postgresql16, python-Pillow, python311-lupa, thunderbird, tigervnc, and tomcat10), and <b>Ubuntu</b> (linux-azure-fips, linux-hwe, linux-intel-iot-realtime, linux-nvidia-tegra-5.15, openssl, openssl1.0, and python-django).]]></description>
+            <guid>https://lwn.net/Articles/1067200/</guid>
+            <pubDate>Fri, 10 Apr 2026 13:12:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1066972/</link>
