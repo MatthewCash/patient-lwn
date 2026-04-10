@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Apr 2026 13:26:00 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Apr 2026 13:43:20 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Apr 2026 14:37:43 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Apr 2026 14:39:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -372,16 +372,6 @@ real announcement.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1066241/</guid>
             <pubDate>Fri, 03 Apr 2026 14:12:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1066236/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, grafana, kernel, rsync, and thunderbird), <b>Debian</b> (chromium, inetutils, and libpng1.6), <b>Fedora</b> (bind9-next, nginx-mod-modsecurity, and openbao), <b>Mageia</b> (firefox, nss and thunderbird), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (conftest, dnsdist, ignition, libsoup, libsoup2, LibVNCServer, libXvnc-devel, opensc, ovmf-202602, perl-Crypt-URandom, python-tornado, python311-ecdsa, python311-Pygments, python315, tar, and wireshark), and <b>Ubuntu</b> (cairo, jpeg-xl, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17,
- linux-hwe-6.17, linux-realtime, linux, linux-aws, linux-aws-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-gcp, linux-gke, linux-gkeop, linux-ibm,
- linux-lowlatency, linux-nvidia, linux-raspi, linux-fips, linux-fips, linux-aws-fips, linux-fips, linux-aws-fips, linux-gcp-fips, and linux-realtime, linux-realtime-6.8, linux-raspi-realtime).]]></description>
-            <guid>https://lwn.net/Articles/1066236/</guid>
-            <pubDate>Fri, 03 Apr 2026 13:24:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
