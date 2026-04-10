@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Apr 2026 14:37:43 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Apr 2026 14:39:02 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Apr 2026 15:12:45 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Apr 2026 15:35:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -337,42 +337,6 @@ Commission systems.
             <guid>https://lwn.net/Articles/1066371/</guid>
             <pubDate>Sun, 05 Apr 2026 13:55:57 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>No kidding: Gentoo GNU/Hurd</title>
-            <link>https://lwn.net/Articles/1066241/</link>
-            <description><![CDATA[<p>On April 1, the Gentoo Linux project published a blog post
-announcing that it was switching to <a
-href="https://www.gnu.org/software/hurd/">GNU Hurd</a> as its primary
-kernel as an April Fool's joke. While that is not true, the project
-has followed up with <a
-href="https://www.gentoo.org/news/2026/04/01/gentoo-hurd.html">an announcement</a>
-of a new Gentoo port to the Hurd:</p>
-
-<blockquote class="bq">
-<p>Our crack team has been working hard to port Gentoo to the Hurd and
-can now share that they've succeeded, though it remains still in a
-heavily experimental stage. You can try Gentoo GNU/Hurd using a
-pre-prepared disk image. The easiest way to do this is with QEMU
-[...]</p>
-
-<p>We have developed scripts to build this image locally and
-conveniently work on further development of the Hurd port. Release
-media like stages and automated image builds are future goals, as is
-feature parity on x86-64. Further contributions are welcome,
-encouraged, and needed. Be patient, expect to get your hands dirty,
-anticipate breakage, and have fun!</p>
-
-<p>Oh, and Gentoo GNU/Hurd also works on real hardware!</p>
-</blockquote>
-
-<p>Text for the April Fool's post is available at the bottom of the
-real announcement.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1066241/</guid>
-            <pubDate>Fri, 03 Apr 2026 14:12:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
