@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 11 Apr 2026 11:53:56 +0000</pubDate>
-        <lastBuildDate>Sat, 11 Apr 2026 12:57:30 +0000</lastBuildDate>
+        <pubDate>Sat, 11 Apr 2026 13:27:37 +0000</pubDate>
+        <lastBuildDate>Sat, 11 Apr 2026 13:57:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A set of Saturday stable kernel updates</title>
+            <link>https://lwn.net/Articles/1067272/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1067273/">6.19.12</a>,
+<a href="https://lwn.net/Articles/1067274/">6.18.22</a>,
+<a href="https://lwn.net/Articles/1067275/">6.12.81</a>,
+<a href="https://lwn.net/Articles/1067276/">6.6.134</a>, and
+<a href="https://lwn.net/Articles/1067277/">6.1.168</a>
+stable kernel updates have been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1067272/</guid>
+            <pubDate>Sat, 11 Apr 2026 13:16:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1067200/</link>
