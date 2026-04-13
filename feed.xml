@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Apr 2026 13:41:18 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Apr 2026 14:48:50 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Apr 2026 16:04:23 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Apr 2026 16:13:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Servo now on crates.io</title>
+            <link>https://lwn.net/Articles/1067467/</link>
+            <description><![CDATA[<p>The <a href="https://servo.org/">Servo</a> project has <a
+href="https://servo.org/blog/2026/04/13/servo-0.1.0-release/">announced</a>
+the first release of <tt>servo</tt> as <a
+href="https://crates.io/crates/servo">a crate</a> for use as a
+library.</p>
+
+<blockquote class="bq">
+<p>As you can see from the version number, this release is not a 1.0
+release. In fact, we still haven't finished discussing what 1.0 means
+for Servo. Nevertheless, the increased version number reflects our
+growing confidence in Servo's embedding API and its ability to meet
+some users' needs.</p>
+
+<p>In the meantime we also decided to offer a long-term support (LTS)
+version of Servo, since breaking changes in the regular monthly
+releases are expected and some embedders might prefer doing major
+upgrades on a scheduled half-yearly basis while still receiving
+security updates and (hopefully!) some migration guides. For more
+details on the LTS release, see the respective <a
+href="https://book.servo.org/embedding/lts-release.html">section in
+the Servo book</a>.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1067467/</guid>
+            <pubDate>Mon, 13 Apr 2026 14:49:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1067436/</link>
