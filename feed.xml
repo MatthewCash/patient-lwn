@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Apr 2026 19:30:02 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Apr 2026 20:05:33 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Apr 2026 20:16:19 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Apr 2026 21:09:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -333,44 +333,6 @@ gain root privileges by modifying sensitive files.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (crun, kernel, and kernel-rt), <b>Debian</b> (dovecot), <b>Fedora</b> (calibre and nextcloud), <b>Mageia</b> (freerdp, polkit-122, python-nltk, python-pyasn1, vim, and xz), <b>Red Hat</b> (edk2 and openssl), <b>SUSE</b> (avahi, cockpit, python-pyOpenSSL, python311, and tar), and <b>Ubuntu</b> (lambdaisland-uri-clojure, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-oem-6.17, and linux-realtime-6.17).]]></description>
             <guid>https://lwn.net/Articles/1066665/</guid>
             <pubDate>Tue, 07 Apr 2026 13:07:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Introducing the FreeBSD laptop integration testing project</title>
-            <link>https://lwn.net/Articles/1066593/</link>
-            <description><![CDATA[<p>Recently, the FreeBSD Foundation has been <a
-href="https://freebsdfoundation.org/blog/freebsd-closes-the-laptop-gap-year-one-project-update/">making
-progress</a> on improving the operating system's support for modern
-laptop hardware. The foundation is now looking to expand testing to
-encompass a wider range of hardware; it has <a
-href="https://freebsdfoundation.org/blog/call-for-testing-introducing-the-laptop-integration-testing-project/">announced</a>
-a laptop integration testing project to allow the community to easily
-test FreeBSD's compatibility with laptops and submit the results.</p>
-
-<blockquote class="bq">
-<p>With limited access to testing systems, there's only so much we can
-do! We hope to work together with volunteers from the community who
-want FreeBSD to work well on their laptops.</p>
-
-<p>While we expect device hardware and software enumeration to be a
-fully automated process, we feel that manually-submitted comments
-about personal experience with FreeBSD are equally valuable. We plan
-to highlight this commentary on our "matrix of compatibility" webpage
-for each tested laptop.</p>
-
-<p>We are striving to make it as easy as possible to submit your
-results. You won't have to worry about environment setup, submission
-formatting, or any repo-specific details!</p>
-</blockquote>
-
-<p>See the <a
-href="https://github.com/FreeBSDFoundation/freebsd-laptop-testing?tab=readme-ov-file#freebsd-laptop-integration-testing-project">project
-repository</a> and <a
-href="https://github.com/FreeBSDFoundation/freebsd-laptop-testing/blob/main/CONTRIBUTING.md#help-us-test-more-laptops-and-desktops">testing
-instructions</a> for more.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1066593/</guid>
-            <pubDate>Mon, 06 Apr 2026 20:48:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
