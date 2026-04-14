@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 14 Apr 2026 18:41:26 +0000</pubDate>
-        <lastBuildDate>Tue, 14 Apr 2026 18:48:32 +0000</lastBuildDate>
+        <pubDate>Tue, 14 Apr 2026 18:59:07 +0000</pubDate>
+        <lastBuildDate>Tue, 14 Apr 2026 20:05:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Zig 0.16.0 released</title>
+            <link>https://lwn.net/Articles/1067634/</link>
+            <description><![CDATA[<p>The <a href="https://ziglang.org/">Zig project</a> has <a
+href="https://ziglang.org/news/0.16.0-released/">announced</a> version
+<a href="https://ziglang.org/download/0.16.0/release-notes.html">0.16.0</a> of the Zig programming language.</p>
+
+<blockquote class="bq">
+<p>This release features <strong>8 months of work</strong>: changes
+from <strong>244 different contributors</strong>, spread among
+<strong>1183 commits</strong>.</p>
+
+<p>Perhaps most notably, this release debuts <a
+href="https://ziglang.org/download/0.16.0/release-notes.html#IO-as-an-Interface">I/O
+as an Interface</a>, but don't sleep on the <a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Language-Changes">Language
+Changes</a> or enhancements to the <a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Compiler">Compiler</a>,
+<a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Build-System">Build
+System</a>, <a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Linker">Linker</a>,
+<a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Fuzzer">Fuzzer</a>,
+and <a
+href="https://ziglang.org/download/0.16.0/release-notes.html#Toolchain">Toolchain</a>
+which are also included in this release.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1046084/">last covered</a> Zig in
+December 2025.</p>]]></description>
+            <guid>https://lwn.net/Articles/1067634/</guid>
+            <pubDate>Tue, 14 Apr 2026 18:48:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSSL 4.0.0 released</title>
             <link>https://lwn.net/Articles/1067622/</link>
