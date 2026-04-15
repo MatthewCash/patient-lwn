@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Apr 2026 18:15:00 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Apr 2026 18:17:06 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Apr 2026 19:42:30 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Apr 2026 19:46:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>FSF clarifies its stance on AGPLv3 additional terms</title>
+            <link>https://lwn.net/Articles/1067771/</link>
+            <description><![CDATA[<p>OnlyOffice CEO Lev Bannov has <a
+href="https://www.onlyoffice.com/blog/2026/03/interview-with-lev-bannov-ceo-at-onlyoffice-on-the-euro-office-situation">recently
+claimed</a> that the <a
+href="https://github.com/Euro-Office">Euro-Office</a> fork of the
+<a href="https://en.wikipedia.org/wiki/OnlyOffice">OnlyOffice</a> suite violates the GNU Affero General Public License
+version&#160;3 (AGPLv3). Krzysztof Siewicz of the Free Software
+Foundation (FSF) has <a
+href="https://www.fsf.org/blogs/licensing/agpl-is-not-a-tool-for-taking-freedom-away">published
+an article</a> on the FSF's position on adding terms to the AGPLv3. In
+short, Siewicz concludes that OnlyOffice has added restrictions to
+the license that are not compatible with the AGPLv3, and those
+restrictions can be removed by recipients of the code.</p>
+
+<blockquote class="bq">
+We urge OnlyOffice to clarify the situation by making it unambiguous
+that OnlyOffice is licensed under the AGPLv3, and that users who
+already received copies of the software are allowed to remove any
+further restrictions. Additionally, if they intend to continue to use
+the AGPLv3 for future releases, they should state clearly that the
+program is licensed under the AGPLv3 and make sure they remove any
+further restrictions from their program documentation and source
+code. Confusing users by attaching further restrictions to any of the
+FSF's family of GNU General Public Licenses is not in line with free
+software.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1067771/</guid>
+            <pubDate>Wed, 15 Apr 2026 18:30:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1067718/</link>
