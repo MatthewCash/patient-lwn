@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Apr 2026 23:14:25 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Apr 2026 00:01:15 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Apr 2026 02:23:47 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Apr 2026 03:41:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -374,137 +374,6 @@ intended to work in such situations.
             <guid>https://lwn.net/Articles/1066926/</guid>
             <pubDate>Thu, 09 Apr 2026 13:19:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 2, 2026</title>
-            <link>https://lwn.net/Articles/1064762/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1064762/">Front</a>: LiteLLM compromise; systemd controversy; LLM kernel review; OpenBSD and vibe-coding; Rust trait-solver; Pandoc.
-            <li> <a href="https://lwn.net/Articles/1064764/">Briefs</a>: Rspamd 4.0.0; telnyx vulnerability; Fedora forge; SystemRescue 13.00; Servo 0.0.6; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1064765/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1064762/</guid>
-            <pubDate>Thu, 02 Apr 2026 00:39:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Pandoc: a workhorse for document conversion</title>
-            <link>https://lwn.net/Articles/1064692/</link>
-            <description><![CDATA[<a href="https://pandoc.org/">Pandoc</a> is a document-conversion program
-that can translate among  a myriad of formats, including <a
-href="https://www.latex-project.org/">LaTeX</a>, HTML, <a
-href="https://en.wikipedia.org/wiki/Office_Open_XML">Office Open XML</a>
-(docx), plain text, and <a
-href="https://en.wikipedia.org/wiki/Markdown">Markdown</a>. It is also
-extensible by writing <a href="http://www.lua.org/about.html">Lua</a>
-filters that can manipulate the document structure and perform arbitrary
-computations.
-Pandoc has appeared in various LWN articles over the years, such as my <a
-href="https://lwn.net/Articles/1037577/">look at Typst</a> and at <a
-href="https://lwn.net/Articles/1023299/">the importance of free software to science</a> in
-2025, but we have missed providing an overview of the tool.  The February <a
-href="https://github.com/jgm/pandoc/releases/3.9">release of Pandoc
-3.9</a>, which comes with the ability to compile the program to <a
-href="https://webassembly.org">WebAssembly</a> (Wasm), allowing Pandoc
-to run in web browsers, will likely also be of interest.]]></description>
-            <guid>https://lwn.net/Articles/1064692/</guid>
-            <pubDate>Wed, 01 Apr 2026 14:41:07 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The role of LLMs in patch review</title>
-            <link>https://lwn.net/Articles/1064830/</link>
-            <description><![CDATA[<p>
-Discussion of
-<a href="https://lwn.net/ml/all/cover.1773924928.git.ljs@kernel.org/">
-a memory-management patch set</a> intended to clean up a helper function for
-handling huge pages spiraled into something else entirely after it was posted on March&#160;19.
-Memory-management maintainer Andrew Morton
-<a href="https://lwn.net/ml/all/20260319200917.ce345a369d035050b6329ac5@linux-foundation.org/">
-proposed</a> making changes to the subsystem's review process, to require
-patch authors to respond to feedback from <a href="https://sashiko.dev/">Sashiko</a>,
-the
-<a href="https://lwn.net/Articles/1063303/#sashiko">
-recently released LLM-based kernel patch review system</a>. Other
-sub-maintainers, particularly Lorenzo Stoakes, objected. The
-resulting discussion about how and when to adopt Sashiko is potentially relevant
-to many other parts of the kernel.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1064830/</guid>
-            <pubDate>Tue, 31 Mar 2026 15:40:56 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Objections to systemd age-attestation changes go overboard</title>
-            <link>https://lwn.net/Articles/1064706/</link>
-            <description><![CDATA[<p>In early March, Dylan M. Taylor submitted a <a
-href="https://github.com/systemd/systemd/pull/40954">pull request</a> to add a field
-to store a user's birth date in systemd's <a
-href="https://systemd.io/USER_RECORD/">JSON user records</a>. This was done to allow
-applications to store the date to facilitate compliance with age-attestation and
--verification laws. It was to be expected that some members of the community would
-object; the actual response, however, has been shockingly hostile. Some of this has
-been fueled by a misinformation campaign that has targeted the systemd project and
-Taylor specifically, resulting in Taylor being doxxed and receiving death
-threats. Such behavior is not just problematic; it is also deeply misguided given the
-actual nature of the changes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1064706/</guid>
-            <pubDate>Tue, 31 Mar 2026 13:52:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rust&apos;s next-generation trait solver</title>
-            <link>https://lwn.net/Articles/1063124/</link>
-            <description><![CDATA[<p>
-Rust's compiler team has been working on a long-term project to
-<a href="https://github.com/rust-lang/rust/issues/107374">
-rewrite the trait solver</a> — the part of the compiler that determines which
-concrete function should be called when a programmer uses a trait method that is
-implemented for multiple types. The rewrite is intended to simplify
-future changes to the trait system, fix a handful of tricky soundness bugs, and
-provide faster compile times. It's also nearly finished, with a relatively
-small number of remaining blocking bugs.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1063124/</guid>
-            <pubDate>Mon, 30 Mar 2026 14:24:34 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The many failures leading to the LiteLLM compromise</title>
-            <link>https://lwn.net/Articles/1064693/</link>
-            <description><![CDATA[<a
-href="https://github.com/BerriAI/litellm?tab=readme-ov-file#---------litellm----">LiteLLM</a>
-is a gateway library providing access to a number of large language models
-(LLMs); it is popular and widely used.  On March&#160;24, the word went out
-that the version of LiteLLM found in the <a href="https://pypi.org/">Python
-Package Index (PyPI)</a> repository had been
-compromised with information-stealing malware and downloaded thousands of
-times, sparking concern across the net.  This may look like just another
-supply-chain attack — and it is — but the way it came about reveals just
-how many weak links there are in the software supply chains that we all
-depend on.]]></description>
-            <guid>https://lwn.net/Articles/1064693/</guid>
-            <pubDate>Fri, 27 Mar 2026 16:44:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Vibe-coded ext4 for OpenBSD</title>
-            <link>https://lwn.net/Articles/1064541/</link>
-            <description><![CDATA[A number of projects have been struggling with the question of which
-submissions created by large language models (LLMs), if any, should be
-accepted into their code base.  This discussion has been further muddied by
-efforts to use LLM-driven reimplemention as a way to remove copyleft
-restrictions from a body of existing code, as recently <a
-href="https://lwn.net/Articles/1061534/">happened with the Python chardet module</a>.  In
-this context, an attempt to introduce an LLM-generated implementation of
-the Linux ext4 filesystem into OpenBSD was always going to create some
-fireworks, but that project has its own, clearly defined reasons for
-looking askance at such submissions.]]></description>
-            <guid>https://lwn.net/Articles/1064541/</guid>
-            <pubDate>Thu, 26 Mar 2026 14:35:18 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
