@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 18 Apr 2026 14:01:02 +0000</pubDate>
-        <lastBuildDate>Sat, 18 Apr 2026 15:06:44 +0000</lastBuildDate>
+        <pubDate>Sat, 18 Apr 2026 15:48:08 +0000</pubDate>
+        <lastBuildDate>Sat, 18 Apr 2026 15:55:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Seven stable kernels for Saturday</title>
+            <link>https://lwn.net/Articles/1068473/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1068474/">6.19.13</a>, <a
+href="https://lwn.net/Articles/1068475/">6.18.23</a>, <a
+href="https://lwn.net/Articles/1068476/">6.12.82</a>, <a
+href="https://lwn.net/Articles/1068477/">6.6.135</a>, <a
+href="https://lwn.net/Articles/1068478/">6.1.169</a>, <a
+href="https://lwn.net/Articles/1068479/">5.15.203</a>, and <a
+href="https://lwn.net/Articles/1068480/">5.10.253</a> stable kernels. Each contains a
+number of important fixes throughout the tree; users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1068473/</guid>
+            <pubDate>Sat, 18 Apr 2026 15:48:08 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1068400/</link>
