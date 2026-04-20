@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Apr 2026 13:19:31 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Apr 2026 14:12:57 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Apr 2026 15:14:02 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Apr 2026 15:45:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -378,14 +378,6 @@ the Servo book</a>.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1067467/</guid>
             <pubDate>Mon, 13 Apr 2026 14:49:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1067436/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fontforge, freerdp, libtiff, nginx, nodejs22, and openssh), <b>Debian</b> (bind9, chromium, firefox-esr, flatpak, gdk-pixbuf, inetutils, mediawiki, and webkit2gtk), <b>Fedora</b> (corosync, libcap, libmicrohttpd, libpng, mingw-exiv2, mupdf, pdns-recursor, polkit, trafficserver, trivy, vim, and yarnpkg), <b>Mageia</b> (libpng12, openssl, python-django, python-tornado, squid, and tomcat), <b>Red Hat</b> (rhc), <b>Slackware</b> (openssl), <b>SUSE</b> (chromedriver, chromium, cockpit, cockpit-machines, cockpit-podman, cockpit-tukit, crun, firefox, fontforge-20251009, glibc, go1, helm3, libopenssl-3-devel, libpng16, libradcli10, libtasn1, nghttp2, openssl-1_0_0, openssl-1_1, ovmf, perl-XML-Parser, python-cryptography, python-Flask-HTTPAuth, python311-Django4, python313-Django6, python315, sudo, systemd, tar, tekton-cli, tigervnc, util-linux, and zlib), and <b>Ubuntu</b> (mongodb, qemu, and retroarch).]]></description>
-            <guid>https://lwn.net/Articles/1067436/</guid>
-            <pubDate>Mon, 13 Apr 2026 13:13:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
