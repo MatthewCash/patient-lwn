@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Apr 2026 11:38:27 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Apr 2026 12:09:07 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Apr 2026 13:19:31 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Apr 2026 14:12:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1068681/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, delve, freerdp, giflib, go-rpm-macros, libarchive, and openexr), <b>Debian</b> (gimp, imagemagick, luanti, mapserver, mupdf, opam, perl, pillow, postgresql-13, and tiff), <b>Fedora</b> (aqualung, awstats, curl, incus, mac, mbedtls, mingw-LibRaw, python-msal, python3.11, python3.12, python3.15, smb4k, stb, and usd), <b>Gentoo</b> (DTrace and FUSE), <b>Mageia</b> (gdk-pixbuf2.0, giflib, polkit-122, python-cairosvg, and rsync), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, 389-ds-base, bind, freerdp, go-rpm-macros, kernel, libarchive, nodejs:20, openexr, perl:5.32, python, python3, squid:4, thunderbird, and uek-kernel), <b>Slackware</b> (tigervnc), and <b>SUSE</b> (aardvark-dns, avahi, bind, blender, Botan, bouncycastle, chromedriver, cpp-httplib-devel, flannel, gdk-pixbuf, GraphicsMagick, ignition, ImageMagick, jetty-annotations, jetty-minimal, kernel, kubo, leancrypto-devel, libcap, liblog4cxx-devel, libpng16-16, libraw, libraw-devel, NetworkManager, opam, openssl-3, openvswitch, openvswitch3, podman, polkit, python-cryptography, python-djangorestframework, python-Django, python-ecdsa, python311-Django, python311-jwcrypto, python311-Pillow, roundcubemail, skopeo, tempo-cli, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1068681/</guid>
+            <pubDate>Mon, 20 Apr 2026 13:12:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Debian Project Leader Election 2026 results</title>
+            <link>https://lwn.net/Articles/1068682/</link>
+            <description><![CDATA[<p>Debian Project secretary Kurt Roeckx has <a href="https://lwn.net/ml/all/aeU6QwJGs-bGCvYH%40roeckx.be/">announced</a> the Debian
+Project Leader (DPL) <a
+href="https://www.debian.org/vote/2026/vote_001">election results</a>:
+the winner of the election is Sruthi Chandran. She will replace
+two-term DPL Andreas Tille.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1068682/</guid>
+            <pubDate>Mon, 20 Apr 2026 13:19:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernels for Saturday</title>
             <link>https://lwn.net/Articles/1068473/</link>
