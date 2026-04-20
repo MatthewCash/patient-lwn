@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Apr 2026 15:14:02 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Apr 2026 15:45:00 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Apr 2026 16:46:51 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Apr 2026 16:47:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,35 +349,6 @@ details.]]></description>
             <description><![CDATA[Security updates have been issued by <b>Debian</b> (gdk-pixbuf, gst-plugins-bad1.0, and xdg-dbus-proxy), <b>Fedora</b> (chromium, deepin-image-viewer, dtk6gui, dtkgui, efl, elementary-photos, entangle, flatpak, freeimage, geeqie, gegl04, gthumb, ImageMagick, kf5-kimageformats, kf5-libkdcraw, kf6-kimageformats, kstars, libkdcraw, libpasraw, LibRaw, luminance-hdr, nomacs, OpenImageIO, OpenImageIO2.5, photoqt, python-cryptography, rawtherapee, shotwell, siril, swayimg, vips, and webkitgtk), <b>Red Hat</b> (firefox and podman), <b>Slackware</b> (libarchive), <b>SUSE</b> (expat, glibc, GraphicsMagick, libcap-devel, libpng16, libtpms, nodejs24, openssl-1_0_0, openssl-1_1, openssl-3, openvswitch, polkit, python-requests, python311-biopython, python312, python39, and tigervnc), and <b>Ubuntu</b> (corosync, kvmtool, libxml-parser-perl, linux-azure, linux-azure, linux-azure-6.17, linux-azure, linux-azure-6.8, policykit-1, redis, lua5.1, lua-cjson, lua-bitop, rustc, vim, and xdg-dbus-proxy).]]></description>
             <guid>https://lwn.net/Articles/1067595/</guid>
             <pubDate>Tue, 14 Apr 2026 13:05:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Servo now on crates.io</title>
-            <link>https://lwn.net/Articles/1067467/</link>
-            <description><![CDATA[<p>The <a href="https://servo.org/">Servo</a> project has <a
-href="https://servo.org/blog/2026/04/13/servo-0.1.0-release/">announced</a>
-the first release of <tt>servo</tt> as <a
-href="https://crates.io/crates/servo">a crate</a> for use as a
-library.</p>
-
-<blockquote class="bq">
-<p>As you can see from the version number, this release is not a 1.0
-release. In fact, we still haven't finished discussing what 1.0 means
-for Servo. Nevertheless, the increased version number reflects our
-growing confidence in Servo's embedding API and its ability to meet
-some users' needs.</p>
-
-<p>In the meantime we also decided to offer a long-term support (LTS)
-version of Servo, since breaking changes in the regular monthly
-releases are expected and some embedders might prefer doing major
-upgrades on a scheduled half-yearly basis while still receiving
-security updates and (hopefully!) some migration guides. For more
-details on the LTS release, see the respective <a
-href="https://book.servo.org/embedding/lts-release.html">section in
-the Servo book</a>.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1067467/</guid>
-            <pubDate>Mon, 13 Apr 2026 14:49:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
