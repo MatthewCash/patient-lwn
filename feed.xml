@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Apr 2026 13:29:44 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Apr 2026 14:01:07 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Apr 2026 14:39:36 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2026 15:22:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 150 released</title>
+            <link>https://lwn.net/Articles/1068839/</link>
+            <description><![CDATA[<p><a
+href="https://www.firefox.com/en-US/firefox/150.0/releasenotes/">Version
+150</a> of the Firefox web browser has been released. Notable changes
+include <a
+href="https://support.mozilla.org/en-US/kb/control-personal-device-local-network-permissions-firefox">local-network-access
+restrictions</a> being turned on for all users, the ability to
+reorder, copy, delete, paste, and export pages from a PDF using
+Firefox's built-in viewer, as well as improvements in its <a
+href="https://support.mozilla.org/kb/split-view-firefox">split
+view</a> feature, and more. See also the <a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/150">release
+notes for developers</a> and <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-30/">list
+of security fixes</a> in this release.</p>]]></description>
+            <guid>https://lwn.net/Articles/1068839/</guid>
+            <pubDate>Tue, 21 Apr 2026 14:22:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1068830/</link>
@@ -402,14 +423,6 @@ details.]]></description>
             <guid>https://lwn.net/Articles/1067622/</guid>
             <pubDate>Tue, 14 Apr 2026 15:36:00 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1067595/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (gdk-pixbuf, gst-plugins-bad1.0, and xdg-dbus-proxy), <b>Fedora</b> (chromium, deepin-image-viewer, dtk6gui, dtkgui, efl, elementary-photos, entangle, flatpak, freeimage, geeqie, gegl04, gthumb, ImageMagick, kf5-kimageformats, kf5-libkdcraw, kf6-kimageformats, kstars, libkdcraw, libpasraw, LibRaw, luminance-hdr, nomacs, OpenImageIO, OpenImageIO2.5, photoqt, python-cryptography, rawtherapee, shotwell, siril, swayimg, vips, and webkitgtk), <b>Red Hat</b> (firefox and podman), <b>Slackware</b> (libarchive), <b>SUSE</b> (expat, glibc, GraphicsMagick, libcap-devel, libpng16, libtpms, nodejs24, openssl-1_0_0, openssl-1_1, openssl-3, openvswitch, polkit, python-requests, python311-biopython, python312, python39, and tigervnc), and <b>Ubuntu</b> (corosync, kvmtool, libxml-parser-perl, linux-azure, linux-azure, linux-azure-6.17, linux-azure, linux-azure-6.8, policykit-1, redis, lua5.1, lua-cjson, lua-bitop, rustc, vim, and xdg-dbus-proxy).]]></description>
-            <guid>https://lwn.net/Articles/1067595/</guid>
-            <pubDate>Tue, 14 Apr 2026 13:05:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
