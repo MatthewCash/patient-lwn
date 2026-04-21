@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Apr 2026 17:34:20 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Apr 2026 17:42:52 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Apr 2026 18:35:17 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Apr 2026 18:46:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Fedora Verified: a proposal to recognize Fedora contributor status</title>
+            <link>https://lwn.net/Articles/1068861/</link>
+            <description><![CDATA[<p>The Fedora Project has been wrestling with the question of <a
+href="https://lwn.net/Articles/1055539/">who should be able to vote in
+Fedora elections</a> recently, with project membership being <a
+href="https://lwn.net/Articles/1060190/#membership">a major topic at
+the Fedora Council face-to-face</a> held in early February. Now the
+project is considering a new contributor status, "Fedora Verified",
+and is <a
+href="https://communityblog.fedoraproject.org/fedora-verified-recognize-contributors/">looking
+to get input</a> on the idea from the community.</p>
+
+<blockquote class="bq">
+<p>What are the proposed benefits? The primary motivation behind
+"Fedora Verified" is to build trust-based recognition that grants
+elevated, privileged rights within the project. Most notably, this
+status would determine eligibility for strategic governance
+activities, such as:</p>
+
+<ul class="spacylist">
+<li>Voting in Fedora community elections.</li>
+<li>Running for leadership or decision-making roles within the project
+(i.e., Fedora Council, FESCo, Mindshare Committee, EPEL Steering
+Committee).</li>
+<li>(Potential, unplanned) Accessing specific shared project resources
+or educational opportunities (e.g., Red Hat training credits).</li>
+</ul>
+</blockquote>
+
+<p>The blog post includes a list of proposed baseline metrics for
+"Verified" status as well as open questions to be decided. A <a
+href="https://fedoraproject.limequery.com/verified-concept-survey">survey
+on the topic</a> will be open until May&#160;5.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1068861/</guid>
+            <pubDate>Tue, 21 Apr 2026 18:35:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 150 released</title>
             <link>https://lwn.net/Articles/1068839/</link>
