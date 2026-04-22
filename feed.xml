@@ -8,11 +8,56 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Apr 2026 12:44:55 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Apr 2026 12:46:28 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Apr 2026 14:22:57 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Apr 2026 14:25:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1069105/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (firefox-esr, flatpak, ngtcp2, ntfs-3g, packagekit, python-geopandas, simpleeval, strongswan, and xdg-dbus-proxy), <b>Fedora</b> (chromium, cups, curl, jq, opkssh, perl-Net-CIDR-Lite, python-cbor2, python-pillow, tinyproxy, xdg-dbus-proxy, and xorg-x11-server-Xwayland), <b>Slackware</b> (libXpm and mozilla), <b>SUSE</b> (botan, chromium, clamav, cockpit, cockpit-machines, cockpit-packages, cockpit-podman, cockpit-subscriptions, dovecot24, firefox, flatpak, freeipmi, gdk-pixbuf, glibc, gnome-remote-desktop, go1.25, go1.26, go1.26-openssl, google-cloud-sap-agent, gosec, graphicsmagick, haproxy, kernel, libpng16, libraw, libtasn1, libvncserver, ncurses, nebula, nodejs24, openssl-3, ovmf, pam, pcre2, perl-Authen-SASL, pgvector, plexus-utils, podman, python-cbor2, python-cryptography, python-django, python-gi-docgen, python-pypdf2, python-python-multipart, python311, python311-PyPDF2, python313, qemu, roundcubemail, rust1.94, sqlite3, strongswan, systemd, tar, tigervnc, util-linux, vim, webkit2gtk3, xorg-x11-server, xwayland, and zlib), and <b>Ubuntu</b> (commons-io, libcap2, ntfs-3g, and rapidjson).]]></description>
+            <guid>https://lwn.net/Articles/1069105/</guid>
+            <pubDate>Wed, 22 Apr 2026 13:04:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Four stable kernels for Wednesday</title>
+            <link>https://lwn.net/Articles/1068981/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1068980/">7.0.1</a>, <a
+href="https://lwn.net/Articles/1068982/">6.19.14</a>, <a
+href="https://lwn.net/Articles/1068983/">6.18.24</a>, and <a
+href="https://lwn.net/Articles/1068984/">6.12.83</a> stable kernels. As usual, each
+contains important fixes throughout the tree. Users are encouraged to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1068981/</guid>
+            <pubDate>Wed, 22 Apr 2026 13:06:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>LilyPond 2.26.0 released</title>
+            <link>https://lwn.net/Articles/1069107/</link>
+            <description><![CDATA[<p><a
+href="https://lilypond.org/doc/v2.26/Documentation/changes/">Version
+2.26.0</a> of the <a href="https://lilypond.org/">LilyPond</a>
+music-engraving program has been released. <a
+href="https://lilypond.org/doc/v2.26/Documentation/changes/major-changes-in-lilypond">Major
+changes</a> include the ability to use the Cairo library to generate
+output and improvements in spacing between clefs and time
+signatures. See the release notes for a full list of <a
+href="https://lilypond.org/doc/v2.26/Documentation/changes/miscellaneous-improvements">miscellaneous
+improvements</a> as well as what's new with <a
+href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-musical-notation">musical</a>
+and <a
+href="https://lilypond.org/doc/v2.26/Documentation/changes/new-for-specialist-notation">specialist</a>
+notation.</p>]]></description>
+            <guid>https://lwn.net/Articles/1069107/</guid>
+            <pubDate>Wed, 22 Apr 2026 13:23:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox: The zero-days are numbered</title>
             <link>https://lwn.net/Articles/1068906/</link>
@@ -467,14 +512,6 @@ software.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1067771/</guid>
             <pubDate>Wed, 15 Apr 2026 18:30:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1067718/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (capstone, cockpit, firefox, git-lfs, golang-github-openprinting-ipp-usb, kea, kernel, nghttp2, nodejs24, openexr, perl-XML-Parser, rsync, squid, and vim), <b>Debian</b> (imagemagick, systemd, and thunderbird), <b>Slackware</b> (libexif and xorg), <b>SUSE</b> (bind, clamav, firefox, freerdp2, giflib, go1.25, go1.26, helm, ignition, libpng16, libssh, oci-cli, rust1.92, strongswan, sudo, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (rust-tar and rustc, rustc-1.76, rustc-1.77, rustc-1.78, rustc-1.79, rustc-1.80).]]></description>
-            <guid>https://lwn.net/Articles/1067718/</guid>
-            <pubDate>Wed, 15 Apr 2026 13:06:49 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
