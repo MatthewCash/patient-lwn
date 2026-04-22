@@ -8,11 +8,70 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Apr 2026 00:49:27 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Apr 2026 05:15:39 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Apr 2026 07:06:57 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Apr 2026 07:08:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox: The zero-days are numbered</title>
+            <link>https://lwn.net/Articles/1068906/</link>
+            <description><![CDATA[<a
+href="https://blog.mozilla.org/en/firefox/ai-security-zero-day-vulnerabilities/">This
+Firefox blog post</a> reports that the Firefox&#160;150 release includes
+fixes for 271 vulnerabilities found by the Claude Mythos preview.
+<p>
+<blockquote class="bq">
+	Elite security researchers find bugs that fuzzers can't largely by
+	reasoning through the source code. This is effective, but
+	time-consuming and bottlenecked on scarce human
+	expertise. Computers were completely incapable of doing this a few
+	months ago, and now they excel at it. We have many years of
+	experience picking apart the work of the world's best security
+	researchers, and Mythos Preview is every bit as capable. So far
+	we've found no category or complexity of vulnerability that humans
+	can find that this model can't.
+<p>
+	This can feel terrifying in the immediate term, but it's ultimately
+	great news for defenders. A gap between machine-discoverable and
+	human-discoverable bugs favors the attacker, who can concentrate
+	many months of costly human effort to find a single bug. Closing
+	this gap erodes the attacker's long-term advantage by making all
+	discoveries cheap.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1068906/</guid>
+            <pubDate>Wed, 22 Apr 2026 06:23:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Kernel code removals driven by LLM-created security reports</title>
+            <link>https://lwn.net/Articles/1068928/</link>
+            <description><![CDATA[There are a number of ongoing efforts to remove kernel code, mostly from
+the networking subsystem, as an alternative to dealing with the increase in
+security-bug reports from large language models.  The proposed removals
+include <a
+href="https://lwn.net/ml/all/20260421-v7-0-0-net-next-driver-removal-v1-v1-0-69517c689d1f@lunn.ch">ISA
+and PCMCIA Ethernet drivers</a>, a <a
+href="https://lwn.net/ml/all/20260422044820.485660-1-25181214217@stu.xidian.edu.cn">pair
+of PCI drivers</a>, the <a
+href="https://lwn.net/ml/all/20260421021824.1293976-1-kuba@kernel.org">ax25 and amateur
+radio subsystem</a>, the <a
+href="https://lwn.net/ml/all/20260421021943.1295109-1-kuba@kernel.org">ATM protocols and drivers</a>,
+and the <a href="https://lwn.net/ml/all/20260421022108.1299678-1-kuba@kernel.org">ISDN
+subsystem</a>.
+<p>
+<blockquote class="bq">
+	Remove the amateur radio (AX.25, NET/ROM, ROSE) protocol
+	implementation and all associated hamradio device drivers from the
+	kernel tree.  This set of protocols has long been a huge bug/syzbot
+	magnet, and since nobody stepped up to help us deal with the influx
+	of the AI-generated bug reports we need to move it out of tree to
+	protect our sanity.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1068928/</guid>
+            <pubDate>Wed, 22 Apr 2026 06:56:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora Verified: a proposal to recognize Fedora contributor status</title>
             <link>https://lwn.net/Articles/1068861/</link>
