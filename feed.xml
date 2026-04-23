@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Apr 2026 12:24:25 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Apr 2026 12:45:52 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Apr 2026 14:29:10 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Apr 2026 15:00:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1069356/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and osbuild-composer), <b>Debian</b> (cpp-httplib, firefox-esr, gimp, and packagekit), <b>Fedora</b> (chromium, composer, libcap, pgadmin4, pie, python3-docs, python3.14, and sudo), <b>Mageia</b> (gvfs), <b>Oracle</b> (.NET 8.0, delve, freerdp, giflib, ImageMagick, kernel, OpenEXR, and osbuild-composer), <b>SUSE</b> (erlang, giflib, google-guest-agent, GraphicsMagick, ignition, imagemagick, kea, kernel, kissfft, libraw, libssh, ocaml-patch, opam, openCryptoki, openexr, openssl-1_1, tomcat, tomcat10, tomcat11, and tor), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-gcp, linux-gcp-5.4,
+ linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-aws, linux-aws-6.17, linux-hwe-6.17, linux-oracle, linux-oracle-6.17, linux-azure, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle-5.15, linux-azure-5.4, linux-azure-fips, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-hwe-6.8, linux-ibm-6.8, linux-raspi, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-5.4, linux-raspi-realtime, packagekit, python-tornado, ruby-rack-session, slurm-llnl, and strongswan).]]></description>
+            <guid>https://lwn.net/Articles/1069356/</guid>
+            <pubDate>Thu, 23 Apr 2026 13:11:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for April 16, 2026</title>
             <link>https://lwn.net/Articles/1066922/</link>
@@ -449,33 +459,6 @@ notes</a> for a full list of changes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1068001/</guid>
             <pubDate>Thu, 16 Apr 2026 15:04:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1067993/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, bind9.18, cockpit, fence-agents, firefox, fontforge, git-lfs, grafana, grafana-pcp, kernel, nghttp2, nginx, nginx:1.24, nginx:1.26, nodejs:20, nodejs:22, nodejs:24, pcs, perl-XML-Parser, perl:5.32, resource-agents, squid:4, thunderbird, and vim), <b>Debian</b> (incus, lxd, and python3.9), <b>Fedora</b> (cef, composer, erlang, libpng, micropython, mingw-openexr, moby-engine, NetworkManager-ssh, perl, perl-Devel-Cover, perl-PAR-Packer, polymake, pypy, python-cairosvg, python-flask-httpauth, and python3.15), <b>Mageia</b> (kernel, kmod-virtualbox, kmod-xtables-addons and kernel-linus), <b>Oracle</b> (\cockpit, bind, bind9.16, bind9.18, firefox, git-lfs, go-toolset:ol8, grafana, grafana-pcp, grub2, kea, kernel, libtiff, nghttp2, nginx, nginx:1.24, nginx:1.26, nodejs22, nodejs24, nodejs:22, nodejs:24, perl-XML-Parser, python3.9, thunderbird, uek-kernel, and vim), <b>Red Hat</b> (delve, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, osbuild-composer, and rhc), <b>SUSE</b> (bind, Botan, cockpit, cockpit-subscriptions, expat, flatpak, glibc, goshs, himmelblau, kea, kernel, kubo, libpng16, libssh, log4j, mariadb, Mesa, netty, netty-tcnative, nfs-utils, nghttp2, nodejs20, openssl-3, pam, pcre2, python, python310, python311, python311-aiohttp, python311-rfc3161-client, python313, python36, rubygem-bundler, sqlite3, sudo, tigervnc, tomcat, tomcat10, tomcat11, util-linux, vim, and webkit2gtk3), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, frr, and linux-azure, linux-azure-4.15).]]></description>
-            <guid>https://lwn.net/Articles/1067993/</guid>
-            <pubDate>Thu, 16 Apr 2026 13:00:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KDE Gear 26.04 released</title>
-            <link>https://lwn.net/Articles/1067994/</link>
-            <description><![CDATA[<p><a href="https://kde.org/announcements/gear/26.04.0/">Version 26.04</a> of
-the KDE&#160;Gear collection of applications has been released. Notable changes
-include improvements in the <a href="https://apps.kde.org/merkuro/">Merkuro
-Calendar</a> schedule view and event editor, support for threads in the <a
-href="https://apps.kde.org/neochat/">NeoChat</a> Matrix chat client, as well as
-the ability to add keyboard shortcuts in the <a
-href="https://apps.kde.org/dolphin/">Dolphin</a> file manager "<q>to nearly any
-option in any menu, plugin or extension</q>". See the <a
-href="https://kde.org/announcements/changelogs/gear/26.04.0/">changelog</a> for
-a full list of updates, enhancements, and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1067994/</guid>
-            <pubDate>Thu, 16 Apr 2026 13:17:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
