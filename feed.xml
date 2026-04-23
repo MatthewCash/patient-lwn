@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Apr 2026 14:29:10 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Apr 2026 15:00:21 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Apr 2026 17:30:39 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Apr 2026 18:06:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -421,44 +421,6 @@ upgrade.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, freerdp, libarchive, and thunderbird), <b>Debian</b> (chromium, openssh, and thunderbird), <b>Fedora</b> (aurorae, bluedevil, breeze-gtk, buildah, cockpit, extra-cmake-modules, flatpak-kcm, grub2-breeze-theme, kactivitymanagerd, kcm_wacomtablet, kde-cli-tools, kde-gtk-config, kdecoration, kdeplasma-addons, kf6, kf6-attica, kf6-baloo, kf6-bluez-qt, kf6-breeze-icons, kf6-frameworkintegration, kf6-kapidox, kf6-karchive, kf6-kauth, kf6-kbookmarks, kf6-kcalendarcore, kf6-kcmutils, kf6-kcodecs, kf6-kcolorscheme, kf6-kcompletion, kf6-kconfig, kf6-kconfigwidgets, kf6-kcontacts, kf6-kcoreaddons, kf6-kcrash, kf6-kdav, kf6-kdbusaddons, kf6-kdeclarative, kf6-kded, kf6-kdesu, kf6-kdnssd, kf6-kdoctools, kf6-kfilemetadata, kf6-kglobalaccel, kf6-kguiaddons, kf6-kholidays, kf6-ki18n, kf6-kiconthemes, kf6-kidletime, kf6-kimageformats, kf6-kio, kf6-kirigami, kf6-kitemmodels, kf6-kitemviews, kf6-kjobwidgets, kf6-knewstuff, kf6-knotifications, kf6-knotifyconfig, kf6-kpackage, kf6-kparts, kf6-kpeople, kf6-kplotting, kf6-kpty, kf6-kquickcharts, kf6-krunner, kf6-kservice, kf6-kstatusnotifieritem, kf6-ksvg, kf6-ktexteditor, kf6-ktexttemplate, kf6-ktextwidgets, kf6-kunitconversion, kf6-kuserfeedback, kf6-kwallet, kf6-kwidgetsaddons, kf6-kwindowsystem, kf6-kxmlgui, kf6-modemmanager-qt, kf6-networkmanager-qt, kf6-prison, kf6-purpose, kf6-qqc2-desktop-style, kf6-solid, kf6-sonnet, kf6-syndication, kf6-syntax-highlighting, kf6-threadweaver, kgamma, kglobalacceld, kinfocenter, kmenuedit, knighttime, kpipewire, krdp, kscreen, kscreenlocker, ksshaskpass, ksystemstats, kwayland, kwayland-integration, kwin, kwin-x11, kwrited, layer-shell-qt, libexif, libkscreen, libksysguard, libplasma, nix, ocean-sound-theme, oxygen-sounds, pam-kwallet, plasma-activities, plasma-activities-stats, plasma-breeze, plasma-browser-integration, plasma-desktop, plasma-dialer, plasma-discover, plasma-disks, plasma-drkonqi, plasma-firewall, plasma-integration, plasma-keyboard, plasma-login-manager, plasma-milou, plasma-mobile, plasma-nano, plasma-nm, plasma-oxygen, plasma-pa, plasma-print-manager, plasma-sdk, plasma-setup, plasma-systemmonitor, plasma-systemsettings, plasma-thunderbolt, plasma-vault, plasma-welcome, plasma-workspace, plasma-workspace-wallpapers, plasma-workspace-x11, plasma5support, plymouth-kcm, plymouth-theme-breeze, podman, polkit-kde, powerdevil, qqc2-breeze-style, sddm-kcm, skopeo, spacebar, spectacle, thunderbird, and xdg-desktop-portal-kde), <b>Mageia</b> (cockpit-338), <b>Oracle</b> (capstone, cockpit, firefox, fontforge, freerdp, golang-github-openprinting-ipp-usb, kernel, nghttp2, nodejs:20, nodejs:24, openexr, and squid), <b>Red Hat</b> (gnutls, libarchive, libpng, libpng12, libpng15, libtiff, libvpx, libxslt, multiple packages, python, python3, python3.11, python3.12, and python3.9), <b>Slackware</b> (libxml2), <b>SUSE</b> (apache-pdfbox, azure-storage-azcopy, corosync, cups, freerdp, iproute2, libsdb2_4_2, libtpms, NetworkManager, openssl-1_1, ovmf, plexus-utils, python, python-CairoSVG, python-jwcrypto, python-PyJWT, python-pyOpenSSL, python-urllib3, python3, python314, rust1.93, shim, smc-tools, terraform-provider-local, terraform-provider-random, terraform-provider-tls, thunderbird, tiff, util-linux, and vim), and <b>Ubuntu</b> (libowasp-esapi-java, linux, linux-aws, linux-aws-5.15, linux-gcp, linux-gke, linux-gkeop, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux, linux-aws, linux-aws-6.8, linux-gcp, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux, linux-realtime, linux-aws-fips, linux-fips, linux-gcp-fips, linux-fips, linux-gcp-fips, linux-gcp, linux-gcp-6.17, linux-hwe-5.15, linux-intel-iot-realtime, linux-realtime, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-nvidia-tegra, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-realtime, linux-realtime-6.8, linux-realtime-6.17, ofono, and ruby-rack).]]></description>
             <guid>https://lwn.net/Articles/1068400/</guid>
             <pubDate>Fri, 17 Apr 2026 13:33:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.95.0 released</title>
-            <link>https://lwn.net/Articles/1068011/</link>
-            <description><![CDATA[<p><a
-href="https://blog.rust-lang.org/2026/04/16/Rust-1.95.0/">Version
-1.95.0</a> of the Rust language has been released. Changes include the
-addition of a <a
-href="https://doc.rust-lang.org/stable/std/macro.cfg_select.html"><tt>cfg_select!</tt></a>
-macro, the capability <a href="https://github.com/rust-lang/rfcs/blob/master/text/2294-if-let-guard.md">to use <tt>if let</tt> guards to allow conditionals based on pattern
-matching</a>, and many newly stabilized APIs. See the <a
-href="https://doc.rust-lang.org/stable/releases.html#version-1950-2026-04-16">release
-notes</a> for a full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1068011/</guid>
-            <pubDate>Thu, 16 Apr 2026 17:24:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Forgejo 15.0 released</title>
-            <link>https://lwn.net/Articles/1068001/</link>
-            <description><![CDATA[<p><a href="https://forgejo.org/2026-04-release-v15-0/">Version
-15.0</a> of the <a href="https://forgejo.org/">Forgejo</a>
-code-collaboration platform has been released. Changes include
-repository-specific access tokens, a number of improvements to <a
-href="https://forgejo.org/docs/next/user/actions/reference/">Forgejo
-Actions</a>, user-interface enhancements, and more. Forgejo 15.0 is
-considered a long-term-support (LTS) release, and will be supported
-through July 15, 2027. The previous LTS, version 11.0, will reach end
-of life on July 16, 2026. See the announcement and <a
-href="https://codeberg.org/forgejo/forgejo/milestone/36366">release
-notes</a> for a full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1068001/</guid>
-            <pubDate>Thu, 16 Apr 2026 15:04:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
