@@ -8,11 +8,137 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Apr 2026 22:08:32 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Apr 2026 23:34:14 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Apr 2026 00:11:22 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Apr 2026 01:14:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for April 16, 2026</title>
+            <link>https://lwn.net/Articles/1066922/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1066922/">Front</a>: LLM security reports; OpenWrt One build system; Vim forks; removing read-only THPs; 7.0 statistics; MusicBrainz Picard.
+            <li> <a href="https://lwn.net/Articles/1066924/">Briefs</a>: OpenSSL 4.0.0; Relicensing; Servo; Zig 0.16.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1066925/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1066922/</guid>
+            <pubDate>Thu, 16 Apr 2026 00:52:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Forking Vim to avoid LLM-generated code</title>
+            <link>https://lwn.net/Articles/1067007/</link>
+            <description><![CDATA[<p>
+Many people dislike the proliferation of Large Language Models (LLMs) in recent
+years, and so make an understandable attempt to avoid them.
+That may not be possible in general, but there are two new forks of
+<a href="https://www.vim.org/">Vim</a> that seek to provide an editing
+environment with no LLM-generated code. <a href="https://codeberg.org/NerdNextDoor/evi#evi">EVi</a> focuses on being a modern Vim
+without LLM-assisted contributions, while <a href="https://vim-classic.org/">Vim Classic</a> focuses on providing a long-term maintenance
+version of Vim 8. While both are still in their early phases,
+the projects look to be on track to provide stable alternatives — as long as
+enough people are interested.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1067007/</guid>
+            <pubDate>Wed, 15 Apr 2026 13:51:41 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Tagging music with MusicBrainz Picard</title>
+            <link>https://lwn.net/Articles/1066384/</link>
+            <description><![CDATA[<p>Part of the "fun" that comes with curating a self-hosted music library is tagging
+music so that it has accurate and uniform metadata, such as the band names, album titles,
+cover images, and so on. This can be a tedious endeavor, but there are quite a few
+open-source tools to make this process easier. One of the best, or at least my
+favorite, is <a href="https://picard.musicbrainz.org/">MusicBrainz Picard</a>. It is
+a cross-platform music-tagging application that pulls information from the
+well-curated, crowdsourced <a href="https://musicbrainz.org/">MusicBrainz</a>
+database project and writes it to almost any audio file format.</p>]]></description>
+            <guid>https://lwn.net/Articles/1066384/</guid>
+            <pubDate>Tue, 14 Apr 2026 15:50:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A build system aimed at license compliance</title>
+            <link>https://lwn.net/Articles/1066103/</link>
+            <description><![CDATA[The <a href="https://openwrt.org/toh/openwrt/one">OpenWrt One</a> is a
+router powered by the open-source firmware from <a
+href="https://openwrt.org/start">the OpenWrt project</a>; it was also the
+<a href="https://lwn.net/Articles/1014998/">subject of a keynote</a> at <a
+href="https://www.socallinuxexpo.org/scale/22x/">SCALE in 2025</a>
+given by Denver Gingerich of the <a
+href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC),
+which played a big role in developing the router.  Gingerich returned to
+the <a href="https://www.socallinuxexpo.org/scale/23x">conference in
+2026</a> to talk about the build system used by the OpenWrt One, which is
+focused on creating the needed binaries, naturally, but doing so in a way
+that makes it easy to comply with the licenses of the underlying code.
+That makes good sense for a project of this sort—and for a talk given by
+the director of compliance at SFC.]]></description>
+            <guid>https://lwn.net/Articles/1066103/</guid>
+            <pubDate>Mon, 13 Apr 2026 15:17:37 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for the 7.0 kernel</title>
+            <link>https://lwn.net/Articles/1066723/</link>
+            <description><![CDATA[Linus Torvalds <a href="https://lwn.net/Articles/1067330/">released the 7.0 kernel</a> as
+expected on April&#160;12, ending a relatively busy development cycle.  The
+7.0 release brings a large number of interesting changes; see the LWN
+merge-window summaries (<a href="https://lwn.net/Articles/1057769/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1058664/">part&#160;2</a>) for all the details.  Here,
+instead, comes our traditional look at where those changes came from and
+who supported that work.]]></description>
+            <guid>https://lwn.net/Articles/1066723/</guid>
+            <pubDate>Mon, 13 Apr 2026 16:04:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Removing read-only transparent huge pages for the page cache</title>
+            <link>https://lwn.net/Articles/1066582/</link>
+            <description><![CDATA[Things do not always go the way kernel developers think they will.  When
+the kernel gained support for the creation of read-only transparent huge
+pages for the page cache in 2019, the developer of that feature, Song Liu,
+added <a
+href="https://elixir.bootlin.com/linux/v6.19.11/source/mm/Kconfig#L956">a
+<tt>Kconfig</tt> file entry</a> promising that support for writable huge
+pages would arrive "<q>in the next few release cycles</q>".  Over six years
+later, that promise is still present, but it will never be fulfilled.
+Instead, the read-only option will soon be removed, reflecting how the core
+of the memory-subsystem has changed underneath this particular feature.]]></description>
+            <guid>https://lwn.net/Articles/1066582/</guid>
+            <pubDate>Fri, 10 Apr 2026 13:26:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A flood of useful security reports</title>
+            <link>https://lwn.net/Articles/1066581/</link>
+            <description><![CDATA[<p>
+The idea of using large language models (LLMs) to discover security problems is
+not new. Google's Project Zero
+<a href="https://projectzero.google/2024/06/project-naptime.html">investigated</a>
+the feasibility of using LLMs for security research in 2024. At the time, they
+found that models could identify real problems, but required a good deal of
+structure and hand-holding to do so on small benchmark problems. In February
+2026, Anthropic
+<a href="https://red.anthropic.com/2026/zero-days/">published a report</a>
+claiming that the company's most recent LLM at that point in time, Claude Opus 4.6, had discovered
+real-world vulnerabilities in critical open-source software, including the Linux
+kernel, with far less scaffolding. On April&#160;7, Anthropic announced a new experimental model that is
+<a href="https://red.anthropic.com/2026/mythos-preview/">
+supposedly even better</a>; which they have
+<a href="https://www.linuxfoundation.org/blog/project-glasswing-gives-maintainers-advanced-ai-to-secure-open-source">
+partnered with the Linux Foundation</a>
+to supply to some open-source developers with access to the tool for security reviews.
+LLMs seem to have progressed significantly in the last few months, a change
+which is being noticed in the open-source community.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1066581/</guid>
+            <pubDate>Thu, 09 Apr 2026 13:28:44 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1069105/</link>
@@ -351,134 +477,6 @@ a full list of updates, enhancements, and bug fixes.</p>
             <guid>https://lwn.net/Articles/1067994/</guid>
             <pubDate>Thu, 16 Apr 2026 13:17:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 9, 2026</title>
-            <link>https://lwn.net/Articles/1065979/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1065979/">Front</a>: TPM attacks; arithmetic overflow protection; Ubuntu GRUB changes; kernel IPC proposals; fre:ac; Scuttlebutt.
-            <li> <a href="https://lwn.net/Articles/1065981/">Briefs</a>: Nix vulnerability; OpenSSH 10.3; Sashiko reviews; FreeBSD testing; Gentoo GNU/Hurd; SFC on router ban; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1065982/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1065979/</guid>
-            <pubDate>Thu, 09 Apr 2026 00:19:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Ripping CDs and converting audio with fre:ac</title>
-            <link>https://lwn.net/Articles/1062141/</link>
-            <description><![CDATA[<p>It has been a little while since LWN last <a
-href="https://lwn.net/Articles/160704/">surveyed tools for managing a digital
-music collection</a>. In the intervening decades, many Linux users have moved on to
-music streaming services, found them wanting, and are looking to curate their own
-collection once again. There are plenty of choices when it comes to
-ripping, managing, and playing digital audio; so many, in fact, that it can be a
-bit daunting. After years of tinkering, I've found a few tools that work well for
-managing my digital library: the first I'd like to cover is the <a
-href="https://www.freac.org/">fre:ac</a> free audio encoder for ripping music from
-CDs and converting between audio formats.</p>]]></description>
-            <guid>https://lwn.net/Articles/1062141/</guid>
-            <pubDate>Wed, 08 Apr 2026 15:40:49 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] An API for handling arithmetic overflow</title>
-            <link>https://lwn.net/Articles/1065889/</link>
-            <description><![CDATA[<p>
-On March 31, Kees Cook shared
-<a href="https://lwn.net/ml/all/20260331163716.work.696-kees@kernel.org/">
-a patch set</a> that represents the culmination of more than a year of work
-toward eliminating the possibility of silent, unintentional integer overflow in
-the kernel. Linus Torvalds was
-<a href="https://lwn.net/ml/all/CAHk-=wg=q7ptcMyUAqPGDbX_DKHivJVppc8bP0zpQqzOky_avA@mail.gmail.com/">
-not pleased</a> with the approach, leading to a detailed discussion about the
-meaning of "safe" integer operations and the design of APIs for handling integer
-overflows. Eventually, the developers involved reached a consensus for a
-different API that should make handling overflow errors in the kernel much less
-of a hassle.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1065889/</guid>
-            <pubDate>Wed, 08 Apr 2026 14:53:18 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Sharing stories on Scuttlebutt</title>
-            <link>https://lwn.net/Articles/1065471/</link>
-            <description><![CDATA[<p>
-Not many people live on sailboats. Things may be better these days, but
-back in 2014 sailboat dwellers had
-to contend with lag-prone,
-intermittent, low-bandwidth internet connections. Dominic Tarr
-<a href="https://handbook.scuttlebutt.nz/stories/scuttlebutt-genesis">
-decided</a>
-to fix the problem of keeping up with his friends by developing a delay-tolerant,
-fully distributed social-media protocol called
-<a href="https://www.scuttlebutt.nz">
-Scuttlebutt</a>.  Nearly twelve
-years later, the protocol has gained a number of users who have their own,
-non-sailboat-related reasons to prefer a censorship-resistant,
-offline-first social-media system.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1065471/</guid>
-            <pubDate>Tue, 07 Apr 2026 14:05:06 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Protecting against TPM interposer attacks</title>
-            <link>https://lwn.net/Articles/1064685/</link>
-            <description><![CDATA[The <a href="https://en.wikipedia.org/wiki/Trusted_Platform_Module">Trusted
-Platform Module</a> (TPM) is a widely misunderstood piece of hardware (or
-firmware) that lives in most x86-based computers.  At <a
-href="https://www.socallinuxexpo.org/scale/23x">SCALE 23x</a> in Pasadena, California,
-James Bottomley gave a presentation on the TPM and the work that he and
-others have done to enable the Linux kernel to work with it.  In
-particular, he described the problems with interposer attacks, which target
-the communication between the TPM and the kernel, and what has
-been added to the kernel to thwart them.]]></description>
-            <guid>https://lwn.net/Articles/1064685/</guid>
-            <pubDate>Mon, 06 Apr 2026 14:08:13 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Ubuntu&apos;s GRUBby plans</title>
-            <link>https://lwn.net/Articles/1065420/</link>
-            <description><![CDATA[<p><a href="https://www.gnu.org/software/grub/">GNU GRUB 2</a>, mostly just
-referred to as GRUB these days, is the most widely used boot loader
-for x86_64 Linux systems. It <a
-href="https://www.gnu.org/software/grub/manual/grub/grub.html#Features">supports</a> reading
-from a vast selection of filesystems, handles booting modern systems
-with UEFI or legacy systems with a BIOS, and even allows users to customize the
-"splash" image displayed when a system boots. Alas, all of those features come with
-a price; GRUB has had <a
-href="https://www.cvedetails.com/version-list/72/32736/1/GNU-Grub2.html">a parade
-of security vulnerabilities</a> over the years. To mitigate some of those
-problems, <a
-href="https://documentation.ubuntu.com/project/who-makes-ubuntu/developers/dmb-joining-core-dev/">Ubuntu
-core developer</a> and Canonical employee Julian Andres Klode has <a
-href="https://discourse.ubuntu.com/t/streamlining-secure-boot-for-26-10/79069">proposed removing
-a number of features</a> from GRUB in Ubuntu&#160;26.10 to improve GRUB's
-security profile. His proposal has not been met with universal acclaim; many of the
-features Klode would like to remove have vocal proponents.</p>]]></description>
-            <guid>https://lwn.net/Articles/1065420/</guid>
-            <pubDate>Fri, 03 Apr 2026 15:12:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] IPC medley: message-queue peeking, io_uring, and bus1</title>
-            <link>https://lwn.net/Articles/1065490/</link>
-            <description><![CDATA[The kernel provides a number of ways for processes to communicate with each
-other, but they never quite seem to fit the bill for many users.  There are
-currently a few proposals for interprocess communication (IPC) enhancements
-circulating on the mailing lists.  The most straightforward one adds a new
-system call for POSIX message queues that enables the addition of new
-features.  For those wanting an entirely new way to do interprocess
-communication, there is a proposal to add a new subsystem for that purpose
-to io_uring.  Finally, the bus1 proposal has made a return after ten years.]]></description>
-            <guid>https://lwn.net/Articles/1065490/</guid>
-            <pubDate>Thu, 02 Apr 2026 15:07:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
