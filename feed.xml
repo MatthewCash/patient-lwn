@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Apr 2026 17:08:38 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Apr 2026 17:42:41 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Apr 2026 18:45:33 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Apr 2026 18:57:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>pip 26.1 released</title>
+            <link>https://lwn.net/Articles/1070010/</link>
+            <description><![CDATA[<p><a
+href="https://pip.pypa.io/en/stable/news/#v26-1">Version 26.1</a> of
+the pip package installer for Python has been released. Richard Si
+has published a <a
+href="https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/">blog
+post</a> that looks at some of the highlights of 26.1 including
+dependency cooldowns, experimental support for pylock (<a
+href="https://packaging.python.org/en/latest/specifications/pylock-toml/#pylock-toml-spec"><tt>pylock.toml</tt></a>)
+files, and <a
+href="https://ichard26.github.io/blog/2026/04/whats-new-in-pip-26.1/#lifting-several-2020-resolver-limitations">resolver
+improvements</a> that will move pip closer to the goal of removing its
+legacy resolver. The release also includes several security fixes and
+drops support for Python&#160;3.9.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1070010/</guid>
+            <pubDate>Mon, 27 Apr 2026 18:45:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Four new stable kernels for Monday</title>
             <link>https://lwn.net/Articles/1069965/</link>
@@ -554,34 +576,6 @@ turns out to be super bad ;-).
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1068703/</guid>
             <pubDate>Mon, 20 Apr 2026 18:20:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Arch Linux now has a reproducible container image</title>
-            <link>https://lwn.net/Articles/1068699/</link>
-            <description><![CDATA[<p>Robin Candau has <a
-href="https://lists.archlinux.org/archives/list/arch-dev-public@lists.archlinux.org/thread/44PW52T547MACXFU5HZ5U7SIPAX3BAXS/">announced</a>
-the availability of a bit-for-bit reproducible container image for
-Arch Linux:</p>
-
-<blockquote class="bq">
-<p>The bit-for-bit reproducibility of the image is confirmed by digest
-equality across builds (<tt>podman inspect --format '{{.Digest}}'
-&lt;image&gt;</tt>) and by running <a
-href="https://github.com/reproducible-containers/diffoci"><tt>diffoci</tt></a>
-to compare builds. We provide documentation on how to <a href="https://gitlab.archlinux.org/archlinux/archlinux-docker/-/blob/master/REPRO.md">reproduce this
-Docker image</a> (as <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/blob/main/REPRO.md">we did for the WSL image as well</a>).</p>
-
-<p>Building the base rootFS for the Docker image in a deterministic way was 
-the main challenge, but it reuses the <a href="https://gitlab.archlinux.org/archlinux/archlinux-wsl/-/commit/7c0340e26358048f3f8ee03b3ab3aea666751712">same process as for our WSL image</a>
-(as both share the same rootFS build system).</p>
-
-<p>[...] This represents another meaningful achievement in our
-"reproducible builds" efforts and we're already looking forward to the
-next step!</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1068699/</guid>
-            <pubDate>Mon, 20 Apr 2026 17:27:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
