@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Apr 2026 18:45:33 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Apr 2026 18:57:55 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Apr 2026 19:17:06 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Apr 2026 20:10:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -552,30 +552,6 @@ of security fixes</a> in this release.</p>]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, kernel, and kernel-rt), <b>Debian</b> (mupdf, opam, simpleeval, and xdg-dbus-proxy), <b>Mageia</b> (firefox, thunderbird and libtiff), <b>Red Hat</b> (containernetworking-plugins, gvisor-tap-vsock, nodejs22, nodejs:20, nodejs:22, perl-XML-Parser, python3.11, python3.9, runc, and skopeo), and <b>SUSE</b> (bind, buildah, cockpit-subscriptions, container-suseconnect, containerd, corosync, cosign, docker, dovecot24, flatpak, freeipmi, gegl, GraphicsMagick, helm, ImageMagick, kubernetes, kubernetes-old, libpng15, LibVNCServer, ncurses, nodejs22, opensc, openvswitch, patterns-glibc-hwcaps, podman, python, python310, python312, python315, rekor, rootlesskit, roundcubemail, and runc).]]></description>
             <guid>https://lwn.net/Articles/1068830/</guid>
             <pubDate>Tue, 21 Apr 2026 13:06:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Git 2.54.0 released</title>
-            <link>https://lwn.net/Articles/1068703/</link>
-            <description><![CDATA[<p>Git maintainer Junio Hamano has <a
-href="https://lwn.net/ml/all/xmqqa4uxsjrs.fsf%40gitster.g/">announced</a>
-Git 2.54.0, which includes contributions from 137 people; 66 of those
-people are first-time contributors to the project. Changes include the
-addition of Git history rewriting, Git's web interface (gitweb)
-"<q>has been taught to be mobile friendly</q>", and much more. See the
-announcement for all improvements, additions, and bug fixes. Hamano
-is now taking a short break:</p>
-
-<blockquote class="bq">
-I will go offline for a couple of weeks starting this evening,
-hopefully after updating 'next' and possibly also pushing out the
-first batch of the new cycle.  There is no designated interim
-maintainer this time, but I trust that the community can self
-organize during my absense, if the shape of the release and the tree
-turns out to be super bad ;-).
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1068703/</guid>
-            <pubDate>Mon, 20 Apr 2026 18:20:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
