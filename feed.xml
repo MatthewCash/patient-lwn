@@ -8,11 +8,63 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Apr 2026 12:13:31 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Apr 2026 13:06:12 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Apr 2026 15:22:19 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Apr 2026 15:23:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1070640/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, gdk-pixbuf2, giflib, grafana, java-1.8.0-openjdk, java-21-openjdk, LibRaw, OpenEXR, PackageKit, pcs, python3.11, python3.12, python3.9, sudo, tigervnc, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (calibre, firefox-esr, and openjdk-17), <b>Fedora</b> (asterisk, binaryen, buildah, dokuwiki, lemonldap-ng, libexif, libgcrypt, miniupnpd, openvpn, podman, python3.9, rust-rpm-sequoia, skopeo, and xdg-dbus-proxy), <b>Red Hat</b> (buildah, gdk-pixbuf2, and nodejs:20), <b>SUSE</b> (dnsdist, libheif, openCryptoki, polkit, sed, and xen), and <b>Ubuntu</b> (linux-bluefield, python-marshmallow, and roundcube).]]></description>
+            <guid>https://lwn.net/Articles/1070640/</guid>
+            <pubDate>Thu, 30 Apr 2026 13:06:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Seven new stable kernels for Thursday</title>
+            <link>https://lwn.net/Articles/1070641/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
+href="https://lwn.net/Articles/1070642/">7.0.3</a>, <a
+href="https://lwn.net/Articles/1070643/">6.18.26</a>, <a
+href="https://lwn.net/Articles/1070644/">6.12.85</a>, <a
+href="https://lwn.net/Articles/1070645/">6.6.137</a>, <a
+href="https://lwn.net/Articles/1070646/">6.1.170</a>, <a
+href="https://lwn.net/Articles/1070647/">5.15.204</a>, and <a
+href="https://lwn.net/Articles/1070647/">5.10.254</a> stable kernels. The 7.0.3 and
+6.18.26 kernels only contain fixes needed for Xen users; he advises
+that all users of the other kernel series must upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1070641/</guid>
+            <pubDate>Thu, 30 Apr 2026 13:28:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GCC 16.1 released</title>
+            <link>https://lwn.net/Articles/1070649/</link>
+            <description><![CDATA[<p><a
+href="https://lwn.net/ml/all/170o3r2r-3r4s-opp9-q8or-2no672o6q390%40fhfr.qr/">Version
+16.1</a> of the GNU Compiler Collection (GCC) has been
+released.</p>
+
+<blockquote class="bq">
+The C++ frontend now defaults to the GNU C++20 dialect and the corresponding
+parts of the standard library are no longer experimental.  Several
+C++26 features receive experimental support, including Reflection
+(<tt>-freflection</tt>), Contracts, expansion statements and <tt>std::simd</tt>.
+</blockquote>
+
+<p>Other changes include the introduction of an experimental compiler
+frontend for the <a
+href="https://en.wikipedia.org/wiki/ALGOL_68">Algol68</a> language,
+ability to output GCC diagnostics in HTML form, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1070649/</guid>
+            <pubDate>Thu, 30 Apr 2026 13:38:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A security bug in AEAD sockets</title>
             <link>https://lwn.net/Articles/1070454/</link>
@@ -603,16 +655,6 @@ href="https://documentation.ubuntu.com/release-notes/26.04/">release
 notes</a> for a list of changes, system requirements, and more.</p>]]></description>
             <guid>https://lwn.net/Articles/1069399/</guid>
             <pubDate>Thu, 23 Apr 2026 18:16:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1069356/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel and osbuild-composer), <b>Debian</b> (cpp-httplib, firefox-esr, gimp, and packagekit), <b>Fedora</b> (chromium, composer, libcap, pgadmin4, pie, python3-docs, python3.14, and sudo), <b>Mageia</b> (gvfs), <b>Oracle</b> (.NET 8.0, delve, freerdp, giflib, ImageMagick, kernel, OpenEXR, and osbuild-composer), <b>SUSE</b> (erlang, giflib, google-guest-agent, GraphicsMagick, ignition, imagemagick, kea, kernel, kissfft, libraw, libssh, ocaml-patch, opam, openCryptoki, openexr, openssl-1_1, tomcat, tomcat10, tomcat11, and tor), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-gcp, linux-gcp-5.4,
- linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
- linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-aws, linux-aws-6.17, linux-hwe-6.17, linux-oracle, linux-oracle-6.17, linux-azure, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-oracle-5.15, linux-azure-5.4, linux-azure-fips, linux-fips, linux-aws-fips, linux-azure-fips, linux-gcp-fips, linux-hwe-6.8, linux-ibm-6.8, linux-raspi, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-5.4, linux-raspi-realtime, packagekit, python-tornado, ruby-rack-session, slurm-llnl, and strongswan).]]></description>
-            <guid>https://lwn.net/Articles/1069356/</guid>
-            <pubDate>Thu, 23 Apr 2026 13:11:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
