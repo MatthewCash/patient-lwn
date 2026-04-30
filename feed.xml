@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Apr 2026 18:02:17 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Apr 2026 18:10:34 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Apr 2026 19:39:47 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Apr 2026 19:51:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -621,40 +621,6 @@ longer supported.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1069552/</guid>
             <pubDate>Fri, 24 Apr 2026 13:43:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ubuntu 26.04 LTS released</title>
-            <link>https://lwn.net/Articles/1069399/</link>
-            <description><![CDATA[<p>Ubuntu 26.04 ("Resolute Raccoon") LTS has been <a
-href="https://discourse.ubuntu.com/t/ubuntu-26-04-resolute-raccoon-lts-released/80833">released</a>
-on schedule.</p>
-
-<blockquote class="bq">
-<p>This release brings a significant uplift in security, performance,
-and usability across desktop, server, and cloud environments. Ubuntu
-26.04 LTS introduces TPM-backed full-disk encryption, expanded use of
-memory-safe components, improved application permission controls, and
-Livepatch support for Arm systems, helping reduce downtime and
-strengthen system resilience. [...]</p>
-
-<p>The newest Edubuntu, Kubuntu, Lubuntu, Ubuntu Budgie, Ubuntu Cinnamon,
-Ubuntu Kylin, Ubuntu Studio, Ubuntu Unity, and Xubuntu are also being
-released today. For more details on these, read their individual release
-notes under the Official flavors section:</p>
-
-<p><a href="https://documentation.ubuntu.com/release-notes/26.04/#official-flavors">https://documentation.ubuntu.com/release-notes/26.04/#official-flavors</a></p>
-
-<p>Maintenance updates will be provided for 5 years for Ubuntu Desktop, Ubuntu
-Server, Ubuntu Cloud, Ubuntu WSL, and Ubuntu Core. All the remaining flavors
-will be supported for 3 years.</p>
-</blockquote>
-
-<p>See the <a
-href="https://documentation.ubuntu.com/release-notes/26.04/">release
-notes</a> for a list of changes, system requirements, and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/1069399/</guid>
-            <pubDate>Thu, 23 Apr 2026 18:16:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
