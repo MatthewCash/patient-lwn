@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 01 May 2026 13:30:26 +0000</pubDate>
-        <lastBuildDate>Fri, 1 May 2026 14:08:24 +0000</lastBuildDate>
+        <pubDate>Fri, 01 May 2026 15:11:53 +0000</pubDate>
+        <lastBuildDate>Fri, 1 May 2026 15:16:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -592,44 +592,6 @@ merge window for this release.
             <guid>https://lwn.net/Articles/1069722/</guid>
             <pubDate>Mon, 27 Apr 2026 05:53:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1069549/</link>
-            <description><![CDATA[Security updates have been issued by <b>Fedora</b> (anaconda, dnf5, firefox, flatpak-builder, libexif, minetest, nss, plasma-setup, python-blivet, rpki-client, and xorg-x11-server), <b>Oracle</b> (bind, kernel, osbuild-composer, thunderbird, webkit2gtk3, and wireshark), <b>Red Hat</b> (java-25-openjdk), <b>SUSE</b> (cacti, cacti, cacti-spine, cockpit-machines, cockpit-podman, cockpit-tukit, csync2, flannel, gdk-pixbuf, go1.25-openssl, go1.26-openssl, haproxy, kernel, libcap, libpng16, libtree-sitter0_26, libvirt, ncurses, ntfs-3g_ntfsprogs, openssl-1_1, openssl-3, openvswitch, perl, python-pyOpenSSL, python311, rclone, sudo, and tomcat), and <b>Ubuntu</b> (gst-plugins-bad1.0, jq, libopenmpt, linux-ibm, linux-ibm-5.15, and php-league-commonmark).]]></description>
-            <guid>https://lwn.net/Articles/1069549/</guid>
-            <pubDate>Fri, 24 Apr 2026 13:08:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GnuPG 2.5.19 released</title>
-            <link>https://lwn.net/Articles/1069552/</link>
-            <description><![CDATA[<p>Werner Koch has <a
-href="https://lists.gnu.org/archive/html/info-gnu/2026-04/msg00010.html">announced</a>
-the release of GnuPG&#160;2.5.19. This release includes a few new options
-and a number of bug fixes, and comes with the reminder that the
-GnuPG&#160;2.4 series will reach end-of-life soon</p>
-
-<blockquote class="bq">
-<p>The main features in the&#160;2.5 series are improvements for&#160;64 bit Windows
-and the introduction of Kyber (aka ML-KEM or FIPS-203) as PQC encryption
-algorithm.  Other than PQC support the&#160;2.6 series will not differ a lot
-from&#160;2.4 because the majority of changes are internal to make use of
-newer features from the supporting libraries.</p>
-
-<p>Note that the old&#160;2.4 series reaches end-of-life in just two months.
-Thus update to&#160;2.5.19 in time.  As always with GnuPG new versions are
-fully compatible with previous versions.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1055053/">recently
-covered</a> Fedora's discussion about what to offer after GnuPG&#160;2.4 is no
-longer supported.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1069552/</guid>
-            <pubDate>Fri, 24 Apr 2026 13:43:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
