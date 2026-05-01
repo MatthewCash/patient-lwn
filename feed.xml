@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 01 May 2026 17:23:32 +0000</pubDate>
-        <lastBuildDate>Fri, 1 May 2026 18:15:04 +0000</lastBuildDate>
+        <pubDate>Fri, 01 May 2026 19:35:58 +0000</pubDate>
+        <lastBuildDate>Fri, 1 May 2026 19:42:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Eden: NHS goes to war against open source</title>
+            <link>https://lwn.net/Articles/1070864/</link>
+            <description><![CDATA[<p>Terence Eden <a
+href="https://shkspr.mobi/blog/2026/05/nhs-goes-to-war-against-open-source/">reports</a>
+that the UK's <a
+href="https://en.wikipedia.org/wiki/National_Health_Service">National
+Health Service</a> (NHS) is preparing to close almost all of its <a
+href="https://github.com/nhsuk/">open-source repositories</a> as a
+response to LLM tools, such as Anthropic's Mythos, becoming more
+sophisticated at finding security vulnerabilities. He does not, to put
+it mildly, agree with the decision:</p>
+
+<blockquote class="bq">
+<p>The majority of <a href="https://github.com/nhsuk/">code repos
+published by the NHS</a> are not meaningfully affected by any advance
+in security scanning. They're mostly data sets, internal tools,
+guidance, research tools, front-end design and the like. There is
+<em>nothing</em> in them which could realistically lead to a security
+incident.</p>
+
+<p>When I was working at NHSX during the pandemic, we were so
+confident of the safety and necessity of open source, we made sure <a
+href="http://web.archive.org/web/20230122050346/https://transform.england.nhs.uk/blogs/code-behind-nhs-covid-19-app/">the
+Covid Contact Tracing app was open sourced the minute it was available
+to the public</a>. That was a nationally mandated app, installed on
+millions of phones, subject to intense scrutiny from hostile powers -
+and yet, despite publishing the code, architecture and documentation,
+the open source code caused <strong>zero</strong> security
+incidents.</p>
+
+<p>Furthermore, this new guidance is in direct contradiction to the
+UK's <a
+href="https://www.gov.uk/guidance/the-technology-code-of-practice#be-open-and-use-open-source">Tech
+Code of Practice point 3 "Be open and use open source"</a> which
+insists on code being open.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1070864/</guid>
+            <pubDate>Fri, 01 May 2026 19:27:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1070848/</link>
