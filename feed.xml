@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 04 May 2026 10:39:56 +0000</pubDate>
-        <lastBuildDate>Mon, 4 May 2026 12:21:41 +0000</lastBuildDate>
+        <pubDate>Mon, 04 May 2026 14:22:06 +0000</pubDate>
+        <lastBuildDate>Mon, 4 May 2026 14:39:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1071167/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, libcap, libtiff, sudo, and thunderbird), <b>Debian</b> (dovecot, imagemagick, incus, kernel, libexif, linux-6.1, openjdk-25, pyasn1, python-aiohttp, and thunderbird), <b>Fedora</b> (chromium, firefox, GitPython, glibc, insight, krb5, nano, nss, openssh, openvpn, perl-CryptX, python3.14, rust-openssl, rust-openssl-sys, rust-sequoia-git, and xen), <b>Oracle</b> (dtrace, fence-agents, grafana-pcp, libcap, libtiff, sudo, and xorg-x11-server-Xwayland), <b>Red Hat</b> (buildah, fence-agents, firefox, java-11-openjdk with Extended Lifecycle Support, LibRaw, nodejs24, nodejs:24, openssh, python-pyasn1, resource-agents, thunderbird, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (mozilla), and <b>SUSE</b> (avahi, curl, freeipmi, freerdp, google-guest-agent, google-osconfig-agent, gvim, helm, himmelblau, java-1_8_0-openjdk, kernel, krb5-appl-clients, libsodium, libssh, libtiff-devel-32bit, ntfs-3g_ntfsprogs, openCryptoki, openexr, ovmf, PackageKit, python-jwcrypto, python-Mako, python-PyNaCl, python311, python311-pypdf, sed, trivy, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1071167/</guid>
+            <pubDate>Mon, 04 May 2026 13:26:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.1-rc2</title>
             <link>https://lwn.net/Articles/1070980/</link>
@@ -520,107 +528,6 @@ contains important fixes throughout; users are advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1069965/</guid>
             <pubDate>Mon, 27 Apr 2026 16:01:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1069938/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (java-25-openjdk, kernel, osbuild-composer, thunderbird, webkit2gtk3, and wireshark), <b>Debian</b> (chromium, distro-info-data, libde265, mbedtls, and thunderbird), <b>Fedora</b> (awstats, bind9-next, bpfman, buildah, calibre, cef, chromium, composer, corosync, coturn, cups, curl, dnsdist, doctl, erlang, fido-device-onboard, flatpak-builder, freetype, glab, goose, jq, kea, libarchive, libcap, libcgif, libgsasl, libinput, libmicrohttpd, libpng, libpng12, libpng15, mapserver, mbedtls, micropython, minetest, mingw-exiv2, mingw-libpng, mingw-LibRaw, mingw-openexr, mingw-python3, moby-engine, mupdf, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, opam, openbao, opensc, openssh, openssl, opkssh, perl-Net-CIDR-Lite, pgadmin4, pie, podman, pspp, pypy, python-biopython, python-cairosvg, python-cbor2, python-cryptography, python-flask-httpauth, python-msal, python-pillow, python-pydicom, python-tomli, python3-docs, python3.13, python3.14, python3.15, python3.9, rauc, roundcubemail, rpki-client, rust-sccache, skopeo, smb4k, stb, sudo, tcpflow, thunderbird, tigervnc, tinyproxy, trafficserver, trivy, usd, util-linux, vim, xdg-dbus-proxy, xorg-x11-server, xorg-x11-server-Xwayland, and yarnpkg), <b>Oracle</b> (buildah, golang, grafana, java-17-openjdk, and java-25-openjdk), and <b>SUSE</b> (chromium, cockpit-podman, coredns, corosync, cups, dnsdist, flatpak, freerdp2, frr, gdk-pixbuf, golang-github-prometheus-alertmanager, golang-github-prometheus-prometheus, google-guest-agent, haproxy, ignition, ImageMagick, kernel, kyverno, libcap, libminizip1, libpng16, librsvg, libXpm-devel, Mesa, opensc, openssl-3, ovmf-202602, PackageKit, podman, python-ecdsa, python-pillow, python311-Mako, sudo, thunderbird, tomcat, tomcat10, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1069938/</guid>
-            <pubDate>Mon, 27 Apr 2026 13:04:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Niri 26.04 released</title>
-            <link>https://lwn.net/Articles/1069939/</link>
-            <description><![CDATA[<p><a href="https://github.com/niri-wm/niri/releases/tag/v26.04">Version 26.04</a>
-of the niri scrollable-tiling Wayland compositor has been released. The most
-notable change in this release, as the "<q>most requested niri feature by far</q>",
-is support for the blur effect using the Wayland protocol's <a
-href="https://wayland.app/protocols/ext-background-effect-v1"><tt>ext-background-effect</tt></a>. This
-release also features optional <a
-href="https://niri-wm.github.io/niri/Configuration%3A-Include.html">configuration
-includes</a>, screencasting support enhancements, and a number of improvements for
-input devices.</p>
-
-<blockquote class="bq">
-In short, background blur turned out to be a massive undertaking. Not because of
-the blur algorithm itself (by the way, if you want to learn about different blurs,
-including the widely used Dual Kawase, I highly recommend <a
-href="https://blog.frost.kiwi/dual-kawase/">this blog post</a>), but because window
-background effects in general required a lot of thinking and additions to the code,
-especially to make them as efficient as possible. This is one of the most complex
-niri features thus far.
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1025866/">covered</a> niri in July
-2025.</p>]]></description>
-            <guid>https://lwn.net/Articles/1069939/</guid>
-            <pubDate>Mon, 27 Apr 2026 13:36:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The future of AI in Ubuntu</title>
-            <link>https://lwn.net/Articles/1069944/</link>
-            <description><![CDATA[<p>Jon Seager, VP engineering for Canonical, has <a
-href="https://discourse.ubuntu.com/t/the-future-of-ai-in-ubuntu/81130">posted</a>
-an update on "<q>what Canonical and Ubuntu will do (or not) to
-incorporate AI</q>" that explains what part AI will play in the future
-of the company and its distribution.</p>
-
-<blockquote class="bq">
-<p>The bottom line is that Canonical is ramping up its use of AI tools
-in a focused and principled manner that favours open weight models
-with license terms that feel most compatible with our values, combined
-with open source harnesses. AI features will be landing in Ubuntu
-throughout the next year as we feel that they're of sufficient
-maturity and quality, with a bias toward local inference by
-default.</p>
-
-<p>AI features in Ubuntu features will come in two forms: first as a
-means of enhancing existing OS functionality with AI models in the
-background, and latterly in the form of "AI native" features and
-workflows for those who want them.</p>
-
-<p>This year Canonical has begun a more deliberate push toward
-education and developing competence with AI tools. We are not setting
-shallow metrics on token usage, or percentages of code written with
-AI, but rather incentivising engineers to experiment and understand
-where AI tools add value. Rather than force a single early-choice AI
-stack, we're incentivising teams to each pick 'something different'
-and go deep, so we learn more as an org in the next six months.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1069944/</guid>
-            <pubDate>Mon, 27 Apr 2026 13:50:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>pgBackRest is no longer maintained</title>
-            <link>https://lwn.net/Articles/1069951/</link>
-            <description><![CDATA[<p>David Steele, maintainer of the popular <a
-href="https://pgbackrest.org/">pgBackRest</a> backup and restore project for
-PostgreSQL, has <a
-href="https://github.com/pgbackrest/pgbackrest#notice-of-obsolescence">archived
-the project</a> and announced that it is no longer being maintained.</p>
-
-<blockquote class="bq">
-<p>After a lot of thought, I have decided to stop working on pgBackRest. I did
-not come to this decision lightly. pgBackRest has been my passion project for
-the last thirteen years, and I was fortunate to have corporate sponsorship for
-much of this time, but there were also many late nights and weekends as I worked
-to make pgBackRest the project it is today, aided by numerous
-contributors. Every open-source developer knows exactly what I mean and how much
-of your life gets devoted to a special project.</p>
-
-<p>Since Crunchy Data was sold, I have been maintaining pgBackRest and looking
-for a position that would allow me to continue the work, but so far I have not
-been successful. Likewise, my efforts to secure sponsorship have also fallen far
-short of what I need to make the project viable.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1069951/</guid>
-            <pubDate>Mon, 27 Apr 2026 14:06:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
