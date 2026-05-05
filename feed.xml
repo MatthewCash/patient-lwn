@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 05 May 2026 13:44:59 +0000</pubDate>
-        <lastBuildDate>Tue, 5 May 2026 13:53:48 +0000</lastBuildDate>
+        <pubDate>Tue, 05 May 2026 15:43:01 +0000</pubDate>
+        <lastBuildDate>Tue, 5 May 2026 15:53:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -458,103 +458,6 @@ desktop work for everyone.</p>
 will be deeply missed.</p>]]></description>
             <guid>https://lwn.net/Articles/1070213/</guid>
             <pubDate>Tue, 28 Apr 2026 18:50:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>All FOSDEM 2026 videos are online</title>
-            <link>https://lwn.net/Articles/1070094/</link>
-            <description><![CDATA[<p>FOSDEM's organizers have <a
-href="https://fosdem.org/2026/news/2026-04-26-all-videos-published/">announced</a>
-that all of the video recordings "<q>worth publishing</q>" from <a
-href="https://fosdem.org/2026/">FOSDEM&#160;2026</a> are now available.</p>
-
-<blockquote class="bq">
-Videos are linked from the individual schedule pages for the talks and
-the <a href="https://fosdem.org/2026/schedule/events">full
-schedule</a> page. They are also available, organised by room, at
-<a href="https://video.fosdem.org/2026/">video.fosdem.org/2026</a>.
-</blockquote>
-
-<p>LWN's <a
-href="https://lwn.net/Archives/ConferenceByYear/#2026-FOSDEM">coverage</a>
-of talks from FOSDEM&#160;2026 can be found on our <a
-href="https://lwn.net/Archives/ConferenceByYear/">conference
-index</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070094/</guid>
-            <pubDate>Tue, 28 Apr 2026 13:18:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>In Memoriam: Tomáš Kalibera</title>
-            <link>https://lwn.net/Articles/1070185/</link>
-            <description><![CDATA[<p>We have received the sad news that Tomáš Kalibera, a member of the
-<a href="https://www.r-project.org/">R&#160;Project</a> core team, has
-<a href="https://prl-prg.github.io/tomas-kalibera.html">passed away
-after a short illness</a>.</p>
-
-<blockquote class="bq">
-<p>A friend who knew him well wrote to me: <em>he was very happy, and
-his work fulfilled him</em>. That is, perhaps, the best thing one can
-say about a life in open source — that the work mattered, that it
-reached millions, and that the person who did it found meaning in it.
-</blockquote>
-
-<p>Kalibera was mentioned in <a
-href="https://lwn.net/Articles/791393/">this 2019 article</a> about C
-programs passing strings to Fortran subroutines. He will be greatly
-missed.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070185/</guid>
-            <pubDate>Tue, 28 Apr 2026 13:46:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 44 has been released</title>
-            <link>https://lwn.net/Articles/1070198/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://fedoramagazine.org/announcing-fedora-linux-44/">announced</a>
-the release of Fedora&#160;Linux&#160;44. There are "what's new"
-articles for <a
-href="https://fedoramagazine.org/whats-new-fedora-workstation-44/">Fedora
-Workstation</a>, <a
-href="https://fedoramagazine.org/whats-new-in-fedora-kde-plasma-desktop-44/">Fedora
-KDE&#160;Plasma&#160;Desktop</a>, and <a
-href="https://fedoramagazine.org/whats-new-fedora-atomic-desktops-in-fedora-linux-44/">Fedora
-Atomic Desktops</a>. The Fedora Asahi Remix for Apple Silicon Macs,
-based on Fedora&#160;44, is <a
-href="https://fedoramagazine.org/fedora-asahi-remix-44-is-now-available/">also
-available</a>. See the <a href="https://fedoraproject.org/spins/">Fedora Spins</a> page for a full list of alternative desktop options.</p>
-
-<blockquote class="bq">
-<p>Fedora Linux 44 Workstation ships with the latest GNOME release,
-GNOME 50. This comes with a long list of refinements to your desktop,
-including everything from accessibility to color management and remote
-desktop. Many of the applications that are installed by default on
-Fedora Workstation have also seen improvements, from Document Viewer
-to File Manager and Calendar. To learn more about these and other
-changes, you can read the <a
-href="https://release.gnome.org/50/">GNOME 50 release notes</a>.</p>
-
-<p>KDE Plasma Desktop: If you are a KDE user, you should also notice a
-couple of very obvious changes. Fedora KDE Plasma Desktop 44 is based
-on the latest Plasma 6.6, which includes the new Plasma Login Manager
-and Plasma Setup to provide a more cohesive and integrated experience
-from the moment the computer is powered on for the first time. The
-installation process has been simplified, enabling you to easily set
-up Fedora KDE Plasma Desktop for a computer for a friend or a loved
-one.</p>
-</blockquote>
-
-<p>The <a
-href="https://docs.fedoraproject.org/en-US/fedora/latest/release-notes/">release
-notes</a> include important changes between Fedora&#160;43 and
-Fedora&#160;44 for desktop users, developers, and system administrators.</p>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070198/</guid>
-            <pubDate>Tue, 28 Apr 2026 14:33:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
