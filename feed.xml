@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 05 May 2026 10:06:06 +0000</pubDate>
-        <lastBuildDate>Tue, 5 May 2026 10:26:08 +0000</lastBuildDate>
+        <pubDate>Tue, 05 May 2026 11:27:49 +0000</pubDate>
+        <lastBuildDate>Tue, 5 May 2026 11:48:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The retirement of the PHP license</title>
+            <link>https://lwn.net/Articles/1071253/</link>
+            <description><![CDATA[The PHP project has long shipped under its own license — except for
+the parts under the Zend Engine License.  The PHP project has now <a
+href="https://lwn.net/ml/all/8FE97D51-963A-49D6-8302-C808108FC4C9@benramsey.com">announced</a>
+that the PHP license has been retired, and the PHP code has been relicensed
+under the three-clause BSD license.  See <a
+href="https://ben.ramsey.dev/blog/2026/05/the-php-license-simplified">this
+blog entry</a> for more details.
+<p>
+<blockquote class="bq">
+	Getting here required more than <a
+	href="https://wiki.php.net/rfc/php_license_update">writing an
+	RFC</a>. The PHP License gives the PHP Group the authority to
+	change it, which meant tracking down each of the original PHP Group
+	members and getting their written consent. Each approved the
+	proposal. Perforce Software, the successor to Zend Technologies,
+	needed to sign off on the Zend Engine side, as well. They provided
+	a formal letter confirming their full authority and support for the
+	change. I hired an attorney to review the proposal and provide
+	advice on any legal questions that might surface during the
+	discussion period. Speaking of which, I allowed for a six-month
+	community discussion period preceding the vote, which passed
+	unanimously.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1071253/</guid>
+            <pubDate>Tue, 05 May 2026 11:27:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>NetHack 5.0.0 released</title>
             <link>https://lwn.net/Articles/1071175/</link>
