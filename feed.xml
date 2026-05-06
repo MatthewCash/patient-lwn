@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 May 2026 09:28:52 +0000</pubDate>
-        <lastBuildDate>Wed, 6 May 2026 11:21:44 +0000</lastBuildDate>
+        <pubDate>Wed, 06 May 2026 13:07:53 +0000</pubDate>
+        <lastBuildDate>Wed, 6 May 2026 13:13:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1071466/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, dovecot, image-builder, python-tornado, resource-agents, and systemd), <b>Debian</b> (openjdk-11, openjdk-17, and pyjwt), <b>Fedora</b> (pdns, pyOpenSSL, and squid), <b>Slackware</b> (hunspell), <b>SUSE</b> (alloy, avahi, bubblewrap, cmctl, coredns, curl, dpkg, firefox, golang-github-prometheus-prometheus, grafana, libpng12, PackageKit, sed, and xen), and <b>Ubuntu</b> (docker.io-app, nghttp2, python-django, and python-mako).]]></description>
+            <guid>https://lwn.net/Articles/1071466/</guid>
+            <pubDate>Wed, 06 May 2026 13:05:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1071324/</link>
