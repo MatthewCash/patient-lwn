@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 May 2026 13:07:53 +0000</pubDate>
-        <lastBuildDate>Wed, 6 May 2026 13:13:27 +0000</lastBuildDate>
+        <pubDate>Wed, 06 May 2026 15:20:45 +0000</pubDate>
+        <lastBuildDate>Wed, 6 May 2026 15:36:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Incus 7.0 LTS released</title>
+            <link>https://lwn.net/Articles/1071469/</link>
+            <description><![CDATA[<p><a
+href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641">Version
+7.0</a> of the Incus container and
+virtual-machine management system has been released. Notable changes in this
+release include the inclusion of a low-level backup API, the <a
+href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641#p-90660-minio-replaced-by-built-in-s3-listener-5">addition
+of basic S3 operations</a> directly in Incus to replace the now-unmaintained
+MinIO project, as well as the removal of support for
+cgroups v1 and xtables (iptables/ip6tables/ebtables). This is a
+long-term-support (LTS) release, with support through June 2031.</p>
+
+<blockquote class="bq">
+<p>The first 2 years will feature bug and security fixes as well as minor
+usability improvements, delivered through occasional point releases
+(7.0.x). After that initial two years, Incus 7.0 LTS will move to security only
+maintenance for the remaining of its 5 years of support.</p>
+
+<p>A total of 204 individuals contributed to Incus between the 6.0 LTS and 7.0
+LTS releases with 45 contributing between the 6.23 and 7.0 LTS releases.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1071469/</guid>
+            <pubDate>Wed, 06 May 2026 13:53:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1071466/</link>
@@ -394,53 +421,6 @@ of interesting work moving into the mainline.]]></description>
             <guid>https://lwn.net/Articles/1067250/</guid>
             <pubDate>Thu, 16 Apr 2026 13:19:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1070428/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gdk-pixbuf2, java-17-openjdk, libxml2, python3, python3.11, python3.12, sudo, and webkit2gtk3), <b>Debian</b> (dnsdist, node-tar, pdns, pdns-recursor, and policykit-1), <b>Fedora</b> (chromium, edk2, and vim), <b>Oracle</b> (firefox, gdk-pixbuf2, go-toolset:rhel8, libpng12, LibRaw, libxml2, python, python3, python3.11, python3.12, python3.12-wheel, vim, webkit2gtk3, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Red Hat</b> (container-tools:rhel8, delve, git-lfs, go-rpm-macros, grafana, grafana-pcp, osbuild-composer, and rhc), <b>SUSE</b> (bouncycastle, clamav, container-suseconnect, dovecot22, erlang, firefox, fontforge, freerdp2, ghostscript, giflib, gnome-remote-desktop, go1.25, go1.26, google-guest-agent, haproxy, ignition, ImageMagick, kernel, libcap, libpng16, libraw, librsvg, mariadb, openexr, pocketbase, protobuf, python-Pillow, python-requests, qemu, rust1.94, sudo, tomcat, tomcat10, tomcat11, webkit2gtk3, and xen), and <b>Ubuntu</b> (dotnet10, dovecot, linux-nvidia-lowlatency, node-follow-redirects, openssh, packagekit, python-cryptography, python-tornado, ruby-rack-session, ujson, and wheel).]]></description>
-            <guid>https://lwn.net/Articles/1070428/</guid>
-            <pubDate>Wed, 29 Apr 2026 13:16:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security review of Plasma Login Manager (SUSE Security Team Blog)</title>
-            <link>https://lwn.net/Articles/1070434/</link>
-            <description><![CDATA[<p>SUSE's Security Team has published a <a
-href="https://security.opensuse.org/2026/04/27/plasma-login-manager.html">detailed
-blog post</a> on their recent review of the <a
-href="https://invent.kde.org/plasma/plasma-login-manager#plasma-login">Plasma
-Login Manager</a> version <a
-href="https://invent.kde.org/plasma/plasma-login-manager/-/tree/v6.6.2?ref_type=tags">6.6.2</a>,
-which was forked from the <a
-href="https://github.com/sddm/sddm#introduction">SDDM display
-manager</a>.</p>
-
-<blockquote class="bq">
-<p>While most of the code <a
-href="https://bugzilla.suse.com/show_bug.cgi?id=1260402">remains the
-same</a>, the new upstream added a <a
-href="https://invent.kde.org/plasma/plasma-login-manager/-/blob/v6.6.2/src/frontend/kcm/auth/plasmaloginauthhelper.cpp?ref_type=tags">privileged
-<span class="nobreak">D-Bus helper</span></a> called
-<tt>plasmaloginauthhelper</tt>, which suffers from <a
-href="https://bugzilla.suse.com/show_bug.cgi?id=1260930">defense-in-depth
-security issues</a>.</p>
-
-<p>[...] Based on the high severity of the defense-in-depth issues
-shown in this report, our assessment is that there is effectively no
-separation between root and the plasmalogin service user account.</p>
-
-<p>At this time there is no bugfix available by upstream, but a
-security fix is planned for the next Plasma release on May 12. We have
-not been involved in upstream's bugfix process so far and have no
-knowledge about the approach that will be taken to address the issues
-from this report.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070434/</guid>
-            <pubDate>Wed, 29 Apr 2026 14:20:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
