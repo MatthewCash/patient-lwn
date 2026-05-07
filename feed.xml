@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 07 May 2026 18:38:37 +0000</pubDate>
-        <lastBuildDate>Thu, 7 May 2026 19:14:45 +0000</lastBuildDate>
+        <pubDate>Thu, 07 May 2026 20:35:12 +0000</pubDate>
+        <lastBuildDate>Thu, 7 May 2026 20:41:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Dirty Frag: a zero-day universal Linux LPE</title>
+            <link>https://lwn.net/Articles/1071719/</link>
+            <description><![CDATA[<p>Hyunwoo Kim has <a
+href="https://lwn.net/ml/all/afzgS2SCWNcZU3vU%40v4bel/">announced</a>
+the <a
+href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
+Frag</a> security flaw, a
+local-privilege-escalation (LPE) vulnerability similar to the
+recently disclosed <a href="https://copy.fail/">Copy Fail</a>
+flaw:</p>
+
+<blockquote class="bq">
+<p>Because the embargo has now been broken, no patches or CVEs exist for 
+these vulnerabilities. After consultation with the linux-distros@vs.openwall.org
+maintainers, and at the maintainers' request, I am publicly releasing this 
+Dirty Frag document.</p>
+<p>As with the previous Copy Fail vulnerability, Dirty Frag likewise allows 
+immediate root privilege escalation on all major distributions.</p>
+</blockquote>
+
+<p>Kim, who discovered the flaw and had attempted a coordinated
+disclosure set for May&#160;12, has released the code for an exploit, as well as a example
+script to remove the vulnerable modules. A <a
+href="https://github.com/V4bel/dirtyfrag/blob/master/assets/write-up.md">full
+write-up</a>, with the disclosure timeline, is also available. It's
+unknown at this time whether this is an example of parallel discovery
+or how the third party was able to disclose it prior to the end of the
+embargo. We will be following up as more information comes to light.</p>]]></description>
+            <guid>https://lwn.net/Articles/1071719/</guid>
+            <pubDate>Thu, 07 May 2026 20:25:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1071700/</link>
