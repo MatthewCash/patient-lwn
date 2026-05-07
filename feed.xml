@@ -8,11 +8,123 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 06 May 2026 23:01:48 +0000</pubDate>
-        <lastBuildDate>Wed, 6 May 2026 23:52:42 +0000</lastBuildDate>
+        <pubDate>Thu, 07 May 2026 02:17:55 +0000</pubDate>
+        <lastBuildDate>Thu, 7 May 2026 02:48:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for April 30, 2026</title>
+            <link>https://lwn.net/Articles/1069206/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1069206/">Front</a>: Famfs; Python packaging council; Zig concurrency; pages and folios; Strawberry music manager; 7.1 merge window.
+            <li> <a href="https://lwn.net/Articles/1069208/">Briefs</a>: GnuPG 2.5.19; Copy Fail; Plasma security; Fedora 44; Ubuntu 26.04; Niri 26.04; pip 26.1; RIP Seth Nickell; RIP Tomáš Kalibera; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1069209/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1069206/</guid>
+            <pubDate>Thu, 30 Apr 2026 00:18:02 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Python packaging council approved</title>
+            <link>https://lwn.net/Articles/1068704/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/924104/">Python packaging world</a> now has a formal
+governance council, of the form described in <a
+href="https://peps.python.org/pep-0772/">PEP&#160;772</a> ("Packaging
+Council governance process"), which was <a
+href="https://discuss.python.org/t/pep-772-packaging-council-governance-process-round-3/100181/118">approved
+by the steering council</a> on April&#160;16.  It has been over a year
+since the PEP was first proposed in February&#160;2025 and it has undergone
+lengthy discussions in multiple postings to the <a
+href="https://discuss.python.org/">Python discussion forum</a>.  The
+packaging council will have "<q>broad authority over packaging standards,
+tools, and implementations</q>"; it will consist of five members who will
+be elected in a vote that is likely to come in June—after <a
+href="https://us.pycon.org/2026/">PyCon US 2026</a> is held mid-May.]]></description>
+            <guid>https://lwn.net/Articles/1068704/</guid>
+            <pubDate>Wed, 29 Apr 2026 16:48:06 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Strawberry is ripe for managing music collections</title>
+            <link>https://lwn.net/Articles/1069368/</link>
+            <description><![CDATA[<p>There are dozens of music-player applications for Linux; the options range
+from bare-bones programs that only play local files to full-blown
+music-management projects with a full suite of tools for managing (and playing)
+a music collection. <a href="https://strawberrymusicplayer.org/">Strawberry</a>
+is in the latter category; it has a bumper crop of features, including smart
+playlists, support for editing music metadata tags, the ability to organize music
+files, and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1069368/</guid>
+            <pubDate>Tue, 28 Apr 2026 14:12:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The rest of the 7.1 merge window</title>
+            <link>https://lwn.net/Articles/1067785/</link>
+            <description><![CDATA[By the time Linus Torvalds released <a
+href="https://lwn.net/ml/all/CAHk-=wh7jmSh6bO5VL31hOC3HdTY0QAV-P1H4XZauwL2x=w35Q@mail.gmail.com/">7.1-rc1</a>
+and closed the 7.1 merge window, 12,996 non-merge changesets had been
+pulled into the mainline repository; just over 9,000 of those arrived after
+<a href="https://lwn.net/Articles/1067250/">the first-half summary</a> was written.  These
+changes were more driver-oriented than those seen earlier, but still also
+included many new features across the kernel as a whole.]]></description>
+            <guid>https://lwn.net/Articles/1067785/</guid>
+            <pubDate>Mon, 27 Apr 2026 16:39:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Zig explores structured concurrency</title>
+            <link>https://lwn.net/Articles/1068409/</link>
+            <description><![CDATA[<p>
+Version 0.16.0 of the Zig programming language was
+<a href="https://ziglang.org/download/0.16.0/release-notes.html">
+recently announced</a>, and with
+it an expanded version of the new <tt>Io</tt> interface that we
+<a href="https://lwn.net/Articles/1046084/">
+covered in December</a>.
+The new interface is based on an idea called structured concurrency that makes writing
+correct concurrent applications easier. Zig's implementation of
+the idea is more explicit and verbose than other languages, however, which could
+offer an opportunity to explore the consequences of different designs.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1068409/</guid>
+            <pubDate>Mon, 27 Apr 2026 13:52:05 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] On pages and folios</title>
+            <link>https://lwn.net/Articles/1064861/</link>
+            <description><![CDATA[The kernel coverage here at LWN often touches on memory-management topics
+and, as a result, tends to talk a lot about both pages and folios.  As the
+folio transition in the kernel has moved forward, it has often become
+difficult to decide which term to use in writing that is meant to be both
+approachable and technically correct.  As this work continues, it will be
+increasingly common to use "folio" rather than page.  This article is
+intended to be a convenient reference for readers wanting to differentiate
+the two terms or understand the state of this transition.]]></description>
+            <guid>https://lwn.net/Articles/1064861/</guid>
+            <pubDate>Fri, 24 Apr 2026 13:08:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Famfs, FUSE, and BPF</title>
+            <link>https://lwn.net/Articles/1068686/</link>
+            <description><![CDATA[The famfs filesystem first <a
+href="https://lwn.net/ml/all/cover.1708709155.git.john@groves.net/">showed up on the
+mailing lists</a> in early 2024; since then, it has been the topic of
+regular discussions at the Linux Storage, Filesystem, Memory Management and
+BPF (LSFMM+BPF) Summit.  It has also, as result of those discussions, been
+through some significant changes since that initial posting.  So it is not
+surprising that a suggestion that it needed to be rewritten yet again was
+not entirely well received.  How much more rewriting will actually be
+needed is unclear, but more discussion appears certain.]]></description>
+            <guid>https://lwn.net/Articles/1068686/</guid>
+            <pubDate>Thu, 23 Apr 2026 13:44:23 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Incus 7.0 LTS released</title>
             <link>https://lwn.net/Articles/1071469/</link>
@@ -239,188 +351,6 @@ ability to output GCC diagnostics in HTML form, and more.</p>
             <guid>https://lwn.net/Articles/1070649/</guid>
             <pubDate>Thu, 30 Apr 2026 13:38:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A security bug in AEAD sockets</title>
-            <link>https://lwn.net/Articles/1070454/</link>
-            <description><![CDATA[<p>
-Security analysis firm <a href="https://xint.io">Xint</a> has disclosed <a
-href="https://copy.fail/">a security bug</a> in the Linux kernel
-that allows for arbitrary 4-byte writes to the page cache, and which has been
-present since 2017.
-The vulnerability has
-<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=a664bf3d603dc3bdcf9ae47cc21e0daec706d7a5">
-been fixed</a> in mainline kernels. A <a
-href="https://github.com/theori-io/copy-fail-CVE-2026-31431/blob/main/copy_fail_exp.py">
-proof-of-concept script</a> demonstrates how to use the flaw to corrupt a setuid
-binary, which works on
-multiple distributions, by requesting an AEAD-encrypted socket from user space
-and splicing a particular payload into it.
-A <a
-href="https://xint.io/blog/copy-fail-linux-distributions">supplemental blog
-post</a> gives more details about the discovery and remediation.
-</p>
-
-<blockquote class="bq">
-A core primitive underlying this bug is splice(): it transfers data between file
-descriptors and pipes without copying, passing page cache pages by reference.
-When a user splices a file into a pipe and then into an AF_ALG socket, the
-socket's input scatterlist holds direct references to the kernel's cached pages
-of that file. The pages are not duplicated; the scatterlist entries point at the
-same physical pages that back every <tt>read()</tt>, <tt>mmap()</tt>, and
-<tt>execve()</tt> of that file.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1070454/</guid>
-            <pubDate>Thu, 30 Apr 2026 00:01:05 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 23, 2026</title>
-            <link>https://lwn.net/Articles/1067989/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1067989/">Front</a>: LLMs and Python bugs; scheduler regression; new Rust traits; dependency cooldowns; 7.1 merge window; Shor's algorithm; drama at The Document Foundation.
-            <li> <a href="https://lwn.net/Articles/1067991/">Briefs</a>: Firefox zero-days; kernel code removal; reproduceible Arch; Debian election; Firefox 150; Forgejo 15.0; Git 2.54.0; KDE Gear 26.04; LillyPond 2.26.0; Rust 1.95.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1067992/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1067989/</guid>
-            <pubDate>Thu, 23 Apr 2026 00:11:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Dependency-cooldown discussions warm up</title>
-            <link>https://lwn.net/Articles/1068692/</link>
-            <description><![CDATA[<p>Efforts to introduce malicious code into the open-source supply
-chain have been on the rise in recent years, and there is no indication that they
-will abate anytime soon. These attacks are often found quickly, but not quickly
-enough to prevent the compromised code from being automatically injected into other
-projects or code deployed by users where it can wreak havoc. One method of avoiding
-supply-chain attacks is to add a delay of a few days before pulling upates in what
-is known as a "dependency cooldown". That tactic is starting to find favor with
-users and some language ecosystem package managers. While this practice is
-considered a reasonable response by many, others are complaining that those
-employing dependency cooldowns are free-riding on the larger community by letting
-others take the risk.</p>]]></description>
-            <guid>https://lwn.net/Articles/1068692/</guid>
-            <pubDate>Wed, 22 Apr 2026 15:21:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] One Sized trait does not fit all</title>
-            <link>https://lwn.net/Articles/1067220/</link>
-            <description><![CDATA[<p>
-In Rust, types either possess a constant size known at compile time, or a
-dynamically calculated size known at
-run time. That is fine for most purposes, but recent proposals for the language
-have shown the need for a more fine-grained hierarchy.
-<a href="https://github.com/davidtwco/rfcs/blob/sized-hierarchy/text/3729-sized-hierarchy.md">
-RFC 3729</a> from David Wood and Rémy Rakic would add a hierarchy of
-traits to describe types with sizes known under different circumstances. While
-the idea has been subject to discussion for many years, a growing number of
-use cases for the feature have come to light.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1067220/</guid>
-            <pubDate>Wed, 22 Apr 2026 13:58:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Using LLMs to find Python C-extension bugs</title>
-            <link>https://lwn.net/Articles/1067234/</link>
-            <description><![CDATA[The open-source world is currently <a href="https://lwn.net/Articles/1066581/">awash in
-reports of LLM-discovered bugs and vulnerabilities</a>, which makes for a lot more
-work for maintainers, but many of the current crop are being reported
-responsibly with an eye toward minimizing that impact.  A recent <a
-href="https://discuss.python.org/t/systematically-finding-bugs-in-python-c-extensions-575-confirmed-so-far/106875">report</a>
-on an effort to systematically find bugs in <a
-href="https://docs.python.org/3/extending/extending.html">Python extensions
-written in C</a> has followed that approach.  Hobbyist Daniel Diniz used Claude
-Code to find more than 500 bugs of various sorts across nearly a million
-lines of code in 44 extensions; he has been working with maintainers to get
-fixes upstream and his methodology serves as a great example of how to keep
-the human in the loop—and the maintainers out of burnout—when employing LLMs.]]></description>
-            <guid>https://lwn.net/Articles/1067234/</guid>
-            <pubDate>Tue, 21 Apr 2026 14:24:53 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Digging into drama at The Document Foundation</title>
-            <link>https://lwn.net/Articles/1066418/</link>
-            <description><![CDATA[<p><a href="https://www.documentfoundation.org/">The Document Foundation</a> (TDF) is
-the nonprofit entity behind the <a
-href="https://www.libreoffice.org/">LibreOffice</a> productivity suite. Most of the
-time, the software takes the spotlight, but that has changed in the past few weeks, and
-not for pleasant reasons. TDF has <a
-href="https://blog.documentfoundation.org/blog/2026/04/01/comment-about-collabora-blog-post/">revoked
-foundation membership status</a> from about 30 people who work for or have
-contracting status with <a href="https://www.collabora.com/">Collabora</a>. In
-response, Collabora has <a
-href="https://www.collaboraonline.com/blog/tdf-ejects-its-core-developers/">announced</a>
-plans to focus on a "<q>entirely new, cut-down, differentiated Collabora Office</q>"
-project and reduce its involvement with LibreOffice. TDF's representatives claim that
-its actions were necessary to maintain the foundation's nonprofit status, while other
-community members assert that this is part of a power grab. The facts seem to
-indicate that there are legitimate issues to be addressed, but it is unclear
-that TDF needed to go so far as to disenfranchise all Collabora-affiliated contributors.</p>]]></description>
-            <guid>https://lwn.net/Articles/1066418/</guid>
-            <pubDate>Mon, 20 Apr 2026 16:46:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A more efficient implementation of Shor&apos;s algorithm</title>
-            <link>https://lwn.net/Articles/1066156/</link>
-            <description><![CDATA[<p>
-<a href="https://en.wikipedia.org/wiki/Shor%27s_algorithm">
-Shor's algorithm</a> is the main practical example of an algorithm that runs more
-quickly on a quantum computer than a classical computer — at least in theory.
-Shor's algorithm allows large numbers to be factored
-into their component prime factors quickly.
-In reality, existing quantum computers do not have nearly
-enough memory to factor interesting numbers using Shor's algorithm, despite
-decades of research.
-<a href="https://arxiv.org/pdf/2603.28846">A new paper</a> provides a major step
-in that direction, however. While still impractical on today's quantum
-computers, the recent discovery
-cuts the amount of memory needed to attack 256-bit elliptic-curve cryptography
-by a factor of 20. More interesting, however, is that the researchers chose to
-publish a zero-knowledge proof demonstrating that they know a quantum circuit
-that shows these improvements, rather than publishing the actual
-knowledge of how to do it.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1066156/</guid>
-            <pubDate>Fri, 17 Apr 2026 15:53:30 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The 7.0 scheduler regression that wasn&apos;t</title>
-            <link>https://lwn.net/Articles/1067029/</link>
-            <description><![CDATA[One of the more significant changes in the 7.0 kernel release is to use <a
-href="https://lwn.net/Articles/994322/">the lazy-preemption mode</a> by default in the CPU
-scheduler.  The scheduler developers have wanted to reduce the number of
-preemption modes for years, and lazy preemption looks like a step toward
-that goal.  But then there came <a
-href="https://lwn.net/ml/all/20260403191942.21410-1-dipiets@amazon.it">this report</a>
-from Salvatore Dipietro that lazy preemption caused a 50% performance
-regression on a PostgreSQL benchmark.  Investigation showed that the
-situation is not actually so grave, but the episode highlights just how
-sensitive some workloads can be to configuration changes; there may be
-surprises in store for other users as well.]]></description>
-            <guid>https://lwn.net/Articles/1067029/</guid>
-            <pubDate>Fri, 17 Apr 2026 13:34:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The first half of the 7.1 merge window</title>
-            <link>https://lwn.net/Articles/1067250/</link>
-            <description><![CDATA[The 7.1 merge window opened on April 12 with the <a
-href="https://lwn.net/ml/all/CAHk-=wj2WqpPBwpAXo8bj_Hx-NxKMRVTVMUaQis7+Vm6XLRZiw@mail.gmail.com/">release</a>
-of the 7.0 kernel.  Since then, 3,855 non-merge changesets have been
-pulled into the mainline repository for the next release.  This merge
-window is thus just getting started, but there has still been a fair amount
-of interesting work moving into the mainline.]]></description>
-            <guid>https://lwn.net/Articles/1067250/</guid>
-            <pubDate>Thu, 16 Apr 2026 13:19:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
