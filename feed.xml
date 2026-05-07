@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 07 May 2026 12:14:44 +0000</pubDate>
-        <lastBuildDate>Thu, 7 May 2026 13:03:54 +0000</lastBuildDate>
+        <pubDate>Thu, 07 May 2026 14:48:06 +0000</pubDate>
+        <lastBuildDate>Thu, 7 May 2026 15:37:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1071700/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dovecot, fence-agents, freeipmi, git-lfs, image-builder, kernel, libsoup, osbuild-composer, and python-tornado), <b>Debian</b> (apache2, libdatetime-timezone-perl, lrzip, tzdata, and wireshark), <b>Fedora</b> (dovecot, forgejo-runner, gh, gnutls, krb5, nano, pdns, pyOpenSSL, squid, vim, and xorg-x11-server-Xwayland), <b>Mageia</b> (graphicsmagick, kernel-linus, krb5-appl, libexif, libtiff, nano, nginx, ntfs-3g, opam, perl-Net-CIDR-Lite, perl-Starlet, perl-Starman, tcpflow, and virtualbox), <b>Oracle</b> (dovecot, fence-agents, freeipmi, image-builder, kernel, libcap, LibRaw, libsoup, openssh, osbuild-composer, python, python-tornado, python3, systemd, thunderbird, and tigervnc), <b>SUSE</b> (containerd, curl, erlang, flatpak, java-11-openjdk, java-21-openjdk, java-25-openjdk, liblxc-devel, libpng12, libthrift-0_23_0, openCryptoki, openexr, openssl-3, python3, python311-social-auth-core, rclone, skim, and thunderbird), and <b>Ubuntu</b> (apache2, coin3, editorconfig-core, insighttoolkit, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17, linux-hwe-6.17, linux-oracle, linux-realtime, linux-realtime-6.17, linux-azure, linux-azure-6.17, linux-oem-6.17, linux-azure-5.15, linux-gcp-6.8, nghttp2, python-dynaconf, slurm-wlm, swish-e, and webkit2gtk).]]></description>
+            <guid>https://lwn.net/Articles/1071700/</guid>
+            <pubDate>Thu, 07 May 2026 13:10:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>An update on KDE&apos;s Union style engine</title>
+            <link>https://lwn.net/Articles/1071703/</link>
+            <description><![CDATA[<p>Arjen Hiemstra has <a
+href="https://quantumproductions.info/articles/2026-05/union-spring-2026-update">published</a>
+an article on the status of the <a
+href="https://invent.kde.org/plasma/union#union">Union</a> project: a
+single system to support all of KDE's technologies used for styling
+applications.</p>
+
+<blockquote class="bq">
+<p>The work on Union's Breeze implementation has progressed to the
+point where it is very hard to distinguish whether or not you are
+running the Union version. We have also tested with a bunch of
+applications and made sure that any differences were fixed. So we are
+at a stage where we need to get Union into the hands of more people,
+both to get extra people testing whether there are any major issues,
+but also to have interested people creating new styles.</p>
+
+<p>This means that with the upcoming Plasma 6.7 release, we plan to
+include Union. Discussion is currently ongoing whether we will enable
+it by default, but even if not there will be a way to try it out.</p>
+</blockquote>
+
+<p>See Hiemstra's <a
+href="https://planet.kde.org/arjen-hiemstra-2025-02-10-moving-kde-s-styling-into-the-future/">introductory
+article on Union</a>, published in February 2025, for more about the
+project and its creation. KDE&#160;6.7 is expected to be released in mid-June.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1071703/</guid>
+            <pubDate>Thu, 07 May 2026 14:10:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three stable kernel updates</title>
             <link>https://lwn.net/Articles/1071568/</link>
@@ -311,58 +353,6 @@ insists on code being open.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents), <b>Debian</b> (chromium, dovecot, and kernel), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, emacs, glow, jfrog-cli, openbao, pyp2spec, python3.6, rust-rustls-webpki, vhs, and xen), <b>Oracle</b> (grafana, grafana-pcp, PackageKit, sudo, vim, and xorg-x11-server), <b>Red Hat</b> (rhc), <b>SUSE</b> (avahi, bouncycastle, chromium, container-suseconnect, firewalld, gdk-pixbuf, grafana, java-25-openjdk, kernel, libixml11, libmozjs-140-0, libpng12-0, libsodium, libssh, mariadb, Mesa, ntfs-3g_ntfsprogs, openCryptoki, openexr, packagekit, prometheus-postgres_exporter, python-jwcrypto, python-mako, python-Pygments, python-pynacl, python311, python311-pyOpenSSL, python315, radare2, sed, and vim), and <b>Ubuntu</b> (kmod and zulucrypt).]]></description>
             <guid>https://lwn.net/Articles/1070848/</guid>
             <pubDate>Fri, 01 May 2026 13:05:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1070640/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, firefox, gdk-pixbuf2, giflib, grafana, java-1.8.0-openjdk, java-21-openjdk, LibRaw, OpenEXR, PackageKit, pcs, python3.11, python3.12, python3.9, sudo, tigervnc, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (calibre, firefox-esr, and openjdk-17), <b>Fedora</b> (asterisk, binaryen, buildah, dokuwiki, lemonldap-ng, libexif, libgcrypt, miniupnpd, openvpn, podman, python3.9, rust-rpm-sequoia, skopeo, and xdg-dbus-proxy), <b>Red Hat</b> (buildah, gdk-pixbuf2, and nodejs:20), <b>SUSE</b> (dnsdist, libheif, openCryptoki, polkit, sed, and xen), and <b>Ubuntu</b> (linux-bluefield, python-marshmallow, and roundcube).]]></description>
-            <guid>https://lwn.net/Articles/1070640/</guid>
-            <pubDate>Thu, 30 Apr 2026 13:06:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable kernels for Thursday</title>
-            <link>https://lwn.net/Articles/1070641/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1070642/">7.0.3</a>, <a
-href="https://lwn.net/Articles/1070643/">6.18.26</a>, <a
-href="https://lwn.net/Articles/1070644/">6.12.85</a>, <a
-href="https://lwn.net/Articles/1070645/">6.6.137</a>, <a
-href="https://lwn.net/Articles/1070646/">6.1.170</a>, <a
-href="https://lwn.net/Articles/1070647/">5.15.204</a>, and <a
-href="https://lwn.net/Articles/1070647/">5.10.254</a> stable kernels. The 7.0.3 and
-6.18.26 kernels only contain fixes needed for Xen users; he advises
-that all users of the other kernel series must upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070641/</guid>
-            <pubDate>Thu, 30 Apr 2026 13:28:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GCC 16.1 released</title>
-            <link>https://lwn.net/Articles/1070649/</link>
-            <description><![CDATA[<p><a
-href="https://lwn.net/ml/all/170o3r2r-3r4s-opp9-q8or-2no672o6q390%40fhfr.qr/">Version
-16.1</a> of the GNU Compiler Collection (GCC) has been
-released.</p>
-
-<blockquote class="bq">
-The C++ frontend now defaults to the GNU C++20 dialect and the corresponding
-parts of the standard library are no longer experimental.  Several
-C++26 features receive experimental support, including Reflection
-(<tt>-freflection</tt>), Contracts, expansion statements and <tt>std::simd</tt>.
-</blockquote>
-
-<p>Other changes include the introduction of an experimental compiler
-frontend for the <a
-href="https://en.wikipedia.org/wiki/ALGOL_68">Algol68</a> language,
-ability to output GCC diagnostics in HTML form, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1070649/</guid>
-            <pubDate>Thu, 30 Apr 2026 13:38:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
