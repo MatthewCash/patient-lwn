@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 08 May 2026 12:10:58 +0000</pubDate>
-        <lastBuildDate>Fri, 8 May 2026 12:49:06 +0000</lastBuildDate>
+        <pubDate>Fri, 08 May 2026 14:51:14 +0000</pubDate>
+        <lastBuildDate>Fri, 8 May 2026 14:52:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1071859/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libsoup and mingw-libtiff), <b>Debian</b> (apache2, chromium, lcms2, libreoffice, and prosody), <b>Fedora</b> (openssl and perl-Starman), <b>Oracle</b> (git-lfs, libsoup, and perl-XML-Parser), <b>Slackware</b> (libgpg, mozilla, and php), <b>SUSE</b> (389-ds, cairo, cf-cli, chromedriver, cri-tools, freeipmi, gnutls, grafana, java-11-openjdk, java-17-openjdk, jetty-minimal, libmariadbd-devel, librsvg, mesa, mozjs52, mutt, nix, opencryptoki, python-Django, python-django, python-pytest, rmt-server, thunderbird, traefik, webkit2gtk3, wireshark, and xen), and <b>Ubuntu</b> (civicrm, dpkg, htmlunit, lcms2, libpng1.6, linux, linux-*, linux-azure, linux-azure-fips, linux-raspi, linux-xilinx, lua5.1, nasm, opam, openexr, openjpeg2, owslib, postfix, postfixadmin, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1071859/</guid>
+            <pubDate>Fri, 08 May 2026 13:13:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>killswitch for short-term emergency vulnerability mitigation</title>
+            <link>https://lwn.net/Articles/1071861/</link>
+            <description><![CDATA[It seems that we are in for an extended period of the disclosure of
+vulnerabilities before fixes become available.  One possible way of coping
+with this flood might be the <a
+href="https://lwn.net/ml/all/20260507070547.2268452-1-sashal@kernel.org">killswitch</a>
+proposal from Sasha Levin.  In short, killswitch can immediately disable
+access to specific functionality in a running kernel, essentially blasting
+a vulnerable path (and its associated functionality) out of existence until
+a fix can be installed.  "<q>For most users, the cost of 'this socket
+family stops working for the day' is much smaller than the cost of running
+a known vulnerable kernel until the fix land.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1071861/</guid>
+            <pubDate>Fri, 08 May 2026 13:36:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Four stable kernels with partial fixes for Dirty Frag</title>
             <link>https://lwn.net/Articles/1071775/</link>
@@ -399,14 +424,6 @@ insists on code being open.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1070864/</guid>
             <pubDate>Fri, 01 May 2026 19:27:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1070848/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents), <b>Debian</b> (chromium, dovecot, and kernel), <b>Fedora</b> (chromium, dotnet10.0, dotnet8.0, dotnet9.0, emacs, glow, jfrog-cli, openbao, pyp2spec, python3.6, rust-rustls-webpki, vhs, and xen), <b>Oracle</b> (grafana, grafana-pcp, PackageKit, sudo, vim, and xorg-x11-server), <b>Red Hat</b> (rhc), <b>SUSE</b> (avahi, bouncycastle, chromium, container-suseconnect, firewalld, gdk-pixbuf, grafana, java-25-openjdk, kernel, libixml11, libmozjs-140-0, libpng12-0, libsodium, libssh, mariadb, Mesa, ntfs-3g_ntfsprogs, openCryptoki, openexr, packagekit, prometheus-postgres_exporter, python-jwcrypto, python-mako, python-Pygments, python-pynacl, python311, python311-pyOpenSSL, python315, radare2, sed, and vim), and <b>Ubuntu</b> (kmod and zulucrypt).]]></description>
-            <guid>https://lwn.net/Articles/1070848/</guid>
-            <pubDate>Fri, 01 May 2026 13:05:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
