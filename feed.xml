@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 11 May 2026 03:50:38 +0000</pubDate>
-        <lastBuildDate>Mon, 11 May 2026 04:37:23 +0000</lastBuildDate>
+        <pubDate>Mon, 11 May 2026 08:00:28 +0000</pubDate>
+        <lastBuildDate>Mon, 11 May 2026 08:06:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -410,17 +410,6 @@ services appear to be down.</p>
             <guid>https://lwn.net/Articles/1071167/</guid>
             <pubDate>Mon, 04 May 2026 13:26:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.1-rc2</title>
-            <link>https://lwn.net/Articles/1070980/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1070979/">second 7.1 kernel prepatch</a> is out for
-testing.  "<q>It's not small, and while it's a bit early to say for sure, I
-do suspect we're seeing the same continued pattern of more patches than
-usual - probably due to AI tooling - that we saw in 7.0.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1070980/</guid>
-            <pubDate>Mon, 04 May 2026 05:19:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
