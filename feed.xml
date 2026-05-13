@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 May 2026 08:20:44 +0000</pubDate>
-        <lastBuildDate>Wed, 13 May 2026 11:06:58 +0000</lastBuildDate>
+        <pubDate>Wed, 13 May 2026 13:19:22 +0000</pubDate>
+        <lastBuildDate>Wed, 13 May 2026 13:30:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Sovereign Tech Fund invests in KDE</title>
+            <link>https://lwn.net/Articles/1072565/</link>
+            <description><![CDATA[The KDE project has <a
+href="https://kde.org/announcements/sovereign-tech-fund-invests-kde/">announced</a>
+that it has been awarded over €1&#160;million from the Sovereign Tech Fund
+to improve its desktop-environment software.  "<q>The investment will be
+used to strengthen the structural reliability and security of KDE's core
+infrastructure, including Plasma, KDE Linux, and the frameworks underlying
+its communication services.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1072565/</guid>
+            <pubDate>Wed, 13 May 2026 13:09:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1072596/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, freerdp, git-lfs, glib2, jq, kernel-rt, krb5, libpng, libtiff, openexr, and thunderbird), <b>Debian</b> (exim4), <b>Mageia</b> (apache, perl-Gazelle, php, and sed), <b>Slackware</b> (expat), <b>SUSE</b> (assimp-devel, go1.26, libQt6Svg6, python-jupyterlab, raylib, thunderbird, tor, and trivy), and <b>Ubuntu</b> (exim4).]]></description>
+            <guid>https://lwn.net/Articles/1072596/</guid>
+            <pubDate>Wed, 13 May 2026 13:17:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1072498/</link>
@@ -418,14 +440,6 @@ LTS releases with 45 contributing between the 6.23 and 7.0 LTS releases.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1071469/</guid>
             <pubDate>Wed, 06 May 2026 13:53:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1071466/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, dovecot, image-builder, python-tornado, resource-agents, and systemd), <b>Debian</b> (openjdk-11, openjdk-17, and pyjwt), <b>Fedora</b> (pdns, pyOpenSSL, and squid), <b>Slackware</b> (hunspell), <b>SUSE</b> (alloy, avahi, bubblewrap, cmctl, coredns, curl, dpkg, firefox, golang-github-prometheus-prometheus, grafana, libpng12, PackageKit, sed, and xen), and <b>Ubuntu</b> (docker.io-app, nghttp2, python-django, and python-mako).]]></description>
-            <guid>https://lwn.net/Articles/1071466/</guid>
-            <pubDate>Wed, 06 May 2026 13:05:18 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
