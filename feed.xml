@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 May 2026 13:19:22 +0000</pubDate>
-        <lastBuildDate>Wed, 13 May 2026 13:30:02 +0000</lastBuildDate>
+        <pubDate>Wed, 13 May 2026 15:42:20 +0000</pubDate>
+        <lastBuildDate>Wed, 13 May 2026 16:05:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Yet another Dirty Frag type vulnerability: Fragnesia</title>
+            <link>https://lwn.net/Articles/1072647/</link>
+            <description><![CDATA[<p>Sam James has sent an <a
+href="https://lwn.net/ml/all/8733zvfucm.fsf%40gentoo.org/">announcement</a>
+to the OSS Security mailing list about another
+local-privilege-escalation (LPE) exploit in the same class as <a
+href="https://github.com/V4bel/dirtyfrag">Dirty Frag</a>, called
+"Fragnesia". From the <a
+href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">disclosure</a>:</p>
+
+<blockquote class="bq">
+<p>This is a separate bug in the ESP/XFRM from dirtyfrag which has received its own patch. However, it is in the same surface and the mitigation is the same as for dirtyfrag.</p>
+
+<p>It abuses a logic bug in the Linux XFRM ESP-in-TCP subsystem to
+achieve arbitrary byte writes into the kernel page cache of read-only
+files, without requiring any race condition.</p>
+</blockquote>
+
+<p>James noted that there is a <a
+href="https://lwn.net/ml/all/20260513041635.1289541-1-vakzz%40zellic.io/">patch</a>
+in the works, but it has not yet been pulled into Linus Torvalds's
+tree nor into any of the stable kernels. A <a
+href="https://github.com/v12-security/pocs/blob/d4043edc2acbd75d093e3f5795751b678c66b259/fragnesia/fragnesia.c">proof
+of concept</a> is also available.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1072647/</guid>
+            <pubDate>Wed, 13 May 2026 15:26:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Sovereign Tech Fund invests in KDE</title>
             <link>https://lwn.net/Articles/1072565/</link>
@@ -414,33 +445,6 @@ needed is unclear, but more discussion appears certain.]]></description>
             <guid>https://lwn.net/Articles/1068686/</guid>
             <pubDate>Thu, 23 Apr 2026 13:44:23 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Incus 7.0 LTS released</title>
-            <link>https://lwn.net/Articles/1071469/</link>
-            <description><![CDATA[<p><a
-href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641">Version
-7.0</a> of the Incus container and
-virtual-machine management system has been released. Notable changes in this
-release include the inclusion of a low-level backup API, the <a
-href="https://discuss.linuxcontainers.org/t/incus-7-0-lts-has-been-released/26641#p-90660-minio-replaced-by-built-in-s3-listener-5">addition
-of basic S3 operations</a> directly in Incus to replace the now-unmaintained
-MinIO project, as well as the removal of support for
-cgroups v1 and xtables (iptables/ip6tables/ebtables). This is a
-long-term-support (LTS) release, with support through June 2031.</p>
-
-<blockquote class="bq">
-<p>The first 2 years will feature bug and security fixes as well as minor
-usability improvements, delivered through occasional point releases
-(7.0.x). After that initial two years, Incus 7.0 LTS will move to security only
-maintenance for the remaining of its 5 years of support.</p>
-
-<p>A total of 204 individuals contributed to Incus between the 6.0 LTS and 7.0
-LTS releases with 45 contributing between the 6.23 and 7.0 LTS releases.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1071469/</guid>
-            <pubDate>Wed, 06 May 2026 13:53:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
