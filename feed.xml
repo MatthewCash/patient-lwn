@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 May 2026 10:59:31 +0000</pubDate>
-        <lastBuildDate>Thu, 14 May 2026 11:53:08 +0000</lastBuildDate>
+        <pubDate>Thu, 14 May 2026 14:09:36 +0000</pubDate>
+        <lastBuildDate>Thu, 14 May 2026 14:10:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1072838/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, jq, and yggdrasil), <b>Debian</b> (nghttp2 and thunderbird), <b>Fedora</b> (chromium, firefox, freerdp, GitPython, kernel, kernel-headers, krb5, nano, nix, nodejs20, php, python-click, python-django5, SDL2_image, and xen), <b>Mageia</b> (dnsmasq, flatpak, kernel, kmod-virtualbox, kernel-linus, perl-Net-CIDR-Lite, perl-XML-LibXML, and redis), <b>SUSE</b> (dnsmasq, firefox, jupyter-jupyterlab, kernel, krb5, libvinylapi3, log4j, Mesa, mozjs60, NetworkManager, OpenImageIO, python-Mako, python-Pillow, and python39), and <b>Ubuntu</b> (dnsmasq and nginx).]]></description>
+            <guid>https://lwn.net/Articles/1072838/</guid>
+            <pubDate>Thu, 14 May 2026 13:09:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 7, 2026</title>
             <link>https://lwn.net/Articles/1070466/</link>
