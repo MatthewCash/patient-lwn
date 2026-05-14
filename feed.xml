@@ -8,11 +8,117 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 13 May 2026 22:43:50 +0000</pubDate>
-        <lastBuildDate>Wed, 13 May 2026 23:05:29 +0000</lastBuildDate>
+        <pubDate>Thu, 14 May 2026 00:12:10 +0000</pubDate>
+        <lastBuildDate>Thu, 14 May 2026 00:15:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 7, 2026</title>
+            <link>https://lwn.net/Articles/1070466/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1070466/">Front</a>: LLMs and security; restartable sequences and TCMalloc; Fedora and GNOME bug reports; Prolly trees; Arm on s390.
+            <li> <a href="https://lwn.net/Articles/1070468/">Briefs</a>: NHS open source; Alpine outage; GCC 16.1; Incus 7.0 LTS; NetHack 5.0.0; PHP license; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1070469/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1070466/</guid>
+            <pubDate>Thu, 07 May 2026 00:01:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] LLM-driven security reports disrupt coordinated disclosure</title>
+            <link>https://lwn.net/Articles/1070698/</link>
+            <description><![CDATA[<p>Predictions that LLM tools would cause a surge in reports of security vulnerabilities
+have, unquestionably, borne out. As expected, maintainers are having to wade
+through more security reports than ever before; in addition, LLM tools are
+disrupting traditional-coordinated disclosure practices as well. The method of <a
+href="https://copy.fail/">Copy Fail</a>'s disclosure, in particular, left
+vendors, projects, and users scrambling. In addition, maintainers are seeing
+parallel discovery of the same security flaws within the embargo window. Both
+of these developments mean that coordinated security disclosures may become a
+thing of the past.</p>]]></description>
+            <guid>https://lwn.net/Articles/1070698/</guid>
+            <pubDate>Wed, 06 May 2026 14:56:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Hardware-assisted Arm VMs for s390</title>
+            <link>https://lwn.net/Articles/1069954/</link>
+            <description><![CDATA[<p>
+A recent
+<a href="https://lwn.net/ml/all/20260402042125.3948963-1-seiden@linux.ibm.com/">
+patch set</a> from Steffen Eiden and others has set the groundwork for allowing
+hardware-assisted emulation of Arm CPUs on s390 CPUs.
+<a href="https://lwn.net/ml/all/20260428155622.1361364-1-seiden@linux.ibm.com/">
+Version two</a> of the posting fixes a handful of smaller problems, but does not
+differ much.
+The patches were welcomed
+by the Arm maintainers, pending some discussion of how the collaboration between the
+architectures could be structured to prevent maintainability problems on the Arm
+side. When those details are resolved, the patches could pave the way for
+transparently running Arm-based virtual machines (VMs) on s390 hosts at native or
+near-native speeds.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1069954/</guid>
+            <pubDate>Tue, 05 May 2026 14:52:45 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Bug-monitoring expectations and Fedora GNOME packages</title>
+            <link>https://lwn.net/Articles/1070006/</link>
+            <description><![CDATA[<p>For a number of years, users submitting bugs reports against GNOME packages in Fedora have
+received an auto-reply saying that the reports were not actively
+monitored; users were encouraged to file bugs with GNOME upstream instead. However,
+that practice seems to be in conflict with the <a
+href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering Steering
+Committee</a> (FESCo) <a
+href="https://docs.fedoraproject.org/en-US/fesco/Package_maintainer_responsibilities/#_deal_with_bugs">policy</a>
+that package maintainers "<q>deal with reported bugs in a timely manner</q>". On
+April 28, FESCo discussed the disconnect between practice and policy; so far,
+it has only opted to tweak the wording of the automatic response.</p>]]></description>
+            <guid>https://lwn.net/Articles/1070006/</guid>
+            <pubDate>Mon, 04 May 2026 14:59:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Version-controlled databases using Prolly trees</title>
+            <link>https://lwn.net/Articles/1068864/</link>
+            <description><![CDATA[<p>
+Modern database and filesystems make pervasive use of
+<a href="https://en.wikipedia.org/wiki/B-tree">
+B-trees</a>, which are tree
+structures optimized for storing sorted lists of keys and values on block
+devices.
+<a href="https://github.com/dolthub/dolt#dolt-is-git-for-data">
+Dolt</a> is an Apache 2.0-licensed project that makes clever use of a
+variant of a B-tree to support efficient version control for an entire database.
+The data structure it uses could well be of interest to other projects.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1068864/</guid>
+            <pubDate>Fri, 01 May 2026 13:30:25 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Restartable sequences, TCMalloc, and Hyrum&apos;s Law</title>
+            <link>https://lwn.net/Articles/1070072/</link>
+            <description><![CDATA[<a href="https://www.hyrumslaw.com/">Hyrum's Law</a> states that any
+observable behavior of a system will eventually be depended upon by
+somebody.  The kernel community is currently contending with a clear
+demonstration of that principle.  The recent <a
+href="https://lwn.net/Articles/1033955/">work to address some restartable-sequences
+performance problems</a> in the 6.19 release maintained the documented API
+in all respects, but that was not enough; Google's <a
+href="https://google.github.io/tcmalloc/overview.html">TCMalloc</a>
+library, as it turns out, violates the documented API, prevents other code
+from using restartable features, and breaks with 6.19.  But the kernel's
+no-regressions rule is forcing developers to find a way to accommodate
+TCMalloc's behavior.]]></description>
+            <guid>https://lwn.net/Articles/1070072/</guid>
+            <pubDate>Thu, 30 Apr 2026 14:01:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Yet another Dirty Frag type vulnerability: Fragnesia</title>
             <link>https://lwn.net/Articles/1072647/</link>
