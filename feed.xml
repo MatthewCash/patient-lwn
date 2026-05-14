@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 May 2026 00:12:10 +0000</pubDate>
-        <lastBuildDate>Thu, 14 May 2026 00:15:44 +0000</lastBuildDate>
+        <pubDate>Thu, 14 May 2026 02:29:40 +0000</pubDate>
+        <lastBuildDate>Thu, 14 May 2026 04:15:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -438,118 +438,6 @@ stable kernels have been released; each contains another set of important
 fixes.]]></description>
             <guid>https://lwn.net/Articles/1071568/</guid>
             <pubDate>Thu, 07 May 2026 06:36:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for April 30, 2026</title>
-            <link>https://lwn.net/Articles/1069206/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1069206/">Front</a>: Famfs; Python packaging council; Zig concurrency; pages and folios; Strawberry music manager; 7.1 merge window.
-            <li> <a href="https://lwn.net/Articles/1069208/">Briefs</a>: GnuPG 2.5.19; Copy Fail; Plasma security; Fedora 44; Ubuntu 26.04; Niri 26.04; pip 26.1; RIP Seth Nickell; RIP Tomáš Kalibera; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1069209/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1069206/</guid>
-            <pubDate>Thu, 30 Apr 2026 00:18:02 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python packaging council approved</title>
-            <link>https://lwn.net/Articles/1068704/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/924104/">Python packaging world</a> now has a formal
-governance council, of the form described in <a
-href="https://peps.python.org/pep-0772/">PEP&#160;772</a> ("Packaging
-Council governance process"), which was <a
-href="https://discuss.python.org/t/pep-772-packaging-council-governance-process-round-3/100181/118">approved
-by the steering council</a> on April&#160;16.  It has been over a year
-since the PEP was first proposed in February&#160;2025 and it has undergone
-lengthy discussions in multiple postings to the <a
-href="https://discuss.python.org/">Python discussion forum</a>.  The
-packaging council will have "<q>broad authority over packaging standards,
-tools, and implementations</q>"; it will consist of five members who will
-be elected in a vote that is likely to come in June—after <a
-href="https://us.pycon.org/2026/">PyCon US 2026</a> is held mid-May.]]></description>
-            <guid>https://lwn.net/Articles/1068704/</guid>
-            <pubDate>Wed, 29 Apr 2026 16:48:06 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Strawberry is ripe for managing music collections</title>
-            <link>https://lwn.net/Articles/1069368/</link>
-            <description><![CDATA[<p>There are dozens of music-player applications for Linux; the options range
-from bare-bones programs that only play local files to full-blown
-music-management projects with a full suite of tools for managing (and playing)
-a music collection. <a href="https://strawberrymusicplayer.org/">Strawberry</a>
-is in the latter category; it has a bumper crop of features, including smart
-playlists, support for editing music metadata tags, the ability to organize music
-files, and more.</p>]]></description>
-            <guid>https://lwn.net/Articles/1069368/</guid>
-            <pubDate>Tue, 28 Apr 2026 14:12:36 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The rest of the 7.1 merge window</title>
-            <link>https://lwn.net/Articles/1067785/</link>
-            <description><![CDATA[By the time Linus Torvalds released <a
-href="https://lwn.net/ml/all/CAHk-=wh7jmSh6bO5VL31hOC3HdTY0QAV-P1H4XZauwL2x=w35Q@mail.gmail.com/">7.1-rc1</a>
-and closed the 7.1 merge window, 12,996 non-merge changesets had been
-pulled into the mainline repository; just over 9,000 of those arrived after
-<a href="https://lwn.net/Articles/1067250/">the first-half summary</a> was written.  These
-changes were more driver-oriented than those seen earlier, but still also
-included many new features across the kernel as a whole.]]></description>
-            <guid>https://lwn.net/Articles/1067785/</guid>
-            <pubDate>Mon, 27 Apr 2026 16:39:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Zig explores structured concurrency</title>
-            <link>https://lwn.net/Articles/1068409/</link>
-            <description><![CDATA[<p>
-Version 0.16.0 of the Zig programming language was
-<a href="https://ziglang.org/download/0.16.0/release-notes.html">
-recently announced</a>, and with
-it an expanded version of the new <tt>Io</tt> interface that we
-<a href="https://lwn.net/Articles/1046084/">
-covered in December</a>.
-The new interface is based on an idea called structured concurrency that makes writing
-correct concurrent applications easier. Zig's implementation of
-the idea is more explicit and verbose than other languages, however, which could
-offer an opportunity to explore the consequences of different designs.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1068409/</guid>
-            <pubDate>Mon, 27 Apr 2026 13:52:05 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] On pages and folios</title>
-            <link>https://lwn.net/Articles/1064861/</link>
-            <description><![CDATA[The kernel coverage here at LWN often touches on memory-management topics
-and, as a result, tends to talk a lot about both pages and folios.  As the
-folio transition in the kernel has moved forward, it has often become
-difficult to decide which term to use in writing that is meant to be both
-approachable and technically correct.  As this work continues, it will be
-increasingly common to use "folio" rather than page.  This article is
-intended to be a convenient reference for readers wanting to differentiate
-the two terms or understand the state of this transition.]]></description>
-            <guid>https://lwn.net/Articles/1064861/</guid>
-            <pubDate>Fri, 24 Apr 2026 13:08:51 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Famfs, FUSE, and BPF</title>
-            <link>https://lwn.net/Articles/1068686/</link>
-            <description><![CDATA[The famfs filesystem first <a
-href="https://lwn.net/ml/all/cover.1708709155.git.john@groves.net/">showed up on the
-mailing lists</a> in early 2024; since then, it has been the topic of
-regular discussions at the Linux Storage, Filesystem, Memory Management and
-BPF (LSFMM+BPF) Summit.  It has also, as result of those discussions, been
-through some significant changes since that initial posting.  So it is not
-surprising that a suggestion that it needed to be rewritten yet again was
-not entirely well received.  How much more rewriting will actually be
-needed is unclear, but more discussion appears certain.]]></description>
-            <guid>https://lwn.net/Articles/1068686/</guid>
-            <pubDate>Thu, 23 Apr 2026 13:44:23 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
