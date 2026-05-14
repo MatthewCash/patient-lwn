@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 May 2026 14:09:36 +0000</pubDate>
-        <lastBuildDate>Thu, 14 May 2026 14:10:09 +0000</lastBuildDate>
+        <pubDate>Thu, 14 May 2026 15:54:07 +0000</pubDate>
+        <lastBuildDate>Thu, 14 May 2026 16:22:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels for Thursday</title>
+            <link>https://lwn.net/Articles/1072849/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1072850/">7.0.7</a>, <a
+href="https://lwn.net/Articles/1072851/">6.18.30</a>, and <a
+href="https://lwn.net/Articles/1072852/">6.12.88</a> stable kernels. These kernels do
+not include a patch for the <a
+href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">Fragnesia</a>
+<span class="nobreak">local-privilege-escalation</span> exploit that <a
+href="https://lwn.net/Articles/1072647/">came to light</a> on
+May&#160;13, but do include many other important fixes throughout the
+tree. Users are, as always, advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1072849/</guid>
+            <pubDate>Thu, 14 May 2026 14:44:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1072838/</link>
@@ -391,48 +410,6 @@ or how the third party was able to disclose it prior to the end of the
 embargo. We will be following up as more information comes to light.</p>]]></description>
             <guid>https://lwn.net/Articles/1071719/</guid>
             <pubDate>Thu, 07 May 2026 20:25:43 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1071700/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dovecot, fence-agents, freeipmi, git-lfs, image-builder, kernel, libsoup, osbuild-composer, and python-tornado), <b>Debian</b> (apache2, libdatetime-timezone-perl, lrzip, tzdata, and wireshark), <b>Fedora</b> (dovecot, forgejo-runner, gh, gnutls, krb5, nano, pdns, pyOpenSSL, squid, vim, and xorg-x11-server-Xwayland), <b>Mageia</b> (graphicsmagick, kernel-linus, krb5-appl, libexif, libtiff, nano, nginx, ntfs-3g, opam, perl-Net-CIDR-Lite, perl-Starlet, perl-Starman, tcpflow, and virtualbox), <b>Oracle</b> (dovecot, fence-agents, freeipmi, image-builder, kernel, libcap, LibRaw, libsoup, openssh, osbuild-composer, python, python-tornado, python3, systemd, thunderbird, and tigervnc), <b>SUSE</b> (containerd, curl, erlang, flatpak, java-11-openjdk, java-21-openjdk, java-25-openjdk, liblxc-devel, libpng12, libthrift-0_23_0, openCryptoki, openexr, openssl-3, python3, python311-social-auth-core, rclone, skim, and thunderbird), and <b>Ubuntu</b> (apache2, coin3, editorconfig-core, insighttoolkit, linux, linux-aws, linux-aws-6.17, linux-gcp, linux-gcp-6.17, linux-hwe-6.17, linux-oracle, linux-realtime, linux-realtime-6.17, linux-azure, linux-azure-6.17, linux-oem-6.17, linux-azure-5.15, linux-gcp-6.8, nghttp2, python-dynaconf, slurm-wlm, swish-e, and webkit2gtk).]]></description>
-            <guid>https://lwn.net/Articles/1071700/</guid>
-            <pubDate>Thu, 07 May 2026 13:10:37 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>An update on KDE&apos;s Union style engine</title>
-            <link>https://lwn.net/Articles/1071703/</link>
-            <description><![CDATA[<p>Arjen Hiemstra has <a
-href="https://quantumproductions.info/articles/2026-05/union-spring-2026-update">published</a>
-an article on the status of the <a
-href="https://invent.kde.org/plasma/union#union">Union</a> project: a
-single system to support all of KDE's technologies used for styling
-applications.</p>
-
-<blockquote class="bq">
-<p>The work on Union's Breeze implementation has progressed to the
-point where it is very hard to distinguish whether or not you are
-running the Union version. We have also tested with a bunch of
-applications and made sure that any differences were fixed. So we are
-at a stage where we need to get Union into the hands of more people,
-both to get extra people testing whether there are any major issues,
-but also to have interested people creating new styles.</p>
-
-<p>This means that with the upcoming Plasma 6.7 release, we plan to
-include Union. Discussion is currently ongoing whether we will enable
-it by default, but even if not there will be a way to try it out.</p>
-</blockquote>
-
-<p>See Hiemstra's <a
-href="https://planet.kde.org/arjen-hiemstra-2025-02-10-moving-kde-s-styling-into-the-future/">introductory
-article on Union</a>, published in February 2025, for more about the
-project and its creation. KDE&#160;6.7 is expected to be released in mid-June.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1071703/</guid>
-            <pubDate>Thu, 07 May 2026 14:10:52 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
