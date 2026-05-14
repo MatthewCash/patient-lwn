@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 14 May 2026 07:04:21 +0000</pubDate>
-        <lastBuildDate>Thu, 14 May 2026 07:25:08 +0000</lastBuildDate>
+        <pubDate>Thu, 14 May 2026 09:23:05 +0000</pubDate>
+        <lastBuildDate>Thu, 14 May 2026 09:56:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -426,19 +426,6 @@ project and its creation. KDE&#160;6.7 is expected to be released in mid-June.</
             <guid>https://lwn.net/Articles/1071703/</guid>
             <pubDate>Thu, 07 May 2026 14:10:52 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates</title>
-            <link>https://lwn.net/Articles/1071568/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1071569/">7.0.4</a>,
-<a href="https://lwn.net/Articles/1071570/">6.18.27</a>, and
-<a href="https://lwn.net/Articles/1071571/">6.12.86</a>
-stable kernels have been released; each contains another set of important
-fixes.]]></description>
-            <guid>https://lwn.net/Articles/1071568/</guid>
-            <pubDate>Thu, 07 May 2026 06:36:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
