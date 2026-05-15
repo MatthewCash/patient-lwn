@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 15 May 2026 07:56:33 +0000</pubDate>
-        <lastBuildDate>Fri, 15 May 2026 08:31:15 +0000</lastBuildDate>
+        <pubDate>Fri, 15 May 2026 10:57:18 +0000</pubDate>
+        <lastBuildDate>Fri, 15 May 2026 11:01:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -357,27 +357,6 @@ a known vulnerable kernel until the fix land.</q>"]]></description>
             <guid>https://lwn.net/Articles/1071861/</guid>
             <pubDate>Fri, 08 May 2026 13:36:05 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Four stable kernels with partial fixes for Dirty Frag</title>
-            <link>https://lwn.net/Articles/1071775/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1071776/">7.0.5</a>, <a
-href="https://lwn.net/Articles/1071777/">6.18.28</a>, <a
-href="https://lwn.net/Articles/1071778/">6.12.87</a>, and <a
-href="https://lwn.net/Articles/1071779/">6.6.138</a> stable kernels. These kernels
-contain a partial fix for the <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty
-Frag</a> and <a
-href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>
-security flaws. Kroah-Hartman has <a
-href="https://lwn.net/ml/all/2026050859-ahead-anchovy-05e2@gregkh/">confirmed</a>
-that a second patch is required, but it is still in development and has not yet been merged.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1071775/</guid>
-            <pubDate>Fri, 08 May 2026 09:49:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
