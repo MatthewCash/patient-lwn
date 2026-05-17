@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 17 May 2026 20:29:12 +0000</pubDate>
-        <lastBuildDate>Sun, 17 May 2026 20:32:02 +0000</lastBuildDate>
+        <pubDate>Sun, 17 May 2026 21:39:27 +0000</pubDate>
+        <lastBuildDate>Sun, 17 May 2026 21:39:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.1-rc4</title>
+            <link>https://lwn.net/Articles/1073193/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1073192/">7.1-rc4</a> kernel prepatch is out for
+testing.
+<p>
+<blockquote class="bq">
+	Some of the documentation updates might be worth highlighting: the
+	continued flood of AI reports has basically made the security list
+	almost entirely unmanageable, with enormous duplication due to
+	different people finding the same things with the same
+	tools. People spend all their time just forwarding things to the
+	right people or saying "that was already fixed a week/month ago"
+	and pointing to the public discussion.
+<p>
+	Which is all entirely pointless churn, and we're making it clear
+	that AI detected bugs are pretty much by definition not secret, and
+	treating them on some private list is a waste of time for everybody
+	involved - and only makes that duplication worse because the
+	reporters can't even see each other's reports.
+</blockquote>
+<p>
+(He is referring to <a href="https://lwn.net/ml/all/87lddksslx.fsf@trenco.lwn.net/">this
+pull request</a> with patches from Willy Tarreau defining <a
+href="https://lwn.net/ml/all/20260509094755.2838-3-w@1wt.eu/">what constitutes a security
+bug</a> and <a href="https://lwn.net/ml/all/20260509094755.2838-4-w@1wt.eu/">responsible
+ways to use AI to find bugs</a>).]]></description>
+            <guid>https://lwn.net/Articles/1073193/</guid>
+            <pubDate>Sun, 17 May 2026 21:39:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>RIP Peter G. Neuman</title>
             <link>https://lwn.net/Articles/1073186/</link>
