@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 17 May 2026 17:45:55 +0000</pubDate>
-        <lastBuildDate>Sun, 17 May 2026 18:12:23 +0000</lastBuildDate>
+        <pubDate>Sun, 17 May 2026 19:36:06 +0000</pubDate>
+        <lastBuildDate>Sun, 17 May 2026 19:37:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>RIP Peter G. Neuman</title>
+            <link>https://lwn.net/Articles/1073186/</link>
+            <description><![CDATA[We have <a
+href="https://lwn.net/ml/all/CAEoi9W7rpLzdJzYJ3-F0KVJo-wQXa7UawUYtUoUUYy36m5e_3Q@mail.gmail.com">received
+word</a> that Peter G. Neuman, who, among many other things, ran the <a
+href="https://catless.ncl.ac.uk/Risks/">RISKS Digest</a> for decades, has
+passed away.  He will be much missed.]]></description>
+            <guid>https://lwn.net/Articles/1073186/</guid>
+            <pubDate>Sun, 17 May 2026 19:36:06 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Some weekend stable kernel updates</title>
             <link>https://lwn.net/Articles/1073161/</link>
