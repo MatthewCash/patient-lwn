@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 18 May 2026 14:05:18 +0000</pubDate>
-        <lastBuildDate>Mon, 18 May 2026 14:19:15 +0000</lastBuildDate>
+        <pubDate>Mon, 18 May 2026 17:05:24 +0000</pubDate>
+        <lastBuildDate>Mon, 18 May 2026 17:17:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -303,95 +303,6 @@ its communication services.</q>"]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, glib2, libsoup3, and openexr), <b>Debian</b> (dnsmasq, p7zip, p7zip-rar, python-authlib, and rails), <b>Fedora</b> (chromium, firefox, httpd, and nss), <b>SUSE</b> (java-25-openj9, krb5, libmodsecurity3, and mcphost), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure-4.15, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux-azure, linux-azure-fips, linux-oracle, linux-azure-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-raspi).]]></description>
             <guid>https://lwn.net/Articles/1072498/</guid>
             <pubDate>Tue, 12 May 2026 13:17:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1072301/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, freeipmi, kernel, and kernel-rt), <b>Debian</b> (corosync, firefox-esr, kernel, lcms2, libpng1.6, linux-6.1, php8.2, php8.4, postorius, pyjwt, and tor), <b>Fedora</b> (dotnet10.0, exim, gnutls, kernel, nextcloud, nodejs22, php, proftpd, prosody, python-pulp-glue, python-requests, rclone, and SDL3_image), <b>Mageia</b> (firefox, nss, rootcerts, openvpn, thunderbird, and vim), <b>Oracle</b> (corosync, freeipmi, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, and gstreamer1-plugins-good, kernel, libpng, and mingw-libtiff), <b>Slackware</b> (kernel and mozilla), <b>SUSE</b> (build, product-composer, c-ares, cairo, copacetic, distribution, firefox, firefox-esr, frr, glibc, go1.25, google-cloud-sap-agent, iproute2, java-11-openj9, java-17-openj9, java-17-openjdk, java-1_8_0-openj9, java-21-openj9, java-21-openjdk, java-25-openjdk, kernel, libexif-devel, libpcp-devel, libtpms, libtree-sitter0_26, Mesa, micropython, mozjs128, nginx, opencc, openCryptoki, php-composer2, podman, postfix, python-pytest, python311-Django, python311-Django4, redis, semaphore, strongswan, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, tor, valkey, vim, and wireshark), and <b>Ubuntu</b> (linux-nvidia-tegra, linux-raspi, linux-raspi-5.4, and nasm).]]></description>
-            <guid>https://lwn.net/Articles/1072301/</guid>
-            <pubDate>Mon, 11 May 2026 13:10:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Debian to require reproducible builds</title>
-            <link>https://lwn.net/Articles/1072314/</link>
-            <description><![CDATA[Paul Gevers has slipped an interesting bit of news into a "<a
-href="https://lwn.net/ml/all/E1wLw4g-000n88-0p@respighi.debian.org">bits from the release
-team</a>" message:
-<p>
-<blockquote class="bq">
-	Aided by the efforts of the Reproducible Builds project, we've
-	decided it's time to say that Debian must ship reproducible
-	packages. Since yesterday, we have enabled our migration software
-	to block migration of new packages that can't be reproduced or
-	existing packages (in testing) that regress in reproducibility.
-</blockquote>
-<p>
-As Gioele Barabucci <a
-href="https://lwn.net/ml/all/603a3905-a87b-47c2-b834-12e58bed136f@debian.org">pointed
-out</a>, "reproducible" in this sense is limited to building within an
-instance of Debian's build environment, which is a tighter requirement than
-is normally used.  It is still a big step forward for reproducible builds.]]></description>
-            <guid>https://lwn.net/Articles/1072314/</guid>
-            <pubDate>Mon, 11 May 2026 13:21:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernels with Dirty Frag fixes</title>
-            <link>https://lwn.net/Articles/1072311/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1072312/">7.0.6</a> and <a
-href="https://lwn.net/Articles/1072313/">6.18.29</a> stable kernels with Hyunwoo
-Kim's <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=aa54b1d27fe0c2b78e664a34fd0fdf7cd1960d71">patch</a>
-for the second vulnerability (<a
-href="https://lwn.net/ml/all/2026051149-CVE-2026-43500-60d6%40gregkh/">CVE-2026-43500</a>)
-reported with <a
-href="https://github.com/V4bel/dirtyfrag#dirty-frag-universal-linux-lpe">Dirty&#160;Frag</a>
-and <a
-href="https://www.openwall.com/lists/oss-security/2026/05/07/12">Copy&#160;Fail&#160;2</a>. All
-users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1072311/</guid>
-            <pubDate>Mon, 11 May 2026 13:35:31 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stenberg: Mythos finds a curl vulnerability</title>
-            <link>https://lwn.net/Articles/1072325/</link>
-            <description><![CDATA[<p>Daniel Stenberg has published a <a
-href="https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/">lengthy
-article</a> on his thoughts on Anthropic's Mythos, which the company
-decided was too dangerous for wide public release.</p>
-
-<blockquote class="bq">
-<p>My personal conclusion can however not end up with anything else
-than that the big hype around this model so far was primarily
-marketing. I see no evidence that this setup finds issues to any
-particular higher or more advanced degree than the other tools have
-done before Mythos. Maybe this model is a little bit better, but even
-if it is, it is not better to a degree that seems to make a
-significant dent in code analyzing.</p>
-
-<p>This is just one source code repository and maybe it is much better
-on other things. I can only tell and comment on what it found
-here.</p>
-
-<p>But allow me to highlight and reiterate what I have said before: AI
-powered code analyzers are significantly better at finding security
-flaws and mistakes in source code than any traditional code analyzers
-did in the past. All modern AI models are good at this now. Anyone
-with time and some experimental spirits can find security problems
-now. The <a
-href="https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/">high
-quality chaos</a> is real.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1072325/</guid>
-            <pubDate>Mon, 11 May 2026 14:35:53 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
