@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 19 May 2026 12:05:43 +0000</pubDate>
-        <lastBuildDate>Tue, 19 May 2026 12:10:47 +0000</lastBuildDate>
+        <pubDate>Tue, 19 May 2026 15:27:08 +0000</pubDate>
+        <lastBuildDate>Tue, 19 May 2026 15:49:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1073542/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libpng and nginx), <b>Debian</b> (erlang, netatalk, and nginx), <b>Fedora</b> (mod_md and SDL2_image), <b>Mageia</b> (perl-libwww-perl, perl-HTTP-Message, perl-WWW-Mechanize-Cached, perl-File-XDG, perl-Path-Tiny, perl-YAML-Syck, postgresql15, and rclone), <b>SUSE</b> (agama, alloy, cacti, cloud-init, dnsmasq, emacs, firefox, glibc, go1.25, go1.26, google-cloud-sap-agent, google-guest-agent, ibus-rime, librime, imagemagick, kernel, libsndfile, nginx, ongres-scram, ongres-stringprep, plexus-testing,, openexr, openssh, PackageKit, perl-Text-CSV_XS, php-composer2, php8, postgresql16, postgresql18, python-lxml, python-python-multipart, python3, python311-urllib3, rmt-server, rsync, tiff, tree-sitter, util-linux, and xen), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-raspi, and linux-xilinx-zynqmp).]]></description>
+            <guid>https://lwn.net/Articles/1073542/</guid>
+            <pubDate>Tue, 19 May 2026 13:24:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>pgBackRest will continue</title>
             <link>https://lwn.net/Articles/1073470/</link>
@@ -326,14 +334,6 @@ its communication services.</q>"]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, freerdp, git-lfs, glib2, jq, kernel-rt, krb5, libpng, libtiff, openexr, and thunderbird), <b>Debian</b> (exim4), <b>Mageia</b> (apache, perl-Gazelle, php, and sed), <b>Slackware</b> (expat), <b>SUSE</b> (assimp-devel, go1.26, libQt6Svg6, python-jupyterlab, raylib, thunderbird, tor, and trivy), and <b>Ubuntu</b> (exim4).]]></description>
             <guid>https://lwn.net/Articles/1072596/</guid>
             <pubDate>Wed, 13 May 2026 13:17:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1072498/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, glib2, libsoup3, and openexr), <b>Debian</b> (dnsmasq, p7zip, p7zip-rar, python-authlib, and rails), <b>Fedora</b> (chromium, firefox, httpd, and nss), <b>SUSE</b> (java-25-openj9, krb5, libmodsecurity3, and mcphost), and <b>Ubuntu</b> (imagemagick, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure-4.15, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux-azure, linux-azure-fips, linux-oracle, linux-azure-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-raspi).]]></description>
-            <guid>https://lwn.net/Articles/1072498/</guid>
-            <pubDate>Tue, 12 May 2026 13:17:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
