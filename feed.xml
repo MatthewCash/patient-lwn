@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 May 2026 13:22:57 +0000</pubDate>
-        <lastBuildDate>Wed, 20 May 2026 14:05:48 +0000</lastBuildDate>
+        <pubDate>Wed, 20 May 2026 17:16:31 +0000</pubDate>
+        <lastBuildDate>Wed, 20 May 2026 17:30:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -314,37 +314,6 @@ TCMalloc's behavior.]]></description>
             <guid>https://lwn.net/Articles/1070072/</guid>
             <pubDate>Thu, 30 Apr 2026 14:01:09 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Yet another Dirty Frag type vulnerability: Fragnesia</title>
-            <link>https://lwn.net/Articles/1072647/</link>
-            <description><![CDATA[<p>Sam James has sent an <a
-href="https://lwn.net/ml/all/8733zvfucm.fsf%40gentoo.org/">announcement</a>
-to the OSS Security mailing list about another
-local-privilege-escalation (LPE) exploit in the same class as <a
-href="https://github.com/V4bel/dirtyfrag">Dirty Frag</a>, called
-"Fragnesia". From the <a
-href="https://github.com/v12-security/pocs/tree/main/fragnesia#fragnesia">disclosure</a>:</p>
-
-<blockquote class="bq">
-<p>This is a separate bug in the ESP/XFRM from dirtyfrag which has received its own patch. However, it is in the same surface and the mitigation is the same as for dirtyfrag.</p>
-
-<p>It abuses a logic bug in the Linux XFRM ESP-in-TCP subsystem to
-achieve arbitrary byte writes into the kernel page cache of read-only
-files, without requiring any race condition.</p>
-</blockquote>
-
-<p>James noted that there is a <a
-href="https://lwn.net/ml/all/20260513041635.1289541-1-vakzz%40zellic.io/">patch</a>
-in the works, but it has not yet been pulled into Linus Torvalds's
-tree nor into any of the stable kernels. A <a
-href="https://github.com/v12-security/pocs/blob/d4043edc2acbd75d093e3f5795751b678c66b259/fragnesia/fragnesia.c">proof
-of concept</a> is also available.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1072647/</guid>
-            <pubDate>Wed, 13 May 2026 15:26:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
