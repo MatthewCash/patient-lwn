@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 20 May 2026 11:00:15 +0000</pubDate>
-        <lastBuildDate>Wed, 20 May 2026 11:27:58 +0000</lastBuildDate>
+        <pubDate>Wed, 20 May 2026 13:22:57 +0000</pubDate>
+        <lastBuildDate>Wed, 20 May 2026 14:05:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1073713/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, libpng, nginx, nginx:1.24, ruby, and ruby:3.3), <b>Debian</b> (gnutls28 and linux-6.1), <b>Fedora</b> (dnsmasq, kernel, keylime-agent-rust, perl-Net-CIDR-Lite, python-pysam, python-urllib3, rust-cargo-vendor-filterer, rust-ingredients, rust-oo7-cli, rust-rpki, rust-sevctl, and rust-tealdeer), <b>Mageia</b> (bind), <b>Oracle</b> (bind, giflib, gimp:2.8, kernel, libpng, rsync, ruby, and vim), <b>Slackware</b> (haveged and mozilla), <b>SUSE</b> (cockpit, dnsmasq, erlang26, freeipmi, git-bug, glibc, GraphicsMagick, haveged, ImageMagick, iproute2, kernel, openssh, perl-CryptX, perl-HTTP-Tiny, postgresql14, postgresql15, postgresql16, python-Pillow, rsync, tiff, and traefik), and <b>Ubuntu</b> (Highlight.js, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-gcp,
+ linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm,
+ linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
+ linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
+ linux-raspi, linux-realtime, linux, linux-aws, linux-aws-fips, linux-bluefield, linux-fips, linux-gcp,
+ linux-gcp-5.4, linux-gcp-fips, linux-ibm, linux-ibm-5.4, linux-kvm,
+ linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp-4.15,
+ linux-gcp-fips, linux-kvm, linux-oracle, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-gke,
+ linux-gkeop, linux-ibm, linux-ibm-6.8, linux-lowlatency,
+ linux-lowlatency-hwe-6.8, linux-raspi, linux-raspi-realtime,
+ linux-realtime, linux-realtime-6.8, linux, linux-aws, linux-hwe-6.17, linux-oem-6.17, linux-oracle,
+ linux-raspi, linux-realtime, linux-realtime-6.17, and smarty3).]]></description>
+            <guid>https://lwn.net/Articles/1073713/</guid>
+            <pubDate>Wed, 20 May 2026 13:04:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 151.0 released</title>
             <link>https://lwn.net/Articles/1073579/</link>
@@ -325,28 +344,6 @@ of concept</a> is also available.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1072647/</guid>
             <pubDate>Wed, 13 May 2026 15:26:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Sovereign Tech Fund invests in KDE</title>
-            <link>https://lwn.net/Articles/1072565/</link>
-            <description><![CDATA[The KDE project has <a
-href="https://kde.org/announcements/sovereign-tech-fund-invests-kde/">announced</a>
-that it has been awarded over €1&#160;million from the Sovereign Tech Fund
-to improve its desktop-environment software.  "<q>The investment will be
-used to strengthen the structural reliability and security of KDE's core
-infrastructure, including Plasma, KDE Linux, and the frameworks underlying
-its communication services.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1072565/</guid>
-            <pubDate>Wed, 13 May 2026 13:09:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1072596/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, freerdp, git-lfs, glib2, jq, kernel-rt, krb5, libpng, libtiff, openexr, and thunderbird), <b>Debian</b> (exim4), <b>Mageia</b> (apache, perl-Gazelle, php, and sed), <b>Slackware</b> (expat), <b>SUSE</b> (assimp-devel, go1.26, libQt6Svg6, python-jupyterlab, raylib, thunderbird, tor, and trivy), and <b>Ubuntu</b> (exim4).]]></description>
-            <guid>https://lwn.net/Articles/1072596/</guid>
-            <pubDate>Wed, 13 May 2026 13:17:03 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
