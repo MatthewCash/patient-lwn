@@ -9,10 +9,173 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 20 May 2026 22:12:36 +0000</pubDate>
-        <lastBuildDate>Wed, 20 May 2026 22:52:35 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 21 May 2026 00:07:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for May 14, 2026</title>
+            <link>https://lwn.net/Articles/1071535/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1071535/">Front</a>: Fedora AI; Forgejo &quot;carrot&quot; disclosure; memory-management maintainership; huge THPs; mshare; 64KB base pages; DAMON; direct map.
+            <li> <a href="https://lwn.net/Articles/1071537/">Briefs</a>: Dirty Frag; Fragnesia; Mythos and curl; killswitch; Debian reproducible builds; KDE investment; Quotes ...
+            <li> <a href="https://lwn.net/Articles/1071538/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1071535/</guid>
+            <pubDate>Thu, 14 May 2026 01:04:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Friction in Fedora over AI developer desktop initiative</title>
+            <link>https://lwn.net/Articles/1071949/</link>
+            <description><![CDATA[<p>A push by Red Hat employees to create a Fedora "AI Developer
+Desktop" with support for out-of-tree kernel drivers and AI toolkits
+has been met with objections from some long-time members of the Fedora
+community. After more than a month of sometimes heated discussion, the
+<a href="https://docs.fedoraproject.org/en-US/council/">Fedora
+Council</a> had <a
+href="https://forge.fedoraproject.org/council/tickets/issues/562#issuecomment-697648">voted</a>
+to approve the initiative; however, a last-minute change to vote against the
+proposal by council member Justin Wheeler has (at least temporarily)
+sent it back to the drawing board.</p>]]></description>
+            <guid>https://lwn.net/Articles/1071949/</guid>
+            <pubDate>Wed, 13 May 2026 16:05:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Managing pages outside of the direct map</title>
+            <link>https://lwn.net/Articles/1072367/</link>
+            <description><![CDATA[When Brendan Jackman <a
+href="https://lwn.net/ml/linux-mm/20260219175113.618562-1-jackmanb@google.com/">proposed</a>
+a session for the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, his topic was "<q>a
+pagetable library for the kernel</q>".  During the actual
+memory-management-track session, though, he stated that the idea had
+"<q>fizzled</q>" and he was going to cover related topics instead.  What
+resulted was a session on ways to efficiently manage pages that are not
+present in the kernel's direct map.]]></description>
+            <guid>https://lwn.net/Articles/1072367/</guid>
+            <pubDate>Wed, 13 May 2026 14:20:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Revisiting mshare</title>
+            <link>https://lwn.net/Articles/1072333/</link>
+            <description><![CDATA[Linux can share memory between processes, but each process (almost always)
+has its own set of page tables.  In situations where vast numbers of
+processes are sharing a memory region, the combined size of the page
+tables can exceed that of the shared memory itself.  There has, thus, long
+been an interest in enabling unrelated processes to share page tables
+referring to shared memory.  Anthony Yznaga is the latest developer to try
+to push this idea (known as "mshare") forward; he described the status of
+that work in a memory-management-track discussion at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF).]]></description>
+            <guid>https://lwn.net/Articles/1072333/</guid>
+            <pubDate>Wed, 13 May 2026 13:19:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Using dma-bufs for read and write operations</title>
+            <link>https://lwn.net/Articles/1072317/</link>
+            <description><![CDATA[The kernel's <a
+href="https://docs.kernel.org/driver-api/dma-buf.html">dma-buf
+subsystem</a> provides a way for drivers to share memory buffers, usually
+in order to support efficient device-to-device <span class="nobreak">I/O</span>.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Pavel Begunkov, assisted
+by Kanchan Joshi, led a joint session of the storage and memory-management
+tracks to explore ways to make the use of dma-bufs more efficient yet, and
+to make them available for read and write operations initiated by user
+space.]]></description>
+            <guid>https://lwn.net/Articles/1072317/</guid>
+            <pubDate>Tue, 12 May 2026 17:25:31 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Scaling transparent huge pages to 1GB</title>
+            <link>https://lwn.net/Articles/1071716/</link>
+            <description><![CDATA[As a general rule, when developers talk about huge pages, they are
+referring to PMD-level pages that are 1MB or 2MB in size, depending on the
+CPU architecture.  Most CPUs can support other huge-page sizes, though.  On
+x86 systems, PUD-level huge pages hold 1GB of data.  Providing such large
+pages transparently to processes has generally not been considered as
+either feasible or desirable, but Usama Arif is trying to change that
+assessment.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, he led a session in the
+memory-management track on how to make transparent huge pages (THPs) truly
+huge.]]></description>
+            <guid>https://lwn.net/Articles/1071716/</guid>
+            <pubDate>Tue, 12 May 2026 13:24:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Providing 64KB base pages with 4KB kernels, two different ways</title>
+            <link>https://lwn.net/Articles/1071484/</link>
+            <description><![CDATA[Some CPU architectures are able to run with a number of different base-page
+sizes; using a larger size can often result in better performance at the
+cost of increased memory use.  Other architectures are more limited.  At
+the 2026 <a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a>, two sessions in
+the memory-management track explored options for letting processes run with
+64KB page sizes when the underlying kernel does not.  The first was focused
+on letting each process have its own page size, while the second concerned
+bringing 64KB pages to x86 systems.]]></description>
+            <guid>https://lwn.net/Articles/1071484/</guid>
+            <pubDate>Mon, 11 May 2026 13:35:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Forgejo &quot;carrot disclosure&quot; raises security questions</title>
+            <link>https://lwn.net/Articles/1071499/</link>
+            <description><![CDATA[<p>An unusual, some might say hostile, approach to disclosing an alleged
+remote-code-execution (RCE) flaw in the <a
+href="https://forgejo.org/">Forgejo</a> software-collaboration platform has
+sparked a multifaceted conversation. A <span class="nobreak">so-called</span>
+"<q>carrot disclosure</q>" in April has raised questions about the
+researcher's methods of unveiling a security problem, Forgejo's
+security policies, and the project's overall security posture.</p>]]></description>
+            <guid>https://lwn.net/Articles/1071499/</guid>
+            <pubDate>Fri, 08 May 2026 16:30:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] A 2026 DAMON update</title>
+            <link>https://lwn.net/Articles/1071256/</link>
+            <description><![CDATA[The kernel's <a
+href="https://docs.kernel.org/admin-guide/mm/damon/">DAMON</a> subsystem
+provides user-space monitoring and management of system memory.  DAMON is
+developing rapidly, so an update on its progress has become a regular
+feature of the annual <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  This tradition
+continued at the 2026 gathering with an update from DAMON creator SeongJae
+Park covering a long list of new capabilities — tiering, data attributes
+monitoring, transparent huge pages, and more — being added to this subsystem.]]></description>
+            <guid>https://lwn.net/Articles/1071256/</guid>
+            <pubDate>Fri, 08 May 2026 13:20:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A new era for memory-management maintainership</title>
+            <link>https://lwn.net/Articles/1070994/</link>
+            <description><![CDATA[On April 21, Andrew Morton <a
+href="https://lwn.net/ml/all/20260421094216.8dfe14a8c62f2420fa5aace1@linux-foundation.org">let
+it be known</a> that he intends to begin stepping away from the
+maintainership of kernel's memory-management subsystem — a responsibility
+he has carried since before memory management was even seen as its own
+subsystem.  At the 2026 Linux Storage, Filesystem, Memory Management, and
+BPF Summit, one of the first sessions in the memory-management track was
+devoted to how the maintainership would be managed going forward.  There
+are a lot of questions still to be answered.]]></description>
+            <guid>https://lwn.net/Articles/1070994/</guid>
+            <pubDate>Thu, 07 May 2026 14:42:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1073713/</link>
