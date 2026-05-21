@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 21 May 2026 08:56:52 +0000</pubDate>
-        <lastBuildDate>Thu, 21 May 2026 11:45:43 +0000</lastBuildDate>
+        <pubDate>Thu, 21 May 2026 14:27:38 +0000</pubDate>
+        <lastBuildDate>Thu, 21 May 2026 14:28:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1073860/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libsndfile), <b>Debian</b> (bind9, evince, firefox-esr, openjpeg2, pdns, and rsync), <b>Fedora</b> (erlang-cowlib, evince, expat, firefox, kernel, mingw-expat, mysql8.0, mysql8.4, nss, opencryptoki, pgadmin4, proftpd, python-django5, python-django6, python-dotenv, rsync, rust-nu, rustup, and strongswan), <b>Oracle</b> (nginx, nginx:1.24, ruby, ruby:3.3, and squid), <b>Slackware</b> (bind and rsync), <b>SUSE</b> (buildah, distribution, distribution-registry, docker, firefox-esr, helm, libpainter0, libsdb2_4_2, postgresql-jdbc, runc, and vim), and <b>Ubuntu</b> (gnutls28, gst-plugins-good1.0, jq, linux-nvidia, linux-nvidia-lowlatency, openvpn, rsync, and unbound).]]></description>
+            <guid>https://lwn.net/Articles/1073860/</guid>
+            <pubDate>Thu, 21 May 2026 13:19:13 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>OpenBSD 7.9 released</title>
+            <link>https://lwn.net/Articles/1073933/</link>
+            <description><![CDATA[The <a href="https://www.openbsd.org/79.html">OpenBSD 7.9</a> release is
+out, right on schedule.  There is the usual long list of new features,
+including improved architecture support, CPU scheduling on heterogeneous
+systems, the ability to hibernate a suspended system after a configurable
+delay, <a href="https://man.openbsd.org/sosplice.9">socket splicing</a>, a
+<a
+href="https://man.openbsd.org/__pledge_open.2"><tt>__pledge_open()</tt></a>
+system call giving special access to the C library, and much more.  See the
+announcement and <a href="https://www.openbsd.org/plus79.html">the full
+changelog</a> for details.]]></description>
+            <guid>https://lwn.net/Articles/1073933/</guid>
+            <pubDate>Thu, 21 May 2026 14:27:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 14, 2026</title>
             <link>https://lwn.net/Articles/1071535/</link>
@@ -362,14 +387,6 @@ tree. Users are, as always, advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1072849/</guid>
             <pubDate>Thu, 14 May 2026 14:44:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1072838/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gimp, jq, and yggdrasil), <b>Debian</b> (nghttp2 and thunderbird), <b>Fedora</b> (chromium, firefox, freerdp, GitPython, kernel, kernel-headers, krb5, nano, nix, nodejs20, php, python-click, python-django5, SDL2_image, and xen), <b>Mageia</b> (dnsmasq, flatpak, kernel, kmod-virtualbox, kernel-linus, perl-Net-CIDR-Lite, perl-XML-LibXML, and redis), <b>SUSE</b> (dnsmasq, firefox, jupyter-jupyterlab, kernel, krb5, libvinylapi3, log4j, Mesa, mozjs60, NetworkManager, OpenImageIO, python-Mako, python-Pillow, and python39), and <b>Ubuntu</b> (dnsmasq and nginx).]]></description>
-            <guid>https://lwn.net/Articles/1072838/</guid>
-            <pubDate>Thu, 14 May 2026 13:09:38 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
