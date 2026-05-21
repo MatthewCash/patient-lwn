@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 21 May 2026 19:11:36 +0000</pubDate>
-        <lastBuildDate>Thu, 21 May 2026 19:20:22 +0000</lastBuildDate>
+        <pubDate>Thu, 21 May 2026 21:05:20 +0000</pubDate>
+        <lastBuildDate>Thu, 21 May 2026 21:12:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Vulnerabilities in various GTK-based PDF readers</title>
+            <link>https://lwn.net/Articles/1073944/</link>
+            <description><![CDATA[Michael Catanzaro has disclosed <a
+href="https://lwn.net/ml/all/ce81312b-99e1-4305-a816-e74b2bd1ffd5@app.fastmail.com">a
+command-injection vulnerability</a> affecting a number of GTK-based PDF
+readers; exploits included:
+<p>
+<blockquote class="bq">
+	They contain a script for building malicious polyglot PDFs that are
+	simultaneously both valid PDF files and also valid ELF
+	binaries. When the user opens the PDF in the PDF viewer and clicks
+	on a malicious link embedded in the PDF, the PDF abuses the command
+	injection vulnerability to load itself as a GTK module using the
+	`--gtk-module` command line flag. It can then execute arbitrary
+	code via its library constructor. That flag was removed in GTK 4,
+	which is why the vulnerability is much less serious for Papers than
+	it is for Evince, Atril, and Xreader.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1073944/</guid>
+            <pubDate>Thu, 21 May 2026 21:05:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1073860/</link>
