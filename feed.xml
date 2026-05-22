@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 22 May 2026 14:37:10 +0000</pubDate>
-        <lastBuildDate>Fri, 22 May 2026 15:23:15 +0000</lastBuildDate>
+        <pubDate>Fri, 22 May 2026 16:49:53 +0000</pubDate>
+        <lastBuildDate>Fri, 22 May 2026 17:23:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -365,41 +365,6 @@ Each contains yet another set of important fixes.]]></description>
             <guid>https://lwn.net/Articles/1073161/</guid>
             <pubDate>Sun, 17 May 2026 17:43:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1073059/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg, gsasl, nodejs, postgresql-15, postgresql-17, python3.9, and thunderbird), <b>Fedora</b> (expat, firefox, freerdp, GitPython, kernel, php, rust-podman-sequoia, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, and rust-sequoia-sqv), <b>Mageia</b> (awstats, libreoffice, perl-HTTP-Tiny, and tomcat), <b>Oracle</b> (corosync, freerdp, gimp, git-lfs, glib2, jq, kernel, krb5, libsoup3, libtiff, openexr, thunderbird, uek-kernel, and yggdrasil), <b>Red Hat</b> (podman and skopeo), <b>SUSE</b> (amazon-ssm-agent, avahi, c-ares, cairo, containerd, cpp-httplib, dnsmasq, dovecot24, ffmpeg-4, firefox, helm, ImageMagick, iproute2, kernel, krb5, libtpms, ongres-scram, ongres-stringprep, plexus-testing, maven, maven-doxia, mojo-parent, sisu, openCryptoki, openssh, perl-Text-CSV_XS, php8, python-lxml, python-Twisted-doc, python311-click, python311-GitPython, rclone, regclient, and syncthing), and <b>Ubuntu</b> (avahi).]]></description>
-            <guid>https://lwn.net/Articles/1073059/</guid>
-            <pubDate>Fri, 15 May 2026 13:16:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven new stable kernels with patches for CVE-2026-46333</title>
-            <link>https://lwn.net/Articles/1073060/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a
-href="https://lwn.net/Articles/1073061/">7.0.8</a>, <a
-href="https://lwn.net/Articles/1073062/">6.18.31</a>, <a
-href="https://lwn.net/Articles/1073063/">6.12.89</a>, <a
-href="https://lwn.net/Articles/1073064/">6.6.139</a>, <a
-href="https://lwn.net/Articles/1073065/">6.1.173</a>, <a
-href="https://lwn.net/Articles/1073066/">5.15.207</a>, and <a
-href="https://lwn.net/Articles/1073067/">5.10.256</a> stable kernels. These kernels
-contain a patch for <a
-href="https://lwn.net/ml/all/2026051554-CVE-2026-46333-662a%40gregkh/">CVE-2026-46333</a>
-a vulnerability <a
-href="https://lwn.net/ml/all/20260515022033.GA10889%40localhost.localdomain/">reported
-by the Qualys Security Advisory team</a>, though Jann Horn <a
-href="https://lwn.net/ml/all/20201016230915.1972840-1-jannh%40google.com/">proposed
-a patch</a> in 2020. The vulnerability has a <a
-href="https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn#ssh-keysign-pwn">proof-of-concept
-exploit</a> published already. Some of the kernels have additional
-patches for other bugs; as always, users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1073060/</guid>
-            <pubDate>Fri, 15 May 2026 13:34:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
