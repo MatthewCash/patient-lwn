@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 22 May 2026 10:37:49 +0000</pubDate>
-        <lastBuildDate>Fri, 22 May 2026 12:04:50 +0000</lastBuildDate>
+        <pubDate>Fri, 22 May 2026 14:37:10 +0000</pubDate>
+        <lastBuildDate>Fri, 22 May 2026 15:23:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1074040/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (chromium, nss, openvpn, and thunderbird), <b>Fedora</b> (cockpit, kernel, and linux-firmware), <b>Oracle</b> (gdk-pixbuf2, kernel, and libsndfile), <b>SUSE</b> (container-suseconnect, cpp-httplib, dnsmasq, firefox, glibc, GraphicsMagick, java-1_8_0-openj9, kernel, mozjs115, php8, python-urllib3, rekor, rootlesskit, rsync, tiff, ucode-intel, util-linux, and xz), and <b>Ubuntu</b> (bind9, bubblewrap, libarchive, linux-intel-iot-realtime, postgresql-14, postgresql-16, postgresql-17, postgresql-18, and xdg-desktop-portal).]]></description>
+            <guid>https://lwn.net/Articles/1074040/</guid>
+            <pubDate>Fri, 22 May 2026 13:07:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Vulnerabilities in various GTK-based PDF readers</title>
             <link>https://lwn.net/Articles/1073944/</link>
