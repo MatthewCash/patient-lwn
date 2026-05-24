@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 24 May 2026 15:22:55 +0000</pubDate>
-        <lastBuildDate>Sun, 24 May 2026 20:55:59 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 24 May 2026 21:56:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -327,37 +327,6 @@ during this transition.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, gimp:2.8, jq, kernel, and rsync), <b>Debian</b> (chromium, ffmpeg, firewalld, kernel, nginx, openjpeg2, openssh, php7.4, and redis), <b>Fedora</b> (apptainer, chromium, coturn, dnsmasq, firefox, kernel, libgit2_1.8, libmetal, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, open-amp, perl-Net-CIDR-Lite, pgbouncer, pypy, python-jupytext, python-uv-build, rsync, rust-astral-tokio-tar, uriparser, uv, valkey, and yelp), <b>Mageia</b> (dpkg, firefox, thunderbird, golang, haproxy, and samba), <b>Slackware</b> (dnsmasq and kernel), and <b>SUSE</b> (apache-commons-configuration2, apache2, apptainer, chromedriver, cups-filters, curl, dnsmasq, expat, ffmpeg-4, ffmpeg-7, firebird, firewalld, flux2-cli, glibc, go1.25, go1.26, gosec, grub2, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-openj9, java-1_8_0-openjdk, java-21-openj9, java-25-openj9, kdenlive, kernel, kernel-devel, keylime-config, krb5, libIex-3_4-33, mozjs115, mozjs78, nginx, openssh, openvswitch, ovmf, PackageKit, perl-Crypt-URandom, perl-CryptX, perl-libwww-perl, perl-Net-CIDR-Lite, perl-Text-CSV_XS, podman, postgresql17, postgresql18, python-pyOpenSSL, python310, rsync, sed, tekton-cli, valkey, xen, and zypper-docker).]]></description>
             <guid>https://lwn.net/Articles/1073356/</guid>
             <pubDate>Mon, 18 May 2026 12:59:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.1-rc4</title>
-            <link>https://lwn.net/Articles/1073193/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1073192/">7.1-rc4</a> kernel prepatch is out for
-testing.
-<p>
-<blockquote class="bq">
-	Some of the documentation updates might be worth highlighting: the
-	continued flood of AI reports has basically made the security list
-	almost entirely unmanageable, with enormous duplication due to
-	different people finding the same things with the same
-	tools. People spend all their time just forwarding things to the
-	right people or saying "that was already fixed a week/month ago"
-	and pointing to the public discussion.
-<p>
-	Which is all entirely pointless churn, and we're making it clear
-	that AI detected bugs are pretty much by definition not secret, and
-	treating them on some private list is a waste of time for everybody
-	involved - and only makes that duplication worse because the
-	reporters can't even see each other's reports.
-</blockquote>
-<p>
-(He is referring to <a href="https://lwn.net/ml/all/87lddksslx.fsf@trenco.lwn.net/">this
-pull request</a> with patches from Willy Tarreau defining <a
-href="https://lwn.net/ml/all/20260509094755.2838-3-w@1wt.eu/">what constitutes a security
-bug</a> and <a href="https://lwn.net/ml/all/20260509094755.2838-4-w@1wt.eu/">responsible
-ways to use AI to find bugs</a>).]]></description>
-            <guid>https://lwn.net/Articles/1073193/</guid>
-            <pubDate>Sun, 17 May 2026 21:39:26 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
