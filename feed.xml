@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 May 2026 05:05:04 +0000</pubDate>
-        <lastBuildDate>Mon, 25 May 2026 12:30:53 +0000</lastBuildDate>
+        <pubDate>Mon, 25 May 2026 15:03:40 +0000</pubDate>
+        <lastBuildDate>Mon, 25 May 2026 15:39:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1074280/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (atril, evince, gnutls28, haproxy, haveged, jq, kernel, krb5, libgcrypt20, nodejs, and thunderbird), <b>Fedora</b> (aw-server-rust, awatcher, bind, bind-dyndb-ldap, chromium, composer, docker-buildkit, docker-buildx, dotnet10.0, dotnet8.0, dotnet9.0, evince, firefox, httpd, kernel, nodejs-aw-webui, nss, perl-Apache-Session-Browseable, pie, python-pulp-glue, python-requests, and python3.15), <b>Slackware</b> (kernel), <b>SUSE</b> (apptainer, chromium, cockpit, dnsmasq, google-guest-agent, hauler, iproute2, jfrog-cli, kernel, libecpg6, libsolv, libzypp, zypper, mcphost, oci-cli, perl-YAML-Syck, python-lxml, python-urllib3, python311-impacket, rqlite, rsync, util-linux, and xz), and <b>Ubuntu</b> (evince, linux-azure, linux-azure-5.4, linux-azure-fips, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-5.15, linux-lowlatency-hwe-5.15, linux-oracle-6.17, node-path-to-regexp, and rclone).]]></description>
+            <guid>https://lwn.net/Articles/1074280/</guid>
+            <pubDate>Mon, 25 May 2026 14:40:16 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.1-rc5</title>
             <link>https://lwn.net/Articles/1074172/</link>
@@ -348,14 +356,6 @@ during this transition.</p>
             <guid>https://lwn.net/Articles/1073470/</guid>
             <pubDate>Tue, 19 May 2026 12:05:42 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1073356/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, gimp:2.8, jq, kernel, and rsync), <b>Debian</b> (chromium, ffmpeg, firewalld, kernel, nginx, openjpeg2, openssh, php7.4, and redis), <b>Fedora</b> (apptainer, chromium, coturn, dnsmasq, firefox, kernel, libgit2_1.8, libmetal, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, open-amp, perl-Net-CIDR-Lite, pgbouncer, pypy, python-jupytext, python-uv-build, rsync, rust-astral-tokio-tar, uriparser, uv, valkey, and yelp), <b>Mageia</b> (dpkg, firefox, thunderbird, golang, haproxy, and samba), <b>Slackware</b> (dnsmasq and kernel), and <b>SUSE</b> (apache-commons-configuration2, apache2, apptainer, chromedriver, cups-filters, curl, dnsmasq, expat, ffmpeg-4, ffmpeg-7, firebird, firewalld, flux2-cli, glibc, go1.25, go1.26, gosec, grub2, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-openj9, java-1_8_0-openjdk, java-21-openj9, java-25-openj9, kdenlive, kernel, kernel-devel, keylime-config, krb5, libIex-3_4-33, mozjs115, mozjs78, nginx, openssh, openvswitch, ovmf, PackageKit, perl-Crypt-URandom, perl-CryptX, perl-libwww-perl, perl-Net-CIDR-Lite, perl-Text-CSV_XS, podman, postgresql17, postgresql18, python-pyOpenSSL, python310, rsync, sed, tekton-cli, valkey, xen, and zypper-docker).]]></description>
-            <guid>https://lwn.net/Articles/1073356/</guid>
-            <pubDate>Mon, 18 May 2026 12:59:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
