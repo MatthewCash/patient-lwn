@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 25 May 2026 15:03:40 +0000</pubDate>
-        <lastBuildDate>Mon, 25 May 2026 15:39:11 +0000</lastBuildDate>
+        <pubDate>Mon, 25 May 2026 17:09:19 +0000</pubDate>
+        <lastBuildDate>Mon, 25 May 2026 17:24:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Comprehensive Response to Bambu&apos;s AGPLv3 Violations (Software Freedom Conservancy)</title>
+            <link>https://lwn.net/Articles/1074286/</link>
+            <description><![CDATA[The <a href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC)
+published a <a
+href="https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/">news
+item</a> on May 18 about its response to violations of the AGPLv3 by Bambu
+Lab in its 3D printers.  The company has not provided the source code to
+its modifications to a 3D "slicer" program that was released under the
+AGPLv3 and it has also threatened Paweł Jarczak who created a fork of a
+different slicer (<a href="https://www.orcaslicer.com/">Orca Slicer</a>) released under AGPLv3 in order to interoperate with his
+Bambu printer. Based on that, the SFC has created the <a
+href="https://f.sfconservancy.org/baltobu/reverse-networking">baltobu
+project</a> aimed at reverse-engineering and reimplementing the Bambu code
+while also hosting the Orca Slicer fork.
+
+<blockquote class="bq">
+Bambu has behaved badly for years and made multiple, provably false public statements regarding the AGPLv3 and its requirements. The recent aggressive behavior toward Paweł Jarczak was a last straw for us: we have decided to launch a multi-pronged effort that will assist consumers and users in the short-term, and <i>also</i> work toward a long-term strategy to improve the software right to repair for all 3D printer consumers.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1074286/</guid>
+            <pubDate>Mon, 25 May 2026 16:48:13 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1074280/</link>
