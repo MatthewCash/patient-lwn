@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 26 May 2026 17:04:48 +0000</pubDate>
-        <lastBuildDate>Tue, 26 May 2026 17:26:55 +0000</lastBuildDate>
+        <pubDate>Tue, 26 May 2026 19:31:12 +0000</pubDate>
+        <lastBuildDate>Tue, 26 May 2026 19:34:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Arias: Human proof for FOSS contributions</title>
+            <link>https://lwn.net/Articles/1074534/</link>
+            <description><![CDATA[<p>Rodrigo Arias Mallo, maintainer of the <a
+href="https://dillo-browser.org/">Dillo</a> web browser, has written a
+<a href="https://dillo-browser.org/lab/human-proof/">blog post</a>
+with a proposal on one way to ensure that a contribution is written by
+a human and not AI; he suggests asking new contributors to record
+their programming session using <a
+href="https://asciinema.org/">asciinema</a>.</p>
+
+<blockquote class="bq">
+<p>In the same way that LLMs generate patches, they can also generate
+the asciinema recordings themselves. Then, the contributors can lie to
+the reviewers pretending to have made the edits. Perhaps surprisingly,
+this is not a easy task for LLMs, at least from my observations. The
+corpus of recordings of developers making mistakes and thinking the
+whole process of editing a file is not as large as the corpus of FOSS
+programs and patches in which to train an LLM. During my very simple
+tests I haven't been able to generate an asciinema session that
+remotely resembles what I would expect from a human, and even less so
+from a human with a nice editor theme and editing an existing Dillo
+source file.</p>
+</blockquote>
+
+<p>The Dillo project is not yet requiring asciinema recordings, but he
+said that he would like to test the theory further. LWN <a
+href="https://lwn.net/Articles/1053355/">covered</a> asciinema in
+January 2026.</p>]]></description>
+            <guid>https://lwn.net/Articles/1074534/</guid>
+            <pubDate>Tue, 26 May 2026 17:50:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1074443/</link>
@@ -363,19 +396,6 @@ are a lot of questions still to be answered.]]></description>
  linux-raspi, linux-realtime, linux-realtime-6.17, and smarty3).]]></description>
             <guid>https://lwn.net/Articles/1073713/</guid>
             <pubDate>Wed, 20 May 2026 13:04:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 151.0 released</title>
-            <link>https://lwn.net/Articles/1073579/</link>
-            <description><![CDATA[<a
-href="https://www.firefox.com/en-US/firefox/151.0/releasenotes/">Version
-151.0</a> of the Firefox browser has been released.  Significant changes
-include the ability to clear and restart a private-browsing session, better
-fingerprinting protection, control over the apparent location when using the
-Firefox VPN, and more.]]></description>
-            <guid>https://lwn.net/Articles/1073579/</guid>
-            <pubDate>Tue, 19 May 2026 16:10:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
