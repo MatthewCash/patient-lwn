@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 27 May 2026 11:15:29 +0000</pubDate>
-        <lastBuildDate>Wed, 27 May 2026 11:59:55 +0000</lastBuildDate>
+        <pubDate>Wed, 27 May 2026 15:52:02 +0000</pubDate>
+        <lastBuildDate>Wed, 27 May 2026 16:01:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1074840/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, buildah, compat-libtiff3, compat-openssl11, containernetworking-plugins, crun, delve, dnsmasq, dovecot, edk2, firefox, freeipmi, gdk-pixbuf2, giflib, git-lfs, glib2, go-fdo-client, go-fdo-server, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, iputils, jq, kernel, krb5, libcap, LibRaw, libsndfile, libsoup, libsoup3, libssh, libtiff, libvirt, linux-sgx, luksmeta, mingw-glib2, NetworkManager, nginx, nginx:1.24, nginx:1.26, openexr, openssh, openssl, opentelemetry-collector, p11-kit, PackageKit, podman, python-jwcrypto, python-markdown, python-tornado, python3.11, python3.12, python3.14, python3.9, qemu-kvm, rsync, skopeo, sudo, systemd, thunderbird, tomcat, unbound, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (imagemagick, kdenlive, memcached, node-shell-quote, and samba), <b>Fedora</b> (chromium, curl, editorconfig, haproxy, perl-Crypt-DSA, perl-HTTP-Tiny, poppler, rust-afterburn, rust-coreos-installer, rust-eif_build, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-sqv, and uriparser), <b>Oracle</b> (compat-libtiff3, dnsmasq, firefox, freeipmi, kernel, and uek-kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (assimp, firefox, glibc, gnutls, go1.25-openssl, go1.26-openssl, kernel, kubevirt, leancrypto, libarchive, libsndfile, mcphost, nginx, openssh, podman, python-GitPython, rsync, and samba), and <b>Ubuntu</b> (ayttm, dnsmasq, libssh2, linux-azure, linux-azure, linux-azure-6.17, linux-iot, linux-lowlatency-hwe-5.15, ngtcp2, onnx, opencc, protobuf, python-git, samba, xdg-dbus-proxy, and xmlrpc-c).]]></description>
+            <guid>https://lwn.net/Articles/1074840/</guid>
+            <pubDate>Wed, 27 May 2026 13:14:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Andrew Morton&apos;s 2004 OLS keynote</title>
+            <link>https://lwn.net/Articles/1070746/</link>
+            <description><![CDATA[I recently presented a brief tribute to Andrew Morton at the <a
+href="https://lwn.net/Articles/lsfmmbpf2026">2026 Linux Storage, Filesystem, Memory
+Management, and BPF Summit</a>; it included a suggestion that reading (or
+re-reading) his 2004 Ottawa Linux Symposium keynote would be instructive.
+This talk, given immediately after <a href="https://lwn.net/Articles/94386/">the Kernel
+Summit session</a> that decided to fundamentally change the kernel's
+development model, tells a lot about how the kernel project got to where it
+is today.  The text of that speech was hosted on Groklaw, and has since
+been replaced by crypto spam, which is rather less useful.  In the hopes of
+preserving this seminal moment, the transcript has been rescued from <a
+href="https://web.archive.org/web/20190809094732/http://www.groklaw.net/article.php?story=20040802115731932">the
+Wayback Machine</a> and is presented here.]]></description>
+            <guid>https://lwn.net/Articles/1070746/</guid>
+            <pubDate>Wed, 27 May 2026 14:35:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Arias: Human proof for FOSS contributions</title>
             <link>https://lwn.net/Articles/1074534/</link>
@@ -377,25 +404,6 @@ devoted to how the maintainership would be managed going forward.  There
 are a lot of questions still to be answered.]]></description>
             <guid>https://lwn.net/Articles/1070994/</guid>
             <pubDate>Thu, 07 May 2026 14:42:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1073713/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, libpng, nginx, nginx:1.24, ruby, and ruby:3.3), <b>Debian</b> (gnutls28 and linux-6.1), <b>Fedora</b> (dnsmasq, kernel, keylime-agent-rust, perl-Net-CIDR-Lite, python-pysam, python-urllib3, rust-cargo-vendor-filterer, rust-ingredients, rust-oo7-cli, rust-rpki, rust-sevctl, and rust-tealdeer), <b>Mageia</b> (bind), <b>Oracle</b> (bind, giflib, gimp:2.8, kernel, libpng, rsync, ruby, and vim), <b>Slackware</b> (haveged and mozilla), <b>SUSE</b> (cockpit, dnsmasq, erlang26, freeipmi, git-bug, glibc, GraphicsMagick, haveged, ImageMagick, iproute2, kernel, openssh, perl-CryptX, perl-HTTP-Tiny, postgresql14, postgresql15, postgresql16, python-Pillow, rsync, tiff, and traefik), and <b>Ubuntu</b> (Highlight.js, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-gcp,
- linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm,
- linux-ibm-5.15, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm,
- linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle,
- linux-raspi, linux-realtime, linux, linux-aws, linux-aws-fips, linux-bluefield, linux-fips, linux-gcp,
- linux-gcp-5.4, linux-gcp-fips, linux-ibm, linux-ibm-5.4, linux-kvm,
- linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp-4.15,
- linux-gcp-fips, linux-kvm, linux-oracle, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-gke,
- linux-gkeop, linux-ibm, linux-ibm-6.8, linux-lowlatency,
- linux-lowlatency-hwe-6.8, linux-raspi, linux-raspi-realtime,
- linux-realtime, linux-realtime-6.8, linux, linux-aws, linux-hwe-6.17, linux-oem-6.17, linux-oracle,
- linux-raspi, linux-realtime, linux-realtime-6.17, and smarty3).]]></description>
-            <guid>https://lwn.net/Articles/1073713/</guid>
-            <pubDate>Wed, 20 May 2026 13:04:17 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
