@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 28 May 2026 20:32:09 +0000</pubDate>
-        <lastBuildDate>Thu, 28 May 2026 20:38:13 +0000</lastBuildDate>
+        <pubDate>Thu, 28 May 2026 22:16:27 +0000</pubDate>
+        <lastBuildDate>Thu, 28 May 2026 22:22:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Rust 1.96.0 released</title>
+            <link>https://lwn.net/Articles/1075180/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/">Version
+1.96.0</a> of the Rust programming language has been released.  Changes
+include a new set of <tt>Copy</tt>-implementing <tt>Range</tt> types,
+assertions with pattern matching, a number of stabilized APIs, and two
+Cargo vulnerability fixes.]]></description>
+            <guid>https://lwn.net/Articles/1075180/</guid>
+            <pubDate>Thu, 28 May 2026 22:16:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Górny: why Gentoo?</title>
             <link>https://lwn.net/Articles/1075148/</link>
@@ -491,29 +503,6 @@ are small updates for the "Fragnesia" vulnerability.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox), <b>Debian</b> (chromium, nss, openvpn, and thunderbird), <b>Fedora</b> (cockpit, kernel, and linux-firmware), <b>Oracle</b> (gdk-pixbuf2, kernel, and libsndfile), <b>SUSE</b> (container-suseconnect, cpp-httplib, dnsmasq, firefox, glibc, GraphicsMagick, java-1_8_0-openj9, kernel, mozjs115, php8, python-urllib3, rekor, rootlesskit, rsync, tiff, ucode-intel, util-linux, and xz), and <b>Ubuntu</b> (bind9, bubblewrap, libarchive, linux-intel-iot-realtime, postgresql-14, postgresql-16, postgresql-17, postgresql-18, and xdg-desktop-portal).]]></description>
             <guid>https://lwn.net/Articles/1074040/</guid>
             <pubDate>Fri, 22 May 2026 13:07:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Vulnerabilities in various GTK-based PDF readers</title>
-            <link>https://lwn.net/Articles/1073944/</link>
-            <description><![CDATA[Michael Catanzaro has disclosed <a
-href="https://lwn.net/ml/all/ce81312b-99e1-4305-a816-e74b2bd1ffd5@app.fastmail.com">a
-command-injection vulnerability</a> affecting a number of GTK-based PDF
-readers; exploits included:
-<p>
-<blockquote class="bq">
-	They contain a script for building malicious polyglot PDFs that are
-	simultaneously both valid PDF files and also valid ELF
-	binaries. When the user opens the PDF in the PDF viewer and clicks
-	on a malicious link embedded in the PDF, the PDF abuses the command
-	injection vulnerability to load itself as a GTK module using the
-	`--gtk-module` command line flag. It can then execute arbitrary
-	code via its library constructor. That flag was removed in GTK 4,
-	which is why the vulnerability is much less serious for Papers than
-	it is for Evince, Atril, and Xreader.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1073944/</guid>
-            <pubDate>Thu, 21 May 2026 21:05:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
