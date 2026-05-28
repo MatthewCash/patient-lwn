@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 28 May 2026 11:13:53 +0000</pubDate>
-        <lastBuildDate>Thu, 28 May 2026 11:25:04 +0000</lastBuildDate>
+        <pubDate>Thu, 28 May 2026 14:29:19 +0000</pubDate>
+        <lastBuildDate>Thu, 28 May 2026 14:50:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1075060/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gdk-pixbuf2, glibc, gnutls, kernel, libexif, mysql8.4, postgresql16, postgresql18, python3.14, ruby:3.3, and ruby:4.0), <b>Debian</b> (krb5, roundcube, starlette, unbound, and varnish), <b>Fedora</b> (kernel, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, perl-Imager, poppler, python-uv-build, rrdtool, rust-astral-tokio-tar, rust-astral_async_http_range_reader, rust-astral_async_zip, uv, and xen), <b>Oracle</b> (.NET 10.0, .NET 9.0, glibc, ruby:3.3, and thunderbird), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, containernetworking-plugins, gvisor-tap-vsock, podman, runc, and skopeo), <b>SUSE</b> (agama, alloy, bubblewrap, cockpit, cups, dnsmasq, emacs, glibc, gnutls, go1.25, go1.25-openssl, go1.26, go1.26-openssl, google-guest-agent, hplip, ibus-rime, librime, kernel, libarchive, libzypp, nginx, openexr, openssh, php7, postgresql14, postgresql15, postgresql16, python311-pytest-html, redis, redis7, rsync, tree-sitter, valkey, xen, and yq), and <b>Ubuntu</b> (cableswig, commons-beanutils, dnsmasq, ffmpeg, foomuuri, gst-plugins-good1.0, libcaca, libgcrypt20, mediawiki, memcached, papers, postorius, tgt, and tika).]]></description>
+            <guid>https://lwn.net/Articles/1075060/</guid>
+            <pubDate>Thu, 28 May 2026 13:05:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>IBM&apos;s &quot;Project Lightwell&quot;</title>
+            <link>https://lwn.net/Articles/1075065/</link>
+            <description><![CDATA[IBM has sent out <a
+href="https://newsroom.ibm.com/2026-05-28-ibm-and-red-hat-commit-5-billion-to-redefine-the-future-of-open-source-in-the-ai-era">a
+press release</a> touting a claimed $5&#160;billion investment into an
+operation called Project Lightwell:
+<p>
+<blockquote class="bq">
+	Project Lightwell will establish a trusted enterprise clearinghouse
+	combined with a global force of engineers to identify and fix
+	vulnerabilities at scale. The clearinghouse will serve as a
+	security coordination layer, using advanced AI capabilities to
+	validate and test fixes across an unprecedented volume of open
+	source code. These capabilities will be offered through commercial
+	subscriptions, allowing enterprises to integrate secure patches
+	directly into their existing software supply chains with
+	enterprise-grade validation and lifecycle management.
+</blockquote>
+<p>
+Toward the bottom, it does also mention sharing vulnerability information
+with upstream projects.]]></description>
+            <guid>https://lwn.net/Articles/1075065/</guid>
+            <pubDate>Thu, 28 May 2026 13:30:09 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 21, 2026</title>
             <link>https://lwn.net/Articles/1072730/</link>
@@ -449,31 +483,6 @@ readers; exploits included:
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1073944/</guid>
             <pubDate>Thu, 21 May 2026 21:05:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1073860/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, and libsndfile), <b>Debian</b> (bind9, evince, firefox-esr, openjpeg2, pdns, and rsync), <b>Fedora</b> (erlang-cowlib, evince, expat, firefox, kernel, mingw-expat, mysql8.0, mysql8.4, nss, opencryptoki, pgadmin4, proftpd, python-django5, python-django6, python-dotenv, rsync, rust-nu, rustup, and strongswan), <b>Oracle</b> (nginx, nginx:1.24, ruby, ruby:3.3, and squid), <b>Slackware</b> (bind and rsync), <b>SUSE</b> (buildah, distribution, distribution-registry, docker, firefox-esr, helm, libpainter0, libsdb2_4_2, postgresql-jdbc, runc, and vim), and <b>Ubuntu</b> (gnutls28, gst-plugins-good1.0, jq, linux-nvidia, linux-nvidia-lowlatency, openvpn, rsync, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1073860/</guid>
-            <pubDate>Thu, 21 May 2026 13:19:13 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>OpenBSD 7.9 released</title>
-            <link>https://lwn.net/Articles/1073933/</link>
-            <description><![CDATA[The <a href="https://www.openbsd.org/79.html">OpenBSD 7.9</a> release is
-out, right on schedule.  There is the usual long list of new features,
-including improved architecture support, CPU scheduling on heterogeneous
-systems, the ability to hibernate a suspended system after a configurable
-delay, <a href="https://man.openbsd.org/sosplice.9">socket splicing</a>, a
-<a
-href="https://man.openbsd.org/__pledge_open.2"><tt>__pledge_open()</tt></a>
-system call giving special access to the C library, and much more.  See the
-announcement and <a href="https://www.openbsd.org/plus79.html">the full
-changelog</a> for details.]]></description>
-            <guid>https://lwn.net/Articles/1073933/</guid>
-            <pubDate>Thu, 21 May 2026 14:27:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
