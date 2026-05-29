@@ -8,11 +8,50 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 29 May 2026 10:35:13 +0000</pubDate>
-        <lastBuildDate>Fri, 29 May 2026 10:59:31 +0000</lastBuildDate>
+        <pubDate>Fri, 29 May 2026 14:12:07 +0000</pubDate>
+        <lastBuildDate>Fri, 29 May 2026 14:13:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1075310/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, cockpit, firefox, flatpak, httpd, kernel, and kernel-rt), <b>Debian</b> (kernel, kitty, lemonldap-ng, nagios4, python-flask-httpauth, and roundcube), <b>Fedora</b> (CImg, gmic, haveged, jpegxl, kernel, libpng, mapserver, mingw-qt6-qtsvg, openbao, perl-Sereal, perl-Sereal-Decoder, perl-Sereal-Encoder, and podofo), <b>Mageia</b> (bind, graphicsmagick, microcode, nginx, packages, perl-Catalyst-Plugin-Authentication, perl-HTTP-Daemon, perl-IO-Compress, and thunderbird(-l10n)), <b>SUSE</b> (alloy, apache2, beets, bubblewrap, cups, docker-stable, ffmpeg-4, ffmpeg-7, firefox, google-osconfig-agent, patterns-glibc-hwcaps, podman, samba, thunderbird, trivy, xdg-desktop-portal, and xz), and <b>Ubuntu</b> (apache2, libreoffice, multipart, openjdk-17, openjdk-17-crac, openjdk-21, openjdk-21-crac, openjdk-25, openjdk-25-crac, openjdk-26, openjdk-8, openjdk-lts, php8.1, php8.3, php8.4, php8.5, pyopenssl, python-pip, qtsvg-opensource-src, sed, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1075310/</guid>
+            <pubDate>Fri, 29 May 2026 13:12:08 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Nesbitt: Protestware for coding agents</title>
+            <link>https://lwn.net/Articles/1075315/</link>
+            <description><![CDATA[<p>Andrew Nesbitt has written a <a
+href="https://nesbitt.io/2026/05/28/protestware-for-coding-agents.html">blog
+post</a> detailing a recent incident with the <a
+href="https://jqwik.net/">jqwik</a> library for property-based testing
+in Java. On May&#160;25, the 1.10.0 release of jqwik included a <a
+href="https://github.com/jqwik-team/jqwik/commit/9dddcb5226">change</a>
+that attempts to instruct coding agents to disregard previous
+instructions and delete jqwik tests and code.</p> 
+
+<blockquote class="bq">
+I think this is a new class of supply-chain input worth keeping an eye
+on, mostly because of how little of the existing tooling has any
+opinion about it. A <tt>System.out.print</tt> of sixty-eight bytes of plain
+ASCII isn't the kind of thing scanners are looking for, since those
+watch for install hooks, network calls, filesystem writes, obfuscated
+strings and the like. The jar makes the same syscalls it made in 1.9,
+and because the change was committed and released by the legitimate
+maintainer through the normal build, it's clean from a SLSA point of
+view too: the provenance is what it should be. Anyone who reads the
+diff can see what it does, but a patch bump of a test-scoped
+dependency is not where most projects spend their review time.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1075315/</guid>
+            <pubDate>Fri, 29 May 2026 14:09:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Rust 1.96.0 released</title>
             <link>https://lwn.net/Articles/1075180/</link>
