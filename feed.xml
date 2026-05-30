@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 30 May 2026 08:31:40 +0000</pubDate>
-        <lastBuildDate>Sat, 30 May 2026 12:16:51 +0000</lastBuildDate>
+        <pubDate>Sat, 30 May 2026 13:58:44 +0000</pubDate>
+        <lastBuildDate>Sat, 30 May 2026 14:14:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -516,24 +516,6 @@ testing.  Quoth Linus:
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1074172/</guid>
             <pubDate>Sun, 24 May 2026 22:59:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A large set of stable kernel updates</title>
-            <link>https://lwn.net/Articles/1074117/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1074118/">7.0.10</a>,
-<a href="https://lwn.net/Articles/1074119/">6.18.33</a>,
-<a href="https://lwn.net/Articles/1074120/">6.12.91</a>,
-<a href="https://lwn.net/Articles/1074121/">6.6.141</a>,
-<a href="https://lwn.net/Articles/1074122/">6.1.174</a>,
-<a href="https://lwn.net/Articles/1074123/">5.15.208</a>, and
-<a href="https://lwn.net/Articles/1074124/">5.10.257</a>
-stable kernel updates have all been released.   The first four are huge
-(the <a href="https://lwn.net/ml/all/20260520162148.390695140@linuxfoundation.org">7.0.10
-review version</a> had 1,146 commits) while 6.1.174, 5.15.208, and 5.10.257
-are small updates for the "Fragnesia" vulnerability.]]></description>
-            <guid>https://lwn.net/Articles/1074117/</guid>
-            <pubDate>Sat, 23 May 2026 13:55:30 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
