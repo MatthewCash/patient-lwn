@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 31 May 2026 22:19:36 +0000</pubDate>
-        <lastBuildDate>Sun, 31 May 2026 23:18:55 +0000</lastBuildDate>
+        <pubDate>Mon, 01 Jun 2026 00:19:50 +0000</pubDate>
+        <lastBuildDate>Mon, 1 Jun 2026 01:40:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -489,34 +489,6 @@ Bambu has behaved badly for years and made multiple, provably false public state
             <guid>https://lwn.net/Articles/1074280/</guid>
             <pubDate>Mon, 25 May 2026 14:40:16 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.1-rc5</title>
-            <link>https://lwn.net/Articles/1074172/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1074171/">7.1-rc5</a> kernel prepatch is out for
-testing.  Quoth Linus:
-<p>
-<blockquote class="bq">
-	I'm not entirely happy about it - most of this is totally trivial
-	stuff to random drivers, which obviously makes it all less scary,
-	but at the same time I'm really not convinced the churn is worth it
-	at rc5 time. These things are "fixes", sure, but at the same time a
-	lot of them are simply so irrelevant that I think they'd be better
-	off in a linux-next tree and get merged during the merge window.
-<p>
-	So I think I'll start being a bit more hardnosed about this kind of
-	unnecessary churn this late in the game. We are supposed to look
-	for *regressions*. Non-critical fixes to long-standing issues are
-	simply not appropriate for this late in the release cycle.
-<P>
-	End result: this is too big, and this is the heads-up that I'll be
-	pushing back on pointless pull requests with fixes that just aren't
-	that important. And yes, several of these series were triggered by
-	AI code review.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1074172/</guid>
-            <pubDate>Sun, 24 May 2026 22:59:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
