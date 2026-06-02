@@ -8,11 +8,59 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 02 Jun 2026 11:11:19 +0000</pubDate>
-        <lastBuildDate>Tue, 2 Jun 2026 11:18:25 +0000</lastBuildDate>
+        <pubDate>Tue, 02 Jun 2026 15:38:00 +0000</pubDate>
+        <lastBuildDate>Tue, 2 Jun 2026 15:41:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1075966/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (php:8.2 and php:8.3), <b>Debian</b> (gst-plugins-good1.0, symfony, and yelp), <b>Fedora</b> (dovecot, freeipa, hplip, libpng, perl-Catalyst-Plugin-Authentication, postfix, samba, unbound, and vim), <b>Mageia</b> (assimp, libcaca, sdl2_sound, and tar), <b>Slackware</b> (kernel), <b>SUSE</b> (alloy, apache-commons-lang3, apache-commons-text,, apache2, bubblewrap, busybox, chromium, cups, docker-stable, ffmpeg-8, google-osconfig-agent, gsasl, ignition, java-26-openjdk, kernel, libsolv-demo, libsoup, libzypp, localsearch, openjpeg2, postgresql-jdbc, putty, python-mistune, python-Pillow, python-python-multipart, python-Twisted, python3-Twisted, re, roundcubemail, vim, wireshark, and xz), and <b>Ubuntu</b> (evolution-data-server, exim4, gsasl, haveged, lcms2, libreoffice, linux-aws, linux-lts-xenial, linux-lowlatency, linux-nvidia-tegra, nginx, nncp, qtdeclarative-opensource-src, sslh, sssd, and xz-utils).]]></description>
+            <guid>https://lwn.net/Articles/1075966/</guid>
+            <pubDate>Tue, 02 Jun 2026 13:06:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Vim Classic 8.3 released</title>
+            <link>https://lwn.net/Articles/1075967/</link>
+            <description><![CDATA[<p><a
+href="https://vim-classic.org/news/vim-8.3-released.html">Version
+8.3</a> of <a href="https://vim-classic.org/">Vim Classic</a> has been
+released. This is the first release of the Vim fork since the project
+was <a href="https://drewdevault.com/blog/Forking-vim/">announced</a>
+in March.</p>
+
+<blockquote class="bq">
+<p>This release is based on Vim 8.2.0148, with a number of bug fixes
+and patches conservatively backported from future versions of Vim
+upstream. We elected to clean up this version of Vim, prepare it for a
+release, and imagine an alternate history where Vim 8.3 was released
+without Vim9 script. The result is Vim Classic 8.3. We chose to take
+this approach in order to reduce the long-term maintenance burden of
+Vim Classic, acknowledging that our fork lacks the resources and
+institutional knowledge available to Vim upstream. However, a
+consequence is that there are some Vim plugins which are not
+compatible with Vim Classic.</p>
+
+<p>We have made a special effort to assess patches from Vim upstream
+which mitigate some of the many CVEs affecting Vim which were
+discovered and fixed between versions 8.2 and modern-day Vim, but we
+can't be sure we've got all of the security patches which are
+applicable to Vim Classic (and practically exploitable). This version
+of Vim Classic is therefore recommended for early adopters who are
+comfortable adopting a security posture which accounts for the fact
+that we may have overlooked some bugs.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1067007/">covered</a> Vim
+Classic and another Vim fork, <a href="https://codeberg.org/evi-editor/evi#evi">EVi</a>, in April.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1075967/</guid>
+            <pubDate>Tue, 02 Jun 2026 13:13:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Ombredanne: An AI agent ported our codebase from Python to Rust</title>
             <link>https://lwn.net/Articles/1075832/</link>
@@ -562,43 +610,6 @@ January 2026.</p>]]></description>
             <guid>https://lwn.net/Articles/1074534/</guid>
             <pubDate>Tue, 26 May 2026 17:50:35 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1074443/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (postorius and spip), <b>Fedora</b> (bind, bind-dyndb-ldap, linux-firmware, tor, and unbound), <b>Mageia</b> (ffmpeg, nginx, perl-Imager, and tigervnc, x11-server, x11-server-xwayland), <b>Oracle</b> (firefox and kernel), <b>Red Hat</b> (buildah, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gvisor-tap-vsock, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, opentelemetry-collector, osbuild-composer, podman, rhc, rhc-worker-playbook, skopeo, and yggdrasil), <b>SUSE</b> (amazon-ecs-init, assimp, azure-storage-azcopy, busybox, firefox, gnutls, graphicsmagick, helm, kernel, leancrypto, libpng16, libppsdocument4_0-6, libsndfile, mcphost, nano, nginx, perl-http-tiny, perl-XML-LibXML, python-urllib3, python-urllib3_1, python311-ocrmypdf, python312, rclone, rsync, xen, and xz), and <b>Ubuntu</b> (dotnet8, dotnet9, dotnet10, linux-intel-iot-realtime, linux-lowlatency, linux-nvidia-6.8, linux-nvidia-tegra, linux-nvidia-tegra-igx, nltk, simpleeval, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1074443/</guid>
-            <pubDate>Tue, 26 May 2026 13:10:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stenberg: The pressure</title>
-            <link>https://lwn.net/Articles/1074449/</link>
-            <description><![CDATA[Curl maintainer Daniel Stenberg <a
-href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">writes about
-the stress</a> of keeping up with the current flood of security reports.
-<p>
-<blockquote class="bq">
-	This is a never-before seen or experienced pressure on the curl
-	project and its security team members. An avalanche of high
-	priority work that trumps all other things in the project that is
-	primarily mental because we certainly could ignore them all if we
-	wanted, but we feel a responsibility, we have a conscience and we
-	are proud about our work. We feel obliged to fix security problems
-	in the software we have helped shipped to every device on the
-	globe. This is personal to us.
-<p>
-	With about half the release cycle left until the pending release
-	ships, we already have twelve <i>confirmed vulnerabilities</i>
-	meaning twelve pending CVE announcements. That's a new project
-	record and it also means we will reach <i>thirty</i> published CVEs
-	in 2026 even before half the calendar year has passed. The
-	projected total amount of curl CVEs published through the whole
-	year is therefore at least double this number!
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1074449/</guid>
-            <pubDate>Tue, 26 May 2026 13:40:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
