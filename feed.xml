@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Jun 2026 15:14:28 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Jun 2026 15:15:05 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jun 2026 18:53:43 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Jun 2026 19:01:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -602,33 +602,6 @@ take place on Tuesday, June&#160;2 at 8:00AM Pacific daylight time (UTC-7).
 Registration is open for those who would like to attend.]]></description>
             <guid>https://lwn.net/Articles/1074907/</guid>
             <pubDate>Wed, 27 May 2026 19:32:12 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1074840/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, buildah, compat-libtiff3, compat-openssl11, containernetworking-plugins, crun, delve, dnsmasq, dovecot, edk2, firefox, freeipmi, gdk-pixbuf2, giflib, git-lfs, glib2, go-fdo-client, go-fdo-server, golang, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, and gstreamer1-plugins-ugly-free, iputils, jq, kernel, krb5, libcap, LibRaw, libsndfile, libsoup, libsoup3, libssh, libtiff, libvirt, linux-sgx, luksmeta, mingw-glib2, NetworkManager, nginx, nginx:1.24, nginx:1.26, openexr, openssh, openssl, opentelemetry-collector, p11-kit, PackageKit, podman, python-jwcrypto, python-markdown, python-tornado, python3.11, python3.12, python3.14, python3.9, qemu-kvm, rsync, skopeo, sudo, systemd, thunderbird, tomcat, unbound, vim, xorg-x11-server, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (imagemagick, kdenlive, memcached, node-shell-quote, and samba), <b>Fedora</b> (chromium, curl, editorconfig, haproxy, perl-Crypt-DSA, perl-HTTP-Tiny, poppler, rust-afterburn, rust-coreos-installer, rust-eif_build, rust-rpm-sequoia, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-keystore-server, rust-sequoia-octopus-librnp, rust-sequoia-openpgp, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-sqv, and uriparser), <b>Oracle</b> (compat-libtiff3, dnsmasq, firefox, freeipmi, kernel, and uek-kernel), <b>Slackware</b> (mozilla), <b>SUSE</b> (assimp, firefox, glibc, gnutls, go1.25-openssl, go1.26-openssl, kernel, kubevirt, leancrypto, libarchive, libsndfile, mcphost, nginx, openssh, podman, python-GitPython, rsync, and samba), and <b>Ubuntu</b> (ayttm, dnsmasq, libssh2, linux-azure, linux-azure, linux-azure-6.17, linux-iot, linux-lowlatency-hwe-5.15, ngtcp2, onnx, opencc, protobuf, python-git, samba, xdg-dbus-proxy, and xmlrpc-c).]]></description>
-            <guid>https://lwn.net/Articles/1074840/</guid>
-            <pubDate>Wed, 27 May 2026 13:14:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Andrew Morton&apos;s 2004 OLS keynote</title>
-            <link>https://lwn.net/Articles/1070746/</link>
-            <description><![CDATA[I recently presented a brief tribute to Andrew Morton at the <a
-href="https://lwn.net/Articles/lsfmmbpf2026">2026 Linux Storage, Filesystem, Memory
-Management, and BPF Summit</a>; it included a suggestion that reading (or
-re-reading) his 2004 Ottawa Linux Symposium keynote would be instructive.
-This talk, given immediately after <a href="https://lwn.net/Articles/94386/">the Kernel
-Summit session</a> that decided to fundamentally change the kernel's
-development model, tells a lot about how the kernel project got to where it
-is today.  The text of that speech was hosted on Groklaw, and has since
-been replaced by crypto spam, which is rather less useful.  In the hopes of
-preserving this seminal moment, the transcript has been rescued from <a
-href="https://web.archive.org/web/20190809094732/http://www.groklaw.net/article.php?story=20040802115731932">the
-Wayback Machine</a> and is presented here.]]></description>
-            <guid>https://lwn.net/Articles/1070746/</guid>
-            <pubDate>Wed, 27 May 2026 14:35:03 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
