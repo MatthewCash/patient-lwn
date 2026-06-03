@@ -8,11 +8,64 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Jun 2026 04:29:39 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Jun 2026 10:19:45 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jun 2026 15:14:28 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Jun 2026 15:15:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1076117/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (php-twig), <b>Fedora</b> (hplip, python-wsgidav, roundcubemail, and xorg-x11-server), <b>Oracle</b> (compat-openssl10, httpd:2.4, and kernel), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (busybox, cloudflared, cockpit, cups, ffmpeg-4, gnutls, google-osconfig-agent, helm, hplip, kernel, kubelogin, libjxl, libsoup, libunbound8, LibVNCServer-devel, mapserver, nvidia-open-driver-G06-signed, nvidia-open-driver-G07-signed, openssh, python-idna, qemu, rqlite, shadowsocks-v2ray-plugin, ucode-intel, unbound, vim, vorbis-tools, and xorg-x11-server), and <b>Ubuntu</b> (age, dovecot, editorconfig-core, gobgp, libapache-mod-jk, libcommons-lang-java, libcommons-lang3-java, libeconf, linux, linux-aws, linux-aws-6.8, linux-aws-fips, linux-azure, linux-fips,
+ linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gke, linux-gkeop,
+ linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-nvidia, linux-nvidia-6.8,
+ linux-nvidia-lowlatency, linux-nvidia-tegra, linux-oracle,
+ linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-realtime,
+ linux-realtime-6.8, linux, linux-aws, linux-azure, linux-azure-6.17, linux-hwe-6.17,
+ linux-nvidia-6.17, linux-oem-6.17, linux-oracle, linux-oracle-6.17,
+ linux-raspi, linux-realtime, linux-realtime-6.17, linux, linux-aws, linux-gcp, linux-ibm, linux-nvidia, linux-oracle,
+ linux-raspi, linux-realtime, linux-aws-6.17, linux-gcp, linux-gcp-6.17, luanti, mysql-8.0, mysql-8.4, node-tar-fs, and unbound).]]></description>
+            <guid>https://lwn.net/Articles/1076117/</guid>
+            <pubDate>Wed, 03 Jun 2026 12:59:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Tridgell: rsync and outrage</title>
+            <link>https://lwn.net/Articles/1076040/</link>
+            <description><![CDATA[<p>Andrew Tridgell has written a <a
+href="https://medium.com/@tridge60/rsync-and-outrage-d9849599e5a0">blog
+post</a> responding to complaints that he has begun using LLM tools in
+his work maintaining <a href="https://rsync.samba.org/">rsync</a>:</p>
+
+<blockquote class="bq">
+<p>Like many developers of open source packages I've been hit by a
+flood of security reports lately in my role as the rsync
+maintainer. Many of those reports are AI generated (not all though,
+there are some notable ones with very careful and high quality manual
+analysis).</p>
+
+<p>As this flood started to get more intense I realised I needed to
+raise the defences on rsync a lot — we needed much more thorough test
+suites, code coverage analysis, CI testing on a lot more platforms,
+deliberate and thorough scanning for possible security issues (so I
+find at least some of them before other people!) and the addition of a
+whole lot of defence-in-depth hardening techniques.</p>
+
+<p>[...] Now to the future, because we're not done yet by a long
+shot. The security reports keep rolling in. I'm working on a bunch of
+CVEs right now. Luckily I've been joined by some other very good
+developers with great systems development skills and security
+knowledge. Some of these people came to my attention partly because of
+all the rage happening at the moment, so I get some rage storm clouds
+have silver linings. Watch out for some credits for some great new
+rsync developers in the next release.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1076040/</guid>
+            <pubDate>Wed, 03 Jun 2026 13:00:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1075966/</link>
