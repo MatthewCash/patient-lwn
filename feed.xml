@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 03 Jun 2026 18:53:43 +0000</pubDate>
-        <lastBuildDate>Wed, 3 Jun 2026 19:01:22 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jun 2026 21:11:45 +0000</pubDate>
+        <lastBuildDate>Wed, 3 Jun 2026 21:57:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -590,18 +590,6 @@ problems.  Stoakes was there to present, in raw form, a proposed
 replacement that he calls a "COW context".]]></description>
             <guid>https://lwn.net/Articles/1072378/</guid>
             <pubDate>Thu, 14 May 2026 13:14:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Interview session with Jonathan Corbet</title>
-            <link>https://lwn.net/Articles/1074907/</link>
-            <description><![CDATA[The Linux Foundation will be hosting <a
-href="https://www.linuxfoundation.org/webinars/my-life-as-a-linux-kernel-developer-and-maintainer-with-jonathan-corbet?hsLang=en">a
-live interview</a> with LWN co-founder Jonathan Corbet.  The event will
-take place on Tuesday, June&#160;2 at 8:00AM Pacific daylight time (UTC-7).
-Registration is open for those who would like to attend.]]></description>
-            <guid>https://lwn.net/Articles/1074907/</guid>
-            <pubDate>Wed, 27 May 2026 19:32:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
