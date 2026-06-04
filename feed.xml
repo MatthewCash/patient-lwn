@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jun 2026 20:23:36 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jun 2026 21:12:45 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jun 2026 22:46:39 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jun 2026 22:46:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Dave Airlie on Linux Kernel Maintenance (SE Radio)</title>
+            <link>https://lwn.net/Articles/1076478/</link>
+            <description><![CDATA[The Software Engineering Radio podcast has put up <a
+href="https://se-radio.net/2026/06/se-radio-723-dave-airlie-on-linux-kernel-maintenance/">an
+interview with graphics maintainer Dave Airlie</a>.  Much of what is in
+there will not be news to LWN readers, but it is an interesting overview of
+the life of a large-subsystem maintainer.
+<p>
+<blockquote class="bq">
+	I was talking to a few of the Rust people, and I thought: these are
+	very young people, these are a group of people in their 20s, maybe
+	30s, they are a younger cohort of developers than the people I am
+	normally used to dealing with.  I thought there was maybe a good
+	way we could bring these groups together.  I think that having
+	young people coming into the kernel using Rust is valuable...  So I
+	thought that I should be supportive of bringing Rust into the
+	kernel.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1076478/</guid>
+            <pubDate>Thu, 04 Jun 2026 22:22:17 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>One step forward, two steps back on CA age bill (EFF Deeplinks Blog)</title>
             <link>https://lwn.net/Articles/1076377/</link>
@@ -526,18 +549,6 @@ dependency is not where most projects spend their review time.
             <guid>https://lwn.net/Articles/1075315/</guid>
             <pubDate>Fri, 29 May 2026 14:09:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.96.0 released</title>
-            <link>https://lwn.net/Articles/1075180/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/05/28/Rust-1.96.0/">Version
-1.96.0</a> of the Rust programming language has been released.  Changes
-include a new set of <tt>Copy</tt>-implementing <tt>Range</tt> types,
-assertions with pattern matching, a number of stabilized APIs, and two
-Cargo vulnerability fixes.]]></description>
-            <guid>https://lwn.net/Articles/1075180/</guid>
-            <pubDate>Thu, 28 May 2026 22:16:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
