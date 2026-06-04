@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jun 2026 16:52:15 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jun 2026 16:54:34 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jun 2026 19:19:31 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jun 2026 19:23:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -538,37 +538,6 @@ Cargo vulnerability fixes.]]></description>
             <guid>https://lwn.net/Articles/1075180/</guid>
             <pubDate>Thu, 28 May 2026 22:16:27 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Górny: why Gentoo?</title>
-            <link>https://lwn.net/Articles/1075148/</link>
-            <description><![CDATA[<p>Gentoo developer Michał Górny has written a <a
-href="https://blogs.gentoo.org/mgorny/2026/05/28/why-gentoo/">lengthy
-article</a> explaining the philosophy and purpose of the Gentoo Linux
-distribution, in response to <a
-href="https://social.treehouse.systems/@mgorny/116554856666136859">a
-thread on Mastodon</a>:</p>
-
-<blockquote class="bq">
-<p>Gentoo is a source-first distribution, which means the primary
-method of installing software is to build it from source. Of course,
-that doesn't mean manually building stuff, following some kind of
-how-to: finding all the dependencies, installing them manually, going
-through a series of magical incantations, and eventually ending up no
-better than if we were installing a binary package. The package
-manager takes care of all the necessary steps and more, making package
-installs easy; well, at least unless something fails. But I'm
-digressing...</p>
-
-<p>[...] We try to build a friendly and welcoming community around Gentoo,
-and we truly want using Gentoo be an enjoyable experience. We want it
-to be a system that doesn't betray you.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1075148/</guid>
-            <pubDate>Thu, 28 May 2026 17:58:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
