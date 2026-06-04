@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 04 Jun 2026 10:39:04 +0000</pubDate>
-        <lastBuildDate>Thu, 4 Jun 2026 10:39:50 +0000</lastBuildDate>
+        <pubDate>Thu, 04 Jun 2026 13:47:02 +0000</pubDate>
+        <lastBuildDate>Thu, 4 Jun 2026 13:50:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1076364/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, compat-openssl10, compat-openssl11, delve, expat, httpd:2.4, libexif, mod_http2, openssl, ruby4.0, samba, thunderbird, unbound, and vim), <b>Debian</b> (ceph and sudo), <b>Fedora</b> (libsoup3, pie, roundcubemail, and xorg-x11-server-Xwayland), <b>Mageia</b> (lxc), <b>Oracle</b> (expat, gnutls, kernel, php:8.2, thunderbird, and uek-kernel), <b>Slackware</b> (httpd, net, proftpd, tigervnc, and xorg), <b>SUSE</b> (apache-sshd, apptainer, atril, bind, busybox, cloudflared, evolution-data-server, golang-github-prometheus-prometheus, golang-github-v2fly-v2ray-core, grafana, helm, kernel, libgphoto2-6, libjxl-devel, libsoup, libsoup-2_4-1, libsoup-3_0-0, memcached, ovmf, python-cairosvg, python-flask, python-pip, python-pymupdf, python-pyOpenSSL, python-urllib3, python-urllib3_1, python3-pyOpenSSL, restic, rsync, salt, sdbootutil, tor, tree-sitter, vorbis-tools, and yq), and <b>Ubuntu</b> (exim4, frr, gst-plugins-base1.0, libtemplate-perl, libwww-perl, mysql-8.0, nginx, python-pip, python-urllib3, and twisted).]]></description>
+            <guid>https://lwn.net/Articles/1076364/</guid>
+            <pubDate>Thu, 04 Jun 2026 13:17:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for May 28, 2026</title>
             <link>https://lwn.net/Articles/1073782/</link>
