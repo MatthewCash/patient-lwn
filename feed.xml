@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jun 2026 19:20:29 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jun 2026 21:07:28 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jun 2026 21:24:01 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jun 2026 22:50:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -473,32 +473,6 @@ Classic and another Vim fork, <a href="https://codeberg.org/evi-editor/evi#evi">
             <guid>https://lwn.net/Articles/1075967/</guid>
             <pubDate>Tue, 02 Jun 2026 13:13:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ombredanne: An AI agent ported our codebase from Python to Rust</title>
-            <link>https://lwn.net/Articles/1075832/</link>
-            <description><![CDATA[Over on the <a href="https://www.aboutcode.org/">AboutCode</a> blog, lead
-maintainer Philippe Ombredanne <a
-href="https://www.aboutcode.org/blog/agentic-scancode-port-case-study/">writes</a>
-about an agentic LLM system porting the <a
-href="https://github.com/aboutcode-org/scancode-toolkit#scancode-toolkit">ScanCode
-Toolkit</a> to Rust.  In the process, the LLM (or the people behind it)
-infringed the ScanCode trademark, stripped copyright and license notices,
-"<q>and started an outreach campaign, without ever engaging the AboutCode
-community</q>".  Ironically, the toolkit is used to scan source code and binaries in
-order to figure out licensing and copyright information; it also reports on
-package
-dependencies, vulnerabilities, and more.
-
-
-<blockquote class="bq">
-This is worth repeating: A comprehensive test suite, decent documentation, and curated datasets is what makes automated porting possible. It is also what makes a codebase easier to replicate without understanding it.
-<p>
-The agent's initial approach, using an existing Rust license-detection library, failed to match ScanCode's output quality. The agent then did what any translator would do when a loose paraphrase fails: it copied the original more closely. The final port reproduces ScanCode's core algorithms, code organization, and data-driven architecture in Rust, not because the agent understood them, but because it had enough training data and test feedback to converge on equivalent code.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1075832/</guid>
-            <pubDate>Mon, 01 Jun 2026 20:55:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
