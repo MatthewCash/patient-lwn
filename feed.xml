@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jun 2026 01:25:13 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jun 2026 02:01:45 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jun 2026 02:24:46 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jun 2026 06:57:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -564,18 +564,6 @@ upgrade.</p>
             <guid>https://lwn.net/Articles/1075806/</guid>
             <pubDate>Mon, 01 Jun 2026 17:38:56 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.1-rc6</title>
-            <link>https://lwn.net/Articles/1075575/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1075574/">7.1-rc6</a> kernel prepatch is out for
-testing.  Linus said: "<q>Well, I wouldn't call this 'small', but it is
-certainly smaller than rc5 was. And I don't think there's anything
-particularly scary here, so maybe we're still on track for a normal release
-cycle. Let's see.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1075575/</guid>
-            <pubDate>Mon, 01 Jun 2026 03:26:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
