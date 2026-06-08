@@ -8,11 +8,49 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jun 2026 11:46:46 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jun 2026 11:59:12 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jun 2026 16:00:28 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jun 2026 16:04:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1076983/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, frr, kernel, kernel-rt, libexif, mysql, php, and unbound), <b>Debian</b> (apache2, chromium, glibc, gsasl, jackson-core, libxml2, nginx, request-tracker4, request-tracker5, tomcat10, tomcat11, and tomcat9), <b>Fedora</b> (chromium, firefox, haveged, keylime, libinput, libssh2, nasm, perl-CryptX, rust, thunderbird, and webkitgtk), <b>Mageia</b> (cockpit, golang-x-crypto, golang-x-sys-devel, kernel, kmod-virtualbox, kmod-xtables-addons, kernel-linus, perl-DBIx-Class-EncodedColumn, perl-Crypt-URandom-Token, xdg-dbus-proxy, and xmlrpc-c), <b>Slackware</b> (samba), and <b>SUSE</b> (7zip, amazon-ssm-agent, ansible-13, ansible-core, assimp-devel, bind, cacti, chromium, dpkg, epiphany, erlang27, evince, ffmpeg-4, freerdp, frr, git-bug, google-guest-agent, grafana, hauler, ignition, jq, kanidm, kernel, keybase-client, libjxl, libmariadbd-devel, libmozjs-115-0, libopenbabel8, libsoup2, mariadb, mcphost, networkmanager, openssh, perl-HTTP-Daemon, perl-HTTP-Tiny, perl-IO-Compress, perl-Sereal-Decoder, perl-xml-libxml, postgresql18, python-pyopenssl, python311-pip, tomcat, tomcat10, tomcat11, tor, trivy, unbound, uriparser, vifm, weblate, xorg-x11-server, and yq).]]></description>
+            <guid>https://lwn.net/Articles/1076983/</guid>
+            <pubDate>Mon, 08 Jun 2026 13:32:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>rsync 3.4.4 released with regression fixes</title>
+            <link>https://lwn.net/Articles/1076989/</link>
+            <description><![CDATA[<p>Andrew Tridgell has <a
+href="https://lwn.net/ml/all/CAAbv5GYjCWdvALZHZ5B-ep4p7tvMDYrQWKexjM2fLM%2BhtGyVGg%40mail.gmail.com/">announced</a>
+the release of <a href="https://rsync.samba.org/">rsync</a> 3.4.4 with
+fixes for the regressions introduced in the 3.4.3 release. He also
+notes there will be an rsync 3.5.0 soon, with many more security
+updates:</p>
+
+<blockquote class="bq">
+<p>As part of the 3.5.0 release update I have created a
+rsync-security@lists.samba.org mailing list for anyone who is willing
+to do testing of the 3.5.0 release. The idea is to try to reduce the
+chance of more regressions by expanding the set of testers of this
+release. I have seeded it with people who were involved in past rsync
+security issues. If you want to join this list then the easiest way
+would be for you to be vouched for by someone on the
+distros@vs.openwall.org list or someone else I already trust.</p>
+
+<p>My apologies for the regressions in the 3.4.3 release and I hope future
+security updates for rsync will have less issues. The greatly expanded test
+suite in rsync 3.5 combined with the rsync-security mailing list should
+help.</p>
+</blockquote>
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1076989/</guid>
+            <pubDate>Mon, 08 Jun 2026 14:23:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.1-rc7</title>
             <link>https://lwn.net/Articles/1076835/</link>
