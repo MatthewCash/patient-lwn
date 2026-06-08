@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 08 Jun 2026 16:00:28 +0000</pubDate>
-        <lastBuildDate>Mon, 8 Jun 2026 16:04:48 +0000</lastBuildDate>
+        <pubDate>Mon, 08 Jun 2026 18:35:41 +0000</pubDate>
+        <lastBuildDate>Mon, 8 Jun 2026 18:36:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -499,109 +499,6 @@ The agent's initial approach, using an existing Rust license-detection library, 
             <guid>https://lwn.net/Articles/1075832/</guid>
             <pubDate>Mon, 01 Jun 2026 20:55:10 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1075733/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 9.0, firefox, flatpak, httpd, and thunderbird), <b>Debian</b> (chromium, corosync, cyborg, dovecot, exim4, git-lfs, imagemagick, kernel, keystone, linux-6.1, php-twig, python-aiohttp, sentry-python, swift, and symfony), <b>Fedora</b> (chromium, djvulibre, docker-compose, giflib, haveged, libsoup3, libssh2, mingw-objfw, netatalk, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, objfw, pdns, perl-Crypt-PasswdMD5, perl-libwww-perl, python-urllib3, suricata, and xrdp), <b>Mageia</b> (perl-Template-Toolkit and vim), <b>Oracle</b> (.NET 8.0, cockpit, firefox, flatpak, freerdp, kernel, and libexif), <b>Red Hat</b> (containernetworking-plugins, libsoup, libsoup3, multiple packages, php:8.2, php:8.3, podman, rhc, and skopeo), <b>SUSE</b> (amazon-ecs-init, amazon-ssm-agent, apptainer, azure-storage-azcopy, bind, chromium, csync2, cups, docker-stable, frr, gdk-pixbuf-loader-libheif, gnutls, hauler, helm, helm3, ignition, java-1_8_0-ibm, kernel, libBasicUsageEnvironment2, libredwg-devel, localsearch, memcached, openexr, perl-Net-CIDR-Lite, perl-YAML-Syck, postgresql14, python-mistune, python-pillow, python-pytest-html, python-urllib3, python311-Authlib, strongswan, trivy, vim, and xz), and <b>Ubuntu</b> (gdal, python-pip, qtwebengine-opensource-src, rsync, and texmaker).]]></description>
-            <guid>https://lwn.net/Articles/1075733/</guid>
-            <pubDate>Mon, 01 Jun 2026 13:04:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora F44 election interviews published</title>
-            <link>https://lwn.net/Articles/1075736/</link>
-            <description><![CDATA[<p>The Fedora Project has <a
-href="https://communityblog.fedoraproject.org/f44-elections-interviews/">published</a>
-interviews with candidates running for the open seats on the <a
-href="https://docs.fedoraproject.org/en-US/council/">Fedora
-Council</a>, <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a>, <a
-href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Fedora
-Mindshare Committee</a>, and <a
-href="https://docs.fedoraproject.org/en-US/epel/epel-policy-steering-committee/">EPEL
-Steering Committee</a>. Voting is <a
-href="https://elections.fedoraproject.org/">open</a> through Friday,
-June 12 at 23:59 UTC.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1075736/</guid>
-            <pubDate>Mon, 01 Jun 2026 13:20:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Multiple redhat-cloud-services npm packages compromised (StepSecurity Blog)</title>
-            <link>https://lwn.net/Articles/1075742/</link>
-            <description><![CDATA[<p>StepSecurity is <a
-href="https://www.stepsecurity.io/blog/multiple-redhat-cloud-services-npm-packages-compromised">reporting</a>
-that a number of npm packages in the <tt>@redhat-cloud-services</tt>
-scope include malware that runs automatically on every <tt>npm
-install</tt>:</p>
-
-<blockquote class="bq">
-<p>The payload is a multi-stage credential harvester that sweeps
-GitHub Actions secrets along with AWS, GCP, Azure, Kubernetes,
-HashiCorp Vault, npm, and CircleCI tokens, and it is purpose-built to
-evade detection, including an explicit attempt to bypass StepSecurity
-Harden-Runner.</p>
-
-<p>StepSecurity analyzed <tt>@redhat-cloud-services/host-inventory-client@5.0.3</tt> in full. Its
-<tt>index.js</tt>, executed at install time, is 4.2 MB, a file that should
-weigh a few kilobytes, with the real payload buried under three
-separate layers of obfuscation. The malware is also a self-propagating
-worm: using stolen npm tokens and npm's <tt>bypass_2fa</tt> parameter, it
-republishes backdoored versions of other packages on its own, even
-against accounts protected by two-factor authentication, so every
-infected machine can seed the next wave with no attacker
-involvement. All affected packages were published via GitHub Actions
-OIDC from the <tt>RedHatInsights/javascript-clients</tt> repository, indicating
-the upstream CI/CD pipeline itself was compromised. Analysis of the
-remaining packages is ongoing.</p>
-</blockquote>
-
-<p>A <a
-href="https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm/">blog
-post</a> from SafeDep has additional analysis about the incident. We did not find an advisory from Red Hat on this yet.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1075742/</guid>
-            <pubDate>Mon, 01 Jun 2026 14:05:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>DistroWatch turns 25</title>
-            <link>https://lwn.net/Articles/1075766/</link>
-            <description><![CDATA[The DistroWatch site is <a
-href="https://distrowatch.com/weekly.php?issue=20260601">celebrating its
-25th anniversary</a>.  "<q>All in all, it has been an incredible ride. Many
-of you who read these pages regularly know that downloading and testing
-distributions is a highly addictive pastime. I have been an avid
-distro-hopper for the last 25 years and I don't see myself abandoning this
-activity for many more years to come.</q>"  Congratulations to Ladislav
-Bodnar and all the others who have kept that resource going for so long.]]></description>
-            <guid>https://lwn.net/Articles/1075766/</guid>
-            <pubDate>Mon, 01 Jun 2026 14:39:35 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernels for the first day of June</title>
-            <link>https://lwn.net/Articles/1075806/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1075807/">7.0.11</a>, <a
-href="https://lwn.net/Articles/1075808/">6.18.34</a>, <a
-href="https://lwn.net/Articles/1075809/">6.12.92</a>, <a
-href="https://lwn.net/Articles/1075810/">6.6.142</a>, <a
-href="https://lwn.net/Articles/1075811/">6.1.175</a>, <a
-href="https://lwn.net/Articles/1075812/">5.15.209</a>, and <a
-href="https://lwn.net/Articles/1075813/">5.10.258</a> stable kernels. As usual, each
-contains important fixes throughout the tree, including a <a href="https://lwn.net/ml/all/2026060140-CVE-2026-46243-3d1c%40gregkh/">fix</a> for the "<a href="https://heyitsas.im/posts/cifswitch/">CIFSwitch</a>" vulnerability (<a href="https://cve.org/CVERecord/?id=CVE-2026-46243">CVE-2026-46243</a>) which could allow a local-privilege-escalation exploit. Users are advised to
-upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1075806/</guid>
-            <pubDate>Mon, 01 Jun 2026 17:38:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
