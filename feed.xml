@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Jun 2026 11:27:04 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Jun 2026 11:39:30 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Jun 2026 13:38:52 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Jun 2026 14:05:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels for Tuesday</title>
+            <link>https://lwn.net/Articles/1077078/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1077079/">7.0.12</a>, <a
+href="https://lwn.net/Articles/1077080/">6.18.35</a>, and <a
+href="https://lwn.net/Articles/1077081/">6.12.93</a> stable kernels. Each contains
+important fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1077078/</guid>
+            <pubDate>Tue, 09 Jun 2026 11:44:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Linux App Summit 2026 (Heise)</title>
+            <link>https://lwn.net/Articles/1077084/</link>
+            <description><![CDATA[Heise is carrying <a
+href="https://www.heise.de/en/background/Linux-App-Summit-2026-Meeting-of-the-Linux-Desktop-Avant-garde-11316647.html">a
+report from the Linux App Summit</a>, held in Berlin in May.
+<p>
+<blockquote class="bq">
+	The slightly more than a dozen talks were symbolically framed
+	between the opening keynote by systemd creator Lennart Poettering
+	and the closing talk by Jorge Castro, initiator of the Universal
+	Blue project, from which the modern Linux systems Bluefin and
+	Bazzite emerged. Both Castro and Poettering call for a fundamental
+	rethink of how Linux operating systems are delivered but pursue
+	different approaches.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1077084/</guid>
+            <pubDate>Tue, 09 Jun 2026 12:52:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1077163/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind and libyang), <b>Debian</b> (keystone and openssl), <b>Fedora</b> (mingw-objfw, objfw, sentencepiece, and tailscale), <b>Mageia</b> (packagekit and suricata), <b>Oracle</b> (bind, bind9.16, go-toolset:ol8, ImageMagick, kernel, samba, and vim), <b>SUSE</b> (apache-commons-lang3, apache-commons-text, apache-commons- configuration2, apache-commons-cli, apache-commons-io, apache-commons-codec, avahi, busybox, chromedriver, chromium, csync2, firewalld, frr, gleam, helm, kernel-devel, keybase-client, libmozjs-140-0, libopenvswitch-3_7-0, libsoup, memcached, mutt, openjpeg2, ovmf, perl-HTML-Parser, perl-Net-CIDR-Set, perl-Protocol-HTTP2, postgresql-jdbc, postgresql17, python-CairoSVG, python-Flask, python-pip, python-pyOpenSSL, python-python-multipart, python-Twisted, python-urllib3, python-urllib3_1, python-uv, python311, rsync, tomcat, and tree-sitter), and <b>Ubuntu</b> (alsa-lib, cups, inetutils, isc-kea, jpeg-xl, libnet-cidr-lite-perl, netatalk, netty, nginx, node-shell-quote, php-twig, pillow, poppler, rsync, strongswan, systemd, and transmission).]]></description>
+            <guid>https://lwn.net/Articles/1077163/</guid>
+            <pubDate>Tue, 09 Jun 2026 13:03:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1076983/</link>
