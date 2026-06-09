@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Jun 2026 13:38:52 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Jun 2026 14:05:29 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Jun 2026 14:33:45 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Jun 2026 16:48:03 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Asahi Linux warns users not to upgrade to macOS 27 beta</title>
+            <link>https://lwn.net/Articles/1077209/</link>
+            <description><![CDATA[<p>The <a href="https://asahilinux.org/">Asahi Linux</a> project,
+which brings Linux support to Apple Arm-based Macs, has <a
+href="https://social.treehouse.systems/@AsahiLinux/116719749555082847">warned
+its users</a> not to upgrade to the macOS&#160;27 "Golden Gate"
+beta.</p>
+
+<blockquote class="bq">
+<p>Apple has changed how the boot picker and Startup Disk applications
+detect valid OS boot volumes. When using either from macOS&#160;27, your
+Asahi partition will not be visible! We believe this to be a bug, and
+have filed a report (FB22994760).</p>
+
+<p>If you have already upgraded to the beta and noticed that your
+Asahi partition has disappeared, do not stress. Your Asahi partition
+is still there, and you have not lost any data.</p>
+</blockquote>
+
+<p>The Asahi Linux installer has been patched to prevent use with
+macOS&#160;27 for now, but any users already bitten by the change will
+need to use macOS&#160;26 to restore access to Asahi Linux.</p>]]></description>
+            <guid>https://lwn.net/Articles/1077209/</guid>
+            <pubDate>Tue, 09 Jun 2026 14:30:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three stable kernels for Tuesday</title>
             <link>https://lwn.net/Articles/1077078/</link>
@@ -466,54 +493,6 @@ rsync developers in the next release.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1076040/</guid>
             <pubDate>Wed, 03 Jun 2026 13:00:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1075966/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (php:8.2 and php:8.3), <b>Debian</b> (gst-plugins-good1.0, symfony, and yelp), <b>Fedora</b> (dovecot, freeipa, hplip, libpng, perl-Catalyst-Plugin-Authentication, postfix, samba, unbound, and vim), <b>Mageia</b> (assimp, libcaca, sdl2_sound, and tar), <b>Slackware</b> (kernel), <b>SUSE</b> (alloy, apache-commons-lang3, apache-commons-text,, apache2, bubblewrap, busybox, chromium, cups, docker-stable, ffmpeg-8, google-osconfig-agent, gsasl, ignition, java-26-openjdk, kernel, libsolv-demo, libsoup, libzypp, localsearch, openjpeg2, postgresql-jdbc, putty, python-mistune, python-Pillow, python-python-multipart, python-Twisted, python3-Twisted, re, roundcubemail, vim, wireshark, and xz), and <b>Ubuntu</b> (evolution-data-server, exim4, gsasl, haveged, lcms2, libreoffice, linux-aws, linux-lts-xenial, linux-lowlatency, linux-nvidia-tegra, nginx, nncp, qtdeclarative-opensource-src, sslh, sssd, and xz-utils).]]></description>
-            <guid>https://lwn.net/Articles/1075966/</guid>
-            <pubDate>Tue, 02 Jun 2026 13:06:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Vim Classic 8.3 released</title>
-            <link>https://lwn.net/Articles/1075967/</link>
-            <description><![CDATA[<p><a
-href="https://vim-classic.org/news/vim-8.3-released.html">Version
-8.3</a> of <a href="https://vim-classic.org/">Vim Classic</a> has been
-released. This is the first release of the Vim fork since the project
-was <a href="https://drewdevault.com/blog/Forking-vim/">announced</a>
-in March.</p>
-
-<blockquote class="bq">
-<p>This release is based on Vim 8.2.0148, with a number of bug fixes
-and patches conservatively backported from future versions of Vim
-upstream. We elected to clean up this version of Vim, prepare it for a
-release, and imagine an alternate history where Vim 8.3 was released
-without Vim9 script. The result is Vim Classic 8.3. We chose to take
-this approach in order to reduce the long-term maintenance burden of
-Vim Classic, acknowledging that our fork lacks the resources and
-institutional knowledge available to Vim upstream. However, a
-consequence is that there are some Vim plugins which are not
-compatible with Vim Classic.</p>
-
-<p>We have made a special effort to assess patches from Vim upstream
-which mitigate some of the many CVEs affecting Vim which were
-discovered and fixed between versions 8.2 and modern-day Vim, but we
-can't be sure we've got all of the security patches which are
-applicable to Vim Classic (and practically exploitable). This version
-of Vim Classic is therefore recommended for early adopters who are
-comfortable adopting a security posture which accounts for the fact
-that we may have overlooked some bugs.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1067007/">covered</a> Vim
-Classic and another Vim fork, <a href="https://codeberg.org/evi-editor/evi#evi">EVi</a>, in April.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1075967/</guid>
-            <pubDate>Tue, 02 Jun 2026 13:13:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
