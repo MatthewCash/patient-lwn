@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 09 Jun 2026 14:33:45 +0000</pubDate>
-        <lastBuildDate>Tue, 9 Jun 2026 16:48:03 +0000</lastBuildDate>
+        <pubDate>Tue, 09 Jun 2026 19:09:01 +0000</pubDate>
+        <lastBuildDate>Tue, 9 Jun 2026 19:13:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Future of Ubuntu MATE</title>
+            <link>https://lwn.net/Articles/1077221/</link>
+            <description><![CDATA[<p>Thomas Ward has <a
+href="https://discourse.ubuntu.com/t/mate-no-26-04-release-how-does-that-affect-you-and-what-is-the-future-of-ubuntu-mate/83877">published</a>
+an update about the future of the Ubuntu <a
+href="https://ubuntu-mate.org/">MATE</a> project, which did not have a
+26.04&#160;release with the other <a
+href="https://ubuntu.com/desktop/flavors">Ubuntu flavors</a> in
+April:</p>
+
+<blockquote class="bq">
+<p>There is a new team working on Ubuntu MATE who have stepped up to
+help take over flavor management. They haven't formally introduced
+themselves yet, but I can safely say that other developers HAVE
+stepped up for the future of the MATE flavor, despite its prior team
+lead having stepped down.</p>
+
+<p>[...] Ultimately, this means that they are working to cover the
+missed items and gaps, and may quite possibly have a 26.10 release in
+October of 2026, which I believe they most likely are targeting.</p>
+
+<p>This also means that bugs in the MATE environment and in packages
+they normally would have shipped had they have a 26.04 release are
+still going to get attention and fixes. So, effectively, nothing has
+changed. The only difference is that there was no 26.04 installer
+image released.</p>
+</blockquote>
+
+<p>For those looking to install a MATE desktop on a "clean" install of
+Ubuntu&#160;26.04, Ward <a href="https://discourse.ubuntu.com/t/mate-no-26-04-release-how-does-that-affect-you-and-what-is-the-future-of-ubuntu-mate/83877/4">suggests</a> installing Ubuntu Server and then
+installing the <tt>ubuntu-mate-desktop</tt> package.</p>]]></description>
+            <guid>https://lwn.net/Articles/1077221/</guid>
+            <pubDate>Tue, 09 Jun 2026 18:00:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Asahi Linux warns users not to upgrade to macOS 27 beta</title>
             <link>https://lwn.net/Articles/1077209/</link>
