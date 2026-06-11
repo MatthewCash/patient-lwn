@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 11 Jun 2026 09:03:17 +0000</pubDate>
-        <lastBuildDate>Thu, 11 Jun 2026 11:09:27 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Jun 2026 14:52:12 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Jun 2026 14:54:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1077536/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, podman, poppler, and postgresql-jdbc), <b>Debian</b> (chromium, jackson-core, libdbi-perl, and libinput), <b>Fedora</b> (httpd, rust, and xmlstarlet), <b>Mageia</b> (openssh, postfix, and roundcubemail), <b>Oracle</b> (frr, kernel, libyang, n, postgresql-jdbc, and unbound), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, redis, and redis:7), <b>SUSE</b> (agama-web-ui, cockpit, cosign, glibc, google-cloud-sap-agent, google-osconfig-agent, kanidm, kernel, kubernetes, kubernetes1.23, kubernetes1.24, kubernetes1.25, kubernetes1.27, kubernetes1.28, libpodofo-devel, libyang, NetworkManager-libreswan, openCryptoki, python311-pypdf, rclone, steampipe, wicked, and xen), and <b>Ubuntu</b> (exim4, libcrypt-saltedhash-perl, libhttp-daemon-perl, samba, and uriparser).]]></description>
+            <guid>https://lwn.net/Articles/1077536/</guid>
+            <pubDate>Thu, 11 Jun 2026 13:08:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Homebrew 6.0.0 released</title>
+            <link>https://lwn.net/Articles/1077587/</link>
+            <description><![CDATA[<p><a href="https://brew.sh/2026/06/11/homebrew-6.0.0/">Version
+6.0.0</a> of the <a href="https://brew.sh/">Homebrew</a>
+package-management system has been released. Notable changes in this
+release include the introduction of <a
+href="https://docs.brew.sh/Tap-Trust">tap trust</a> to improve
+supply-chain security, improvements in sandboxing on Linux, a number
+of performance tweaks, and many other changes.</p>
+
+<p>See the <a
+href="https://github.com/Homebrew/brew/releases/tag/6.0.0">changelog</a>
+for a full list. LWN <a
+href="https://lwn.net/Articles/1046236/">covered</a> Homebrew in
+November 2025.</p>
+
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1077587/</guid>
+            <pubDate>Thu, 11 Jun 2026 14:49:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 4, 2026</title>
             <link>https://lwn.net/Articles/1074950/</link>
@@ -535,14 +566,6 @@ California's age-attestation law in March.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1076377/</guid>
             <pubDate>Thu, 04 Jun 2026 14:53:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1076364/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, compat-openssl10, compat-openssl11, delve, expat, httpd:2.4, libexif, mod_http2, openssl, ruby4.0, samba, thunderbird, unbound, and vim), <b>Debian</b> (ceph and sudo), <b>Fedora</b> (libsoup3, pie, roundcubemail, and xorg-x11-server-Xwayland), <b>Mageia</b> (lxc), <b>Oracle</b> (expat, gnutls, kernel, php:8.2, thunderbird, and uek-kernel), <b>Slackware</b> (httpd, net, proftpd, tigervnc, and xorg), <b>SUSE</b> (apache-sshd, apptainer, atril, bind, busybox, cloudflared, evolution-data-server, golang-github-prometheus-prometheus, golang-github-v2fly-v2ray-core, grafana, helm, kernel, libgphoto2-6, libjxl-devel, libsoup, libsoup-2_4-1, libsoup-3_0-0, memcached, ovmf, python-cairosvg, python-flask, python-pip, python-pymupdf, python-pyOpenSSL, python-urllib3, python-urllib3_1, python3-pyOpenSSL, restic, rsync, salt, sdbootutil, tor, tree-sitter, vorbis-tools, and yq), and <b>Ubuntu</b> (exim4, frr, gst-plugins-base1.0, libtemplate-perl, libwww-perl, mysql-8.0, nginx, python-pip, python-urllib3, and twisted).]]></description>
-            <guid>https://lwn.net/Articles/1076364/</guid>
-            <pubDate>Thu, 04 Jun 2026 13:17:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
