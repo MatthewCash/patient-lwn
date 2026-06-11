@@ -8,11 +8,195 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 10 Jun 2026 21:49:00 +0000</pubDate>
-        <lastBuildDate>Wed, 10 Jun 2026 23:08:47 +0000</lastBuildDate>
+        <pubDate>Thu, 11 Jun 2026 00:03:00 +0000</pubDate>
+        <lastBuildDate>Thu, 11 Jun 2026 01:40:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 4, 2026</title>
+            <link>https://lwn.net/Articles/1074950/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1074950/">Front</a>: MeshCore; x32 ABI; Open-source security; Package-manager metadata; More LSFMM+BPF coverage; Loadable crypto module.
+            <li> <a href="https://lwn.net/Articles/1074952/">Briefs</a>: Lightwell; jqwik protestware; RedHat package compromise; DistroWatch; Fedora election; Rust 1.96.0; rsync; Vim Classic 8.3; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1074953/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1074950/</guid>
+            <pubDate>Thu, 04 Jun 2026 01:31:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] BPF in the agentic era</title>
+            <link>https://lwn.net/Articles/1075067/</link>
+            <description><![CDATA[<p>
+Alexei Starovoitov gave "<q>less of a presentation, more of a scream of
+realization</q>" at the BPF track of the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem,
+Memory-Management, and BPF Summit</a>. He shared a set of ideas for how BPF could
+change to avoid being swept away by the sea-change in programming represented by modern
+large language models (LLMs) and the coding agents based on them.
+In a follow-up session, the discussion covered
+more problems with how coding agents use tools like bpftrace, and the current deluge of
+patches in need of review in the BPF subsystem.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1075067/</guid>
+            <pubDate>Wed, 03 Jun 2026 13:14:39 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Open-source security is not a solo activity</title>
+            <link>https://lwn.net/Articles/1075741/</link>
+            <description><![CDATA[<p>Over time, many open-source maintainers face the same problem: they
+lack the time to do all of the work that their project needs, and no
+one else is stepping up to provide adequate help. Maintainers, though,
+are often reluctant to throw in the towel. The result is suboptimal
+all around; the maintainer is stressed out, project quality suffers,
+and users face security risks that they may not be fully aware of. At
+the 2026 <a
+href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
+Source Summit North America</a>, Robin Bender&#160;Ginn spoke about this
+problem, when it might be time for maintainers to pass the torch, and
+the responsibilities of users.]]></description>
+            <guid>https://lwn.net/Articles/1075741/</guid>
+            <pubDate>Wed, 03 Jun 2026 15:02:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Caching for extended attributes</title>
+            <link>https://lwn.net/Articles/1074919/</link>
+            <description><![CDATA[<a href="https://man7.org/linux/man-pages/man7/xattr.7.html">Extended
+attributes</a> (xattrs) provide a way to attach <span class="nobreak">key/value</span> metadata to
+inodes—files, directories, and the like—in a filesystem.  As with many
+Linux filesystems, the <a
+href="https://docs.kernel.org/filesystems/fuse/">FUSE filesystem</a>
+supports xattrs.  In a filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, FUSE maintainer Miklos
+Szeredi led a discussion about caching xattrs in kernel memory; he would
+like to create some common infrastructure that could be used by FUSE and
+shared with other filesystems.]]></description>
+            <guid>https://lwn.net/Articles/1074919/</guid>
+            <pubDate>Tue, 02 Jun 2026 18:35:52 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Trying to make sense of package-manager metadata</title>
+            <link>https://lwn.net/Articles/1074908/</link>
+            <description><![CDATA[<p>Package managers for operating systems and programming languages have been
+around for decades. Each package manager, and its accompanying packaging format,
+has been shaped by the needs of its respective ecosystem, but there is a growing
+need to make use of package metadata for more than software management: for
+example, in vulnerability scans, software bills of materials (SBOMs), and more. On
+May&#160;19, Damián Vicino spoke at the <a href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open Source Summit North America</a> 2026
+about his experiences in the past year trying to make sense of the varied
+metadata provided by more than 20 package managers.</p>]]></description>
+            <guid>https://lwn.net/Articles/1074908/</guid>
+            <pubDate>Tue, 02 Jun 2026 13:33:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Representing the true signatures of kernel functions</title>
+            <link>https://lwn.net/Articles/1073762/</link>
+            <description><![CDATA[<p>
+Optimizing compilers can, under some circumstances, infer when a parameter to a
+function is not needed, and remove it. This is all well and good until the
+kernel's tracing or BPF subsystems need information on how to call the function
+or where its arguments are stored.
+Alan Maguire and Yonghong Song spoke at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux
+Storage, Filesystem, Memory-Management, and BPF Summit</a> about their work on
+recording information regarding changed function signatures in the kernel's BTF debugging
+information, to better support tracing such functions.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1073762/</guid>
+            <pubDate>Mon, 01 Jun 2026 18:59:43 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reconsidering x32 — again</title>
+            <link>https://lwn.net/Articles/1074897/</link>
+            <description><![CDATA[The <a href="https://en.wikipedia.org/wiki/X32_ABI">x32 ABI</a> was meant
+to be the best of both worlds, providing the expanded registers and
+instruction set of the x86-64 architecture while preserving the lower
+memory use of 32-bit systems.  The Linux kernel has supported x32 since the
+3.4 release in 2012.  The initial excitement around x32 did not last,
+though, and kernel developers are considering removing that support — and
+not for the first time.  Even the most unloved features tend to have a few
+users, though, making removal hard.]]></description>
+            <guid>https://lwn.net/Articles/1074897/</guid>
+            <pubDate>Mon, 01 Jun 2026 14:22:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A loadable crypto module for FIPS certification</title>
+            <link>https://lwn.net/Articles/1073759/</link>
+            <description><![CDATA[Many organizations require US <a href="https://en.wikipedia.org/wiki/Federal_Information_Processing_Standards">Federal Information Processing Standard</a> (FIPS)
+certification of the crypto code they are running.  The certification
+process is lengthy, but the bigger problem is that the way the crypto
+subsystem is built into the kernel makes the result unable to be reused
+across kernel updates.  I have proposed a <a
+href="https://lwn.net/ml/all/20260418002032.2877-1-wanjay@amazon.com/">patch
+series</a> that decouples the crypto subsystem into a standalone
+loadable module, allowing a certified crypto module to be reused with
+multiple kernels and, thus, requiring fewer lengthy recertification delays.]]></description>
+            <guid>https://lwn.net/Articles/1073759/</guid>
+            <pubDate>Fri, 29 May 2026 14:29:18 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] A trademark dispute over MeshCore</title>
+            <link>https://lwn.net/Articles/1070218/</link>
+            <description><![CDATA[<p>
+<a href="https://github.com/meshcore-dev/MeshCore#about-meshcore">
+MeshCore</a> is a relatively new project, started in January 2025, that aims
+to build a scalable mesh network using low-power long-distance radios. While
+many other projects of the same general nature have been tried before, MeshCore
+grew quickly because of its more efficient message routing and enthusiastic
+community. In early 2026, an early proponent of the project made a sudden shift
+that left the rest of the community stunned and embroiled in a trademark dispute.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1070218/</guid>
+            <pubDate>Fri, 29 May 2026 16:41:06 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Separating memory descriptors from struct page</title>
+            <link>https://lwn.net/Articles/1073425/</link>
+            <description><![CDATA[The kernel's memory-management subsystem is currently partway through a
+multi-year project to replace the <tt>page</tt> structure (which represents
+a page of physical memory) with <a
+href="https://kernelnewbies.org/MatthewWilcox/Memdescs">memory
+descriptors</a>.  At the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Vishal Moola ran a
+fast-paced session in the memory-management track to describe the current
+state of that work and what is likely to happen next.]]></description>
+            <guid>https://lwn.net/Articles/1073425/</guid>
+            <pubDate>Thu, 28 May 2026 13:09:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Policies for merging new filesystems</title>
+            <link>https://lwn.net/Articles/1074557/</link>
+            <description><![CDATA[In a filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein wanted to
+discuss his <a
+href="https://lwn.net/ml/all/20260417142503.1436446-1-amir73il@gmail.com/">proposed
+documentation on adding new filesystems</a> to the kernel.  There are a
+number of unmaintained and untestable filesystems already in the kernel,
+which are a burden to VFS-layer developers who are trying to make sweeping
+changes, such as switching to folios and the "new" mount API.  Goldstein's
+document is an attempt to head off the addition of filesystems that may
+increase that burden down the road.]]></description>
+            <guid>https://lwn.net/Articles/1074557/</guid>
+            <pubDate>Thu, 28 May 2026 14:29:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Larson: Are insecure code completions a vulnerability?</title>
             <link>https://lwn.net/Articles/1077413/</link>
