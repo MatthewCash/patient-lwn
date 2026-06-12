@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 12 Jun 2026 09:40:14 +0000</pubDate>
-        <lastBuildDate>Fri, 12 Jun 2026 12:31:35 +0000</lastBuildDate>
+        <pubDate>Fri, 12 Jun 2026 15:11:21 +0000</pubDate>
+        <lastBuildDate>Fri, 12 Jun 2026 15:55:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1077703/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, expat, httpd:2.4, kernel, kernel-rt, mod_http2, openssl, poppler, redis, redis:7, samba, and unbound), <b>Debian</b> (ironic, kernel-wedge, libinput, linux-base, and neutron), <b>Fedora</b> (kernel, openssl, vaultwarden, and vaultwarden-web), <b>Mageia</b> (erlang-hex_core, erlang-rebar3, gnupg2, and sqlite3), <b>Red Hat</b> (buildah, podman, and skopeo), <b>SUSE</b> (flannel, gdk-pixbuf-loader-libheif, gnutls, google-cloud-sap-agent, grafana, graphite2, hplip, libIex-3_4-33, libzypp, nginx, openssh, perl-DBI, perl-Git-Repository, perl-Protocol-HTTP2, python-Pygments, python-simpleeval, python311-Django4, rclone, roundcubemail, strongswan, tomcat10, tomcat11, unbound, and webkit2gtk3), and <b>Ubuntu</b> (apache2, dotnet8, dotnet9, dotnet10, gst-plugins-base1.0, ironic, linux-azure-5.15, linux-azure-fips, lwip, mistral, and ubuntu-kylin-software-center).]]></description>
+            <guid>https://lwn.net/Articles/1077703/</guid>
+            <pubDate>Fri, 12 Jun 2026 13:12:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Hundreds of AUR packages compromised</title>
+            <link>https://lwn.net/Articles/1077718/</link>
+            <description><![CDATA[<p>Hundreds of orphaned packages hosted by the <a
+href="https://aur.archlinux.org/">Arch User Repository</a> (AUR) have
+been compromised by an attacker who has added a <a
+href="https://www.npmjs.com/package/atomic-lockfile">malicious npm
+package</a> (<tt>atomic-lockfile</tt>) that can exfiltrate sensitive
+data. The project is currently <a
+href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/">working
+on</a> cleaning up the mess. There is a <a
+href="https://gr.ht/aur_pkg_list.txt">list of affected packages</a>
+and <a href="https://gaysex.cloud/notes/andaxow7itfn05x9">post</a> (possibly NSFW domain) by
+"sodiboo" with additional information. Arch Linux users (or users of
+Arch-based distributions) that use AUR packages may wish to see if they
+have installed any of the compromised updates.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1077718/</guid>
+            <pubDate>Fri, 12 Jun 2026 13:41:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1077536/</link>
@@ -448,61 +478,6 @@ please give rc7 a whirl and keep testing for one more week.</q>"]]></description
             <guid>https://lwn.net/Articles/1076835/</guid>
             <pubDate>Mon, 08 Jun 2026 00:28:06 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1076605/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel), <b>Debian</b> (dovecot, exim4, frr, and haveged), <b>Fedora</b> (cockpit, freeipa, jpegxl, libre, nextcloud, perl-Cpanel-JSON-XS, perl-Crypt-Argon2, perl-Dist-Build, perl-ExtUtils-Builder, perl-ExtUtils-Builder-Compiler, perl-HTTP-Tiny, perl-libwww-perl, python-starlette, rubygem-yard, rust-sequoia-cert-store, rust-sequoia-chameleon-gnupg, rust-sequoia-octopus-librnp, rust-sequoia-sop, rust-sequoia-sq, rust-sequoia-wot, samba, and transmission), <b>Red Hat</b> (image-builder), <b>Slackware</b> (dnsmasq and libinput), <b>SUSE</b> (evince, glibc, google-guest-agent, hplip, ignition, LibVNCServer, libzypp, libsolv, python-Pillow, salt, thunderbird, and vim), and <b>Ubuntu</b> (apache2, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-gcp,
- linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15,
- linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg,
- linux-kvm, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15,
- linux-nvidia-tegra-igx, linux-oracle, linux-raspi, linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-5.4,
- linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4,
- linux-gcp-fips, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4,
- linux-xilinx-zynqmp, linux, linux-azure, linux-azure-4.15, linux-azure-fips, linux-fips,
- linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux-oracle, linux-aws-5.4, linux-hwe-5.4, linux-azure-fips, linux-fips, linux-raspi, linux-raspi-5.4, nano, postfix, robocode, tomcat6, tomcat7, and yard).]]></description>
-            <guid>https://lwn.net/Articles/1076605/</guid>
-            <pubDate>Fri, 05 Jun 2026 12:56:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Ruby&apos;s Bundler adds a cooldown feature</title>
-            <link>https://lwn.net/Articles/1076526/</link>
-            <description><![CDATA[<p><a
-href="https://blog.rubygems.org/2026/06/03/4.0.13-released.html">Version
-4.0.13</a> of Ruby's <a href="https://bundler.io/">Bundler</a>
-package-manager has <a
-href="https://blog.rubygems.org/2026/06/03/cooldown-let-new-gems-be-vetted.html">added
-dependency cooldowns</a> in order to help mitigate the effect of
-supply-chain attacks:</p>
-
-<blockquote class="bq">
-<p>Most supply-chain attacks against RubyGems exploit a narrow window:
-an account is compromised, a malicious version ships, and any
-<tt>bundle&#160;install</tt> in the minutes that follow resolves
-straight to it. Bundler 4.0.13 introduces cooldown, a time-based
-filter that refuses to resolve to a version until it has been public
-for at least <em>N</em> days. Releases too new to have been scrutinized are
-passed over in favor of ones that have aged past the window.</p>
-
-<p>The feature was <a
-href="https://github.com/ruby/rubygems/discussions/9113">designed in
-the open</a>, drawing on <a
-href="https://dev.to/hsbt/should-rubygemsbundler-have-a-cooldown-feature-40cp">how
-other ecosystems approach the same problem</a>. It is opt-in, and
-complements rather than replaces existing defenses like mandatory 2FA
-and trusted publishing.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1068692/">covered</a>
-dependency cooldowns in April, and the <a
-href="https://lwn.net/Articles/1040778/">takeover of RubyGems and
-Bundler</a> in October 2025.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1076526/</guid>
-            <pubDate>Fri, 05 Jun 2026 12:57:00 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
