@@ -8,11 +8,40 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 14 Jun 2026 17:08:16 +0000</pubDate>
-        <lastBuildDate>Sun, 14 Jun 2026 18:12:25 +0000</lastBuildDate>
+        <pubDate>Sun, 14 Jun 2026 18:47:54 +0000</pubDate>
+        <lastBuildDate>Sun, 14 Jun 2026 19:59:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>The 7.1 kernel has been released</title>
+            <link>https://lwn.net/Articles/1077758/</link>
+            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1077814/">released the 7.1 kernel</a>.
+"<q>So it's only Sunday morning back home, but it's Sunday afternoon where
+I am right now, so I'm doing the 7.1 release at the regular time -
+just not in the regular timezone.</q>"
+<p>
+
+Significant changes in 7.1 include
+the removal of support for some old 486-based architectures,
+some <a href="https://lwn.net/Articles/1059673/">new <tt>clone()</tt> flags</a> making
+process management easier,
+<a href="https://lwn.net/Articles/1062286/">BPF support</a> for io_uring,
+zero-copy-I/O support for the <a
+href="https://docs.kernel.org/block/ublk.html">ublk</a> user-space block
+driver,
+initial (incomplete) <a href="https://lwn.net/Articles/1056014/">sub-scheduler support</a>
+in sched_ext,
+more <a href="https://lwn.net/Articles/1057102/">swapping improvements</a>,
+a <a href="https://lwn.net/Articles/1055062/#ntfs">completely rewritten NTFS
+implementation</a>,
+and much more.  See the LWN merge-window summaries (<a
+href="https://lwn.net/Articles/1067250/">part&#160;1</a>, <a
+href="https://lwn.net/Articles/1067785/">part&#160;2</a>) for details.]]></description>
+            <guid>https://lwn.net/Articles/1077758/</guid>
+            <pubDate>Sun, 14 Jun 2026 18:47:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1077703/</link>
