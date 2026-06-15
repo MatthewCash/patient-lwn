@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 15 Jun 2026 08:37:02 +0000</pubDate>
-        <lastBuildDate>Mon, 15 Jun 2026 10:34:08 +0000</lastBuildDate>
+        <pubDate>Mon, 15 Jun 2026 16:04:55 +0000</pubDate>
+        <lastBuildDate>Mon, 15 Jun 2026 16:09:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1077945/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0), <b>Debian</b> (apache2, chromium, jpeg-xl, librabbitmq, and openssl), <b>Fedora</b> (apptainer, bind9-next, chezmoi, chromium, collectd, composer, dnsdist, gh, python-django5, python-python-multipart, varnish, varnish-modules, vmod-querystring, vmod-uuid, weasyprint, and xorg-x11-server-Xwayland), <b>Mageia</b> (cups, expat, libpng, libssh, memcached, nghttp2, openimageio, packages, proftpd, and radare2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, and firefox), <b>Red Hat</b> (postfix and valkey), and <b>SUSE</b> (afl, alloy, ansible-core, apache-pdfbox, chromedriver, chromium, cpp-httplib-devel, dpkg, elemental-operator, elemental-toolkit, enc, erlang, ffmpeg-7, firewalld, git-bug, golang-github-prometheus-prometheus, grafana, GraphicsMagick, graphite2, kernel, kernel-devel, lcms2, ldns, libsoup, libyang, libzypp, logback, mariadb, NetworkManager, openssh, openvswitch, perl-GD, perl-XML-LibXML, polkit, postgresql-jdbc, postgresql18, python, python-django, python-M2Crypto-doc, python-Pygments, python-pygments, python-requests, python313-Django6, qemu, rpcbind, samba, strongswan, tmux, uriparser, and xdg-dbus-proxy).]]></description>
+            <guid>https://lwn.net/Articles/1077945/</guid>
+            <pubDate>Mon, 15 Jun 2026 13:04:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Stenberg: curl summer of bliss</title>
+            <link>https://lwn.net/Articles/1077946/</link>
+            <description><![CDATA[<p>Daniel Stenberg has <a
+href="https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/">announced</a>
+that curl will not be accepting vulnerability reports from July&#160;1
+through August&#160;3, unless the submitter has a paid support
+contract. He is calling it the "curl summer of bliss".</p>
+
+<blockquote class="bq">
+<p>As previously mentioned, we have been under a huge <a
+href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">pressure</a>
+for the last four months or so. Now we need some rest. We do not
+expect this deluge to be over.</p>
+<p>[...] If you and your Open Source projects also want to participate
+in the summer of bliss 2026: just do it and let us know! I would of
+course encourage you to do so. To take care of yourself as a top
+priority.</p>
+</blockquote>
+
+<p>The project's issue and pull-request trackers on GitHub will remain
+open. The planned release date for curl 8.22.0 has been pushed back
+two weeks to September&#160;2,&#160;2026.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1077946/</guid>
+            <pubDate>Mon, 15 Jun 2026 13:32:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The 7.1 kernel has been released</title>
             <link>https://lwn.net/Articles/1077758/</link>
@@ -457,44 +494,6 @@ report from the Linux App Summit</a>, held in Berlin in May.
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind and libyang), <b>Debian</b> (keystone and openssl), <b>Fedora</b> (mingw-objfw, objfw, sentencepiece, and tailscale), <b>Mageia</b> (packagekit and suricata), <b>Oracle</b> (bind, bind9.16, go-toolset:ol8, ImageMagick, kernel, samba, and vim), <b>SUSE</b> (apache-commons-lang3, apache-commons-text, apache-commons- configuration2, apache-commons-cli, apache-commons-io, apache-commons-codec, avahi, busybox, chromedriver, chromium, csync2, firewalld, frr, gleam, helm, kernel-devel, keybase-client, libmozjs-140-0, libopenvswitch-3_7-0, libsoup, memcached, mutt, openjpeg2, ovmf, perl-HTML-Parser, perl-Net-CIDR-Set, perl-Protocol-HTTP2, postgresql-jdbc, postgresql17, python-CairoSVG, python-Flask, python-pip, python-pyOpenSSL, python-python-multipart, python-Twisted, python-urllib3, python-urllib3_1, python-uv, python311, rsync, tomcat, and tree-sitter), and <b>Ubuntu</b> (alsa-lib, cups, inetutils, isc-kea, jpeg-xl, libnet-cidr-lite-perl, netatalk, netty, nginx, node-shell-quote, php-twig, pillow, poppler, rsync, strongswan, systemd, and transmission).]]></description>
             <guid>https://lwn.net/Articles/1077163/</guid>
             <pubDate>Tue, 09 Jun 2026 13:03:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1076983/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, frr, kernel, kernel-rt, libexif, mysql, php, and unbound), <b>Debian</b> (apache2, chromium, glibc, gsasl, jackson-core, libxml2, nginx, request-tracker4, request-tracker5, tomcat10, tomcat11, and tomcat9), <b>Fedora</b> (chromium, firefox, haveged, keylime, libinput, libssh2, nasm, perl-CryptX, rust, thunderbird, and webkitgtk), <b>Mageia</b> (cockpit, golang-x-crypto, golang-x-sys-devel, kernel, kmod-virtualbox, kmod-xtables-addons, kernel-linus, perl-DBIx-Class-EncodedColumn, perl-Crypt-URandom-Token, xdg-dbus-proxy, and xmlrpc-c), <b>Slackware</b> (samba), and <b>SUSE</b> (7zip, amazon-ssm-agent, ansible-13, ansible-core, assimp-devel, bind, cacti, chromium, dpkg, epiphany, erlang27, evince, ffmpeg-4, freerdp, frr, git-bug, google-guest-agent, grafana, hauler, ignition, jq, kanidm, kernel, keybase-client, libjxl, libmariadbd-devel, libmozjs-115-0, libopenbabel8, libsoup2, mariadb, mcphost, networkmanager, openssh, perl-HTTP-Daemon, perl-HTTP-Tiny, perl-IO-Compress, perl-Sereal-Decoder, perl-xml-libxml, postgresql18, python-pyopenssl, python311-pip, tomcat, tomcat10, tomcat11, tor, trivy, unbound, uriparser, vifm, weblate, xorg-x11-server, and yq).]]></description>
-            <guid>https://lwn.net/Articles/1076983/</guid>
-            <pubDate>Mon, 08 Jun 2026 13:32:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>rsync 3.4.4 released with regression fixes</title>
-            <link>https://lwn.net/Articles/1076989/</link>
-            <description><![CDATA[<p>Andrew Tridgell has <a
-href="https://lwn.net/ml/all/CAAbv5GYjCWdvALZHZ5B-ep4p7tvMDYrQWKexjM2fLM%2BhtGyVGg%40mail.gmail.com/">announced</a>
-the release of <a href="https://rsync.samba.org/">rsync</a> 3.4.4 with
-fixes for the regressions introduced in the 3.4.3 release. He also
-notes there will be an rsync 3.5.0 soon, with many more security
-updates:</p>
-
-<blockquote class="bq">
-<p>As part of the 3.5.0 release update I have created a
-rsync-security@lists.samba.org mailing list for anyone who is willing
-to do testing of the 3.5.0 release. The idea is to try to reduce the
-chance of more regressions by expanding the set of testers of this
-release. I have seeded it with people who were involved in past rsync
-security issues. If you want to join this list then the easiest way
-would be for you to be vouched for by someone on the
-distros@vs.openwall.org list or someone else I already trust.</p>
-
-<p>My apologies for the regressions in the 3.4.3 release and I hope future
-security updates for rsync will have less issues. The greatly expanded test
-suite in rsync 3.5 combined with the rsync-security mailing list should
-help.</p>
-</blockquote>
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1076989/</guid>
-            <pubDate>Mon, 08 Jun 2026 14:23:23 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
