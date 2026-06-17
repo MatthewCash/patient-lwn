@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Jun 2026 17:40:44 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jun 2026 18:35:15 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Jun 2026 20:44:50 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Jun 2026 20:57:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -500,46 +500,6 @@ increase that burden down the road.]]></description>
             <guid>https://lwn.net/Articles/1074557/</guid>
             <pubDate>Thu, 28 May 2026 14:29:19 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Larson: Are insecure code completions a vulnerability?</title>
-            <link>https://lwn.net/Articles/1077413/</link>
-            <description><![CDATA[<p>Seth Larson, the Python Software Foundation's <a
-href="https://pyfound.blogspot.com/2023/06/announcing-our-new-security-developer.html">security
-developer-in-residence</a>, has <a
-href="https://sethmlarson.dev/are-insecure-code-completions-a-vulnerability">written
-about</a> the difficulty in classifying insecure code completion in
-the <a href="https://www.jetbrains.com/pycharm/">PyCharm IDE</a> using
-its <a
-href="https://www.jetbrains.com/help/pycharm/full-line-code-completion.html">Full
-Line code completion</a> plugin. Larson discovered that the plugin,
-which uses a local "deep learning module" to offer code completions,
-suggests code that would lead to severe vulnerabilities. He was unsure
-whether it warranted a CVE or not, however:</p>
-
-<blockquote class="bq">
-<p>I reported this behavior to JetBrains for "Full Line Code Completion" v253.29346.142
-and clearly their support staff weren't certain whether this defect
-was a security vulnerability or not either. When I asked to
-publish a blog post about this behavior after they confirmed
-this report wasn't a "direct security vulnerability" (which
-I agree with) but then was asked not to publicize my report and referred to
-PyCharm's <a href="https://www.jetbrains.com/legal/docs/terms/coordinated-disclosure/">Coordinated Disclosure Policy</a>
-so... which is it? Security vulnerability or not?</p>
-
-<p>I ended up waiting the 90 days anyway and I didn't hear back with
-any substantive update from the development team. I double-checked
-again today using "Full Line Code Completion" v261.24374.152 and the
-behavior is identical, suggesting the same insecure code for both
-contexts.</p>
-
-<p>This isn't meant to be a specific dig at PyCharm or JetBrains, I
-have no-doubt that examples like this exist in every code generation
-model available.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1077413/</guid>
-            <pubDate>Wed, 10 Jun 2026 16:43:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
