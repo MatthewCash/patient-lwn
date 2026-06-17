@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 17 Jun 2026 16:02:36 +0000</pubDate>
-        <lastBuildDate>Wed, 17 Jun 2026 16:04:19 +0000</lastBuildDate>
+        <pubDate>Wed, 17 Jun 2026 17:40:44 +0000</pubDate>
+        <lastBuildDate>Wed, 17 Jun 2026 18:35:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -539,33 +539,6 @@ model available.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1077413/</guid>
             <pubDate>Wed, 10 Jun 2026 16:43:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1077362/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (poppler), <b>Debian</b> (dnsmasq, mistral, okular, openssl, poppler, and strongswan), <b>Fedora</b> (exim, firefox, pcs, putty, and xorg-x11-server), <b>Mageia</b> (freeciv, golang-x-net, jq, libssh, libxmp, libxpm, minetest, ruby-net-ssh, tor, and wireshark), <b>SUSE</b> (389-ds, ack, agama-web-ui, amazon-ssm-agent, avahi, dpkg, elemental-register, elemental-system-agent, elemental-toolkit, ggml-devel-9500, go1.25, go1.26, kernel, kubernetes1.23, kubernetes1.24, kubernetes1.26, libsoup, mariadb, netty, netty-tcnative, NetworkManager, nginx, perl-CryptX, perl-XML-LibXML, podofo, polkit, python-Django, python-requests, samba, strongswan, vim, and xen), and <b>Ubuntu</b> (cyborg, gdk-pixbuf, golang-golang-x-net-dev, nginx, node-lodash, openssl, openssl, openssl1.0, qemu, tomcat9, tomcat10, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1077362/</guid>
-            <pubDate>Wed, 10 Jun 2026 13:09:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Buildroot 2026.05 released</title>
-            <link>https://lwn.net/Articles/1077379/</link>
-            <description><![CDATA[<p><a
-href="https://lore.kernel.org/buildroot/87fr2wpxhj.fsf@dell.be.48ers.dk/T/#u">Version
-2026.05</a> of the <a href="https://buildroot.net/">Buildroot</a> tool
-has been released. Buildroot simplifies and automates the process of
-building embedded Linux systems using cross-compilation. Notable
-changes in this release include support for Arm Neoverse cores,
-addition of XFS rootfs generation, as well as many package updates and
-bug fixes. See the <a
-href="https://gitlab.com/buildroot.org/buildroot/-/blob/2026.05/CHANGES"><tt>CHANGES</tt></a>
-file for the full list.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1077379/</guid>
-            <pubDate>Wed, 10 Jun 2026 14:03:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
