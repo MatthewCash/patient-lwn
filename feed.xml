@@ -8,11 +8,80 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 18 Jun 2026 12:27:25 +0000</pubDate>
-        <lastBuildDate>Thu, 18 Jun 2026 12:42:43 +0000</lastBuildDate>
+        <pubDate>Thu, 18 Jun 2026 16:00:38 +0000</pubDate>
+        <lastBuildDate>Thu, 18 Jun 2026 16:17:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1078465/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dracut, podman, postfix, rsync, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (atril, firefox-esr, and nginx), <b>Mageia</b> (libcap, perl, and python-pillow), <b>Oracle</b> (firefox, gstreamer-plugins-base and gstreamer-plugins-good, httpd:2.4, kernel, libpng12, libpng15, libxml2, libxslt, opencryptoki, openssl, postfix, rsync, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (bind, libidn, mozilla, and openssl), <b>SUSE</b> (alloy, docker, elemental-system-agent, glibc, grafana, helm, LibVNCServer, openssh8.4, perl-GD, perl-HTTP-Daemon, python-WebOb-doc, python311-google-adk, rustup, traefik2, wireshark, and xwayland), and <b>Ubuntu</b> (dolibarr, golang-go.crypto, graphite2, gst-plugins-bad1.0, kitty, libconfig-inifiles-perl, libnginx-mod-js, and webpy).]]></description>
+            <guid>https://lwn.net/Articles/1078465/</guid>
+            <pubDate>Thu, 18 Jun 2026 13:16:11 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Mastodon 4.6 released</title>
+            <link>https://lwn.net/Articles/1078466/</link>
+            <description><![CDATA[<a href="https://blog.joinmastodon.org/2026/06/mastodon-4.6/">Version
+4.6</a> of the Mastodon fediverse platform has been released.
+<p>
+<blockquote class="bq">
+	The headliner of this release is Collections, a way to create and
+	share curated collections of profiles. Part of Mastodon's work
+	ethos is our commitment to trust and safety, so we've put a lot of
+	thought and care into the design of this feature to avoid some of
+	the pitfalls and abuse people have experienced with similar
+	features on other platforms, while focusing on its primary goal:
+	Helping new users discover more of the Fediverse.
+</blockquote>
+<p>
+Other new features include support for subscribing to posts via email, the
+ability to generate a "year in review" post, accessibility improvements,
+and more.]]></description>
+            <guid>https://lwn.net/Articles/1078466/</guid>
+            <pubDate>Thu, 18 Jun 2026 13:28:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>The Software Freedom Conservancy&apos;s LLM-backed generative AI recommendations</title>
+            <link>https://lwn.net/Articles/1078521/</link>
+            <description><![CDATA[<p>The <a href="https://sfconservancy.org/">Software Freedom
+Conservancy</a> (SFC) has <a
+href="https://sfconservancy.org/news/2026/jun/18/llm-backed-generative-ai-recommendations/">announced</a>
+the release of its <a
+href="https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html">recommendations
+for using LLM-backed generative AI systems for FOSS
+contributions</a>. The recommendations were created by the SFC and
+volunteers from the free-software community.</p>
+
+<blockquote class="bq">
+<p>The recommendations reflect the extremely difficult dilemmas that
+these systems pose for FOSS contributors. SFC and its volunteers
+understand that FOSS developers are approaching LLM-gen-AI from a
+variety of perspectives. The recommendations offer practical
+assistance to minimize the damage caused by using proprietary systems,
+whether FOSS contributors reject LLM-gen-AI or choose (voluntarily or
+by employer mandate) to use them.</p>
+
+<p>These recommendations are best practices (but not definitions or
+requirements) that SFC and its volunteers formulated after careful
+study of the growing LLM-gen-AI use among FOSS contributors. SFC will
+follow these recommendations with a series of <a
+href="https://sfconservancy.org/llm-gen-ai">supporting materials</a>,
+including documents, online tutorials, public Q&amp;As, <a
+href="https://sfconservancy.org/casts/the-corresponding-source/">podcasts</a>,
+and other community engagement. We will routinely refine our
+recommendations and continue to support FOSS contributors as they
+navigate this difficult landscape.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1078521/</guid>
+            <pubDate>Thu, 18 Jun 2026 16:00:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 11, 2026</title>
             <link>https://lwn.net/Articles/1076254/</link>
@@ -417,37 +486,6 @@ have installed any of the compromised updates.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1077718/</guid>
             <pubDate>Fri, 12 Jun 2026 13:41:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1077536/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, podman, poppler, and postgresql-jdbc), <b>Debian</b> (chromium, jackson-core, libdbi-perl, and libinput), <b>Fedora</b> (httpd, rust, and xmlstarlet), <b>Mageia</b> (openssh, postfix, and roundcubemail), <b>Oracle</b> (frr, kernel, libyang, n, postgresql-jdbc, and unbound), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, redis, and redis:7), <b>SUSE</b> (agama-web-ui, cockpit, cosign, glibc, google-cloud-sap-agent, google-osconfig-agent, kanidm, kernel, kubernetes, kubernetes1.23, kubernetes1.24, kubernetes1.25, kubernetes1.27, kubernetes1.28, libpodofo-devel, libyang, NetworkManager-libreswan, openCryptoki, python311-pypdf, rclone, steampipe, wicked, and xen), and <b>Ubuntu</b> (exim4, libcrypt-saltedhash-perl, libhttp-daemon-perl, samba, and uriparser).]]></description>
-            <guid>https://lwn.net/Articles/1077536/</guid>
-            <pubDate>Thu, 11 Jun 2026 13:08:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Homebrew 6.0.0 released</title>
-            <link>https://lwn.net/Articles/1077587/</link>
-            <description><![CDATA[<p><a href="https://brew.sh/2026/06/11/homebrew-6.0.0/">Version
-6.0.0</a> of the <a href="https://brew.sh/">Homebrew</a>
-package-management system has been released. Notable changes in this
-release include the introduction of <a
-href="https://docs.brew.sh/Tap-Trust">tap trust</a> to improve
-supply-chain security, improvements in sandboxing on Linux, a number
-of performance tweaks, and many other changes.</p>
-
-<p>See the <a
-href="https://github.com/Homebrew/brew/releases/tag/6.0.0">changelog</a>
-for a full list. LWN <a
-href="https://lwn.net/Articles/1046236/">covered</a> Homebrew in
-November 2025.</p>
-
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1077587/</guid>
-            <pubDate>Thu, 11 Jun 2026 14:49:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
