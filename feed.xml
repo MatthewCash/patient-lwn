@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 19 Jun 2026 15:01:39 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Jun 2026 15:14:22 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Jun 2026 17:17:44 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Jun 2026 17:28:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -484,36 +484,6 @@ href="https://lwn.net/Articles/1067785/">part&#160;2</a>) for details.]]></descr
             <guid>https://lwn.net/Articles/1077758/</guid>
             <pubDate>Sun, 14 Jun 2026 18:47:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1077703/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, expat, httpd:2.4, kernel, kernel-rt, mod_http2, openssl, poppler, redis, redis:7, samba, and unbound), <b>Debian</b> (ironic, kernel-wedge, libinput, linux-base, and neutron), <b>Fedora</b> (kernel, openssl, vaultwarden, and vaultwarden-web), <b>Mageia</b> (erlang-hex_core, erlang-rebar3, gnupg2, and sqlite3), <b>Red Hat</b> (buildah, podman, and skopeo), <b>SUSE</b> (flannel, gdk-pixbuf-loader-libheif, gnutls, google-cloud-sap-agent, grafana, graphite2, hplip, libIex-3_4-33, libzypp, nginx, openssh, perl-DBI, perl-Git-Repository, perl-Protocol-HTTP2, python-Pygments, python-simpleeval, python311-Django4, rclone, roundcubemail, strongswan, tomcat10, tomcat11, unbound, and webkit2gtk3), and <b>Ubuntu</b> (apache2, dotnet8, dotnet9, dotnet10, gst-plugins-base1.0, ironic, linux-azure-5.15, linux-azure-fips, lwip, mistral, and ubuntu-kylin-software-center).]]></description>
-            <guid>https://lwn.net/Articles/1077703/</guid>
-            <pubDate>Fri, 12 Jun 2026 13:12:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Hundreds of AUR packages compromised</title>
-            <link>https://lwn.net/Articles/1077718/</link>
-            <description><![CDATA[<p>Hundreds of orphaned packages hosted by the <a
-href="https://aur.archlinux.org/">Arch User Repository</a> (AUR) have
-been compromised by an attacker who has added a <a
-href="https://www.npmjs.com/package/atomic-lockfile">malicious npm
-package</a> (<tt>atomic-lockfile</tt>) that can exfiltrate sensitive
-data. The project is currently <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/FGXPCB3ZVCJIV7FX323SBAX2JHYB7ZS4/">working
-on</a> cleaning up the mess. There is a <a
-href="https://gr.ht/aur_pkg_list.txt">list of affected packages</a>
-and <a href="https://gaysex.cloud/notes/andaxow7itfn05x9">post</a> (possibly NSFW domain) by
-"sodiboo" with additional information. Arch Linux users (or users of
-Arch-based distributions) that use AUR packages may wish to see if they
-have installed any of the compromised updates.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1077718/</guid>
-            <pubDate>Fri, 12 Jun 2026 13:41:22 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
