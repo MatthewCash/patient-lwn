@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 19 Jun 2026 11:13:29 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Jun 2026 11:49:30 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Jun 2026 15:01:39 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Jun 2026 15:14:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Eight new stable kernels for Friday</title>
+            <link>https://lwn.net/Articles/1078590/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1078591/">7.1.1</a>, <a
+href="https://lwn.net/Articles/1078592/">7.0.13</a>, <a
+href="https://lwn.net/Articles/1078593/">6.18.36</a>, <a
+href="https://lwn.net/Articles/1078594/">6.12.94</a>, <a
+href="https://lwn.net/Articles/1078595/">6.6.143</a>, <a
+href="https://lwn.net/Articles/1078596/">6.1.176</a>, <a
+href="https://lwn.net/Articles/1078597/">5.15.210</a>, and <a
+href="https://lwn.net/Articles/1078598/">5.10.259</a> stable kernels. As usual, each
+contains important fixes. Users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1078590/</guid>
+            <pubDate>Fri, 19 Jun 2026 12:34:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1078662/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dracut), <b>Debian</b> (chromium, firefox-esr, and thunderbird), <b>Fedora</b> (chromium, firefox, nss, ocserv, ongres-scram, ongres-stringprep, perl-Archive-Tar, perl-GD, perl-HTTP-Daemon, perl-Net-Statsd, restic, singularity-ce, util-linux, and vorbis-tools), <b>Mageia</b> (gstreamer1.0-*, libupnp, luajit, opensc, and ruby-rack), <b>SUSE</b> (curl, dnsmasq, ffmpeg-4, frr, google-osconfig-agent, java-1_8_0-ibm, kernel, krb5, kubernetes-old, ldns, liburiparser1, openvswitch, rootlesskit, strongswan, traefik, and trivy), and <b>Ubuntu</b> (ldns, libheif, libnet-cidr-lite-perl, lxd, tomcat11, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1078662/</guid>
+            <pubDate>Fri, 19 Jun 2026 13:24:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1078465/</link>
