@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 19 Jun 2026 17:17:44 +0000</pubDate>
-        <lastBuildDate>Fri, 19 Jun 2026 17:28:09 +0000</lastBuildDate>
+        <pubDate>Fri, 19 Jun 2026 18:56:33 +0000</pubDate>
+        <lastBuildDate>Fri, 19 Jun 2026 19:15:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Systemd v261 released</title>
+            <link>https://lwn.net/Articles/1078708/</link>
+            <description><![CDATA[<a href="https://github.com/systemd/systemd/releases/tag/v261">Systemd
+v261</a> has been released with a long list of changes including a new
+cloud "Instance Metadata Service" (IMDS) subsystem, "boot secret"
+functionality for use on systems that lack a physical TPM, as well as
+support for the kernel's Live Update Orchestration (LUO) / Kexec
+Handover (KHO) systems when they are present and enabled. See the
+release notes for the full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1078708/</guid>
+            <pubDate>Fri, 19 Jun 2026 18:56:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Eight new stable kernels for Friday</title>
             <link>https://lwn.net/Articles/1078590/</link>
