@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 22 Jun 2026 11:51:26 +0000</pubDate>
-        <lastBuildDate>Mon, 22 Jun 2026 13:07:00 +0000</lastBuildDate>
+        <pubDate>Mon, 22 Jun 2026 17:30:39 +0000</pubDate>
+        <lastBuildDate>Mon, 22 Jun 2026 17:53:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1078922/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, kernel, and kernel-rt), <b>Debian</b> (gst-libav1.0, gst-plugins-good1.0, imagemagick, kernel, libconfig-inifiles-perl, libgd-perl, libhttp-daemon-perl, mediawiki, pillow, and squid), <b>Fedora</b> (389-ds-base, alertmanager, ansible-core, buildah, chromium, erlang-cowboy, erlang-cowlib, erlang-gun, freerdp, kubernetes1.33, kubernetes1.34, kubernetes1.35, mingw-SDL2_image, ongres-scram, ongres-stringprep, openssl, perl-Config-IniFiles, perl-Crypt-PBKDF2, podman, postgresql-jdbc, python3.13, strongswan, webkitgtk, xdg-desktop-portal, and yt-dlp), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (alloy, amazon-ssm-agent, ansible-core, apache-sshd, jpgpj, azure-storage-azcopy, chromedriver, containerized-data-importer, firefox, glibc, graphite2, inspektor-gadget, kubevirt, lemon, openvswitch, python-starlette, python311, python311-joserfc, python313, and tinyproxy), and <b>Ubuntu</b> (netatalk).]]></description>
+            <guid>https://lwn.net/Articles/1078922/</guid>
+            <pubDate>Mon, 22 Jun 2026 13:06:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>First preview release of Xfce&apos;s Wayland compositor</title>
+            <link>https://lwn.net/Articles/1078942/</link>
+            <description><![CDATA[<p>Brian Tarricone has <a
+href="https://www.spurint.org/journal/2026/06/xfwl4s-first-preview-release">announced</a>
+the first preview release of xfwl4, a Wayland compositor for the <a
+href="https://www.xfce.org/">Xfce</a> desktop environment.</p>
+
+<blockquote class="bq">
+<p>After close to six months of work, I feel like it's ready to get
+some wider use, even though of course there will be bugs and missing
+features. Think of this as an alpha release. [...]</p>
+
+<p>The end goal of xfwl4 is to behave as closely as possible to an
+Xfce desktop running on an X server. Ideally a user could switch
+between the two without even knowing there's a difference. In reality,
+of course, it won't be quite that seamless, and there's still more
+work to be done to get as close as possible to that ideal. This is a
+first solid cut at it, at the very least.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1078942/</guid>
+            <pubDate>Mon, 22 Jun 2026 13:44:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Systemd v261 released</title>
             <link>https://lwn.net/Articles/1078708/</link>
@@ -433,43 +465,6 @@ XL</a> image format, and more.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1078191/</guid>
             <pubDate>Tue, 16 Jun 2026 14:18:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1077945/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 9.0), <b>Debian</b> (apache2, chromium, jpeg-xl, librabbitmq, and openssl), <b>Fedora</b> (apptainer, bind9-next, chezmoi, chromium, collectd, composer, dnsdist, gh, python-django5, python-python-multipart, varnish, varnish-modules, vmod-querystring, vmod-uuid, weasyprint, and xorg-x11-server-Xwayland), <b>Mageia</b> (cups, expat, libpng, libssh, memcached, nghttp2, openimageio, packages, proftpd, and radare2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, and firefox), <b>Red Hat</b> (postfix and valkey), and <b>SUSE</b> (afl, alloy, ansible-core, apache-pdfbox, chromedriver, chromium, cpp-httplib-devel, dpkg, elemental-operator, elemental-toolkit, enc, erlang, ffmpeg-7, firewalld, git-bug, golang-github-prometheus-prometheus, grafana, GraphicsMagick, graphite2, kernel, kernel-devel, lcms2, ldns, libsoup, libyang, libzypp, logback, mariadb, NetworkManager, openssh, openvswitch, perl-GD, perl-XML-LibXML, polkit, postgresql-jdbc, postgresql18, python, python-django, python-M2Crypto-doc, python-Pygments, python-pygments, python-requests, python313-Django6, qemu, rpcbind, samba, strongswan, tmux, uriparser, and xdg-dbus-proxy).]]></description>
-            <guid>https://lwn.net/Articles/1077945/</guid>
-            <pubDate>Mon, 15 Jun 2026 13:04:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stenberg: curl summer of bliss</title>
-            <link>https://lwn.net/Articles/1077946/</link>
-            <description><![CDATA[<p>Daniel Stenberg has <a
-href="https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/">announced</a>
-that curl will not be accepting vulnerability reports from July&#160;1
-through August&#160;3, unless the submitter has a paid support
-contract. He is calling it the "curl summer of bliss".</p>
-
-<blockquote class="bq">
-<p>As previously mentioned, we have been under a huge <a
-href="https://daniel.haxx.se/blog/2026/05/26/the-pressure/">pressure</a>
-for the last four months or so. Now we need some rest. We do not
-expect this deluge to be over.</p>
-<p>[...] If you and your Open Source projects also want to participate
-in the summer of bliss 2026: just do it and let us know! I would of
-course encourage you to do so. To take care of yourself as a top
-priority.</p>
-</blockquote>
-
-<p>The project's issue and pull-request trackers on GitHub will remain
-open. The planned release date for curl 8.22.0 has been pushed back
-two weeks to September&#160;2,&#160;2026.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1077946/</guid>
-            <pubDate>Mon, 15 Jun 2026 13:32:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
