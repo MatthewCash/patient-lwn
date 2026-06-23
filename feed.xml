@@ -8,11 +8,60 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Jun 2026 11:30:55 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Jun 2026 11:32:17 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Jun 2026 13:56:02 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Jun 2026 14:05:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1079083/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg), <b>Fedora</b> (erlang, ffmpeg, prometheus, python-scrapy, python3-docs, python3.14, thorvg, tigervnc, and vips), <b>Mageia</b> (mumble and sslh), <b>Oracle</b> (389-ds:1.4, dracut, firefox, hplip, kernel, openssh, postgresql:15, redis:6, and uek-kernel), <b>Red Hat</b> (delve, gvisor-tap-vsock, nginx, nginx:1.24, nginx:1.26, osbuild-composer, podman, rhc, skopeo, and yggdrasil), <b>SUSE</b> (containerized-data-importer, graphite2, kernel, libarchive, openssh, openssh-askpass-gnome, openvswitch, openvswitch3, postfix, python-lxml, python-nltk, python-python-multipart, python-urllib3, rmt-server, terraform-provider-local, terraform-provider-null, and util-linux), and <b>Ubuntu</b> (google-guest-agent, haproxy, libxml2, linux-azure, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15, mysql-8.0, mysql-8.4, and nginx).]]></description>
+            <guid>https://lwn.net/Articles/1079083/</guid>
+            <pubDate>Tue, 23 Jun 2026 13:09:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Sunsetting Tor 0.4.8</title>
+            <link>https://lwn.net/Articles/1079119/</link>
+            <description><![CDATA[<p>The Tor Project has <a
+href="https://blog.torproject.org/sunsetting-tor-048/">announced</a>
+that it is planning to actively stop supporting Tor 0.4.8 and earlier
+C Tor versions soon.</p>
+
+<blockquote class="bq">
+<p>Usually, we try not to break existing releases, even if they are
+unsupported, unless we have a pretty good reason.  In this case, we
+have several reasons. [...]</p>
+
+<p>The most important reason is this: in 0.4.9, we have made some
+former fields in our directory data obsolete -- specifically, <a
+href="https://spec.torproject.org/proposals/350-remove-tap.html">TAP
+onion keys</a> and <a
+href="https://spec.torproject.org/proposals/321-happy-families.html">family
+lines</a>. Removing these fields will let us save a great deal of
+client directory bandwidth for everyone. This, in turn, will make all
+Tor clients bootstrap a little faster, especially those on slow
+connections. But when we remove these fields, clients and relays
+running earlier versions of Tor will no longer work, since they expect
+the TAP onion keys to be present. Therefore, in order to deliver
+improved performance faster, we need to accelerate the date on which
+0.4.8 will stop working.</p>
+</blockquote>
+
+<p>The target sunset date is currently September&#160;1,
+2026, after which any version prior to Tor 0.4.9 will cease to work on
+the network. The first stable release in the 0.4.9.x series was
+<a
+href="https://forum.torproject.org/t/stable-release-0-4-9-5/21227">announced</a>
+in February&#160;2026, and the Tor 0.4.8.x series reached end of life on
+June&#160;1.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1079119/</guid>
+            <pubDate>Tue, 23 Jun 2026 13:56:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GIMP 0.54.1 in a Flatpak</title>
             <link>https://lwn.net/Articles/1078969/</link>
