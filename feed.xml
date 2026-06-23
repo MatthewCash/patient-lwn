@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Jun 2026 17:42:05 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Jun 2026 18:32:14 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Jun 2026 19:27:16 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Jun 2026 20:56:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -460,35 +460,6 @@ candidates and seats open. Congratulations to all the winners.</p>
             <guid>https://lwn.net/Articles/1078366/</guid>
             <pubDate>Wed, 17 Jun 2026 15:50:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The LWN public topics list</title>
-            <link>https://lwn.net/Articles/1078039/</link>
-            <description><![CDATA[Part of running LWN is keeping a list of potentially interesting topics
-that may merit the effort to turn into articles.  As an experiment, we are
-<a href="https://lwn.net/TopicList/">now exposing that list</a> to our subscribers at the
-Project Leader and Supporter levels.  The hope is that this list will
-provide useful insights into what is on our radar and which might be coming
-to LWN in the near future.
-<p>
-<blockquote>
-<a href="https://lwn.net/TopicList/"><img src="https://lwn.net/images/2026/topiclist.png" alt="[Topic
-list screenshot]" class="photo" width=1146 border=0></a>
-</blockquote>
-<p>
-With this feature, we hope to give our most committed subscribers a look
-behind the curtain and the ability to provide input on the topics they are
-most interested in reading about.  There, is, thus, a simple voting
-mechanism built into this list.  No topic will be chosen (or rejected)
-solely on the basis of votes; there are a lot of considerations that go
-into topic selection, and that will not change.  But more information about
-where our readers' interests lie will, hopefully, be helpful.
-<p>
-For all readers: we are always happy to welcome topic suggestions sent to
-<a href="http://mailto:lwn.net"><tt>lwn@lwn.net</tt></a>.]]></description>
-            <guid>https://lwn.net/Articles/1078039/</guid>
-            <pubDate>Tue, 16 Jun 2026 17:22:38 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
