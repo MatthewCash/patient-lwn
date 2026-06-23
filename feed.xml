@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 23 Jun 2026 13:56:02 +0000</pubDate>
-        <lastBuildDate>Tue, 23 Jun 2026 14:05:59 +0000</lastBuildDate>
+        <pubDate>Tue, 23 Jun 2026 16:27:26 +0000</pubDate>
+        <lastBuildDate>Tue, 23 Jun 2026 16:42:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -489,54 +489,6 @@ For all readers: we are always happy to welcome topic suggestions sent to
             <guid>https://lwn.net/Articles/1078039/</guid>
             <pubDate>Tue, 16 Jun 2026 17:22:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1078158/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (mod_http2, postfix, and webkit2gtk3), <b>Debian</b> (bird2, libgd-perl, and libreoffice), <b>Fedora</b> (7zip, ack, hugo, and perl-Mojo-JWT), <b>Mageia</b> (atril, evince, xreader, emacs, lcms2, libgcrypt, libinput, libsndfile, putty, and sudo), <b>Red Hat</b> (openssl and osbuild-composer), <b>SUSE</b> (cheat, chromedriver, containerized-data-importer, cyrus-imapd, freeipmi, graphicsmagick, java-11-openj9, java-17-openj9, kitty, kubevirt, kubevirt-1.6, libcaca, libopenssl-3-devel, librav1e0_8, neonmodem, opensc, openssh, openssl-1_0_0, openssl-1_1, openssl-3, perl-HTTP-Daemon, perl-XML-LibXML, python-python-dotenv, python311-paramiko, python311-PyJWT, python311-starlette, python311-tornado6, qemu, restic, and trivy), and <b>Ubuntu</b> (adsys, cups, fastnetmon, freerdp2, freerdp3, mesa, nginx, rsync, ruby2.3, ruby2.5, and tmux).]]></description>
-            <guid>https://lwn.net/Articles/1078158/</guid>
-            <pubDate>Tue, 16 Jun 2026 13:05:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KDE Plasma 6.7 released</title>
-            <link>https://lwn.net/Articles/1078160/</link>
-            <description><![CDATA[<p><a href="https://kde.org/announcements/plasma/6/6.7.0/">Version
-6.7</a> of KDE's Plasma desktop has been released. Notable changes in
-this release include per-screen virtual desktops, faster desktop
-switching, introduction of the <a
-href="https://quantumproductions.info/articles/2026-05/union-spring-2026-update">Union
-theming system</a> as a tech preview, as well as <a href="https://kde.org/announcements/plasma/6/6.7.0/#but-thats-not-all">many other improvements</a> and bug
-fixes. The release is dedicated to Eric Laffoon, a longtime KDE
-supporter, who passed away in May.</p>
-
-<p>See the <a
-href="https://community.kde.org/Plasma/Plasma_6#Plasma_6.7">KDE
-wiki</a> for a full list of new features, and the <a
-href="https://kde.org/announcements/changelogs/plasma/6/6.6.5-6.7.0/">Changelog</a>
-for a list of all commits in this release.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078160/</guid>
-            <pubDate>Tue, 16 Jun 2026 13:22:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 152.0 released</title>
-            <link>https://lwn.net/Articles/1078191/</link>
-            <description><![CDATA[<p><a
-href="https://www.firefox.com/en-US/firefox/152.0/releasenotes/">Version
-152.0</a> of the Firefox web browser has been released. Notable
-changes in this release include a brand-new look for the Firefox
-Settings interface, the ability to disable tracker blocking in private
-browsing tabs, a feature to mute browser sound from the address bar,
-experimental support for the <a href="https://jpegxl.info/">JPEG
-XL</a> image format, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078191/</guid>
-            <pubDate>Tue, 16 Jun 2026 14:18:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
