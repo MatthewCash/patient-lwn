@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jun 2026 15:03:16 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jun 2026 15:08:10 +0000</lastBuildDate>
+        <pubDate>Wed, 24 Jun 2026 17:01:53 +0000</pubDate>
+        <lastBuildDate>Wed, 24 Jun 2026 17:18:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -368,106 +368,6 @@ being removed altogether.]]></description>
             <guid>https://lwn.net/Articles/1075838/</guid>
             <pubDate>Thu, 04 Jun 2026 16:22:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1078339/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (hplip, kernel, kernel-rt, libpng12, libpng15, libxml2, libxslt, mysql:8.0, mysql:8.4, opencryptoki, openssl, postfix, postgresql:15, rsync, and webkit2gtk3), <b>Debian</b> (asterisk, atril, gsasl, and libreoffice), <b>Fedora</b> (ack, bird, chromium, firefox, ldns, librabbitmq, nextcloud, nss, openslide, perl-Protocol-HTTP2, tig, vorbis-tools, and xen), <b>Mageia</b> (coturn, log4cxx, and python-tornado), <b>SUSE</b> (389-ds, buildah, container-suseconnect, distribution, editorconfig-core-c, elemental-system-agent, glib-networking, google-guest-agent, google-osconfig-agent, kernel, libcaca, libXpm, opensc, openssl-3, openvswitch, perl-Crypt-PBKDF2, python-python-dotenv, python311-aiosmtplib, python311-zeroconf, runc, shim, and sqlite3), and <b>Ubuntu</b> (ca-certificates, keystone, librabbitmq, linux, linux-aws, linux-kvm, linux-aws-hwe, linux-azure, linux-gcp, linux-hwe, linux-oracle, linux-azure, linux-azure, linux-gcp, linux-hwe, linux-oracle, linux-azure-6.8, linux-oracle-5.15, nova, openimageio, qemu, and squid).]]></description>
-            <guid>https://lwn.net/Articles/1078339/</guid>
-            <pubDate>Wed, 17 Jun 2026 13:25:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>FairScan 2.0 released</title>
-            <link>https://lwn.net/Articles/1078242/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/pynicolas/FairScan/releases/tag/v2.0.0">Version
-2.0</a> of the FairScan document-scanning app for Android has been
-released. The headline feature for this release is the <a
-href="https://github.com/pynicolas/FairScan/issues/27">addition</a> of
-optical-character-recognition (OCR) support using <a
-href="https://tesseract-ocr.github.io/">Tesseract</a> to produce PDFs
-with searchable text from scans. FairScan developer Pierre-Yves
-Nicolas has written a <a
-href="https://fairscan.org/blog/when-a-scan-becomes-a-searchable-pdf/">detailed
-blog</a> about adding the feature and explaining why it had not been added
-previously.</p>
-
-<blockquote class="bq">
-<p>That looks nice, so why didn't FairScan have it before? That's
-because FairScan wasn't ready for it: I wouldn't be comfortable if
-FairScan was giving you wrong text half of the time. To get good
-results from an OCR engine, you need to provide it a readable
-image. If it's hard to read for a human, it's certainly also hard to
-read for an OCR engine.</p>
-
-<p>Over the past year, I worked on different parts of FairScan's
-automatic processing to transform photos of documents into PDFs that
-are easy for humans to read:</p>
-
-<ul class="spacylist">
-    <li>document detection</li>
-    <li>perspective correction</li>
-    <li>shadow reduction</li>
-    <li>brightness and contrast enhancement</li>
-</ul>
-
-<p>All this work on image processing helped FairScan produce clean
-PDFs and can now also contribute to making text recognition effective.</p>
-</blockquote>
-
-<p>FairScan is available via <a
-href="https://play.google.com/store/apps/details?id=org.fairscan.app&pli=1">Google
-Play</a> or <a href="https://f-droid.org/en/packages/org.fairscan.app/">F-Droid</a>.</p>]]></description>
-            <guid>https://lwn.net/Articles/1078242/</guid>
-            <pubDate>Wed, 17 Jun 2026 13:26:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Everything security at PyCon US 2026</title>
-            <link>https://lwn.net/Articles/1078361/</link>
-            <description><![CDATA[<p>The Python Software Foundation blog has a <a
-href="https://pyfound.blogspot.com/2026/06/everything-security-at-pycon-us-2026.html">post</a>
-with a summary of the security-related content at <a
-href="https://us.pycon.org/2026/">PyCon US 2026</a> with links to
-slides from important sessions. The recordings will be published to
-the <a href="https://www.youtube.com/@PyConUS">PyCon US</a> channel on
-YouTube, and the post will be updated with links to those videos as
-they are made available.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078361/</guid>
-            <pubDate>Wed, 17 Jun 2026 15:30:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora F44 election results</title>
-            <link>https://lwn.net/Articles/1078366/</link>
-            <description><![CDATA[<p>The <a
-href="https://discussion.fedoraproject.org/t/f44-election-results/193760">results</a>
-are in for Fedora's F44 election cycle for seats on the <a
-href="https://docs.fedoraproject.org/en-US/council/">Fedora
-Council</a>, <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
-Steering Committee</a>, <a
-href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Fedora
-Mindshare Committee</a>, and <a
-href="https://docs.fedoraproject.org/en-US/epel/epel-policy-steering-committee/">EPEL
-Steering Committee</a>.</p>
-
-<p>Miro Hrončok and Aleksandra Fedorova have won
-seats on the council. Neal Gompa, Fabio Valentini, Michel Lind,
-Maxwell G, and Simon de Vlieger have been elected to FESCo. Samyak
-Jain, Akashdeep Dhar, Luis Bazan, and Mat Holmes have all been elected
-to the Mindshare Committee. The four candidates for the EPEL
-committee, Carl George, Diego Hererra, Jonathan Wright, and Troy
-Dawson were all automatically elected as there were an equal number of
-candidates and seats open. Congratulations to all the winners.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078366/</guid>
-            <pubDate>Wed, 17 Jun 2026 15:50:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
