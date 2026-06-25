@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jun 2026 11:35:29 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jun 2026 12:07:54 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jun 2026 14:08:58 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jun 2026 15:13:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1079551/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libpng, libsolv, libtasn1, libxml2, libxslt, python3.14, tigervnc, and vim), <b>Debian</b> (cloud-init, postgresql-13, and yelp), <b>Mageia</b> (nats-server), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind9.18, cockpit, compat-openssl11, dnsmasq, dovecot, evince, expat, flatpak, freerdp, gimp, golang, grafana, grafana-pcp, httpd, jmc, jq, kernel, libsndfile, libsoup, libtiff, mod_http2, mysql:8.0, nginx, nginx:1.24, openexr, php:8.2, poppler, pyOpenSSL, python-markdown, redis:7, samba, thunderbird, tigervnc, unbound, and vim), <b>Red Hat</b> (libpng, libpng12, and libpng15), <b>SUSE</b> (apptainer, bind, crun, freeipmi, ghc-crypton-x509-store, ghc-crypton-x509-system, google-guest-agent, google-osconfig-agent, GraphicsMagick, gstreamer-plugins-bad, hamlib, iproute2, java-1_8_0-openjdk, kubevirt1, libarchive, libheif, libpng15, mbedtls, mbedtls-2, openssl-1_1, python-biopython, python-PyJWT, tar, webkit2gtk3, and xen), and <b>Ubuntu</b> (ffmpeg, libdbi-perl, and perl).]]></description>
+            <guid>https://lwn.net/Articles/1079551/</guid>
+            <pubDate>Thu, 25 Jun 2026 13:13:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 18, 2026</title>
             <link>https://lwn.net/Articles/1077459/</link>
