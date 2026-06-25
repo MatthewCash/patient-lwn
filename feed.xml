@@ -8,11 +8,102 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 24 Jun 2026 22:05:59 +0000</pubDate>
-        <lastBuildDate>Wed, 24 Jun 2026 23:43:13 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jun 2026 01:47:20 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jun 2026 01:50:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for June 18, 2026</title>
+            <link>https://lwn.net/Articles/1077459/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1077459/">Front</a>: State of Fedora; mTHP creation; overlayfs; buffer-heads cleanup; 7.1 statistics.
+            <li> <a href="https://lwn.net/Articles/1077461/">Briefs</a>: curl summer of bliss; 7.1 kernel; AUR compromise; Fedora election; FairScan 2.0; Firefox 152.0; Homebrew 6.0.0; KDE Plasma 6.7; LWN topic list; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1077462/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1077459/</guid>
+            <pubDate>Thu, 18 Jun 2026 00:55:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Some buffer-heads cleanup work</title>
+            <link>https://lwn.net/Articles/1077767/</link>
+            <description><![CDATA[Jan Kara has been <a
+href="https://lwn.net/ml/all/20260326082428.31660-1-jack@suse.cz/">working
+on cleaning up</a> how <a
+href="https://www.kernel.org/doc/html/v7.1-rc7/filesystems/buffer.html">buffer
+heads</a> are used by some kernel filesystems.  In a short
+filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, he gave an update on
+that work and where it is headed.  Topics included generic infrastructure
+to track buffer heads for metadata, a buffer-head cleanup for the Amiga
+filesystem, and some planned locking fixes.]]></description>
+            <guid>https://lwn.net/Articles/1077767/</guid>
+            <pubDate>Wed, 17 Jun 2026 14:05:04 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The state of Fedora in 2026</title>
+            <link>https://lwn.net/Articles/1077832/</link>
+            <description><![CDATA[<p>On June 15 at Fedora's <a
+href="https://fedoraproject.org/flock/2026/">Flock</a> conference, held in
+Prague, Fedora Project Leader (FPL) Jef Spaleta delivered a short "State of
+Fedora" keynote that provided a bit of insight into the status of the
+project. Topics included the overall growth for Fedora usage, ways to increase
+contributions, and an alarming decline in the number of active packagers working
+on the project.</p>]]></description>
+            <guid>https://lwn.net/Articles/1077832/</guid>
+            <pubDate>Tue, 16 Jun 2026 15:31:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Development statistics for the 7.1 kernel</title>
+            <link>https://lwn.net/Articles/1077425/</link>
+            <description><![CDATA[Linus Torvalds <a
+href="https://lwn.net/ml/all/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/">released
+the 7.1 kernel</a> as expected on June&#160;14.  This development cycle
+brought in a lot of new features — and a lot of new developers as well.
+The time has come for our traditional look at where the changes in 7.1 came
+from, with a digression into how our community may be changing in general.]]></description>
+            <guid>https://lwn.net/Articles/1077425/</guid>
+            <pubDate>Mon, 15 Jun 2026 16:36:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] An overlayfs update</title>
+            <link>https://lwn.net/Articles/1077052/</link>
+            <description><![CDATA[In a shortened session in the filesystem track at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein gave an
+update on the <a href="https://docs.kernel.org/filesystems/overlayfs.html">overlayfs
+union filesystem</a>.  There are some new features over the last few years
+that he wanted to mention, along with looking at the status of nesting
+overlayfs layers.  The <a href="https://lwn.net/Articles/922851/">composefs use case</a>
+that was <a href="https://lwn.net/Articles/933616/">discussed at the summit in 2023</a>
+has led to some interesting changes to overlayfs.]]></description>
+            <guid>https://lwn.net/Articles/1077052/</guid>
+            <pubDate>Fri, 12 Jun 2026 19:38:09 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Automatic mTHP creation in 7.2</title>
+            <link>https://lwn.net/Articles/1077208/</link>
+            <description><![CDATA[The Linux kernel has long tried to use huge pages as a way to improve
+performance, sometimes with more success than others.  The size of huge
+pages has traditionally been imposed by the hardware, which typically only
+offers a couple of relatively large options.  In more recent times, though,
+the use of multi-size transparent huge pages (mTHPs), with more flexible
+sizing implemented in software, has been growing.  If all goes well, the
+7.2 development cycle will include the addition of <a
+href="https://lwn.net/ml/all/20260605161422.213817-1-npache@redhat.com">a new feature</a>,
+contributed by Nico Pache, to make the use of mTHPs even more transparent.]]></description>
+            <guid>https://lwn.net/Articles/1077208/</guid>
+            <pubDate>Thu, 11 Jun 2026 14:33:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1079365/</link>
@@ -235,139 +326,6 @@ navigate this difficult landscape.</p>
             <guid>https://lwn.net/Articles/1078521/</guid>
             <pubDate>Thu, 18 Jun 2026 16:00:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 11, 2026</title>
-            <link>https://lwn.net/Articles/1076254/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1076254/">Front</a>: Suspicious AI activity in Fedora; fork() + exec(); splice() + vmsplice(); BPF loop verification; fanotify; trusted publishing.
-            <li> <a href="https://lwn.net/Articles/1076256/">Briefs</a>: CA age bill; Bundler cooldowns; insecure code completion; Asahi and macOS 27 beta; Buildroot 2026.05; Ubuntu MATE; rsync 3.4.4; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1076257/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1076254/</guid>
-            <pubDate>Thu, 11 Jun 2026 00:02:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] AI agent runs amok in Fedora and elsewhere</title>
-            <link>https://lwn.net/Articles/1077035/</link>
-            <description><![CDATA[<p>Agentic AI systems can be used to do a variety of things
-autonomously on behalf of a human user: open or manage bugs, generate
-code, submit pull-requests, and (apparently) even <a
-href="https://lwn.net/Articles/1058643/">complain about
-rejection</a>. In May, a Fedora developer discovered that an allegedly
-rogue agent had been pestering the project in a number of ways:
-reassigning bugs, fabricating unhelpful replies to bugs, and even
-persuading maintainers to merge questionable code into the <a
-href="https://github.com/rhinstaller/anaconda#anaconda">Anaconda
-installer</a>. It also submitted a number of pull requests (PRs),
-some accepted, to several upstream projects. The Fedora account
-associated with the agent has had its group privileges revoked and the
-messes have been mopped up, but the motive behind the agent's actions is still
-a mystery.</p>]]></description>
-            <guid>https://lwn.net/Articles/1077035/</guid>
-            <pubDate>Wed, 10 Jun 2026 14:35:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Eliminating long-lived credentials with trusted publishing</title>
-            <link>https://lwn.net/Articles/1076205/</link>
-            <description><![CDATA[<p><a
-href="https://blog.trailofbits.com/2023/05/23/trusted-publishing-a-new-benchmark-for-packaging-security/">Trusted
-publishing</a> is an authentication mechanism that relies on
-short-lived credentials to reduce the risk of supply-chain attacks. At
-the 2026 <a
-href="https://events.linuxfoundation.org/open-source-summit-north-america/">Open
-Source Summit North America</a>, Mike Fiedler walked the audience
-through why trusted publishing exists, how it works, and made the case
-for its adoption. It is not a silver bullet against all attacks, but
-it does offer protection against theft of long-lived credentials used
-to publish to package registries.</p>]]></description>
-            <guid>https://lwn.net/Articles/1076205/</guid>
-            <pubDate>Tue, 09 Jun 2026 17:50:49 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] BPF loop verification with scalar evolution</title>
-            <link>https://lwn.net/Articles/1076121/</link>
-            <description><![CDATA[<p>
-The BPF verifier has, in the course of wrestling with the difficult problem of
-statically analyzing loops, grown special support for many kinds of loops over its
-history, but its fundamental approach to simple <tt>for</tt> loops has not
-changed.
-When it encounters a loop, it evaluates it, iteration by iteration, until reaching
-an exit condition — a process that can cause the verifier to mistakenly hit the
-limit on the number of allowed instructions where a better implementation
-would not.
-Eduard Zingerman
-spoke at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
-about his in-progress work on improving the verifier's treatment of loops, especially nested
-loops.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1076121/</guid>
-            <pubDate>Tue, 09 Jun 2026 13:37:36 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] An update on fanotify</title>
-            <link>https://lwn.net/Articles/1075829/</link>
-            <description><![CDATA[In a filesystem-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein updated
-attendees on the <a
-href="https://man7.org/linux/man-pages/man7/fanotify.7.html">fanotify</a>
-filesystem-event monitoring 
-subsystem.  He wanted to describe changes that had come in the last year or
-so, as well as upcoming features and some remaining challenges in his
-efforts <a href="https://lwn.net/Articles/981392/">to use fanotify for hierarchical
-storage management</a> (HSM).  Fanotify is the user-space API for monitoring
-files, directories, and filesystems for events of various sorts
-(e.g. opening or deleting a file).]]></description>
-            <guid>https://lwn.net/Articles/1075829/</guid>
-            <pubDate>Mon, 08 Jun 2026 15:35:10 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Moving beyond fork() + exec()</title>
-            <link>https://lwn.net/Articles/1076018/</link>
-            <description><![CDATA[Since the earliest days of Unix, two of the core process-oriented system
-calls have been <tt>fork()</tt>, which creates a child process as a copy of
-the parent, and <tt>exec()</tt>, which runs a new program in the place of
-the current one.  In Linux kernels, those system calls are better known as
-<a
-href="https://man7.org/linux/man-pages/man2/clone.2.html"><tt>clone()</tt></a>
-and <a
-href="https://man7.org/linux/man-pages/man2/execve.2.html"><tt>execve()</tt></a>,
-but the core functionality remains the same.  While there is elegance to
-this process-creation model, there are shortcomings as well.  A recent <a
-href="https://lwn.net/ml/all/20260528095235.2491226-1-me@linux.beauty">proposal</a> from
-Li Chen to add "spawn templates" to the kernel will not be accepted in its
-current form, but it may point the way toward a new process-creation
-primitive in the future.]]></description>
-            <guid>https://lwn.net/Articles/1076018/</guid>
-            <pubDate>Fri, 05 Jun 2026 14:06:43 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Splicing out vmsplice()</title>
-            <link>https://lwn.net/Articles/1075838/</link>
-            <description><![CDATA[The <a
-href="https://man7.org/linux/man-pages/man2/splice.2.html"><tt>splice()</tt></a>
-and <a
-href="https://man7.org/linux/man-pages/man2/vmsplice.2.html"><tt>vmsplice()</tt></a>
-system calls are meant to improve performance for certain data-movement
-tasks by minimizing (or avoiding altogether) system calls and the copying
-of data.  They also have a long history of security problems.  The recent
-flood of LLM-discovered vulnerabilities has drawn attention, once again, to
-<tt>splice()</tt> and <tt>vmsplice()</tt>; as a result, they may end up
-being removed altogether.]]></description>
-            <guid>https://lwn.net/Articles/1075838/</guid>
-            <pubDate>Thu, 04 Jun 2026 16:22:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
