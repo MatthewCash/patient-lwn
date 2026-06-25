@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 25 Jun 2026 14:08:58 +0000</pubDate>
-        <lastBuildDate>Thu, 25 Jun 2026 15:13:20 +0000</lastBuildDate>
+        <pubDate>Thu, 25 Jun 2026 16:34:27 +0000</pubDate>
+        <lastBuildDate>Thu, 25 Jun 2026 17:24:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Podman 6.0 released</title>
+            <link>https://lwn.net/Articles/1079600/</link>
+            <description><![CDATA[<p>Version 6.0.0 of the <a href="https://podman.io/">Podman</a>
+container-management tool has been released. Notable new features
+include the ability to set multiple static IP addresses for
+containers, improvements in network isolation that make Podman more
+compatible with Docker, changes to the way <a
+href="https://docs.podman.io/en/latest/markdown/podman-quadlet.1.html">Quadlet</a>
+commands function, many new options for many existing <tt>podman</tt>
+commands, and <a
+href="https://blog.podman.io/2026/06/podman-6-configuration-file-changes/">a
+rewrite of Podman's configuration file handling</a>. There are many
+breaking changes; see the <a
+href="https://github.com/podman-container-tools/podman/releases/tag/v6.0.0">release
+notes</a> for a full list of all new features, changes, and bug fixes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1079600/</guid>
+            <pubDate>Thu, 25 Jun 2026 16:33:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1079551/</link>
@@ -264,75 +284,6 @@ contains important fixes. Users are advised to upgrade.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dracut), <b>Debian</b> (chromium, firefox-esr, and thunderbird), <b>Fedora</b> (chromium, firefox, nss, ocserv, ongres-scram, ongres-stringprep, perl-Archive-Tar, perl-GD, perl-HTTP-Daemon, perl-Net-Statsd, restic, singularity-ce, util-linux, and vorbis-tools), <b>Mageia</b> (gstreamer1.0-*, libupnp, luajit, opensc, and ruby-rack), <b>SUSE</b> (curl, dnsmasq, ffmpeg-4, frr, google-osconfig-agent, java-1_8_0-ibm, kernel, krb5, kubernetes-old, ldns, liburiparser1, openvswitch, rootlesskit, strongswan, traefik, and trivy), and <b>Ubuntu</b> (ldns, libheif, libnet-cidr-lite-perl, lxd, tomcat11, and vim).]]></description>
             <guid>https://lwn.net/Articles/1078662/</guid>
             <pubDate>Fri, 19 Jun 2026 13:24:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1078465/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dracut, podman, postfix, rsync, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (atril, firefox-esr, and nginx), <b>Mageia</b> (libcap, perl, and python-pillow), <b>Oracle</b> (firefox, gstreamer-plugins-base and gstreamer-plugins-good, httpd:2.4, kernel, libpng12, libpng15, libxml2, libxslt, opencryptoki, openssl, postfix, rsync, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (bind, libidn, mozilla, and openssl), <b>SUSE</b> (alloy, docker, elemental-system-agent, glibc, grafana, helm, LibVNCServer, openssh8.4, perl-GD, perl-HTTP-Daemon, python-WebOb-doc, python311-google-adk, rustup, traefik2, wireshark, and xwayland), and <b>Ubuntu</b> (dolibarr, golang-go.crypto, graphite2, gst-plugins-bad1.0, kitty, libconfig-inifiles-perl, libnginx-mod-js, and webpy).]]></description>
-            <guid>https://lwn.net/Articles/1078465/</guid>
-            <pubDate>Thu, 18 Jun 2026 13:16:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Mastodon 4.6 released</title>
-            <link>https://lwn.net/Articles/1078466/</link>
-            <description><![CDATA[<a href="https://blog.joinmastodon.org/2026/06/mastodon-4.6/">Version
-4.6</a> of the Mastodon fediverse platform has been released.
-<p>
-<blockquote class="bq">
-	The headliner of this release is Collections, a way to create and
-	share curated collections of profiles. Part of Mastodon's work
-	ethos is our commitment to trust and safety, so we've put a lot of
-	thought and care into the design of this feature to avoid some of
-	the pitfalls and abuse people have experienced with similar
-	features on other platforms, while focusing on its primary goal:
-	Helping new users discover more of the Fediverse.
-</blockquote>
-<p>
-Other new features include support for subscribing to posts via email, the
-ability to generate a "year in review" post, accessibility improvements,
-and more.]]></description>
-            <guid>https://lwn.net/Articles/1078466/</guid>
-            <pubDate>Thu, 18 Jun 2026 13:28:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The Software Freedom Conservancy&apos;s LLM-backed generative AI recommendations</title>
-            <link>https://lwn.net/Articles/1078521/</link>
-            <description><![CDATA[<p>The <a href="https://sfconservancy.org/">Software Freedom
-Conservancy</a> (SFC) has <a
-href="https://sfconservancy.org/news/2026/jun/18/llm-backed-generative-ai-recommendations/">announced</a>
-the release of its <a
-href="https://sfconservancy.org/llm-gen-ai/llm-backed-generative-ai-recommendations.html">recommendations
-for using LLM-backed generative AI systems for FOSS
-contributions</a>. The recommendations were created by the SFC and
-volunteers from the free-software community.</p>
-
-<blockquote class="bq">
-<p>The recommendations reflect the extremely difficult dilemmas that
-these systems pose for FOSS contributors. SFC and its volunteers
-understand that FOSS developers are approaching LLM-gen-AI from a
-variety of perspectives. The recommendations offer practical
-assistance to minimize the damage caused by using proprietary systems,
-whether FOSS contributors reject LLM-gen-AI or choose (voluntarily or
-by employer mandate) to use them.</p>
-
-<p>These recommendations are best practices (but not definitions or
-requirements) that SFC and its volunteers formulated after careful
-study of the growing LLM-gen-AI use among FOSS contributors. SFC will
-follow these recommendations with a series of <a
-href="https://sfconservancy.org/llm-gen-ai">supporting materials</a>,
-including documents, online tutorials, public Q&amp;As, <a
-href="https://sfconservancy.org/casts/the-corresponding-source/">podcasts</a>,
-and other community engagement. We will routinely refine our
-recommendations and continue to support FOSS contributors as they
-navigate this difficult landscape.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078521/</guid>
-            <pubDate>Thu, 18 Jun 2026 16:00:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
