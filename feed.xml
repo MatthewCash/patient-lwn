@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Jun 2026 17:14:31 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Jun 2026 17:24:30 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Jun 2026 18:38:11 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Jun 2026 19:18:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -296,22 +296,6 @@ first solid cut at it, at the very least.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1078942/</guid>
             <pubDate>Mon, 22 Jun 2026 13:44:52 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Systemd v261 released</title>
-            <link>https://lwn.net/Articles/1078708/</link>
-            <description><![CDATA[<a href="https://github.com/systemd/systemd/releases/tag/v261">Systemd
-v261</a> has been released with a long list of changes including a new
-cloud "Instance Metadata Service" (IMDS) subsystem, "boot secret"
-functionality for use on systems that lack a physical TPM, as well as
-support for the kernel's Live Update Orchestration (LUO) / Kexec
-Handover (KHO) systems when they are present and enabled. See the
-release notes for the full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078708/</guid>
-            <pubDate>Fri, 19 Jun 2026 18:56:33 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
