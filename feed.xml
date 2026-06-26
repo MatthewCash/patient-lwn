@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 26 Jun 2026 13:19:29 +0000</pubDate>
-        <lastBuildDate>Fri, 26 Jun 2026 13:24:18 +0000</lastBuildDate>
+        <pubDate>Fri, 26 Jun 2026 15:02:11 +0000</pubDate>
+        <lastBuildDate>Fri, 26 Jun 2026 15:39:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Lots of stories about systemd v261</title>
+            <link>https://lwn.net/Articles/1079806/</link>
+            <description><![CDATA[Lennart Poettering has posted <a
+href="https://0pointer.net/blog/mastodon-stories-for-systemd-v261.html">a
+list of Mastodon posts</a> about the changes in the systemd v261 release.
+The Mastodon format makes the reading harder, but there is a lot of useful
+information there.]]></description>
+            <guid>https://lwn.net/Articles/1079806/</guid>
+            <pubDate>Fri, 26 Jun 2026 14:56:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>The &quot;Akrites&quot; vulnerability-mitigation project launches</title>
             <link>https://lwn.net/Articles/1079657/</link>
@@ -300,33 +312,6 @@ release notes for the full list of changes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1078708/</guid>
             <pubDate>Fri, 19 Jun 2026 18:56:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Eight new stable kernels for Friday</title>
-            <link>https://lwn.net/Articles/1078590/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1078591/">7.1.1</a>, <a
-href="https://lwn.net/Articles/1078592/">7.0.13</a>, <a
-href="https://lwn.net/Articles/1078593/">6.18.36</a>, <a
-href="https://lwn.net/Articles/1078594/">6.12.94</a>, <a
-href="https://lwn.net/Articles/1078595/">6.6.143</a>, <a
-href="https://lwn.net/Articles/1078596/">6.1.176</a>, <a
-href="https://lwn.net/Articles/1078597/">5.15.210</a>, and <a
-href="https://lwn.net/Articles/1078598/">5.10.259</a> stable kernels. As usual, each
-contains important fixes. Users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078590/</guid>
-            <pubDate>Fri, 19 Jun 2026 12:34:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1078662/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dracut), <b>Debian</b> (chromium, firefox-esr, and thunderbird), <b>Fedora</b> (chromium, firefox, nss, ocserv, ongres-scram, ongres-stringprep, perl-Archive-Tar, perl-GD, perl-HTTP-Daemon, perl-Net-Statsd, restic, singularity-ce, util-linux, and vorbis-tools), <b>Mageia</b> (gstreamer1.0-*, libupnp, luajit, opensc, and ruby-rack), <b>SUSE</b> (curl, dnsmasq, ffmpeg-4, frr, google-osconfig-agent, java-1_8_0-ibm, kernel, krb5, kubernetes-old, ldns, liburiparser1, openvswitch, rootlesskit, strongswan, traefik, and trivy), and <b>Ubuntu</b> (ldns, libheif, libnet-cidr-lite-perl, lxd, tomcat11, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1078662/</guid>
-            <pubDate>Fri, 19 Jun 2026 13:24:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
