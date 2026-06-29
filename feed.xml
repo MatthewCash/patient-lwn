@@ -8,11 +8,68 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Jun 2026 10:53:30 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Jun 2026 11:32:39 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Jun 2026 15:01:19 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Jun 2026 15:04:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1080075/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (containernetworking-plugins, golang, kernel, libpng, libpng15, nginx, opencryptoki, perl-IO-Compress, thunderbird, and tigervnc), <b>Debian</b> (chromium, gdcm, incus, libhtml-parser-perl, lxd, openvpn, tor, and xorg-server), <b>Fedora</b> (chromium, docker-buildkit, docker-buildx, dotnet10.0, dotnet8.0, dotnet9.0, krita, ldns, libssh2, liferea, lighttpd, mariadb10.11, mariadb11.8, moby-engine, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, openbao, pacemaker, pgadmin4, podman-tui, prometheus-podman-exporter, python-jupyter-server, python-mistune, python-postorius, python-pydantic-settings, python3-docs, python3.14, thunderbird, tigervnc, tinyproxy, and util-linux), <b>Mageia</b> (krb5), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, dracut, fence-agents, firefox, frr, frr10, glib2, glibc, gnutls, golang, kernel, libpng, libpng15, libreoffice, libxml2, libxslt, mod_http2, mysql:8.4, nginx:1.26, openssl, php:8.3, podman, postgresql-jdbc, python3.14, redis, rsync, thunderbird, tomcat, valkey, and vim), <b>Red Hat</b> (osbuild-composer), and <b>SUSE</b> (agama-web-ui, asn1c, assimp, assimp-devel, aws-iam-authenticator, calibre, clamav, corepack24, dovecot22, exiv2, frr, giflib, glances-common, google-osconfig-agent, GraphicsMagick, gvim, haproxy, hydra, ImageMagick, jupyter-nbclassic, kernel, libsoup, libsoup2, libssh2-1, nano, NetworkManager-applet-openvpn, nodejs22, openbabel, opensc, openssl-3, pacemaker, python, python-base, python-doc, python311-pdm, python311-py7zr, python311-pypdf, python36, tar, trivy, util-linux, xen, and xtrabackup).]]></description>
+            <guid>https://lwn.net/Articles/1080075/</guid>
+            <pubDate>Mon, 29 Jun 2026 13:16:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Mageia 10 released</title>
+            <link>https://lwn.net/Articles/1080143/</link>
+            <description><![CDATA[<p><a href="https://www.mageia.org/en/10/">Mageia 10</a> has been
+released with the 6.18 Linux kernel, DNF&#160;5.4.0, RPM&#160;4.20.1,
+and an increase in hardware requirements for x86&#160;32-bit systems; users now
+need a CPU with SSE2 features. See the <a
+href="https://wiki.mageia.org/en/Mageia_10_Release_Notes">release
+notes</a> for a full list of updates, and the <a
+href="https://wiki.mageia.org/en/Mageia_10_Errata">errata page</a>
+for known problems.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1080143/</guid>
+            <pubDate>Mon, 29 Jun 2026 14:50:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Open source maintainership in the age of AI (Kubernetes blog)</title>
+            <link>https://lwn.net/Articles/1080144/</link>
+            <description><![CDATA[<p>The Kubernetes project has published a <a
+href="https://kubernetes.io/blog/2026/06/26/open-source-maintainership-in-the-age-of-ai/">blog
+post</a> explaining its <a
+href="https://www.kubernetes.dev/docs/guide/pull-requests/#ai-guidance">AI
+policy</a>:</p>
+
+<blockquote class="bq">
+<p>The main problem is that AI has made generating code fast but there
+has been very little improvement in maintaining code bases. In this
+post, we will highlight the ways the Kubernetes community is adapting
+to the world of AI assisted coding.</p>
+
+<p>The first step of this journey was to develop an AI policy. This
+seems mundane and bureaucratic but there were many PRs that derailed
+into discussions around AI usage. The AI policy helps steer the
+conversation around the project's stance on AI and provides a clear
+signal to contributors on how to use these tools responsibly.</p>
+</blockquote>
+
+<p>Of note, the project requires disclosure when AI tools have been
+used to assist in the creation of a contribution but <em>forbids</em> the use
+of listing AI as a co-author or including "assisted-by" or
+"co-developed" trailers to attribute work to an LLM tool.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1080144/</guid>
+            <pubDate>Mon, 29 Jun 2026 15:01:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc1</title>
             <link>https://lwn.net/Articles/1079891/</link>
