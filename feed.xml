@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Jun 2026 17:47:21 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Jun 2026 17:48:30 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Jun 2026 19:55:36 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Jun 2026 19:56:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -344,38 +344,6 @@ should be interesting for users who would like to see what a
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1078969/</guid>
             <pubDate>Mon, 22 Jun 2026 20:25:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1078922/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, kernel, and kernel-rt), <b>Debian</b> (gst-libav1.0, gst-plugins-good1.0, imagemagick, kernel, libconfig-inifiles-perl, libgd-perl, libhttp-daemon-perl, mediawiki, pillow, and squid), <b>Fedora</b> (389-ds-base, alertmanager, ansible-core, buildah, chromium, erlang-cowboy, erlang-cowlib, erlang-gun, freerdp, kubernetes1.33, kubernetes1.34, kubernetes1.35, mingw-SDL2_image, ongres-scram, ongres-stringprep, openssl, perl-Config-IniFiles, perl-Crypt-PBKDF2, podman, postgresql-jdbc, python3.13, strongswan, webkitgtk, xdg-desktop-portal, and yt-dlp), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (alloy, amazon-ssm-agent, ansible-core, apache-sshd, jpgpj, azure-storage-azcopy, chromedriver, containerized-data-importer, firefox, glibc, graphite2, inspektor-gadget, kubevirt, lemon, openvswitch, python-starlette, python311, python311-joserfc, python313, and tinyproxy), and <b>Ubuntu</b> (netatalk).]]></description>
-            <guid>https://lwn.net/Articles/1078922/</guid>
-            <pubDate>Mon, 22 Jun 2026 13:06:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>First preview release of Xfce&apos;s Wayland compositor</title>
-            <link>https://lwn.net/Articles/1078942/</link>
-            <description><![CDATA[<p>Brian Tarricone has <a
-href="https://www.spurint.org/journal/2026/06/xfwl4s-first-preview-release">announced</a>
-the first preview release of xfwl4, a Wayland compositor for the <a
-href="https://www.xfce.org/">Xfce</a> desktop environment.</p>
-
-<blockquote class="bq">
-<p>After close to six months of work, I feel like it's ready to get
-some wider use, even though of course there will be bugs and missing
-features. Think of this as an alpha release. [...]</p>
-
-<p>The end goal of xfwl4 is to behave as closely as possible to an
-Xfce desktop running on an X server. Ideally a user could switch
-between the two without even knowing there's a difference. In reality,
-of course, it won't be quite that seamless, and there's still more
-work to be done to get as close as possible to that ideal. This is a
-first solid cut at it, at the very least.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1078942/</guid>
-            <pubDate>Mon, 22 Jun 2026 13:44:52 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
