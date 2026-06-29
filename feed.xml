@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 29 Jun 2026 19:55:36 +0000</pubDate>
-        <lastBuildDate>Mon, 29 Jun 2026 19:56:59 +0000</lastBuildDate>
+        <pubDate>Mon, 29 Jun 2026 20:59:56 +0000</pubDate>
+        <lastBuildDate>Mon, 29 Jun 2026 21:27:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Git 2.55.0 released</title>
+            <link>https://lwn.net/Articles/1080188/</link>
+            <description><![CDATA[<p>Git maintainer Junio Hamano has <a
+href="https://lwn.net/ml/all/xmqqv7b1w9vr.fsf%40gitster.g/">announced</a>
+Git&#160;2.55.0, which has non-merge commits from 100 people; 33 of
+those are first-time contributors to the project. LWN <a
+href="https://lwn.net/Articles/1079596/">recently covered</a> some of
+the noteworthy changes in 2.55, including new features for the
+experimental "<tt>git history</tt>" command, addition of the Git <a
+href="https://www.man7.org/linux/man-pages/man1/git-fsmonitor--daemon.1.html">fsmonitor</a>
+daemon for Linux systems, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1080188/</guid>
+            <pubDate>Mon, 29 Jun 2026 20:22:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1080075/</link>
@@ -322,28 +340,6 @@ June&#160;1.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1079119/</guid>
             <pubDate>Tue, 23 Jun 2026 13:56:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GIMP 0.54.1 in a Flatpak</title>
-            <link>https://lwn.net/Articles/1078969/</link>
-            <description><![CDATA[<p>The GIMP project <a
-href="https://floss.social/@GIMP/116782353256793213">reports</a> that
-GNOME contributor "balooii" has worked to package GIMP
-0.54.1&mdash;released in 1996&mdash;as a Flatpak that will build and
-run on modern 64-bit Linux systems. This is a <a
-href="https://en.wikipedia.org/wiki/Motif_(software)">Motif</a>-based
-version, and the same version that was <a
-href="https://web.archive.org/web/19990208225150/http://www.isc.tamu.edu/%7Elewing/linux/notes.html">used
-by Larry Ewing</a> to create Tux.</p>
-
-<p>While not likely to be useful for serious graphics work today, it
-should be interesting for users who would like to see what a
-30-year-old version of GIMP was capable of.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1078969/</guid>
-            <pubDate>Mon, 22 Jun 2026 20:25:07 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
