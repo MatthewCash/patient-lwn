@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 30 Jun 2026 11:53:26 +0000</pubDate>
-        <lastBuildDate>Tue, 30 Jun 2026 12:24:41 +0000</lastBuildDate>
+        <pubDate>Tue, 30 Jun 2026 15:03:56 +0000</pubDate>
+        <lastBuildDate>Tue, 30 Jun 2026 15:11:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1080439/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (git-lfs, perl-Archive-Tar, perl-IO-Compress, python3.12-urllib3, and runc), <b>Debian</b> (sogo), <b>Fedora</b> (perl-DBI and perl-Socket), <b>Oracle</b> (firefox, freerdp, git-lfs, libsoup, libxml2, mod_md, mysql, perl-Archive-Tar, perl-IO-Compress, python, python3.12-urllib3, rsync, thunderbird, tomcat, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (389-ds, 7zip, alsa, amazon-ecs-init, amazon-ssm-agent, ansible-core, apache2, atril, avahi, bind, bitcoin, capnproto, chromedriver, chromium, cosign, distribution, dnsdist, docker, dovecot24, dracut, firefox, firewalld, freeipmi, freerdp, giflib, gimp, gleam, glib-networking, glibc, glycin-loaders, golang-github-prometheus-alertmanager, google-cloud-sap-agent, google-guest-agent, graphite2, gsasl, hamlib, helm, himmelblau, ignition, imagemagick, istioctl, jackson-databind, jq, jupyter-jupyterlab-templates, keylime, krb5, ldns, libaom, libcaca, libgcrypt, libheif, libinput, libjxl, libnfs, libslirp-devel, libsolv, libzypp, zypper, libssh2_org, libvncserver, libyang, lldpd, logback, loupe, mbedtls, mbedtls-2, mcphost, mozjs128, mutt, nano, nginx, ocaml, ofono, openCryptoki, opencryptoki, opensc, openssh, openssl-3, papers, perl-compress-raw-zlib, perl-config-inifiles, perl-cpanel-json-xs, perl-crypt-passwdmd5, perl-DBI, perl-dbi, perl-html-parser, perl-http-daemon, perl-libwww-perl, perl-protocol-http2, postfix, postgresql14, postgresql15, postgresql16, python-aiohttp, python-biopython, python-click, python-ecdsa, python-idna, python-markdown, python-joblib,, python-paramiko, python-pdm, python-pip, python-py7zr, python-pydata-sphinx-theme, python-pyjwt, python-python-multipart, python-starlette, python-tornado6, python311-jupyter-ydoc, rpcbind, sed, sg3_utils, sqlite3, strongswan, tar, thunderbird, tomcat, tomcat10, tomcat11, trivy, unbound, util-linux, warewulf4, webkit2gtk3, xar, xwayland, yt-dlp, and zypper, libzypp, libsolv), and <b>Ubuntu</b> (libheif, nss, qemu, roundcube, and sqlite3).]]></description>
+            <guid>https://lwn.net/Articles/1080439/</guid>
+            <pubDate>Tue, 30 Jun 2026 13:03:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Git 2.55.0 released</title>
             <link>https://lwn.net/Articles/1080188/</link>
@@ -291,55 +299,6 @@ contributed by Nico Pache, to make the use of mTHPs even more transparent.]]></d
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (corosync, firefox, kernel, kernel-rt, libpq, memcached, postgresql, postgresql16, postgresql:13, postgresql:16, python-urllib3, python3.14-urllib3, redis:6, skopeo, and vim), <b>Debian</b> (beets, gst-plugins-bad1.0, imagemagick, libmatio, python-urllib3, and u-boot), <b>Fedora</b> (chromium, coturn, frr, grout, materialx, perl-Crypt-DSA, and yt-dlp), <b>Mageia</b> (opensc, perl-Archive-Tar, and podofo), <b>Oracle</b> (fence-agents, libpq, mysql:8.4, and postgresql:16), <b>Red Hat</b> (firefox, libpng, libpng12, libpng15, libreoffice, nginx:1.24, thunderbird, tigervnc, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (libarchive), <b>SUSE</b> (amazon-ssm-agent, ansible-core, apache2, bind, bitcoin-qt6, containerized-data-importer, curl, distribution, docker-stable, dovecot24, dracut, editorconfig-core-c, exiv2, firefox, freeipmi, freerdp, ghc-aws, ghc-crypton-asn1-encoding, ghc-crypton-asn1-parse, ghc-crypton-asn1-types, ghc-crypton-pem, glib-networking, go1.25, go1.26, google-guest-agent, graphite2, hamlib, helm, himmelblau, ignition, ImageMagick, kernel, ldns, libarchive, libcaca, libheif, libinput, libjxl, libsolv, libzypp, zypper, LibVNCServer, libxslt, libyang, mcphost, mozjs128, ncurses, nginx, opensc, openssl-3, openvswitch, papers, perl-HTML-Parser, perl-HTTP-Daemon, perl-Protocol-HTTP2, podman, postgresql14, postgresql15, postgresql16, postgresql17, python-aiohttp, python-ecdsa, python-paramiko, python-PyJWT, python-starlette, rekor, sqlite3, strongswan, tiff, tomcat, tomcat10, tomcat11, unbound, webkit2gtk3, xwayland, and zypper, libzypp, libsolv), and <b>Ubuntu</b> (libcap2, libnfs, libvncserver, libxml2, and mysql-8.0).]]></description>
             <guid>https://lwn.net/Articles/1079365/</guid>
             <pubDate>Wed, 24 Jun 2026 13:13:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1079083/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (ffmpeg), <b>Fedora</b> (erlang, ffmpeg, prometheus, python-scrapy, python3-docs, python3.14, thorvg, tigervnc, and vips), <b>Mageia</b> (mumble and sslh), <b>Oracle</b> (389-ds:1.4, dracut, firefox, hplip, kernel, openssh, postgresql:15, redis:6, and uek-kernel), <b>Red Hat</b> (delve, gvisor-tap-vsock, nginx, nginx:1.24, nginx:1.26, osbuild-composer, podman, rhc, skopeo, and yggdrasil), <b>SUSE</b> (containerized-data-importer, graphite2, kernel, libarchive, openssh, openssh-askpass-gnome, openvswitch, openvswitch3, postfix, python-lxml, python-nltk, python-python-multipart, python-urllib3, rmt-server, terraform-provider-local, terraform-provider-null, and util-linux), and <b>Ubuntu</b> (google-guest-agent, haproxy, libxml2, linux-azure, linux-intel-iotg-5.15, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle-5.15, mysql-8.0, mysql-8.4, and nginx).]]></description>
-            <guid>https://lwn.net/Articles/1079083/</guid>
-            <pubDate>Tue, 23 Jun 2026 13:09:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Sunsetting Tor 0.4.8</title>
-            <link>https://lwn.net/Articles/1079119/</link>
-            <description><![CDATA[<p>The Tor Project has <a
-href="https://blog.torproject.org/sunsetting-tor-048/">announced</a>
-that it is planning to actively stop supporting Tor 0.4.8 and earlier
-C Tor versions soon.</p>
-
-<blockquote class="bq">
-<p>Usually, we try not to break existing releases, even if they are
-unsupported, unless we have a pretty good reason.  In this case, we
-have several reasons. [...]</p>
-
-<p>The most important reason is this: in 0.4.9, we have made some
-former fields in our directory data obsolete -- specifically, <a
-href="https://spec.torproject.org/proposals/350-remove-tap.html">TAP
-onion keys</a> and <a
-href="https://spec.torproject.org/proposals/321-happy-families.html">family
-lines</a>. Removing these fields will let us save a great deal of
-client directory bandwidth for everyone. This, in turn, will make all
-Tor clients bootstrap a little faster, especially those on slow
-connections. But when we remove these fields, clients and relays
-running earlier versions of Tor will no longer work, since they expect
-the TAP onion keys to be present. Therefore, in order to deliver
-improved performance faster, we need to accelerate the date on which
-0.4.8 will stop working.</p>
-</blockquote>
-
-<p>The target sunset date is currently September&#160;1,
-2026, after which any version prior to Tor 0.4.9 will cease to work on
-the network. The first stable release in the 0.4.9.x series was
-<a
-href="https://forum.torproject.org/t/stable-release-0-4-9-5/21227">announced</a>
-in February&#160;2026, and the Tor 0.4.8.x series reached end of life on
-June&#160;1.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1079119/</guid>
-            <pubDate>Tue, 23 Jun 2026 13:56:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
