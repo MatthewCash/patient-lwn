@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Jul 2026 12:58:01 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Jul 2026 13:17:17 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Jul 2026 15:29:21 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Jul 2026 15:41:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1080956/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (giflib, kernel, mariadb:10.11, mod_http2, php, rrdtool, ruby, ruby:3.3, and ruby:4.0), <b>Debian</b> (jq and node-lodash), <b>Fedora</b> (caddy, hut, ipp-usb, kernel, opkssh, rclone, thunderbird, and transmission), <b>SUSE</b> (389-ds, 7zip, alsa, amazon-ecs-init, avahi, cadvisor, cosign, cups, dnsdist, docker, dracut, firefox, firewalld, giflib, glib-networking, glycin-loaders, google-cloud-sap-agent, google-guest-agent, gsasl, hauler, helm, ImageMagick, kernel, keylime, krb5, libaom, libexif, libgcrypt, libnfs, libssh2_org, loupe, lrzip, mutt, ncurses, nodejs22, openCryptoki, openssh, openssl-3, pacemaker, perl-Config-IniFiles, perl-CSS-Minifier-XS, perl-DBI, perl-JavaScript-Minifier-XS, perl-libwww-perl, postfix, python-click, python-idna, python-Markdown, python-joblib, python-handy-archives, python-apache-libcloud, python-WebOb, python-PyGithub, python-soupsieve, python-pip, python-pytest-html, python-python-dotenv, python-python-multipart, python-starlette, python-tornado6, python-zeroconf, python311, python311-jupyter-server, rpcbind, sed, sg3_utils, tar, tiff, and util-linux), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-realtime, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-realtime, linux-realtime-6.8, linux-oem-6.17, and linux-oem-7.0).]]></description>
+            <guid>https://lwn.net/Articles/1080956/</guid>
+            <pubDate>Thu, 02 Jul 2026 13:17:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for June 25, 2026</title>
             <link>https://lwn.net/Articles/1078380/</link>
@@ -421,14 +429,6 @@ href="https://github.com/podman-container-tools/podman/releases/tag/v6.0.0">rele
 notes</a> for a full list of all new features, changes, and bug fixes.</p>]]></description>
             <guid>https://lwn.net/Articles/1079600/</guid>
             <pubDate>Thu, 25 Jun 2026 16:33:29 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1079551/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (libpng, libsolv, libtasn1, libxml2, libxslt, python3.14, tigervnc, and vim), <b>Debian</b> (cloud-init, postgresql-13, and yelp), <b>Mageia</b> (nats-server), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind9.18, cockpit, compat-openssl11, dnsmasq, dovecot, evince, expat, flatpak, freerdp, gimp, golang, grafana, grafana-pcp, httpd, jmc, jq, kernel, libsndfile, libsoup, libtiff, mod_http2, mysql:8.0, nginx, nginx:1.24, openexr, php:8.2, poppler, pyOpenSSL, python-markdown, redis:7, samba, thunderbird, tigervnc, unbound, and vim), <b>Red Hat</b> (libpng, libpng12, and libpng15), <b>SUSE</b> (apptainer, bind, crun, freeipmi, ghc-crypton-x509-store, ghc-crypton-x509-system, google-guest-agent, google-osconfig-agent, GraphicsMagick, gstreamer-plugins-bad, hamlib, iproute2, java-1_8_0-openjdk, kubevirt1, libarchive, libheif, libpng15, mbedtls, mbedtls-2, openssl-1_1, python-biopython, python-PyJWT, tar, webkit2gtk3, and xen), and <b>Ubuntu</b> (ffmpeg, libdbi-perl, and perl).]]></description>
-            <guid>https://lwn.net/Articles/1079551/</guid>
-            <pubDate>Thu, 25 Jun 2026 13:13:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
