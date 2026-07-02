@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 02 Jul 2026 00:18:56 +0000</pubDate>
-        <lastBuildDate>Thu, 2 Jul 2026 01:33:12 +0000</lastBuildDate>
+        <pubDate>Thu, 02 Jul 2026 04:13:36 +0000</pubDate>
+        <lastBuildDate>Thu, 2 Jul 2026 05:43:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -430,97 +430,6 @@ notes</a> for a full list of all new features, changes, and bug fixes.</p>]]></d
             <guid>https://lwn.net/Articles/1079551/</guid>
             <pubDate>Thu, 25 Jun 2026 13:13:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 18, 2026</title>
-            <link>https://lwn.net/Articles/1077459/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1077459/">Front</a>: State of Fedora; mTHP creation; overlayfs; buffer-heads cleanup; 7.1 statistics.
-            <li> <a href="https://lwn.net/Articles/1077461/">Briefs</a>: curl summer of bliss; 7.1 kernel; AUR compromise; Fedora election; FairScan 2.0; Firefox 152.0; Homebrew 6.0.0; KDE Plasma 6.7; LWN topic list; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1077462/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1077459/</guid>
-            <pubDate>Thu, 18 Jun 2026 00:55:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Some buffer-heads cleanup work</title>
-            <link>https://lwn.net/Articles/1077767/</link>
-            <description><![CDATA[Jan Kara has been <a
-href="https://lwn.net/ml/all/20260326082428.31660-1-jack@suse.cz/">working
-on cleaning up</a> how <a
-href="https://www.kernel.org/doc/html/v7.1-rc7/filesystems/buffer.html">buffer
-heads</a> are used by some kernel filesystems.  In a short
-filesystem-track session at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, he gave an update on
-that work and where it is headed.  Topics included generic infrastructure
-to track buffer heads for metadata, a buffer-head cleanup for the Amiga
-filesystem, and some planned locking fixes.]]></description>
-            <guid>https://lwn.net/Articles/1077767/</guid>
-            <pubDate>Wed, 17 Jun 2026 14:05:04 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] The state of Fedora in 2026</title>
-            <link>https://lwn.net/Articles/1077832/</link>
-            <description><![CDATA[<p>On June 15 at Fedora's <a
-href="https://fedoraproject.org/flock/2026/">Flock</a> conference, held in
-Prague, Fedora Project Leader (FPL) Jef Spaleta delivered a short "State of
-Fedora" keynote that provided a bit of insight into the status of the
-project. Topics included the overall growth for Fedora usage, ways to increase
-contributions, and an alarming decline in the number of active packagers working
-on the project.</p>]]></description>
-            <guid>https://lwn.net/Articles/1077832/</guid>
-            <pubDate>Tue, 16 Jun 2026 15:31:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Development statistics for the 7.1 kernel</title>
-            <link>https://lwn.net/Articles/1077425/</link>
-            <description><![CDATA[Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/">released
-the 7.1 kernel</a> as expected on June&#160;14.  This development cycle
-brought in a lot of new features — and a lot of new developers as well.
-The time has come for our traditional look at where the changes in 7.1 came
-from, with a digression into how our community may be changing in general.]]></description>
-            <guid>https://lwn.net/Articles/1077425/</guid>
-            <pubDate>Mon, 15 Jun 2026 16:36:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] An overlayfs update</title>
-            <link>https://lwn.net/Articles/1077052/</link>
-            <description><![CDATA[In a shortened session in the filesystem track at the 2026 <a
-href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
-Filesystem, Memory Management, and BPF Summit</a>, Amir Goldstein gave an
-update on the <a href="https://docs.kernel.org/filesystems/overlayfs.html">overlayfs
-union filesystem</a>.  There are some new features over the last few years
-that he wanted to mention, along with looking at the status of nesting
-overlayfs layers.  The <a href="https://lwn.net/Articles/922851/">composefs use case</a>
-that was <a href="https://lwn.net/Articles/933616/">discussed at the summit in 2023</a>
-has led to some interesting changes to overlayfs.]]></description>
-            <guid>https://lwn.net/Articles/1077052/</guid>
-            <pubDate>Fri, 12 Jun 2026 19:38:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Automatic mTHP creation in 7.2</title>
-            <link>https://lwn.net/Articles/1077208/</link>
-            <description><![CDATA[The Linux kernel has long tried to use huge pages as a way to improve
-performance, sometimes with more success than others.  The size of huge
-pages has traditionally been imposed by the hardware, which typically only
-offers a couple of relatively large options.  In more recent times, though,
-the use of multi-size transparent huge pages (mTHPs), with more flexible
-sizing implemented in software, has been growing.  If all goes well, the
-7.2 development cycle will include the addition of <a
-href="https://lwn.net/ml/all/20260605161422.213817-1-npache@redhat.com">a new feature</a>,
-contributed by Nico Pache, to make the use of mTHPs even more transparent.]]></description>
-            <guid>https://lwn.net/Articles/1077208/</guid>
-            <pubDate>Thu, 11 Jun 2026 14:33:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
