@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Jul 2026 12:25:17 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Jul 2026 12:26:10 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Jul 2026 14:26:24 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Jul 2026 14:41:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1081187/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, bind9.18, evince, fence-agents, freerdp, frr, frr10, gimp, gnutls, hplip, jmc, mariadb:11.8, mysql:8.4, php:7.4, postgresql-jdbc, postgresql:15, postgresql:16, valkey, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (fastnetmon), <b>Fedora</b> (7zip, apptainer, cpp-httplib, mysql8.4, and nmap), <b>Oracle</b> (freerdp, giflib, glib2, glibc, kernel, libreoffice, libvirt, mariadb:10.11, postgresql, python3.11, python3.12, rrdtool, and thunderbird), <b>Red Hat</b> (buildah, podman, and skopeo), <b>SUSE</b> (alloy, apache2, buildah, c3p0, containerd, crun, cups, dhcpcd, dnsmasq, docker-stable, dracut, editorconfig-core-c, ffmpeg-7, fontforge, google-guest-agent, google-osconfig-agent, graphicsmagick, gstreamer-plugins-bad, gstreamer-plugins-good, helm, jackson-annotations, jackson-core, jackson-databind, jline3, kernel, kubectl-cnpg, lcms2, libslirp, libssh2_org, libxreaderdocument3, openbabel, openssl-3, pacemaker, perl-CGI-Session, perl-list-someutils-xs, python-lxml, python-tornado, python-tornado6, python3-onionshare, python311-python-engineio, sg3_utils, thunderbird, transmission, and trivy), and <b>Ubuntu</b> (cifs-utils, kernel, libvncserver, linux-aws-6.8, linux-gcp-6.8, linux-gke, linux-gkeop, linux-ibm-6.8, linux-nvidia-lowlatency, linux-oracle-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia-tegra, linux-oracle-5.15, linux-raspi, linux-xilinx, nghttp2, nginx, perl, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1081187/</guid>
+            <pubDate>Fri, 03 Jul 2026 13:03:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>CalyxOS is back</title>
             <link>https://lwn.net/Articles/1081038/</link>
@@ -504,49 +512,6 @@ information there.]]></description>
             <guid>https://lwn.net/Articles/1079806/</guid>
             <pubDate>Fri, 26 Jun 2026 14:56:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>The &quot;Akrites&quot; vulnerability-mitigation project launches</title>
-            <link>https://lwn.net/Articles/1079657/</link>
-            <description><![CDATA[The Linux Foundation, in <a href="https://akrites.org/letter/">a
-letter</a> co-signed by a large range of organizations and companies, has
-announced the launch of "Akrites", a project to fast-track vulnerability
-fixes into projects.
-<p>
-<blockquote class="bq">
-	As Akrites works upstream to fix projects at the source, we commit
-	to support downstream efforts to secure critical infrastructure
-	before it can be exploited. When patches are released to the
-	public, adversaries are able to utilize AI to rapidly reverse
-	engineer the underlying vulnerabilities, develop exploits, and
-	launch attacks. The success of our efforts therefore will be
-	measured in patch deployment, not publication. We will partner with
-	critical infrastructure owners and operators, civil society
-	efforts, and governments as they increase coordination to achieve
-	these goals.
-<p>
-	Confidentiality is non-negotiable: An undisclosed flaw in a widely
-	deployed package is, in effect, a weapon, and the program is built
-	first to prevent leaks. Fixes flow back into each project's own
-	home, working with the maintainers. The engineering resources and
-	other capabilities provided by Akrites participants contribute to
-	this effort. Additionally, when a critical package has no one
-	maintaining it, Akrites will stand as the maintainer of last resort
-	so a fix can still reach everyone in a timely fashion. We will also
-	align with government efforts so that public and private defenders
-	move together, rather than in a disjointed fashion.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1079657/</guid>
-            <pubDate>Fri, 26 Jun 2026 13:11:29 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1079769/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, coreutils, evince, libpng, libreoffice, libtasn1, libxml2, libxslt, nginx, nginx:1.24, nginx:1.26, postgresql:12, python-urllib3, python3.12-urllib3, python3.14, python3.14-urllib3, skopeo, tigervnc, tomcat, and vim), <b>Debian</b> (chromium, dnsdist, giflib, libdbi-perl, libssh2, libtext-csv-xs-perl, pdns, pdns-recursor, python-urllib3, and sogo), <b>Fedora</b> (goose, httpd, librabbitmq, perl-Compress-Raw-Bzip2, perl-DBI, perl-IO-Compress, perl-Socket, python-django-allauth, rsync, and strongswan), <b>Oracle</b> (389-ds-base, buildah, containernetworking-plugins, coreutils, evince, fence-agents, giflib, git-lfs, hplip, krb5, libcap, libexif, libtasn1, memcached, opencryptoki, podman, postfix, postgresql:12, postgresql:13, postgresql:15, postgresql:16, python-urllib3, python3.12-urllib3, python3.14-urllib3, python3.9, runc, skopeo, tigervnc, vim, webkit2gtk3, xorg-x11-server, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache-commons-configuration2, apache-commons-text, apache2, containerd, kernel, libnilfs3, libopenbabel8, libtar, libzypp, lrzip, nodejs24, ofono, perl-Net-Dropbox-API, podman, python-pip, python-PyJWT, python311-aiohttp, python311-nltk, python311-python-multipart, python312, and python315), and <b>Ubuntu</b> (amd64-microcode, containerd, containerd-app, containerd-stable, cpp-httplib, imagemagick, mina2, node-pbkdf2, NSD, and xrdp).]]></description>
-            <guid>https://lwn.net/Articles/1079769/</guid>
-            <pubDate>Fri, 26 Jun 2026 13:19:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
