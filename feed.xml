@@ -8,11 +8,50 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 03 Jul 2026 14:26:24 +0000</pubDate>
-        <lastBuildDate>Fri, 3 Jul 2026 14:41:58 +0000</lastBuildDate>
+        <pubDate>Fri, 03 Jul 2026 16:01:36 +0000</pubDate>
+        <lastBuildDate>Fri, 3 Jul 2026 16:14:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Four vulnerabilities in Guix</title>
+            <link>https://lwn.net/Articles/1081199/</link>
+            <description><![CDATA[<p>The <a href="https://guix.gnu.org/">GNU Guix</a> project has <a
+href="https://guix.gnu.org/blog/2026/guix-substitute-pull-vulnerabilities/">announced</a>
+three vulnerabilities in the <tt>guix substitute</tt> utility as well
+as a fourth that affects the <tt>guix pull</tt> and <tt>guix
+time-machine</tt> commands. The impact of the vulnerabilities ranges from remote privilege
+escalation to local disclosure of sensitive files.</p>
+
+<blockquote class="bq">
+<p>The remote exploitation of <tt>guix substitute</tt> only requires that the
+vulnerable system attempt to download a binary substitute. Any
+configured substitute server, including ones discovered using
+<tt>guix-daemon</tt>'s <tt>--discover</tt> option, can exploit this, and so can a
+man-in-the-middle (MITM), regardless of whether <tt>https</tt> is used in the
+substitute server urls.</p>
+
+<p>The local exploitation of <tt>guix substitute</tt> only requires
+the ability to connect to guix-daemon's socket, which by default any
+user can do.</p>
+
+<p>Separately, another security issue (CVE ID pending) was identified
+in <tt>guix pull</tt> and <tt>guix time-machine</tt>, which enables anyone who can
+control the channels file used by these commands to cause a file to be
+created or overwritten wherever the user running the command in
+question has permission to create them.</p>
+</blockquote>
+
+<p>The project is recommending that all users upgrade <tt>guix</tt>
+and <tt>guix-daemon</tt> immediately. See the announcement for
+instructions, how to test for the vulnerabilities, the disclosure
+timeline, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1081199/</guid>
+            <pubDate>Fri, 03 Jul 2026 15:54:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1081187/</link>
@@ -499,18 +538,6 @@ stable kernel updates have been released; each contains a relatively small
 number of important fixes.]]></description>
             <guid>https://lwn.net/Articles/1079852/</guid>
             <pubDate>Sat, 27 Jun 2026 13:59:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Lots of stories about systemd v261</title>
-            <link>https://lwn.net/Articles/1079806/</link>
-            <description><![CDATA[Lennart Poettering has posted <a
-href="https://0pointer.net/blog/mastodon-stories-for-systemd-v261.html">a
-list of Mastodon posts</a> about the changes in the systemd v261 release.
-The Mastodon format makes the reading harder, but there is a lot of useful
-information there.]]></description>
-            <guid>https://lwn.net/Articles/1079806/</guid>
-            <pubDate>Fri, 26 Jun 2026 14:56:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
