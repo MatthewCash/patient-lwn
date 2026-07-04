@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 04 Jul 2026 12:26:40 +0000</pubDate>
-        <lastBuildDate>Sat, 4 Jul 2026 14:00:26 +0000</lastBuildDate>
+        <pubDate>Sat, 04 Jul 2026 14:51:45 +0000</pubDate>
+        <lastBuildDate>Sat, 4 Jul 2026 15:15:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -525,19 +525,6 @@ testing.  Linus said: "<q>So two weeks have passed, and the merge window is
 closed. Things look reasonably normal for this release (knock wood).</q>"]]></description>
             <guid>https://lwn.net/Articles/1079891/</guid>
             <pubDate>Sun, 28 Jun 2026 20:08:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates</title>
-            <link>https://lwn.net/Articles/1079852/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1079853/">7.1.2</a>,
-<a href="https://lwn.net/Articles/1079854/">7.0.14</a>, and
-<a href="https://lwn.net/Articles/1079855/">6.18.37</a>
-stable kernel updates have been released; each contains a relatively small
-number of important fixes.]]></description>
-            <guid>https://lwn.net/Articles/1079852/</guid>
-            <pubDate>Sat, 27 Jun 2026 13:59:19 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
