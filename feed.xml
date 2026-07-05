@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 Jul 2026 17:35:02 +0000</pubDate>
-        <lastBuildDate>Sun, 5 Jul 2026 20:02:59 +0000</lastBuildDate>
+        <pubDate>Sun, 05 Jul 2026 20:18:23 +0000</pubDate>
+        <lastBuildDate>Sun, 5 Jul 2026 21:20:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -548,16 +548,6 @@ of listing AI as a co-author or including "assisted-by" or
             <guid>https://lwn.net/Articles/1080144/</guid>
             <pubDate>Mon, 29 Jun 2026 15:01:17 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.2-rc1</title>
-            <link>https://lwn.net/Articles/1079891/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1079892/">7.2-rc1</a> kernel prepatch is out for
-testing.  Linus said: "<q>So two weeks have passed, and the merge window is
-closed. Things look reasonably normal for this release (knock wood).</q>"]]></description>
-            <guid>https://lwn.net/Articles/1079891/</guid>
-            <pubDate>Sun, 28 Jun 2026 20:08:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
