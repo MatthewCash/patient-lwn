@@ -8,11 +8,23 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 05 Jul 2026 22:59:07 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jul 2026 01:24:50 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Jul 2026 01:53:49 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Jul 2026 05:56:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.2-rc2</title>
+            <link>https://lwn.net/Articles/1081367/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1081366/">7.2-rc2</a> kernel prepatch is out for
+testing.  Linus said: "<q>It's Sunday afternoon, and rc2 is out. Things
+look very normal - it's not a small rc2, but it's in line with recent
+releases, and slightly smaller than rc2 was in 7.1. Let's see how that all
+continues, but so far so good.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1081367/</guid>
+            <pubDate>Mon, 06 Jul 2026 01:53:49 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernels for Saturday including two security fixes</title>
             <link>https://lwn.net/Articles/1081230/</link>
