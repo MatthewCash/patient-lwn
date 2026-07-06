@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 06 Jul 2026 09:28:26 +0000</pubDate>
-        <lastBuildDate>Mon, 6 Jul 2026 10:19:20 +0000</lastBuildDate>
+        <pubDate>Mon, 06 Jul 2026 13:55:44 +0000</pubDate>
+        <lastBuildDate>Mon, 6 Jul 2026 14:07:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1081495/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, grafana, grafana-pcp, kernel, ruby:2.5, and ruby:3.3), <b>Debian</b> (bird3, chromium, kernel, linux-6.1, mediawiki, nginx, openvpn, php-phpseclib, php8.2, php8.4, and sympa), <b>Fedora</b> (7zip, buildah, chromium, clamav, freerdp, leptonica, mariadb10.11, mariadb11.8, nextcloud, nsd, openqa, openvpn, os-autoinst, pdns, pdns-recursor, perl-Crypt-ScryptKDF, podman, python-jupyter-server, and python-streamlink), <b>Mageia</b> (mariadb and yt-dlp), <b>Slackware</b> (libevent, libseccomp, mozilla, mutt, and php82), <b>SUSE</b> (apache2, containerd, dnsmasq, docker, dracut, firewalld-legacy, gimp, glibc, golang-github-docker-libnetwork, google-guest-agent, gstreamer-plugins-bad, helm, kernel, kernel-devel, keybase-client, kitty, krb5, libarchive, libnfs, libslirp, nilfs-utils, openCryptoki, openQA, openssl-3, pacemaker, pcr-oracle, perl-DBI, perl-List-SomeUtils-XS, podman, python-pip, python-pydata-sphinx-theme, python-tornado6, python3-lxml, python311-mistune, python313-joserfc, rmt-server, sg3_utils, systemd, tracker-miners, and xdg-dbus-proxy), and <b>Ubuntu</b> (cifs-utils, linux-nvidia, linux-nvidia-6.17, linux-raspi-realtime, and ncurses).]]></description>
+            <guid>https://lwn.net/Articles/1081495/</guid>
+            <pubDate>Mon, 06 Jul 2026 13:13:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc2</title>
             <link>https://lwn.net/Articles/1081367/</link>
