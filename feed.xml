@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Jul 2026 18:41:42 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Jul 2026 19:08:51 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Jul 2026 19:19:06 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Jul 2026 20:59:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -518,34 +518,6 @@ into focus.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (coreutils, galera and mariadb11.8, giflib, git-lfs, glibc, httpd, kernel, mariadb10.11, mod_md, perl-Archive-Tar, perl-IO-Compress, perl:5.32, rrdtool, ruby, ruby4.0, and thunderbird), <b>Debian</b> (debian-security-support, librabbitmq, and nginx), <b>Fedora</b> (chromium, collectd, maradns, python-django-haystack, python-jupytext, varnish, varnish-modules, and vmod-querystring), <b>Oracle</b> (firefox, git-lfs, kernel, nginx:1.24, openssl, perl-Archive-Tar, perl-IO-Compress, and uek-kernel), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (7zip, apache2, buildah, cifs-utils, curl, docker, exiv2-0_26, libonnxruntime1, libsoup, nodejs22, opensc, pacemaker, perl-Config-IniFiles, podman, sg3_utils, socat, tar, tracker, and xdg-desktop-portal), and <b>Ubuntu</b> (curl, hplip, libgd-perl, libssh2, libyang, ruby2.7, ruby3.0, ruby3.2, ruby3.3, and tar).]]></description>
             <guid>https://lwn.net/Articles/1080689/</guid>
             <pubDate>Wed, 01 Jul 2026 13:15:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Creative Commons founders&apos; fireside chat (Creative Commons blog)</title>
-            <link>https://lwn.net/Articles/1080518/</link>
-            <description><![CDATA[<p>Dee Harris has published a <a
-href="https://creativecommons.org/2026/06/30/inside-the-cc-founders-fireside-chat/">summary</a>
-of the recent "fireside chat" featuring Creative Commons founders Hal
-Abelson, Lawrence (Larry) Lessig, Molly Van Houweling, and Glenn Otis
-Brown. The chat was to mark the <a
-href="https://creativecommons.org/25th-anniversary/">25th anniversary
-of Creative Commons</a> and included a look back at its history as
-well as a look at the landscape today:</p>
-
-<blockquote class="bq">
-Twenty-five years ago, a small group of people made a bet. They
-believed that if you gave creators a simple set of tools and licenses
-in language that a lawyer, a machine, and a human could all read,
-millions of people might choose to share their work with the world
-instead of locking it down.
-</blockquote>
-
-<p>The <a href="https://www.youtube.com/watch?v=OOHUhSEdkB0">video</a>
-of the chat is available on YouTube.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1080518/</guid>
-            <pubDate>Tue, 30 Jun 2026 17:53:49 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
