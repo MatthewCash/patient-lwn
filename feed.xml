@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 07 Jul 2026 10:40:21 +0000</pubDate>
-        <lastBuildDate>Tue, 7 Jul 2026 11:50:36 +0000</lastBuildDate>
+        <pubDate>Tue, 07 Jul 2026 14:27:57 +0000</pubDate>
+        <lastBuildDate>Tue, 7 Jul 2026 14:32:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1081644/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (nodejs22 and nodejs24), <b>Fedora</b> (clamav, hplip, kernel, kernel-headers, librabbitmq, mingw-expat, mir, perl-Imager, podman-tui, prometheus-podman-exporter, python-rpds-py, rust-ashpd, rust-busd, rust-gtk4-macros, rust-inferno, rust-quick-xml, rust-reqsign-aws-v4, rust-wayland-scanner, and sandogasa), <b>Oracle</b> (container-tools:rhel8, kernel, mariadb:10.11, mariadb:11.8, nginx, perl:5.32, php, php:7.4, rrdtool, ruby:2.5, ruby:3.3, ruby:4.0, and uek-kernel), <b>Red Hat</b> (kernel, opentelemetry-collector, and python-urllib3), <b>Slackware</b> (c and openssh), <b>SUSE</b> (bind, chromedriver, cryptsetup, s390-tools, dnsmasq, jackson-annotations, jackson-core, jackson-databind, lcms2, pacemaker, perl-Cpanel-JSON-XS, perl-Crypt-SaltedHash, postfix, and python-mistune), and <b>Ubuntu</b> (gnutls28, gzip, openssh, php7.0, python-parsl, python3.10, python3.12, python3.14, request-tracker5, socat, sogo, and tar).]]></description>
+            <guid>https://lwn.net/Articles/1081644/</guid>
+            <pubDate>Tue, 07 Jul 2026 13:07:58 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Woodruff: You shouldn&apos;t trust trusted publishing</title>
+            <link>https://lwn.net/Articles/1081690/</link>
+            <description><![CDATA[<p>William Woodruff, better known online as "yossarian", has <a
+href="https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-trusted-publishing">published</a>
+a blog post to make the case that users should not place their trust
+in <a href="https://docs.pypi.org/trusted-publishers/">trusted
+publishing</a>:</p>
+
+<blockquote class="bq">
+<p>Trusted Publishing is a mechanism for establishing trust between an
+external machine identity (like a CI/CD workflow) and one or more
+projects on a package index/registry. The "trust" in "Trusted
+Publishing" refers to that trust relationship, and not to anything
+else.</p>
+
+<p>It is not, and cannot be, a signal for package trust or
+quality. You cannot use it to determine whether a package is safe or
+"good," and PyPI consciously stymies attempts to misuse it for that
+purpose by not rendering it as a "green checkmark" or anything else of
+the sort.</p>
+
+<p>Or as another framing: Trusted Publishing is just a form of
+authentication. It doesn't tell you anything other than that an upload
+was authenticated, which all uploads to PyPI are.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1076205/">covered</a> trusted
+publishing in June.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1081690/</guid>
+            <pubDate>Tue, 07 Jul 2026 14:27:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSSH 10.4 released</title>
             <link>https://lwn.net/Articles/1081536/</link>
