@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jul 2026 10:57:12 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jul 2026 11:31:39 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Jul 2026 12:51:00 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Jul 2026 13:11:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1081798/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (container-tools:rhel8, kernel-rt, libreoffice, nodejs:22, nodejs:24, opentelemetry-collector, perl-HTTP-Daemon, and python-markdown), <b>Debian</b> (dpkg, imagemagick, and postfix), <b>Fedora</b> (betterleaks, docker-compose, firefox, helm, perl-Compress-Raw-Bzip2, perl-IO-Compress, perl-JavaScript-Minifier-XS, python-cramjam, python-fastar, python-pillow-jxl-plugin, python-rignore, and tor), <b>Oracle</b> (grafana, grafana-pcp, and ruby:4.0), <b>Slackware</b> (tftp), <b>SUSE</b> (gi-docgen, glibc, helm, helm3, json-c-devel, kubevirt-1.6, librpmbuild10, python313-dulwich, python313-lxml_html_clean, python313-openapi-spec-validator, and sdbootutil), and <b>Ubuntu</b> (ruby-addressable).]]></description>
+            <guid>https://lwn.net/Articles/1081798/</guid>
+            <pubDate>Wed, 08 Jul 2026 12:50:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1081644/</link>
