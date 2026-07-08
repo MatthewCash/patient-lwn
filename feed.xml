@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jul 2026 12:51:00 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jul 2026 13:11:37 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Jul 2026 15:13:14 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Jul 2026 15:34:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -519,14 +519,6 @@ into focus.]]></description>
             <guid>https://lwn.net/Articles/1078068/</guid>
             <pubDate>Thu, 18 Jun 2026 13:47:49 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1080689/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (coreutils, galera and mariadb11.8, giflib, git-lfs, glibc, httpd, kernel, mariadb10.11, mod_md, perl-Archive-Tar, perl-IO-Compress, perl:5.32, rrdtool, ruby, ruby4.0, and thunderbird), <b>Debian</b> (debian-security-support, librabbitmq, and nginx), <b>Fedora</b> (chromium, collectd, maradns, python-django-haystack, python-jupytext, varnish, varnish-modules, and vmod-querystring), <b>Oracle</b> (firefox, git-lfs, kernel, nginx:1.24, openssl, perl-Archive-Tar, perl-IO-Compress, and uek-kernel), <b>Red Hat</b> (container-tools:rhel8), <b>SUSE</b> (7zip, apache2, buildah, cifs-utils, curl, docker, exiv2-0_26, libonnxruntime1, libsoup, nodejs22, opensc, pacemaker, perl-Config-IniFiles, podman, sg3_utils, socat, tar, tracker, and xdg-desktop-portal), and <b>Ubuntu</b> (curl, hplip, libgd-perl, libssh2, libyang, ruby2.7, ruby3.0, ruby3.2, ruby3.3, and tar).]]></description>
-            <guid>https://lwn.net/Articles/1080689/</guid>
-            <pubDate>Wed, 01 Jul 2026 13:15:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
