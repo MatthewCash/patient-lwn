@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jul 2026 21:25:47 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jul 2026 21:31:50 +0000</lastBuildDate>
+        <pubDate>Wed, 08 Jul 2026 22:33:10 +0000</pubDate>
+        <lastBuildDate>Wed, 8 Jul 2026 22:44:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenMandriva: Statement regarding attempted distribution sabotage</title>
+            <link>https://lwn.net/Articles/1081884/</link>
+            <description><![CDATA[Over on the <a href="https://forum.openmandriva.org/">OpenMandriva
+forum</a>, the Linux distribution has <a
+href="https://forum.openmandriva.org/t/statement-regarding-attempted-distribution-sabotage/8997">reported
+sabotage of its repositories</a> by a disgruntled contributor with
+administrative credentials.  According to "AngryPenguin", an abusive
+incident in a distribution Matrix chat led to a user being kicked out of
+the chat; that "<q>triggered a cascade of events</q>", which led to people
+resigning from the distribution.  Eventually, one of those people used
+their administrative privileges to delete part of the <a
+href="https://github.com/OpenmandrivaAssociation">distribution's GitHub
+repository</a> and to "<q>publish an empty package in the cooker
+repository, which obsoleted all gnome and cosmic packages, which could have
+damaged the systems of people using gnome or cosmic</q>".
+
+<blockquote class="bq">
+We are currently working to restore the deleted repositories and restore
+the functionality of the obsolete packages.
+<p>
+[...] We performed a full system audit and, aside from the removed
+packages, we found no other violations. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1081884/</guid>
+            <pubDate>Wed, 08 Jul 2026 22:31:34 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1081798/</link>
