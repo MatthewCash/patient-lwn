@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Jul 2026 14:50:43 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jul 2026 15:48:39 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jul 2026 17:34:36 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jul 2026 17:55:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -466,104 +466,6 @@ created by the absence of Google Pixel device trees.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1081038/</guid>
             <pubDate>Thu, 02 Jul 2026 20:58:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Council proposes pausing Community Initiatives</title>
-            <link>https://lwn.net/Articles/1081013/</link>
-            <description><![CDATA[<p>Aoife Moloney has, on behalf of the <a href="https://docs.fedoraproject.org/en-US/council/">Fedora Council</a>, posted <a
-href="https://discussion.fedoraproject.org/t/fedora-council-statement-on-the-future-of-community-initiatives-and-the-ai-developer-desktop-proposal/195402">an
-announcement</a> that the Fedora Council is "<q>proposing we pause the
-Community Initiatives process as an official project process</q>"
-because it has decided the current process is ineffective. It is also
-closing discussion regarding the <a
-href="https://lwn.net/Articles/1071949/">AI developer desktop
-initiative</a> covered by LWN in May.</p>
-
-<blockquote class="bq">
-<p>The Fedora Objectives/Initiatives framework was never intended as a
-mandatory prerequisite to do the work in Fedora. It supposed to help
-by focusing the community on a certain work when needed, not to decide
-what is allowed. The AI developer desktop initiative proposal
-highlighted that the Community Initiatives process has failed to serve
-as a good framework in Fedora where new ideas can surface, receive
-respectful feedback, and gain Council support for work that fits the
-project's present and/or future. This is something that the Council
-must address.</p>
-
-<p>As a first step, we would like to halt the community initiative
-process immediately. Existing initiatives in flight (Fedora Forge,
-Atomic, and Fedora Docs 2026) will continue with full Council
-backing. Their underlying work will be completed as planned in their
-current timeboxed state, though the administrative framework around
-them may evolve.
-As a second step, we would like to work out a new mechanism to allow
-Council to set strategic direction in an open, transparent way that
-more intentionally includes the community voice. We recognise that we
-have to be better at being more open in our discussions and decision
-making.</p>
-</blockquote>
-
-<p>The council is considering the <a
-href="https://lwn.net/Articles/1062579/">"sandbox" proposal</a> as an
-alternative or supplement to a process that replaces the Community
-Initiatives.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1081013/</guid>
-            <pubDate>Thu, 02 Jul 2026 16:05:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Spoofed email from LWN</title>
-            <link>https://lwn.net/Articles/1081012/</link>
-            <description><![CDATA[<p>We were made aware today of an email sent to a reader that was
-spoofed to appear to be from LWN. The message claimed, among other
-things, that we were providing personal information about the reader
-to another site user. As is explained in our <a
-href="https://lwn.net/op/Privacy.lwn">privacy policy</a> we do not,
-and would not, provide such information.</p>
-
-<p>If any other readers have received an odd message from LWN, it is
-an attempt at a hoax; if in doubt, please check the DKIM header of the
-email. Any email that does come from LWN will have a proper DKIM
-signature in its headers.</p>
-
-<p>If you receive such a message, please feel free to send it to us,
-with its headers intact. But to reiterate, we are not providing any
-user information upon request, nor banning any accounts. We hope this
-will not be a recurring problem.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1081012/</guid>
-            <pubDate>Thu, 02 Jul 2026 16:20:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel archive /pub tree restoring</title>
-            <link>https://lwn.net/Articles/1081015/</link>
-            <description><![CDATA[<p>A few astute observers have <a
-href="https://berkeley.edu.pl/notice/B7vRdBPBxBnnx12SoK">noticed</a> that some
-content on kernel.org had disappeared and were understandably
-concerned. Konstantin Ryabitsev has provided an <a
-href="https://social.kernel.org/notice/B7viUNMy1UsGX9pwHY">update</a> via
-social.kernel.org:</p>
-
-<blockquote class="bq">
-There was an unfortunate error while changing the kernel.org
-primary/secondary mirroring infrastructure, which resulted in the /pub
-tree suddenly becoming empty. No data was lost, just public mirror
-copies. Everything is now being restored, but deletes are fast and
-restores are slow, so thank you for your patience!
-</blockquote>
-
-<p>The <a
-href="https://status.linuxfoundation.org/incidents/3y1k8b4ky71t">incident</a> is
-being tracked on the Linux Foundation's IT status page.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1081015/</guid>
-            <pubDate>Thu, 02 Jul 2026 16:39:26 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
