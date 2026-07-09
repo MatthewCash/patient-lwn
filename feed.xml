@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Jul 2026 20:31:30 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jul 2026 21:08:29 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jul 2026 22:23:16 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jul 2026 22:44:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,45 +427,6 @@ timeline, and more.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, bind9.18, evince, fence-agents, freerdp, frr, frr10, gimp, gnutls, hplip, jmc, mariadb:11.8, mysql:8.4, php:7.4, postgresql-jdbc, postgresql:15, postgresql:16, valkey, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (fastnetmon), <b>Fedora</b> (7zip, apptainer, cpp-httplib, mysql8.4, and nmap), <b>Oracle</b> (freerdp, giflib, glib2, glibc, kernel, libreoffice, libvirt, mariadb:10.11, postgresql, python3.11, python3.12, rrdtool, and thunderbird), <b>Red Hat</b> (buildah, podman, and skopeo), <b>SUSE</b> (alloy, apache2, buildah, c3p0, containerd, crun, cups, dhcpcd, dnsmasq, docker-stable, dracut, editorconfig-core-c, ffmpeg-7, fontforge, google-guest-agent, google-osconfig-agent, graphicsmagick, gstreamer-plugins-bad, gstreamer-plugins-good, helm, jackson-annotations, jackson-core, jackson-databind, jline3, kernel, kubectl-cnpg, lcms2, libslirp, libssh2_org, libxreaderdocument3, openbabel, openssl-3, pacemaker, perl-CGI-Session, perl-list-someutils-xs, python-lxml, python-tornado, python-tornado6, python3-onionshare, python311-python-engineio, sg3_utils, thunderbird, transmission, and trivy), and <b>Ubuntu</b> (cifs-utils, kernel, libvncserver, linux-aws-6.8, linux-gcp-6.8, linux-gke, linux-gkeop, linux-ibm-6.8, linux-nvidia-lowlatency, linux-oracle-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia-tegra, linux-oracle-5.15, linux-raspi, linux-xilinx, nghttp2, nginx, perl, and vim).]]></description>
             <guid>https://lwn.net/Articles/1081187/</guid>
             <pubDate>Fri, 03 Jul 2026 13:03:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>CalyxOS is back</title>
-            <link>https://lwn.net/Articles/1081038/</link>
-            <description><![CDATA[<p>In August 2025, the <a href="https://calyxos.org/">CalyxOS</a> privacy-focused
-Android distribution <a
-href="https://calyxos.org/news/2025/08/01/a-letter-to-our-community/">announced</a>
-that it was pausing all releases while it reworked its
-release process, security protocols, and changed its signing keys
-following the departure of one of its founders. The project has now <a
-href="https://calyxos.org/news/2026/07/01/calyxos-official-release-is-back/">announced</a>
-that it is "<q>officially back from the hiatus</q>" with the
-7.2.2.0 release.</p>
-
-<blockquote class="bq">
-<p>CalyxOS 7.2.2.0 is signed by us using <a
-href="https://calyxos.org/news/2026/02/10/calyxos-hsm-signing/">a new
-HSM-based, open-source signing solution</a> we designed to enhance the
-security of the entire signing process, ensure redundancy, and remove
-single points of failure. You can verify CalyxOS 7.2.2.0 and future
-builds following <a href="https://calyxos.org/install/verify/">these
-instructions</a>. For anyone who is interested, the security audit
-report of the HSM provisioning ceremony script can be found <a
-href="https://github.com/trailofbits/publications/blob/master/reviews/2026-01-calyx-hsm-provisioning-ceremony-scripts-securityreview.pdf">here</a>.</p>
-
-<p>In addition, we also went through significant infrastructure
-improvements. In particular, we have set up a cleaner server structure
-to streamline each release. In response to Google's less frequent AOSP
-source code releases, our team developed scripts to reduce the
-overhead in applying monthly patches and updates. Please keep in mind,
-additional manual steps are still needed to compensate for AOSP
-changes, such as requesting and storing kernel sources with each
-update. Currently, our lead engineer is continuing the maintenance of
-the base device trees for both LineageOS and CalyxOS to bridge the gap
-created by the absence of Google Pixel device trees.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1081038/</guid>
-            <pubDate>Thu, 02 Jul 2026 20:58:45 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
