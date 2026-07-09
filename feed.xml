@@ -8,11 +8,210 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 08 Jul 2026 22:33:10 +0000</pubDate>
-        <lastBuildDate>Wed, 8 Jul 2026 23:49:00 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jul 2026 02:46:39 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jul 2026 02:54:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 2, 2026</title>
+            <link>https://lwn.net/Articles/1079457/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1079457/">Front</a>: Xsnow protestware; Git 2.55; Rhombus; kernel hardening; More LSFMM+BPF coverage; 7.2 merge window; Secure Boot certificate expiration; Ceph and Garage; OSPM 2026.
+            <li> <a href="https://lwn.net/Articles/1079459/">Briefs</a>: Akrites; Mageia 10; Git 2.55.0; Podman 6.0; systemd v261; Creative Commons chat; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1079460/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1079457/</guid>
+            <pubDate>Thu, 02 Jul 2026 00:18:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Efficient access to local storage for BPF programs</title>
+            <link>https://lwn.net/Articles/1078968/</link>
+            <description><![CDATA[<p>
+When a BPF program is used to filter or redirect packets in the networking
+subsystem, the program will often want to associate data with each packet as it
+moves through the kernel. The kernel's
+<a href="https://docs.ebpf.io/linux/helper-function/bpf_get_local_storage/">
+local BPF storage API</a>, which
+associates extra data with some kernel objects, provides a way to do that. (See also
+the <a href="https://docs.kernel.org/bpf/maps.html">BPF map types</a> that end
+in <tt>STORAGE</tt>.)
+Amery Hung and Jakub Sitnicki led two sessions
+at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
+about how to make accesses to local storage data more efficient. Hung spoke
+about general performance problems related to locking, while Sitnicki examined
+the use of local storage in the networking subsystem in particular.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1078968/</guid>
+            <pubDate>Wed, 01 Jul 2026 17:07:42 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Secure Boot certificate expiration is here</title>
+            <link>https://lwn.net/Articles/1079808/</link>
+            <description><![CDATA[<p>Linux users who have <a
+href="https://en.wikipedia.org/wiki/UEFI#Secure_Boot">Secure Boot</a> enabled on
+their systems rely on certificates issued by Microsoft to verify the software
+used to boot a system is trusted by the user. One of those certificates expired
+recently, but that will not cause systems that are able to boot to stop doing
+so. There are situations where the expiration may cause problems, however, and
+the window for relying on existing signed binaries is shorter than it might
+appear. Users and administrators will want to stay on top of these changes. Over
+the last year, part of my job at Microsoft has been to work on this
+problem. <a href="https://lwn.net/Articles/1029767/">LWN wrote about the
+certificate expiration in July 2025</a>, and this article follows up with where
+we are now.</p>]]></description>
+            <guid>https://lwn.net/Articles/1079808/</guid>
+            <pubDate>Wed, 01 Jul 2026 13:18:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Flexible metaprogramming with Rhombus</title>
+            <link>https://lwn.net/Articles/1079001/</link>
+            <description><![CDATA[<p>
+Lisp-like languages have historically led the world in metaprogramming and
+flexibility. While many modern languages have adopted the idea of macros,
+Lisp-like languages such as
+<a href="https://racket-lang.org/">
+Racket</a> have continued pushing the envelope,
+attempting to make macros as easy as possible to incorporate into everyday
+programs. On the other hand, Lisp's minimal, parenthesis-based syntax can be hard
+to adapt to — to the point that Lisp is sometimes said to stand
+for "Lots of Irritating Silly Parentheses".
+<a href="https://rhombus-lang.org/">
+Rhombus</a> is a new programming
+language that aims to have the best of both worlds, marrying Racket's
+metaprogramming capabilities to a simple Python-like syntax and reasonable
+standard-library defaults.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1079001/</guid>
+            <pubDate>Tue, 30 Jun 2026 13:09:28 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Xsnow &quot;protestware&quot; in Debian</title>
+            <link>https://lwn.net/Articles/1079385/</link>
+            <description><![CDATA[<p>The <a
+href="https://www.ratrabbit.nl/ratrabbit/xsnow/index.html">xsnow</a>
+application, which generates an animated snowfall effect (and other
+pleasant diversions) for X11 desktops, does not seem like an obvious
+channel for political statements. Nevertheless, xsnow's maintainer
+seems to have included a political protest in the program: an
+Easter egg that is triggered when the program's language is set to Russia
+("ru"). One user has complained that this functionality should be
+removed from the Debian <a
+href="https://packages.debian.org/STABLE/games/xsnow">xsnow
+package</a>, but Debian does not seem to have any rules that forbid
+such a feature outright.</p>]]></description>
+            <guid>https://lwn.net/Articles/1079385/</guid>
+            <pubDate>Mon, 29 Jun 2026 15:13:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The rest of the 7.2 merge window</title>
+            <link>https://lwn.net/Articles/1078539/</link>
+            <description><![CDATA[Linus Torvalds released <a
+href="https://lwn.net/ml/all/CAHk-=wiMaLpPbO+46RqC1=tYBYt9Z2yPJvswjKBJXh3FDxaaog@mail.gmail.com/">7.2-rc1</a>
+and closed the 7.2 merge window on June&#160;28; by that time, 13,412
+non-merge commits had found their way into the mainline.  That makes this
+the busiest merge window since the 6.7 development cycle in 2024 (15,418
+commits, including 2,800 for the entire bcachefs development history).
+Just under half of those commits arrived after <a
+href="https://lwn.net/Articles/1078068/">LWN's summary of the first half of the merge
+window</a> was written.  As usual, the commits in the latter part of the
+merge window were more heavily focused on fixes, but there were still a lot
+of new features and significant changes merged as well.]]></description>
+            <guid>https://lwn.net/Articles/1078539/</guid>
+            <pubDate>Mon, 29 Jun 2026 15:50:33 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reports from OSPM 2026, day three</title>
+            <link>https://lwn.net/Articles/1078697/</link>
+            <description><![CDATA[The <a href="https://retis.santannapisa.it/ospm-summit/">Power Management
+and Scheduling in the Linux Kernel Summit</a>, which still goes by the
+historical acronym OSPM, was held in Cambridge, UK, in mid-April.  As has
+become traditional, the presenters at that event have since written
+summaries of their sessions, and this work has kindly been made available
+to LWN for publication.  The third day's sessions covered a wide range of
+topics, including GPU affinity, profile-guided scheduling,
+paravirtualization scheduling, quality of service, and more.]]></description>
+            <guid>https://lwn.net/Articles/1078697/</guid>
+            <pubDate>Fri, 26 Jun 2026 18:01:46 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Initiating writeback earlier</title>
+            <link>https://lwn.net/Articles/1078767/</link>
+            <description><![CDATA[Writeback is the process of ensuring that dirty pages or folios in the page
+cache are flushed to the disk, so that changes to those files are made
+persistent.  In a filesystem-track session at the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>, Jeff Layton wanted to
+discuss whether the writeback operation should be initiated earlier than it
+is today.  The consensus seemed to be that it should be done earlier, but
+the path toward making that happen was less clear.]]></description>
+            <guid>https://lwn.net/Articles/1078767/</guid>
+            <pubDate>Fri, 26 Jun 2026 17:14:30 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] What&apos;s coming in Git 2.55</title>
+            <link>https://lwn.net/Articles/1079596/</link>
+            <description><![CDATA[The <a href="https://lwn.net/ml/all/xmqqv7b9mcfx.fsf@gitster.g">Git v2.55.0-rc2</a>
+testing release appeared on June&#160;23, suggesting that the final Git
+2.55 release can be expected in the near future.  While this Git update
+lacks radical new features, it does include a number of improvements that
+regular Git users will appreciate, including commands to easily edit the
+commit history, more formatting options, fsmonitor support for Linux, and
+more.]]></description>
+            <guid>https://lwn.net/Articles/1079596/</guid>
+            <pubDate>Fri, 26 Jun 2026 14:03:28 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at MinIO alternatives: Ceph and Garage</title>
+            <link>https://lwn.net/Articles/1077739/</link>
+            <description><![CDATA[<p><a href="https://github.com/minio/minio#minio-quickstart-guide">MinIO</a> is 
+a popular object-storage server that offered compatibility with the Amazon <a
+href="https://en.wikipedia.org/wiki/Amazon_S3">Simple Storage Service</a> (S3)
+API. In December 2025, the company behind the project (also named MinIO)
+<a
+href="https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2">announced</a>
+that the project was in maintenance mode and would not accept new changes; it
+was <a
+href="https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f">archived
+completely</a> in February 2026. MinIO users have been hunting for alternatives
+since then, but the array of choices can be baffling. While many other projects
+aim to fill the space, their strengths and areas of focus tend to vary. Two of
+the alternatives—<a href="https://ceph.io/en/">Ceph</a> and <a
+href="https://garagehq.deuxfleurs.fr/">Garage</a>—are particularly compelling,
+and both offer solid S3 compatibility.</p>]]></description>
+            <guid>https://lwn.net/Articles/1077739/</guid>
+            <pubDate>Thu, 25 Jun 2026 17:40:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Hardening the kernel with allocation tokens and bootpatch-SLR</title>
+            <link>https://lwn.net/Articles/1078699/</link>
+            <description><![CDATA[There is a lot of work going into eliminating exploitable bugs from the
+kernel and preventing the addition of new ones.  Even if this work is
+maximally successful, though, there is no chance that the kernel will be
+free of these bugs anytime soon.  Thus, there is also ongoing interest in
+hardening the kernel to make the existing bugs more difficult to exploit.
+The upcoming 7.2 kernel release will include a change to how dynamically
+allocated structures are placed in memory to make them harder to overwrite,
+while a project to randomize structure layout at boot time has a rather
+longer timeline.]]></description>
+            <guid>https://lwn.net/Articles/1078699/</guid>
+            <pubDate>Thu, 25 Jun 2026 14:02:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>OpenMandriva: Statement regarding attempted distribution sabotage</title>
             <link>https://lwn.net/Articles/1081884/</link>
@@ -354,199 +553,6 @@ being tracked on the Linux Foundation's IT status page.</p>
             <guid>https://lwn.net/Articles/1080956/</guid>
             <pubDate>Thu, 02 Jul 2026 13:17:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for June 25, 2026</title>
-            <link>https://lwn.net/Articles/1078380/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1078380/">Front</a>: Free-threaded Python; AUR attacks; Fedora 2FA; 7.2 merge window; BPF arenas; BPF coroutines; BPF JIT; RMR and BRMR; OSPM.
-            <li> <a href="https://lwn.net/Articles/1078382/">Briefs</a>: Tor deprecations; GIMP 0.54.1 flatpak; Mastodon 4.6; Systemd v261; Xfce on Wayland; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1078383/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1078380/</guid>
-            <pubDate>Thu, 25 Jun 2026 00:54:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] A helper library for BPF arenas</title>
-            <link>https://lwn.net/Articles/1078526/</link>
-            <description><![CDATA[<p>
-<a href="https://lwn.net/Articles/961941/">
-BPF arenas</a> are areas of memory (potentially shared with user space)
-where programs have free reign to build their
-own data structures, unburdened by the verifier's bounds checks. Many of those
-data structures are potentially usable in multiple programs. Emil Tsalapatis
-brought his work on libarena, a library containing generic utilities for use in
-BPF arenas, to the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF
-Summit</a>. Although the library is already available as part of the kernel, it
-is still in its early stages and he has more work planned.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1078526/</guid>
-            <pubDate>Wed, 24 Jun 2026 16:46:52 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora: 2FA, or not 2FA, that is the question</title>
-            <link>https://lwn.net/Articles/1078964/</link>
-            <description><![CDATA[<p>Compromised accounts are one of the most common ways that attackers
-can sneak malware into the open-source supply chain. One way to
-reduce account compromise is for projects to require two-factor
-authentication (2FA) or multi-factor authentication (MFA), but that is
-easier said than done. However, Fedora is currently discussing putting
-2FA requirements in place soon, following an <a
-href="https://lwn.net/Articles/1077035/">an alleged account
-compromise</a> that led to an AI agent causing a number of problems
-for the project. After some discussion, Fedora will begin by requiring
-packagers in the "<a
-href="https://docs.fedoraproject.org/en-US/fesco/Provenpackager_policy/">provenpackager</a>"
-group to enable 2FA within the next three months or so.</p>]]></description>
-            <guid>https://lwn.net/Articles/1078964/</guid>
-            <pubDate>Wed, 24 Jun 2026 17:01:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reports from OSPM 2026, day two</title>
-            <link>https://lwn.net/Articles/1078696/</link>
-            <description><![CDATA[The <a href="https://retis.santannapisa.it/ospm-summit/">Power Management
-and Scheduling in the Linux Kernel Summit</a>, which still goes by the
-historical acronym OSPM, was held in Cambridge, UK, in mid-April.  As has
-become traditional, the presenters at that event have since written
-summaries of their sessions, and this work has kindly been made available
-to LWN for publication.  The second day's sessions covered a wide range of
-topics, including device frequency scaling, using time-slice duration for
-CPU selection, scheduling domains on multi-cluster Arm systems, the LAVD
-scheduler, and more.]]></description>
-            <guid>https://lwn.net/Articles/1078696/</guid>
-            <pubDate>Wed, 24 Jun 2026 14:18:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] KASAN for JIT-compiled BPF code</title>
-            <link>https://lwn.net/Articles/1077740/</link>
-            <description><![CDATA[<p>
-Alexis Lothoré has been working to add support for the kernel's memory-access
-checker,
-<a href="https://docs.kernel.org/dev-tools/kasan.html">
-KASAN</a>, to just-in-time-compiled BPF code. He spoke about that work at
-the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
-KASAN support is needed, he said, to help catch bugs in the BPF just-in-time (JIT)
-compiler. KASAN is a great tool for catching memory-management problems in the
-kernel, but only in code that can be monitored by it.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1077740/</guid>
-            <pubDate>Tue, 23 Jun 2026 15:53:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Reports from OSPM 2026, day one</title>
-            <link>https://lwn.net/Articles/1077759/</link>
-            <description><![CDATA[The <a href="https://retis.santannapisa.it/ospm-summit/">Power Management
-and Scheduling in the Linux Kernel Summit</a>, which still goes by the
-historical acronym OSPM, was held in Cambridge, UK, in mid-April.  As has
-become traditional, the presenters at that event have since written
-summaries of their sessions, and this work has kindly been made available
-to LWN for publication.  The first day's sessions covered a wide range of
-topics, including idle-state selection, user-space schedulers with
-sched_ext, lock-holder preemption, and much more.]]></description>
-            <guid>https://lwn.net/Articles/1077759/</guid>
-            <pubDate>Mon, 22 Jun 2026 13:26:14 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Free-threaded Python: past, present, and future</title>
-            <link>https://lwn.net/Articles/1078367/</link>
-            <description><![CDATA[Probably the biggest change for Python over the last five years or so is
-the advent of the "free-threaded" version of the language, which removes the
-global interpreter lock (GIL) and allows multiple threads to run in
-parallel in the interpreter.  At <a href="https://us.pycon.org/2026/">PyCon
-US 2026</a>, held in Long Beach, California in mid-May, longtime CPython
-core developer (and current steering council member) Thomas Wouters gave a
-talk about the feature.  He looked at the motivation behind the GIL-removal
-efforts, some history,
-the current status of the free-threaded interpreter, and provided a
-prediction on where it all leads.]]></description>
-            <guid>https://lwn.net/Articles/1078367/</guid>
-            <pubDate>Mon, 22 Jun 2026 15:26:54 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Suspending and resuming BPF programs</title>
-            <link>https://lwn.net/Articles/1076210/</link>
-            <description><![CDATA[<p>
-BPF programs can be used to extend many aspects the Linux kernel, but
-BPF programs must run to completion in the same context that they began.
-Kumar Kartikeya Dwivedi is working on changing that by
-allowing BPF programs to be expressed as coroutines. He spoke about his work at
-the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management and BPF Summit</a>. While
-still experimental, the change promises to make long-running BPF tasks
-significantly easier to write.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1076210/</guid>
-            <pubDate>Fri, 19 Jun 2026 15:55:23 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] AURpocalypse now: a look at the recent AUR attacks</title>
-            <link>https://lwn.net/Articles/1077619/</link>
-            <description><![CDATA[<p>The <a href="https://aur.archlinux.org/">Arch User Repository</a> (AUR) has
-been subjected to a sustained attack recently. The attacker, or attackers, have
-spun up a series of new accounts then used them to adopt orphaned
-packages and push malicious updates that would install malware on users' systems.
-It is unclear how many users were compromised in the attack, but the maintainers
-were playing Whac-A-Mole for several days to respond to each newly compromised
-package. The project has <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/4JRS73YVTE7JUYHHE3ZDUIHXYHXZ3YQQ/">turned
-off the AUR's new-user registration</a>, for now, but it is unclear what its  
-long-term response will be or if the AUR can be secured without major changes to
-its existing collaboration model.</p>]]></description>
-            <guid>https://lwn.net/Articles/1077619/</guid>
-            <pubDate>Fri, 19 Jun 2026 14:40:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Single-hop block replication with RMR and BRMR</title>
-            <link>https://lwn.net/Articles/1074291/</link>
-            <description><![CDATA[<p>
-How can cloud providers efficiently supply durable virtual block devices? Remote
-Direct Memory Access (RDMA) provides a way for servers in a cluster to share
-chunks of memory, but there still needs to be a protocol that operates on top of
-RDMA to provide the guarantees expected of a block device. The kernel's RDMA transport
-library (RTRS) provides a way to send messages via RDMA. I
-<a href="https://lwn.net/images/2026/RMR_BRMR.pdf">presented</a> about two
-new components built on top of RTRS at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">Linux
-Storage, Filesystem, Memory Management and BPF Summit</a>: Reliable Multicast
-over RTRS (RMR) and Block device over RMR (BRMR). These modules, which I
-am working on with Jia Li, could be a way for cloud providers to
-expose durable block devices with as little overhead as possible. To accomplish
-that, however, we need some discussion and feedback from the community before
-sending the modules upstream.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1074291/</guid>
-            <pubDate>Thu, 18 Jun 2026 13:25:34 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] The first half of the 7.2 merge window</title>
-            <link>https://lwn.net/Articles/1078068/</link>
-            <description><![CDATA[The 7.2 merge window started with the <a
-href="https://lwn.net/ml/all/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/">7.1
-kernel release</a> on June&#160;14.  As of this writing, just over 7,000
-non-merge changesets have been pulled into the mainline for the next kernel
-release.  Many of the core subsystems have been pulled at this point,
-meaning that most of the changes that can be expected in 7.2 have now come
-into focus.]]></description>
-            <guid>https://lwn.net/Articles/1078068/</guid>
-            <pubDate>Thu, 18 Jun 2026 13:47:49 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
