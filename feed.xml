@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 09 Jul 2026 09:04:25 +0000</pubDate>
-        <lastBuildDate>Thu, 9 Jul 2026 10:20:54 +0000</lastBuildDate>
+        <pubDate>Thu, 09 Jul 2026 14:50:43 +0000</pubDate>
+        <lastBuildDate>Thu, 9 Jul 2026 15:48:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1082030/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, aardvark-dns, buildah, compat-openssl10, freeipmi, frr, gnutls, grafana, grafana-pcp, kernel, kernel-rt, libyang, nginx, openexr, pcs, perl-HTTP-Daemon, postgresql:18, python3.14-pip, skopeo, tomcat9, and wireshark), <b>Debian</b> (chromium and pgextwlist), <b>Fedora</b> (openssh, opkssh, perl-CSS-Minifier-XS, python-jiter, python-nh3, python-pendulum, rust-jiter, and upower), <b>Mageia</b> (openvpn and vips), <b>Oracle</b> (389-ds-base, aardvark-dns, compat-openssl10, container-tools:ol8, freeipmi, kernel, libyang, perl-HTTP-Daemon, python3.14-pip, and skopeo), <b>Slackware</b> (libXfont2, proftpd, and xorg-server), <b>SUSE</b> (alloy, apache2, apptainer, assimp, chromium, clamav, docker, docker-compose, dracut, glib-networking, go-sendxmpp, go1.26-openssl, gstreamer-plugins-good, haproxy, hauler, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformats-binary, jackson-modules-base, jackson-parent, kernel, krb5, kubevirt, libslirp, libXfont2, mpv, libkpipewirerecord6, ffmpegthumbs-kf5, netty, netty-tcnative, openqa, os-autoinst, podman, python-maturin, python-msgpack, python313-yt-dlp, radare2, rust-keylime, systemd, systemd, systemd-mini, tomcat11, trivy, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (apache2, clamav, linux-raspi, and mailcap).]]></description>
+            <guid>https://lwn.net/Articles/1082030/</guid>
+            <pubDate>Thu, 09 Jul 2026 13:00:11 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Rust 1.97.0 released</title>
+            <link>https://lwn.net/Articles/1082032/</link>
+            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/">Version
+1.97.0</a> of the Rust programming language has been released.  Changes
+include using a new symbol-mangling scheme by default, support for denying
+warnings in Cargo, and an end to the practice of hiding the linker's output
+after a successful build.]]></description>
+            <guid>https://lwn.net/Articles/1082032/</guid>
+            <pubDate>Thu, 09 Jul 2026 13:19:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 2, 2026</title>
             <link>https://lwn.net/Articles/1079457/</link>
@@ -544,14 +564,6 @@ being tracked on the Linux Foundation's IT status page.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1081015/</guid>
             <pubDate>Thu, 02 Jul 2026 16:39:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1080956/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (giflib, kernel, mariadb:10.11, mod_http2, php, rrdtool, ruby, ruby:3.3, and ruby:4.0), <b>Debian</b> (jq and node-lodash), <b>Fedora</b> (caddy, hut, ipp-usb, kernel, opkssh, rclone, thunderbird, and transmission), <b>SUSE</b> (389-ds, 7zip, alsa, amazon-ecs-init, avahi, cadvisor, cosign, cups, dnsdist, docker, dracut, firefox, firewalld, giflib, glib-networking, glycin-loaders, google-cloud-sap-agent, google-guest-agent, gsasl, hauler, helm, ImageMagick, kernel, keylime, krb5, libaom, libexif, libgcrypt, libnfs, libssh2_org, loupe, lrzip, mutt, ncurses, nodejs22, openCryptoki, openssh, openssl-3, pacemaker, perl-Config-IniFiles, perl-CSS-Minifier-XS, perl-DBI, perl-JavaScript-Minifier-XS, perl-libwww-perl, postfix, python-click, python-idna, python-Markdown, python-joblib, python-handy-archives, python-apache-libcloud, python-WebOb, python-PyGithub, python-soupsieve, python-pip, python-pytest-html, python-python-dotenv, python-python-multipart, python-starlette, python-tornado6, python-zeroconf, python311, python311-jupyter-server, rpcbind, sed, sg3_utils, tar, tiff, and util-linux), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, linux-oracle, linux-realtime, linux, linux-aws, linux-aws-fips, linux-gcp, linux-gcp-fips, linux-ibm, linux-nvidia, linux-nvidia-6.8, linux-oracle, linux-realtime, linux-realtime-6.8, linux-oem-6.17, and linux-oem-7.0).]]></description>
-            <guid>https://lwn.net/Articles/1080956/</guid>
-            <pubDate>Thu, 02 Jul 2026 13:17:54 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
