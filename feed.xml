@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 10 Jul 2026 12:30:16 +0000</pubDate>
-        <lastBuildDate>Fri, 10 Jul 2026 12:38:16 +0000</lastBuildDate>
+        <pubDate>Fri, 10 Jul 2026 15:20:51 +0000</pubDate>
+        <lastBuildDate>Fri, 10 Jul 2026 15:21:04 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1082272/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (aardvark-dns, cups, edk2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, oci-seccomp-bpf-hook, python-urllib3, and tomcat), <b>Debian</b> (rlottie), <b>Fedora</b> (c-ares, k9s, kind, libXfont2, nmap, pam, perl-DBI, php, python-pendulum, tmux, and xorg-x11-server-Xwayland), <b>Mageia</b> (7zip and ack), <b>Slackware</b> (tigervnc), <b>SUSE</b> (alloy, cargo-c, chromium, clamav, cosign, dirmngr, firefox, flannel, fluidsynth, gnutls, go1.25, go1.26, gol, GraphicsMagick, helm, kernel-devel, libaom, libexif, openQA, os-autoinst, python-Django, python-idna, python-sqlparse, rust-keylime, rustup, sccache, SUSE Manager Client Tools, SUSE_Multi-Linux_Manager Client Tools, transmission, and warewulf4), and <b>Ubuntu</b> (curl, expat, golang-go.crypto, libheif, libidn, libraw, libsoup2.4, linux, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux-oracle, linux-aws, linux-aws-fips, linux-azure-fips, linux-fips, linux-raspi, linux-xilinx-zynqmp, and python2.7, python3.5).]]></description>
+            <guid>https://lwn.net/Articles/1082272/</guid>
+            <pubDate>Fri, 10 Jul 2026 13:41:03 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1082030/</link>
@@ -419,14 +427,6 @@ timeline, and more.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1081199/</guid>
             <pubDate>Fri, 03 Jul 2026 15:54:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1081187/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, bind9.18, evince, fence-agents, freerdp, frr, frr10, gimp, gnutls, hplip, jmc, mariadb:11.8, mysql:8.4, php:7.4, postgresql-jdbc, postgresql:15, postgresql:16, valkey, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (fastnetmon), <b>Fedora</b> (7zip, apptainer, cpp-httplib, mysql8.4, and nmap), <b>Oracle</b> (freerdp, giflib, glib2, glibc, kernel, libreoffice, libvirt, mariadb:10.11, postgresql, python3.11, python3.12, rrdtool, and thunderbird), <b>Red Hat</b> (buildah, podman, and skopeo), <b>SUSE</b> (alloy, apache2, buildah, c3p0, containerd, crun, cups, dhcpcd, dnsmasq, docker-stable, dracut, editorconfig-core-c, ffmpeg-7, fontforge, google-guest-agent, google-osconfig-agent, graphicsmagick, gstreamer-plugins-bad, gstreamer-plugins-good, helm, jackson-annotations, jackson-core, jackson-databind, jline3, kernel, kubectl-cnpg, lcms2, libslirp, libssh2_org, libxreaderdocument3, openbabel, openssl-3, pacemaker, perl-CGI-Session, perl-list-someutils-xs, python-lxml, python-tornado, python-tornado6, python3-onionshare, python311-python-engineio, sg3_utils, thunderbird, transmission, and trivy), and <b>Ubuntu</b> (cifs-utils, kernel, libvncserver, linux-aws-6.8, linux-gcp-6.8, linux-gke, linux-gkeop, linux-ibm-6.8, linux-nvidia-lowlatency, linux-oracle-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia-tegra, linux-oracle-5.15, linux-raspi, linux-xilinx, nghttp2, nginx, perl, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1081187/</guid>
-            <pubDate>Fri, 03 Jul 2026 13:03:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
