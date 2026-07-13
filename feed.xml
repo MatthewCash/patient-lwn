@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Jul 2026 16:10:44 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Jul 2026 16:33:09 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Jul 2026 18:13:16 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Jul 2026 18:21:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,25 +349,6 @@ publishing in June.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1081690/</guid>
             <pubDate>Tue, 07 Jul 2026 14:27:57 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenSSH 10.4 released</title>
-            <link>https://lwn.net/Articles/1081536/</link>
-            <description><![CDATA[<p>OpenSSH 10.4 has been released. In addition to a number of security
-and bug fixes, there are a few notable changes; this release adds
-experimental support for a composite post-quantum signature scheme
-combining ML-DSA 44 and Ed25519 as described in <a
-href="https://datatracker.ietf.org/doc/draft-miller-sshm-mldsa44-ed25519-composite-sigs/">this
-IETF draft</a>. With 10.4, if OpenSSH is compiled with sandbox support
-it will fail on Linux systems that have not enabled <tt>SECCOMP</tt>
-or <tt>NO_NEW_PRIVS</tt>; prior to this release, <tt><a
-href="https://man.openbsd.org/sshd.8">sshd</a></tt> would log an error
-but continue operation. See the <a
-href="https://www.openssh.org/txt/release-10.4">release notes</a> for
-a full list of changes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1081536/</guid>
-            <pubDate>Mon, 06 Jul 2026 16:13:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
