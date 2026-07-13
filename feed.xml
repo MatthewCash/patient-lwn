@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 13 Jul 2026 11:29:53 +0000</pubDate>
-        <lastBuildDate>Mon, 13 Jul 2026 11:32:43 +0000</lastBuildDate>
+        <pubDate>Mon, 13 Jul 2026 13:45:57 +0000</pubDate>
+        <lastBuildDate>Mon, 13 Jul 2026 13:50:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1082642/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, libxfont, mesa, opam, and wireless-regdb), <b>Fedora</b> (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenImageIO, openssh, p11-kit, perl-Crypt-DSA, perl-HTML-Gumbo, prometheus, python-dulwich, python-idna, python-pillow, python-tornado, sssd, tmux, upower, webkitgtk, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (libarchive and vim), <b>Oracle</b> (389-ds:1.4, buildah, cups, edk2, freerdp, golang, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libexif, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, nodejs:22, nodejs:24, oci-seccomp-bpf-hook, podman, postgresql:18, python-urllib3, tigervnc, tomcat, unbound, and xorg-x11-server), <b>Slackware</b> (p11-kit), and <b>SUSE</b> (agama, dash, dracut, flannel, go1.26, gsasl, gstreamer-plugins-good, ImageMagick, imagemagick, kernel, krb5, krb5, krb5-mini, libIex-3_4-33, libmbedtls23, libxfont2, nasm, nghttp2, perl-CGI-Session, perl-dbi, perl-List-SomeUtils-XS, python-pillow, python-social-auth-app-django, python-urllib3, python313-Django4, python313-Django6, python313-pytest-html, python313-sqlparse, python313-websockets, rclone, rust-keylime, rustup, sccache, spectre-meltdown-checker, sssd, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, tiff, traefik2, xorg-x11-server, and xwayland).]]></description>
+            <guid>https://lwn.net/Articles/1082642/</guid>
+            <pubDate>Mon, 13 Jul 2026 12:40:26 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Final normal Debian bookworm release</title>
+            <link>https://lwn.net/Articles/1082647/</link>
+            <description><![CDATA[<p>
+Debian has
+<a href="https://lwn.net/Articles/1082645/">announced</a> the final normal update for Debian 12 ("bookworm"). Long-term-support updates will <a href="https://lwn.net/ml/all/a27c47d0f34f36e497d2596a9adfbcb662cd4439.camel%40debian.org/">continue until 2028</a>. As may be expected from a stable version, the update is mostly limited to security fixes. Still, it may be time for Debian users to look into upgrading to a more recent version. Conveniently, Debian 13 ("trixie") also
+<a href="https://lwn.net/Articles/1082646/">received an update</a> this weekend, with many of the same security fixes.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1082647/</guid>
+            <pubDate>Mon, 13 Jul 2026 13:26:16 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc3</title>
             <link>https://lwn.net/Articles/1082487/</link>
