@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 15 Jul 2026 15:02:06 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jul 2026 15:26:37 +0000</lastBuildDate>
+        <pubDate>Wed, 15 Jul 2026 16:19:26 +0000</pubDate>
+        <lastBuildDate>Wed, 15 Jul 2026 16:51:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</title>
+            <link>https://lwn.net/Articles/1083076/</link>
+            <description><![CDATA[<p>The SUSE Security Team Blog has a <a
+href="https://security.opensuse.org/2026/07/15/selinux-seunshare.html">post</a>
+with an analysis of <a
+href="https://man7.org/linux/man-pages/man8/seunshare.8.html"><tt>seunshare</tt></a>,
+which is used by SELinux to confine untrusted programs. During a
+review of <a
+href="https://github.com/SELinuxProject/selinux/releases/tag/3.10">version
+3.10</a> of the program, the team identified two local
+Denial-of-Service (DoS) vectors.</p>
+
+<blockquote class="bq">
+<p>Since <tt>seunshare</tt> is supposed to run on SELinux-enabled systems, it
+is important to understand what kind of privilege escalation can be
+achieved when vulnerabilities are exploited in a setuid-root binary
+like this. Many SELinux-enabled systems, such as Fedora and openSUSE,
+ship with the "targeted" SELinux policy by default. This policy is
+focused on confining well-known system services, but assigns an
+unconfined SELinux context to interactive users by default to achieve
+a balance between security and usability.</p>
+
+<p>There is currently no domain transition from the unconfined domain
+to the more restricted <tt>seunshare_t</tt> defined in the SELinux policy for
+<tt>seunshare</tt>. This means the execution of <tt>seunshare</tt> continues in the
+unconfined domain. Thus in the context of attacks carried out by
+interactive users, the impact of the vulnerabilities below will be a
+root-like privilege escalation despite the system running in SELinux
+enforced mode.</p>
+</blockquote>
+
+<p>See the post for the full write-up of the team's discoveries and timeline. The
+vulnerabilities have been fixed in <a
+href="https://github.com/SELinuxProject/selinux/releases/tag/3.11">version&#160;3.11</a>.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1083076/</guid>
+            <pubDate>Wed, 15 Jul 2026 15:52:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Many old shim versions are still accepted by secure boot</title>
             <link>https://lwn.net/Articles/1082940/</link>
