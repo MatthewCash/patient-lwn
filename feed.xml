@@ -9,10 +9,113 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Wed, 15 Jul 2026 22:56:58 +0000</pubDate>
-        <lastBuildDate>Wed, 15 Jul 2026 23:42:06 +0000</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jul 2026 01:09:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 9, 2026</title>
+            <link>https://lwn.net/Articles/1080835/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1080835/">Front</a>: Cryptography API; Iomap explanation; Negative dentries; Faster RCUs and lockless allocation for BPF; Negative dentries; LLMs in memory-management code
+            <li> <a href="https://lwn.net/Articles/1080837/">Briefs</a>: Guix vulnerabilities; OpenSSH 10.4; trusted publishing; kernel archive; CalyxOS; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1080838/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1080835/</guid>
+            <pubDate>Thu, 09 Jul 2026 01:12:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Progress in modernizing kernel cryptography</title>
+            <link>https://lwn.net/Articles/1077427/</link>
+            <description><![CDATA[<p>At the 2026 <a href="https://events.linuxfoundation.org/linux-security-summit-north-america/">Linux Security Summit North America</a>, Eric Biggers spoke about
+some of the problems with the kernel's cryptography framework, as well
+as the recent progress in adding library APIs to allow developers to
+use cryptographic functions without using the traditional crypto
+API. He walked through a couple of examples to demonstrate the
+frailty of the original API and showed how the new library API made
+life easier for developers and kernel maintainers.</p>]]></description>
+            <guid>https://lwn.net/Articles/1077427/</guid>
+            <pubDate>Wed, 08 Jul 2026 13:14:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Faster RCUs and lockless memory allocation</title>
+            <link>https://lwn.net/Articles/1081009/</link>
+            <description><![CDATA[<p>
+Puranjay Mohan shared some of the
+<a href="https://lwn.net/ml/all/20260417231203.785172-1-puranjay@kernel.org/">
+work</a> he's been doing recently on improving the
+performance of read-copy-update (RCU) at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux
+Storage, Filesystem, Memory-Management, and BPF Summit</a>; his talk would have
+been nice context to have earlier in the day when Harry Yoo and Alexei
+Starovoitov led a session about the
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=af92793e52c3">
+new <tt>kmalloc_nolock()</tt> function</a> that
+allows for lockless allocation from any kernel context, and which interacts with
+the RCU subsystem to allow that. This article therefore covers the two sessions
+together and in the reverse order, to provide that missing context.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1081009/</guid>
+            <pubDate>Tue, 07 Jul 2026 13:39:34 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The kernel&apos;s iomap layer</title>
+            <link>https://lwn.net/Articles/1079415/</link>
+            <description><![CDATA[Conversations about the kernel's filesystem implementations often involve a
+layer called "iomap", but relatively few people can reliably say what iomap
+actually is.  That is just the kind of gap that LWN exists to fill.  In
+short, iomap handles the mapping between data in the filesystem space
+(identified by a file of interest, and an offset within that file) and in
+the storage space (which may be a memory location, or a set of blocks on a
+storage device).  Using that mapping, iomap handles a long list of common,
+filesystem-related tasks, allowing a lot of boilerplate code to be removed
+from individual filesystem implementations.]]></description>
+            <guid>https://lwn.net/Articles/1079415/</guid>
+            <pubDate>Mon, 06 Jul 2026 14:37:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Limiting negative dentries</title>
+            <link>https://lwn.net/Articles/1079407/</link>
+            <description><![CDATA[A number of problems related to negative directory entries (dentries) were
+the topic of a filesystem-track session at
+the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  Negative dentries are
+used to indicate that a file of a given name does not exist in a directory;
+it is an optimization that short-circuits the lookup of the file name when
+the answer is already known.
+
+Miklos Szeredi led a
+session that discussed
+some problems that come from having too many negative dentries for a
+directory.]]></description>
+            <guid>https://lwn.net/Articles/1079407/</guid>
+            <pubDate>Fri, 03 Jul 2026 14:10:03 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Two LLM-assisted memory-management patch sets</title>
+            <link>https://lwn.net/Articles/1080162/</link>
+            <description><![CDATA[The kernel community (like many other free-software projects) has recently
+seen a large influx of patches developed with the assistance of large
+language models (LLMs).  Those patches tend to come from developers who
+were previously unknown to the community.  At the moment, though, the
+memory-management developers are evaluating two large patch sets, developed
+with LLM assistance, that were submitted by established and well-respected
+developers.  The rather different reception accorded to that work may give
+insights into how LLM-generated contributions will be handled going
+forward.]]></description>
+            <guid>https://lwn.net/Articles/1080162/</guid>
+            <pubDate>Thu, 02 Jul 2026 14:06:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</title>
             <link>https://lwn.net/Articles/1083076/</link>
