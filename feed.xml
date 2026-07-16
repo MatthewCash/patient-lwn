@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Jul 2026 14:24:32 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Jul 2026 15:01:40 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Jul 2026 15:50:29 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Jul 2026 16:26:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -280,26 +280,6 @@ vacation)</q>".]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (aardvark-dns, cups, edk2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, oci-seccomp-bpf-hook, python-urllib3, and tomcat), <b>Debian</b> (rlottie), <b>Fedora</b> (c-ares, k9s, kind, libXfont2, nmap, pam, perl-DBI, php, python-pendulum, tmux, and xorg-x11-server-Xwayland), <b>Mageia</b> (7zip and ack), <b>Slackware</b> (tigervnc), <b>SUSE</b> (alloy, cargo-c, chromium, clamav, cosign, dirmngr, firefox, flannel, fluidsynth, gnutls, go1.25, go1.26, gol, GraphicsMagick, helm, kernel-devel, libaom, libexif, openQA, os-autoinst, python-Django, python-idna, python-sqlparse, rust-keylime, rustup, sccache, SUSE Manager Client Tools, SUSE_Multi-Linux_Manager Client Tools, transmission, and warewulf4), and <b>Ubuntu</b> (curl, expat, golang-go.crypto, libheif, libidn, libraw, libsoup2.4, linux, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux-oracle, linux-aws, linux-aws-fips, linux-azure-fips, linux-fips, linux-raspi, linux-xilinx-zynqmp, and python2.7, python3.5).]]></description>
             <guid>https://lwn.net/Articles/1082272/</guid>
             <pubDate>Fri, 10 Jul 2026 13:41:03 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1082030/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, aardvark-dns, buildah, compat-openssl10, freeipmi, frr, gnutls, grafana, grafana-pcp, kernel, kernel-rt, libyang, nginx, openexr, pcs, perl-HTTP-Daemon, postgresql:18, python3.14-pip, skopeo, tomcat9, and wireshark), <b>Debian</b> (chromium and pgextwlist), <b>Fedora</b> (openssh, opkssh, perl-CSS-Minifier-XS, python-jiter, python-nh3, python-pendulum, rust-jiter, and upower), <b>Mageia</b> (openvpn and vips), <b>Oracle</b> (389-ds-base, aardvark-dns, compat-openssl10, container-tools:ol8, freeipmi, kernel, libyang, perl-HTTP-Daemon, python3.14-pip, and skopeo), <b>Slackware</b> (libXfont2, proftpd, and xorg-server), <b>SUSE</b> (alloy, apache2, apptainer, assimp, chromium, clamav, docker, docker-compose, dracut, glib-networking, go-sendxmpp, go1.26-openssl, gstreamer-plugins-good, haproxy, hauler, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformats-binary, jackson-modules-base, jackson-parent, kernel, krb5, kubevirt, libslirp, libXfont2, mpv, libkpipewirerecord6, ffmpegthumbs-kf5, netty, netty-tcnative, openqa, os-autoinst, podman, python-maturin, python-msgpack, python313-yt-dlp, radare2, rust-keylime, systemd, systemd, systemd-mini, tomcat11, trivy, xorg-x11-server, and xwayland), and <b>Ubuntu</b> (apache2, clamav, linux-raspi, and mailcap).]]></description>
-            <guid>https://lwn.net/Articles/1082030/</guid>
-            <pubDate>Thu, 09 Jul 2026 13:00:11 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Rust 1.97.0 released</title>
-            <link>https://lwn.net/Articles/1082032/</link>
-            <description><![CDATA[<a href="https://blog.rust-lang.org/2026/07/09/Rust-1.97.0/">Version
-1.97.0</a> of the Rust programming language has been released.  Changes
-include using a new symbol-mangling scheme by default, support for denying
-warnings in Cargo, and an end to the practice of hiding the linker's output
-after a successful build.]]></description>
-            <guid>https://lwn.net/Articles/1082032/</guid>
-            <pubDate>Thu, 09 Jul 2026 13:19:01 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
