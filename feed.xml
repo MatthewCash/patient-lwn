@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 16 Jul 2026 12:30:12 +0000</pubDate>
-        <lastBuildDate>Thu, 16 Jul 2026 12:53:10 +0000</lastBuildDate>
+        <pubDate>Thu, 16 Jul 2026 14:24:32 +0000</pubDate>
+        <lastBuildDate>Thu, 16 Jul 2026 15:01:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1083201/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups, git-lfs, kernel, libsolv, libxml2, python3.12, and python3.9), <b>Debian</b> (chromium, dhcpcd5, and ntfs-3g), <b>Fedora</b> (firefox, perl-Imager, python-bcrypt, python-tiktoken, roundcubemail, and xrdp), <b>Mageia</b> (openssl, poppler, python-mistune, and tmux), <b>Oracle</b> (389-ds-base, cups, git-lfs, glibc, host-metering, kernel, libsolv, libxml2, nginx:1.24, PackageKit, python-pillow, and qemu-kvm), <b>Red Hat</b> (buildah, containernetworking-plugins, and skopeo), <b>SUSE</b> (buildah, cosign, curl, distribution, dnsmasq, glib-networking, glibc, gnutls, gstreamer-plugins-bad, ImageMagick, kernel, podman, python-cryptography, python313-django-debug-toolbar, rekor, sccache, sssd, and yelp), and <b>Ubuntu</b> (dotnet8, dotnet10, libslirp, luajit, python-idna, sympa, and tomcat8).]]></description>
+            <guid>https://lwn.net/Articles/1083201/</guid>
+            <pubDate>Thu, 16 Jul 2026 13:02:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 9, 2026</title>
             <link>https://lwn.net/Articles/1080835/</link>
