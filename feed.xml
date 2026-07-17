@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Jul 2026 15:59:20 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jul 2026 16:47:55 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Jul 2026 17:03:50 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Jul 2026 18:06:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</title>
+            <link>https://lwn.net/Articles/1083392/</link>
+            <description><![CDATA[<p>Collabora has published a <a
+href="https://www.collabora.com/news-and-blog/news-and-events/building-an-arch-linux-aarch64-port-for-holo-core.html">blog
+post</a> about its work with Valve on Holo Core, which is a port of Arch Linux to
+aarch64 to be used as the the operating system on Valve's
+64-bit Arm Steam Frame gaming system. Collabora has released the
+<a
+href="https://gitlab.steamos.cloud/holo/holo-core-aarch64-preview">sources</a>,
+<a
+href="https://steamdeck-packages.steamos.cloud/holo-core-aarch64-preview/mash-20251118.3/">binary
+packages</a>, and a container image for aarch64 devices. The post
+describes some of the challenges in porting Arch Linux to a new
+architecture, and what remains to be done:</p>
+
+<blockquote class="bq">
+<p>Whilst the infrastructure developed to this point is capable of
+building from first principles up until a point-in-time snapshot, the
+next step is to build this into a system which can track Arch Linux as
+it is developed. This work will serve as the basis of a
+continuously-operating CI system capable of shadowing Arch Linux
+itself. We will work with the upstream Arch Linux project to help Arch
+with their efforts to port the distribution to <tt>aarch64</tt> architecture
+and work towards automated repeatable builds.</p>
+</blockquote>
+
+<p>The post also includes instructions on how to create and test an
+aarch64 build container on an x86_64 host, for users who would like to
+follow along at home but lack a 64-bit Arm device.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1083392/</guid>
+            <pubDate>Fri, 17 Jul 2026 17:03:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1083388/</link>
