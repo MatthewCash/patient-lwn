@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 17 Jul 2026 11:09:17 +0000</pubDate>
-        <lastBuildDate>Fri, 17 Jul 2026 12:09:37 +0000</lastBuildDate>
+        <pubDate>Fri, 17 Jul 2026 13:06:22 +0000</pubDate>
+        <lastBuildDate>Fri, 17 Jul 2026 14:03:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1083388/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, container-tools:rhel8, libreoffice, nodejs:24, perl-XML-LibXML, and python3.12), <b>Fedora</b> (ansible-collection-ansible-posix, firefox, freerdp, ImageMagick, mingw-glib2, perl-DBI, perl-HTTP-Date, rust-cargo-rpmstatus, and rust-opendal), <b>Oracle</b> (cifs-utils, gegl, gimp, git-lfs, go-toolset:ol8, hplip, kernel, libreoffice, maven:3.9, perl-XML-LibXML, python3, python3.12, python3.9, and uek-kernel), <b>Red Hat</b> (kernel, kernel-rt, and podman), <b>Slackware</b> (netatalk), <b>SUSE</b> (agama, aws-nitro-enclaves-binaryblobs-upstream, gimp, gpsd, grafana, hostapd, ImageMagick, jackson-databind, kernel, libssh2_org, nm-configurator, opennlp, perl-Mojolicious, python-Pillow, python-python-engineio, python-python-socketio, and tomcat11), and <b>Ubuntu</b> (ntfs-3g, python-authlib, ruby2.3, tar, and ubuntu-advantage-tools).]]></description>
+            <guid>https://lwn.net/Articles/1083388/</guid>
+            <pubDate>Fri, 17 Jul 2026 13:06:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1083201/</link>
