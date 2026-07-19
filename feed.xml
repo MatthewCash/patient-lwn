@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 19 Jul 2026 22:11:58 +0000</pubDate>
-        <lastBuildDate>Sun, 19 Jul 2026 22:35:59 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 19 Jul 2026 23:40:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -349,18 +349,6 @@ Debian has
             <guid>https://lwn.net/Articles/1082647/</guid>
             <pubDate>Mon, 13 Jul 2026 13:26:16 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.2-rc3</title>
-            <link>https://lwn.net/Articles/1082487/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1082486/">7.2-rc3</a> kernel prepatch is out for
-testing.  Linus said: "<q>Things continue to look normal (the 'new normal'
-with slightly higher rates of commits, although I do get the feeling that
-we're seeing that slightly balanced out by people starting to go on summer
-vacation)</q>".]]></description>
-            <guid>https://lwn.net/Articles/1082487/</guid>
-            <pubDate>Sun, 12 Jul 2026 23:29:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
