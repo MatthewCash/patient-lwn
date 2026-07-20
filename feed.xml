@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Jul 2026 13:00:07 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Jul 2026 13:05:37 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Jul 2026 13:47:05 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Jul 2026 15:21:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1083708/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel, libnfs, roundcube, and tiff), <b>Fedora</b> (antlr4-project, chromium, erlang, libseccomp, libtiff, log4cxx, mbedtls, node-exporter, opam, openssh, proftpd, python-asyncssh, python-django5, python-libcst, python-orjson, python-uv-build, ruby, rust-astral_async_zip, spoofdpi, uv, and yq), <b>Mageia</b> (bind, clamav, erlang, libidn, libreoffice, nmap, nodejs, perl-Bytes-Random-Secure, perl-Config-IniFiles, perl-CSS-Minifier-XS, perl-HTML-Parser, perl-Mojolicious, perl-String-Util, python-pydantic-settings, rsync, and upower), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, cockpit, cockpit-image-builder, coreutils, delve, dnsmasq, dovecot, expat, fence-agents, flatpak, frr, gdk-pixbuf2, giflib, glib2, go-fdo-client and go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, jq, kernel, keylime, krb5, libcap, libexif, libpng, libsndfile, libsolv, libsoup3, libtasn1, libtiff, libxslt, libyang, mariadb10.11, mod_http2, mod_md, opencryptoki, PackageKit, perl-Archive-Tar, perl-IO-Compress, poppler, postfix, postgresql-jdbc, python-urllib3, python3.14, python3.14-pip, python3.14-urllib3, qt6-qtdeclarative, rrdtool, rsync, ruby, ruby4.0, samba, skopeo, thunderbird, valkey, wireshark, xorg-x11-server-Xwayland, and yggdrasil-worker-package-manager), and <b>SUSE</b> (blender, chromium, containerized-data-importer1, cyrus-imapd, go1.26-openssl, gomuks, grafana, gstreamer-plugins-bad, kbfs, kubevirt1.8-container-disk, libxml2, lux, mariadb-connector-c, nginx, opam, openssl-3, oras, perl-DBI, php-composer2, python-django-haystack, python-paramiko, python-weasyprint, python311, python313-Pillow, python315, shibboleth-sp, system-user-zabbix, and wget).]]></description>
+            <guid>https://lwn.net/Articles/1083708/</guid>
+            <pubDate>Mon, 20 Jul 2026 13:10:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc4</title>
             <link>https://lwn.net/Articles/1083543/</link>
@@ -329,26 +337,6 @@ July&#160;24.]]></description>
             <guid>https://lwn.net/Articles/1082838/</guid>
             <pubDate>Tue, 14 Jul 2026 13:41:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1082642/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, libxfont, mesa, opam, and wireless-regdb), <b>Fedora</b> (acl, attr, chromium, cjson, composer, docker-compose, jfrog-cli, librabbitmq, libssh2, libXfont2, log4cxx, OpenImageIO, openssh, p11-kit, perl-Crypt-DSA, perl-HTML-Gumbo, prometheus, python-dulwich, python-idna, python-pillow, python-tornado, sssd, tmux, upower, webkitgtk, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (libarchive and vim), <b>Oracle</b> (389-ds:1.4, buildah, cups, edk2, freerdp, golang, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, kernel, libexif, libsolv, libtasn1, libxml2, nginx:1.24, nginx:1.26, nodejs:22, nodejs:24, oci-seccomp-bpf-hook, podman, postgresql:18, python-urllib3, tigervnc, tomcat, unbound, and xorg-x11-server), <b>Slackware</b> (p11-kit), and <b>SUSE</b> (agama, dash, dracut, flannel, go1.26, gsasl, gstreamer-plugins-good, ImageMagick, imagemagick, kernel, krb5, krb5, krb5-mini, libIex-3_4-33, libmbedtls23, libxfont2, nasm, nghttp2, perl-CGI-Session, perl-dbi, perl-List-SomeUtils-XS, python-pillow, python-social-auth-app-django, python-urllib3, python313-Django4, python313-Django6, python313-pytest-html, python313-sqlparse, python313-websockets, rclone, rust-keylime, rustup, sccache, spectre-meltdown-checker, sssd, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, tiff, traefik2, xorg-x11-server, and xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1082642/</guid>
-            <pubDate>Mon, 13 Jul 2026 12:40:26 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Final normal Debian bookworm release</title>
-            <link>https://lwn.net/Articles/1082647/</link>
-            <description><![CDATA[<p>
-Debian has
-<a href="https://lwn.net/Articles/1082645/">announced</a> the final normal update for Debian 12 ("bookworm"). Long-term-support updates will <a href="https://lwn.net/ml/all/a27c47d0f34f36e497d2596a9adfbcb662cd4439.camel%40debian.org/">continue until 2028</a>. As may be expected from a stable version, the update is mostly limited to security fixes. Still, it may be time for Debian users to look into upgrading to a more recent version. Conveniently, Debian 13 ("trixie") also
-<a href="https://lwn.net/Articles/1082646/">received an update</a> this weekend, with many of the same security fixes.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1082647/</guid>
-            <pubDate>Mon, 13 Jul 2026 13:26:16 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
