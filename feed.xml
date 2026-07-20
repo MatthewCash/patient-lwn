@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 20 Jul 2026 13:47:05 +0000</pubDate>
-        <lastBuildDate>Mon, 20 Jul 2026 15:21:48 +0000</lastBuildDate>
+        <pubDate>Mon, 20 Jul 2026 16:53:32 +0000</pubDate>
+        <lastBuildDate>Mon, 20 Jul 2026 16:55:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Catanzaro: Some changes to GNOME security tracking</title>
+            <link>https://lwn.net/Articles/1083754/</link>
+            <description><![CDATA[<p>Michael Catanzaro, who has been managing GNOME security issue tracking since
+November 2020, has written a <a href="https://blogs.gnome.org/mcatanzaro/2026/07/20/some-changes-to-gnome-security-tracking/">blog post</a> that details some changes in how he will
+be managing GNOME vulnerability reports from now on due to an increase in
+AI-generated security reports. He will be switching from a 90-day deadline for
+disclosures to 30 days for issues reported on August&#160;1, or later. "<q>The
+shorter deadline would probably work better for GNOME even if not for the
+increase in AI-generated issue reports.</q>"</p>
+
+<p>He also has indicated that he will be stepping away from the task of managing
+security issue tracking entirely by December 1, 2026, which means that there
+will be a gap to fill:</p>
+
+<blockquote class="bq">
+<p>Currently nobody else is tracking GNOME security issues. If you are an
+experienced GNOME community member and you are interested in taking over this
+work, let me know and I will help you get started. (Security tracking is not a
+good task for newcomers.)</p>
+
+<p>This may also be an opportunity to improve our tracking infrastructure. I use
+a <a href="https://gitlab.gnome.org/Teams/Releng/security/-/wikis/home">wiki
+page</a>, but this is fairly primitive and requires considerable manual
+upkeep. It's easy to forget to update the page when an issue report is closed,
+for example. Ideally, we would replace the wiki with a proper web app that
+dynamically updates based on the actual state of the issue.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1083754/</guid>
+            <pubDate>Mon, 20 Jul 2026 15:52:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1083708/</link>
