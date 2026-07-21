@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Jul 2026 11:28:46 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Jul 2026 12:00:58 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Jul 2026 13:58:50 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Jul 2026 14:13:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1083948/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (capstone, fence-agents, gimp, glib2, hplip, httpd, jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, libtiff, maven:3.8, pacemaker, python3.14, and webkit2gtk3), <b>Debian</b> (samba), <b>Fedora</b> (c-ares, dnsx, freerdp, gpsd, libreswan, libseccomp, libtiff, mingw-python-idna, mingw-python-pip, openssh, python-pillow, wget1, and wireshark), <b>Mageia</b> (golang, graphicsmagick, haveged, libssh2, nginx, nilfs-utils, perl-CGI-Session, perl-Imager, perl-JavaScript-Minifier-XS, php, php8.4, php8.5, python-nltk, sqlite3, and xmlstarlet), <b>Oracle</b> (.NET 10.0, .NET 9.0, container-tools:ol8, firefox, giflib, glibc, go-fdo-client, go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, hplip, httpd, image-builder, kernel, libtiff, mod_http2, pacemaker, perl-DBI:1.641, perl-HTTP-Daemon, php:8.2, python-markdown, ruby4.0, systemd, and thunderbird), <b>Red Hat</b> (buildah, container-tools:rhel8, dracut, golang-github-openprinting-ipp-usb, libtiff, osbuild-composer, python-urllib3, python3.12-urllib3, python3.14-urllib3, and runc), <b>SUSE</b> (389-ds, chromedriver, gstreamer-plugins-bad, libreoffice, libsuricata8_0_6, podman, python311, and sssd), and <b>Ubuntu</b> (apache2, freerdp3, freetype, libde265, libxfont, linux, linux-gcp, linux-gcp-6.8, linux-gke, linux-gkeop, linux-realtime, linux-realtime-6.8, linux, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-realtime, linux-xilinx-zynqmp, linux, linux-gcp, linux-gke, linux-realtime, linux-gcp-6.17, linux-realtime-6.17, linux-gcp-fips, linux-hwe-7.0, linux-nvidia-tegra-5.15, linux-oem-7.0, nginx, php8.1, php8.3, php8.5, rlottie, sqlite3, and wget).]]></description>
+            <guid>https://lwn.net/Articles/1083948/</guid>
+            <pubDate>Tue, 21 Jul 2026 13:19:56 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Catanzaro: Some changes to GNOME security tracking</title>
             <link>https://lwn.net/Articles/1083754/</link>
