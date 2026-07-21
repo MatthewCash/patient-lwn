@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 21 Jul 2026 13:58:50 +0000</pubDate>
-        <lastBuildDate>Tue, 21 Jul 2026 14:13:25 +0000</lastBuildDate>
+        <pubDate>Tue, 21 Jul 2026 15:51:25 +0000</pubDate>
+        <lastBuildDate>Tue, 21 Jul 2026 15:54:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Firefox 153 released</title>
+            <link>https://lwn.net/Articles/1083981/</link>
+            <description><![CDATA[<p><a
+href="https://www.firefox.com/en-US/firefox/153.0/releasenotes/">Version
+153.0</a> of the Firefox web browser has been released. Notable
+changes in this release include a change to the default
+local-file-access permissions for extensions, enabling LAN
+restrictions by default for all users, a visual indicator when a web
+site has access to the user's location, the ability to merge PDFs and
+add images as pages within PDFs, as well as experimental support for
+the <a href="https://jpegxl.info/">JPEG XL</a> image format.</p>
+
+<p>See the
+<a
+href="https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/153">release
+notes for developers</a> for all changes that affect web developers,
+and <a
+href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-68/">security
+advisories</a> for vulnerabilities fixed in this release.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1083981/</guid>
+            <pubDate>Tue, 21 Jul 2026 15:15:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1083948/</link>
@@ -353,29 +379,6 @@ of the earliest Linux-related web sites — and its more recent rebirth.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1082901/</guid>
             <pubDate>Tue, 14 Jul 2026 16:50:47 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1082832/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, buildah, freeipmi, freerdp, gegl, gimp, golang, kernel, libreoffice, maven:3.9, openexr, perl-DBI, plexus-utils, podman, tomcat, tomcat9, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, p7zip, and redis), <b>Fedora</b> (breezy, calibre, and golang-github-openprinting-ipp-usb), <b>Mageia</b> (ffmpeg, gzip, haproxy, libheif, libtiff, libxml2, packages, perl-List-SomeUtils-XS, and perl-Socket), <b>SUSE</b> (alsa, chromedriver, curl, dhcpcd, docker-compose, glibc, haproxy, ImageMagick, jq, kernel, kubernetes, libpng15, libredwg-devel, libslirp, nghttp2, php8, python-Pillow, python313-Django, python313-weasyprint, qemu, rust-keylime, sccache, and systemd), and <b>Ubuntu</b> (cifs-utils, libexif, libreoffice, libssh2, openssh, and pipewire).]]></description>
-            <guid>https://lwn.net/Articles/1082832/</guid>
-            <pubDate>Tue, 14 Jul 2026 13:16:38 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Call for topics for the 2026 Maintainers Summit</title>
-            <link>https://lwn.net/Articles/1082838/</link>
-            <description><![CDATA[The Maintainers Summit is an annual, invitation-only gathering of kernel
-developers and maintainers to discuss development-process issues; see <a
-href="https://lwn.net/Articles/1049982/">LWN's 2025 Maintainers Summit coverage</a> for an
-example.  The <a href="https://lwn.net/ml/all/alW3eJ9x6iJ8Juhi@mit.edu">call for
-topics</a> for the 2026 gathering (Prague, October&#160;8) has gone out.
-One of the best ways to obtain an invitation to the Summit is with a good
-topic proposal.  For best consideration, topics should be submitted before
-July&#160;24.]]></description>
-            <guid>https://lwn.net/Articles/1082838/</guid>
-            <pubDate>Tue, 14 Jul 2026 13:41:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
