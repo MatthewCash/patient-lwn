@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jul 2026 15:36:03 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jul 2026 15:41:31 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Jul 2026 17:01:26 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Jul 2026 17:02:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>PyPI now rejects new files after 14 days</title>
+            <link>https://lwn.net/Articles/1084218/</link>
+            <description><![CDATA[<p>Python Software Foundation security developer-in-residence Seth
+Larson has <a
+href="https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/">announced</a>
+that the <a href="https://pypi.org/">Python Package Index</a> (PyPI) will now reject new files that
+are uploaded to releases older than 14 days. The restriction is to
+prevent the poisoning of old releases if publishing tokens or
+workflows of PyPI projects are compromised.</p>
+
+<blockquote class="bq">
+<p>The <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566">discussion
+of this behavior began</a> during PEP 740 (Digital Attestations) back in January
+2024. The discussion was <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/34">restarted
+in March 2026</a> after the popular packages <a
+href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/">LiteLLM
+and Telnyx were compromised</a>. These packages were compromised due to a "<a
+href="https://mikael.barbero.tech/blog/post/2026-03-24-stop-trusting-mutable-references/">mutable
+reference</a>" in these projects' usage of the Trivy GitHub Action.</p>
+
+<p>Originally the discussion stalled due to some projects depending on this behavior
+to add support for new Python versions to already-published releases. To quantify how
+disruptive this change would be to existing workflows, the PyPI database was queried
+for <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/48">projects
+that have published new files to old releases</a> (bucketed by number of days since
+the release). Later, specifically <code>cp314</code> wheels were queried for the top
+15,000 packages, revealing that <a
+href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/63">only
+56 projects of 15,000</a> had published a 3.14-compatible wheel more than 14 days
+after a release was available.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1064693/">covered</a> the LiteLLM compromise
+in March.</p>]]></description>
+            <guid>https://lwn.net/Articles/1084218/</guid>
+            <pubDate>Wed, 22 Jul 2026 16:05:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1084210/</link>
@@ -293,47 +335,6 @@ forward.]]></description>
             <guid>https://lwn.net/Articles/1080162/</guid>
             <pubDate>Thu, 02 Jul 2026 14:06:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Local DoS attack vectors in seunshare 3.10 (SUSE Security Team Blog)</title>
-            <link>https://lwn.net/Articles/1083076/</link>
-            <description><![CDATA[<p>The SUSE Security Team Blog has a <a
-href="https://security.opensuse.org/2026/07/15/selinux-seunshare.html">post</a>
-with an analysis of <a
-href="https://man7.org/linux/man-pages/man8/seunshare.8.html"><tt>seunshare</tt></a>,
-which is used by SELinux to confine untrusted programs. During a
-review of <a
-href="https://github.com/SELinuxProject/selinux/releases/tag/3.10">version
-3.10</a> of the program, the team identified two local
-Denial-of-Service (DoS) vectors.</p>
-
-<blockquote class="bq">
-<p>Since <tt>seunshare</tt> is supposed to run on SELinux-enabled systems, it
-is important to understand what kind of privilege escalation can be
-achieved when vulnerabilities are exploited in a setuid-root binary
-like this. Many SELinux-enabled systems, such as Fedora and openSUSE,
-ship with the "targeted" SELinux policy by default. This policy is
-focused on confining well-known system services, but assigns an
-unconfined SELinux context to interactive users by default to achieve
-a balance between security and usability.</p>
-
-<p>There is currently no domain transition from the unconfined domain
-to the more restricted <tt>seunshare_t</tt> defined in the SELinux policy for
-<tt>seunshare</tt>. This means the execution of <tt>seunshare</tt> continues in the
-unconfined domain. Thus in the context of attacks carried out by
-interactive users, the impact of the vulnerabilities below will be a
-root-like privilege escalation despite the system running in SELinux
-enforced mode.</p>
-</blockquote>
-
-<p>See the post for the full write-up of the team's discoveries and timeline. The
-vulnerabilities have been fixed in <a
-href="https://github.com/SELinuxProject/selinux/releases/tag/3.11">version&#160;3.11</a>.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1083076/</guid>
-            <pubDate>Wed, 15 Jul 2026 15:52:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
