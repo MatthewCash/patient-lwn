@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 22 Jul 2026 13:33:17 +0000</pubDate>
-        <lastBuildDate>Wed, 22 Jul 2026 13:50:55 +0000</lastBuildDate>
+        <pubDate>Wed, 22 Jul 2026 15:36:03 +0000</pubDate>
+        <lastBuildDate>Wed, 22 Jul 2026 15:41:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1084210/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, c-ares, dovecot, freerdp, glib2, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, kernel, kernel-rt, nodejs:22, perl-XML-LibXML, webkit2gtk3, and yggdrasil), <b>Debian</b> (kernel, nss, roundcube, rtpengine, and xz-utils), <b>Fedora</b> (btrbk, kernel, mupdf, nuclei, perl-Crypt-OpenSSL-X509, rust-fern, rust-ifcfg-devname, rust-routinator, rust-rpki, and rust-syslog), <b>Mageia</b> (tig), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, acl, dovecot, glib2, httpd, libtiff, pacemaker, perl-IO-Compress, plexus-utils, python3, and webkit2gtk3), <b>Slackware</b> (libssh and mozilla-firefox), <b>SUSE</b> (acl, avahi, aws-nitro-enclaves-cli, beets, chromium, firefox, go1.25-openssl, ImageMagick, iscsiuio, kernel, kubevirt1.8-container-disk, libgit2-1_9, libkrun, libsoup-3_0-0, nghttp2, opam, php7, python-aiohttp, python-tornado6, and vim), and <b>Ubuntu</b> (accountsservice, CUPS, imagemagick, jbig2dec, openssh, and snapd).]]></description>
+            <guid>https://lwn.net/Articles/1084210/</guid>
+            <pubDate>Wed, 22 Jul 2026 14:58:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 153 released</title>
             <link>https://lwn.net/Articles/1083981/</link>
@@ -325,38 +333,6 @@ href="https://github.com/SELinuxProject/selinux/releases/tag/3.11">version&#160;
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1083076/</guid>
             <pubDate>Wed, 15 Jul 2026 15:52:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Many old shim versions are still accepted by secure boot</title>
-            <link>https://lwn.net/Articles/1082940/</link>
-            <description><![CDATA[The CMU CERT Coordination Center has put out <a
-href="https://kb.cert.org/vuls/id/616257">an advisory</a> that many
-exploitable versions of the shim binary, used to boot Linux on systems with
-UEFI secure boot enabled, were never added to the revocation list.
-<p>
-<blockquote class="bq">
-	An attacker with administrative privileges or the ability to modify
-	the boot process could use one of the vulnerable shim bootloaders
-	to bypass Secure Boot protections and execute arbitrary code before
-	the operating system loads. Code executed during this early boot
-	phase may achieve persistent compromise of the platform, including
-	the ability to load unsigned or malicious kernel components that
-	can survive system reboots and, in some cases, operating system
-	reinstallation.
-</blockquote>
-<p>
-The advisory contains a list of vulnerable shims.]]></description>
-            <guid>https://lwn.net/Articles/1082940/</guid>
-            <pubDate>Wed, 15 Jul 2026 12:49:36 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1083044/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, corosync, cups, freerdp, git-lfs, go-fdo-client and go-fdo-server, go-toolset:rhel8, kernel, kernel-rt, libinput, libxml2, nginx:1.24, openssl, pacemaker, perl-DBI:1.641, php8.4, python-pillow, python3, and python3.12), <b>Debian</b> (grub2, libxfont, opam, and wolfssl), <b>Fedora</b> (freerdp, kernel, and prometheus), <b>Mageia</b> (imagemagick), <b>Oracle</b> (buildah, freerdp, gimp, kernel, nginx, openexr, openssl, perl-DBI, podman, vim, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (python3.12), <b>SUSE</b> (afterburn, buildah, busybox, enc, freetype2-devel, go1.25, go1.25-openssl, go1.26-openssl, gosec, grafana, helm, krb5, kubernetes-old, libopenbabel8, libxml2, libxml2-16, nasm, openssl-3, patch, python-Authlib, python-mistune, python-soupsieve, python-sqlparse, python3-dulwich, python313-Pillow, rootlesskit, sbootutil-1, tomcat, and tomcat11), and <b>Ubuntu</b> (alsa-lib, dnsmasq, gnutls28, libheif, linux-aws, linux-fips, linux-lts-xenial, linux-gcp-5.15, linux-intel-iotg-5.15, linux-hwe-6.17, linux-raspi, mariadb, openvpn, python-httplib2, vim, and wget).]]></description>
-            <guid>https://lwn.net/Articles/1083044/</guid>
-            <pubDate>Wed, 15 Jul 2026 13:19:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
