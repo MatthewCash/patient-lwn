@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Jul 2026 11:43:24 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Jul 2026 11:52:41 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jul 2026 13:45:35 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jul 2026 13:55:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1084401/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (acl, dogtag-pki, dovecot, glibc, go-toolset:rhel8, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd:2.4, javapackages-tools:201801, libtiff, mariadb-connector-c, perl-HTTP-Daemon, pki-deps:10.6, and sssd), <b>Debian</b> (bind9, chromium, firefox-esr, and pdns-recursor), <b>Fedora</b> (chromium, collectl, fractal, kernel, libssh, llvm, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, perl-DBI, perl-YAML-Syck, and srt), <b>SUSE</b> (7zip, GraphicsMagick, ImageMagick, multipath-tools, perl-YAML, python-sqlparse, python3-sqlparse, python313-bleach, and sssd), and <b>Ubuntu</b> (apache2, commons-beanutils, exim4, gawk, giflib, gst-plugins-good1.0, krb5, libapache-mod-jk, libarchive, libgphoto2, libhtml-parser-perl, linux-aws, linux-aws-5.15, linux-aws-fips, linux-fips, linux-ibm, linux-nvidia, linux-fips, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-ibm, linux-oracle, linux-ibm-5.15, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-nvidia-tegra, linux-nvidia-tegra-igx, linux-oem-6.17, linux-oracle-6.8, python-aiohttp, and tar).]]></description>
+            <guid>https://lwn.net/Articles/1084401/</guid>
+            <pubDate>Thu, 23 Jul 2026 13:05:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Codeberg: Protecting our FLOSS commons from LLMs</title>
+            <link>https://lwn.net/Articles/1084404/</link>
+            <description><![CDATA[The Codeberg forge has adopted a pair of new policies, promising not to use
+hosted projects to train LLMs and, more controversially, banning the
+hosting of LLM-generated software.  The site's blog <a
+href="https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html">describes
+and justifies</a> these policies.
+<p>
+<blockquote class="bq">
+	Although often well intentioned, sharing the result of a prompt
+	and calling it "libre software" does not make the world a better
+	place. Codeberg is not and does not want to be a place to dump such
+	generated single-use software that no one else will ever look
+	at. We are a place for people to collaborate and improve software
+	together. Within this context, the recent votes can be understood
+	as a reconfirmation of those principles: As we want to center on
+	human collaboration, we will not actively support or engage in the
+	creation of LLMs and will not put our limited resources to use for
+	storing single-use software that would pollute our FLOSS commons.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1084404/</guid>
+            <pubDate>Thu, 23 Jul 2026 13:27:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 16, 2026</title>
             <link>https://lwn.net/Articles/1081915/</link>
