@@ -8,11 +8,31 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 23 Jul 2026 17:13:59 +0000</pubDate>
-        <lastBuildDate>Thu, 23 Jul 2026 17:22:38 +0000</lastBuildDate>
+        <pubDate>Thu, 23 Jul 2026 18:45:45 +0000</pubDate>
+        <lastBuildDate>Thu, 23 Jul 2026 18:46:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mourning Dan Williams</title>
+            <link>https://lwn.net/Articles/1084545/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/1072861/"><img
+src="https://lwn.net/images/conf/2026/lsfmm/DanWilliams-sm.png" alt="[Dan Williams in May 2026]"
+title="Dan Williams" class="lthumb"></a>
+
+I have just received the shocking news that Dan Williams, a longtime,
+high-profile kernel developer, has passed away.  I knew him primarily
+through his long service on the Linux Foundation Technical Advisory Board;
+he was always a strong, thoughtful, and intelligent presence.  Dan will be
+deeply missed.
+<p>
+There is <a href="https://www.mealtrain.com/trains/mekrzl">a support
+effort</a> underway for Dan's family as they come to terms with this loss.
+<br class="clear">]]></description>
+            <guid>https://lwn.net/Articles/1084545/</guid>
+            <pubDate>Thu, 23 Jul 2026 18:44:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1084401/</link>
