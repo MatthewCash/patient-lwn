@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Jul 2026 13:05:28 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Jul 2026 13:06:48 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Jul 2026 15:04:44 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Jul 2026 15:06:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Home Assistant Device Database public preview</title>
+            <link>https://lwn.net/Articles/1084861/</link>
+            <description><![CDATA[<p>The <a href="https://www.openhomefoundation.org/">Open Home
+Foundation</a>, which governs the <a
+href="https://www.home-assistant.io/">Home Assistant</a>
+home-automation project, has <a
+href="https://www.openhomefoundation.org/blog/building-the-device-database-together/">announced</a>
+the "public preview" of its <a
+href="https://device-database-preview.openhomefoundation.org/">Device
+Database</a>:</p>
+
+<blockquote class="bq">
+<p>Providing a public, open way to browse the anonymous, aggregated
+device data we collect was always part of the plan, and this preview
+is our first step toward it.</p>
+
+<p>You can already use it to search and filter devices to see
+aggregated community insights, starting with a deliberately focused
+set of specifics, such as whether a device requires an internet
+connection, and which protocols and integrations it works with. We've
+kept that initial scope narrow on purpose, giving us a solid
+foundation we can build on together with you, our community, as the
+database grows.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
+Assistant in May 2025.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1084861/</guid>
+            <pubDate>Fri, 24 Jul 2026 13:16:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1084860/</link>
@@ -422,14 +456,6 @@ follow along at home but lack a 64-bit Arm device.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1083392/</guid>
             <pubDate>Fri, 17 Jul 2026 17:03:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1083388/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, container-tools:rhel8, libreoffice, nodejs:24, perl-XML-LibXML, and python3.12), <b>Fedora</b> (ansible-collection-ansible-posix, firefox, freerdp, ImageMagick, mingw-glib2, perl-DBI, perl-HTTP-Date, rust-cargo-rpmstatus, and rust-opendal), <b>Oracle</b> (cifs-utils, gegl, gimp, git-lfs, go-toolset:ol8, hplip, kernel, libreoffice, maven:3.9, perl-XML-LibXML, python3, python3.12, python3.9, and uek-kernel), <b>Red Hat</b> (kernel, kernel-rt, and podman), <b>Slackware</b> (netatalk), <b>SUSE</b> (agama, aws-nitro-enclaves-binaryblobs-upstream, gimp, gpsd, grafana, hostapd, ImageMagick, jackson-databind, kernel, libssh2_org, nm-configurator, opennlp, perl-Mojolicious, python-Pillow, python-python-engineio, python-python-socketio, and tomcat11), and <b>Ubuntu</b> (ntfs-3g, python-authlib, ruby2.3, tar, and ubuntu-advantage-tools).]]></description>
-            <guid>https://lwn.net/Articles/1083388/</guid>
-            <pubDate>Fri, 17 Jul 2026 13:06:22 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
