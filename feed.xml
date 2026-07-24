@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Jul 2026 11:23:41 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Jul 2026 11:41:40 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Jul 2026 13:05:28 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Jul 2026 13:06:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1084860/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (glibc, java-21-openjdk, kernel, and libpq), <b>Debian</b> (imagemagick, spice-vdagent, and webkit2gtk), <b>Fedora</b> (cryptlib, dotnet8.0, dotnet9.0, firefox, python-black, python-lsp-black, and python-pytokens), <b>Mageia</b> (apache, cifs-utils, dnsmasq, lrzip, and socat), <b>Oracle</b> (.NET 10.0, .NET 9.0, 389-ds-base, cups, edk2, fence-agents, firefox, freeipmi, freerdp, git-lfs, glib2, gnutls, golang, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, libinput, libvirt, libxml2, memcached, nginx, openexr, perl-DBI, perl-XML-LibXML, php, php8.4, plexus-utils, postgresql16, python3.12, python3.14, sssd, tomcat, tomcat9, unbound, vim, xorg-x11-server-Xwayland, yggdrasil, and yggdrasil-worker-package-manager), <b>Red Hat</b> (container-tools:rhel8, git-lfs, go-toolset:rhel8, golang, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, host-metering, java-1.8.0-openjdk, java-11-openjdk with Extended Lifecycle Support, java-17-openjdk, java-21-openjdk, oci-seccomp-bpf-hook, rhc, rhc-worker-playbook, skopeo, xorg-x11-server, xorg-x11-server-Xwayland, and yggdrasil), <b>Slackware</b> (mozilla-thunderbird), <b>SUSE</b> (afterburn, alloy, apache-sshd, apache2, avahi, chromium, clamav, curl, dhcpcd, dnsmasq, docker-compose, ffmpeg-7, firefox-esr, gawk, glibc, gnutls, go1.26-openssl, google-osconfig-agent, gpg2, haproxy, ImageMagick, imagemagick, jline3, jq, kernel, libgcrypt, libgnt, meson, pidgin, nmap, nodejs24, pacemaker, patch, perl-HTML-Parser, perl-libwww-perl, perl-List-SomeUtils-XS, python-aiohttp, python-WebOb, qemu, rust-keylime, SVT-AV1, libyuv0, libaom3, trivy, ucode-intel, and wireshark), and <b>Ubuntu</b> (libhttp-date-perl, libxpm, linux-azure, linux-azure-fde, pam, and rsyslog).]]></description>
+            <guid>https://lwn.net/Articles/1084860/</guid>
+            <pubDate>Fri, 24 Jul 2026 13:05:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Mourning Dan Williams</title>
             <link>https://lwn.net/Articles/1084545/</link>
