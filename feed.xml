@@ -8,11 +8,33 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 24 Jul 2026 16:57:20 +0000</pubDate>
-        <lastBuildDate>Fri, 24 Jul 2026 16:58:14 +0000</lastBuildDate>
+        <pubDate>Fri, 24 Jul 2026 18:02:24 +0000</pubDate>
+        <lastBuildDate>Fri, 24 Jul 2026 18:21:01 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Hefty stable kernel updates for Friday</title>
+            <link>https://lwn.net/Articles/1084921/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1084922/">7.1.5</a>, <a
+href="https://lwn.net/Articles/1084923/">6.18.40</a>, <a
+href="https://lwn.net/Articles/1084924/">6.12.97</a>, <a
+href="https://lwn.net/Articles/1084925/">6.6.145</a>, <a
+href="https://lwn.net/Articles/1084926/">6.1.178</a>, <a
+href="https://lwn.net/Articles/1084927/">5.15.212</a>, and <a
+href="https://lwn.net/Articles/1084928/">5.10.261</a> stable Linux kernels.</p>
+
+<p>This batch of kernels includes a hefty set of updates, possibly the
+the largest ever. <a
+href="https://lwn.net/ml/all/20260721152552.646164743@linuxfoundation.org/">7.1.5-rc1</a>,
+for example, included more than 2,000 patches, <a
+href="https://lwn.net/ml/all/20260721152514.750365251@linuxfoundation.org/">6.18.40-rc1</a>
+included 1,611 patches, and so forth. Users are advised to upgrade.</p>]]></description>
+            <guid>https://lwn.net/Articles/1084921/</guid>
+            <pubDate>Fri, 24 Jul 2026 17:01:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>De Vlieger: The Fedora 45 sausage factory</title>
             <link>https://lwn.net/Articles/1084920/</link>
@@ -456,42 +478,6 @@ no-derivatives CC license.
             <guid>https://lwn.net/Articles/1083466/</guid>
             <pubDate>Sat, 18 Jul 2026 16:52:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Building an Arch Linux aarch64 port for Holo Core (Collabora blog)</title>
-            <link>https://lwn.net/Articles/1083392/</link>
-            <description><![CDATA[<p>Collabora has published a <a
-href="https://www.collabora.com/news-and-blog/news-and-events/building-an-arch-linux-aarch64-port-for-holo-core.html">blog
-post</a> about its work with Valve on Holo Core, which is a port of Arch Linux to
-aarch64 to be used as the the operating system on Valve's
-64-bit Arm Steam Frame gaming system. Collabora has released the
-<a
-href="https://gitlab.steamos.cloud/holo/holo-core-aarch64-preview">sources</a>,
-<a
-href="https://steamdeck-packages.steamos.cloud/holo-core-aarch64-preview/mash-20251118.3/">binary
-packages</a>, and a container image for aarch64 devices. The post
-describes some of the challenges in porting Arch Linux to a new
-architecture, and what remains to be done:</p>
-
-<blockquote class="bq">
-<p>Whilst the infrastructure developed to this point is capable of
-building from first principles up until a point-in-time snapshot, the
-next step is to build this into a system which can track Arch Linux as
-it is developed. This work will serve as the basis of a
-continuously-operating CI system capable of shadowing Arch Linux
-itself. We will work with the upstream Arch Linux project to help Arch
-with their efforts to port the distribution to <tt>aarch64</tt> architecture
-and work towards automated repeatable builds.</p>
-</blockquote>
-
-<p>The post also includes instructions on how to create and test an
-aarch64 build container on an x86_64 host, for users who would like to
-follow along at home but lack a 64-bit Arm device.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1083392/</guid>
-            <pubDate>Fri, 17 Jul 2026 17:03:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
