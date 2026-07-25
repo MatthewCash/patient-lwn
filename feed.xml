@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sat, 25 Jul 2026 16:04:54 +0000</pubDate>
-        <lastBuildDate>Sat, 25 Jul 2026 16:56:40 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 25 Jul 2026 17:58:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -488,39 +488,6 @@ were starting to go on summer vacation, but running the numbers shows that
 I must have been wrong - it all looks pretty normal.</q>"]]></description>
             <guid>https://lwn.net/Articles/1083543/</guid>
             <pubDate>Sun, 19 Jul 2026 22:11:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernel updates</title>
-            <link>https://lwn.net/Articles/1083462/</link>
-            <description><![CDATA[The
-<a href="https://lwn.net/Articles/1083463/">7.1.4</a>,
-<a href="https://lwn.net/Articles/1083464/">6.18.39</a>, and
-<a href="https://lwn.net/Articles/1083465/">6.12.96</a> stable kernel updates have been
-released; each contains a fairly large set of important fixes.]]></description>
-            <guid>https://lwn.net/Articles/1083462/</guid>
-            <pubDate>Sat, 18 Jul 2026 16:41:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>&quot;Half a Second&quot; — a book on the XZ backdoor</title>
-            <link>https://lwn.net/Articles/1083466/</link>
-            <description><![CDATA[Adrian Mastronardi has released a book called <a
-href="https://www.half-second.com/"><i>Half a Second</i></a>; it is a
-detailed look into the <a href="https://lwn.net/Articles/967866/">XZ backdoor attempt</a>
-of 2024.  The book is freely available under a (non-free) noncommercial,
-no-derivatives CC license.
-<p>
-<blockquote class="bq">
-	<i>Half a Second</i> tells that story as one continuous narrative:
-	the burned-out volunteer who maintained the code alone and was
-	patiently, expertly manipulated into giving it up; the engineer
-	whose half-second of curiosity caught the attack through a chain of
-	luck and hard-won instinct; and the operator who built it, who has
-	never been identified and, this book argues, may never be.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1083466/</guid>
-            <pubDate>Sat, 18 Jul 2026 16:52:04 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
