@@ -8,11 +8,21 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 26 Jul 2026 21:59:12 +0000</pubDate>
-        <lastBuildDate>Sun, 26 Jul 2026 22:01:05 +0000</lastBuildDate>
+        <pubDate>Sun, 26 Jul 2026 22:38:56 +0000</pubDate>
+        <lastBuildDate>Sun, 26 Jul 2026 23:06:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.2-rc5</title>
+            <link>https://lwn.net/Articles/1085422/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1085421/">7.2-rc5</a> kernel prepatch is out for
+testing.  Linus said: "<q>So it's a bit too big for my liking, but nothing
+in there strikes me as particularly strange or scary</q>".]]></description>
+            <guid>https://lwn.net/Articles/1085422/</guid>
+            <pubDate>Sun, 26 Jul 2026 22:10:54 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>A Debian general resolution on LLM usage</title>
             <link>https://lwn.net/Articles/1085314/</link>
@@ -495,17 +505,6 @@ dynamically updates based on the actual state of the issue.</p>
             <guid>https://lwn.net/Articles/1083708/</guid>
             <pubDate>Mon, 20 Jul 2026 13:10:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.2-rc4</title>
-            <link>https://lwn.net/Articles/1083543/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1083542/">7.2-rc4</a> kernel prepatch is out for
-testing.  Linus said: "<q>This whole week I had the feeling that people
-were starting to go on summer vacation, but running the numbers shows that
-I must have been wrong - it all looks pretty normal.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1083543/</guid>
-            <pubDate>Sun, 19 Jul 2026 22:11:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
