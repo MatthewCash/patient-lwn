@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 27 Jul 2026 11:12:40 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Jul 2026 11:19:58 +0000</lastBuildDate>
+        <pubDate>Mon, 27 Jul 2026 13:52:26 +0000</pubDate>
+        <lastBuildDate>Mon, 27 Jul 2026 13:54:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1085554/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, hplip, and linux-6.1), <b>Fedora</b> (firefox, GitPython, google-osconfig-agent, lego, libgit2, libreswan, libwebsockets, moby-engine, p11-kit, pam, python-idna, rust-libgit2-sys, skopeo, systemd, trafficserver, webkitgtk, and xrdp), <b>Mageia</b> (giflib, graphite2, libnfs, vorbis-tools, wget, and yelp), <b>Red Hat</b> (firefox, thunderbird, and webkit2gtk3), and <b>SUSE</b> (amazon-ecs-init, chromedriver, ffmpeg-7, ffmpeg-8, firefox, google-osconfig-agent, gpg2, java-17-openjdk, java-25-openjdk, kernel, libsrt1_5, nginx, perl-HTTP-Date, perl-XML-Bare, proftpd, python-pyasn1, python-soupsieve, python313-astropy, python313-urwid, systemd, thunderbird, and trivy).]]></description>
+            <guid>https://lwn.net/Articles/1085554/</guid>
+            <pubDate>Mon, 27 Jul 2026 13:10:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc5</title>
             <link>https://lwn.net/Articles/1085422/</link>
