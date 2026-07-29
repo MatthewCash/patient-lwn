@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 Jul 2026 16:36:33 +0000</pubDate>
-        <lastBuildDate>Wed, 29 Jul 2026 16:51:49 +0000</lastBuildDate>
+        <pubDate>Wed, 29 Jul 2026 18:05:22 +0000</pubDate>
+        <lastBuildDate>Wed, 29 Jul 2026 18:07:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels for Wednesday fix a single regression</title>
+            <link>https://lwn.net/Articles/1086047/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1086049/">6.12.99</a>, <a
+href="https://lwn.net/Articles/1086050/">6.6.146</a>, and <a
+href="https://lwn.net/Articles/1086051/">6.1.179</a> stable kernels. This batch of
+stable kernels includes a single fix for a <a
+href="https://lore.kernel.org/all/CAHmU7GkfHNdA-sph9mBf-s+a=9m22KcGTq6r=78=qSf5BKBgag@mail.gmail.com/">regression</a>
+caused by <a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=6650527444dadc63d84aa939d14ecba4fadb2f69">this
+commit</a>. Users of those kernels should upgrade.</p>]]></description>
+            <guid>https://lwn.net/Articles/1086047/</guid>
+            <pubDate>Wed, 29 Jul 2026 17:00:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GCC steering committee announces AI policy</title>
             <link>https://lwn.net/Articles/1086041/</link>
@@ -469,48 +485,6 @@ under the GPLv3.]]></description>
             <guid>https://lwn.net/Articles/1080821/</guid>
             <pubDate>Thu, 09 Jul 2026 14:25:18 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>PyPI now rejects new files after 14 days</title>
-            <link>https://lwn.net/Articles/1084218/</link>
-            <description><![CDATA[<p>Python Software Foundation security developer-in-residence Seth
-Larson has <a
-href="https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/">announced</a>
-that the <a href="https://pypi.org/">Python Package Index</a> (PyPI) will now reject new files that
-are uploaded to releases older than 14 days. The restriction is to
-prevent the poisoning of old releases if publishing tokens or
-workflows of PyPI projects are compromised.</p>
-
-<blockquote class="bq">
-<p>The <a
-href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566">discussion
-of this behavior began</a> during PEP 740 (Digital Attestations) back in January
-2024. The discussion was <a
-href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/34">restarted
-in March 2026</a> after the popular packages <a
-href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/">LiteLLM
-and Telnyx were compromised</a>. These packages were compromised due to a "<a
-href="https://mikael.barbero.tech/blog/post/2026-03-24-stop-trusting-mutable-references/">mutable
-reference</a>" in these projects' usage of the Trivy GitHub Action.</p>
-
-<p>Originally the discussion stalled due to some projects depending on this behavior
-to add support for new Python versions to already-published releases. To quantify how
-disruptive this change would be to existing workflows, the PyPI database was queried
-for <a
-href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/48">projects
-that have published new files to old releases</a> (bucketed by number of days since
-the release). Later, specifically <code>cp314</code> wheels were queried for the top
-15,000 packages, revealing that <a
-href="https://discuss.python.org/t/restricting-open-ended-releases-on-pypi/43566/63">only
-56 projects of 15,000</a> had published a 3.14-compatible wheel more than 14 days
-after a release was available.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1064693/">covered</a> the LiteLLM compromise
-in March.</p>]]></description>
-            <guid>https://lwn.net/Articles/1084218/</guid>
-            <pubDate>Wed, 22 Jul 2026 16:05:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
