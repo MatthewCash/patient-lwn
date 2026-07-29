@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 Jul 2026 15:22:04 +0000</pubDate>
-        <lastBuildDate>Wed, 29 Jul 2026 15:29:56 +0000</lastBuildDate>
+        <pubDate>Wed, 29 Jul 2026 16:36:33 +0000</pubDate>
+        <lastBuildDate>Wed, 29 Jul 2026 16:51:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -510,14 +510,6 @@ after a release was available.</p>
 in March.</p>]]></description>
             <guid>https://lwn.net/Articles/1084218/</guid>
             <pubDate>Wed, 22 Jul 2026 16:05:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1084210/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, c-ares, dovecot, freerdp, glib2, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, hplip, kernel, kernel-rt, nodejs:22, perl-XML-LibXML, webkit2gtk3, and yggdrasil), <b>Debian</b> (kernel, nss, roundcube, rtpengine, and xz-utils), <b>Fedora</b> (btrbk, kernel, mupdf, nuclei, perl-Crypt-OpenSSL-X509, rust-fern, rust-ifcfg-devname, rust-routinator, rust-rpki, and rust-syslog), <b>Mageia</b> (tig), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, acl, dovecot, glib2, httpd, libtiff, pacemaker, perl-IO-Compress, plexus-utils, python3, and webkit2gtk3), <b>Slackware</b> (libssh and mozilla-firefox), <b>SUSE</b> (acl, avahi, aws-nitro-enclaves-cli, beets, chromium, firefox, go1.25-openssl, ImageMagick, iscsiuio, kernel, kubevirt1.8-container-disk, libgit2-1_9, libkrun, libsoup-3_0-0, nghttp2, opam, php7, python-aiohttp, python-tornado6, and vim), and <b>Ubuntu</b> (accountsservice, CUPS, imagemagick, jbig2dec, openssh, and snapd).]]></description>
-            <guid>https://lwn.net/Articles/1084210/</guid>
-            <pubDate>Wed, 22 Jul 2026 14:58:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
