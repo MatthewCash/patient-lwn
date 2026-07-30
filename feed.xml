@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Jul 2026 17:54:20 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jul 2026 18:24:36 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jul 2026 19:15:04 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jul 2026 20:02:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -458,26 +458,6 @@ Assistant in May 2025.</p>
             <guid>https://lwn.net/Articles/1084860/</guid>
             <pubDate>Fri, 24 Jul 2026 13:05:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Mourning Dan Williams</title>
-            <link>https://lwn.net/Articles/1084545/</link>
-            <description><![CDATA[<a href="https://lwn.net/Articles/1072861/"><img
-src="https://lwn.net/images/conf/2026/lsfmm/DanWilliams-sm.png" alt="[Dan Williams in May 2026]"
-title="Dan Williams" class="lthumb"></a>
-
-I have just received the shocking news that Dan Williams, a longtime,
-high-profile kernel developer, has passed away.  I knew him primarily
-through his long service on the Linux Foundation Technical Advisory Board;
-he was always a strong, thoughtful, and intelligent presence.  Dan will be
-deeply missed.
-<p>
-There is <a href="https://www.mealtrain.com/trains/mekrzl">a support
-effort</a> underway for Dan's family as they come to terms with this loss.
-<br class="clear">]]></description>
-            <guid>https://lwn.net/Articles/1084545/</guid>
-            <pubDate>Thu, 23 Jul 2026 18:44:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
