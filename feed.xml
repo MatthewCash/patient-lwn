@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 30 Jul 2026 09:51:21 +0000</pubDate>
-        <lastBuildDate>Thu, 30 Jul 2026 11:34:21 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jul 2026 13:14:43 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jul 2026 13:15:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1086225/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gstreamer1-plugins-bad-free, libtiff, libXfont2, nodejs:22, nodejs:24, and rest), <b>Debian</b> (expat and nss), <b>Fedora</b> (libssh, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, nodejs24, perl-HTTP-Date, proftpd, squid, unbound, and wordpress), <b>Oracle</b> (c-ares, edk2, freerdp, go-fdo-server, libreswan, mariadb-connector-c, and nginx), <b>SUSE</b> (alloy, apache-commons-lang3, google-guice, maven, maven-resolver, xmvn, apache-sshd, apptainer, avahi, distribution, glib2, go1.26-openssl, go1.25-openssl, go1.24-openssl, go1.23-openssl, go1.22-openssl, go1.26, go1.25, go1.24, go1.23, go1.22, go1.21, gstreamer-plugins-bad, helm, ImageMagick, java-17-openjdk, java-25-openjdk, liboqs, oqs-provider, libssh, nginx, nm-configurator, nmap, openssl-3, openvpn, PackageKit, perl, perl-DBI, perl-HTTP-Date, perl-XML-Bare, python-msgpack-python, python-sh, python-ujson, python-urllib3, runc, samba, sssd, wget, wpa_supplicant, and xen), and <b>Ubuntu</b> (linux-nvidia, linux-nvidia-7.0 and linux-nvidia-6.17).]]></description>
+            <guid>https://lwn.net/Articles/1086225/</guid>
+            <pubDate>Thu, 30 Jul 2026 13:12:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for July 23, 2026</title>
             <link>https://lwn.net/Articles/1083123/</link>
