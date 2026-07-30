@@ -8,11 +8,153 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 29 Jul 2026 23:38:31 +0000</pubDate>
-        <lastBuildDate>Wed, 29 Jul 2026 23:42:48 +0000</lastBuildDate>
+        <pubDate>Thu, 30 Jul 2026 00:38:06 +0000</pubDate>
+        <lastBuildDate>Thu, 30 Jul 2026 01:03:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 23, 2026</title>
+            <link>https://lwn.net/Articles/1083123/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1083123/">Front</a>: LLMs in the kernel; GNOME save and restore; Fedora changes; BPF and tracepoints; BPF and LSMs; famfs; sched_ext.
+            <li> <a href="https://lwn.net/Articles/1083125/">Briefs</a>: GNOME security; PyPI policy; Arch on aarch64; Firefox 153; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1083126/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1083123/</guid>
+            <pubDate>Thu, 23 Jul 2026 00:29:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Save and restore may be coming to GNOME</title>
+            <link>https://lwn.net/Articles/1083750/</link>
+            <description><![CDATA[<p>One of the features that users often miss when moving from X11 to Wayland is
+the ability to save and restore the position of windows between sessions. At <a
+href="https://events.gnome.org/event/306/">GUADEC&#160;2026</a>, held in
+A&#160;Coruña, Spain, Adrian Vovk provided an overview of work that has gone
+into providing a platform-wide save and restore framework for GNOME. After two
+failed attempts at landing an API, he believes that the third try will be the
+one to succeed&mdash;though not in time for the upcoming GNOME&#160;51 release
+due in October.</p>]]></description>
+            <guid>https://lwn.net/Articles/1083750/</guid>
+            <pubDate>Wed, 22 Jul 2026 17:01:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Attaching programs to multiple tracepoints</title>
+            <link>https://lwn.net/Articles/1082948/</link>
+            <description><![CDATA[<p>
+Tracepoints in the kernel are useful for a variety of purposes: debugging,
+active monitoring, and performance measurements, among other things. Previously,
+any given BPF program could only be attached to a single tracepoint.
+Jiri Olsa has been working to change that, and led a discussion about
+his progress at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF
+Summit</a>. That work has since been
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=c49f336dbcf30ff8622d3725c54fe1c90e8ccd9c">
+merged</a>, and can be expected as part of the 7.2
+kernel.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1082948/</guid>
+            <pubDate>Wed, 22 Jul 2026 15:08:41 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debating the role of large language models in the kernel community</title>
+            <link>https://lwn.net/Articles/1083275/</link>
+            <description><![CDATA[Like many development communities, the kernel community has been struggling
+to determine how large language models will be used in its development
+process.  The news has been dominated recently by a strongly worded missive
+from Linus Torvalds on the subject, but the discussion has been rather more
+wide-ranging and nuanced than that.  Topics that have been considered
+recently include the LLM attribution requirement, code-review tools,
+dependence on proprietary tools, and whether there is a place for concerns
+about the ethics of LLMs.]]></description>
+            <guid>https://lwn.net/Articles/1083275/</guid>
+            <pubDate>Tue, 21 Jul 2026 13:48:25 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora grapples with change</title>
+            <link>https://lwn.net/Articles/1081557/</link>
+            <description><![CDATA[<p>The <a href="https://fedoraproject.org/">Fedora Project</a> is known for,
+among other things, having a well-defined set of processes for just about
+everything. It has extensive <a
+href="https://docs.fedoraproject.org/en-US/packaging-guidelines/">packaging
+guidelines</a> that deal with the complexities of creating RPMs to install
+software, as well as processes for managing the <a
+href="https://docs.fedoraproject.org/en-US/legal/">legal questions</a> that
+arise around shipping software. Fedora also has a well-defined <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_guide/">change
+process</a> for dealing with <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_self_contained_changes">self-contained technical changes</a> as well as <a
+href="https://docs.fedoraproject.org/en-US/operations/changes_policy/#_system_wide_changes">major
+changes to the distribution</a>, and other issues as they arise. At the moment,
+though, the project seems to be experiencing a sort of midlife crisis as it
+re-examines several of its change processes at once to determine if they are
+still effective.</p>]]></description>
+            <guid>https://lwn.net/Articles/1081557/</guid>
+            <pubDate>Mon, 20 Jul 2026 18:26:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Merging famfs?</title>
+            <link>https://lwn.net/Articles/1082687/</link>
+            <description><![CDATA[The <a href="https://github.com/cxl-micron-reskit/famfs#famfs-shared-memory-filesystem-framework---user-space-repo">famfs filesystem</a>, which is meant to provide shared access to huge
+memory-resident files on  <a
+href="https://en.wikipedia.org/wiki/Compute_Express_Link">CXL</a> and other
+devices, returned to
+the <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) in 2026.
+It was <a
+href="https://lwn.net/Articles/983105/">first discussed at LSFMM+BPF 2024</a> and a <a
+href="https://lwn.net/Articles/1020170/">new implementation was described at the 2025
+gathering</a>, but it still has not made its way into the kernel;  LWN <a href="https://lwn.net/Articles/1068686/">looked
+at a discussion about merging famfs</a> back in April 2026.]]></description>
+            <guid>https://lwn.net/Articles/1082687/</guid>
+            <pubDate>Mon, 20 Jul 2026 13:15:47 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Securing BPF LSMs against tampering</title>
+            <link>https://lwn.net/Articles/1082111/</link>
+            <description><![CDATA[<p>
+Since 2020, BPF programs have been able to
+<a href="https://docs.kernel.org/bpf/prog_lsm.html">
+act as</a> Linux security modules
+(LSMs). Several projects, including systemd, have been working to use
+that capability to provide more security to users. Christian Brauner
+spoke at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>
+about some of the limitations of using BPF in this way, and the changes he
+would like to see for systemd's use. In particular, he would like a way to make
+sure that BPF programs cannot be removed or have their private data tampered with.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1082111/</guid>
+            <pubDate>Fri, 17 Jul 2026 15:58:17 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Sched-ext: enqueue() for sub-schedulers and proxy-execution support</title>
+            <link>https://lwn.net/Articles/1082717/</link>
+            <description><![CDATA[The <a href="https://docs.kernel.org/scheduler/sched-ext.html">extensible
+scheduler class</a> (sched_ext) allows the installation of custom CPU
+schedulers as a set of BPF programs.  While sched_ext, in its current form,
+has already led to a lot of interesting scheduler-development work, the
+subsystem itself is still undergoing rapid evolution.  Among other work,
+the ability to set up a hierarchy of <a
+href="https://lwn.net/Articles/1056014/">sub-schedulers</a> is approaching completion, and
+a longstanding incompatibility with <a href="https://lwn.net/Articles/934114/">proxy
+execution</a> is coming to an end.]]></description>
+            <guid>https://lwn.net/Articles/1082717/</guid>
+            <pubDate>Thu, 16 Jul 2026 14:00:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Three stable kernels for Wednesday fix a single regression</title>
             <link>https://lwn.net/Articles/1086047/</link>
