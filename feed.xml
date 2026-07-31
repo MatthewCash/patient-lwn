@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 Jul 2026 13:53:35 +0000</pubDate>
-        <lastBuildDate>Fri, 31 Jul 2026 14:03:34 +0000</lastBuildDate>
+        <pubDate>Fri, 31 Jul 2026 15:51:01 +0000</pubDate>
+        <lastBuildDate>Fri, 31 Jul 2026 16:12:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -456,40 +456,6 @@ quickly, so interested attendees probably should not procrastinate.]]></descript
             <guid>https://lwn.net/Articles/1084938/</guid>
             <pubDate>Fri, 24 Jul 2026 16:27:27 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Home Assistant Device Database public preview</title>
-            <link>https://lwn.net/Articles/1084861/</link>
-            <description><![CDATA[<p>The <a href="https://www.openhomefoundation.org/">Open Home
-Foundation</a>, which governs the <a
-href="https://www.home-assistant.io/">Home Assistant</a>
-home-automation project, has <a
-href="https://www.openhomefoundation.org/blog/building-the-device-database-together/">announced</a>
-the "public preview" of its <a
-href="https://device-database-preview.openhomefoundation.org/">Device
-Database</a>:</p>
-
-<blockquote class="bq">
-<p>Providing a public, open way to browse the anonymous, aggregated
-device data we collect was always part of the plan, and this preview
-is our first step toward it.</p>
-
-<p>You can already use it to search and filter devices to see
-aggregated community insights, starting with a deliberately focused
-set of specifics, such as whether a device requires an internet
-connection, and which protocols and integrations it works with. We've
-kept that initial scope narrow on purpose, giving us a solid
-foundation we can build on together with you, our community, as the
-database grows.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1017945/">looked at</a> Home
-Assistant in May 2025.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1084861/</guid>
-            <pubDate>Fri, 24 Jul 2026 13:16:47 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
