@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 31 Jul 2026 17:22:27 +0000</pubDate>
-        <lastBuildDate>Fri, 31 Jul 2026 17:52:55 +0000</lastBuildDate>
+        <pubDate>Fri, 31 Jul 2026 19:15:44 +0000</pubDate>
+        <lastBuildDate>Fri, 31 Jul 2026 19:23:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -423,28 +423,6 @@ handful of security fixes, and more.]]></description>
             <guid>https://lwn.net/Articles/1085272/</guid>
             <pubDate>Sat, 25 Jul 2026 14:00:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Hefty stable kernel updates for Friday</title>
-            <link>https://lwn.net/Articles/1084921/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1084922/">7.1.5</a>, <a
-href="https://lwn.net/Articles/1084923/">6.18.40</a>, <a
-href="https://lwn.net/Articles/1084924/">6.12.97</a>, <a
-href="https://lwn.net/Articles/1084925/">6.6.145</a>, <a
-href="https://lwn.net/Articles/1084926/">6.1.178</a>, <a
-href="https://lwn.net/Articles/1084927/">5.15.212</a>, and <a
-href="https://lwn.net/Articles/1084928/">5.10.261</a> stable Linux kernels.</p>
-
-<p>This batch of kernels includes a hefty set of updates, possibly the
-the largest ever. <a
-href="https://lwn.net/ml/all/20260721152552.646164743@linuxfoundation.org/">7.1.5-rc1</a>,
-for example, included more than 2,000 patches, <a
-href="https://lwn.net/ml/all/20260721152514.750365251@linuxfoundation.org/">6.18.40-rc1</a>
-included 1,611 patches, and so forth. Users are advised to upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/1084921/</guid>
-            <pubDate>Fri, 24 Jul 2026 17:01:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
