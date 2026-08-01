@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 01 Aug 2026 13:45:03 +0000</pubDate>
-        <lastBuildDate>Sat, 1 Aug 2026 14:14:16 +0000</lastBuildDate>
+        <pubDate>Sat, 01 Aug 2026 15:12:55 +0000</pubDate>
+        <lastBuildDate>Sat, 1 Aug 2026 15:29:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -378,50 +378,6 @@ discussion ahead of the inevitable LWN article can find it <a
 href="https://lwn.net/ml/all/til24c.3ns3jl2mkmzmn@riseup.net">over here</a>.]]></description>
             <guid>https://lwn.net/Articles/1085314/</guid>
             <pubDate>Sat, 25 Jul 2026 23:14:16 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>New stable kernel for ext4 users</title>
-            <link>https://lwn.net/Articles/1085026/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a
-href="https://lwn.net/Articles/1085025/">6.12.98</a> stable Linux kernel with a
-single fix for a file descriptor leak in ext4. Users of the ext4
-filesystem should upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/1085026/</guid>
-            <pubDate>Sat, 25 Jul 2026 13:09:38 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>In remembrance of Dan Williams</title>
-            <link>https://lwn.net/Articles/1085021/</link>
-            <description><![CDATA[On July 21, the kernel community lost Dan Williams, one of its most beloved
-contributors.  Dave Hansen and Thomas Gleixner, both of whom worked with
-Williams extensively, have written an obituary and allowed LWN to publish
-it.  He will be deeply missed, but he has left us with a lot to remember
-him by.]]></description>
-            <guid>https://lwn.net/Articles/1085021/</guid>
-            <pubDate>Sat, 25 Jul 2026 13:26:04 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNU C Library 2.44 released</title>
-            <link>https://lwn.net/Articles/1085030/</link>
-            <description><![CDATA[<a href="https://lwn.net/ml/all/teaVXxrfQH2qv0xBul7sXg@gentoo.org">Version 2.44</a> of the
-GNU C Library has been released.  Changes include a new
-<tt>/etc/tunables.conf</tt> file for the system-wide setting of tunable
-parameters, a new tunable to control the use of transparent huge pages for
-read-only executable segments, a number of math-function improvements, a
-handful of security fixes, and more.]]></description>
-            <guid>https://lwn.net/Articles/1085030/</guid>
-            <pubDate>Sat, 25 Jul 2026 13:44:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Saturday</title>
-            <link>https://lwn.net/Articles/1085272/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (compat-openssl11, java-1.8.0-openjdk, java-17-openjdk, kernel, kernel-rt, and sssd), <b>Debian</b> (exim4), <b>Fedora</b> (chromium, dotnet10.0, mbedtls, mupdf, netatalk, python-django5, skopeo, sssd, and wget1), <b>Mageia</b> (libevent and transmission), <b>Oracle</b> (.NET 8.0, 389-ds-base, aardvark-dns, acl, buildah, cifs-utils, dovecot, dracut, galera and mariadb11.8, glibc, hplip, kernel, libxml2, nginx, openexr, podman, postgresql18, rsync, thunderbird, and vim), and <b>SUSE</b> (389-ds, afterburn, agama, alsa, apache-commons-compress, apache-ivy, brotli-java, zstd-jni, avahi, aws-nitro-enclaves-cli, cockpit, cockpit-machines, cockpit-packages, cockpit- podman, cockpit-repos, cockpit-subscriptions, container-suseconnect, containerd, cosign, cryptsetup, curl, dash, dnsmasq, docker, docker-compose, ffmpeg, firefox, freetype2, gawk, gh, glib-networking, glib2, go1.25, go1.25-openssl, go1.26, go1.26-openssl, google-guest-agent, google-osconfig-agent, gpg2, gsasl, gstreamer-plugins-bad, gzip, haproxy, hauler, helm, helm3, ImageMagick, imagemagick, iproute2, java-11-openjdk, java-26-openjdk, jline3, joe, jq, kernel, kernel-devel, krb5, kubevirt, libgcrypt, libpng12, libqt4, libssh2_org, libXfont2, libxml2, mariadb-connector-c, microcode_ctl, multipath-tools, nasm, net-tools, nghttp2, nmap, ntfs-3g_ntfsprogs, openexr, packagekit, pam, patch, perl, perl-DBI, perl-dbi, perl-http-date, perl-libwww-perl, perl-xml-bare, php8, prometheus-ha_cluster_exporter, python-aiohttp, python-cryptography, python-dulwich, python-idna, python-maturin, python-mistune, python-msgpack, python-paramiko, python-Pillow, python-pyasn1, python-soupsieve, python-sqlparse, python-tornado, python-tornado6, python-urllib3, python313, python313-pandas, python314, qemu, radvd, rootlesskit, rpcbind, ruby3.4, runc, s390-tools, shibboleth-sp, sssd, systemd, systemd, systemd-mini, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, terraform-provider-susepubliccloud, tiff, tomcat, tomcat10, tomcat11, uriparser, vim, vorbis-tools, wget, wpa_supplicant, xwayland, and yelp).]]></description>
-            <guid>https://lwn.net/Articles/1085272/</guid>
-            <pubDate>Sat, 25 Jul 2026 14:00:47 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
