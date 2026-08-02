@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Sun, 02 Aug 2026 17:10:54 +0000</pubDate>
-        <lastBuildDate>Sun, 2 Aug 2026 22:56:21 +0000</lastBuildDate>
+        <lastBuildDate>Sun, 2 Aug 2026 23:59:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -352,16 +352,6 @@ has been deprecated with this release.</p>
             <guid>https://lwn.net/Articles/1085554/</guid>
             <pubDate>Mon, 27 Jul 2026 13:10:20 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.2-rc5</title>
-            <link>https://lwn.net/Articles/1085422/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1085421/">7.2-rc5</a> kernel prepatch is out for
-testing.  Linus said: "<q>So it's a bit too big for my liking, but nothing
-in there strikes me as particularly strange or scary</q>".]]></description>
-            <guid>https://lwn.net/Articles/1085422/</guid>
-            <pubDate>Sun, 26 Jul 2026 22:10:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
