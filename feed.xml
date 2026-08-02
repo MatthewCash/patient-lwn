@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 01 Aug 2026 22:37:03 +0000</pubDate>
-        <lastBuildDate>Sat, 1 Aug 2026 23:58:12 +0000</lastBuildDate>
+        <pubDate>Sun, 02 Aug 2026 02:31:51 +0000</pubDate>
+        <lastBuildDate>Sun, 2 Aug 2026 02:51:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -361,23 +361,6 @@ testing.  Linus said: "<q>So it's a bit too big for my liking, but nothing
 in there strikes me as particularly strange or scary</q>".]]></description>
             <guid>https://lwn.net/Articles/1085422/</guid>
             <pubDate>Sun, 26 Jul 2026 22:10:54 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>A Debian general resolution on LLM usage</title>
-            <link>https://lwn.net/Articles/1085314/</link>
-            <description><![CDATA[The Debian project is <a
-href="https://www.debian.org/vote/2026/vote_002">considering a general
-resolution</a> on the use of large language models in the creation of the
-distribution.  There are three alternatives to consider: a
-total ban on LLM usage, rejecting LLMs "<q>as far as practical</q>", or
-explicitly allowing LLM usage subject to a set of conditions.  The
-discussion period has just begun; the beginning of the voting period does
-not yet appear to have been set.  Those who want to look over the
-discussion ahead of the inevitable LWN article can find it <a
-href="https://lwn.net/ml/all/til24c.3ns3jl2mkmzmn@riseup.net">over here</a>.]]></description>
-            <guid>https://lwn.net/Articles/1085314/</guid>
-            <pubDate>Sat, 25 Jul 2026 23:14:16 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
