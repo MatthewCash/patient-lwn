@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Aug 2026 15:58:42 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Aug 2026 16:02:44 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Aug 2026 18:01:49 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Aug 2026 18:05:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -424,24 +424,6 @@ profiles</a>, support for additional Wayland protocols, and more.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana and libreswan), <b>Debian</b> (openjdk-11 and openjdk-17), <b>Fedora</b> (opkssh, perl-Mojolicious, and rpm), <b>Mageia</b> (libyang, memcached, nginx, packages, and sqlite3), <b>Oracle</b> (.NET 8.0, acl, buildah, compat-openssl11, compat-poppler022, dogtag-pki, git-lfs, glibc, go-fdo-client, golang, httpd:2.4, jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, libpq, LibRaw, maven:3.8, mysql8.4, nodejs:22, nodejs:24, openssl, podman, poppler, python3.14, samba, sssd, tomcat, tomcat9, vim, and yggdrasil), <b>Red Hat</b> (gstreamer1-plugins-bad-free), <b>SUSE</b> (afterburn, alsa, apache-ivy, avahi, aws-nitro-enclaves-cli, chromium, cifs-utils, cockpit, cockpit-machines, cockpit-packages, cockpit- podman, cockpit-repos, cockpit-subscriptions, containerd, curl, docker-compose, freetype2, gawk, glib2, google-cloud-sap-agent, gpg2, gstreamer-plugins-bad, gzip, helm, ignition, ImageMagick, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformats-binary, jackson-modules-base, jackson-annotations, jackson-core, jackson-databind, java-11-openjdk, jline3, joe, jq, kernel, libgcrypt, libknet-devel, libsoup, libxml2, mariadb-connector-c, mcphost, net-tools, nghttp2, opennlp, openssl-1_0_0, PackageKit, pam, patch, pcr-oracle, perl, perl-DBI, perl-HTTP-Date, python-aiohttp, python-cryptography, python-Pillow, python-pyasn1, python-soupsieve, python-tornado, python-tornado6, python-urllib3, python3, radvd, rust-keylime, s390-tools, shibboleth-sp, sssd, systemd, tiff, vim, and wpa_supplicant), and <b>Ubuntu</b> (FreeIPMI, glibc, linux-aws, linux-aws, linux-raspi, linux-aws-6.8, linux-aws-fips, linux-azure, linux-azure-6.8, linux-azure, linux-oracle, linux-azure-5.15, linux-azure-fde-5.15, linux-oracle-5.15, linux-azure-6.17, linux-azure-fde, linux-azure-fde-6.17, linux-azure-fde-6.8, linux-azure-fips, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-nvidia-tegra, linux-xilinx, linux-oracle-6.17, roc-toolkit, and samba).]]></description>
             <guid>https://lwn.net/Articles/1085855/</guid>
             <pubDate>Tue, 28 Jul 2026 13:11:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GNU Binutils 2.47 released</title>
-            <link>https://lwn.net/Articles/1085566/</link>
-            <description><![CDATA[<a
-href="https://inbox.sourceware.org/binutils/87o6fty5pz.fsf@redhat.com/">Version
-2.47</a> of <a href="https://www.gnu.org/software/binutils/">GNU
-Binutils</a> has been released. In addition to the usual bug fixes
-there are some notable new features in this release including added
-support for a number of RISC-V standard extensions, a command-line
-option (<tt>-M&#160;annotate</tt>) which displays the symbol for
-undefined instructions for AArch64, and more. The 32-bit s390 target
-has been deprecated with this release.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1085566/</guid>
-            <pubDate>Mon, 27 Jul 2026 15:46:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
