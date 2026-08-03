@@ -8,11 +8,48 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 03 Aug 2026 21:00:34 +0000</pubDate>
-        <lastBuildDate>Mon, 3 Aug 2026 21:06:21 +0000</lastBuildDate>
+        <pubDate>Mon, 03 Aug 2026 21:18:32 +0000</pubDate>
+        <lastBuildDate>Mon, 3 Aug 2026 22:18:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Twenty years of Pandoc</title>
+            <link>https://lwn.net/Articles/1086976/</link>
+            <description><![CDATA[<p>John MacFarlane has published a <a
+href="https://pandoc.org/twenty-years-of-pandoc.html">lengthy
+retrospective</a> to commemorate twenty years of the <a
+href="https://pandoc.org/">Pandoc</a> document converter.</p>
+
+<blockquote class="bq">
+<p>On August 3, 2006, I uploaded the first version of pandoc to my
+website, releasing it under the free GPL license. Pandoc 0.1 consisted
+of about 3000 lines of Haskell code, with no dependencies aside from
+GHC's standard library. It could convert Markdown, reStructuredText,
+HTML, and LaTeX documents into any of these formats, plus RTF or S5. I
+had no idea at the time that this would just be the first of over two
+hundred releases over the next twenty years; that the project would
+become the <a
+href="https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Haskell.md">most
+popular program written in Haskell</a>; that I would spend countless
+hours on bug-fixes, improvement, and project management; that I would
+collaborate with programmers in many other countries; that pandoc
+would come to support over fifty document formats; that it would allow
+automatic generation of citations and bibliographies; that it would
+become integrated into academic writing tools like <a
+href="https://quarto.org/">Quarto</a> and <a
+href="https://jupyter.org/">Jupyter Notebook</a>; that it would be
+installed on millions of computers around the world.</p>
+
+<p>How did this happen? I want to take advantage of pandoc's birthday
+to tell the story of the project, as best I can remember it.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1086976/</guid>
+            <pubDate>Mon, 03 Aug 2026 21:18:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>C-Kermit 11 released</title>
             <link>https://lwn.net/Articles/1086953/</link>
