@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Aug 2026 14:56:58 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Aug 2026 15:00:52 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Aug 2026 16:54:31 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Aug 2026 16:59:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -493,22 +493,6 @@ policy will evolve and will be revisited periodically.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dovecot, go-fdo-client, go-fdo-server, kernel, kernel-rt, and sssd), <b>Debian</b> (calibre, hplip, libraw, and samba), <b>Fedora</b> (btrbk, chromium, gpsd, kronosnet, and restic), <b>Mageia</b> (gstreamer1.0-libav and libslirp), <b>Slackware</b> (libarchive, samba, and seamonkey), <b>SUSE</b> (agama-web-ui, chromium, gimp, glib2, GraphicsMagick, ignition, ImageMagick, java-21-openjdk, libssh, libssh-config, nginx, nmap, nsd, python-urllib3, python313-CherryPy, rsyslog, samba, sssd, valkey, webkit2gtk3, and yq), and <b>Ubuntu</b> (freerdp3, linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-kvm, and linux-raspi, linux-raspi-5.4).]]></description>
             <guid>https://lwn.net/Articles/1086031/</guid>
             <pubDate>Wed, 29 Jul 2026 13:11:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Wayfire 0.11 released</title>
-            <link>https://lwn.net/Articles/1085894/</link>
-            <description><![CDATA[<p><a href="https://wayfire.org/2026/07/24/Wayfire-0-11.html">Version
-0.11</a> of the <a
-href="https://gitlab.freedesktop.org/wlroots/wlroots#wlroots">wlroots</a>-based
-<a href="https://wayfire.org/">Wayfire</a> Wayland compositor has been
-released. Notable changes include better fractional scaling,
-per-output <a href="https://en.wikipedia.org/wiki/ICC_profile">ICC
-profiles</a>, support for additional Wayland protocols, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1085894/</guid>
-            <pubDate>Tue, 28 Jul 2026 14:54:01 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
