@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 04 Aug 2026 11:27:53 +0000</pubDate>
-        <lastBuildDate>Tue, 4 Aug 2026 12:19:37 +0000</lastBuildDate>
+        <pubDate>Tue, 04 Aug 2026 14:56:58 +0000</pubDate>
+        <lastBuildDate>Tue, 4 Aug 2026 15:00:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1087068/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (frr, ldns, mingw-glib2, and perl-Archive-Tar), <b>Debian</b> (ruby2.7), <b>Fedora</b> (borgbackup, nebula, python-nh3, rust-ammonia, and seamonkey), <b>Mageia</b> (librabbitmq, libvncserver, packages, perl, perl-GD, perl-Unicode-LineBreak, squid, and unbound), <b>Oracle</b> (compat-libtiff3, frr, gstreamer1-plugins-good, javapackages-tools:201801, libreswan, nodejs:22, nodejs:24, p11-kit, perl-Archive-Tar, perl-DBI, php, pki-deps:10.6, and python-tornado), and <b>SUSE</b> (aws-iam-authenticator, bind, containerd, gawk, google-cloud-sap-agent, ignition, ImageMagick, java-11-openjdk, libpng16, libssh, mcphost, nginx, openssh, openssl-1_1, perl-DBI, perl-HTTP-Date, perl-Net-DNS, python-urwid, python3-dulwich, python312, python313, python3, python313-pydantic, python313-sentry-sdk, rrdtool, s390-tools, samba, spice-vdagent, vim, and xen).]]></description>
+            <guid>https://lwn.net/Articles/1087068/</guid>
+            <pubDate>Tue, 04 Aug 2026 13:07:52 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Another NPM worm</title>
+            <link>https://lwn.net/Articles/1087108/</link>
+            <description><![CDATA[<p>
+<a href="https://www.stepsecurity.io">
+StepSecurity</a> is 
+<a href="https://www.stepsecurity.io/blog/chaindrop-npm-worm">
+reporting</a> the emergence of a new worm affecting NPM packages. The design of the worm is nothing new, but the rapidity with which it is exploiting captured NPM packager credentials is noteworthy.
+</p>
+
+<blockquote class="bq">
+<p>
+TL;DR: A self-propagating worm, which we are calling ChainDrop, is spreading rapidly through the npm ecosystem. So far 435 packages and more than 1,550 compromised versions have been flagged, starting with keyv@6.0.0. If you are using any of the packages listed below, assume your environment is compromised. We are still investigating the full scope; check back on this post for updates.
+</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1087108/</guid>
+            <pubDate>Tue, 04 Aug 2026 14:54:05 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Twenty years of Pandoc</title>
             <link>https://lwn.net/Articles/1086976/</link>
@@ -482,14 +509,6 @@ profiles</a>, support for additional Wayland protocols, and more.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1085894/</guid>
             <pubDate>Tue, 28 Jul 2026 14:54:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1085855/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (grafana and libreswan), <b>Debian</b> (openjdk-11 and openjdk-17), <b>Fedora</b> (opkssh, perl-Mojolicious, and rpm), <b>Mageia</b> (libyang, memcached, nginx, packages, and sqlite3), <b>Oracle</b> (.NET 8.0, acl, buildah, compat-openssl11, compat-poppler022, dogtag-pki, git-lfs, glibc, go-fdo-client, golang, httpd:2.4, jackson-annotations, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, libpq, LibRaw, maven:3.8, mysql8.4, nodejs:22, nodejs:24, openssl, podman, poppler, python3.14, samba, sssd, tomcat, tomcat9, vim, and yggdrasil), <b>Red Hat</b> (gstreamer1-plugins-bad-free), <b>SUSE</b> (afterburn, alsa, apache-ivy, avahi, aws-nitro-enclaves-cli, chromium, cifs-utils, cockpit, cockpit-machines, cockpit-packages, cockpit- podman, cockpit-repos, cockpit-subscriptions, containerd, curl, docker-compose, freetype2, gawk, glib2, google-cloud-sap-agent, gpg2, gstreamer-plugins-bad, gzip, helm, ignition, ImageMagick, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformats-binary, jackson-modules-base, jackson-annotations, jackson-core, jackson-databind, java-11-openjdk, jline3, joe, jq, kernel, libgcrypt, libknet-devel, libsoup, libxml2, mariadb-connector-c, mcphost, net-tools, nghttp2, opennlp, openssl-1_0_0, PackageKit, pam, patch, pcr-oracle, perl, perl-DBI, perl-HTTP-Date, python-aiohttp, python-cryptography, python-Pillow, python-pyasn1, python-soupsieve, python-tornado, python-tornado6, python-urllib3, python3, radvd, rust-keylime, s390-tools, shibboleth-sp, sssd, systemd, tiff, vim, and wpa_supplicant), and <b>Ubuntu</b> (FreeIPMI, glibc, linux-aws, linux-aws, linux-raspi, linux-aws-6.8, linux-aws-fips, linux-azure, linux-azure-6.8, linux-azure, linux-oracle, linux-azure-5.15, linux-azure-fde-5.15, linux-oracle-5.15, linux-azure-6.17, linux-azure-fde, linux-azure-fde-6.17, linux-azure-fde-6.8, linux-azure-fips, linux-hwe-6.8, linux-ibm, linux-ibm-6.8, linux-nvidia-tegra, linux-xilinx, linux-oracle-6.17, roc-toolkit, and samba).]]></description>
-            <guid>https://lwn.net/Articles/1085855/</guid>
-            <pubDate>Tue, 28 Jul 2026 13:11:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
