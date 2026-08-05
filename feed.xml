@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Aug 2026 12:02:02 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Aug 2026 12:17:19 +0000</lastBuildDate>
+        <pubDate>Wed, 05 Aug 2026 14:26:05 +0000</pubDate>
+        <lastBuildDate>Wed, 5 Aug 2026 14:55:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1087318/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, gstreamer1-plugins-good, kernel, kernel-rt, p11-kit, perl-Archive-Tar, perl-DBI, and thunderbird), <b>Debian</b> (aom, botan3, and kernel), <b>Fedora</b> (abrt, coreutils, doctl, kernel, open62541, perl, perl-Devel-Cover, perl-PAR-Packer, and polymake), <b>Mageia</b> (acl and php), <b>Oracle</b> (firefox, frr, kernel, libreswan, nodejs-nodemon, nodejs22, perl-Archive-Tar, php:7.4, php:8.2, rsync, and thunderbird), <b>Red Hat</b> (compat-libtiff3, libpq, libtiff, postgresql, postgresql16, postgresql18, postgresql:12, postgresql:13, postgresql:15, postgresql:16, and postgresql:18), <b>Slackware</b> (stunnel), and <b>SUSE</b> (alloy, alsa, bind, chromedriver, corepack24, ffmpeg-4, golang-github-prometheus-prometheus, google-guest-agent, google-osconfig-agent, kubevirt, libgcrypt, libpng16, multipath-tools, netty, netty-tcnative, nodejs26, openssl-1_1, openssl-3, perl-HTTP-Tiny, perl-YAML-Syck, podman, python-sh, python-ujson, rsyslog, spice-vdagent, thrift, valkey, wpa_supplicant, and xen).]]></description>
+            <guid>https://lwn.net/Articles/1087318/</guid>
+            <pubDate>Wed, 05 Aug 2026 13:10:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Nelson: rust-lang/rust is adopting an LLM policy</title>
+            <link>https://lwn.net/Articles/1087326/</link>
+            <description><![CDATA[Jynn Nelson <a
+href="https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/">describes
+the Rust language team's new LLM policy</a> on the Inside Rust blog.
+<p>
+<blockquote class="bq">
+	No one except the author is required to read LLM output unless they
+	choose to: LLM output isn't allowed in public docs, PR
+	descriptions, or Github comments unless it's clearly marked;
+	reviewers aren't required to look at LLM PRs if they don't want to.
+<p>
+	No one is required to use LLMs to contribute to <tt>rust-lang/rust</tt>:
+	policies must be written first for humans, and only summarized for
+	machines; LLM reviews cannot substitute for human review or
+	self-review.
+<p>
+	You are allowed to generate LLM content that only you see, without
+	disclosure, as long as you do not post it anywhere that you expect
+	us to read or review.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1087326/</guid>
+            <pubDate>Wed, 05 Aug 2026 13:43:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>An LLM agent attempts to compromise a project on GitHub</title>
             <link>https://lwn.net/Articles/1087162/</link>
@@ -522,14 +556,6 @@ policy will evolve and will be revisited periodically.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1086041/</guid>
             <pubDate>Wed, 29 Jul 2026 14:38:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1086031/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dovecot, go-fdo-client, go-fdo-server, kernel, kernel-rt, and sssd), <b>Debian</b> (calibre, hplip, libraw, and samba), <b>Fedora</b> (btrbk, chromium, gpsd, kronosnet, and restic), <b>Mageia</b> (gstreamer1.0-libav and libslirp), <b>Slackware</b> (libarchive, samba, and seamonkey), <b>SUSE</b> (agama-web-ui, chromium, gimp, glib2, GraphicsMagick, ignition, ImageMagick, java-21-openjdk, libssh, libssh-config, nginx, nmap, nsd, python-urllib3, python313-CherryPy, rsyslog, samba, sssd, valkey, webkit2gtk3, and yq), and <b>Ubuntu</b> (freerdp3, linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-kvm, and linux-raspi, linux-raspi-5.4).]]></description>
-            <guid>https://lwn.net/Articles/1086031/</guid>
-            <pubDate>Wed, 29 Jul 2026 13:11:23 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
