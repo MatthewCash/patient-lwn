@@ -8,11 +8,175 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 05 Aug 2026 23:18:28 +0000</pubDate>
-        <lastBuildDate>Wed, 5 Aug 2026 23:30:01 +0000</lastBuildDate>
+        <pubDate>Thu, 06 Aug 2026 00:45:33 +0000</pubDate>
+        <lastBuildDate>Thu, 6 Aug 2026 00:55:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for July 30, 2026</title>
+            <link>https://lwn.net/Articles/1084315/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1084315/">Front</a>: Hazard pointers; DFSG team; Swap devices; Netkit and BPF; BPF inlined functions; Fedora GRUB; gccrs.
+            <li> <a href="https://lwn.net/Articles/1084317/">Briefs</a>: RIP Dan Williams; Debian LLM resolution; Fedora 45 process; Codeberg LLM policy; GCC LLM policy; GNU Binutils 2.47; GNU C Library 2.44; Wayfire 0.11; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1084318/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1084315/</guid>
+            <pubDate>Thu, 30 Jul 2026 00:01:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Debugging information for inlined functions</title>
+            <link>https://lwn.net/Articles/1083985/</link>
+            <description><![CDATA[<p>
+BPF programs use
+<a href="https://docs.kernel.org/bpf/btf.html">
+BPF type format</a> (BTF) debugging information in order to
+determine how to interact with functions in the kernel. Specifically, tracing a
+kernel function involves finding its address in the kernel's BTF section — but
+that doesn't work for functions that have been inlined, and therefore don't have
+a single, specific address. Alan Maguire wants to add information about inlined
+functions to BTF in order to allow them to be traced, and led a session on that
+topic at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1083985/</guid>
+            <pubDate>Wed, 29 Jul 2026 18:05:21 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora approves a smaller GRUB</title>
+            <link>https://lwn.net/Articles/1085609/</link>
+            <description><![CDATA[<p>Leo Sandoval and Marta Lewandowska have put forward a <a
+href="https://fedoraproject.org/wiki/Changes/Grub2LightForConfidentialComputing#Detailed_Description">change
+proposal</a> for Fedora&#160;45, which is expected in October, to
+provide a separate, slimmed-down version of <a
+href="https://www.gnu.org/software/grub/">GRUB</a> for a niche use
+case. The new package would be in addition to the main GRUB package
+and would not replace it for the majority of Fedora users. The idea
+met with some resistance from Fedora contributors who thought that it
+would be better to use <a
+href="https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html">systemd-boot</a>,
+or another modern bootloader, rather than trying to wrangle GRUB into
+a suitable state for the use case. The Fedora Engineering Steering
+Council (FESCo), however, <a
+href="https://forge.fedoraproject.org/fesco/tickets/issues/3626#issuecomment-1058486">voted
+to accept the change</a> on July&#160;7.</p>]]></description>
+            <guid>https://lwn.net/Articles/1085609/</guid>
+            <pubDate>Wed, 29 Jul 2026 15:44:01 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Progress toward compiling Linux with gccrs</title>
+            <link>https://lwn.net/Articles/1083202/</link>
+            <description><![CDATA[<p>
+The <a href="https://rust-gcc.github.io/">
+<tt>gccrs</tt> project</a>, which is creating a Rust frontend for the GCC compiler, has
+spent the first half of 2026 focusing on compiling the Linux
+kernel. By testing the compiler against the kernel crates, the
+development team has made significant progress toward generating correct code
+for other Rust programs. As detailed in the project's
+<a href="https://github.com/Rust-GCC/Reporting/tree/main/2026">
+weekly</a> and
+<a href="https://rust-gcc.github.io/#status-reports">
+monthly</a> reports, this effort has uncovered and resolved problems
+in areas such as
+attribute handling (described in the
+<a href="https://rust-gcc.github.io/2026/03/10/2026-02-monthly-report.html">
+report for February</a>), name resolution, and resource management (both
+<a href="https://rust-gcc.github.io/2026/06/02/2026-05-monthly-report.html">
+detailed in the May report</a>). Currently, the compiler can only handle simple
+standalone programs, but that situation could change rapidly in the coming
+months.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1083202/</guid>
+            <pubDate>Tue, 28 Jul 2026 17:40:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A report from Debian&apos;s new DFSG team</title>
+            <link>https://lwn.net/Articles/1084499/</link>
+            <description><![CDATA[<p>The <a href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing
+&amp; New Packages Team</a> (usually shortened to "DFSG team") was
+created in October 2025 as part of the <a
+href="https://lwn.net/Articles/1043364/">ftpmaster team split</a>. Its
+job is to review packages in the <a
+href="https://wiki.debian.org/NewQueue">new queue</a> for compliance
+with the <a
+href="https://wiki.debian.org/DebianFreeSoftwareGuidelines">Debian
+Free Software Guidelines</a> (DFSG), among other things, before the
+packages are allowed to enter the <a
+href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
+archive</a>. The change was long in coming, and some questions
+remained after the split whether it was the right move. Andrew
+McMillan provided an overview of the team's activities and its current
+status during <a
+href="https://debconf26.debconf.org/">DebConf26</a>. While it may be
+too early to say with certainty, his report suggests that the new
+division of duties is working out well.</p>]]></description>
+            <guid>https://lwn.net/Articles/1084499/</guid>
+            <pubDate>Tue, 28 Jul 2026 14:21:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Hazard pointers for the kernel</title>
+            <link>https://lwn.net/Articles/1084015/</link>
+            <description><![CDATA[The kernel's read-copy-update (RCU) subsystem ensures that data will not be
+deleted until it is known that there are no threads holding references to
+it.  RCU works well and is widely used throughout the kernel, but it can
+increase memory use and add significant delays before unused kernel objects
+are cleaned up.  <a
+href="https://en.wikipedia.org/wiki/Hazard_pointer">Hazard pointers</a> are
+an alternative approach to lockless data updates that offers better
+performance, for some situations at least.  The kernel community is
+currently considering <a
+href="https://lwn.net/ml/all/23e34c2e-67fd-45da-b130-e70a131a59ea@paulmck-laptop">a
+hazard-pointer implementation</a> by Mathieu Desnoyers and Paul McKenney.]]></description>
+            <guid>https://lwn.net/Articles/1084015/</guid>
+            <pubDate>Mon, 27 Jul 2026 16:51:58 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] An update on netkit and the use of BPF in user space</title>
+            <link>https://lwn.net/Articles/1083418/</link>
+            <description><![CDATA[<p>
+Daniel Borkmann led a session at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Filesystem, Memory-Management,
+and BPF Summit</a> about the progress that has been made with netkit, the subsystem
+that allows virtual machines (VMs) running on Linux to perform networking efficiently.
+When that did not fill the full time, he went on to discuss his idea for
+using BPF to live-patch user-space applications. While netkit is making
+progress, and can now support zero-copy receipt of packets into a VM in a
+network namespace, the idea of using BPF for patching user-space programs
+remains entirely speculative.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1083418/</guid>
+            <pubDate>Fri, 24 Jul 2026 13:17:28 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] An operations structure for swap devices</title>
+            <link>https://lwn.net/Articles/1083094/</link>
+            <description><![CDATA[One of the ideas raised at the <a href="https://lwn.net/Articles/lsfmmbpf2026/">2026 Linux
+Storage, Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) was
+the creation of <a
+href="https://lwn.net/Articles/1072657/#:~:text=Abstracting%20the%20swap%20backend">an
+operations structure</a> for the swap subsystem.  Like many parts of the
+kernel, the swap layer evolved over time, with pieces being added as
+needed; the end result of this evolution is rarely what one would expect
+had the subsystem been designed today.  The interface between the swap
+layer and the devices it uses is just one example.  It appears that one
+result of the swap subsystem's evolution — the lack of an abstraction layer
+to interface with underlying storage — will soon be addressed, but in a
+different way than was initially envisioned.]]></description>
+            <guid>https://lwn.net/Articles/1083094/</guid>
+            <pubDate>Thu, 23 Jul 2026 14:25:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>b4 0.16.0 released</title>
             <link>https://lwn.net/Articles/1087388/</link>
