@@ -8,11 +8,102 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Aug 2026 12:52:41 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Aug 2026 13:08:54 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Aug 2026 14:12:42 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Aug 2026 14:19:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1087742/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (compat-libtiff3, fence-agents, firefox, freerdp, frr, gimp, gstreamer1-plugins-bad-free, java-25-openjdk, kernel, kernel-rt, ldns, libgcrypt, libXfont2, nodejs:22, nodejs:24, p11-kit, pipewire, resource-agents, sg3_utils, thunderbird, and yelp), <b>Debian</b> (async-http-client, jq, kernel, linux-6.1, linux-6.12, redis, and udisks2), <b>Fedora</b> (abrt, chromium, coreutils, curl, freeipa, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, ImageMagick, kernel, libXfont2, php, python-gstreamer1, samba, tcpreplay, and trafficserver), <b>Mageia</b> (firefox, nss, rootcerts, python-django, and thunderbird), <b>Oracle</b> (freerdp, gimp, gpsd, kernel, kernel-uek, and osbuild-composer), <b>Red Hat</b> (buildah and container-tools:rhel8), <b>Slackware</b> (libXfont2 and p11-kit), and <b>SUSE</b> (amazon-ecs-init, azure-storage-azcopy, bind, bouncycastle, cockpit-repos, cockpit-subscriptions, dnsdist, ffmpeg-4, hawk-apiserver, nodejs22, nodejs24, OpenImageIO, openssl-1_1, openssl-3, perl-Mojo-JWT, php8, rsyslog, sssd, and wireshark).]]></description>
+            <guid>https://lwn.net/Articles/1087742/</guid>
+            <pubDate>Fri, 07 Aug 2026 13:12:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Stable kernel releases for Friday with a single bug fix</title>
+            <link>https://lwn.net/Articles/1087743/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1087744/">6.12.102</a>, <a
+href="https://lwn.net/Articles/1087745/">6.6.150</a>, <a
+href="https://lwn.net/Articles/1087746/">6.1.182</a>, <a
+href="https://lwn.net/Articles/1087747/">5.15.215</a>, <a
+href="https://lwn.net/Articles/1087748/">5.10.264</a> stable kernels. This round of
+stable kernel releases contains a fix for a single bug, <a
+href="https://lwn.net/ml/all/e6168644-1943-403e-98f7-e03b86db2ff2@proxmox.com/">found
+by Thomas Lamprecht</a>, that affected several of the kernels <a
+href="https://lwn.net/Articles/1087567/">released yesterday</a> in
+response to a <a
+href="https://lwn.net/ml/all/2026080631-CVE-2026-68480-ad40%40gregkh/">security
+vulnerability</a> (<a
+href="https://www.cve.org/CVERecord/?id=CVE-2026-68480">CVE-2026-68480</a>)
+that could allow data leakage through speculative execution.</p>
+
+<p>The 6.12.102 release adds the backported security fix for CVE-2026-68480 to the 6.12
+series. As always, users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1087743/</guid>
+            <pubDate>Fri, 07 Aug 2026 13:35:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>LightDM lives: version 1.33.0 released</title>
+            <link>https://lwn.net/Articles/1087759/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/ubuntu/lightdm/releases/tag/1.33.0">Version
+1.33.0</a> of the <a
+href="https://github.com/ubuntu/lightdm#lightdm-display-manager">LightDM</a>
+display manager has been released. This is the <a
+href="https://discourse.ubuntu.com/t/lightdm-1-33-0-released/85962">first
+release in four years</a>: the project had been sponsored by Canonical
+but was <a
+href="https://discourse.ubuntu.com/t/current-status-of-lightdm/29048/17?">effectively
+unmaintained</a> in recent years. It has been <a
+href="https://discourse.ubuntu.com/t/current-status-of-lightdm/29048/23">transferred
+to a new community repository</a> and is now maintained by Joshua
+Peisach and Neal Gompa.</p>
+
+<p>The new release includes Qt6 support, code optimizations, and a
+list of other fixes that had been in limbo pending a new release.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1087759/</guid>
+            <pubDate>Fri, 07 Aug 2026 13:52:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>The Software Stewardship Lab launches</title>
+            <link>https://lwn.net/Articles/1087812/</link>
+            <description><![CDATA[The <a href="https://stewardshiplab.org/">Software Stewardship Lab</a>, a
+nonprofit organization based in Scotland, has <a
+href="https://stewardshiplab.org/ideas/a-research-lab-for-open-source/">announced
+its existence</a>.
+<p>
+<blockquote class="bq">
+	Our current research focuses are:
+<p>
+<ul class="spacylist">
+<li> Software supply chain security — We're working on an observatory that
+     allows users to identify and monitor the world's critical Open Source
+     packages in real time, including previously hidden parts of the
+     dependency graph.
+
+<li> Maintainer burnout — Our report on burnout in Open Source has been
+     well-received. We're working on yearly follow-ups, plus a companion
+     report on how AI is affecting maintainer burnout.
+</ul>
+<p>
+Moving forward, the Lab's experts will direct funding to and supervise Open
+Source sustainability researchers doing critical work. We are already
+working with universities to teach the next generations of software supply
+chain experts.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1087812/</guid>
+            <pubDate>Fri, 07 Aug 2026 14:12:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Six stable kernels with a security fix</title>
             <link>https://lwn.net/Articles/1087567/</link>
@@ -542,46 +633,6 @@ and stability</a> fixes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1086555/</guid>
             <pubDate>Fri, 31 Jul 2026 17:22:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1086487/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, nodejs-nodemon, nodejs22, nodejs24, openssh, and vim), <b>Debian</b> (gsasl and ruby-rack), <b>Fedora</b> (dokuwiki, lego, libnbd, nasm, pack, unbound, and valkey), <b>Mageia</b> (389-ds-base, libxfont2, nghttp2, and perl-DBI), <b>SUSE</b> (apptainer, bind, ffmpeg-7, freerdp, google-osconfig-agent, graphicsmagick, helm, ImageMagick, java-17-openjdk, java-25-openjdk, keybase-client, kubernetes1.34-apiserver, kubernetes1.35-apiserver, kubernetes1.36-apiserver, kubevirt1.8-container-disk, libarchive, logcli, net-tools, openssl-3, PackageKit, perl-Net-DNS, prometheus-ha_cluster_exporter, python-dulwich, python-sqlparse, python-urwid, python3-pyOpenSSL, python313, python3, runc, s2n, tomcat, tomcat10, tomcat11, and valkey), and <b>Ubuntu</b> (libinput, linux-intel-iot-realtime, linux-intel-iotg-5.15, openssl, python2.7, python3.5, and ruby-sinatra).]]></description>
-            <guid>https://lwn.net/Articles/1086487/</guid>
-            <pubDate>Fri, 31 Jul 2026 13:08:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Arch Linux disables AUR package adoption</title>
-            <link>https://lwn.net/Articles/1086489/</link>
-            <description><![CDATA[<p>The Arch Linux DevOps team has <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/DRDEU3JUSC72CB265XHXPFA3DFSLXPBP/">announced</a>
-that adoption of orphaned packages in the Arch User Repository (AUR)
-has been disabled due to "<q>the current influx of malicious package
-adoptions and follow-up commits made via the AUR</q>". Michael Taggart
-has posted <a
-href="https://discourse.ifin.network/t/new-aur-attack-prompts-adoption-lock/698?">a brief analysis</a> of the malware being added to a <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/thread/P4WIRHTFNH2YZWQHGBAKQWX5YOAFIDLY/">long
-list of packages</a> in this round of attacks. The payload <a
-href="https://gist.github.com/ysf/57850cdee152da066ac51c07a452e883">appears
-to be</a> an remote-access trojan (RAT) that takes commands over the
-TOR network and attempts to upload a wide range of user data.</p>
-
-<p>The project had <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/4JRS73YVTE7JUYHHE3ZDUIHXYHXZ3YQQ/">suspended
-new account registration</a> in June. That followed <a
-href="https://lwn.net/Articles/1077619/">a campaign</a> in which an
-attacker or attackers created new accounts to adopt orphaned packages
-and push malicious updates to them that would install malware on user
-systems. AUR registration was <a
-href="https://lists.archlinux.org/archives/list/aur-general@lists.archlinux.org/message/TT3OCFFNM6SBMUBKIVTHTKA6UZJNMXIJ/">reopened</a>
-on July&#160;13 after the DevOps team added some minor, and apparently
-ineffective, restrictions on creating new accounts.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1086489/</guid>
-            <pubDate>Fri, 31 Jul 2026 13:38:04 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
