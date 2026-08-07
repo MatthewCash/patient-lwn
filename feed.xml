@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 07 Aug 2026 16:07:45 +0000</pubDate>
-        <lastBuildDate>Fri, 7 Aug 2026 17:23:51 +0000</lastBuildDate>
+        <pubDate>Fri, 07 Aug 2026 17:30:37 +0000</pubDate>
+        <lastBuildDate>Fri, 7 Aug 2026 18:11:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -610,30 +610,6 @@ applied between 7.2-rc5 and 7.2-rc6.]]></description>
             <guid>https://lwn.net/Articles/1086727/</guid>
             <pubDate>Mon, 03 Aug 2026 00:11:08 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Servo 0.4.0 released</title>
-            <link>https://lwn.net/Articles/1086555/</link>
-            <description><![CDATA[<p>The <a href="https://servo.org/">Servo</a> web-browser engine
-project has published an <a
-href="https://servo.org/blog/2026/07/31/june-in-servo/">update</a>
-about all of the changes that landed in June 2026, along with <a
-href="https://github.com/servo/servo/releases/tag/0.4.0">version
-0.4.0</a> of the Servo Tech Demo. This release includes a record 558
-commits, <a
-href="https://servo.org/blog/2026/07/31/june-in-servo/#real-world-compat">better
-layout correctness for web sites</a>, improved WebGPU support, <a
-href="https://servo.org/blog/2026/07/31/june-in-servo/#for-users-and-developers">enhancements
-for users</a> who are using the <a
-href="https://book.servo.org/trying/getting-servoshell.html">servoshell</a>
-test browser, and many <a
-href="https://servo.org/blog/2026/07/31/june-in-servo/#performance-and-stability">performance
-and stability</a> fixes.</p> 
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1086555/</guid>
-            <pubDate>Fri, 31 Jul 2026 17:22:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
