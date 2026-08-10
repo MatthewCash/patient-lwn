@@ -8,11 +8,42 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Aug 2026 13:13:49 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Aug 2026 13:23:55 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Aug 2026 14:00:59 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Aug 2026 14:36:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Django moves to an annual release cycle</title>
+            <link>https://lwn.net/Articles/1088059/</link>
+            <description><![CDATA[<p>The <a href="https://www.djangoproject.com/">Django</a> Python web-framework
+project has <a
+href="https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/">announced</a>
+that it has accepted an <a
+href="https://github.com/django/deps/blob/main/accepted/0020-annual-release-cycle.rst">annual
+release cycle proposal</a>. This means that the project is moving from a <a
+href="https://github.com/django/deps/blob/main/final/0004-release-schedule.rst">somewhat
+complicated schedule</a> that interspersed short-lived feature releases and
+long-term-support (LTS) releases to a simpler annual cycle where each release is
+supported for three years.</p>
+
+<blockquote class="bq">
+<p>Every feature release gets three years of support: one year of mainstream
+bugfixes, then two years of security and data-loss fixes. The "LTS" label is
+retired — every feature release now carries that same, unique commitment.</p>
+
+<p>No more LTS gap: no racing a deadline to jump two years of changes at
+once. Upgrade one year at a time, whenever suits you within the support
+window. Three versions are supported at any time, giving third-party packages a
+clear, rolling target.</p>
+</blockquote>
+
+<p>This will take effect with the upcoming Django&#160;2028 release, expected in
+January&#160;2028.</p>]]></description>
+            <guid>https://lwn.net/Articles/1088059/</guid>
+            <pubDate>Mon, 10 Aug 2026 13:31:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1088057/</link>
@@ -624,14 +655,6 @@ fabricated by LLMs.
             <guid>https://lwn.net/Articles/1086936/</guid>
             <pubDate>Mon, 03 Aug 2026 14:59:31 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1086897/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, fence-agents, kernel, kernel-rt, openssh, osbuild-composer, perl-Archive-Tar, perl-DBI, perl:5.32, pipewire, python-pillow, qemu-kvm, unbound, and vim), <b>Debian</b> (chromium, incus, kernel, kissfft, libgd2, libmodbus, libssh, node-tar, php8.4, poppler, python-authlib, sslh, and starlette), <b>Fedora</b> (borgbackup, coturn, curl, exim, fuse-overlayfs, gh, GitPython, goaccess, lemonldap-ng, libgit2, nextcloud, nsd, php, postgresql16, python3.12, rabbitmq-server, rust-libgit2-sys, and xen), <b>Mageia</b> (bluez, firmware, kernel, kmod, wireless-regdb), <b>Oracle</b> (buildah, compat-libtiff3, dovecot, fence-agents, firefox, gimp, glibc, grafana, gstreamer1-plugins-bad-free, java-25-openjdk, kernel, libgcrypt, libtiff, libXfont2, nodejs24, nodejs:22, nodejs:24, openssh, openssl, PackageKit, pipewire, python-pillow, rest, sssd, vim, and yelp), <b>SUSE</b> (bind, chromium, dnsdist, gdk-pixbuf-loader-libheif, gio-branding-upstream, google-guest-agent, govulncheck-vulndb, GraphicsMagick, ignition, ImageMagick, keybase-client, kronosnet, libblkid-devel, libntpc1, libpng16, nano, openssh, openssl-1_0_0, openssl-3, openvpn, PackageKit, perl-mojolicious, php8, python-nltk, python313-asteval, python313-certifi, python313-GitPython, python313-huggingface-hub, rsyslog, tomcat, tomcat10, tomcat11, traefik2, valkey, warewulf4, webkit2gtk3, and yq), and <b>Ubuntu</b> (linux-intel-iotg).]]></description>
-            <guid>https://lwn.net/Articles/1086897/</guid>
-            <pubDate>Mon, 03 Aug 2026 13:12:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
