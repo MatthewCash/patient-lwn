@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Mon, 10 Aug 2026 19:12:34 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Aug 2026 19:42:57 +0000</lastBuildDate>
+        <lastBuildDate>Mon, 10 Aug 2026 20:24:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -547,35 +547,6 @@ to tell the story of the project, as best I can remember it.</p>
             <guid>https://lwn.net/Articles/1086976/</guid>
             <pubDate>Mon, 03 Aug 2026 21:18:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>C-Kermit 11 released</title>
-            <link>https://lwn.net/Articles/1086953/</link>
-            <description><![CDATA[For those of us with a long memory: John Goerzen has <a
-href="https://changelog.complete.org/archives/44456-celebrating-45-years-of-kermit-with-the-first-new-c-kermit-release-in-15-years-and-working-with-a-decades-old-c-codebase">announced</a>
-the release of C-Kermit&#160;11, the first release of this file-transfer
-utility in 15&#160;years.
-<p>
-<blockquote class="bq">
-	As Debian maintainer of Kermit, I noticed some areas where it
-	wasn't matching modern expectations. One area was, not surprising
-	for a project of its age, security. Another area was that its
-	character set or line-ending conversions are usually not desired
-	now; we are used to byte-identical binary transfers, and the
-	defaults caused confusion and even some rare instances of data
-	corruption. So I started making a few patches last year.
-</blockquote>
-<p>
-See <a
-href="https://github.com/OpenKermit/ckermit/releases/tag/v11.0.506">the
-changelog</a> for details on the work that has been done.
-<p>
-Most of us probably haven't thought about C-Kermit in years (if ever), but
-there was a time when it was an essential tool for moving files between
-machines.]]></description>
-            <guid>https://lwn.net/Articles/1086953/</guid>
-            <pubDate>Mon, 03 Aug 2026 18:15:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
