@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Aug 2026 00:00:33 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Aug 2026 01:42:22 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Aug 2026 03:14:07 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Aug 2026 03:31:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -624,18 +624,6 @@ fabricated by LLMs.
             <guid>https://lwn.net/Articles/1086897/</guid>
             <pubDate>Mon, 03 Aug 2026 13:12:40 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.2-rc6</title>
-            <link>https://lwn.net/Articles/1086727/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1086726/">7.2-rc6</a> kernel prepatch is out for
-testing.  Quoth Linus: "<q>Hmm. This rc is huge.  Even by the "new normal"
-standards this is a big rc, and I think it's the biggest rc6 we've had in
-years at least by commit count.</q>"  There were 537 non-merge commits
-applied between 7.2-rc5 and 7.2-rc6.]]></description>
-            <guid>https://lwn.net/Articles/1086727/</guid>
-            <pubDate>Mon, 03 Aug 2026 00:11:08 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
