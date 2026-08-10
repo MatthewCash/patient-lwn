@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Aug 2026 15:28:49 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Aug 2026 15:38:50 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Aug 2026 16:27:19 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Aug 2026 16:33:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -575,85 +575,6 @@ there was a time when it was an essential tool for moving files between
 machines.]]></description>
             <guid>https://lwn.net/Articles/1086953/</guid>
             <pubDate>Mon, 03 Aug 2026 18:15:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>NetBSD 11.0 released</title>
-            <link>https://lwn.net/Articles/1086898/</link>
-            <description><![CDATA[<p>The release of <a
-href="https://netbsd.org/">NetBSD</a> 11.0, the 19th major version of the operating
-system, has been <a href="https://lwn.net/Articles/1086899/">announced</a>. There are
-many changes and enhancements since the 10.1 release, including a new
-port to RISC-V, better support for Linux system calls in <a
-href="https://man.netbsd.org/NetBSD-11.0/compat_linux.8"><tt>compat_linux()</tt></a>,
-as well as improvements to the <a
-href="https://man.netbsd.org/NetBSD-11.x-BRANCH/npf.7">NPF</a>
-firewall.</p>
-
-<blockquote class="bq">
-<p>As you are probably aware, the number of security issues found or
-suspected everywhere has massively increased with the advent of AI
-tools. As a consequence, we can't publish a release without open
-issues. Instead of delaying the release further to fix them (new ones
-are being reported all the time), we've instead chosen to be
-transparent about this.</p>
-</blockquote>
-
-<p>See the full <a
-href="https://netbsd.org/releases/formal-11/NetBSD-11.0.html">release
-notes</a> for links to the binary distributions and links to the full
-change logs.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1086898/</guid>
-            <pubDate>Mon, 03 Aug 2026 13:33:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Four stable kernels for Monday</title>
-            <link>https://lwn.net/Articles/1086900/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1086901/">7.1.6</a>, <a
-href="https://lwn.net/Articles/1086903/">6.18.42</a>, <a
-href="https://lwn.net/Articles/1086904/">6.12.101</a>, and <a
-href="https://lwn.net/Articles/1086905/">6.6.148</a> stable kernels. Each contains
-hundreds of patches&mdash;the 7.1.6 kernel has more than
-700&mdash;with fixes throughout the tree. Users are advised to
-upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1086900/</guid>
-            <pubDate>Mon, 03 Aug 2026 13:42:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>SQLite Critical CVEs or LLM Slop? (JFrog blog)</title>
-            <link>https://lwn.net/Articles/1086936/</link>
-            <description><![CDATA[The JFrog blog <a
-href="https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops/">examines
-some reported vulnerabilities in SQLite</a>, some of which made their way
-into high-profile vulnerability databases, that turned out to be entirely
-fabricated by LLMs.
-<p>
-<blockquote class="bq">
-	These LLM slop CVEs can cause organizations to waste time
-	investigating and patching vulnerabilities that do not actually
-	exist, as well as polluting vulnerability databases. In
-	environments where Critical vulnerabilities are automatically
-	prioritized or tickets are opened based on vulnerability scores,
-	such fabricated CVEs can turn into a real burden.
-<p>
-	In environments where AI is used to automate vulnerability triage
-	and remediation this becomes even more concerning. An AI agent that
-	encounters a fabricated CVE may attempt to locate the vulnerable
-	function, generate a patch, or recommend changes based on code that
-	does not even exist. Instead of helping security teams remediate
-	real vulnerabilities, it can lead them down a completely wrong
-	path, potentially introducing unnecessary changes and wasting time.
-</blockquote>
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1086936/</guid>
-            <pubDate>Mon, 03 Aug 2026 14:59:31 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
