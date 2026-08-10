@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 10 Aug 2026 11:42:12 +0000</pubDate>
-        <lastBuildDate>Mon, 10 Aug 2026 11:59:40 +0000</lastBuildDate>
+        <pubDate>Mon, 10 Aug 2026 13:13:49 +0000</pubDate>
+        <lastBuildDate>Mon, 10 Aug 2026 13:23:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1088057/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gpsd-minimal, kernel, libarchive, libgcrypt, and LibRaw), <b>Debian</b> (bind9, ca-certificates, chromium, dnsdist, icinga2, kitty, libheif, openjdk-21, pdns, pdns-recursor, thunderbird, and xen), <b>Fedora</b> (bird, erlang, kernel, mingw-glib2, nghttp2, p11-kit, perl, perl-Devel-Cover, perl-PAR-Packer, pgadmin4, polymake, python-nh3, python-wsgidav, python3.12, rabbitmq-server, rust-ammonia, seamonkey, and udisks2), <b>Mageia</b> (python-starlette), <b>Oracle</b> (gnutls, kernel, and LibRaw), <b>Red Hat</b> (container-tools:rhel8), <b>Slackware</b> (wpa_supplicant), and <b>SUSE</b> (azure-storage-azcopy, bouncycastle, ffmpeg-4, fuse-overlayfs, gleam, gstreamer-plugins-bad, libssh2-1, libssh2_org, libwireshark19, libXfont2-2, perl-Mojo-JWT, perl-Mojolicious, podman, python310, python313-Django4, and tekton-cli).]]></description>
+            <guid>https://lwn.net/Articles/1088057/</guid>
+            <pubDate>Mon, 10 Aug 2026 13:07:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.2-rc7</title>
             <link>https://lwn.net/Articles/1087961/</link>
