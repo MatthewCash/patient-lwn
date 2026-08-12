@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Aug 2026 11:35:26 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Aug 2026 11:58:45 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Aug 2026 13:15:19 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Aug 2026 13:19:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1088476/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, firefox, frr10, gstreamer1-plugins-good, iscsi-initiator-utils, isns-utils, kernel, kernel-rt, perl-DBI:1.641, postgresql, postgresql:12, and resource-agents), <b>Debian</b> (libgd2, openjdk-25, php7.4, php8.2, and postfix), <b>Fedora</b> (clamav, domoticz, and libidn), <b>Red Hat</b> (delve, edk2, firefox, go-fdo-client, go-fdo-server, grafana, host-metering, ignition, kernel, kernel package, kernel-rt, ldns, libarchive, mariadb10.11, mariadb:10.11, multiple packages, rhc, rhc-worker-playbook, rhc-worker-script, sssd, thunderbird, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (expat and openssh), and <b>SUSE</b> (avahi, chromedriver, erlang26, gawk, glib2, go-sendxmpp, google-guest-agent, google-osconfig-agent, gpg2, gstreamer-plugins-bad, gstreamer-plugins-base, helm, ignition, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-openj9, java-21-openj9, java-25-openj9, libarchive, libkrun, libpcp-devel, libpng16, libssh, libssh2_org, multipath-tools, net-tools, nmap, openssl-1_1, openssl-3, pcp, perl, python-pip, python-pyasn1, python-urllib3, python3-pip, python313-Django5, runc, samba, snpguest, spice-vdagent, sssd, unbound, wget, wild, wpa_supplicant, xmlrpc-c, and zpaqfranz).]]></description>
+            <guid>https://lwn.net/Articles/1088476/</guid>
+            <pubDate>Wed, 12 Aug 2026 13:03:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Bernard: GNOME Shell design dreams</title>
             <link>https://lwn.net/Articles/1088238/</link>
