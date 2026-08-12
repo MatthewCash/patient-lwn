@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 11 Aug 2026 21:08:44 +0000</pubDate>
-        <lastBuildDate>Tue, 11 Aug 2026 23:03:29 +0000</lastBuildDate>
+        <lastBuildDate>Wed, 12 Aug 2026 00:00:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -478,43 +478,6 @@ the Rust language team's new LLM policy</a> on the Inside Rust blog.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1087326/</guid>
             <pubDate>Wed, 05 Aug 2026 13:43:00 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>An LLM agent attempts to compromise a project on GitHub</title>
-            <link>https://lwn.net/Articles/1087162/</link>
-            <description><![CDATA[The AI Security Institute has released <a
-href="https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing">a
-detailed report</a> on an security incident of its own making.  The
-Institute set some LLM agents loose on the Internet with a security
-challenge; soon they were creating malware-laden pull requests and
-sock-puppet accounts to promote them.
-<p>
-<blockquote class="bq">
-	The agent opened a malicious pull request (PR) to ⟨REPO_A⟩ and
-	pursued a number of strategies to get it merged:
-<ol class="spacylist">
-<li> Repeatedly commented on the PR with sockpuppet accounts to manufacture
-     consensus and pressure the maintainer into approving with minimal
-     review.
-
-<li> Opened a GitHub Issue in another repository (also owned by ⟨PERSON_A⟩)
-     containing a prompt injection for other coding agents. The malicious
-     instructions were addressed to issue-triage AI coding agents and
-     invisible to humans viewing the website.
-
-<li> Sent multiple emails to ⟨PERSON_A⟩ and ⟨PERSON_B⟩, with different
-     pretexts to get them to run malicious code. Over the course of the
-     sample, the agent sent five emails, some containing malware, others
-     aimed at persuading a maintainer to accept the pull request.
-</ol>
-</blockquote>
-<p>
-It would be surprising if this were the only incident of this type; the
-only real difference here is that the people involved are documenting what
-happened.]]></description>
-            <guid>https://lwn.net/Articles/1087162/</guid>
-            <pubDate>Tue, 04 Aug 2026 23:04:32 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
