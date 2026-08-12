@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Aug 2026 17:37:08 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Aug 2026 17:43:26 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Aug 2026 18:36:21 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Aug 2026 18:38:28 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -444,29 +444,6 @@ to interface with underlying storage — will soon be addressed, but in a
 different way than was initially envisioned.]]></description>
             <guid>https://lwn.net/Articles/1083094/</guid>
             <pubDate>Thu, 23 Jul 2026 14:25:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>b4 0.16.0 released</title>
-            <link>https://lwn.net/Articles/1087388/</link>
-            <description><![CDATA[Konstantin Ryabitsev has announced the release of version 0.16.0 of the <a
-href="https://b4.docs.kernel.org/en/latest/">b4</a> 
-software-development tool.  The biggest change is the addition of
-bug-tracking support:
-<p>
-<blockquote class="bq">
-	The new "b4 bugs" command integrates with git-bug to let you track
-	bug reports alongside your git repository. Bugs are stored as git
-	objects inside the repo, so they travel with the code and can be
-	shared via git push/pull without any external service.
-</blockquote>
-<p>
-There are also a lot of improvements to <tt>b4 review</tt> (which was <a
-href="https://lwn.net/Articles/1063303/#:~:text=entirely%2E-,b4%20review">covered
-here</a> in March), better conflict resolution in <tt>b4 shazam</tt>,
-improved history rewriting, and more.]]></description>
-            <guid>https://lwn.net/Articles/1087388/</guid>
-            <pubDate>Wed, 05 Aug 2026 17:24:28 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
