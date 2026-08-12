@@ -8,11 +8,26 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Aug 2026 14:31:50 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Aug 2026 14:36:25 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Aug 2026 15:33:41 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Aug 2026 15:38:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>QEMU 11.1 released</title>
+            <link>https://lwn.net/Articles/1088490/</link>
+            <description><![CDATA[<p><a href="https://www.qemu.org/2026/08/11/qemu-11-1-0/">Version
+11.1</a> of the QEMU emulator has been released. The release contains
+more than 3,200 commits from 285 authors and includes a long list of
+improvements; see the announcement and <a
+href="https://wiki.qemu.org/ChangeLog/11.1">changelog</a> for the
+details.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1088490/</guid>
+            <pubDate>Wed, 12 Aug 2026 15:28:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1088476/</link>
@@ -452,40 +467,6 @@ here</a> in March), better conflict resolution in <tt>b4 shazam</tt>,
 improved history rewriting, and more.]]></description>
             <guid>https://lwn.net/Articles/1087388/</guid>
             <pubDate>Wed, 05 Aug 2026 17:24:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1087318/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, gstreamer1-plugins-good, kernel, kernel-rt, p11-kit, perl-Archive-Tar, perl-DBI, and thunderbird), <b>Debian</b> (aom, botan3, and kernel), <b>Fedora</b> (abrt, coreutils, doctl, kernel, open62541, perl, perl-Devel-Cover, perl-PAR-Packer, and polymake), <b>Mageia</b> (acl and php), <b>Oracle</b> (firefox, frr, kernel, libreswan, nodejs-nodemon, nodejs22, perl-Archive-Tar, php:7.4, php:8.2, rsync, and thunderbird), <b>Red Hat</b> (compat-libtiff3, libpq, libtiff, postgresql, postgresql16, postgresql18, postgresql:12, postgresql:13, postgresql:15, postgresql:16, and postgresql:18), <b>Slackware</b> (stunnel), and <b>SUSE</b> (alloy, alsa, bind, chromedriver, corepack24, ffmpeg-4, golang-github-prometheus-prometheus, google-guest-agent, google-osconfig-agent, kubevirt, libgcrypt, libpng16, multipath-tools, netty, netty-tcnative, nodejs26, openssl-1_1, openssl-3, perl-HTTP-Tiny, perl-YAML-Syck, podman, python-sh, python-ujson, rsyslog, spice-vdagent, thrift, valkey, wpa_supplicant, and xen).]]></description>
-            <guid>https://lwn.net/Articles/1087318/</guid>
-            <pubDate>Wed, 05 Aug 2026 13:10:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Nelson: rust-lang/rust is adopting an LLM policy</title>
-            <link>https://lwn.net/Articles/1087326/</link>
-            <description><![CDATA[Jynn Nelson <a
-href="https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy/">describes
-the Rust language team's new LLM policy</a> on the Inside Rust blog.
-<p>
-<blockquote class="bq">
-	No one except the author is required to read LLM output unless they
-	choose to: LLM output isn't allowed in public docs, PR
-	descriptions, or Github comments unless it's clearly marked;
-	reviewers aren't required to look at LLM PRs if they don't want to.
-<p>
-	No one is required to use LLMs to contribute to <tt>rust-lang/rust</tt>:
-	policies must be written first for humans, and only summarized for
-	machines; LLM reviews cannot substitute for human review or
-	self-review.
-<p>
-	You are allowed to generate LLM content that only you see, without
-	disclosure, as long as you do not post it anywhere that you expect
-	us to read or review.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1087326/</guid>
-            <pubDate>Wed, 05 Aug 2026 13:43:00 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
