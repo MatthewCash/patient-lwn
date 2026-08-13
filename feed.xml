@@ -8,11 +8,160 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 12 Aug 2026 23:17:53 +0000</pubDate>
-        <lastBuildDate>Wed, 12 Aug 2026 23:58:34 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Aug 2026 02:14:40 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Aug 2026 02:17:23 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 6, 2026</title>
+            <link>https://lwn.net/Articles/1086134/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1086134/">Front</a>: Process-builder API; Fedora COI; FUSE io_uring buffer sizes; BPF network namespaces; FUSE plans; BPF libraries; directory creation system call.
+            <li> <a href="https://lwn.net/Articles/1086136/">Briefs</a>: AISI hack; JFrog on CVEs; npm worm; AUR adoption; NetBSD 11.0; b4 0.16.0; C-Kermit 11; Rust LLM policy; Servo 0.4.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1086137/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1086134/</guid>
+            <pubDate>Thu, 06 Aug 2026 00:40:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Examining other network namespaces using BPF</title>
+            <link>https://lwn.net/Articles/1085896/</link>
+            <description><![CDATA[<p>
+Jordan Rife's work involves writing BPF programs for
+<a href="https://cilium.io/">
+Cilium</a> that interface with
+<a href="https://kubernetes.io/">
+Kubernetes</a>
+networking. As part of that work, he wants to enable BPF programs with
+appropriate permissions to iterate through the sockets of a different network
+namespace. He led a session about the idea at the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage,
+Filesystem, Memory-Management, and BPF Summit</a> where the BPF developers in
+attendance were quick to suggest a number of related alternatives.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1085896/</guid>
+            <pubDate>Wed, 05 Aug 2026 16:59:26 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] FUSE status and plans</title>
+            <link>https://lwn.net/Articles/1086336/</link>
+            <description><![CDATA[<a
+href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
+Userspace</a> (FUSE) maintainer Miklos Szeredi led a birds-of-a-feather
+(BoF) discussion about the subsystem at
+the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a>.  In it, he talked about
+maintenance challenges, proposed features and their status, and his plans
+for  a new FUSE API.  There is a lot of interest and activity in the
+FUSE community these days it seems.]]></description>
+            <guid>https://lwn.net/Articles/1086336/</guid>
+            <pubDate>Wed, 05 Aug 2026 15:59:08 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fedora considers conflict-of-interest policy</title>
+            <link>https://lwn.net/Articles/1086488/</link>
+            <description><![CDATA[<p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora
+Council</a> is <a
+href="https://forge.fedoraproject.org/council/tickets/issues/513">considering</a>
+a conflict-of-interest (COI) policy for its decision-making bodies,
+such as the <a
+href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering
+Steering Committee</a> (FESCo), special-interest groups (SIGs), and
+any other groups or individuals that report to the council and
+are responsible for decisions that impact the Fedora project. The
+current draft does not, however, apply to the council itself. The <a
+href="https://discussion.fedoraproject.org/t/conflict-of-interest-guidelines-policy-draft-feedback-please/197508">public
+discussion</a> for the COI policy began on July&#160;23 and seems to be
+nearing completion, with the council set to discuss the topic again
+during its meeting on August&#160;13.</p>]]></description>
+            <guid>https://lwn.net/Articles/1086488/</guid>
+            <pubDate>Tue, 04 Aug 2026 16:43:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The beginning of a process-builder API</title>
+            <link>https://lwn.net/Articles/1086330/</link>
+            <description><![CDATA[The recent <a href="https://lwn.net/Articles/1076018/">discussion on "spawn templates"</a>
+raised questions about whether it was time to provide an alternative to the
+classic Unix <tt>fork()</tt>/<tt>exec()</tt> pattern for process creation.
+One idea that was raised there was to shift the template pattern into an
+interface that could be used to efficiently assemble new processes from
+bare cloth, without duplicating the parent process.  Preferably, that
+interface would be able to implement <a
+href="https://man7.org/linux/man-pages/man3/posix_spawn.3.html"><tt>posix_spawn()</tt></a>.
+Li Chen, the author of the spawn-template work, has now responded with <a
+href="https://lwn.net/ml/all/cover.1784204592.git.me@linux.beauty">a patch series</a>
+(written with significant LLM assistance) showing what a process-builder
+API for Linux might look like.]]></description>
+            <guid>https://lwn.net/Articles/1086330/</guid>
+            <pubDate>Tue, 04 Aug 2026 13:27:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Buffer sizes for FUSE io_uring</title>
+            <link>https://lwn.net/Articles/1085618/</link>
+            <description><![CDATA[The <a href="https://docs.kernel.org/filesystems/fuse/">Filesystem in
+Userspace</a> (FUSE) subsystem provides a way to service filesystem
+requests from a user-space server, which moves the format-handling code out
+of the kernel.  The FUSE server can <a
+href="https://www.kernel.org/doc/html/next/filesystems/fuse-io-uring.html">use</a> the <a
+href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring</a>
+facility for better performance, but Bernd Schubert is concerned that
+memory is being wasted because the current implementation has a single,
+large buffer size that is excessive for small <span
+class="nobreak">I/O</span> operations.  He led a discussion on that topic
+in the filesystem track of the 2026 <a
+href="https://events.linuxfoundation.org/lsfmmbpf/">Linux Storage,
+Filesystem, Memory Management, and BPF Summit</a> in Zagreb, Croatia.]]></description>
+            <guid>https://lwn.net/Articles/1085618/</guid>
+            <pubDate>Mon, 03 Aug 2026 16:05:10 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The future of libraries in BPF</title>
+            <link>https://lwn.net/Articles/1084869/</link>
+            <description><![CDATA[<p>
+Song Liu believes that the way that programmers assemble complex BPF programs
+will be changing rapidly in the future. 
+At a session of the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage,
+Filesystem, Memory-Management, and BPF Summit</a>, he shared his thoughts on what
+that change could look like, though he did not have any concrete proposals for
+what, if anything, the BPF maintainers should do. He anticipates an
+ecosystem of Rust BPF packages developing, which is significant because BPF
+does not really have a package manager at the moment.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1084869/</guid>
+            <pubDate>Fri, 31 Jul 2026 13:52:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reconsidering O_CREAT|O_DIRECTORY</title>
+            <link>https://lwn.net/Articles/1085617/</link>
+            <description><![CDATA[Linux provides a system call (<a
+href="https://man7.org/linux/man-pages/man2/mkdir.2.html"><tt>mkdir()</tt></a>)
+to create a directory, and <a
+href="https://man7.org/linux/man-pages/man2/open.2.html">a few variants of
+<tt>open()</tt></a> that can open a directory.  There is, however, no
+system call in Linux that can create and open a directory in a single,
+race-free call.   Jori Koolstra has been working on remedying that
+situation, most recently by repurposing a set of <tt>open()</tt> flags that currently
+return an error.  There are, however, concerns that show just how hard it
+can be to create user-space interfaces that do not present traps for
+application developers.]]></description>
+            <guid>https://lwn.net/Articles/1085617/</guid>
+            <pubDate>Thu, 30 Jul 2026 14:00:40 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>QEMU 11.1 released</title>
             <link>https://lwn.net/Articles/1088490/</link>
@@ -281,170 +430,6 @@ February 2025.</p>
             <guid>https://lwn.net/Articles/1087490/</guid>
             <pubDate>Thu, 06 Aug 2026 13:37:51 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for July 30, 2026</title>
-            <link>https://lwn.net/Articles/1084315/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1084315/">Front</a>: Hazard pointers; DFSG team; Swap devices; Netkit and BPF; BPF inlined functions; Fedora GRUB; gccrs.
-            <li> <a href="https://lwn.net/Articles/1084317/">Briefs</a>: RIP Dan Williams; Debian LLM resolution; Fedora 45 process; Codeberg LLM policy; GCC LLM policy; GNU Binutils 2.47; GNU C Library 2.44; Wayfire 0.11; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1084318/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1084315/</guid>
-            <pubDate>Thu, 30 Jul 2026 00:01:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Debugging information for inlined functions</title>
-            <link>https://lwn.net/Articles/1083985/</link>
-            <description><![CDATA[<p>
-BPF programs use
-<a href="https://docs.kernel.org/bpf/btf.html">
-BPF type format</a> (BTF) debugging information in order to
-determine how to interact with functions in the kernel. Specifically, tracing a
-kernel function involves finding its address in the kernel's BTF section — but
-that doesn't work for functions that have been inlined, and therefore don't have
-a single, specific address. Alan Maguire wants to add information about inlined
-functions to BTF in order to allow them to be traced, and led a session on that
-topic at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Storage, Filesystem, Memory-Management, and BPF Summit</a>.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1083985/</guid>
-            <pubDate>Wed, 29 Jul 2026 18:05:21 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Fedora approves a smaller GRUB</title>
-            <link>https://lwn.net/Articles/1085609/</link>
-            <description><![CDATA[<p>Leo Sandoval and Marta Lewandowska have put forward a <a
-href="https://fedoraproject.org/wiki/Changes/Grub2LightForConfidentialComputing#Detailed_Description">change
-proposal</a> for Fedora&#160;45, which is expected in October, to
-provide a separate, slimmed-down version of <a
-href="https://www.gnu.org/software/grub/">GRUB</a> for a niche use
-case. The new package would be in addition to the main GRUB package
-and would not replace it for the majority of Fedora users. The idea
-met with some resistance from Fedora contributors who thought that it
-would be better to use <a
-href="https://www.freedesktop.org/software/systemd/man/latest/systemd-boot.html">systemd-boot</a>,
-or another modern bootloader, rather than trying to wrangle GRUB into
-a suitable state for the use case. The Fedora Engineering Steering
-Council (FESCo), however, <a
-href="https://forge.fedoraproject.org/fesco/tickets/issues/3626#issuecomment-1058486">voted
-to accept the change</a> on July&#160;7.</p>]]></description>
-            <guid>https://lwn.net/Articles/1085609/</guid>
-            <pubDate>Wed, 29 Jul 2026 15:44:01 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Progress toward compiling Linux with gccrs</title>
-            <link>https://lwn.net/Articles/1083202/</link>
-            <description><![CDATA[<p>
-The <a href="https://rust-gcc.github.io/">
-<tt>gccrs</tt> project</a>, which is creating a Rust frontend for the GCC compiler, has
-spent the first half of 2026 focusing on compiling the Linux
-kernel. By testing the compiler against the kernel crates, the
-development team has made significant progress toward generating correct code
-for other Rust programs. As detailed in the project's
-<a href="https://github.com/Rust-GCC/Reporting/tree/main/2026">
-weekly</a> and
-<a href="https://rust-gcc.github.io/#status-reports">
-monthly</a> reports, this effort has uncovered and resolved problems
-in areas such as
-attribute handling (described in the
-<a href="https://rust-gcc.github.io/2026/03/10/2026-02-monthly-report.html">
-report for February</a>), name resolution, and resource management (both
-<a href="https://rust-gcc.github.io/2026/06/02/2026-05-monthly-report.html">
-detailed in the May report</a>). Currently, the compiler can only handle simple
-standalone programs, but that situation could change rapidly in the coming
-months.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1083202/</guid>
-            <pubDate>Tue, 28 Jul 2026 17:40:01 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A report from Debian&apos;s new DFSG team</title>
-            <link>https://lwn.net/Articles/1084499/</link>
-            <description><![CDATA[<p>The <a href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing
-&amp; New Packages Team</a> (usually shortened to "DFSG team") was
-created in October 2025 as part of the <a
-href="https://lwn.net/Articles/1043364/">ftpmaster team split</a>. Its
-job is to review packages in the <a
-href="https://wiki.debian.org/NewQueue">new queue</a> for compliance
-with the <a
-href="https://wiki.debian.org/DebianFreeSoftwareGuidelines">Debian
-Free Software Guidelines</a> (DFSG), among other things, before the
-packages are allowed to enter the <a
-href="https://www.debian.org/doc/manuals/debian-faq/ftparchives.en">Debian
-archive</a>. The change was long in coming, and some questions
-remained after the split whether it was the right move. Andrew
-McMillan provided an overview of the team's activities and its current
-status during <a
-href="https://debconf26.debconf.org/">DebConf26</a>. While it may be
-too early to say with certainty, his report suggests that the new
-division of duties is working out well.</p>]]></description>
-            <guid>https://lwn.net/Articles/1084499/</guid>
-            <pubDate>Tue, 28 Jul 2026 14:21:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Hazard pointers for the kernel</title>
-            <link>https://lwn.net/Articles/1084015/</link>
-            <description><![CDATA[The kernel's read-copy-update (RCU) subsystem ensures that data will not be
-deleted until it is known that there are no threads holding references to
-it.  RCU works well and is widely used throughout the kernel, but it can
-increase memory use and add significant delays before unused kernel objects
-are cleaned up.  <a
-href="https://en.wikipedia.org/wiki/Hazard_pointer">Hazard pointers</a> are
-an alternative approach to lockless data updates that offers better
-performance, for some situations at least.  The kernel community is
-currently considering <a
-href="https://lwn.net/ml/all/23e34c2e-67fd-45da-b130-e70a131a59ea@paulmck-laptop">a
-hazard-pointer implementation</a> by Mathieu Desnoyers and Paul McKenney.]]></description>
-            <guid>https://lwn.net/Articles/1084015/</guid>
-            <pubDate>Mon, 27 Jul 2026 16:51:58 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] An update on netkit and the use of BPF in user space</title>
-            <link>https://lwn.net/Articles/1083418/</link>
-            <description><![CDATA[<p>
-Daniel Borkmann led a session at the 2026
-<a href="https://events.linuxfoundation.org/lsfmmbpf/">
-Linux Filesystem, Memory-Management,
-and BPF Summit</a> about the progress that has been made with netkit, the subsystem
-that allows virtual machines (VMs) running on Linux to perform networking efficiently.
-When that did not fill the full time, he went on to discuss his idea for
-using BPF to live-patch user-space applications. While netkit is making
-progress, and can now support zero-copy receipt of packets into a VM in a
-network namespace, the idea of using BPF for patching user-space programs
-remains entirely speculative.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1083418/</guid>
-            <pubDate>Fri, 24 Jul 2026 13:17:28 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] An operations structure for swap devices</title>
-            <link>https://lwn.net/Articles/1083094/</link>
-            <description><![CDATA[One of the ideas raised at the <a href="https://lwn.net/Articles/lsfmmbpf2026/">2026 Linux
-Storage, Filesystem, Memory Management, and BPF Summit</a> (LSFMM+BPF) was
-the creation of <a
-href="https://lwn.net/Articles/1072657/#:~:text=Abstracting%20the%20swap%20backend">an
-operations structure</a> for the swap subsystem.  Like many parts of the
-kernel, the swap layer evolved over time, with pieces being added as
-needed; the end result of this evolution is rarely what one would expect
-had the subsystem been designed today.  The interface between the swap
-layer and the devices it uses is just one example.  It appears that one
-result of the swap subsystem's evolution — the lack of an abstraction layer
-to interface with underlying storage — will soon be addressed, but in a
-different way than was initially envisioned.]]></description>
-            <guid>https://lwn.net/Articles/1083094/</guid>
-            <pubDate>Thu, 23 Jul 2026 14:25:40 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
