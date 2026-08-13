@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 13 Aug 2026 13:21:57 +0000</pubDate>
-        <lastBuildDate>Thu, 13 Aug 2026 13:36:39 +0000</lastBuildDate>
+        <pubDate>Thu, 13 Aug 2026 14:22:10 +0000</pubDate>
+        <lastBuildDate>Thu, 13 Aug 2026 14:44:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>rsync 3.5.0 released</title>
+            <link>https://lwn.net/Articles/1088759/</link>
+            <description><![CDATA[<p><a href="https://download.samba.org/pub/rsync/NEWS#3.5.0">Version
+3.5.0</a> of rsync has been released with a <a
+href="https://download.samba.org/pub/rsync/NEWS#SECURITY_FIXES-3.5.0">huge
+number of security fixes</a>:</p>
+
+<blockquote class="bq">
+This release fixes 33 security issues found during a focused audit of
+rsync's path handling and daemon protocol, a companion daemon-protocol
+fuzzing pass, and reports from external researchers -⁠-⁠ plus several
+robustness hardenings. CVE IDs were assigned by VulnCheck (CNA); the
+precise "introduced in" version ranges accompany each advisory, and
+many are much narrower than "everything before 3.5.0". Every fix ships
+with a regression test in the test suite that fails on the unfixed
+tree.
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1088759/</guid>
+            <pubDate>Thu, 13 Aug 2026 13:47:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1088715/</link>
@@ -413,41 +437,6 @@ those kernels are advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1087567/</guid>
             <pubDate>Thu, 06 Aug 2026 18:13:15 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1087489/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (7zip, kernel, libde265, and p7zip), <b>Mageia</b> (tomcat), <b>Oracle</b> (fence-agents, frr10, kernel, ldns, libgcrypt, mingw-glib2, nodejs24, osbuild-composer, p11-kit, php8.4, sg3_utils, and thunderbird), <b>Red Hat</b> (libXfont2), and <b>SUSE</b> (containerd, evince, libXfont2, nginx, openssl-3, pcp, php7, php8, python-Django, python-httplib2, python-nltk, rrdtool, vifm, and wireshark).]]></description>
-            <guid>https://lwn.net/Articles/1087489/</guid>
-            <pubDate>Thu, 06 Aug 2026 13:00:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Rust Coreutils 0.10 released</title>
-            <link>https://lwn.net/Articles/1087490/</link>
-            <description><![CDATA[<p><a href="https://github.com/uutils/coreutils/releases/tag/0.10.0">Version
-0.10</a> of the <a href="https://uutils.org/">uutils</a> project's <a
-href="https://uutils.org/coreutils/">Rust Coreutils</a> has been released. This
-release focused on compatibility with the <a
-href="https://www.gnu.org/software/coreutils/">GNU Core Utilities</a> suite,
-with Rust Coreutils now passing 645 of 690 tests, up from 625 with <a
-href="https://github.com/uutils/coreutils/releases#release-0.9.0">version&#160;0.9.0</a>. Notable
-changes in this release include addition of the <tt>mv&#160;--exchange</tt>
-option, an OpenSSL backend for checksum utilities, applying SELinux labels at
-creation when using <tt>mkdir</tt>, <tt>mkfifo</tt>, and <tt>mknod</tt>, as well
-as a number of performance and security improvements.</p>
-
-<p>The project has an
-<a href="https://uutils.org/playground/">online playground</a> that runs the
-Rust Coreutils directly in the browser via WebAssembly for those who would like
-to try the utilities without installing them. LWN <a
-href="https://lwn.net/Articles/1007907/">covered</a> the uutils project in
-February 2025.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1087490/</guid>
-            <pubDate>Thu, 06 Aug 2026 13:37:51 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
