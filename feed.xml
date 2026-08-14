@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 14 Aug 2026 13:18:06 +0000</pubDate>
-        <lastBuildDate>Fri, 14 Aug 2026 13:43:39 +0000</lastBuildDate>
+        <pubDate>Fri, 14 Aug 2026 14:07:52 +0000</pubDate>
+        <lastBuildDate>Fri, 14 Aug 2026 14:40:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Python packaging council candidates announced</title>
+            <link>https://lwn.net/Articles/1088920/</link>
+            <description><![CDATA[<p>The Python Software Foundation (PSF) has <a
+href="https://pyfound.blogspot.com/2026/08/announcing-packaging-council-election.html">announced</a>
+the <a
+href="https://www.python.org/nominations/elections/2026-python-packaging-council/nominees/">candidates</a>
+running for the Python packaging council that was <a
+href="https://lwn.net/Articles/1068704/">approved by the Python steering council
+in April</a>.</p>
+
+<blockquote class="bq">
+<p>This inaugural election fills all five seats on the PPC. The two candidates
+receiving the highest number of votes shall be designated Cohort A with a two
+year term, and the three candidates receiving the next highest number of votes
+shall be designated Cohort B with a one year term.</p>
+
+<p>In future elections, each cohort will be elected for a full two-year term in
+alternating years, so that roughly half of the PPC turns over each cycle.</p>
+</blockquote>
+
+<p>There are 17 candidates running for the five open seats. PSF voting-eligible
+members must <a
+href="https://pyfound.blogspot.com/2026/07/affirm-PSF-voting-status-2026.html">affirm
+their intention to vote</a> in this election by August&#160;25. Voting begins on
+September&#160;1, and ends on September&#160;15.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1088920/</guid>
+            <pubDate>Fri, 14 Aug 2026 14:07:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1088919/</link>
@@ -352,97 +384,6 @@ stable kernels have been released; each contains a fair number of important
 fixes.]]></description>
             <guid>https://lwn.net/Articles/1087949/</guid>
             <pubDate>Sun, 09 Aug 2026 19:24:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1087742/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (compat-libtiff3, fence-agents, firefox, freerdp, frr, gimp, gstreamer1-plugins-bad-free, java-25-openjdk, kernel, kernel-rt, ldns, libgcrypt, libXfont2, nodejs:22, nodejs:24, p11-kit, pipewire, resource-agents, sg3_utils, thunderbird, and yelp), <b>Debian</b> (async-http-client, jq, kernel, linux-6.1, linux-6.12, redis, and udisks2), <b>Fedora</b> (abrt, chromium, coreutils, curl, freeipa, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, ImageMagick, kernel, libXfont2, php, python-gstreamer1, samba, tcpreplay, and trafficserver), <b>Mageia</b> (firefox, nss, rootcerts, python-django, and thunderbird), <b>Oracle</b> (freerdp, gimp, gpsd, kernel, kernel-uek, and osbuild-composer), <b>Red Hat</b> (buildah and container-tools:rhel8), <b>Slackware</b> (libXfont2 and p11-kit), and <b>SUSE</b> (amazon-ecs-init, azure-storage-azcopy, bind, bouncycastle, cockpit-repos, cockpit-subscriptions, dnsdist, ffmpeg-4, hawk-apiserver, nodejs22, nodejs24, OpenImageIO, openssl-1_1, openssl-3, perl-Mojo-JWT, php8, rsyslog, sssd, and wireshark).]]></description>
-            <guid>https://lwn.net/Articles/1087742/</guid>
-            <pubDate>Fri, 07 Aug 2026 13:12:33 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Stable kernel releases for Friday with a single bug fix</title>
-            <link>https://lwn.net/Articles/1087743/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1087744/">6.12.102</a>, <a
-href="https://lwn.net/Articles/1087745/">6.6.150</a>, <a
-href="https://lwn.net/Articles/1087746/">6.1.182</a>, <a
-href="https://lwn.net/Articles/1087747/">5.15.215</a>, <a
-href="https://lwn.net/Articles/1087748/">5.10.264</a> stable kernels. This round of
-stable kernel releases contains a fix for a single bug, <a
-href="https://lwn.net/ml/all/e6168644-1943-403e-98f7-e03b86db2ff2@proxmox.com/">found
-by Thomas Lamprecht</a>, that affected several of the kernels <a
-href="https://lwn.net/Articles/1087567/">released yesterday</a> in
-response to a <a
-href="https://lwn.net/ml/all/2026080631-CVE-2026-68480-ad40%40gregkh/">security
-vulnerability</a> (<a
-href="https://www.cve.org/CVERecord/?id=CVE-2026-68480">CVE-2026-68480</a>)
-that could allow data leakage through speculative execution.</p>
-
-<p>The 6.12.102 release adds the backported security fix for CVE-2026-68480 to the 6.12
-series. As always, users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1087743/</guid>
-            <pubDate>Fri, 07 Aug 2026 13:35:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LightDM lives: version 1.33.0 released</title>
-            <link>https://lwn.net/Articles/1087759/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/ubuntu/lightdm/releases/tag/1.33.0">Version
-1.33.0</a> of the <a
-href="https://github.com/ubuntu/lightdm#lightdm-display-manager">LightDM</a>
-display manager has been released. This is the <a
-href="https://discourse.ubuntu.com/t/lightdm-1-33-0-released/85962">first
-release in four years</a>: the project had been sponsored by Canonical
-but was <a
-href="https://discourse.ubuntu.com/t/current-status-of-lightdm/29048/17?">effectively
-unmaintained</a> in recent years. It has been <a
-href="https://discourse.ubuntu.com/t/current-status-of-lightdm/29048/23">transferred
-to a new community repository</a> and is now maintained by Joshua
-Peisach and Neal Gompa.</p>
-
-<p>The new release includes Qt6 support, code optimizations, and a
-list of other fixes that had been in limbo pending a new release.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1087759/</guid>
-            <pubDate>Fri, 07 Aug 2026 13:52:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The Software Stewardship Lab launches</title>
-            <link>https://lwn.net/Articles/1087812/</link>
-            <description><![CDATA[The <a href="https://stewardshiplab.org/">Software Stewardship Lab</a>, a
-nonprofit organization based in Scotland, has <a
-href="https://stewardshiplab.org/ideas/a-research-lab-for-open-source/">announced
-its existence</a>.
-<p>
-<blockquote class="bq">
-	Our current research focuses are:
-<p>
-<ul class="spacylist">
-<li> Software supply chain security — We're working on an observatory that
-     allows users to identify and monitor the world's critical Open Source
-     packages in real time, including previously hidden parts of the
-     dependency graph.
-
-<li> Maintainer burnout — Our report on burnout in Open Source has been
-     well-received. We're working on yearly follow-ups, plus a companion
-     report on how AI is affecting maintainer burnout.
-</ul>
-<p>
-Moving forward, the Lab's experts will direct funding to and supervise Open
-Source sustainability researchers doing critical work. We are already
-working with universities to teach the next generations of software supply
-chain experts.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1087812/</guid>
-            <pubDate>Fri, 07 Aug 2026 14:12:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
