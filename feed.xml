@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Aug 2026 12:36:40 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Aug 2026 12:41:13 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Aug 2026 13:23:55 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Aug 2026 13:27:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1089205/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, bind, dracut, freerdp, gnome-remote-desktop, kernel, and nghttp2), <b>Debian</b> (apr-util, docker.io, ironic, neutron, postgresql-15, unzip, and util-linux), <b>Fedora</b> (chromium, jfrog-cli, jrnl, libgsasl, libsoup3, pdns, pdns-recursor, perl-Archive-Tar, php-pear-PHP-CodeSniffer, rust-bat, rust-git-delta, rust-git-interactive-rebase-tool, rust-lsd, rust-pretty-git-prompt, rust-tokei, and stunnel), <b>Gentoo</b> (haveged, HTTP-Daemon, nginx, NTFS-3G, Portage, PostgreSQL, and X.Org X server, XWayland), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, dhcpcd, dracut, grafana, iscsi-initiator-utils, kernel, nodejs:24, openssh, osbuild-composer, python-idna, ruby, and ruby4.0), <b>Slackware</b> (proftpd), and <b>SUSE</b> (7zip, afterburn, ansible-lint, bouncycastle, cargo-audit, cargo-c, chromedriver, chromium, containerized-data-importer, dnsdist, dracut-112, ffmpeg-9-libavcodec-devel, firefox, freetype2, git-cliff, glib2, go1.25, go1.26, google-guest-agent, google-osconfig-agent, gzip, himmelblau, java-1_8_0-openjdk, kernel, kernel-devel, kubeshark-cli, kubevirt1.9-continer-disk, libkrun, libXfont2, molecule, net-tools, nginx, nodejs22, nodejs24, open-iscsi, perl, pgadmin4, php-composer2, php8, python-httplib2, python-sh, python-ujson, python3-ansible-compat, python313-nltk, rrdtool, rsyslog, samba, spice-vdagent, sssd, webkit2gtk3, wireshark, and wpa_supplicant).]]></description>
+            <guid>https://lwn.net/Articles/1089205/</guid>
+            <pubDate>Mon, 17 Aug 2026 13:23:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The 7.2 kernel has been released</title>
             <link>https://lwn.net/Articles/1088991/</link>
@@ -384,14 +392,6 @@ clear, rolling target.</p>
 January&#160;2028.</p>]]></description>
             <guid>https://lwn.net/Articles/1088059/</guid>
             <pubDate>Mon, 10 Aug 2026 13:31:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1088057/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gpsd-minimal, kernel, libarchive, libgcrypt, and LibRaw), <b>Debian</b> (bind9, ca-certificates, chromium, dnsdist, icinga2, kitty, libheif, openjdk-21, pdns, pdns-recursor, thunderbird, and xen), <b>Fedora</b> (bird, erlang, kernel, mingw-glib2, nghttp2, p11-kit, perl, perl-Devel-Cover, perl-PAR-Packer, pgadmin4, polymake, python-nh3, python-wsgidav, python3.12, rabbitmq-server, rust-ammonia, seamonkey, and udisks2), <b>Mageia</b> (python-starlette), <b>Oracle</b> (gnutls, kernel, and LibRaw), <b>Red Hat</b> (container-tools:rhel8), <b>Slackware</b> (wpa_supplicant), and <b>SUSE</b> (azure-storage-azcopy, bouncycastle, ffmpeg-4, fuse-overlayfs, gleam, gstreamer-plugins-bad, libssh2-1, libssh2_org, libwireshark19, libXfont2-2, perl-Mojo-JWT, perl-Mojolicious, podman, python310, python313-Django4, and tekton-cli).]]></description>
-            <guid>https://lwn.net/Articles/1088057/</guid>
-            <pubDate>Mon, 10 Aug 2026 13:07:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
