@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Aug 2026 14:00:21 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Aug 2026 14:02:59 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Aug 2026 14:18:57 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Aug 2026 14:45:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,37 +403,6 @@ more visibility.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (caddy, libyaml-syck-perl, nss, and wordpress), <b>Fedora</b> (chezmoi, chromium, emacs, kernel, knot, libcupsfilters, mingw-gstreamer1-plugins-good, mingw-libidn, mingw-python-pip, nghttp2, p11-kit, python-webob, suricata, and xen), <b>Mageia</b> (bind, openslide, php8.4, and php8.5), <b>Oracle</b> (gpsd-minimal, kernel, libarchive, libpng12, nodejs-nodemon, php:8.3, ruby:3.3, and ruby:4.0), <b>SUSE</b> (agama-web-ui, bind, bouncycastle, dhcpcd, ffmpeg, ffmpeg-4, freerdp, gd, gitoxide, kak-lsp, kernel-devel, librest-1_0-0, libsdb2_5_0, libssh2_org, nodejs22, PackageKit, perl, perl-Date-Manip, python-ujson, python3-sqlparse, python311, python312, python313-pymongo, ruby2.5, runc, suseconnect-ng, thunderbird, vlang, webkit2gtk3, and weechat), and <b>Ubuntu</b> (imagemagick and systemd).]]></description>
             <guid>https://lwn.net/Articles/1088226/</guid>
             <pubDate>Tue, 11 Aug 2026 13:11:17 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Django moves to an annual release cycle</title>
-            <link>https://lwn.net/Articles/1088059/</link>
-            <description><![CDATA[<p>The <a href="https://www.djangoproject.com/">Django</a> Python web-framework
-project has <a
-href="https://www.djangoproject.com/weblog/2026/aug/10/annual-release-cycle/">announced</a>
-that it has accepted an <a
-href="https://github.com/django/deps/blob/main/accepted/0020-annual-release-cycle.rst">annual
-release cycle proposal</a>. This means that the project is moving from a <a
-href="https://github.com/django/deps/blob/main/final/0004-release-schedule.rst">somewhat
-complicated schedule</a> that interspersed short-lived feature releases and
-long-term-support (LTS) releases to a simpler annual cycle where each release is
-supported for three years.</p>
-
-<blockquote class="bq">
-<p>Every feature release gets three years of support: one year of mainstream
-bugfixes, then two years of security and data-loss fixes. The "LTS" label is
-retired — every feature release now carries that same, unique commitment.</p>
-
-<p>No more LTS gap: no racing a deadline to jump two years of changes at
-once. Upgrade one year at a time, whenever suits you within the support
-window. Three versions are supported at any time, giving third-party packages a
-clear, rolling target.</p>
-</blockquote>
-
-<p>This will take effect with the upcoming Django&#160;2028 release, expected in
-January&#160;2028.</p>]]></description>
-            <guid>https://lwn.net/Articles/1088059/</guid>
-            <pubDate>Mon, 10 Aug 2026 13:31:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
