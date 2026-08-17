@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 17 Aug 2026 13:23:55 +0000</pubDate>
-        <lastBuildDate>Mon, 17 Aug 2026 13:27:43 +0000</lastBuildDate>
+        <pubDate>Mon, 17 Aug 2026 14:00:21 +0000</pubDate>
+        <lastBuildDate>Mon, 17 Aug 2026 14:02:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mark J. Wielaard receives Distinguished Service Award in Software Freedom</title>
+            <link>https://lwn.net/Articles/1089208/</link>
+            <description><![CDATA[<p>The <a href="https://sfconservancy.org/">Software Freedom
+Conservancy</a> has <a
+href="https://sfconservancy.org/news/2026/aug/12/mark-j-wielaard-receives-2-annual-award/">announced</a>
+that Mark J. Wielaard has been honored with the second annual
+Distinguished Service Award in Software Freedom for his many years of
+service to software freedom.</p>
+
+<blockquote class="bq">
+Mark is one of many key FOSS developers who has designed his career so
+that his employers have funded much of his FOSS work. Nevertheless,
+Mark continues his volunteer work after hours as a key contributor who
+maintains <a href="https://sourceware.org/">Sourceware</a> — the
+oldest FOSS collaboration and developer infrastructure hosting site in
+history.
+</blockquote>
+
+<p>In addition to his work on Sourceware, Wielaard is a member of the <a
+href="https://dwarfstd.org/">DWARF Debugging Standard Committee</a>,
+the maintainer for <a href="https://valgrind.org/">Valgrind</a> and <a
+href="https://elfutils.org/">elfutils</a>, as well as a contributor to
+various other GNU projects.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1089208/</guid>
+            <pubDate>Mon, 17 Aug 2026 13:44:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>GNU poke 5.0 released</title>
+            <link>https://lwn.net/Articles/1089211/</link>
+            <description><![CDATA[<p>Version 5.0 of <a href="https://www.jemarch.net/poke">GNU Poke</a>,
+a binary-data editor, has been released. This release includes a
+number of improvements to the Poke compiler, additions to the Poke
+language, as well as runtime and standard library updates. See below
+for the full list of changes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1089211/</guid>
+            <pubDate>Mon, 17 Aug 2026 14:00:20 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1089205/</link>
