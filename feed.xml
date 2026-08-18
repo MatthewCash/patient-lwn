@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 18 Aug 2026 13:21:02 +0000</pubDate>
-        <lastBuildDate>Tue, 18 Aug 2026 13:31:07 +0000</lastBuildDate>
+        <pubDate>Tue, 18 Aug 2026 13:48:22 +0000</pubDate>
+        <lastBuildDate>Tue, 18 Aug 2026 14:09:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -403,14 +403,6 @@ more visibility.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1088238/</guid>
             <pubDate>Tue, 11 Aug 2026 14:03:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1088226/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gpsd), <b>Debian</b> (caddy, libyaml-syck-perl, nss, and wordpress), <b>Fedora</b> (chezmoi, chromium, emacs, kernel, knot, libcupsfilters, mingw-gstreamer1-plugins-good, mingw-libidn, mingw-python-pip, nghttp2, p11-kit, python-webob, suricata, and xen), <b>Mageia</b> (bind, openslide, php8.4, and php8.5), <b>Oracle</b> (gpsd-minimal, kernel, libarchive, libpng12, nodejs-nodemon, php:8.3, ruby:3.3, and ruby:4.0), <b>SUSE</b> (agama-web-ui, bind, bouncycastle, dhcpcd, ffmpeg, ffmpeg-4, freerdp, gd, gitoxide, kak-lsp, kernel-devel, librest-1_0-0, libsdb2_5_0, libssh2_org, nodejs22, PackageKit, perl, perl-Date-Manip, python-ujson, python3-sqlparse, python311, python312, python313-pymongo, ruby2.5, runc, suseconnect-ng, thunderbird, vlang, webkit2gtk3, and weechat), and <b>Ubuntu</b> (imagemagick and systemd).]]></description>
-            <guid>https://lwn.net/Articles/1088226/</guid>
-            <pubDate>Tue, 11 Aug 2026 13:11:17 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
