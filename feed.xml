@@ -8,11 +8,22 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Aug 2026 07:32:50 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Aug 2026 12:43:16 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Aug 2026 13:04:41 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Aug 2026 13:32:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1089501/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 9.0, 389-ds-base, attr, curl, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-bad-free and gstreamer1-plugins-ugly-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, haproxy, kernel, libssh, libXfont2, nodejs22, pam, php, php8.4, sg3_utils, and unbound), <b>Debian</b> (librabbitmq, ruby-grape, spip, srt, and swift), <b>Fedora</b> (GitPython, lemonldap-ng, libgit2, libnfs, perl-Imager, perl-List-SomeUtils-XS, python3.12, python3.14, and radsecproxy), <b>Oracle</b> (.NET 10.0, 389-ds-base, 389-ds:1.4, bind, curl, gstreamer1-plugins-bad-free, gstreamer1-plugins-bad-free and gstreamer1-plugins-ugly-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, haproxy, libssh, libXfont2, nodejs22, nodejs:22, pcp, and unbound), <b>Red Hat</b> (golang, grafana, grafana-pcp, osbuild-composer, and rhc), <b>SUSE</b> (erlang, forgejo-cli, go1.25, go1.26, htop, python-pypdf2, python313-tablib, and snphost), and <b>Ubuntu</b> (c3p0, dotnet8, dotnet10, kernel, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-fips, linux-hwe,
+ linux-kvm, linux, linux-aws, linux-aws-fips, linux-azure, linux-fips, linux-gcp,
+ linux-gcp-6.8, linux-gcp-fips, linux-gkeop, linux-oracle, linux-realtime,
+ linux-realtime-6.8, linux-xilinx, linux-hwe-7.0, linux-oracle, linux-oracle-6.17, and linux-oracle-6.8).]]></description>
+            <guid>https://lwn.net/Articles/1089501/</guid>
+            <pubDate>Wed, 19 Aug 2026 13:03:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Firefox 154.0 released</title>
             <link>https://lwn.net/Articles/1089386/</link>
@@ -381,14 +392,6 @@ details.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1088490/</guid>
             <pubDate>Wed, 12 Aug 2026 15:28:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1088476/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (fence-agents, firefox, frr10, gstreamer1-plugins-good, iscsi-initiator-utils, isns-utils, kernel, kernel-rt, perl-DBI:1.641, postgresql, postgresql:12, and resource-agents), <b>Debian</b> (libgd2, openjdk-25, php7.4, php8.2, and postfix), <b>Fedora</b> (clamav, domoticz, and libidn), <b>Red Hat</b> (delve, edk2, firefox, go-fdo-client, go-fdo-server, grafana, host-metering, ignition, kernel, kernel package, kernel-rt, ldns, libarchive, mariadb10.11, mariadb:10.11, multiple packages, rhc, rhc-worker-playbook, rhc-worker-script, sssd, thunderbird, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (expat and openssh), and <b>SUSE</b> (avahi, chromedriver, erlang26, gawk, glib2, go-sendxmpp, google-guest-agent, google-osconfig-agent, gpg2, gstreamer-plugins-bad, gstreamer-plugins-base, helm, ignition, ImageMagick, java-11-openj9, java-17-openj9, java-1_8_0-openj9, java-21-openj9, java-25-openj9, libarchive, libkrun, libpcp-devel, libpng16, libssh, libssh2_org, multipath-tools, net-tools, nmap, openssl-1_1, openssl-3, pcp, perl, python-pip, python-pyasn1, python-urllib3, python3-pip, python313-Django5, runc, samba, snpguest, spice-vdagent, sssd, unbound, wget, wild, wpa_supplicant, xmlrpc-c, and zpaqfranz).]]></description>
-            <guid>https://lwn.net/Articles/1088476/</guid>
-            <pubDate>Wed, 12 Aug 2026 13:03:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
