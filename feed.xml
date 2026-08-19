@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Aug 2026 15:03:46 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Aug 2026 15:46:19 +0000</lastBuildDate>
+        <pubDate>Wed, 19 Aug 2026 16:01:30 +0000</pubDate>
+        <lastBuildDate>Wed, 19 Aug 2026 16:12:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Tuba 0.11 released</title>
+            <link>https://lwn.net/Articles/1089537/</link>
+            <description><![CDATA[<p><a href="https://codeberg.org/GeopJr/Tuba/releases/tag/v0.11.0">Version
+0.11</a> of the <a
+href="https://codeberg.org/GeopJr/Tuba#:~:text=Tuba-,Browse%20the%20Fediverse">Tuba</a>
+fediverse client has been released. Notable changes in this release include
+support for Mastodon <a
+href="https://docs.joinmastodon.org/client/collections/#overview">collections</a>
+and <a href="https://docs.joinmastodon.org/user/quote-posts/#what">quotes</a>,
+ability to create custom thumbnails for attachments, a new emoji picker, a build
+for Android, as well as many other enhancements.</p>]]></description>
+            <guid>https://lwn.net/Articles/1089537/</guid>
+            <pubDate>Wed, 19 Aug 2026 15:59:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1089501/</link>
