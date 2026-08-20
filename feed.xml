@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Aug 2026 18:57:38 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Aug 2026 19:03:49 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Aug 2026 19:45:13 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Aug 2026 19:46:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -412,25 +412,6 @@ September&#160;1, and ends on September&#160;15.</p>
             <guid>https://lwn.net/Articles/1088919/</guid>
             <pubDate>Fri, 14 Aug 2026 13:18:05 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Domas: Bypassing memory protection with AMD&apos;s memory controllers</title>
-            <link>https://lwn.net/Articles/1088778/</link>
-            <description><![CDATA[<p>
-Christopher Domas has
-<a href="https://github.com/xoreaxeaxeax/skitter-creek-bath-salts#skitter-creek-bath-salts">published</a> a proof of concept with a description showing how to use AMD memory controllers' bank swizzle mode to bypass memory protection and read or write arbitrary data, including CPU microcode definitions and memory belonging to the 
-<a href="https://en.wikipedia.org/wiki/AMD_Platform_Security_Processor">
-platform security processor</a>. Among other things, this allows code running at the kernel level to directly manipulate the meaning of processor instructions, potentially bypassing other security measures such as memory encryption and virtual machine isolation.
-</p>
-
-<p>
-This is not, strictly, unexpected behavior: it is 
-<a href="https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/programmer-references/32559.pdf">
-documented in AMD's manual</a> (on page 113 of that PDF). But the fact that it can be used to access arbitrary memory and thereby rewrite supposedly immutable parts of the computer's firmware without crashing the host machine seems like an unintentional side-effect of the design. Fortunately, since enabling bank swizzle mode requires kernel-level privileges, the vulnerability is not an immediate problem for most software. Still, it seems likely that this technique will end up being used for nefarious purposes eventually.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1088778/</guid>
-            <pubDate>Thu, 13 Aug 2026 19:06:28 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
