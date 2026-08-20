@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Aug 2026 13:26:02 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Aug 2026 13:35:48 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Aug 2026 14:22:09 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Aug 2026 14:22:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>KDE Gear 26.08 released</title>
+            <link>https://lwn.net/Articles/1089721/</link>
+            <description><![CDATA[<p><a href="https://kde.org/announcements/gear/26.08.0/">Version 26.08</a> of
+the <a href="https://en.wikipedia.org/wiki/KDE_Gear">KDE&#160;Gear</a>
+collection of applications has been released. Notable changes in this release
+include improvements in the <a
+href="https://docs.kde.org/stable_kf6/en/okular/okular/signatures.html">signing</a>
+features of <a href="https://okular.kde.org/">Okular</a>, improved file-grouping
+features in the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
+manager, and a number of enhancements to the <a
+href="https://kdenlive.org/">Kdenlive</a> video editor. See the <a
+href="https://kde.org/announcements/changelogs/gear/26.08.0/">changelog</a> for
+a full list of updates, enhancements, and bug fixes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1089721/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:37:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1089717/</link>
@@ -436,25 +454,6 @@ tree.
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1088759/</guid>
             <pubDate>Thu, 13 Aug 2026 13:47:49 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1088715/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (abrt, dhcpcd, edk2, freerdp, gegl04, grafana, gstreamer1-plugins-good, iscsi-initiator-utils, isns-utils, kernel, kernel-rt, keylime, libarchive, libyang, nodejs-nodemon, opencryptoki, osbuild-composer, pacemaker, postgresql-jdbc, postgresql18, python-idna, python3.9, udisks2, valkey, vim, xorg-x11-server-Xwayland, and yggdrasil-worker-package-manager), <b>Debian</b> (flatpak, lemonldap-ng, neutron, python-django, spip, xdg-dbus-proxy, and xorg-server), <b>Fedora</b> (apr-util, cri-o1.34, libcupsfilters, linux-firmware, sqlite, and vaultwarden), <b>Gentoo</b> (FreeType), <b>Oracle</b> (dovecot, evince, fence-agents, gnutls, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, isns-utils, java-1.8.0-openjdk, kernel, libarchive, osbuild-composer, pipewire, postgresql, ruby, ruby:3.3, sudo, and udisks2), <b>Red Hat</b> (bind, bind9.16, gnome-remote-desktop, grafana, opentelemetry-collector, python-pillow, python3, python3.12, python3.14, python3.9, and rhc), <b>SUSE</b> (chromium, clusterctl, dracut, gd, git-cliff, gleam, govulncheck-vulndb, graphicsmagick, gzip, kernel, kubevirt, libheif, librest0_7, nodejs22, nodejs24, openssh, openvpn, python3, python313-scikit-learn, rpm, stunnel, and zk), and <b>Ubuntu</b> (kernel, libgit2, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-6.8,
- linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips, linux-fips,
- linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gke, linux-gkeop,
- linux-ibm, linux-ibm-6.8, linux-nvidia, linux-nvidia-6.8,
- linux-nvidia-lowlatency, linux-realtime, linux-realtime-6.8, linux-xilinx, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-fde,
- linux-azure-fips, linux-gkeop, linux-ibm, linux-ibm-5.15,
- linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15,
- linux-kvm, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15,
- linux-oracle-5.15, linux-realtime, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-fips, linux-azure-4.15, linux-azure-fips,
- linux-fips, linux-gcp-4.15, linux-gcp-fips, linux-kvm, linux, linux-aws, linux-azure, linux-azure-fde, linux-ibm, linux-oracle,
- linux-raspi, linux-realtime, linux-azure, linux-azure-6.17, linux-gcp-6.17, linux-hwe-6.17, linux-oem-6.17,
- linux-realtime-6.17, node-follow-redirects, and yelp).]]></description>
-            <guid>https://lwn.net/Articles/1088715/</guid>
-            <pubDate>Thu, 13 Aug 2026 13:12:41 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
