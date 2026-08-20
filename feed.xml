@@ -8,11 +8,140 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 19 Aug 2026 23:57:19 +0000</pubDate>
-        <lastBuildDate>Wed, 19 Aug 2026 23:59:21 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Aug 2026 01:24:01 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Aug 2026 01:37:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 13, 2026</title>
+            <link>https://lwn.net/Articles/1087432/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1087432/">Front</a>: BPF and binfmt_misc; CrossPoint ebook firmware; KVM planes; BPF formal verification; shadow-utils; new storage-code testing features.
+            <li> <a href="https://lwn.net/Articles/1087434/">Briefs</a>: Django releases; GNOME shell; LightDM 1.33.0; QEMU 11.1; uutils 0.10; Software Stewardship Lab; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1087435/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1087432/</guid>
+            <pubDate>Thu, 13 Aug 2026 00:23:17 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Block-layer error injection</title>
+            <link>https://lwn.net/Articles/1086344/</link>
+            <description><![CDATA[<p>Storage code has to cope with hardware that fails in inconvenient
+ways, but coaxing a healthy disk into producing those failures on
+demand, for testing, is usually not possible. The kernel
+provides several ways to inject block-layer <span
+class="nobreak">I/O</span> errors, but none of those can select the  
+operation to fail, pick the status code to return, or target a disk
+directly without employing a stacked device on top. Use of a stacked device means
+the test runs against the mapper device, not the disk it was meant to
+exercise. A <a href="https://lwn.net/ml/all/20260611140703.2401204-1-hch@lst.de/">patch
+series</a> from Christoph Hellwig adds a configurable error-injection
+interface that does all three things that the current error-injection code
+lacks, controlled by a per-disk debugfs
+file.</p>]]></description>
+            <guid>https://lwn.net/Articles/1086344/</guid>
+            <pubDate>Wed, 12 Aug 2026 18:34:01 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at CrossPoint e-reader firmware</title>
+            <link>https://lwn.net/Articles/1087635/</link>
+            <description><![CDATA[<p>There are <a href="https://crosspointreader.com/devices">a number of small,
+inexpensive, low-powered e-reader or e-paper devices</a> that have promise as
+ebook readers with one minor problem: the firmware they ship with does not
+realize their full potential. To solve that problem, the <a
+href="https://crosspointreader.com/">CrossPoint Reader project</a> looks to
+provide replacement firmware that offers necessary features, better performance,
+and a more pleasant reading experience. On August&#160;7, the project released <a
+href="https://github.com/crosspoint-reader/crosspoint-reader/releases/tag/v1.5.0">version
+1.5.0</a>, which opens large <a
+href="https://en.wikipedia.org/wiki/EPUB">EPUBs</a> more quickly, provides
+offline dictionary lookups, and has reworked settings for changing layout and
+font options. The release also improves support for right-to-left text as well
+as <a href="https://en.wikipedia.org/wiki/CJK_characters">Chinese, Japanese, and
+Korean</a> (CJK) text rendering.</p>]]></description>
+            <guid>https://lwn.net/Articles/1087635/</guid>
+            <pubDate>Wed, 12 Aug 2026 15:33:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] KVM planes head for takeoff</title>
+            <link>https://lwn.net/Articles/1087590/</link>
+            <description><![CDATA[Virtualization places a guest system into a separate security domain,
+typically with less privileges than software running directly on the host.
+Increasingly, there is interest in creating multiple security domains
+within a single virtualized system as well.  CPU vendors (and software
+vendors too) are implementing solutions; each of which, of course, is
+different from all of the others.  KVM planes, currently under development
+by Jörg Rödel, Paolo Bonzini, and others in the KVM community, is an
+attempt to provide an abstraction layer that makes all of these features
+available on Linux systems; it is not a small task.]]></description>
+            <guid>https://lwn.net/Articles/1087590/</guid>
+            <pubDate>Tue, 11 Aug 2026 14:48:19 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Even more formal verification for BPF</title>
+            <link>https://lwn.net/Articles/1087069/</link>
+            <description><![CDATA[<p>
+BPF offers useful safety guarantees, but Kumar Kartikeya Dwivedi wants BPF
+programs to be even safer. At the 2026
+<a href="https://events.linuxfoundation.org/lsfmmbpf/">
+Linux Storage, Filesystem,
+Memory-Management, and BPF Summit</a>, he led a session
+(<a href="https://drive.google.com/file/d/1qeLgPaOvwKMHQmyGHeNWQUBQstQeDR2v/view">slides</a>)
+discussing the possibility
+of adding domain-specific invariants to BPF programs. It was not a discussion
+intended to lead to the implementation of any particular kernel feature, but
+rather an overview of why additional formal verification might be needed, and
+how it could work with the existing BPF ecosystem.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1087069/</guid>
+            <pubDate>Mon, 10 Aug 2026 13:59:33 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Changes in shadow-utils password-expiration features</title>
+            <link>https://lwn.net/Articles/1086949/</link>
+            <description><![CDATA[<p>The <a
+href="https://github.com/shadow-maint/shadow#shadow-utils">shadow-utils</a>
+project provides the tools that handle <tt>/etc/shadow</tt>,
+<tt>/etc/passwd</tt>, and other related databases; in
+general, manages users and groups on many Linux systems. While most
+software releases are notable for what is added, the recent <a
+href="https://github.com/shadow-maint/shadow/releases/tag/4.20.0">shadow-utils&#160;4.20.0</a>
+release is most noteworthy for what has been removed. Specifically,
+several utilities and functionality related to periodic password
+expiry, which were deprecated in the December 2025 <a
+href="https://github.com/shadow-maint/shadow/releases/tag/4.19.0">4.19.0</a>
+release, have been removed as planned. It is still possible to manage
+some aspects of password aging with shadow-utils, but organizations
+that depend on such features should start planning for their complete
+removal within a few years.</p>]]></description>
+            <guid>https://lwn.net/Articles/1086949/</guid>
+            <pubDate>Fri, 07 Aug 2026 15:54:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Bringing BPF to binfmt_misc</title>
+            <link>https://lwn.net/Articles/1086947/</link>
+            <description><![CDATA[The kernel is able to run a few types of executable files, including native
+binaries in the ELF format and interpreted programs that begin with the
+<tt>#!</tt> marker.  It also, however, has a mechanism, called <a
+href="https://docs.kernel.org/admin-guide/binfmt-misc.html">binfmt_misc</a>,
+that can be configured from user space to enable the transparent execution
+of programs in just about any format.  This feature has been relatively
+static for years, but it seems likely to receive some significant updates
+in the near future, including the ability to load BPF programs that can
+decide how to run a given program.]]></description>
+            <guid>https://lwn.net/Articles/1086947/</guid>
+            <pubDate>Thu, 06 Aug 2026 13:47:18 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernels for Wednesday</title>
             <link>https://lwn.net/Articles/1089557/</link>
