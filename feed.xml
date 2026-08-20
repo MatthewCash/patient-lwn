@@ -8,11 +8,63 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 20 Aug 2026 12:44:35 +0000</pubDate>
-        <lastBuildDate>Thu, 20 Aug 2026 12:46:30 +0000</lastBuildDate>
+        <pubDate>Thu, 20 Aug 2026 13:26:02 +0000</pubDate>
+        <lastBuildDate>Thu, 20 Aug 2026 13:35:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1089717/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind9.18, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel-rt, libcupsfilters, mysql8.4, mysql:8.4, pcp, perl-Date-Manip, php8.4, php:7.4, php:8.2, php:8.3, python3, and yggdrasil), <b>Debian</b> (designate, firefox-esr, and swift), <b>Gentoo</b> (acl, attr, Emacs, libssh2, and quickjs-ng), <b>Oracle</b> (.NET 10.0, .NET 9.0, attr, bind9.18, curl, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel, libXfont2, mysql8.4, nghttp2, nodejs:22, nodejs:24, pam, pcp, perl-Date-Manip, php8.4, python3, sg3_utils, and yggdrasil), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (open-iscsi, podman, python311, and python313), and <b>Ubuntu</b> (bind9, capnproto, curl, libheif, libpng, libpng1.6, libssh, nginx, and tiff).]]></description>
+            <guid>https://lwn.net/Articles/1089717/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:09:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>RPM 6.1.0 released</title>
+            <link>https://lwn.net/Articles/1089719/</link>
+            <description><![CDATA[<p><a href="https://rpm.org/releases/6.1.0">Version 6.1.0</a> of the <a
+href="https://rpm.org/">RPM Package Manager</a> has been released. Notable
+changes include the ability to provide modifiers to <a
+href="https://rpm.org/docs/6.1.x/man/rpm-macros.7">RPM macros</a> at definition
+time, improved build and verification error handling, support for signing files
+with PKCS11 tokens using <a
+href="https://rpm.org/docs/6.1.x/man/rpmsign.1"><tt>rpmsign</tt></a>, as well as
+the addition of several new man pages. The 6.1.0 release also debuts a <a
+href="https://rpm.org/2026/05/11/release-cycle.html">new release model</a>
+inspired by the Linux kernel's.</p>
+
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1089719/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:22:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Supply chain attack on arrayref (Rust blog)</title>
+            <link>https://lwn.net/Articles/1089720/</link>
+            <description><![CDATA[The Rust blog <a
+href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">reports</a>
+on a malicious crate, called <tt>proc-macro1</tt>, that was uploaded to the
+crates.io repository.
+<p>
+<blockquote class="bq">
+	Furthermore, we discovered that the popular <tt>arrayref</tt> crate
+	had recently been republished and made to depend on this crate,
+	with the most recent versions yanked. We have removed the malicious
+	version and unyanked the maliciously-yanked versions. Other crates
+	by that author (<tt>internment</tt>, <tt>append-only-vec</tt>) were
+	also affected so we have done the same for those, and locked the
+	account as a precaution. We do not believe the author of
+	<tt>arrayref</tt> to be acting maliciously, but their computer or
+	credentials are likely compromised, and we are attempting to
+	contact them.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1089720/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:26:01 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 13, 2026</title>
             <link>https://lwn.net/Articles/1087432/</link>
