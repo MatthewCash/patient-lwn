@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 21 Aug 2026 12:21:10 +0000</pubDate>
-        <lastBuildDate>Fri, 21 Aug 2026 12:43:54 +0000</lastBuildDate>
+        <pubDate>Fri, 21 Aug 2026 13:22:31 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Aug 2026 13:33:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1089999/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ansible-core and pcp), <b>Debian</b> (chromium, libgit2, python-httplib2, and sabnzbdplus), <b>Fedora</b> (dokuwiki, domoticz, dotnet10.0, dotnet8.0, dotnet9.0, firefox, i2c-display, libgit2, lyx, ntpsec, openssh, perl-DBI, php-phpseclib3, python-alembic, python-asyncmy, python-sqlalchemy, python3.13, roundcubemail, trafficserver, wireshark, and wordpress), <b>Red Hat</b> (compat-openssl10, compat-openssl11, fence-agents, gnutls, kernel, kernel-rt, libarchive, libreswan, multiple packages, openssl, python-idna, python-pillow, qemu-kvm, resource-agents, rh-podman-desktop, ruby, unbound, and vim), <b>SUSE</b> (buildah, chromium, container-suseconnect, containerd, cosign, ctop, docker, firefox, forgejo-cli, gitea-tea, go1.25, go1.26, helm, kubernetes, kubernetes-old, kubevirt1.8, podman, python-pytest-html, python-unearth, python311, python313, rootlesskit, and rsync), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-bluefield, linux-fips,
+ linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
+ linux-iot, linux-oracle, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-7.0, linux-ibm, linux-oem-7.0, linux-raspi,
+ linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure-fips, linux-gkeop,
+ linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg,
+ linux-intel-iotg-5.15, linux-kvm, linux-nvidia, linux-nvidia-tegra,
+ linux-nvidia-tegra-5.15, linux-oracle, linux-oracle-5.15, linux-realtime,
+ linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-aws-6.8, linux-azure-5.15, linux-gcp, linux-gcp-fips, linux-hwe-5.15,
+ linux-lowlatency-hwe-5.15, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-gcp, linux-gke, linux-gke, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-hwe-6.8, linux-nvidia, linux-nvidia-7.0, linux-nvidia-bos, linux-raspi, linux-raspi-realtime, netty, postgresql-14, postgresql-16, postgresql-18, vim, and wget).]]></description>
+            <guid>https://lwn.net/Articles/1089999/</guid>
+            <pubDate>Fri, 21 Aug 2026 13:17:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>KDE Gear 26.08 released</title>
             <link>https://lwn.net/Articles/1089721/</link>
