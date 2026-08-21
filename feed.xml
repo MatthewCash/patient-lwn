@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 21 Aug 2026 13:22:31 +0000</pubDate>
-        <lastBuildDate>Fri, 21 Aug 2026 13:33:29 +0000</lastBuildDate>
+        <pubDate>Fri, 21 Aug 2026 14:18:42 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Aug 2026 14:19:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -418,15 +418,6 @@ September&#160;1, and ends on September&#160;15.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1088920/</guid>
             <pubDate>Fri, 14 Aug 2026 14:07:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1088919/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, bind9.16, and dracut), <b>Debian</b> (apr-util, chromium, postgresql-17, python-httplib2, unzip, and zip), <b>Fedora</b> (erlang-cowboy, erlang-cowlib, flatpak, and libnfs), <b>Gentoo</b> (Apache HTTPD, Bubblewrap, Dnsmasq, Exim, Flatpak, libinput, and rsync), <b>Mageia</b> (dhcpcd, qemu, and roundcubemail), <b>Oracle</b> (.NET 8.0, .NET 9.0, bind, bind9.16, freerdp, glib2, gnome-remote-desktop, grafana, gstreamer1-plugins-good, isns-utils, java-17-openjdk, kernel, libpng, libXfont2, nghttp2, perl-DBI:1.641, python-idna, python3.9, and xorg-x11-server), <b>Slackware</b> (rsync), <b>SUSE</b> (bouncycastle, chromium, dnsdist, dracut, java-1_8_0-ibm, kernel, libXfont2, nodejs22, nodejs24, php8, python-httplib2, rrdtool, rsyslog, samba, and wireshark), and <b>Ubuntu</b> (linux, linux-aws, linux-kvm, linux-aws-hwe, linux-aws-hwe, linux-azure, linux-gcp, linux-hwe, linux-azure, linux-gcp, linux-hwe, linux-oracle, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia-tegra,
- linux-oracle, linux-nvidia-tegra-igx, linux-oem-7.0, linux-oracle, and node-axios).]]></description>
-            <guid>https://lwn.net/Articles/1088919/</guid>
-            <pubDate>Fri, 14 Aug 2026 13:18:05 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
