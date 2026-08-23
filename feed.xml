@@ -8,11 +8,43 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Aug 2026 05:21:42 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Aug 2026 13:21:14 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Aug 2026 13:46:16 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Aug 2026 13:54:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Mourning Steve French</title>
+            <link>https://lwn.net/Articles/1090098/</link>
+            <description><![CDATA[From Jeremy Allison we have <a
+href="https://www.linkedin.com/feed/update/urn:li:activity:7497016255946731520/">the
+sad news</a> of the passing of Steve French.  He was the maintainer of the
+kernel's SMB filesystem code for many years, having only <a
+href="https://lwn.net/ml/all/20260818140738.314254-1-pc@manguebit.org/">dropped that
+role</a> due to health issues in the last week.  "<q>I've known Steve for
+over 20 years. He was a legend in the community, and a really good
+friend. He will be greatly missed. Farewell Steve.</q>"  He will indeed be missed.]]></description>
+            <guid>https://lwn.net/Articles/1090098/</guid>
+            <pubDate>Sun, 23 Aug 2026 13:40:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Sunday&apos;s stable kernel set</title>
+            <link>https://lwn.net/Articles/1090099/</link>
+            <description><![CDATA[The
+<a href="https://lwn.net/Articles/1090100/">7.1.10</a>,
+<a href="https://lwn.net/Articles/1090101/">6.18.46</a>,
+<a href="https://lwn.net/Articles/1090102/">6.12.105</a>,
+<a href="https://lwn.net/Articles/1090103/">6.6.153</a>,
+<a href="https://lwn.net/Articles/1090104/">6.1.184</a>,
+<a href="https://lwn.net/Articles/1090105/">5.15.217</a>, and
+<a href="https://lwn.net/Articles/1090106/">5.10.266</a>
+stable kernels have all been released; each contains another set of
+important fixes.]]></description>
+            <guid>https://lwn.net/Articles/1090099/</guid>
+            <pubDate>Sun, 23 Aug 2026 13:46:14 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1089999/</link>
