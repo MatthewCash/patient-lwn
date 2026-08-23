@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 23 Aug 2026 21:48:22 +0000</pubDate>
-        <lastBuildDate>Sun, 23 Aug 2026 22:59:17 +0000</lastBuildDate>
+        <pubDate>Sun, 23 Aug 2026 23:23:49 +0000</pubDate>
+        <lastBuildDate>Sun, 23 Aug 2026 23:27:24 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -385,40 +385,6 @@ for the full list of changes.</p>]]></description>
             <guid>https://lwn.net/Articles/1089205/</guid>
             <pubDate>Mon, 17 Aug 2026 13:23:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The 7.2 kernel has been released</title>
-            <link>https://lwn.net/Articles/1088991/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1089033/">7.2 kernel</a> has been released.
-Linus said:
-<p>
-<blockquote class="bq">
-	Well, this last week of the release was - once again - bigger than
-	I would have wished for, but hey, with the whole "new normal"
-	thing, if I delayed releases for that reason we'd probably never
-	have a release at all.
-</blockquote>
-<p>
-Significant features in this release include
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=6318f11d53a3">common
-attributes support</a> in the <tt>bpf()</tt> system call,
-<a href="https://lwn.net/Articles/1018334/">cache-aware load balancing</a> for the CPU
-scheduler,
-large-folio support in the Btrfs filesystem,
-further <a href="https://lwn.net/Articles/1072657/">swap subsystem improvements</a>,
-improvements to the Landlock security module,
-support for block devices with inline encryption hardware via the <a
-href="https://docs.kernel.org/next/admin-guide/device-mapper/dm-inlinecrypt.html">dm-inlinecrypt</a>
-device-mapper target, and much more.
-See the LWN merge window summaries
-(<a href="https://lwn.net/Articles/1078068/">part&#160;1</a>, <a
-href="https://lwn.net/Articles/1078539/">part&#160;2</a>) and <a
-href="https://kernelnewbies.org/Linux_7.2">the KernelNewbies 7.2 page</a>
-for more information.]]></description>
-            <guid>https://lwn.net/Articles/1088991/</guid>
-            <pubDate>Sun, 16 Aug 2026 23:11:28 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
