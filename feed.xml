@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 24 Aug 2026 11:29:30 +0000</pubDate>
-        <lastBuildDate>Mon, 24 Aug 2026 12:47:01 +0000</lastBuildDate>
+        <pubDate>Mon, 24 Aug 2026 13:37:35 +0000</pubDate>
+        <lastBuildDate>Mon, 24 Aug 2026 13:51:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1090304/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ansible-core, cups-filters, curl, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, perl-Date-Manip, php:8.2, and php:8.3), <b>Debian</b> (designate, firefox-esr, gst-plugins-bad1.0, libnet-dns-perl, nvidia-graphics-drivers, openjdk-21, openjdk-25, spip, and thunderbird), <b>Fedora</b> (AusweisApp2, bluez, calibre, ceph, chromium, GitPython, kernel, pack, perl-URI, rsync, and tcpreplay), <b>Gentoo</b> (GNU Emacs and needrestart), <b>Oracle</b> (ansible-core, java-1.8.0-openjdk, java-17-openjdk, java-21-openjdk, java-25-openjdk, kbd, kernel, mysql:8.4, perl-Date-Manip, perl:5.32, and sssd), <b>Red Hat</b> (curl, dnsmasq, kbd, kernel, libcap, libreswan, openssh, rsync, samba, unbound, and vim), <b>SUSE</b> (389-ds, apptainer, avahi, bugwarden, chromium, ffmpeg-9-libavcodec-devel, firefox, firefox-esr, gimp, go1.27, helm, ignition, libarchive, libjxl-devel, libssh, multipath-tools, openssl-3, pcp, perl-Net-CIDR-Set, perl-Net-OAuth, postgresql14, postgresql15, python-msgpack, python-pyasn1, python-urllib3, python313, python313-pytest-html, redis, runc, sccache, sssd, util-linux, vim, weechat, and wget), and <b>Ubuntu</b> (linux-fips, linux-gcp-5.15, linux-hwe-7.0, linux-ibm, linux-kvm, linux-lowlatency, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-nvidia-6.17).]]></description>
+            <guid>https://lwn.net/Articles/1090304/</guid>
+            <pubDate>Mon, 24 Aug 2026 13:02:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Emacs 31.1 released</title>
+            <link>https://lwn.net/Articles/1090308/</link>
+            <description><![CDATA[<p>Version 31.1 of the Emacs editor has been released. There is a long list of
+changes including the removal of the <a
+href="https://lwn.net/Articles/707615/">Emacs dumper</a>, a new user Lisp
+directory feature, a "Send to..." menu item in <tt>context-menu-mode</tt>, and
+many other changes; see <a
+href="https://www.gnu.org/software/emacs/news/NEWS.31.1">the NEWS file</a> for
+more information. Mickey Petersen, author of <em>Mastering Emacs</em>, also has
+a <a
+href="https://www.masteringemacs.org/article/whats-new-in-emacs-311">rundown</a>
+of some of the quality-of-life features appearing in this release.</p>]]></description>
+            <guid>https://lwn.net/Articles/1090308/</guid>
+            <pubDate>Mon, 24 Aug 2026 13:36:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Mourning Steve French</title>
             <link>https://lwn.net/Articles/1090098/</link>
@@ -376,14 +401,6 @@ language, as well as runtime and standard library updates. See below
 for the full list of changes.</p>]]></description>
             <guid>https://lwn.net/Articles/1089211/</guid>
             <pubDate>Mon, 17 Aug 2026 14:00:20 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1089205/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, .NET 9.0, bind, dracut, freerdp, gnome-remote-desktop, kernel, and nghttp2), <b>Debian</b> (apr-util, docker.io, ironic, neutron, postgresql-15, unzip, and util-linux), <b>Fedora</b> (chromium, jfrog-cli, jrnl, libgsasl, libsoup3, pdns, pdns-recursor, perl-Archive-Tar, php-pear-PHP-CodeSniffer, rust-bat, rust-git-delta, rust-git-interactive-rebase-tool, rust-lsd, rust-pretty-git-prompt, rust-tokei, and stunnel), <b>Gentoo</b> (haveged, HTTP-Daemon, nginx, NTFS-3G, Portage, PostgreSQL, and X.Org X server, XWayland), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, dhcpcd, dracut, grafana, iscsi-initiator-utils, kernel, nodejs:24, openssh, osbuild-composer, python-idna, ruby, and ruby4.0), <b>Slackware</b> (proftpd), and <b>SUSE</b> (7zip, afterburn, ansible-lint, bouncycastle, cargo-audit, cargo-c, chromedriver, chromium, containerized-data-importer, dnsdist, dracut-112, ffmpeg-9-libavcodec-devel, firefox, freetype2, git-cliff, glib2, go1.25, go1.26, google-guest-agent, google-osconfig-agent, gzip, himmelblau, java-1_8_0-openjdk, kernel, kernel-devel, kubeshark-cli, kubevirt1.9-continer-disk, libkrun, libXfont2, molecule, net-tools, nginx, nodejs22, nodejs24, open-iscsi, perl, pgadmin4, php-composer2, php8, python-httplib2, python-sh, python-ujson, python3-ansible-compat, python313-nltk, rrdtool, rsyslog, samba, spice-vdagent, sssd, webkit2gtk3, wireshark, and wpa_supplicant).]]></description>
-            <guid>https://lwn.net/Articles/1089205/</guid>
-            <pubDate>Mon, 17 Aug 2026 13:23:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
