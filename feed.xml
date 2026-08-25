@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Aug 2026 19:56:26 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Aug 2026 20:33:32 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Aug 2026 20:34:32 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Aug 2026 21:03:54 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>mklinux-v7.0-mk2 released</title>
+            <link>https://lwn.net/Articles/1090582/</link>
+            <description><![CDATA[For people who would like to experiment with <a
+href="https://lwn.net/Articles/1038847/">the multi-kernel Linux concept</a>, Cong Wang has
+<a href="https://lwn.net/ml/all/ao34RJ7aZ2BLd67S@pop-os.localdomain">announced</a> the
+release of mklinux v7.0-mk2.
+<p>
+<blockquote class="bq">
+	mklinux lets one machine run several independent Linux kernels at
+	the same time on bare metal, without a hypervisor. A host kernel
+	owns a pool of CPUs, memory and PCI devices, carves that pool into
+	instances, and boots a spawn kernel into each instance through
+	kexec_file_load(). Every spawn kernel runs natively on its own
+	CPUs, its own physical memory and its own devices. Nothing is
+	emulated and nothing is trapped; the only thing shared is what you
+	choose to share.
+</blockquote>
+<p>
+Note that this is not the old <a
+href="https://www.mklinux.org/">MkLinux</a>, which was a port to PowerPC
+Macintosh systems.]]></description>
+            <guid>https://lwn.net/Articles/1090582/</guid>
+            <pubDate>Tue, 25 Aug 2026 20:34:31 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1090524/</link>
