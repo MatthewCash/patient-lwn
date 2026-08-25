@@ -9,7 +9,7 @@
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
         <pubDate>Tue, 25 Aug 2026 20:34:32 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Aug 2026 21:03:54 +0000</lastBuildDate>
+        <lastBuildDate>Tue, 25 Aug 2026 21:44:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -393,17 +393,6 @@ for Android, as well as many other enhancements.</p>]]></description>
             <guid>https://lwn.net/Articles/1089501/</guid>
             <pubDate>Wed, 19 Aug 2026 13:03:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Firefox 154.0 released</title>
-            <link>https://lwn.net/Articles/1089386/</link>
-            <description><![CDATA[<a href="https://www.firefox.com/en-US/firefox/154.0/releasenotes/">Version
-154.0</a> of the Firefox browser has been released.  Changes include
-extending local network access protections to WebSocket connections, more
-flexible, per-site configuration of cookie and data clearing, and more.]]></description>
-            <guid>https://lwn.net/Articles/1089386/</guid>
-            <pubDate>Tue, 18 Aug 2026 21:15:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
