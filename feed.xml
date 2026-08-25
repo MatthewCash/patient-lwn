@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 25 Aug 2026 13:01:47 +0000</pubDate>
-        <lastBuildDate>Tue, 25 Aug 2026 13:12:11 +0000</lastBuildDate>
+        <pubDate>Tue, 25 Aug 2026 14:03:50 +0000</pubDate>
+        <lastBuildDate>Tue, 25 Aug 2026 14:04:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1090524/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cups-filters, gstreamer1-plugins-base, gstreamer1-plugins-good, kernel, mrtg, NetworkManager, nginx, nginx:1.24, nodejs24, perl-Date-Manip, python-pyasn1, python-urwid, python3.12, python3.14, and qemu-kvm), <b>Debian</b> (erlang, thunderbird, webkit2gtk, and zfs-linux), <b>Fedora</b> (calibre, chromium, freeipa, java-21-openjdk, java-21-openjdk-portable, java-25-openjdk, java-latest-openjdk, jfrog-cli, kernel, libxls, nextcloud, perl-URI, and samba), <b>Gentoo</b> (Incus), <b>Mageia</b> (kernel and kernel-linus), <b>Oracle</b> (ansible-core, cups-filters, curl, firefox, kernel, libcupsfilters, libreoffice, mrtg, NetworkManager, perl-Date-Manip, php:8.2, php:8.3, python-urwid, python3.14, qemu-kvm, and sqlite), <b>Red Hat</b> (assertj-core, httpd, and osbuild-composer), <b>SUSE</b> (buildah, comfyui, dracut, erlang, erlang27, grafana, kernel, libssh2_org, openvswitch, perl-Dancer2-Plugin-Auth-Extensible, postgresql17, python-cryptography, python-sqlparse, python311, python313-hpack, rpm, suseconnect-ng, thunderbird, and vim), and <b>Ubuntu</b> (async-http-client, curl, and ffmpeg).]]></description>
+            <guid>https://lwn.net/Articles/1090524/</guid>
+            <pubDate>Tue, 25 Aug 2026 13:12:29 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Vanilla OS 3 released</title>
+            <link>https://lwn.net/Articles/1090527/</link>
+            <description><![CDATA[<p><a
+href="https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release">Vanilla
+OS 3</a>, an immutable desktop Linux distribution, has been released. Notable
+changes in this release include support for Arm64, introduction of a <a
+href="https://github.com/Vanilla-OS/sdk#vanilla-os-sdk">Vanilla&#160;OS&#160;SDK</a>,
+a rewrite of the <a href="https://github.com/Vanilla-OS/apx#apx">Apx package
+manager</a> using the new SDK, and much more. LWN <a
+href="https://lwn.net/Articles/989629/">covered</a> Vanilla&#160;OS&#160;2 in
+2024.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1090527/</guid>
+            <pubDate>Tue, 25 Aug 2026 13:54:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1090304/</link>
@@ -352,14 +378,6 @@ flexible, per-site configuration of cookie and data clearing, and more.]]></desc
             <guid>https://lwn.net/Articles/1089386/</guid>
             <pubDate>Tue, 18 Aug 2026 21:15:41 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1089338/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 8.0, 389-ds:1.4, bind, haproxy, kernel, kernel-rt, libXfont2, nghttp2, and unbound), <b>Debian</b> (calibre, expat, ironic, and linux-6.12), <b>Fedora</b> (coturn, linux-firmware, php-phpseclib, and sqlite), <b>Red Hat</b> (fence-agents, osbuild-composer, pam, resource-agents, and sg3_utils), <b>SUSE</b> (ffmpeg, jetty-minimal, open-iscsi, python, python313-h2, python313-pysaml2, redis, redis7, rsync, sccache, texlive, and wasm-bindgen), and <b>Ubuntu</b> (engrampa, linux-aws-7.0, and linux-azure-fde-5.15).]]></description>
-            <guid>https://lwn.net/Articles/1089338/</guid>
-            <pubDate>Tue, 18 Aug 2026 13:09:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
