@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Aug 2026 16:44:23 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Aug 2026 16:53:32 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Aug 2026 18:34:27 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Aug 2026 18:59:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -412,36 +412,6 @@ decide how to run a given program.]]></description>
             <guid>https://lwn.net/Articles/1086947/</guid>
             <pubDate>Thu, 06 Aug 2026 13:47:18 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernels for Wednesday</title>
-            <link>https://lwn.net/Articles/1089557/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the
-<a href="https://lwn.net/Articles/1089545/">7.1.9</a>,
-<a href="https://lwn.net/Articles/1089546/">6.18.45</a>,
-<a href="https://lwn.net/Articles/1089547/">6.12.104</a>,
-<a href="https://lwn.net/Articles/1089548/">6.6.152</a>,
-<a href="https://lwn.net/Articles/1089549/">6.1.183</a>, <a
-href="https://lwn.net/Articles/1089550/">5.15.216</a>, and <a
-href="https://lwn.net/Articles/1089551/">5.10.265</a> stable kernels. Each contains important
-fixes throughout the tree; users are advised to upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/1089557/</guid>
-            <pubDate>Wed, 19 Aug 2026 18:02:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Go 1.27 released</title>
-            <link>https://lwn.net/Articles/1089559/</link>
-            <description><![CDATA[<p><a href="https://go.dev/doc/go1.27">Go 1.27</a>, the most recent version of
-the <a href="https://go.dev/">Go programming language</a>, has been released
-with a number of new tools, the addition of support for the <a
-href="https://go.dev/doc/go1.27#crypto_mldsa">ML-DSA</a> post-quantum algorithm,
-new JSON-processing packages, language updates, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1089559/</guid>
-            <pubDate>Wed, 19 Aug 2026 18:30:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
