@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 26 Aug 2026 11:07:21 +0000</pubDate>
-        <lastBuildDate>Wed, 26 Aug 2026 12:18:34 +0000</lastBuildDate>
+        <pubDate>Wed, 26 Aug 2026 13:21:33 +0000</pubDate>
+        <lastBuildDate>Wed, 26 Aug 2026 13:34:20 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LibreOffice 26.8 released</title>
+            <link>https://lwn.net/Articles/1090606/</link>
+            <description><![CDATA[<p><a
+href="https://blog.documentfoundation.org/blog/2026/08/26/libreoffice-26-8/">Version
+26.8</a> of the LibreOffice suite has been released.</p>
+
+<blockquote class="bq">
+<p>LibreOffice 26.8 concentrates on three areas: the typographic quality of what
+the suite produces, the range of writing systems it handles correctly, and the
+fidelity with which documents survive exchange with other office suites.</p>
+
+<p>The largest single body of work in this release addresses bidirectional and
+complex text. Writer now detects paragraph direction automatically when
+documents or plain text are opened or pasted. Line wrapping places end-of-line
+spaces according to the direction of the paragraph rather than that of the
+adjacent characters. Object resize handles behave correctly in right-to-left and
+vertical CJK documents. Bidirectional control characters are now visible
+alongside other formatting marks. In Calc, typing right-to-left text into an
+empty cell sets the direction of that cell automatically.</p>
+</blockquote>
+
+<p>See the <a
+href="https://wiki.documentfoundation.org/ReleaseNotes/26.8">release notes</a>
+for a full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1090606/</guid>
+            <pubDate>Wed, 26 Aug 2026 12:50:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1090732/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gstreamer1-plugins-base, kernel, kernel-rt, and sqlite), <b>Debian</b> (freecad, kernel, libvncserver, and openssl), <b>Fedora</b> (apr-util, chromium, nnn, perl-DBI, python-tablib, python3.10, python3.11, python3.12, and sympa), <b>Gentoo</b> (DTrace, GNU screen, UnrealIRCd, and Vinyl Cache), <b>Oracle</b> (389-ds-base, attr, firefox, gegl04, grafana, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, mod_http2, nginx, pam, python-pyasn1, python-urwid, python3.12, python3.14, sqlite, and xorg-x11-server), <b>SUSE</b> (amazon-ecs-init, containerd, curl, distribution, dracut, ffmpeg-7, fuse-overlayfs, gd, git-lfs, go1.25-openssl, go1.26-openssl, govulncheck-vulndb, hauler, himmelblau, kernel, librest, libssh2_org, open-iscsi, openssh, patch, perl-Date-Manip, podman, postgresql14, postgresql16, python-cryptography, python-Pillow, python311, rmt-server, rootlesskit, rpm, rsync, runc, snpguest, sssd, suseconnect-ng, unbound, and util-linux), and <b>Ubuntu</b> (curl, ffmpeg, linux-aws-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips,
+ linux-nvidia-tegra, linux-azure, linux-azure-fde, linux-azure, linux-azure-fde, linux-nvidia-tegra-igx, linux-azure-5.4, linux-azure-fips, linux-oracle, linux-raspi, linux-raspi-realtime, openjdk-17, openjdk-21, openjdk-25, openjdk-8, openjdk-lts, openssl, perl, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1090732/</guid>
+            <pubDate>Wed, 26 Aug 2026 13:16:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>mklinux-v7.0-mk2 released</title>
             <link>https://lwn.net/Articles/1090582/</link>
@@ -381,17 +421,6 @@ ability to create custom thumbnails for attachments, a new emoji picker, a build
 for Android, as well as many other enhancements.</p>]]></description>
             <guid>https://lwn.net/Articles/1089537/</guid>
             <pubDate>Wed, 19 Aug 2026 15:59:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1089501/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 9.0, 389-ds-base, attr, curl, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-bad-free and gstreamer1-plugins-ugly-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, haproxy, kernel, libssh, libXfont2, nodejs22, pam, php, php8.4, sg3_utils, and unbound), <b>Debian</b> (librabbitmq, ruby-grape, spip, srt, and swift), <b>Fedora</b> (GitPython, lemonldap-ng, libgit2, libnfs, perl-Imager, perl-List-SomeUtils-XS, python3.12, python3.14, and radsecproxy), <b>Oracle</b> (.NET 10.0, 389-ds-base, 389-ds:1.4, bind, curl, gstreamer1-plugins-bad-free, gstreamer1-plugins-bad-free and gstreamer1-plugins-ugly-free, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, haproxy, libssh, libXfont2, nodejs22, nodejs:22, pcp, and unbound), <b>Red Hat</b> (golang, grafana, grafana-pcp, osbuild-composer, and rhc), <b>SUSE</b> (erlang, forgejo-cli, go1.25, go1.26, htop, python-pypdf2, python313-tablib, and snphost), and <b>Ubuntu</b> (c3p0, dotnet8, dotnet10, kernel, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-fips, linux-hwe,
- linux-kvm, linux, linux-aws, linux-aws-fips, linux-azure, linux-fips, linux-gcp,
- linux-gcp-6.8, linux-gcp-fips, linux-gkeop, linux-oracle, linux-realtime,
- linux-realtime-6.8, linux-xilinx, linux-hwe-7.0, linux-oracle, linux-oracle-6.17, and linux-oracle-6.8).]]></description>
-            <guid>https://lwn.net/Articles/1089501/</guid>
-            <pubDate>Wed, 19 Aug 2026 13:03:14 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
