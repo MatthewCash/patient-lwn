@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 27 Aug 2026 12:04:34 +0000</pubDate>
-        <lastBuildDate>Thu, 27 Aug 2026 12:51:18 +0000</lastBuildDate>
+        <pubDate>Thu, 27 Aug 2026 21:51:06 +0000</pubDate>
+        <lastBuildDate>Thu, 27 Aug 2026 22:50:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1090938/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (assertj-core, attr, firefox, go-toolset:rhel8, golang, grafana, gstreamer1-plugins-good, httpd, kernel, mingw-openssl, mod_http2, nginx, nginx:1.24, pam, polkit, and sqlite), <b>Debian</b> (bubblewrap, cockpit, emacs, gimp, libdbi-perl, openjdk-11, openjdk-17, wireshark, and xrdp), <b>Fedora</b> (bluez, curl, emacs, golang, knot, libopenmpt, libsoup3, openbao, openssh, rsync, rust-anstyle-hyperlink, rust-anstyle-progress, rust-cargo, rust-cargo-c, rust-cargo-credential-libsecret, rust-cargo-util, rust-cargo-util-schemas, rust-cargo-util-terminal, rust-crates-io, and rust-rustfix), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi, Chromium, Google Chrome, Microsoft Edge. Opera, and OpenRGB), <b>Oracle</b> (abrt, assertj-core, attr, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, nginx:1.24, nginx:1.26, nodejs24, and polkit), <b>SUSE</b> (apache2-mod_auth_openidc, buildah, curl, docker, dracut, evince, go1.25-openssl, go1.26-openssl, go1.27, gstreamer-plugins-bad, kernel, kubernetes, kubernetes-old, libarchive, LibVNCServer, libwireshark19, pcp, python310-pip, qemu, rootlesskit, rsync, snpguest, and util-linux), and <b>Ubuntu</b> (bind9, libheif, and openssl, openssl1.0).]]></description>
+            <guid>https://lwn.net/Articles/1090938/</guid>
+            <pubDate>Thu, 27 Aug 2026 13:00:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Eight stable kernels for Thursday</title>
+            <link>https://lwn.net/Articles/1090940/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1090942/">7.2.1</a>, <a href="https://lwn.net/Articles/1090943/">7.1.11</a>, <a
+href="https://lwn.net/Articles/1090944/">6.18.47</a>, <a
+href="https://lwn.net/Articles/1090945/">6.12.106</a>, <a
+href="https://lwn.net/Articles/1090946/">6.6.154</a>, <a href="https://lwn.net/Articles/1090947/">6.1.185</a>,
+<a href="https://lwn.net/Articles/1090948/">5.15.218</a>, and <a
+href="https://lwn.net/Articles/1090949/">5.10.267</a> stable kernels. Each of these has
+important updates throughout the tree; users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1090940/</guid>
+            <pubDate>Thu, 27 Aug 2026 13:10:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 20, 2026</title>
             <link>https://lwn.net/Articles/1088565/</link>
@@ -356,76 +381,6 @@ important fixes.]]></description>
             <guid>https://lwn.net/Articles/1089999/</guid>
             <pubDate>Fri, 21 Aug 2026 13:17:30 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KDE Gear 26.08 released</title>
-            <link>https://lwn.net/Articles/1089721/</link>
-            <description><![CDATA[<p><a href="https://kde.org/announcements/gear/26.08.0/">Version 26.08</a> of
-the <a href="https://en.wikipedia.org/wiki/KDE_Gear">KDE&#160;Gear</a>
-collection of applications has been released. Notable changes in this release
-include improvements in the <a
-href="https://docs.kde.org/stable_kf6/en/okular/okular/signatures.html">signing</a>
-features of <a href="https://okular.kde.org/">Okular</a>, improved file-grouping
-features in the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
-manager, and a number of enhancements to the <a
-href="https://kdenlive.org/">Kdenlive</a> video editor. See the <a
-href="https://kde.org/announcements/changelogs/gear/26.08.0/">changelog</a> for
-a full list of updates, enhancements, and bug fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1089721/</guid>
-            <pubDate>Thu, 20 Aug 2026 13:37:26 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1089717/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind9.18, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel-rt, libcupsfilters, mysql8.4, mysql:8.4, pcp, perl-Date-Manip, php8.4, php:7.4, php:8.2, php:8.3, python3, and yggdrasil), <b>Debian</b> (designate, firefox-esr, and swift), <b>Gentoo</b> (acl, attr, Emacs, libssh2, and quickjs-ng), <b>Oracle</b> (.NET 10.0, .NET 9.0, attr, bind9.18, curl, glib2, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, kernel, libXfont2, mysql8.4, nghttp2, nodejs:22, nodejs:24, pam, pcp, perl-Date-Manip, php8.4, python3, sg3_utils, and yggdrasil), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (open-iscsi, podman, python311, and python313), and <b>Ubuntu</b> (bind9, capnproto, curl, libheif, libpng, libpng1.6, libssh, nginx, and tiff).]]></description>
-            <guid>https://lwn.net/Articles/1089717/</guid>
-            <pubDate>Thu, 20 Aug 2026 13:09:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>RPM 6.1.0 released</title>
-            <link>https://lwn.net/Articles/1089719/</link>
-            <description><![CDATA[<p><a href="https://rpm.org/releases/6.1.0">Version 6.1.0</a> of the <a
-href="https://rpm.org/">RPM Package Manager</a> has been released. Notable
-changes include the ability to provide modifiers to <a
-href="https://rpm.org/docs/6.1.x/man/rpm-macros.7">RPM macros</a> at definition
-time, improved build and verification error handling, support for signing files
-with PKCS11 tokens using <a
-href="https://rpm.org/docs/6.1.x/man/rpmsign.1"><tt>rpmsign</tt></a>, as well as
-the addition of several new man pages. The 6.1.0 release also debuts a <a
-href="https://rpm.org/2026/05/11/release-cycle.html">new release model</a>
-inspired by the Linux kernel's.</p>
-
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1089719/</guid>
-            <pubDate>Thu, 20 Aug 2026 13:22:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Supply chain attack on arrayref (Rust blog)</title>
-            <link>https://lwn.net/Articles/1089720/</link>
-            <description><![CDATA[The Rust blog <a
-href="https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/">reports</a>
-on a malicious crate, called <tt>proc-macro1</tt>, that was uploaded to the
-crates.io repository.
-<p>
-<blockquote class="bq">
-	Furthermore, we discovered that the popular <tt>arrayref</tt> crate
-	had recently been republished and made to depend on this crate,
-	with the most recent versions yanked. We have removed the malicious
-	version and unyanked the maliciously-yanked versions. Other crates
-	by that author (<tt>internment</tt>, <tt>append-only-vec</tt>) were
-	also affected so we have done the same for those, and locked the
-	account as a precaution. We do not believe the author of
-	<tt>arrayref</tt> to be acting maliciously, but their computer or
-	credentials are likely compromised, and we are attempting to
-	contact them.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1089720/</guid>
-            <pubDate>Thu, 20 Aug 2026 13:26:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
