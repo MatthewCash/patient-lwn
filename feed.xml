@@ -8,11 +8,46 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Aug 2026 06:41:27 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Aug 2026 06:47:07 +0000</lastBuildDate>
+        <pubDate>Fri, 28 Aug 2026 18:26:23 +0000</pubDate>
+        <lastBuildDate>Fri, 28 Aug 2026 19:16:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1091117/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (assertj-core, golang, httpd, kernel, and libxml2), <b>Debian</b> (chromium and suricata-update), <b>Fedora</b> (rust-h2), <b>Mageia</b> (avahi and python-django), <b>Oracle</b> (kernel and mingw-openssl), <b>SUSE</b> (c-ares-devel, dracut, gh, gstreamer-plugins-bad, java-11-openjdk, liboqs, librest0_7, openssl, openssl-3, pcp, python313-mistune, python36-pip, qt6-svg, rmt-server, rsync, suseconnect-ng, texlive, tor, wicked, and xmlrpc-c), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-azure-fips, linux-azure-6.8, linux-ibm, linux-ibm-6.8, linux-oracle-6.8, linux-raspi,
+ linux-raspi-realtime, linux-azure-fde-5.15, linux-fips, linux-gke, linux-gcp-fips, opencryptoki, and pam).]]></description>
+            <guid>https://lwn.net/Articles/1091117/</guid>
+            <pubDate>Fri, 28 Aug 2026 13:16:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Eight stable kernels with fix for a single vulnerability</title>
+            <link>https://lwn.net/Articles/1091118/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1091120/">7.2.2</a>, <a href="https://lwn.net/Articles/1091121/">7.1.12</a>, <a
+href="https://lwn.net/Articles/1091122/">6.18.48</a>, <a
+href="https://lwn.net/Articles/1091123/">6.12.107</a>, <a
+href="https://lwn.net/Articles/1091124/">6.6.155</a>, <a href="https://lwn.net/Articles/1091125/">6.1.186</a>,
+<a href="https://lwn.net/Articles/1091126/">5.15.219</a>, and <a
+href="https://lwn.net/Articles/1091127/">5.10.268</a> stable kernels.</p>
+
+<p>Each of these contains a
+single fix for <a
+href="https://lwn.net/ml/all/2026082816-CVE-2026-80590-241e%40gregkh/">a
+vulnerability</a> (<a
+href="https://www.cve.org/CVERecord/?id=CVE-2026-80590">CVE-2026-80590</a>)
+that allows marking IPv4 or IPv6 fragments as <a
+href="https://docs.kernel.org/networking/segmentation-offloads.html#generic-segmentation-offload">GSO</a>,
+which can allow an unprivileged user to cause a kernel panic. This vulnerability
+has been present since Linux&#160;2.6.27. Users are advised to upgrade.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1091118/</guid>
+            <pubDate>Fri, 28 Aug 2026 13:42:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1090938/</link>
@@ -365,22 +400,6 @@ important fixes.]]></description>
             <guid>https://lwn.net/Articles/1090099/</guid>
             <pubDate>Sun, 23 Aug 2026 13:46:14 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1089999/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ansible-core and pcp), <b>Debian</b> (chromium, libgit2, python-httplib2, and sabnzbdplus), <b>Fedora</b> (dokuwiki, domoticz, dotnet10.0, dotnet8.0, dotnet9.0, firefox, i2c-display, libgit2, lyx, ntpsec, openssh, perl-DBI, php-phpseclib3, python-alembic, python-asyncmy, python-sqlalchemy, python3.13, roundcubemail, trafficserver, wireshark, and wordpress), <b>Red Hat</b> (compat-openssl10, compat-openssl11, fence-agents, gnutls, kernel, kernel-rt, libarchive, libreswan, multiple packages, openssl, python-idna, python-pillow, qemu-kvm, resource-agents, rh-podman-desktop, ruby, unbound, and vim), <b>SUSE</b> (buildah, chromium, container-suseconnect, containerd, cosign, ctop, docker, firefox, forgejo-cli, gitea-tea, go1.25, go1.26, helm, kubernetes, kubernetes-old, kubevirt1.8, podman, python-pytest-html, python-unearth, python311, python313, rootlesskit, and rsync), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-5.4, linux-azure, linux-bluefield, linux-fips,
- linux-gcp, linux-gcp-5.4, linux-hwe-5.4, linux-ibm, linux-ibm-5.4,
- linux-iot, linux-oracle, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-aws-7.0, linux-ibm, linux-oem-7.0, linux-raspi,
- linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure-fips, linux-gkeop,
- linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg,
- linux-intel-iotg-5.15, linux-kvm, linux-nvidia, linux-nvidia-tegra,
- linux-nvidia-tegra-5.15, linux-oracle, linux-oracle-5.15, linux-realtime,
- linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-aws-6.8, linux-azure-5.15, linux-gcp, linux-gcp-fips, linux-hwe-5.15,
- linux-lowlatency-hwe-5.15, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-gcp, linux-gke, linux-gke, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-hwe-6.8, linux-nvidia, linux-nvidia-7.0, linux-nvidia-bos, linux-raspi, linux-raspi-realtime, netty, postgresql-14, postgresql-16, postgresql-18, vim, and wget).]]></description>
-            <guid>https://lwn.net/Articles/1089999/</guid>
-            <pubDate>Fri, 21 Aug 2026 13:17:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
