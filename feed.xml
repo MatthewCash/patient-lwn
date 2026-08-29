@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 28 Aug 2026 18:26:23 +0000</pubDate>
-        <lastBuildDate>Fri, 28 Aug 2026 19:16:56 +0000</lastBuildDate>
+        <pubDate>Sat, 29 Aug 2026 01:59:51 +0000</pubDate>
+        <lastBuildDate>Sat, 29 Aug 2026 02:23:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Car: Dolphin 26.08 and KIO performance improvements</title>
+            <link>https://lwn.net/Articles/1091177/</link>
+            <description><![CDATA[<p>Méven Car has written a pair of interesting blog posts (<a
+href="https://blogs.kde.org/2026/08/26/dolphin-26.08-and-kio-perf-improvements/">part&#160;1</a>,
+<a
+href="https://blogs.kde.org/2026/08/27/dolphin-26.08-and-kio-part-two-what-got-faster-and-smaller/">part&#160;2</a>). The
+first post is largely about some of the recent new features and performance work
+that have gone into the <a href="https://apps.kde.org/dolphin/">Dolphin</a> file
+manager 26.08 release, as well as the <a
+href="https://en.wikipedia.org/wiki/KIO">KIO</a> framework. The second looks at
+the performance improvements and benchmarks for previous, current, and upcoming
+releases.</p>
+
+<blockquote class="bq">
+<p>Copying many small files is more than twice as fast as it was in April. The
+gain falls off as files get larger, which is what you would expect: the fix is
+to the per-file overhead, and once each file carries a megabyte of actual I/O
+the overhead stops being what you are waiting for.</p>
+
+<p>There is still a gap with <tt>cp</tt>, discussed at length in <a
+href="https://blogs.kde.org/2026/07/28/making-kio-copy-many-files-fast/">the
+July post</a>. KIO is doing more than <tt>cp</tt> does, but not five times more,
+and the batching work that closes most of the rest of that gap is still in
+progress.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1091177/</guid>
+            <pubDate>Fri, 28 Aug 2026 20:00:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1091117/</link>
