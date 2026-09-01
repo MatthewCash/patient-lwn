@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 01 Sep 2026 16:54:09 +0000</pubDate>
-        <lastBuildDate>Tue, 1 Sep 2026 16:58:52 +0000</lastBuildDate>
+        <pubDate>Tue, 01 Sep 2026 19:35:10 +0000</pubDate>
+        <lastBuildDate>Tue, 1 Sep 2026 19:48:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A note from LWN</title>
+            <link>https://lwn.net/Articles/1090585/</link>
+            <description><![CDATA[The online publication industry, as a whole, is struggling, with challenges
+coming from multiple directions.  Thanks to the support of all of you, our
+readers, LWN would appear to be doing better than most.  But the world has
+changed around us and, in particular, prices have changed considerably.  By
+now, you probably know where this is going: subscription prices at LWN will
+be increasing as of September&#160;15.]]></description>
+            <guid>https://lwn.net/Articles/1090585/</guid>
+            <pubDate>Tue, 01 Sep 2026 18:17:35 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1091919/</link>
