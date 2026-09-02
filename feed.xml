@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Sep 2026 07:38:30 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Sep 2026 09:19:24 +0000</lastBuildDate>
+        <pubDate>Wed, 02 Sep 2026 13:39:48 +0000</pubDate>
+        <lastBuildDate>Wed, 2 Sep 2026 13:47:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1092149/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dbus-broker, freerdp, gegl, gegl04, gimp, gimp:2.8, glib2, grafana, gzip, iperf3, libssh, nodejs22, nodejs24, nodejs:22, nodejs:24, php:7.4, php:8.2, pipewire, ruby:3.3, ruby:4.0, tar, wget, and xmlrpc-c), <b>Debian</b> (cyrus-imapd, keystone, and lemonldap-ng), <b>Fedora</b> (bubblewrap, cockpit, emacs, gdk-pixbuf2, openssl, openvkl, python-linkify-it-py, python-llm, and rkcommon), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi), <b>Oracle</b> (glib2, gzip, mingw-sqlite, nodejs22, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (go-toolset:rhel8, golang, and grafana), <b>Slackware</b> (pcre2), <b>SUSE</b> (apache2-mod_auth_openidc, busybox, cups-filters, java-17-openj9, java-1_8_0-openj9, libapr-util1, libgcrypt, python-sqlparse, python3-sqlparse, python313-uv, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, ucode-intel, wicked, and yast2-auth-client), and <b>Ubuntu</b> (libevent, libgcrypt20, ncurses, opencryptoki, pam, pyasn1, rust-sudo-rs, and ubuntu-advantage-tools).]]></description>
+            <guid>https://lwn.net/Articles/1092149/</guid>
+            <pubDate>Wed, 02 Sep 2026 13:16:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Eight stable kernels for Wednesday</title>
+            <link>https://lwn.net/Articles/1092151/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1092153/">7.2.3</a>,
+<a href="https://lwn.net/Articles/1092154/">7.1.13</a>, <a
+href="https://lwn.net/Articles/1092156/">6.18.49</a>, <a
+href="https://lwn.net/Articles/1092157/">6.12.108</a>, <a
+href="https://lwn.net/Articles/1092158/">6.6.156</a>, <a href="https://lwn.net/Articles/1092159/">6.1.187</a>,
+<a href="https://lwn.net/Articles/1092160/">5.15.220</a>, and <a
+href="https://lwn.net/Articles/1092161/">5.10.269</a> stable kernels. Each contains a number of
+important fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1092151/</guid>
+            <pubDate>Wed, 02 Sep 2026 13:28:26 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A note from LWN</title>
             <link>https://lwn.net/Articles/1090585/</link>
@@ -445,46 +470,6 @@ for a full list of changes.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1090741/</guid>
             <pubDate>Wed, 26 Aug 2026 13:54:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>LibreOffice 26.8 released</title>
-            <link>https://lwn.net/Articles/1090606/</link>
-            <description><![CDATA[<p><a
-href="https://blog.documentfoundation.org/blog/2026/08/26/libreoffice-26-8/">Version
-26.8</a> of the LibreOffice suite has been released.</p>
-
-<blockquote class="bq">
-<p>LibreOffice 26.8 concentrates on three areas: the typographic quality of what
-the suite produces, the range of writing systems it handles correctly, and the
-fidelity with which documents survive exchange with other office suites.</p>
-
-<p>The largest single body of work in this release addresses bidirectional and
-complex text. Writer now detects paragraph direction automatically when
-documents or plain text are opened or pasted. Line wrapping places end-of-line
-spaces according to the direction of the paragraph rather than that of the
-adjacent characters. Object resize handles behave correctly in right-to-left and
-vertical CJK documents. Bidirectional control characters are now visible
-alongside other formatting marks. In Calc, typing right-to-left text into an
-empty cell sets the direction of that cell automatically.</p>
-</blockquote>
-
-<p>See the <a
-href="https://wiki.documentfoundation.org/ReleaseNotes/26.8">release notes</a>
-for a full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1090606/</guid>
-            <pubDate>Wed, 26 Aug 2026 12:50:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1090732/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, gstreamer1-plugins-base, kernel, kernel-rt, and sqlite), <b>Debian</b> (freecad, kernel, libvncserver, and openssl), <b>Fedora</b> (apr-util, chromium, nnn, perl-DBI, python-tablib, python3.10, python3.11, python3.12, and sympa), <b>Gentoo</b> (DTrace, GNU screen, UnrealIRCd, and Vinyl Cache), <b>Oracle</b> (389-ds-base, attr, firefox, gegl04, grafana, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, mod_http2, nginx, pam, python-pyasn1, python-urwid, python3.12, python3.14, sqlite, and xorg-x11-server), <b>SUSE</b> (amazon-ecs-init, containerd, curl, distribution, dracut, ffmpeg-7, fuse-overlayfs, gd, git-lfs, go1.25-openssl, go1.26-openssl, govulncheck-vulndb, hauler, himmelblau, kernel, librest, libssh2_org, open-iscsi, openssh, patch, perl-Date-Manip, podman, postgresql14, postgresql16, python-cryptography, python-Pillow, python311, rmt-server, rootlesskit, rpm, rsync, runc, snpguest, sssd, suseconnect-ng, unbound, and util-linux), and <b>Ubuntu</b> (curl, ffmpeg, linux-aws-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips,
- linux-nvidia-tegra, linux-azure, linux-azure-fde, linux-azure, linux-azure-fde, linux-nvidia-tegra-igx, linux-azure-5.4, linux-azure-fips, linux-oracle, linux-raspi, linux-raspi-realtime, openjdk-17, openjdk-21, openjdk-25, openjdk-8, openjdk-lts, openssl, perl, and vim).]]></description>
-            <guid>https://lwn.net/Articles/1090732/</guid>
-            <pubDate>Wed, 26 Aug 2026 13:16:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
