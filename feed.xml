@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Sep 2026 08:21:54 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Sep 2026 09:51:01 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Sep 2026 13:58:06 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Sep 2026 14:10:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1092419/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, go-fdo-server, golang-github-openprinting-ipp-usb, kernel, kernel-rt, nodejs:24, perl-DBI, and php), <b>Debian</b> (firefox-esr, libapache2-mod-auth-openidc, and libass), <b>Fedora</b> (dracut, exiv2, firefox, freerdp, gvfs, mingw-expat, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-openexr, nss, proftpd, and syncthing), <b>Mageia</b> (apr-util, bubblewrap, libalsa2, libarchive, perl-Net-OAuth, perl-Text-CSV_XS, perl-XML-Bare, and perl-YAML-Syck), <b>Oracle</b> (freerdp, gimp, golang, iperf3, nginx:1.24, nodejs:22, nodejs:24, pipewire, wget, xmlrpc-c, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, apptainer, apr-util, bzip2, c-ares, cosign, dhcpcd, dovecot22, emacs, erlang, gegl, gopass, gzip, httpcomponents-client, incus, kernel-devel, libgpg-error, libsoup2, mozillafirefox, mozilla-nss, mozilla-nspr,, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, nodejs20, orthanc, orthanc-authorization, orthanc-postgresql,, postgresql14, python-cryptography, python-msgpack, quagga, snpguest, snphost, texlive, tuxguitar, udisks2, vim, wget, and yast2-users), and <b>Ubuntu</b> (apr-util, biosig, linux, linux-aws, linux-azure, linux-azure-fips, linux-fips,
+ linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
+ linux-oracle, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-5.15, linux-gcp-5.15, linux-oracle-5.4, sssd, and tika).]]></description>
+            <guid>https://lwn.net/Articles/1092419/</guid>
+            <pubDate>Thu, 03 Sep 2026 13:07:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Audacity 4.0 released</title>
+            <link>https://lwn.net/Articles/1092439/</link>
+            <description><![CDATA[<p><a
+href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0">Version
+4.0</a> of the Audacity audio editor has been released. Notable changes in this
+release include a rewritten interface using Qt, ability to save user-interface
+layouts as "Workspaces", improvements in working with audio clips, and a new
+<tt>.aup4</tt> project format.</p>
+
+<p>The release is not fully feature-compatible with the Audacity&#160;3.x
+series; see the <a
+href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0#:~:text=Compatibility%20notes">compatibility
+notes</a> for a list of missing features.</p>]]></description>
+            <guid>https://lwn.net/Articles/1092439/</guid>
+            <pubDate>Thu, 03 Sep 2026 13:58:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for August 27, 2026</title>
             <link>https://lwn.net/Articles/1089643/</link>
