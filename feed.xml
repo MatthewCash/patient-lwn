@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 03 Sep 2026 20:20:12 +0000</pubDate>
-        <lastBuildDate>Thu, 3 Sep 2026 20:33:21 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Sep 2026 22:16:19 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Sep 2026 22:50:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -433,31 +433,6 @@ has been present since Linux&#160;2.6.27. Users are advised to upgrade.</p>
 <p>]]></description>
             <guid>https://lwn.net/Articles/1091118/</guid>
             <pubDate>Fri, 28 Aug 2026 13:42:06 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1090938/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (assertj-core, attr, firefox, go-toolset:rhel8, golang, grafana, gstreamer1-plugins-good, httpd, kernel, mingw-openssl, mod_http2, nginx, nginx:1.24, pam, polkit, and sqlite), <b>Debian</b> (bubblewrap, cockpit, emacs, gimp, libdbi-perl, openjdk-11, openjdk-17, wireshark, and xrdp), <b>Fedora</b> (bluez, curl, emacs, golang, knot, libopenmpt, libsoup3, openbao, openssh, rsync, rust-anstyle-hyperlink, rust-anstyle-progress, rust-cargo, rust-cargo-c, rust-cargo-credential-libsecret, rust-cargo-util, rust-cargo-util-schemas, rust-cargo-util-terminal, rust-crates-io, and rust-rustfix), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi, Chromium, Google Chrome, Microsoft Edge. Opera, and OpenRGB), <b>Oracle</b> (abrt, assertj-core, attr, gstreamer1-plugins-base, gstreamer1-plugins-good, httpd, nginx:1.24, nginx:1.26, nodejs24, and polkit), <b>SUSE</b> (apache2-mod_auth_openidc, buildah, curl, docker, dracut, evince, go1.25-openssl, go1.26-openssl, go1.27, gstreamer-plugins-bad, kernel, kubernetes, kubernetes-old, libarchive, LibVNCServer, libwireshark19, pcp, python310-pip, qemu, rootlesskit, rsync, snpguest, and util-linux), and <b>Ubuntu</b> (bind9, libheif, and openssl, openssl1.0).]]></description>
-            <guid>https://lwn.net/Articles/1090938/</guid>
-            <pubDate>Thu, 27 Aug 2026 13:00:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Eight stable kernels for Thursday</title>
-            <link>https://lwn.net/Articles/1090940/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1090942/">7.2.1</a>, <a href="https://lwn.net/Articles/1090943/">7.1.11</a>, <a
-href="https://lwn.net/Articles/1090944/">6.18.47</a>, <a
-href="https://lwn.net/Articles/1090945/">6.12.106</a>, <a
-href="https://lwn.net/Articles/1090946/">6.6.154</a>, <a href="https://lwn.net/Articles/1090947/">6.1.185</a>,
-<a href="https://lwn.net/Articles/1090948/">5.15.218</a>, and <a
-href="https://lwn.net/Articles/1090949/">5.10.267</a> stable kernels. Each of these has
-important updates throughout the tree; users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1090940/</guid>
-            <pubDate>Thu, 27 Aug 2026 13:10:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
