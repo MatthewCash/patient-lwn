@@ -8,11 +8,136 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 02 Sep 2026 22:35:21 +0000</pubDate>
-        <lastBuildDate>Wed, 2 Sep 2026 22:39:32 +0000</lastBuildDate>
+        <pubDate>Thu, 03 Sep 2026 00:22:18 +0000</pubDate>
+        <lastBuildDate>Thu, 3 Sep 2026 00:42:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for August 27, 2026</title>
+            <link>https://lwn.net/Articles/1089643/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1089643/">Front</a>: AGPL violations; OpenMDW license; quantum computing and encryption; 7.3 merge window; Remind; Quickshell.
+            <li> <a href="https://lwn.net/Articles/1089645/">Briefs</a>: arrayref; RIP Steve French; Armbian 26.8; Vanilla OS 3; Emacs 31.1; KDE Gear 26.08; LibreOffice 26.8; RPM 6.1.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1089646/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1089643/</guid>
+            <pubDate>Thu, 27 Aug 2026 00:54:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] An ongoing 3D-printer AGPL violation</title>
+            <link>https://lwn.net/Articles/1089390/</link>
+            <description><![CDATA[At <a href="https://2026.fossy.ca/">FOSSY 2026</a>, several people from the
+<a href="https://sfconservancy.org/">Software Freedom Conservancy</a> (SFC),
+which organizes the conference, gave a presentation about an <a href="https://sfconservancy.org/news/2026/may/18/bambu-studio-3d-printer-agpl-violation-response/">ongoing
+violation</a> of the <a
+href="https://www.gnu.org/licenses/agpl-3.0.en.html">Affero General Public
+License version 3</a> (AGPLv3).  Bradley Kühn, Karen Sandler, and Denver
+Gingerich spoke about different aspects of the violation, which is in
+regard to 3D-printer software from Bambu Lab, and what is being
+done to try to provide users with alternatives.  One aspect that is
+particularly interesting is that the circumvention that the company is
+employing is precisely what the AGPL was written to prevent.]]></description>
+            <guid>https://lwn.net/Articles/1089390/</guid>
+            <pubDate>Wed, 26 Aug 2026 15:29:55 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Old-school calendaring at the command line with Remind</title>
+            <link>https://lwn.net/Articles/1090376/</link>
+            <description><![CDATA[<p><a href="https://dianne.skoll.ca/projects/remind/">Remind</a> is a
+command-line calendar and alarm program, with an optional Tk-based graphical
+interface, for Linux and Unix-like operating systems. It has its own scripting
+language that allows users to create reminders that are difficult (if not
+impossible) to specify in other calendaring programs. It is wholly unsuitable for use in
+corporate environments that require calendar sharing and exchanging meeting
+invitations; however, it may be precisely the calendaring tool for users who
+prefer the command line and fast, flexible tools that can help keep track of
+messy schedules.</p>]]></description>
+            <guid>https://lwn.net/Articles/1090376/</guid>
+            <pubDate>Tue, 25 Aug 2026 14:03:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] How to be safe from quantum computing</title>
+            <link>https://lwn.net/Articles/1088305/</link>
+            <description><![CDATA[<p>
+Practical quantum computers have been ten years away for the last several
+decades. Now, however, it's beginning to look as though they will be
+possible in just a few years. Recent
+<a href="https://lwn.net/Articles/1066156/">
+research with obfuscated results</a> demonstrated much lower memory requirements to factor
+<a href="https://en.wikipedia.org/wiki/Elliptic_Curve_Digital_Signature_Algorithm">
+ECDSA</a> keys on a quantum computer, with
+<a href="https://www.ecdsa.fail/">
+work by other researchers in the open</a> more than halving memory use compared
+to the state of the art in 2023.
+At the same time, computer
+manufacturers are
+<a href="https://abit.ee/en/processors/ibm-quantum-processor-nighthawk-ibm-miami-quantum-computing-qubits-coherence-heron-r3-quantum-advant-en">
+boasting</a> quantum processors that retain viable superpositions over longer periods.
+Given how slowly software updates filter out to stable systems, it's worth
+looking at what configuration changes and protocol updates are needed to be safe
+from quantum computers now.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1088305/</guid>
+            <pubDate>Mon, 24 Aug 2026 14:57:41 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Considering the OpenMDW license</title>
+            <link>https://lwn.net/Articles/1089251/</link>
+            <description><![CDATA[The open-source world has been struggling for a few years now to understand
+how to approach large language models (LLMs) and the licensing applied to
+them.  What constitutes "freedom" with respect to a black box filled with
+numerical weights?  The process taken by the Open Source Initiative (OSI)
+in the <a href="https://lwn.net/Articles/995159/">development</a> of its <a
+href="https://opensource.org/ai/open-source-ai-definition">Open AI
+Definition</a> was controversial at best, as was its output.  Now, the
+Linux Foundation's Mike Dolan has <a
+href="https://lwn.net/ml/all/CAFV=PSG=bsLTemzjyCKYYz9j=rX9dcNo6=2T6htbxTRgervMrA@mail.gmail.com">brought
+a new license to the OSI</a> for approval.  It is called the OpenMDW ("Open
+Model, Data, and Weights"), and it aims to clarify licensing for the
+distribution of LLMs and related materials, but consensus is proving hard
+to find for this license as well.]]></description>
+            <guid>https://lwn.net/Articles/1089251/</guid>
+            <pubDate>Fri, 21 Aug 2026 13:42:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] A look at the Quickshell desktop-component toolkit</title>
+            <link>https://lwn.net/Articles/1083090/</link>
+            <description><![CDATA[<p><a href="https://quickshell.org/">Quickshell</a> is a toolkit for
+building desktop components, such as toolbars or menus. It uses <a
+href="https://doc.qt.io/qt-6/qmlreference.html">QML</a>, which is a declarative language
+for designing GUI applications. Quickshell helps developers create graphical tools
+for common desktop use cases with a focus on ease of development. It offers a
+convenient method for writing user interfaces and has been adopted by a number
+of projects, such as <a
+href="https://github.com/caelestia-dots/shell#caelestia-shell">caelestia-shell</a> and <a href="https://danklinux.com/">DankMaterialShell</a>, that
+provide desktop environments for minimal window managers like <a
+href="https://swaywm.org/">Sway</a> and <a
+href="https://niri-wm.github.io/niri/">niri</a>.</p>]]></description>
+            <guid>https://lwn.net/Articles/1083090/</guid>
+            <pubDate>Thu, 20 Aug 2026 19:39:51 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The beginning of the 7.3 merge window</title>
+            <link>https://lwn.net/Articles/1089244/</link>
+            <description><![CDATA[As of this writing, 2,346 non-merge changesets have been pulled into the
+mainline repository for the 7.3 kernel release.  That, clearly, is a mere
+down payment on the flood that is to come.  Even so, those early pulls
+brought in some noteworthy changes, including (but not limited to) a
+significant reworking of how group scheduling works on multiprocessor
+systems.]]></description>
+            <guid>https://lwn.net/Articles/1089244/</guid>
+            <pubDate>Thu, 20 Aug 2026 13:11:39 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Incus 7.4 released</title>
             <link>https://lwn.net/Articles/1092229/</link>
