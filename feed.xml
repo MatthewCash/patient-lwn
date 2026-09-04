@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 04 Sep 2026 09:20:54 +0000</pubDate>
-        <lastBuildDate>Fri, 4 Sep 2026 09:57:56 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Sep 2026 13:41:17 +0000</pubDate>
+        <lastBuildDate>Fri, 4 Sep 2026 14:04:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1092659/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (chromium, firefox-esr, and pcre2), <b>Fedora</b> (cockpit, expat, freeipa, kbd, kernel, mrtg, python-pip, and valkey), <b>Mageia</b> (libopenmpt and python-gitpython), <b>Oracle</b> (dbus-broker, freerdp, gegl, gegl04, gimp:2.8, go-fdo-client, go-fdo-server, golang-github-openprinting-ipp-usb, grafana, gzip, image-builder, iperf3, kernel, libssh, libxml2, microcode_ctl, nodejs:22, nodejs:24, openssl-fips-provider, pam, php:7.4, php:8.2, tar, and wget), <b>SUSE</b> (apache2-mod_auth_openidc, apptainer, busybox, cpio, cups-filters, curl, dracut, ffmpeg, file-roller, glibc, grafana, kubevirt, virt-pr-helper-container, lcms2, libtree-sitter0_26, libvirt, postgresql14, postgresql15, postgresql16, postgresql18, suseconnect-ng, terraform-provider-susepubliccloud, and yast2-users), and <b>Ubuntu</b> (FFmpeg, gnupg2, librabbitmq, libssh2, openssh, and spice-vdagent).]]></description>
+            <guid>https://lwn.net/Articles/1092659/</guid>
+            <pubDate>Fri, 04 Sep 2026 13:18:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Grml 2026.09 released</title>
+            <link>https://lwn.net/Articles/1092660/</link>
+            <description><![CDATA[<p><a href="https://grml.org/changelogs/README-grml-2026.09/">Version
+2026.09</a>, <a href="https://grml.org/faq/#releasename">code-named</a>
+"Hättiwaritätti", of the Debian-based Grml live Linux distribution for system
+administrators has been released. It is based on packages from the upcoming
+Debian&#160;14 ("forky") release. Notable changes include an update to the Linux
+7.1.8 kernel, support for booting from exfat-formatted USB devices, and an
+update to GNU&#160;Screen&#160;5.0.1.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1092660/</guid>
+            <pubDate>Fri, 04 Sep 2026 13:30:13 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1092419/</link>
