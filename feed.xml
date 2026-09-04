@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 04 Sep 2026 15:36:52 +0000</pubDate>
-        <lastBuildDate>Fri, 4 Sep 2026 17:37:42 +0000</lastBuildDate>
+        <pubDate>Fri, 04 Sep 2026 19:16:56 +0000</pubDate>
+        <lastBuildDate>Fri, 4 Sep 2026 19:53:43 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -422,41 +422,6 @@ progress.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1091177/</guid>
             <pubDate>Fri, 28 Aug 2026 20:00:27 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1091117/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (assertj-core, golang, httpd, kernel, and libxml2), <b>Debian</b> (chromium and suricata-update), <b>Fedora</b> (rust-h2), <b>Mageia</b> (avahi and python-django), <b>Oracle</b> (kernel and mingw-openssl), <b>SUSE</b> (c-ares-devel, dracut, gh, gstreamer-plugins-bad, java-11-openjdk, liboqs, librest0_7, openssl, openssl-3, pcp, python313-mistune, python36-pip, qt6-svg, rmt-server, rsync, suseconnect-ng, texlive, tor, wicked, and xmlrpc-c), and <b>Ubuntu</b> (linux-azure, linux-azure-4.15, linux-azure-fips, linux-azure-6.8, linux-ibm, linux-ibm-6.8, linux-oracle-6.8, linux-raspi,
- linux-raspi-realtime, linux-azure-fde-5.15, linux-fips, linux-gke, linux-gcp-fips, opencryptoki, and pam).]]></description>
-            <guid>https://lwn.net/Articles/1091117/</guid>
-            <pubDate>Fri, 28 Aug 2026 13:16:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Eight stable kernels with fix for a single vulnerability</title>
-            <link>https://lwn.net/Articles/1091118/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1091120/">7.2.2</a>, <a href="https://lwn.net/Articles/1091121/">7.1.12</a>, <a
-href="https://lwn.net/Articles/1091122/">6.18.48</a>, <a
-href="https://lwn.net/Articles/1091123/">6.12.107</a>, <a
-href="https://lwn.net/Articles/1091124/">6.6.155</a>, <a href="https://lwn.net/Articles/1091125/">6.1.186</a>,
-<a href="https://lwn.net/Articles/1091126/">5.15.219</a>, and <a
-href="https://lwn.net/Articles/1091127/">5.10.268</a> stable kernels.</p>
-
-<p>Each of these contains a
-single fix for <a
-href="https://lwn.net/ml/all/2026082816-CVE-2026-80590-241e%40gregkh/">a
-vulnerability</a> (<a
-href="https://www.cve.org/CVERecord/?id=CVE-2026-80590">CVE-2026-80590</a>)
-that allows marking IPv4 or IPv6 fragments as <a
-href="https://docs.kernel.org/networking/segmentation-offloads.html#generic-segmentation-offload">GSO</a>,
-which can allow an unprivileged user to cause a kernel panic. This vulnerability
-has been present since Linux&#160;2.6.27. Users are advised to upgrade.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1091118/</guid>
-            <pubDate>Fri, 28 Aug 2026 13:42:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
