@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 06 Sep 2026 22:21:44 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Sep 2026 00:23:06 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Sep 2026 00:52:58 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Sep 2026 05:03:45 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.3-rc2</title>
+            <link>https://lwn.net/Articles/1092757/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1092756/">7.3-rc2</a> kernel prepatch is out for
+testing.  Linus said:
+<p>
+<blockquote class="bq">
+	This didn't *feel* like a particularly busy rc2, but it clearly
+	was.  rc2 is usually the quietest time when people take a breather
+	after the merge window and it takes a while to start finding
+	bugs. But not this time - this is a "full fat" rc release. [...]
+<p>
+	Nothing looks particularly odd, even if the rc2 timing is a bit
+	unusual. It might be just random, but we'll obviously all blame it
+	on AI, because whether that's really the cause or not, it's an easy
+	thing to blame ;)
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1092757/</guid>
+            <pubDate>Mon, 07 Sep 2026 00:52:57 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1092659/</link>
@@ -320,19 +341,6 @@ notes</a> for a full list of changes.</p>
             <guid>https://lwn.net/Articles/1091606/</guid>
             <pubDate>Mon, 31 Aug 2026 15:03:32 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.3-rc1</title>
-            <link>https://lwn.net/Articles/1091421/</link>
-            <description><![CDATA[Linus has <a href="https://lwn.net/Articles/1091420/">released 7.3-rc1</a> and closed the
-merge window for this release.  "<q>Nothing really stands out - except for
-the fact that it's big. It's not the biggest rc1 we've ever had, but it's
-certainly up there, at least in number of commits.</q>"  He pulled 15,267
-commits during this merge window, making it the second busiest ever; only
-6.7 has exceeded it.]]></description>
-            <guid>https://lwn.net/Articles/1091421/</guid>
-            <pubDate>Sun, 30 Aug 2026 22:52:23 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
