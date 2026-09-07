@@ -8,11 +8,60 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Sep 2026 09:42:00 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Sep 2026 10:19:21 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Sep 2026 14:56:00 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Sep 2026 15:59:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Asahi Linux now supports M3-series Macs</title>
+            <link>https://lwn.net/Articles/1092768/</link>
+            <description><![CDATA[<p>The Asahi Linux project has <a
+href="https://asahilinux.org/2026/09/m2-episode-1/">announced</a> that support
+for Apple's M3-series chips has been added to the Asahi installer.</p>
+
+<blockquote class="bq">
+<p>Linux support for M3 series SoCs and the machines powered by them is now in a
+state where <em>almost</em> everything supported on the M1 and M2 series
+machines just works. This includes the webcam, internal microphones, USB (up to
+the hardware limit of USB 3 10 Gb/s), hardware accelerated video decoding
+<strong>including support for AV1</strong>, WiFi, Bluetooth, and much more! The
+only major exceptions remain full DCP support and the GPU, which we will have
+more news on in the <a
+href="https://indico.freedesktop.org/event/12/contributions/532/">coming
+months</a>. <strong>Do not expect performant or power-efficient 3D acceleration
+right now.</strong></p>
+</blockquote>
+
+<p>See the blog post for other current limitations of M3 support.</p>]]></description>
+            <guid>https://lwn.net/Articles/1092768/</guid>
+            <pubDate>Mon, 07 Sep 2026 12:25:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1092911/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, freerdp, gegl04, go-fdo-client, grafana, grafana-pcp, kernel, and pipewire), <b>Debian</b> (aom, chromium, libde265, libssh2, thunderbird, and tryton-server), <b>Fedora</b> (chromium, composer, cosmic-greeter, gegl04, greetd, ibus-table, jss, libheif, lightdm, lxdm, memcached, perl-DBD-Pg, plasma-login-manager, rust-webbrowser, sddm, selinux-policy, slitherer, and tkimg), <b>Mageia</b> (expat, mingw-expat, mbedtls, microcode, python-linkify-it-py, and tomcat), <b>Oracle</b> (buildah, container-tools:ol8, dbus-broker, freerdp, go-toolset:ol8, grafana-pcp, kernel, kernel-uek, nodejs24, php, and pipewire), <b>Slackware</b> (libpcap, libxml2, mozilla-firefox, mozilla-thunderbird, and util-linux), <b>SUSE</b> (bson-devel, busybox, bzip2, c-ares, cpio, cups-filters, dracut, ffmpeg-7, ffmpeg-8, file-roller, firefox, firefox-esr, glances-common, grafana, hauler, helm, helm3, java-17-openjdk, java-21-openjdk, lcms2, libcupsfilters, libheif, libmsgpack-c2, libsoup, libsoup2, libusb-1_0, libvirt, LibVNCServer, mcphost, ollama, opencode, openssl-1_1, openssl-3, php-composer2, podman, postgresql15, postgresql17, postgresql18, python, python-aiohttp, python-h2, python-sqlparse, python310, rpcbind, sssd, thunderbird, trivy, ucode-intel, and webkit2gtk3), and <b>Ubuntu</b> (linux, linux-aws, linux-aws-7.0, linux-gcp, linux-gke, linux-hwe-7.0, linux-realtime, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-raspi, linux-realtime, linux-realtime-6.8, linux, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-realtime, linux-aws-5.4, linux-gcp, linux-gcp-5.4, linux-gcp-7.0, linux-oem-7.0, minetest, and miniupnpd).]]></description>
+            <guid>https://lwn.net/Articles/1092911/</guid>
+            <pubDate>Mon, 07 Sep 2026 13:07:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Buildroot 2026.08 released</title>
+            <link>https://lwn.net/Articles/1092913/</link>
+            <description><![CDATA[<p><a
+href="https://lore.kernel.org/buildroot/878q5hf0yd.fsf@dell.be.48ers.dk/">Version
+2026.08</a> of the <a href="https://buildroot.net/">Buildroot</a> embedded Linux
+system builder has been released. Buildroot 2026.08 includes nearly 1,000
+changes from 100 contributors; some of the notable changes include support for
+Linux&#160;7.1.x, Binutils 2.46.1, GCC 16.2.0, glibc 2.44, as well as adding the
+M68K and IBM Power 10/11 architectures.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1092913/</guid>
+            <pubDate>Mon, 07 Sep 2026 13:18:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.3-rc2</title>
             <link>https://lwn.net/Articles/1092757/</link>
