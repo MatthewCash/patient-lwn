@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 07 Sep 2026 14:56:00 +0000</pubDate>
-        <lastBuildDate>Mon, 7 Sep 2026 15:59:38 +0000</lastBuildDate>
+        <pubDate>Mon, 07 Sep 2026 18:33:28 +0000</pubDate>
+        <lastBuildDate>Mon, 7 Sep 2026 19:51:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three stable kernels for Monday</title>
+            <link>https://lwn.net/Articles/1092984/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1092985/">7.2.4</a>, <a href="https://lwn.net/Articles/1092986/">6.18.50</a>,
+and <a href="https://lwn.net/Articles/1092987/">6.12.109</a> stable kernels. Each contains
+important fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1092984/</guid>
+            <pubDate>Mon, 07 Sep 2026 16:50:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Asahi Linux now supports M3-series Macs</title>
             <link>https://lwn.net/Articles/1092768/</link>
@@ -341,54 +354,6 @@ fixes</a>.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1091926/</guid>
             <pubDate>Tue, 01 Sep 2026 14:03:56 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1091536/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (kernel, libarchive, libdbi-perl, libnet-dns-perl, librabbitmq, roundcube, starlette, and xrdp), <b>Fedora</b> (bluez, postgresql16-anonymizer, pyOpenSSL, python-cryptography, python-pynitrokey, and rust-h2), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Freenet, and Tor), <b>Mageia</b> (golang and python-nltk), <b>Red Hat</b> (nodejs22, nodejs24, nodejs:22, and nodejs:24), <b>SUSE</b> (7zip, apptainer, broot, cadvisor, coredns, coturn, distribution-registry, gh, git-lfs, grafana, gzip, java-25-openjdk, libopenssl-3-devel, libsoup-3_0-0, mozjs102, OpenRGB, openssl-3, openvpn, podman, pyenv, python, python-PyPDF2, python310, python312, python313-Authlib, python36, rekor, rsync, rsyslog, tor, trivy, v2ray-core, vim, wget, and wicked), and <b>Ubuntu</b> (bzip2 and openjdk-26).]]></description>
-            <guid>https://lwn.net/Articles/1091536/</guid>
-            <pubDate>Mon, 31 Aug 2026 13:07:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Netdev 0x1A videos and slides are now live</title>
-            <link>https://lwn.net/Articles/1091600/</link>
-            <description><![CDATA[<p>The <a href="https://netdevconf.info/0x1A/">Netdev 0x1A</a> conference was
-held in Rome, Italy from July&#160;13 through July&#160;16. Conference organizer
-Jami&#160;Hadi&#160;Salim has let us know that the videos and slides for <a
-href="https://netdevconf.info/0x1A/pages/sessions.html">all sessions</a> are now
-available. Topics include Linux QUIC, shared memory socket transport, eBPF-based
-DDoS protection, and more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1091600/</guid>
-            <pubDate>Mon, 31 Aug 2026 14:44:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenShot 4.0 released</title>
-            <link>https://lwn.net/Articles/1091606/</link>
-            <description><![CDATA[<p><a
-href="https://www.openshot.org/blog/2026/08/30/openshot-40-record-edit-color-like-never-before/">Version
-4.0</a> of the OpenShot video editor has been released.</p>
-
-<blockquote class="bq">
-OpenShot 4.0 has arrived, bringing some of the biggest creative workflow
-upgrades in our history. You can now record your screen, webcam, microphone, and
-system audio directly into a project. You can correct and grade footage with
-color wheels, curves, LUTs, and professional video scopes. You can also isolate
-subjects with locally run machine learning models and create everything from
-animated audio visualizations to cinematic film looks. 
-</blockquote>
-
-<p>See the <a
-href="https://github.com/OpenShot/openshot-qt/releases/tag/v4.0.0">release
-notes</a> for a full list of changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1091606/</guid>
-            <pubDate>Mon, 31 Aug 2026 15:03:32 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
