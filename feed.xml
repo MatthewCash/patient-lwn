@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 08 Sep 2026 09:27:16 +0000</pubDate>
-        <lastBuildDate>Tue, 8 Sep 2026 09:58:00 +0000</lastBuildDate>
+        <pubDate>Tue, 08 Sep 2026 14:11:49 +0000</pubDate>
+        <lastBuildDate>Tue, 8 Sep 2026 14:14:38 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1093144/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat, git-lfs, grafana-pcp, kernel-rt, python3.14-cryptography, redis:6, skopeo, and xmlrpc-c), <b>Debian</b> (jbig2dec and strongswan), <b>Fedora</b> (baresip, chirp, chromium, corosync, emacs, GitPython, libre, libsoup3, nsd, perl-Net-OAuth, and perl-XML-Bare), <b>Mageia</b> (apache-mod_auth_openidc, exiv2, freerdp, python-pyasn1, and tor), <b>Red Hat</b> (buildah, cockpit-image-builder, container-tools:rhel8, containernetworking-plugins, delve, linux-sgx, osbuild-composer, pcs, and runc), <b>SUSE</b> (amazon-cloudwatch-agent, aws-nitro-enclaves-cli, bzip2, c-ares, curl, dracut, emacs, fuse-overlayfs, gegl, GraphicsMagick, httpcomponents-client, java-1_8_0-openjdk, java-25-openjdk, lcms2, libidn, libusb-1_0, LibVNCServer, microcode_ctl, multipath-tools, NetworkManager, nghttp2, openexr, openssl-1_1, openssl-3, perl-URI, php-composer2, postgresql15, postgresql17, postgresql18, python-GitPython, python-tornado6, python313-pip, redis, redis7, ucode-intel, wget, and wireshark), and <b>Ubuntu</b> (gzip and php7.0).]]></description>
+            <guid>https://lwn.net/Articles/1093144/</guid>
+            <pubDate>Tue, 08 Sep 2026 13:11:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Jellyfin 12.0 released</title>
+            <link>https://lwn.net/Articles/1093145/</link>
+            <description><![CDATA[<p><a href="https://jellyfin.org/posts/jellyfin-release-12.0/">Version 12</a> of
+the <a href="https://jellyfin.org/">Jellyfin</a> media-management system has
+been released. Notable changes include <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#tuning-the-new-database">database
+performance improvements</a>, <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#transcoding-and-media-handling">an
+upgrade to FFmpeg&#160;8.1 for media transcoding</a>, as well as <a
+href="https://jellyfin.org/posts/jellyfin-release-12.0/#books-and-comics-properly-this-time">better
+handling of book and comic media</a>. See the release notes for the <a
+href="https://github.com/jellyfin/jellyfin-web/releases/tag/v12.0">web
+client</a> and <a
+href="https://github.com/jellyfin/jellyfin/releases/tag/v12.0">server</a> for a
+full list of changes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1093145/</guid>
+            <pubDate>Tue, 08 Sep 2026 13:20:02 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three stable kernels for Monday</title>
             <link>https://lwn.net/Articles/1092984/</link>
