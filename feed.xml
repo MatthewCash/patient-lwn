@@ -8,11 +8,73 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Sep 2026 15:00:24 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Sep 2026 15:14:39 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Sep 2026 18:31:14 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Sep 2026 18:40:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>LibreOffice Base survey results</title>
+            <link>https://lwn.net/Articles/1093388/</link>
+            <description><![CDATA[<p>Heiko Tietze has <a
+href="https://design.blog.documentfoundation.org/2026/09/03/results-from-the-survey-about-libreoffice-base/">published
+a blog post</a> summarizing the results of a <a
+href="https://design.blog.documentfoundation.org/2026/07/30/please-participate-in-a-survey-about-libreoffice-base/">recent
+survey</a> about the use of LibreOffice's database application, Base. 455 people
+participated in the survey, including more than 330 who use Base on Linux, with
+use cases ranging from maintaining records of personal media such as CDs or DVDs
+to use enterprise-resource planning (ERP) and finance. Of course, users had many
+ideas how to improve the application:</p>
+
+<blockquote class="bq">
+<p>The majority asks for improvements to the user interface with less
+clutter and a more attractive design. The workflow and user experience should
+become either simplified or more powerful, depending on the expertise and the
+scenario. For example, an elaborate search function is something that
+many people expect. [...]</p>
+
+<p>Almost the same number of answers requests bug fixes, improvements to
+stability, and better performance. Issues with queries, forms, and reports were
+mentioned equally often. In this regard, many replies suggest to remove the Java
+dependencies.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1093388/</guid>
+            <pubDate>Wed, 09 Sep 2026 17:07:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>A decade of Rustls</title>
+            <link>https://lwn.net/Articles/1093391/</link>
+            <description><![CDATA[<p>Joe Birr-Pixton has written <a
+href="https://rustls.dev/blog/2026-09-08-a-decade-of-rustls/">a blog post</a>
+reflecting on a decade of the Rustls TLS-library project and looking ahead to
+the upcoming&#160;0.24 release and an eventual&#160;1.0 release.</p>
+
+<blockquote class="bq">
+<p>Rustls began with <a
+href="https://github.com/rustls/rustls/commit/4460bbe15b4df1f6e6efea4f9f06fbd0fb278077">a
+first commit</a> on May&#160;2,&#160;2016. Progress was quick: a month later, on June&#160;5,
+it could interoperate with most sites on the web. The first release,&#160;0.1.0,
+followed on August&#160;27,&#160;2016 – less than four months after the first commit.</p>
+
+<p>[...] From the&#160;0.1.0 release, the project moved through a long series of
+releases over the following eight years, building out functionality, hardening
+and refining the API. That sequence of release lines culminated in&#160;0.23,
+released on February&#160;29,&#160;2024.</p>
+
+<p>The&#160;0.23 release line has been a stable one: in the time since, it has
+seen&#160;43 non-breaking releases. That stability didn't come with
+stagnation. The&#160;0.23 line delivered a wide range of important features,
+including a FIPS-certified cryptography option, certificate compression,
+Encrypted ClientHello, post-quantum cryptography, and performance
+improvements.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1093391/</guid>
+            <pubDate>Wed, 09 Sep 2026 18:11:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1093342/</link>
@@ -308,20 +370,6 @@ systems.]]></description>
             <guid>https://lwn.net/Articles/1089244/</guid>
             <pubDate>Thu, 20 Aug 2026 13:11:39 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Incus 7.4 released</title>
-            <link>https://lwn.net/Articles/1092229/</link>
-            <description><![CDATA[<p><a
-href="https://discuss.linuxcontainers.org/t/incus-7-4-has-been-released/27169">Version
-7.4</a> of the Incus container and virtual-machine management system has been
-released. Notable changes in this release include UEFI Secure Boot key
-management, "near-live" migration of containers between Incus instances, as well
-as <span class="nobreak">burst I/O</span> limits for disk and network
-devices.</p>]]></description>
-            <guid>https://lwn.net/Articles/1092229/</guid>
-            <pubDate>Wed, 02 Sep 2026 15:03:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
