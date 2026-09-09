@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 09 Sep 2026 09:56:10 +0000</pubDate>
-        <lastBuildDate>Wed, 9 Sep 2026 11:23:45 +0000</lastBuildDate>
+        <pubDate>Wed, 09 Sep 2026 15:00:24 +0000</pubDate>
+        <lastBuildDate>Wed, 9 Sep 2026 15:14:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1093342/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat, glib2, microcode_ctl, mrtg, pam, redis, thunderbird, and valkey), <b>Debian</b> (fort-validator, gst-plugins-base1.0, kernel, and slurm-wlm), <b>Fedora</b> (complyctl, libevent, openvpn, and tar), <b>Mageia</b> (dovecot and spice-vdagent), <b>Red Hat</b> (ignition, opentelemetry-collector, and osbuild-composer), <b>SUSE</b> (amazon-ssm-agent, aws-nitro-enclaves-cli, bzip2, cadvisor, chromium, curl, distribution-registry, emacs, freeciv, fuse-overlayfs, gh, google-guest-agent, GraphicsMagick, hauler, insighttoolkit-devel, java-17-openjdk, libidn, libusb-1_0, libvirt, libvncserver, libzypp, zypper, lkl, lxd, multipath-tools, NetworkManager, perl-Net-DNS, perl-URI, python, python-authlib, python-sqlparse, python-tornado, python3, rpcbind, supergfxctl, systemd, terraform-provider-null, ucode-intel, wget, wireshark, and xen), and <b>Ubuntu</b> (curl, ffmpeg, glibc, hsqldb1.8.0, imagemagick, perl, and vim).]]></description>
+            <guid>https://lwn.net/Articles/1093342/</guid>
+            <pubDate>Wed, 09 Sep 2026 13:04:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1093144/</link>
@@ -313,31 +321,6 @@ as <span class="nobreak">burst I/O</span> limits for disk and network
 devices.</p>]]></description>
             <guid>https://lwn.net/Articles/1092229/</guid>
             <pubDate>Wed, 02 Sep 2026 15:03:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1092149/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dbus-broker, freerdp, gegl, gegl04, gimp, gimp:2.8, glib2, grafana, gzip, iperf3, libssh, nodejs22, nodejs24, nodejs:22, nodejs:24, php:7.4, php:8.2, pipewire, ruby:3.3, ruby:4.0, tar, wget, and xmlrpc-c), <b>Debian</b> (cyrus-imapd, keystone, and lemonldap-ng), <b>Fedora</b> (bubblewrap, cockpit, emacs, gdk-pixbuf2, openssl, openvkl, python-linkify-it-py, python-llm, and rkcommon), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi), <b>Oracle</b> (glib2, gzip, mingw-sqlite, nodejs22, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Red Hat</b> (go-toolset:rhel8, golang, and grafana), <b>Slackware</b> (pcre2), <b>SUSE</b> (apache2-mod_auth_openidc, busybox, cups-filters, java-17-openj9, java-1_8_0-openj9, libapr-util1, libgcrypt, python-sqlparse, python3-sqlparse, python313-uv, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, ucode-intel, wicked, and yast2-auth-client), and <b>Ubuntu</b> (libevent, libgcrypt20, ncurses, opencryptoki, pam, pyasn1, rust-sudo-rs, and ubuntu-advantage-tools).]]></description>
-            <guid>https://lwn.net/Articles/1092149/</guid>
-            <pubDate>Wed, 02 Sep 2026 13:16:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Eight stable kernels for Wednesday</title>
-            <link>https://lwn.net/Articles/1092151/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1092153/">7.2.3</a>,
-<a href="https://lwn.net/Articles/1092154/">7.1.13</a>, <a
-href="https://lwn.net/Articles/1092156/">6.18.49</a>, <a
-href="https://lwn.net/Articles/1092157/">6.12.108</a>, <a
-href="https://lwn.net/Articles/1092158/">6.6.156</a>, <a href="https://lwn.net/Articles/1092159/">6.1.187</a>,
-<a href="https://lwn.net/Articles/1092160/">5.15.220</a>, and <a
-href="https://lwn.net/Articles/1092161/">5.10.269</a> stable kernels. Each contains a number of
-important fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1092151/</guid>
-            <pubDate>Wed, 02 Sep 2026 13:28:26 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
