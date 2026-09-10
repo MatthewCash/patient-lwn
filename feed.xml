@@ -8,11 +8,39 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 10 Sep 2026 11:16:55 +0000</pubDate>
-        <lastBuildDate>Thu, 10 Sep 2026 11:41:15 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Sep 2026 15:09:28 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Sep 2026 15:11:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1093566/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, ansible-core, buildah, expat, glib2, gpsd, gpsd-minimal, gzip, kernel, kernel-rt, opentelemetry-collector, osbuild-composer, perl-DBI, python-lxml, python3.12-lxml, qt5-qtbase, thunderbird, valkey, vim, and xz), <b>Debian</b> (pyasn1), <b>Fedora</b> (darktable, freeipa, freerdp2, gdk-pixbuf2, GitPython, libsoup3, openssl, perl-Net-DNS, rust-ppmd-rust, samba, and valkey), <b>Mageia</b> (ceph, firefox, nss, perl-DBI, thunderbird, and wget), <b>Oracle</b> (389-ds-base, buildah, expat, git-lfs, glib2, glibc, gpsd, gpsd-minimal, grafana-pcp, kernel, libssh, nginx, perl-GD, python3.14-cryptography, redis:7, skopeo, thunderbird, valkey, xmlrpc-c, and xz), <b>Slackware</b> (xz), <b>SUSE</b> (bzip2, cpio, curl, dracut, fuse-overlayfs, golang-github-vpenso-prometheus_slurm_exporter, helm, java-1_8_0-ibm, kbfs, kernel, kernel-devel, libopenslide-devel, libsoup, libssh2_org, libusb-1_0, libvirt, libzypp, zypper, mcphost, multipath-tools, NetworkManager, opensc, openssl-3, perl-Net-DNS, python-aiohttp, python-Authlib, python-pip, python-sqlparse, python313-dnspython, python313-idna, rpcbind, sssd, strongswan, systemd, tomcat11, ucode-intel, and wget), and <b>Ubuntu</b> (dotnet8, dotnet10, ffmpeg, flatpak, netty, and perl).]]></description>
+            <guid>https://lwn.net/Articles/1093566/</guid>
+            <pubDate>Thu, 10 Sep 2026 13:14:35 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Julia 1.13 released</title>
+            <link>https://lwn.net/Articles/1093567/</link>
+            <description><![CDATA[<p><a
+href="https://julialang.org/blog/2026/09/julia-1.13-highlights/index.html">Version
+1.13</a> of the <a href="https://julialang.org/">Julia programming language</a>
+has been released. Highlights include faster precompilation of packages,
+improvements to Julia's REPL, and <a
+href="https://github.com/JuliaLang/juliaup#juliaup---julia-version-manager">Juliaup</a>,
+a graphical interface for the Julia version manager. A full list of changes can
+be found in the <a
+href="https://github.com/JuliaLang/julia/blob/release-1.13/NEWS.md">release
+notes</a>. LWN <a href="https://lwn.net/Articles/1044280/">covered Julia
+1.12</a> in November 2025.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1093567/</guid>
+            <pubDate>Thu, 10 Sep 2026 13:23:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for September 3, 2026</title>
             <link>https://lwn.net/Articles/1090824/</link>
@@ -351,34 +379,6 @@ update to GNU&#160;Screen&#160;5.0.1.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1092660/</guid>
             <pubDate>Fri, 04 Sep 2026 13:30:13 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1092419/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (freerdp, go-fdo-server, golang-github-openprinting-ipp-usb, kernel, kernel-rt, nodejs:24, perl-DBI, and php), <b>Debian</b> (firefox-esr, libapache2-mod-auth-openidc, and libass), <b>Fedora</b> (dracut, exiv2, firefox, freerdp, gvfs, mingw-expat, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-openexr, nss, proftpd, and syncthing), <b>Mageia</b> (apr-util, bubblewrap, libalsa2, libarchive, perl-Net-OAuth, perl-Text-CSV_XS, perl-XML-Bare, and perl-YAML-Syck), <b>Oracle</b> (freerdp, gimp, golang, iperf3, nginx:1.24, nodejs:22, nodejs:24, pipewire, wget, xmlrpc-c, and xorg-x11-server-Xwayland), <b>SUSE</b> (apache2-mod_auth_openidc, apptainer, apr-util, bzip2, c-ares, cosign, dhcpcd, dovecot22, emacs, erlang, gegl, gopass, gzip, httpcomponents-client, incus, kernel-devel, libgpg-error, libsoup2, mozillafirefox, mozilla-nss, mozilla-nspr,, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, nodejs20, orthanc, orthanc-authorization, orthanc-postgresql,, postgresql14, python-cryptography, python-msgpack, quagga, snpguest, snphost, texlive, tuxguitar, udisks2, vim, wget, and yast2-users), and <b>Ubuntu</b> (apr-util, biosig, linux, linux-aws, linux-azure, linux-azure-fips, linux-fips,
- linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm,
- linux-oracle, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux-aws-5.15, linux-gcp-5.15, linux-oracle-5.4, sssd, and tika).]]></description>
-            <guid>https://lwn.net/Articles/1092419/</guid>
-            <pubDate>Thu, 03 Sep 2026 13:07:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Audacity 4.0 released</title>
-            <link>https://lwn.net/Articles/1092439/</link>
-            <description><![CDATA[<p><a
-href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0">Version
-4.0</a> of the Audacity audio editor has been released. Notable changes in this
-release include a rewritten interface using Qt, ability to save user-interface
-layouts as "Workspaces", improvements in working with audio clips, and a new
-<tt>.aup4</tt> project format.</p>
-
-<p>The release is not fully feature-compatible with the Audacity&#160;3.x
-series; see the <a
-href="https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0#:~:text=Compatibility%20notes">compatibility
-notes</a> for a list of missing features.</p>]]></description>
-            <guid>https://lwn.net/Articles/1092439/</guid>
-            <pubDate>Thu, 03 Sep 2026 13:58:06 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
