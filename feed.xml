@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 10 Sep 2026 18:02:35 +0000</pubDate>
-        <lastBuildDate>Thu, 10 Sep 2026 18:29:09 +0000</lastBuildDate>
+        <pubDate>Thu, 10 Sep 2026 20:05:51 +0000</pubDate>
+        <lastBuildDate>Thu, 10 Sep 2026 21:07:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Forgejo 16.0.4 and 15.0.8 address critical security vulnerability</title>
+            <link>https://lwn.net/Articles/1093671/</link>
+            <description><![CDATA[<p>The <a href="https://forgejo.org/">Forgejo</a> software-forge project has <a
+href="https://floss.social/@forgejo/117246761534398489">announced</a> the
+release of versions <a
+href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md">16.0.4</a>
+and <a
+href="https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/15.0.8.md">15.0.8</a>,
+which fixes two security vulnerabilities. One is a critical flaw that would
+allow remote-code execution (RCE):</p>
+
+<blockquote class="bq">
+When generating a new repository from a template repository, Forgejo clones the
+template repository, removes the <tt>.git</tt> folder, performs variable template
+expansion on files listed in <tt>.forgejo/template</tt>, and initializes a new git
+repository. During this process, variable template expansion could be misused in
+order to create a new <tt>.git</tt> folder, which git would adopt and incorporate during
+its initialization of a new git repository. A malicious template repository
+could be used to read arbitrary data from the Forgejo host, and to execute
+arbitrary processes on the Forgejo host, as a remote code execution attack. To
+address this issue, after variable expansion is completed, any existing <tt>.git</tt>
+folder is removed from the directory before the git repository is initialized.
+</blockquote>
+
+<p>The project recommends upgrading to the latest version as soon as
+possible.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1093671/</guid>
+            <pubDate>Thu, 10 Sep 2026 20:05:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1093566/</link>
