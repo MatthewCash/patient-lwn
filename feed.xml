@@ -8,11 +8,27 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 11 Sep 2026 14:43:33 +0000</pubDate>
-        <lastBuildDate>Fri, 11 Sep 2026 15:02:14 +0000</lastBuildDate>
+        <pubDate>Fri, 11 Sep 2026 18:26:14 +0000</pubDate>
+        <lastBuildDate>Fri, 11 Sep 2026 18:33:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>EuroPython 2026 videos published</title>
+            <link>https://lwn.net/Articles/1093825/</link>
+            <description><![CDATA[<p>All of the videos from the <a
+href="https://ep2026.europython.eu/">EuroPython&#160;2026</a> conference, held
+in Kraków, Poland from July&#160;13 through July&#160;19, are <a
+href="https://www.youtube.com/watch?v=9ZuZfG8_jH8&list=PLd3Y9yzyC5Uo">now
+online</a> along with a <a
+href="https://blog.europython.eu/europython-2026-videos-published/">recap</a> of
+the event from conference organizers.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1093825/</guid>
+            <pubDate>Fri, 11 Sep 2026 15:08:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1093765/</link>
