@@ -8,11 +8,35 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 14 Sep 2026 16:10:03 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Sep 2026 16:49:06 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Sep 2026 20:08:56 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Sep 2026 20:46:13 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>GNU Core Utilities 9.12 released</title>
+            <link>https://lwn.net/Articles/1094312/</link>
+            <description><![CDATA[<p>Pádraig Brady has <a
+href="https://lists.gnu.org/archive/html/coreutils-announce/2026-09/msg00000.html">announced</a>
+GNU Core Utilities (coreutils) version 9.12. "<q>There have been 288 commits by
+16 people in the 21 weeks since 9.11</q>". New features include an <tt>-A</tt>
+option for <a
+href="https://man7.org/linux/man-pages/man1/uname.1.html"><tt>uname</tt></a>
+which labels all output, as well as adding awareness of the <a
+href="https://docs.kernel.org/filesystems/failfs.html">failfs</a> and <a href="https://lwn.net/Articles/1062163/">nullfs</a> filesystem types to <a
+href="https://www.man7.org/linux/man-pages/man1/stat.1.html"><tt>stat</tt></a>
+and <a
+href="https://www.man7.org/linux/man-pages/man1/tail.1.html"><tt>tail</tt></a>.</p>
+
+<p>There are many bug fixes in this release as well, including one for a bug "<q>present
+in 'the beginning'</q>" that caused some utilities to fail when traversing
+hierarchies if files are being removed in parallel.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1094312/</guid>
+            <pubDate>Mon, 14 Sep 2026 19:53:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>More than 9,000 patches total in the seven stable kernels for Monday</title>
             <link>https://lwn.net/Articles/1093985/</link>
@@ -419,19 +443,6 @@ href="https://github.com/jellyfin/jellyfin/releases/tag/v12.0">server</a> for a
 full list of changes.</p>]]></description>
             <guid>https://lwn.net/Articles/1093145/</guid>
             <pubDate>Tue, 08 Sep 2026 13:20:02 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Three stable kernels for Monday</title>
-            <link>https://lwn.net/Articles/1092984/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1092985/">7.2.4</a>, <a href="https://lwn.net/Articles/1092986/">6.18.50</a>,
-and <a href="https://lwn.net/Articles/1092987/">6.12.109</a> stable kernels. Each contains
-important fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1092984/</guid>
-            <pubDate>Mon, 07 Sep 2026 16:50:43 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
