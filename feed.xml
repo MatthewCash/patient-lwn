@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 13 Sep 2026 23:45:37 +0000</pubDate>
-        <lastBuildDate>Mon, 14 Sep 2026 00:45:51 +0000</lastBuildDate>
+        <pubDate>Mon, 14 Sep 2026 05:00:09 +0000</pubDate>
+        <lastBuildDate>Mon, 14 Sep 2026 05:31:09 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -427,27 +427,6 @@ M68K and IBM Power 10/11 architectures.</p>
             <guid>https://lwn.net/Articles/1092913/</guid>
             <pubDate>Mon, 07 Sep 2026 13:18:09 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.3-rc2</title>
-            <link>https://lwn.net/Articles/1092757/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1092756/">7.3-rc2</a> kernel prepatch is out for
-testing.  Linus said:
-<p>
-<blockquote class="bq">
-	This didn't *feel* like a particularly busy rc2, but it clearly
-	was.  rc2 is usually the quietest time when people take a breather
-	after the merge window and it takes a while to start finding
-	bugs. But not this time - this is a "full fat" rc release. [...]
-<p>
-	Nothing looks particularly odd, even if the rc2 timing is a bit
-	unusual. It might be just random, but we'll obviously all blame it
-	on AI, because whether that's really the cause or not, it's an easy
-	thing to blame ;)
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1092757/</guid>
-            <pubDate>Mon, 07 Sep 2026 00:52:57 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
