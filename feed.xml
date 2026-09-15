@@ -8,11 +8,41 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 15 Sep 2026 12:17:32 +0000</pubDate>
-        <lastBuildDate>Tue, 15 Sep 2026 12:42:46 +0000</lastBuildDate>
+        <pubDate>Tue, 15 Sep 2026 17:18:48 +0000</pubDate>
+        <lastBuildDate>Tue, 15 Sep 2026 17:19:00 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1094469/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (network-manager-l2tp and urwid), <b>Fedora</b> (perl-Dancer2, perl-Data-Entropy, perl-DBI, perl-Protocol-HTTP2, podman-tui, rust-lru, and rust-lru0.16), <b>Mageia</b> (bzip2, cups-filters, libcupsfilters, libssh2, perl-Authen-SASL, perl-HTML-FormFu, tar, unzip, and zip), <b>Red Hat</b> (grafana and image-builder), <b>SUSE</b> (389-ds, acl, attr, apache2-mod_auth_openidc, apr-util, aws-nitro-enclaves-cli, bzip2, c-ares, clamav, cpio, curl, dhcpcd, dovecot23, dovecot24, dracut, emacs, fuse-overlayfs, go1.25-openssl, go1.26-openssl, google-cloud-sap-agent, google-osconfig-agent, govulncheck-vulndb, gstreamer-devtools, gzip, helm, java-17-openjdk, java-21-openjdk, java-25-openjdk, jq, libBasicUsageEnvironment2, libgpg-error, libidn, librest, libusb-1_0, libvirt, LibVNCServer, libzypp, zypper, lkl, mcphost, MozillaFirefox, mozilla-nspr, mozilla-nss, rust-cbindgen, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, MozillaFirefox, MozillaFirefox-branding-SLE, mozilla-nspr, mozilla-nss, rust-cbindgen, msgpack-c, multipath-tools, NetworkManager, openexr, openssl-3, perl-Protocol-HTTP2, perl-URI, php-composer2, postgresql14, postgresql15, postgresql16, postgresql17, postgresql18, python-aiohttp, python-cryptography, python-h2, python-ruff, python-sqlparse, python311, python312, python39.SUSE_SLE-15-SP3_Update, rav1e, rpcbind, sssd, systemd, tomcat, tomcat11, ucode-intel, udisks2, vim, and wicked2nm), and <b>Ubuntu</b> (cgit, dracut, freeciv, konsole, libinput, linux-azure, linux-nvidia-7.0, nginx, vips, and yelp).]]></description>
+            <guid>https://lwn.net/Articles/1094469/</guid>
+            <pubDate>Tue, 15 Sep 2026 13:10:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Vondra: PostgreSQL development activity</title>
+            <link>https://lwn.net/Articles/1094470/</link>
+            <description><![CDATA[<p>PostgreSQL contributor Tomas Vondra has <a
+href="https://vondra.me/posts/postgres-development-activity/">published a blog
+post</a> looking at development activity in the project, with data from the late
+1990s to today.</p>
+
+<blockquote class="bq">
+<p>We're doing ~50 commits per week, give or take. In ~2010 we were doing maybe
+25/week, and the trend seems to be a slow and consistent growth. The monthly
+average makes the trend a bit easier to spot. Which is good, although there's a
+lot of other important details (size of commits, are they new features or fixes,
+...).</p>
+
+<p>It however nicely aligns with the number of active committers, which also
+grew ~2x between 2010 and today. So maybe that's working as expected.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1094470/</guid>
+            <pubDate>Tue, 15 Sep 2026 13:20:30 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>GNU Core Utilities 9.12 released</title>
             <link>https://lwn.net/Articles/1094312/</link>
@@ -415,34 +445,6 @@ improvements.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat, glib2, microcode_ctl, mrtg, pam, redis, thunderbird, and valkey), <b>Debian</b> (fort-validator, gst-plugins-base1.0, kernel, and slurm-wlm), <b>Fedora</b> (complyctl, libevent, openvpn, and tar), <b>Mageia</b> (dovecot and spice-vdagent), <b>Red Hat</b> (ignition, opentelemetry-collector, and osbuild-composer), <b>SUSE</b> (amazon-ssm-agent, aws-nitro-enclaves-cli, bzip2, cadvisor, chromium, curl, distribution-registry, emacs, freeciv, fuse-overlayfs, gh, google-guest-agent, GraphicsMagick, hauler, insighttoolkit-devel, java-17-openjdk, libidn, libusb-1_0, libvirt, libvncserver, libzypp, zypper, lkl, lxd, multipath-tools, NetworkManager, perl-Net-DNS, perl-URI, python, python-authlib, python-sqlparse, python-tornado, python3, rpcbind, supergfxctl, systemd, terraform-provider-null, ucode-intel, wget, wireshark, and xen), and <b>Ubuntu</b> (curl, ffmpeg, glibc, hsqldb1.8.0, imagemagick, perl, and vim).]]></description>
             <guid>https://lwn.net/Articles/1093342/</guid>
             <pubDate>Wed, 09 Sep 2026 13:04:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1093144/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (expat, git-lfs, grafana-pcp, kernel-rt, python3.14-cryptography, redis:6, skopeo, and xmlrpc-c), <b>Debian</b> (jbig2dec and strongswan), <b>Fedora</b> (baresip, chirp, chromium, corosync, emacs, GitPython, libre, libsoup3, nsd, perl-Net-OAuth, and perl-XML-Bare), <b>Mageia</b> (apache-mod_auth_openidc, exiv2, freerdp, python-pyasn1, and tor), <b>Red Hat</b> (buildah, cockpit-image-builder, container-tools:rhel8, containernetworking-plugins, delve, linux-sgx, osbuild-composer, pcs, and runc), <b>SUSE</b> (amazon-cloudwatch-agent, aws-nitro-enclaves-cli, bzip2, c-ares, curl, dracut, emacs, fuse-overlayfs, gegl, GraphicsMagick, httpcomponents-client, java-1_8_0-openjdk, java-25-openjdk, lcms2, libidn, libusb-1_0, LibVNCServer, microcode_ctl, multipath-tools, NetworkManager, nghttp2, openexr, openssl-1_1, openssl-3, perl-URI, php-composer2, postgresql15, postgresql17, postgresql18, python-GitPython, python-tornado6, python313-pip, redis, redis7, ucode-intel, wget, and wireshark), and <b>Ubuntu</b> (gzip and php7.0).]]></description>
-            <guid>https://lwn.net/Articles/1093144/</guid>
-            <pubDate>Tue, 08 Sep 2026 13:11:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Jellyfin 12.0 released</title>
-            <link>https://lwn.net/Articles/1093145/</link>
-            <description><![CDATA[<p><a href="https://jellyfin.org/posts/jellyfin-release-12.0/">Version 12</a> of
-the <a href="https://jellyfin.org/">Jellyfin</a> media-management system has
-been released. Notable changes include <a
-href="https://jellyfin.org/posts/jellyfin-release-12.0/#tuning-the-new-database">database
-performance improvements</a>, <a
-href="https://jellyfin.org/posts/jellyfin-release-12.0/#transcoding-and-media-handling">an
-upgrade to FFmpeg&#160;8.1 for media transcoding</a>, as well as <a
-href="https://jellyfin.org/posts/jellyfin-release-12.0/#books-and-comics-properly-this-time">better
-handling of book and comic media</a>. See the release notes for the <a
-href="https://github.com/jellyfin/jellyfin-web/releases/tag/v12.0">web
-client</a> and <a
-href="https://github.com/jellyfin/jellyfin/releases/tag/v12.0">server</a> for a
-full list of changes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1093145/</guid>
-            <pubDate>Tue, 08 Sep 2026 13:20:02 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
