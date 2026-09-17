@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 17 Sep 2026 00:40:23 +0000</pubDate>
-        <lastBuildDate>Thu, 17 Sep 2026 00:47:31 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Sep 2026 05:30:02 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Sep 2026 05:47:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -395,141 +395,6 @@ notes</a>. LWN <a href="https://lwn.net/Articles/1044280/">covered Julia
             <guid>https://lwn.net/Articles/1093567/</guid>
             <pubDate>Thu, 10 Sep 2026 13:23:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 3, 2026</title>
-            <link>https://lwn.net/Articles/1090824/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1090824/">Front</a>: Python JIT; rnull block driver; steal time; GNOME governance; 7.3 merge window; LUKS.
-            <li> <a href="https://lwn.net/Articles/1090826/">Briefs</a>: Kernel infrastructure; Debian AI; Dolphin 26.08; Firefox 155; Incus 7.4; OpenShot 4.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1090827/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1090824/</guid>
-            <pubDate>Thu, 03 Sep 2026 00:22:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Governing GNOMEs: how the project&apos;s technical decision-making is evolving</title>
-            <link>https://lwn.net/Articles/1091619/</link>
-            <description><![CDATA[<p>Emmanuele Bassi kicked off a project to improve GNOME's technical governance
-with a <a href="https://lwn.net/Articles/1034684/">presentation about his
-ideas</a> (<a href="https://www.youtube.com/watch?v=n3SviPlMyhM">video</a>) at
-<a href="https://events.gnome.org/event/259/">GUADEC&#160;2025</a>. His nudging
-has led the project to, slowly, work on creating more formal structures for
-technical governance. It is adopting a teams structure and looking toward
-creating a steering committee, as well as bootstrapping a Request for Comments
-(RFC) process. If adopted, GNOME would require RFCs for design, user experience,
-architectural, and other changes that carry a major impact on the project.</p>]]></description>
-            <guid>https://lwn.net/Articles/1091619/</guid>
-            <pubDate>Wed, 02 Sep 2026 15:03:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Securely suspending LUKS-encrypted disks</title>
-            <link>https://lwn.net/Articles/1090568/</link>
-            <description><![CDATA[<p>
-When a laptop is asleep, its memory is not unreadable. The right
-tooling can attach to the computer's memory bus and read out its contents, and
-<a href="https://en.wikipedia.org/wiki/Cold_boot_attack">
-cold-boot attacks</a> can theoretically read values from memory for a short time
-after the computer loses power. That
-is really an unavoidable fact about the hardware, but some users would still
-like to ensure that, even if this happens, their long-term encryption keys, such as
-the key for full-disk encryption, remain unreadable. In June&#160;2026, Ingo
-Blechschmidt
-<a href="https://mathstodon.xyz/@iblech/116769502749142438">
-discovered</a> that Linux kernel versions after 6.9 (released in
-May&#160;2024)
-were not erasing disk-encryption keys when a laptop was put to sleep, even
-when configured to do so. He quickly identified a potential fix, which has been
-merged, but it was not a comprehensive solution.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1090568/</guid>
-            <pubDate>Wed, 02 Sep 2026 17:14:15 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] A pause for the Python JIT</title>
-            <link>https://lwn.net/Articles/1090385/</link>
-            <description><![CDATA[<p>In 2024 the <a
-href="https://www.python.org/downloads/release/python-3130/">Python&#160;3.13</a>
-release added an <a
-href="https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler">experimental
-just-in-time (JIT) compiler</a> to optimize the way that CPython executes Python
-code. Since then, work has proceeded on the JIT, albeit perhaps less formally
-than some might like. In June, Python's <a
-href="https://peps.python.org/pep-0013/#the-steering-council">steering
-council</a> (SC) put out an <a
-href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638">announcement</a>
-that no new development on the JIT land (with the exception of bug and security
-fixes) in Python's main branch, until it accepts a <a
-href="https://peps.python.org/pep-0001">Python Enhancement Proposal</a> (PEP)
-that would make the case for the JIT as a supported part of CPython. That has
-led to the creation of <a
-href="https://peps.python.org/pep-0836/">PEP&#160;836</a> ("JIT Go Brrr: The
-Path to a Supported JIT Compiler for CPython"), which is currently under
-discussion. As it stands, it seems likely that work on JIT will continue, but
-when that will happen is less certain.</p>]]></description>
-            <guid>https://lwn.net/Articles/1090385/</guid>
-            <pubDate>Tue, 01 Sep 2026 14:40:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The rest of the 7.3 merge window</title>
-            <link>https://lwn.net/Articles/1089791/</link>
-            <description><![CDATA[By the time Linus Torvalds <a
-href="https://lwn.net/ml/all/CAHk-=wjpN3XkKU+JX6zoh_bzJXr1aPYN4FY14UX0z7yCidosPQ@mail.gmail.com/">released
-7.3-rc1</a> and closed the merge window for this release, 15,267 non-merge
-changesets had been pulled into the mainline repository.  That is the
-second-highest commit count for an -rc1 release in the kernel's history;
-only the 6.7-rc1 release, which included nearly 3,000 commits of bcachefs
-history, had more.  About 13,000 of those commits entered the mainline
-after <a href="https://lwn.net/Articles/1089244/">the first 7.3 merge-window summary</a>
-was written so, needless to say, there are a lot of changes to cover.]]></description>
-            <guid>https://lwn.net/Articles/1089791/</guid>
-            <pubDate>Mon, 31 Aug 2026 14:12:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The &quot;rnull&quot; Rust block driver</title>
-            <link>https://lwn.net/Articles/1090378/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://www.kernel.org/doc/html/latest/block/null_blk.html">null block
-driver</a> (<tt>null_blk</tt>)
-is a small driver that is mostly useful for benchmarking block-layer
-implementations. It accepts all requests and marks them complete as quickly as
-possible, doing as little work as possible. In June&#160;2026, Andreas Hindborg shared
-<a href="https://lwn.net/ml/all/20260609-rnull-v6-19-rc5-send-v2-0-82c7404542e2@kernel.org/">
-a patch set</a> implementing the same functionality in Rust, in order to show
-that a simple block driver is now possible to write using the kernel's
-Rust APIs and to enable comparisons between the C and Rust
-implementations.
-A minimal version of the "rnull" driver is already present in the mainline
-kernel, but Hindborg's patch set brings it up to feature parity with the C
-version.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1090378/</guid>
-            <pubDate>Fri, 28 Aug 2026 18:26:23 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Using steal time to moderate CPU demands</title>
-            <link>https://lwn.net/Articles/1090381/</link>
-            <description><![CDATA[Virtualization can increase CPU utilization by allowing a large number of
-virtual CPUs to share a smaller number of physical CPUs.  The amount of CPU
-time that is actually available does not change, though, so heavy activity
-on too many virtual CPUs can lead to contention and significant performance
-loss.  The <a
-href="https://lwn.net/ml/all/20260825103855.721013-1-sshegde@linux.ibm.com">steal governor
-patch series</a> from Shrikanth Hegde is an attempt to address that problem
-with a mechanism that allows virtual machines to voluntarily reduce the
-number of virtual CPUs they use when contention is high.]]></description>
-            <guid>https://lwn.net/Articles/1090381/</guid>
-            <pubDate>Thu, 27 Aug 2026 14:11:52 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
