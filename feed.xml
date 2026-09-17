@@ -8,11 +8,137 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 16 Sep 2026 22:11:36 +0000</pubDate>
-        <lastBuildDate>Wed, 16 Sep 2026 22:21:46 +0000</lastBuildDate>
+        <pubDate>Thu, 17 Sep 2026 00:40:23 +0000</pubDate>
+        <lastBuildDate>Thu, 17 Sep 2026 00:47:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for September 10, 2026</title>
+            <link>https://lwn.net/Articles/1092273/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1092273/">Front</a>: Rust's never type; Debian and CERN; memory tiering; testing multithreaded Python; fixing TCMalloc; Typst.
+            <li> <a href="https://lwn.net/Articles/1092275/">Briefs</a>: Rustls; Asahi Linux; Buildroot 2026.08; Grml 2026.09; Audacity 4.0; Jellyfin 12.0; LibreOffice Base; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1092276/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1092273/</guid>
+            <pubDate>Thu, 10 Sep 2026 01:43:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Typst makes big strides</title>
+            <link>https://lwn.net/Articles/1092993/</link>
+            <description><![CDATA[<a href="https://typst.app">Typst</a> is a system for typesetting documents
+into various formats: PDF, SVG, PNG, and, in progress, HTML. It is adept at
+handling technical material, and is often considered to be an eventual <a
+href="https://www.latex-project.org/">LaTeX</a> replacement. We last  <a href="https://lwn.net/Articles/1037577/">looked
+in on Typst</a> a year ago, when it had reached version 0.13.  A new version,
+0.15, was <a href="https://typst.app/blog/2026/typst-0.15/">released</a> in
+June with lots of  <a href="https://typst.app/docs/changelog/0.15.0/">new features</a>, including support for variable fonts,
+MathML, multiple bibliographies, and more. Typst is free, Apache-2.0-licensed software, programmed in Rust.]]></description>
+            <guid>https://lwn.net/Articles/1092993/</guid>
+            <pubDate>Wed, 09 Sep 2026 15:37:55 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Stabilizing Rust&apos;s never type</title>
+            <link>https://lwn.net/Articles/1091015/</link>
+            <description><![CDATA[<p>
+A function's return type is supposed to indicate the kind of data that it
+produces. 
+Rust's "never" type, which is
+<a href="https://doc.rust-lang.org/stable/std/primitive.never.html">
+denoted by an exclamation mark</a> ("<tt>!</tt>"), is the type the language uses to mark
+a function that never returns and other places where a value can never occur. For
+a long time, the never type was used internally by the compiler, but was
+considered an unstable feature. On
+<a href="https://github.com/rust-lang/rust/pull/155499">
+August&#160;24</a>, after more than two years of work,
+Rust-compiler-contributor "waffle" finally managed to stabilize the type. It
+took so long, in part, because it involved a small breaking
+change to previous Rust editions, which the compiler maintainers needed to
+ensure did not impact much real code.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1091015/</guid>
+            <pubDate>Tue, 08 Sep 2026 13:34:38 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] CERN&apos;s migration path from CentOS Linux to Debian</title>
+            <link>https://lwn.net/Articles/1092512/</link>
+            <description><![CDATA[<p>The European Laboratory for Particle Physics, usually just called <a
+href="https://home.cern/">CERN</a>, is not only the <a
+href="https://home.cern/science/computing/the-birth-of-the-web/">birthplace of
+the World Wide Web</a>, it is home to the <a
+href="https://en.wikipedia.org/wiki/Large_Hadron_Collider">Large Hadron
+Collider</a> (LHC), the world's largest and highest-energy <a
+href="https://en.wikipedia.org/wiki/Particle_accelerator">particle
+accelerator</a>. As such, its computing environment is both truly unique and of
+great interest to people outside of CERN who hope to find lessons applicable to
+their own computing needs. The upcoming migration of some of CERN's systems from
+CentOS&#160;Linux to Debian, which was the topic of a talk at the recent <a
+href="https://ch2026.mini.debconf.org/">MiniDebConf&#160;Winterthur&#160;2026</a>,
+is of particular interest.</p>]]></description>
+            <guid>https://lwn.net/Articles/1092512/</guid>
+            <pubDate>Mon, 07 Sep 2026 16:57:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Fixing the TCMalloc regression with RSEQ operations</title>
+            <link>https://lwn.net/Articles/1092555/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/697979/">restartable sequences</a> feature is one of
+the stranger corners of the kernel's user-space interface; it provides a
+way for user space to carry out simple lockless operations and be informed
+if it is preempted over the course of an operation (and must, thus,
+restart).  Work merged in the 6.19 release to <a
+href="https://lwn.net/Articles/1033955/">improve the performance of restartable
+sequences</a> broke the <a
+href="https://github.com/google/tcmalloc#tcmalloc">TCMalloc allocator</a>,
+which was relying on an undocumented (and unintended) kernel behavior.
+Now, Olivier Dion is <a
+href="https://lwn.net/ml/all/20260828153349.8061-1-odion@efficios.com">proposing an
+addition</a> to the restartable-sequences API that will bring TCMalloc back
+into the fold; it does not make the restartable-sequences API any less
+strange, though.]]></description>
+            <guid>https://lwn.net/Articles/1092555/</guid>
+            <pubDate>Mon, 07 Sep 2026 14:33:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Deterministic testing for multithreaded Python</title>
+            <link>https://lwn.net/Articles/1090579/</link>
+            <description><![CDATA[Python's support for multithreaded programs has improved considerably over
+the last few years with the advent of the <a
+href="https://lwn.net/Articles/1078367/">"free-threaded" version of the language</a>.  But
+testing multithreaded programs is notoriously difficult, because the
+underlying host system determines the thread-execution ordering, which adds
+an element of non-determinism.  At PyCon US, Larry Hastings gave a talk (<a
+href="https://www.youtube.com/watch?v=S3LUpx0hzkw&t=96s">YouTube video</a>)
+about his <a href="https://pypi.org/project/blanket/">blanket</a> project,
+which is meant to provide mechanisms for deterministic testing of
+multithreaded Python code.]]></description>
+            <guid>https://lwn.net/Articles/1090579/</guid>
+            <pubDate>Fri, 04 Sep 2026 15:29:17 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] Recent work in memory tiering</title>
+            <link>https://lwn.net/Articles/1092001/</link>
+            <description><![CDATA[Tiered-memory systems are built with multiple types of memory, each of
+which has different performance characteristics.  In addition to the usual
+DRAM, a tiered system might also provide faster high-bandwidth memory or
+slower CXL memory.  On these systems, the placement of memory allocations
+has a significant effect on the performance that a workload will obtain.
+While work on tiered-memory improvements has been ongoing for years, it
+feels like the pace has slowed a bit recently.  Even so, there are a few
+efforts underway, but they are facing questions about whether the tiering
+design makes sense.]]></description>
+            <guid>https://lwn.net/Articles/1092001/</guid>
+            <pubDate>Thu, 03 Sep 2026 14:11:26 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Fedora 45 beta drags the Linux console into the 21st century (Register)</title>
             <link>https://lwn.net/Articles/1094762/</link>
