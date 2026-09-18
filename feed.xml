@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Sep 2026 09:13:53 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Sep 2026 09:51:09 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Sep 2026 14:06:32 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Sep 2026 14:07:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1095219/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, coreutils, kernel, libevent, libsoup3, microcode_ctl, perl-Net-DNS, postgresql18, postgresql:16, postgresql:18, tomcat, and unbound), <b>Debian</b> (bind9, chromium, libapache2-mod-auth-openidc, nginx, xz-utils, and zip), <b>Fedora</b> (chromium, freeipmi, GitPython, gnatcoll, nodejs-undici, parted, python-django5, and sblim-cmpi-base), <b>Mageia</b> (imagemagick and python-starlette), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, coreutils, corosync, firewalld, kernel, libevent, libsoup, microcode_ctl, nginx:1.24, perl, perl:5.32, postgresql:16, postgresql:18, redis, rsync, rsyslog, tesseract, and unbound), <b>Red Hat</b> (vim), <b>SUSE</b> (alsa, chirp, chromium, cjose, cups, discount, firefox, gh, glibc, gvfs, jq, kernel, libcjose-devel, libmbedcrypto7, libpcap, mbedtls-2, netcdf, nodejs18, openai-codex, openvpn, pcre2, perl-net-dns, sngrep, tiff, and znc), and <b>Ubuntu</b> (bison, bubblewrap, and gst-plugins-good1.0).]]></description>
+            <guid>https://lwn.net/Articles/1095219/</guid>
+            <pubDate>Fri, 18 Sep 2026 12:52:10 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Systemtap 5.6 released</title>
+            <link>https://lwn.net/Articles/1095220/</link>
+            <description><![CDATA[Version 5.6 of the Systemtap tracing tool has been released.
+<p>
+<blockquote class="bq">
+	BPF LSM hooks and XDP packet-processing probes for the --bpf
+	runtime, BTF-based kernel.tracepoint probes, statement execution
+	tracing, a new @enumname() operator, richer runtime error context,
+	dyninst hardware watchpoints, modern systemd service templates, and
+	broad Linux 7.2 runtime/tapset compatibility work.  Multithreaded
+	speedups throughout.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1095220/</guid>
+            <pubDate>Fri, 18 Sep 2026 12:58:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1094962/</link>
