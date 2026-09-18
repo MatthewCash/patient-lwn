@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 18 Sep 2026 14:06:32 +0000</pubDate>
-        <lastBuildDate>Fri, 18 Sep 2026 14:07:49 +0000</lastBuildDate>
+        <pubDate>Fri, 18 Sep 2026 17:35:22 +0000</pubDate>
+        <lastBuildDate>Fri, 18 Sep 2026 17:42:08 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -356,27 +356,6 @@ the event from conference organizers.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1093825/</guid>
             <pubDate>Fri, 11 Sep 2026 15:08:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1093765/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (apr-util and qt6-qt5compat), <b>Debian</b> (libevent and ruby-rack), <b>Fedora</b> (bluez, corosync, curl, dokuwiki, grpcurl, libevent, and rest), <b>Oracle</b> (gstreamer1-plugins-bad-free, perl-DBI, python-urllib3, qt5-qtbase, qt6-qt5compat, and thunderbird), <b>Red Hat</b> (osbuild-composer), <b>SUSE</b> (azure-storage-azcopy, chromedriver, corosync, ggml-devel, helm, kernel, libmariadb-devel, libzypp, zypper, opensc, php7, tomcat10, and waylyrics), and <b>Ubuntu</b> (apache2, beets, glibc, kissfft, libebml, linux-nvidia-6.17, php8.1, php8.3, php8.5, and python2.7, python3.4, python3.5, python3.6, python3.7, python3.8, python3.9, python3.10, python3.11, python3.12, python3.14).]]></description>
-            <guid>https://lwn.net/Articles/1093765/</guid>
-            <pubDate>Fri, 11 Sep 2026 13:14:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernel updates for Friday</title>
-            <link>https://lwn.net/Articles/1093766/</link>
-            <description><![CDATA[Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1093767/">7.2.5</a> and <a href="https://lwn.net/Articles/1093768/">6.18.51</a>
-stable kernels. There are more than 550 patches in each with fixes throughout
-the tree; users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1093766/</guid>
-            <pubDate>Fri, 11 Sep 2026 13:27:35 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
