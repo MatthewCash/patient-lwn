@@ -8,11 +8,20 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 20 Sep 2026 17:40:01 +0000</pubDate>
-        <lastBuildDate>Sun, 20 Sep 2026 21:00:01 +0000</lastBuildDate>
+        <pubDate>Sun, 20 Sep 2026 22:52:25 +0000</pubDate>
+        <lastBuildDate>Sun, 20 Sep 2026 23:09:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.3-rc4</title>
+            <link>https://lwn.net/Articles/1095491/</link>
+            <description><![CDATA[Linus Torvalds has released the <a href="https://lwn.net/Articles/1095490/">7.3-rc4</a>
+kernel prepatch.  It is, unsurprisingly at this point, large: "<q>We all know the drill by now: 'it's big, yadda yadda'</q>".]]></description>
+            <guid>https://lwn.net/Articles/1095491/</guid>
+            <pubDate>Sun, 20 Sep 2026 22:52:25 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1095219/</link>
@@ -319,28 +328,6 @@ vulnerability in December 2024.</p>]]></description>
             <guid>https://lwn.net/Articles/1094224/</guid>
             <pubDate>Mon, 14 Sep 2026 15:20:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.3-rc3</title>
-            <link>https://lwn.net/Articles/1093962/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1093961/">7.3-rc3</a> kernel prepatch is out for
-testing.  Linus said: "<q>Another fairly large rc release, and again one
-with a bigger filesystem footprint that we usually see.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1093962/</guid>
-            <pubDate>Sun, 13 Sep 2026 22:32:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Reminder: subscription price change coming</title>
-            <link>https://lwn.net/Articles/1093929/</link>
-            <description><![CDATA[Just a reminder that prices for LWN subscriptions will increase after
-September&#160;15.  Until then, the older rate still applies.  See <a
-href="https://lwn.net/Articles/1090585/">this article</a> for details on this change.
-Thanks, yet again, to all of our subscribers for your support — that is
-what keeps LWN going.]]></description>
-            <guid>https://lwn.net/Articles/1093929/</guid>
-            <pubDate>Sun, 13 Sep 2026 22:34:53 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
