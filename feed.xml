@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Sep 2026 17:39:03 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Sep 2026 18:43:19 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Sep 2026 19:55:09 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Sep 2026 22:17:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -290,30 +290,6 @@ grew ~2x between 2010 and today. So maybe that's working as expected.</p>
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1094470/</guid>
             <pubDate>Tue, 15 Sep 2026 13:20:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>GNU Core Utilities 9.12 released</title>
-            <link>https://lwn.net/Articles/1094312/</link>
-            <description><![CDATA[<p>Pádraig Brady has <a
-href="https://lists.gnu.org/archive/html/coreutils-announce/2026-09/msg00000.html">announced</a>
-GNU Core Utilities (coreutils) version 9.12. "<q>There have been 288 commits by
-16 people in the 21 weeks since 9.11</q>". New features include an <tt>-A</tt>
-option for <a
-href="https://man7.org/linux/man-pages/man1/uname.1.html"><tt>uname</tt></a>
-which labels all output, as well as adding awareness of the <a
-href="https://docs.kernel.org/filesystems/failfs.html">failfs</a> and <a href="https://lwn.net/Articles/1062163/">nullfs</a> filesystem types to <a
-href="https://www.man7.org/linux/man-pages/man1/stat.1.html"><tt>stat</tt></a>
-and <a
-href="https://www.man7.org/linux/man-pages/man1/tail.1.html"><tt>tail</tt></a>.</p>
-
-<p>There are many bug fixes in this release as well, including one for a bug "<q>present
-in 'the beginning'</q>" that caused some utilities to fail when traversing
-hierarchies if files are being removed in parallel.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1094312/</guid>
-            <pubDate>Mon, 14 Sep 2026 19:53:59 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
