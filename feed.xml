@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 21 Sep 2026 12:49:27 +0000</pubDate>
-        <lastBuildDate>Mon, 21 Sep 2026 13:10:11 +0000</lastBuildDate>
+        <pubDate>Mon, 21 Sep 2026 17:39:03 +0000</pubDate>
+        <lastBuildDate>Mon, 21 Sep 2026 18:43:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1095702/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, perl-Net-DNS, sudo, tomcat, and tomcat9), <b>Debian</b> (chromium, gimp, libde265, libevent, linux-6.12, ruby-jwt, and unbound), <b>Fedora</b> (asterisk, chromium, doctl, dovecot, evolution, firefox, forgejo, freeciv, freeipa, gegl04, gimp, libheif, nss, opkssh, parted, ruby, stb, thunderbird, unbound, and webkitgtk), <b>Mageia</b> (bind, gawk, gdk-pixbuf2.0, graphicsmagick, gstreamer1.0-plugins-base, libde265, libpcap, libssh, mpg123, ntfs-3g, ntpsec, patch, perl-YAML, postfix, python-configargparse, and python-httplib2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, firefox, image-builder, kernel, libevent, libsoup, libsoup3, perl-Net-DNS, python-lxml, sudo, tomcat, tomcat9, and unbound), <b>Slackware</b> (stunnel), <b>SUSE</b> (alloy, dovecot22, ffmpeg-8, firefox, firefox-esr, freeipmi, glibc, google-guest-agent, google-osconfig-agent, helm, ImageMagick, jq, kbd, kernel-devel, libpcap, libsoup, libzypp, zypper, NetworkManager-applet-l2tp, nginx, openCryptoki, pcre2, python311, python313-aiosmtplib, python313-litellm, rpm, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-aws-fips, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-azure-5.4, linux-gcp-fips, linux-azure-fips, linux-nvidia-tegra, linux-raspi, linux-raspi-realtime, and rclone).]]></description>
+            <guid>https://lwn.net/Articles/1095702/</guid>
+            <pubDate>Mon, 21 Sep 2026 14:13:08 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Three new stable kernels</title>
+            <link>https://lwn.net/Articles/1095703/</link>
+            <description><![CDATA[Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1095704/">7.2.7</a>,
+<a href="https://lwn.net/Articles/1095705/">6.18.53</a>, and <a
+href="https://lwn.net/Articles/1095706/">6.12.111</a> stable kernels. As is usual these days, they are
+quite large; also no surprise is that they provide many important fixes
+throughout the kernel tree.  Users of those kernels are advised to update.]]></description>
+            <guid>https://lwn.net/Articles/1095703/</guid>
+            <pubDate>Mon, 21 Sep 2026 14:43:18 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Igalia celebrates &quot;Twenty-Five Years Upstream&quot;</title>
+            <link>https://lwn.net/Articles/1095723/</link>
+            <description><![CDATA[The open-source consulting firm <a
+href="https://www.igalia.com/">Igalia</a> has put out <a
+href="https://www.igalia.com/2026/09/21/Twenty-Five-Years-Upstream.html">an
+announcement celebrating 25 years</a> of working on upstream FOSS projects
+for its clients.  The list of projects the company has worked on is rather
+eye-opening: WebKit, mobile-browser rendering (on Maemo, Moblin, MeeGo, and
+Tizen), the Linux kernel (CPU and GPU scheduling), 3D graphics drivers, the
+Orca screen reader, 
+GStreamer, and lots more.  Beyond that, the company, which is a
+worker-owned cooperative, does its work in ways that benefit the community
+as well as its clients:
+
+<blockquote class="bq">
+None of this is charity. Igalia is a consultancy, and most of the work above was paid for by someone with a product to ship: a device maker who needs the web to run well on their hardware, a platform that needs a feature its users keep asking for, a company whose roadmap depends on something deep in the stack working better than it does today. What they get from us is not a patch to carry forever. We do the work upstream, in the project itself, so it arrives in the next release and keeps working long after the contract ends. Our customers ship products built on code that nobody has to maintain alone, and everyone else gets the same code. That has been the arrangement from the start.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1095723/</guid>
+            <pubDate>Mon, 21 Sep 2026 16:35:32 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.3-rc4</title>
             <link>https://lwn.net/Articles/1095491/</link>
@@ -272,61 +314,6 @@ hierarchies if files are being removed in parallel.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1094312/</guid>
             <pubDate>Mon, 14 Sep 2026 19:53:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>More than 9,000 patches total in the seven stable kernels for Monday</title>
-            <link>https://lwn.net/Articles/1093985/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1093986/">7.2.6</a>,
-<a href="https://lwn.net/Articles/1093987/">6.18.52</a>, <a
-href="https://lwn.net/Articles/1093988/">6.12.110</a>, <a
-href="https://lwn.net/Articles/1093989/">6.6.157</a>, <a href="https://lwn.net/Articles/1093990/">6.1.188</a>,
-<a href="https://lwn.net/Articles/1093991/">5.15.221</a>, <a
-href="https://lwn.net/Articles/1093992/">5.10.270</a> stable kernels.</p>
-
-<p><a
-href="https://social.kernel.org/notice/BAKK4RpFGJmm95B3o0">According to
-Kroah-Hartman</a>, this batch may set a record for the number of patches with
-more than 9,000 in total between them. There are more than <a
-href="https://lwn.net/ml/linux-kernel/20260912065648.999753832@linuxfoundation.org/">1,800
-patches</a> in 7.2.6 alone. Users of these kernels are, of course, advised to
-upgrade.</p>]]></description>
-            <guid>https://lwn.net/Articles/1093985/</guid>
-            <pubDate>Mon, 14 Sep 2026 13:00:07 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1094211/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds-base, apr-util, coreutils, freerdp, git-lfs, glib2, gstreamer1-plugins-base, kernel, libkcapi, nginx, nodejs:22, nodejs:24, osbuild-composer, perl-YAML-Syck, postgresql16-postgis, ruby, ruby4.0, ruby:3.3, and vim), <b>Debian</b> (jbig2dec, kamailio, nginx, spip, and xorg-server), <b>Fedora</b> (baresip, bind, bluez, bubblewrap, chirp, chromium, cockpit, composer, corosync, darktable, dokuwiki, elixir, exiv2, expat, firefox, freerdp, freerdp2, gdk-pixbuf2, gegl04, golang-x-perf, grpcurl, kernel, kernel-headers, libevent, libmongocrypt, libpcap, libre, libsoup3, memcached, mingw-expat, mingw-openexr, mongo-c-driver, mrtg, nagios-plugins, nsd, nss, openssl, openvpn, PackageKit, pdns-recursor, perl-Net-OAuth, perl-XML-Bare, php-pecl-mongodb2, python-asteval, python-pip, rclone, rest, rust-hickory-net, rust-hickory-proto, rust-hickory-resolver, rust-ppmd-rust, rust-webbrowser, srt, syncthing, tar, tkimg, and valkey), <b>Gentoo</b> (Chromium, Google Chrome, Microsoft Edge, Opera, Vivaldi and Ruby), <b>Mageia</b> (bind, ffmpeg, glibc, java-17-openjdk, java-21-openjdk, librabbitmq, perl-Catalyst-Plugin-Static-Simple, perl-Imager, tor, and xz), <b>Oracle</b> (389-ds:1.4, ansible-core, apr-util, coreutils, freerdp, git-lfs, glib2, gstreamer1-plugins-base, gzip, httpd:2.4, image-builder, java-21-openjdk, kernel, mrtg, nginx, osbuild-composer, perl-DBI, postgresql16-postgis, python-lxml, python3.12-lxml, redis:6, and vim), <b>SUSE</b> (389-ds, ansible-core, ansible-creator, azure-storage-azcopy, cargo-audit, chromedriver, chromium, clamav, containerized-data-importer1.65, containerized-data-importer1.66, curl, dracut, ffmpeg-4, google-guest-agent, google-osconfig-agent, helm, java-1_8_0-ibm, jupyter-nbconvert, kernel, libpng16, libusb-1_0, libvirt, multipath-tools, NetworkManager, opensc, openssl-3, perl-Authen-SASL, perl-HTML-FormHandler, perl-Mojolicious, perl-Protocol-HTTP2, python-jwcrypto, python-sqlparse, python-tornado6, python313-geopy, python313-modelscope, python313-modelscope-hub, python313-pypdf, python315, rpcbind, sshamble, strongswan, tomcat, ucode-intel, and wget), and <b>Ubuntu</b> (civetweb, ffmpeg, and urwid).]]></description>
-            <guid>https://lwn.net/Articles/1094211/</guid>
-            <pubDate>Mon, 14 Sep 2026 13:18:14 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Emacs arbitrary code execution flaw</title>
-            <link>https://lwn.net/Articles/1094224/</link>
-            <description><![CDATA[<p>Sean Whitton has <a
-href="https://lwn.net/ml/all/87tsnskt3e.fsf%40athena.silentflame.com/">announced</a>
-that the original fix for an arbitrary code execution flaw in Emacs (<a
-href="https://nvd.nist.gov/vuln/detail/cve-2024-53920">CVE-2024-53920</a>) was
-incomplete. Bas Alberts discovered that viewing or editing untrusted files in
-modes other than Emacs's Lisp mode can also result in arbitrary code
-execution.</p>
-
-<blockquote class="bq">
-<p>This problem affects all Emacs versions affected by CVE-2024-53920.
-This means Emacs 24 and newer, and possibly also older versions.</p>
-
-<p>A minimal fix, attached, is queued up for release with Emacs 31.2.
-We (the Emacs upstream maintainers) don't expect to backport the fix to
-older Emacs releases ourselves.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1002046/">covered</a> the original
-vulnerability in December 2024.</p>]]></description>
-            <guid>https://lwn.net/Articles/1094224/</guid>
-            <pubDate>Mon, 14 Sep 2026 15:20:00 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
