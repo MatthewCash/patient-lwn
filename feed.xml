@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Sep 2026 15:27:36 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Sep 2026 15:45:18 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Sep 2026 19:04:50 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Sep 2026 19:15:53 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -269,36 +269,6 @@ forward</a> to the upcoming Fedora&#160;45 release.
             <guid>https://lwn.net/Articles/1094720/</guid>
             <pubDate>Wed, 16 Sep 2026 13:40:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1094469/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (network-manager-l2tp and urwid), <b>Fedora</b> (perl-Dancer2, perl-Data-Entropy, perl-DBI, perl-Protocol-HTTP2, podman-tui, rust-lru, and rust-lru0.16), <b>Mageia</b> (bzip2, cups-filters, libcupsfilters, libssh2, perl-Authen-SASL, perl-HTML-FormFu, tar, unzip, and zip), <b>Red Hat</b> (grafana and image-builder), <b>SUSE</b> (389-ds, acl, attr, apache2-mod_auth_openidc, apr-util, aws-nitro-enclaves-cli, bzip2, c-ares, clamav, cpio, curl, dhcpcd, dovecot23, dovecot24, dracut, emacs, fuse-overlayfs, go1.25-openssl, go1.26-openssl, google-cloud-sap-agent, google-osconfig-agent, govulncheck-vulndb, gstreamer-devtools, gzip, helm, java-17-openjdk, java-21-openjdk, java-25-openjdk, jq, libBasicUsageEnvironment2, libgpg-error, libidn, librest, libusb-1_0, libvirt, LibVNCServer, libzypp, zypper, lkl, mcphost, MozillaFirefox, mozilla-nspr, mozilla-nss, rust-cbindgen, MozillaFirefox, mozilla-nss, mozilla-nspr, rust-cbindgen, MozillaFirefox, MozillaFirefox-branding-SLE, mozilla-nspr, mozilla-nss, rust-cbindgen, msgpack-c, multipath-tools, NetworkManager, openexr, openssl-3, perl-Protocol-HTTP2, perl-URI, php-composer2, postgresql14, postgresql15, postgresql16, postgresql17, postgresql18, python-aiohttp, python-cryptography, python-h2, python-ruff, python-sqlparse, python311, python312, python39.SUSE_SLE-15-SP3_Update, rav1e, rpcbind, sssd, systemd, tomcat, tomcat11, ucode-intel, udisks2, vim, and wicked2nm), and <b>Ubuntu</b> (cgit, dracut, freeciv, konsole, libinput, linux-azure, linux-nvidia-7.0, nginx, vips, and yelp).]]></description>
-            <guid>https://lwn.net/Articles/1094469/</guid>
-            <pubDate>Tue, 15 Sep 2026 13:10:46 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Vondra: PostgreSQL development activity</title>
-            <link>https://lwn.net/Articles/1094470/</link>
-            <description><![CDATA[<p>PostgreSQL contributor Tomas Vondra has <a
-href="https://vondra.me/posts/postgres-development-activity/">published a blog
-post</a> looking at development activity in the project, with data from the late
-1990s to today.</p>
-
-<blockquote class="bq">
-<p>We're doing ~50 commits per week, give or take. In ~2010 we were doing maybe
-25/week, and the trend seems to be a slow and consistent growth. The monthly
-average makes the trend a bit easier to spot. Which is good, although there's a
-lot of other important details (size of commits, are they new features or fixes,
-...).</p>
-
-<p>It however nicely aligns with the number of active committers, which also
-grew ~2x between 2010 and today. So maybe that's working as expected.</p>
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1094470/</guid>
-            <pubDate>Tue, 15 Sep 2026 13:20:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
