@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 22 Sep 2026 11:31:55 +0000</pubDate>
-        <lastBuildDate>Tue, 22 Sep 2026 11:44:14 +0000</lastBuildDate>
+        <pubDate>Tue, 22 Sep 2026 15:27:36 +0000</pubDate>
+        <lastBuildDate>Tue, 22 Sep 2026 15:45:18 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1096022/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (apr-util, corosync, curl, freerdp, gstreamer1-plugins-base, libarchive, libtiff, libxml2, openexr, openssh, rsyslog, sudo, tomcat, unbound, webkit2gtk3, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (chromium), <b>Fedora</b> (alsa-plugins, amarok, aqualung, atomes, attract-mode, audacious-plugins, audacity, baresip, blender, calibre, cantata, cef, chromaprint, chromium, digikam, doctl, dragon, ffmpeg, ffmpegthumbnailer, ffmpegthumbs, ffms2, fooyin, glaxnimate, goldendict-ng, gpac, gstreamer1-plugin-libav, guacamole-server, guvcview, haruna, hedgewars, icecat, janus, k3b, kdenlive, kf5-kfilemetadata, kf6-kfilemetadata, kpipewire, lazygal, lego, libcamera-apps, libheif, libopenshot, libopenshot-audio, libvncserver, localsearch, mat2, minidlna, mivisionx, mixxx, mlt, monado, mpd, mpv, mpv-mpris, neatvnc, notcurses, nv-codec-headers13.0, obs-studio, obs-studio-plugin-droidcam, obs-studio-plugin-pwvideo, obs-studio-plugin-vaapi, obs-studio-plugin-vkcapture, obs-studio-plugin-webkitgtk, olive, openal-soft, OpenBoard, opencv, openmw, opustags, os-autoinst, patool, Pencil2D, perl-HTML-FormHandler, pianobar, prometheus-podman-exporter, python-audioread, python-torchaudio, python-torchvision, qmmp, qmmp-plugin-pack, qmplay2, qt5-qtwebengine, qt6-qtmultimedia, qt6-qtwebengine, qtox, retroarch, rocdecode, rocdecode7.2, rsgain, siril, squeezelite, swayimg, tigervnc, timg, unpaper, vlc, vtk, waypipe, wf-recorder, wivrn, wxsvg, xine-lib, xmms2, xpra, xscreensaver, yle-dl, znc, and znc-clientbuffer), <b>Mageia</b> (nmap, pcre2, and vim), <b>Oracle</b> (curl, openssl-fips-provider, sudo, tomcat, webkit2gtk3, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (util-linux), <b>SUSE</b> (cadvisor, chromium, coredns, fake-gcs-server, freeciv, gh, glibc, google-guest-agent, google-osconfig-agent, hugo, kbd, kbfs, keybase-client, libheif, libpcap, mbedtls, pcre2, python-asteval, python-jwcrypto, python311, python313-ansi2html, shadowsocks-rust, sofia-sip, and trivy), and <b>Ubuntu</b> (clamav, expat, ghostscript, glib2.0, gst-plugins-base1.0, gst-plugins-good1.0, libsoup2.4, libsoup3, libssh2, libxml2, linux-azure-6.8, linux-azure-fde, linux-azure-fde, linux-azure-fde-7.0, linux-azure-fde, linux-intel-iotg, linux-kvm, linux-oracle, linux-xilinx-zynqmp, linux-gcp-6.8, linux-ibm, linux-xilinx, linux-ibm, linux-nvidia-bos, linux-raspi, memcached, openjdk-17, openjdk-21, openjdk-25, openjdk-8, openjdk-lts, rsyslog, and strongswan).]]></description>
+            <guid>https://lwn.net/Articles/1096022/</guid>
+            <pubDate>Tue, 22 Sep 2026 15:10:11 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1095702/</link>
