@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Sep 2026 14:51:38 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Sep 2026 15:05:32 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Sep 2026 19:03:57 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Sep 2026 19:04:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -344,14 +344,6 @@ forward</a> to the upcoming Fedora&#160;45 release.
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1094762/</guid>
             <pubDate>Wed, 16 Sep 2026 16:24:46 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1094720/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, libkcapi, nginx, nginx:1.24, openssl, osbuild-composer, perl, perl:5.32, python-tornado, rsync, and rust), <b>Debian</b> (cjose and nginx), <b>Fedora</b> (environment-modules, erlang, GitPython, knot, perl-Authen-SASL, python-configargparse, ruby, rubygems, and sblim-sfcb), <b>Oracle</b> (firefox, git-lfs, gstreamer1-plugins-base, kernel, libkcapi, nginx, nginx:1.26, openssl, osbuild-composer, perl, perl-YAML-Syck, postgresql18, python-tornado, and rust), <b>Red Hat</b> (fence-agents, git-lfs, microcode_ctl, osbuild-composer, podman, python-pyasn1, and resource-agents), <b>SUSE</b> (389-ds, ant, bson-devel, chirp-20260911, docker, gimp, google-cloud-sap-agent, hauler, kernel, kimi-code, libpcap, python-GitPython, python310, syncthing, yast2-samba-client, and zstd-jni), and <b>Ubuntu</b> (aom, imagemagick, kitty, openssh, phpseclib, policykit-1, python-sql, python-webob, shibboleth-sp, simplesamlphp, snapcast, srt, and suricata-update).]]></description>
-            <guid>https://lwn.net/Articles/1094720/</guid>
-            <pubDate>Wed, 16 Sep 2026 13:40:53 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
