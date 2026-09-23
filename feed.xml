@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Sep 2026 19:03:57 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Sep 2026 19:04:35 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Sep 2026 21:25:53 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Sep 2026 22:18:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -324,26 +324,6 @@ efforts underway, but they are facing questions about whether the tiering
 design makes sense.]]></description>
             <guid>https://lwn.net/Articles/1092001/</guid>
             <pubDate>Thu, 03 Sep 2026 14:11:26 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Fedora 45 beta drags the Linux console into the 21st century (Register)</title>
-            <link>https://lwn.net/Articles/1094762/</link>
-            <description><![CDATA[The Register <a
-href="https://www.theregister.com/software/2026/09/16/fedora-45-beta-drags-the-linux-console-into-the-21st-century/5296873">looks
-forward</a> to the upcoming Fedora&#160;45 release.
-<p>
-<blockquote class="bq">
-	The biggest surprise is that Linux's legacy in-kernel console – the
-	text-mode interface normally hidden beneath the GUI – has been
-	replaced with a software-controlled alternative.
-	The replacement is <a
-	href="https://github.com/kmscon/kmscon#kmscon">kmscon</a>, a
-	userspace terminal emulator that has been in development for more
-	than a decade.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1094762/</guid>
-            <pubDate>Wed, 16 Sep 2026 16:24:46 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
