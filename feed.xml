@@ -8,11 +8,95 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 23 Sep 2026 09:16:44 +0000</pubDate>
-        <lastBuildDate>Wed, 23 Sep 2026 10:15:27 +0000</lastBuildDate>
+        <pubDate>Wed, 23 Sep 2026 14:51:38 +0000</pubDate>
+        <lastBuildDate>Wed, 23 Sep 2026 15:05:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1096191/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (coreutils, postgresql18-postgis, and postgresql:16), <b>Debian</b> (memcached), <b>Fedora</b> (chromium, cyrus-imapd, dotnet10.0, dotnet8.0, dotnet9.0, freeipmi, kernel, libxmp, perl-Net-DNS, and postgresql16-anonymizer), <b>Mageia</b> (cpio, diffutils, perl-Dancer2, and rest), <b>Oracle</b> (389-ds-base and firefox), <b>Red Hat</b> (opentelemetry-collector and osbuild-composer), <b>SUSE</b> (amazon-cloudwatch-agent, amazon-ssm-agent, apko, apptainer, bazel-rules-python-source, bind, cups, firefox, freeipmi, gdb, google-osconfig-agent, kernel, kyverno, libipa_hbac-devel, libsoup, libsoup-3_0-0, libtpms, openssl-certs, perl-Authen-SASL, php-composer2, python313-PyMuPDF, thunderbird, and util-linux), and <b>Ubuntu</b> (gzip, linux-aws, linux-aws-5.15, linux-aws-fips, linux-nvidia-tegra-igx, linux-azure, linux-oracle, linux-azure-7.0, linux-azure-fde-6.8, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-oracle, linux-oracle-6.8, linux-raspi, openssh, and sudo).]]></description>
+            <guid>https://lwn.net/Articles/1096191/</guid>
+            <pubDate>Wed, 23 Sep 2026 13:20:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Critical WordPress RCE vulnerability announced</title>
+            <link>https://lwn.net/Articles/1096195/</link>
+            <description><![CDATA[<p>A <a
+href="https://github.com/WordPress/wordpress-develop/security/advisories/GHSA-7hp8-65ch-5whp">critical
+vulnerability</a> has been discovered in <a
+href="https://wordpress.org/">WordPress</a>'s <a
+href="https://developer.wordpress.org/reference/functions/get_page_template/"><tt>get_page_template()</tt></a>
+function for page-template resolution that could allow remote-code execution
+(RCE) by an unauthenticated attacker, in some limited circumstances. The project
+has provided an update for the most recent branch of WordPress, as well as
+backports of the fix for branches back to <a
+href="https://wordpress.org/download/releases/#branch-47">4.7</a>. See the
+vulnerability report for the conditions required for an RCE attack to be successful.</p>
+
+<p>The vulnerability <a
+href="https://forums.classicpress.net/t/critical-unauthenticated-path-traversal-vulnerability-patched-in-wordpress-core/6775">also
+affects</a> the <a href="https://www.classicpress.net/">ClassicPress</a> fork of
+WordPress, though a security update has not been provided for that project
+yet. LWN <a href="https://lwn.net/Articles/992219/">covered</a> ClassicPress in
+2024. Users of either content-management system should update soon.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1096195/</guid>
+            <pubDate>Wed, 23 Sep 2026 13:55:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Critical security vulnerabilities in the Radicle network protocol</title>
+            <link>https://lwn.net/Articles/1096200/</link>
+            <description><![CDATA[<p>The <a href="https://radicle.dev/">Radicle</a> peer-to-peer
+code-collaboration project has <a
+href="https://radicle.dev/2026/09/23/disclosure-of-vulnerability-in-network-protocol">disclosed
+two critical vulnerabilities</a> in the network protocol used by Radicle
+nodes. The first flaw is that the network protocol used by Radicle "<q>does not
+give the confidentiality it was expected to give</q>", which allows anyone who
+can observe the network between two nodes to read the data exchanged. The second
+is that peer authentication is broken and allows impersonation, so an attacker
+can spoof their Node ID and read private repositories they should not be able to
+read.</p>
+
+<blockquote class="bq">
+<p>In practice, the two flaws are most useful when they can be exploited
+together: an attacker on the path sees the Node IDs at both ends of a
+connection, and both are normally on the allow-list. That attacker can read
+whatever is exchanged while they watch, and can then use a Node ID they saw to
+fetch the whole repository on demand. The realistic threat is anyone on the path
+between your node and node it syncs with, and no setting or allow-list protects
+against them.</p>
+
+<p>We are publishing this before the security update is available. You can act
+on it today, and no fix we release later can undo an exposure that has already
+happened.</p>
+</blockquote>
+
+<p>See the post for workarounds that can be used today; a major update that will
+be backward-incompatible is underway.</p>]]></description>
+            <guid>https://lwn.net/Articles/1096200/</guid>
+            <pubDate>Wed, 23 Sep 2026 14:20:46 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Systemd v262 released</title>
+            <link>https://lwn.net/Articles/1096204/</link>
+            <description><![CDATA[<p>Systemd v262 has been released. Some of the notable new features include the
+ability to build systemd as a single statically linked binary for small
+containers, support for the kernel coredump socket protocol introduced with
+Linux&#160;6.17, addition of OpenSSL&#160;4 support, and many other changes. See
+the <a href="https://github.com/systemd/systemd/releases/tag/v262">release
+notes</a> for a full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1096204/</guid>
+            <pubDate>Wed, 23 Sep 2026 14:51:37 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1096022/</link>
