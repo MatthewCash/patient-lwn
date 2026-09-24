@@ -8,11 +8,76 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Sep 2026 15:11:14 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Sep 2026 15:24:22 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Sep 2026 19:22:41 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Sep 2026 19:25:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Research into file-notification attacks on Linux</title>
+            <link>https://lwn.net/Articles/1096431/</link>
+            <description><![CDATA[<p>Sudheendra Raghav Neela, a member of a group of researchers from <a
+href="https://www.tugraz.at/en/home">Graz University of Technology</a>, has <a
+href="https://infosec.exchange/@vmcall/117327103049106849">announced</a> the
+release of research into file-notification attacks that would allow spying on
+user activity on Android, Linux, macOS, and Windows. The group has published <a
+href="https://inoti.fyi/pubs/file-notification-attacks.pdf">a paper</a> with
+details on the research as well as a <a href="https://inoti.fyi/">web site</a>
+with demonstrations of the vulnerabilities.</p>
+
+<p>On Linux, an attacker can use <a
+href="https://linux.die.net/man/1/inotifywatch"><tt>inotifywatch</tt></a> to
+monitor a directory to conduct an inter-keystroke timing attack&mdash;even if
+they do not have read access to the files within a directory. The group also
+discovered a method to conduct a <a
+href="https://www.deepwatch.com/glossary/ui-redress-attack/">UI-redress
+attack</a> (or "<a
+href="https://en.wikipedia.org/wiki/Clickjacking">clickjacking</a>" attack) on
+KDE&#160;5 and KDE&#160;6 by monitoring <tt>/usr/bin/pkexec</tt> to detect when <a
+href="https://en.wikipedia.org/wiki/Polkit">Polkit</a> spawns an authentication
+prompt. An attacker could draw a fake password window on top of the real window
+to collect a user's credentials.</p>
+
+<p>Both of these flaws are still present today,
+though the Linux kernel did partially mitigate the issue with <a
+href="https://lore.kernel.org/linux-cve-announce/2026011303-CVE-2025-68788-05bd@gregkh/">a
+fix</a> that was included in the 5.10.248, 5.15.198, 6.1.160, 6.6.120, 6.12.65,
+and 6.18.3 kernels shipped in January. See the web site for more information and
+a mitigation to prevent password-prompt windows from losing focus.</p>]]></description>
+            <guid>https://lwn.net/Articles/1096431/</guid>
+            <pubDate>Thu, 24 Sep 2026 17:40:36 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>F-Droid 2.0: A new chapter for Android freedom</title>
+            <link>https://lwn.net/Articles/1096444/</link>
+            <description><![CDATA[<p>The <a href="https://f-droid.org/en/">F-Droid project</a> has <a
+href="https://f-droid.org/2026/09/24/f-droid-2.0-a-new-chapter-for-android-freedom.html">announced</a>
+the release of F-Droid&#160;2.0, which is a complete redesign of the official
+app. Notable changes in the release include making it easier to discover and
+install applications, more useful app categories, improved search, and
+much more.</p>
+
+<blockquote class="bq">
+<p>For more than a decade, F-Droid has helped people discover and install free
+and open source Android apps. F-Droid 2.0 builds on that foundation with a
+modern interface, better app discovery, improved search, and a simpler
+experience that works well, whether you're new to F-Droid or have been using it
+for years.</p>
+
+<p>This isn't just a visual refresh. The user experience was redesigned to
+integrate smoothly with current Android patterns, like Material Design, while
+keeping familiar F-Droid interactions in place. Key components were reworked and
+rewritten using Kotlin Compose, the standard toolkit these days, creating a
+foundation that will help us deliver improvements more quickly in the years
+ahead.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1096444/</guid>
+            <pubDate>Thu, 24 Sep 2026 18:01:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1096407/</link>
@@ -304,25 +369,6 @@ kernel prepatch.  It is, unsurprisingly at this point, large: "<q>We all know th
 </blockquote>]]></description>
             <guid>https://lwn.net/Articles/1095220/</guid>
             <pubDate>Fri, 18 Sep 2026 12:58:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1094962/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, corosync, firewalld, kernel, kernel-rt, libevent, libsoup, microcode_ctl, nginx:1.26, python-lxml, rsyslog, tesseract, and unbound), <b>Debian</b> (firefox-esr, mkvtoolnix, thunderbird, and tor), <b>Fedora</b> (open62541, php-pecl-mongodb2, python-django6, python-jwcrypto, and roundcubemail), <b>Mageia</b> (aom, cockpit, libgd, packagekit, and python-h2), <b>Red Hat</b> (corosync, delve, git-lfs, grafana-pcp, gstreamer1-plugins-base, libvirt, opentelemetry-collector, and rhc-worker-playbook), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (acl, attr, alloy, ansible-core, clamav, containerized-data-importer, corosync, cups, distribution, glibc, google-cloud-sap-agent, govulncheck-vulndb, gvfs, helm, jq, kbd, kubernetes1.34-apiserver, kubernetes1.35-apiserver, lcms2, libcupsfilters, liblzmasdk26, libzypp, zypper, mistral-vibe, opensc, openvpn, pcre2, python-jwcrypto, tomcat, tomcat10, and tomcat11), and <b>Ubuntu</b> (guix, libheif, perl, python-cryptography, sqlite3, and valkey).]]></description>
-            <guid>https://lwn.net/Articles/1094962/</guid>
-            <pubDate>Thu, 17 Sep 2026 12:48:01 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>GNOME 51 released</title>
-            <link>https://lwn.net/Articles/1094963/</link>
-            <description><![CDATA[<a href="https://release.gnome.org/51/">Version 51</a> of the GNOME desktop
-environment has been released.  The list of changes includes a number of
-performance improvements, offline data and better transit information in
-the Maps application, a new interface for the file previewer, and more.]]></description>
-            <guid>https://lwn.net/Articles/1094963/</guid>
-            <pubDate>Thu, 17 Sep 2026 13:08:12 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
