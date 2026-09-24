@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 24 Sep 2026 10:09:01 +0000</pubDate>
-        <lastBuildDate>Thu, 24 Sep 2026 10:26:49 +0000</lastBuildDate>
+        <pubDate>Thu, 24 Sep 2026 15:11:14 +0000</pubDate>
+        <lastBuildDate>Thu, 24 Sep 2026 15:24:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1096407/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, containernetworking-plugins, firefox, kernel, kernel-rt, openexr, perl-DBI, podman, postgresql, postgresql16, postgresql:15, runc, skopeo, and tar), <b>Debian</b> (libdatetime-timezone-perl, tzdata, xdg-dbus-proxy, and znc), <b>Fedora</b> (chromium, evolution, evolution-data-server, evolution-ews, kernel, libheif, mingw-pcre2, nginx-mod-modsecurity, unbound, and webkitgtk), <b>Mageia</b> (borgbackup, coreutils, firefox, nss, kbd, libnfs, libwebsockets, perl-URI, pipewire, and xdg-dbus-proxy), <b>Oracle</b> (apr-util, containernetworking-plugins, coreutils, curl, firefox, freerdp, gstreamer1-plugins-base, host-metering, libarchive, libtiff, libxml2, openexr, openssh, perl-DBI, podman, postgresql16, postgresql18-postgis, postgresql:15, rsyslog, runc, tar, and unbound), <b>SUSE</b> (apptainer, gimp, librepods, libX11-6, perl-Authen-SASL, podofo, python-WebOb, and python313-graphifyy), and <b>Ubuntu</b> (imagemagick, libgit2, moodle, network-manager, Open-iSNS, python-urllib3, sqlparse, and xdg-desktop-portal).]]></description>
+            <guid>https://lwn.net/Articles/1096407/</guid>
+            <pubDate>Thu, 24 Sep 2026 13:05:18 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>The Kernel Report 2026 edition</title>
+            <link>https://lwn.net/Articles/1096411/</link>
+            <description><![CDATA[<p>After a two-year hiatus, LWN's Jonathan Corbet presented an updated edition
+of his <a
+href="https://kernel-recipes.org/en/2026/schedule/the-kernel-report/">Kernel
+Report</a> at the <a href="https://kernel-recipes.org/en/2026/">Kernel
+Recipes</a> conference. Corbet looked at what is happening in the kernel
+community, how it's dealing with a period of accelerated change, and where
+things might go in the future. <a
+href="https://www.youtube.com/live/3KAcS05H31Y?t=1242s">Video of the talk</a> is
+available on YouTube for those who'd like to tune in.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1096411/</guid>
+            <pubDate>Thu, 24 Sep 2026 13:57:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for September 17, 2026</title>
             <link>https://lwn.net/Articles/1093434/</link>
