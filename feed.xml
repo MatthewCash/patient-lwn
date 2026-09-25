@@ -8,11 +8,44 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 25 Sep 2026 11:04:46 +0000</pubDate>
-        <lastBuildDate>Fri, 25 Sep 2026 11:13:42 +0000</lastBuildDate>
+        <pubDate>Fri, 25 Sep 2026 15:13:25 +0000</pubDate>
+        <lastBuildDate>Fri, 25 Sep 2026 15:51:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1096637/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, perl-DBI:1.641, and unbound), <b>Debian</b> (jq, libreoffice, openssl, and redis), <b>Fedora</b> (389-ds-base, bcm283x-firmware, cockpit, flatpak-builder, mingw-gdk-pixbuf, openssl3, pcs, rust-cryptoki, squid, uboot-tools, and webkitgtk), <b>Mageia</b> (fuse3, perl-Net-DNS, python-gitpython, python-webob, thunderbird, thunderbird-l10n, and unbound), <b>Oracle</b> (postgresql:12, postgresql:15, postgresql:16, and skopeo), <b>Slackware</b> (php), <b>SUSE</b> (alloy, amazon-ssm-agent, ant, apptainer, chromium, corosync, cyrus-imapd, distribution, exiv2, ffmpeg-7, freeipmi, gdb, gnome-remote-desktop, google-osconfig-agent, govulncheck-vulndb, gvfs, hplip, ImageMagick, imagemagick, java-11-openjdk, jsoup, re2j, kernel, keybase-client, libsoup, libx11, libxrender, mcphost, memcached, opensc, perl-DBI, python-gitpython, python-weasyprint, rabbitmq-server, ruby3.4, util-linux, and zstd-jni), and <b>Ubuntu</b> (curl, expat, gdal, libass, libpcap, linux, linux-aws, linux-aws-7.0, linux-hwe-7.0, linux-ibm, linux-oracle, linux-raspi, linux-realtime, linux, linux-azure, linux-azure-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-realtime, linux-realtime-6.8, linux, linux-hwe, linux-kvm, linux-aws, linux-aws-fips, linux-azure, linux-azure-fde, linux-azure-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-intel-iot-realtime, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle, linux-realtime, linux-xilinx-zynqmp, linux-aws, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-aws-fips, linux-ibm-5.15, linux-intel-iotg-5.15, octavia, and swift).]]></description>
+            <guid>https://lwn.net/Articles/1096637/</guid>
+            <pubDate>Fri, 25 Sep 2026 13:17:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>A summary from the 2026 Git Contributors&apos; Summit</title>
+            <link>https://lwn.net/Articles/1096819/</link>
+            <description><![CDATA[Johannes Schindelin has posted <a
+href="https://lwn.net/ml/all/5cc325c6-579e-4fed-7071-a3ff98d51ccb@gmx.de">a detailed
+summary</a> of the discussions held at the 2026 Git Contributors' Summit.
+Topics covered include Git&#160;3.0, security process, documentation, the
+pluggable object database, use of LLMs, and more.]]></description>
+            <guid>https://lwn.net/Articles/1096819/</guid>
+            <pubDate>Fri, 25 Sep 2026 15:12:05 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Two stable kernels for Friday</title>
+            <link>https://lwn.net/Articles/1096818/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1096820/">7.2.8</a> and <a href="https://lwn.net/Articles/1096821/">6.18.54</a>
+stable kernels. Each contains a number of important fixes throughout the tree;
+users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1096818/</guid>
+            <pubDate>Fri, 25 Sep 2026 15:13:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Research into file-notification attacks on Linux</title>
             <link>https://lwn.net/Articles/1096431/</link>
@@ -345,31 +378,6 @@ kernel prepatch.  It is, unsurprisingly at this point, large: "<q>We all know th
             <guid>https://lwn.net/Articles/1095491/</guid>
             <pubDate>Sun, 20 Sep 2026 22:52:25 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1095219/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, coreutils, kernel, libevent, libsoup3, microcode_ctl, perl-Net-DNS, postgresql18, postgresql:16, postgresql:18, tomcat, and unbound), <b>Debian</b> (bind9, chromium, libapache2-mod-auth-openidc, nginx, xz-utils, and zip), <b>Fedora</b> (chromium, freeipmi, GitPython, gnatcoll, nodejs-undici, parted, python-django5, and sblim-cmpi-base), <b>Mageia</b> (imagemagick and python-starlette), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, coreutils, corosync, firewalld, kernel, libevent, libsoup, microcode_ctl, nginx:1.24, perl, perl:5.32, postgresql:16, postgresql:18, redis, rsync, rsyslog, tesseract, and unbound), <b>Red Hat</b> (vim), <b>SUSE</b> (alsa, chirp, chromium, cjose, cups, discount, firefox, gh, glibc, gvfs, jq, kernel, libcjose-devel, libmbedcrypto7, libpcap, mbedtls-2, netcdf, nodejs18, openai-codex, openvpn, pcre2, perl-net-dns, sngrep, tiff, and znc), and <b>Ubuntu</b> (bison, bubblewrap, and gst-plugins-good1.0).]]></description>
-            <guid>https://lwn.net/Articles/1095219/</guid>
-            <pubDate>Fri, 18 Sep 2026 12:52:10 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Systemtap 5.6 released</title>
-            <link>https://lwn.net/Articles/1095220/</link>
-            <description><![CDATA[Version 5.6 of the Systemtap tracing tool has been released.
-<p>
-<blockquote class="bq">
-	BPF LSM hooks and XDP packet-processing probes for the --bpf
-	runtime, BTF-based kernel.tracepoint probes, statement execution
-	tracing, a new @enumname() operator, richer runtime error context,
-	dyninst hardware watchpoints, modern systemd service templates, and
-	broad Linux 7.2 runtime/tapset compatibility work.  Multithreaded
-	speedups throughout.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1095220/</guid>
-            <pubDate>Fri, 18 Sep 2026 12:58:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
