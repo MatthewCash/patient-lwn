@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 28 Sep 2026 14:36:27 +0000</pubDate>
-        <lastBuildDate>Mon, 28 Sep 2026 14:58:34 +0000</lastBuildDate>
+        <pubDate>Mon, 28 Sep 2026 21:07:20 +0000</pubDate>
+        <lastBuildDate>Mon, 28 Sep 2026 21:09:51 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1097191/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, ipa, kernel, libxml2, perl-DBI, python-cryptography, thunderbird, and unbound), <b>Debian</b> (chromium, evolution-data-server, exim4, ghostscript, incus, lemonldap-ng, libheif, nodejs, php8.4, ruby-oj, swift, and vlc), <b>Fedora</b> (chromium, cinnamon, cinnamon-desktop, cinnamon-session, cinnamon-settings-daemon, ckermit, dnf5, forgejo, goose, gssntlmssp, libheif, libpcap, librsvg2, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-python3, mongo-c-driver, muffin, nemo, nemo-extensions, nextcloud, pgadmin4, postgresql16-postgis, postgresql17-postgis, postgresql18-postgis, rust-librsvg, rust-xml5ever, sipp, suricata, tesseract, and xreader), <b>Mageia</b> (erlang, gpsd, libreswan, python3 &amp; python-pip, and udisks2), <b>Oracle</b> (abrt, buildah, cockpit-image-builder, corosync, ipa, kernel, libxml2, openexr, perl-DBI, perl-DBI:1.641, postgresql, thunderbird, unbound, and yelp), <b>SUSE</b> (389-ds, ansible-lint, cups, firefox, flatpak-builder, forgejo-longterm, gdb, gimp, gitoxide, glib2, gnome-shell, google-guest-agent, google-osconfig-agent, haveged, helm, ImageMagick, kbd, libsoup, libtpms, obs-service-cargo, openai-codex, opensuse-signkey-cert, osmo-iuh, perl-mojolicious, poppler, python-WebOb, python-WebOb-doc, python313-vllm, python314, sdbootutil, suseconnect-ng, and swtpm), and <b>Ubuntu</b> (exim4, freerdp3, libvirt, libvirt-hwe, libwebsockets, lxc, pyjwt, and requests).]]></description>
+            <guid>https://lwn.net/Articles/1097191/</guid>
+            <pubDate>Mon, 28 Sep 2026 15:08:05 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>Git v2.56.0 released</title>
+            <link>https://lwn.net/Articles/1097213/</link>
+            <description><![CDATA[Version 2.56 of the <a href="https://git-scm.com/">Git</a> distributed
+version-control system has been released.  It has 748 non-merge commits
+since <a href="https://lwn.net/Articles/1080188/">Git 2.55 was released</a> back in
+June; those commits came from 104 developers, 39 of whom are first-time
+contributors.  New features include a safer workflow for conflict
+resolution, smaller path-walk repacks, a new <tt>git history drop</tt>
+sub-command, and much more.  LWN <a href="https://lwn.net/Articles/1094575/">looked at Git
+2.56</a> recently and the GitHub blog has a <a
+href="https://github.blog/open-source/git/highlights-from-git-2-56/">lengthy
+look at 2.56</a> as well.]]></description>
+            <guid>https://lwn.net/Articles/1097213/</guid>
+            <pubDate>Mon, 28 Sep 2026 17:33:58 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.3-rc5</title>
             <link>https://lwn.net/Articles/1096959/</link>
@@ -350,48 +375,6 @@ notes</a> for a full list of changes.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (apr-util, corosync, curl, freerdp, gstreamer1-plugins-base, libarchive, libtiff, libxml2, openexr, openssh, rsyslog, sudo, tomcat, unbound, webkit2gtk3, yggdrasil, and yggdrasil-worker-package-manager), <b>Debian</b> (chromium), <b>Fedora</b> (alsa-plugins, amarok, aqualung, atomes, attract-mode, audacious-plugins, audacity, baresip, blender, calibre, cantata, cef, chromaprint, chromium, digikam, doctl, dragon, ffmpeg, ffmpegthumbnailer, ffmpegthumbs, ffms2, fooyin, glaxnimate, goldendict-ng, gpac, gstreamer1-plugin-libav, guacamole-server, guvcview, haruna, hedgewars, icecat, janus, k3b, kdenlive, kf5-kfilemetadata, kf6-kfilemetadata, kpipewire, lazygal, lego, libcamera-apps, libheif, libopenshot, libopenshot-audio, libvncserver, localsearch, mat2, minidlna, mivisionx, mixxx, mlt, monado, mpd, mpv, mpv-mpris, neatvnc, notcurses, nv-codec-headers13.0, obs-studio, obs-studio-plugin-droidcam, obs-studio-plugin-pwvideo, obs-studio-plugin-vaapi, obs-studio-plugin-vkcapture, obs-studio-plugin-webkitgtk, olive, openal-soft, OpenBoard, opencv, openmw, opustags, os-autoinst, patool, Pencil2D, perl-HTML-FormHandler, pianobar, prometheus-podman-exporter, python-audioread, python-torchaudio, python-torchvision, qmmp, qmmp-plugin-pack, qmplay2, qt5-qtwebengine, qt6-qtmultimedia, qt6-qtwebengine, qtox, retroarch, rocdecode, rocdecode7.2, rsgain, siril, squeezelite, swayimg, tigervnc, timg, unpaper, vlc, vtk, waypipe, wf-recorder, wivrn, wxsvg, xine-lib, xmms2, xpra, xscreensaver, yle-dl, znc, and znc-clientbuffer), <b>Mageia</b> (nmap, pcre2, and vim), <b>Oracle</b> (curl, openssl-fips-provider, sudo, tomcat, webkit2gtk3, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (util-linux), <b>SUSE</b> (cadvisor, chromium, coredns, fake-gcs-server, freeciv, gh, glibc, google-guest-agent, google-osconfig-agent, hugo, kbd, kbfs, keybase-client, libheif, libpcap, mbedtls, pcre2, python-asteval, python-jwcrypto, python311, python313-ansi2html, shadowsocks-rust, sofia-sip, and trivy), and <b>Ubuntu</b> (clamav, expat, ghostscript, glib2.0, gst-plugins-base1.0, gst-plugins-good1.0, libsoup2.4, libsoup3, libssh2, libxml2, linux-azure-6.8, linux-azure-fde, linux-azure-fde, linux-azure-fde-7.0, linux-azure-fde, linux-intel-iotg, linux-kvm, linux-oracle, linux-xilinx-zynqmp, linux-gcp-6.8, linux-ibm, linux-xilinx, linux-ibm, linux-nvidia-bos, linux-raspi, memcached, openjdk-17, openjdk-21, openjdk-25, openjdk-8, openjdk-lts, rsyslog, and strongswan).]]></description>
             <guid>https://lwn.net/Articles/1096022/</guid>
             <pubDate>Tue, 22 Sep 2026 15:10:11 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1095702/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, perl-Net-DNS, sudo, tomcat, and tomcat9), <b>Debian</b> (chromium, gimp, libde265, libevent, linux-6.12, ruby-jwt, and unbound), <b>Fedora</b> (asterisk, chromium, doctl, dovecot, evolution, firefox, forgejo, freeciv, freeipa, gegl04, gimp, libheif, nss, opkssh, parted, ruby, stb, thunderbird, unbound, and webkitgtk), <b>Mageia</b> (bind, gawk, gdk-pixbuf2.0, graphicsmagick, gstreamer1.0-plugins-base, libde265, libpcap, libssh, mpg123, ntfs-3g, ntpsec, patch, perl-YAML, postfix, python-configargparse, and python-httplib2), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, firefox, image-builder, kernel, libevent, libsoup, libsoup3, perl-Net-DNS, python-lxml, sudo, tomcat, tomcat9, and unbound), <b>Slackware</b> (stunnel), <b>SUSE</b> (alloy, dovecot22, ffmpeg-8, firefox, firefox-esr, freeipmi, glibc, google-guest-agent, google-osconfig-agent, helm, ImageMagick, jq, kbd, kernel-devel, libpcap, libsoup, libzypp, zypper, NetworkManager-applet-l2tp, nginx, openCryptoki, pcre2, python311, python313-aiosmtplib, python313-litellm, rpm, and thunderbird), and <b>Ubuntu</b> (linux-aws, linux-aws-fips, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-azure-5.4, linux-gcp-fips, linux-azure-fips, linux-nvidia-tegra, linux-raspi, linux-raspi-realtime, and rclone).]]></description>
-            <guid>https://lwn.net/Articles/1095702/</guid>
-            <pubDate>Mon, 21 Sep 2026 14:13:08 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Three new stable kernels</title>
-            <link>https://lwn.net/Articles/1095703/</link>
-            <description><![CDATA[Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1095704/">7.2.7</a>,
-<a href="https://lwn.net/Articles/1095705/">6.18.53</a>, and <a
-href="https://lwn.net/Articles/1095706/">6.12.111</a> stable kernels. As is usual these days, they are
-quite large; also no surprise is that they provide many important fixes
-throughout the kernel tree.  Users of those kernels are advised to update.]]></description>
-            <guid>https://lwn.net/Articles/1095703/</guid>
-            <pubDate>Mon, 21 Sep 2026 14:43:18 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Igalia celebrates &quot;Twenty-Five Years Upstream&quot;</title>
-            <link>https://lwn.net/Articles/1095723/</link>
-            <description><![CDATA[The open-source consulting firm <a
-href="https://www.igalia.com/">Igalia</a> has put out <a
-href="https://www.igalia.com/2026/09/21/Twenty-Five-Years-Upstream.html">an
-announcement celebrating 25 years</a> of working on upstream FOSS projects
-for its clients.  The list of projects the company has worked on is rather
-eye-opening: WebKit, mobile-browser rendering (on Maemo, Moblin, MeeGo, and
-Tizen), the Linux kernel (CPU and GPU scheduling), 3D graphics drivers, the
-Orca screen reader, 
-GStreamer, and lots more.  Beyond that, the company, which is a
-worker-owned cooperative, does its work in ways that benefit the community
-as well as its clients:
-
-<blockquote class="bq">
-None of this is charity. Igalia is a consultancy, and most of the work above was paid for by someone with a product to ship: a device maker who needs the web to run well on their hardware, a platform that needs a feature its users keep asking for, a company whose roadmap depends on something deep in the stack working better than it does today. What they get from us is not a patch to carry forever. We do the work upstream, in the project itself, so it arrives in the next release and keeps working long after the contract ends. Our customers ship products built on code that nobody has to maintain alone, and everyone else gets the same code. That has been the arrangement from the start.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1095723/</guid>
-            <pubDate>Mon, 21 Sep 2026 16:35:32 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
