@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 30 Sep 2026 07:46:22 +0000</pubDate>
-        <lastBuildDate>Wed, 30 Sep 2026 08:02:10 +0000</lastBuildDate>
+        <pubDate>Wed, 30 Sep 2026 14:42:14 +0000</pubDate>
+        <lastBuildDate>Wed, 30 Sep 2026 14:56:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1097753/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, container-tools:rhel8, go-toolset:rhel8, grafana, httpd:2.4, nodejs:22, postgresql:12, and postgresql:15), <b>Debian</b> (libwebsockets, openssl, and pcre2), <b>Fedora</b> (adwaita-icon-theme, cinnamon, dconf, epiphany, flatpak-builder, gcr, gdm, gjs, glib-networking, glib2, gnome-backgrounds, gnome-calendar, gnome-characters, gnome-chess, gnome-clocks, gnome-connections, gnome-console, gnome-contacts, gnome-control-center, gnome-desktop3, gnome-initial-setup, gnome-keyring, gnome-kiosk, gnome-maps, gnome-remote-desktop, gnome-settings-daemon, gnome-shell, gnome-shell-extensions, gnome-system-monitor, gnome-text-editor, gnome-user-docs, gnote, gnucash, gnucash-docs, gsettings-desktop-schemas, gtk4, hplip, libadwaita, libdex, libsecret, libshumate, libxmp, mingw-llvm, mutter, nautilus, parted, perl-Imager, quadrapassel, rootlesskit, rygel, shotwell, sngrep, sushi, sysprof, tecla, thunderbird, xdg-desktop-portal-gnome, and xdotool), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, delve, git-lfs, grafana, grafana-pcp, host-metering, ignition, image-builder, osbuild-composer, podman, rhc, rhc-worker-playbook, runc, skopeo, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (mozilla-firefox), <b>SUSE</b> (389-ds, amazon-cloudwatch-agent, cjose, corosync, cosign, cups, distribution-registry, expat, firefox, flatpak, glib2, google-osconfig-agent, goose, helm, ImageMagick, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformat-xml, jackson-dataformats-binary, jackson-modules- base, jackson-core, jackson-databind, jackson-dataformat-csv, jsoup, re2j, kbd, kernel, kubectl-cnpg, libpcap, libsoup, libtpms, libX11, libXrender, netty, netty-tcnative, pcre2, perl-Authen-SASL, perl-DBI, python-pymongo, python310, python311, swtpm, terraform-provider-susepubliccloud, and util-linux), and <b>Ubuntu</b> (atril, booth, c-ares, catdoc, dracut, emacs, erlang, freeipmi, libdbi-perl, libheif, linux, linux-aws, linux-azure, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-xilinx-zynqmp, linux, linux-nvidia, linux-aws-fips, linux-aws-fips, linux-azure-fips, linux-fips, linux-bluefield, linux-fips, linux-nvidia-tegra-5.15, openssl, openssl, openssl1.0, pdfminer, php-phpseclib, and plasma-workspace).]]></description>
+            <guid>https://lwn.net/Articles/1097753/</guid>
+            <pubDate>Wed, 30 Sep 2026 13:20:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>The Linux Foundation Technical Advisory Board 2026 election approaches</title>
+            <link>https://lwn.net/Articles/1097758/</link>
+            <description><![CDATA[The election for members of the Linux Foundation Technical Advisory Board
+will be held electronically after the close of the upcoming <a
+href="https://lpc.events/">Linux Plumbers Conference</a>.  The <a
+href="https://lwn.net/ml/all/a7f69e8d-1140-44b5-baf8-bacb8c30c01a@kernel.org">call for
+candidates</a> is is open, with a nomination deadline of October&#160;7.
+There are five seats to fill this time, including the one vacated by the
+unfortunate passing of Dan Williams.
+<p>
+Serving on the TAB is a good way to help the kernel-development community.
+Please see <a href="https://lwn.net/Articles/1049035/">this article from last year</a> for
+an overview of what the TAB does and why membership is rewarding, then
+consider putting in your nomination.]]></description>
+            <guid>https://lwn.net/Articles/1097758/</guid>
+            <pubDate>Wed, 30 Sep 2026 13:55:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Reports from the 2026 Python Language Summit</title>
+            <link>https://lwn.net/Articles/1097761/</link>
+            <description><![CDATA[The 2026 Python Language Summit was held on July 14 in Kraków, Poland;
+there is now <a
+href="https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html">a
+series of reports</a> available on the topics that were discussed there.
+They include the memory buffer protocol, garbage collection, free-threaded
+Python, and "Spicycrab".]]></description>
+            <guid>https://lwn.net/Articles/1097761/</guid>
+            <pubDate>Wed, 30 Sep 2026 14:32:36 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Firefox 157.0 released</title>
             <link>https://lwn.net/Articles/1097495/</link>
