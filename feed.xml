@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 02 Oct 2026 01:28:38 +0000</pubDate>
-        <lastBuildDate>Fri, 2 Oct 2026 06:57:06 +0000</lastBuildDate>
+        <pubDate>Fri, 02 Oct 2026 13:21:28 +0000</pubDate>
+        <lastBuildDate>Fri, 2 Oct 2026 13:37:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1098312/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dogtag-pki, expat, freerdp, gawk, gdb, ghostscript, gvfs, kernel, kernel-rt, libpcap, openssh, pki-core, rsync, thunderbird, and webkit2gtk3), <b>Debian</b> (chromium, firefox-esr, libio-compress-perl, libpng1.6, nodejs, open-iscsi, redis, thunderbird, and webkit2gtk), <b>Fedora</b> (sos), <b>Mageia</b> (libgcrypt, python-tornado, python-urwid, python-wcwidth, and wireshark), <b>Oracle</b> (corosync, dogtag-pki, expat, firefox, freerdp, gawk, glib2, ipa, kernel, libXfont2, nodejs:24, openssh, osbuild-composer, perl-DBI, pki-core, postgresql:12, python-cryptography, resteasy, ruby, ruby4.0, ruby:3.3, ruby:4.0, thunderbird, and xmlrpc-c), <b>Red Hat</b> (skopeo), <b>SUSE</b> (chromium, emacs, glib2, glibc, gnome-shell, helm3, ImageMagick, imagemagick, kernel-devel, libtcnative-1-0, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10,, libtcnative-2-0, libX11, libX11-6, libXi-devel, libXpm-devel, libXtst-devel, mistral-vibe, openssl-3, perl-DBI, perl-Protocol-HTTP2, php-composer2, php8, python, rpcbind, sccache, and valkey), and <b>Ubuntu</b> (kf6-kcoreaddons, libxpm, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-fips, linux-gke, linux-raspi-5.4, and openssl).]]></description>
+            <guid>https://lwn.net/Articles/1098312/</guid>
+            <pubDate>Fri, 02 Oct 2026 13:21:27 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1098067/</link>
