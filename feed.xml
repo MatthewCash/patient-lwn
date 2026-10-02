@@ -8,11 +8,29 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 02 Oct 2026 13:21:28 +0000</pubDate>
-        <lastBuildDate>Fri, 2 Oct 2026 13:37:30 +0000</lastBuildDate>
+        <pubDate>Fri, 02 Oct 2026 18:39:59 +0000</pubDate>
+        <lastBuildDate>Fri, 2 Oct 2026 18:43:27 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Linux Test Project suite stable release for September 2026</title>
+            <link>https://lwn.net/Articles/1098313/</link>
+            <description><![CDATA[<p>The <a
+href="https://github.com/linux-test-project/ltp#linux-test-project">Linux Test
+Project</a> has <a
+href="https://lwn.net/ml/all/ar4TexudzfhsKBwT%40yuki.lan/">announced</a> its
+latest stable release for September&#160;2026. There have been&#160;382 patches
+from&#160;41 authors since the <a
+href="https://lwn.net/ml/all/ahmZ_HcEEuyPzPFq%40yuki.lan/">May&#160;2026
+release</a>. See the announcement for a list of new tests, changes, and
+more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1098313/</guid>
+            <pubDate>Fri, 02 Oct 2026 13:40:28 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1098312/</link>
@@ -267,39 +285,6 @@ NEWS file</a> for the complete list.]]></description>
             <guid>https://lwn.net/Articles/1096897/</guid>
             <pubDate>Sat, 26 Sep 2026 15:03:20 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1096637/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (kernel, kernel-rt, perl-DBI:1.641, and unbound), <b>Debian</b> (jq, libreoffice, openssl, and redis), <b>Fedora</b> (389-ds-base, bcm283x-firmware, cockpit, flatpak-builder, mingw-gdk-pixbuf, openssl3, pcs, rust-cryptoki, squid, uboot-tools, and webkitgtk), <b>Mageia</b> (fuse3, perl-Net-DNS, python-gitpython, python-webob, thunderbird, thunderbird-l10n, and unbound), <b>Oracle</b> (postgresql:12, postgresql:15, postgresql:16, and skopeo), <b>Slackware</b> (php), <b>SUSE</b> (alloy, amazon-ssm-agent, ant, apptainer, chromium, corosync, cyrus-imapd, distribution, exiv2, ffmpeg-7, freeipmi, gdb, gnome-remote-desktop, google-osconfig-agent, govulncheck-vulndb, gvfs, hplip, ImageMagick, imagemagick, java-11-openjdk, jsoup, re2j, kernel, keybase-client, libsoup, libx11, libxrender, mcphost, memcached, opensc, perl-DBI, python-gitpython, python-weasyprint, rabbitmq-server, ruby3.4, util-linux, and zstd-jni), and <b>Ubuntu</b> (curl, expat, gdal, libass, libpcap, linux, linux-aws, linux-aws-7.0, linux-hwe-7.0, linux-ibm, linux-oracle, linux-raspi, linux-realtime, linux, linux-azure, linux-azure-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-oracle, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-realtime, linux-realtime-6.8, linux, linux-hwe, linux-kvm, linux-aws, linux-aws-fips, linux-azure, linux-azure-fde, linux-azure-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-intel-iot-realtime, linux-intel-iotg, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle, linux-realtime, linux-xilinx-zynqmp, linux-aws, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-aws-fips, linux-ibm-5.15, linux-intel-iotg-5.15, octavia, and swift).]]></description>
-            <guid>https://lwn.net/Articles/1096637/</guid>
-            <pubDate>Fri, 25 Sep 2026 13:17:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A summary from the 2026 Git Contributors&apos; Summit</title>
-            <link>https://lwn.net/Articles/1096819/</link>
-            <description><![CDATA[Johannes Schindelin has posted <a
-href="https://lwn.net/ml/all/5cc325c6-579e-4fed-7071-a3ff98d51ccb@gmx.de">a detailed
-summary</a> of the discussions held at the 2026 Git Contributors' Summit.
-Topics covered include Git&#160;3.0, security process, documentation, the
-pluggable object database, use of LLMs, and more.]]></description>
-            <guid>https://lwn.net/Articles/1096819/</guid>
-            <pubDate>Fri, 25 Sep 2026 15:12:05 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernels for Friday</title>
-            <link>https://lwn.net/Articles/1096818/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1096820/">7.2.8</a> and <a href="https://lwn.net/Articles/1096821/">6.18.54</a>
-stable kernels. Each contains a number of important fixes throughout the tree;
-users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1096818/</guid>
-            <pubDate>Fri, 25 Sep 2026 15:13:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
