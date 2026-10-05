@@ -8,11 +8,30 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Oct 2026 03:09:04 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Oct 2026 04:12:31 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Oct 2026 11:19:35 +0000</pubDate>
+        <lastBuildDate>Mon, 5 Oct 2026 11:31:26 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.3-rc6</title>
+            <link>https://lwn.net/Articles/1098476/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1098475/">7.3-rc6</a> kernel prepatch is out for
+testing.  Linus said:
+<p>
+<blockquote class="bq">
+	Next week might look a bit different: we've got the annual
+	maintainer summit and the Linux plumbers conference going on , so
+	I'll be on the road, as will a number of other maintainers. That
+	may or may not end up changing the stats for -rc7. But it's
+	unlikely to affect the release schedule, although the fact that I
+	have my yearly family vacation the week after that might make the
+	next merge window a bit wonky.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1098476/</guid>
+            <pubDate>Mon, 05 Oct 2026 05:47:41 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Seven stable kernels for Saturday</title>
             <link>https://lwn.net/Articles/1098404/</link>
