@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 05 Oct 2026 11:19:35 +0000</pubDate>
-        <lastBuildDate>Mon, 5 Oct 2026 11:31:26 +0000</lastBuildDate>
+        <pubDate>Mon, 05 Oct 2026 23:53:17 +0000</pubDate>
+        <lastBuildDate>Tue, 6 Oct 2026 00:59:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1098599/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ghostscript, libvirt, and osbuild-composer), <b>Debian</b> (freecad, linux-6.12, node-lodash, pcre2, perl, php8.2, ruby-rack-session, wireshark, and xen), <b>Fedora</b> (assimp, budgie-control-center, budgie-desktop, budgie-desktop-services, budgie-desktop-view, chromium, cri-o1.36, curl, flatpak, lemonldap-ng, libX11, nagios-plugins, nanosvg, noctalia, openssl, pgbouncer, pocillo-gtk-theme, prometheus, python-streamlink, python-urllib3, python-uv-build, python3.12, ruff, rust-libcst, rust-libcst_derive, rust-salsa, rust-salsa-macro-rules, rust-salsa-macros, ty, and uv), <b>Red Hat</b> (rhc-worker-script), <b>SUSE</b> (amazon-ecs-init, binaryen-133, bind, chromium, distribution, firefox, firefox-esr, glib2, gnumeric, helm, jline3, kubevirt-1.6, libparted-fs-resize0, libslirp-devel, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10, tomcat11, libwireshark19, openai-codex, python313-litellm, rpcbind, rustup, sccache, suseconnect-ng, valkey, wget, and xdg-dbus-proxy), and <b>Ubuntu</b> (ceph).]]></description>
+            <guid>https://lwn.net/Articles/1098599/</guid>
+            <pubDate>Mon, 05 Oct 2026 13:11:21 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Picard 3.0 released</title>
+            <link>https://lwn.net/Articles/1098600/</link>
+            <description><![CDATA[<p><a href="https://blog.metabrainz.org/2026/10/04/picard-3-0-released/">Version
+3.0</a> of the <a href="https://picard.musicbrainz.org/">MusicBrainz Picard</a>
+tag editor has been released. "<q>This release brings many changes, including an
+upgrade to Qt6, a completely new plugin system, several improvements to the user
+interface, cover art processing, [<a
+href="https://musicbrainz.org/doc/ISRC">International Standard Recording
+Code&#160;(ISRC)</a>] submission and many more.</q>"
+
+<p>LWN <a href="https://lwn.net/Articles/1066384/">covered</a> Picard in
+April.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1098600/</guid>
+            <pubDate>Mon, 05 Oct 2026 13:21:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>RustConf recordings</title>
+            <link>https://lwn.net/Articles/1098610/</link>
+            <description><![CDATA[<p>
+The Rust Foundation has posted the
+<a href="https://youtube.com/playlist?list=PLCIkLZab-UIM&si=3D0SOWZ4GWCtD5GC">recordings</a> from
+<a href="https://rustconf.com/">RustConf 2026</a> in Montreal, Canada.
+<a href="https://www.flickr.com/photos/rustfoundation/collections/72157725686653391/">
+Photos</a> of the event are also available. LWN covered
+<a href="https://lwn.net/Archives/ConferenceIndex/#RustConf-2026">
+four talks from RustConf</a> this year.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1098610/</guid>
+            <pubDate>Mon, 05 Oct 2026 15:11:11 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.3-rc6</title>
             <link>https://lwn.net/Articles/1098476/</link>
@@ -299,31 +342,6 @@ hardware AV1 decoding with WebRTC calls, and a number of fixes.]]></description>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit-image-builder, expat, ipa, kernel, kernel-rt, resteasy, ruby, ruby4.0, ruby:3.3, and ruby:4.0), <b>Debian</b> (dovecot, flatpak, glance, kernel, libdbi-perl, lxml, rsync, swift, and wordpress), <b>Fedora</b> (chromium, freeipa, freerdp, grub2, NetworkManager-iodine, NetworkManager-l2tp, perl-Catalyst-Plugin-Static-Simple, perl-Dancer2, perl-HTML-FormFu, python-quart-trio, python-streamlink, python-urllib3, and vlc), <b>Mageia</b> (libxml2, p11-kit, pam, and php), <b>Slackware</b> (groff and pcre2), <b>SUSE</b> (389-ds, amazon-ssm-agent, erlang27, exiv2, glib2, gnome-shell, hplip, ImageMagick, kernel, libheif, libsodium, libtpms, nodejs16, perl-DBI, python-soupsieve, redis, redis7, swtpm, and wireshark), and <b>Ubuntu</b> (curl, libevent, linux-aws, linux-aws-6.8, linux-aws-5.15, linux-azure-5.15, linux-azure-fde-5.15, linux-intel-iotg-5.15, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-7.0, linux-oem-7.0, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-oracle-7.0).]]></description>
             <guid>https://lwn.net/Articles/1097466/</guid>
             <pubDate>Tue, 29 Sep 2026 15:38:42 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1097191/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, ipa, kernel, libxml2, perl-DBI, python-cryptography, thunderbird, and unbound), <b>Debian</b> (chromium, evolution-data-server, exim4, ghostscript, incus, lemonldap-ng, libheif, nodejs, php8.4, ruby-oj, swift, and vlc), <b>Fedora</b> (chromium, cinnamon, cinnamon-desktop, cinnamon-session, cinnamon-settings-daemon, ckermit, dnf5, forgejo, goose, gssntlmssp, libheif, libpcap, librsvg2, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-python3, mongo-c-driver, muffin, nemo, nemo-extensions, nextcloud, pgadmin4, postgresql16-postgis, postgresql17-postgis, postgresql18-postgis, rust-librsvg, rust-xml5ever, sipp, suricata, tesseract, and xreader), <b>Mageia</b> (erlang, gpsd, libreswan, python3 &amp; python-pip, and udisks2), <b>Oracle</b> (abrt, buildah, cockpit-image-builder, corosync, ipa, kernel, libxml2, openexr, perl-DBI, perl-DBI:1.641, postgresql, thunderbird, unbound, and yelp), <b>SUSE</b> (389-ds, ansible-lint, cups, firefox, flatpak-builder, forgejo-longterm, gdb, gimp, gitoxide, glib2, gnome-shell, google-guest-agent, google-osconfig-agent, haveged, helm, ImageMagick, kbd, libsoup, libtpms, obs-service-cargo, openai-codex, opensuse-signkey-cert, osmo-iuh, perl-mojolicious, poppler, python-WebOb, python-WebOb-doc, python313-vllm, python314, sdbootutil, suseconnect-ng, and swtpm), and <b>Ubuntu</b> (exim4, freerdp3, libvirt, libvirt-hwe, libwebsockets, lxc, pyjwt, and requests).]]></description>
-            <guid>https://lwn.net/Articles/1097191/</guid>
-            <pubDate>Mon, 28 Sep 2026 15:08:05 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Git v2.56.0 released</title>
-            <link>https://lwn.net/Articles/1097213/</link>
-            <description><![CDATA[Version 2.56 of the <a href="https://git-scm.com/">Git</a> distributed
-version-control system has been released.  It has 748 non-merge commits
-since <a href="https://lwn.net/Articles/1080188/">Git 2.55 was released</a> back in
-June; those commits came from 104 developers, 39 of whom are first-time
-contributors.  New features include a safer workflow for conflict
-resolution, smaller path-walk repacks, a new <tt>git history drop</tt>
-sub-command, and much more.  LWN <a href="https://lwn.net/Articles/1094575/">looked at Git
-2.56</a> recently and the GitHub blog has a <a
-href="https://github.blog/open-source/git/highlights-from-git-2-56/">lengthy
-look at 2.56</a> as well.]]></description>
-            <guid>https://lwn.net/Articles/1097213/</guid>
-            <pubDate>Mon, 28 Sep 2026 17:33:58 +0000</pubDate>
             <dc:creator>jake</dc:creator>
         </item>
     </channel>
