@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 06 Oct 2026 13:44:51 +0000</pubDate>
-        <lastBuildDate>Tue, 6 Oct 2026 14:24:12 +0000</lastBuildDate>
+        <pubDate>Tue, 06 Oct 2026 18:34:32 +0000</pubDate>
+        <lastBuildDate>Tue, 6 Oct 2026 19:43:07 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -375,14 +375,6 @@ hardware AV1 decoding with WebRTC calls, and a number of fixes.]]></description>
             <guid>https://lwn.net/Articles/1097495/</guid>
             <pubDate>Tue, 29 Sep 2026 21:47:51 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1097466/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit-image-builder, expat, ipa, kernel, kernel-rt, resteasy, ruby, ruby4.0, ruby:3.3, and ruby:4.0), <b>Debian</b> (dovecot, flatpak, glance, kernel, libdbi-perl, lxml, rsync, swift, and wordpress), <b>Fedora</b> (chromium, freeipa, freerdp, grub2, NetworkManager-iodine, NetworkManager-l2tp, perl-Catalyst-Plugin-Static-Simple, perl-Dancer2, perl-HTML-FormFu, python-quart-trio, python-streamlink, python-urllib3, and vlc), <b>Mageia</b> (libxml2, p11-kit, pam, and php), <b>Slackware</b> (groff and pcre2), <b>SUSE</b> (389-ds, amazon-ssm-agent, erlang27, exiv2, glib2, gnome-shell, hplip, ImageMagick, kernel, libheif, libsodium, libtpms, nodejs16, perl-DBI, python-soupsieve, redis, redis7, swtpm, and wireshark), and <b>Ubuntu</b> (curl, libevent, linux-aws, linux-aws-6.8, linux-aws-5.15, linux-azure-5.15, linux-azure-fde-5.15, linux-intel-iotg-5.15, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-gcp, linux-gcp-7.0, linux-oem-7.0, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, and linux-oracle-7.0).]]></description>
-            <guid>https://lwn.net/Articles/1097466/</guid>
-            <pubDate>Tue, 29 Sep 2026 15:38:42 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
