@@ -8,11 +8,53 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Oct 2026 08:52:21 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Oct 2026 09:18:51 +0000</lastBuildDate>
+        <pubDate>Wed, 07 Oct 2026 16:33:36 +0000</pubDate>
+        <lastBuildDate>Wed, 7 Oct 2026 16:47:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1099202/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, dovecot, freerdp, kernel, mariadb-connector-c, mod_auth_openidc, nodejs22, nodejs:22, sudo, and vim), <b>Debian</b> (node-shell-quote, puma, rails, ruby-jwt, and suricata-update), <b>Fedora</b> (chromium, cockpit, flocq, freerdp, gappalib-coq, golang-x-mod, httpd, janus, libical, musescore, python3-docs, python3.14, python3.15, rocq, rocq-stdlib, tesseract, why3, and zenon), <b>Mageia</b> (srt and tor), <b>Oracle</b> (freerdp, kernel, libpcap, mariadb-connector-c, nodejs22, sudo, and vim), <b>Red Hat</b> (expat and grafana), <b>Slackware</b> (openssh), <b>SUSE</b> (chromium, docker-stable, firefox, jupyter-jupyterlab, libtcnative-1-0, tomcat, tomcat10, libtcnative-1-0, tomcat11, openexr, python310, python313-azure-storage-queue, python313-langchain-anthropic, python313-sglang, python313-Werkzeug, and valkey), and <b>Ubuntu</b> (fluidsynth, freerdp3, freetype, golang-1.18, golang-1.21, golang-1.24, gst-plugins-good1.0, libsoup2.4, libsoup3, libwebsockets, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-oracle, linux-realtime, linux-azure, linux-azure-fde, linux-nvidia-tegra, linux-oem-7.0, redis, sg3-utils, tesseract, and u-boot).]]></description>
+            <guid>https://lwn.net/Articles/1099202/</guid>
+            <pubDate>Wed, 07 Oct 2026 13:08:53 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>A new Raspberry Pi Desktop release is finally available for x86-64</title>
+            <link>https://lwn.net/Articles/1099206/</link>
+            <description><![CDATA[<p>Simon Long has <a
+href="https://www.raspberrypi.com/news/raspberry-pi-desktop-now-available-for-pc-and-mac/">announced</a>
+a long-awaited release of Raspberry Pi OS, based on <a
+href="https://www.debian.org/releases/trixie/">Debian&#160;13 ("trixie")</a>,
+for x86-64 systems.</p>
+
+<blockquote class="bq">
+<p>We managed to find the time to update the Desktop for the Buster and Bullseye
+releases of Debian, but then we all just got too busy with other things, and,
+while we left the Bullseye version on the website for anyone who wanted it, we
+simply didn't have time to release any newer versions. But people kept on asking
+for it – we get two or three emails every week asking when the PC Desktop will
+be updated, and we haven't had an answer, because we honestly didn't know when
+we might get a chance to do it. We've continually tried to allocate time to be
+able to work on this, but it hasn't been easy. [...]</p>
+
+<p>Earlier this year, we (or rather Serge) finally got the latest version of the
+Desktop running on top of a Debian Trixie image. It's now based on 64-bit Debian
+(the amd64 architecture) rather than the older 32-bit version, as Debian itself
+has stopped supporting 32-bit for PC architectures. This shouldn't be a major
+problem – most PCs made in the last 15 years or so will quite happily run the
+64-bit version of Debian, as will most Intel-based Macs. (Debian support for
+Apple Silicon is still experimental, so unfortunately those of you with the
+latest and greatest shiny fruit products will not be able to run this.)</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1099206/</guid>
+            <pubDate>Wed, 07 Oct 2026 13:26:25 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1098979/</link>
@@ -323,46 +365,6 @@ and <a href="https://kernel-recipes.org/en/2026/speakers-sketches/">the
 speakers</a>.]]></description>
             <guid>https://lwn.net/Articles/1097802/</guid>
             <pubDate>Wed, 30 Sep 2026 15:24:51 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1097753/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (389-ds:1.4, container-tools:rhel8, go-toolset:rhel8, grafana, httpd:2.4, nodejs:22, postgresql:12, and postgresql:15), <b>Debian</b> (libwebsockets, openssl, and pcre2), <b>Fedora</b> (adwaita-icon-theme, cinnamon, dconf, epiphany, flatpak-builder, gcr, gdm, gjs, glib-networking, glib2, gnome-backgrounds, gnome-calendar, gnome-characters, gnome-chess, gnome-clocks, gnome-connections, gnome-console, gnome-contacts, gnome-control-center, gnome-desktop3, gnome-initial-setup, gnome-keyring, gnome-kiosk, gnome-maps, gnome-remote-desktop, gnome-settings-daemon, gnome-shell, gnome-shell-extensions, gnome-system-monitor, gnome-text-editor, gnome-user-docs, gnote, gnucash, gnucash-docs, gsettings-desktop-schemas, gtk4, hplip, libadwaita, libdex, libsecret, libshumate, libxmp, mingw-llvm, mutter, nautilus, parted, perl-Imager, quadrapassel, rootlesskit, rygel, shotwell, sngrep, sushi, sysprof, tecla, thunderbird, xdg-desktop-portal-gnome, and xdotool), <b>Red Hat</b> (buildah, container-tools:rhel8, containernetworking-plugins, delve, git-lfs, grafana, grafana-pcp, host-metering, ignition, image-builder, osbuild-composer, podman, rhc, rhc-worker-playbook, runc, skopeo, yggdrasil, and yggdrasil-worker-package-manager), <b>Slackware</b> (mozilla-firefox), <b>SUSE</b> (389-ds, amazon-cloudwatch-agent, cjose, corosync, cosign, cups, distribution-registry, expat, firefox, flatpak, glib2, google-osconfig-agent, goose, helm, ImageMagick, jackson-annotations, jackson-bom, jackson-core, jackson- databind, jackson-dataformat-xml, jackson-dataformats-binary, jackson-modules- base, jackson-core, jackson-databind, jackson-dataformat-csv, jsoup, re2j, kbd, kernel, kubectl-cnpg, libpcap, libsoup, libtpms, libX11, libXrender, netty, netty-tcnative, pcre2, perl-Authen-SASL, perl-DBI, python-pymongo, python310, python311, swtpm, terraform-provider-susepubliccloud, and util-linux), and <b>Ubuntu</b> (atril, booth, c-ares, catdoc, dracut, emacs, erlang, freeipmi, libdbi-perl, libheif, linux, linux-aws, linux-azure, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-xilinx-zynqmp, linux, linux-nvidia, linux-aws-fips, linux-aws-fips, linux-azure-fips, linux-fips, linux-bluefield, linux-fips, linux-nvidia-tegra-5.15, openssl, openssl, openssl1.0, pdfminer, php-phpseclib, and plasma-workspace).]]></description>
-            <guid>https://lwn.net/Articles/1097753/</guid>
-            <pubDate>Wed, 30 Sep 2026 13:20:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>The Linux Foundation Technical Advisory Board 2026 election approaches</title>
-            <link>https://lwn.net/Articles/1097758/</link>
-            <description><![CDATA[The election for members of the Linux Foundation Technical Advisory Board
-will be held electronically after the close of the upcoming <a
-href="https://lpc.events/">Linux Plumbers Conference</a>.  The <a
-href="https://lwn.net/ml/all/a7f69e8d-1140-44b5-baf8-bacb8c30c01a@kernel.org">call for
-candidates</a> is is open, with a nomination deadline of October&#160;7.
-There are five seats to fill this time, including the one vacated by the
-unfortunate passing of Dan Williams.
-<p>
-Serving on the TAB is a good way to help the kernel-development community.
-Please see <a href="https://lwn.net/Articles/1049035/">this article from last year</a> for
-an overview of what the TAB does and why membership is rewarding, then
-consider putting in your nomination.]]></description>
-            <guid>https://lwn.net/Articles/1097758/</guid>
-            <pubDate>Wed, 30 Sep 2026 13:55:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Reports from the 2026 Python Language Summit</title>
-            <link>https://lwn.net/Articles/1097761/</link>
-            <description><![CDATA[The 2026 Python Language Summit was held on July 14 in Kraków, Poland;
-there is now <a
-href="https://pyfound.blogspot.com/2026/09/python-language-summit-2026.html">a
-series of reports</a> available on the topics that were discussed there.
-They include the memory buffer protocol, garbage collection, free-threaded
-Python, and "Spicycrab".]]></description>
-            <guid>https://lwn.net/Articles/1097761/</guid>
-            <pubDate>Wed, 30 Sep 2026 14:32:36 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
