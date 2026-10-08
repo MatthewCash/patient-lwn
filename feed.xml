@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 Oct 2026 00:42:06 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Oct 2026 01:35:14 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Oct 2026 06:32:52 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Oct 2026 08:00:58 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -381,110 +381,6 @@ establishment of functions for obtaining the size and alignment of raw
 pointers, a number of stabilized APIs, and more.]]></description>
             <guid>https://lwn.net/Articles/1098068/</guid>
             <pubDate>Thu, 01 Oct 2026 13:25:17 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for September 24, 2026</title>
-            <link>https://lwn.net/Articles/1094840/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1094840/">Front</a>: Git 2.56; gccrs; NetBSD and compat_linux; io_uring; Desktop UX.
-            <li> <a href="https://lwn.net/Articles/1094842/">Briefs</a>: WordPress vulnerability; Radicle vulnerability; Systemtap 5.6; GNOME 51; Systemd v262; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1094843/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1094840/</guid>
-            <pubDate>Thu, 24 Sep 2026 00:22:42 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Ideas on modernizing the open-source desktop</title>
-            <link>https://lwn.net/Articles/1095425/</link>
-            <description><![CDATA[<p>Scott Jenson has been working on user interfaces (UIs) and user experience (UX)
-for many years at Apple, Google, and other companies. Now, he's trying to convince
-open-source projects to experiment more and drive the desktop beyond the age-old "<a
-href="https://en.wikipedia.org/wiki/WIMP_(computing)">windows, icons, menus,
-pointer</a>" (WIMP) model. At <a
-href="https://akademy.kde.org/2026/">Akademy&#160;2026</a>, KDE's annual developer
-conference, he shared his complaints and ideas in a talk aimed
-at convincing those in attendance to take the lead on desktop design.</p>]]></description>
-            <guid>https://lwn.net/Articles/1095425/</guid>
-            <pubDate>Wed, 23 Sep 2026 15:39:30 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Compiling the kernel with gccrs</title>
-            <link>https://lwn.net/Articles/1095553/</link>
-            <description><![CDATA[<p>
-Pierre-Emmanuel Patry and Arthur Cohen gave a talk at
-<a href="https://rustconf.com/">
-RustConf&#160;2026</a> on the
-status of the Rust frontend for GCC (gccrs), with a particular eye toward the
-goal of
-<a href="https://lwn.net/Articles/1083202/">
-compiling the Linux kernel</a>. Patry gave a follow-up talk for a more
-kernel-focused audience at
-<a href="https://kangrejos.com/">
-Kangrejos</a> the next week, which Cohen could not attend. The
-<a href="https://rust-gcc.github.io/">
-gccrs project</a> is
-making good progress overall, but it will still be some time until the compiler
-is usable.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1095553/</guid>
-            <pubDate>Tue, 22 Sep 2026 15:27:35 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Testing compat_linux on NetBSD with the Linux Test Project</title>
-            <link>https://lwn.net/Articles/1094310/</link>
-            <description><![CDATA[<p><a href="https://netbsd.org/">NetBSD</a> has long had support for
-running Linux binaries via its kernel-level <a
-href="https://man.netbsd.org/compat_linux.8"><tt>compat_linux</tt></a>
-feature, but test coverage for it was less complete than some might
-hope. In order to provide better testing for <tt>compat_linux</tt>,
-Google Summer of Code (GSoC) participant Henrique Brito opted to work
-on enabling the <a
-href="https://linux-test-project.readthedocs.io/en/latest/">Linux Test
-Project (LTP)</a> test suite to compile and run on NetBSD. At <a
-href="https://2026.eurobsdcon.org/">EuroBSDCon&#160;2026</a>, Brito's
-mentor, Stephen Borrill, provided a report on the project, and the
-status of LTP on NetBSD. The work has already resulted in some minor
-fixes, and a good list of additional problems to solve.</p>]]></description>
-            <guid>https://lwn.net/Articles/1094310/</guid>
-            <pubDate>Mon, 21 Sep 2026 14:22:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Looking forward to Git 2.56 — and 3.0</title>
-            <link>https://lwn.net/Articles/1094575/</link>
-            <description><![CDATA[The <a href="https://git-scm.com/">Git</a> source-code management system is
-at the core of development processes worldwide, so changes, especially
-incompatible changes, are of great interest to the developers involved.
-The Git 2.56 release, which can be expected around the end of September, is
-currently available in <a
-href="https://lwn.net/ml/all/xmqqh5jpvzxo.fsf@gitster.g">release-candidate</a> form.  It
-is not the most earth-shaking of releases, but the one that follows, which
-might be the long-awaited Git 3.0, may well be.]]></description>
-            <guid>https://lwn.net/Articles/1094575/</guid>
-            <pubDate>Fri, 18 Sep 2026 14:14:09 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Thread-identity switcheroo for io_uring</title>
-            <link>https://lwn.net/Articles/1094303/</link>
-            <description><![CDATA[The <a
-href="https://man7.org/linux/man-pages/man7/io_uring.7.html">io_uring
-subsystem</a> is all about asynchronous execution; applications count on it
-to not block — unless explicitly requested to.  Within io_uring, maintaining
-the "never blocks" guarantee has sometimes been a challenge, given that
-many paths in the kernel were never designed for asynchronous execution.
-This problem has been worked around, but at a significant cost to
-performance.  Now, io_uring maintainer Jens Axboe has posted <a
-href="https://lwn.net/ml/all/20260911154148.644489-1-axboe@kernel.dk">an RFC patch set</a>
-with a somewhat radical (and potentially scary) solution to the problem.]]></description>
-            <guid>https://lwn.net/Articles/1094303/</guid>
-            <pubDate>Thu, 17 Sep 2026 13:49:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
