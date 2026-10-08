@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 08 Oct 2026 06:32:52 +0000</pubDate>
-        <lastBuildDate>Thu, 8 Oct 2026 08:00:58 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Oct 2026 14:52:53 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Oct 2026 15:31:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1099388/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, firefox, freerdp, ghostscript, glibc, kernel, kernel-rt, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sq, rust-sequoia-sqv, and vim), <b>Debian</b> (gst-plugins-base1.0, python3.11, and xz-utils), <b>Fedora</b> (7zip, chromium, curl, docker-buildx, kernel, Lmod, and sos), <b>Mageia</b> (tesseract), <b>Oracle</b> (dovecot, firefox, freerdp, gd, ghostscript, kernel, librabbitmq, perl-DBI, python3.12, rust-rpm-sequoia, rust-sequoia-sqv, sg3_utils, vim, and virtuoso-opensource), <b>Slackware</b> (xorg-server), <b>SUSE</b> (aliyun-cli, busybox, cadvisor, chromedriver, chromium, crane, distribution-registry, fetchmail, fio, ghostscript, golang-github-prometheus-alertmanager, google-osconfig-agent, govulncheck-vulndb, libsoup, libXtst, openexr, prometheus-blackbox_exporter, python-fsspec, rpcbind, rsyslog, rustup, wireshark, wpa_supplicant, and zcode), and <b>Ubuntu</b> (erlang, golang-golang-x-net, gst-plugins-ugly1.0, lxml, poppler, and sudo).]]></description>
+            <guid>https://lwn.net/Articles/1099388/</guid>
+            <pubDate>Thu, 08 Oct 2026 13:11:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 1, 2026</title>
             <link>https://lwn.net/Articles/1096293/</link>
