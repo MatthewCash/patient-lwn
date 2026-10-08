@@ -8,11 +8,146 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 07 Oct 2026 20:49:31 +0000</pubDate>
-        <lastBuildDate>Wed, 7 Oct 2026 21:47:15 +0000</lastBuildDate>
+        <pubDate>Thu, 08 Oct 2026 00:42:06 +0000</pubDate>
+        <lastBuildDate>Thu, 8 Oct 2026 01:35:14 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 1, 2026</title>
+            <link>https://lwn.net/Articles/1096293/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1096293/">Front</a>: PostgreSQL and the kernel; Rust on the GPU; KDE Plasma; C and memory safety; Rust radio; KDE funding; Chromium development.
+            <li> <a href="https://lwn.net/Articles/1096295/">Briefs</a>: File-notification attacks; Kernel report; TAB election; F-Droid 2.0; Firefox 157.0; GDB 18.1; Git v2.56.0; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1096296/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1096293/</guid>
+            <pubDate>Thu, 01 Oct 2026 00:30:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] The year in Plasma and what&apos;s ahead</title>
+            <link>https://lwn.net/Articles/1096518/</link>
+            <description><![CDATA[<p>A lot has happened in the <a href="https://kde.org/plasma-desktop/">KDE
+Plasma desktop environment</a> in the last year. Marco Martin, a KDE contributor
+who spends most of his time working on Plasma, took the stage at <a
+href="https://akademy.kde.org/2026/">Akademy 2026</a> in Graz, Austria to give
+an update on Plasma's major new features, some of the minor-but-interesting
+ones, and a preview of what's coming soon. The biggest upcoming change, dropping
+X11 support from Plasma, has been well-advertised; but there are also plans
+afoot to further improve remote-desktop support and more.</p>]]></description>
+            <guid>https://lwn.net/Articles/1096518/</guid>
+            <pubDate>Wed, 30 Sep 2026 15:31:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Comparing Chromium development at Google and Igalia</title>
+            <link>https://lwn.net/Articles/1094721/</link>
+            <description><![CDATA[Sharon Yang is a <a href="https://www.chromium.org/Home/">Chromium</a> developer who worked at Google on the browser
+and now works on it at Igalia.  On the final day of FOSSY 2026, she gave a
+presentation on her experiences with both of those companies, comparing and
+contrasting the ways the each operates and how that affects work on the
+code base.  She enjoyed working at Google and feels the same about Igalia,
+so the talk was not aimed at complaints—instead it was meant to give a feel
+for two companies that are rather different.]]></description>
+            <guid>https://lwn.net/Articles/1094721/</guid>
+            <pubDate>Wed, 30 Sep 2026 14:16:19 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] The kernel from a PostgreSQL point of view</title>
+            <link>https://lwn.net/Articles/1096827/</link>
+            <description><![CDATA[Andres Freund has <a href="https://lwn.net/Articles/967866/">a few claims to fame</a>, but
+chief among them is his many years of work to improve the performance of
+the <a href="https://postgresql.org/">PostgreSQL</a> relational database
+management system.  That work requires working with — or around — many
+Linux kernel features and behaviors.  He put in an appearance at the 2026
+edition of <a href="https://kernel-recipes.org/en/2026/">Kernel Recipes</a>
+to talk about his experience working with the kernel project, how the
+kernel could better support applications like PostgreSQL, and some
+interesting developments in the PostgreSQL world.]]></description>
+            <guid>https://lwn.net/Articles/1096827/</guid>
+            <pubDate>Tue, 29 Sep 2026 15:42:30 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Native support for Rust on the GPU</title>
+            <link>https://lwn.net/Articles/1095731/</link>
+            <description><![CDATA[<p>
+Christian Legnitto is the maintainer of
+<a href="https://github.com/Rust-GPU/rust-gpu#-rust-gpu">
+rust-gpu</a> and
+<a href="https://github.com/Rust-GPU/rust-cuda#the-rust-cuda-project">
+Rust CUDA</a>, two
+libraries that make it possible to program a computer's graphics processing unit
+(GPU) from Rust. He isn't satisfied with the current state of GPU support in
+Rust, however. In a talk at
+<a href="https://rustconf.com/">
+RustConf 2026</a>, he explained his vision for how the
+GPU could become an ordinary compiler target for normal Rust code, without the
+need for any special libraries or new ecosystem support. That vision is not yet
+fully implemented, but he does have a prototype that he is preparing to release.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1095731/</guid>
+            <pubDate>Tue, 29 Sep 2026 17:57:20 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Reducing undefined behavior in the C language</title>
+            <link>https://lwn.net/Articles/1095811/</link>
+            <description><![CDATA[As a professor of biomedical engineering, Martin Uecker perhaps does not
+fit the profile of a typical presenter at <a
+href="https://kernel-recipes.org/en/2026/">Kernel Recipes</a>.  He is,
+however, a longtime Linux user, and works on free software for controlling
+magnetic resonance imaging (MRI) scanners.  He was at the conference to
+talk about the C programming language, the specific problem of undefined
+behavior in C, and whether it can eventually be made into a memory-safe
+language.]]></description>
+            <guid>https://lwn.net/Articles/1095811/</guid>
+            <pubDate>Mon, 28 Sep 2026 15:16:22 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] How KDE got funding to add enterprise features</title>
+            <link>https://lwn.net/Articles/1096245/</link>
+            <description><![CDATA[<p>The <a href="https://www.sovereign.tech/">Sovereign Tech Agency</a> (STA) is
+<a href="https://www.sovereign.tech/tech/kde">investing nearly €1.3 million</a>
+in KDE through 2027. At <a href="https://akademy.kde.org/2026/">Akademy 2026</a>
+in Graz, Austria, Nate Graham and Kevin Ottens, two of the contributors who
+helped bring in the investment, explained how the funding was secured, provided
+tips on how projects should approach organizations like STA, and talked about
+how that money will be improving KDE for everyone. In addition to keeping the
+community informed about the work, the pair hoped to pass on what they have learned
+to encourage others to help raise funds for development as well.</p>]]></description>
+            <guid>https://lwn.net/Articles/1096245/</guid>
+            <pubDate>Fri, 25 Sep 2026 15:59:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Listening to the radio with Rust</title>
+            <link>https://lwn.net/Articles/1095721/</link>
+            <description><![CDATA[<p>
+Many of the transmissions sent over the radio spectrum can
+be decoded with a relatively cheap hardware dongle. Thomas Eckert presented at
+<a href="https://rustconf.com/">
+RustConf 2026</a> in Montreal about his hobby:
+decoding radio transmissions with Rust.
+In his presentation, he
+covered all of the math necessary to get started with
+<a href="https://en.wikipedia.org/wiki/Software-defined_radio">
+software-defined radio</a>,
+and gave demonstrations of listening to AM and FM radio, as well as decoding
+transmissions from
+aircraft transponders. His slides and example code are
+<a href="https://github.com/t-eckert/listening-to-the-radio-with-rust#listening-to-the-radio-with-rust">
+available</a> on GitHub.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1095721/</guid>
+            <pubDate>Thu, 24 Sep 2026 14:26:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1099202/</link>
