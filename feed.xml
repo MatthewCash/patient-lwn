@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 09 Oct 2026 14:08:33 +0000</pubDate>
-        <lastBuildDate>Fri, 9 Oct 2026 14:30:55 +0000</lastBuildDate>
+        <pubDate>Fri, 09 Oct 2026 19:32:02 +0000</pubDate>
+        <lastBuildDate>Fri, 9 Oct 2026 19:41:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Python 3.15 released</title>
+            <link>https://lwn.net/Articles/1099602/</link>
+            <description><![CDATA[<p><a href="https://www.python.org/downloads/release/python-3150/">Version
+3.15</a> of the Python programming language has been released. Notable changes
+in this release include the addition of the <tt>sentinel</tt> and <a
+href="https://lwn.net/Articles/1047238/"><tt>frozendict</tt></a> built-in types,
+the use of UTF-8 encoding by default, <a
+href="https://docs.python.org/3.15/library/site.html#site-start-files">package
+start-up configuration files</a>, as well as improvements in the <a
+href="https://docs.python.org/3/whatsnew/3.15.html#whatsnew315-jit">experimental
+JIT compiler</a>. See the "<a
+href="https://docs.python.org/3/whatsnew/3.15.html">What's new in Python
+3.15</a>" article for an in-depth look at new features in this release, and the
+<a
+href="https://docs.python.org/3/whatsnew/changelog.html#changelog">changelog</a>
+for a full list of changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1099602/</guid>
+            <pubDate>Fri, 09 Oct 2026 17:15:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1099587/</link>
@@ -377,24 +400,6 @@ Compilation</a> to work for everyone on x86_64-linux.</p>
 December 2025.</p>]]></description>
             <guid>https://lwn.net/Articles/1098412/</guid>
             <pubDate>Sat, 03 Oct 2026 11:31:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Linux Test Project suite stable release for September 2026</title>
-            <link>https://lwn.net/Articles/1098313/</link>
-            <description><![CDATA[<p>The <a
-href="https://github.com/linux-test-project/ltp#linux-test-project">Linux Test
-Project</a> has <a
-href="https://lwn.net/ml/all/ar4TexudzfhsKBwT%40yuki.lan/">announced</a> its
-latest stable release for September&#160;2026. There have been&#160;382 patches
-from&#160;41 authors since the <a
-href="https://lwn.net/ml/all/ahmZ_HcEEuyPzPFq%40yuki.lan/">May&#160;2026
-release</a>. See the announcement for a list of new tests, changes, and
-more.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1098313/</guid>
-            <pubDate>Fri, 02 Oct 2026 13:40:28 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
