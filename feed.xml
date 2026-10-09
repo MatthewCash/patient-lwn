@@ -8,11 +8,45 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 09 Oct 2026 07:16:10 +0000</pubDate>
-        <lastBuildDate>Fri, 9 Oct 2026 07:19:23 +0000</lastBuildDate>
+        <pubDate>Fri, 09 Oct 2026 14:08:33 +0000</pubDate>
+        <lastBuildDate>Fri, 9 Oct 2026 14:30:55 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1099587/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, freerdp, glibc, kbd, mod_auth_openidc, openssl, perl-DBI, python3.12, python3.14, and tftp), <b>Debian</b> (rails and twitter-bootstrap3), <b>Fedora</b> (barman, cockpit, hcloud, libmodsecurity, nginx-mod-modsecurity, perl-DBI, sudo, and xorg-x11-server-Xwayland), <b>Mageia</b> (libxfont2), <b>Oracle</b> (bind9.18, firefox, kernel, nodejs24, perl-DBI, and vim), <b>Red Hat</b> (kernel, libreswan, opentelemetry-collector, osbuild-composer, rhc, and runc), <b>SUSE</b> (alloy, amazon-ecs-init, bind, busybox, distribution, emacs, ghostscript, glibc, GraphicsMagick, hauler, helm, helm3, jackson-annotations, jackson-core, jackson-databind, kernel, libpoppler-cpp3, libxtst, logback, nvidia-open-driver-G07-signed, perl-DBI, php-composer2, pi-coding-agent, portprotonqt, pvetui, python-hpack, python313-GitPython, and wpa_supplicant), and <b>Ubuntu</b> (apache2, bluez, libarchive, libde265, libgit2, libpng1.6, libxml2, linux, linux-aws, linux-aws-6.8, linux-aws-fips, linux-fips, linux-realtime, linux-realtime-6.8, linux-aws-7.0, linux-azure, linux-azure-6.8, linux-azure-fde, linux-azure-fde-6.8, linux-azure-fips, linux-azure-7.0, linux-azure-fde-7.0, linux-gcp, linux-gcp-6.8, linux-gcp-fips, linux-gcp-7.0, linux-hwe-7.0, linux-oracle-7.0, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-lowlatency-hwe-6.8, linux-nvidia, linux-nvidia-6.8, linux-nvidia-lowlatency, linux-oracle, linux-ibm-6.8, linux-nvidia, and linux-oem-6.17).]]></description>
+            <guid>https://lwn.net/Articles/1099587/</guid>
+            <pubDate>Fri, 09 Oct 2026 13:08:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Let&apos;s Encrypt moving to 64-day certificate lifetimes in 2027</title>
+            <link>https://lwn.net/Articles/1099588/</link>
+            <description><![CDATA[<p><a href="https://letsencrypt.org/2026/10/07/64-day-certs.html">Let's
+Encrypt</a>, the nonprofit that provides free TLS certificates for millions of
+sites, has <a
+href="https://letsencrypt.org/2026/10/07/64-day-certs.html">announced</a> that
+it will be moving to certificates with 64-day lifetimes on February&#160;10,
+2027:</p>
+
+<blockquote class="bq">
+<p>This means that any certificate we issue or renew on and after that date will
+have a 64 day validity period, and we expect the last 90-day certificate to
+expire on May 11, 2027. We will not revoke valid certificates as a part of this
+process.</p>
+</blockquote>
+
+<p>This is the second stage of Let's Encrypt's plan, <a
+href="https://letsencrypt.org/2025/12/02/from-90-to-45">announced in 2025</a>,
+to move to 45-day certificate lifetimes as required by the the <a
+href="https://cabforum.org/working-groups/server/baseline-requirements/requirements/">CA/Browser
+Forum Baseline Requirements</a>. In 2028, Let's Encrypt will switch to 45-day certificates.</p>]]></description>
+            <guid>https://lwn.net/Articles/1099588/</guid>
+            <pubDate>Fri, 09 Oct 2026 14:02:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1099388/</link>
@@ -361,14 +395,6 @@ more.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1098313/</guid>
             <pubDate>Fri, 02 Oct 2026 13:40:28 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1098312/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dogtag-pki, expat, freerdp, gawk, gdb, ghostscript, gvfs, kernel, kernel-rt, libpcap, openssh, pki-core, rsync, thunderbird, and webkit2gtk3), <b>Debian</b> (chromium, firefox-esr, libio-compress-perl, libpng1.6, nodejs, open-iscsi, redis, thunderbird, and webkit2gtk), <b>Fedora</b> (sos), <b>Mageia</b> (libgcrypt, python-tornado, python-urwid, python-wcwidth, and wireshark), <b>Oracle</b> (corosync, dogtag-pki, expat, firefox, freerdp, gawk, glib2, ipa, kernel, libXfont2, nodejs:24, openssh, osbuild-composer, perl-DBI, pki-core, postgresql:12, python-cryptography, resteasy, ruby, ruby4.0, ruby:3.3, ruby:4.0, thunderbird, and xmlrpc-c), <b>Red Hat</b> (skopeo), <b>SUSE</b> (chromium, emacs, glib2, glibc, gnome-shell, helm3, ImageMagick, imagemagick, kernel-devel, libtcnative-1-0, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10,, libtcnative-2-0, libX11, libX11-6, libXi-devel, libXpm-devel, libXtst-devel, mistral-vibe, openssl-3, perl-DBI, perl-Protocol-HTTP2, php-composer2, php8, python, rpcbind, sccache, and valkey), and <b>Ubuntu</b> (kf6-kcoreaddons, libxpm, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-fips, linux-gke, linux-raspi-5.4, and openssl).]]></description>
-            <guid>https://lwn.net/Articles/1098312/</guid>
-            <pubDate>Fri, 02 Oct 2026 13:21:27 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
