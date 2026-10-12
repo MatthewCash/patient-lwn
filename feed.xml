@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 Oct 2026 08:08:58 +0000</pubDate>
-        <lastBuildDate>Mon, 12 Oct 2026 09:12:59 +0000</lastBuildDate>
+        <pubDate>Mon, 12 Oct 2026 19:03:39 +0000</pubDate>
+        <lastBuildDate>Mon, 12 Oct 2026 19:04:56 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1099949/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cjose, compat-openssl10, compat-openssl11, curl, dogtag-pki, dovecot, emacs, glibc, kernel, openssl, python3.12, python3.14, and sssd), <b>Debian</b> (chromium, ghostscript, tor, and vips), <b>Fedora</b> (kernel, libical, markdownlint-cli2, openbao, openvpn, php-getid3, python3.10, python3.11, and python3.13), <b>Mageia</b> (capnproto, chirp, flatpak, freetype2, hamlib, mingw-pcre2, pcre2, openssl, tomcat, tomcat-native, and xdg-dbus-proxy), <b>Oracle</b> (bind, cjose, dogtag-pki, dovecot, firefox, kernel, nodejs:24, openssl, pki-core:10.6, python3.12, python3.14, ruby:2.5, rust-sequoia-sq, sssd, and tftp), <b>Red Hat</b> (libxml2), <b>Slackware</b> (mutt), <b>SUSE</b> (apache-sshd, bind, ccache, chromium, cpp13, dash, expat, fetchmail, flatpak, golang-github-prometheus-prometheus, grafana, system-user-grafana, incus, libpng16-16, libsoup, logback, openssh8.4, perl-DBI, php8, python3-paramiko, python312, python313-asyncpg, python313-azure-identity, python313-Babel, python313-Beaker, python313-bjoern, python313-black, python313-Brotli, python313-CairoSVG, python313-Flask-Cors, python313-FontTools, python313-Jinja2, python313-jwcrypto, python313-MechanicalSoup, python313-oauthlib, python313-PyJWT, python313-PyMySQL, python313-PyYAML, python313-virtualenv, python313-XStatic-jquery-ui, qemu, rsyslog, shadowsocks-rust, squid, stunnel, swtpm, trivy, unbound, wpa_supplicant, and yast2-users), and <b>Ubuntu</b> (libdbi-perl).]]></description>
+            <guid>https://lwn.net/Articles/1099949/</guid>
+            <pubDate>Mon, 12 Oct 2026 13:00:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>LineageOS 24 released</title>
+            <link>https://lwn.net/Articles/1099950/</link>
+            <description><![CDATA[<p>The <a href="https://lineageos.org/">LineageOS</a> project, which produces an
+Android-based distribution for mobile devices, has <a
+href="https://lineageos.org/Changelog-32/">announced</a> the release of
+LineageOS 24.0.</p>
+
+<blockquote class="bq">
+<p>We're a bit sentimental about this release, as it precedes a really fun
+upcoming milestone.</p>
+
+<p>On December 24, 2026, LineageOS will celebrate 10 years. It's a remarkable
+milestone for a project built by a passionate community of developers,
+maintainers, contributors, and users who have kept so many devices alive along
+the way.</p>
+
+<p>[...] We've been hard at work rebasing all of our changes and features since
+Android 17's release in June. Android 17's first release mainly contained
+iterative improvements and some UI/UX refinements, but due to our previous
+efforts adapting to Google's heavy refactoring over the last several versions,
+we were able to rebase onto Android 17's code-base faster than anticipated. Yes
+you read that right: We're early this year!</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1099950/</guid>
+            <pubDate>Mon, 12 Oct 2026 13:13:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.3-rc7</title>
             <link>https://lwn.net/Articles/1099798/</link>
@@ -365,25 +401,6 @@ four talks from RustConf</a> this year.
             <guid>https://lwn.net/Articles/1098610/</guid>
             <pubDate>Mon, 05 Oct 2026 15:11:11 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.3-rc6</title>
-            <link>https://lwn.net/Articles/1098476/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1098475/">7.3-rc6</a> kernel prepatch is out for
-testing.  Linus said:
-<p>
-<blockquote class="bq">
-	Next week might look a bit different: we've got the annual
-	maintainer summit and the Linux plumbers conference going on , so
-	I'll be on the road, as will a number of other maintainers. That
-	may or may not end up changing the stats for -rc7. But it's
-	unlikely to affect the release schedule, although the fact that I
-	have my yearly family vacation the week after that might make the
-	next merge window a bit wonky.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1098476/</guid>
-            <pubDate>Mon, 05 Oct 2026 05:47:41 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
