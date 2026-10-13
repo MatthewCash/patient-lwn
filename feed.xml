@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 12 Oct 2026 19:03:39 +0000</pubDate>
-        <lastBuildDate>Mon, 12 Oct 2026 19:04:56 +0000</lastBuildDate>
+        <pubDate>Tue, 13 Oct 2026 01:13:22 +0000</pubDate>
+        <lastBuildDate>Tue, 13 Oct 2026 01:22:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -358,49 +358,6 @@ details of all changes and bug fixes.</p>
             <guid>https://lwn.net/Articles/1098980/</guid>
             <pubDate>Tue, 06 Oct 2026 13:42:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1098599/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ghostscript, libvirt, and osbuild-composer), <b>Debian</b> (freecad, linux-6.12, node-lodash, pcre2, perl, php8.2, ruby-rack-session, wireshark, and xen), <b>Fedora</b> (assimp, budgie-control-center, budgie-desktop, budgie-desktop-services, budgie-desktop-view, chromium, cri-o1.36, curl, flatpak, lemonldap-ng, libX11, nagios-plugins, nanosvg, noctalia, openssl, pgbouncer, pocillo-gtk-theme, prometheus, python-streamlink, python-urllib3, python-uv-build, python3.12, ruff, rust-libcst, rust-libcst_derive, rust-salsa, rust-salsa-macro-rules, rust-salsa-macros, ty, and uv), <b>Red Hat</b> (rhc-worker-script), <b>SUSE</b> (amazon-ecs-init, binaryen-133, bind, chromium, distribution, firefox, firefox-esr, glib2, gnumeric, helm, jline3, kubevirt-1.6, libparted-fs-resize0, libslirp-devel, libtcnative-1-0, libtcnative-2-0, tomcat, tomcat10, tomcat11, libwireshark19, openai-codex, python313-litellm, rpcbind, rustup, sccache, suseconnect-ng, valkey, wget, and xdg-dbus-proxy), and <b>Ubuntu</b> (ceph).]]></description>
-            <guid>https://lwn.net/Articles/1098599/</guid>
-            <pubDate>Mon, 05 Oct 2026 13:11:21 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Picard 3.0 released</title>
-            <link>https://lwn.net/Articles/1098600/</link>
-            <description><![CDATA[<p><a href="https://blog.metabrainz.org/2026/10/04/picard-3-0-released/">Version
-3.0</a> of the <a href="https://picard.musicbrainz.org/">MusicBrainz Picard</a>
-tag editor has been released. "<q>This release brings many changes, including an
-upgrade to Qt6, a completely new plugin system, several improvements to the user
-interface, cover art processing, [<a
-href="https://musicbrainz.org/doc/ISRC">International Standard Recording
-Code&#160;(ISRC)</a>] submission and many more.</q>"
-
-<p>LWN <a href="https://lwn.net/Articles/1066384/">covered</a> Picard in
-April.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1098600/</guid>
-            <pubDate>Mon, 05 Oct 2026 13:21:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>RustConf recordings</title>
-            <link>https://lwn.net/Articles/1098610/</link>
-            <description><![CDATA[<p>
-The Rust Foundation has posted the
-<a href="https://youtube.com/playlist?list=PLCIkLZab-UIM&si=3D0SOWZ4GWCtD5GC">recordings</a> from
-<a href="https://rustconf.com/">RustConf 2026</a> in Montreal, Canada.
-<a href="https://www.flickr.com/photos/rustfoundation/collections/72157725686653391/">
-Photos</a> of the event are also available. LWN covered
-<a href="https://lwn.net/Archives/ConferenceIndex/#RustConf-2026">
-four talks from RustConf</a> this year.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1098610/</guid>
-            <pubDate>Mon, 05 Oct 2026 15:11:11 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
