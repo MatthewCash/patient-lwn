@@ -8,11 +8,71 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 13 Oct 2026 05:34:54 +0000</pubDate>
-        <lastBuildDate>Tue, 13 Oct 2026 08:08:13 +0000</lastBuildDate>
+        <pubDate>Tue, 13 Oct 2026 15:55:31 +0000</pubDate>
+        <lastBuildDate>Tue, 13 Oct 2026 15:59:22 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Asterinas 0.19.0 released</title>
+            <link>https://lwn.net/Articles/1100055/</link>
+            <description><![CDATA[<a href="https://asterinas.github.io/">Asterinas</a> is a project to build
+a new operating-system kernel in Rust; it was <a
+href="https://lwn.net/Articles/1022920/">covered here</a> in 2025.  <a
+href="https://asterinas.github.io/2026/10/13/announcing-asterinas-0.19.0.html">Version
+0.19.0</a> of the Asterinas kernel has been released; changes include a new
+graphics subsystem capable of running X.org, "<q>minimal but usable</q>"
+64-bit Arm support, better virtualization support, and more.]]></description>
+            <guid>https://lwn.net/Articles/1100055/</guid>
+            <pubDate>Tue, 13 Oct 2026 12:55:20 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1100181/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cjose, curl, emacs, environment-modules, flatpak, flatpak-builder, gd, glibc, kernel, libxml2, pcre2, and rsyslog), <b>Debian</b> (chromium, keystone, libgit2, librsvg, nagios4, and ntfs-3g), <b>Fedora</b> (baresip, bcm283x-firmware, curl, flare-im, GitPython, iperf3, kernel, libebml, libmatroska, libre, mkvtoolnix, python-mkdocs-rss-plugin, radicale, uboot-tools, and xiphos), <b>Mageia</b> (antlr4-project, cjose, cups, firefox, nss, golang, libextractor, nginx, ntfs-3g, openvpn, perl-DBI, perl-Imager, polkit, rsync, strongswan, thunderbird, tor, ugrep, vlc, and wireshark), <b>Oracle</b> (bind, bind9.16, cjose, compat-openssl10, compat-openssl11, curl, dovecot, emacs, flatpak, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, mod_auth_openidc, nodejs:22, tftp, and thunderbird), <b>SUSE</b> (bind, gcc13, gcc48, ghostscript, go1.26, go1.27, helm, libpng16, librsvg, libsoup, libX11, libXi, python, python-anyio, python-Django, python-PyJWT, python-tornado6, python-urllib3, python310, python313-bugzilla, python313-cmarkgfm, python313-colander, python313-configobj, python313-confluent-kafka, python313-django-registration, python313-ecdsa, python313-httptools, python313-imagecodecs, python313-impacket, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, unbound, virtiofsd, and xorg-x11-server), and <b>Ubuntu</b> (ffmpeg, google-guest-agent, google-osconfig-agent, and libx11).]]></description>
+            <guid>https://lwn.net/Articles/1100181/</guid>
+            <pubDate>Tue, 13 Oct 2026 13:10:55 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Eisentraut: The reverts will continue until morale improves</title>
+            <link>https://lwn.net/Articles/1100182/</link>
+            <description><![CDATA[<p>PostgreSQL <a href="https://www.postgresql.org/community/contributors/">core
+team member</a> Peter Eisentraut has written a <a
+href="https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves">blog
+post</a> reflecting on the "<q>unusually high number of features</q>" that have
+been taken out of the upcoming PostgreSQL&#160;19 release since the beta period
+began.</p>
+
+<blockquote class="bq">
+<p>Some of the reverted features had significant architectural defects that
+would have been hard to fix quickly and during beta. But there was also a long
+tail of relatively harmless issues involving various edge cases. In past times,
+many of these would not have surfaced until much later and we would have fixed
+them bit by bit over the subsequent five years. But with LLM-assisted code
+review, these kinds of things can get found much faster, and then you're staring
+at a list of like forty defect reports. And even if each of them requires only a
+three-line fix on average, there is a fixed overhead to dealing with each of
+these, and then you run out of time. Most if not all of the affected reverted
+features were written a long time ago when LLM-assisted code review was not as
+useful as it is now, meaning that the effective quality bar has been raised
+after the time the feature was written and committed. Unless the capabilities of
+LLM-assisted code review keep improving at the current rate, this situation
+should sort itself out for future development cycles.</p>
+
+<p>A corollary of that is that, at least for the most part, as far as I can
+tell, this situation is not due to "vibe coding". This code was written well
+before that was a possibility.</p>
+</blockquote>
+
+<p>LWN <a href="https://lwn.net/Articles/1092003/">covered</a> the unusually
+large number of bug fixes required for PostgreSQL&#160;19 features in
+September.</p>]]></description>
+            <guid>https://lwn.net/Articles/1100182/</guid>
+            <pubDate>Tue, 13 Oct 2026 13:21:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1099949/</link>
@@ -317,46 +377,6 @@ latest and greatest shiny fruit products will not be able to run this.)</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1099206/</guid>
             <pubDate>Wed, 07 Oct 2026 13:26:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1098979/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gd, gimp, kernel, kernel-rt, libpcap, librabbitmq, mariadb-connector-c, osbuild-composer, ruby:2.5, and sudo), <b>Debian</b> (libmodule-cpants-analyse-perl, libpng1.6, libreoffice, roundcube, ruby-oauth2, and sabnzbdplus), <b>Fedora</b> (0install, alt-ergo, apron, brltty, chromium, coccinelle, cri-o1.36, emacs-common-tuareg, flocq, frama-c, freetennis, gappalib-coq, guestfs-tools, haxe, hevea, hivex, kernel, lem, libguestfs, libnbd, nbdkit, not-ocamlfind, ocaml, ocaml-afl-persistent, ocaml-alcotest, ocaml-astring, ocaml-atd, ocaml-augeas, ocaml-b0, ocaml-base, ocaml-base64, ocaml-benchmark, ocaml-bin-prot, ocaml-biniou, ocaml-bisect-ppx, ocaml-bos, ocaml-cairo, ocaml-calendar, ocaml-camlbz2, ocaml-camlidl, ocaml-camlimages, ocaml-camlp-streams, ocaml-camlp5, ocaml-camlp5-buildscripts, ocaml-camlpdf, ocaml-camomile, ocaml-capitalization, ocaml-cinaps, ocaml-cmdliner, ocaml-compiler-libs-janestreet, ocaml-cpdf, ocaml-cppo, ocaml-crowbar, ocaml-cryptokit, ocaml-csexp, ocaml-csv, ocaml-ctypes, ocaml-cudf, ocaml-curl, ocaml-curses, ocaml-dbus, ocaml-domain-name, ocaml-dose3, ocaml-dune, ocaml-easy-format, ocaml-expat, ocaml-extlib, ocaml-facile, ocaml-fieldslib, ocaml-fileutils, ocaml-findlib, ocaml-fmt, ocaml-fpath, ocaml-gen, ocaml-gettext, ocaml-graphics, ocaml-gsl, ocaml-integers, ocaml-intrinsics-kernel, ocaml-jane-street-headers, ocaml-jsonm, ocaml-jst-config, ocaml-lablgl, ocaml-lablgtk, ocaml-lablgtk3, ocaml-labltk, ocaml-lacaml, ocaml-lambda-term, ocaml-libvirt, ocaml-linenoise, ocaml-logs, ocaml-luv, ocaml-lwt, ocaml-mccs, ocaml-mdx, ocaml-menhir, ocaml-merlin, ocaml-mew, ocaml-mew-vi, ocaml-mlgmpidl, ocaml-mlmpfr, ocaml-monolith, ocaml-mtime, ocaml-mysql, ocaml-num, ocaml-obuild, ocaml-ocamlbuild, ocaml-ocamlgraph, ocaml-ocamlnet, ocaml-ocp-indent, ocaml-ocplib-endian, ocaml-ocplib-simplex, ocaml-omake, ocaml-omd, ocaml-opam-0install-cudf, ocaml-opam-file-format, ocaml-ounit, ocaml-parmap, ocaml-parsexp, ocaml-patch, ocaml-pcre2, ocaml-perl4caml, ocaml-postgresql, ocaml-pp, ocaml-pprint, ocaml-ppx-assert, ocaml-ppx-base, ocaml-ppx-bench, ocaml-ppx-bin-prot, ocaml-ppx-cold, ocaml-ppx-compare, ocaml-ppx-custom-printf, ocaml-ppx-derivers, ocaml-ppx-deriving, ocaml-ppx-deriving-yaml, ocaml-ppx-deriving-yojson, ocaml-ppx-enumerate, ocaml-ppx-expect, ocaml-ppx-fields-conv, ocaml-ppx-globalize, ocaml-ppx-hash, ocaml-ppx-here, ocaml-ppx-inline-test, ocaml-ppx-let, ocaml-ppx-optcomp, ocaml-ppx-sexp-conv, ocaml-ppx-stable-witness, ocaml-ppx-variants-conv, ocaml-ppxlib, ocaml-ppxlib-jane, ocaml-psmt2-frontend, ocaml-ptmap, ocaml-pyml, ocaml-qcheck, ocaml-qtest, ocaml-re, ocaml-react, ocaml-res, ocaml-result, ocaml-rresult, ocaml-SDL, ocaml-sedlex, ocaml-sexplib, ocaml-sexplib0, ocaml-sha, ocaml-spdx-licenses, ocaml-sqlite, ocaml-ssl, ocaml-stdcompat, ocaml-stdio, ocaml-stdlib-random, ocaml-store, ocaml-swhid-core, ocaml-testo, ocaml-time-now, ocaml-topkg, ocaml-trie, ocaml-unionfind, ocaml-uucd, ocaml-uucp, ocaml-uunf, ocaml-uuseg, ocaml-uutf, ocaml-variantslib, ocaml-version, ocaml-xml-light, ocaml-xmlm, ocaml-xmlrpc-light, ocaml-yaml, ocaml-yamlx, ocaml-yojson, ocaml-zarith, ocaml-zed, ocaml-zip, ocaml-zmq, ocamlify, ocamlmod, opam, perl-DBI, planets, plplot, prooftree, python3.12, rocq, rocq-stdlib, supermin, unison, utop, virt-top, virt-v2v, why3, xen, z3, and zenon), <b>Oracle</b> (bind, expat, gawk, gdb, ghostscript, gimp, gvfs, kernel, libpcap, libvirt, mod_auth_openidc, openssh, rsync, thunderbird, and webkit2gtk3), <b>Red Hat</b> (vim), <b>Slackware</b> (cups), <b>SUSE</b> (apache-sshd, binutils, cups, docker-stable, java-11-openjdk, libraw-devel, libX11, pcre2, perl-DBI, python-msgpack, python312, python313-tokenizers, rpcbind, rpm, rubygem-rails-html-sanitizer, squid, sssd, terraform-provider-susepubliccloud, valkey, and wpa_supplicant), and <b>Ubuntu</b> (aodh, watcher, edk2, libreoffice, libxmltok, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-oracle, linux-realtime, linux-xilinx-zynqmp, linux-azure-5.4, linux-azure-fde, linux-gcp, linux-gcp-fips, linux-gcp-5.15, linux-oracle-5.15, linux-raspi, rabbitmq-server, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1098979/</guid>
-            <pubDate>Tue, 06 Oct 2026 13:12:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenSSH 10.6 released</title>
-            <link>https://lwn.net/Articles/1098980/</link>
-            <description><![CDATA[<a href="https://www.openssh.org/txt/release-10.6">Version 10.6</a> of OpenSSH
-has been released. The announcement notes that the OpenSSH team has been
-receiving a large number of AI-assisted security bug reports. "<q>We very much
-welcome these reports, especially when combined with human triage, analysis,
-test-cases and particularly when accompanied by proposed fixes</q>". As a
-result, the project expects to be making more frequent releases to get updates
-to users more quickly rather than batching the bug fixes until the next planned
-release.</p>
-
-<p>Notable changes in this release include enabling the hybrid post-quantum
-ssh-mldsa44-ed25519 signature algorithm, addition of a <tt>-p</tt> option for <a
-href="https://man.openbsd.org/sftp"><tt>sftp</tt></a>'s <a
-href="https://man.openbsd.org/sftp#lmkdir"><tt>lmkdir</tt></a>/<a
-href="https://man.openbsd.org/sftp#mkdir"><tt>mkdir</tt></a> commands, as well
-as disabling the LZ77 dictionary coder in <a
-href="https://man.openbsd.org/ssh"><tt>ssh</tt></a> and <a
-href="https://man.openbsd.org/sshd"><tt>sshd</tt></a> to mitigate side-channel
-leaks (which will result in reduced effectiveness of the Compression
-option). The <a
-href="https://man.openbsd.org/scp#R"><tt>scp&#160;-R</tt></a> option, which
-allows copies between two remote hosts, is being deprecated due to security
-risks; the option will be ignored in the future. See the announcement for full
-details of all changes and bug fixes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1098980/</guid>
-            <pubDate>Tue, 06 Oct 2026 13:42:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
