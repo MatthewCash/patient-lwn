@@ -8,11 +8,28 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 13 Oct 2026 15:55:31 +0000</pubDate>
-        <lastBuildDate>Tue, 13 Oct 2026 15:59:22 +0000</lastBuildDate>
+        <pubDate>Tue, 13 Oct 2026 20:32:59 +0000</pubDate>
+        <lastBuildDate>Tue, 13 Oct 2026 21:08:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Nix and Lix local root-privilege-escalation vulnerabilities</title>
+            <link>https://lwn.net/Articles/1100247/</link>
+            <description><![CDATA[<p>The <a href="https://lix.systems/">Lix</a> and <a
+href="https://nixos.org/">Nix</a> projects have <a
+href="https://lwn.net/ml/all/CAPC5pGTROE2ouaN1uV9Q%2B6a%2BsUym-yijZYtvL8%3DTP6c%2BSUqL1g%40mail.gmail.com/">jointly
+disclosed</a> a set of vulnerabilities that can be used to escalate privileges
+to root on systems running the Lix or Nix daemons. "<q>All systems that build
+untrusted derivations are affected.</q>" Releases with fixes from each project
+are available today. CVE IDs have not yet been requested. See the announcement
+for more details on the vulnerabilities.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1100247/</guid>
+            <pubDate>Tue, 13 Oct 2026 16:13:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Asterinas 0.19.0 released</title>
             <link>https://lwn.net/Articles/1100055/</link>
