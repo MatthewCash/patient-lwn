@@ -8,11 +8,86 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 Oct 2026 10:10:32 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Oct 2026 10:14:58 +0000</lastBuildDate>
+        <pubDate>Wed, 14 Oct 2026 15:07:54 +0000</pubDate>
+        <lastBuildDate>Wed, 14 Oct 2026 15:12:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1100426/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind9.18, dovecot, flatpak, gd, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, opentelemetry-collector, pcre2, and tftp), <b>Debian</b> (curl and keystone), <b>Fedora</b> (aegisub, arm-none-eabi-binutils-cs, avr-binutils, chromium, curl, firefox, kernel, python-jupytext, and xdg-dbus-proxy), <b>Mageia</b> (apache, freeciv, gnumeric, mingw-gdk-pixbuf, and patool), <b>Red Hat</b> (cockpit-image-builder, fence-agents, firefox, ipa, kernel, kernel-rt, pcre2, python-tornado, qt6-qtdeclarative, thunderbird, and webkit2gtk3), <b>Slackware</b> (expat), <b>SUSE</b> (bind, busybox, containerd, cups-filters, fixme, gimp, glibc, google-osconfig-agent, kernel, libtcnative-2-0, openssh, openssl-3, php8, podman, python-oauthlib, python-PyJWT, python-urllib3, python-virtualenv, python311, python313-jupyter-server, python313-kubernetes, python313-logilab-common, python313-markdown-it-py, python313-markdown2, python313-marshmallow, python313-mpmath, python313-mysql-connector-python, python313-oci-sdk, python313-oic, unbound, wpa_supplicant, xen, and xorg-x11-server), and <b>Ubuntu</b> (kernel, libyaml-perl, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux, linux-aws, linux-aws-fips, linux-fips, linux-gcp, linux-gcp-fips, linux-gke, linux-gkeop, linux-ibm, linux-lowlatency, linux-oracle, linux-realtime, linux, linux-aws, linux-azure, linux-azure-5.4, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux-aws-5.4, linux-aws-fips, linux-azure-fips, linux-ibm, linux-ibm-5.4, linux-azure, linux-azure-fde, linux-azure-fips, linux-oracle, and pyjwt).]]></description>
+            <guid>https://lwn.net/Articles/1100426/</guid>
+            <pubDate>Wed, 14 Oct 2026 13:02:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>KDE Plasma 6.8 released</title>
+            <link>https://lwn.net/Articles/1100429/</link>
+            <description><![CDATA[<p><a href="https://kde.org/announcements/plasma/6/6.8.0/">Version 6.8</a> of
+the <a href="https://kde.org/plasma-desktop/">KDE Plasma desktop</a> has been
+released. The The KDE project has timed the release to coincide with the 30th
+anniversary of Matthias Ettrich's <a
+href="https://kde.org/announcements/announcement/">email announcing</a> the
+project:</p>
+
+<blockquote class="bq">
+Unix popularity grows thanks to the free variants, mostly Linux. But still a
+consistent, nice looking free desktop-environment is missing. There are several
+nice either free or low-priced applications available, so that Linux/X11 would
+almost fit everybody needs if we could offer a real GUI.
+</blockquote>
+
+<p>Notable changes include accessibility improvements, inclusion
+of the <a href="https://github.com/KDE/kup#kup-backup-system">Kup</a> backup
+tool as part of Plasma, as well as the ability to include system audio and
+microphone input in <a href="https://apps.kde.org/spectacle/">Spectacle</a>
+screen recordings. Plasma 6.8 also drops support for Plasma X11 sessions, as was <a
+href="https://blogs.kde.org/2025/11/26/going-all-in-on-a-wayland-future/">announced</a>
+in November 2025. X11 applications are still supported via XWayland, and KDE
+applications will continue to support X11 "<q>for the foreseeable
+future</q>".</p>
+
+<p>See the <a
+href="https://community.kde.org/Plasma/Plasma_6#Plasma_6.8">KDE wiki</a> for a
+list of major user-facing changes, and the <a
+href="https://kde.org/announcements/changelogs/plasma/6/6.7.5-6.8.0/">changelog</a>
+for all changes since Plasma&#160;6.7.5.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1100429/</guid>
+            <pubDate>Wed, 14 Oct 2026 13:41:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Linus Torvalds&apos;s first LLM-assisted patch series</title>
+            <link>https://lwn.net/Articles/1100449/</link>
+            <description><![CDATA[At the recently concluded <a href="https://lwn.net/Articles/1099594/">Maintainers
+Summit</a>, Linus Torvalds said that he had been using a large language
+model to work on a patch series addressing a longstanding problem; he has
+now <a
+href="https://lwn.net/ml/all/CAHk-=wjLjgfwgSZ1RDk4YdNFcV0ntosMO5AmBoHD76Zb3HFY7Q@mail.gmail.com">posted
+that series for review</a>.
+<p>
+<blockquote class="bq">
+	The fairly short series of ten patches basically enhances folio
+	lookup by noticing when folios are hot, and setting a "delay
+	releasing this folio until after a RCU period", and then using that
+	RCU delay it does not just the folio lookup itself under RCU (which
+	we've done forever), but also the actual folio data accesses
+	themselves under RCU. No refcount taking needed for the fastpath
+	where we can just read the data from the folio entirely in an
+	RCU-protected region when the user copy doesn't cause page faults.
+</blockquote>
+<p>
+The end result is an order-of-magnitude speedup for a <tt>read()</tt>-heavy
+benchmark.  Review has already <a
+href="https://lwn.net/ml/all/as6vBoWQGglxXxb0@thinkstation">identified a race
+condition</a> in the code, though, so further work will be needed.]]></description>
+            <guid>https://lwn.net/Articles/1100449/</guid>
+            <pubDate>Wed, 14 Oct 2026 13:50:29 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Nix and Lix local root-privilege-escalation vulnerabilities</title>
             <link>https://lwn.net/Articles/1100247/</link>
