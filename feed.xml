@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 14 Oct 2026 15:07:54 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Oct 2026 15:12:44 +0000</lastBuildDate>
+        <pubDate>Wed, 14 Oct 2026 19:17:07 +0000</pubDate>
+        <lastBuildDate>Wed, 14 Oct 2026 19:25:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -428,48 +428,6 @@ available</a> on GitHub.
             <guid>https://lwn.net/Articles/1095721/</guid>
             <pubDate>Thu, 24 Sep 2026 14:26:30 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1099202/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, dovecot, freerdp, kernel, mariadb-connector-c, mod_auth_openidc, nodejs22, nodejs:22, sudo, and vim), <b>Debian</b> (node-shell-quote, puma, rails, ruby-jwt, and suricata-update), <b>Fedora</b> (chromium, cockpit, flocq, freerdp, gappalib-coq, golang-x-mod, httpd, janus, libical, musescore, python3-docs, python3.14, python3.15, rocq, rocq-stdlib, tesseract, why3, and zenon), <b>Mageia</b> (srt and tor), <b>Oracle</b> (freerdp, kernel, libpcap, mariadb-connector-c, nodejs22, sudo, and vim), <b>Red Hat</b> (expat and grafana), <b>Slackware</b> (openssh), <b>SUSE</b> (chromium, docker-stable, firefox, jupyter-jupyterlab, libtcnative-1-0, tomcat, tomcat10, libtcnative-1-0, tomcat11, openexr, python310, python313-azure-storage-queue, python313-langchain-anthropic, python313-sglang, python313-Werkzeug, and valkey), and <b>Ubuntu</b> (fluidsynth, freerdp3, freetype, golang-1.18, golang-1.21, golang-1.24, gst-plugins-good1.0, libsoup2.4, libsoup3, libwebsockets, linux, linux-aws, linux-gcp, linux-gke, linux-ibm, linux-oracle, linux-realtime, linux-azure, linux-azure-fde, linux-nvidia-tegra, linux-oem-7.0, redis, sg3-utils, tesseract, and u-boot).]]></description>
-            <guid>https://lwn.net/Articles/1099202/</guid>
-            <pubDate>Wed, 07 Oct 2026 13:08:53 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>A new Raspberry Pi Desktop release is finally available for x86-64</title>
-            <link>https://lwn.net/Articles/1099206/</link>
-            <description><![CDATA[<p>Simon Long has <a
-href="https://www.raspberrypi.com/news/raspberry-pi-desktop-now-available-for-pc-and-mac/">announced</a>
-a long-awaited release of Raspberry Pi OS, based on <a
-href="https://www.debian.org/releases/trixie/">Debian&#160;13 ("trixie")</a>,
-for x86-64 systems.</p>
-
-<blockquote class="bq">
-<p>We managed to find the time to update the Desktop for the Buster and Bullseye
-releases of Debian, but then we all just got too busy with other things, and,
-while we left the Bullseye version on the website for anyone who wanted it, we
-simply didn't have time to release any newer versions. But people kept on asking
-for it – we get two or three emails every week asking when the PC Desktop will
-be updated, and we haven't had an answer, because we honestly didn't know when
-we might get a chance to do it. We've continually tried to allocate time to be
-able to work on this, but it hasn't been easy. [...]</p>
-
-<p>Earlier this year, we (or rather Serge) finally got the latest version of the
-Desktop running on top of a Debian Trixie image. It's now based on 64-bit Debian
-(the amd64 architecture) rather than the older 32-bit version, as Debian itself
-has stopped supporting 32-bit for PC architectures. This shouldn't be a major
-problem – most PCs made in the last 15 years or so will quite happily run the
-64-bit version of Debian, as will most Intel-based Macs. (Debian support for
-Apple Silicon is still experimental, so unfortunately those of you with the
-latest and greatest shiny fruit products will not be able to run this.)</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1099206/</guid>
-            <pubDate>Wed, 07 Oct 2026 13:26:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
