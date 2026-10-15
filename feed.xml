@@ -8,11 +8,95 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 15 Oct 2026 09:18:04 +0000</pubDate>
-        <lastBuildDate>Thu, 15 Oct 2026 10:20:19 +0000</lastBuildDate>
+        <pubDate>Thu, 15 Oct 2026 15:09:15 +0000</pubDate>
+        <lastBuildDate>Thu, 15 Oct 2026 15:13:49 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Seven stable kernels for Thursday with fix for critical vulnerability</title>
+            <link>https://lwn.net/Articles/1100611/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1100616/">7.2.11</a>, <a href="https://lwn.net/Articles/1100617/">6.18.57</a>,
+<a href="https://lwn.net/Articles/1100618/">6.12.113</a>, <a
+href="https://lwn.net/Articles/1100619/">6.6.159</a>, <a href="https://lwn.net/Articles/1100620/">6.1.190</a>,
+<a href="https://lwn.net/Articles/1100621/">5.15.223</a>, and <a
+href="https://lwn.net/Articles/1100622/">5.10.272</a> stable kernels. This series includes,
+among other things, a <a
+href="https://lwn.net/ml/all/2026101533-CVE-2026-99999-beee%40gregkh/">fix for a
+critical vulnerability</a> (<a
+href="https://www.cve.org/CVERecord/?id=CVE-2026-99999">CVE-2026-99999</a>). The
+flaw in <a
+href="https://www.kernel.org/doc/html/latest/networking/checksum-offloads.html"><tt>skb_checksum_help()</tt></a>
+would allow an IPv4 packet with bad checksum metadata to "<q>corrupt the network
+header and cause a bunch of mischief</q>" in the words of patch author Michael
+S. Tsirkin. As usual, all users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1100611/</guid>
+            <pubDate>Thu, 15 Oct 2026 13:01:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1100785/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (environment-modules, flatpak-builder, kernel, kernel-rt, librabbitmq, libreoffice, libsoup, mod_auth_openidc:2.3, nodejs:22, nodejs:24, OpenEXR, opentelemetry-collector, pki-core:10.6, postgresql:12, python-tornado, python36:3.6, ruby:3.3, tftp, and xorg-x11-server), <b>Debian</b> (buildstream, firefox-esr, mariadb, and sogo), <b>Fedora</b> (exim, freerdp, python3-docs, and python3.14), <b>Mageia</b> (drakx-installer-images, kernel, kmod-nvidia-current-wopengpu, kmod-virtualbox), <b>Oracle</b> (curl, emacs, environment-modules, flatpak, flatpak-builder, gd, hplip, kbd, kernel, librabbitmq, libreoffice, libxml2, microcode_ctl, mod_auth_openidc:2.3, nodejs:22, OpenEXR, pcre2, perl-DBI, python-tornado, rsyslog, tftp, thunderbird, and xorg-x11-server), <b>Red Hat</b> (compat-libtiff3, firefox, ghostscript, idm:DL1, ipa, kernel, kernel-rt, libtiff, lrzsz, and mariadb-connector-c), <b>Slackware</b> (libarchive), <b>SUSE</b> (amazon-cloudwatch-agent, bind, container-suseconnect, containerd, glibc, google-osconfig-agent, helm, kernel, python312, python313-oletools, python313-openpyxl, python313-orjson, python313-paramiko, python313-pipreqs, python313-py, python313-pycryptodome, python313-pycryptodomex, python313-pydrive2, python313-python-engineio, webkit2gtk3, and xorg-x11-server), and <b>Ubuntu</b> (apache2, bind9, bluez, curl, openssh, python-urllib3, and u-boot).]]></description>
+            <guid>https://lwn.net/Articles/1100785/</guid>
+            <pubDate>Thu, 15 Oct 2026 13:09:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Ubuntu 26.10 released</title>
+            <link>https://lwn.net/Articles/1100786/</link>
+            <description><![CDATA[<p>Canonical has <a
+href="https://ubuntu.com/blog/canonical-releases-ubuntu-26-10-stonking-stingray">announced
+the release</a> of Ubuntu&#160;26.10 ("Stonking Stingray"):</p>
+
+<blockquote class="bq">
+<p>Ubuntu 26.10 advances enterprise security features, completes the rollout of
+the Rust-based <tt>uutils coreutils</tt>, and strengthens integrations for user
+authentication using Microsoft Entra ID.</p>
+
+<p>[...] Ubuntu 26.10 also ships with GNOME 51, bringing a smoother, more
+responsive desktop, better display handling, improved accessibility, and
+refinements across core applications. In addition, the Ubuntu App Center now
+provides a more consistent experience for managing snaps and debs.</p>
+</blockquote>
+
+<p>See the <a
+href="https://documentation.ubuntu.com/release-notes/26.10/">release notes</a>
+for a list of new features as well as <a
+href="https://documentation.ubuntu.com/release-notes/26.10/#backwards-incompatible-changes">incompatible
+changes</a> between 26.10 and prior Ubuntu releases.</p>]]></description>
+            <guid>https://lwn.net/Articles/1100786/</guid>
+            <pubDate>Thu, 15 Oct 2026 13:19:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>KDE releases documentary</title>
+            <link>https://lwn.net/Articles/1100787/</link>
+            <description><![CDATA[<p>As part of <a href="https://kde.org/fundraisers/yearend2026/">KDE's 30th
+anniversary celebration</a>, the project has released <em>The KDE Documentary
+&mdash; A Story of Free Software Underdogs</em> (<a
+href="https://www.youtube.com/watch?v=1Vyzla9mx4g">YouTube video</a>):</p>
+
+<blockquote class="bq">
+<p>The story starts in 1996, when Matthias Ettrich, a student at the University
+of Tübingen, posted to a Usenet group asking for programmers to help build a
+desktop for Linux. What followed became KDE, one of the largest free software
+communities in the world. KDE made Linux usable as a desktop for people who
+weren't system administrators, giving it a complete, consistent graphical
+environment at a time when there was none.</p>
+
+<p>The film covers the highs and lows of three decades of KDE: the Qt licensing
+fight and the rivalry with GNOME; the success of KHTML, the browser engine that
+became the basis of Apple's WebKit and Google's Chrome; and the contentious
+release of KDE 4 and the rebuild that followed.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1100787/</guid>
+            <pubDate>Thu, 15 Oct 2026 13:24:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 8, 2026</title>
             <link>https://lwn.net/Articles/1097859/</link>
