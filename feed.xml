@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 19 Oct 2026 03:55:40 +0000</pubDate>
-        <lastBuildDate>Mon, 19 Oct 2026 06:52:32 +0000</lastBuildDate>
+        <pubDate>Mon, 19 Oct 2026 14:21:19 +0000</pubDate>
+        <lastBuildDate>Mon, 19 Oct 2026 14:21:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1101421/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), <b>Debian</b> (apache2, cifs-utils, haproxy, jq, kernel, and xen), <b>Fedora</b> (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6, qt5-qtbase, radicale, rust-faster-hex, rust-onefetch, SDL3_image, syncthing, thunderbird, tor, webkitgtk, and wordpress), <b>Mageia</b> (curl, libreoffice, mozjs140, mutt, nodejs-braces, parted, perl-Net-Whois-Raw, perl-XS-Parse-Keyword, and python-django), <b>Oracle</b> (kernel, kernel-uek, python36:3.6, and wireshark), <b>Red Hat</b> (gvfs, kernel, and kernel-rt), <b>Slackware</b> (libXtst), and <b>SUSE</b> (agama, ansible-core, bcel, bind, buildah, busybox, cadvisor, chromium, cosign, cups-filters, distribution-registry, fetchmail, gcc13, ghostscript, gimp, glib2, go1.26, go1.27, golang-github-lusitaniae-apache_exporter, golang-github-prometheus-alertmanager, google-osconfig-agent, grype-db, hauler, hawk2, helm, ImageMagick, iperf, kernel, libheif, libpng16, librsvg, libsoup, libsoup2, libthrift-0_25_0, libx11, libxi, libxpm, mutt, ntfs-3g_ntfsprogs, nvidia-open-driver-g07-signed, nvidia-open-driver-G07-signed-check, openssl-3, openvpn, p11-kit, pacemaker, perl-xs-parse-keyword, pgvector, php8, podman, psqlodbc, python-anyio, python-hpack, python-jwcrypto, python-oauthlib, python-pyjwt, python-tornado6, python-urllib3, python-virtualenv, python313-ruff, python313-social-auth-app-django, python313-urllib3, python313-urllib3_1, python313-validators, python313-waitress, python313-zipp, qemu, qsnapper, squid, strongswan, stunnel, swtpm, unbound, virtiofsd, webkit2gtk3, xen, and xwayland).]]></description>
+            <guid>https://lwn.net/Articles/1101421/</guid>
+            <pubDate>Mon, 19 Oct 2026 13:10:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>The 7.3 kernel has been released</title>
             <link>https://lwn.net/Articles/1101143/</link>
@@ -522,24 +530,6 @@ you read that right: We're early this year!</p>
             <guid>https://lwn.net/Articles/1099950/</guid>
             <pubDate>Mon, 12 Oct 2026 13:13:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.3-rc7</title>
-            <link>https://lwn.net/Articles/1099798/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1099809/">7.3-rc7</a> kernel prepatch is out for
-testing.  According to Linus: "<q>As always, I would have preferred to see a smaller
-rc, but it's not like anything in here looks like a reason to delay
-the final release. So that's still set for next weekend unless
-something new comes up.</q>"
-<p>
-
-One notable change that slipped into the mainline this week is the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3e78d7b06323">deprecation</a>
-of the ext4 <tt>data=journal</tt> mode; it will be removed entirely at the
-beginning of 2028.]]></description>
-            <guid>https://lwn.net/Articles/1099798/</guid>
-            <pubDate>Mon, 12 Oct 2026 03:31:34 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
