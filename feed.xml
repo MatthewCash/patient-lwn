@@ -8,11 +8,77 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 20 Oct 2026 12:13:09 +0000</pubDate>
-        <lastBuildDate>Tue, 20 Oct 2026 13:00:38 +0000</lastBuildDate>
+        <pubDate>Tue, 20 Oct 2026 17:28:17 +0000</pubDate>
+        <lastBuildDate>Tue, 20 Oct 2026 17:55:36 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1101617/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (environment-modules, kernel, pcs, perl-URI, python3.14-urllib3, and webkit2gtk3), <b>Debian</b> (python-django), <b>Fedora</b> (bind, bind-dyndb-ldap, chromium, cifs-utils, curl, haveged, python3.15, qt5-qtbase, rust-rbw, rust-routinator, rust-rustls, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Mageia</b> (firefox, firefox-l10n, nss, flatpak-builder, imagemagick, libpng, libxi, libxpm, libxtst, openssh, postgis, and thunderbird), <b>Oracle</b> (emacs, environment-modules, libsoup, perl-URI, python3.14-urllib3, webkit2gtk3, and xorg-x11-server), <b>Red Hat</b> (go-fdo-client, go-fdo-server, golang, kernel, kernel-rt, openssh, postgresql:16, postgresql:18, and rust-sequoia-sq), <b>SUSE</b> (alsa, AusweisApp, chromedriver, ffmpeg-4, kubernetes, libsoup2, nvidia-open-driver-G07-signed, p11-kit, perl-Net-OAuth, perl-Net-Whois-Raw, pgvector-devel, pi-coding-agent, podman, python, python3, python3-base, python3-doc, python315, python36, thunderbird, and velociraptor), and <b>Ubuntu</b> (cifs-utils, curl, golang-1.22, libxtst, openssh, openssh-gssapi, and php8.5, php8.3, php8.1, php7.4, php7.2, php7.0, php5).]]></description>
+            <guid>https://lwn.net/Articles/1101617/</guid>
+            <pubDate>Tue, 20 Oct 2026 13:06:38 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>OpenBSD 8.0 released</title>
+            <link>https://lwn.net/Articles/1101536/</link>
+            <description><![CDATA[<p><a href="https://www.openbsd.org/80.html">OpenBSD 8.0</a> has been
+released. There are many new features, including the addition of hibernate
+support for arm64, an increase in the kernel virtual address space for amd64 to
+512GB, quite a few improvements for the <a
+href="https://man.openbsd.org/qwx.4"><tt>qwx</tt></a> driver that supports
+Qualcomm&#160;WiFi&#160;6 devices, and much more. See <a
+href="https://www.openbsd.org/plus80.html">the full changelog</a> for
+details.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1101536/</guid>
+            <pubDate>Tue, 20 Oct 2026 13:07:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>eMudhra intermediate CA compromise</title>
+            <link>https://lwn.net/Articles/1101643/</link>
+            <description><![CDATA[<p>Mozilla has <a
+href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/">announced</a>
+that it has received a <a href="https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/0R3XLJL6FuE/m/0XofdebrAAAJ">report</a> that private keys associated with eight <a
+href="https://emudhra.com/en-us/">eMudhra</a> intermediate certificates have
+been compromised:</p>
+
+<blockquote class="bq">
+These keys could allow attackers to issue fraudulent HTTPS certificates for
+websites they do not control. An attacker who could intercept a user's
+connection could use those certificates to impersonate websites and potentially
+read or modify traffic.
+</blockquote>
+
+<p>Mozilla has blocked the affected certificates using its <a
+href="https://blog.mozilla.org/security/2015/03/03/revoking-intermediate-certificates-introducing-onecrl/">OneCRL</a>
+centralized list of revoked certificates, and has updated the trusted
+certificate list in <a
+href="https://groups.google.com/a/mozilla.org/g/dev-tech-crypto/c/vSxZxnOMMvs">Network
+Security Services (NSS) 3.131.1</a>.</p>
+
+<p>There is a <a href="https://emudhra.we-have-a-problem.com/">single-page
+site</a> about the compromise that goes into more detail. According to the site
+the certificates have also been blocked in Chrome since October&#160;17, Apple
+devices since the 19th, and Microsoft blocked the certificates on the
+20th. There is also a table that displays whether a browser or other client
+still trusts the compromised certificates.</p>
+
+<p>The NetBSD foundation has <a
+href="https://mastodon.sdf.org/@netbsd/117473734072004396">issued
+instructions</a> to block the certificates on NetBSD installations. Users of
+other browsers and operating systems may wish to check for updates or guidance
+to disable the compromised certificates.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1101643/</guid>
+            <pubDate>Tue, 20 Oct 2026 14:56:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Linux Plumbers Conference videos now available</title>
             <link>https://lwn.net/Articles/1101483/</link>
@@ -451,66 +517,6 @@ for more details on the vulnerabilities.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1100247/</guid>
             <pubDate>Tue, 13 Oct 2026 16:13:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Asterinas 0.19.0 released</title>
-            <link>https://lwn.net/Articles/1100055/</link>
-            <description><![CDATA[<a href="https://asterinas.github.io/">Asterinas</a> is a project to build
-a new operating-system kernel in Rust; it was <a
-href="https://lwn.net/Articles/1022920/">covered here</a> in 2025.  <a
-href="https://asterinas.github.io/2026/10/13/announcing-asterinas-0.19.0.html">Version
-0.19.0</a> of the Asterinas kernel has been released; changes include a new
-graphics subsystem capable of running X.org, "<q>minimal but usable</q>"
-64-bit Arm support, better virtualization support, and more.]]></description>
-            <guid>https://lwn.net/Articles/1100055/</guid>
-            <pubDate>Tue, 13 Oct 2026 12:55:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1100181/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cjose, curl, emacs, environment-modules, flatpak, flatpak-builder, gd, glibc, kernel, libxml2, pcre2, and rsyslog), <b>Debian</b> (chromium, keystone, libgit2, librsvg, nagios4, and ntfs-3g), <b>Fedora</b> (baresip, bcm283x-firmware, curl, flare-im, GitPython, iperf3, kernel, libebml, libmatroska, libre, mkvtoolnix, python-mkdocs-rss-plugin, radicale, uboot-tools, and xiphos), <b>Mageia</b> (antlr4-project, cjose, cups, firefox, nss, golang, libextractor, nginx, ntfs-3g, openvpn, perl-DBI, perl-Imager, polkit, rsync, strongswan, thunderbird, tor, ugrep, vlc, and wireshark), <b>Oracle</b> (bind, bind9.16, cjose, compat-openssl10, compat-openssl11, curl, dovecot, emacs, flatpak, jackson-core, jackson-databind, jackson-jaxrs-providers, and jackson-modules-base, kernel, mod_auth_openidc, nodejs:22, tftp, and thunderbird), <b>SUSE</b> (bind, gcc13, gcc48, ghostscript, go1.26, go1.27, helm, libpng16, librsvg, libsoup, libX11, libXi, python, python-anyio, python-Django, python-PyJWT, python-tornado6, python-urllib3, python310, python313-bugzilla, python313-cmarkgfm, python313-colander, python313-configobj, python313-confluent-kafka, python313-django-registration, python313-ecdsa, python313-httptools, python313-imagecodecs, python313-impacket, terraform-provider-aws, terraform-provider-azurerm, terraform-provider-external, terraform-provider-google, terraform-provider-helm, terraform-provider-kubernetes, terraform-provid, thunderbird, unbound, virtiofsd, and xorg-x11-server), and <b>Ubuntu</b> (ffmpeg, google-guest-agent, google-osconfig-agent, and libx11).]]></description>
-            <guid>https://lwn.net/Articles/1100181/</guid>
-            <pubDate>Tue, 13 Oct 2026 13:10:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Eisentraut: The reverts will continue until morale improves</title>
-            <link>https://lwn.net/Articles/1100182/</link>
-            <description><![CDATA[<p>PostgreSQL <a href="https://www.postgresql.org/community/contributors/">core
-team member</a> Peter Eisentraut has written a <a
-href="https://peter.eisentraut.org/blog/2026/10/09/the-reverts-will-continue-until-morale-improves">blog
-post</a> reflecting on the "<q>unusually high number of features</q>" that have
-been taken out of the upcoming PostgreSQL&#160;19 release since the beta period
-began.</p>
-
-<blockquote class="bq">
-<p>Some of the reverted features had significant architectural defects that
-would have been hard to fix quickly and during beta. But there was also a long
-tail of relatively harmless issues involving various edge cases. In past times,
-many of these would not have surfaced until much later and we would have fixed
-them bit by bit over the subsequent five years. But with LLM-assisted code
-review, these kinds of things can get found much faster, and then you're staring
-at a list of like forty defect reports. And even if each of them requires only a
-three-line fix on average, there is a fixed overhead to dealing with each of
-these, and then you run out of time. Most if not all of the affected reverted
-features were written a long time ago when LLM-assisted code review was not as
-useful as it is now, meaning that the effective quality bar has been raised
-after the time the feature was written and committed. Unless the capabilities of
-LLM-assisted code review keep improving at the current rate, this situation
-should sort itself out for future development cycles.</p>
-
-<p>A corollary of that is that, at least for the most part, as far as I can
-tell, this situation is not due to "vibe coding". This code was written well
-before that was a possibility.</p>
-</blockquote>
-
-<p>LWN <a href="https://lwn.net/Articles/1092003/">covered</a> the unusually
-large number of bug fixes required for PostgreSQL&#160;19 features in
-September.</p>]]></description>
-            <guid>https://lwn.net/Articles/1100182/</guid>
-            <pubDate>Tue, 13 Oct 2026 13:21:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
