@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Oct 2026 18:40:34 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Oct 2026 18:57:33 +0000</lastBuildDate>
+        <pubDate>Wed, 21 Oct 2026 21:24:01 +0000</pubDate>
+        <lastBuildDate>Wed, 21 Oct 2026 22:10:34 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Today&apos;s PHP Security Release, and How We&apos;re Strengthening PHP Security (PHP Foundation)</title>
+            <link>https://lwn.net/Articles/1102060/</link>
+            <description><![CDATA[The PHP Foundation has put out <a
+href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">a
+blog entry</a> explaining how the vulnerabilities disclosed today came
+about and why they took so long to fix.
+<p>
+<blockquote class="bq">
+	To fix the OOM problem, the PHP security team developed several
+	competing approaches, but each came with its own trade-offs:
+	backward compatibility breaks, new denial-of-service potential, or
+	requiring changes to many third-party extensions which seemed
+	impossible to coordinate. The PHP security team, operating on
+	consensus, struggled to choose between these and feared the
+	repercussions of shipping the wrong choice. Combined with the lack
+	of a known path to remote code execution and the small team of core
+	developers with the necessary deep knowledge of the engine occupied
+	with many responsibilities, this decision process caused work on a
+	fix to stall and restart repeatedly over months. We won't pretend
+	otherwise: the delay was a structural failure, caused by both the
+	security team's decision process and its lack of resources.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1102060/</guid>
+            <pubDate>Wed, 21 Oct 2026 20:20:34 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</title>
             <link>https://lwn.net/Articles/1102024/</link>
