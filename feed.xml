@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 22 Oct 2026 00:36:07 +0000</pubDate>
-        <lastBuildDate>Thu, 22 Oct 2026 00:42:30 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Oct 2026 03:01:56 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Oct 2026 05:25:15 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -624,135 +624,6 @@ release of KDE 4 and the rebuild that followed.</p>
             <guid>https://lwn.net/Articles/1100787/</guid>
             <pubDate>Thu, 15 Oct 2026 13:24:31 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 8, 2026</title>
-            <link>https://lwn.net/Articles/1097859/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1097859/">Front</a>: Kernel bugs; Gentoo's Chromium package; Rust smart pointers; Sashiko; Charon; LAVD scheduler; Python random-number modules.
-            <li> <a href="https://lwn.net/Articles/1097861/">Briefs</a>: OpenSSH 10.6; RustConf recordings; Rust 1.99.0; Picard 3.0; Zig 0.17; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1097862/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1097859/</guid>
-            <pubDate>Thu, 08 Oct 2026 00:22:31 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Evolving the LAVD scheduler from gaming to servers</title>
-            <link>https://lwn.net/Articles/1097209/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/922405/">extensible scheduler class</a>, which
-enables the creation of custom CPU schedulers with BPF, has led to a burst
-of innovation in this area; <a
-href="https://github.com/sched-ext/scx/tree/main/scheds/rust/scx_lavd#scx_lavd">the
-LAVD scheduler</a> has, perhaps, been one of the most noteworthy schedulers
-to emerge.  Though it was originally <a href="https://lwn.net/Articles/1051430/">designed
-for gaming applications</a>, the LAVD scheduler has since grown to serve
-other types of workloads as well.  At the 2026 edition of <a
-href="https://kernel-recipes.org/en/2026/">Kernel Recipes</a>, Changwoo Min
-and Gavin Guo presented an overview of this scheduler and how it has
-evolved over time.]]></description>
-            <guid>https://lwn.net/Articles/1097209/</guid>
-            <pubDate>Wed, 07 Oct 2026 13:33:48 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Analyzing Rust programs with Charon</title>
-            <link>https://lwn.net/Articles/1097198/</link>
-            <description><![CDATA[<p>
-Nadrieril is a long-time Rust contributor, and the maintainer of the rustc
-pattern-matching infrastructure. During his involvement with Rust, he has
-noticed a problem with the usability of the language: it is difficult to
-automatically extract information from a Rust crate for use with other tooling.
-<a href="https://github.com/AeneasVerif/charon#charon">
-The Charon project</a> aims to fix that by providing a stable API for accessing
-internal information from the Rust compiler.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1097198/</guid>
-            <pubDate>Wed, 07 Oct 2026 15:19:59 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python&apos;s two modules for random numbers</title>
-            <link>https://lwn.net/Articles/1097468/</link>
-            <description><![CDATA[Python's <a
-href="https://docs.python.org/3/library/random.html"><tt>random</tt></a>
-and <a
-href="https://docs.python.org/3/library/secrets.html"><tt>secrets</tt></a>
-modules both include utilities for obtaining random values, but only one of them is suitable for generating passwords and security tokens.
-For much of Python's history, <tt>random</tt> was used for passwords and tokens anyway, despite documentation that called it unsuitable for cryptography.
-In 2015, Python's core team debated whether to fix that misuse by making <tt>random</tt> secure by default.
-Instead, in 2016, Python 3.6 added a second module: <tt>secrets</tt>.  The
-<tt>random</tt> module is still misused at times, so it is instructive
-to look into how the random-number modules should be used.]]></description>
-            <guid>https://lwn.net/Articles/1097468/</guid>
-            <pubDate>Tue, 06 Oct 2026 15:02:09 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Last rites for Gentoo&apos;s Chromium package</title>
-            <link>https://lwn.net/Articles/1097760/</link>
-            <description><![CDATA[<p><a href="https://www.chromium.org/Home/">Chromium</a>, the open-source
-upstream project for Google's Chrome web browser, is the browser of choice for
-many Linux users. It has also gained a reputation as being <a
-href="https://lwn.net/Articles/619158/">difficult for Linux distributions to
-package and build</a>: Chromium has a complex build system, the project bundles
-many of its dependencies, and it has frequent releases. All of that, plus user
-complaints, has led the maintainers of the <a
-href="https://packages.gentoo.org/packages/www-client/chromium">Gentoo Chromium
-package</a> to give up on trying to maintain the package.</p>]]></description>
-            <guid>https://lwn.net/Articles/1097760/</guid>
-            <pubDate>Tue, 06 Oct 2026 13:44:50 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] An update on the Sashiko patch-review system</title>
-            <link>https://lwn.net/Articles/1096963/</link>
-            <description><![CDATA[Patch review has long been one of the limiting constraints for the kernel
-project (and most others); there just aren't enough people to properly
-review all of the code that is submitted for inclusion.  The Sashiko
-system, which uses a large language model (LLM) to generate reviews
-automatically, offers the prospect of some relief, and has already become
-an important part of the kernel's development process.  At the 2026 edition
-of <a href="https://kernel-recipes.org/en/2026/">Kernel Recipes</a>, Roman
-Gushchin, the maintainer of Sashiko, provided an overview of how
-the system works and what is being done to improve it.]]></description>
-            <guid>https://lwn.net/Articles/1096963/</guid>
-            <pubDate>Mon, 05 Oct 2026 15:10:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Beyond the &amp;</title>
-            <link>https://lwn.net/Articles/1096028/</link>
-            <description><![CDATA[<p>
-Rust has a number of kinds of smart pointers, both in the standard
-library and defined by users. Still, some operations that are possible with
-built-in references are not possible to perform with user-defined smart
-pointers. Tyler Mandry, lead of the Rust project's
-<a href="https://rust-lang.org/governance/teams/#team-lang">
-language team</a>, spoke at
-<a href="https://rustconf.com/">
-RustConf 2026</a> about the lengthy effort to change that, and make smart pointers
-just as flexible as built-in references.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1096028/</guid>
-            <pubDate>Fri, 02 Oct 2026 15:11:11 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Coping with the onslaught of kernel security bugs</title>
-            <link>https://lwn.net/Articles/1096908/</link>
-            <description><![CDATA[By now it is no secret that large language models (LLMs) have made it easy
-for people to identify security bugs, and that has resulted in a flood of
-bug reports to almost every free-software project, including the kernel.
-At the 2026 edition of <a href="https://kernel-recipes.org/en/2026/">Kernel
-Recipes</a>, Greg Kroah-Hartman took the stage to talk about how the
-kernel's security team is handling this deluge.  His core message was
-"<q>don't panic</q>".]]></description>
-            <guid>https://lwn.net/Articles/1096908/</guid>
-            <pubDate>Thu, 01 Oct 2026 15:03:25 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
