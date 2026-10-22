@@ -8,11 +8,183 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 21 Oct 2026 21:24:01 +0000</pubDate>
-        <lastBuildDate>Wed, 21 Oct 2026 22:10:34 +0000</lastBuildDate>
+        <pubDate>Thu, 22 Oct 2026 00:36:07 +0000</pubDate>
+        <lastBuildDate>Thu, 22 Oct 2026 00:42:30 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for October 15, 2026</title>
+            <link>https://lwn.net/Articles/1099247/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1099247/">Front</a>: 2026 Maintainers Summit; Rust goals; GCC and LLMs; GCC CFI; systemd; C types in Rust; LTTng; Swap showdown; KDE Linux.
+            <li> <a href="https://lwn.net/Articles/1099249/">Briefs</a>: 64-day certificates; Nix and Lix security; Asterinas 0.19.0; LineageOS 24; KDE 6.8; Python 3.15; Quotes; ...
+            <li> <a href="https://lwn.net/Articles/1099250/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1099247/</guid>
+            <pubDate>Thu, 15 Oct 2026 00:04:00 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] GCC development with large-language models</title>
+            <link>https://lwn.net/Articles/1098672/</link>
+            <description><![CDATA[After much deliberation, the GCC project recently came up with <a
+href="https://gcc.gnu.org/ai-policy.html">a policy on the use of large
+language models</a> for development of the compiler suite.  It is somewhat
+restrictive, but still leaves room for LLMs in the development process.  At
+the 2026 <a href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>,
+Jeff Law and Kyrill Tkachov discussed how these tools have been useful for
+them.]]></description>
+            <guid>https://lwn.net/Articles/1098672/</guid>
+            <pubDate>Wed, 14 Oct 2026 13:13:53 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Collaborating with out-of-tree tracers</title>
+            <link>https://lwn.net/Articles/1099300/</link>
+            <description><![CDATA[<a href="https://lttng.org/">LTTng</a> creator Mathieu Desnoyers seems a
+bit trapped in something of a <a
+href="https://dictionary.cambridge.org/dictionary/english/catch-22">catch-22</a>.
+At the 2026 <a href="https://lpc.events/">Linux Plumbers Conference</a>
+(LPC), he led a discussion on the problem he is having in trying to
+collaborate with other tracing projects (e.g. <a
+href="https://docs.kernel.org/trace/ftrace.html">ftrace</a>, <a
+href="https://perfwiki.github.io/main/">perf</a>) in the kernel.  The
+feedback he has gotten, both over the years and more recently, does not
+show a path that would allow him to contribute the 21-year-old
+GPLv2-licensed LTTng tracing framework, or, incrementally, features from
+it, to the mainline kernel.]]></description>
+            <guid>https://lwn.net/Articles/1099300/</guid>
+            <pubDate>Wed, 14 Oct 2026 13:56:50 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
+        <item>
+            <title>[$] KDE Linux at two</title>
+            <link>https://lwn.net/Articles/1099486/</link>
+            <description><![CDATA[<p><a href="https://linux.kde.org/">KDE&#160;Linux</a>, the KDE Project's second
+stab at creating its own distribution, was first introduced as "Project Banana"
+at the <a href="https://akademy.kde.org/2024/">Akademy conference in 2024</a> by
+Harald Sitter. Nate Graham <a
+href="https://pointieststick.com/2025/09/06/announcing-the-alpha-release-of-kde-linux/">announced</a>
+the first alpha-quality release during <a
+href="https://akademy.kde.org/2025/">Akademy&#160;2025</a>. Graham and Sitter
+paired up at <a href="https://akademy.kde.org/2026/">Akademy&#160;2026</a> to 
+provide an update on its progress, lay out plans for refining the distribution to
+address user feedback, and discuss some of the problems that still need to be
+dealt with. KDE Linux is still not-quite-ready for prime time, but Graham hopes
+that it will be suitable for widespread use soon&mdash;for an undefined value of
+"soon".</p>]]></description>
+            <guid>https://lwn.net/Articles/1099486/</guid>
+            <pubDate>Tue, 13 Oct 2026 17:21:14 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Owning C types from Rust code</title>
+            <link>https://lwn.net/Articles/1099015/</link>
+            <description><![CDATA[<p>
+Rust's system of ownership and borrowed references is convenient when it can
+correctly model a program's needs. The
+<a href="https://rust-for-linux.com/">
+Rust for Linux project</a> has worked to
+provide adapters between Rust's semantics and the existing C code
+in the kernel. At Kangrejos 2026, Andreas Hindborg spoke about a
+<a href="https://lwn.net/ml/all/20260910-unique-ref-v21-0-e83257373062@kernel.org/">
+patch
+series</a> implementing the next such adaptor: an <tt>Ownable</tt> trait for
+representing objects that are allocated in C code, but which Rust code is responsible
+for cleaning up (if not necessarily deallocating) when it is done with them.
+He hoped to finally reach a consensus on the patch series, after months of
+discussion on the mailing list.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1099015/</guid>
+            <pubDate>Tue, 13 Oct 2026 13:33:13 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The 2026 Maintainers Summit</title>
+            <link>https://lwn.net/Articles/1099594/</link>
+            <description><![CDATA[The Maintainers Summit is a one-day, invitation-only gathering of about 30
+kernel developers; it is held once each year to discuss policy-related issues
+that are not always amenable to resolution via email.  The 2026 event was
+scheduled for October&#160;8 in Prague, Czechia.  Unsurprisingly, the discussion
+there was dominated by large language models (LLMs) and their effect on the
+development community, but some time was also found to talk about security
+bugs and long-term succession planning.]]></description>
+            <guid>https://lwn.net/Articles/1099594/</guid>
+            <pubDate>Mon, 12 Oct 2026 15:27:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] The state of systemd: 2026 edition</title>
+            <link>https://lwn.net/Articles/1099024/</link>
+            <description><![CDATA[<p>At the 2026 <a href="https://all-systems-go.io/">All Systems Go!</a>
+conference, systemd maintainers Luca Boccassi and Zbigniew Jędrzejewski-Szmek
+delivered the traditional "state of the project" session with an overview of the
+systemd project's accomplishments in the past year. That was followed by a
+maintainer round table where Boccassi, Jędrzejewski-Szmek, Daan De&#160;Meyer, and
+project leader Lennart Poettering fielded questions about systemd's size,
+health, and if it might replace Kubernetes. (It will not.)</p>]]></description>
+            <guid>https://lwn.net/Articles/1099024/</guid>
+            <pubDate>Fri, 09 Oct 2026 14:58:15 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Adding kernel control-flow-integrity checking to GCC</title>
+            <link>https://lwn.net/Articles/1098670/</link>
+            <description><![CDATA[While many developers are struggling to keep up with the flood of
+vulnerability reports, others are still focused on preventing those reports
+from happening in the first place.  Control-flow integrity (CFI) is the
+term for preventing (or at least detecting) exploits that divert the flow
+of control from its intended paths.  At the 2026 <a
+href="https://gnu-tools-cauldron.org/">GNU Tools Cauldron</a>, Kees Cook
+presented his changes to the GCC compiler suite to support forward-edge CFI
+for the kernel.]]></description>
+            <guid>https://lwn.net/Articles/1098670/</guid>
+            <pubDate>Fri, 09 Oct 2026 17:06:12 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] An update on Rust&apos;s project goals</title>
+            <link>https://lwn.net/Articles/1098617/</link>
+            <description><![CDATA[<p>
+Tomáš Šedovič is a program manager at the Rust Foundation. He co-leads the
+<a href="https://rust-lang.org/governance/teams/#team-goals">
+goals team</a>, which helps
+organize the Rust project's
+<a href="https://goals.rust-lang.org/2026/goals.html">
+overall goals</a>, including making sure that the people
+who have agreed to work on one have the support they need.
+At Kangrejos 2026, he provided an overview of the Rust project's goal processes
+aimed at ensuring that the Rust for Linux developers were aware of how the
+project organizes, tracks, and amends goals.
+The
+<a href="https://rust-for-linux.com/">
+Rust for Linux project</a>
+has inspired several current project goals, so he thought that getting an inside
+view of the process might be helpful.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1098617/</guid>
+            <pubDate>Thu, 08 Oct 2026 17:00:30 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] The [vx]swap showdown</title>
+            <link>https://lwn.net/Articles/1098399/</link>
+            <description><![CDATA[The kernel's swap layer has undergone <a href="https://lwn.net/Articles/1057102/">some
+significant changes</a> over the course of the last year and a number of
+longstanding problems have been addressed.  One problem that has <i>not</i>
+yet been solved in the mainline is the direct tie between slots in the swap
+cache and space in persistent swap files, which can cause highly
+inefficient resource use.  There are two competing solutions for this
+problem, neither of which has, as yet, reached readiness for merging; a
+lengthy discussion on possible paths forward shows ongoing disagreement
+over the best path forward.]]></description>
+            <guid>https://lwn.net/Articles/1098399/</guid>
+            <pubDate>Thu, 08 Oct 2026 13:43:27 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Today&apos;s PHP Security Release, and How We&apos;re Strengthening PHP Security (PHP Foundation)</title>
             <link>https://lwn.net/Articles/1102060/</link>
