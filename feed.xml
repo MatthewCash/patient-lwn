@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 23 Oct 2026 10:53:18 +0000</pubDate>
-        <lastBuildDate>Fri, 23 Oct 2026 11:04:16 +0000</lastBuildDate>
+        <pubDate>Fri, 23 Oct 2026 15:25:39 +0000</pubDate>
+        <lastBuildDate>Fri, 23 Oct 2026 15:45:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1102546/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3), <b>Debian</b> (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk), <b>Fedora</b> (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc), <b>Mageia</b> (golang, jq, msgpack, open-isns, perl-Mozilla-CA, roundcubemail, and sudo), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, golang, jackson-core, librsvg2, mariadb11.8, openexr, openssh, php, php8.4, php:7.4, php:8.2, php:8.3, postgresql:16, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Red Hat</b> (ca-certificates and opentelemetry-collector), <b>SUSE</b> (aliyun-cli, amazon-ecs-init, bcel, coreutils, cups-filters, cyrus-sasl, distribution, expat, firefox, go1.26, go1.26-openssl, go1.27, guava, mutt, nvidia-open-driver-G07-signed, p11-kit, php74, php8, podman, python-soupsieve, python313-datamodel-code-generator, python313-Django5, thunderbird, and webkit2gtk3), and <b>Ubuntu</b> (openvpn, python-tornado, and zlib).]]></description>
+            <guid>https://lwn.net/Articles/1102546/</guid>
+            <pubDate>Fri, 23 Oct 2026 13:02:03 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1102265/</link>
@@ -551,27 +559,6 @@ download and start using GNOME&#160;OS&#160;Preview today.</p>
             <guid>https://lwn.net/Articles/1101057/</guid>
             <pubDate>Fri, 16 Oct 2026 19:05:57 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1101015/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ghostscript, grafana, hplip, libsoup3, lrzsz, rpcbind, and wireshark), <b>Debian</b> (chromium, cifs-utils, expat, gst-plugins-bad1.0, gst-plugins-good1.0, jpeg-xl, mutt, and spip), <b>Mageia</b> (gpsd, libx11, and roundcubemail), <b>Oracle</b> (389-ds-base, compat-libtiff3, environment-modules, ghostscript, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, hplip, idm:DL1, kernel, kernel-uek, libsoup, libsoup3, lrzsz, rpcbind, and wireshark), <b>Red Hat</b> (gd), <b>SUSE</b> (alloy, amazon-ecs-init, bind, busybox, chromium, distribution, govulncheck-vulndb, iperf, jackson-annotations, jackson-core, jackson-databind, kernel, libXtst, mutt, openssh, php8, python313-python-multipart, python313-python-rapidjson, python313-python3-saml, python313-pywbem, python313-redis, python313-reportlab, python313-requests, python313-rope, python313-rpyc, python313-rsa, qemu, swtpm, the Java stack, and wpa_supplicant), and <b>Ubuntu</b> (golang-1.23, linux-azure, and rabbitmq-server).]]></description>
-            <guid>https://lwn.net/Articles/1101015/</guid>
-            <pubDate>Fri, 16 Oct 2026 13:17:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Results from the 2026 TAB election</title>
-            <link>https://lwn.net/Articles/1101020/</link>
-            <description><![CDATA[The <a
-href="https://lwn.net/ml/all/9fae8567-0943-47e2-a04d-4e75e1c0cb6d@kernel.org">results</a>
-from the 2026 election for members of the Linux Foundation Technical
-Advisory Board (TAB) have been announced.  Kees Cook, Dave Hansen, Miguel
-Ojeda, and Shuah Khan have all been re-elected, and Laurent Pinchart will
-be joining the board.]]></description>
-            <guid>https://lwn.net/Articles/1101020/</guid>
-            <pubDate>Fri, 16 Oct 2026 14:09:20 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
