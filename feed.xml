@@ -8,11 +8,55 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 26 Oct 2026 11:00:06 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Oct 2026 11:24:01 +0000</lastBuildDate>
+        <pubDate>Mon, 26 Oct 2026 17:07:34 +0000</pubDate>
+        <lastBuildDate>Mon, 26 Oct 2026 17:32:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1102946/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman, postgresql16-pgvector, postgresql18-pgvector, and python39:3.9 and python39-devel:3.9), <b>Debian</b> (brotli, caddy, imagemagick, libdatetime-timezone-perl, libheif, openjdk-17, openssl, thunderbird, tzdata, varnish, and xdg-dbus-proxy), <b>Fedora</b> (btrfs-backup-ng, chromium, dotnet10.0, dotnet8.0, dotnet9.0, firefox, gegl04, GitPython, ImageMagick, jfrog-cli, libindi, mingw-libpng, mingw-LibRaw, mingw-python-lxml, mupdf, nix, openssh, perl-Badger, perl-CLI-Simple, perl-Cpanel-JSON-XS, perl-CSS-Inliner, perl-Encoding-FixLatin, perl-HTML-Query, perl-Markdown-Render, perl-Text-CSV_XS, perl-Text-Markdown-Discount, pgbouncer, php-pecl-mongodb2, podofo, rt, and thunderbird), <b>Mageia</b> (bind, bluez, iperf, kernel-linus, and nss, rootcerts), <b>Oracle</b> (ca-certificates, cockpit-machines, expat, go-toolset:ol8, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, iperf3, openssh, and podman), <b>Red Hat</b> (freeipmi), and <b>SUSE</b> (alloy, amazon-ecs-init, aspell, aws-iam-authenticator, ca-certificates-mozilla, cifs-utils, container-suseconnect, cosign, cpupower, docker, elemental3, emacs, expat, fetchmail, ffmpeg-7, firefox-esr, ghostscript, gimp, glibc, go1.26, go1.27, google-osconfig-agent, guava, haproxy, helm, iscsiuio, jfrog-cli, kernel, kernel-devel, krb5, kubernetes, libmodplug, libsbc1, libvpx-devel, libxls-devel, mozilla-nss, mozillafirefox, openssh8.4, openssl-3, php8, python, python-base, python-doc, python-weasyprint, python311, python312, python313, python313-CairoSVG, python313-Django, python313-multidict, python313-sglang, python313-urllib3_1, python313-vllm, python314, python315, rabbitmq-server, rclone, rpcbind, squid, trivy, wpa_supplicant, xorg-x11-server, and xwayland).]]></description>
+            <guid>https://lwn.net/Articles/1102946/</guid>
+            <pubDate>Mon, 26 Oct 2026 13:12:04 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Systemd adds support for components written in Rust</title>
+            <link>https://lwn.net/Articles/1102970/</link>
+            <description><![CDATA[<p>Christian Brauner has <a
+href="https://mastodon.social/@brauner/117494833311192688">announced</a> that he
+has <a href="https://github.com/systemd/systemd/pull/44324">merged support</a>
+for writing leaf components of systemd in Rust. Rust will be used only for new
+leaf components, existing code is not being ported to Rust and nothing that
+other components depend on is written in Rust.</p>
+
+<p>Brauner <a
+href="https://mastodon.social/@brauner/117494833657858840">said</a> that the
+project would like to move forward with Rust support in core systemd, "<q>but
+there are several blockers in Rust's support for dynamic libraries which
+prevents us from doing that without massively bloating every binary we
+build</q>". Assuming all goes well, it seems likely this work will appear in the
+systemd v263 release expected in December.</p>
+
+<p>]]></description>
+            <guid>https://lwn.net/Articles/1102970/</guid>
+            <pubDate>Mon, 26 Oct 2026 15:13:59 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Two stable kernels for Monday</title>
+            <link>https://lwn.net/Articles/1102973/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1102974/">7.2.13</a> and <a
+href="https://lwn.net/Articles/1102975/">6.18.59</a> stable kernels. Each contains a number of
+fixes throughout the tree. Users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1102973/</guid>
+            <pubDate>Mon, 26 Oct 2026 15:45:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1102546/</link>
@@ -462,14 +506,6 @@ href="https://lwn.net/Archives/ConferenceByYear/#2026-Linux_Plumbers_Conference"
 of talks from LPC.</p>]]></description>
             <guid>https://lwn.net/Articles/1101483/</guid>
             <pubDate>Mon, 19 Oct 2026 19:04:55 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1101421/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (idm:DL1, kernel, libsoup, perl-URI, python3.14-urllib3, and webkit2gtk3), <b>Debian</b> (apache2, cifs-utils, haproxy, jq, kernel, and xen), <b>Fedora</b> (aom, chezmoi, chromium, docker-buildx, freeipa, freerdp, GitPython, httpd, jfrog-cli, kernel, knot, libheif, log4net, mongo-c-driver, nant, NetworkManager, openssl, plasma-nm, python-cairosvg, python-django5, python-django6, qt5-qtbase, radicale, rust-faster-hex, rust-onefetch, SDL3_image, syncthing, thunderbird, tor, webkitgtk, and wordpress), <b>Mageia</b> (curl, libreoffice, mozjs140, mutt, nodejs-braces, parted, perl-Net-Whois-Raw, perl-XS-Parse-Keyword, and python-django), <b>Oracle</b> (kernel, kernel-uek, python36:3.6, and wireshark), <b>Red Hat</b> (gvfs, kernel, and kernel-rt), <b>Slackware</b> (libXtst), and <b>SUSE</b> (agama, ansible-core, bcel, bind, buildah, busybox, cadvisor, chromium, cosign, cups-filters, distribution-registry, fetchmail, gcc13, ghostscript, gimp, glib2, go1.26, go1.27, golang-github-lusitaniae-apache_exporter, golang-github-prometheus-alertmanager, google-osconfig-agent, grype-db, hauler, hawk2, helm, ImageMagick, iperf, kernel, libheif, libpng16, librsvg, libsoup, libsoup2, libthrift-0_25_0, libx11, libxi, libxpm, mutt, ntfs-3g_ntfsprogs, nvidia-open-driver-g07-signed, nvidia-open-driver-G07-signed-check, openssl-3, openvpn, p11-kit, pacemaker, perl-xs-parse-keyword, pgvector, php8, podman, psqlodbc, python-anyio, python-hpack, python-jwcrypto, python-oauthlib, python-pyjwt, python-tornado6, python-urllib3, python-virtualenv, python313-ruff, python313-social-auth-app-django, python313-urllib3, python313-urllib3_1, python313-validators, python313-waitress, python313-zipp, qemu, qsnapper, squid, strongswan, stunnel, swtpm, unbound, virtiofsd, webkit2gtk3, xen, and xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1101421/</guid>
-            <pubDate>Mon, 19 Oct 2026 13:10:19 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
