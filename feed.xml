@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 26 Oct 2026 17:07:34 +0000</pubDate>
-        <lastBuildDate>Mon, 26 Oct 2026 17:32:31 +0000</lastBuildDate>
+        <pubDate>Mon, 26 Oct 2026 21:16:07 +0000</pubDate>
+        <lastBuildDate>Mon, 26 Oct 2026 21:53:50 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -488,24 +488,6 @@ to disable the compromised certificates.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1101643/</guid>
             <pubDate>Tue, 20 Oct 2026 14:56:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Linux Plumbers Conference videos now available</title>
-            <link>https://lwn.net/Articles/1101483/</link>
-            <description><![CDATA[<p>Mike Rapoport has <a
-href="https://lpc.events/blog/current/index.php/2026/10/19/lpc-2026-video-recordings-are-available/">announced</a>
-the release of the video recordings from the <a href="https://lpc.events/event/20/">2026 Linux Plumbers Conference</a> (LPC),
-which was held in Prague from October&#160;5 through October&#160;7. Find the
-complete set via the <a
-href="https://www.youtube.com/playlist?list=PLd3Gjl51NPg0">YouTube playlist</a>
-or look for the video links in the <a
-href="https://lpc.events/event/20/timetable/#all">schedule</a>. See also LWN's
-<a
-href="https://lwn.net/Archives/ConferenceByYear/#2026-Linux_Plumbers_Conference">coverage</a>
-of talks from LPC.</p>]]></description>
-            <guid>https://lwn.net/Articles/1101483/</guid>
-            <pubDate>Mon, 19 Oct 2026 19:04:55 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
