@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 27 Oct 2026 18:11:48 +0000</pubDate>
-        <lastBuildDate>Tue, 27 Oct 2026 18:18:23 +0000</lastBuildDate>
+        <pubDate>Tue, 27 Oct 2026 22:08:09 +0000</pubDate>
+        <lastBuildDate>Tue, 27 Oct 2026 22:30:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -447,19 +447,6 @@ updated packages should be coming soon.</P>]]></description>
             <guid>https://lwn.net/Articles/1102014/</guid>
             <pubDate>Wed, 21 Oct 2026 13:53:18 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Critical PHP security update coming</title>
-            <link>https://lwn.net/Articles/1101687/</link>
-            <description><![CDATA[The PHP security team has <a
-href="https://www.php.net/archive/2026.php#2026-10-20-1">let it be
-known</a> that there is a high-stakes security update coming at
-14:00&#160;UTC on October&#160;21.  "<q>All PHP users are encouraged to
-prepare now so they can upgrade as soon as the release is available</q>".
-Anybody running a PHP site probably needs to be prepared for this one.]]></description>
-            <guid>https://lwn.net/Articles/1101687/</guid>
-            <pubDate>Tue, 20 Oct 2026 21:05:19 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
