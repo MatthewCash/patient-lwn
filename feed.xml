@@ -8,11 +8,52 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Oct 2026 04:59:11 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Oct 2026 07:27:39 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Oct 2026 14:05:05 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Oct 2026 14:19:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1103357/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, thunderbird, and xdg-dbus-proxy), <b>Debian</b> (bind9, openjdk-21, pdns, php-mongodb, and thunderbird), <b>Fedora</b> (brotli, chromium, clevis, eog, flatpak, ghostscript, kernel, libinstpatch, libreswan, mingw-freetype, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, openssh, perl-Alien-Brotli, perl-DBI, python3.12, rust-onefetch, stargz-snapshotter, util-linux, and webkitgtk), <b>Mageia</b> (cifs-utils, libxml2, packages, perl-Cpanel-JSON-XS, perl-Text-CSV_XS, sogo, util-linux, and weechat), <b>Oracle</b> (brotli, firefox, flatpak, gcc-toolset-15-gcc, kernel, libreswan, nodejs:22, nodejs:24, python-urllib3, skopeo, and xdg-dbus-proxy), <b>Slackware</b> (proftpd), <b>SUSE</b> (azure-storage-azcopy, containerd, corepack24, grok-build, ImageMagick, libsoup-2_4-1, matrix-synapse, podman, psqlODBC, python, python-M2Crypto-doc, python-Twisted-doc, and xen), and <b>Ubuntu</b> (authd).]]></description>
+            <guid>https://lwn.net/Articles/1103357/</guid>
+            <pubDate>Wed, 28 Oct 2026 13:10:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Redox OS ring buffers project summary</title>
+            <link>https://lwn.net/Articles/1103359/</link>
+            <description><![CDATA[<p>The <a href="https://redox-os.org/">Redox OS</a> project, which is a
+Unix-like microkernel-based operating system written in Rust, has published a <a
+href="https://www.redox-os.org/news/nlnet-rb-summary/">report</a> on the work
+that it has done in the last year to <a
+href="https://nlnet.nl/project/RedoxOS-ringbuffer/">implement io_uring-like
+<span class="nobreak">I/O</span></a>.</p>
+
+<blockquote class="bq">
+<p>Last year, the Redox team received a grant to develop io_uring-like Ring
+Buffer support at the system task level, as a first step towards ring buffer
+communications between the application and the majority of system services. This
+phase of the work finished up in September, as the last pieces were put in
+place.</p>
+
+<p>[...] In addition to implementing the Ring Buffer machinery for our system
+services and drivers that can support it, an <tt>io_uring</tt> and
+<tt>liburing</tt>-like API for applications was completed and
+demonstrated. There was also substantial work done on support crates, including
+an async executor for drivers.</p>
+
+<p>And there was some very exciting work on various performance improvements, to
+allow much faster switching between applications and their system services. But
+I will let the team tell you all the technical details.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1103359/</guid>
+            <pubDate>Wed, 28 Oct 2026 14:05:05 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1103188/</link>
