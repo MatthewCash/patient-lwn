@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Oct 2026 19:34:40 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Oct 2026 19:45:19 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Oct 2026 23:34:52 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Oct 2026 23:37:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>A report from the LPC sched_ext microconference</title>
+            <link>https://lwn.net/Articles/1103426/</link>
+            <description><![CDATA[The Linux Plumbers Conference blog has <a
+href="https://lpc.events/blog/current/index.php/2026/10/28/the-sched_exit-microconference/">a
+report</a> from the sched_ext microconference held in Prague.
+<p>
+<blockquote class="bq">
+	Three main topics dominated the discussions
+	<ul class="spacylist">
+	<li> <b>Priority inversion and how to handle it in sched_ext</b>: lock holder and
+  	     lock waiter preemption, time slice extension, and making proxy execution
+  	     work together with BPF schedulers.</li>
+        <li> <b>Paravirtualized scheduling</b>: letting the host and guest schedulers
+  	     cooperate across the VM boundary, with sched_ext as the policy engine on
+  	     the host.</li>
+        <li> <b>Device and topology-aware scheduling</b>: using hardware feedback (Intel
+  	     HFI), device/accelerator locality and cache topology to drive task
+  	     placement.</li>
+	</ul>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1103426/</guid>
+            <pubDate>Wed, 28 Oct 2026 22:11:43 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1103357/</link>
@@ -345,33 +370,6 @@ lengthy discussion on possible paths forward shows ongoing disagreement
 over the best path forward.]]></description>
             <guid>https://lwn.net/Articles/1098399/</guid>
             <pubDate>Thu, 08 Oct 2026 13:43:27 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Today&apos;s PHP Security Release, and How We&apos;re Strengthening PHP Security (PHP Foundation)</title>
-            <link>https://lwn.net/Articles/1102060/</link>
-            <description><![CDATA[The PHP Foundation has put out <a
-href="https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/">a
-blog entry</a> explaining how the vulnerabilities disclosed today came
-about and why they took so long to fix.
-<p>
-<blockquote class="bq">
-	To fix the OOM problem, the PHP security team developed several
-	competing approaches, but each came with its own trade-offs:
-	backward compatibility breaks, new denial-of-service potential, or
-	requiring changes to many third-party extensions which seemed
-	impossible to coordinate. The PHP security team, operating on
-	consensus, struggled to choose between these and feared the
-	repercussions of shipping the wrong choice. Combined with the lack
-	of a known path to remote code execution and the small team of core
-	developers with the necessary deep knowledge of the engine occupied
-	with many responsibilities, this decision process caused work on a
-	fix to stall and restart repeatedly over months. We won't pretend
-	otherwise: the delay was a structural failure, caused by both the
-	security team's decision process and its lack of resources.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1102060/</guid>
-            <pubDate>Wed, 21 Oct 2026 20:20:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
