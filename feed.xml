@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 28 Oct 2026 14:05:05 +0000</pubDate>
-        <lastBuildDate>Wed, 28 Oct 2026 14:19:37 +0000</lastBuildDate>
+        <pubDate>Wed, 28 Oct 2026 19:34:40 +0000</pubDate>
+        <lastBuildDate>Wed, 28 Oct 2026 19:45:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -373,121 +373,6 @@ about and why they took so long to fix.
             <guid>https://lwn.net/Articles/1102060/</guid>
             <pubDate>Wed, 21 Oct 2026 20:20:34 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Upstreaming Tyr: Rust, DRM, and the Linux Kernel (Collabora)</title>
-            <link>https://lwn.net/Articles/1102024/</link>
-            <description><![CDATA[The Collabora blog <a
-href="https://www.collabora.com/news-and-blog/blog/2026/10/21/upstreaming-tyr-rust-drm-and-the-linux-kernel/">provides
-an update on Tyr</a>, a driver for Arm Mali GPUs.
-<p>
-<blockquote class="bq">
-	One of our biggest challenges has been developing Tyr while the
-	Rust kernel abstractions and driver interfaces are also being
-	developed. As the driver interfaces are naturally revised and
-	improved, we have rewritten Tyr several times to adapt to the
-	larger Rust ecosystem. This not only makes progress much slower
-	than it would be with a mature API, but also stalls progress for
-	capabilities, such as job scheduling, while the abstraction is
-	properly designed, reviewed, tested, and merged upstream.
-<p>
-	But working in this evolving environment is also precisely where
-	Tyr is able to provide the most value. As a user of these new Rust
-	abstractions, Tyr helps to expose their requirements and
-	limitations. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1102024/</guid>
-            <pubDate>Wed, 21 Oct 2026 14:58:56 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>More vulnerabilities in widely deployed software</title>
-            <link>https://lwn.net/Articles/1102044/</link>
-            <description><![CDATA[<p>
-The Node.js project has
-<a
-href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases">released
-a number of security updates</a> to fix, among other vulnerabilities, a
-remote-code-execution bug affecting programs that use Brotli compression. And,
-in case any programmers who use compiled languages thought they could relax, the
-<a href="https://musl.libc.org/">musl libc project</a> has also announced a
-new vulnerability: an
-<a
-href="https://lwn.net/ml/all/20261021154307.GA4413%40brightrain.aerifal.cx/">out-of-bounds
-write</a> that could potentially lead to remote code execution, although that
-has not been demonstrated.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1102044/</guid>
-            <pubDate>Wed, 21 Oct 2026 17:09:24 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1102005/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bubblewrap, emacs, gimp:2.8, glibc, jackson-databind, kernel, kernel-rt, librabbitmq, openexr, openssh, postgresql:16, postgresql:18, python3, resteasy, wireshark, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Debian</b> (ca-certificates, firefox-esr, git-lfs, and libssh), <b>Fedora</b> (aom, assimp, bind, bind-dyndb-ldap, freerdp, ghostscript, gopass, gopass-jsonapi, ImageMagick, libpng12, libpng15, nebula, perl-GD-SecurityImage, perl-Net-IDN-Encode, perl-Net-Whois-Raw, rust-backtrace, rust-object, rust-object0.37, rust-object0.38, rust-object0.39, rust-ruzstd, and xen), <b>Gentoo</b> (ca-certificates), <b>Mageia</b> (x11-server, x11-server-wayland, tigervnc), <b>Oracle</b> (bubblewrap, ca-certificates, emacs, fetchmail, gimp:2.8, hostapd, jackson-databind, librabbitmq, lrzsz, openexr, openssh, openssl, postgresql:18, python-urllib3, python3, python3.12-urllib3, resteasy, webkit2gtk3, wireshark, and xorg-x11-server-Xwayland), <b>Red Hat</b> (.NET 8.0, dogtag-pki, flatpak-builder, ghostscript, glycin-loaders, go-toolset:rhel8, golang, gvfs, jackson-core, jackson-databind, librsvg2, multiple packages, pki-core, pki-core:10.6, sudo, xorg-x11-server, and xorg-x11-server-Xwayland), <b>Slackware</b> (c-ares, ca-certificates, mozilla-firefox, mozilla-nss, mozilla-thunderbird, and python-certifi), <b>SUSE</b> (agama, aspell, bcel, bind, bouncycastle, busybox, chromium, containerd, coredns, cosign, cpp15, cups-filters, cyrus-sasl, fetchmail, firefox, gcc13, gh, ghostscript, gitoxide, glibc, go1.26, go1.27, google-osconfig-agent, grafana, grok-build, hashcat, hawk2, helm, ImageMagick, inspektor-gadget, iperf, jupyter-jupyterlab-templates, kernel, kernel-devel, libheif, libpng16, librsvg, libX11, libXi, libxls, libXpm, libxreaderdocument3, mutt, ntfs-3g_ntfsprogs, openssl-1_0_0, openssl-3, openvpn, pacemaker, perl-DBI, perl-XS-Parse-Keyword, pgvector, podman, putty, python-anyio, python-hpack, python-joserfc, python-jwcrypto, python-oauthlib, python-PyJWT, python-tornado6, python-urllib3, python-virtualenv, python-WebOb, python3, python311, rekor, squid, strongswan, stunnel, suseconnect-ng, tinyproxy, traefik, unbound, varnish, virtiofsd, webkit2gtk3, and xwayland), and <b>Ubuntu</b> (ca-certificates, dotnet8, dotnet10, dotnet11, protobuf, rust-sudo-rs, squid, squid3, and xz-utils).]]></description>
-            <guid>https://lwn.net/Articles/1102005/</guid>
-            <pubDate>Wed, 21 Oct 2026 13:13:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Four stable kernels for Wednesday</title>
-            <link>https://lwn.net/Articles/1101758/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1101759/">7.2.12</a>,
-<a href="https://lwn.net/Articles/1101760/">6.18.58</a>,
-<a href="https://lwn.net/Articles/1101761/">6.12.114</a>, and 
-<a href="https://lwn.net/Articles/1101762/">6.6.160</a> stable kernels. Each contains a number
-of important fixes; users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1101758/</guid>
-            <pubDate>Wed, 21 Oct 2026 13:24:25 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>PHP patches released for two critical RCEs</title>
-            <link>https://lwn.net/Articles/1102014/</link>
-            <description><![CDATA[<p>The PHP project has <a
-href="https://www.php.net/archive/2026.php#2026-10-21-5">published</a> PHP
-versions <a href="https://www.php.net/archive/2026.php#2026-10-21-4">8.5.12</a>,
-<a href="https://www.php.net/archive/2026.php#2026-10-21-3">8.4.27</a>, <a
-href="https://www.php.net/archive/2026.php#2026-10-21-2">8.3.36</a> and <a
-href="https://www.php.net/archive/2026.php#2026-10-21-1">8.2.35</a> to address
-two critical vulnerabilities that could allow unauthenticated remote code
-execution.</p>
-
-<blockquote class="bq">
-<strong>Who is at risk:</strong> all PHP installations serving web requests,
-including PHP-FPM, Apache with mod_php, php-cgi, FrankenPHP and LiteSpeed. We
-consider the risk highest for mod_php, with a demonstrated exploit where an
-unauthenticated request can trigger the attack before any application code
-runs.</p>
-
-<p><strong>The vulnerabilities:</strong></p>
-
-<ul class="spacylist">
-<li><strong>RCE via OOM corruption</strong>, CVE-2026-109618 (<a href="https://github.com/php/php-src/security/advisories/GHSA-w8hw-w9fx-j79w">GHSA-w8hw-w9fx-j79w</a>): out-of-memory
-handling can interrupt PHP while internal request data is only partially initialized. Request cleanup may then treat the invalid data as valid.</li>
-<li><strong>RCE via stale global state</strong>, CVE-2026-109619 (<a href="https://github.com/php/php-src/security/advisories/GHSA-6wmf-4rv5-p3rp">GHSA-6wmf-4rv5-p3rp</a>): request-owned
-internal state can survive after its backing memory has been freed. A later
-request handled by the same worker may use that stale state before normal
-initialization resets it.</li>
-</ul>
-</blockquote>
-
-<p>PHP versions older than 8.1 will not receive updates from the project, though
-the project has provided some patches for <a
-href="https://github.com/php/php-src/tree/PHP-7.4-CVE-2026-109618-109619">PHP
-7.4</a>, <a
-href="https://github.com/php/php-src/tree/PHP-8.0-CVE-2026-109618-109619">PHP
-8.0</a>, and <a
-href="https://github.com/php/php-src/tree/PHP-8.1-CVE-2026-109618-109619">PHP
-8.1</a> to assist in creating backports. According to the
-announcement, Linux distributions and vendors received patches in advance, so
-updated packages should be coming soon.</P>]]></description>
-            <guid>https://lwn.net/Articles/1102014/</guid>
-            <pubDate>Wed, 21 Oct 2026 13:53:18 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
