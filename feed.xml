@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 29 Oct 2026 09:09:48 +0000</pubDate>
-        <lastBuildDate>Thu, 29 Oct 2026 09:23:27 +0000</lastBuildDate>
+        <pubDate>Thu, 29 Oct 2026 16:18:59 +0000</pubDate>
+        <lastBuildDate>Thu, 29 Oct 2026 16:20:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1103666/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cjose, emacs, expat, gcc-toolset-15-gcc, java-17-openjdk, java-25-openjdk, kernel, kernel-rt, libX11, libXi, libXrender, libXtst, mod_auth_openidc:2.3, pki-deps:10.6, thunderbird, webkit2gtk3, and yggdrasil), <b>Debian</b> (chromium, firefox-esr, and openjdk-25), <b>Fedora</b> (firefox, librabbitmq, libreswan, python-pillow, and unbound), <b>Mageia</b> (fio and python3, python-pip), <b>Oracle</b> (buildah, cjose, container-tools:ol8, emacs, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, kernel, libX11, libXi, libXrender, libXtst, podman, python-urllib3, thunderbird, and yggdrasil), <b>Red Hat</b> (firefox, goose, kernel, kernel package, kernel-rt, librsvg2, multiple packages, php:7.4, sudo, thunderbird, and xorg-x11-server), and <b>SUSE</b> (alsa, ca-certificates-mozilla, chromedriver, cifs-utils, coredns, coreutils, cpupower, curl, cyrus-sasl, docker, dpdk, haproxy, kernel, libpoppler-cpp3, libsndfile-devel, libzbar-devel, mozilla-nss, MozillaFirefox, nginx, openai-codex, and perl-Cpanel-JSON-XS).]]></description>
+            <guid>https://lwn.net/Articles/1103666/</guid>
+            <pubDate>Thu, 29 Oct 2026 13:18:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 22, 2026</title>
             <link>https://lwn.net/Articles/1100612/</link>
@@ -337,38 +345,6 @@ fixes throughout the tree. Users are advised to upgrade.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3), <b>Debian</b> (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk), <b>Fedora</b> (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc), <b>Mageia</b> (golang, jq, msgpack, open-isns, perl-Mozilla-CA, roundcubemail, and sudo), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, golang, jackson-core, librsvg2, mariadb11.8, openexr, openssh, php, php8.4, php:7.4, php:8.2, php:8.3, postgresql:16, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Red Hat</b> (ca-certificates and opentelemetry-collector), <b>SUSE</b> (aliyun-cli, amazon-ecs-init, bcel, coreutils, cups-filters, cyrus-sasl, distribution, expat, firefox, go1.26, go1.26-openssl, go1.27, guava, mutt, nvidia-open-driver-G07-signed, p11-kit, php74, php8, podman, python-soupsieve, python313-datamodel-code-generator, python313-Django5, thunderbird, and webkit2gtk3), and <b>Ubuntu</b> (openvpn, python-tornado, and zlib).]]></description>
             <guid>https://lwn.net/Articles/1102546/</guid>
             <pubDate>Fri, 23 Oct 2026 13:02:03 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1102265/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, go-toolset:rhel8, golang, hostapd, jackson-core, kernel, kernel-rt, librsvg2, lrzsz, mariadb11.8, openexr, openssh, openssl, perl-DBI:1.641, python-urllib3, python3.12-urllib3, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Arch Linux</b> (php and php-legacy), <b>Debian</b> (bind9, firefox-esr, nginx, php8.2, and php8.4), <b>Fedora</b> (ca-certificates, dolphin, gnome-shell-extension-gsconnect, libdigidocpp, linux-firmware, nicotine+, perl-ExtUtils-Typemaps-Default, php, python-cairosvg, qdigidoc, rust-rustls-webpki, rust-webpki-root-certs, and rust-webpki-roots), <b>Gentoo</b> (PHP), <b>Mageia</b> (php8.5, php8.4), <b>Oracle</b> (perl-URI), <b>Red Hat</b> (go-toolset:rhel8, golang, grafana-pcp, kernel, kernel-rt, nodejs-nodemon, nodejs22, nodejs24, nodejs:22, nodejs:24, rhc, and sudo), <b>Slackware</b> (php), <b>SUSE</b> (aliyun-cli, bouncycastle, buildah, ca-certificates-mozilla, chromedriver, cifs-utils, cyrus-sasl, docker, firefox, gimp, git-bug, GraphicsMagick, libheif, libpng16, libraw, libsoup-2_4-1, mutt, onefetch, openexr, openssh, openssl-certs, php7, php8, poppler, python-hpack, python310, python313-Django4, qemu, rootlesskit, tiff, xwayland, and yt-dlp), and <b>Ubuntu</b> (c-ares, ghostscript, libsoup3, libxs-parse-keyword-perl, nss, php5, php7.0, php7.2, php7.4, php8.1, php8.3, php8.5, poppler, pyjwt, u-boot, and unbound).]]></description>
-            <guid>https://lwn.net/Articles/1102265/</guid>
-            <pubDate>Thu, 22 Oct 2026 13:09:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>KeePassXC 2.8.0 released</title>
-            <link>https://lwn.net/Articles/1102270/</link>
-            <description><![CDATA[<p><a href="https://keepassxc.org/blog/2026-10-21-2.8.0-released/">Version
-2.8.0</a> of the <a href="https://keepassxc.org/">KeePassXC</a> password-management application has been
-released.</p>
-
-<blockquote class="bq">
-The new release brings a lot of long-awaited new features, many bugfixes, and
-several security updates. Among the major features are the migration from Qt5 to
-Qt6, Auto-Type on Wayland (Linux), configurable keyboard shortcuts, remote
-database synchronization with external tools, quick unlock with password on
-macOS, and quick unlock via Polkit on Linux. Version 2.8.0 is also the first
-version for which we ship native ARM64 builds for Windows and an experimental
-AArch64 (i.e., ARM64) AppImage for Linux.
-</blockquote>
-
-<p>See the <a
-href="https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0">changelog</a>
-for a full list of new features, major changes, and bug fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1102270/</guid>
-            <pubDate>Thu, 22 Oct 2026 13:34:37 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
