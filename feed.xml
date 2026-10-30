@@ -8,11 +8,92 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 30 Oct 2026 13:47:34 +0000</pubDate>
-        <lastBuildDate>Fri, 30 Oct 2026 14:15:10 +0000</lastBuildDate>
+        <pubDate>Fri, 30 Oct 2026 19:15:12 +0000</pubDate>
+        <lastBuildDate>Fri, 30 Oct 2026 19:27:52 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Eight more stable kernel updates</title>
+            <link>https://lwn.net/Articles/1104177/</link>
+            <description><![CDATA[<p>
+Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1104178/">7.3.1</a>,
+<a href="https://lwn.net/Articles/1104179/">7.2.14</a>,
+<a href="https://lwn.net/Articles/1104180/">6.18.60</a>,
+<a href="https://lwn.net/Articles/1104181/">6.12.115</a>,
+<a href="https://lwn.net/Articles/1104182/">6.6.161</a>,
+<a href="https://lwn.net/Articles/1104183/">6.1.191</a>,
+<a href="https://lwn.net/Articles/1104184/">5.15.224</a>, and
+<a href="https://lwn.net/Articles/1104185/">5.10.273</a> stable kernels. As usual, he advises
+all users to update—advice that seems especially wise given the
+increased number of security-relevant bug fixes that the kernel is seeing these days.
+[Edit: the 7.2.15 stable release is already <a href="https://lwn.net/Articles/1104186">in review</a> as well.]
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1104177/</guid>
+            <pubDate>Fri, 30 Oct 2026 14:22:39 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Remote code execution on Linux systems with multipath TCP</title>
+            <link>https://lwn.net/Articles/1104192/</link>
+            <description><![CDATA[<p>
+On October 27, LLM provider Anthropic
+<a
+href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">reported
+on</a> a
+<a href="https://nvd.nist.gov/vuln/detail/cve-2026-98432">
+remotely exploitable use-after-free bug</a> affecting systems with
+multipath TCP listeners open. The bug works by triggering a response to a
+retransmitted SYN packet at the same moment that the TCP connection is
+established in another thread, causing the first thread to access the
+connection's options structure after the second thread has freed it. The first
+thread can then disclose kernel memory or cause a buffer overflow, writing an
+attacker-controlled payload. The fix was
+<a
+href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e3f33b0a1d89d738e2b913dab519226eaf76e15b">
+to only free the structure after an RCU grace period</a>.
+On October 29, the Go security team
+<a
+href="https://lwn.net/ml/all/bdb0066d-471b-4689-bb85-bfcb08774706@oracle.com/">advised
+that all programs written in Go use multipath TCP by default</a>, so many
+systems may be unknowingly vulnerable. And, of course, there is always the
+possibility of related bugs in other sections of the TCP stack. Users may be
+wise to update to a patched kernel as soon as one becomes available for their
+distribution.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1104192/</guid>
+            <pubDate>Fri, 30 Oct 2026 15:45:27 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>Haas: Postgres 19 is late, and it&apos;s AI&apos;s fault</title>
+            <link>https://lwn.net/Articles/1104210/</link>
+            <description><![CDATA[PostgreSQL developer Robert Haas <a
+href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">writes
+about the struggles</a> the project has encountered in putting together its
+next release.
+<p>
+<blockquote class="bq">
+	In the end, I don't think that the delay in shipping PostgreSQL 19
+	is particularly concerning. It is not a long delay in the grand
+	scheme of things, and it emerges directly from the project's
+	concern for quality.
+<p>
+	The long-term picture is less clear and in some ways more
+	troubling: given that we have forty years of bugs that humans were
+	unable to find but LLMs are quite capable of discovering, how are
+	we ever going to catch up, and how will PostgreSQL continue to
+	innovate? Right now, I'm not sure. What I do know is that I, and
+	many others, are working really hard to figure it out.
+</blockquote>
+<p>
+LWN <a href="https://lwn.net/Articles/1092003/">looked at the PostgreSQL 19 release</a>
+and its challenges in September.]]></description>
+            <guid>https://lwn.net/Articles/1104210/</guid>
+            <pubDate>Fri, 30 Oct 2026 16:52:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1104174/</link>
@@ -345,14 +426,6 @@ fixes throughout the tree. Users are advised to upgrade.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1102973/</guid>
             <pubDate>Mon, 26 Oct 2026 15:45:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1102546/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, expat, grafana, grafana-pcp, httpd, iperf3, openssh, php, php8.4, php:7.4, php:8.2, and php:8.3), <b>Debian</b> (aide, chromium, clamav, erlang, linux-6.12, roundcube, unbound, and webkit2gtk), <b>Fedora</b> (bind9-next, ca-certificates, clevis-pin-trustee, golang-x-mobile, knot-resolver, maradns, ntpsec, php, socat, and vlc), <b>Mageia</b> (golang, jq, msgpack, open-isns, perl-Mozilla-CA, roundcubemail, and sudo), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit-files, cockpit-machines, fetchmail, glycin-loaders, golang, jackson-core, librsvg2, mariadb11.8, openexr, openssh, php, php8.4, php:7.4, php:8.2, php:8.3, postgresql:16, qt5-qtbase, rust-sequoia-sq, and xorg-x11-server-Xwayland), <b>Red Hat</b> (ca-certificates and opentelemetry-collector), <b>SUSE</b> (aliyun-cli, amazon-ecs-init, bcel, coreutils, cups-filters, cyrus-sasl, distribution, expat, firefox, go1.26, go1.26-openssl, go1.27, guava, mutt, nvidia-open-driver-G07-signed, p11-kit, php74, php8, podman, python-soupsieve, python313-datamodel-code-generator, python313-Django5, thunderbird, and webkit2gtk3), and <b>Ubuntu</b> (openvpn, python-tornado, and zlib).]]></description>
-            <guid>https://lwn.net/Articles/1102546/</guid>
-            <pubDate>Fri, 23 Oct 2026 13:02:03 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
