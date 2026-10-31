@@ -8,11 +8,32 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 31 Oct 2026 02:16:48 +0000</pubDate>
-        <lastBuildDate>Sat, 31 Oct 2026 08:41:19 +0000</lastBuildDate>
+        <pubDate>Sat, 31 Oct 2026 14:07:43 +0000</pubDate>
+        <lastBuildDate>Sat, 31 Oct 2026 14:47:05 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>How We Could Have Backdoored Bash (Hacktron blog)</title>
+            <link>https://lwn.net/Articles/1104262/</link>
+            <description><![CDATA[The Hacktron blog <a
+href="https://www.hacktron.ai/blog/hacking-gnu-savannah">documents</a> how
+the group was able to compromise the GNU Savannah forge and could have
+pushed malware into any of the projects hosted there.
+<p>
+<blockquote class="bq">
+	Using Hacktron, we found that an email address like
+	<tt>`touch${IFS}/tmp/savane-rce-proof`@attacker.example</tt> gave any
+	registered user code execution on its backend. From there, we made
+	our account a superuser, impersonated Bash's maintainer, and
+	confirmed we could add an SSH key with push access to the upstream
+	Bash repository. An unpatched kernel gave us root access and access
+	to a GNU backup server. We reported it to the FSF on May 11, 2026.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1104262/</guid>
+            <pubDate>Sat, 31 Oct 2026 14:00:42 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Eight more stable kernel updates</title>
             <link>https://lwn.net/Articles/1104177/</link>
