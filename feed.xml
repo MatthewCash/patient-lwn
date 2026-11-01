@@ -8,11 +8,34 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 01 Nov 2026 10:05:26 +0000</pubDate>
-        <lastBuildDate>Sun, 1 Nov 2026 14:46:26 +0000</lastBuildDate>
+        <pubDate>Sun, 01 Nov 2026 19:14:30 +0000</pubDate>
+        <lastBuildDate>Sun, 1 Nov 2026 19:15:37 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Final release for the 7.2 stable series</title>
+            <link>https://lwn.net/Articles/1104629/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the 
+<a href="https://lwn.net/Articles/1104628/">7.2.15</a> kernel, with a handful of updates.</p>
+
+<blockquote class="bq">
+<p>Note, this is the LAST 7.2.y kernel release.  After this one the 7.2.y kernel
+tree is end-of-life.  Please move to 7.3.y at this time.</p>
+
+<p>And yes, you aren't imagining things, this one went "end-of-life" a bit sooner
+than normal.  But based on the release cycle at the moment, and the number of
+pending cc: stable patches in the queue, I figured it was better this way so we
+can focus on the latest 7.3.y release as it would require us to keep 8
+different branches alive at the same moment, a taxing task under the best of
+times.</p>
+</blockquote>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1104629/</guid>
+            <pubDate>Sun, 01 Nov 2026 15:03:40 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>A massive pile of security updates for Saturday</title>
             <link>https://lwn.net/Articles/1104612/</link>
