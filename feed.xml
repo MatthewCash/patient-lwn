@@ -8,11 +8,67 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 02 Nov 2026 09:25:43 +0000</pubDate>
-        <lastBuildDate>Mon, 2 Nov 2026 09:30:29 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Nov 2026 19:26:58 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Nov 2026 19:44:41 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1104844/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, java-17-openjdk, kernel, kernel-rt, mariadb:10.5, podman, python-jwt, python27:2.7, python38:3.8 and python38-devel:3.8, python39:3.9 and python39-devel:3.9, ruby:2.5, ruby:2.7, thunderbird, util-linux, and virt:rhel and virt-devel:rhel), <b>Debian</b> (chromium, eog, imagemagick, python-aiohttp, thunderbird, and vim), <b>Fedora</b> (asciinema, atuin, btrfs-backup-ng, clevis, gcc, janus, kernel, libheif, libreswan, mingw-expat, mupdf, nautilus, nicotine+, ntpd-rs, openscap, perl-DBI, python-streamlink, python3.12, retsnoop, ruby, rust-cargo-deny, rust-cargo-rpmstatus, rust-ctutils, rust-gst-plugin-reqwest, rust-rbspy, rust-resctl-bench, rust-rpki, rust-rustls-webpki, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-octopus-librnp, rust-webpki-root-certs, rust-webpki-roots, tpm2-tss, and vhs), <b>Oracle</b> (.NET 8.0, .NET 9.0, aspell, bind9.18, curl, httpd:2.4, java-1.8.0-openjdk, kernel, libXi, mod_auth_openidc:2.3, nodejs:24, python-pillow, and tomcat), <b>Red Hat</b> (libxml2), <b>Slackware</b> (libarchive), and <b>SUSE</b> (buildah, curl, docker, gnutls, nodejs22, and suseconnect-ng).]]></description>
+            <guid>https://lwn.net/Articles/1104844/</guid>
+            <pubDate>Mon, 02 Nov 2026 14:03:45 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Tor Browser 16.0 released</title>
+            <link>https://lwn.net/Articles/1104846/</link>
+            <description><![CDATA[<p><a href="https://blog.torproject.org/new-release-tor-browser-160/">Version
+16.0</a> of the <a
+href="https://download.torproject.org/tor-browser-for-desktop/">Tor Browser</a>
+has been released. This is the first stable version based on Firefox ESR
+153. Notable changes in this release include support for Linux on 64-bit Arm,
+redesigned settings, and a "generic window titles" feature to help prevent other
+applications from snooping on one's browser activity. <a
+href="https://download.torproject.org/tor-browser-for-android/">Tor Browser for
+Android</a> has had a number of interface updates to Google's Material
+Design&#160;3 design language.</p>
+
+<p>This release also follows Firefox in ending support for 32-bit x86 Linux
+systems. See the <a
+href="https://gitlab.torproject.org/tpo/applications/tor-browser-build/-/raw/maint-16.0/projects/browser/Bundle-Data/Docs-TBB/ChangeLog.txt">full
+changelog</a> for all of the updates and bug fixes.</p>]]></description>
+            <guid>https://lwn.net/Articles/1104846/</guid>
+            <pubDate>Mon, 02 Nov 2026 14:28:23 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Shutting the Door on the XCPE Botnet (Threat Intelligence)</title>
+            <link>https://lwn.net/Articles/1104847/</link>
+            <description><![CDATA[The Google Threat Intelligence blog <a
+href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">describes,
+in great detail</a>, the XCPE botnet, which has just been taken down.
+<p>
+<blockquote class="bq">
+	Last week, Google and industry partners dismantled the XCPE
+	backdoor which enrolled more than 1.3 million set-top boxes into a
+	botnet. We assess with high confidence that the backdoor and botnet
+	were intentionally developed, deployed, and operated for financial
+	gain by Videostrong Technology Co., an Android Original Equipment
+	Manufacturer (OEM) and Original Device Manufacturer (ODM).
+<p>
+	Videostrong monetized the backdoor by selling access to criminal
+	affiliates and loading those affiliates' malware modules onto
+	infected devices. These secondary modules were conducting ad-fraud;
+	silently enrolling infected devices into residential proxy
+	networks; and loading additional malware onto XCPE-compromised
+	devices. 
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1104847/</guid>
+            <pubDate>Mon, 02 Nov 2026 14:29:37 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.4-rc1</title>
             <link>https://lwn.net/Articles/1104654/</link>
@@ -461,50 +517,6 @@ a Raspberry Pi&#160;5.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1103212/</guid>
             <pubDate>Tue, 27 Oct 2026 18:11:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1102946/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (ca-certificates, cockpit-machines, container-tools:4.0, expat, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, golang-github-openprinting-ipp-usb, grafana-pcp, hplip, kernel, nodejs:14, nodejs:18, openssl, php:7.2, php:7.3, php:8.0, php:8.1, podman, postgresql16-pgvector, postgresql18-pgvector, and python39:3.9 and python39-devel:3.9), <b>Debian</b> (brotli, caddy, imagemagick, libdatetime-timezone-perl, libheif, openjdk-17, openssl, thunderbird, tzdata, varnish, and xdg-dbus-proxy), <b>Fedora</b> (btrfs-backup-ng, chromium, dotnet10.0, dotnet8.0, dotnet9.0, firefox, gegl04, GitPython, ImageMagick, jfrog-cli, libindi, mingw-libpng, mingw-LibRaw, mingw-python-lxml, mupdf, nix, openssh, perl-Badger, perl-CLI-Simple, perl-Cpanel-JSON-XS, perl-CSS-Inliner, perl-Encoding-FixLatin, perl-HTML-Query, perl-Markdown-Render, perl-Text-CSV_XS, perl-Text-Markdown-Discount, pgbouncer, php-pecl-mongodb2, podofo, rt, and thunderbird), <b>Mageia</b> (bind, bluez, iperf, kernel-linus, and nss, rootcerts), <b>Oracle</b> (ca-certificates, cockpit-machines, expat, go-toolset:ol8, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, httpd, iperf3, openssh, and podman), <b>Red Hat</b> (freeipmi), and <b>SUSE</b> (alloy, amazon-ecs-init, aspell, aws-iam-authenticator, ca-certificates-mozilla, cifs-utils, container-suseconnect, cosign, cpupower, docker, elemental3, emacs, expat, fetchmail, ffmpeg-7, firefox-esr, ghostscript, gimp, glibc, go1.26, go1.27, google-osconfig-agent, guava, haproxy, helm, iscsiuio, jfrog-cli, kernel, kernel-devel, krb5, kubernetes, libmodplug, libsbc1, libvpx-devel, libxls-devel, mozilla-nss, mozillafirefox, openssh8.4, openssl-3, php8, python, python-base, python-doc, python-weasyprint, python311, python312, python313, python313-CairoSVG, python313-Django, python313-multidict, python313-sglang, python313-urllib3_1, python313-vllm, python314, python315, rabbitmq-server, rclone, rpcbind, squid, trivy, wpa_supplicant, xorg-x11-server, and xwayland).]]></description>
-            <guid>https://lwn.net/Articles/1102946/</guid>
-            <pubDate>Mon, 26 Oct 2026 13:12:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Systemd adds support for components written in Rust</title>
-            <link>https://lwn.net/Articles/1102970/</link>
-            <description><![CDATA[<p>Christian Brauner has <a
-href="https://mastodon.social/@brauner/117494833311192688">announced</a> that he
-has <a href="https://github.com/systemd/systemd/pull/44324">merged support</a>
-for writing leaf components of systemd in Rust. Rust will be used only for new
-leaf components, existing code is not being ported to Rust and nothing that
-other components depend on is written in Rust.</p>
-
-<p>Brauner <a
-href="https://mastodon.social/@brauner/117494833657858840">said</a> that the
-project would like to move forward with Rust support in core systemd, "<q>but
-there are several blockers in Rust's support for dynamic libraries which
-prevents us from doing that without massively bloating every binary we
-build</q>". Assuming all goes well, it seems likely this work will appear in the
-systemd v263 release expected in December.</p>
-
-<p>]]></description>
-            <guid>https://lwn.net/Articles/1102970/</guid>
-            <pubDate>Mon, 26 Oct 2026 15:13:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernels for Monday</title>
-            <link>https://lwn.net/Articles/1102973/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1102974/">7.2.13</a> and <a
-href="https://lwn.net/Articles/1102975/">6.18.59</a> stable kernels. Each contains a number of
-fixes throughout the tree. Users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1102973/</guid>
-            <pubDate>Mon, 26 Oct 2026 15:45:34 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
