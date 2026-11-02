@@ -8,11 +8,38 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 01 Nov 2026 22:52:16 +0000</pubDate>
-        <lastBuildDate>Sun, 1 Nov 2026 22:53:18 +0000</lastBuildDate>
+        <pubDate>Mon, 02 Nov 2026 02:05:53 +0000</pubDate>
+        <lastBuildDate>Mon, 2 Nov 2026 02:07:19 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.4-rc1</title>
+            <link>https://lwn.net/Articles/1104654/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1104653/">7.4-rc1</a> kernel prepatch is out, and
+the merge window is closed for this development cycle.
+<p>
+<blockquote class="bq">
+	This is a *BIG* merge window. I think the reason is the by now
+	obvious one, but I'm actually taking it as a good sign: I'm *much*
+	happier with the flood of AI triggered work going into the merge
+	window than it showing up mainly as extra fixes during the -rc
+	period. So I'm hoping that this merge window being larger than
+	usual is a sign that the AI fixes are becoming more part of the
+	"normal development" than a flood of fixes that go into the whole
+	stabilization phase. I think that's a much healthier model.
+</blockquote>
+<p>
+There were 18,591 non-merge changesets brought in during this merge window
+— this is not just a record, but it nearly matches the patch volume during
+the entire (record-setting) 7.3 development cycle.  So far, 2,678
+developers have contributed to 7.4; 625 of them are first-time kernel
+contributors.  Subscribers can find more details in <a
+href="https://lwn.net/ksdb/releases/v7.4/">the KSDB 7.4 page</a>.]]></description>
+            <guid>https://lwn.net/Articles/1104654/</guid>
+            <pubDate>Mon, 02 Nov 2026 00:17:08 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Final release for the 7.2 stable series</title>
             <link>https://lwn.net/Articles/1104629/</link>
