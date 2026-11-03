@@ -8,11 +8,47 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Nov 2026 08:49:12 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Nov 2026 09:01:56 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Nov 2026 16:55:39 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Nov 2026 17:03:10 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1105111/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), <b>Debian</b> (chromium, git-annex, incus, kernel, and strongswan), <b>Fedora</b> (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow, python-uv-build, radicale, ruff, rust-archive-trait, rust-astral-ini, rust-astral-mail-headers, rust-astral-pubgrub, rust-astral-version-ranges, rust-astral_async_zip, rust-quick-junit, rust-tar-codec, rust-tar-framing, tpm2-tss, ty, uv, and zvbi), <b>Mageia</b> (unbound), <b>Red Hat</b> (buildah, compat-openssl10, compat-openssl11, container-tools:rhel8, delve, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, kernel, oci-seccomp-bpf-hook, openssl, opentelemetry-collector, osbuild-composer, podman, rhc, and skopeo), <b>Slackware</b> (expat), <b>SUSE</b> (ansible-core, apache-arrow, apache-commons-codec, apache-commons-io, apache-commons- logging, avalon-framework, avalon-logkit, glassfish-jsp, jsch, maven-file- management, opentest4j, aws-nitro-enclaves-cli, bouncycastle, chromedriver, chromium, cifs-utils, expat, firefox, gcc48, ghostscript, GraphicsMagick, guava, j2objc-annotations, gvfs, ImageMagick, in-toto, libsoup, nodejs22, nodejs24, praat, python-Pillow, python-PyJWT, python-soupsieve, python-sqlparse, python313-OpenEXR, python313-vllm, rootlesskit, and rqlite), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux, linux-aws, linux-gcp, linux-hwe-7.0, linux-ibm, linux-oracle, linux-aws, linux-azure-fde, linux-bluefield, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, and linux-oem-7.0).]]></description>
+            <guid>https://lwn.net/Articles/1105111/</guid>
+            <pubDate>Tue, 03 Nov 2026 14:10:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Fedora Linux 45 released</title>
+            <link>https://lwn.net/Articles/1105121/</link>
+            <description><![CDATA[<p><a href="https://fedoramagazine.org/announcing-fedora-linux-45/">Fedora Linux
+45</a> has been released. This includes all editions: <a
+href="https://fedoraproject.org/workstation/">Fedora Workstation</a>, <a
+href="https://fedoraproject.org/kde/">Fedora KDE Plasma Desktop</a>, <a
+href="https://fedoraproject.org/server/">Fedora Server</a>, <a
+href="https://fedoraproject.org/cloud/">Fedora Cloud</a>, <a
+href="https://fedoraproject.org/coreos/">Fedora CoreOS</a>, and <a
+href="https://fedoraproject.org/iot/">Fedora IoT</a>, as well as the <a
+href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a> and <a
+href="https://fedoraproject.org/spins/">Spins</a>.</p>
+
+<p>This release adds support for <a
+href="https://fedoraproject.org/wiki/Releases/45/ChangeSet#oo7_Secrets_Service_Provider">installation
+on Stratis storage</a> using Anaconda or Kickstart installs, <a
+href="https://fedoramagazine.org/migrating-away-from-unmaintained-networkmanager-vpnpluginsvpnc-and-fortisslvpn/">retires
+unmaintained VPN plugins</a> for NetworkManager, and updates Fedora's desktop
+environments, developer toolchains, and system packages. See the <a
+href="https://fedoraproject.org/wiki/Releases/45/ChangeSet">Fedora wiki
+ChangeSet page</a> for a list of major changes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1105121/</guid>
+            <pubDate>Tue, 03 Nov 2026 15:11:32 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1104844/</link>
