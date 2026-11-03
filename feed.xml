@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 03 Nov 2026 16:55:39 +0000</pubDate>
-        <lastBuildDate>Tue, 3 Nov 2026 17:03:10 +0000</lastBuildDate>
+        <pubDate>Tue, 03 Nov 2026 22:09:36 +0000</pubDate>
+        <lastBuildDate>Tue, 3 Nov 2026 22:19:11 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>OpenSUSE Leap 16.1</title>
+            <link>https://lwn.net/Articles/1105131/</link>
+            <description><![CDATA[<p>
+The openSUSE project has <a href="https://news.opensuse.org/2026/11/03/leap-unites-traditional-and-immutable/">announced</a> the release of openSUSE Leap 16.1. The release is notable for allowing both traditional installations and immutable images with transactional updates. While immutable images had previously been available for Leap Micro, they are now available across all platforms that Leap supports, including servers, desktops, and virtual machines.
+</p>
+
+<blockquote class="bq">
+"Leap's image gives the best of both for traditional and immutable users, and we expect that Tumbleweed will follow when Agama becomes the default installer for Tumbleweed as well." said Leap release manager Lubos Kocman. "The Leap Micro experience people relied on is still here, but now it shares the same release, the same life cycle and the same maintenance updates as the rest of Leap, so users only have to pick the mode that fits their workload."
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1105131/</guid>
+            <pubDate>Tue, 03 Nov 2026 17:09:48 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1105111/</link>
@@ -516,43 +530,6 @@ I will let the team tell you all the technical details.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1103359/</guid>
             <pubDate>Wed, 28 Oct 2026 14:05:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1103188/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.18, brotli, buildah, container-tools:4.0, container-tools:rhel8, firefox, flatpak, freeipmi, gcc, golang, grafana, httpd, kernel, kernel-rt, libreswan, libX11, lrzsz, nodejs:14, nodejs:18, oci-seccomp-bpf-hook, podman, python-urllib3, python3.9, python38:3.8 and python38-devel:3.8, skopeo, thunderbird, xorg-x11-server, and xz), <b>Debian</b> (inkscape, swupdate, thunderbird, and valkey), <b>Fedora</b> (brotli, dolphin, helix, kernel, libical, mingw-python3, nsd, perl-Alien-Brotli, perl-Plack, perl-Plack-Middleware-ReverseProxy, rust-dua-cli, rust-gengo-bin, rust-gitui, stgit, unshield, and webkitgtk), <b>Mageia</b> (evolution, freetype2, ghostscript, kronosnet, libde265, libical, libjxl, packages, perl-DBI, perl-ExtUtils-Typemaps-Default, perl-Imager, vim, and webkit2), <b>Oracle</b> (bind, bind9.18, brotli, buildah, ca-certificates, firefox, flatpak, freeipmi, grafana, httpd, kernel, libreswan, libX11, lrzsz, nodejs22, nodejs24, nodejs:22, oci-seccomp-bpf-hook, perl-DBI:1.641, perl:5.32, postfix, postgresql16-pgvector, postgresql18-pgvector, python3.9, skopeo, unbound, xorg-x11-server, and xz), <b>Red Hat</b> (grafana, grafana-pcp, python3.12-urllib3, and python3.14-urllib3), <b>SUSE</b> (ca-certificates-mozilla, chromium, gn, cifs-utils, containerd, cpupower, cyrus-sasl, gcc13, gcc7, go1.26, go1.27, google-osconfig-agent, kernel, kubernetes-old, libsoup, libX11, libXi, openssh, podman, python-nltk, python-PyJWT, python-social-auth-core, rekor, runc, suseconnect-ng, and unbound), and <b>Ubuntu</b> (brotli and nginx).]]></description>
-            <guid>https://lwn.net/Articles/1103188/</guid>
-            <pubDate>Tue, 27 Oct 2026 13:37:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Robinson: Raspberry Pi 5 on Fedora</title>
-            <link>https://lwn.net/Articles/1103212/</link>
-            <description><![CDATA[<p>Peter Robinson has written a <a
-href="https://nullr0ute.com/2026/10/raspberry-pi-5-on-fedora/">blog post</a> about
-the current state of Fedora support for Raspberry&#160;Pi&#160;5
-devices. According to Robinson, the upcoming Fedora&#160;45 release will
-work&mdash;with caveats&mdash;on
-all variants of the Raspberry&#160;Pi Model&#160;5B; the
-Compute&#160;Module&#160;5 and Pi&#160;500+ are still works in progress.
-
-<blockquote class="bq">
-For Fedora 44 release you need to have a temporary workaround when booting. If
-you update to the latest kernel/firmware straight away this isn't then needed
-beyond the first boot. The workaround isn't needed for Fedora 45 so if you're
-going to try this out I suggest you go and grab your favourite flavour of Fedora
-from the Fedora 45 release candidates and jump straight in there! You will get
-an accelerated desktop with storage/network/USB. There's not currently any
-support for sound and a number of other things.
-</blockquote>
-
-<p>See Robinson's post for instructions on creating an Fedora image to use with
-a Raspberry Pi&#160;5.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1103212/</guid>
-            <pubDate>Tue, 27 Oct 2026 18:11:48 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
