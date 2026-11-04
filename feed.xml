@@ -8,11 +8,36 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 04 Nov 2026 09:29:38 +0000</pubDate>
-        <lastBuildDate>Wed, 4 Nov 2026 09:53:33 +0000</lastBuildDate>
+        <pubDate>Wed, 04 Nov 2026 17:40:12 +0000</pubDate>
+        <lastBuildDate>Wed, 4 Nov 2026 17:46:48 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1105378/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), <b>Debian</b> (apt and squid), <b>Fedora</b> (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and selenium-manager), <b>Mageia</b> (java-latest-openjdk, java-17-openjdk, java-21-openjdk, timezone), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, bind9.16, cockpit, firefox, freerdp, gcc, ghostscript, glibc, grafana, java-17-openjdk, java-21-openjdk, kernel, kernel-uek, libXi, pipewire, pki-deps:10.6, podman, python-jwt, python-pillow, python-pyasn1, qt5-qtbase, thunderbird, tomcat, util-linux, and wireshark), <b>Red Hat</b> (dnsmasq, fence-agents, freerdp, pki-core:10.6, and thunderbird), <b>SUSE</b> (amazon-ssm-agent, aom-tools, apache2, brotli, cadvisor, chromium, cups, curl, distribution-registry, eog, gh, go-containerregistry, google-guest-agent, gvfs, haproxy, hauler, helm3, kernel, libBasicUsageEnvironment2, libcdio, libinstpatch-1_0-2, libosmocore, libreoffice, libX11, nodejs22, nvidia-open-driver-G06-signed, openssh, parted, perl-DBI, perl-mime-tools, python-pypdf, rootlesskit, rqlite, rsyslog, sssd, tomcat10, warewulf4, and xen), and <b>Ubuntu</b> (apt-cacher, bind9, bitlbee, cakephp, deluge, dmitry, e17, feh, gnome-shell, golang-github-gin-contrib-cors, gvfs, haproxy, jabberd2, libmspack, libnet-easytcp-perl, libphp-swiftmailer, libsoup2.4, libsoup3, libuser, pcre2, rear, ruby-rack, ruby-sprockets, rxvt-unicode, shapelib, sogo, vips, and yaws).]]></description>
+            <guid>https://lwn.net/Articles/1105378/</guid>
+            <pubDate>Wed, 04 Nov 2026 14:13:24 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Bazzite 45 released</title>
+            <link>https://lwn.net/Articles/1105395/</link>
+            <description><![CDATA[<p><a
+href="https://universal-blue.discourse.group/t/bazzite-45-is-here/12702">Version
+45</a> of <a href="https://bazzite.gg/">Bazzite</a>, the image-based gaming distribution based on
+Fedora&#160;Linux, has been released. Notable changes in this release include a
+rebase to Fedora&#160;45, updated <a
+href="https://opengamingcollective.org/">Open Gaming Collective</a> (OGC)
+kernels, support for Logitech TrueWheel devices, and more.</p>
+
+<p>LWN <a href="https://lwn.net/Articles/1046228/">covered</a> Bazzite in
+December&#160;2025.</p>]]></description>
+            <guid>https://lwn.net/Articles/1105395/</guid>
+            <pubDate>Wed, 04 Nov 2026 15:54:44 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>OpenSUSE Leap 16.1</title>
             <link>https://lwn.net/Articles/1105131/</link>
@@ -490,47 +515,6 @@ report</a> from the sched_ext microconference held in Prague.
             <guid>https://lwn.net/Articles/1103426/</guid>
             <pubDate>Wed, 28 Oct 2026 22:11:43 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1103357/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, thunderbird, and xdg-dbus-proxy), <b>Debian</b> (bind9, openjdk-21, pdns, php-mongodb, and thunderbird), <b>Fedora</b> (brotli, chromium, clevis, eog, flatpak, ghostscript, kernel, libinstpatch, libreswan, mingw-freetype, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, openssh, perl-Alien-Brotli, perl-DBI, python3.12, rust-onefetch, stargz-snapshotter, util-linux, and webkitgtk), <b>Mageia</b> (cifs-utils, libxml2, packages, perl-Cpanel-JSON-XS, perl-Text-CSV_XS, sogo, util-linux, and weechat), <b>Oracle</b> (brotli, firefox, flatpak, gcc-toolset-15-gcc, kernel, libreswan, nodejs:22, nodejs:24, python-urllib3, skopeo, and xdg-dbus-proxy), <b>Slackware</b> (proftpd), <b>SUSE</b> (azure-storage-azcopy, containerd, corepack24, grok-build, ImageMagick, libsoup-2_4-1, matrix-synapse, podman, psqlODBC, python, python-M2Crypto-doc, python-Twisted-doc, and xen), and <b>Ubuntu</b> (authd).]]></description>
-            <guid>https://lwn.net/Articles/1103357/</guid>
-            <pubDate>Wed, 28 Oct 2026 13:10:19 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Redox OS ring buffers project summary</title>
-            <link>https://lwn.net/Articles/1103359/</link>
-            <description><![CDATA[<p>The <a href="https://redox-os.org/">Redox OS</a> project, which is a
-Unix-like microkernel-based operating system written in Rust, has published a <a
-href="https://www.redox-os.org/news/nlnet-rb-summary/">report</a> on the work
-that it has done in the last year to <a
-href="https://nlnet.nl/project/RedoxOS-ringbuffer/">implement io_uring-like
-<span class="nobreak">I/O</span></a>.</p>
-
-<blockquote class="bq">
-<p>Last year, the Redox team received a grant to develop io_uring-like Ring
-Buffer support at the system task level, as a first step towards ring buffer
-communications between the application and the majority of system services. This
-phase of the work finished up in September, as the last pieces were put in
-place.</p>
-
-<p>[...] In addition to implementing the Ring Buffer machinery for our system
-services and drivers that can support it, an <tt>io_uring</tt> and
-<tt>liburing</tt>-like API for applications was completed and
-demonstrated. There was also substantial work done on support crates, including
-an async executor for drivers.</p>
-
-<p>And there was some very exciting work on various performance improvements, to
-allow much faster switching between applications and their system services. But
-I will let the team tell you all the technical details.</p>
-</blockquote>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1103359/</guid>
-            <pubDate>Wed, 28 Oct 2026 14:05:05 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
