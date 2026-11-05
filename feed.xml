@@ -8,11 +8,51 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 05 Nov 2026 10:53:21 +0000</pubDate>
-        <lastBuildDate>Thu, 5 Nov 2026 10:56:23 +0000</lastBuildDate>
+        <pubDate>Thu, 05 Nov 2026 16:46:10 +0000</pubDate>
+        <lastBuildDate>Thu, 5 Nov 2026 18:32:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Critical security vulnerability affects OpenSSH on Alpine Linux systems</title>
+            <link>https://lwn.net/Articles/1105464/</link>
+            <description><![CDATA[<p><a href="https://openssh.com/releasenotes.html#10.6p2">Version 10.6p2</a> of
+OpenSSH has been released with a workaround for a critical vulnerability that
+affects Linux systems that use <a href="https://musl.libc.org/">musl libc</a>
+with PAM disabled, such as <a href="https://www.alpinelinux.org/">Alpine
+Linux</a>. OpenSSH developer Damien Miller <a
+href="https://hachyderm.io/@damienmiller/117563026759098135">said</a>:</p>
+
+<blockquote class="bq">
+<p>If you operate a Linux system that uses musl libc without PAM (Alpine Linux
+is one example) then stop reading and set <tt>PasswordAuthentication=no</tt> or disable
+SSH for these systems IMMEDIATELY.</p>
+
+<p>This vulnerability does not exist on non-Linux systems, Linux/glibc systems
+and Linux systems that use PAM for password authentication.</p>
+
+<p>We consider the root cause of this bug to be outside OpenSSH itself, but
+we're in a good position to deliver a mitigation quickly.</p>
+</blockquote>
+
+<p>The Alpine Linux project has <a
+href="https://fosstodon.org/@alpinelinux/117563196640515820">announced</a> that
+it will be backporting the OpenSSH fix "<q>all the way back to Alpine 3.16</q>",
+which was <a
+href="https://alpinelinux.org/posts/alpine-3.16.0-released/">released</a> in May
+2022.</p>]]></description>
+            <guid>https://lwn.net/Articles/1105464/</guid>
+            <pubDate>Thu, 05 Nov 2026 11:39:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1105639/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dpdk, httpd:2.4, kernel, kernel-rt, mysql:8.0, php:7.4, php:8.0, qt5, ruby:2.7, ruby:3.0, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, puppet-agent, symfony, trapperkeeper-authorization-clojure, and xen), <b>Fedora</b> (3proxy, bind, bind-dyndb-ldap, curl, dhcpcd, erlang-jose, forgejo, freetype, laszip, libical, libmongocrypt, markdownlint-cli2, mongo-c-driver, openbao, pipx, python-boto3, python-botocore, python-crate-ingredients, python-lxml-html-clean, python3.11, python3.13, python3.14, python3.15, roundcubemail, rply, ruby-build, rust-app-store-connect, rust-qemu-rdp, rust-redlib, scribus, and valkey), <b>Mageia</b> (minetest, python-pypdf, stunnel, znc, and zvbi), <b>Oracle</b> (.NET 10.0, bind, brotli, cockpit, dpdk, fence-agents, freerdp, gimp, glibc, grafana, gvfs, host-metering, kernel, python-dns, qemu-kvm, raptor2, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Red Hat</b> (grafana and pcs), <b>Slackware</b> (rsync), <b>SUSE</b> (amazon-cloudwatch-agent, apache2, aws-efs-utils, brotli, cephfs, coredns, cramfs-tools, firefox-esr, fuse-overlayfs, ghostscript, GraphicsMagick, libpolkit-agent-1-0-128, libsoup, nvidia-open-driver-G07-signed, perl-Dancer2, python-PyJWT, python313-joserfc, rsyslog, switcheroo, trivy, valkey, vexctl, and xdg-desktop-portal), and <b>Ubuntu</b> (apt, libphp-adodb, net-snmp, pillow, squid, and twisted).]]></description>
+            <guid>https://lwn.net/Articles/1105639/</guid>
+            <pubDate>Thu, 05 Nov 2026 14:11:50 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for October 29, 2026</title>
             <link>https://lwn.net/Articles/1102136/</link>
@@ -442,14 +482,6 @@ and its challenges in September.]]></description>
             <guid>https://lwn.net/Articles/1104174/</guid>
             <pubDate>Fri, 30 Oct 2026 13:37:12 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1103666/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cjose, emacs, expat, gcc-toolset-15-gcc, java-17-openjdk, java-25-openjdk, kernel, kernel-rt, libX11, libXi, libXrender, libXtst, mod_auth_openidc:2.3, pki-deps:10.6, thunderbird, webkit2gtk3, and yggdrasil), <b>Debian</b> (chromium, firefox-esr, and openjdk-25), <b>Fedora</b> (firefox, librabbitmq, libreswan, python-pillow, and unbound), <b>Mageia</b> (fio and python3, python-pip), <b>Oracle</b> (buildah, cjose, container-tools:ol8, emacs, flute, libbase, libfonts, libformula, liblayout, libloader, libreoffice, librepository, libserializer, pentaho-libxml, pentaho-reporting-flow-engine, and sac, kernel, libX11, libXi, libXrender, libXtst, podman, python-urllib3, thunderbird, and yggdrasil), <b>Red Hat</b> (firefox, goose, kernel, kernel package, kernel-rt, librsvg2, multiple packages, php:7.4, sudo, thunderbird, and xorg-x11-server), and <b>SUSE</b> (alsa, ca-certificates-mozilla, chromedriver, cifs-utils, coredns, coreutils, cpupower, curl, cyrus-sasl, docker, dpdk, haproxy, kernel, libpoppler-cpp3, libsndfile-devel, libzbar-devel, mozilla-nss, MozillaFirefox, nginx, openai-codex, and perl-Cpanel-JSON-XS).]]></description>
-            <guid>https://lwn.net/Articles/1103666/</guid>
-            <pubDate>Thu, 29 Oct 2026 13:18:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
