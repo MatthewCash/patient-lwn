@@ -8,11 +8,58 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Nov 2026 12:58:36 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Nov 2026 13:00:29 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Nov 2026 19:22:33 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Nov 2026 19:56:25 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1105881/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit-files, container-tools:rhel8, delve, gcc-toolset-12-binutils, gimp:2.8, glibc, go-toolset:rhel8, kernel, libfastjson, mariadb:10.3, mod_auth_openidc:2.3, mysql:8.0, php:8.0, pki-core:10.6 and pki-deps:10.6, squid:4, tang, tesseract, thunderbird, and virt:rhel and virt-devel:rhel), <b>Debian</b> (chromium, ntfs-3g, puppet-agent, and trapperkeeper-authorization-clojure), <b>Fedora</b> (freerdp, goose, gpsd, hatch, perl-HTTP-Headers-ActionPack, perl-MIME-tools, perl-Plack, perl-Starman, proftpd, python-mistune, ruby-build, rust-crypto-bigint, rust-ctutils, rust-elliptic-curve, rust-num-bigint, rust-num-bigint0.4, rust-num-modular, rust-num-modular0.6, rust-num-prime, rust-zmij, rust-zstd, rust-zstd-safe, rust-zstd-safe7, rust-zstd-sys, rust-zstd0.13, scribus, sofia-sip, tailscale, tor, and wordpress), <b>Oracle</b> (cockpit-files, delve, firefox, gimp:2.8, kernel, and osbuild-composer), <b>Red Hat</b> (delve, git-lfs, go-toolset:rhel8, grafana, ignition, opentelemetry-collector, osbuild-composer, python-pillow, and yggdrasil), <b>Slackware</b> (openssh), <b>SUSE</b> (bind, brotli, cpupower, expat, fuse-overlayfs, go1.26, google-guest-agent, helm, ibus-typing-booster, kernel, kyverno, libmodplug-devel, librsvg, libX11, nvidia-open-driver-G06-signed, owntone, parted, perl-Cpanel-JSON-XS, perl-Text-CSV_XS, php8, python-Brotli, regclient, roundcubemail, rsyslog, and tomcat), and <b>Ubuntu</b> (ca-certificates, frr, haproxy, linux-nvidia-7.0, linux-nvidia-bos, linux-nvidia-tegra, and nginx).]]></description>
+            <guid>https://lwn.net/Articles/1105881/</guid>
+            <pubDate>Fri, 06 Nov 2026 14:04:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Two stable kernels for Friday</title>
+            <link>https://lwn.net/Articles/1105899/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1105900/">7.3.2</a>
+and <a href="https://lwn.net/Articles/1105901/">6.18.61</a> stable kernels. Each contains quite
+a few changes throughout the tree; users are advised to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1105899/</guid>
+            <pubDate>Fri, 06 Nov 2026 18:09:16 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Seven stable kernels with fixes for three Xen vulnerabilities</title>
+            <link>https://lwn.net/Articles/1105902/</link>
+            <description><![CDATA[<p>Hot on the heels of the <a href="https://lwn.net/Articles/1105899/">previous
+two stable kernels</a>, Greg Kroah-Hartman has announced the release of the <a
+href="https://lwn.net/Articles/1105903/">7.3.3</a>, <a href="https://lwn.net/Articles/1105904/">6.18.62</a>,
+<a href="https://lwn.net/Articles/1105905/">6.12.116</a>, <a
+href="https://lwn.net/Articles/1105906/">6.6.162</a>, <a href="https://lwn.net/Articles/1105907/">6.1.192</a>,
+<a href="https://lwn.net/Articles/1105908/">5.15.225</a>, and <a
+href="https://lwn.net/Articles/1105909/">5.10.274</a> stable kernels. Each one only contains
+fixes for three use-after-free vulnerabilities announced today by the Xen
+security team.</p>
+
+<p>Two of the vulnerabilities could allow an attacker to cause a denial of service (DoS) for the
+entire Xen host machine with possible information leakage (<a
+href="https://lwn.net/ml/all/E1xPLfb-0000000A5rj-1W0D%40xenbits.xenproject.org/">CVE-2026-100080</a>,
+<a
+href="https://lwn.net/ml/all/E1xPLfh-0000000A5vb-11J3%40xenbits.xenproject.org/">CVE-2026-100082</a>),
+and one may allow privilege escalation as well as a DoS of the host machine (<a
+href="https://lwn.net/ml/all/E1xPLfe-0000000A5tc-0wMP%40xenbits.xenproject.org/">CVE-2026-100081</a>). Users
+should, of course, upgrade if they are using Xen.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1105902/</guid>
+            <pubDate>Fri, 06 Nov 2026 18:48:34 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Critical security vulnerability affects OpenSSH on Alpine Linux systems</title>
             <link>https://lwn.net/Articles/1105464/</link>
@@ -393,95 +440,6 @@ pushed malware into any of the projects hosted there.
             <guid>https://lwn.net/Articles/1104262/</guid>
             <pubDate>Sat, 31 Oct 2026 14:00:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Eight more stable kernel updates</title>
-            <link>https://lwn.net/Articles/1104177/</link>
-            <description><![CDATA[<p>
-Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1104178/">7.3.1</a>,
-<a href="https://lwn.net/Articles/1104179/">7.2.14</a>,
-<a href="https://lwn.net/Articles/1104180/">6.18.60</a>,
-<a href="https://lwn.net/Articles/1104181/">6.12.115</a>,
-<a href="https://lwn.net/Articles/1104182/">6.6.161</a>,
-<a href="https://lwn.net/Articles/1104183/">6.1.191</a>,
-<a href="https://lwn.net/Articles/1104184/">5.15.224</a>, and
-<a href="https://lwn.net/Articles/1104185/">5.10.273</a> stable kernels. As usual, he advises
-all users to update—advice that seems especially wise given the
-increased number of security-relevant bug fixes that the kernel is seeing these days.
-[Edit: the 7.2.15 stable release is already <a href="https://lwn.net/Articles/1104186">in review</a> as well.]
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1104177/</guid>
-            <pubDate>Fri, 30 Oct 2026 14:22:39 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Remote code execution on Linux systems with multipath TCP</title>
-            <link>https://lwn.net/Articles/1104192/</link>
-            <description><![CDATA[<p>
-On October 27, LLM provider Anthropic
-<a
-href="https://www.anthropic.com/research/discovering-vulnerabilities-with-claude">reported
-on</a> a
-<a href="https://nvd.nist.gov/vuln/detail/cve-2026-98432">
-remotely exploitable use-after-free bug</a> affecting systems with
-multipath TCP listeners open. The bug works by triggering a response to a
-retransmitted SYN packet at the same moment that the TCP connection is
-established in another thread, causing the first thread to access the
-connection's options structure after the second thread has freed it. The first
-thread can then disclose kernel memory or cause a buffer overflow, writing an
-attacker-controlled payload. The fix was
-<a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e3f33b0a1d89d738e2b913dab519226eaf76e15b">
-to only free the structure after an RCU grace period</a>.
-On October 29, the Go security team
-<a
-href="https://lwn.net/ml/all/bdb0066d-471b-4689-bb85-bfcb08774706@oracle.com/">advised
-that all programs written in Go use multipath TCP by default</a>, so many
-systems may be unknowingly vulnerable. And, of course, there is always the
-possibility of related bugs in other sections of the TCP stack. Users may be
-wise to update to a patched kernel as soon as one becomes available for their
-distribution.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1104192/</guid>
-            <pubDate>Fri, 30 Oct 2026 15:45:27 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Haas: Postgres 19 is late, and it&apos;s AI&apos;s fault</title>
-            <link>https://lwn.net/Articles/1104210/</link>
-            <description><![CDATA[PostgreSQL developer Robert Haas <a
-href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html">writes
-about the struggles</a> the project has encountered in putting together its
-next release.
-<p>
-<blockquote class="bq">
-	In the end, I don't think that the delay in shipping PostgreSQL 19
-	is particularly concerning. It is not a long delay in the grand
-	scheme of things, and it emerges directly from the project's
-	concern for quality.
-<p>
-	The long-term picture is less clear and in some ways more
-	troubling: given that we have forty years of bugs that humans were
-	unable to find but LLMs are quite capable of discovering, how are
-	we ever going to catch up, and how will PostgreSQL continue to
-	innovate? Right now, I'm not sure. What I do know is that I, and
-	many others, are working really hard to figure it out.
-</blockquote>
-<p>
-LWN <a href="https://lwn.net/Articles/1092003/">looked at the PostgreSQL 19 release</a>
-and its challenges in September.]]></description>
-            <guid>https://lwn.net/Articles/1104210/</guid>
-            <pubDate>Fri, 30 Oct 2026 16:52:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1104174/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (aspell, cjose, curl, gcc-toolset-15-gcc, httpd:2.4, ignition, java-21-openjdk, libX11, libXi, libXrender, libXtst, mariadb:10.11, nodejs:24, python-pillow, python3.12-urllib3, and webkit2gtk3), <b>Debian</b> (imagemagick, libdatetime-timezone-perl, python-git, tor, tzdata, vlc, and wordpress), <b>Fedora</b> (accessibility-inspector, akonadi-calendar, akonadi-calendar-tools, akonadi-contacts, akonadi-import-wizard, akonadi-mime, akonadi-search, akonadi-server, akonadiconsole, akregator, alligator, analitza, angelfish, applet-window-buttons, arianna, ark, artikulate, audex, audiocd-kio, audiotube, aurorae, baloo-widgets, blinken, bluedevil, bomber, bovo, breeze-gtk, brotli, bup, calendarsupport, calindori, calligra, cantor, colord-kde, cxx-rust-cssparser, dolphin, dolphin-plugins, dragon, elisa-player, eventviews, falkon, fcitx-configtool, ffmpegthumbs, filelight, firefox, flatpak-kcm, francis, ghostwriter, granatier, grantlee-editor, grantleetheme, grub2-breeze-theme, gwenview, incidenceeditor, isoimagewriter, itinerary, juk, k3b, kaccounts-integration, kaccounts-providers, kactivitymanagerd, kaddressbook, kajongg, kalarm, kalgebra, kalk, kalm, kalzium, kamera, kamoso, kanagram, kapman, kapptemplate, kasts, kate, katomic, kbackup, kblackbox, kblocks, kbounce, kbruch, kcachegrind, kcalc, kcalutils, kcharselect, kclock, kcolorchooser, kcron, kde-cli-tools, kde-connect, kde-dev-scripts, kde-dev-utils, kde-gtk-config, kde-inotify-survey, kde-partitionmanager, kdebugsettings, kdecoration, kdeedu-data, kdegraphics-mobipocket, kdegraphics-thumbnailers, kdenetwork-filesharing, kdenlive, kdepim-addons, kdepim-runtime, kdeplasma-addons, kdesdk-kioslaves, kdesdk-thumbnailers, kdevelop, kdevelop-php, kdevelop-python, kdf, kdialog, kdiamond, kdnssd, kdominate, keditbookmarks, keepsecret, keysmith, kf6-baloo, kfind, kfourinline, kgeography, kget, kglobalacceld, kgoldrunner, kgpg, kgraphviewer, khangman, khealthcertificate, khelpcenter, kidentitymanagement, kig, kigo, killbots, kimagemapeditor, kimap, kinfocenter, kio-admin, kio-extras, kio-gdrive, kirigami-gallery, kiriki, kiten, kitinerary, kjournald, kjumpingcube, kldap, kleopatra, klettres, klickety, klines, kmag, kmahjongg, kmail, kmail-account-wizard, kmailtransport, kmbox, kmenuedit, kmines, kmix, kmousetool, kmouth, kmplot, knavalbattle, knetwalk, knights, knighttime, knot, koko, kolf, kollision, kolourpaint, kompare, kongress, konqueror, konquest, konsole, kontact, kontactinterface, kontrast, konversation, kopeninghours, korganizer, kosmindoormap, kpat, kpimtextedit, kpipewire, kpkpass, kpmcore, kpublictransport, kqtquickcharts, krdc, krdp, krecorder, kreversi, krfb, kruler, ksanecore, kscreen, kscreenlocker, kshisen, ksirk, ksmtp, ksnakeduel, kspaceduel, ksquares, ksshaskpass, ksudoku, ksystemlog, ksystemstats, kteatime, ktimer, ktnef, ktorrent, ktouch, ktrip, ktuberling, kturtle, kubrick, kunifiedpush, kup-backup, kwalletmanager5, kwave, kwayland, kwayland-integration, kweather, kweathercore, kwin, kwin-zones, kwordquiz, kwrited, layer-shell-qt, libgravatar, libkcddb, libkdcraw, libkdegames, libkdepim, libkeduvocdocument, libkexiv2, libkgapi, libkleo, libkmahjongg, libkomparediff2, libksane, libkscreen, libksieve, libksysguard, libktorrent, libplasma, libquotient, lokalize, lskat, mailcommon, mailimporter, marble, markdownpart, massif-visualizer, mbox-importer, merkuro, messagelib, mimetreeparser, mingw-python-certifi, minuet, neochat, ocean-sound-theme, okular, oxygen-sounds, palapeli, pam-kwallet, parley, perl-Alien-Brotli, picmi, pim-data-exporter, pim-sieve-editor, pimcommon, plasma-activities, plasma-activities-stats, plasma-bigscreen, plasma-breeze, plasma-browser-integration, plasma-camera, plasma-desktop, plasma-dialer, plasma-discover, plasma-disks, plasma-drkonqi, plasma-firewall, plasma-integration, plasma-keyboard, plasma-login-manager, plasma-milou, plasma-mobile, plasma-nano, plasma-nm, plasma-oxygen, plasma-pa, plasma-phonebook, plasma-print-manager, plasma-sdk, plasma-settings, plasma-setup, plasma-systemmonitor, plasma-systemsettings, plasma-thunderbolt, plasma-union, plasma-vault, plasma-wayland-protocols, plasma-welcome, plasma-workspace, plasma-workspace-wallpapers, plasma5support, plasmatube, plymouth-kcm, plymouth-theme-breeze, polkit-kde, powerdevil, poxml, qmlkonsole, qqc2-breeze-style, qrca, rocs, sddm-kcm, signon-kwallet-extension, skanlite, skanpage, skladnik, spacebar, spectacle, step, svgpart, sweeper, tokodon, trafficserver, umbrello, xdg-desktop-portal-kde, yakuake, and zanshin), <b>Mageia</b> (cfitsio, libsolv, tomcat, and xrdp), <b>Oracle</b> (bind, cjose, curl, dogtag-pki, expat, gcc-toolset-15-gcc, ignition, kernel, libX11, libXrender, libXtst, php, python3.12-urllib3, and webkit2gtk3), <b>SUSE</b> (389-ds, aws-nitro-enclaves-binaryblobs-upstream, brotli, chromium, firefox, flatpak, gnutls, google-osconfig-agent, haproxy, hawk2, kernel, libapr1, libtcnative-1-0, tomcat, liboath-devel, libpcre2-16-0, librecad, libXi-devel, libXtst-devel, python311, python313, python313-markdown2, python313-xhtml2pdf, rabbitmq-server, roundcubemail, rust-keylime, and xen), and <b>Ubuntu</b> (dotnet8, dotnet10, dotnet11).]]></description>
-            <guid>https://lwn.net/Articles/1104174/</guid>
-            <pubDate>Fri, 30 Oct 2026 13:37:12 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
