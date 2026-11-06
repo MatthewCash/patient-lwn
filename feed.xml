@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 06 Nov 2026 19:22:33 +0000</pubDate>
-        <lastBuildDate>Fri, 6 Nov 2026 19:56:25 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Nov 2026 22:54:34 +0000</pubDate>
+        <lastBuildDate>Fri, 6 Nov 2026 23:58:29 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Videos from XDC 2026 are available</title>
+            <link>https://lwn.net/Articles/1105913/</link>
+            <description><![CDATA[Videos from the <a href="https://indico.freedesktop.org/event/12/">2026 X.Org Developers Conference</a> (XDC) are now <a href="https://www.youtube.com/@XOrgFoundation/videos">available on YouTube</a>.  XDC was held in Toronto, Ontario, Canada September 28-30.]]></description>
+            <guid>https://lwn.net/Articles/1105913/</guid>
+            <pubDate>Fri, 06 Nov 2026 20:25:22 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1105881/</link>
