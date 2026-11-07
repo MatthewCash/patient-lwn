@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 07 Nov 2026 09:49:39 +0000</pubDate>
-        <lastBuildDate>Sat, 7 Nov 2026 11:53:16 +0000</lastBuildDate>
+        <pubDate>Sat, 07 Nov 2026 17:21:46 +0000</pubDate>
+        <lastBuildDate>Sat, 7 Nov 2026 17:28:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -484,27 +484,6 @@ times.</p>
             <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, aspell, bind, bind9.18, container-tools:1.0, container-tools:rhel8, curl, dogtag-pki, ignition, java-21-openjdk, python-pillow, tomcat, and virt:rhel, virt-devel:rhel), <b>Debian</b> (antiword, cyrus-sasl2, dovecot, dpdk, nss, python-git, and thunderbird), <b>Fedora</b> (7zip, aegisub, aom, apptainer, arm-none-eabi-binutils-cs, assimp, avr-binutils, baresip, barman, bind9-next, btrfs-backup-ng, chezmoi, chromium, cifs-utils, clevis-pin-trustee, composer, containerd, curl, docker-buildx, dotnet10.0, evolution, evolution-data-server, evolution-ews, exim, fips-provider, firefox, flare-im, forgejo, freeipa, freerdp, gcc, gegl04, ghostscript, GitPython, glib-networking, gnome-shell-extension-gsconnect, golang-x-mobile, hcloud, helix, httpd, ImageMagick, iperf3, jfrog-cli, jupyterlab, keepassxc, kernel, knot-resolver, krb5, kryoptic, libdigidocpp, libheif, libindi, libinstpatch, libpng12, libpng15, librabbitmq, libre, libXi, libzip, linux-firmware, Lmod, log4net, markdownlint-cli2, mingw-freetype, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, mingw-libpng, mingw-LibRaw, mingw-python-certifi, mingw-python3, mongo-c-driver, mstflint, mutt, nant, nebula, nix, nsd, ntpsec, openbao, openjpeg, openssl3, openvpn, perl-Badger, perl-CLI-Simple, perl-Cpanel-JSON-XS, perl-CSS-Inliner, perl-Encoding-FixLatin, perl-ExtUtils-Typemaps-Default, perl-GD-SecurityImage, perl-HTML-Query, perl-libnet, perl-Markdown-Render, perl-Net-IDN-Encode, perl-Net-Whois-Raw, perl-Plack, perl-Plack-Middleware-ReverseProxy, perl-Text-CSV_XS, pgbouncer, php-getid3, php-pecl-mongodb2, python-boto3, python-botocore, python-cairosvg, python-django5, python-django6, python-jupyter-builder, python-mkdocs-rss-plugin, python-nbdime, python-nh3, python-notebook, python-pydantic-core, python-pypdf, python-uv-build, python3.10, python3.11, python3.12, python3.13, python3.14, qdigidoc, qdl, qt5-qtbase, radicale, rclone, rt, ruff, rust-ammonia, rust-archive-trait, rust-astral-html, rust-astral-ini, rust-astral-mail-headers, rust-astral-pubgrub, rust-astral-version-ranges, rust-astral_async_http_range_reader, rust-astral_async_zip, rust-asyncband, rust-backtrace, rust-blake2b_simd, rust-blake3, rust-cargo-semver-checks, rust-chrono, rust-clap-cargo, rust-constant_time_eq, rust-dua-cli, rust-faster-hex, rust-gengo-bin, rust-gitui, rust-lzma-rust2, rust-object, rust-object0.37, rust-object0.38, rust-object0.39, rust-onefetch, rust-ppmd-rust, rust-quick-junit, rust-rbw, rust-regorus, rust-reqsign, rust-reqsign-aliyun-oss, rust-reqsign-aws-core, rust-reqsign-aws-v4, rust-reqsign-aws-v4a, rust-reqsign-azure-storage, rust-reqsign-command-execute-tokio, rust-reqsign-core, rust-reqsign-file-read-tokio, rust-reqsign-google, rust-reqsign-http-send-reqwest, rust-reqsign-huaweicloud-obs, rust-reqsign-oracle, rust-reqsign-tencent-cos, rust-reqsign-volcengine-tos, rust-routinator, rust-rustls, rust-ruzstd, rust-sccache, rust-tar-codec, rust-tar-framing, rust-tokei, rust-totp-rs, rust-trustfall-rustdoc-adapter, rust-trustfall-rustdoc-adapter57, rust-trustfall-rustdoc-adapter60, rust-typed-path, rust-zip, rust-zip0.6, rust-zip2, rustup, samba, SDL3_image, socat, stargz-snapshotter, stgit, sudo, syncthing, thunderbird, tor, trafficserver, ty, unbound, unshield, uv, webkitgtk, wordpress, xorg-x11-server, xorg-x11-server-Xwayland, zchunk, and zvbi), <b>Mageia</b> (libgit2), <b>Red Hat</b> (go-toolset:rhel8 and rhc), <b>SUSE</b> (ab-av1, ansible-core, aws-nitro-enclaves-cli, bouncycastle, cadvisor, chromium, cifs-utils, coredns, crun, dr_libs-devel-20260901, dssim, epiphany, expat, forgejo, freetype2-devel, fuseiso-20260614, gh, ghostscript, gosec, gvfs, hashcat, hauler, hugo, ImageMagick, kernel-devel, kubevirt1.9, libmikmod, libsoup, percona-toolkit, perl-cpanel-json-xs, perl-dancer2-plugin-auth-extensible, perl-mozilla-ca, pocketbase, putty, python-brotli, python-CairoSVG, python-cairosvg, python-django, python-pypdf, python-urllib3_1, roundcubemail, rsyslog, shadowsocks-rust, shadowsocks-libev, stgit, suseconnect-ng, tailscale, trivy, and vlc), and <b>Ubuntu</b> (brotli).]]></description>
             <guid>https://lwn.net/Articles/1104612/</guid>
             <pubDate>Sat, 31 Oct 2026 22:34:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>How We Could Have Backdoored Bash (Hacktron blog)</title>
-            <link>https://lwn.net/Articles/1104262/</link>
-            <description><![CDATA[The Hacktron blog <a
-href="https://www.hacktron.ai/blog/hacking-gnu-savannah">documents</a> how
-the group was able to compromise the GNU Savannah forge and could have
-pushed malware into any of the projects hosted there.
-<p>
-<blockquote class="bq">
-	Using Hacktron, we found that an email address like
-	<tt>`touch${IFS}/tmp/savane-rce-proof`@attacker.example</tt> gave any
-	registered user code execution on its backend. From there, we made
-	our account a superuser, impersonated Bash's maintainer, and
-	confirmed we could add an SSH key with push access to the upstream
-	Bash repository. An unpatched kernel gave us root access and access
-	to a GNU backup server. We reported it to the FSF on May 11, 2026.
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1104262/</guid>
-            <pubDate>Sat, 31 Oct 2026 14:00:42 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
         </item>
     </channel>
