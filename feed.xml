@@ -8,11 +8,69 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sat, 07 Nov 2026 03:45:36 +0000</pubDate>
-        <lastBuildDate>Sat, 7 Nov 2026 05:22:10 +0000</lastBuildDate>
+        <pubDate>Sat, 07 Nov 2026 09:49:39 +0000</pubDate>
+        <lastBuildDate>Sat, 7 Nov 2026 11:53:16 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Amutable Foundations: A Technical Overview</title>
+            <link>https://lwn.net/Articles/1105934/</link>
+            <description><![CDATA[Lennart Poettering, Michael Vogt, and Joaquim Rocha have put together <a
+href="https://amutable.com/blog/amutable-foundations-technical-overview">a
+detailed overview</a> of what the Amutable Operating System (AOS) and
+associated infrastructure will look like.
+<p>
+<blockquote class="bq">
+	The image-based OS approach enables us to enforce some very strict
+	but powerful security properties, which elevate the security
+	posture of the system substantially above traditional Linux
+	systems. Specifically, let's highlight seven major essential
+	security properties of AOS here:
+<ol class="spacylist">
+<li> <b>No Shell + No SSH + No Language Interpreters</b>. By default AOS
+     does not install a UNIX shell, nor makes remote access via SSH
+     available on the nodes. Moreover, we do not install any of the usual
+     language interpreters (Python, Perl, …) by default. For most nodes a
+     shell or interpreted language support is not required and it removes a
+     whole class of attacks.
+<li> <b>Signed Images Only</b>. On AOS only images that come with Verity
+     data signed by a signing key listed in the Verity keyring may be
+     activated.
+<li> [...]
+</ol>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1105934/</guid>
+            <pubDate>Sat, 07 Nov 2026 09:32:56 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Asahi Linux 7.3 progress report</title>
+            <link>https://lwn.net/Articles/1105936/</link>
+            <description><![CDATA[The Asahi Linux developers have put out <a
+href="https://asahilinux.org/2026/11/progress-report-7-3/">a new report</a>
+on their progress toward a Linux distribution for Apple devices.
+<p>
+<blockquote class="bq">
+	Some time ago, we were made aware of multiple attempts to exploit
+	our permissive licensing to hijack our work, with a direct view to
+	replacing the project and aggressively monetising Linux on Apple
+	Silicon. In some extreme cases, in-development feature code was
+	being lifted straight out of our personal forks and published
+	without attribution or lazily rewritten with LLM assistance to
+	obfuscate its origin. The MIT licence explicitly allows this, and
+	has no carveouts to protect against bad faith actors.
+<p>
+	As such, we made the difficult decision to begin the process of
+	transitioning all of our repositories to the GNU General Public
+	License version 2 or later. Going forward all Asahi Linux code will
+	be licenced under strong copyleft licences only. Those who do not
+	learn from history are doomed to repeat it.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1105936/</guid>
+            <pubDate>Sat, 07 Nov 2026 09:49:38 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Videos from XDC 2026 are available</title>
             <link>https://lwn.net/Articles/1105913/</link>
