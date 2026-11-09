@@ -8,11 +8,68 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 09 Nov 2026 09:08:12 +0000</pubDate>
-        <lastBuildDate>Mon, 9 Nov 2026 09:09:38 +0000</lastBuildDate>
+        <pubDate>Mon, 09 Nov 2026 18:22:13 +0000</pubDate>
+        <lastBuildDate>Mon, 9 Nov 2026 19:49:35 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1106282/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (cjose, kernel, libreoffice, rsync, ruby3.3, telegram-desktop, vim, and zlib), <b>Fedora</b> (bind, composer, copyparty, dnf5, elixir, fasterxml-oss-parent, gnome-remote-desktop, goose, jackson-annotations, jackson-bom, jackson-core, jackson-databind, jackson-jaxrs-providers, jackson-modules-base, jackson-parent, java-21-openjdk, java-21-openjdk-portable, jupyterlab, kryoptic, luksmeta, mingw-cfitsio, mingw-expat, mingw-freetype, mingw-glib-networking, mingw-harfbuzz, mingw-qt5-qtbase, mingw-qt5-qtdeclarative, mingw-qt5-qtwebkit, mingw-qt6-qtbase, mtools, NetworkManager-l2tp, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, nodejs-pnpm12, pcre2, perl-Spreadsheet-XLSX, pie, python-boto3, python-botocore, python-joserfc, python-jupyter-builder, python-jupyterlab-server, python-jupytext, python-nbdime, python-notebook, python-s3transfer, python3.12, rccl, rsync, rust-blake2b_simd, rust-blake3, rust-constant_time_eq, rust-lzma-rust2, rust-ppmd-rust, rust-regorus, rust-sccache, rust-totp-rs, rust-typed-path, rust-zip, rust-zip0.6, rust-zip2, sofia-sip, suricata, wordpress, and xen), <b>Mageia</b> (gimp, python-gitpython, and suricata), <b>Red Hat</b> (osbuild-composer), <b>Slackware</b> (httpd), <b>SUSE</b> (bind, brotli, ca-certificates-mozilla, chromedriver, containerized-data-importer1.65-api, corepack24, docker-compose, flatpak, fuse-overlayfs, git-lfs, gitoxide, go1.27, google-cloud-sap-agent, google-guest-agent, gotosocial, kubevirt1.8, kubevirt1.8-container-disk, kubevirt1.9-container-disk, libmariadbd-devel, libntpc1, libopenscap33, libsndfile-devel, libspice-server-devel, libtirpc-devel, matomo, mihomo, mozilla-nss, nano, nmap, nodejs22, perl-Mozilla-CA, python-Brotli, python-CairoSVG, python-certifi, python313-Pillow, rsyslog, stgit, and thunderbird), and <b>Ubuntu</b> (python-tornado).]]></description>
+            <guid>https://lwn.net/Articles/1106282/</guid>
+            <pubDate>Mon, 09 Nov 2026 14:02:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>OpenIndiana 2026.10 released</title>
+            <link>https://lwn.net/Articles/1106285/</link>
+            <description><![CDATA[<p><a
+href="https://openindiana.org/announcements/openindiana-hipster-2026-10-announcement/">Version
+2026.10</a> of the <a
+href="https://docs.openindiana.org/misc/openindiana/">OpenIndiana</a> operating
+system has been released. OpenIndiana is based on <a
+href="https://en.wikipedia.org/wiki/Illumos">Illumos</a>, which in turn was
+based on <a href="https://en.wikipedia.org/wiki/OpenSolaris">OpenSolaris</a>
+after Oracle discontinued it.</p>
+
+<p>Notable changes in this release include UEFI framebuffer support for the live
+image, updates to many applications and development tools, as well as the
+inclusion of new applications such as TeX Live 2026, the Foliate ebook reader,
+and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1106285/</guid>
+            <pubDate>Mon, 09 Nov 2026 14:09:57 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Kernel prepatch 7.4-rc2</title>
+            <link>https://lwn.net/Articles/1106300/</link>
+            <description><![CDATA[Linus Torvalds has released the <a href="https://lwn.net/Articles/1106299/">7.4-rc2
+prepatch</a> and it will come as no surprise that it is a large one ("<q>a
+big -rc2 to go with the largest ever -rc1</q>").  Much of the size was made
+up of some automated Coccinelle updates that were spread out all over the
+tree; once those are factored out, the rest looks fairly normal:
+
+<blockquote class="bq">
+When masking that noise out from the diffstat, the shape of it changes
+- not spread out over thousands of files any more. But it does not
+look unusual: a third is drivers (gpu, networking and sound account
+for most of it, but there's a bit of everything), another third is
+networking and bpf, and the final third is "the rest" (mostly
+filesystems, mm, arch updates).
+<p>
+And yes, much of this was driven by various AI fixes. I think I'll
+stop repeating that, and we can just take it for granted. But this
+time around Alexei [Starovoitov] claims that on the bpf side at least the fixes are
+now coming in faster than the new reports, and that sounds lovely if
+true.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1106300/</guid>
+            <pubDate>Mon, 09 Nov 2026 14:55:38 +0000</pubDate>
+            <dc:creator>jake</dc:creator>
+        </item>
         <item>
             <title>Amutable Foundations: A Technical Overview</title>
             <link>https://lwn.net/Articles/1105934/</link>
@@ -371,62 +428,6 @@ ChangeSet page</a> for a list of major changes.</p>
             <guid>https://lwn.net/Articles/1105121/</guid>
             <pubDate>Tue, 03 Nov 2026 15:11:32 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1104844/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (firefox, java-17-openjdk, kernel, kernel-rt, mariadb:10.5, podman, python-jwt, python27:2.7, python38:3.8 and python38-devel:3.8, python39:3.9 and python39-devel:3.9, ruby:2.5, ruby:2.7, thunderbird, util-linux, and virt:rhel and virt-devel:rhel), <b>Debian</b> (chromium, eog, imagemagick, python-aiohttp, thunderbird, and vim), <b>Fedora</b> (asciinema, atuin, btrfs-backup-ng, clevis, gcc, janus, kernel, libheif, libreswan, mingw-expat, mupdf, nautilus, nicotine+, ntpd-rs, openscap, perl-DBI, python-streamlink, python3.12, retsnoop, ruby, rust-cargo-deny, rust-cargo-rpmstatus, rust-ctutils, rust-gst-plugin-reqwest, rust-rbspy, rust-resctl-bench, rust-rpki, rust-rustls-webpki, rust-sequoia-chameleon-gnupg, rust-sequoia-git, rust-sequoia-octopus-librnp, rust-webpki-root-certs, rust-webpki-roots, tpm2-tss, and vhs), <b>Oracle</b> (.NET 8.0, .NET 9.0, aspell, bind9.18, curl, httpd:2.4, java-1.8.0-openjdk, kernel, libXi, mod_auth_openidc:2.3, nodejs:24, python-pillow, and tomcat), <b>Red Hat</b> (libxml2), <b>Slackware</b> (libarchive), and <b>SUSE</b> (buildah, curl, docker, gnutls, nodejs22, and suseconnect-ng).]]></description>
-            <guid>https://lwn.net/Articles/1104844/</guid>
-            <pubDate>Mon, 02 Nov 2026 14:03:45 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Tor Browser 16.0 released</title>
-            <link>https://lwn.net/Articles/1104846/</link>
-            <description><![CDATA[<p><a href="https://blog.torproject.org/new-release-tor-browser-160/">Version
-16.0</a> of the <a
-href="https://download.torproject.org/tor-browser-for-desktop/">Tor Browser</a>
-has been released. This is the first stable version based on Firefox ESR
-153. Notable changes in this release include support for Linux on 64-bit Arm,
-redesigned settings, and a "generic window titles" feature to help prevent other
-applications from snooping on one's browser activity. <a
-href="https://download.torproject.org/tor-browser-for-android/">Tor Browser for
-Android</a> has had a number of interface updates to Google's Material
-Design&#160;3 design language.</p>
-
-<p>This release also follows Firefox in ending support for 32-bit x86 Linux
-systems. See the <a
-href="https://gitlab.torproject.org/tpo/applications/tor-browser-build/-/raw/maint-16.0/projects/browser/Bundle-Data/Docs-TBB/ChangeLog.txt">full
-changelog</a> for all of the updates and bug fixes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1104846/</guid>
-            <pubDate>Mon, 02 Nov 2026 14:28:23 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Shutting the Door on the XCPE Botnet (Threat Intelligence)</title>
-            <link>https://lwn.net/Articles/1104847/</link>
-            <description><![CDATA[The Google Threat Intelligence blog <a
-href="https://cloud.google.com/blog/topics/threat-intelligence/shutting-the-door-on-the-xcpe-botnet/">describes,
-in great detail</a>, the XCPE botnet, which has just been taken down.
-<p>
-<blockquote class="bq">
-	Last week, Google and industry partners dismantled the XCPE
-	backdoor which enrolled more than 1.3 million set-top boxes into a
-	botnet. We assess with high confidence that the backdoor and botnet
-	were intentionally developed, deployed, and operated for financial
-	gain by Videostrong Technology Co., an Android Original Equipment
-	Manufacturer (OEM) and Original Device Manufacturer (ODM).
-<p>
-	Videostrong monetized the backdoor by selling access to criminal
-	affiliates and loading those affiliates' malware modules onto
-	infected devices. These secondary modules were conducting ad-fraud;
-	silently enrolling infected devices into residential proxy
-	networks; and loading additional malware onto XCPE-compromised
-	devices. 
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1104847/</guid>
-            <pubDate>Mon, 02 Nov 2026 14:29:37 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
