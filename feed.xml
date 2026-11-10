@@ -8,11 +8,37 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Nov 2026 10:06:43 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Nov 2026 10:28:22 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Nov 2026 18:03:32 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Nov 2026 18:07:06 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1106522/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (curl, dpdk, glibc, kernel, nodejs-nodemon, nodejs22, nodejs24, nodejs:18, nodejs:22, patch, qt5, qt5-qtdeclarative, ruby, ruby4.0, ruby:3.3, ruby:4.0, squid:4, tomcat, util-linux, and webkit2gtk3), <b>Debian</b> (symfony and tomcat10), <b>Fedora</b> (bind, dnf5, kernel, kernel-headers, libmodulemd, maturin, perl-CGI, perl-Net-IDN-Encode, perl-Starlet, python-jiter, python-pydantic-core, python-pysequoia, python3-docs, python3.14, python3.15, ruff, rust-afterburn, rust-astral_async_zip, rust-clearscreen, rust-jiter, rust-lzma-rust2, rust-mailparse, rust-pyo3-introspection, rust-python-pkginfo, rust-serde_json, rust-testresult, rust-zip, selenium-manager, ty, and uutils-coreutils), <b>Mageia</b> (glibc, packages, php-smarty, python-aiohttp, and thunderbird), <b>Oracle</b> (curl, firefox, gdb, glibc, kernel, oVirt 4.5 ovirt-engine-wildfly, perl-YAML:1.24, and tesseract), <b>Slackware</b> (krb5), <b>SUSE</b> (ansible-core, apr-util, aspell, buildpacks-cli, dpdk22, firefox, git-bug, glib2, google-cloud-sap-agent, haproxy, jsoup, kernel, krb5, libjxl, librsvg, libruby4_0-4_0, libunbound8, libXtst, nodejs24, nvidia-open-driver-G07-signed, PackageKit, perl-XS-Parse-Keyword, poppler, python, python-Brotli, rsyslog, tekton-cli, tomcat, tomcat10, tomcat11, trivy, udisks2, xen, zchunk, and zk), and <b>Ubuntu</b> (apache2, ca-certificates, fetchmail, freerdp3, kernel, libgphoto2, libheif, libnfs, libsoup3, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-gcp, linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-oracle, linux-oracle-5.15, linux-realtime, linux, linux-aws, linux-aws-fips, linux-aws-hwe, linux-azure, linux-azure-4.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-4.15, linux-gcp-fips, linux-hwe, linux-kvm, linux-oracle, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-azure, linux-azure-fips, linux-gcp, linux-gke, linux-ibm, linux-lowlatency, linux-oracle, linux-vmware, linux, linux-aws, linux-gcp, linux-ibm, linux-oem-7.0, linux-oracle, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-aws, linux-aws-5.4, linux-raspi, linux-raspi-5.4, linux-aws-6.8, linux-gcp-6.8, linux-ibm-6.8, linux-lowlatency-hwe-6.8, linux-nvidia, linux-realtime-6.8, linux-aws-7.0, linux-azure-fde, linux-azure-fde-7.0, linux-gcp-7.0, linux-gke, linux-oracle-7.0, linux-realtime, linux-aws-fips, linux-gcp-fips, linux-gkeop, linux-realtime, linux-azure, linux-azure-6.8, linux-azure-fde-6.8, linux-azure-fde, linux-oracle-6.8, linux-raspi, linux-raspi-realtime, linux-raspi, openjdk-17, openjdk-21, openjdk-25, openjdk-27, openjdk-8, openjdk-lts, perl, and pyasn1).]]></description>
+            <guid>https://lwn.net/Articles/1106522/</guid>
+            <pubDate>Tue, 10 Nov 2026 14:03:54 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Firefox 160 released</title>
+            <link>https://lwn.net/Articles/1106542/</link>
+            <description><![CDATA[<p><a href="https://www.firefox.com/en-US/firefox/160.0/releasenotes/">Version
+160</a> of the Firefox web browser has been released. Notable features in this
+release include the ability to block sites from asking to handle
+"<tt>mailto:</tt>" links, ability to play Matroska files with FLAC, MP3, or PCM
+audio, playback speed controls in the <a
+href="https://support.mozilla.org/kb/about-picture-picture-firefox">picture-in-picture</a>
+video player, and a new <a
+href="https://connect.mozilla.org/t5/discussions/mini-window-beta-is-going-live-in-firefox-160-and-we-want-your/m-p/144137#M59048">Mini
+Window feature</a> that is in early development.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1106542/</guid>
+            <pubDate>Tue, 10 Nov 2026 15:37:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Monday</title>
             <link>https://lwn.net/Articles/1106282/</link>
@@ -392,42 +418,6 @@ The openSUSE project has <a href="https://news.opensuse.org/2026/11/03/leap-unit
             <guid>https://lwn.net/Articles/1105131/</guid>
             <pubDate>Tue, 03 Nov 2026 17:09:48 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Tuesday</title>
-            <link>https://lwn.net/Articles/1105111/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (bind, bind9.16, firefox, freerdp, ghostscript, kernel, kernel-rt, libXi, perl-YAML:1.24, perl:5.32, pipewire, qt5-qtbase, redis:6, tomcat, and wireshark), <b>Debian</b> (chromium, git-annex, incus, kernel, and strongswan), <b>Fedora</b> (barman, erlang-hex_core, glib-networking, kernel, knot, liblerc, libsoup3, mingw-cfitsio, openjpeg, perl-libnet, pipx, python-pillow, python-uv-build, radicale, ruff, rust-archive-trait, rust-astral-ini, rust-astral-mail-headers, rust-astral-pubgrub, rust-astral-version-ranges, rust-astral_async_zip, rust-quick-junit, rust-tar-codec, rust-tar-framing, tpm2-tss, ty, uv, and zvbi), <b>Mageia</b> (unbound), <b>Red Hat</b> (buildah, compat-openssl10, compat-openssl11, container-tools:rhel8, delve, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, kernel, oci-seccomp-bpf-hook, openssl, opentelemetry-collector, osbuild-composer, podman, rhc, and skopeo), <b>Slackware</b> (expat), <b>SUSE</b> (ansible-core, apache-arrow, apache-commons-codec, apache-commons-io, apache-commons- logging, avalon-framework, avalon-logkit, glassfish-jsp, jsch, maven-file- management, opentest4j, aws-nitro-enclaves-cli, bouncycastle, chromedriver, chromium, cifs-utils, expat, firefox, gcc48, ghostscript, GraphicsMagick, guava, j2objc-annotations, gvfs, ImageMagick, in-toto, libsoup, nodejs22, nodejs24, praat, python-Pillow, python-PyJWT, python-soupsieve, python-sqlparse, python313-OpenEXR, python313-vllm, rootlesskit, and rqlite), and <b>Ubuntu</b> (kernel, linux, linux-aws, linux-aws-5.15, linux-aws-fips, linux-azure, linux-azure-5.15, linux-azure-fde-5.15, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.15, linux-gcp-fips, linux-gke, linux-gkeop, linux-hwe-5.15, linux-ibm, linux-ibm-5.15, linux-intel-iot-realtime, linux-intel-iotg, linux-intel-iotg-5.15, linux-kvm, linux-lowlatency, linux-lowlatency-hwe-5.15, linux-nvidia, linux-oracle, linux-oracle-5.15, linux-realtime, linux, linux-aws, linux-aws-fips, linux-azure, linux-azure-5.4, linux-azure-fips, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle, linux-oracle-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-fips, linux-kvm, linux-lts-xenial, linux, linux-aws, linux-gcp, linux-hwe-7.0, linux-ibm, linux-oracle, linux-aws, linux-azure-fde, linux-bluefield, linux-nvidia-tegra, linux-nvidia-tegra-5.15, linux-nvidia-tegra-igx, and linux-oem-7.0).]]></description>
-            <guid>https://lwn.net/Articles/1105111/</guid>
-            <pubDate>Tue, 03 Nov 2026 14:10:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Fedora Linux 45 released</title>
-            <link>https://lwn.net/Articles/1105121/</link>
-            <description><![CDATA[<p><a href="https://fedoramagazine.org/announcing-fedora-linux-45/">Fedora Linux
-45</a> has been released. This includes all editions: <a
-href="https://fedoraproject.org/workstation/">Fedora Workstation</a>, <a
-href="https://fedoraproject.org/kde/">Fedora KDE Plasma Desktop</a>, <a
-href="https://fedoraproject.org/server/">Fedora Server</a>, <a
-href="https://fedoraproject.org/cloud/">Fedora Cloud</a>, <a
-href="https://fedoraproject.org/coreos/">Fedora CoreOS</a>, and <a
-href="https://fedoraproject.org/iot/">Fedora IoT</a>, as well as the <a
-href="https://fedoraproject.org/atomic-desktops/">Atomic Desktops</a> and <a
-href="https://fedoraproject.org/spins/">Spins</a>.</p>
-
-<p>This release adds support for <a
-href="https://fedoraproject.org/wiki/Releases/45/ChangeSet#oo7_Secrets_Service_Provider">installation
-on Stratis storage</a> using Anaconda or Kickstart installs, <a
-href="https://fedoramagazine.org/migrating-away-from-unmaintained-networkmanager-vpnpluginsvpnc-and-fortisslvpn/">retires
-unmaintained VPN plugins</a> for NetworkManager, and updates Fedora's desktop
-environments, developer toolchains, and system packages. See the <a
-href="https://fedoraproject.org/wiki/Releases/45/ChangeSet">Fedora wiki
-ChangeSet page</a> for a list of major changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1105121/</guid>
-            <pubDate>Tue, 03 Nov 2026 15:11:32 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
