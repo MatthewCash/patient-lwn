@@ -8,11 +8,25 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 10 Nov 2026 18:03:32 +0000</pubDate>
-        <lastBuildDate>Tue, 10 Nov 2026 18:07:06 +0000</lastBuildDate>
+        <pubDate>Tue, 10 Nov 2026 21:59:15 +0000</pubDate>
+        <lastBuildDate>Tue, 10 Nov 2026 23:21:47 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Three new stable kernels for Tuesday</title>
+            <link>https://lwn.net/Articles/1106569/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1106570/">7.3.4</a>,
+<a href="https://lwn.net/Articles/1106571/">6.18.63</a>, and <a
+href="https://lwn.net/Articles/1106572/">6.12.117</a> stable kernels. The 7.3.4 kernel has more
+than 1,250 patches, 6.18.63 contains more than 860, and 6.12.117 includes more
+than 1,530 patches. Users of these kernels are, of course, encouraged to upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1106569/</guid>
+            <pubDate>Tue, 10 Nov 2026 19:06:06 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1106522/</link>
@@ -404,20 +418,6 @@ December&#160;2025.</p>]]></description>
             <guid>https://lwn.net/Articles/1105395/</guid>
             <pubDate>Wed, 04 Nov 2026 15:54:44 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>OpenSUSE Leap 16.1</title>
-            <link>https://lwn.net/Articles/1105131/</link>
-            <description><![CDATA[<p>
-The openSUSE project has <a href="https://news.opensuse.org/2026/11/03/leap-unites-traditional-and-immutable/">announced</a> the release of openSUSE Leap 16.1. The release is notable for allowing both traditional installations and immutable images with transactional updates. While immutable images had previously been available for Leap Micro, they are now available across all platforms that Leap supports, including servers, desktops, and virtual machines.
-</p>
-
-<blockquote class="bq">
-"Leap's image gives the best of both for traditional and immutable users, and we expect that Tumbleweed will follow when Agama becomes the default installer for Tumbleweed as well." said Leap release manager Lubos Kocman. "The Leap Micro experience people relied on is still here, but now it shares the same release, the same life cycle and the same maintenance updates as the rest of Leap, so users only have to pick the mode that fits their workload."
-</blockquote>]]></description>
-            <guid>https://lwn.net/Articles/1105131/</guid>
-            <pubDate>Tue, 03 Nov 2026 17:09:48 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
