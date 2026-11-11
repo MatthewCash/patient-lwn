@@ -8,11 +8,67 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 11 Nov 2026 09:49:36 +0000</pubDate>
-        <lastBuildDate>Wed, 11 Nov 2026 10:23:26 +0000</lastBuildDate>
+        <pubDate>Wed, 11 Nov 2026 17:48:02 +0000</pubDate>
+        <lastBuildDate>Wed, 11 Nov 2026 18:00:17 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1106876/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (edk2), <b>Debian</b> (openexr, rsyslog, and srt), <b>Fedora</b> (alertmanager, dotnet11.0, gdal, mstflint, nextcloud, python-crate-ingredients, rust-ingredients, rust-pore, rust-pulldown-cmark, rust-rbw, rust-sequoia-sq, rust-siguldry-fedora-autopen, tigervnc, unbound, and zchunk), <b>Gentoo</b> (Brotli, git, and libde265), <b>Mageia</b> (mopidy, python-dulwich, rust-similar3, rclone, and sofia-sip), <b>Oracle</b> (dpdk, edk2, firefox, glibc, kernel, kernel-uek, nodejs-nodemon, nodejs22, nodejs:24, patch, ruby, ruby4.0, squid:4, and thunderbird), <b>Red Hat</b> (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.16, bind9.18, buildah, c-ares, containernetworking-plugins, delve, flatpak-builder, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, go-fdo-client, go-fdo-server, golang-github-openprinting-ipp-usb, grafana, grafana-pcp, gstreamer1-plugins-bad-free, gstreamer1-plugins-good, gvfs, gvisor-tap-vsock, nginx, nginx:1.24, nginx:1.26, oci-delta, podman, python-oauthlib, python3, python3.12, python3.9, qt5-qtbase, qt6-qtbase, rhc, runc, skopeo, squid, squid:4, tesseract, util-linux, xdg-dbus-proxy, and yggdrasil), <b>Slackware</b> (xorg-server), <b>SUSE</b> (aliyun-cli, amazon-cloudwatch-agent, ansible-core, aspell, azure-storage-azcopy, bind, cups, dlib-devel, docker, dolphin, dpdk, evolution, firefox, flannel, fuse-overlayfs, gnome-podcasts, google-cloud-sap-agent, GraphicsMagick, graphicsmagick, haproxy, istioctl, kernel, kubevirt, kured, libvips-devel, libXi, mozilla-nss, nvidia-open-driver-G06-signed-check, okteto, openssl-1_1, pcre2, poppler, poppler-qt, poppler-qt5, poppler, poppler-qt5, proftpd, psqlodbc, python-graphql-core, python-M2Crypto, python-pillow, python-soupsieve, python-urllib3_1, python313-wyoming, qt6-coap, rust-keylime, sbc, scribus, SDL2_image, tar, terraform-provider-susepubliccloud, the linux kernel (live patch 18 for suse linux, vsftpd, xen, xorg-x11-server, and zchunk), and <b>Ubuntu</b> (ca-certificates-java, gst-plugins-good1.0, gst-plugins-base1.0, hplip, linux-azure-fde, linux-nvidia, linux-nvidia-7.0, linux-nvidia-bos, linux-nvidia-lowlatency, python-tornado, rust-coreutils, and unbound).]]></description>
+            <guid>https://lwn.net/Articles/1106876/</guid>
+            <pubDate>Wed, 11 Nov 2026 14:15:31 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>In Memoriam: Tim Peters 1952–2026</title>
+            <link>https://lwn.net/Articles/1106901/</link>
+            <description><![CDATA[Guido van Rossum <a
+href="https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028">conveys
+the sad (and somewhat delayed) news</a> of the passing of Tim Peters.
+<p>
+<blockquote class="bq">
+	It's hard to overestimate Tim's influence on Python. He's probably
+	best known for writing the Zen of Python (<a
+	href="https://peps.python.org/pep-0020/">PEP 20</a>), but to me he
+	was a mentor and language co-designer long before that.
+<p>
+	Tim found Python not long after its initial release. His first deed
+	was to convince me that Python should support mixed arithmetic
+	between int and float, because most users would expect them to work
+	that way. And he never stopped contributing.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1106901/</guid>
+            <pubDate>Wed, 11 Nov 2026 17:12:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Zellij 0.46 released</title>
+            <link>https://lwn.net/Articles/1106903/</link>
+            <description><![CDATA[<p><a href="https://github.com/zellij-org/zellij/releases/tag/v0.46.0">Version
+0.46</a> of the <a href="https://zellij.dev/">Zellij</a> terminal workspace has
+been released.</p>
+
+<blockquote class="bq">
+<p>This release includes a major addition in Zellij: Zellij is now also a
+desktop terminal. To run it: <tt>zellij terminal</tt>. It works on linux, mac and
+windows.</p>
+
+<p>Nothing changes for the normal multiplexer - Zellij can still run inside
+another terminal. Both sessions are the same and can be shared.</p>
+</blockquote>
+
+<p>Additional features in this release include a
+GUI settings screen, session previews, and right-click menu. See <a
+href="https://zellij.dev/news/terminal-inbox-session-previews/">this walkthrough</a>
+for more on the 0.46 release.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1106903/</guid>
+            <pubDate>Wed, 11 Nov 2026 17:26:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Three new stable kernels for Tuesday</title>
             <link>https://lwn.net/Articles/1106569/</link>
@@ -393,31 +449,6 @@ smarter borrow checker.
             <guid>https://lwn.net/Articles/1099606/</guid>
             <pubDate>Thu, 22 Oct 2026 13:19:56 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1105378/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit, dpdk, fence-agents, firefox, freerdp, gimp, opentelemetry-collector, python-dns, qemu-kvm, and raptor2), <b>Debian</b> (apt and squid), <b>Fedora</b> (ags, apptainer, chromium, fractal, mingw-harfbuzz, mingw-qt5-qtwebkit, mingw-qt6-qt5compat, python-mistune, python3-docs, python3.14, python3.9, rubygem-gist, rust-app-store-connect, rust-qemu-rdp, rust-redlib, and selenium-manager), <b>Mageia</b> (java-latest-openjdk, java-17-openjdk, java-21-openjdk, timezone), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, bind, bind9.16, cockpit, firefox, freerdp, gcc, ghostscript, glibc, grafana, java-17-openjdk, java-21-openjdk, kernel, kernel-uek, libXi, pipewire, pki-deps:10.6, podman, python-jwt, python-pillow, python-pyasn1, qt5-qtbase, thunderbird, tomcat, util-linux, and wireshark), <b>Red Hat</b> (dnsmasq, fence-agents, freerdp, pki-core:10.6, and thunderbird), <b>SUSE</b> (amazon-ssm-agent, aom-tools, apache2, brotli, cadvisor, chromium, cups, curl, distribution-registry, eog, gh, go-containerregistry, google-guest-agent, gvfs, haproxy, hauler, helm3, kernel, libBasicUsageEnvironment2, libcdio, libinstpatch-1_0-2, libosmocore, libreoffice, libX11, nodejs22, nvidia-open-driver-G06-signed, openssh, parted, perl-DBI, perl-mime-tools, python-pypdf, rootlesskit, rqlite, rsyslog, sssd, tomcat10, warewulf4, and xen), and <b>Ubuntu</b> (apt-cacher, bind9, bitlbee, cakephp, deluge, dmitry, e17, feh, gnome-shell, golang-github-gin-contrib-cors, gvfs, haproxy, jabberd2, libmspack, libnet-easytcp-perl, libphp-swiftmailer, libsoup2.4, libsoup3, libuser, pcre2, rear, ruby-rack, ruby-sprockets, rxvt-unicode, shapelib, sogo, vips, and yaws).]]></description>
-            <guid>https://lwn.net/Articles/1105378/</guid>
-            <pubDate>Wed, 04 Nov 2026 14:13:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Bazzite 45 released</title>
-            <link>https://lwn.net/Articles/1105395/</link>
-            <description><![CDATA[<p><a
-href="https://universal-blue.discourse.group/t/bazzite-45-is-here/12702">Version
-45</a> of <a href="https://bazzite.gg/">Bazzite</a>, the image-based gaming distribution based on
-Fedora&#160;Linux, has been released. Notable changes in this release include a
-rebase to Fedora&#160;45, updated <a
-href="https://opengamingcollective.org/">Open Gaming Collective</a> (OGC)
-kernels, support for Logitech TrueWheel devices, and more.</p>
-
-<p>LWN <a href="https://lwn.net/Articles/1046228/">covered</a> Bazzite in
-December&#160;2025.</p>]]></description>
-            <guid>https://lwn.net/Articles/1105395/</guid>
-            <pubDate>Wed, 04 Nov 2026 15:54:44 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
