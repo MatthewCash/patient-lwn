@@ -8,11 +8,73 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Nov 2026 07:13:20 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Nov 2026 07:36:39 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Nov 2026 15:53:48 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Nov 2026 16:17:40 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1107146/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (aodh, apache2, dnspython, firefox-esr, mutt, octavia, spip, thunderbird, and watcher), <b>Fedora</b> (epiphany, firefox, freerdp, java-25-openjdk, java-latest-openjdk, libsoup3, perl-HTTP-Parser-XS, perl-libnet, php-getid3, pipx, python-crate-ingredients, python-pillow, python-robotframework, python3.9, rsync, rubygem-nokogiri, tpm2-tss, udns, and xorg-x11-server-Xwayland), <b>Gentoo</b> (curl, ImageMagick, libheif, and PCRE2), <b>Mageia</b> (nginx and python-django), <b>Oracle</b> (go-toolset:rhel8, libimobiledevice, nodejs:22, util-linux, and vim), <b>Red Hat</b> (.NET 10.0, .NET 8.0, .NET 9.0, cockpit, freerdp, gdb, go-fdo-client, grafana-pcp, ignition, kernel, kernel-rt, krb5, openssh, openssl, osbuild-composer, rpm, rsync, and webkit2gtk3), <b>Slackware</b> (git, httpd, and tigervnc), <b>SUSE</b> (aliyun-cli, alloy, apache-parent, aqute-bnd, google-gson, logback, maven, maven-artifact-transfer, maven-parent, maven-resolver, methanol, osgi-service- subsystem, slf4j, xmvn, bcel, benchdnn, containerd, distribution, dpdk, efivar, elemental, elemental-register, elemental-system-agent, elemental-toolkit, firefox, kernel, liblldpctl4, libonnxruntime1, openssl-1_0_0, openssl-1_1, openvpn, pcre2, perl-Net-DNS, perl-Plack, perl-Starman, psqlODBC, python-M2Crypto, python-Pillow, python-Twisted, python-urllib3_1, python313-djangorestframework, python313-fpdf2, python313-langgraph-sdk, python313-nltk, rust-keylime, skopeo, traefik, zchunk, and zvbi), and <b>Ubuntu</b> (asyncpg, awl, btrbk, davical, dotnet8, dotnet10, dotnet11, libfcgi, linux-raspi, logback, mysql-8.0, mysql-8.4, mysql-9.7, network-manager-ssh, node-babel, php-pecl-http, prosody-modules, rkhunter, ruby-actionpack-page-caching, ruby-jwt, ruby-kramdown, shiro, snmptt, and yodl).]]></description>
+            <guid>https://lwn.net/Articles/1107146/</guid>
+            <pubDate>Thu, 12 Nov 2026 14:13:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Stenberg: 30 years of Internet transfers with curl</title>
+            <link>https://lwn.net/Articles/1107151/</link>
+            <description><![CDATA[Daniel Stenberg <a
+href="https://daniel.haxx.se/blog/2026/11/11/30-years-of-internet-transfers-with-curl/">reflects</a>
+on the 30th anniversary of the curl project.
+<p>
+<blockquote class="bq">
+	libcurl runs in an estimated thirty billion installations today. It
+	is a rough estimate since the majority of all libcurl users never
+	tell us they use it, but we need to find it mentioned in their
+	credit screens, open source license windows or their manuals. A
+	super popular app might use libcurl today and not tomorrow, or vice
+	versa, which can make the numbers shift by several billions
+	overnight. In reality of course, once the pulse raise has calmed
+	down and your ego is content, these numbers do not matter. In our
+	corner of the world, things don't change notably when we go from a
+	thousand installs to billions. We still work with similar people,
+	in similar ways, with similar challenges.
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1107151/</guid>
+            <pubDate>Thu, 12 Nov 2026 14:24:47 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Introducing Polo: a Wayland MATE compositor</title>
+            <link>https://lwn.net/Articles/1107152/</link>
+            <description><![CDATA[<p>Kerem Söke has <a
+href="https://discourse.ubuntu.com/t/introducing-polo-a-mate-wayland-compositor/91698">announced</a>
+the <a href="https://github.com/KeremSoke/polo/releases/tag/v1.0.0">1.0
+release</a> of <a href="https://github.com/KeremSoke/polo#polo">Polo</a>, a
+Wayland compositor for the <a href="https://mate-desktop.org/">MATE Desktop
+Environment</a>:</p>
+
+<blockquote class="bq">
+<p>The idea is to keep MATE behaving as closely as possible to how it does on
+X11, rather than changing the desktop to fit a different compositor. [...]</p>
+
+<p>Window management, metacity, workspaces, tiling, XWayland, clipboard and
+clipman support, multiple monitors, display scaling, hotplugging, screenshots,
+screen sharing, and session management are all working.</p>
+
+<p>I've also added desktop effects: fade, zoom, zap, spin, squeemize, magic
+lamp, desktop cube, expo, and wobbly windows.</p>
+</blockquote>
+
+<p>Söke is looking for people to test Polo, particularly on multi-monitor
+setups, and report back with problems.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1107152/</guid>
+            <pubDate>Thu, 12 Nov 2026 14:32:49 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>[$] LWN.net Weekly Edition for November 5, 2026</title>
             <link>https://lwn.net/Articles/1103480/</link>
