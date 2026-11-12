@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Nov 2026 00:23:49 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Nov 2026 00:29:55 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Nov 2026 07:13:20 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Nov 2026 07:36:39 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -479,137 +479,6 @@ href="https://alpinelinux.org/posts/alpine-3.16.0-released/">released</a> in May
             <guid>https://lwn.net/Articles/1105639/</guid>
             <pubDate>Thu, 05 Nov 2026 14:11:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for October 29, 2026</title>
-            <link>https://lwn.net/Articles/1102136/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1102136/">Front</a>: Python JIT; Kernel clean up; Rust panics; Future Rust features; Northstar browser; 7.4 merge window; Smaller kernel stacks.
-            <li> <a href="https://lwn.net/Articles/1102138/">Briefs</a>: KeePassXC 2.8.0; Redox ring buffers; Rust in systemd; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1102139/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1102136/</guid>
-            <pubDate>Thu, 29 Oct 2026 00:19:08 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The campaign to push Northstar into Linux distributions</title>
-            <link>https://lwn.net/Articles/1102738/</link>
-            <description><![CDATA[<p>There is not a broad selection of mature, open-source web-browser engines
-for Linux users. Most of the browsers available for Linux are based on one of
-just three projects: Chromium's <a
-href="https://en.wikipedia.org/wiki/Blink_(browser_engine)">Blink</a>, Firefox's
-<a href="https://en.wikipedia.org/wiki/Gecko_(software)">Gecko</a>, or <a
-href="https://en.wikipedia.org/wiki/WebKit">WebKit</a>. A new entrant would
-generally be seen as a welcome alternative, but the recent campaign to push one
-of the LLM-written <a href="https://nordstjernen.org/">Nordstjernen</a> browsers
-into <a href="https://debian.org/">Debian</a> and  <a
-href="https://archlinux.org/">Arch Linux</a> has raised some questions about
-the project's development and security processes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1102738/</guid>
-            <pubDate>Wed, 28 Oct 2026 14:26:59 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Guidelines for panics in kernel code</title>
-            <link>https://lwn.net/Articles/1100873/</link>
-            <description><![CDATA[<p>
-Alexandre Courbot spends most of his time working on the kernel doing code
-reviews. Recently, he's been wondering about what the standards should be for
-when Rust code is allowed to panic, and how it should do error handling more
-generally. Unlike many of the other talks at Kangrejos 2026, his talk was not
-presenting some existing work, but rather hoping to solicit opinions on the
-topic from the assembled Rust for Linux developers. He brought along a collection of tricky
-cases that he had run into recently to prompt discussion.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1100873/</guid>
-            <pubDate>Tue, 27 Oct 2026 13:56:24 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Python&apos;s experimental JIT to be removed</title>
-            <link>https://lwn.net/Articles/1102102/</link>
-            <description><![CDATA[<p>Python's <a
-href="https://docs.python.org/3.13/whatsnew/3.13.html#an-experimental-just-in-time-jit-compiler">experimental
-just-in-time (JIT) compiler</a>, which was added to CPython in 2024 for the <a
-href="https://www.python.org/downloads/release/python-3130/">3.13&#160;release</a>,
-is on its way out. In June, the Python steering council <a
-href="https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638">announced</a>
-that it was pausing work on the JIT in CPython's main branch until there was an
-accepted <a href="https://peps.python.org/pep-0001">Python Enhancement
-Proposal</a> (PEP) that addressed concerns about maintenance, compatibility, and
-set clear success metrics as well as a timeline for completion. After creating
-<a href="https://peps.python.org/pep-0836/">PEP&#160;836</a> ("JIT Go Brrr: The
-Path to a Supported JIT Compiler for CPython")
-to try to meet the council's request, and after months of discussion, the
-JIT maintainers have withdrawn the PEP. For now, it appears that development on
-the once-promising project has come to an end.</p>]]></description>
-            <guid>https://lwn.net/Articles/1102102/</guid>
-            <pubDate>Mon, 26 Oct 2026 15:45:58 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] The first part of the 7.4 merge window</title>
-            <link>https://lwn.net/Articles/1101211/</link>
-            <description><![CDATA[<p>
-Since the merge window for 7.4 opened, there have been 6,753 non-merge
-changesets pulled into the mainline repository. Many more are expected,
-especially given the possibility that this merge window will be extended to
-three weeks. Still, even this initial set brought in a number of new features,
-in addition to the continued general cleanups and security fixes that the kernel
-has seen recently.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1101211/</guid>
-            <pubDate>Fri, 23 Oct 2026 18:54:33 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Seeking smaller kernel stacks</title>
-            <link>https://lwn.net/Articles/1100271/</link>
-            <description><![CDATA[Memory has always been a scarce resource in computing systems, but the
-problem seems to have worsened recently.  In particular, the worldwide
-shortage of memory chips has led to a renewed focus by systems developers
-on reducing memory usage.  During the memory-management microconference at
-the 2026 <a href="https://lpc.events/">Linux Plumbers Conference</a>, Will
-Deacon discussed one specific consumer of memory that is being
-re-examined: kernel stacks.]]></description>
-            <guid>https://lwn.net/Articles/1100271/</guid>
-            <pubDate>Fri, 23 Oct 2026 14:59:24 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The end of __get_user() and __put_user()</title>
-            <link>https://lwn.net/Articles/1102061/</link>
-            <description><![CDATA[Linus Torvalds rarely writes significant amounts of kernel code these days, so
-the <a
-href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=22a78a25438d">merging</a>
-of a 48-part patch series from him is an unusual event.  This series,
-destined for the 7.4 kernel release, performs some long-delayed kernel
-cleanup by removing a couple of the primitives used to access user-space memory
-from the kernel.  What was once a best practice has long been superseded,
-but it can take time for such changes to work their way through a body of
-code this large.]]></description>
-            <guid>https://lwn.net/Articles/1102061/</guid>
-            <pubDate>Thu, 22 Oct 2026 16:25:50 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Rust features in the future</title>
-            <link>https://lwn.net/Articles/1099606/</link>
-            <description><![CDATA[<p>
-There are several Rust features that kernel developers have been hoping to
-stabilize, but Josh Triplett wanted to describe all of the <em>other</em>
-features that the Rust project is currently working on. He spoke about the topic
-at Kangrejos 2026, leaving the assembled kernel developers with several ideas
-about how to use these upcoming Rust features in the kernel.
-The features included refinements to the type system, small syntax improvements, and a
-smarter borrow checker.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1099606/</guid>
-            <pubDate>Thu, 22 Oct 2026 13:19:56 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
         </item>
     </channel>
 </rss>
