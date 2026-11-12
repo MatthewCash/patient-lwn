@@ -8,11 +8,55 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 12 Nov 2026 15:53:48 +0000</pubDate>
-        <lastBuildDate>Thu, 12 Nov 2026 16:17:40 +0000</lastBuildDate>
+        <pubDate>Thu, 12 Nov 2026 22:18:16 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Nov 2026 22:24:21 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)</title>
+            <link>https://lwn.net/Articles/1107173/</link>
+            <description><![CDATA[<p>Patrick Garrity of VulnCheck has written a <a
+href="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">blog
+post</a> that looks at vulnerabilities found by Anthropic's <a
+href="https://www.anthropic.com/glasswing">Project Glasswing</a> since it
+launched on April&#160;7, and finds it wanting:</p>
+
+<blockquote class="bq">
+<p>Of the 37,966 findings Anthropic reports, only 7,349 (19.4%) have been made
+public. Just 217 of those have been marked fixed. The more glaring number is
+that 4.4% (1,654) of the project's findings have already been marked as
+duplicates, 7.5x more duplicates than fixes. On top of that, 419 findings have
+been withdrawn. It seems odd that the ledger now claims a 94.2% true positive
+rate, up from 90.8% at launch, when more findings have been withdrawn or marked
+as duplicates than fixed, likely a feedback loop missing to the triage rates
+listed as "True Positives".</p>
+
+<p>[...] AI is a valuable tool for finding vulnerabilities, and I'm not
+discounting that. But seven months in, the evidence still doesn't match the
+launch narrative. The CVEs are a sliver of this year's total, almost none are
+being exploited, fixes have stalled while duplicates and withdrawals pile up,
+and the triage burden is shifting onto the open source maintainers Glasswing
+promised to help. The receipts keep coming in. They still don't reconcile.</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1107173/</guid>
+            <pubDate>Thu, 12 Nov 2026 16:26:09 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Rust 1.100.0 released</title>
+            <link>https://lwn.net/Articles/1107187/</link>
+            <description><![CDATA[<p><a href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/">Version
+1.100.0</a> of the Rust language has been released. Notable changes include the
+stabilization of the <a href="https://lwn.net/Articles/1091015/">never type</a>,
+core parts of the <tt>Allocator</tt> API, reporting of unused dependencies in
+Cargo, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1107187/</guid>
+            <pubDate>Thu, 12 Nov 2026 19:09:19 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1107146/</link>
@@ -500,46 +544,6 @@ should, of course, upgrade if they are using Xen.</p>
 <p></p>]]></description>
             <guid>https://lwn.net/Articles/1105902/</guid>
             <pubDate>Fri, 06 Nov 2026 18:48:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Critical security vulnerability affects OpenSSH on Alpine Linux systems</title>
-            <link>https://lwn.net/Articles/1105464/</link>
-            <description><![CDATA[<p><a href="https://openssh.com/releasenotes.html#10.6p2">Version 10.6p2</a> of
-OpenSSH has been released with a workaround for a critical vulnerability that
-affects Linux systems that use <a href="https://musl.libc.org/">musl libc</a>
-with PAM disabled, such as <a href="https://www.alpinelinux.org/">Alpine
-Linux</a>. OpenSSH developer Damien Miller <a
-href="https://hachyderm.io/@damienmiller/117563026759098135">said</a>:</p>
-
-<blockquote class="bq">
-<p>If you operate a Linux system that uses musl libc without PAM (Alpine Linux
-is one example) then stop reading and set <tt>PasswordAuthentication=no</tt> or disable
-SSH for these systems IMMEDIATELY.</p>
-
-<p>This vulnerability does not exist on non-Linux systems, Linux/glibc systems
-and Linux systems that use PAM for password authentication.</p>
-
-<p>We consider the root cause of this bug to be outside OpenSSH itself, but
-we're in a good position to deliver a mitigation quickly.</p>
-</blockquote>
-
-<p>The Alpine Linux project has <a
-href="https://fosstodon.org/@alpinelinux/117563196640515820">announced</a> that
-it will be backporting the OpenSSH fix "<q>all the way back to Alpine 3.16</q>",
-which was <a
-href="https://alpinelinux.org/posts/alpine-3.16.0-released/">released</a> in May
-2022.</p>]]></description>
-            <guid>https://lwn.net/Articles/1105464/</guid>
-            <pubDate>Thu, 05 Nov 2026 11:39:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1105639/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (dpdk, httpd:2.4, kernel, kernel-rt, mysql:8.0, php:7.4, php:8.0, qt5, ruby:2.7, ruby:3.0, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Debian</b> (imagemagick, puppet-agent, symfony, trapperkeeper-authorization-clojure, and xen), <b>Fedora</b> (3proxy, bind, bind-dyndb-ldap, curl, dhcpcd, erlang-jose, forgejo, freetype, laszip, libical, libmongocrypt, markdownlint-cli2, mongo-c-driver, openbao, pipx, python-boto3, python-botocore, python-crate-ingredients, python-lxml-html-clean, python3.11, python3.13, python3.14, python3.15, roundcubemail, rply, ruby-build, rust-app-store-connect, rust-qemu-rdp, rust-redlib, scribus, and valkey), <b>Mageia</b> (minetest, python-pypdf, stunnel, znc, and zvbi), <b>Oracle</b> (.NET 10.0, bind, brotli, cockpit, dpdk, fence-agents, freerdp, gimp, glibc, grafana, gvfs, host-metering, kernel, python-dns, qemu-kvm, raptor2, tesseract, webkit2gtk3, and xorg-x11-server-Xwayland), <b>Red Hat</b> (grafana and pcs), <b>Slackware</b> (rsync), <b>SUSE</b> (amazon-cloudwatch-agent, apache2, aws-efs-utils, brotli, cephfs, coredns, cramfs-tools, firefox-esr, fuse-overlayfs, ghostscript, GraphicsMagick, libpolkit-agent-1-0-128, libsoup, nvidia-open-driver-G07-signed, perl-Dancer2, python-PyJWT, python313-joserfc, rsyslog, switcheroo, trivy, valkey, vexctl, and xdg-desktop-portal), and <b>Ubuntu</b> (apt, libphp-adodb, net-snmp, pillow, squid, and twisted).]]></description>
-            <guid>https://lwn.net/Articles/1105639/</guid>
-            <pubDate>Thu, 05 Nov 2026 14:11:50 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
