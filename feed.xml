@@ -8,11 +8,58 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Nov 2026 10:26:20 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Nov 2026 10:33:52 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Nov 2026 18:05:55 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Nov 2026 18:05:59 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1107472/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 8.0, .NET 9.0, firefox, gcc, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, java-1.8.0-openjdk, kernel, kernel-rt, libimobiledevice, mingw-libpng, nginx:1.24, nodejs:22, nodejs:24, perl-CGI, perl-DBI, qt5-qtbase, tigervnc, vim, and xorg-x11-server), <b>Debian</b> (apache2, c-ares, linux-6.12, node-shell-quote, nova, parted, postgresql-17, python-django, sympa, and tomcat10), <b>Fedora</b> (cockpit, erlang-ssl_verify_fun, httpd, ignition, jackson-bom, jackson-core, jackson-databind, jackson-modules-base, libvirt, mod_http2, mongo-c-driver, poppler, prometheus, pylint, python-discovery, python-loguru, python-PyMuPDF, rabbitmq-server, rust-crypto-bigint, rust-ctutils, rust-elliptic-curve, rust-num-bigint, rust-num-bigint0.4, rust-num-modular, rust-num-modular0.6, rust-num-prime, rust-routinator, rust-zmij, strongswan, xen, xorg-x11-server, and zvbi), <b>Mageia</b> (amule, peazip, and python-pytest), <b>Red Hat</b> (buildah, fence-agents, go-fdo-server, grafana, grafana-pcp, oci-seccomp-bpf-hook, osbuild-composer, podman, and rhc), <b>SUSE</b> (ansible-core, apr-util, aspell, brotli, cadvisor, civetweb, distribution-registry, elemental, elemental-register,, elemental-operator, elemental-system-agent, elemental- toolkit, ffmpeg, firefox, gimp, git-annex, go1.26, go1.27, golang-github-prometheus-prometheus, google-cloud-sap-agent, google-guest-agent, google-osconfig-agent, goose, gosec, graphicsmagick, haproxy, hauler, hawk-apiserver, hawk2, hcloud-cli, jhead, jsoup, kernel, librsvg, libXtst, libxtst, nodejs24, nvidia-open-driver-G07-signed, nvidia-open-driver-g07-signed, open-iscsi, perl-XS-Parse-Keyword, perl-xs-parse-keyword, python-asyncssh, python-Brotli, python-django, python-joserfc, python-M2Crypto, python-Pillow, python-pillow, python313-setuptools, rsyslog, speex, tiff, trivy, udisks2, vsftpd, xen, and xorg-x11-server), and <b>Ubuntu</b> (apache2, charybdis, debian-lan-config, glibc, golang-github-seccomp-libseccomp-golang, hiredis, httpie, imapfilter, lhasa, libjgraphx-java, libjwt, libsolv, linux-fips, linux-hwe-6.8, linux-hwe-7.0, linux-nvidia-tegra, minissdpd, ncmpc, nfdump, node-tough-cookie, openconnect, pillow, pngquant, python-gevent, radicale, ruby-openid, sa-exim, signing-party, sudo, tigervnc, and x11vnc).]]></description>
+            <guid>https://lwn.net/Articles/1107472/</guid>
+            <pubDate>Fri, 13 Nov 2026 14:25:42 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Announcing XRAID: declustered parity RAID for zoned XFS</title>
+            <link>https://lwn.net/Articles/1107473/</link>
+            <description><![CDATA[<p>Christoph Hellwig has <a
+href="https://lwn.net/ml/all/20261113112913.GA31748%40lst.de/">announced</a> the
+initial public release of XRAID&mdash;declustered parity RAID that is integrated
+into XFS.</p>
+
+<blockquote class="bq">
+<p>The two primary aims of XRAID are to support parity RAID on zoned devices
+like SMR hard drives, and to provide a fast RAID implementation without
+inherent data integrity problems.  XRAID, just like zoned XFS also works
+on conventional hard drives and SSDs.  Optimizing for SSD performance has
+not been a focus, but even without that, writes are up to 20 times faster
+than mdraid. [...]</p>
+
+<p>Work on XRAID has been ongoing for a year and a half, and while we aren't
+anywhere near ready for an upstream submission, we are interested in
+feedback and testing from a wider audience now.  The current
+implementation supports zero to 2 parities.  We did experiments with the
+SnapRAID parity library to support 3 and more parities, and while that
+is not included in the current version, support for more parities is
+planned and the code is prepared for it.</p>
+
+<p>The xfsprogs branch includes mkfs support and a new "xraid" utility for
+managing devices and inspecting an XRAID file-systems.  We have also
+extended Zonar (The zoned file-system visualisation tool) to show how
+each logical zone maps onto physical zones on devices.</p>
+</blockquote>
+
+<p>Hellwig gave a <a
+href="https://2026.fossy.ca/schedule/presentation/451/">presentation</a> at
+FOSSY in August on this topic; video of the talk does not seem to be available
+yet, but his <a href="https://verein.lst.de/~hch/raid-sucks.pdf">slides</a> are
+available.</p>]]></description>
+            <guid>https://lwn.net/Articles/1107473/</guid>
+            <pubDate>Fri, 13 Nov 2026 14:39:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Glasswing overwhelms maintainers with underwhelming findings (VulnCheck)</title>
             <link>https://lwn.net/Articles/1107173/</link>
