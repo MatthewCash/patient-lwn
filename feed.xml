@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Nov 2026 18:05:55 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Nov 2026 18:05:59 +0000</lastBuildDate>
+        <pubDate>Fri, 13 Nov 2026 21:54:51 +0000</pubDate>
+        <lastBuildDate>Fri, 13 Nov 2026 23:33:31 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -545,53 +545,6 @@ on their progress toward a Linux distribution for Apple devices.
             <guid>https://lwn.net/Articles/1105913/</guid>
             <pubDate>Fri, 06 Nov 2026 20:25:22 +0000</pubDate>
             <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Friday</title>
-            <link>https://lwn.net/Articles/1105881/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit-files, container-tools:rhel8, delve, gcc-toolset-12-binutils, gimp:2.8, glibc, go-toolset:rhel8, kernel, libfastjson, mariadb:10.3, mod_auth_openidc:2.3, mysql:8.0, php:8.0, pki-core:10.6 and pki-deps:10.6, squid:4, tang, tesseract, thunderbird, and virt:rhel and virt-devel:rhel), <b>Debian</b> (chromium, ntfs-3g, puppet-agent, and trapperkeeper-authorization-clojure), <b>Fedora</b> (freerdp, goose, gpsd, hatch, perl-HTTP-Headers-ActionPack, perl-MIME-tools, perl-Plack, perl-Starman, proftpd, python-mistune, ruby-build, rust-crypto-bigint, rust-ctutils, rust-elliptic-curve, rust-num-bigint, rust-num-bigint0.4, rust-num-modular, rust-num-modular0.6, rust-num-prime, rust-zmij, rust-zstd, rust-zstd-safe, rust-zstd-safe7, rust-zstd-sys, rust-zstd0.13, scribus, sofia-sip, tailscale, tor, and wordpress), <b>Oracle</b> (cockpit-files, delve, firefox, gimp:2.8, kernel, and osbuild-composer), <b>Red Hat</b> (delve, git-lfs, go-toolset:rhel8, grafana, ignition, opentelemetry-collector, osbuild-composer, python-pillow, and yggdrasil), <b>Slackware</b> (openssh), <b>SUSE</b> (bind, brotli, cpupower, expat, fuse-overlayfs, go1.26, google-guest-agent, helm, ibus-typing-booster, kernel, kyverno, libmodplug-devel, librsvg, libX11, nvidia-open-driver-G06-signed, owntone, parted, perl-Cpanel-JSON-XS, perl-Text-CSV_XS, php8, python-Brotli, regclient, roundcubemail, rsyslog, and tomcat), and <b>Ubuntu</b> (ca-certificates, frr, haproxy, linux-nvidia-7.0, linux-nvidia-bos, linux-nvidia-tegra, and nginx).]]></description>
-            <guid>https://lwn.net/Articles/1105881/</guid>
-            <pubDate>Fri, 06 Nov 2026 14:04:54 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Two stable kernels for Friday</title>
-            <link>https://lwn.net/Articles/1105899/</link>
-            <description><![CDATA[<p>Greg Kroah-Hartman has released the <a href="https://lwn.net/Articles/1105900/">7.3.2</a>
-and <a href="https://lwn.net/Articles/1105901/">6.18.61</a> stable kernels. Each contains quite
-a few changes throughout the tree; users are advised to upgrade.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1105899/</guid>
-            <pubDate>Fri, 06 Nov 2026 18:09:16 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Seven stable kernels with fixes for three Xen vulnerabilities</title>
-            <link>https://lwn.net/Articles/1105902/</link>
-            <description><![CDATA[<p>Hot on the heels of the <a href="https://lwn.net/Articles/1105899/">previous
-two stable kernels</a>, Greg Kroah-Hartman has announced the release of the <a
-href="https://lwn.net/Articles/1105903/">7.3.3</a>, <a href="https://lwn.net/Articles/1105904/">6.18.62</a>,
-<a href="https://lwn.net/Articles/1105905/">6.12.116</a>, <a
-href="https://lwn.net/Articles/1105906/">6.6.162</a>, <a href="https://lwn.net/Articles/1105907/">6.1.192</a>,
-<a href="https://lwn.net/Articles/1105908/">5.15.225</a>, and <a
-href="https://lwn.net/Articles/1105909/">5.10.274</a> stable kernels. Each one only contains
-fixes for three use-after-free vulnerabilities announced today by the Xen
-security team.</p>
-
-<p>Two of the vulnerabilities could allow an attacker to cause a denial of service (DoS) for the
-entire Xen host machine with possible information leakage (<a
-href="https://lwn.net/ml/all/E1xPLfb-0000000A5rj-1W0D%40xenbits.xenproject.org/">CVE-2026-100080</a>,
-<a
-href="https://lwn.net/ml/all/E1xPLfh-0000000A5vb-11J3%40xenbits.xenproject.org/">CVE-2026-100082</a>),
-and one may allow privilege escalation as well as a DoS of the host machine (<a
-href="https://lwn.net/ml/all/E1xPLfe-0000000A5tc-0wMP%40xenbits.xenproject.org/">CVE-2026-100081</a>). Users
-should, of course, upgrade if they are using Xen.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1105902/</guid>
-            <pubDate>Fri, 06 Nov 2026 18:48:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
