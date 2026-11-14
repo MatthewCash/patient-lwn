@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 13 Nov 2026 21:54:51 +0000</pubDate>
-        <lastBuildDate>Fri, 13 Nov 2026 23:33:31 +0000</lastBuildDate>
+        <pubDate>Sat, 14 Nov 2026 00:55:07 +0000</pubDate>
+        <lastBuildDate>Sat, 14 Nov 2026 03:35:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -537,14 +537,6 @@ on their progress toward a Linux distribution for Apple devices.
             <guid>https://lwn.net/Articles/1105936/</guid>
             <pubDate>Sat, 07 Nov 2026 09:49:38 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Videos from XDC 2026 are available</title>
-            <link>https://lwn.net/Articles/1105913/</link>
-            <description><![CDATA[Videos from the <a href="https://indico.freedesktop.org/event/12/">2026 X.Org Developers Conference</a> (XDC) are now <a href="https://www.youtube.com/@XOrgFoundation/videos">available on YouTube</a>.  XDC was held in Toronto, Ontario, Canada September 28-30.]]></description>
-            <guid>https://lwn.net/Articles/1105913/</guid>
-            <pubDate>Fri, 06 Nov 2026 20:25:22 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
         </item>
     </channel>
 </rss>
