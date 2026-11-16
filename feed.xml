@@ -8,11 +8,66 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 16 Nov 2026 04:11:25 +0000</pubDate>
-        <lastBuildDate>Mon, 16 Nov 2026 06:41:56 +0000</lastBuildDate>
+        <pubDate>Mon, 16 Nov 2026 15:06:04 +0000</pubDate>
+        <lastBuildDate>Mon, 16 Nov 2026 16:27:57 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.4-rc3</title>
+            <link>https://lwn.net/Articles/1107606/</link>
+            <description><![CDATA[The <a href="https://lwn.net/Articles/1107605/">7.4-rc3</a> kernel prepatch is out for
+testing.  Linus declared: "<q>It looks fairly normal, with drivers
+(networking and gpu) leading the charge. There's lots and lots of changes,
+but most of the actual patches are tiny.</q>"]]></description>
+            <guid>https://lwn.net/Articles/1107606/</guid>
+            <pubDate>Mon, 16 Nov 2026 09:07:45 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1107811/</link>
+            <description><![CDATA[Security updates have been issued by <b>Debian</b> (freedombox, kernel, libspreadsheet-xlsx-perl, network-manager-iodine, pdns-recursor, postgresql-15, radsecproxy, and sogo), <b>Fedora</b> (afflib, asahi-installer, below, cloc, dhcpcd, dnf5, epiphany, firefox, glib-networking, hugo, mingw-python3, mtools, mysql8.4, mysql9.7, proftpd, python-cramjam, python-fastar, python-h5io, python-PyMuPDF, python-uv-build, radicale, rubygem-loofah, rubygem-nokogiri, rust-archive-trait, rust-askalono-cli, rust-astral-html, rust-cargo-deny, rust-libcramjam0.8, rust-onefetch, rust-ptools, rust-sccache, rustup, uv, and xorg-x11-server), <b>Gentoo</b> (Apache HTTPD, rsync, and Tor), <b>Oracle</b> (cockpit, firefox, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, kernel, kernel-uek, mingw-libpng, nginx:1.24, perl-CGI, python3, qt5-qtbase, qt5-qtdeclarative, webkit2gtk3, xfsprogs, and xorg-x11-server), and <b>SUSE</b> (389-ds, aliyun-cli, amazon-ssm-agent, apache2, binutils, brotli, bun, cadvisor, chromium, gn, distribution-registry, evolution, firefox, firefox-esr, fleet-cli, fortio, gosec, hauler, hawk-apiserver, hawk2, helmsman, hugo, java-17-openjdk, jsoup, k3sup, kdeconnect-kde, kernel, krb5, kubectl-retina, kubelogin, kubeseal, kumactl, libosmocore, libyang-devel, patch, perl-mozilla-ca, pinact, prometheus-ha_cluster_exporter, python-brotli, python-graphql-core, python-Pillow, python313-Brotli, python313-pypdf, python313-uv, rqlite, rsyslog, scribus, sdbootutil-1, timoni, trivy, vifm, and warewulf4).]]></description>
+            <guid>https://lwn.net/Articles/1107811/</guid>
+            <pubDate>Mon, 16 Nov 2026 14:17:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Manjaro Project e.V. non-profit organization created</title>
+            <link>https://lwn.net/Articles/1107814/</link>
+            <description><![CDATA[<p>Frank Vandermeiren has <a
+href="https://forum.manjaro.org/t/the-manjaro-project-e-v-is-now-official/191197">announced</a>
+the creation of the Manjaro Project e.V., a nonprofit organization in Germany
+that is independent of the Manjaro GmbH &amp; Co KG company. This is following a <a
+href="https://lwn.net/Articles/1063717/">governance struggle</a> that took place
+earlier this year between a number of <a href="https://manjaro.org/">Manjaro
+Linux</a> contributors and Philip Müller, project lead and CEO of the Manjaro
+company.</p>
+
+<blockquote class="bq">
+<p>At the moment, we are still working on optimizing the new development
+infrastructure, which was partly necessitated by the ongoing (A.I.) bot attacks
+against our old infrastructure.</p>
+
+<p>However, as you may have noticed, the last <a
+href="https://forum.manjaro.org/c/announcements/testing-updates/13">Testing
+Updates</a> and <a
+href="https://forum.manjaro.org/c/announcements/stable-updates/12">Stable
+Updates</a> were initiated by the Manjaro Team without supervision from Philip
+Müller — with special thanks to @Yochanan for his hard work!</p>
+</blockquote>
+
+<p>Dennis ten Hoove has <a
+href="https://forum.manjaro.org/t/the-manjaro-project-e-v-is-now-official/191197/3">indicated</a>
+that "<q>a transfer of company assets to the e.V. has not yet taken place</q>",
+and the group's next step is to ready the nonprofit for the transition and
+"<q>reach out and engage in dialogue with the company</q>".</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1107814/</guid>
+            <pubDate>Mon, 16 Nov 2026 14:52:12 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1107472/</link>
