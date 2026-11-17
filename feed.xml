@@ -8,11 +8,54 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Tue, 17 Nov 2026 08:06:57 +0000</pubDate>
-        <lastBuildDate>Tue, 17 Nov 2026 08:19:10 +0000</lastBuildDate>
+        <pubDate>Tue, 17 Nov 2026 17:38:26 +0000</pubDate>
+        <lastBuildDate>Tue, 17 Nov 2026 17:47:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Tuesday</title>
+            <link>https://lwn.net/Articles/1108140/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 10.0, .NET 11.0, .NET 8.0, .NET 9.0, bind, bind9.18, buildah, c-ares, cjose, cockpit, cockpit-files, cockpit-machines, cockpit-podman, containernetworking-plugins, crun, delve, dhcp, dogtag-pki, dovecot, dpdk, edk2, emacs, environment-modules, expat, fetchmail, firefox, flatpak, flatpak-builder, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, git-lfs, glib2, glibc, glycin-loaders, gnome-remote-desktop, go-fdo-client, go-fdo-server, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, guava, gvfs, gvisor-tap-vsock, ignition, iperf3, java-1.8.0-openjdk, jq, kernel, librabbitmq, libreswan, librsvg2, libsoup, libsoup3, libX11, libXi, libxml2, libXrender, libXtst, lrzsz, microcode_ctl, mingw-glib2, mod_auth_openidc, mod_http2, NetworkManager, nginx, nginx:1.24, nginx:1.26, nodejs:24, nodejs:26, oci-seccomp-bpf-hook, openexr, openssh, openssl, pcp, perl-DBI, perl-DBI:1.641, perl-URI, php:8.4, podman, polkit, postgresql:16, python-jwcrypto, python-oauthlib, python-tornado, python3, python3.12, python3.9, rpm, rsyslog, runc, rust-sequoia-sq, sos, squid, sssd, tesseract, tftp, tomcat, tomcat9, unbound, util-linux, webkit2gtk3, wireshark, xdg-dbus-proxy, xfsprogs, xorg-x11-server, xz, and yggdrasil), <b>Debian</b> (gnocchi, kernel, lightdm, roundcube, zaqar, and znc), <b>Fedora</b> (assimp, chromium, criu, freerdp, maturin, mysql8.4, perl-Catalyst-Plugin-Authentication, python-jiter, python-pymdown-extensions, python-pysequoia, qtox, ruff, rust-afterburn, rust-astral_async_zip, rust-clearscreen, rust-coreutils, rust-jiter, rust-lzma-rust2, rust-mailparse, rust-pyo3-introspection, rust-python-pkginfo, rust-sccache, rust-serde_json, rust-testresult, rust-zip, selenium-manager, tpm2-tss, ty, and xfsprogs), <b>SUSE</b> (apache2, azure-storage-azcopy, container-suseconnect, containerd, crane, dpdk, ghostscript, google-cloud-sap-agent, google-osconfig-agent, govulncheck-vulndb, graphifyy, hauler, helm, helm3, hivex, java-21-openjdk, java-25-openjdk, libevent-2_1-7, libmikmod-devel, libXi, mtools, nodejs24, open-iscsi, parted, podman, psqlODBC, python-M2Crypto, python-tornado6, python3, re2c, rsyslog, speex, thunderbird, valkey, vsftpd, and zbar), and <b>Ubuntu</b> (buildstream, cairosvg, commons-configuration2, deluge, dokuwiki, eterm, gnupg1, groovy, gst-plugins-bad1.0, gst-plugins-base1.0, h2o, htmldoc, net-snmp, netkit-rsh, node-moment, openjdk-25-crac, pdfresurrect, pillow, postsrsd, psensor, rlottie, sos, sosreport, vim-syntastic, yadifa, zbar, and zutils).]]></description>
+            <guid>https://lwn.net/Articles/1108140/</guid>
+            <pubDate>Tue, 17 Nov 2026 14:15:33 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Three stable kernels for Tuesday</title>
+            <link>https://lwn.net/Articles/1108142/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1108143/">7.3.5</a>,
+<a href="https://lwn.net/Articles/1108144/">6.18.64</a>, and <a
+href="https://lwn.net/Articles/1108145/">6.12.118</a> stable kernels. Each contains quite a few
+important fixes.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1108142/</guid>
+            <pubDate>Tue, 17 Nov 2026 14:25:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Redict deprecated in favor of Valkey</title>
+            <link>https://lwn.net/Articles/1108155/</link>
+            <description><![CDATA[<p>
+Drew DeVault has
+<a href="https://redict.io/posts/2026-11-17-redict-deprecated/">announced</a> that
+<a href="https://redict.io">Redict</a>, a fork of <a href="https://redis.io/">Redis</a> that was created in response to
+<a href="https://lwn.net/Articles/966631/">Redis's 2024 license change</a>, has been deprecated. He recommends switching to <a href="https://valkey.io/">Valkey</a>, the permissively licensed Redis fork supported by the Linux Foundation. The two projects are mutually compatible, so switching should be as simple as changing which package is installed and renaming the configuration file.
+</p>
+
+<blockquote class="bq">
+<p>
+I had hoped to rally the Redis diaspora around a copyleft initiative, to protect ourselves from future rug-pulls, and made Redict to serve this purpose. However, with the valkey project's success, and Redis's return to a copyleft license, Redict was not able to build a sustainable community.
+</p>
+<p>
+We recommend that Redict users switch to valkey, which uses a permissive license but has better long-term prospects. We advise against switching back to Redis; though it is once again open source, and copyleft, it uses a contributor license agreement which will facilitate another rug-pull when Redis has a bad financial quarter.
+</p>
+</blockquote>]]></description>
+            <guid>https://lwn.net/Articles/1108155/</guid>
+            <pubDate>Tue, 17 Nov 2026 16:20:44 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.4-rc3</title>
             <link>https://lwn.net/Articles/1107606/</link>
