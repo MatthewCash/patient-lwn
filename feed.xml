@@ -8,11 +8,133 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 18 Nov 2026 22:44:54 +0000</pubDate>
-        <lastBuildDate>Wed, 18 Nov 2026 23:24:03 +0000</lastBuildDate>
+        <pubDate>Thu, 19 Nov 2026 03:33:07 +0000</pubDate>
+        <lastBuildDate>Thu, 19 Nov 2026 04:23:32 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>[$] LWN.net Weekly Edition for November 12, 2026</title>
+            <link>https://lwn.net/Articles/1105460/</link>
+            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
+        <p>
+        <ul>
+<li> <a href="https://lwn.net/Articles/1105460/">Front</a>: Synaptics patent claims; Git LLM polilcy; Hibernation and lockdown; User namespaces; glibc tunables.
+            <li> <a href="https://lwn.net/Articles/1105462/">Briefs</a>: *sshole; Amutable foundations; Asahi Linux 7.3; OpenIndiana 2026.10; Firefox 160; Quotes; ... 
+            <li> <a href="https://lwn.net/Articles/1105463/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
+            </ul>]]></description>
+            <guid>https://lwn.net/Articles/1105460/</guid>
+            <pubDate>Thu, 12 Nov 2026 00:23:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Additional hardening for the glibc dynamic linker</title>
+            <link>https://lwn.net/Articles/1105134/</link>
+            <description><![CDATA[<p>
+The
+<a href="https://nodejs.org/en">
+Node.js project</a> recently had a
+<a href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases#nodejs-brotli-decoder-out-of-bounds-write-permits-remote-code-execution-cve-2026-111497---high">
+security vulnerability</a> that
+affected its
+<a href="https://brotli.org/">
+Brotli</a> decoder. The bug
+<a href="https://project-zero.issues.chromium.org/issues/565308158">
+was a buffer overflow</a>,
+but the particular way that official Node.js binaries are built for Linux meant that one of the
+main protections against turning a buffer overflow into remote code execution,
+<a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization">
+address space layout randomization</a> (ASLR) could not be turned on. If ASLR had been
+enabled, the bug would still be exploitable in theory, but much more difficult
+to exploit in practice. In response, the GNU C Library (glibc) is
+<a href="https://lwn.net/ml/all/20261028175613.3779425-1-adhemerval.zanella@linaro.org/">
+considering</a> a new set of
+<a href="https://sourceware.org/glibc/manual/latest/html_node/Tunables.html">
+tunable settings</a> to allow administrators to forbid programs that do not
+support ASLR. The new settings, while a welcome hardening measure, may not
+address the root problem.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1105134/</guid>
+            <pubDate>Wed, 11 Nov 2026 14:35:29 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] Synaptics patent claims stop work on DisplayLink drivers</title>
+            <link>https://lwn.net/Articles/1102549/</link>
+            <description><![CDATA[<p>Mike Lothian owns a docking station (or dock) that uses a <a
+href="https://en.wikipedia.org/wiki/DisplayLink">DisplayLink</a> chipset
+that had, at least in his opinion, subpar performance on Linux. He
+decided to try improving the Linux driver, with LLM assistance, but ran into one
+problem that he could not solve&mdash;so he asked for help, hoping that
+Synaptics's developers would lend a hand. (DisplayLink was <a
+href="https://www.synaptics.com/company/news/displaylink">acquired by
+Synaptics</a> in 2022.) Rather than help him in improving the
+driver, however, the Synaptics legal team responded with patent infringement
+claims, a <a
+href="https://lists.freedesktop.org/archives/dri-devel/attachments/20261006/d690bb16/attachment-0001.pdf">demand</a>
+that he cease unauthorized implementation of DisplayLink technology, and threats
+of expensive legal penalties. For now, it appears that Linux users of the
+company's docks will have to continue to live without feature parity with other
+platforms.</p>]]></description>
+            <guid>https://lwn.net/Articles/1102549/</guid>
+            <pubDate>Tue, 10 Nov 2026 15:38:10 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>[$] Git considers voting to determine its LLM policy</title>
+            <link>https://lwn.net/Articles/1104195/</link>
+            <description><![CDATA[One of the dominant themes of 2026 has been the debate within development
+projects about the terms under which LLM-written contributions should be
+accepted — if, indeed, they should be accepted at all.  The <a
+href="https://git-scm.com/">Git project</a> has not been immune to this
+trend; the topic was <a
+href="https://lwn.net/ml/all/summit-2026.94e33e9ddf234334.06@ttaylorr.com">discussed</a>
+at the recent Git Contributor's Summit.  In this case, the path to a
+resolution may be somewhat circuitous; the project, which has never been
+governed as a democracy, is considering adopting a voting process as a way
+of bringing the discussion to an acceptable conclusion.]]></description>
+            <guid>https://lwn.net/Articles/1104195/</guid>
+            <pubDate>Mon, 09 Nov 2026 15:05:07 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
+        <item>
+            <title>[$] Locking down hibernation for the winter</title>
+            <link>https://lwn.net/Articles/1103190/</link>
+            <description><![CDATA[<p>
+When a computer hibernates, the kernel writes the contents of memory to disk and
+then shuts the system down. Resuming from hibernation involves reading that data
+back into memory, and then having the kernel pick up where it left off.
+Unfortunately, the kernel does not have
+any way to know that the data it is reading back has not been tampered with,
+which is why <a href="https://lwn.net/Articles/791863/">lockdown</a>, an optional kernel
+feature that attempts to prevent modifications to the running kernel, disables hibernation.
+Matthew Garrett, who has been working on lockdown for many years, has shared
+<a href="https://lwn.net/ml/linux-pm/20261008132532.1155166-1-matthewg@nvidia.com/">
+a patch set</a> that aims to fix this problem. His solution must also protect
+against downgrade attacks (where an attacker reboots the computer with an older
+kernel version to bypass new protections), which complicates the implementation.
+</p>]]></description>
+            <guid>https://lwn.net/Articles/1103190/</guid>
+            <pubDate>Fri, 06 Nov 2026 18:51:28 +0000</pubDate>
+            <dc:creator>daroc</dc:creator>
+        </item>
+        <item>
+            <title>[$] User namespaces + file capabilities = trouble</title>
+            <link>https://lwn.net/Articles/1103429/</link>
+            <description><![CDATA[<a href="https://lwn.net/Articles/532593/">User namespaces</a> are a key part of the
+kernel's toolkit for assembling containers; processes within a user
+namespace can appear to have full root access to the system while gaining
+no extra privileges in the wider system.  At least, that is the intent.  In
+practice, keeping privilege contained within a user namespace has often
+turned out to be difficult.  As an example, consider <a
+href="https://lwn.net/ml/all/20261027-b4-setfcap-userns-v8-0-2674adc63f3c@toxicpanda.com">this
+small patch series</a> from Josef Bacik, which is intended to address some
+situations where a process within a user namespace can elevate the
+privileges of processes outside of it.]]></description>
+            <guid>https://lwn.net/Articles/1103429/</guid>
+            <pubDate>Thu, 05 Nov 2026 14:33:59 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1108354/</link>
@@ -314,167 +436,6 @@ setups, and report back with problems.</p>
             <guid>https://lwn.net/Articles/1107152/</guid>
             <pubDate>Thu, 12 Nov 2026 14:32:49 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 5, 2026</title>
-            <link>https://lwn.net/Articles/1103480/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1103480/">Front</a>: Kernel cells; Debian LLM reviews; glibc system-call wrappers; Binder in Rust; Kernel CVE flood; Fedora KDE and X11 removal; 7.4 merge window part two; Portable Python.
-            <li> <a href="https://lwn.net/Articles/1103482/">Briefs</a>: MTCP RCE; Bash security; XCPE botnet; Bazzite 45; Fedora 45; openSUSE Leap 16.1; Tor Browser 16.0; Quotes; ...
-            <li> <a href="https://lwn.net/Articles/1103483/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1103480/</guid>
-            <pubDate>Thu, 05 Nov 2026 00:42:51 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Portable Python scripts with dependencies</title>
-            <link>https://lwn.net/Articles/1104646/</link>
-            <description><![CDATA[A basic Python script is portable: it can be copied between machines with little concern about compatibility.
-A script that depends on third-party packages requires quite a bit more
-care and consideration, however.
-In 2023, <a href="https://peps.python.org/pep-0723/">PEP
-723</a> ("Inline script metadata") introduced a standard for declaring a Python script's
-dependencies inside the script itself.
-Several third-party tools can now automatically install and manage those dependencies, but there is still little official support for this standard within Python itself.]]></description>
-            <guid>https://lwn.net/Articles/1104646/</guid>
-            <pubDate>Wed, 04 Nov 2026 14:45:02 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Plasma X11 session removal surprises some Fedora users</title>
-            <link>https://lwn.net/Articles/1105130/</link>
-            <description><![CDATA[<p>The KDE Project announced, in&#160;2025, that <a
-href="https://kde.org/announcements/plasma/6/6.7.0/">Plasma&#160;6.7</a> would
-be the last version of the desktop environment that would support X11
-sessions. Those who keep up with KDE's announcements no doubt expected it when
-<a href="https://kde.org/announcements/plasma/6/6.8.0/">Plasma&#160;6.8</a>
-dropped X11 support as promised. What seems to have come as a surprise, at
-least to a number of <a href="https://fedoraproject.org/kde/">Fedora KDE Plasma
-Desktop</a> users, is that the Fedora&#160;44 release&mdash;which shipped in
-April with <a
-href="https://kde.org/announcements/plasma/6/6.6.0/">Plasma&#160;6.6</a>&mdash;received
-an update to Plasma&#160;6.8 that swept away the X11 session without much warning.
-Despite the surprise, it is gone for good: the <a
-href="https://docs.fedoraproject.org/en-US/fesco/">Fedora Engineering Steering
-Committee</a> (FESCo) has <a
-href="https://forge.fedoraproject.org/fesco/tickets/issues/3707#issuecomment-1371370">voted
-against</a> a request to revert the update for Fedora 44 and the just-released
-Fedora 45.</p>]]></description>
-            <guid>https://lwn.net/Articles/1105130/</guid>
-            <pubDate>Wed, 04 Nov 2026 16:33:11 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LLM reviews for Debian&apos;s new queue spark debate</title>
-            <link>https://lwn.net/Articles/1103674/</link>
-            <description><![CDATA[<p>The Debian project has wrestled with the topic of LLM usage for years, which
-culminated in a <a href="https://lwn.net/Articles/1087134/">general-resolution
-vote</a> this August. The project <a
-href="https://lwn.net/Articles/1091231/">voted in favor</a> of the fifth, out of
-eight, option: "<a
-href="https://www.debian.org/vote/2026/vote_002#texte">Responsible Use of
-Generative AI</a>". With the door open to LLM use, the <a
-href="https://wiki.debian.org/Teams/DFSG">DFSG, Licensing &amp; New Packages
-Team</a> (usually shortened to "DFSG team"), which is <a
-href="https://lwn.net/Articles/1043364/">relatively new</a>, has started to employ LLMs in
-sending out reviews of packages entering Debian's <a href="https://wiki.debian.org/NewQueue?pow_referer=https%3A%2F%2Fkagi.com%2F">new queue</a>. The practice has
-raised a number of objections and questions about where lines should be drawn in
-the use of LLM-generated output.</p>]]></description>
-            <guid>https://lwn.net/Articles/1103674/</guid>
-            <pubDate>Tue, 03 Nov 2026 16:28:40 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Managing the kernel CVE flood</title>
-            <link>https://lwn.net/Articles/1100894/</link>
-            <description><![CDATA[We recently <a href="https://lwn.net/Articles/1096908/">looked</a> at how the
-kernel community is dealing with the firehose of vulnerability reports, but
-said little about how users of the kernel are responding.  At the  2026 <a
-href="https://lpc.events/">Linux Plumbers Conference</a>, Amazon employees
-Dylan Johnson and Justinien Bouron discussed the problem from the point of
-view of engineers trying to keep AWS running and secure in the face of a
-storm of CVE disclosures.  The kernel community's longstanding advice is to
-run current kernels, and that turns out to work — sort of.]]></description>
-            <guid>https://lwn.net/Articles/1100894/</guid>
-            <pubDate>Mon, 02 Nov 2026 14:28:39 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] The second part of the 7.4 merge window</title>
-            <link>https://lwn.net/Articles/1102739/</link>
-            <description><![CDATA[<p>
-The 7.4 merge window, which
-<a href="https://lwn.net/Articles/1104653/">closed</a> on November 1,
-included a record-breaking 18,591 non-merge changesets.
-That is almost as many as the entire 7.3 development cycle, which had 18,765, itself a record breaker. Of
-those, 11,838 landed after <a href="https://lwn.net/Articles/1101211/">the article covering the
-first part of the merge window</a>. Most of those were bug fixes of
-various forms; it seems as though bug fixes may be crowding out feature
-additions <a href="https://lwn.net/Articles/1104210/">across the open-source ecosystem</a> to
-some extent. Still, a good number of new features were included, and a handful
-removed, in the tail end of the merge window.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1102739/</guid>
-            <pubDate>Mon, 02 Nov 2026 17:51:48 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] System-call wrappers for glibc</title>
-            <link>https://lwn.net/Articles/1101647/</link>
-            <description><![CDATA[In a followup to his 
-<a href="https://lpc.events/event/19/contributions/2220/">session at the
-2025 Linux Plumbers Conference</a> (LPC), Carlos O'Donell returned to the topic
-of <a href="https://lpc.events/event/20/contributions/2397/">system-call
-wrappers for the GNU C library</a> (glibc) at this year's event.  This time
-around, he was joined by Florian Weimer, who is another glibc maintainer.
-The idea was to give an update on what has happened over the last year with
-regard to Linux system calls that lack a glibc wrapper, thus are only
-accessible via
-<a
-href="https://man7.org/linux/man-pages/man2/syscall.2.html"><tt>syscall()</tt></a>.  In addition, they wanted to hear from attendees about their
-needs in this area.]]></description>
-            <guid>https://lwn.net/Articles/1101647/</guid>
-            <pubDate>Fri, 30 Oct 2026 15:07:29 +0000</pubDate>
-            <dc:creator>jake</dc:creator>
-        </item>
-        <item>
-            <title>[$] Removing binder.c</title>
-            <link>https://lwn.net/Articles/1102982/</link>
-            <description><![CDATA[<p>
-The final talk at Kangrejos 2026 was about the removal of the C implementation
-of Android's
-<a href="https://source.android.com/docs/core/architecture/ipc/binder-overview">
-Binder driver</a>, the primary interprocess communication mechanism
-used on Android devices. Carlos Llamas announced that he had deleted the C
-code to general applause, and then shared some insights about what went into
-replacing the C implementation. Alice Ryhl, who has worked on the Rust
-implementation for some years, added her own thoughts about what the most
-difficult and interesting parts of the transition were.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1102982/</guid>
-            <pubDate>Fri, 30 Oct 2026 17:46:46 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Containers as a recognized kernel object</title>
-            <link>https://lwn.net/Articles/1102593/</link>
-            <description><![CDATA[The foundation of the design for containers in the kernel is that there
-isn't one; there is no container abstraction that the kernel recognizes.
-Instead, the kernel provides a long list of components — namespaces,
-control groups, sandboxing mechanisms, and more — along with a note that
-says, in effect, "some assembly required".  There have been <a
-href="https://lwn.net/Articles/723477/">attempts</a> (<a
-href="https://lwn.net/Articles/780364/">repeatedly</a>) over the years to turn containers
-into first-class objects with kernel support, but they have never gotten
-far.  Now Josef Bacik is <a
-href="https://lwn.net/ml/all/20261026-cells-rfc-v2-b41d7e0c95a3@toxicpanda.com">making a
-try</a> with a concept that he calls "cells".]]></description>
-            <guid>https://lwn.net/Articles/1102593/</guid>
-            <pubDate>Thu, 29 Oct 2026 14:02:30 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
