@@ -8,11 +8,24 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Sun, 22 Nov 2026 16:27:44 +0000</pubDate>
-        <lastBuildDate>Sun, 22 Nov 2026 22:04:27 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Nov 2026 02:45:12 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Nov 2026 02:45:46 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Kernel prepatch 7.4-rc4</title>
+            <link>https://lwn.net/Articles/1108900/</link>
+            <description><![CDATA[<p>The <a href="https://lwn.net/Articles/1108899/">7.4-rc4</a> kernel is out for testing. Linus
+said: "<q>It's huge. What a surprise. Lots of little fixes all over, with
+drivers being pretty exactly half of it (gpu and networking showing up
+as usual, but there's usb, iio, nvme, sound.. you name it).</q>"</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1108900/</guid>
+            <pubDate>Mon, 23 Nov 2026 00:32:07 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Friday</title>
             <link>https://lwn.net/Articles/1108811/</link>
