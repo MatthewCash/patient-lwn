@@ -8,11 +8,55 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Mon, 23 Nov 2026 11:09:31 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Nov 2026 11:20:23 +0000</lastBuildDate>
+        <pubDate>Mon, 23 Nov 2026 22:13:21 +0000</pubDate>
+        <lastBuildDate>Mon, 23 Nov 2026 22:50:42 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Seven stable kernels for Monday</title>
+            <link>https://lwn.net/Articles/1108909/</link>
+            <description><![CDATA[<p>Greg Kroah-Hartman has announced the <a href="https://lwn.net/Articles/1108910/">7.3.6</a>,
+<a href="https://lwn.net/Articles/1108911/">6.18.65</a>,
+<a href="https://lwn.net/Articles/1108912/">6.12.119</a>,
+<a href="https://lwn.net/Articles/1108913/">6.6.163</a>,
+<a href="https://lwn.net/Articles/1108914/">6.1.193</a>,
+<a href="https://lwn.net/Articles/1109274/">5.15.226</a>, and
+<a href="https://lwn.net/Articles/1108915/">5.10.275</a> stable kernels. Each of these contains
+quite a few patches throughout the tree&mdash;6.12.119 has the fewest with more
+than 1,700 patches, while 6.6.163 has more than 3,300. Users are advised to
+upgrade.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1108909/</guid>
+            <pubDate>Mon, 23 Nov 2026 13:23:43 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Security updates for Monday</title>
+            <link>https://lwn.net/Articles/1109268/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (buildah, cifs-utils, cockpit-files, cockpit-machines, container-tools:rhel8, curl, expat, fence-agents, flatpak, fltk, gfs2-utils, gimp:2.8, gnome-remote-desktop, grafana, gstreamer1-plugins-bad-free, java-1.8.0-openjdk, kernel, libgsf, libpcap, librabbitmq, libreoffice, mingw-expat, nginx, nginx:1.24, nginx:1.26, openssh, php8.4, php:7.4, php:8.2, podman, python-oauthlib, qt5-qt3d, rpm, rsync, skopeo, thunderbird, unbound, vim, xdg-desktop-portal, xfsprogs, and xorg-x11-server-Xwayland), <b>Debian</b> (anope, gpgme1.0, kernel, kitty, krb5, libeot, libgd2, linux-6.12, needrestart, network-manager-iodine, postfixadmin, python-django, ruby3.1, ruby3.3, sympa, and webkit2gtk), <b>Fedora</b> (aws, clamav, dash, fontconfig, fzf, mariadb-connector-c, maturin, mingw-expat, mingw-poppler, mingw-SDL2_image, mingw-speex, nginx, nginx-mod-brotli, nginx-mod-fancyindex, nginx-mod-headers-more, nginx-mod-js-challenge, nginx-mod-modsecurity, nginx-mod-naxsi, nginx-mod-vts, python-jiter, python-pydantic-settings, python3.14, python3.16, radsecproxy, ruff, runc, rust-afterburn, rust-astral_async_zip, rust-clearscreen, rust-coreos-installer, rust-coreutils, rust-jiter, rust-lzma-rust2, rust-mailparse, rust-pyo3-introspection, rust-python-pkginfo, rust-serde_json, rust-zip, selenium-manager, sqlite, ty, and wireshark), <b>Mageia</b> (nginx, patch, pylint, and sympa), <b>Oracle</b> (.NET 11.0, bind, bind9.18, buildah, cockpit, containernetworking-plugins, curl, dpdk, edk2, environment-modules, expat, fence-agents, fetchmail, flatpak, fltk, freerdp, gcc-toolset-15-gcc, gimp, gimp:2.8, glib-networking, glib2, gnome-remote-desktop, grafana, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gvisor-tap-vsock, ignition, ipa, jackson-core, jackson-databind, java-21-openjdk, java-25-openjdk, jq, kernel, kernel-uek, krb5, libpcap, librabbitmq, libreoffice, librsvg2, libsoup, libX11, libXi, libxml2, libXrender, libXtst, lrzsz, mysql:8.4, nginx, nginx:1.24, nginx:1.26, nodejs:22, nodejs:24, openexr, openssl, pam, php:8.4, podman, python-tornado, qt5-qt3d, qt5-qtbase, qt5-qtdeclarative, raptor2, resteasy, rpm, rsync, rsyslog, runc, skopeo, tftp, thunderbird, tomcat, unbound, vim, xfsprogs, xorg-x11-server, xorg-x11-server-Xwayland, and xz), <b>Red Hat</b> (dogtag-pki, guava, jackson-core, jackson-databind, librabbitmq, libXrender, multiple packages, and pki-deps:10.6), <b>SUSE</b> (amazon-ssm-agent, apache2, aws-c-mqtt-bin, azure-storage-azcopy, bouncycastle, buildah, busybox, chezdav, chromedriver, dcmtk, diun, epiphany, fltk-devel, ggml-devel, glib-networking, go1.26, go1.27, gvfs, helm, ImageMagick, jackson-annotations, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, librsvg-2-2, libsoup-3_0-0, libxfont2, libxi, mozilla-nss, mozillafirefox, mtools, nodejs24, pcre2, perl-data-dump-streamer, perl-http-body, perl-Spreadsheet-XLSX, perl-spreadsheet-xlsx, perl-YAML, php7, php8, podman, postfixadmin, python-dulwich, python-pyjwt, python-virtualenv, python313-filelock, re2c, speex, terragrunt, thunderbird, tiff, trufflehog, util-linux, valkey, versitygw, xen, zbar, and zed), and <b>Ubuntu</b> (linux-aws-6.8, linux-realtime, linux-realtime-6.8, linux-fips, linux-hwe-5.15, linux-lowlatency-hwe-5.15, linux-nvidia-tegra-5.15, linux-intel-iot-realtime, linux-nvidia-tegra, linux-oracle-5.15, linux-lowlatency, linux-nvidia, linux-realtime, linux-nvidia-tegra-igx, and linux-oracle-5.4).]]></description>
+            <guid>https://lwn.net/Articles/1109268/</guid>
+            <pubDate>Mon, 23 Nov 2026 14:10:48 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>CachyOS November 2026 release</title>
+            <link>https://lwn.net/Articles/1109269/</link>
+            <description><![CDATA[<p><a href="https://cachyos.org/">CachyOS</a>, a performance-focused
+distribution based on <a href="https://archlinux.org/">Arch Linux</a>, has
+announced its <a
+href="https://cachyos.org/blog/2611-november-release/">November&#160;2026</a>
+release. Notable changes in this release include a new recovery environment
+("cachyos-recovery") for rolling back broken systems, Easy Anti-Cheat (EAC) v2
+support for games that require EAC to run, version 2.0.0 of the CachyOS Package
+Installer, and more.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1109269/</guid>
+            <pubDate>Mon, 23 Nov 2026 14:21:41 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Kernel prepatch 7.4-rc4</title>
             <link>https://lwn.net/Articles/1108900/</link>
@@ -370,61 +414,6 @@ We recommend that Redict users switch to valkey, which uses a permissive license
             <guid>https://lwn.net/Articles/1108155/</guid>
             <pubDate>Tue, 17 Nov 2026 16:20:44 +0000</pubDate>
             <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>Kernel prepatch 7.4-rc3</title>
-            <link>https://lwn.net/Articles/1107606/</link>
-            <description><![CDATA[The <a href="https://lwn.net/Articles/1107605/">7.4-rc3</a> kernel prepatch is out for
-testing.  Linus declared: "<q>It looks fairly normal, with drivers
-(networking and gpu) leading the charge. There's lots and lots of changes,
-but most of the actual patches are tiny.</q>"]]></description>
-            <guid>https://lwn.net/Articles/1107606/</guid>
-            <pubDate>Mon, 16 Nov 2026 09:07:45 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Monday</title>
-            <link>https://lwn.net/Articles/1107811/</link>
-            <description><![CDATA[Security updates have been issued by <b>Debian</b> (freedombox, kernel, libspreadsheet-xlsx-perl, network-manager-iodine, pdns-recursor, postgresql-15, radsecproxy, and sogo), <b>Fedora</b> (afflib, asahi-installer, below, cloc, dhcpcd, dnf5, epiphany, firefox, glib-networking, hugo, mingw-python3, mtools, mysql8.4, mysql9.7, proftpd, python-cramjam, python-fastar, python-h5io, python-PyMuPDF, python-uv-build, radicale, rubygem-loofah, rubygem-nokogiri, rust-archive-trait, rust-askalono-cli, rust-astral-html, rust-cargo-deny, rust-libcramjam0.8, rust-onefetch, rust-ptools, rust-sccache, rustup, uv, and xorg-x11-server), <b>Gentoo</b> (Apache HTTPD, rsync, and Tor), <b>Oracle</b> (cockpit, firefox, grafana, grafana-pcp, gstreamer1, gstreamer1-plugins-base, kernel, kernel-uek, mingw-libpng, nginx:1.24, perl-CGI, python3, qt5-qtbase, qt5-qtdeclarative, webkit2gtk3, xfsprogs, and xorg-x11-server), and <b>SUSE</b> (389-ds, aliyun-cli, amazon-ssm-agent, apache2, binutils, brotli, bun, cadvisor, chromium, gn, distribution-registry, evolution, firefox, firefox-esr, fleet-cli, fortio, gosec, hauler, hawk-apiserver, hawk2, helmsman, hugo, java-17-openjdk, jsoup, k3sup, kdeconnect-kde, kernel, krb5, kubectl-retina, kubelogin, kubeseal, kumactl, libosmocore, libyang-devel, patch, perl-mozilla-ca, pinact, prometheus-ha_cluster_exporter, python-brotli, python-graphql-core, python-Pillow, python313-Brotli, python313-pypdf, python313-uv, rqlite, rsyslog, scribus, sdbootutil-1, timoni, trivy, vifm, and warewulf4).]]></description>
-            <guid>https://lwn.net/Articles/1107811/</guid>
-            <pubDate>Mon, 16 Nov 2026 14:17:41 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Manjaro Project e.V. non-profit organization created</title>
-            <link>https://lwn.net/Articles/1107814/</link>
-            <description><![CDATA[<p>Frank Vandermeiren has <a
-href="https://forum.manjaro.org/t/the-manjaro-project-e-v-is-now-official/191197">announced</a>
-the creation of the Manjaro Project e.V., a nonprofit organization in Germany
-that is independent of the Manjaro GmbH &amp; Co KG company. This is following a <a
-href="https://lwn.net/Articles/1063717/">governance struggle</a> that took place
-earlier this year between a number of <a href="https://manjaro.org/">Manjaro
-Linux</a> contributors and Philip Müller, project lead and CEO of the Manjaro
-company.</p>
-
-<blockquote class="bq">
-<p>At the moment, we are still working on optimizing the new development
-infrastructure, which was partly necessitated by the ongoing (A.I.) bot attacks
-against our old infrastructure.</p>
-
-<p>However, as you may have noticed, the last <a
-href="https://forum.manjaro.org/c/announcements/testing-updates/13">Testing
-Updates</a> and <a
-href="https://forum.manjaro.org/c/announcements/stable-updates/12">Stable
-Updates</a> were initiated by the Manjaro Team without supervision from Philip
-Müller — with special thanks to @Yochanan for his hard work!</p>
-</blockquote>
-
-<p>Dennis ten Hoove has <a
-href="https://forum.manjaro.org/t/the-manjaro-project-e-v-is-now-official/191197/3">indicated</a>
-that "<q>a transfer of company assets to the e.V. has not yet taken place</q>",
-and the group's next step is to ready the nonprofit for the transition and
-"<q>reach out and engage in dialogue with the company</q>".</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1107814/</guid>
-            <pubDate>Mon, 16 Nov 2026 14:52:12 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
