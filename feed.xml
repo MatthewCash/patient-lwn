@@ -8,11 +8,63 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Nov 2026 11:19:49 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Nov 2026 12:09:02 +0000</lastBuildDate>
+        <pubDate>Wed, 25 Nov 2026 20:49:01 +0000</pubDate>
+        <lastBuildDate>Wed, 25 Nov 2026 21:42:02 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Wednesday</title>
+            <link>https://lwn.net/Articles/1109650/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (emacs, go-toolset:rhel8, xorg-x11-server-Xwayland, and yggdrasil-worker-package-manager), <b>Debian</b> (flatpak, libeot, libzstd, mapserver, rails, request-tracker5, and runc), <b>Fedora</b> (age, chromium, cri-o1.35, cri-o1.36, cri-o1.37, fluxbox, git-annex, libreswan, mariadb-connector-c, mimedefang, mycli, nextcloud, openssh, perl-Data-Dump, php-smarty4, python-pydantic, python-pydantic-core, sbsigntools, and sqlite), <b>Mageia</b> (awslc, haproxy, java-11-openjdk, java-1.8.0-openjdk, miniupnpc, perl-Imager, python3-loguru, and scapy), <b>Oracle</b> (.NET 10.0, .NET 8.0, .NET 9.0, aspell, bind, buildah, cockpit, dogtag-pki, dovecot, emacs, fence-agents, fetchmail, flatpak, freerdp, gcc-toolset-15-gcc, glib2, go-fdo-server, grafana, gstreamer1-plugins-base, gstreamer1-plugins-good, guava, ipa, librsvg2, libXi, libXrender, mysql8.4, NetworkManager, openexr, openssh, perl-CGI, python-oauthlib, rsync, ruby, tesseract, tomcat9, util-linux, xdg-dbus-proxy, and xorg-x11-server), <b>Slackware</b> (mozilla-firefox and mozilla-thunderbird), <b>SUSE</b> (alsa, aws-nitro-enclaves-cli, bson-devel, busybox, chromedriver, chromium, efivar-39, epiphany, gegl, golang-github-prometheus-prometheus, grafana, system-user-grafana, grub2, gssproxy, haproxy, hugo, java-21-openjdk, java-25-openjdk, keepassxc, libeot, libwebp, webkit2gtk3, mutt, openCryptoki, openssl-1_0_0, python-cairosvg, python-Twisted-doc, python-urllib3, python313-virtualenv, ruby3.4, screen, warewulf4, and xorg-x11-server), and <b>Ubuntu</b> (libheif, libxrender, and pcre3).]]></description>
+            <guid>https://lwn.net/Articles/1109650/</guid>
+            <pubDate>Wed, 25 Nov 2026 14:06:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Pop!_OS 26.04 LTS released</title>
+            <link>https://lwn.net/Articles/1109662/</link>
+            <description><![CDATA[<p>System76 has <a
+href="https://system76.com/blog/post/pop_os-26-04-lts-has-landed">announced</a>
+the release of Pop!_OS&#160;26.04&#160;LTS, which is based on
+Ubuntu&#160;26.04&#160;LTS. Notable features in this release include drawing
+tablet support, automatic updates, a number of new COSMIC applications, and
+more. Updates for users on Pop!_OS&#160;24.04&#160;LTS will be enabled in
+December.</p>
+
+<p>LWN <a href="https://lwn.net/Articles/984638/">last covered</a> Pop!_OS and
+an early version of its COSMIC desktop in August 2024.</p>
+
+<p></p>]]></description>
+            <guid>https://lwn.net/Articles/1109662/</guid>
+            <pubDate>Wed, 25 Nov 2026 14:34:00 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
+        <item>
+            <title>Dave Täht given the Jonathan B. Postel Service Award</title>
+            <link>https://lwn.net/Articles/1109691/</link>
+            <description><![CDATA[The Internet Society has <a
+href="https://www.internetsociety.org/blog/2026/11/postel-awardee-dave-taht-made-every-millisecond-count/">announced</a>
+that the Jonathan B. Postel Service Award has been awarded to Dave Täht for
+his many efforts to improve the Internet.
+<p>
+<blockquote class="bq">
+	Täht's legacy can be found in community hubs in Nicaragua, where he
+	worked to expand connectivity, and first discovered the urgency of
+	solving bufferbloat. It can be found in every lag-free video call
+	with a loved one. It can be found in outer space—Täht helped
+	Starlink solve its latency challenges. And it can be found in the
+	countless people he mentored and befriended over the years, who
+	will not stop until bufferbloat stops getting in the way of band
+	practice. 
+</blockquote>
+<p>
+Dave is still deeply missed by those of us who knew him; this is an award
+he richly deserved.]]></description>
+            <guid>https://lwn.net/Articles/1109691/</guid>
+            <pubDate>Wed, 25 Nov 2026 18:16:51 +0000</pubDate>
+            <dc:creator>corbet</dc:creator>
+        </item>
         <item>
             <title>Security updates for Tuesday</title>
             <link>https://lwn.net/Articles/1109472/</link>
@@ -348,57 +400,6 @@ privileges of processes outside of it.]]></description>
             <guid>https://lwn.net/Articles/1103429/</guid>
             <pubDate>Thu, 05 Nov 2026 14:33:59 +0000</pubDate>
             <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Wednesday</title>
-            <link>https://lwn.net/Articles/1108354/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (.NET 11.0, .NET 8.0, .NET 9.0, bind, buildah, cockpit, containernetworking-plugins, delve, firefox, freerdp, gcc, gcc-toolset-15-gcc, gcc-toolset-16-gcc, go-fdo-client, go-fdo-server, gstreamer1-plugins-base, kernel, oci-seccomp-bpf-hook, podman, sssd, webkit2gtk3, and yggdrasil), <b>Debian</b> (ghostscript, librest, openexr, and roundcube), <b>Fedora</b> (dash, gpsd, java-25-openjdk, java-latest-openjdk, mingw-gstreamer1, mingw-gstreamer1-plugins-bad-free, mingw-gstreamer1-plugins-base, mingw-gstreamer1-plugins-good, p11-kit, and sgx-pccs), <b>Mageia</b> (apache, drakx-installer-images, kernel, kmod-xtables-addons, kmod-virtualbox, kmod-nvidia-current-wopengpu, roundcubemail, and zbar), <b>Red Hat</b> (yggdrasil), <b>SUSE</b> (amazon-cloudwatch-agent, buildah, ctdb, dpdk, govulncheck-vulndb, ignition, keylime-ima-policy, kubevirt1.8, libsolv-demo, libspeex1, libxi, open-iscsi, parted, perl-DBI, phodav, python-dulwich, python-m2crypto, skupper, sssd, tcpreplay, thrift, thunderbird, watchexec, and xen), and <b>Ubuntu</b> (apng2gif, astropy, binwalk, codemirror-js, elog, flightgear, fontforge, fop, freedombox, iwd, jackrabbit, jekyll, joblib, ldm, libapache-session-browseable-perl, libjackson-json-java, libkf5ksieve, libmojolicious-perl, libxml-security-java, lighttpd, lilypond, minetest, mumble, mxml, needrestart, ngircd, node-sqlite3, oar, openjdk-25, privoxy, pysha3, python-mechanize, pywps, renderdoc, ruby-mechanize, ruby-mini-magick, ssvnc, swupdate, tmpreaper, and urwid).]]></description>
-            <guid>https://lwn.net/Articles/1108354/</guid>
-            <pubDate>Wed, 18 Nov 2026 14:17:35 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>NGINX2Root: Remote Code Execution vulnerabilities in nginx</title>
-            <link>https://lwn.net/Articles/1108362/</link>
-            <description><![CDATA[<p>Xint is <a
-href="https://xint.io/blog/nginx2root-remote-code-execution">reporting</a> that
-it has discovered a collection of <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#5-technical-analysis-of-the-nginx-vulnerabilities-16">five
-critical vulnerabilities</a> in the <a href="https://nginx.org/">NGINX</a> web
-server. The worst flaw, it says, would <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#what-an-attacker-can-do-2">allow
-an unauthenticated attacker to execute commands on an affected nginx server with
-HTTP/2 enabled</a>. The company also reports a local-privilege escalation (LPE) <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#6-analysis-of-the-linux-kernel-lpe-vulnerability-22">kernel
-vulnerability</a>, which was introduced in the 4.15 kernel, in the <a
-href="https://docs.kernel.org/networking/sctp.html">Stream Control Transmission
-Protocol (SCTP)</a> subsystem. If chained with the NGINX vulnerability,
-it would allow an attacker to gain root privileges on the host. A kernel patch for this
-is not yet available.</p>
-
-<blockquote class="bq">
-We also obtained a root shell on the host in a setup where nginx was running in
-a Docker container. On many Linux distributions, the SCTP module is installed by
-default and the kernel loads it automatically the first time a program opens an
-SCTP socket. Whether SCTP is reachable on a given host still depends on the
-kernel, the available modules, and the container's restrictions. Where it is
-reachable, the attacker can take over the host kernel. Since all containers on
-the host share that kernel, this gives the attacker control of the host and
-every container on it.
-</blockquote>
-
-<p>Xint recommends updating to <a
-href="https://github.com/nginx/nginx/releases/tag/release-1.31.9">NGINX
-1.31.9</a>, which was just released, and to
-block the SCTP module on hosts that do not need it until a kernel fix is
-available. See the <a
-href="https://xint.io/blog/nginx2root-remote-code-execution#33-emergency-mitigations-before-patching-14">mitigations</a>
-section of their report for more information.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1108362/</guid>
-            <pubDate>Wed, 18 Nov 2026 16:13:34 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
         </item>
     </channel>
 </rss>
