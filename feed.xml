@@ -8,8 +8,8 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Wed, 25 Nov 2026 23:56:58 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Nov 2026 03:47:56 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Nov 2026 13:21:21 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Nov 2026 13:34:12 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
@@ -278,128 +278,6 @@ a full list of new features and changes.</p>
             <guid>https://lwn.net/Articles/1108561/</guid>
             <pubDate>Thu, 19 Nov 2026 16:39:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] LWN.net Weekly Edition for November 12, 2026</title>
-            <link>https://lwn.net/Articles/1105460/</link>
-            <description><![CDATA[Inside this week's LWN.net Weekly Edition:
-        <p>
-        <ul>
-<li> <a href="https://lwn.net/Articles/1105460/">Front</a>: Synaptics patent claims; Git LLM polilcy; Hibernation and lockdown; User namespaces; glibc tunables.
-            <li> <a href="https://lwn.net/Articles/1105462/">Briefs</a>: *sshole; Amutable foundations; Asahi Linux 7.3; OpenIndiana 2026.10; Firefox 160; Quotes; ... 
-            <li> <a href="https://lwn.net/Articles/1105463/">Announcements</a>: Newsletters, conferences, security updates, patches, and more.
-            </ul>]]></description>
-            <guid>https://lwn.net/Articles/1105460/</guid>
-            <pubDate>Thu, 12 Nov 2026 00:23:48 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Additional hardening for the glibc dynamic linker</title>
-            <link>https://lwn.net/Articles/1105134/</link>
-            <description><![CDATA[<p>
-The
-<a href="https://nodejs.org/en">
-Node.js project</a> recently had a
-<a href="https://nodejs.org/en/blog/vulnerability/october-2026-security-releases#nodejs-brotli-decoder-out-of-bounds-write-permits-remote-code-execution-cve-2026-111497---high">
-security vulnerability</a> that
-affected its
-<a href="https://brotli.org/">
-Brotli</a> decoder. The bug
-<a href="https://project-zero.issues.chromium.org/issues/565308158">
-was a buffer overflow</a>,
-but the particular way that official Node.js binaries are built for Linux meant that one of the
-main protections against turning a buffer overflow into remote code execution,
-<a href="https://en.wikipedia.org/wiki/Address_space_layout_randomization">
-address space layout randomization</a> (ASLR) could not be turned on. If ASLR had been
-enabled, the bug would still be exploitable in theory, but much more difficult
-to exploit in practice. In response, the GNU C Library (glibc) is
-<a href="https://lwn.net/ml/all/20261028175613.3779425-1-adhemerval.zanella@linaro.org/">
-considering</a> a new set of
-<a href="https://sourceware.org/glibc/manual/latest/html_node/Tunables.html">
-tunable settings</a> to allow administrators to forbid programs that do not
-support ASLR. The new settings, while a welcome hardening measure, may not
-address the root problem.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1105134/</guid>
-            <pubDate>Wed, 11 Nov 2026 14:35:29 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] Synaptics patent claims stop work on DisplayLink drivers</title>
-            <link>https://lwn.net/Articles/1102549/</link>
-            <description><![CDATA[<p>Mike Lothian owns a docking station (or dock) that uses a <a
-href="https://en.wikipedia.org/wiki/DisplayLink">DisplayLink</a> chipset
-that had, at least in his opinion, subpar performance on Linux. He
-decided to try improving the Linux driver, with LLM assistance, but ran into one
-problem that he could not solve&mdash;so he asked for help, hoping that
-Synaptics's developers would lend a hand. (DisplayLink was <a
-href="https://www.synaptics.com/company/news/displaylink">acquired by
-Synaptics</a> in 2022.) Rather than help him in improving the
-driver, however, the Synaptics legal team responded with patent infringement
-claims, a <a
-href="https://lists.freedesktop.org/archives/dri-devel/attachments/20261006/d690bb16/attachment-0001.pdf">demand</a>
-that he cease unauthorized implementation of DisplayLink technology, and threats
-of expensive legal penalties. For now, it appears that Linux users of the
-company's docks will have to continue to live without feature parity with other
-platforms.</p>]]></description>
-            <guid>https://lwn.net/Articles/1102549/</guid>
-            <pubDate>Tue, 10 Nov 2026 15:38:10 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>[$] Git considers voting to determine its LLM policy</title>
-            <link>https://lwn.net/Articles/1104195/</link>
-            <description><![CDATA[One of the dominant themes of 2026 has been the debate within development
-projects about the terms under which LLM-written contributions should be
-accepted — if, indeed, they should be accepted at all.  The <a
-href="https://git-scm.com/">Git project</a> has not been immune to this
-trend; the topic was <a
-href="https://lwn.net/ml/all/summit-2026.94e33e9ddf234334.06@ttaylorr.com">discussed</a>
-at the recent Git Contributor's Summit.  In this case, the path to a
-resolution may be somewhat circuitous; the project, which has never been
-governed as a democracy, is considering adopting a voting process as a way
-of bringing the discussion to an acceptable conclusion.]]></description>
-            <guid>https://lwn.net/Articles/1104195/</guid>
-            <pubDate>Mon, 09 Nov 2026 15:05:07 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
-        </item>
-        <item>
-            <title>[$] Locking down hibernation for the winter</title>
-            <link>https://lwn.net/Articles/1103190/</link>
-            <description><![CDATA[<p>
-When a computer hibernates, the kernel writes the contents of memory to disk and
-then shuts the system down. Resuming from hibernation involves reading that data
-back into memory, and then having the kernel pick up where it left off.
-Unfortunately, the kernel does not have
-any way to know that the data it is reading back has not been tampered with,
-which is why <a href="https://lwn.net/Articles/791863/">lockdown</a>, an optional kernel
-feature that attempts to prevent modifications to the running kernel, disables hibernation.
-Matthew Garrett, who has been working on lockdown for many years, has shared
-<a href="https://lwn.net/ml/linux-pm/20261008132532.1155166-1-matthewg@nvidia.com/">
-a patch set</a> that aims to fix this problem. His solution must also protect
-against downgrade attacks (where an attacker reboots the computer with an older
-kernel version to bypass new protections), which complicates the implementation.
-</p>]]></description>
-            <guid>https://lwn.net/Articles/1103190/</guid>
-            <pubDate>Fri, 06 Nov 2026 18:51:28 +0000</pubDate>
-            <dc:creator>daroc</dc:creator>
-        </item>
-        <item>
-            <title>[$] User namespaces + file capabilities = trouble</title>
-            <link>https://lwn.net/Articles/1103429/</link>
-            <description><![CDATA[<a href="https://lwn.net/Articles/532593/">User namespaces</a> are a key part of the
-kernel's toolkit for assembling containers; processes within a user
-namespace can appear to have full root access to the system while gaining
-no extra privileges in the wider system.  At least, that is the intent.  In
-practice, keeping privilege contained within a user namespace has often
-turned out to be difficult.  As an example, consider <a
-href="https://lwn.net/ml/all/20261027-b4-setfcap-userns-v8-0-2674adc63f3c@toxicpanda.com">this
-small patch series</a> from Josef Bacik, which is intended to address some
-situations where a process within a user namespace can elevate the
-privileges of processes outside of it.]]></description>
-            <guid>https://lwn.net/Articles/1103429/</guid>
-            <pubDate>Thu, 05 Nov 2026 14:33:59 +0000</pubDate>
-            <dc:creator>corbet</dc:creator>
         </item>
     </channel>
 </rss>
