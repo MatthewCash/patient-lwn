@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Thu, 26 Nov 2026 13:21:21 +0000</pubDate>
-        <lastBuildDate>Thu, 26 Nov 2026 13:34:12 +0000</lastBuildDate>
+        <pubDate>Thu, 26 Nov 2026 22:18:51 +0000</pubDate>
+        <lastBuildDate>Thu, 26 Nov 2026 22:37:33 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Thursday</title>
+            <link>https://lwn.net/Articles/1109990/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cifs-utils, cjose, cockpit-machines, containernetworking-plugins, dhcp, edk2, firewalld, fltk, freerdp, gdm, ghostscript, grafana, kernel, librabbitmq, netpbm, nginx:1.24, nginx:1.26, openscap, openssl, php, python-botocore, qt6-qt3d, resource-agents, rsync, ruby, ruby:2.5, ruby:3.3, ruby:4.0, skopeo, spice, thunderbird, and webkit2gtk3), <b>Debian</b> (exim4, firefox-esr, librsvg, lrzsz, roundcube, shadow, and thunderbird), <b>Fedora</b> (chromium, cri-o1.35, cri-o1.36, dotnet10.0, dotnet11.0, dotnet8.0, dotnet9.0, firefox, fluidsynth, kernel, libreswan, mingw-dbus, perl-Config-General, perl-HTTP-Body, perl-libnet, perl-SQL-Abstract, poppler, radicale, sbsigntools, webkitgtk, and xorg-x11-server-Xwayland), <b>Mageia</b> (php), <b>Oracle</b> (dpdk, gcc-toolset-15-gcc, grafana, gstreamer1-plugins-bad-free, librabbitmq, mod_http2, nginx, php:7.4, php:8.3, python-oauthlib, python3.12, sqlite, tftp, xfsprogs, and xorg-x11-server-Xwayland), <b>Red Hat</b> (brotli, cjose, containernetworking-plugins, expat, firefox, kernel, mod_auth_openidc:2.3, nodejs:24, podman, ruby, ruby4.0, ruby:2.5, ruby:3.3, ruby:4.0, and thunderbird), <b>Slackware</b> (seamonkey), <b>SUSE</b> (389-ds, amazon-ssm-agent, apache2, aws-nitro-enclaves-cli, bouncycastle, bugwarden, diffutils, docker, glibc, go1.26, go1.27, google-guest-agent, google-osconfig-agent, gssproxy, gvfs, haproxy, helm, jackson-annotations, jackson-core, jackson-databind, java-17-openjdk, java-21-openjdk, java-25-openjdk, kubernetes-old, libosmocodec-devel, libQt63DAnimation6, libQt6Concurrent6, librsvg, libXfont2, libXi, mozilla-nss, MozillaFirefox, mutt, nginx, nodejs24, opensc, pcre2, perl-HTTP-Parser-XS, php8, python-CairoSVG, python-filelock, python-PyJWT, python-pymongo, python-sqlparse, python-urllib3, python-virtualenv, python313-Authlib, python313-GitPython, python313-sqlparse, qemu, ruby3.4, util-linux, webkit2gtk3, and zbar), and <b>Ubuntu</b> (alsa-lib, authd, bcel, dav1d, elfutils, expat, krb5, libhttp-tiny-perl, libpcap, network-manager, php8.5, php8.3, php8.1, php7.4, php7.2, php7.0, php5, and speex).]]></description>
+            <guid>https://lwn.net/Articles/1109990/</guid>
+            <pubDate>Thu, 26 Nov 2026 14:06:22 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Wednesday</title>
             <link>https://lwn.net/Articles/1109650/</link>
@@ -210,73 +218,6 @@ reach out to the project to ensure their code has the appropriate SPDX license
 identifier.</p>]]></description>
             <guid>https://lwn.net/Articles/1108818/</guid>
             <pubDate>Fri, 20 Nov 2026 14:35:24 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Security updates for Thursday</title>
-            <link>https://lwn.net/Articles/1108551/</link>
-            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (cockpit, cockpit-files, cockpit-machines, gimp, glib-networking, krb5, libpcap, nginx, nodejs26, perl-CGI, php8.4, skopeo, tigervnc, and xorg-x11-server), <b>Debian</b> (haproxy, libreoffice, libvisio, needrestart, openjdk-21, and openjdk-25), <b>Fedora</b> (asterisk, erlang, ffmpeg, ignition, libosmocore, luksmeta, msedit, openapv, passwordsafe, rabbitmq-server, sngrep, and vyper), <b>Mageia</b> (firefox, nss, rootcerts, rsync, and thunderbird), <b>Slackware</b> (libfontenc and libXfont2), <b>SUSE</b> (389-ds, apache2, aspell, bind, brotli, busybox, civetweb, containerd, cosign, docker, gleam, glibc, graphicsmagick, helm, ignition, ImageMagick, java-17-openjdk, java-21-openjdk, java-25-openjdk, jhead, kernel, kubernetes, libsofia-sip-ua-glib3, mcphost, perl-HTTP-Body, perl-MIME-tools, phodav, python-asyncssh, python-django, python-joserfc, python315, qemu, rootlesskit, roundcubemail, rsyslog, runc, tempo-cli, trivy, and xorg-x11-server), and <b>Ubuntu</b> (cloud-init, gstreamer1.0, hplip, libcpanel-json-xs-perl, linux, linux-aws, linux-aws-5.4, linux-aws-fips, linux-azure-5.4, linux-azure-fips, linux-bluefield, linux-fips, linux-gcp, linux-gcp-5.4, linux-gcp-fips, linux-hwe-5.4, linux-ibm, linux-ibm-5.4, linux-iot, linux-kvm, linux-oracle-5.4, linux-raspi, linux-raspi-5.4, linux-xilinx-zynqmp, linux, linux-aws, linux-kvm, linux-lts-xenial, linux-azure, linux-oracle, linux-azure-7.0, linux-fips, nginx, openjdk-17, openjdk-21, openjdk-25, openjdk-27, and openjdk-lts).]]></description>
-            <guid>https://lwn.net/Articles/1108551/</guid>
-            <pubDate>Thu, 19 Nov 2026 14:05:42 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>Four PHP security releases including fixes for critical vulnerabilities</title>
-            <link>https://lwn.net/Articles/1108552/</link>
-            <description><![CDATA[<p>The PHP Project has announced the release of PHP <a
-href="https://www.php.net/ChangeLog-8.php#8.5.13">8.5.13</a>, <a
-href="https://www.php.net/ChangeLog-8.php#8.4.28">8.4.28</a>, <a
-href="https://www.php.net/ChangeLog-8.php#8.3.37">8.3.37</a>, and <a
-href="https://www.php.net/ChangeLog-8.php#8.2.36">8.2.36</a>. Each contains a
-number of security and bug fixes, including several fixes for critical
-vulnerabilities that could allow remote-code execution. According to the
-project's <a
-href="https://www.php.net/archive/2026.php#2026-11-18-1">pre-release
-announcement</a> on November&#160;18, all of the vulnerabilities of critical
-severity "<q>require either non-default configuration or uncommon
-setups</q>". See the release notes for details; Linux vendors and projects
-should be releasing updated packages soon.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1108552/</guid>
-            <pubDate>Thu, 19 Nov 2026 14:29:04 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>PHP 8.6.0 released</title>
-            <link>https://lwn.net/Articles/1108555/</link>
-            <description><![CDATA[<p><a
-href="https://www.php.net/archive/2026.php#2026-11-19-4">Version 8.6.0</a> of
-PHP has been released. Notable changes in this release include a polling API, a
-new <tt>clamp()</tt> function, a <tt>SortDirection</tt> enum, and a
-<tt>\Time\Duration</tt> class. See "<a
-href="https://www.php.net/releases/8.6/en.php#features">What's new in 8.6</a>"
-for more on new features, and the <a
-href="https://www.php.net/ChangeLog-8.php#8.6.0">changelog</a> for a full list
-of changes.</p>]]></description>
-            <guid>https://lwn.net/Articles/1108555/</guid>
-            <pubDate>Thu, 19 Nov 2026 14:43:09 +0000</pubDate>
-            <dc:creator>jzb</dc:creator>
-        </item>
-        <item>
-            <title>PostgreSQL 19 released</title>
-            <link>https://lwn.net/Articles/1108561/</link>
-            <description><![CDATA[<p>The PostgreSQL Global Development Group has <a
-href="https://www.postgresql.org/about/news/postgresql-19-released-3449/">announced</a>
-the release of PostgreSQL&#160;19. Notable features in this release include the
-introduction of the <tt>REPACK (CONCURRENTLY)</tt> command to optimize tables
-without disruption to ongoing operations, better control over plan stability and
-query performance with the new <tt>pg_plan_advice</tt> extension, and a number
-of performance improvements.</p>
-
-<p>In September, LWN <a href="https://lwn.net/Articles/1092003/">covered</a> the
-removal of several features initially slated for this release. See the <a
-href="https://www.postgresql.org/docs/19/release-19.html">release notes</a> for
-a full list of new features and changes.</p>
-
-<p></p>]]></description>
-            <guid>https://lwn.net/Articles/1108561/</guid>
-            <pubDate>Thu, 19 Nov 2026 16:39:16 +0000</pubDate>
             <dc:creator>jzb</dc:creator>
         </item>
     </channel>
