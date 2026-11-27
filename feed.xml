@@ -8,11 +8,19 @@
         listing all articles which are posted to the site front page.</description>
         <language>en-us</language>
         <webMaster>lwn@lwn.net</webMaster>
-        <pubDate>Fri, 27 Nov 2026 00:40:33 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Nov 2026 04:34:14 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Nov 2026 14:22:47 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Nov 2026 14:23:44 +0000</lastBuildDate>
         <docs>https://www.rssboard.org/rss-specification</docs>
         <atom:link href="https://lwn.net/headlines/rss" rel="self" type="application/rss+xml">
         </atom:link>
+        <item>
+            <title>Security updates for Friday</title>
+            <link>https://lwn.net/Articles/1110189/</link>
+            <description><![CDATA[Security updates have been issued by <b>AlmaLinux</b> (gdm, ghostscript, gnome-remote-desktop, grafana, kernel, kernel-rt, mariadb10.11, and virt:rhel and virt-devel:rhel), <b>Debian</b> (exim4, kernel, node-dompurify, and pam), <b>Fedora</b> (chromium, cockpit, forgejo, haveged, jupyterlab, kernel, mariadb10.11, mariadb11.8, mkvtoolnix, mosquitto, mozilla-ublock-origin, nodejs24, python-notebook, ruby, ruby-build, tpm2-tss, valkey, varnish, wordpress, xen, xq, and zstd), <b>Gentoo</b> (FreeType and ImageMagick), <b>Mageia</b> (flatpak, php8.4-mongodb, php8.5-mongodb, and unrtf), <b>Oracle</b> (cockpit-machines, flatpak-builder, grafana-pcp, httpd, mutter, nginx:1.24, openssl, and webkit2gtk3), <b>Red Hat</b> (container-tools:rhel8, grafana, grafana-pcp, java-17-openjdk, java-21-openjdk, java-25-openjdk, kernel, kernel-rt, mysql8.4, ruby, ruby4.0, ruby:2.5, ruby:3.3, and ruby:4.0), <b>SUSE</b> (afflib-devel, AppStream, aws-iam-authenticator, bugwarden, diffutils, epiphany, expat, firefox, haproxy, heimdall, hostapd, java-21-openjdk, java-25-openjdk, keepassxc, krb5, krb5-mini, kubevirt1.8, libeot, libjpeg-turbo, libnfs-devel, libXtst, libzvbi-chains0, mariadb-java-client, mtools, nginx, nvidia-modprobe.cuda, nvidia-open-driver-G06-signed, nvidia-persistenced.cuda, nvidia-open-driver-G06-signed, perl-dbi, php8, pi-coding-agent, python-mistune, python-pymongo, python-urwid, python313-pylint, ruby3.4, ruby4.0-rubygem-rack, rustup, sequoia-sq, speex, tomcat11, util-linux, and webkit2gtk3), and <b>Ubuntu</b> (apache2, binutils, guava-libraries, libaacs, libjwt, libxi, plexus-utils2, pyjwt, and tiff).]]></description>
+            <guid>https://lwn.net/Articles/1110189/</guid>
+            <pubDate>Fri, 27 Nov 2026 14:22:47 +0000</pubDate>
+            <dc:creator>jzb</dc:creator>
+        </item>
         <item>
             <title>Security updates for Thursday</title>
             <link>https://lwn.net/Articles/1109990/</link>
